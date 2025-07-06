@@ -1,8 +1,12 @@
 import path from "node:path";
 import { writeFile, mkdir } from "node:fs/promises";
-import type { PathLike } from "node:fs";
 import { rateLimit } from "./rate-limit.ts";
-import { start } from "node:repl";
+import lastUpdated from "./last-updated.ts";
+import { write } from "node:fs";
+
+const default_filters = [
+    { range: { last_updated: { 'gte': lastUpdated } } }
+];
 
 const blocks = await fetch("https://planningdata.london.gov.uk/api-guest/applications/_search", {
     method: "POST",
@@ -19,6 +23,11 @@ const blocks = await fetch("https://planningdata.london.gov.uk/api-guest/applica
                     interval: "100",
                     "min_doc_count": 1
                 }
+            }
+        },
+        query: {
+            bool: {
+                filter: default_filters
             }
         }
     })
@@ -47,7 +56,7 @@ if (current_bucket) buckets.push(current_bucket);
 
 console.dir(buckets.sort((a, b) => a.start - b.start));
 
-async function get_bucket_contents(bucket)  {
+async function get_bucket_contents(bucket) {
     console.debug("Download bucket from %d", bucket.start);
     return await fetch("https://planningdata.london.gov.uk/api-guest/applications/_search", {
         method: "POST",
@@ -68,7 +77,8 @@ async function get_bucket_contents(bucket)  {
                                     lt: bucket.max
                                 }
                             }
-                        }
+                        },
+                        ...default_filters
                     ]
                 }
             }
@@ -81,7 +91,7 @@ const get_bucket_contents_rate_limited = rateLimit(get_bucket_contents, 10);
 
 async function download_bucket(bucket) {
     //process.stdout.write(bucket.start + "               \r");
-    
+
     const response = await get_bucket_contents_rate_limited(bucket);
     if (!response.ok) {
         console.error("\nError getting %o", bucket)
@@ -90,7 +100,7 @@ async function download_bucket(bucket) {
     }
 
     const hits = await response.json();
-    process.stdout.write(`${bucket.start} : ${hits.hits.hits.length}` + "               \n");
+    process.stdout.write(`${bucket.start}: ${hits.hits.hits.length}` + "               \n");
     for (let hit of hits.hits.hits) {
 
         /** @var { string } valid_date */
@@ -100,7 +110,7 @@ async function download_bucket(bucket) {
         const [start, parts] = id.split('-')
         const other_paths = parts.split('').slice(0, 5);
         let folder = path.join(start, ...other_paths);
-        
+
         folder = path.join("applications", folder);
 
         await mkdir(folder, { recursive: true });
@@ -113,3 +123,8 @@ async function download_bucket(bucket) {
 await Promise.allSettled(buckets.map(rateLimit(download_bucket, 20)))
 
 process.stdout.write("\n");
+
+const date = new Date();
+
+await writeFile('src/last-updated.ts', "export default `" +new Date(date.getFullYear(), date.getMonth(), date.getDate()).toJSON() + "`;")
+
