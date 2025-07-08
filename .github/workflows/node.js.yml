@@ -22,5 +22,5 @@ jobs:
         NODE_ENV: production
       run: node src/index.ts
     - run: git add applications/ src/last-updated.ts
-    - run: git commit -m "Update $(date -Idate)"
+    - run: git -c user.name="Automation" commit  -m "Update $(date -Idate)"
     - run: git push
