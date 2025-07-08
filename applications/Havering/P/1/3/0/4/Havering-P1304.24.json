@@ -11,10 +11,10 @@
   "postcode": "RM11 3LP",
   "locality": null,
   "appeal_decision": null,
-  "status": "Approved",
+  "status": "Completed",
   "pp_id": "13442397",
   "street_name": "Hornchurch",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "lpa_name": "Havering",
   "centroid": {
     "lon": 0.237402,
@@ -25,15 +25,17 @@
   "application_details": {
     "total_gia_lost": 0,
     "internal_resi_water_usage": 10,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "surface_water_discharge_percentage_reduction": 10,
     "ownership_status": "Private",
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 134,
-        "gia_gained": 362,
+        "actual_completion_date": "18/06/2025",
         "use_class": "C3",
+        "gia_gained": 362,
+        "actual_commencement_date": "16/09/2024",
         "gia_lost": 0
       }
     ],
@@ -41,13 +43,14 @@
     "total_gia_existing": 134,
     "projected_cost_of_works": "Up to £2m",
     "grey_water_reuse": false,
-    "green_suds": true,
+    "green_suds": false,
     "non_residential_details": {
       "total_gia_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 362,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_existing": 134
+      "total_gia_existing": 134,
+      "site_area": 0.045000000000000005
     },
     "phasing_details": [
       {
@@ -73,7 +76,7 @@
       "fire_suppression_system_proposed": false,
       "total_annual_nox_emissions": 1,
       "percentage_demolition_construction_material_recycling": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_resi_units_to_have_full_fibre": 1,
       "total_annual_pm_emissions": 1,
       "green_roof_area": 0,
@@ -83,46 +86,131 @@
       "no_new_gas_connections_required": 0,
       "no_homes_to_have_electrical_heating": 0,
       "no_non_resi_units_to_have_full_fibre": 0
+    },
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.045000000000000005
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "residential_details": {
+      "total_no_proposed_residential_units_shared_equity": 0,
+      "total_no_proposed_bedrooms": 4,
+      "total_no_proposed_residential_units_london_living_rent": 0,
+      "total_no_proposed_residential_units": 1,
+      "total_no_proposed_residential_affordable_units": 0,
+      "total_no_existing_residential_units": 1,
+      "total_no_proposed_residential_units_affordable_rent": 0,
+      "total_no_proposed_residential_units_discount_market_sale": 0,
+      "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_london_living_rent": 0,
+      "total_no_existing_residential_units_market_for_sale": 1,
+      "total_no_existing_residential_units_shared_equity": 0,
+      "total_no_existing_residential_units_intermediate": 0,
+      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_existing_residential_units_social_rent": 0,
+      "total_no_proposed_residential_units_self_build_and_custom_build": 0,
+      "total_no_existing_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_market_for_sale": 1,
+      "total_no_existing_residential_affordable_units": 0,
+      "habitable_rooms_density": 133.33333333333331,
+      "total_no_existing_residential_units_affordable_rent": 0,
+      "total_no_existing_residential_units_london_shared_ownership": 0,
+      "total_gia_gained": 362,
+      "total_no_proposed_residential_units_social_rent": 0,
+      "total_no_existing_residential_units_london_affordable_rent": 0,
+      "site_area": 0.045000000000000005,
+      "dwelling_density": 22.222222222222218,
+      "total_no_proposed_residential_units_london_affordable_rent": 0,
+      "total_gia_lost": 0,
+      "total_no_proposed_residential_units_starter_homes": 0,
+      "total_no_existing_residential_units_discount_market_sale": 0,
+      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_starter_homes": 0,
+      "total_no_proposed_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_intermediate": 0,
+      "total_no_proposed_residential_units_london_shared_ownership": 0,
+      "affordable_percentage": 0,
+      "residential_units": [
+        {
+          "actual_completion_date": "16/09/2024",
+          "description": null,
+          "change_type": "Loss",
+          "unit_type": "House or Bungalow",
+          "provider": "Private",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "16/09/2024",
+          "no_bedrooms": 4,
+          "provision_for_older_persons": false,
+          "gia": null,
+          "tenure": "Market for sale"
+        },
+        {
+          "actual_completion_date": "18/06/2025",
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "House or Bungalow",
+          "provider": "Private",
+          "no_habitable_rooms": 6,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "16/09/2024",
+          "no_bedrooms": 4,
+          "provision_for_older_persons": false,
+          "gia": null,
+          "tenure": "Market for sale"
+        }
+      ],
+      "total_no_existing_residential_units_market_for_rent": 0,
+      "total_no_existing_residential_units_self_build_and_custom_build": 0
     }
   },
   "application_type_full": "Full planning permission",
-  "cil_liability": true,
+  "cil_liability": false,
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          0.23734829999999998,
-          51.5705863
+          0.237322,
+          51.570585
         ],
         [
-          0.23759429999999998,
-          51.5705615
+          0.237568,
+          51.57056
         ],
         [
-          0.2374568,
-          51.5702876
+          0.23743,
+          51.570286
         ],
         [
-          0.2372925,
-          51.5703066
+          0.237266,
+          51.570305
         ],
         [
-          0.23734829999999998,
-          51.5705863
+          0.237322,
+          51.570585
         ]
       ]
     ],
     "type": "Polygon"
   },
   "centroid_easting": 555157,
-  "actual_commencement_date": null,
+  "actual_commencement_date": "16/09/2024",
   "date_building_work_completed_under_previous_permission": null,
   "url_planning_app": "http://development.havering.gov.uk/OcellaWeb/planningDetails?reference=P1304.24",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "appeal_start_date": null,
   "secondary_street_name": null,
   "subdivision_of_building": null,
-  "actual_completion_date": null,
+  "actual_completion_date": "18/06/2025",
   "site_name": "109 Parkstone Avenue",
   "id": "Havering-P1304.24",
   "decision_target_date": "25/11/2024",
@@ -216,7 +304,7 @@
   "uprn": "100021338289",
   "reference_no_of_permission_being_relied_on": null,
   "decision_process": "Delegated",
-  "last_updated": "2025-07-06T04:10:11.804Z",
+  "last_updated": "2025-07-07T15:31:41.945Z",
   "decision_agency": "Borough",
   "parking_details": null,
   "lapsed_date": "25/11/2027",
