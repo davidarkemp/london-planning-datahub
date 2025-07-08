@@ -2,61 +2,86 @@ import path from "node:path";
 import { writeFile, mkdir } from "node:fs/promises";
 import { rateLimit } from "./rate-limit.ts";
 import lastUpdated from "./last-updated.ts";
-import { write } from "node:fs";
 
+type RetrievalBucket = { start: number, max?: number, count: number, real_bucket_count: number, filters: unknown[] };
+function newBucket(start: number, initial_count: number): RetrievalBucket {
+    return { start, count: initial_count, real_bucket_count: 0, filters: [] }
+}
+
+const max_bucket_size = 500;
 const default_filters = [
     { range: { last_updated: { 'gte': lastUpdated } } }
 ];
 
-const blocks = await fetch("https://planningdata.london.gov.uk/api-guest/applications/_search", {
-    method: "POST",
-    headers: {
-        "Content-Type": "application/json",
-        "Accepts": "application/json"
-    },
-    body: JSON.stringify({
-        size: 0,
-        aggs: {
-            eastings: {
-                histogram: {
-                    field: "centroid_easting",
-                    interval: "100",
-                    "min_doc_count": 1
+async function calculate_download_buckets(default_filters: unknown[]) {
+    const blocks = await fetch("https://planningdata.london.gov.uk/api-guest/applications/_search", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+            "Accepts": "application/json"
+        },
+        body: JSON.stringify({
+            size: 0,
+            aggs: {
+                "centroid_easting": {
+                    histogram: {
+                        field: "centroid_easting",
+                        interval: "100",
+                        "min_doc_count": 1
+                    }
+                },
+                
+            },
+            query: {
+                bool: {
+                    filter: default_filters
                 }
             }
-        },
-        query: {
-            bool: {
-                filter: default_filters
-            }
+        })
+    });
+
+    var aggs = await blocks.json();
+
+
+    let current_bucket: RetrievalBucket | undefined;
+
+
+
+    const buckets: Array<RetrievalBucket> = [];
+    /** @var { { key: number, doc_count: number } } real_bucket */
+    for (let real_bucket of aggs.aggregations["centroid_easting"].buckets) {
+        current_bucket ??= newBucket(real_bucket.key, real_bucket.doc_count);
+        if (current_bucket.count + real_bucket.doc_count > max_bucket_size) {
+            current_bucket.max = real_bucket.key;
+            buckets.push(current_bucket);
+            current_bucket = newBucket(real_bucket.key, real_bucket.doc_count);
+        } else {
+            current_bucket.count += real_bucket.doc_count;
         }
-    })
-});
 
-var aggs = await blocks.json();
-
-type RetrievalBucket = { start: number, max?: number, count: number, real_bucket_count: number };
-const max_bucket_size = 500;
-let current_bucket: RetrievalBucket | undefined;
-const buckets: Array<RetrievalBucket> = [];
-/** @var { { key: number, doc_count: number } } real_bucket */
-for (let real_bucket of aggs.aggregations.eastings.buckets) {
-    current_bucket ??= { start: real_bucket.key, count: real_bucket.doc_count, real_bucket_count: 0 };
-    if (current_bucket.count + real_bucket.doc_count > max_bucket_size) {
-        current_bucket.max = real_bucket.key;
-        buckets.push(current_bucket);
-        current_bucket = { start: real_bucket.key, count: real_bucket.doc_count, real_bucket_count: 0 }
-    } else {
-        current_bucket.count += real_bucket.doc_count;
+        current_bucket.real_bucket_count += 1;
     }
+    if (current_bucket) buckets.push(current_bucket);
 
-    current_bucket.real_bucket_count += 1;
+    buckets.forEach(function (bucket) {
+        
+        return bucket.filters.push({
+            range: {
+                "centroid_easting": bucket.max === undefined ? {
+                    gte: bucket.start,
+                } : {
+                    gte: bucket.start,
+                    lt: bucket.max
+                }
+            }
+        });
+    });
+
+    console.dir(buckets.sort((a, b) => a.start - b.start));
+    return buckets;
 }
-if (current_bucket) buckets.push(current_bucket);
 
-console.dir(buckets.sort((a, b) => a.start - b.start));
-
-async function get_bucket_contents(bucket) {
+async function get_bucket_contents(bucket: RetrievalBucket) {
     console.debug("Download bucket from %d", bucket.start);
     return await fetch("https://planningdata.london.gov.uk/api-guest/applications/_search", {
         method: "POST",
@@ -70,14 +95,7 @@ async function get_bucket_contents(bucket) {
             query: {
                 bool: {
                     filter: [
-                        {
-                            range: {
-                                centroid_easting: {
-                                    gte: bucket.start,
-                                    lt: bucket.max
-                                }
-                            }
-                        },
+                        ...bucket.filters,
                         ...default_filters
                     ]
                 }
@@ -120,11 +138,14 @@ async function download_bucket(bucket) {
     }
 }
 
+
+const buckets = await calculate_download_buckets(default_filters);
+
 await Promise.allSettled(buckets.map(rateLimit(download_bucket, 20)))
 
 process.stdout.write("\n");
 
 const date = new Date();
 
-await writeFile('src/last-updated.ts', "export default `" +new Date(date.getFullYear(), date.getMonth(), date.getDate()).toJSON() + "`;")
+await writeFile('src/last-updated.ts', "export default `" + new Date(date.getFullYear(), date.getMonth(), date.getDate()).toJSON() + "`;")
 
