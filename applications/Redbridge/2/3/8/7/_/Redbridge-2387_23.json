@@ -45,13 +45,13 @@
   "url_planning_app": null,
   "valid_date": "22/08/2023",
   "centroid": {
-    "lat": "51.5548995",
-    "lon": "0.0717362"
+    "lat": 51.554898,
+    "lon": 0.07171
   },
   "borough": "Redbridge",
   "decision_agency": null,
   "reference_no_of_permission_being_relied_on": null,
-  "cil_liability": null,
+  "cil_liability": false,
   "site_name": null,
   "bo_system": "Portal",
   "centroid_easting": 543724,
@@ -66,48 +66,48 @@
     "coordinates": [
       [
         [
-          0.07176389999999999,
-          51.5549381
+          0.071737,
+          51.554937
         ],
         [
-          0.0718912,
-          51.5549781
+          0.071865,
+          51.554977
         ],
         [
-          0.0719282,
-          51.5549339
+          0.071902,
+          51.554933
         ],
         [
-          0.0717423,
-          51.554876
+          0.071716,
+          51.554875
         ],
         [
-          0.071689,
-          51.5548599
+          0.071662,
+          51.554859
         ],
         [
-          0.07163989999999999,
-          51.5548445
+          0.071613,
+          51.554843
         ],
         [
-          0.0715866,
-          51.5548288
+          0.07156,
+          51.554828
         ],
         [
-          0.07155159999999999,
-          51.5548695
+          0.071525,
+          51.554868
         ],
         [
-          0.0716168,
-          51.5548913
+          0.07159,
+          51.55489
         ],
         [
-          0.0716951,
-          51.5549168
+          0.071669,
+          51.554916
         ],
         [
-          0.07176389999999999,
-          51.5549381
+          0.071737,
+          51.554937
         ]
       ]
     ]
@@ -117,7 +117,7 @@
   "application_details": {
     "grey_water_reuse": false,
     "affordable_housing_fast_track": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "site_area": 0.014,
     "internal_resi_water_usage": 0,
     "green_suds": false,
@@ -137,7 +137,7 @@
     "infrastructure_details": {
       "percentage_demolition_construction_material_recycling": 0,
       "fire_suppression_system_proposed": false,
-      "waste_provision": true,
+      "waste_provision": false,
       "total_annual_pm_emissions": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
@@ -167,8 +167,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_completion_date": "09/2023",
-        "intended_commencement_date": "08/2023"
+        "intended_commencement_date": "08/2023",
+        "intended_completion_date": "09/2023"
       }
     ],
     "rain_water_harvesting": false,
@@ -177,20 +177,20 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 82.79,
-        "use_class": "C3",
         "gia_gained": 82.79,
+        "use_class": "C3",
         "gia_lost": 82.79
       }
     ],
-    "s106_agreement": null,
+    "s106_agreement": false,
     "affordable_housing_inlieu_payment": null,
-    "air_quality_assessment": null,
+    "air_quality_assessment": false,
     "other_contributions": null,
     "existing_uprns": [],
     "intended_commencement_date": null,
     "no_affordable_housing_units_provided_offsite": null,
-    "circular_economy_statement": null,
-    "commencement_notice_received": null,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
     "qualifying_vacant_building_floorspace": null,
     "open_and_protected_space_details": {
       "open_space_local_and_other_area_gain": 0,
@@ -207,9 +207,9 @@
     "building_details": [],
     "superseding_details": [],
     "lead_registered_social_landlord": null,
-    "viability_assessment": null,
+    "viability_assessment": false,
     "overseas_company_registration_no": null,
-    "mayoral_cil_liability_notice_issued": null,
+    "mayoral_cil_liability_notice_issued": false,
     "intended_completion_date": null,
     "non_permanent_dwellings_details": [],
     "uk_company_registration_no": null,
@@ -219,11 +219,11 @@
       "site_area": 0.014,
       "other_resi_accommodation_unit_details": []
     },
-    "3d_model": null,
+    "3d_model": false,
     "transport_contributions": null,
     "no_affordable_housing_units_acquired_offsite": null,
-    "borough_cil_liability_notice_issued": null,
-    "transport_impact_assessment": null,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
     "social_infrastructure_contributions": null,
     "scheme_name": null,
     "residential_details": {
@@ -246,7 +246,7 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
-      "habitable_rooms_density": 0,
+      "habitable_rooms_density": 357.1428571428571,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 82.79,
@@ -267,34 +267,47 @@
       "residential_units": [
         {
           "uprn": "",
+          "m43_2b_compliant": false,
           "actual_completion_date": "17/10/2024",
+          "m43_2a_compliant": false,
           "description": "",
+          "m42_compliant": false,
           "change_type": "Loss",
+          "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Flat Apartment Maisonette",
           "unit_development_type": "Conversion",
+          "no_habitable_rooms": 5,
           "provider": "Private",
           "phase_detail": "",
           "unit_no": "",
           "no_bedrooms": 4,
           "superseded_by_lpa_app_no": "",
           "provision_for_older_persons": false,
-          "gia": null,
-          "tenure": ""
+          "tenure": "",
+          "gia": null
         },
         {
           "uprn": "",
+          "m43_2b_compliant": false,
+          "actual_completion_date": "17/10/2024",
+          "m43_2a_compliant": false,
           "description": "",
+          "m42_compliant": false,
           "change_type": "Gain",
+          "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "HMO",
           "unit_development_type": "Conversion",
+          "no_habitable_rooms": 5,
           "provider": "Private",
           "phase_detail": "",
           "unit_no": "",
           "no_bedrooms": 4,
           "superseded_by_lpa_app_no": "",
           "provision_for_older_persons": false,
-          "gia": null,
-          "tenure": ""
+          "tenure": "",
+          "gia": null
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -359,7 +372,7 @@
     ],
     "type": "GeometryCollection"
   },
-  "last_updated": "2025-03-19T20:55:46.843+00:00",
+  "last_updated": "2025-07-08T09:08:45.768Z",
   "date_building_work_started_under_previous_permission": null,
   "ward": "Loxford",
   "appeal_start_date": null,
