@@ -14,7 +14,6 @@ The code is hacker quality at best. It requires a version of NodeJS that support
 
 It can be found in `src/`
 
-I have tried to get around the limit of 10,000 documents by sub-dividing the data into buckets for querying. This is done by asking Elastic Search to aggregate, and then collating these into requests of an acceptable size. 
 
 # Data
 
