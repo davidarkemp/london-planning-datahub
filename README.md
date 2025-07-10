@@ -29,8 +29,9 @@ If you intended to use this data for research, be aware that many fields contain
 
 The early dataset commits contain changes that don't affect the data. For example, the raw Data Hub data may reorder fields. Similarly, the 'last_updated' and 'last_synced' fields may change without any other fields being changed.
 
-To keep changesets more managable, and hopefully highlight relevant changes, the data is compared semantically, and changes are only committed when data has meaningfully changed. see #1 for some background.
+To keep changesets more managable, and hopefully highlight relevant changes, the data is compared semantically, and changes are only committed when data has meaningfully changed. see [#1][#1] for some background.
 
 If you require changesets for the 'last_updated' and 'last_synced' fields, this repository may prove a useful starting point.
 
 [PLD]: https://www.london.gov.uk/programmes-strategies/planning/digital-planning/planning-london-datahub?ac-60574=60566
+[#1]: https://github.com/davidarkemp/london-planning-datahub/issues/1
