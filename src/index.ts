@@ -1,6 +1,7 @@
 import path from "node:path";
-import { writeFile, mkdir } from "node:fs/promises";
+import { writeFile, mkdir, default as fs } from "node:fs/promises";
 import lastUpdated from "./last-updated.ts";
+import objectHash from 'object-hash';
 
 const default_filters = [
     { range: { last_updated: { 'gte': lastUpdated } } }
@@ -39,7 +40,7 @@ async function* get_document_chunks(filters: unknown[] = []) {
 
         const jsonResponse = await response.json();
         const hits = jsonResponse.hits.hits;
-        console.log(`${JSON.stringify(query)}: ${hits.length}`);
+        console.debug(`${JSON.stringify(query)}: ${hits.length}`);
         if(hits.length == 0) return;
         
         yield hits;
@@ -50,26 +51,48 @@ async function* get_document_chunks(filters: unknown[] = []) {
 
 const writers: Array<Promise<void>> = [];
 
+async function file_exists(path) {
+    try { 
+        const stat = await fs.stat(path);
+        return stat.isFile();
+    } catch(error) {
+        return false;
+    }
+}
+
 async function write_document(hit) {
 /** @var { string } valid_date */
     /** @var { string! } id */
-    const { _id: id, _source: { valid_date, lpa_name } } = hit;
+    const { _id: id } = hit;
 
     const [start, parts] = id.split('-')
     const other_paths = parts.split('').slice(0, 5);
     let folder = path.join(start, ...other_paths);
 
     folder = path.join("applications", folder);
+    const file = path.join(folder, id + '.json');
+
+    if(await file_exists(file)) {
+        const contents = await fs.readFile(file);
+        let { last_updated: _last_updated, ...existing } = JSON.parse(contents.toString());
+        let { last_updated: _1, last_synced: _2, ...updated } = hit._source;
+
+        if(objectHash(existing) === objectHash(updated)) {
+            return;
+        }
+    }
 
     await mkdir(folder, { recursive: true });
 
     const { last_synced: _last_synced, ...data } = hit._source;
-    await writeFile(path.join(folder, id + '.json'), JSON.stringify(data, undefined, 2));
+    await writeFile(file, JSON.stringify(data, undefined, 2));
 }
 
 async function write_documents(hits) {
-    await Promise.allSettled(hits.map(write_document));
+    const sort = hits[hits.length-1].sort;
+    const promised = hits.map(write_document);
     hits = null;
+    await Promise.allSettled(promised);
 }
 
 for await (let hits of get_document_chunks(default_filters)) {
