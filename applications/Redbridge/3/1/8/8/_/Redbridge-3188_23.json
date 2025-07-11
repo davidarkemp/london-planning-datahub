@@ -63,20 +63,20 @@
     ],
     "type": "GeometryCollection"
   },
-  "cil_liability": null,
+  "cil_liability": false,
   "lapsed_date": "04/01/2027",
   "appeal_decision": null,
   "street_name": "Empress Avenue",
   "decision_agency": null,
-  "last_updated_by": "Agile APAS",
+  "last_updated_by": "Portal",
   "description": "First floor rear extension.  Alterations to fenestrations.  Conversion of HMO into 5x self-contained once bedroom flats with associated amenity space, car parking, cycle and refuse storage.  (summary)",
   "decision": "Approved",
   "centroid_northing": 186924,
-  "bo_system": "Agile APAS",
-  "last_updated": "2025-03-19T17:36:37.124+00:00",
+  "bo_system": "Portal",
+  "last_updated": "2025-07-10T14:26:46.353Z",
   "appeal_status": null,
   "date_building_work_started_under_previous_permission": null,
-  "ward": null,
+  "ward": "",
   "centroid_easting": 543048,
   "site_name": "Development At 58",
   "application_type": "All Other",
@@ -117,29 +117,57 @@
     "coordinates": [
       [
         [
-          0.062349,
-          51.563071
+          0.062388,
+          51.563092
         ],
         [
-          0.062348,
-          51.563044
+          0.062465,
+          51.563057
         ],
         [
-          0.062305,
-          51.563045
+          0.062554,
+          51.563018
         ],
         [
-          0.062306,
-          51.563072
+          0.062551,
+          51.563016
         ],
         [
-          0.062349,
-          51.563071
+          0.062532,
+          51.562999
+        ],
+        [
+          0.062457,
+          51.562932
+        ],
+        [
+          0.062373,
+          51.56297
+        ],
+        [
+          0.06224,
+          51.563028
+        ],
+        [
+          0.062156,
+          51.563066
+        ],
+        [
+          0.0621,
+          51.563091
+        ],
+        [
+          0.062196,
+          51.563176
+        ],
+        [
+          0.062388,
+          51.563092
         ]
       ]
     ]
   },
-  "postcode": null,
+  "postcode": "",
   "decision_date": "05/01/2024",
   "centroid": {
     "lon": 0.062327,
@@ -160,7 +188,7 @@
   "pp_id": "PP-12543191",
   "development_type": null,
   "decision_conditions": [
-    "The development hereby permitted shall be begun no later than the  expiration of three years from the date of this permission.\r\n\r\nReason: In order to comply with the requirements of Section 91 of the Town and Country Planning Act 1990."
+    "The development hereby permitted shall be begun no later than the  expiration of three years from the date of this permission.\n\nReason: In order to comply with the requirements of Section 91 of the Town and Country Planning Act 1990."
   ],
   "status": "Commenced",
   "secondary_street_name": null,
@@ -172,8 +200,8 @@
     "phasing_details": [
       {
         "phase_detail": "Construction",
-        "intended_completion_date": "04/2024",
-        "intended_commencement_date": "02/2024"
+        "intended_commencement_date": "02/2024",
+        "intended_completion_date": "04/2024"
       }
     ],
     "total_gia_gained": 9,
@@ -183,17 +211,13 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 218,
-        "superseded_date": null,
-        "actual_completion_date": null,
-        "use_class": "C4",
         "gia_gained": 9,
-        "actual_commencement_date": null,
-        "superseded_by_lpa_app_no": null,
+        "use_class": "C4",
         "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "rain_water_harvesting": false,
     "grey_water_reuse": false,
     "green_suds": false,
@@ -205,7 +229,7 @@
       "total_gia_existing": 218,
       "total_gia_lost": 0,
       "development_type": null,
-      "site_area": null
+      "site_area": 0.035
     },
     "garden_land_lost": false,
     "infrastructure_details": {
@@ -216,7 +240,7 @@
       "no_homes_passive_cooling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
@@ -257,13 +281,13 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 285.71428571428567,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 194.4,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 142.85714285714283,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_gia_lost": 218,
@@ -276,165 +300,140 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
           "description": null,
+          "m42_compliant": false,
           "change_type": "Loss",
-          "m42_compliant": null,
           "sheltered_accommodation": false,
-          "garden_land": null,
+          "garden_land": false,
           "unit_type": "HMO",
           "unit_development_type": "Conversion",
-          "superseded_date": null,
-          "provider": null,
           "no_habitable_rooms": 7,
           "phase_detail": null,
           "unit_no": null,
-          "actual_commencement_date": null,
+          "actual_commencement_date": "31/01/2025",
           "no_bedrooms": 6,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
-          "tenure": "Market for rent",
-          "gia": 218
+          "gia": 218,
+          "tenure": "Market for rent"
         },
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
           "description": null,
+          "m42_compliant": false,
           "change_type": "Gain",
-          "m42_compliant": null,
-          "sheltered_accommodation": null,
-          "garden_land": null,
+          "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Flat Apartment Maisonette",
           "unit_development_type": "Conversion",
-          "superseded_date": null,
-          "provider": "Private",
           "no_habitable_rooms": 2,
+          "provider": "Private",
           "phase_detail": null,
-          "unit_no": null,
-          "actual_commencement_date": null,
+          "unit_no": "1",
+          "actual_commencement_date": "31/01/2025",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
-          "tenure": "Market for rent",
-          "gia": 40.78
+          "gia": 40.78,
+          "tenure": "Market for rent"
         },
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
           "description": null,
+          "m42_compliant": false,
           "change_type": "Gain",
-          "m42_compliant": null,
-          "sheltered_accommodation": null,
-          "garden_land": null,
+          "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Flat Apartment Maisonette",
           "unit_development_type": "Conversion",
-          "superseded_date": null,
-          "provider": "Private",
           "no_habitable_rooms": 2,
+          "provider": "Private",
           "phase_detail": null,
-          "unit_no": null,
-          "actual_commencement_date": null,
+          "unit_no": "2",
+          "actual_commencement_date": "31/01/2025",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
-          "tenure": "Market for rent",
-          "gia": 40.15
+          "gia": 40.15,
+          "tenure": "Market for rent"
         },
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
           "description": null,
+          "m42_compliant": false,
           "change_type": "Gain",
-          "m42_compliant": null,
-          "sheltered_accommodation": null,
-          "garden_land": null,
+          "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Flat Apartment Maisonette",
           "unit_development_type": "Conversion",
-          "superseded_date": null,
-          "provider": "Private",
           "no_habitable_rooms": 2,
+          "provider": "Private",
           "phase_detail": null,
-          "unit_no": null,
-          "actual_commencement_date": null,
+          "unit_no": "3",
+          "actual_commencement_date": "31/01/2025",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
-          "tenure": "Market for rent",
-          "gia": 37.77
+          "gia": 37.77,
+          "tenure": "Market for rent"
         },
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
           "description": null,
+          "m42_compliant": false,
           "change_type": "Gain",
-          "m42_compliant": null,
-          "sheltered_accommodation": null,
-          "garden_land": null,
+          "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Flat Apartment Maisonette",
           "unit_development_type": "Conversion",
-          "superseded_date": null,
-          "provider": "Private",
           "no_habitable_rooms": 2,
+          "provider": "Private",
           "phase_detail": null,
-          "unit_no": null,
-          "actual_commencement_date": null,
+          "unit_no": "4",
+          "actual_commencement_date": "31/01/2025",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
-          "tenure": "Market for rent",
-          "gia": 38.4
+          "gia": 38.4,
+          "tenure": "Market for rent"
         },
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
           "description": null,
+          "m42_compliant": false,
           "change_type": "Gain",
-          "m42_compliant": null,
-          "sheltered_accommodation": null,
-          "garden_land": null,
+          "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Flat Apartment Maisonette",
           "unit_development_type": "Conversion",
-          "superseded_date": null,
-          "provider": "Private",
           "no_habitable_rooms": 2,
+          "provider": "Private",
           "phase_detail": null,
-          "unit_no": null,
-          "actual_commencement_date": null,
+          "unit_no": "5",
+          "actual_commencement_date": "31/01/2025",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
-          "tenure": "Market for rent",
-          "gia": 37.3
+          "gia": 37.3,
+          "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
-      "site_area": null
+      "site_area": 0.035
     },
     "internal_resi_water_usage": 80,
     "ownership_status": "Private",
-    "s106_agreement": null,
+    "s106_agreement": false,
     "affordable_housing_inlieu_payment": null,
-    "air_quality_assessment": null,
+    "air_quality_assessment": false,
     "other_contributions": null,
     "existing_uprns": [],
     "intended_commencement_date": null,
     "no_affordable_housing_units_provided_offsite": null,
-    "circular_economy_statement": null,
-    "commencement_notice_received": null,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
     "qualifying_vacant_building_floorspace": null,
     "open_and_protected_space_details": {
       "open_space_local_and_other_area_gain": 0,
@@ -451,23 +450,23 @@
     "building_details": [],
     "superseding_details": [],
     "lead_registered_social_landlord": null,
-    "viability_assessment": null,
+    "viability_assessment": false,
     "overseas_company_registration_no": null,
-    "mayoral_cil_liability_notice_issued": null,
+    "mayoral_cil_liability_notice_issued": false,
     "non_permanent_dwellings_details": [],
     "intended_completion_date": null,
     "other_residential_accommodation_details": {
       "no_council_tax_rateable_units_gained": null,
       "no_council_tax_rateable_units_lost": null,
-      "site_area": null,
+      "site_area": 0.035,
       "other_resi_accommodation_unit_details": []
     },
     "uk_company_registration_no": null,
-    "3d_model": null,
+    "3d_model": false,
     "no_affordable_housing_units_acquired_offsite": null,
     "transport_contributions": null,
-    "borough_cil_liability_notice_issued": null,
-    "transport_impact_assessment": null,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
     "social_infrastructure_contributions": null,
     "scheme_name": null
   },

@@ -1,13 +1,13 @@
 {
   "appeal_status": null,
   "centroid": {
-    "lon": "-0.1803072",
-    "lat": "51.3659263"
+    "lon": -0.180332,
+    "lat": 51.365928
   },
   "decision_target_date": "21/04/2023",
   "lapsed_date": "12/07/2026",
   "appeal_start_date": null,
-  "last_updated": "2025-03-20T12:24:58.030+00:00",
+  "last_updated": "2025-07-10T16:53:28.592Z",
   "locality": null,
   "development_type": null,
   "postcode": "SM1 4JF",
@@ -21,60 +21,60 @@
     "coordinates": [
       [
         [
-          -0.1802537,
-          51.3660536
+          -0.180279,
+          51.366055
         ],
         [
-          -0.1802355,
-          51.3657925
+          -0.180261,
+          51.365794
         ],
         [
-          -0.1803437,
-          51.3657905
+          -0.180369,
+          51.365792
         ],
         [
-          -0.1803514,
-          51.3658968
+          -0.180376,
+          51.365898
         ],
         [
-          -0.1803512,
-          51.3658974
+          -0.180376,
+          51.365899
         ],
         [
-          -0.1803534,
-          51.3658973
+          -0.180378,
+          51.365899
         ],
         [
-          -0.1803575,
-          51.3659264
+          -0.180382,
+          51.365928
         ],
         [
-          -0.1803754,
-          51.3660539
+          -0.1804,
+          51.366055
         ],
         [
-          -0.1803063,
-          51.3660585
+          -0.180331,
+          51.36606
         ],
         [
-          -0.1803005,
-          51.3660588
+          -0.180326,
+          51.36606
         ],
         [
-          -0.18029969999999998,
-          51.3660535
+          -0.180325,
+          51.366055
         ],
         [
-          -0.18029869999999998,
-          51.3660565
+          -0.180324,
+          51.366058
         ],
         [
-          -0.1802558,
-          51.3660603
+          -0.180281,
+          51.366062
         ],
         [
-          -0.1802537,
-          51.3660536
+          -0.180279,
+          51.366055
         ]
       ]
     ],
@@ -185,7 +185,7 @@
   "application_details": {
     "projected_cost_of_works": "Up to £2m",
     "total_gia_existing": 122,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "total_gia_gained": 130,
     "site_area": 0.023,
     "rain_water_harvesting": false,
@@ -194,7 +194,8 @@
       "total_gia_gained": 130,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_lost": 0,
-      "total_gia_existing": 122
+      "total_gia_existing": 122,
+      "site_area": 0.023
     },
     "garden_land_lost": false,
     "infrastructure_details": {
@@ -211,7 +212,7 @@
       "fire_suppression_system_proposed": false,
       "no_resi_units_to_have_full_fibre": 1,
       "green_roof_area": 0,
-      "waste_provision": true
+      "waste_provision": false
     },
     "ownership_status": "Private",
     "surface_water_discharge_percentage_reduction": 0,
@@ -219,16 +220,17 @@
     "phasing_details": [
       {
         "phase_detail": "ALL",
-        "intended_completion_date": "12/2023",
-        "intended_commencement_date": "06/2023"
+        "intended_commencement_date": "06/2023",
+        "intended_completion_date": "12/2023"
       }
     ],
     "internal_resi_water_usage": 170,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 122,
-        "use_class": "C3",
         "gia_gained": 130,
+        "use_class": "C3",
+        "actual_commencement_date": "30/03/2025",
         "gia_lost": 0
       }
     ],
@@ -242,10 +244,14 @@
         {
           "no_habitable_rooms": 2,
           "provider": "Private rented sector",
+          "phase_detail": null,
           "unit_no": "Gain-1",
+          "description": null,
           "change_type": "Gain",
+          "actual_commencement_date": "30/03/2025",
           "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
           "gia": 59,
           "tenure": "Market for rent"
         }
@@ -262,7 +268,7 @@
       "total_no_proposed_residential_units_market_for_rent": 1,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 43.47826086956522,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_proposed_bedrooms": 1,
@@ -272,7 +278,7 @@
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 86.95652173913044,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units": 1,
@@ -283,14 +289,27 @@
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "affordable_percentage": 0
+      "affordable_percentage": 0,
+      "site_area": 0.023
     },
     "green_suds": false,
-    "affordable_housing_fast_track": false
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.023
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "valid_date": "24/02/2023",
   "parking_details": null,
-  "actual_commencement_date": null,
+  "actual_commencement_date": "30/03/2025",
   "centroid_northing": 164556,
   "application_type": "All Other",
   "decision_conditions": [
@@ -305,25 +324,25 @@
     "SAP",
     "No terrace",
     "refuse/recycling storage",
-    " Flood Risk Assessment and SuDs",
+    "Flood Risk Assessment and SuDs",
     "Construction hours",
     "Water"
   ],
   "url_planning_app": null,
   "pp_id": "PP-11966946",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "centroid_easting": 526774,
   "borough": "London Borough of Sutton",
   "epc_number": null,
   "lpa_app_no": "DM2023/00309",
   "decision_agency": null,
   "date_building_work_completed_under_previous_permission": null,
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "subdivision_of_building": null,
   "description": "Erection of a single storey rear extension and formation of a dormer extension with roof light to front roof slope to provide an additional self-contained residential unit with provision of refuse and cycle stores and alteration to fenestration's.",
   "appeal_decision": null,
   "appeal_decision_date": null,
-  "status": "Approved",
+  "status": "Commenced",
   "decision_date": "12/07/2023",
-  "cil_liability": true
+  "cil_liability": false
 }
