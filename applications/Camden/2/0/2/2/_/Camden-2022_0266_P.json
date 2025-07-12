@@ -12,8 +12,8 @@
   "ward": "Swiss Cottage (Pre May 2022)",
   "last_date_consultation_comments": "17/04/2022",
   "cil_liability": false,
-  "status": "Approved",
-  "bo_system": "Northgate M3",
+  "status": "Commenced",
+  "bo_system": "Portal",
   "title_number": [
     "BB5470"
   ],
@@ -23,8 +23,8 @@
     "phasing_details": [
       {
         "phase_detail": "Construction",
-        "intended_completion_date": "12/2022",
-        "intended_commencement_date": "07/2022"
+        "intended_commencement_date": "07/2022",
+        "intended_completion_date": "12/2022"
       }
     ],
     "total_gia_gained": 70,
@@ -34,13 +34,13 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 114,
-        "use_class": "C3",
         "gia_gained": 70,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "rain_water_harvesting": false,
     "grey_water_reuse": false,
     "building_details": [
@@ -51,13 +51,14 @@
       }
     ],
     "surface_water_discharge_percentage_reduction": 0,
-    "green_suds": true,
+    "green_suds": false,
     "non_residential_details": {
       "total_gia_gained": 70,
       "total_gia_lost": 0,
       "total_gia_existing": 114,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "site_area": 0.072
     },
     "garden_land_lost": false,
     "infrastructure_details": {
@@ -68,13 +69,13 @@
       "no_homes_passive_cooling": 2,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 1,
-      "ghg_reduction_over_building_regulations": true
+      "ghg_reduction_over_building_regulations": false
     },
     "internal_resi_water_usage": 115,
     "residential_details": {
@@ -82,32 +83,47 @@
       "total_gia_gained": 182,
       "residential_units": [
         {
+          "description": null,
+          "change_type": "Loss",
+          "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
           "no_habitable_rooms": 4,
           "provider": "Private",
+          "phase_detail": null,
           "unit_no": "Loss-1",
-          "change_type": "Loss",
+          "actual_commencement_date": "27/08/2020",
           "no_bedrooms": 3,
-          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
           "gia": 114,
           "tenure": "Market for sale"
         },
         {
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
           "no_habitable_rooms": 4,
           "provider": "Private",
+          "phase_detail": null,
           "unit_no": "Gain-1",
-          "change_type": "Gain",
+          "actual_commencement_date": "27/08/2020",
           "no_bedrooms": 2,
-          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
           "gia": 91,
           "tenure": "Market for sale"
         },
         {
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
           "no_habitable_rooms": 4,
           "provider": "Private",
+          "phase_detail": null,
           "unit_no": "Gain-2",
-          "change_type": "Gain",
+          "actual_commencement_date": "27/08/2020",
           "no_bedrooms": 2,
-          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
           "gia": 91,
           "tenure": "Market for sale"
         }
@@ -132,11 +148,11 @@
       "total_no_proposed_residential_units_market_for_sale": 2,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 111.11111111111111,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 27.77777777777778,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -147,14 +163,27 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "affordable_percentage": 0,
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.072
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.072
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "centroid_northing": 184457,
   "decision_date": "12/04/2024",
   "epc_number": null,
-  "actual_commencement_date": null,
+  "actual_commencement_date": "27/08/2020",
   "secondary_street_name": null,
   "id": "Camden-2022_0266_P",
   "polygon": {
@@ -688,7 +717,7 @@
   "description": "Conversion of existing loft and 2nd floor flat to create 2 x 2 bedroom maisonettes, including reconstruction of roof, creation of rear inset roof terrace, and; front, side and rear roof windows.",
   "lapsed_date": "12/04/2027",
   "lpa_app_no": "2022/0266/P",
-  "last_updated": "2025-03-21T14:30:52.612Z",
+  "last_updated": "2025-07-11T09:58:50.592Z",
   "application_type": "All Other",
   "site_name": "Flat 2nd Floor  ",
   "appeal_decision_date": null,
@@ -697,10 +726,10 @@
   "development_type": "Other change of use",
   "appeal_start_date": null,
   "decision_conditions": [
-    "Condition : 1 - The development hereby permitted must be begun not later than the end of three years from the date of this permission.\r\n\r\nReason: In order to comply with the provisions of Section 91 of the Town and Country Planning Act 1990 (as amended).\r\n\r\n",
-    "Condition : 2 - The development hereby permitted shall be carried out in accordance with the following approved plans: Site Location Plan 1131 P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11B, P12B, P13A, P14A, P15C, P16B, P17B, P18B.  Design and Access Statement (IBLA Dec 2021 Rev A).\r\n\r\nReason: For the avoidance of doubt and in the interest of proper planning.\r\n",
-    "Condition : 3 - All new external work shall be carried out in materials that resemble, as closely as possible, in colour and texture those of the existing building, unless otherwise specified in the approved application. \r\n\r\nReason: To safeguard the appearance of the premises and the character of the immediate area in accordance with the requirements of policy D1 and D2 of the London Borough of Camden Local Plan 2017. \r\n",
-    "Condition : 4 - Before the relevant part of the work is begun, detailed drawings, or samples of materials as appropriate, in respect of the following, shall be submitted to and approved in writing by the local planning authority: \r\n\r\na) Details including sections at 1:10 of front forecourt permeable surface; \r\n\r\nb) Plan, elevation and section drawings, of front of host property; \r\n\r\nc) Manufacturer's specification details of all forecourt surfacing materials (to be submitted to the Local Planning Authority) and samples of those materials (to be provided on site).    \r\n\r\nThe relevant part of the works shall be carried out in accordance with the details thus approved and all approved samples shall be retained on site during the course of the works. \r\n\r\nReason:  To safeguard the appearance of the premises and the character of the immediate area in accordance with the requirements of policy D1 and D2 of the London Borough of Camden Local Plan 2017.\r\n"
+    "Condition : 1 - The development hereby permitted must be begun not later than the end of three years from the date of this permission.\n\nReason: In order to comply with the provisions of Section 91 of the Town and Country Planning Act 1990 (as amended).",
+    "Condition : 2 - The development hereby permitted shall be carried out in accordance with the following approved plans: Site Location Plan 1131 P01, P02, P03, P04, P05, P06, P07, P08, P09, P10, P11B, P12B, P13A, P14A, P15C, P16B, P17B, P18B.  Design and Access Statement (IBLA Dec 2021 Rev A).\n\nReason: For the avoidance of doubt and in the interest of proper planning.",
+    "Condition : 3 - All new external work shall be carried out in materials that resemble, as closely as possible, in colour and texture those of the existing building, unless otherwise specified in the approved application. \n\nReason: To safeguard the appearance of the premises and the character of the immediate area in accordance with the requirements of policy D1 and D2 of the London Borough of Camden Local Plan 2017.",
+    "Condition : 4 - Before the relevant part of the work is begun, detailed drawings, or samples of materials as appropriate, in respect of the following, shall be submitted to and approved in writing by the local planning authority: \n\na) Details including sections at 1:10 of front forecourt permeable surface; \n\nb) Plan, elevation and section drawings, of front of host property; \n\nc) Manufacturer's specification details of all forecourt surfacing materials (to be submitted to the Local Planning Authority) and samples of those materials (to be provided on site).    \n\nThe relevant part of the works shall be carried out in accordance with the details thus approved and all approved samples shall be retained on site during the course of the works. \n\nReason:  To safeguard the appearance of the premises and the character of the immediate area in accordance with the requirements of policy D1 and D2 of the London Borough of Camden Local Plan 2017."
   ],
   "decision": "Approved",
   "actual_completion_date": null,
@@ -719,7 +748,7 @@
   "lpa_name": "Camden",
   "borough": "Camden",
   "valid_date": "24/01/2022",
-  "last_updated_by": "Northgate M3",
+  "last_updated_by": "Portal",
   "appeal_status": null,
   "date_building_work_started_under_previous_permission": null,
   "wgs84_polygon": {
