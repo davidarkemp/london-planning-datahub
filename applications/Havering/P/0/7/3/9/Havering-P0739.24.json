@@ -1,11 +1,39 @@
 {
   "uprn": "100021338207",
   "decision_agency": "Borough",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          0.221292,
+          51.570475
+        ],
+        [
+          0.221291,
+          51.570448
+        ],
+        [
+          0.221248,
+          51.570449
+        ],
+        [
+          0.221249,
+          51.570476
+        ],
+        [
+          0.221292,
+          51.570475
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "appeal_start_date": null,
   "centroid_northing": 188070,
   "decision": "Approved",
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "borough": "Havering",
   "bo_system": "CSV Data Import",
   "pp_id": "13093504",
@@ -104,22 +132,22 @@
     "The proposal is also liable for Havering Council's CIL. Havering's CIL charging rate for residential is £125m² (Zone A)  for each additional square metre of GIA. Based upon the information supplied with the application, £78,625 would be payable, subject to indexation.",
     "These charges are levied under s.206 of the Planning Act 2008.  CIL is payable within 60 days of commencement of development. A Liability Notice will be sent to the applicant (or anyone else who has assumed liability) shortly and you are required to notify the Council of the commencement of the dev"
   ],
-  "actual_completion_date": null,
+  "actual_completion_date": "18/06/2025",
   "last_updated_by": "CSV Data Import",
   "street_name": "Hornchurch",
   "appeal_status": null,
   "development_type": null,
   "decision_date": "19/11/2024",
   "lpa_app_no": "P0739.24",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "16/09/2024",
   "date_building_work_started_under_previous_permission": null,
   "site_name": "9 Parkstone Avenue",
   "subdivision_of_building": null,
-  "last_updated": "2025-07-09T04:11:34.029Z",
+  "last_updated": "2025-07-16T11:15:09.881Z",
   "decision_target_date": "19/11/2024",
   "valid_date": "28/05/2024",
   "reference_no_of_permission_being_relied_on": null,
-  "status": "Approved",
+  "status": "Completed",
   "date_building_work_completed_under_previous_permission": null,
   "lpa_name": "Havering",
   "id": "Havering-P0739.24",
@@ -134,7 +162,7 @@
       "percentage_demolition_construction_material_recycling": 0,
       "no_resi_units_to_have_full_fibre": 1,
       "no_homes_passive_cooling": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_homes_to_have_electrical_heating": 0,
       "green_roof_area": 0,
       "fire_suppression_system_proposed": false,
@@ -162,36 +190,45 @@
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 6,
-          "unit_no": "Loss-1",
+          "actual_completion_date": "16/09/2024",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 5,
           "unit_type": "House or Bungalow",
+          "no_habitable_rooms": 6,
+          "phase_detail": null,
+          "unit_no": "Loss-1",
+          "actual_commencement_date": "16/09/2024",
+          "no_bedrooms": 5,
           "provision_for_older_persons": false,
           "gia": 410,
           "tenure": "Market for sale"
         },
         {
-          "provider": "Private",
-          "no_habitable_rooms": 11,
-          "unit_no": "Gain-1",
+          "actual_completion_date": "18/06/2025",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 7,
           "unit_type": "House or Bungalow",
+          "no_habitable_rooms": 11,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": "Gain-1",
+          "actual_commencement_date": "16/09/2024",
+          "no_bedrooms": 7,
+          "provision_for_older_persons": false,
           "gia": 842,
           "tenure": "Self-Build and Custom Build"
         }
       ],
       "total_no_proposed_residential_units_london_living_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 2.5720164609053495,
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_affordable_units": 1,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 28.292181069958847,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_discount_market_rent": 0,
@@ -203,10 +240,11 @@
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_market_for_rent": 0,
       "total_no_proposed_residential_units_intermediate": 0,
-      "total_gia_gained": 842
+      "total_gia_gained": 842,
+      "site_area": 0.38880000000000003
     },
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "internal_resi_water_usage": 150,
     "green_suds": false,
     "surface_water_discharge_percentage_reduction": 40,
@@ -221,8 +259,10 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 336,
+        "actual_completion_date": "16/06/2025",
         "gia_gained": 845,
         "use_class": "C3",
+        "actual_commencement_date": "16/09/2024",
         "gia_lost": 336
       }
     ],
@@ -238,7 +278,8 @@
       "total_gia_gained": 845,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_existing": 336,
-      "total_gia_lost": 336
+      "total_gia_lost": 336,
+      "site_area": 0.38880000000000003
     },
     "site_area": 0.38880000000000003,
     "grey_water_reuse": false,
@@ -247,7 +288,19 @@
     "total_gia_existing": 336,
     "affordable_housing_fast_track": false,
     "ownership_status": "Private",
-    "total_gia_gained": 845
+    "total_gia_gained": 845,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.38880000000000003
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "ward": "Emerson Park",
   "centroid_easting": 554039,

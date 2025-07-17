@@ -36,7 +36,7 @@
     ],
     "type": "Polygon"
   },
-  "last_updated": "2025-05-23T20:00:56.624Z",
+  "last_updated": "2025-07-17T01:09:19.932Z",
   "centroid_easting": null,
   "lpa_name": "Bexley",
   "decision_agency": null,
@@ -46,14 +46,21 @@
   "status": "Application Under Consideration",
   "secondary_street_name": null,
   "appeal_start_date": null,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 2,
+    "net_car": -1,
+    "no_proposed_cycle": 2,
+    "no_proposed_car": 1,
+    "net_cycle": 2
+  },
   "bo_system": "Idox Uniform",
   "appeal_decision": null,
   "last_date_consultation_comments": "26/05/2025",
   "reference_no_of_permission_being_relied_on": null,
   "application_type_full": "Full planning permission",
   "borough": "London Borough of Bexley",
-  "description": "Erection of a two storey end of terrace dwelling with integrated garage and refuse storage following the demolition of existing garages.",
+  "description": "Erection of a two storey end of terrace dwelling with refuse storage following the demolition of existing garages.",
   "decision_date": null,
   "centroid": {
     "lat": 49.766807,
@@ -63,7 +70,7 @@
   "postcode": null,
   "actual_completion_date": null,
   "valid_date": "26/02/2025",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "id": "Bexley-25_00350_FUL",
   "lapsed_date": null,
   "application_details": {
@@ -71,14 +78,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 68.3,
-        "use_class": "SG",
         "gia_gained": 0,
+        "use_class": "SG",
         "gia_lost": 68.3
       },
       {
         "gia_existing": 0,
-        "use_class": "C3",
         "gia_gained": 105,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -125,12 +132,12 @@
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "residential_units": [
         {
-          "provider": "Private",
           "no_habitable_rooms": 4,
+          "provider": "Private",
           "unit_no": "Gain-1",
           "change_type": "Gain",
-          "unit_type": "Terraced Home",
           "no_bedrooms": 3,
+          "unit_type": "Terraced Home",
           "gia": 105,
           "tenure": "Market for sale"
         }
