@@ -1,6 +1,6 @@
 {
-  "bo_system": "CSV Data Import",
-  "last_updated": "2025-03-19T03:44:19.119+00:00",
+  "bo_system": "Portal",
+  "last_updated": "2025-07-18T14:20:36.184Z",
   "lpa_name": "Ealing",
   "decision_agency": "Borough",
   "locality": "Southall",
@@ -46,7 +46,7 @@
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 0.006634599436059048,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
@@ -55,8 +55,8 @@
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_intermediate": 0,
-      "total_no_existing_residential_units": 2,
-      "habitable_rooms_density": null,
+      "total_no_existing_residential_units": 1,
+      "habitable_rooms_density": 0.006634599436059048,
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
@@ -70,39 +70,47 @@
       "total_no_proposed_residential_units_market_for_rent": 2,
       "residential_units": [
         {
-          "unit_no": "Loss-1",
-          "change_type": "Loss",
-          "unit_type": "Communal Space",
-          "gia": 1
-        },
-        {
-          "no_habitable_rooms": 2,
-          "unit_no": "Loss-2",
+          "actual_completion_date": "09/08/2023",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 6,
           "unit_type": "Terraced Home",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": "Loss-2",
+          "actual_commencement_date": "09/08/2023",
+          "no_bedrooms": 6,
           "provision_for_older_persons": false,
           "gia": 163.52,
           "tenure": "Market for rent"
         },
         {
+          "actual_completion_date": "01/05/2024",
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 1,
           "provider": "Private",
+          "phase_detail": null,
           "unit_no": "Gain-1",
-          "change_type": "Gain",
+          "actual_commencement_date": "09/08/2023",
           "no_bedrooms": 3,
-          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
           "gia": 96,
           "tenure": "Market for rent"
         },
         {
+          "actual_completion_date": "01/05/2024",
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 1,
           "provider": "Private",
+          "phase_detail": null,
           "unit_no": "Gain-2",
-          "change_type": "Gain",
+          "actual_commencement_date": "09/08/2023",
           "no_bedrooms": 2,
-          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
           "gia": 62.18,
           "tenure": "Market for rent"
         }
@@ -113,7 +121,8 @@
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_existing_residential_units_market_for_rent": 1,
-      "affordable_percentage": 0
+      "affordable_percentage": 0,
+      "site_area": 301.45
     },
     "total_gia_existing": 163.52,
     "existing_uprns": [
@@ -124,7 +133,8 @@
       "total_gia_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_lost": 0
+      "total_gia_lost": 0,
+      "site_area": 301.45
     },
     "infrastructure_details": {
       "no_homes_passive_cooling": 0,
@@ -135,7 +145,7 @@
       "green_roof_area": 0,
       "no_new_water_connections_required": 1,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "fire_suppression_system_proposed": false,
       "ghg_reduction_over_building_regulations": false,
       "no_homes_to_have_electrical_heating": 0,
@@ -144,7 +154,7 @@
     },
     "internal_resi_water_usage": 0,
     "ownership_status": "Private",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "green_suds": false,
     "garden_land_lost": false,
     "affordable_housing_fast_track": false,
@@ -152,8 +162,10 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 163.52,
-        "use_class": "C3",
+        "actual_completion_date": "01/05/2024",
         "gia_gained": 0,
+        "use_class": "C3",
+        "actual_commencement_date": "09/08/2023",
         "gia_lost": 0
       }
     ],
@@ -161,11 +173,23 @@
     "phasing_details": [
       {
         "phase_detail": "CONVERSION",
-        "intended_completion_date": "09/2023",
-        "intended_commencement_date": "06/2023"
+        "intended_commencement_date": "06/2023",
+        "intended_completion_date": "09/2023"
       }
     ],
-    "projected_cost_of_works": "Up to £2m"
+    "projected_cost_of_works": "Up to £2m",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 301.45
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "street_name": "Maple Grove",
   "url_planning_app": "https://pam.ealing.gov.uk/online-applications/PLAN/231570FUL;",
@@ -181,18 +205,20 @@
   "decision": "Approved",
   "actual_commencement_date": null,
   "development_type": "Minor dwellings",
-  "last_updated_by": "CSV Data Import",
-  "actual_completion_date": null,
+  "last_updated_by": "Portal",
+  "actual_completion_date": "01/05/2024",
   "site_number": null,
   "id": "Ealing-231570FUL",
-  "status": "Approved",
+  "status": "Completed",
   "date_building_work_completed_under_previous_permission": null,
   "appeal_decision": null,
   "borough": "Ealing",
   "appeal_status": null,
   "date_building_work_started_under_previous_permission": null,
   "decision_target_date": "09/08/2023",
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "parking_details": {
     "net_car": 1,
     "no_proposed_cycle": 4,
@@ -202,7 +228,33 @@
     "no_proposed_car": 2
   },
   "title_number": null,
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.373205,
+          51.525632
+        ],
+        [
+          -0.373206,
+          51.525605
+        ],
+        [
+          -0.373249,
+          51.525605
+        ],
+        [
+          -0.373248,
+          51.525632
+        ],
+        [
+          -0.373205,
+          51.525632
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "lapsed_date": "09/08/2026",
   "decision_date": "09/08/2023"
 }
