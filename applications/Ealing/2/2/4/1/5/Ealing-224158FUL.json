@@ -1,8 +1,8 @@
 {
-  "cil_liability": true,
-  "last_updated": "2025-03-20T14:54:06.164+00:00",
+  "cil_liability": false,
+  "last_updated": "2025-07-21T13:31:22.346Z",
   "application_details": {
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "building_details": [
       {
         "no_storeys": 3,
@@ -23,10 +23,10 @@
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 102,
       "green_roof_area": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_new_water_connections_required": 0,
       "percentage_demolition_construction_material_recycling": 100,
-      "fire_suppression_system_proposed": true,
+      "fire_suppression_system_proposed": false,
       "urban_greening_factor_score": 21,
       "mobile_network_operators_consultation": false,
       "no_homes_to_have_electrical_heating": 0,
@@ -44,14 +44,18 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 197,
-        "use_class": "C3",
+        "actual_completion_date": "09/01/2023",
         "gia_gained": 0,
+        "use_class": "C3",
+        "actual_commencement_date": "09/01/2023",
         "gia_lost": 0
       },
       {
         "gia_existing": 0,
-        "use_class": "C4",
+        "actual_completion_date": "01/05/2024",
         "gia_gained": 67,
+        "use_class": "C4",
+        "actual_commencement_date": "09/01/2023",
         "gia_lost": 0
       }
     ],
@@ -65,20 +69,21 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 67,
       "total_gia_existing": 197,
-      "total_gia_lost": 0
+      "total_gia_lost": 0,
+      "site_area": 0.044000000000000004
     },
     "garden_land_lost": false,
     "residential_details": {
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units_london_living_rent": 0,
-      "total_no_proposed_bedrooms": 7,
+      "total_no_proposed_bedrooms": 8,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "total_no_proposed_residential_units_market_for_rent": 1,
+      "total_no_proposed_residential_units_market_for_rent": 2,
       "total_no_proposed_residential_units_social_rent": 0,
-      "total_no_proposed_residential_units": 1,
+      "total_no_proposed_residential_units": 2,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
@@ -98,40 +103,77 @@
       "total_no_existing_residential_units_starter_homes": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 8,
-          "unit_no": "Loss-1",
+          "actual_completion_date": "09/01/2023",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 5,
           "unit_type": "Terraced Home",
+          "provider": "Private",
+          "no_habitable_rooms": 8,
+          "phase_detail": null,
+          "unit_no": "Loss-1",
+          "actual_commencement_date": "09/01/2023",
+          "no_bedrooms": 5,
           "provision_for_older_persons": false,
           "gia": 197,
           "tenure": "Market for rent"
         },
         {
-          "no_habitable_rooms": 9,
-          "provider": "Housing Association",
-          "unit_no": "Gain-1",
+          "actual_completion_date": "01/05/2024",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 7,
           "unit_type": "HMO",
+          "provider": "Private",
+          "no_habitable_rooms": 9,
+          "phase_detail": null,
+          "unit_no": "Gain-1",
+          "actual_commencement_date": "09/01/2023",
+          "no_bedrooms": 7,
+          "provision_for_older_persons": false,
           "gia": 200,
+          "tenure": "Market for rent"
+        },
+        {
+          "actual_completion_date": "01/05/2024",
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Gain",
+          "actual_commencement_date": "09/01/2023",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
+          "gia": null,
           "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 1,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 204.54545454545453,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_gia_gained": 200,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "affordable_percentage": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 45.45454545454545,
       "total_no_existing_residential_units": 1,
-      "total_no_existing_residential_units_intermediate": 0
+      "total_no_existing_residential_units_intermediate": 0,
+      "site_area": 0.044000000000000004
     },
-    "projected_cost_of_works": "Up to £2m"
+    "projected_cost_of_works": "Up to £2m",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.044000000000000004
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "decision_target_date": "09/01/2023",
   "parking_details": {
@@ -142,7 +184,7 @@
   "postcode": "UB6 0BX",
   "appeal_decision_date": null,
   "locality": "Greenford",
-  "status": "Approved",
+  "status": "Completed",
   "centroid_easting": 514541,
   "lapsed_date": "09/01/2026",
   "reference_no_of_permission_being_relied_on": null,
@@ -286,17 +328,17 @@
   "ward": "Central Greenford",
   "lpa_app_no": "224158FUL",
   "pp_id": "PP-11317270",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "borough": "Ealing",
   "valid_date": "29/09/2022",
   "title_number": null,
   "decision_agency": "Borough",
   "uprn": "000012054013",
   "appeal_start_date": null,
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "appeal_decision": null,
   "last_date_consultation_comments": null,
-  "actual_completion_date": null,
+  "actual_completion_date": "01/05/2024",
   "application_type_full": "Full planning permission",
   "application_type": "All Other",
   "appeal_status": null,
@@ -310,136 +352,136 @@
     "coordinates": [
       [
         [
-          -0.34920439999999997,
-          51.5510102
+          -0.349226,
+          51.551009
         ],
         [
-          -0.34930069999999996,
-          51.5509399
+          -0.349323,
+          51.550939
         ],
         [
-          -0.349357,
-          51.5509695
+          -0.349379,
+          51.550968
         ],
         [
-          -0.349365,
-          51.5509738
+          -0.349387,
+          51.550973
         ],
         [
-          -0.34949379999999997,
-          51.551043
+          -0.349516,
+          51.551042
         ],
         [
-          -0.3495412,
-          51.5510679
+          -0.349563,
+          51.551067
         ],
         [
-          -0.3495511,
-          51.5510739
+          -0.349573,
+          51.551073
         ],
         [
-          -0.34955749999999997,
-          51.5510789
+          -0.349579,
+          51.551078
         ],
         [
-          -0.3495645,
-          51.5510858
+          -0.349586,
+          51.551085
         ],
         [
-          -0.34957269999999996,
-          51.5510953
+          -0.349595,
+          51.551094
         ],
         [
-          -0.34957889999999997,
-          51.5511053
+          -0.349601,
+          51.551104
         ],
         [
-          -0.3495815,
-          51.5511112
+          -0.349603,
+          51.55111
         ],
         [
-          -0.3495821,
-          51.5511143
+          -0.349604,
+          51.551113
         ],
         [
-          -0.3495833,
-          51.551122
+          -0.349605,
+          51.551121
         ],
         [
-          -0.34958239999999996,
-          51.5511256
+          -0.349604,
+          51.551124
         ],
         [
-          -0.34958229999999996,
-          51.5511278
+          -0.349604,
+          51.551127
         ],
         [
-          -0.3495815,
-          51.551131
+          -0.349603,
+          51.55113
         ],
         [
-          -0.34957849999999996,
-          51.5511363
+          -0.3496,
+          51.551135
         ],
         [
-          -0.34957699999999997,
-          51.5511385
+          -0.349599,
+          51.551137
         ],
         [
-          -0.3495716,
-          51.5511443
+          -0.349594,
+          51.551143
         ],
         [
-          -0.3495658,
-          51.5511492
+          -0.349588,
+          51.551148
         ],
         [
-          -0.3495232,
-          51.551181
+          -0.349545,
+          51.55118
         ],
         [
-          -0.349505,
-          51.5511946
+          -0.349527,
+          51.551194
         ],
         [
-          -0.349476,
-          51.5512162
+          -0.349498,
+          51.551215
         ],
         [
-          -0.3494102,
-          51.5511816
+          -0.349432,
+          51.55118
         ],
         [
-          -0.3493303,
-          51.5511396
+          -0.349352,
+          51.551138
         ],
         [
-          -0.34927149999999996,
-          51.5511082
+          -0.349293,
+          51.551107
         ],
         [
-          -0.3491951,
-          51.5510685
+          -0.349217,
+          51.551067
         ],
         [
-          -0.34918309999999997,
-          51.5510618
+          -0.349205,
+          51.551061
         ],
         [
-          -0.3491548,
-          51.5510463
+          -0.349177,
+          51.551045
         ],
         [
-          -0.34920439999999997,
-          51.5510102
+          -0.349226,
+          51.551009
         ]
       ]
     ],
     "type": "Polygon"
   },
   "centroid": {
-    "lat": "51.5510764",
-    "lon": "-0.34937799999999997"
+    "lat": 51.551075,
+    "lon": -0.3494
   },
   "epc_number": null,
   "url_planning_app": "https://pam.ealing.gov.uk/online-applications/PLAN/224158FUL;",
