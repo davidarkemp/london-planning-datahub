@@ -7,7 +7,7 @@
   "lapsed_date": "10/05/2027",
   "decision_date": "10/05/2024",
   "lpa_app_no": "241032FUL",
-  "status": "Approved",
+  "status": "Completed",
   "parking_details": {
     "no_existing_cycle": 0,
     "no_proposed_cycle": 4,
@@ -20,10 +20,10 @@
   "application_type": "All Other",
   "borough": "Ealing",
   "decision_process": "Delegated",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "last_date_consultation_comments": null,
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated": "2025-03-19T22:28:09.621+00:00",
+  "last_updated": "2025-07-22T12:16:09.771Z",
   "locality": "Southall",
   "date_building_work_completed_under_previous_permission": null,
   "description": "Conversion of dwellinghouse into two self-contained residential units; and provision of associated amenity space; boundary treatments; refuse and cycle storage",
@@ -34,8 +34,8 @@
   "secondary_street_name": null,
   "url_planning_app": "https://pam.ealing.gov.uk/online-applications/PLAN/241032FUL;",
   "site_number": null,
-  "actual_completion_date": null,
-  "bo_system": "CSV Data Import",
+  "actual_completion_date": "25/06/2024",
+  "bo_system": "Portal",
   "application_details": {
     "infrastructure_details": {
       "no_new_gas_connections_required": 4,
@@ -49,15 +49,17 @@
       "no_homes_to_have_electrical_heating": 0,
       "green_roof_area": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "total_annual_nox_emissions": 0
     },
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 139.16,
-        "use_class": "C3",
+        "actual_completion_date": "10/05/2024",
         "gia_gained": 0,
+        "use_class": "C3",
+        "actual_commencement_date": "10/05/2024",
         "gia_lost": 0
       }
     ],
@@ -70,7 +72,7 @@
     ],
     "total_gia_existing": 139.16,
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "grey_water_reuse": false,
     "internal_resi_water_usage": 0,
     "site_area": 0.015887,
@@ -101,39 +103,53 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 2,
-          "unit_no": "Loss-1",
+          "actual_completion_date": "10/05/2024",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 5,
           "unit_type": "Terraced Home",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": "Loss-1",
+          "actual_commencement_date": "10/05/2024",
+          "no_bedrooms": 5,
           "provision_for_older_persons": false,
           "gia": 139.16,
           "tenure": "Market for rent"
         },
         {
-          "no_habitable_rooms": 1,
-          "provider": "Private",
-          "unit_no": "Gain-1",
+          "actual_completion_date": "25/06/2024",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "provider": "Private",
+          "no_habitable_rooms": 1,
+          "phase_detail": null,
+          "unit_no": "Gain-1",
+          "actual_commencement_date": "10/05/2024",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "gia": 62.14,
           "tenure": "Market for rent"
         },
         {
-          "no_habitable_rooms": 1,
-          "provider": "Private",
-          "unit_no": "Gain-2",
+          "actual_completion_date": "25/06/2024",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "provider": "Private",
+          "no_habitable_rooms": 1,
+          "phase_detail": null,
+          "unit_no": "Gain-2",
+          "actual_commencement_date": "10/05/2024",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "gia": 68.68,
           "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 1,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 125.88909171020332,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
@@ -146,14 +162,15 @@
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 125.88909171020332,
       "total_no_existing_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_market_for_rent": 2,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "total_no_existing_residential_units_social_rent": 0
+      "total_no_existing_residential_units_social_rent": 0,
+      "site_area": 0.015887
     },
     "surface_water_discharge_percentage_reduction": 0,
     "non_residential_details": {
@@ -161,14 +178,53 @@
       "total_gia_lost": 0,
       "total_gia_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_existing": 139.16
+      "total_gia_existing": 139.16,
+      "site_area": 0.015887
     },
     "ownership_status": "Private",
-    "green_suds": false
+    "green_suds": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.015887
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "pp_id": "PP-12874522",
   "postcode": "UB1 1BT",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.382135,
+          51.507141
+        ],
+        [
+          -0.382136,
+          51.507114
+        ],
+        [
+          -0.382179,
+          51.507115
+        ],
+        [
+          -0.382178,
+          51.507142
+        ],
+        [
+          -0.382135,
+          51.507141
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "cil_liability": false,
   "street_name": "Lewis Road",
   "decision_conditions": [
@@ -189,7 +245,9 @@
   "appeal_status": null,
   "decision": "Approved",
   "lpa_name": "Ealing",
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "appeal_start_date": null,
   "uprn": "000012026595",
   "appeal_decision_date": null,

@@ -139,16 +139,16 @@
   "subdivision_of_building": null,
   "valid_date": "09/05/2021",
   "decision_target_date": "18/08/2023",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "actual_commencement_date": null,
   "centroid": {
-    "lat": "51.5219193",
-    "lon": "-0.3043199"
+    "lat": 51.521918,
+    "lon": -0.304342
   },
   "site_number": null,
   "decision": "Approved",
-  "status": "Approved",
-  "last_updated_by": "CSV Data Import",
+  "status": "Completed",
+  "last_updated_by": "Portal",
   "application_details": {
     "phasing_details": [
       {
@@ -197,19 +197,22 @@
       "total_gia_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_existing": 518,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "site_area": 0.066
     },
     "site_area": 0.066,
     "total_gia_lost": 35,
     "total_gia_gained": 0,
     "garden_land_lost": false,
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 518,
-        "use_class": "C3",
+        "actual_completion_date": "16/08/2023",
         "gia_gained": 0,
+        "use_class": "C3",
+        "actual_commencement_date": "16/08/2023",
         "gia_lost": 35
       }
     ],
@@ -227,7 +230,7 @@
       "no_homes_passive_cooling": 0,
       "total_annual_nox_emissions": 0,
       "percentage_demolition_construction_material_recycling": 60,
-      "waste_provision": true,
+      "waste_provision": false,
       "mobile_network_operators_consultation": false
     },
     "residential_details": {
@@ -238,8 +241,8 @@
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_existing_residential_units": 0,
-      "total_no_existing_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_units": 1,
+      "total_no_existing_residential_units_market_for_sale": 1,
       "total_no_proposed_bedrooms": 8,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
@@ -250,10 +253,10 @@
       "total_gia_gained": 458,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 3,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 227.27272727272725,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_existing_residential_affordable_units": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 75.75757575757575,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_shared_equity": 0,
@@ -262,53 +265,92 @@
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 6,
-          "provider": "Private",
-          "unit_no": "Gain-1",
+          "actual_completion_date": "25/09/2024",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 3,
           "unit_type": "Flat Apartment Maisonette",
+          "provider": "Private",
+          "no_habitable_rooms": 6,
+          "phase_detail": null,
+          "unit_no": "Gain-1",
+          "actual_commencement_date": "16/08/2023",
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
           "gia": 210,
           "tenure": "Market for sale"
         },
         {
-          "no_habitable_rooms": 2,
-          "provider": "Private",
-          "unit_no": "Gain-2",
+          "actual_completion_date": "25/09/2024",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": "Gain-2",
+          "actual_commencement_date": "16/08/2023",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "gia": 50,
           "tenure": "Market for sale"
         },
         {
-          "no_habitable_rooms": 2,
-          "provider": "Private",
-          "unit_no": "Gain-3",
+          "actual_completion_date": "25/09/2024",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": "Gain-3",
+          "actual_commencement_date": "16/08/2023",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "gia": 58,
           "tenure": "Market for rent"
         },
         {
-          "no_habitable_rooms": 2,
-          "provider": "Private",
-          "unit_no": "Gain-4",
+          "actual_completion_date": "25/09/2024",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": "Gain-4",
+          "actual_commencement_date": "16/08/2023",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "gia": 51,
           "tenure": "Market for rent"
         },
         {
-          "no_habitable_rooms": 3,
-          "provider": "Private",
-          "unit_no": "Gain-5",
+          "actual_completion_date": "25/09/2024",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": "Gain-5",
+          "actual_commencement_date": "16/08/2023",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "gia": 89,
+          "tenure": "Market for sale"
+        },
+        {
+          "actual_completion_date": "16/08/2023",
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Loss",
+          "actual_commencement_date": "16/08/2023",
+          "no_bedrooms": 8,
+          "unit_type": "House or Bungalow",
+          "provision_for_older_persons": false,
+          "gia": null,
           "tenure": "Market for sale"
         }
       ],
@@ -320,18 +362,31 @@
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units_social_rent": 0,
-      "total_no_proposed_residential_units_discount_market_rent": 0
+      "total_no_proposed_residential_units_discount_market_rent": 0,
+      "site_area": 0.066
     },
     "surface_water_discharge_percentage_reduction": 50,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.066
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "uprn": "12085328",
   "url_planning_app": "https://pam.ealing.gov.uk/online-applications/PLAN/213300FUL;",
-  "last_updated": "2025-03-19T03:07:51.614+00:00",
+  "last_updated": "2025-07-22T12:53:21.325Z",
   "application_type": "All Other",
   "description": "Conversion of the existing property into five self-contained residential units (following part demolition of existing outbuilding); provision of car parking, landscaping and refuse",
   "epc_number": "8501-5760-3029-2407-4823",
-  "actual_completion_date": null,
+  "actual_completion_date": "25/09/2024",
   "decision_conditions": [
     "The development to which this permission relates shall be begun not later than the expiration of three years from the date of this permission.",
     "Reason: To comply with Section 91 of the Town & Country Planning Act 1990. | The development hereby approved shall be carried out in accordance with the following drawings and documents: Site Location Plan; A1 received 11.05.2023 (Ground Floor & Basement - Existing); A2 (First & Second Floor - Existing); A3 (Rear & Front Elevations - Existing); A4 (South Side Elevation - Existing); A5 (North Side Elevation - Existing); A6 (Outbuilding - Existing Elevations); A7 (Section A-A' - Existing); A1 (Block, Roof Plan & Parking - Proposed); A2 (Ground Floor - Proposed); A3 (First & Second Floor - Proposed); A4 (South Elevation - Proposed); A5 (North Elevation - Proposed); A6 (Rear & Front Elevations - Proposed); A7 (Outbuilding - Proposed Elevations) A7 (Section A - Proposed).",
@@ -357,92 +412,92 @@
     "coordinates": [
       [
         [
-          -0.304181,
-          51.5218787
+          -0.304204,
+          51.521878
         ],
         [
-          -0.30456869999999997,
-          51.5217804
+          -0.304591,
+          51.521779
         ],
         [
-          -0.3045978,
-          51.5218302
+          -0.30462,
+          51.521829
         ],
         [
-          -0.3046291,
-          51.5218887
+          -0.304652,
+          51.521888
         ],
         [
-          -0.3046403,
-          51.5219095
+          -0.304663,
+          51.521908
         ],
         [
-          -0.30449909999999997,
-          51.5219452
+          -0.304522,
+          51.521944
         ],
         [
-          -0.3043885,
-          51.5219733
+          -0.304411,
+          51.521972
         ],
         [
-          -0.30436799999999997,
-          51.5219786
+          -0.304391,
+          51.521978
         ],
         [
-          -0.3042894,
-          51.5219986
+          -0.304312,
+          51.521998
         ],
         [
-          -0.3042042,
-          51.5220202
+          -0.304227,
+          51.522019
         ],
         [
-          -0.30405099999999996,
-          51.5220593
+          -0.304074,
+          51.522058
         ],
         [
-          -0.3040462,
-          51.5220497
+          -0.304069,
+          51.522049
         ],
         [
-          -0.30404159999999997,
-          51.5220397
+          -0.304064,
+          51.522039
         ],
         [
-          -0.30403359999999996,
-          51.5220221
+          -0.304056,
+          51.522021
         ],
         [
-          -0.3040249,
-          51.522004
+          -0.304047,
+          51.522003
         ],
         [
-          -0.30401619999999996,
-          51.5219845
+          -0.304039,
+          51.521984
         ],
         [
-          -0.304009,
-          51.5219651
+          -0.304032,
+          51.521964
         ],
         [
-          -0.3040039,
-          51.521948
+          -0.304026,
+          51.521947
         ],
         [
-          -0.3039996,
-          51.5219308
+          -0.304022,
+          51.52193
         ],
         [
-          -0.3039982,
-          51.5219249
+          -0.304021,
+          51.521924
         ],
         [
-          -0.3041216,
-          51.5218937
+          -0.304144,
+          51.521893
         ],
         [
-          -0.304181,
-          51.5218787
+          -0.304204,
+          51.521878
         ]
       ]
     ],

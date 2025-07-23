@@ -5,20 +5,46 @@
   "centroid_northing": 180675,
   "site_number": null,
   "date_building_work_started_under_previous_permission": null,
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "site_name": "16 South Avenue",
   "appeal_decision_date": null,
   "valid_date": "07/09/2023",
   "decision_date": "02/04/2024",
-  "wgs84_polygon": null,
-  "last_updated_by": "CSV Data Import",
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.378728,
+          51.513802
+        ],
+        [
+          -0.378729,
+          51.513775
+        ],
+        [
+          -0.378772,
+          51.513776
+        ],
+        [
+          -0.378771,
+          51.513803
+        ],
+        [
+          -0.378728,
+          51.513802
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "last_updated_by": "Portal",
   "appeal_start_date": null,
   "reference_no_of_permission_being_relied_on": null,
   "application_type": "All Other",
   "decision_process": "Delegated",
   "application_details": {
     "total_gia_lost": 0,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "total_gia_existing": 169,
     "total_gia_gained": 0,
     "projected_cost_of_works": "Up to £2m",
@@ -31,45 +57,67 @@
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units": 3,
-      "dwelling_density": 0,
+      "dwelling_density": 93.75,
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 3,
-          "unit_no": "Loss-1",
+          "actual_completion_date": "02/04/2024",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 3,
           "unit_type": "Semi Detached Home",
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": "Loss-1",
+          "actual_commencement_date": "02/04/2024",
+          "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "gia": 169
+          "gia": 169,
+          "tenure": "Market for sale"
         },
         {
-          "no_habitable_rooms": 2,
+          "actual_completion_date": "20/08/2024",
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "provider": "Private",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
           "unit_no": "Gain-1",
-          "change_type": "Gain",
+          "actual_commencement_date": "02/04/2024",
           "no_bedrooms": 1,
-          "unit_type": "Flat Apartment Maisonette",
-          "gia": 51
+          "provision_for_older_persons": false,
+          "gia": 51,
+          "tenure": "Market for sale"
         },
         {
-          "no_habitable_rooms": 2,
+          "actual_completion_date": "20/08/2024",
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "provider": "Private",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
           "unit_no": "Gain-2",
-          "change_type": "Gain",
+          "actual_commencement_date": "02/04/2024",
           "no_bedrooms": 1,
-          "unit_type": "Flat Apartment Maisonette",
-          "gia": 51
+          "provision_for_older_persons": false,
+          "gia": 51,
+          "tenure": "Market for sale"
         },
         {
-          "no_habitable_rooms": 2,
           "provider": "Private",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
           "unit_no": "Gain-3",
+          "description": null,
           "change_type": "Gain",
           "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 51
+          "provision_for_older_persons": false,
+          "gia": 51,
+          "tenure": "Market for sale"
         }
       ],
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -78,7 +126,7 @@
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 187.5,
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
@@ -96,15 +144,16 @@
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
-      "total_no_existing_residential_units_market_for_sale": 0,
-      "total_no_proposed_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_units_market_for_sale": 1,
+      "total_no_proposed_residential_units_market_for_sale": 3,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0
+      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "site_area": 0.032
     },
     "infrastructure_details": {
       "no_new_water_connections_required": 2,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_non_resi_units_to_have_full_fibre": 0,
       "no_resi_units_to_have_full_fibre": 3,
       "percentage_demolition_construction_material_recycling": 0,
@@ -114,7 +163,7 @@
       "total_annual_pm_emissions": 0,
       "total_annual_nox_emissions": 0,
       "fire_suppression_system_proposed": false,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "green_roof_area": 0,
       "no_homes_passive_cooling": 0
     },
@@ -124,8 +173,10 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 169,
-        "use_class": "C3",
+        "actual_completion_date": "02/04/2024",
         "gia_gained": 0,
+        "use_class": "C3",
+        "actual_commencement_date": "02/04/2024",
         "gia_lost": 0
       }
     ],
@@ -134,7 +185,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_existing": 169
+      "total_gia_existing": 169,
+      "site_area": 0.032
     },
     "existing_uprns": [
       "000012030219"
@@ -150,14 +202,26 @@
     "surface_water_discharge_percentage_reduction": 0,
     "affordable_housing_fast_track": false,
     "site_area": 0.032,
-    "garden_land_lost": false
+    "garden_land_lost": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.032
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "appeal_decision": null,
   "postcode": "UB1 2AH",
   "development_type": "Minor dwellings",
   "title_number": null,
   "centroid_easting": 512598,
-  "actual_commencement_date": null,
+  "actual_commencement_date": "02/04/2024",
   "description": "Conversion of existing house into 3 self-contained flats, development of front porch and provision of associated car parking, cycle storage and refuse storage facilities.",
   "decision": "Approved",
   "actual_completion_date": null,
@@ -173,7 +237,7 @@
   "id": "Ealing-233818FUL",
   "application_type_full": "Full planning permission",
   "cil_liability": false,
-  "status": "Approved",
+  "status": "Commenced",
   "date_building_work_completed_under_previous_permission": null,
   "secondary_street_name": null,
   "decision_agency": "Borough",
@@ -201,9 +265,11 @@
     "no_existing_car": 2,
     "no_proposed_car": 2
   },
-  "last_updated": "2025-03-20T11:26:09.572+00:00",
+  "last_updated": "2025-07-22T12:25:25.181Z",
   "appeal_status": null,
   "street_name": "South Avenue",
   "ward": "Dormers Wells",
-  "polygon": null
+  "polygon": {
+    "type": "geometrycollection"
+  }
 }
