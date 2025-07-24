@@ -1,14 +1,14 @@
 {
-  "cil_liability": true,
+  "cil_liability": false,
   "centroid": {
     "lat": 51.528943,
     "lon": -0.020313
   },
   "uprn": "6070820",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "borough": "Tower Hamlets",
   "description": "First floor extension and conversion of existing garage to a 2 bedroom dwelling.",
-  "street_name": null,
+  "street_name": "",
   "id": "Tower_Hamlets-PA_21_00817_A1",
   "decision_target_date": "14/07/2021",
   "decision_date": "14/07/2021",
@@ -24,8 +24,8 @@
     "phasing_details": [
       {
         "phase_detail": "single",
-        "intended_commencement_date": "07/2021",
-        "intended_completion_date": "01/2022"
+        "intended_completion_date": "01/2022",
+        "intended_commencement_date": "07/2021"
       }
     ],
     "total_gia_gained": 80.1,
@@ -35,18 +35,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 46.7,
-        "superseded_date": null,
-        "actual_completion_date": null,
         "gia_gained": 80.1,
         "use_class": "C3",
-        "actual_commencement_date": null,
-        "superseded_by_lpa_app_no": null,
         "gia_lost": 46.7
       }
     ],
     "projected_cost_of_works": "Up to £2m",
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "grey_water_reuse": false,
     "building_details": [
       {
@@ -55,7 +51,7 @@
         "building_ref": "unit"
       }
     ],
-    "green_suds": true,
+    "green_suds": false,
     "surface_water_discharge_percentage_reduction": 0,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
@@ -64,7 +60,7 @@
       "total_gia_lost": 46.7,
       "total_gia_existing": 46.7,
       "development_type": null,
-      "site_area": null
+      "site_area": 0.0048
     },
     "garden_land_lost": false,
     "infrastructure_details": {
@@ -75,7 +71,7 @@
       "no_new_water_connections_required": 1,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_to_have_electrical_heating": 1,
       "mobile_network_operators_consultation": false,
@@ -116,13 +112,13 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 625,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 88,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 416.6666666666667,
       "total_gia_lost": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -135,68 +131,44 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
-          "description": null,
-          "change_type": "Gain",
-          "m42_compliant": null,
-          "garden_land": null,
-          "sheltered_accommodation": null,
-          "unit_type": "Communal Space",
-          "unit_development_type": null,
-          "superseded_date": null,
-          "no_habitable_rooms": null,
           "provider": "Private",
           "phase_detail": null,
           "unit_no": "Gain-1",
-          "actual_commencement_date": null,
-          "no_bedrooms": null,
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Communal Space",
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
-          "tenure": null,
           "gia": 8
         },
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
-          "description": null,
-          "change_type": "Gain",
-          "m42_compliant": null,
-          "garden_land": null,
-          "sheltered_accommodation": null,
-          "unit_type": "House or Bungalow",
-          "unit_development_type": null,
-          "superseded_date": null,
-          "no_habitable_rooms": 3,
+          "actual_completion_date": "29/08/2024",
           "provider": "Private",
+          "no_habitable_rooms": 3,
           "phase_detail": null,
           "unit_no": "Gain-2",
-          "actual_commencement_date": null,
+          "description": null,
+          "change_type": "Gain",
           "no_bedrooms": 2,
+          "unit_type": "House or Bungalow",
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
-          "tenure": "Market for rent",
-          "gia": 80
+          "gia": 80,
+          "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
-      "site_area": null
+      "site_area": 0.0048
     },
     "internal_resi_water_usage": 110,
     "ownership_status": "Private",
-    "s106_agreement": null,
+    "s106_agreement": false,
     "affordable_housing_inlieu_payment": null,
-    "air_quality_assessment": null,
+    "air_quality_assessment": false,
     "other_contributions": null,
     "intended_commencement_date": null,
     "no_affordable_housing_units_provided_offsite": null,
-    "circular_economy_statement": null,
-    "commencement_notice_received": null,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
     "qualifying_vacant_building_floorspace": null,
     "open_and_protected_space_details": {
       "protected_space_count": 0,
@@ -212,23 +184,23 @@
     "constraints_details": [],
     "superseding_details": [],
     "lead_registered_social_landlord": null,
-    "viability_assessment": null,
+    "viability_assessment": false,
     "overseas_company_registration_no": null,
-    "mayoral_cil_liability_notice_issued": null,
+    "mayoral_cil_liability_notice_issued": false,
     "intended_completion_date": null,
     "non_permanent_dwellings_details": [],
     "other_residential_accommodation_details": {
       "no_council_tax_rateable_units_gained": null,
       "no_council_tax_rateable_units_lost": null,
-      "site_area": null,
+      "site_area": 0.0048,
       "other_resi_accommodation_unit_details": []
     },
     "uk_company_registration_no": null,
-    "3d_model": null,
+    "3d_model": false,
     "transport_contributions": null,
     "no_affordable_housing_units_acquired_offsite": null,
-    "borough_cil_liability_notice_issued": null,
-    "transport_impact_assessment": null,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
     "scheme_name": null,
     "social_infrastructure_contributions": null,
     "lead_developer_company_name": null
@@ -271,17 +243,17 @@
     "EGL346842"
   ],
   "centroid_easting": 537423,
-  "last_updated": "2025-06-03T19:59:39.302Z",
+  "last_updated": "2025-07-23T11:48:27.023Z",
   "appeal_start_date": null,
   "decision": "Approved",
   "site_number": null,
-  "postcode": null,
+  "postcode": "",
   "secondary_street_name": null,
   "site_name": "9A Fairfield Road, London, E3 2QA",
   "valid_date": "13/04/2021",
-  "status": "Lapsed",
+  "status": "Commenced",
   "decision_process": null,
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "actual_commencement_date": null,
   "appeal_decision_date": null,
   "epc_number": null,
@@ -295,6 +267,34 @@
   "appeal_decision": null,
   "decision_agency": null,
   "last_date_consultation_comments": null,
-  "polygon": null,
-  "wgs84_polygon": null
+  "polygon": {
+    "type": "geometrycollection"
+  },
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.02029,
+          51.528956
+        ],
+        [
+          -0.020291,
+          51.528929
+        ],
+        [
+          -0.020335,
+          51.52893
+        ],
+        [
+          -0.020334,
+          51.528957
+        ],
+        [
+          -0.02029,
+          51.528956
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  }
 }

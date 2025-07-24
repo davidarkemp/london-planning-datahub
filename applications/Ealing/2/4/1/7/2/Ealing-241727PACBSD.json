@@ -19,7 +19,7 @@
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "affordable_percentage": 0,
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_proposed_residential_units": 2,
+      "total_no_proposed_residential_units": 1,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
@@ -45,18 +45,17 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
-          "unit_no": "Gain-1",
+          "actual_completion_date": "10/10/2024",
+          "description": null,
           "change_type": "Gain",
-          "unit_type": "Communal Space",
-          "gia": 102
-        },
-        {
-          "no_habitable_rooms": 5,
-          "provider": "Private",
-          "unit_no": "Gain-2",
-          "change_type": "Gain",
-          "no_bedrooms": 3,
           "unit_type": "Flat Apartment Maisonette",
+          "provider": "Private",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": "Gain-2",
+          "actual_commencement_date": "24/06/2024",
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
           "gia": 102,
           "tenure": "Market for rent"
         }
@@ -69,7 +68,7 @@
       "total_annual_pm_emissions": 0,
       "ghg_reduction_over_building_regulations": false,
       "no_new_gas_connections_required": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_homes_passive_cooling": 0,
       "no_homes_to_have_electrical_heating": 1,
       "percentage_demolition_construction_material_recycling": 0,
@@ -84,20 +83,26 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 102,
-        "use_class": "C3",
+        "actual_completion_date": "10/10/2024",
         "gia_gained": 102,
+        "use_class": "C3",
+        "actual_commencement_date": "24/06/2024",
         "gia_lost": 0
       },
       {
         "gia_existing": 102,
-        "use_class": "E(e)",
+        "actual_completion_date": "10/10/2024",
         "gia_gained": 0,
+        "use_class": "E(e)",
+        "actual_commencement_date": "24/06/2024",
         "gia_lost": 0
       },
       {
         "gia_existing": 441,
-        "use_class": "E(a)",
+        "actual_completion_date": "10/10/2024",
         "gia_gained": 0,
+        "use_class": "E(a)",
+        "actual_commencement_date": "24/06/2024",
         "gia_lost": 0
       }
     ],
@@ -111,9 +116,36 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0
     },
     "total_gia_existing": 645,
-    "intended_commencement_date": "04/2024"
+    "intended_commencement_date": "04/2024",
+    "resi_extension_exempt": false
   },
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.316187,
+          51.511276
+        ],
+        [
+          -0.316188,
+          51.511249
+        ],
+        [
+          -0.316231,
+          51.511249
+        ],
+        [
+          -0.316231,
+          51.511276
+        ],
+        [
+          -0.316187,
+          51.511276
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "site_name": "151 - 153A Second Floor",
   "centroid_easting": 516944,
   "site_number": null,
@@ -121,7 +153,7 @@
   "decision_date": "24/06/2024",
   "appeal_start_date": null,
   "lapsed_date": "24/06/2027",
-  "status": "Approved",
+  "status": "Completed",
   "decision_process": "Delegated",
   "epc_number": null,
   "appeal_status": null,
@@ -143,30 +175,32 @@
   ],
   "reference_no_of_permission_being_relied_on": null,
   "street_name": "Uxbridge Road",
-  "actual_completion_date": null,
+  "actual_completion_date": "10/10/2024",
   "subdivision_of_building": null,
   "centroid": {
     "lon": -0.316209,
     "lat": 51.511262
   },
-  "cil_liability": true,
+  "cil_liability": false,
   "valid_date": "29/04/2024",
   "postcode": "W13 9AU",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "borough": "Ealing",
   "id": "Ealing-241727PACBSD",
   "application_type": "Prior Approval",
   "parking_details": null,
   "decision_target_date": "24/06/2024",
   "pp_id": "PP-13021608",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "locality": "London",
   "uprn": "000012113907",
   "last_date_consultation_comments": null,
   "title_number": null,
   "decision": "Approved",
-  "last_updated": "2025-03-19T20:39:47.263+00:00",
-  "polygon": null,
+  "last_updated": "2025-07-23T10:55:18.060Z",
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "date_building_work_started_under_previous_permission": null,
   "actual_commencement_date": null,
   "ward": "Walpole",
