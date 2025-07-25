@@ -1,7 +1,7 @@
 {
   "locality": null,
   "subdivision_of_building": "Side Garden to No 209 Alma Avenue, Hornchurch, RM12 6BJ which is currently occupied with a garden structure/storage ",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "CSV Data Import",
   "date_building_work_started_under_previous_permission": null,
   "development_type": null,
   "valid_date": "09/07/2025",
@@ -9,7 +9,7 @@
   "centroid_easting": 554601,
   "ward": "Hacton",
   "date_building_work_completed_under_previous_permission": null,
-  "last_updated": "2025-07-24T01:39:05.509Z",
+  "last_updated": "2025-07-24T03:59:12.592Z",
   "epc_number": "9551-2844-7201-9623-8765",
   "wgs84_polygon": null,
   "application_type": "All Other",
@@ -89,10 +89,10 @@
     "projected_cost_of_works": "Up to £2m",
     "existing_proposed_floorspace_details": [
       {
+        "gia_existing": 29,
         "gia_gained": 95,
         "use_class": "C3",
-        "gia_lost": 29,
-        "gia_existing": 29
+        "gia_lost": 29
       }
     ],
     "existing_uprns": null,
@@ -100,9 +100,9 @@
     "scheme_phasing": true,
     "phasing_details": [
       {
-        "intended_completion_date": "06/2026",
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "01/2026"
+        "intended_commencement_date": "01/2026",
+        "intended_completion_date": "06/2026"
       }
     ],
     "green_suds": false,
@@ -146,18 +146,18 @@
         {
           "unit_no": "Gain-1",
           "change_type": "Gain",
-          "gia": 95,
-          "unit_type": "Communal Space"
+          "unit_type": "Communal Space",
+          "gia": 95
         },
         {
           "provider": "Private",
-          "unit_type": "Terraced Home",
           "no_habitable_rooms": 5,
           "unit_no": "Gain-2",
-          "gia": 95,
           "change_type": "Gain",
-          "tenure": "Affordable Rent (not at LAR benchmark rents)",
-          "no_bedrooms": 3
+          "unit_type": "Terraced Home",
+          "no_bedrooms": 3,
+          "gia": 95,
+          "tenure": "Affordable Rent (not at LAR benchmark rents)"
         }
       ],
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,

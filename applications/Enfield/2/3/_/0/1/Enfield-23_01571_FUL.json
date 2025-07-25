@@ -31,9 +31,9 @@
   "site_name": "",
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": null,
-  "last_updated": "2025-03-19T03:36:57.353+00:00",
+  "last_updated": "2025-07-24T20:01:30.436Z",
   "locality": null,
-  "centroid_easting": "535268",
+  "centroid_easting": 535268,
   "lpa_name": "Enfield",
   "date_building_work_completed_under_previous_permission": null,
   "street_name": "St Marys Road",
@@ -47,8 +47,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 140.2,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -62,17 +62,18 @@
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_existing": 140.2,
+      "total_gia_existing": 0,
       "total_gia_gained": 0,
-      "total_gia_lost": 0
+      "total_gia_lost": 0,
+      "site_area": 0.02
     },
     "green_suds": false,
     "grey_water_reuse": false,
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_completion_date": "05/2024",
-        "intended_commencement_date": "05/2023"
+        "intended_commencement_date": "05/2023",
+        "intended_completion_date": "05/2024"
       }
     ],
     "infrastructure_details": {
@@ -89,7 +90,16 @@
       "mobile_network_operators_consultation": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_resi_units_to_have_full_fibre": 0,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "no_passive_rapid_ev_charging_points": 0,
+      "no_active_slow_ev_charging_points": 0,
+      "urban_greening_factor_score": 0,
+      "no_active_rapid_ev_charging_points": 0,
+      "no_passive_slow_ev_charging_points": 0,
+      "no_passive_fast_ev_charging_points": 0,
+      "no_active_fast_ev_charging_points": 0,
+      "no_active_other_ev_charging_points": 0,
+      "no_passive_other_ev_charging_points": 0
     },
     "internal_resi_water_usage": 0,
     "residential_details": {
@@ -120,28 +130,42 @@
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "habitable_rooms_density": null,
-      "total_gia_gained": 140.2,
+      "total_gia_gained": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 7,
-          "unit_no": "Loss-1",
-          "change_type": "Loss",
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
           "sheltered_accommodation": false,
+          "unit_type": "HMO",
+          "provider": "Private",
+          "no_habitable_rooms": 7,
+          "phase_detail": null,
+          "unit_no": null,
           "no_bedrooms": 5,
-          "unit_type": "Semi Detached Home",
           "provision_for_older_persons": false,
           "gia": 140.2,
           "tenure": "Market for rent"
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": false,
+          "change_type": "Loss",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Semi Detached Home",
           "no_habitable_rooms": 7,
-          "provider": "Private",
-          "unit_no": "Gain-1",
-          "change_type": "Gain",
+          "phase_detail": null,
+          "unit_no": null,
           "no_bedrooms": 5,
-          "unit_type": "HMO",
+          "provision_for_older_persons": false,
           "gia": 140.2,
           "tenure": "Market for rent"
         }
@@ -152,13 +176,60 @@
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
-      "total_gia_lost": 140.2,
+      "total_gia_lost": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0
     },
     "total_gia_lost": 0,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "open_and_protected_space_details": {
+      "open_space_local_and_other_area_gain": 0,
+      "protected_space_count": 0,
+      "open_spaces_details": [
+        {
+          "land_swap": false
+        }
+      ],
+      "open_space_mol_area_loss": 0,
+      "open_space_green_belt_area_gain": 0,
+      "open_space_local_and_other_area_loss": 0,
+      "open_space_mol_area_gain": 0,
+      "open_space_green_belt_area_loss": 0
+    },
+    "existing_uprns": [
+      "000207181104"
+    ],
+    "constraints_details": [
+      {
+        "result": null,
+        "constraints_layer_description": "CONLAN Site Description: WASTE H C I\rSite Name: TURIN PARK"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "EAFLZ2 Description: Flood Zone 2"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "DCAREA Area: SOUTH\rCode: DCAREA_S"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "GAP35Z Description: Gas pipeline buffer - 35m"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "WARDS Name: Jubilee"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "CILRES CIL ZONE: Lower Rate Eastern Zone - RATE: £40 per square metre"
+      }
+    ],
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.02
+    }
   },
-  "url_planning_app": null,
+  "url_planning_app": "<enter PA URL here>",
   "actual_commencement_date": null,
   "centroid": {
     "lon": -0.04698,
@@ -171,7 +242,7 @@
   "appeal_decision_date": null,
   "bo_system": "Idox Uniform",
   "decision_conditions": [
-    " Clustering of Residential Conversions"
+    "The proposed conversion of the property from a single dwelling to a House in Multiple Occupation, due to the conversions already permitted along this consecutive row of residential properties, particularly at Nos. 133 St Mary's Road and 147 St Marys Road, which forms part of the 1 in 5 consecutive row, would result in the overconcentration of residential conversions to this part of the street. This would lead to clustering of residential conversions and cause an imbalance in the mix of housing types, accommodation choices and tenures on a street that already includes other residential conversions for self-contained flats and/or Houses in Multiple Occupation. Overall, there would be material harm to the residential character of the immediate catchment area. The proposal is therefore contrary to Policy DMD 5 of the Development Management Document (2014), Policies CP4, CP5 and CP30 of the Core Strategy (2010) and Policies D6 and H10 of the London Plan (2021), as well as the National Planning Policy Framework (NPPF, 2021).\r"
   ],
   "appeal_decision": null,
   "valid_date": "23/05/2023",
@@ -182,14 +253,14 @@
   "last_date_consultation_comments": "13/06/2023",
   "uprn": "000207181104",
   "decision_target_date": "18/07/2023",
-  "centroid_northing": "194350",
+  "centroid_northing": 194350,
   "application_type": "All Other",
   "actual_completion_date": null,
   "title_number": [],
   "appeal_status": null,
   "description": "Change of use from single family dwelling house (Class C3) to a Housing Multiple Occupation (Class C4) for 5 occupants.",
-  "development_type": null,
-  "ward": "JB",
+  "development_type": "Other change of use",
+  "ward": "Jubilee",
   "decision_process": "Delegated",
   "lpa_app_no": "23/01571/FUL",
   "application_type_full": "Full planning permission",

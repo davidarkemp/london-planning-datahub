@@ -1,7 +1,7 @@
 {
   "locality": null,
   "subdivision_of_building": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "CSV Data Import",
   "date_building_work_started_under_previous_permission": null,
   "development_type": null,
   "valid_date": "10/07/2025",
@@ -9,7 +9,7 @@
   "centroid_easting": 553254,
   "ward": "Squirrels Heath",
   "date_building_work_completed_under_previous_permission": null,
-  "last_updated": "2025-07-24T01:39:05.503Z",
+  "last_updated": "2025-07-24T03:59:12.561Z",
   "epc_number": "3137-1825-2200-0648-6296",
   "wgs84_polygon": null,
   "application_type": "All Other",
@@ -84,13 +84,13 @@
     },
     "building_details": [
       {
-        "max_height": 8.3,
         "no_storeys": 2,
+        "max_height": 8.3,
         "building_ref": "plot 1"
       },
       {
-        "max_height": 8.3,
         "no_storeys": 2,
+        "max_height": 8.3,
         "building_ref": "plot 2"
       }
     ],
@@ -98,10 +98,10 @@
     "garden_land_lost": false,
     "existing_proposed_floorspace_details": [
       {
+        "gia_existing": 112,
         "gia_gained": 172,
         "use_class": "C3",
-        "gia_lost": 112,
-        "gia_existing": 112
+        "gia_lost": 112
       }
     ],
     "existing_uprns": null,
@@ -109,9 +109,9 @@
     "scheme_phasing": true,
     "phasing_details": [
       {
-        "intended_completion_date": "06/2026",
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "11/2024"
+        "intended_commencement_date": "11/2024",
+        "intended_completion_date": "06/2026"
       }
     ],
     "green_suds": true,
@@ -153,35 +153,35 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "tenure": "Market for sale",
-          "unit_type": "House or Bungalow",
-          "provision_for_older_persons": false,
           "no_habitable_rooms": 5,
-          "sheltered_accommodation": false,
-          "change_type": "Loss",
-          "no_bedrooms": 2,
           "unit_no": "Loss-1",
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
+          "unit_type": "House or Bungalow",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
           "gia": 112
         },
         {
           "provider": "Private",
-          "unit_type": "Semi Detached Home",
           "no_habitable_rooms": 4,
           "unit_no": "Gain-1",
-          "gia": 86,
           "change_type": "Gain",
-          "tenure": "Market for sale",
-          "no_bedrooms": 2
+          "unit_type": "Semi Detached Home",
+          "no_bedrooms": 2,
+          "gia": 86,
+          "tenure": "Market for sale"
         },
         {
           "provider": "Private",
-          "unit_type": "Semi Detached Home",
           "no_habitable_rooms": 4,
           "unit_no": "Gain-2",
-          "gia": 86,
           "change_type": "Gain",
-          "tenure": "Market for sale",
-          "no_bedrooms": 2
+          "unit_type": "Semi Detached Home",
+          "no_bedrooms": 2,
+          "gia": 86,
+          "tenure": "Market for sale"
         }
       ],
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
