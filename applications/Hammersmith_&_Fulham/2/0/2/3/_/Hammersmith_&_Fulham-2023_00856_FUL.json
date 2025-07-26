@@ -26,9 +26,11 @@
       ]
     ]
   },
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "appeal_status": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "epc_number": null,
   "decision_process": "Delegated",
   "locality": null,
@@ -48,14 +50,16 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 137.54,
+        "actual_completion_date": "26/02/2025",
         "use_class": "C3",
         "gia_gained": 132.02,
+        "actual_commencement_date": "02/07/2023",
         "gia_lost": 5.52
       }
     ],
     "projected_cost_of_works": "Up to £2m",
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "building_details": [
       {
         "no_storeys": 0,
@@ -71,7 +75,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 132.02,
       "total_gia_lost": 5.52,
-      "total_gia_existing": 137.54
+      "total_gia_existing": 137.54,
+      "site_area": 0.013000000000000001
     },
     "garden_land_lost": false,
     "internal_resi_water_usage": 0,
@@ -95,13 +100,13 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 384.6153846153846,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 110.25,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 153.84615384615384,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
@@ -114,39 +119,57 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 4,
-          "unit_no": "Loss-1",
+          "actual_completion_date": "26/02/2025",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "provider": "Private",
+          "no_habitable_rooms": 4,
+          "phase_detail": null,
+          "unit_no": "Loss-1",
+          "actual_commencement_date": "02/07/2023",
+          "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "tenure": "Market for rent",
-          "gia": 89
+          "gia": 89,
+          "tenure": "Market for rent"
         },
         {
+          "actual_completion_date": "26/02/2025",
+          "description": null,
+          "change_type": "Gain",
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "provider": "Private",
           "no_habitable_rooms": 2,
-          "provider": "Private",
+          "phase_detail": null,
           "unit_no": "Gain-1",
-          "change_type": "Gain",
+          "actual_commencement_date": "02/07/2023",
           "no_bedrooms": 1,
-          "unit_type": "Flat Apartment Maisonette",
-          "tenure": "Market for rent",
-          "gia": 40.25
+          "provision_for_older_persons": false,
+          "gia": 40.25,
+          "tenure": "Market for rent"
         },
         {
-          "no_habitable_rooms": 3,
-          "provider": "Private",
-          "unit_no": "Gain-2",
+          "actual_completion_date": "26/02/2025",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
-          "tenure": "Market for rent",
-          "gia": 70
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": "Gain-2",
+          "actual_commencement_date": "02/07/2023",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "gia": 70,
+          "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 1,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.013000000000000001
     },
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
@@ -156,7 +179,7 @@
       "no_new_water_connections_required": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_to_have_electrical_heating": 1,
       "mobile_network_operators_consultation": false,
@@ -164,7 +187,19 @@
       "no_new_gas_connections_required": 0,
       "ghg_reduction_over_building_regulations": false
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.013000000000000001
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "decision_agency": null,
   "decision_target_date": "29/06/2023",
@@ -174,20 +209,20 @@
   },
   "secondary_street_name": null,
   "reference_no_of_permission_being_relied_on": null,
-  "cil_liability": true,
+  "cil_liability": false,
   "uprn": "000034080978",
   "development_type": null,
-  "actual_completion_date": null,
-  "actual_commencement_date": null,
+  "actual_completion_date": "26/02/2025",
+  "actual_commencement_date": "02/07/2023",
   "borough": "London Borough of Hammersmith and Fulham",
   "ward": "COLLP",
   "last_date_consultation_comments": "26/05/2023",
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "application_type_full": "Full planning permission",
   "valid_date": "04/05/2023",
   "site_number": "25",
   "appeal_decision": null,
-  "centroid_northing": "182840",
+  "centroid_northing": 182840,
   "postcode": "NW10 6AA",
   "decision_conditions": [
     "Privacy screen",
@@ -205,7 +240,7 @@
     "No terrace",
     "Electric boilers/ ASHP"
   ],
-  "centroid_easting": "522394",
+  "centroid_easting": 522394,
   "decision_date": "01/05/2024",
   "date_building_work_completed_under_previous_permission": null,
   "lpa_name": "Hammersmith & Fulham",
@@ -223,8 +258,8 @@
   "title_number": [],
   "decision": "Approved",
   "application_type": "All Other",
-  "status": "Approved",
-  "last_updated": "2025-05-08T20:00:55.092Z",
+  "status": "Completed",
+  "last_updated": "2025-07-25T22:21:10.546Z",
   "date_building_work_started_under_previous_permission": null,
   "subdivision_of_building": null
 }

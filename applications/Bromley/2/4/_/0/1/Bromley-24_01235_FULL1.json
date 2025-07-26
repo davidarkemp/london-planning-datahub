@@ -7,19 +7,19 @@
   "lapsed_date": "23/07/2027",
   "decision_date": "23/07/2024",
   "lpa_app_no": "24/01235/FULL1",
-  "status": "Approved",
+  "status": "Commenced",
   "parking_details": null,
   "centroid": {
-    "lat": "51.3634808",
-    "lon": "0.0449576"
+    "lat": 51.36348,
+    "lon": 0.04493
   },
   "application_type": "All Other",
   "borough": "Bromley Custodian Code",
   "decision_process": "Committee",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "last_date_consultation_comments": "20/06/2024",
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated": "2025-03-19T22:18:17.471+00:00",
+  "last_updated": "2025-07-25T09:01:54.145Z",
   "locality": null,
   "date_building_work_completed_under_previous_permission": null,
   "description": "Demolition of existing dwelling and erection of replacement part one/two storey dwelling with accommodation at roof level, with associated landscaping including resurfacing of existing tennis court in rear garden.",
@@ -31,7 +31,7 @@
   "url_planning_app": null,
   "site_number": "11",
   "actual_completion_date": null,
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "application_details": {
     "infrastructure_details": {
       "no_new_gas_connections_required": 0,
@@ -45,15 +45,16 @@
       "no_homes_to_have_electrical_heating": 0,
       "green_roof_area": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "total_annual_nox_emissions": 0
     },
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 423.3,
-        "use_class": "C3",
         "gia_gained": 797.7,
+        "use_class": "C3",
+        "actual_commencement_date": "06/09/2024",
         "gia_lost": 423.3
       }
     ],
@@ -75,7 +76,7 @@
       }
     ],
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "grey_water_reuse": false,
     "internal_resi_water_usage": 0,
     "site_area": 0.275,
@@ -83,8 +84,8 @@
     "phasing_details": [
       {
         "phase_detail": "ENTIRE DEVELOPMENT ",
-        "intended_completion_date": "12/2024",
-        "intended_commencement_date": "06/2024"
+        "intended_commencement_date": "06/2024",
+        "intended_completion_date": "12/2024"
       }
     ],
     "residential_details": {
@@ -106,29 +107,37 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 6,
-          "unit_no": "Loss-1",
+          "actual_completion_date": "06/09/2024",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 4,
           "unit_type": "House or Bungalow",
+          "no_habitable_rooms": 6,
+          "phase_detail": null,
+          "unit_no": "Loss-1",
+          "actual_commencement_date": "06/09/2024",
+          "no_bedrooms": 4,
           "provision_for_older_persons": false,
           "gia": 423.3,
           "tenure": "Market for sale"
         },
         {
-          "no_habitable_rooms": 8,
           "provider": "Private",
+          "no_habitable_rooms": 8,
+          "phase_detail": null,
           "unit_no": "Gain-1",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 6,
+          "actual_commencement_date": "06/09/2024",
           "unit_type": "House or Bungalow",
+          "no_bedrooms": 6,
+          "provision_for_older_persons": false,
           "gia": 797.7,
           "tenure": "Market for sale"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 29.09090909090909,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
@@ -141,14 +150,15 @@
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 3.6363636363636362,
       "total_no_existing_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "total_no_existing_residential_units_social_rent": 0
+      "total_no_existing_residential_units_social_rent": 0,
+      "site_area": 0.275
     },
     "surface_water_discharge_percentage_reduction": 0,
     "non_residential_details": {
@@ -156,10 +166,23 @@
       "total_gia_lost": 423.3,
       "total_gia_gained": 797.7,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_existing": 423.3
+      "total_gia_existing": 423.3,
+      "site_area": 0.275
     },
     "ownership_status": "Private",
-    "green_suds": false
+    "green_suds": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.275
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "pp_id": "PP-12924803",
   "postcode": "BR2 6EG",
@@ -167,135 +190,116 @@
     "coordinates": [
       [
         [
-          0.0455674,
-          51.3634814
+          0.04554,
+          51.36348
         ],
         [
-          0.045533,
-          51.3633385
+          0.045506,
+          51.363338
         ],
         [
-          0.045523799999999996,
-          51.3633089
+          0.045496,
+          51.363308
         ],
         [
-          0.0454959,
-          51.3633109
+          0.045468,
+          51.36331
         ],
         [
-          0.0451253,
-          51.3633367
+          0.045098,
+          51.363336
         ],
         [
-          0.0447208,
-          51.3633668
+          0.044693,
+          51.363366
         ],
         [
-          0.0442578,
-          51.3634116
+          0.04423,
+          51.363411
         ],
         [
-          0.0440596,
-          51.3634062
+          0.044032,
+          51.363405
         ],
         [
-          0.044050000000000006,
-          51.3635544
+          0.044023,
+          51.363553
         ],
         [
-          0.0445676,
-          51.3635469
+          0.04454,
+          51.363546
         ],
         [
-          0.0451062,
-          51.3636248
+          0.045079,
+          51.363624
         ],
         [
-          0.0452059,
-          51.3636388
+          0.045178,
+          51.363638
         ],
         [
-          0.045512399999999995,
-          51.3636829
+          0.045485,
+          51.363682
         ],
         [
-          0.0455941,
-          51.3636945
+          0.045567,
+          51.363694
         ],
         [
-          0.0455984,
-          51.3636787
+          0.045571,
+          51.363678
         ],
         [
-          0.0456004,
-          51.3636737
+          0.045573,
+          51.363673
         ],
         [
-          0.0456016,
-          51.3636683
+          0.045574,
+          51.363667
         ],
         [
-          0.0456021,
-          51.3636633
+          0.045575,
+          51.363662
         ],
         [
-          0.0456019,
-          51.3636588
+          0.045574,
+          51.363658
         ],
         [
-          0.0456021,
-          51.3636476
+          0.045575,
+          51.363647
         ],
         [
-          0.0456019,
-          51.3636426
+          0.045574,
+          51.363642
         ],
         [
-          0.0456009,
-          51.3636377
+          0.045573,
+          51.363637
         ],
         [
-          0.0455989,
-          51.3636256
+          0.045572,
+          51.363625
         ],
         [
-          0.0455963,
-          51.3636135
+          0.045569,
+          51.363613
         ],
         [
-          0.0455674,
-          51.3634814
+          0.04554,
+          51.36348
         ]
       ]
     ],
     "type": "Polygon"
   },
-  "cil_liability": true,
+  "cil_liability": false,
   "street_name": "Forest Ridge",
   "decision_conditions": [
-    "Standard Time Limit",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    ""
+    "Standard Time Limit"
   ],
   "decision_agency": null,
-  "actual_commencement_date": null,
+  "actual_commencement_date": "06/09/2024",
   "centroid_northing": 164697,
   "site_name": "",
   "decision_target_date": "23/05/2024",
