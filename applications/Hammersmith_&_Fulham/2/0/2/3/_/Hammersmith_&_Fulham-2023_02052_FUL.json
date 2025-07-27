@@ -2,10 +2,10 @@
   "lpa_app_no": "2023/02052/FUL",
   "uprn": "000034131628",
   "lapsed_date": "29/01/2028",
-  "centroid_northing": "178597",
+  "centroid_northing": 178597,
   "site_number": "172",
   "date_building_work_started_under_previous_permission": null,
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "site_name": "First And Second Floors",
   "appeal_decision_date": null,
   "valid_date": "21/09/2023",
@@ -37,21 +37,21 @@
     ],
     "type": "Polygon"
   },
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "appeal_start_date": null,
   "reference_no_of_permission_being_relied_on": null,
   "application_type": "All Other",
   "decision_process": "Delegated",
   "application_details": {
     "total_gia_lost": 83,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "total_gia_existing": 83,
     "total_gia_gained": 83,
     "projected_cost_of_works": "Up to £2m",
     "rain_water_harvesting": false,
     "infrastructure_details": {
       "no_new_water_connections_required": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_non_resi_units_to_have_full_fibre": 0,
       "no_resi_units_to_have_full_fibre": 1,
       "percentage_demolition_construction_material_recycling": 0,
@@ -73,16 +73,20 @@
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units": 1,
-      "dwelling_density": 0,
+      "dwelling_density": 125,
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 4,
           "provider": "Private",
+          "no_habitable_rooms": 4,
+          "phase_detail": "◾ Initial Notice - Domestic/Living Acc  Ref. No:2023/00739/IND |Status:Notice Accepted Completed on Tue 15 Aug 2023 .",
           "unit_no": "Gain-1",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 3,
+          "actual_commencement_date": "15/08/2023",
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
           "gia": 83,
           "tenure": "Market for rent"
         }
@@ -93,7 +97,7 @@
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 500,
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
@@ -115,7 +119,8 @@
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0
+      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "site_area": 0.008
     },
     "grey_water_reuse": false,
     "internal_resi_water_usage": 105,
@@ -123,8 +128,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 83,
-        "use_class": "E",
         "gia_gained": 83,
+        "use_class": "E",
         "gia_lost": 83
       }
     ],
@@ -133,27 +138,40 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_lost": 83,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_existing": 83
+      "total_gia_existing": 83,
+      "site_area": 0.008
     },
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_completion_date": "10/2023",
-        "intended_commencement_date": "09/2023"
+        "intended_commencement_date": "09/2023",
+        "intended_completion_date": "10/2023"
       }
     ],
     "green_suds": false,
     "surface_water_discharge_percentage_reduction": 0,
     "affordable_housing_fast_track": false,
     "site_area": 0.008,
-    "garden_land_lost": false
+    "garden_land_lost": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.008
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "appeal_decision": null,
   "postcode": "W6 0QU",
   "development_type": null,
   "title_number": [],
-  "centroid_easting": "522685",
-  "actual_commencement_date": null,
+  "centroid_easting": 522685,
+  "actual_commencement_date": "15/08/2023",
   "description": "Change of use of the first and second floor level from an estate agent (Class E) into a three bedroom self-contained flat (Class C3).",
   "decision": "Approved",
   "actual_completion_date": null,
@@ -169,7 +187,7 @@
   "id": "Hammersmith_&_Fulham-2023_02052_FUL",
   "application_type_full": "Full planning permission",
   "cil_liability": false,
-  "status": "Approved",
+  "status": "Commenced",
   "date_building_work_completed_under_previous_permission": null,
   "secondary_street_name": null,
   "decision_agency": null,
@@ -191,9 +209,11 @@
     "Transport and industrial noise sources"
   ],
   "parking_details": null,
-  "last_updated": "2025-03-21T21:00:36.915Z",
+  "last_updated": "2025-07-26T16:32:06.531Z",
   "appeal_status": null,
   "street_name": "King Street",
   "ward": "HAMBRO",
-  "polygon": null
+  "polygon": {
+    "type": "geometrycollection"
+  }
 }
