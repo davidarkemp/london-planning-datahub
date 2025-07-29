@@ -3,15 +3,17 @@
   "epc_number": null,
   "site_name": "",
   "cil_liability": false,
-  "polygon": null,
-  "actual_commencement_date": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
+  "actual_commencement_date": "12/02/2025",
   "site_number": "3",
   "decision": "Approved",
   "parking_details": null,
   "application_type_full": "Full planning permission",
   "ward": "MUNSTE",
   "last_date_consultation_comments": "17/12/2024",
-  "centroid_easting": "524487",
+  "centroid_easting": 524487,
   "appeal_decision_date": null,
   "appeal_status": null,
   "description": "Erection of a rear roof extension, a rear extension at second floor level over part of the existing back addition to replace the existing second floor rear back addition; erection of a single storey rear extension, to the side and rear of the existing back addition; installation of a Juliet balcony in the rear roofslope; installation of 3no rooflights in the front roofslope; installation of a new door to replace the existing door to the rear elevation and erection of railings to replace the existing trellis associated with the reduction of the existing roof terrace at first floor level; infilling of 2no windows and installation of 1no new window to the side of rear back addition at first floor level; alterations to the roof of ground floor back addition to include the installation of new rooflights; replacement of existing windows with new double glazed timber sash windows; deconversion of the existing property from 2no self-contained flats into a single family dwellinghouse.",
@@ -21,8 +23,8 @@
   "decision_target_date": "17/01/2025",
   "street_name": "Ringmer Avenue",
   "decision_process": "Delegated",
-  "last_updated_by": "Idox Uniform",
-  "centroid_northing": "176638",
+  "last_updated_by": "Portal",
+  "centroid_northing": 176638,
   "application_type": "All Other",
   "title_number": [],
   "decision_conditions": [
@@ -71,7 +73,7 @@
   "pp_id": "PP-13543060",
   "url_planning_app": null,
   "lpa_name": "Hammersmith & Fulham",
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "subdivision_of_building": null,
   "secondary_street_name": null,
   "date_building_work_started_under_previous_permission": null,
@@ -79,8 +81,8 @@
     "lat": 51.475016,
     "lon": -0.208927
   },
-  "status": "Approved",
-  "last_updated": "2025-05-09T20:00:45.117Z",
+  "status": "Commenced",
+  "last_updated": "2025-07-27T14:46:49.359Z",
   "actual_completion_date": null,
   "lapsed_date": "27/01/2028",
   "borough": "London Borough of Hammersmith and Fulham",
@@ -94,7 +96,7 @@
     "projected_cost_of_works": "Up to £2m",
     "residential_details": {
       "total_no_proposed_residential_units_intermediate": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 72.30657989877079,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_market_for_rent": 0,
       "affordable_percentage": 100,
@@ -124,47 +126,60 @@
       "total_no_proposed_residential_units_starter_homes": 0,
       "residential_units": [
         {
+          "actual_completion_date": "12/02/2025",
+          "description": null,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 3,
+          "phase_detail": "Initial Notice - Domestic/Living Acc  Ref. No:2025/00126/IND |Status:Notice Accepted, completed- Wed 12 Feb 2025. ",
           "unit_no": "Loss-1",
-          "change_type": "Loss",
-          "sheltered_accommodation": false,
+          "actual_commencement_date": "12/02/2025",
           "no_bedrooms": 2,
-          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
-          "tenure": "Market for rent",
-          "gia": 72
+          "gia": 72,
+          "tenure": "Market for rent"
         },
         {
-          "no_habitable_rooms": 4,
-          "unit_no": "Loss-2",
+          "actual_completion_date": "12/02/2025",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 3,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 4,
+          "phase_detail": "Initial Notice - Domestic/Living Acc  Ref. No:2025/00126/IND |Status:Notice Accepted, completed- Wed 12 Feb 2025. ",
+          "unit_no": "Loss-2",
+          "actual_commencement_date": "12/02/2025",
+          "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "tenure": "Market for rent",
-          "gia": 85.1
+          "gia": 85.1,
+          "tenure": "Market for rent"
         },
         {
-          "no_habitable_rooms": 6,
           "provider": "Private",
+          "no_habitable_rooms": 6,
+          "phase_detail": "Initial Notice - Domestic/Living Acc  Ref. No:2025/00126/IND |Status:Notice Accepted, completed- Wed 12 Feb 2025. ",
           "unit_no": "Gain-1",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 5,
+          "actual_commencement_date": "12/02/2025",
           "unit_type": "Terraced Home",
-          "tenure": "Self-Build and Custom Build",
-          "gia": 191.5
+          "no_bedrooms": 5,
+          "provision_for_older_persons": false,
+          "gia": 191.5,
+          "tenure": "Self-Build and Custom Build"
         }
       ],
       "total_no_proposed_bedrooms": 5,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_proposed_residential_units": 1,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 433.8394793926247,
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
-      "total_no_proposed_residential_units_self_build_and_custom_build": 1
+      "total_no_proposed_residential_units_self_build_and_custom_build": 1,
+      "site_area": 0.01383
     },
     "total_gia_lost": 0,
     "phasing_details": [
@@ -182,11 +197,11 @@
       "no_new_water_connections_required": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "no_homes_to_have_electrical_heating": 0,
-      "fire_suppression_system_proposed": true,
+      "fire_suppression_system_proposed": false,
       "no_resi_units_to_have_full_fibre": 1,
       "green_roof_area": 0,
-      "waste_provision": true,
-      "ghg_reduction_over_building_regulations": true,
+      "waste_provision": false,
+      "ghg_reduction_over_building_regulations": false,
       "mobile_network_operators_consultation": false,
       "no_new_gas_connections_required": 0,
       "percentage_demolition_construction_material_recycling": 0,
@@ -197,13 +212,14 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_existing": 163,
       "total_gia_lost": 0,
-      "total_non_resi_gross_internal_floor_area_to_be_gained": 0
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "site_area": 0.01383
     },
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 163,
-        "use_class": "C3",
         "gia_gained": 28.5,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -212,8 +228,20 @@
     "rain_water_harvesting": false,
     "surface_water_discharge_percentage_reduction": 0,
     "ownership_status": "Private",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "total_gia_existing": 163,
-    "garden_land_lost": false
+    "garden_land_lost": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.01383
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   }
 }
