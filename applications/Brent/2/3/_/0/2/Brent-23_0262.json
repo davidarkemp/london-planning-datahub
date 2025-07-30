@@ -7,19 +7,47 @@
   "decision_target_date": "28/03/2023",
   "lapsed_date": "24/01/2027",
   "appeal_start_date": "21/09/2023",
-  "last_updated": "2025-07-09T08:01:19.279Z",
+  "last_updated": "2025-07-29T13:53:49.657Z",
   "locality": null,
   "development_type": "Other change of use",
-  "postcode": null,
+  "postcode": "",
   "ward": "Queens Park",
   "id": "Brent-23_0262",
   "uprn": "202141497",
   "decision": "Refused",
   "site_name": "7 Monterey Studios, 239 Kilburn Lane, North Kensington, London, W10 4BS",
   "last_date_consultation_comments": "02/03/2023",
-  "wgs84_polygon": null,
-  "actual_completion_date": null,
-  "polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.208808,
+          51.532993
+        ],
+        [
+          -0.208809,
+          51.532966
+        ],
+        [
+          -0.208852,
+          51.532967
+        ],
+        [
+          -0.208851,
+          51.532994
+        ],
+        [
+          -0.208808,
+          51.532993
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "actual_completion_date": "01/01/2025",
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "date_building_work_started_under_previous_permission": null,
   "application_type_full": "Full planning permission",
   "title_number": null,
@@ -27,12 +55,12 @@
   "lpa_name": "Brent",
   "decision_process": "Delegated",
   "secondary_street_name": null,
-  "street_name": null,
+  "street_name": "",
   "reference_no_of_permission_being_relied_on": null,
   "application_details": {
     "projected_cost_of_works": "Up to £2m",
     "total_gia_existing": 130,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "total_gia_gained": 130,
     "site_area": 0.0054,
     "rain_water_harvesting": false,
@@ -41,7 +69,8 @@
       "total_gia_gained": 130,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 130,
       "total_gia_lost": 130,
-      "total_gia_existing": 130
+      "total_gia_existing": 130,
+      "site_area": 0.0054
     },
     "existing_uprns": null,
     "garden_land_lost": false,
@@ -59,7 +88,7 @@
       "fire_suppression_system_proposed": false,
       "no_resi_units_to_have_full_fibre": 0,
       "green_roof_area": 0,
-      "waste_provision": true
+      "waste_provision": false
     },
     "ownership_status": "Private",
     "building_details": [
@@ -82,8 +111,10 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 130,
-        "gia_gained": 130,
+        "actual_completion_date": "01/01/2025",
         "use_class": "SG",
+        "gia_gained": 130,
+        "actual_commencement_date": "01/04/2024",
         "gia_lost": 130
       }
     ],
@@ -95,23 +126,32 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 4,
-          "unit_no": "Loss-1",
+          "actual_completion_date": "01/01/2025",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 3,
           "unit_type": "Live Work Unit",
+          "no_habitable_rooms": 4,
+          "phase_detail": null,
+          "unit_no": "Loss-1",
+          "actual_commencement_date": "01/04/2024",
+          "no_bedrooms": 3,
           "provision_for_older_persons": false,
           "gia": 130,
           "tenure": "Market for rent"
         },
         {
+          "actual_completion_date": "01/01/2025",
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Terraced Home",
           "provider": "Private",
           "no_habitable_rooms": 4,
+          "phase_detail": null,
           "unit_no": "Gain-1",
-          "change_type": "Gain",
+          "actual_commencement_date": "01/04/2024",
           "no_bedrooms": 4,
-          "unit_type": "Terraced Home",
+          "provision_for_older_persons": false,
           "gia": 130,
           "tenure": "Market for rent"
         }
@@ -128,7 +168,7 @@
       "total_no_proposed_residential_units_market_for_rent": 1,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 185.18518518518516,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_proposed_bedrooms": 4,
@@ -138,7 +178,7 @@
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 740.7407407407406,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units": 1,
@@ -149,10 +189,23 @@
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "affordable_percentage": 0
+      "affordable_percentage": 0,
+      "site_area": 0.0054
     },
     "green_suds": false,
-    "affordable_housing_fast_track": false
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.0054
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "valid_date": "07/02/2023",
   "parking_details": null,
@@ -162,19 +215,19 @@
   "decision_conditions": null,
   "url_planning_app": "https://pa.brent.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR_163459&activeTab=summary",
   "pp_id": "PP-11726351",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "centroid_easting": 524336,
   "borough": "Brent",
   "epc_number": null,
   "lpa_app_no": "23/0262",
   "decision_agency": null,
   "date_building_work_completed_under_previous_permission": null,
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "subdivision_of_building": null,
   "description": "Proposed change of use from 'work to live' unit to dwellinghouse (Use Class: C3). External changes are to fix doors shut on ground floor front elevation.",
   "appeal_decision": "Allowed",
   "appeal_decision_date": "24/01/2024",
-  "status": "Allowed",
+  "status": "Completed",
   "decision_date": "04/04/2023",
   "cil_liability": false
 }

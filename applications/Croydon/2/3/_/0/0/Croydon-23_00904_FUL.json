@@ -7,7 +7,7 @@
   "decision_target_date": "14/08/2023",
   "lapsed_date": "26/07/2026",
   "appeal_start_date": null,
-  "last_updated": "2025-06-03T15:59:57.668Z",
+  "last_updated": "2025-07-29T16:12:03.919Z",
   "locality": "Norbury",
   "development_type": null,
   "postcode": "SW16 4NW",
@@ -129,7 +129,7 @@
   "application_details": {
     "projected_cost_of_works": "Up to £2m",
     "total_gia_existing": 183,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "total_gia_gained": 190,
     "site_area": 0.029,
     "rain_water_harvesting": false,
@@ -141,14 +141,14 @@
       "total_gia_existing": 183,
       "site_area": 350
     },
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "infrastructure_details": {
       "percentage_demolition_construction_material_recycling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "mobile_network_operators_consultation": false,
       "no_new_water_connections_required": 2,
       "total_annual_nox_emissions": 7.5,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "no_homes_passive_cooling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "no_new_gas_connections_required": 2,
@@ -157,7 +157,7 @@
       "fire_suppression_system_proposed": false,
       "no_resi_units_to_have_full_fibre": 0,
       "green_roof_area": 4,
-      "waste_provision": true
+      "waste_provision": false
     },
     "ownership_status": "Private",
     "surface_water_discharge_percentage_reduction": 0,
@@ -174,8 +174,8 @@
       {
         "gia_existing": 183,
         "actual_completion_date": "02/10/2024",
-        "gia_gained": 190,
         "use_class": "C3",
+        "gia_gained": 190,
         "actual_commencement_date": "01/08/2023",
         "gia_lost": 0
       }
@@ -193,59 +193,64 @@
           "change_type": "Loss",
           "sheltered_accommodation": false,
           "unit_type": "Semi Detached Home",
+          "unit_development_type": "Conversion",
+          "provider": "Private",
           "no_habitable_rooms": 7,
           "phase_detail": null,
           "unit_no": "Loss-1",
           "actual_commencement_date": "01/08/2023",
           "no_bedrooms": 4,
           "provision_for_older_persons": false,
-          "tenure": "Market for rent",
-          "gia": 183
+          "gia": 183,
+          "tenure": "Market for rent"
         },
         {
           "actual_completion_date": "02/10/2024",
           "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 4,
+          "unit_development_type": "Conversion",
           "provider": "Private",
+          "no_habitable_rooms": 4,
           "phase_detail": null,
           "unit_no": "Gain-1",
           "actual_commencement_date": "01/08/2023",
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "tenure": "Market for rent",
-          "gia": 81.5
+          "gia": 81.5,
+          "tenure": "Market for rent"
         },
         {
           "actual_completion_date": "02/10/2024",
           "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 2,
+          "unit_development_type": "Conversion",
           "provider": "Private",
+          "no_habitable_rooms": 2,
           "phase_detail": null,
           "unit_no": "Gain-2",
           "actual_commencement_date": "01/08/2023",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "tenure": "Market for rent",
-          "gia": 57.5
+          "gia": 57.5,
+          "tenure": "Market for rent"
         },
         {
           "actual_completion_date": "02/10/2024",
           "description": null,
           "change_type": "Gain",
           "unit_type": "Studio Bedsit",
-          "no_habitable_rooms": 1,
+          "unit_development_type": "Conversion",
           "provider": "Private",
+          "no_habitable_rooms": 1,
           "phase_detail": null,
           "unit_no": "Gain-3",
           "actual_commencement_date": "01/08/2023",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "tenure": "Market for rent",
-          "gia": 37.5
+          "gia": 37.5,
+          "tenure": "Market for rent"
         }
       ],
       "total_no_proposed_residential_units_social_rent": 0,
@@ -288,7 +293,16 @@
     "affordable_housing_fast_track": false,
     "other_residential_accommodation_details": {
       "site_area": 350
-    }
+    },
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "valid_date": "19/06/2023",
   "parking_details": null,
@@ -320,5 +334,5 @@
   "appeal_decision_date": null,
   "status": "Completed",
   "decision_date": "26/07/2023",
-  "cil_liability": true
+  "cil_liability": false
 }

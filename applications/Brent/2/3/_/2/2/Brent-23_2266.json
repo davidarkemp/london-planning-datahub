@@ -1,11 +1,37 @@
 {
   "site_name": "63 Castleton Avenue, Wembley, HA9 7QE",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "centroid": {
     "lon": -0.29814,
     "lat": 51.558382
   },
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.298117,
+          51.558395
+        ],
+        [
+          -0.298118,
+          51.558368
+        ],
+        [
+          -0.298162,
+          51.558369
+        ],
+        [
+          -0.298161,
+          51.558396
+        ],
+        [
+          -0.298117,
+          51.558395
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "appeal_decision_date": null,
   "url_planning_app": "https://pa.brent.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR_165474&activeTab=summary",
   "secondary_street_name": null,
@@ -38,52 +64,34 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
+          "actual_completion_date": "01/01/2025",
           "description": null,
-          "m42_compliant": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "garden_land": null,
           "unit_type": "Terraced Home",
-          "unit_development_type": null,
-          "superseded_date": null,
-          "provider": null,
           "no_habitable_rooms": 8,
           "phase_detail": null,
           "unit_no": "Loss-1",
-          "actual_commencement_date": null,
+          "actual_commencement_date": "01/04/2024",
           "no_bedrooms": 6,
-          "superseded_by_lpa_app_no": null,
           "provision_for_older_persons": false,
-          "tenure": "Market for rent",
-          "gia": 215
+          "gia": 215,
+          "tenure": "Market for rent"
         },
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
+          "actual_completion_date": "01/01/2025",
           "description": null,
-          "m42_compliant": null,
           "change_type": "Gain",
-          "sheltered_accommodation": null,
-          "garden_land": null,
           "unit_type": "HMO",
-          "unit_development_type": null,
-          "superseded_date": null,
           "provider": "Private",
           "no_habitable_rooms": 1,
           "phase_detail": null,
           "unit_no": "Gain-2",
-          "actual_commencement_date": null,
+          "actual_commencement_date": "01/04/2024",
           "no_bedrooms": 6,
-          "superseded_by_lpa_app_no": null,
           "provision_for_older_persons": false,
-          "tenure": "Market for rent",
-          "gia": null
+          "gia": null,
+          "tenure": "Market for rent"
         }
       ],
       "total_no_proposed_residential_units_affordable_rent": 0,
@@ -116,7 +124,7 @@
       "total_no_proposed_residential_units_intermediate": 0,
       "site_area": 0.03891
     },
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "garden_land_lost": false,
     "projected_cost_of_works": "Up to £2m",
     "grey_water_reuse": false,
@@ -136,7 +144,7 @@
       "no_homes_passive_cooling": 0,
       "no_new_water_connections_required": 0,
       "fire_suppression_system_proposed": false,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_passive_rapid_ev_charging_points": null,
       "no_active_rapid_ev_charging_points": null,
       "no_passive_fast_ev_charging_points": null,
@@ -164,22 +172,18 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 215,
-        "superseded_date": null,
-        "actual_completion_date": null,
-        "gia_gained": 0,
+        "actual_completion_date": "01/01/2025",
         "use_class": "C3",
-        "actual_commencement_date": null,
-        "superseded_by_lpa_app_no": null,
+        "gia_gained": 0,
+        "actual_commencement_date": "01/04/2024",
         "gia_lost": 215
       },
       {
         "gia_existing": 0,
-        "superseded_date": null,
-        "actual_completion_date": null,
-        "gia_gained": 224,
+        "actual_completion_date": "01/01/2025",
         "use_class": "SG",
-        "actual_commencement_date": null,
-        "superseded_by_lpa_app_no": null,
+        "gia_gained": 224,
+        "actual_commencement_date": "01/04/2024",
         "gia_lost": 0
       }
     ],
@@ -190,14 +194,14 @@
       "no_council_tax_rateable_units_lost": null,
       "other_resi_accommodation_unit_details": []
     },
-    "s106_agreement": null,
+    "s106_agreement": false,
     "affordable_housing_inlieu_payment": null,
-    "air_quality_assessment": null,
+    "air_quality_assessment": false,
     "other_contributions": null,
     "intended_commencement_date": null,
     "no_affordable_housing_units_provided_offsite": null,
-    "commencement_notice_received": null,
-    "circular_economy_statement": null,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
     "qualifying_vacant_building_floorspace": null,
     "open_and_protected_space_details": {
       "open_space_local_and_other_area_gain": 0,
@@ -214,30 +218,30 @@
     "building_details": [],
     "superseding_details": [],
     "lead_registered_social_landlord": null,
-    "viability_assessment": null,
+    "viability_assessment": false,
     "overseas_company_registration_no": null,
-    "mayoral_cil_liability_notice_issued": null,
+    "mayoral_cil_liability_notice_issued": false,
     "non_permanent_dwellings_details": [],
     "intended_completion_date": null,
     "uk_company_registration_no": null,
-    "3d_model": null,
+    "3d_model": false,
     "transport_contributions": null,
     "no_affordable_housing_units_acquired_offsite": null,
-    "borough_cil_liability_notice_issued": null,
-    "transport_impact_assessment": null,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
     "social_infrastructure_contributions": null,
     "scheme_name": null,
     "lead_developer_company_name": null
   },
   "lapsed_date": "01/12/2026",
   "decision": "Approved",
-  "postcode": null,
+  "postcode": "",
   "last_date_consultation_comments": "28/08/2023",
   "decision_process": "Delegated",
   "epc_number": null,
   "pp_id": "PP-12261806",
   "development_type": "Minor all other minor developments",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "valid_date": "13/07/2023",
   "polygon": {
     "type": "Polygon",
@@ -341,18 +345,18 @@
   "ward": "Wembley Hill",
   "appeal_decision": null,
   "locality": null,
-  "street_name": null,
-  "status": "Approved",
+  "street_name": "",
+  "status": "Completed",
   "application_type_full": "Full planning permission",
   "decision_agency": null,
   "uprn": "202119515",
   "date_building_work_started_under_previous_permission": null,
   "lpa_app_no": "23/2266",
   "title_number": [],
-  "last_updated": "2025-07-09T08:01:47.443Z",
+  "last_updated": "2025-07-29T13:57:37.683Z",
   "cil_liability": false,
   "subdivision_of_building": null,
-  "actual_completion_date": null,
+  "actual_completion_date": "01/01/2025",
   "centroid_easting": 518076,
   "appeal_start_date": null,
   "decision_conditions": null,

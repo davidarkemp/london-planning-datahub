@@ -9,7 +9,7 @@
   "centroid_easting": 522593,
   "ward": "Worcester Park South",
   "date_building_work_completed_under_previous_permission": null,
-  "last_updated": "2025-07-21T20:04:23.960Z",
+  "last_updated": "2025-07-29T20:04:53.217Z",
   "epc_number": null,
   "wgs84_polygon": {
     "type": "Polygon",
@@ -87,7 +87,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -147,7 +146,8 @@
               165546.800000001
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -175,7 +175,7 @@
   "decision": null,
   "decision_date": null,
   "appeal_decision": null,
-  "cil_liability": null,
+  "cil_liability": false,
   "application_details": {
     "infrastructure_details": {
       "urban_greening_factor_score": 0,
@@ -207,10 +207,10 @@
     "affordable_housing_fast_track": false,
     "existing_proposed_floorspace_details": [
       {
+        "gia_existing": 236,
         "gia_gained": 54,
         "use_class": "C3",
-        "gia_lost": 0,
-        "gia_existing": 236
+        "gia_lost": 0
       }
     ],
     "existing_uprns": [
@@ -300,9 +300,9 @@
     "scheme_phasing": true,
     "phasing_details": [
       {
-        "intended_completion_date": "03/2026",
         "phase_detail": "construction",
-        "intended_commencement_date": "08/2025"
+        "intended_commencement_date": "08/2025",
+        "intended_completion_date": "03/2026"
       }
     ],
     "residential_details": {

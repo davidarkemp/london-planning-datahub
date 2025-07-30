@@ -3,11 +3,11 @@
   "appeal_decision_date": null,
   "title_number": [],
   "borough": "London Borough of Hammersmith and Fulham",
-  "last_updated": "2025-04-18T20:00:38.288Z",
-  "centroid_northing": "180411",
+  "last_updated": "2025-07-29T15:47:22.005Z",
+  "centroid_northing": 180411,
   "url_planning_app": null,
   "actual_completion_date": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "decision_target_date": "23/10/2024",
   "locality": null,
   "epc_number": null,
@@ -21,7 +21,7 @@
     "Accordance with Approved Plans",
     "Zero emission heating - discharge"
   ],
-  "status": "Approved",
+  "status": "Commenced",
   "valid_date": "28/08/2024",
   "application_type": "All Other",
   "appeal_start_date": null,
@@ -36,18 +36,20 @@
   "postcode": "W12 7HQ",
   "subdivision_of_building": null,
   "date_building_work_completed_under_previous_permission": null,
-  "centroid_easting": "522981",
+  "centroid_easting": 522981,
   "lpa_name": "Hammersmith & Fulham",
   "appeal_decision": null,
-  "actual_commencement_date": null,
+  "actual_commencement_date": "14/11/2024",
   "secondary_street_name": null,
   "development_type": null,
   "ward": "WHITEC",
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "street_name": "Stanlake Road",
   "decision_process": "Delegated",
   "appeal_status": null,
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "application_type_full": "Full planning permission",
   "wgs84_polygon": {
     "type": "Polygon",
@@ -77,7 +79,7 @@
     ]
   },
   "application_details": {
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "total_gia_lost": 0,
     "rain_water_harvesting": false,
     "projected_cost_of_works": "Up to £2m",
@@ -90,8 +92,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_completion_date": "06/2025",
-        "intended_commencement_date": "03/2025"
+        "intended_commencement_date": "03/2025",
+        "intended_completion_date": "06/2025"
       }
     ],
     "grey_water_reuse": false,
@@ -108,15 +110,16 @@
       "no_resi_units_to_have_full_fibre": 0,
       "fire_suppression_system_proposed": false,
       "percentage_demolition_construction_material_recycling": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "ghg_reduction_over_building_regulations": false
     },
     "garden_land_lost": false,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 137,
-        "use_class": "C3",
         "gia_gained": 1.7000000000000002,
+        "use_class": "C3",
+        "actual_commencement_date": "14/11/2024",
         "gia_lost": 0
       }
     ],
@@ -125,7 +128,8 @@
       "total_gia_existing": 137,
       "total_gia_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_gained": 1.7000000000000002
+      "total_gia_gained": 1.7000000000000002,
+      "site_area": 0.017
     },
     "affordable_housing_fast_track": false,
     "total_gia_gained": 1.7000000000000002,
@@ -151,7 +155,7 @@
       "total_no_proposed_residential_units": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_market_for_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0,
       "total_gia_lost": 50,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_bedrooms": 0,
@@ -167,21 +171,38 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 3,
-          "unit_no": "Loss-1",
+          "actual_completion_date": "14/11/2024",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 1,
           "unit_type": "Terraced Home",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": "Loss-1",
+          "actual_commencement_date": "14/11/2024",
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "tenure": "Shared Equity",
-          "gia": 50
+          "gia": 50,
+          "tenure": "Shared Equity"
         }
       ],
       "total_no_proposed_residential_units_social_rent": 0,
       "total_gia_gained": 0,
-      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0
-    }
+      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "site_area": 0.017
+    },
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.017
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "reference_no_of_permission_being_relied_on": null,
   "parking_details": null,
