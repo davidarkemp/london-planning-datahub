@@ -1,6 +1,6 @@
 {
   "appeal_decision": null,
-  "street_name": null,
+  "street_name": "",
   "title_number": [],
   "valid_date": "08/06/2023",
   "cil_liability": false,
@@ -90,68 +90,68 @@
     "coordinates": [
       [
         [
-          -0.2125888,
-          51.492063
+          -0.212612,
+          51.492062
         ],
         [
-          -0.21259799999999998,
-          51.4920312
+          -0.212621,
+          51.49203
         ],
         [
-          -0.21270529999999999,
-          51.4920416
+          -0.212729,
+          51.492041
         ],
         [
-          -0.21281899999999998,
-          51.4920526
+          -0.212842,
+          51.492052
         ],
         [
-          -0.2128119,
-          51.4920848
+          -0.212835,
+          51.492084
         ],
         [
-          -0.21279389999999998,
-          51.4921597
+          -0.212817,
+          51.492159
         ],
         [
-          -0.2127914,
-          51.4921673
+          -0.212815,
+          51.492166
         ],
         [
-          -0.2127753,
-          51.4922295
+          -0.212799,
+          51.492229
         ],
         [
-          -0.21276309999999998,
-          51.4922833
+          -0.212787,
+          51.492282
         ],
         [
-          -0.21274949999999998,
-          51.4923361
+          -0.212773,
+          51.492335
         ],
         [
-          -0.21263769999999999,
-          51.4923223
+          -0.212661,
+          51.492321
         ],
         [
-          -0.21252949999999998,
-          51.4923094
+          -0.212553,
+          51.492308
         ],
         [
-          -0.2125397,
-          51.4922677
+          -0.212563,
+          51.492267
         ],
         [
-          -0.21255349999999998,
-          51.4922104
+          -0.212577,
+          51.492209
         ],
         [
-          -0.2125683,
-          51.4921454
+          -0.212592,
+          51.492144
         ],
         [
-          -0.2125888,
-          51.492063
+          -0.212612,
+          51.492062
         ]
       ]
     ],
@@ -162,8 +162,8 @@
   "site_number": null,
   "development_type": null,
   "centroid": {
-    "lat": "51.4921784",
-    "lon": "-0.2126678"
+    "lat": 51.492177,
+    "lon": -0.212691
   },
   "last_date_consultation_comments": "03/07/2023",
   "reference_no_of_permission_being_relied_on": null,
@@ -173,7 +173,7 @@
   "decision_target_date": "03/08/2023",
   "secondary_street_name": null,
   "actual_completion_date": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "centroid_easting": 524179,
   "decision_conditions": [
     "3 Years",
@@ -188,24 +188,27 @@
     "phasing_details": [
       {
         "phase_detail": "All Works",
-        "intended_completion_date": "06/2023",
-        "intended_commencement_date": "06/2023"
+        "intended_commencement_date": "06/2023",
+        "intended_completion_date": "06/2023"
       }
     ],
     "residential_details": {
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 61.224489795918366,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_intermediate": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 3,
           "provider": "Private",
+          "no_habitable_rooms": 3,
+          "phase_detail": "No Change to the status- 24/25.",
           "unit_no": "Gain-1",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "gia": 60.85,
           "tenure": "Market for sale"
         }
@@ -217,7 +220,7 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 20.408163265306122,
       "total_gia_lost": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
@@ -242,14 +245,16 @@
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 1,
-      "total_no_proposed_residential_units_london_affordable_rent": 0
+      "total_no_proposed_residential_units_london_affordable_rent": 0,
+      "site_area": 0.049
     },
     "non_residential_details": {
       "total_gia_existing": 325,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_gained": 0
+      "total_gia_gained": 0,
+      "site_area": 0.049
     },
     "site_area": 0.049,
     "total_gia_gained": 0,
@@ -264,7 +269,7 @@
       "ghg_reduction_over_building_regulations": false,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
@@ -272,13 +277,13 @@
       "no_new_gas_connections_required": 0,
       "total_annual_pm_emissions": 0
     },
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "surface_water_discharge_percentage_reduction": 0,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 325,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -286,7 +291,19 @@
     "grey_water_reuse": false,
     "total_gia_lost": 0,
     "garden_land_lost": false,
-    "total_gia_existing": 325
+    "total_gia_existing": 325,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.049
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "centroid_northing": 178540,
   "ward": "AVON",
@@ -297,15 +314,15 @@
   "url_planning_app": null,
   "uprn": "000034058663",
   "description": "Separation of the second floor level of No. 103 Gunterstone Road from No. 101 Gunterstone Road, to provide 1 x 2 bedroom self-contained flat.",
-  "site_name": "101 And 103D Gunterstone Road\rLondon\rW14 9BT\r",
+  "site_name": "101 And 103D Gunterstone Road\nLondon\nW14 9BT\n",
   "appeal_status": null,
-  "postcode": null,
+  "postcode": "",
   "status": "Approved",
   "decision_agency": null,
   "decision_date": "03/08/2023",
   "actual_commencement_date": null,
   "epc_number": null,
-  "last_updated": "2025-03-19T03:40:38.978+00:00",
+  "last_updated": "2025-07-30T10:11:08.956Z",
   "application_type": "All Other",
-  "bo_system": "Idox Uniform"
+  "bo_system": "Portal"
 }
