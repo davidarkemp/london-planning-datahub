@@ -27,7 +27,7 @@
     "type": "Polygon"
   },
   "date_building_work_completed_under_previous_permission": null,
-  "last_updated": "2025-03-20T11:46:11.923+00:00",
+  "last_updated": "2025-08-01T11:03:02.273Z",
   "parking_details": {
     "no_existing_cycle": 3,
     "net_car": 0,
@@ -42,8 +42,8 @@
   "bo_system": "Portal",
   "actual_completion_date": null,
   "application_details": {
-    "scheme_phasing": true,
-    "grey_water_reuse": true,
+    "scheme_phasing": false,
+    "grey_water_reuse": false,
     "garden_land_lost": false,
     "residential_details": {
       "total_no_proposed_residential_units_self_build_and_custom_build": 1,
@@ -72,8 +72,8 @@
           "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 4,
           "unit_type": "House or Bungalow",
+          "no_bedrooms": 4,
           "provision_for_older_persons": false,
           "gia": 246,
           "tenure": "Market for sale"
@@ -84,9 +84,10 @@
           "phase_detail": null,
           "unit_no": "Gain-1",
           "description": null,
+          "m42_compliant": true,
           "change_type": "Gain",
-          "no_bedrooms": 6,
           "unit_type": "House or Bungalow",
+          "no_bedrooms": 6,
           "provision_for_older_persons": false,
           "gia": 956,
           "tenure": "Self-Build and Custom Build"
@@ -133,7 +134,7 @@
         "building_ref": "Existing"
       }
     ],
-    "green_suds": true,
+    "green_suds": false,
     "non_residential_details": {
       "total_gia_gained": 710,
       "total_gia_existing": 246,
@@ -146,20 +147,20 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 246,
-        "use_class": "C3",
         "gia_gained": 710,
+        "use_class": "C3",
         "gia_lost": 246
       }
     ],
     "phasing_details": [
       {
         "phase_detail": "Entire development",
-        "intended_completion_date": "02/2026",
-        "intended_commencement_date": "02/2024"
+        "intended_commencement_date": "02/2024",
+        "intended_completion_date": "02/2026"
       }
     ],
     "total_gia_existing": 246,
-    "rain_water_harvesting": true,
+    "rain_water_harvesting": false,
     "surface_water_discharge_percentage_reduction": 10,
     "infrastructure_details": {
       "no_active_rapid_ev_charging_points": 1,
@@ -167,7 +168,7 @@
       "no_non_resi_units_to_have_full_fibre": 0,
       "no_homes_to_have_electrical_heating": 1,
       "no_new_water_connections_required": 0,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "total_annual_nox_emissions": 0,
       "no_homes_passive_cooling": 0,
       "solar_pv_capacity": 100,
@@ -179,11 +180,20 @@
       "mobile_network_operators_consultation": false,
       "percentage_demolition_construction_material_recycling": 60,
       "no_new_gas_connections_required": 0,
-      "waste_provision": true
+      "waste_provision": false
     },
     "other_residential_accommodation_details": {
       "site_area": 0.21200000000000002
-    }
+    },
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "appeal_decision_date": null,
   "centroid_northing": 190657,
@@ -366,7 +376,7 @@
   "locality": null,
   "decision_process": "Delegated",
   "epc_number": null,
-  "cil_liability": true,
+  "cil_liability": false,
   "reference_no_of_permission_being_relied_on": null,
   "lpa_name": "Hillingdon"
 }

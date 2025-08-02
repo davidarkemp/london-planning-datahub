@@ -8,13 +8,13 @@
   "application_type": "All Other",
   "appeal_status": null,
   "title_number": [],
-  "postcode": null,
+  "postcode": "",
   "locality": null,
   "appeal_decision": null,
-  "status": "Approved",
+  "status": "Commenced",
   "pp_id": "PP-13379561",
-  "street_name": null,
-  "last_updated_by": "Idox Uniform",
+  "street_name": "",
+  "last_updated_by": "Portal",
   "lpa_name": "Southwark",
   "centroid": {
     "lon": -7.55716,
@@ -25,15 +25,15 @@
   "application_details": {
     "total_gia_lost": 0,
     "internal_resi_water_usage": 0,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "surface_water_discharge_percentage_reduction": 0,
     "ownership_status": "Private",
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 130,
-        "use_class": "C3",
         "gia_gained": 66.5,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -47,13 +47,14 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 66.5,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_existing": 130
+      "total_gia_existing": 130,
+      "site_area": 0.013000000000000001
     },
     "phasing_details": [
       {
         "phase_detail": "ALL",
-        "intended_completion_date": "05/2025",
-        "intended_commencement_date": "12/2024"
+        "intended_commencement_date": "12/2024",
+        "intended_completion_date": "05/2025"
       }
     ],
     "affordable_housing_fast_track": false,
@@ -64,7 +65,7 @@
       "affordable_percentage": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
@@ -75,12 +76,16 @@
       "total_no_proposed_residential_units_market_for_rent": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 6,
-          "unit_no": "Loss-1",
+          "actual_completion_date": "15/11/2024",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 5,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 6,
+          "phase_detail": null,
+          "unit_no": "Loss-1",
+          "actual_commencement_date": "15/11/2024",
+          "no_bedrooms": 5,
           "provision_for_older_persons": false,
           "gia": 130,
           "tenure": "Market for rent"
@@ -108,7 +113,8 @@
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_social_rent": 0,
-      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0
+      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "site_area": 0.013000000000000001
     },
     "rain_water_harvesting": false,
     "site_area": 0.013000000000000001,
@@ -117,7 +123,7 @@
       "fire_suppression_system_proposed": false,
       "total_annual_nox_emissions": 0,
       "percentage_demolition_construction_material_recycling": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_resi_units_to_have_full_fibre": 0,
       "total_annual_pm_emissions": 0,
       "green_roof_area": 0,
@@ -127,7 +133,19 @@
       "no_new_gas_connections_required": 0,
       "no_homes_to_have_electrical_heating": 0,
       "no_non_resi_units_to_have_full_fibre": 0
-    }
+    },
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.013000000000000001
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "application_type_full": "Full planning permission",
   "cil_liability": false,
@@ -187,15 +205,15 @@
     "type": "Polygon"
   },
   "centroid_easting": null,
-  "actual_commencement_date": null,
+  "actual_commencement_date": "15/11/2024",
   "date_building_work_completed_under_previous_permission": null,
   "url_planning_app": null,
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "appeal_start_date": null,
   "secondary_street_name": null,
   "subdivision_of_building": null,
   "actual_completion_date": null,
-  "site_name": "19 Tarbert Road\rLondon\rSouthwark\rSE22 8QB\r",
+  "site_name": "19 Tarbert Road\nLondon\nSouthwark\nSE22 8QB\n",
   "id": "Southwark-24_AP_2592",
   "decision_target_date": "27/11/2024",
   "centroid_northing": null,
@@ -264,13 +282,13 @@
   "decision_conditions": [
     "Extensions - Roof used only in emergency",
     "Materials to be as specified",
-    "Standard 3 year time limit "
+    "Standard 3 year time limit"
   ],
   "appeal_decision_date": null,
   "uprn": "200003441571",
   "reference_no_of_permission_being_relied_on": null,
   "decision_process": "Delegated",
-  "last_updated": "2025-03-19T19:48:24.828+00:00",
+  "last_updated": "2025-07-31T11:54:12.531Z",
   "decision_agency": null,
   "parking_details": null,
   "lapsed_date": "27/11/2027",
