@@ -1,6 +1,6 @@
 {
-  "bo_system": "Idox Uniform",
-  "last_updated": "2025-03-19T18:46:45.554+00:00",
+  "bo_system": "Portal",
+  "last_updated": "2025-08-05T16:31:28.964Z",
   "lpa_name": "Lambeth",
   "decision_agency": null,
   "locality": null,
@@ -16,8 +16,8 @@
   ],
   "valid_date": "25/04/2023",
   "centroid": {
-    "lat": "51.4582326",
-    "lon": "-0.1078745"
+    "lat": 51.458232,
+    "lon": -0.1079
   },
   "lpa_app_no": "23/01235/FUL",
   "reference_no_of_permission_being_relied_on": null,
@@ -29,7 +29,7 @@
   "application_type": "All Other",
   "site_name": "",
   "last_date_consultation_comments": "25/05/2023",
-  "cil_liability": true,
+  "cil_liability": false,
   "application_details": {
     "site_area": 0.01,
     "total_gia_gained": 51,
@@ -45,7 +45,7 @@
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 300,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
@@ -55,7 +55,7 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_existing_residential_units": 1,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 900,
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
@@ -70,42 +70,53 @@
       "residential_units": [
         {
           "no_habitable_rooms": 6,
+          "phase_detail": null,
           "unit_no": "Loss-1",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 4,
           "unit_type": "Terraced Home",
+          "no_bedrooms": 4,
           "provision_for_older_persons": false,
           "gia": 141.5,
           "tenure": "Shared Equity"
         },
         {
-          "no_habitable_rooms": 5,
           "provider": "Other Affordable Housing Provider",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
           "unit_no": "Gain-1",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 3,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
           "gia": 84,
           "tenure": "Shared Equity"
         },
         {
-          "no_habitable_rooms": 2,
           "provider": "Other Affordable Housing Provider",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
           "unit_no": "Gain-2",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "gia": 59,
           "tenure": "Shared Equity"
         },
         {
-          "no_habitable_rooms": 2,
           "provider": "Other Affordable Housing Provider",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
           "unit_no": "Gain-3",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "gia": 41,
           "tenure": "Shared Equity"
         }
@@ -116,7 +127,8 @@
       "total_no_existing_residential_units_shared_equity": 1,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_existing_residential_units_market_for_rent": 0,
-      "affordable_percentage": 100
+      "affordable_percentage": 100,
+      "site_area": 0.01
     },
     "total_gia_existing": 132.5,
     "non_residential_details": {
@@ -124,7 +136,8 @@
       "total_gia_gained": 51,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_lost": 0
+      "total_gia_lost": 0,
+      "site_area": 0.01
     },
     "infrastructure_details": {
       "no_homes_passive_cooling": 0,
@@ -135,7 +148,7 @@
       "green_roof_area": 0,
       "no_new_water_connections_required": 2,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "fire_suppression_system_proposed": false,
       "ghg_reduction_over_building_regulations": false,
       "no_homes_to_have_electrical_heating": 0,
@@ -144,9 +157,9 @@
     },
     "internal_resi_water_usage": 40,
     "ownership_status": "Private",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "green_suds": false,
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "affordable_housing_fast_track": false,
     "building_details": [
       {
@@ -159,8 +172,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 132.5,
-        "use_class": "C3",
         "gia_gained": 51,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -168,11 +181,23 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_completion_date": "08/2024",
-        "intended_commencement_date": "02/2024"
+        "intended_commencement_date": "02/2024",
+        "intended_completion_date": "08/2024"
       }
     ],
-    "projected_cost_of_works": "Up to £2m"
+    "projected_cost_of_works": "Up to £2m",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.01
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "street_name": "Mayall Road",
   "url_planning_app": null,
@@ -188,14 +213,14 @@
   "decision": "Approved",
   "actual_commencement_date": null,
   "development_type": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "actual_completion_date": null,
   "site_number": "94",
   "id": "Lambeth-23_01235_FUL",
   "status": "Approved",
   "date_building_work_completed_under_previous_permission": null,
   "appeal_decision": null,
-  "borough": "London Borough of Lambeth",
+  "borough": "Lambeth",
   "appeal_status": null,
   "date_building_work_started_under_previous_permission": null,
   "decision_target_date": "20/06/2023",
@@ -238,24 +263,24 @@
     "coordinates": [
       [
         [
-          -0.1077398,
-          51.4582916
+          -0.107765,
+          51.458291
         ],
         [
-          -0.1079743,
-          51.4581467
+          -0.108,
+          51.458146
         ],
         [
-          -0.1080207,
-          51.4581757
+          -0.108046,
+          51.458175
         ],
         [
-          -0.10778149999999999,
-          51.4583176
+          -0.107807,
+          51.458317
         ],
         [
-          -0.1077398,
-          51.4582916
+          -0.107765,
+          51.458291
         ]
       ]
     ]

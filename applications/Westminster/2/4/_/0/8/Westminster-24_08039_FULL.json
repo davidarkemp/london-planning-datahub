@@ -3,7 +3,46 @@
   "epc_number": null,
   "site_name": "Crown Court",
   "cil_liability": false,
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              527360,
+              182583
+            ],
+            [
+              527358,
+              182585
+            ],
+            [
+              527367,
+              182591
+            ],
+            [
+              527329,
+              182638
+            ],
+            [
+              527308,
+              182621
+            ],
+            [
+              527359,
+              182582
+            ],
+            [
+              527360,
+              182583
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "geometrycollection"
+  },
   "actual_commencement_date": null,
   "site_number": "123, 15",
   "decision": "Approved",
@@ -43,24 +82,32 @@
     "coordinates": [
       [
         [
-          -0.165724,
-          51.528029
+          -0.165437,
+          51.527804
         ],
         [
-          -0.165725,
-          51.528002
+          -0.165465,
+          51.527823
         ],
         [
-          -0.165768,
-          51.528003
+          -0.165334,
+          51.527875
         ],
         [
-          -0.165767,
-          51.52803
+          -0.165864,
+          51.528306
         ],
         [
-          -0.165724,
-          51.528029
+          -0.166173,
+          51.528158
+        ],
+        [
+          -0.165452,
+          51.527796
+        ],
+        [
+          -0.165437,
+          51.527804
         ]
       ]
     ],
@@ -81,7 +128,7 @@
     "lon": -0.165746
   },
   "status": "Approved",
-  "last_updated": "2025-07-09T20:05:42.000Z",
+  "last_updated": "2025-08-05T20:05:25.494Z",
   "actual_completion_date": null,
   "lapsed_date": "25/02/2028",
   "borough": "Westminster",
@@ -105,8 +152,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 252,
-        "gia_gained": 252,
         "use_class": "C3",
+        "gia_gained": 252,
         "gia_lost": 252
       }
     ],
@@ -167,30 +214,30 @@
           "unit_no": "Loss-1",
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "gia": 126,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 126
         },
         {
           "no_habitable_rooms": 4,
           "unit_no": "Loss-2",
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "gia": 126,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 126
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 2,
           "unit_no": "Gain-1",
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
           "gia": 51.4,
           "tenure": "Market for sale"
         },
@@ -199,8 +246,8 @@
           "no_habitable_rooms": 5,
           "unit_no": "Gain-2",
           "change_type": "Gain",
-          "no_bedrooms": 4,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 4,
           "gia": 198.6,
           "tenure": "Market for sale"
         }

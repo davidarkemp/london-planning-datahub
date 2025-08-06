@@ -43,7 +43,54 @@
   "site_name": "1 - 2 Berkeley Mews\rLondon\rW1H 7AT\r",
   "decision_date": "22/05/2024",
   "locality": null,
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              527937,
+              181199
+            ],
+            [
+              527928,
+              181196
+            ],
+            [
+              527930,
+              181189
+            ],
+            [
+              527929,
+              181188
+            ],
+            [
+              527931,
+              181182
+            ],
+            [
+              527942,
+              181185
+            ],
+            [
+              527942,
+              181187
+            ],
+            [
+              527941,
+              181187
+            ],
+            [
+              527937,
+              181199
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "geometrycollection"
+  },
   "appeal_decision": null,
   "street_name": null,
   "centroid": {
@@ -57,40 +104,40 @@
     "coordinates": [
       [
         [
-          -0.15760559999999998,
-          51.5152363
+          -0.157626,
+          51.515236
         ],
         [
-          -0.1575528,
-          51.5151269
+          -0.157757,
+          51.515211
         ],
         [
-          -0.15754079999999998,
-          51.5151297
+          -0.157731,
+          51.515148
         ],
         [
-          -0.15753419999999999,
-          51.5151147
-        ],
-        [
-          -0.1576926,
-          51.5150889
+          -0.157746,
+          51.515139
         ],
         [
           -0.157719,
-          51.5151429
+          51.515085
         ],
         [
-          -0.15770689999999998,
-          51.5151472
+          -0.157559,
+          51.515109
         ],
         [
-          -0.1577375,
-          51.515216
+          -0.157559,
+          51.515127
         ],
         [
-          -0.15760559999999998,
-          51.5152363
+          -0.157573,
+          51.515128
+        ],
+        [
+          -0.157626,
+          51.515236
         ]
       ]
     ],
@@ -105,7 +152,7 @@
   "decision_target_date": "26/12/2023",
   "borough": "Westminster",
   "lpa_name": "Westminster",
-  "last_updated": "2025-07-09T20:05:11.649Z",
+  "last_updated": "2025-08-05T20:04:50.871Z",
   "secondary_street_name": null,
   "parking_details": null,
   "subdivision_of_building": null,
@@ -128,14 +175,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 127,
-        "gia_gained": 139,
         "use_class": "E",
+        "gia_gained": 139,
         "gia_lost": 0
       },
       {
         "gia_existing": 127,
-        "gia_gained": 0,
         "use_class": "C3",
+        "gia_gained": 0,
         "gia_lost": 127
       }
     ],
@@ -214,11 +261,11 @@
           "unit_no": "Loss-1",
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 2,
           "unit_type": "Terraced Home",
+          "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "gia": 127,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 127
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 1,

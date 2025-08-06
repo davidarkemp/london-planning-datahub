@@ -16,7 +16,42 @@
   "postcode": "W1K 1QD",
   "borough": "Westminster",
   "decision": null,
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              528249,
+              180388
+            ],
+            [
+              528246,
+              180398
+            ],
+            [
+              528241,
+              180397
+            ],
+            [
+              528239,
+              180391
+            ],
+            [
+              528245,
+              180384
+            ],
+            [
+              528249,
+              180388
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "geometrycollection"
+  },
   "centroid": {
     "lon": -0.153512,
     "lat": 51.507924
@@ -46,31 +81,35 @@
   "uprn": "100023475035",
   "actual_completion_date": null,
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated": "2025-08-04T20:06:01.612Z",
+  "last_updated": "2025-08-05T20:07:29.025Z",
   "cil_liability": false,
   "wgs84_polygon": {
     "type": "Polygon",
     "coordinates": [
       [
         [
-          -0.15349,
-          51.507937
+          -0.153427,
+          51.507877
         ],
         [
-          -0.153491,
-          51.50791
+          -0.153467,
+          51.507968
         ],
         [
-          -0.153534,
-          51.507911
+          -0.153539,
+          51.50796
         ],
         [
-          -0.153533,
-          51.507937
+          -0.15357,
+          51.507907
         ],
         [
-          -0.15349,
-          51.507937
+          -0.153486,
+          51.507842
+        ],
+        [
+          -0.153427,
+          51.507877
         ]
       ]
     ]
@@ -85,10 +124,10 @@
     "total_gia_existing": 79.6,
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
+        "gia_existing": 79.6,
         "use_class": "EG1",
-        "gia_lost": 0,
-        "gia_existing": 79.6
+        "gia_gained": 0,
+        "gia_lost": 0
       }
     ],
     "scheme_phasing": true,
@@ -99,14 +138,14 @@
       "mobile_network_operators_consultation": false,
       "waste_details": [
         {
-          "external_food_waste": false,
-          "reason_for_no_provision": "There is no external space within the demise",
-          "internal_dry_recycling": true,
-          "external_residual_waste": false,
           "external_dry_recycling": false,
+          "external_food_waste": false,
           "unit_reference": "61 Park Ln",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "There is no external space within the demise",
           "internal_residual_waste": true,
-          "internal_food_waste": true
+          "internal_food_waste": true,
+          "internal_dry_recycling": true
         }
       ],
       "no_resi_units_to_have_full_fibre": 0,

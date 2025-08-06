@@ -7,19 +7,19 @@
   "lapsed_date": "22/05/2029",
   "decision_date": "22/05/2024",
   "lpa_app_no": "24/01307/CUETC3",
-  "status": "Approved",
+  "status": "Commenced",
   "parking_details": null,
   "centroid": {
-    "lat": "51.4070294",
-    "lon": "-0.0326596"
+    "lat": 51.40703,
+    "lon": -0.032686
   },
   "application_type": "All Other",
   "borough": "Bromley Custodian Code",
   "decision_process": "Delegated",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "last_date_consultation_comments": "30/04/2024",
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated": "2025-03-19T21:29:30.541+00:00",
+  "last_updated": "2025-08-05T14:06:53.543Z",
   "locality": null,
   "date_building_work_completed_under_previous_permission": null,
   "description": "Change of use of first floor from Use Class E (Commercial, Business and Service) to Use Class C3 (Dwellinghouses) to form 4 residential units, under Class MA, Part 3, Schedule 2 of the Town and Country Planning (General Permitted Development) Order 2015 (as amended) (56 day application for prior approval in respect of transport and highways impacts, contamination risks, flood risk, noise impacts, character or sustainability of a conservation area, provision of natural light to habitable rooms, impact on an area of general or heavy industry, impact of loss of services provided by a registered nursery or a health centre, fire safety impacts).",
@@ -31,7 +31,7 @@
   "url_planning_app": null,
   "site_number": "3",
   "actual_completion_date": null,
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "application_details": {
     "infrastructure_details": {
       "no_new_gas_connections_required": 4,
@@ -46,21 +46,23 @@
       "solar_pv_capacity": 0.05,
       "green_roof_area": 0,
       "no_non_resi_units_to_have_full_fibre": 1,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 50,
       "total_annual_nox_emissions": 0
     },
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 700,
-        "use_class": "E(c)(iii)",
         "gia_gained": 0,
+        "use_class": "E(c)(iii)",
+        "actual_commencement_date": "17/12/2024",
         "gia_lost": 350
       },
       {
         "gia_existing": 0,
-        "use_class": "C3",
         "gia_gained": 350,
+        "use_class": "C3",
+        "actual_commencement_date": "17/12/2024",
         "gia_lost": 0
       }
     ],
@@ -87,42 +89,58 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 3,
           "provider": "Private",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
           "unit_no": "Gain-1",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
+          "actual_commencement_date": "17/12/2024",
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "gia": 79.8,
           "tenure": "Market for rent"
         },
         {
-          "no_habitable_rooms": 3,
           "provider": "Private",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
           "unit_no": "Gain-2",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
+          "actual_commencement_date": "17/12/2024",
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "gia": 79.8,
           "tenure": "Market for rent"
         },
         {
-          "no_habitable_rooms": 3,
           "provider": "Private",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
           "unit_no": "Gain-3",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
+          "actual_commencement_date": "17/12/2024",
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "gia": 79.8,
           "tenure": "Market for rent"
         },
         {
-          "no_habitable_rooms": 3,
           "provider": "Private",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
           "unit_no": "Gain-4",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
+          "actual_commencement_date": "17/12/2024",
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "gia": 79.8,
           "tenure": "Market for rent"
         }
@@ -148,7 +166,8 @@
       "total_no_proposed_residential_units_market_for_rent": 4,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "total_no_existing_residential_units_social_rent": 0
+      "total_no_existing_residential_units_social_rent": 0,
+      "site_area": 0
     },
     "intended_commencement_date": "06/2024",
     "lead_developer_company_name": "Joseph Samuel Corporation",
@@ -157,10 +176,29 @@
       "total_gia_lost": 350,
       "total_gia_gained": 350,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_existing": 700
+      "total_gia_existing": 700,
+      "site_area": 0
     },
     "occupation_status": "Occupied",
-    "site_area": 0
+    "site_area": 0,
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "scheme_phasing": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "garden_land_lost": false
   },
   "pp_id": "PP-12926707",
   "postcode": "BR3 4ES",
@@ -168,170 +206,164 @@
     "coordinates": [
       [
         [
-          -0.0326592,
-          51.4070384
+          -0.032685,
+          51.407039
         ],
         [
-          -0.0326567,
-          51.4070382
+          -0.032683,
+          51.407039
         ],
         [
-          -0.0326543,
-          51.4070378
+          -0.03268,
+          51.407039
         ],
         [
-          -0.032652,
-          51.4070371
+          -0.032678,
+          51.407038
         ],
         [
-          -0.032650000000000005,
-          51.4070361
+          -0.032676,
+          51.407037
         ],
         [
-          -0.0326483,
+          -0.032674,
+          51.407036
+        ],
+        [
+          -0.032673,
           51.407035
         ],
         [
-          -0.0326469,
-          51.4070337
+          -0.032672,
+          51.407033
         ],
         [
-          -0.0326459,
-          51.4070322
+          -0.032672,
+          51.407032
         ],
         [
-          -0.032645299999999995,
-          51.4070307
+          -0.032671,
+          51.40703
         ],
         [
-          -0.0326452,
-          51.4070292
+          -0.032672,
+          51.407029
         ],
         [
-          -0.0326455,
-          51.4070276
+          -0.032672,
+          51.407027
         ],
         [
-          -0.0326462,
-          51.4070261
+          -0.032673,
+          51.407026
         ],
         [
-          -0.0326473,
-          51.4070247
+          -0.032675,
+          51.407024
         ],
         [
-          -0.0326488,
-          51.4070234
+          -0.032677,
+          51.407023
         ],
         [
-          -0.0326506,
-          51.4070224
+          -0.032679,
+          51.407022
         ],
         [
-          -0.0326527,
-          51.4070215
+          -0.032681,
+          51.407022
         ],
         [
-          -0.032654999999999997,
-          51.4070209
-        ],
-        [
-          -0.032657399999999996,
-          51.4070205
-        ],
-        [
-          -0.0326599,
-          51.4070204
-        ],
-        [
-          -0.0326624,
-          51.4070206
-        ],
-        [
-          -0.0326648,
+          -0.032684,
           51.407021
         ],
         [
-          -0.0326671,
-          51.4070217
+          -0.032686,
+          51.407021
         ],
         [
-          -0.0326691,
-          51.4070227
+          -0.032689,
+          51.407021
         ],
         [
-          -0.0326708,
-          51.4070238
+          -0.032691,
+          51.407022
         ],
         [
-          -0.0326722,
-          51.4070251
+          -0.032693,
+          51.407023
         ],
         [
-          -0.0326732,
-          51.4070266
+          -0.032695,
+          51.407024
         ],
         [
-          -0.032673799999999996,
-          51.4070281
+          -0.032697,
+          51.407025
         ],
         [
-          -0.0326739,
-          51.4070296
+          -0.032698,
+          51.407026
         ],
         [
-          -0.0326736,
-          51.4070312
+          -0.032699,
+          51.407027
         ],
         [
-          -0.0326729,
-          51.4070327
+          -0.0327,
+          51.407029
         ],
         [
-          -0.0326718,
-          51.4070341
+          -0.0327,
+          51.407031
         ],
         [
-          -0.0326703,
-          51.4070354
+          -0.0327,
+          51.407032
         ],
         [
-          -0.032668499999999996,
-          51.4070364
+          -0.032699,
+          51.407034
         ],
         [
-          -0.0326664,
-          51.4070373
+          -0.032698,
+          51.407035
         ],
         [
-          -0.0326641,
-          51.4070379
+          -0.032696,
+          51.407036
         ],
         [
-          -0.0326617,
-          51.407038299999996
+          -0.032695,
+          51.407037
         ],
         [
-          -0.0326592,
-          51.4070384
+          -0.032693,
+          51.407038
+        ],
+        [
+          -0.03269,
+          51.407039
+        ],
+        [
+          -0.032688,
+          51.407039
+        ],
+        [
+          -0.032685,
+          51.407039
         ]
       ]
     ],
     "type": "Polygon"
   },
-  "cil_liability": true,
+  "cil_liability": false,
   "street_name": "Beckenham Road",
   "decision_conditions": [
-    "Refuse Storage Details Required",
-    "",
-    "",
-    "",
-    "",
-    "",
-    ""
+    "Refuse Storage Details Required"
   ],
   "decision_agency": null,
-  "actual_commencement_date": null,
+  "actual_commencement_date": "17/12/2024",
   "centroid_northing": 169392,
   "site_name": "",
   "decision_target_date": "23/05/2024",

@@ -63,17 +63,17 @@
     ],
     "type": "GeometryCollection"
   },
-  "cil_liability": true,
+  "cil_liability": false,
   "lapsed_date": "17/12/2027",
   "appeal_decision": null,
   "street_name": "Becondale Road",
   "decision_agency": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "description": "Erection of a two-storey single family dwellinghouse to the rear of 23 Becondale Road.",
   "decision": "Approved",
   "centroid_northing": 171013,
-  "bo_system": "Idox Uniform",
-  "last_updated": "2025-03-19T19:59:01.543+00:00",
+  "bo_system": "Portal",
+  "last_updated": "2025-08-05T08:50:20.871Z",
   "appeal_status": null,
   "date_building_work_started_under_previous_permission": null,
   "ward": "GIPSYH",
@@ -89,52 +89,52 @@
     "coordinates": [
       [
         [
-          -0.0847228,
-          51.4223989
+          -0.084749,
+          51.422399
         ],
         [
-          -0.0854679,
-          51.4223843
+          -0.085494,
+          51.422385
         ],
         [
-          -0.08538889999999999,
-          51.4224544
+          -0.085415,
+          51.422455
         ],
         [
-          -0.0853591,
-          51.4224851
+          -0.085385,
+          51.422486
         ],
         [
-          -0.08511379999999999,
-          51.4226625
+          -0.08514,
+          51.422663
         ],
         [
-          -0.0850262,
-          51.4226522
+          -0.085052,
+          51.422653
         ],
         [
-          -0.08506939999999999,
-          51.4225294
+          -0.085095,
+          51.42253
         ],
         [
-          -0.0850317,
-          51.4225214
+          -0.085057,
+          51.422522
         ],
         [
-          -0.084691,
-          51.4224786
+          -0.084717,
+          51.422479
         ],
         [
-          -0.0846936,
-          51.4224727
+          -0.084719,
+          51.422473
         ],
         [
-          -0.0847156,
-          51.4224017
+          -0.084741,
+          51.422402
         ],
         [
-          -0.0847228,
-          51.4223989
+          -0.084749,
+          51.422399
         ]
       ]
     ]
@@ -142,15 +142,15 @@
   "postcode": "SE19 1QJ",
   "decision_date": "17/12/2024",
   "centroid": {
-    "lon": "-0.0850866",
-    "lat": "51.4224754"
+    "lon": -0.085112,
+    "lat": 51.422476
   },
   "decision_process": "Delegated",
   "epc_number": null,
   "date_building_work_completed_under_previous_permission": null,
   "title_number": [],
   "site_number": "23",
-  "borough": "London Borough of Lambeth",
+  "borough": "Lambeth",
   "actual_completion_date": null,
   "appeal_decision_date": null,
   "valid_date": "23/10/2023",
@@ -190,8 +190,8 @@
       "total_annual_pm_emissions": 0,
       "mobile_network_operators_consultation": false,
       "no_resi_units_to_have_full_fibre": 1,
-      "waste_provision": true,
-      "fire_suppression_system_proposed": true,
+      "waste_provision": false,
+      "fire_suppression_system_proposed": false,
       "no_active_slow_ev_charging_points": 0,
       "green_roof_area": 0,
       "no_active_other_ev_charging_points": 0,
@@ -249,7 +249,7 @@
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 61.72839506172839,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "residential_units": [
@@ -257,10 +257,10 @@
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
           "description": null,
-          "change_type": "Gain",
           "m42_compliant": true,
-          "sheltered_accommodation": false,
+          "change_type": "Gain",
           "garden_land": true,
+          "sheltered_accommodation": false,
           "unit_type": "House or Bungalow",
           "provider": "Private",
           "no_habitable_rooms": 5,
@@ -287,7 +287,7 @@
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 12.345679012345679,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_market_for_rent": 0,
@@ -300,11 +300,12 @@
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_starter_homes": 0,
-      "total_no_existing_residential_units_intermediate": 0
+      "total_no_existing_residential_units_intermediate": 0,
+      "site_area": 0.081
     },
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "total_gia_lost": 0,
-    "green_suds": true,
+    "green_suds": false,
     "commencement_notice_received": false,
     "projected_cost_of_works": "Up to £2m",
     "building_details": [
@@ -317,8 +318,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 0,
-        "use_class": "Dwellinghouses",
         "gia_gained": 136,
+        "use_class": "Dwellinghouses",
         "gia_lost": 0
       }
     ],
@@ -328,12 +329,21 @@
     "phasing_details": [
       {
         "phase_detail": "1",
-        "intended_completion_date": "08/2024",
-        "intended_commencement_date": "01/2024"
+        "intended_commencement_date": "01/2024",
+        "intended_completion_date": "08/2024"
       }
     ],
     "internal_resi_water_usage": 90,
-    "rain_water_harvesting": true
+    "rain_water_harvesting": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "scheme_phasing": false,
+    "circular_economy_statement": false,
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "uprn": "100021811131"
 }

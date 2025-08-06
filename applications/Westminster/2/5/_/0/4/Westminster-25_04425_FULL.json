@@ -23,9 +23,9 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 45,
-        "gia_lost": 0,
+        "use_class": "C3",
         "gia_gained": 0,
-        "use_class": "C3"
+        "gia_lost": 0
       }
     ],
     "green_suds": false,
@@ -59,14 +59,14 @@
       "total_annual_pm_emissions": 0,
       "waste_details": [
         {
+          "external_dry_recycling": false,
           "external_food_waste": false,
-          "internal_residual_waste": false,
-          "reason_for_no_provision": "Not relevant to scheme ",
-          "internal_dry_recycling": false,
           "unit_reference": "N/A",
           "external_residual_waste": false,
-          "external_dry_recycling": false,
-          "internal_food_waste": false
+          "reason_for_no_provision": "Not relevant to scheme ",
+          "internal_residual_waste": false,
+          "internal_food_waste": false,
+          "internal_dry_recycling": false
         }
       ]
     },
@@ -78,9 +78,52 @@
   "last_updated_by": "Idox Uniform",
   "street_name": "Montagu Street",
   "decision_target_date": "28/08/2025",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              527830,
+              181358
+            ],
+            [
+              527816,
+              181353
+            ],
+            [
+              527818,
+              181347
+            ],
+            [
+              527831,
+              181352
+            ],
+            [
+              527833,
+              181352
+            ],
+            [
+              527832,
+              181356
+            ],
+            [
+              527830,
+              181356
+            ],
+            [
+              527830,
+              181358
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "geometrycollection"
+  },
   "date_building_work_completed_under_previous_permission": null,
-  "last_updated": "2025-07-16T20:07:02.420Z",
+  "last_updated": "2025-08-05T20:07:24.854Z",
   "centroid": {
     "lat": 51.516638,
     "lon": -0.159242
@@ -118,24 +161,36 @@
     "coordinates": [
       [
         [
-          -0.15922,
-          51.516651
+          -0.15911,
+          51.516689
         ],
         [
-          -0.159221,
-          51.516624
+          -0.159313,
+          51.516648
         ],
         [
-          -0.159264,
-          51.516624
+          -0.159287,
+          51.516593
         ],
         [
-          -0.159263,
-          51.516651
+          -0.159098,
+          51.516635
         ],
         [
-          -0.15922,
-          51.516651
+          -0.159069,
+          51.516635
+        ],
+        [
+          -0.159082,
+          51.516671
+        ],
+        [
+          -0.159111,
+          51.516671
+        ],
+        [
+          -0.15911,
+          51.516689
         ]
       ]
     ],
