@@ -17,7 +17,7 @@
   ],
   "locality": null,
   "uprn": "100021331773",
-  "status": "Commenced",
+  "status": "Completed",
   "pp_id": "10079637",
   "title_number": [
     "N/A",
@@ -52,22 +52,22 @@
     "net_carclub": null,
     "net_bluebadge": null
   },
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "centroid": {
-    "lon": "0.21711339999999998",
-    "lat": "51.5797071"
+    "lon": 0.217087,
+    "lat": 51.579705
   },
   "decision_agency": "Borough",
   "application_type": "All Other",
   "decision_date": "12/11/2021",
-  "last_updated_by": "FME Excel Import",
+  "last_updated_by": "Portal",
   "decision_process": "Delegated",
   "date_building_work_started_under_previous_permission": null,
   "centroid_northing": 189089,
   "secondary_street_name": null,
   "epc_number": null,
-  "cil_liability": true,
-  "actual_completion_date": null,
+  "cil_liability": false,
+  "actual_completion_date": "17/04/2024",
   "url_planning_app": "http://development.havering.gov.uk/OcellaWeb/planningDetails?reference=P1494.21",
   "lpa_app_no": "P1494.21",
   "lpa_name": "Havering",
@@ -133,7 +133,7 @@
     "type": "GeometryCollection"
   },
   "date_building_work_completed_under_previous_permission": null,
-  "last_updated": "2025-03-19T22:03:06.828+00:00",
+  "last_updated": "2025-08-06T15:41:26.114Z",
   "appeal_start_date": "02/02/2022",
   "decision_target_date": "22/09/2021",
   "reference_no_of_permission_being_relied_on": null,
@@ -149,13 +149,13 @@
     "phasing_details": [
       {
         "phase_detail": "Phase A",
-        "intended_completion_date": "08/2022",
-        "intended_commencement_date": "10/2021"
+        "intended_commencement_date": "10/2021",
+        "intended_completion_date": "08/2022"
       },
       {
         "phase_detail": "Phase A",
-        "intended_completion_date": "08/2022",
-        "intended_commencement_date": "10/2021"
+        "intended_commencement_date": "10/2021",
+        "intended_completion_date": "08/2022"
       }
     ],
     "total_gia_existing": 96,
@@ -168,24 +168,14 @@
       "total_gia_existing": 96,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "development_type": null,
-      "site_area": null
+      "site_area": 0.058
     },
     "existing_proposed_floorspace_details": [],
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "total_gia_lost": 96,
     "existing_uprns": [],
     "total_gia_gained": 0,
     "building_details": [
-      {
-        "no_storeys": 2,
-        "max_height": 8.65,
-        "building_ref": "83 Haynes Road"
-      },
-      {
-        "no_storeys": 2,
-        "max_height": 8.2,
-        "building_ref": "36 Rowan Walk"
-      },
       {
         "no_storeys": 2,
         "max_height": 8.65,
@@ -202,13 +192,13 @@
       "total_annual_pm_emissions": 0,
       "no_new_gas_connections_required": 1,
       "total_annual_nox_emissions": 0,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "percentage_demolition_construction_material_recycling": 1,
       "no_non_resi_units_to_have_full_fibre": 2,
       "no_new_water_connections_required": 1,
       "green_roof_area": 0,
       "no_resi_units_to_have_full_fibre": 2,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_homes_to_have_electrical_heating": 0,
       "no_homes_passive_cooling": 0,
       "fire_suppression_system_proposed": false,
@@ -233,7 +223,7 @@
     "grey_water_reuse": false,
     "residential_details": {
       "total_no_existing_residential_affordable_units": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 172.41379310344826,
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
@@ -241,7 +231,7 @@
       "affordable_percentage": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 34.48275862068965,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_starter_homes": 0,
@@ -249,18 +239,11 @@
       "total_no_existing_residential_units_social_rent": 0,
       "residential_units": [
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
+          "actual_completion_date": "31/05/2023",
           "description": null,
           "change_type": "Loss",
-          "m42_compliant": null,
-          "sheltered_accommodation": null,
-          "garden_land": null,
           "unit_type": "House or Bungalow",
           "unit_development_type": "New Build",
-          "superseded_date": null,
           "provider": "Private",
           "no_habitable_rooms": 2,
           "phase_detail": null,
@@ -268,23 +251,15 @@
           "actual_commencement_date": "31/05/2023",
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
-          "tenure": "Market for sale",
-          "gia": 96
+          "gia": 96,
+          "tenure": "Market for sale"
         },
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
           "actual_completion_date": "20/02/2024",
-          "m43_2a_compliant": null,
           "description": null,
           "change_type": "Gain",
-          "m42_compliant": null,
-          "sheltered_accommodation": null,
-          "garden_land": null,
           "unit_type": "House or Bungalow",
           "unit_development_type": "New Build",
-          "superseded_date": null,
           "provider": "Private",
           "no_habitable_rooms": 5,
           "phase_detail": null,
@@ -292,23 +267,15 @@
           "actual_commencement_date": "31/05/2023",
           "no_bedrooms": 4,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
-          "tenure": "Market for sale",
-          "gia": 185.5
+          "gia": 185.5,
+          "tenure": "Market for sale"
         },
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
+          "actual_completion_date": "17/04/2024",
           "description": null,
           "change_type": "Gain",
-          "m42_compliant": null,
-          "sheltered_accommodation": null,
-          "garden_land": null,
           "unit_type": "House or Bungalow",
           "unit_development_type": "New Build",
-          "superseded_date": null,
           "provider": "Private",
           "no_habitable_rooms": 5,
           "phase_detail": null,
@@ -316,119 +283,46 @@
           "actual_commencement_date": "31/05/2023",
           "no_bedrooms": 4,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
-          "tenure": "Market for sale",
-          "gia": 149
-        },
-        {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
-          "description": null,
-          "change_type": "Loss",
-          "m42_compliant": null,
-          "sheltered_accommodation": null,
-          "garden_land": null,
-          "unit_type": "House or Bungalow",
-          "unit_development_type": "New Build",
-          "superseded_date": null,
-          "provider": "Private",
-          "no_habitable_rooms": 2,
-          "phase_detail": null,
-          "unit_no": null,
-          "actual_commencement_date": "31/05/2023",
-          "no_bedrooms": 3,
-          "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
-          "tenure": "Market for sale",
-          "gia": 96
-        },
-        {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": "20/02/2024",
-          "m43_2a_compliant": null,
-          "description": null,
-          "change_type": "Gain",
-          "m42_compliant": null,
-          "sheltered_accommodation": null,
-          "garden_land": null,
-          "unit_type": "House or Bungalow",
-          "unit_development_type": "New Build",
-          "superseded_date": null,
-          "provider": "Private",
-          "no_habitable_rooms": 5,
-          "phase_detail": null,
-          "unit_no": null,
-          "actual_commencement_date": "31/05/2023",
-          "no_bedrooms": 4,
-          "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
-          "tenure": "Market for sale",
-          "gia": 185.5
-        },
-        {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
-          "description": null,
-          "change_type": "Gain",
-          "m42_compliant": null,
-          "sheltered_accommodation": null,
-          "garden_land": null,
-          "unit_type": "House or Bungalow",
-          "unit_development_type": "New Build",
-          "superseded_date": null,
-          "provider": "Private",
-          "no_habitable_rooms": 5,
-          "phase_detail": null,
-          "unit_no": null,
-          "actual_commencement_date": "31/05/2023",
-          "no_bedrooms": 4,
-          "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
-          "tenure": "Market for sale",
-          "gia": 149
+          "gia": 149,
+          "tenure": "Market for sale"
         }
       ],
-      "total_no_proposed_bedrooms": 16,
+      "total_no_proposed_bedrooms": 8,
       "total_no_proposed_residential_units_social_rent": 0,
-      "total_no_existing_residential_units": 2,
+      "total_no_existing_residential_units": 1,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
-      "total_no_existing_residential_units_market_for_sale": 2,
+      "total_no_existing_residential_units_market_for_sale": 1,
       "total_no_proposed_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
-      "total_no_proposed_residential_units": 4,
+      "total_no_proposed_residential_units": 2,
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_gia_lost": 96,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_gia_gained": 0,
-      "total_no_proposed_residential_units_market_for_sale": 4,
+      "total_no_proposed_residential_units_market_for_sale": 2,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "site_area": null
+      "site_area": 0.058
     },
     "affordable_housing_fast_track": false,
     "ownership_status": "Private",
-    "garden_land_lost": true,
-    "s106_agreement": null,
+    "garden_land_lost": false,
+    "s106_agreement": false,
     "affordable_housing_inlieu_payment": null,
-    "air_quality_assessment": null,
+    "air_quality_assessment": false,
     "other_contributions": null,
     "intended_commencement_date": null,
     "no_affordable_housing_units_provided_offsite": null,
-    "commencement_notice_received": null,
-    "circular_economy_statement": null,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
     "qualifying_vacant_building_floorspace": null,
     "open_and_protected_space_details": {
       "open_space_local_and_other_area_gain": 0,
@@ -444,23 +338,23 @@
     "constraints_details": [],
     "superseding_details": [],
     "lead_registered_social_landlord": null,
-    "viability_assessment": null,
+    "viability_assessment": false,
     "overseas_company_registration_no": null,
-    "mayoral_cil_liability_notice_issued": null,
+    "mayoral_cil_liability_notice_issued": false,
     "intended_completion_date": null,
     "non_permanent_dwellings_details": [],
     "uk_company_registration_no": null,
     "other_residential_accommodation_details": {
       "no_council_tax_rateable_units_gained": null,
       "no_council_tax_rateable_units_lost": null,
-      "site_area": null,
+      "site_area": 0.058,
       "other_resi_accommodation_unit_details": []
     },
-    "3d_model": null,
+    "3d_model": false,
     "transport_contributions": null,
     "no_affordable_housing_units_acquired_offsite": null,
-    "borough_cil_liability_notice_issued": null,
-    "transport_impact_assessment": null,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
     "social_infrastructure_contributions": null,
     "scheme_name": null,
     "lead_developer_company_name": null
@@ -472,48 +366,48 @@
     "coordinates": [
       [
         [
-          0.2173127,
-          51.579792
+          0.217287,
+          51.57979
         ],
         [
-          0.217326,
-          51.5796212
+          0.2173,
+          51.579619
         ],
         [
-          0.21707749999999998,
-          51.5795894
+          0.217051,
+          51.579588
         ],
         [
-          0.2170517,
-          51.5795873
+          0.217026,
+          51.579585
         ],
         [
-          0.217024,
+          0.216998,
+          51.579589
+        ],
+        [
+          0.216993,
           51.579591
         ],
         [
-          0.217019,
-          51.5795924
+          0.216947,
+          51.579616
         ],
         [
-          0.2169729,
-          51.5796176
+          0.216932,
+          51.579632
         ],
         [
-          0.2169582,
-          51.5796339
+          0.216875,
+          51.579781
         ],
         [
-          0.2169006,
-          51.5797825
+          0.216879,
+          51.579804
         ],
         [
-          0.21690479999999998,
-          51.5798055
-        ],
-        [
-          0.2173127,
-          51.579792
+          0.217287,
+          51.57979
         ]
       ]
     ],

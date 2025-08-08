@@ -2,9 +2,11 @@
   "valid_date": "18/11/2024",
   "epc_number": null,
   "site_name": "Former Ex Willesden Ambulance Station, Harlesden Road, London",
-  "cil_liability": true,
-  "polygon": null,
-  "actual_commencement_date": null,
+  "cil_liability": false,
+  "polygon": {
+    "type": "geometrycollection"
+  },
+  "actual_commencement_date": "01/09/2024",
   "site_number": null,
   "decision": "Approved",
   "parking_details": {
@@ -23,26 +25,52 @@
   "appeal_status": null,
   "description": "Construction of part four and part five-storey building providing 9 self-contained flats, creation of a new vehicular crossover, provision of waste storage, car and cycle parking, hard and soft landscaping with associated amenity space.",
   "appeal_decision": null,
-  "postcode": null,
+  "postcode": "",
   "date_building_work_completed_under_previous_permission": null,
   "decision_target_date": "19/03/2025",
-  "street_name": null,
+  "street_name": "",
   "decision_process": "Delegated",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "centroid_northing": 183680,
   "application_type": "All Other",
   "title_number": null,
   "decision_conditions": null,
   "appeal_start_date": null,
   "development_type": "Minor dwellings",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.238919,
+          51.538809
+        ],
+        [
+          -0.23892,
+          51.538782
+        ],
+        [
+          -0.238963,
+          51.538782
+        ],
+        [
+          -0.238962,
+          51.538809
+        ],
+        [
+          -0.238919,
+          51.538809
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "lpa_app_no": "24/3260",
   "decision_agency": null,
   "decision_date": "19/03/2025",
   "pp_id": "PP-13543149",
   "url_planning_app": "https://pa.brent.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR_170973&activeTab=summary",
   "lpa_name": "Brent",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "subdivision_of_building": "Site is vacant.",
   "secondary_street_name": null,
   "date_building_work_started_under_previous_permission": null,
@@ -50,8 +78,8 @@
     "lat": 51.538795,
     "lon": -0.238941
   },
-  "status": "Approved",
-  "last_updated": "2025-07-09T08:02:06.099Z",
+  "status": "Commenced",
+  "last_updated": "2025-08-06T09:09:10.552Z",
   "actual_completion_date": null,
   "lapsed_date": "19/03/2028",
   "borough": "Brent",
@@ -88,8 +116,8 @@
       }
     ],
     "projected_cost_of_works": "Up to £2m",
-    "rain_water_harvesting": true,
-    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "scheme_phasing": false,
     "building_details": [
       {
         "no_storeys": 5,
@@ -98,14 +126,15 @@
       }
     ],
     "grey_water_reuse": false,
-    "green_suds": true,
+    "green_suds": false,
     "surface_water_discharge_percentage_reduction": 20,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 670,
       "total_gia_existing": 0,
-      "total_gia_lost": 0
+      "total_gia_lost": 0,
+      "site_area": 0.07060000000000001
     },
     "garden_land_lost": false,
     "infrastructure_details": {
@@ -120,13 +149,13 @@
       "no_passive_slow_ev_charging_points": 5,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 20,
       "no_homes_to_have_electrical_heating": 9,
       "mobile_network_operators_consultation": false,
-      "fire_suppression_system_proposed": true,
+      "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 1,
-      "ghg_reduction_over_building_regulations": true
+      "ghg_reduction_over_building_regulations": false
     },
     "internal_resi_water_usage": 105,
     "residential_details": {
@@ -149,13 +178,13 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 9,
       "total_no_existing_residential_affordable_units": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 467.42209631728036,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 525,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 127.47875354107647,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_gia_lost": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -170,98 +199,147 @@
         {
           "provider": "Private",
           "no_habitable_rooms": 3,
+          "phase_detail": null,
           "unit_no": "Gain-1",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
+          "actual_commencement_date": "01/09/2024",
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "gia": 51,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 3,
+          "phase_detail": null,
           "unit_no": "Gain-2",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
+          "actual_commencement_date": "01/09/2024",
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "gia": 51,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 3,
+          "phase_detail": null,
           "unit_no": "Gain-3",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
+          "actual_commencement_date": "01/09/2024",
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "gia": 51,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 3,
+          "phase_detail": null,
           "unit_no": "Gain-4",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
+          "actual_commencement_date": "01/09/2024",
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "gia": 51,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 4,
+          "phase_detail": null,
           "unit_no": "Gain-5",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
+          "actual_commencement_date": "01/09/2024",
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "gia": 61,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 4,
+          "phase_detail": null,
           "unit_no": "Gain-6",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
+          "actual_commencement_date": "01/09/2024",
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "gia": 61,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 4,
+          "phase_detail": null,
           "unit_no": "Gain-7",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
+          "actual_commencement_date": "01/09/2024",
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "gia": 61,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 4,
+          "phase_detail": null,
           "unit_no": "Gain-8",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
+          "actual_commencement_date": "01/09/2024",
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "gia": 61,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 5,
+          "phase_detail": null,
           "unit_no": "Gain-9",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 3,
+          "actual_commencement_date": "01/09/2024",
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
           "gia": 77,
           "tenure": "Market for sale"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.07060000000000001
     },
     "ownership_status": "Private",
-    "lead_developer_company_name": "Leap Living"
+    "lead_developer_company_name": "Leap Living",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.07060000000000001
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   }
 }

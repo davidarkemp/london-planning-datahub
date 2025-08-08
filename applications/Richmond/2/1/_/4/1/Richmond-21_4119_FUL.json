@@ -2,7 +2,7 @@
   "street_name": "Sandy Lane",
   "centroid_northing": 170395,
   "lapsed_date": "05/08/2025",
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "site_name": null,
   "date_building_work_completed_under_previous_permission": null,
   "epc_number": null,
@@ -11,7 +11,7 @@
   "site_number": "92",
   "actual_commencement_date": "01/03/2023",
   "decision": "Approved",
-  "cil_liability": true,
+  "cil_liability": false,
   "polygon": {
     "coordinates": [
       [
@@ -65,8 +65,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_completion_date": "08/2023",
-        "intended_commencement_date": "08/2022"
+        "intended_commencement_date": "08/2022",
+        "intended_completion_date": "08/2023"
       }
     ],
     "total_gia_gained": 295,
@@ -76,18 +76,16 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 105,
-        "superseded_date": null,
-        "actual_completion_date": null,
+        "actual_completion_date": "22/07/2025",
         "use_class": "C3",
         "gia_gained": 295,
         "actual_commencement_date": "01/03/2023",
-        "superseded_by_lpa_app_no": null,
         "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
-    "scheme_phasing": true,
-    "rain_water_harvesting": true,
+    "scheme_phasing": false,
+    "rain_water_harvesting": false,
     "grey_water_reuse": false,
     "building_details": [
       {
@@ -96,7 +94,7 @@
         "building_ref": "New House"
       }
     ],
-    "green_suds": true,
+    "green_suds": false,
     "surface_water_discharge_percentage_reduction": 63,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
@@ -105,9 +103,9 @@
       "total_gia_lost": 0,
       "total_gia_existing": 105,
       "development_type": null,
-      "site_area": null
+      "site_area": 0.04
     },
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_proposed_bedrooms": 4,
@@ -129,12 +127,12 @@
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 1,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 175,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 400,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 25,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_gia_lost": 105,
       "total_no_proposed_residential_units_starter_homes": 0,
@@ -147,18 +145,11 @@
       "affordable_percentage": 100,
       "residential_units": [
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
+          "actual_completion_date": "01/03/2023",
           "description": null,
           "change_type": "Loss",
-          "m42_compliant": null,
-          "sheltered_accommodation": null,
-          "garden_land": null,
           "unit_type": "House or Bungalow",
           "unit_development_type": "New Build",
-          "superseded_date": null,
           "provider": "Self-Build",
           "no_habitable_rooms": 4,
           "phase_detail": null,
@@ -166,23 +157,15 @@
           "actual_commencement_date": "01/03/2023",
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
-          "tenure": "Self-Build and Custom Build",
-          "gia": 105
+          "gia": 105,
+          "tenure": "Self-Build and Custom Build"
         },
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
+          "actual_completion_date": "22/07/2025",
           "description": null,
           "change_type": "Gain",
-          "m42_compliant": null,
-          "sheltered_accommodation": null,
-          "garden_land": null,
           "unit_type": "House or Bungalow",
           "unit_development_type": "New Build",
-          "superseded_date": null,
           "provider": "Self-Build",
           "no_habitable_rooms": 7,
           "phase_detail": null,
@@ -190,14 +173,13 @@
           "actual_commencement_date": "01/03/2023",
           "no_bedrooms": 4,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
-          "tenure": "Self-Build and Custom Build",
-          "gia": 400
+          "gia": 400,
+          "tenure": "Self-Build and Custom Build"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 1,
-      "site_area": null
+      "site_area": 0.04
     },
     "internal_resi_water_usage": 76.9,
     "infrastructure_details": {
@@ -208,7 +190,7 @@
       "no_new_water_connections_required": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_active_fast_ev_charging_points": 1,
       "no_homes_to_have_electrical_heating": 0,
@@ -216,7 +198,7 @@
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
       "chp_heat_pumps_capacity": 0,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "no_passive_rapid_ev_charging_points": null,
       "no_active_rapid_ev_charging_points": null,
       "no_passive_fast_ev_charging_points": null,
@@ -230,15 +212,15 @@
       "waste_details": []
     },
     "ownership_status": "Private",
-    "s106_agreement": null,
+    "s106_agreement": false,
     "affordable_housing_inlieu_payment": null,
-    "air_quality_assessment": null,
+    "air_quality_assessment": false,
     "other_contributions": null,
     "existing_uprns": [],
     "intended_commencement_date": null,
     "no_affordable_housing_units_provided_offsite": null,
-    "circular_economy_statement": null,
-    "commencement_notice_received": null,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
     "qualifying_vacant_building_floorspace": null,
     "open_and_protected_space_details": {
       "protected_space_count": 0,
@@ -254,34 +236,34 @@
     "constraints_details": [],
     "superseding_details": [],
     "lead_registered_social_landlord": null,
-    "viability_assessment": null,
+    "viability_assessment": false,
     "overseas_company_registration_no": null,
-    "mayoral_cil_liability_notice_issued": null,
+    "mayoral_cil_liability_notice_issued": false,
     "intended_completion_date": null,
     "non_permanent_dwellings_details": [],
     "other_residential_accommodation_details": {
       "no_council_tax_rateable_units_gained": null,
       "no_council_tax_rateable_units_lost": null,
-      "site_area": null,
+      "site_area": 0.04,
       "other_resi_accommodation_unit_details": []
     },
     "uk_company_registration_no": null,
-    "3d_model": null,
+    "3d_model": false,
     "transport_contributions": null,
     "no_affordable_housing_units_acquired_offsite": null,
-    "borough_cil_liability_notice_issued": null,
-    "transport_impact_assessment": null,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
     "scheme_name": null,
     "social_infrastructure_contributions": null,
     "lead_developer_company_name": null
   },
   "borough": "Richmond upon Thames",
-  "actual_completion_date": null,
+  "actual_completion_date": "22/07/2025",
   "pp_id": "PP-10432658",
   "locality": null,
   "application_type": "All Other",
   "decision_target_date": "25/01/2022",
-  "last_updated_by": "FME Excel Import",
+  "last_updated_by": "Portal",
   "application_type_full": "Full planning permission",
   "lpa_name": "Richmond",
   "url_planning_app": null,
@@ -319,15 +301,15 @@
   "appeal_start_date": null,
   "subdivision_of_building": null,
   "decision_process": "Delegated",
-  "status": "Commenced",
+  "status": "Completed",
   "centroid_easting": 516238,
   "description": "Construction of new detached family home following demolition of existing detached bungalow.",
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
-    "lon": "-0.32967379999999996",
-    "lat": "51.4206591"
+    "lon": -0.329695,
+    "lat": 51.420659
   },
-  "last_updated": "2025-03-19T03:36:01.434+00:00",
+  "last_updated": "2025-08-06T13:17:26.098Z",
   "decision_agency": null,
   "ward": "TDD",
   "parking_details": {
@@ -361,5 +343,31 @@
   },
   "appeal_decision": null,
   "last_date_consultation_comments": "11/05/2022",
-  "wgs84_polygon": null
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.329673,
+          51.420672
+        ],
+        [
+          -0.329674,
+          51.420646
+        ],
+        [
+          -0.329717,
+          51.420646
+        ],
+        [
+          -0.329716,
+          51.420673
+        ],
+        [
+          -0.329673,
+          51.420672
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  }
 }

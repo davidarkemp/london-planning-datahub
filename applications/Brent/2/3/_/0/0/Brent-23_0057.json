@@ -23,7 +23,9 @@
   "reference_no_of_permission_being_relied_on": null,
   "centroid_northing": 183837,
   "subdivision_of_building": null,
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "parking_details": {
     "no_existing_car": 2,
     "net_car": 0,
@@ -56,7 +58,7 @@
   "development_type": "Minor dwellings",
   "lpa_name": "Brent",
   "actual_commencement_date": null,
-  "last_updated": "2025-07-09T08:01:26.229Z",
+  "last_updated": "2025-08-06T13:26:37.185Z",
   "decision_process": "Delegated",
   "url_planning_app": "https://pa.brent.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR_163240&activeTab=summary",
   "appeal_start_date": null,
@@ -64,7 +66,7 @@
   "ward": "Brondesbury Park",
   "application_type_full": "Full planning permission",
   "locality": null,
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "application_details": {
     "garden_land_lost": false,
     "existing_uprns": null,
@@ -81,16 +83,12 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 308,
-        "superseded_date": null,
-        "actual_completion_date": null,
         "gia_gained": 853,
         "use_class": "C3",
-        "actual_commencement_date": null,
-        "superseded_by_lpa_app_no": null,
         "gia_lost": 308
       }
     ],
-    "rain_water_harvesting": true,
+    "rain_water_harvesting": false,
     "projected_cost_of_works": "Up to £2m",
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
@@ -103,7 +101,7 @@
       "ghg_reduction_over_building_regulations": false,
       "total_annual_nox_emissions": 0,
       "percentage_demolition_construction_material_recycling": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_resi_units_to_have_full_fibre": 0,
       "solar_pv_capacity": 0,
       "no_homes_passive_cooling": 0,
@@ -130,7 +128,7 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 853,
       "development_type": null,
-      "site_area": null
+      "site_area": 0.1
     },
     "internal_resi_water_usage": 0,
     "building_details": [
@@ -142,7 +140,7 @@
     ],
     "affordable_housing_fast_track": false,
     "total_gia_lost": 308,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "surface_water_discharge_percentage_reduction": 0,
     "residential_details": {
       "total_no_proposed_residential_units_market_for_sale": 0,
@@ -157,66 +155,44 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units": 1,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 90,
       "total_no_proposed_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "residential_units": [
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
-          "description": null,
-          "m42_compliant": null,
-          "change_type": "Loss",
-          "sheltered_accommodation": false,
-          "garden_land": null,
-          "unit_type": "House or Bungalow",
-          "unit_development_type": null,
-          "superseded_date": null,
-          "provider": null,
           "no_habitable_rooms": 7,
           "phase_detail": null,
           "unit_no": "Loss-1",
-          "actual_commencement_date": null,
+          "description": null,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
+          "unit_type": "House or Bungalow",
           "no_bedrooms": 4,
-          "superseded_by_lpa_app_no": null,
           "provision_for_older_persons": false,
-          "tenure": "Self-Build and Custom Build",
-          "gia": 308
+          "gia": 308,
+          "tenure": "Self-Build and Custom Build"
         },
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
-          "description": null,
-          "m42_compliant": null,
-          "change_type": "Gain",
-          "sheltered_accommodation": null,
-          "garden_land": null,
-          "unit_type": "House or Bungalow",
-          "unit_development_type": null,
-          "superseded_date": null,
           "provider": "Private",
           "no_habitable_rooms": 9,
           "phase_detail": null,
           "unit_no": "Gain-1",
-          "actual_commencement_date": null,
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "House or Bungalow",
           "no_bedrooms": 5,
-          "superseded_by_lpa_app_no": null,
           "provision_for_older_persons": false,
-          "tenure": "Self-Build and Custom Build",
-          "gia": 853
+          "gia": 853,
+          "tenure": "Self-Build and Custom Build"
         }
       ],
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units": 1,
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_gia_gained": 853,
-      "dwelling_density": 0,
+      "dwelling_density": 10,
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_existing_residential_units_intermediate": 0,
@@ -233,17 +209,17 @@
       "total_no_existing_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_lost": 308,
-      "site_area": null
+      "site_area": 0.1
     },
-    "green_suds": true,
-    "s106_agreement": null,
+    "green_suds": false,
+    "s106_agreement": false,
     "affordable_housing_inlieu_payment": null,
-    "air_quality_assessment": null,
+    "air_quality_assessment": false,
     "other_contributions": null,
     "intended_commencement_date": null,
     "no_affordable_housing_units_provided_offsite": null,
-    "commencement_notice_received": null,
-    "circular_economy_statement": null,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
     "qualifying_vacant_building_floorspace": null,
     "open_and_protected_space_details": {
       "open_space_local_and_other_area_gain": 0,
@@ -259,36 +235,62 @@
     "constraints_details": [],
     "superseding_details": [],
     "lead_registered_social_landlord": null,
-    "viability_assessment": null,
+    "viability_assessment": false,
     "overseas_company_registration_no": null,
-    "mayoral_cil_liability_notice_issued": null,
+    "mayoral_cil_liability_notice_issued": false,
     "non_permanent_dwellings_details": [],
     "intended_completion_date": null,
     "other_residential_accommodation_details": {
       "no_council_tax_rateable_units_gained": null,
       "no_council_tax_rateable_units_lost": null,
-      "site_area": null,
+      "site_area": 0.1,
       "other_resi_accommodation_unit_details": []
     },
     "uk_company_registration_no": null,
-    "3d_model": null,
+    "3d_model": false,
     "transport_contributions": null,
     "no_affordable_housing_units_acquired_offsite": null,
-    "borough_cil_liability_notice_issued": null,
-    "transport_impact_assessment": null,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
     "social_infrastructure_contributions": null,
     "scheme_name": null,
     "lead_developer_company_name": null
   },
-  "postcode": null,
+  "postcode": "",
   "decision_target_date": "14/07/2023",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.214681,
+          51.539854
+        ],
+        [
+          -0.214683,
+          51.539827
+        ],
+        [
+          -0.214726,
+          51.539828
+        ],
+        [
+          -0.214725,
+          51.539855
+        ],
+        [
+          -0.214681,
+          51.539854
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "description": "Demolition of  existing two-storey property and erection of a two-storey dwelling with accommodation in the roofspace including the construction of a basement and attached partially sunken pool house, new carousel driveway, hard and soft landscaping, new gates and wall",
-  "street_name": null,
-  "bo_system": "CSV Data Import",
+  "street_name": "",
+  "bo_system": "Portal",
   "appeal_status": null,
   "lapsed_date": "02/11/2026",
-  "cil_liability": true,
+  "cil_liability": false,
   "site_number": null,
   "decision_date": "02/11/2023",
   "secondary_street_name": null,

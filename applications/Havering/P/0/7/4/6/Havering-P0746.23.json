@@ -13,19 +13,21 @@
     "total_gia_lost": 125,
     "projected_cost_of_works": "Up to £2m",
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "green_suds": false,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 125,
-        "use_class": "C2",
+        "actual_completion_date": "31/03/2025",
         "gia_gained": 0,
+        "use_class": "C2",
         "gia_lost": 125
       },
       {
         "gia_existing": 0,
-        "use_class": "C3",
+        "actual_completion_date": "31/03/2025",
         "gia_gained": 125,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -39,7 +41,7 @@
       "total_annual_nox_emissions": 0,
       "total_annual_pm_emissions": 0,
       "green_roof_area": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_new_gas_connections_required": 0,
       "no_homes_to_have_electrical_heating": 0,
       "no_homes_passive_cooling": 0,
@@ -53,8 +55,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development ",
-        "intended_completion_date": "10/2023",
-        "intended_commencement_date": "09/2023"
+        "intended_commencement_date": "09/2023",
+        "intended_completion_date": "10/2023"
       }
     ],
     "site_area": 0.035,
@@ -64,16 +66,93 @@
       "total_gia_gained": 125,
       "total_gia_lost": 125,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 125,
-      "total_gia_existing": 125
+      "total_gia_existing": 125,
+      "site_area": 0.035
     },
     "other_residential_accommodation_details": {
       "other_resi_accommodation_unit_details": [
         {
+          "actual_completion_date": "31/03/2025",
+          "no_rooms_proposed": 0,
+          "unit_type": "Secure Residential Room",
+          "no_rooms_lost": 0
+        },
+        {
+          "actual_completion_date": "31/03/2025",
+          "no_rooms_proposed": 0,
+          "unit_type": "Secure Residential Room",
+          "no_rooms_lost": 0
+        },
+        {
+          "actual_completion_date": "31/03/2025",
+          "no_rooms_proposed": 0,
+          "unit_type": "Secure Residential Room",
+          "no_rooms_lost": 0
+        },
+        {
+          "actual_completion_date": "31/03/2025",
+          "no_rooms_proposed": 0,
+          "unit_type": "Secure Residential Room",
+          "no_rooms_lost": 0
+        },
+        {
+          "actual_completion_date": "31/03/2025",
           "no_rooms_proposed": 0,
           "unit_type": "Secure Residential Room",
           "no_rooms_lost": 0
         }
-      ]
+      ],
+      "site_area": 0.035
+    },
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "residential_details": {
+      "total_no_proposed_residential_units_shared_equity": 0,
+      "total_no_proposed_bedrooms": 0,
+      "total_no_proposed_residential_units_london_living_rent": 0,
+      "total_no_proposed_residential_units": 0,
+      "total_no_proposed_residential_affordable_units": 0,
+      "total_no_proposed_residential_units_affordable_rent": 0,
+      "total_no_existing_residential_units": 0,
+      "total_no_proposed_residential_units_discount_market_sale": 0,
+      "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_london_living_rent": 0,
+      "total_no_existing_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_units_shared_equity": 0,
+      "total_no_existing_residential_units_intermediate": 0,
+      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_existing_residential_units_social_rent": 0,
+      "total_no_proposed_residential_units_self_build_and_custom_build": 0,
+      "total_no_existing_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_affordable_units": 0,
+      "habitable_rooms_density": 0,
+      "total_no_existing_residential_units_affordable_rent": 0,
+      "total_no_existing_residential_units_london_shared_ownership": 0,
+      "total_gia_gained": 125,
+      "total_no_proposed_residential_units_social_rent": 0,
+      "total_no_existing_residential_units_london_affordable_rent": 0,
+      "site_area": 0.035,
+      "dwelling_density": 0,
+      "total_no_existing_residential_units_discount_market_sale": 0,
+      "total_no_proposed_residential_units_london_affordable_rent": 0,
+      "total_no_proposed_residential_units_starter_homes": 0,
+      "total_gia_lost": 125,
+      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_starter_homes": 0,
+      "total_no_proposed_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_intermediate": 0,
+      "affordable_percentage": 0,
+      "total_no_proposed_residential_units_london_shared_ownership": 0,
+      "total_no_existing_residential_units_market_for_rent": 0,
+      "total_no_existing_residential_units_self_build_and_custom_build": 0
     }
   },
   "title_number": null,
@@ -81,44 +160,44 @@
     "coordinates": [
       [
         [
-          0.1712957,
-          51.5852874
+          0.171269,
+          51.585285
         ],
         [
-          0.1712066,
-          51.5853463
+          0.17118,
+          51.585344
         ],
         [
-          0.17139269999999998,
-          51.5854562
+          0.171366,
+          51.585454
         ],
         [
-          0.17155879999999998,
-          51.5855554
+          0.171532,
+          51.585553
         ],
         [
-          0.17161859999999998,
-          51.585558
+          0.171592,
+          51.585556
         ],
         [
-          0.1716896,
-          51.5855098
+          0.171663,
+          51.585507
         ],
         [
-          0.171574,
-          51.5854443
+          0.171547,
+          51.585442
         ],
         [
-          0.1715418,
-          51.5854254
+          0.171515,
+          51.585423
         ],
         [
-          0.1713659,
-          51.5853245
+          0.171339,
+          51.585322
         ],
         [
-          0.1712957,
-          51.5852874
+          0.171269,
+          51.585285
         ]
       ]
     ],
@@ -126,8 +205,8 @@
   },
   "valid_date": "10/07/2023",
   "centroid": {
-    "lat": "51.5854267",
-    "lon": "0.1714444"
+    "lat": 51.585424,
+    "lon": 0.171417
   },
   "site_number": null,
   "decision_conditions": [
@@ -217,7 +296,7 @@
   "pp_id": "12122953",
   "lapsed_date": "13/11/2026",
   "decision_agency": "Borough",
-  "actual_completion_date": null,
+  "actual_completion_date": "31/03/2025",
   "description": "Use of premises for supported living for up to 5 resident adults",
   "centroid_northing": 189630,
   "street_name": "Romford",
@@ -226,15 +305,15 @@
   "appeal_decision": null,
   "secondary_street_name": null,
   "appeal_start_date": null,
-  "status": "Approved",
+  "status": "Completed",
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated": "2025-03-19T00:42:38.748+00:00",
+  "last_updated": "2025-08-06T15:29:41.410Z",
   "site_name": "Cherry Tree House, 49 Hainault Road",
   "development_type": null,
   "appeal_decision_date": null,
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "application_type": "All Other",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "subdivision_of_building": null,
   "parking_details": {
     "no_existing_car": 1,

@@ -3,7 +3,7 @@
   "street_name": "UXBRIDGE",
   "title_number": null,
   "valid_date": "15/06/2023",
-  "cil_liability": true,
+  "cil_liability": false,
   "polygon": {
     "geometries": [
       {
@@ -215,26 +215,28 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_completion_date": "09/2024",
-        "intended_commencement_date": "09/2023"
+        "intended_commencement_date": "09/2023",
+        "intended_completion_date": "09/2024"
       }
     ],
     "residential_details": {
-      "habitable_rooms_density": 153.84615384615384,
+      "habitable_rooms_density": 115.38461538461537,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_intermediate": 0,
       "residential_units": [
         {
+          "description": null,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "unit_type": "Semi Detached Home",
+          "unit_development_type": "New Build",
           "provider": "Private",
-          "no_habitable_rooms": 8,
+          "no_habitable_rooms": 6,
           "phase_detail": null,
           "unit_no": "Gain-1",
-          "description": null,
-          "change_type": "Gain",
           "no_bedrooms": 3,
-          "unit_type": "Semi Detached Home",
           "provision_for_older_persons": false,
           "gia": 112,
           "tenure": "Market for sale"
@@ -280,13 +282,13 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_gained": 112,
-      "site_area": 0.052000000000000005
+      "total_gia_gained": 0,
+      "site_area": 0
     },
     "existing_uprns": null,
     "site_area": 0.052000000000000005,
     "total_gia_gained": 112,
-    "green_suds": true,
+    "green_suds": false,
     "affordable_housing_fast_track": false,
     "rain_water_harvesting": false,
     "infrastructure_details": {
@@ -299,7 +301,7 @@
       "urban_greening_factor_score": 25,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 50,
       "no_passive_slow_ev_charging_points": 1,
       "no_non_resi_units_to_have_full_fibre": 0,
@@ -308,13 +310,13 @@
       "no_new_gas_connections_required": 1,
       "total_annual_pm_emissions": 25
     },
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "surface_water_discharge_percentage_reduction": 50,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 0,
-        "use_class": "C3",
         "gia_gained": 112,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -324,8 +326,17 @@
     "garden_land_lost": false,
     "total_gia_existing": 0,
     "other_residential_accommodation_details": {
-      "site_area": 0.052000000000000005
-    }
+      "site_area": 0
+    },
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "centroid_northing": 185389,
   "ward": "UXBRIDGE 2022",
@@ -344,7 +355,7 @@
   "decision_date": "02/11/2023",
   "actual_commencement_date": null,
   "epc_number": null,
-  "last_updated": "2025-03-19T22:38:31.783+00:00",
+  "last_updated": "2025-08-07T15:28:55.055Z",
   "application_type": "All Other",
   "bo_system": "Portal"
 }

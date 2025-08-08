@@ -7,7 +7,7 @@
   "last_date_consultation_comments": "14/08/2024",
   "decision_date": "09/01/2025",
   "subdivision_of_building": null,
-  "ward": null,
+  "ward": "",
   "application_details": {
     "lead_developer_company_name": "Natural England",
     "affordable_housing_fast_track": false,
@@ -15,7 +15,7 @@
     "site_area": 0.038000000000000006,
     "total_gia_existing": 226,
     "total_gia_lost": 0,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "total_gia_gained": 226,
     "projected_cost_of_works": "Up to £2m",
     "grey_water_reuse": false,
@@ -27,7 +27,7 @@
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_pm_emissions": 0,
       "no_resi_units_to_have_full_fibre": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
@@ -40,7 +40,7 @@
     "surface_water_discharge_percentage_reduction": 0,
     "residential_details": {
       "total_no_existing_residential_units_intermediate": 0,
-      "total_no_proposed_residential_units": 0,
+      "total_no_proposed_residential_units": 1,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_living_rent": 0,
@@ -53,7 +53,7 @@
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_market_for_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 26.315789473684205,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
@@ -61,7 +61,7 @@
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
-      "total_no_existing_residential_units": 0,
+      "total_no_existing_residential_units": 1,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_gia_lost": 0,
       "total_no_proposed_residential_affordable_units": 0,
@@ -73,22 +73,49 @@
       "habitable_rooms_density": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
-      "total_no_proposed_bedrooms": 0,
+      "total_no_proposed_bedrooms": 7,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_discount_market_sale": 0
+      "total_no_existing_residential_units_discount_market_sale": 0,
+      "site_area": 0.038000000000000006,
+      "residential_units": [
+        {
+          "actual_completion_date": "09/01/2025",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Loss",
+          "actual_commencement_date": "31/12/2022",
+          "unit_type": "House or Bungalow",
+          "no_bedrooms": 7,
+          "provision_for_older_persons": false,
+          "gia": null
+        },
+        {
+          "actual_completion_date": "09/01/2025",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Gain",
+          "actual_commencement_date": "31/12/2022",
+          "unit_type": "HMO",
+          "no_bedrooms": 7,
+          "provision_for_older_persons": false,
+          "gia": null
+        }
+      ]
     },
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 226,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 0
       },
       {
         "gia_existing": 0,
-        "use_class": "C4",
         "gia_gained": 226,
+        "use_class": "C4",
         "gia_lost": 0
       }
     ],
@@ -97,24 +124,37 @@
       "total_gia_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_gained": 226
+      "total_gia_gained": 226,
+      "site_area": 0.038000000000000006
     },
     "ownership_status": "Private",
     "phasing_details": [
       {
         "phase_detail": "Building Works",
-        "intended_completion_date": "07/2024",
-        "intended_commencement_date": "07/2024"
+        "intended_commencement_date": "07/2024",
+        "intended_completion_date": "07/2024"
       }
     ],
-    "internal_resi_water_usage": 0
+    "internal_resi_water_usage": 0,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.038000000000000006
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "borough": "Redbridge",
   "application_type_full": "Full planning permission",
-  "cil_liability": null,
+  "cil_liability": false,
   "date_building_work_started_under_previous_permission": "31/12/2022",
   "lapsed_date": "08/01/2028",
-  "bo_system": "Agile APAS",
+  "bo_system": "Portal",
   "polygon": {
     "geometries": [
       {
@@ -189,13 +229,13 @@
     "no_existing_cycle": 0
   },
   "centroid": {
-    "lon": "0.0646511",
-    "lat": "51.5682347"
+    "lon": 0.064625,
+    "lat": 51.568234
   },
   "locality": null,
   "secondary_street_name": null,
   "decision_conditions": [
-    "The development hereby permitted shall be carried out in accordance with the following approved plans: PL001, PL002, PL003, PL004 (Rev. A), PL005 (Rev. A), PL006 (Rev. A), PL100\r\n\r\nReason:  In order to facilitate the use of section 73 of the Town and Country Planning Act 1990 to make minor material amendments to this planning permission."
+    "The development hereby permitted shall be carried out in accordance with the following approved plans: PL001, PL002, PL003, PL004 (Rev. A), PL005 (Rev. A), PL006 (Rev. A), PL100\n\nReason:  In order to facilitate the use of section 73 of the Town and Country Planning Act 1990 to make minor material amendments to this planning permission."
   ],
   "decision_agency": null,
   "wgs84_polygon": {
@@ -203,56 +243,56 @@
     "coordinates": [
       [
         [
-          0.06480079999999999,
-          51.5682275
+          0.064774,
+          51.568226
         ],
         [
-          0.064784,
-          51.5682229
+          0.064758,
+          51.568222
         ],
         [
-          0.0646942,
-          51.5681979
+          0.064668,
+          51.568197
         ],
         [
-          0.06466419999999999,
-          51.5681899
+          0.064638,
+          51.568189
         ],
         [
-          0.0646496,
-          51.5681857
+          0.064623,
+          51.568185
         ],
         [
-          0.064624,
-          51.5681785
+          0.064598,
+          51.568177
         ],
         [
-          0.0645012,
-          51.5681438
+          0.064475,
+          51.568143
         ],
         [
-          0.0644457,
-          51.5681286
+          0.064419,
+          51.568127
         ],
         [
-          0.0643892,
-          51.5682033
+          0.064363,
+          51.568202
         ],
         [
-          0.064381,
-          51.5682138
+          0.064355,
+          51.568213
         ],
         [
-          0.06486839999999999,
-          51.5683496
+          0.064842,
+          51.568348
         ],
         [
-          0.0649076,
-          51.568258900000004
+          0.064881,
+          51.568258
         ],
         [
-          0.06480079999999999,
-          51.5682275
+          0.064774,
+          51.568226
         ]
       ]
     ]
@@ -270,10 +310,10 @@
   "pp_id": "PP-13082385",
   "decision_process": null,
   "centroid_easting": 543191,
-  "last_updated": "2025-03-19T19:46:19.329+00:00",
+  "last_updated": "2025-08-07T14:42:11.563Z",
   "appeal_decision_date": null,
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated_by": "Agile APAS",
+  "last_updated_by": "Portal",
   "site_number": "343",
   "centroid_northing": 187504,
   "development_type": null,

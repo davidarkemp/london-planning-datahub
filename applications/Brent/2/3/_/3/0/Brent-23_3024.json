@@ -1,11 +1,37 @@
 {
   "site_name": "248, 248 A&B and Land adjacent to 248, East Lane, Wembley, HA0",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "centroid": {
     "lon": -0.316609,
     "lat": 51.562578
   },
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.316586,
+          51.562591
+        ],
+        [
+          -0.316587,
+          51.562564
+        ],
+        [
+          -0.316631,
+          51.562565
+        ],
+        [
+          -0.31663,
+          51.562592
+        ],
+        [
+          -0.316586,
+          51.562591
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "appeal_decision_date": null,
   "url_planning_app": "https://pa.brent.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR_166299&activeTab=summary",
   "secondary_street_name": null,
@@ -38,12 +64,16 @@
       "affordable_percentage": 100,
       "residential_units": [
         {
-          "no_habitable_rooms": 14,
-          "unit_no": "Loss-1",
+          "actual_completion_date": "01/04/2024",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 5,
           "unit_type": "House or Bungalow",
+          "no_habitable_rooms": 14,
+          "phase_detail": null,
+          "unit_no": "Loss-1",
+          "actual_commencement_date": "01/04/2024",
+          "no_bedrooms": 5,
           "provision_for_older_persons": false,
           "gia": 314,
           "tenure": "Market for sale"
@@ -51,40 +81,56 @@
         {
           "provider": "Private",
           "no_habitable_rooms": 7,
+          "phase_detail": null,
           "unit_no": "Gain-1",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 3,
+          "actual_commencement_date": "01/04/2024",
           "unit_type": "Terraced Home",
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
           "gia": 168.5,
           "tenure": "Self-Build and Custom Build"
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 6,
+          "phase_detail": null,
           "unit_no": "Gain-2",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 3,
+          "actual_commencement_date": "01/04/2024",
           "unit_type": "Terraced Home",
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
           "gia": 138.5,
           "tenure": "Self-Build and Custom Build"
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 7,
+          "phase_detail": null,
           "unit_no": "Gain-3",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 4,
+          "actual_commencement_date": "01/04/2024",
           "unit_type": "Terraced Home",
+          "no_bedrooms": 4,
+          "provision_for_older_persons": false,
           "gia": 163,
           "tenure": "Self-Build and Custom Build"
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 8,
+          "phase_detail": null,
           "unit_no": "Gain-4",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 4,
+          "actual_commencement_date": "01/04/2024",
           "unit_type": "House or Bungalow",
+          "no_bedrooms": 4,
+          "provision_for_older_persons": false,
           "gia": 175.8,
           "tenure": "Self-Build and Custom Build"
         }
@@ -92,7 +138,7 @@
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_social_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 23.28288707799767,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
@@ -114,12 +160,13 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 4,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 162.98020954598368,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
-      "total_no_proposed_residential_units_intermediate": 0
+      "total_no_proposed_residential_units_intermediate": 0,
+      "site_area": 0.1718
     },
-    "scheme_phasing": true,
-    "garden_land_lost": true,
+    "scheme_phasing": false,
+    "garden_land_lost": false,
     "superseding_details": [
       {
         "unit_reference": "all units are proposed to have a conservatory and units 2 and 3 will have a first floor rear extension to match the depth of units 1 and 4",
@@ -147,7 +194,7 @@
       "no_new_water_connections_required": 3,
       "no_active_fast_ev_charging_points": 1,
       "fire_suppression_system_proposed": false,
-      "waste_provision": true
+      "waste_provision": false
     },
     "affordable_housing_fast_track": false,
     "rain_water_harvesting": false,
@@ -156,7 +203,8 @@
       "total_gia_existing": 314,
       "total_gia_gained": 76,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_lost": 0
+      "total_gia_lost": 0,
+      "site_area": 0.1718
     },
     "existing_proposed_floorspace_details": [
       {
@@ -166,20 +214,34 @@
         "gia_lost": 0
       }
     ],
-    "total_gia_lost": 0
+    "total_gia_lost": 0,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.1718
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "lapsed_date": "09/12/2027",
   "decision": "Approved",
-  "postcode": null,
+  "postcode": "",
   "last_date_consultation_comments": "06/12/2023",
   "decision_process": "Delegated",
   "epc_number": null,
   "pp_id": "PP-12422043",
   "development_type": "Minor dwellings",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "valid_date": "10/10/2023",
-  "polygon": null,
-  "actual_commencement_date": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
+  "actual_commencement_date": "01/04/2024",
   "parking_details": null,
   "reference_no_of_permission_being_relied_on": null,
   "application_type": "All Other",
@@ -194,16 +256,16 @@
   "ward": "Northwick Park",
   "appeal_decision": null,
   "locality": null,
-  "street_name": null,
-  "status": "Approved",
+  "street_name": "",
+  "status": "Commenced",
   "application_type_full": "Full planning permission",
   "decision_agency": null,
   "uprn": "202228268",
   "date_building_work_started_under_previous_permission": null,
   "lpa_app_no": "23/3024",
   "title_number": null,
-  "last_updated": "2025-07-09T08:01:34.047Z",
-  "cil_liability": true,
+  "last_updated": "2025-08-06T10:14:59.508Z",
+  "cil_liability": false,
   "subdivision_of_building": null,
   "actual_completion_date": null,
   "centroid_easting": 516785,
