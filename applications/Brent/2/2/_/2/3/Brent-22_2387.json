@@ -3,7 +3,7 @@
   "application_type_full": "Full planning permission",
   "description": "Proposed conversion of existing property into 2x semi-detached dwellings, part single storey rear extension, new front entrance doors, new windows and doors to side elevations, associated amenity spaces, cycle and refuse storage",
   "epc_number": null,
-  "street_name": null,
+  "street_name": "",
   "appeal_decision": null,
   "lpa_app_no": "22/2387",
   "centroid": {
@@ -14,15 +14,15 @@
   "development_type": "Minor dwellings",
   "centroid_easting": 522018,
   "url_planning_app": "https://pa.brent.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR_160988&activeTab=summary",
-  "last_updated": "2025-07-09T08:01:24.222Z",
+  "last_updated": "2025-08-08T14:44:59.914Z",
   "subdivision_of_building": null,
-  "postcode": null,
+  "postcode": "",
   "uprn": "202086280",
   "reference_no_of_permission_being_relied_on": null,
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "centroid_northing": 184766,
   "site_name": "387-389 High Road, London, NW10 2JR",
-  "status": "Approved",
+  "status": "Commenced",
   "appeal_start_date": null,
   "valid_date": "20/07/2022",
   "lapsed_date": "28/10/2025",
@@ -56,9 +56,9 @@
     "net_bluebadge": null
   },
   "date_building_work_completed_under_previous_permission": null,
-  "actual_commencement_date": null,
-  "last_updated_by": "CSV Data Import",
-  "cil_liability": true,
+  "actual_commencement_date": "01/09/2024",
+  "last_updated_by": "Portal",
+  "cil_liability": false,
   "decision_target_date": "22/10/2022",
   "title_number": [],
   "decision": "Approved",
@@ -156,8 +156,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "11/2022",
-        "intended_completion_date": "06/2023"
+        "intended_completion_date": "06/2023",
+        "intended_commencement_date": "11/2022"
       }
     ],
     "building_details": [
@@ -172,12 +172,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 267,
-        "superseded_date": null,
-        "actual_completion_date": null,
-        "gia_gained": 265,
         "use_class": "A2",
-        "actual_commencement_date": null,
-        "superseded_by_lpa_app_no": null,
+        "gia_gained": 265,
         "gia_lost": 267
       }
     ],
@@ -208,10 +204,10 @@
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 541.6666666666666,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 83.33333333333333,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_living_rent": 0,
@@ -227,58 +223,40 @@
       "affordable_percentage": 100,
       "residential_units": [
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
           "description": null,
-          "m42_compliant": null,
           "change_type": "Gain",
-          "sheltered_accommodation": null,
-          "garden_land": null,
           "unit_type": "Semi Detached Home",
-          "unit_development_type": null,
-          "superseded_date": null,
-          "provider": "Local Authority",
+          "unit_development_type": "Conversion",
           "no_habitable_rooms": 7,
+          "provider": "Local Authority",
           "phase_detail": null,
           "unit_no": "Gain-1",
-          "actual_commencement_date": null,
+          "actual_commencement_date": "01/09/2024",
           "no_bedrooms": 4,
-          "superseded_by_lpa_app_no": null,
           "provision_for_older_persons": false,
-          "tenure": "Discount Market Rent",
-          "gia": 141
+          "gia": 141,
+          "tenure": "Discount Market Rent"
         },
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
           "description": null,
-          "m42_compliant": null,
           "change_type": "Gain",
-          "sheltered_accommodation": null,
-          "garden_land": null,
           "unit_type": "Semi Detached Home",
-          "unit_development_type": null,
-          "superseded_date": null,
-          "provider": "Local Authority",
+          "unit_development_type": "Conversion",
           "no_habitable_rooms": 6,
+          "provider": "Local Authority",
           "phase_detail": null,
           "unit_no": "Gain-2",
-          "actual_commencement_date": null,
+          "actual_commencement_date": "01/09/2024",
           "no_bedrooms": 4,
-          "superseded_by_lpa_app_no": null,
           "provision_for_older_persons": false,
-          "tenure": "Discount Market Rent",
-          "gia": 123
+          "gia": 123,
+          "tenure": "Discount Market Rent"
         }
       ],
-      "site_area": null
+      "site_area": 0.024
     },
     "total_gia_lost": 267,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "infrastructure_details": {
       "mobile_network_operators_consultation": false,
       "no_non_resi_units_to_have_full_fibre": 0,
@@ -291,7 +269,7 @@
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_passive_cooling": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "green_roof_area": 0,
       "ghg_reduction_over_building_regulations": false,
       "no_passive_rapid_ev_charging_points": null,
@@ -318,17 +296,17 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 265,
       "total_gia_existing": 267,
       "development_type": null,
-      "site_area": null
+      "site_area": 0.024
     },
     "grey_water_reuse": false,
-    "s106_agreement": null,
+    "s106_agreement": false,
     "affordable_housing_inlieu_payment": null,
-    "air_quality_assessment": null,
+    "air_quality_assessment": false,
     "other_contributions": null,
     "intended_commencement_date": null,
     "no_affordable_housing_units_provided_offsite": null,
-    "commencement_notice_received": null,
-    "circular_economy_statement": null,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
     "qualifying_vacant_building_floorspace": null,
     "open_and_protected_space_details": {
       "open_space_local_and_other_area_gain": 0,
@@ -344,29 +322,55 @@
     "constraints_details": [],
     "superseding_details": [],
     "lead_registered_social_landlord": null,
-    "viability_assessment": null,
+    "viability_assessment": false,
     "overseas_company_registration_no": null,
-    "mayoral_cil_liability_notice_issued": null,
+    "mayoral_cil_liability_notice_issued": false,
     "intended_completion_date": null,
     "non_permanent_dwellings_details": [],
     "uk_company_registration_no": null,
     "other_residential_accommodation_details": {
       "no_council_tax_rateable_units_gained": null,
       "no_council_tax_rateable_units_lost": null,
-      "site_area": null,
+      "site_area": 0.024,
       "other_resi_accommodation_unit_details": []
     },
-    "3d_model": null,
+    "3d_model": false,
     "transport_contributions": null,
     "no_affordable_housing_units_acquired_offsite": null,
-    "borough_cil_liability_notice_issued": null,
-    "transport_impact_assessment": null,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
     "social_infrastructure_contributions": null,
     "scheme_name": null,
     "lead_developer_company_name": null
   },
   "pp_id": "PP-11327285",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.241627,
+          51.548615
+        ],
+        [
+          -0.241628,
+          51.548588
+        ],
+        [
+          -0.241671,
+          51.548589
+        ],
+        [
+          -0.24167,
+          51.548616
+        ],
+        [
+          -0.241627,
+          51.548615
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "decision_date": "28/10/2022",
   "secondary_street_name": null
 }

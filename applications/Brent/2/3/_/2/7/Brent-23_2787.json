@@ -1,11 +1,37 @@
 {
   "site_name": "Land rear of 1-8, Lime Tree Apartments, 203 Willesden Lane, Kilburn, London, NW6 7YR",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "centroid": {
     "lon": -0.214645,
     "lat": 51.54466
   },
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.214623,
+          51.544673
+        ],
+        [
+          -0.214624,
+          51.544646
+        ],
+        [
+          -0.214667,
+          51.544647
+        ],
+        [
+          -0.214666,
+          51.544674
+        ],
+        [
+          -0.214623,
+          51.544673
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "appeal_decision_date": null,
   "url_planning_app": "https://pa.brent.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR_166043&activeTab=summary",
   "secondary_street_name": null,
@@ -28,7 +54,7 @@
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_gia_lost": 0,
       "total_gia_gained": 213,
-      "total_no_existing_residential_units_market_for_rent": 0,
+      "total_no_existing_residential_units_market_for_rent": 1,
       "total_no_proposed_residential_units": 1,
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_existing_residential_units_starter_homes": 0,
@@ -37,20 +63,39 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "provider": "Private",
-          "no_habitable_rooms": 5,
-          "unit_no": "Gain-1",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 4,
           "unit_type": "House or Bungalow",
+          "unit_development_type": "New Build",
+          "no_habitable_rooms": 5,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": "Gain-1",
+          "actual_commencement_date": "01/10/2024",
+          "no_bedrooms": 4,
+          "provision_for_older_persons": false,
           "gia": 213,
           "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Loss",
+          "actual_commencement_date": "01/10/2024",
+          "unit_type": "House or Bungalow",
+          "no_bedrooms": 4,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": null,
+          "unit_development_type": "New Build"
         }
       ],
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_social_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 27.027027027027028,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
@@ -58,7 +103,7 @@
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_social_rent": 0,
-      "total_no_existing_residential_units": 0,
+      "total_no_existing_residential_units": 1,
       "total_no_proposed_bedrooms": 4,
       "total_no_proposed_residential_units_market_for_rent": 1,
       "total_no_proposed_residential_units_london_living_rent": 0,
@@ -72,20 +117,20 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 135.13513513513513,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_intermediate": 0,
-      "site_area": null
+      "site_area": 0.037
     },
-    "scheme_phasing": true,
-    "garden_land_lost": true,
+    "scheme_phasing": false,
+    "garden_land_lost": false,
     "internal_resi_water_usage": 0,
     "infrastructure_details": {
       "total_annual_nox_emissions": 0,
       "mobile_network_operators_consultation": false,
       "no_homes_to_have_electrical_heating": 1,
       "percentage_demolition_construction_material_recycling": 0,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "green_roof_area": 25,
       "no_non_resi_units_to_have_full_fibre": 0,
       "no_resi_units_to_have_full_fibre": 1,
@@ -93,8 +138,8 @@
       "no_new_gas_connections_required": 0,
       "no_homes_passive_cooling": 1,
       "no_new_water_connections_required": 1,
-      "fire_suppression_system_proposed": true,
-      "waste_provision": true,
+      "fire_suppression_system_proposed": false,
+      "waste_provision": false,
       "no_passive_rapid_ev_charging_points": null,
       "no_active_rapid_ev_charging_points": null,
       "no_passive_fast_ev_charging_points": null,
@@ -114,8 +159,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 62,
-        "gia_gained": 210,
         "use_class": "C3",
+        "gia_gained": 210,
         "gia_lost": 62
       }
     ],
@@ -123,8 +168,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "10/2023",
-        "intended_completion_date": "01/2024"
+        "intended_completion_date": "01/2024",
+        "intended_commencement_date": "10/2023"
       }
     ],
     "superseding_details": [
@@ -142,17 +187,17 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_lost": 62,
       "development_type": null,
-      "site_area": null
+      "site_area": 0.037
     },
     "total_gia_lost": 62,
-    "s106_agreement": null,
+    "s106_agreement": false,
     "affordable_housing_inlieu_payment": null,
-    "air_quality_assessment": null,
+    "air_quality_assessment": false,
     "other_contributions": null,
     "intended_commencement_date": null,
     "no_affordable_housing_units_provided_offsite": null,
-    "commencement_notice_received": null,
-    "circular_economy_statement": null,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
     "qualifying_vacant_building_floorspace": null,
     "open_and_protected_space_details": {
       "open_space_local_and_other_area_gain": 0,
@@ -167,36 +212,36 @@
     },
     "constraints_details": [],
     "lead_registered_social_landlord": null,
-    "viability_assessment": null,
+    "viability_assessment": false,
     "overseas_company_registration_no": null,
-    "mayoral_cil_liability_notice_issued": null,
+    "mayoral_cil_liability_notice_issued": false,
     "non_permanent_dwellings_details": [],
     "intended_completion_date": null,
     "other_residential_accommodation_details": {
       "no_council_tax_rateable_units_gained": null,
       "no_council_tax_rateable_units_lost": null,
-      "site_area": null,
+      "site_area": 0.037,
       "other_resi_accommodation_unit_details": []
     },
     "uk_company_registration_no": null,
-    "3d_model": null,
+    "3d_model": false,
     "transport_contributions": null,
     "no_affordable_housing_units_acquired_offsite": null,
-    "borough_cil_liability_notice_issued": null,
-    "transport_impact_assessment": null,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
     "social_infrastructure_contributions": null,
     "scheme_name": null,
     "lead_developer_company_name": null
   },
   "lapsed_date": "16/11/2026",
   "decision": "Approved",
-  "postcode": null,
+  "postcode": "",
   "last_date_consultation_comments": "11/10/2023",
   "decision_process": "Delegated",
   "epc_number": null,
   "pp_id": "PP-12373788",
   "development_type": "Minor dwellings",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "valid_date": "01/09/2023",
   "polygon": {
     "coordinates": [
@@ -257,7 +302,7 @@
     ],
     "type": "Polygon"
   },
-  "actual_commencement_date": null,
+  "actual_commencement_date": "01/10/2024",
   "parking_details": {
     "no_proposed_lgv": null,
     "no_existing_cycle": null,
@@ -300,16 +345,16 @@
   "ward": "Brondesbury Park",
   "appeal_decision": null,
   "locality": null,
-  "street_name": null,
-  "status": "Approved",
+  "street_name": "",
+  "status": "Commenced",
   "application_type_full": "Full planning permission",
   "decision_agency": null,
   "uprn": "202228753",
   "date_building_work_started_under_previous_permission": null,
   "lpa_app_no": "23/2787",
   "title_number": [],
-  "last_updated": "2025-07-09T08:01:45.323Z",
-  "cil_liability": true,
+  "last_updated": "2025-08-08T14:56:19.920Z",
+  "cil_liability": false,
   "subdivision_of_building": null,
   "actual_completion_date": null,
   "centroid_easting": 523901,

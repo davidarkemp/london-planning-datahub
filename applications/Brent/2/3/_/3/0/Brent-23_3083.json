@@ -1,11 +1,37 @@
 {
   "site_name": "46 Park Parade, London, NW10 4JD",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "centroid": {
     "lon": -0.241312,
     "lat": 51.537158
   },
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.241289,
+          51.537172
+        ],
+        [
+          -0.24129,
+          51.537145
+        ],
+        [
+          -0.241334,
+          51.537145
+        ],
+        [
+          -0.241333,
+          51.537172
+        ],
+        [
+          -0.241289,
+          51.537172
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "appeal_decision_date": null,
   "url_planning_app": "https://pa.brent.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR_166364&activeTab=summary",
   "secondary_street_name": null,
@@ -15,8 +41,8 @@
     "phasing_details": [
       {
         "phase_detail": "all",
-        "intended_commencement_date": "11/2023",
-        "intended_completion_date": "04/2024"
+        "intended_completion_date": "04/2024",
+        "intended_commencement_date": "11/2023"
       }
     ],
     "total_gia_gained": 94,
@@ -38,34 +64,25 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
           "description": null,
-          "m42_compliant": null,
           "change_type": "Gain",
-          "sheltered_accommodation": null,
-          "garden_land": null,
           "unit_type": "Flat Apartment Maisonette",
-          "unit_development_type": null,
-          "superseded_date": null,
-          "provider": "Private",
+          "unit_development_type": "Extension",
           "no_habitable_rooms": 1,
+          "provider": "Private",
           "phase_detail": null,
           "unit_no": "Gain-1",
-          "actual_commencement_date": null,
+          "actual_commencement_date": "01/04/2024",
           "no_bedrooms": 1,
-          "superseded_by_lpa_app_no": null,
           "provision_for_older_persons": false,
-          "tenure": "Market for rent",
-          "gia": 70
+          "gia": 70,
+          "tenure": "Market for rent"
         }
       ],
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_social_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 37.03703703703704,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
@@ -87,12 +104,12 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 37.03703703703704,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_intermediate": 0,
-      "site_area": null
+      "site_area": 0.027
     },
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "garden_land_lost": false,
     "projected_cost_of_works": "Up to £2m",
     "grey_water_reuse": false,
@@ -111,7 +128,7 @@
       "no_homes_passive_cooling": 0,
       "no_new_water_connections_required": 1,
       "fire_suppression_system_proposed": false,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_passive_rapid_ev_charging_points": null,
       "no_active_rapid_ev_charging_points": null,
       "no_passive_fast_ev_charging_points": null,
@@ -135,29 +152,25 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_lost": 0,
       "development_type": null,
-      "site_area": null
+      "site_area": 0.027
     },
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 253,
-        "superseded_date": null,
-        "actual_completion_date": null,
-        "gia_gained": 94,
         "use_class": "C3",
-        "actual_commencement_date": null,
-        "superseded_by_lpa_app_no": null,
+        "gia_gained": 94,
         "gia_lost": 0
       }
     ],
     "total_gia_lost": 0,
-    "s106_agreement": null,
+    "s106_agreement": false,
     "affordable_housing_inlieu_payment": null,
-    "air_quality_assessment": null,
+    "air_quality_assessment": false,
     "other_contributions": null,
     "intended_commencement_date": null,
     "no_affordable_housing_units_provided_offsite": null,
-    "commencement_notice_received": null,
-    "circular_economy_statement": null,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
     "qualifying_vacant_building_floorspace": null,
     "open_and_protected_space_details": {
       "open_space_local_and_other_area_gain": 0,
@@ -174,36 +187,36 @@
     "building_details": [],
     "superseding_details": [],
     "lead_registered_social_landlord": null,
-    "viability_assessment": null,
+    "viability_assessment": false,
     "overseas_company_registration_no": null,
-    "mayoral_cil_liability_notice_issued": null,
+    "mayoral_cil_liability_notice_issued": false,
     "non_permanent_dwellings_details": [],
     "intended_completion_date": null,
     "other_residential_accommodation_details": {
       "no_council_tax_rateable_units_gained": null,
       "no_council_tax_rateable_units_lost": null,
-      "site_area": null,
+      "site_area": 0.027,
       "other_resi_accommodation_unit_details": []
     },
     "uk_company_registration_no": null,
-    "3d_model": null,
+    "3d_model": false,
     "transport_contributions": null,
     "no_affordable_housing_units_acquired_offsite": null,
-    "borough_cil_liability_notice_issued": null,
-    "transport_impact_assessment": null,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
     "social_infrastructure_contributions": null,
     "scheme_name": null,
     "lead_developer_company_name": null
   },
   "lapsed_date": "06/12/2026",
   "decision": "Approved",
-  "postcode": null,
+  "postcode": "",
   "last_date_consultation_comments": "02/11/2023",
   "decision_process": "Delegated",
   "epc_number": null,
   "pp_id": "PP-12483866",
   "development_type": "Minor dwellings",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "valid_date": "29/09/2023",
   "polygon": {
     "coordinates": [
@@ -288,7 +301,7 @@
     ],
     "type": "Polygon"
   },
-  "actual_commencement_date": null,
+  "actual_commencement_date": "01/04/2024",
   "parking_details": {
     "no_existing_cycle": 0,
     "net_cycle": 10,
@@ -331,16 +344,16 @@
   "ward": "Harlesden & Kensal Green",
   "appeal_decision": null,
   "locality": null,
-  "street_name": null,
-  "status": "Approved",
+  "street_name": "",
+  "status": "Commenced",
   "application_type_full": "Full planning permission",
   "decision_agency": null,
   "uprn": "202059125",
   "date_building_work_started_under_previous_permission": null,
   "lpa_app_no": "23/3083",
   "title_number": [],
-  "last_updated": "2025-07-09T08:01:34.671Z",
-  "cil_liability": true,
+  "last_updated": "2025-08-08T15:13:01.125Z",
+  "cil_liability": false,
   "subdivision_of_building": null,
   "actual_completion_date": null,
   "centroid_easting": 522072,

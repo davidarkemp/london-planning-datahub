@@ -1,22 +1,48 @@
 {
   "site_name": "Garages next to 17, Chestnut Court, Wembley",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "centroid": {
     "lon": -0.319437,
     "lat": 51.555919
   },
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.319414,
+          51.555933
+        ],
+        [
+          -0.319415,
+          51.555906
+        ],
+        [
+          -0.319459,
+          51.555906
+        ],
+        [
+          -0.319458,
+          51.555933
+        ],
+        [
+          -0.319414,
+          51.555933
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "appeal_decision_date": null,
   "url_planning_app": "https://pa.brent.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR_165400&activeTab=summary",
   "secondary_street_name": null,
   "site_number": null,
   "application_details": {
-    "green_suds": true,
+    "green_suds": false,
     "phasing_details": [
       {
         "phase_detail": "1",
-        "intended_commencement_date": "03/2024",
-        "intended_completion_date": "12/2024"
+        "intended_completion_date": "12/2024",
+        "intended_commencement_date": "03/2024"
       }
     ],
     "total_gia_gained": 200,
@@ -45,32 +71,47 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "provider": "Private",
-          "no_habitable_rooms": 2,
-          "unit_no": "Gain-1",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "New Build",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": "Gain-1",
+          "actual_commencement_date": "01/04/2024",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "gia": 51,
           "tenure": "Market for sale"
         },
         {
-          "provider": "Private",
-          "no_habitable_rooms": 3,
-          "unit_no": "Gain-2",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "New Build",
+          "no_habitable_rooms": 3,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": "Gain-2",
+          "actual_commencement_date": "01/04/2024",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "gia": 63,
           "tenure": "Market for sale"
         },
         {
-          "provider": "Private",
-          "no_habitable_rooms": 4,
-          "unit_no": "Gain-3",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 3,
           "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "New Build",
+          "no_habitable_rooms": 4,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": "Gain-3",
+          "actual_commencement_date": "01/04/2024",
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
           "gia": 75,
           "tenure": "Market for rent"
         }
@@ -78,7 +119,7 @@
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_social_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 49.18032786885246,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 2,
@@ -100,11 +141,12 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 147.54098360655738,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
-      "total_no_proposed_residential_units_intermediate": 0
+      "total_no_proposed_residential_units_intermediate": 0,
+      "site_area": 0.061
     },
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "garden_land_lost": false,
     "projected_cost_of_works": "Up to £2m",
     "grey_water_reuse": false,
@@ -123,40 +165,55 @@
       "no_new_gas_connections_required": 3,
       "no_homes_passive_cooling": 3,
       "no_new_water_connections_required": 3,
-      "fire_suppression_system_proposed": true,
-      "waste_provision": true
+      "fire_suppression_system_proposed": false,
+      "waste_provision": false
     },
     "affordable_housing_fast_track": false,
-    "rain_water_harvesting": true,
+    "rain_water_harvesting": false,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_existing": 120,
       "total_gia_gained": 200,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_lost": 120
+      "total_gia_lost": 120,
+      "site_area": 0.061
     },
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 120,
-        "gia_gained": 200,
         "use_class": "C3",
+        "gia_gained": 200,
         "gia_lost": 120
       }
     ],
-    "total_gia_lost": 120
+    "total_gia_lost": 120,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.061
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "lapsed_date": "13/12/2026",
   "decision": "Approved",
-  "postcode": null,
+  "postcode": "",
   "last_date_consultation_comments": "14/12/2023",
   "decision_process": "Delegated",
   "epc_number": null,
   "pp_id": "PP-12259756",
   "development_type": "Minor dwellings",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "valid_date": "28/06/2023",
-  "polygon": null,
-  "actual_commencement_date": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
+  "actual_commencement_date": "01/04/2024",
   "parking_details": {
     "no_existing_cycle": 0,
     "net_cycle": 6,
@@ -175,16 +232,16 @@
   "ward": "Sudbury",
   "appeal_decision": null,
   "locality": null,
-  "street_name": null,
-  "status": "Approved",
+  "street_name": "",
+  "status": "Commenced",
   "application_type_full": "Full planning permission",
   "decision_agency": null,
   "uprn": "202116033",
   "date_building_work_started_under_previous_permission": null,
   "lpa_app_no": "23/2199",
   "title_number": null,
-  "last_updated": "2025-07-09T08:01:39.065Z",
-  "cil_liability": true,
+  "last_updated": "2025-08-08T14:14:37.687Z",
+  "cil_liability": false,
   "subdivision_of_building": null,
   "actual_completion_date": null,
   "centroid_easting": 516606,
