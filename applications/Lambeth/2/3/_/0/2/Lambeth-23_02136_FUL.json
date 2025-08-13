@@ -6,38 +6,38 @@
   "last_date_consultation_comments": "20/11/2023",
   "date_building_work_started_under_previous_permission": null,
   "appeal_decision": null,
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "epc_number": null,
   "centroid": {
-    "lat": "51.4271378",
-    "lon": "-0.1321175"
+    "lat": 51.427138,
+    "lon": -0.132143
   },
   "postcode": "SW16 6AE",
   "actual_completion_date": null,
   "street_name": "Gleneagle Mews",
-  "borough": "London Borough of Lambeth",
+  "borough": "Lambeth",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.1321899,
-          51.4271398
+          -0.132216,
+          51.42714
         ],
         [
-          -0.1321414,
-          51.4271715
+          -0.132167,
+          51.427171
         ],
         [
-          -0.1320598,
-          51.4271289
+          -0.132086,
+          51.427129
         ],
         [
-          -0.1321067,
-          51.4270962
+          -0.132133,
+          51.427096
         ],
         [
-          -0.1321899,
-          51.4271398
+          -0.132216,
+          51.42714
         ]
       ]
     ],
@@ -45,7 +45,7 @@
   },
   "url_planning_app": null,
   "appeal_decision_date": null,
-  "cil_liability": true,
+  "cil_liability": false,
   "secondary_street_name": null,
   "id": "Lambeth-23_02136_FUL",
   "ward": "STRSTL",
@@ -77,7 +77,7 @@
       "urban_greening_factor_score": 0.4,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "mobile_network_operators_consultation": true,
+      "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "solar_pv_capacity": 2,
       "no_new_gas_connections_required": 0,
@@ -86,7 +86,7 @@
       "no_resi_units_to_have_full_fibre": 1,
       "no_homes_to_have_electrical_heating": 1,
       "percentage_demolition_construction_material_recycling": 10,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "no_passive_rapid_ev_charging_points": 0,
       "no_active_rapid_ev_charging_points": 0,
       "no_passive_fast_ev_charging_points": 0,
@@ -112,9 +112,9 @@
     "total_gia_lost": 0,
     "internal_resi_water_usage": 115,
     "grey_water_reuse": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "non_residential_details": {
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 43.77,
       "total_gia_gained": 36.4,
       "total_gia_existing": 38,
       "total_gia_lost": 38,
@@ -122,7 +122,7 @@
       "site_area": 0
     },
     "residential_details": {
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 500,
       "total_gia_gained": 0,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
@@ -157,36 +157,46 @@
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
           "description": null,
-          "change_type": "Gain",
           "m42_compliant": false,
-          "sheltered_accommodation": false,
+          "change_type": "Gain",
           "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Terraced Home",
-          "provider": "Private",
           "no_habitable_rooms": 2,
+          "provider": "Private",
           "phase_detail": null,
           "unit_no": null,
+          "actual_commencement_date": "01/04/2024",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "gia": 74.4,
+          "gia": 87.56,
           "tenure": "Starter Homes"
         }
       ],
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_affordable_units": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 250,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_affordable_units": 0,
-      "total_no_proposed_residential_units_london_affordable_rent": 0
+      "total_no_proposed_residential_units_london_affordable_rent": 0,
+      "site_area": 0.004
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_existing": 38,
-        "use_class": "Sui Generis",
-        "gia_gained": 36.4,
-        "gia_lost": 38
+        "gia_existing": 43.77,
+        "actual_completion_date": "01/04/2024",
+        "use_class": "SG",
+        "gia_gained": 0,
+        "actual_commencement_date": "01/04/2024",
+        "gia_lost": 43.77
+      },
+      {
+        "gia_existing": 0,
+        "use_class": "C3",
+        "gia_gained": 87.56,
+        "gia_lost": 0
       }
     ],
     "existing_uprns": [
@@ -228,7 +238,15 @@
         "result": null,
         "constraints_layer_description": "ART4 Class MA Article 4 Town Centre Locations"
       }
-    ]
+    ],
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "date_building_work_completed_under_previous_permission": null,
   "decision_target_date": "11/09/2023",
@@ -237,7 +255,7 @@
   "decision": "Approved",
   "locality": null,
   "appeal_start_date": null,
-  "actual_commencement_date": null,
+  "actual_commencement_date": "01/04/2024",
   "polygon": {
     "geometries": [
       {
@@ -284,13 +302,13 @@
     ""
   ],
   "parking_details": null,
-  "last_updated": "2025-03-19T22:22:39.552+00:00",
-  "last_updated_by": "Idox Uniform",
+  "last_updated": "2025-08-12T16:57:46.899Z",
+  "last_updated_by": "Portal",
   "site_number": "14",
   "appeal_status": null,
   "decision_process": "Delegated",
   "application_type_full": "Full planning permission",
   "valid_date": "17/07/2023",
   "pp_id": "PP-12221646",
-  "status": "Approved"
+  "status": "Commenced"
 }

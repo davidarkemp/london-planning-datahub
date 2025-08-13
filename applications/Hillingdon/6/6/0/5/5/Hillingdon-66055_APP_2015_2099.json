@@ -4,14 +4,14 @@
   "decision_date": "08/09/2016",
   "epc_number": null,
   "application_type_full": "Full planning permission",
-  "bo_system": "FME Legacy Data Import",
+  "bo_system": "Portal",
   "id": "Hillingdon-66055_APP_2015_2099",
   "secondary_street_name": null,
   "appeal_status": null,
   "postcode": "HA6 1AN",
   "appeal_decision": null,
   "application_details": {
-    "s106_agreement": null,
+    "s106_agreement": false,
     "intended_commencement_date": null,
     "uk_company_registration_no": null,
     "residential_details": {
@@ -31,50 +31,36 @@
       "total_gia_gained": null,
       "residential_units": [
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
           "actual_completion_date": "22/12/2022",
           "m43_2a_compliant": false,
           "description": null,
-          "change_type": "Gain",
           "m42_compliant": false,
-          "sheltered_accommodation": null,
-          "garden_land": null,
+          "change_type": "Gain",
           "unit_type": "House or Bungalow",
           "unit_development_type": "New Build",
-          "superseded_date": null,
           "provider": "Private",
-          "no_habitable_rooms": null,
           "phase_detail": null,
           "unit_no": null,
           "actual_commencement_date": "11/06/2020",
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
           "tenure": "Market for sale",
           "gia": null
         },
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
           "actual_completion_date": "22/12/2022",
           "m43_2a_compliant": false,
           "description": null,
-          "change_type": "Gain",
           "m42_compliant": false,
-          "sheltered_accommodation": null,
-          "garden_land": null,
+          "change_type": "Gain",
           "unit_type": "House or Bungalow",
           "unit_development_type": "New Build",
-          "superseded_date": null,
           "provider": "Private",
-          "no_habitable_rooms": null,
           "phase_detail": null,
           "unit_no": null,
           "actual_commencement_date": "11/06/2020",
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
           "tenure": "Market for sale",
           "gia": null
         }
@@ -107,20 +93,26 @@
     },
     "non_residential_details": {
       "development_type": null,
-      "site_area": null,
+      "site_area": 0.114,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 0,
       "total_gia_existing": null,
       "total_gia_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0
     },
-    "affordable_housing_fast_track": null,
-    "superseding_details": [],
+    "affordable_housing_fast_track": false,
+    "superseding_details": [
+      {
+        "lpa_name": "Hillingdon",
+        "lpa_app_no": "73184/APP/2017/3359",
+        "partial_supersedence": false
+      }
+    ],
     "surface_water_discharge_percentage_reduction": null,
     "internal_resi_water_usage": null,
     "total_gia_gained": null,
     "no_affordable_housing_units_acquired_offsite": 0,
-    "garden_land_lost": null,
+    "garden_land_lost": false,
     "transport_contributions": null,
     "building_details": [
       {
@@ -129,14 +121,14 @@
         "building_ref": null
       }
     ],
-    "borough_cil_liability_notice_issued": null,
+    "borough_cil_liability_notice_issued": false,
     "affordable_housing_inlieu_payment": 0,
     "existing_proposed_floorspace_details": [],
     "total_gia_lost": null,
     "existing_uprns": [],
     "lead_developer_company_name": null,
     "total_gia_existing": null,
-    "air_quality_assessment": null,
+    "air_quality_assessment": false,
     "constraints_details": [
       {
         "result": "Urban",
@@ -148,9 +140,9 @@
       }
     ],
     "projected_cost_of_works": null,
-    "scheme_phasing": null,
-    "viability_assessment": null,
-    "commencement_notice_received": null,
+    "scheme_phasing": false,
+    "viability_assessment": false,
+    "commencement_notice_received": false,
     "open_and_protected_space_details": {
       "open_space_mol_area_loss": 0,
       "open_space_green_belt_area_gain": 0,
@@ -164,7 +156,7 @@
     },
     "building_age": null,
     "overseas_company_registration_no": null,
-    "green_suds": null,
+    "green_suds": false,
     "no_affordable_housing_units_provided_offsite": null,
     "building_type": null,
     "qualifying_vacant_building_floorspace": null,
@@ -172,16 +164,16 @@
     "lead_registered_social_landlord": null,
     "scheme_name": "140 - 142 Green Lane",
     "social_infrastructure_contributions": null,
-    "3d_model": null,
+    "3d_model": false,
     "non_permanent_dwellings_details": [],
-    "transport_impact_assessment": null,
+    "transport_impact_assessment": false,
     "infrastructure_details": {
-      "ghg_reduction_over_building_regulations": null,
+      "ghg_reduction_over_building_regulations": false,
       "no_passive_slow_ev_charging_points": null,
-      "waste_provision": null,
+      "waste_provision": false,
       "chp_heat_pumps_capacity": null,
       "no_passive_rapid_ev_charging_points": null,
-      "mobile_network_operators_consultation": null,
+      "mobile_network_operators_consultation": false,
       "no_active_other_ev_charging_points": null,
       "no_active_fast_ev_charging_points": null,
       "no_new_gas_connections_required": null,
@@ -195,7 +187,7 @@
       "percentage_demolition_construction_material_recycling": null,
       "no_passive_fast_ev_charging_points": null,
       "no_active_rapid_ev_charging_points": null,
-      "fire_suppression_system_proposed": null,
+      "fire_suppression_system_proposed": false,
       "total_annual_pm_emissions": null,
       "no_homes_passive_cooling": null,
       "no_new_water_connections_required": null,
@@ -208,24 +200,24 @@
       "no_council_tax_rateable_units_lost": 0,
       "other_resi_accommodation_unit_details": [],
       "no_council_tax_rateable_units_gained": 0,
-      "site_area": null
+      "site_area": 0.114
     },
     "other_contributions": null,
-    "circular_economy_statement": null,
-    "grey_water_reuse": null,
+    "circular_economy_statement": false,
+    "grey_water_reuse": false,
     "ownership_status": null,
     "occupation_status": null,
     "phasing_details": [],
     "site_area": 0.114,
-    "rain_water_harvesting": null,
-    "mayoral_cil_liability_notice_issued": null
+    "rain_water_harvesting": false,
+    "mayoral_cil_liability_notice_issued": false
   },
   "valid_date": null,
   "reference_no_of_permission_being_relied_on": null,
   "description": "2 X two storey, 3-bed, semi-detached dwellings with habitable roof space with associated parking and amenity space and installation of vehicular crossover to front",
   "decision_conditions": null,
   "date_building_work_started_under_previous_permission": null,
-  "last_updated": "2025-03-19T03:28:52.017+00:00",
+  "last_updated": "2025-08-12T13:36:05.681Z",
   "ward": "NORTHWOOD",
   "parking_details": {
     "no_proposed_lgv": null,
@@ -259,8 +251,8 @@
   "lapsed_date": "08/09/2019",
   "decision_target_date": null,
   "centroid": {
-    "lat": "51.6098805",
-    "lon": "-0.41476409999999997"
+    "lat": 51.609877,
+    "lon": -0.414785
   },
   "lpa_app_no": "66055/APP/2015/2099",
   "status": "Completed",
@@ -337,7 +329,7 @@
   "decision_process": null,
   "decision_agency": "Borough",
   "date_building_work_completed_under_previous_permission": null,
-  "last_updated_by": "FME Excel Import",
+  "last_updated_by": "Portal",
   "site_number": "140 - 142",
   "application_type": "All Other",
   "actual_completion_date": "22/12/2022",
@@ -346,66 +338,66 @@
   "street_name": "Green Lane",
   "pp_id": null,
   "subdivision_of_building": null,
-  "cil_liability": null,
-  "centroid_easting": "509866",
+  "cil_liability": false,
+  "centroid_easting": 509866,
   "appeal_start_date": null,
-  "centroid_northing": "191306",
+  "centroid_northing": 191306,
   "borough": "Hillingdon",
   "decision": null,
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.4146798,
-          51.6100124
+          -0.414701,
+          51.610009
         ],
         [
-          -0.4146261,
-          51.6099945
+          -0.414647,
+          51.609991
         ],
         [
-          -0.4145966,
-          51.6099619
+          -0.414618,
+          51.609958
         ],
         [
-          -0.41459009999999996,
-          51.6099309
+          -0.414611,
+          51.609928
         ],
         [
-          -0.4145987,
-          51.6099025
+          -0.41462,
+          51.609899
         ],
         [
-          -0.4148693,
-          51.609485
+          -0.414891,
+          51.609482
         ],
         [
-          -0.41510169999999996,
-          51.6095607
+          -0.415123,
+          51.609557
         ],
         [
-          -0.4152548,
-          51.6096068
+          -0.415276,
+          51.609603
         ],
         [
-          -0.4151456,
-          51.6097255
+          -0.415167,
+          51.609722
         ],
         [
-          -0.4151165,
-          51.6097619
+          -0.415138,
+          51.609759
         ],
         [
-          -0.4149872,
-          51.6097198
+          -0.415009,
+          51.609716
         ],
         [
-          -0.41473000000000004,
-          51.610028
+          -0.414751,
+          51.610025
         ],
         [
-          -0.4146798,
-          51.6100124
+          -0.414701,
+          51.610009
         ]
       ]
     ],

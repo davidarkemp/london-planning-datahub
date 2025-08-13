@@ -27,7 +27,7 @@
     "type": "Polygon"
   },
   "date_building_work_completed_under_previous_permission": null,
-  "last_updated": "2025-03-20T11:46:12.079+00:00",
+  "last_updated": "2025-08-12T11:11:48.383Z",
   "parking_details": {
     "no_existing_cycle": 0,
     "net_car": 1,
@@ -42,7 +42,7 @@
   "bo_system": "Portal",
   "actual_completion_date": null,
   "application_details": {
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "grey_water_reuse": false,
     "garden_land_lost": false,
     "residential_details": {
@@ -66,14 +66,16 @@
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "residential_units": [
         {
-          "provider": "Private",
+          "description": null,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "unit_type": "Terraced Home",
+          "unit_development_type": "New Build",
           "no_habitable_rooms": 4,
+          "provider": "Private",
           "phase_detail": null,
           "unit_no": "Gain-1",
-          "description": null,
-          "change_type": "Gain",
           "no_bedrooms": 2,
-          "unit_type": "Terraced Home",
           "provision_for_older_persons": false,
           "gia": 71.88,
           "tenure": "Market for sale"
@@ -122,7 +124,7 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_lost": 0,
-      "site_area": 0.04
+      "site_area": 0
     },
     "total_gia_gained": 95.68,
     "existing_proposed_floorspace_details": [
@@ -150,7 +152,7 @@
       "no_homes_to_have_electrical_heating": 1,
       "no_passive_slow_ev_charging_points": 2,
       "no_new_water_connections_required": 1,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "total_annual_nox_emissions": 0,
       "no_homes_passive_cooling": 0,
       "solar_pv_capacity": 4,
@@ -160,11 +162,20 @@
       "mobile_network_operators_consultation": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_new_gas_connections_required": 1,
-      "waste_provision": true
+      "waste_provision": false
     },
     "other_residential_accommodation_details": {
-      "site_area": 0.04
-    }
+      "site_area": 0
+    },
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "appeal_decision_date": null,
   "centroid_northing": 180944,
@@ -481,7 +492,7 @@
   "locality": null,
   "decision_process": "Delegated",
   "epc_number": "8437-6826-5060-3551-6992",
-  "cil_liability": true,
+  "cil_liability": false,
   "reference_no_of_permission_being_relied_on": null,
   "lpa_name": "Hillingdon"
 }

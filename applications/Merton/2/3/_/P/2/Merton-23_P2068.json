@@ -6,14 +6,14 @@
   "last_date_consultation_comments": "26/08/2023",
   "date_building_work_started_under_previous_permission": null,
   "appeal_decision": null,
-  "bo_system": "Northgate M3",
+  "bo_system": "Portal",
   "epc_number": null,
   "centroid": {
     "lat": 51.400132,
     "lon": -0.137715
   },
   "postcode": "CR4 1NQ",
-  "actual_completion_date": null,
+  "actual_completion_date": "29/05/2024",
   "street_name": "Beverley Road",
   "borough": "Merton",
   "wgs84_polygon": {
@@ -77,7 +77,7 @@
   },
   "url_planning_app": "http://planning.merton.gov.uk/Northgate/PlanningExplorer/DisplayAppDetails.aspx?AppNo=23/P2068",
   "appeal_decision_date": null,
-  "cil_liability": true,
+  "cil_liability": false,
   "secondary_street_name": null,
   "id": "Merton-23_P2068",
   "ward": "Pollards Hill",
@@ -97,7 +97,7 @@
     "projected_cost_of_works": "Up to £2m",
     "infrastructure_details": {
       "green_roof_area": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "total_annual_pm_emissions": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
@@ -124,16 +124,17 @@
     "total_gia_lost": 0,
     "internal_resi_water_usage": 0,
     "grey_water_reuse": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 25.85,
       "total_gia_existing": 64.97,
       "total_gia_lost": 0,
-      "total_non_resi_gross_internal_floor_area_to_be_gained": 0
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "site_area": 0.016300000000000002
     },
     "residential_details": {
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 368.0981595092024,
       "total_gia_gained": 0,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
@@ -155,22 +156,42 @@
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "affordable_percentage": 0,
-      "total_no_proposed_bedrooms": 0,
-      "total_no_proposed_residential_units": 0,
+      "total_no_proposed_bedrooms": 5,
+      "total_no_proposed_residential_units": 1,
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
-      "total_no_proposed_residential_units_market_for_sale": 0,
+      "total_no_proposed_residential_units_market_for_sale": 1,
       "total_no_existing_residential_units_market_for_rent": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 6,
-          "unit_no": "Loss-1",
+          "actual_completion_date": "29/05/2024",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 5,
           "unit_type": "Terraced Home",
+          "no_habitable_rooms": 6,
+          "phase_detail": null,
+          "unit_no": "Loss-1",
+          "actual_commencement_date": "29/05/2024",
+          "no_bedrooms": 5,
+          "provision_for_older_persons": false,
+          "gia": 90.82,
+          "tenure": "Market for sale"
+        },
+        {
+          "actual_completion_date": "29/05/2024",
+          "description": null,
+          "change_type": "Gain",
+          "sheltered_accommodation": false,
+          "unit_type": "HMO",
+          "unit_development_type": "Conversion",
+          "no_habitable_rooms": 6,
+          "phase_detail": null,
+          "unit_no": "Loss-1",
+          "actual_commencement_date": "29/05/2024",
+          "no_bedrooms": 5,
           "provision_for_older_persons": false,
           "gia": 90.82,
           "tenure": "Market for sale"
@@ -179,20 +200,35 @@
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_affordable_units": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 61.349693251533736,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_affordable_units": 0,
-      "total_no_proposed_residential_units_london_affordable_rent": 0
+      "total_no_proposed_residential_units_london_affordable_rent": 0,
+      "site_area": 0.016300000000000002
     },
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 64.97,
+        "actual_completion_date": "29/05/2024",
         "use_class": "C3",
         "gia_gained": 25.85,
+        "actual_commencement_date": "29/05/2024",
         "gia_lost": 0
       }
-    ]
+    ],
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.016300000000000002
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "date_building_work_completed_under_previous_permission": null,
   "decision_target_date": "21/12/2023",
@@ -275,19 +311,19 @@
     "Condition : 3 - Matching Materials - The facing materials used in the development hereby permitted shall match those of the existing building in materials, style, colour, texture and, in the case of brickwork, bonding, coursing and pointing.",
     "Condition : 4 - Refuse & Recycling (Implementation) - The development hereby approved shall not be occupied until the refuse and recycling storage facilities shown on the approved plans have been fully implemented and made available for use. These facilities shall thereafter be retained for use at all times.",
     "Condition : 5 - Cycle Parking to be implemented - The development hereby permitted shall not be occupied until the cycle parking shown on the plans hereby approved has been provided and made available for use. These facilities shall be retained for the occupants of and visitors to the development at all times.",
-    "Condition : 6 - No refuse or waste material of any description shall be left or stored  anywhere on the site except within the designated internal waste storage area, or specified refuse enclosure. \r\n\r\nREASON: To safeguard the appearance of the property and the amenities of the area and to comply with policy DMD2 of Merton�s Sites and Policies Plan 2014 ",
-    "Condition : 7 - The property shall be solely occupied as a 5 bedroom, 5 persons House in Multiple Occupation (HMO) and for no other purposes within Use Class C4 as specified in the schedule to the Town and Country Planning (Use Classes) Order 1987, or in any provision revoking or re-enacting that order, unless otherwise agreed in writing with the local planning authority.  \r\n\r\nREASON: To accord with terms of this application, safeguard local road and parking conditions and residential amenity of nearby occupants and to comply with policies D4 and T5 of the London Plan 2021, policies DM D2 and DM T1 of Merton's Sites and Policies Plan 2014 ",
+    "Condition : 6 - No refuse or waste material of any description shall be left or stored  anywhere on the site except within the designated internal waste storage area, or specified refuse enclosure. \n\nREASON: To safeguard the appearance of the property and the amenities of the area and to comply with policy DMD2 of Merton�s Sites and Policies Plan 2014",
+    "Condition : 7 - The property shall be solely occupied as a 5 bedroom, 5 persons House in Multiple Occupation (HMO) and for no other purposes within Use Class C4 as specified in the schedule to the Town and Country Planning (Use Classes) Order 1987, or in any provision revoking or re-enacting that order, unless otherwise agreed in writing with the local planning authority.  \n\nREASON: To accord with terms of this application, safeguard local road and parking conditions and residential amenity of nearby occupants and to comply with policies D4 and T5 of the London Plan 2021, policies DM D2 and DM T1 of Merton's Sites and Policies Plan 2014",
     "Condition : 8 - No Use of Flat Roof  - Access to the flat roof of the development hereby permitted shall be for maintenance or emergency purposes only, and the flat roof shall not be used as a roof garden, terrace, patio or similar amenity area.",
-    "Condition : 9 - In accordance with paragraph 38 of the NPPF, The London Borough of Merton (LBM) takes a positive and proactive approach to development proposals focused on solutions. LBM works with applicants/agents in a positive and proactive manner by:\r\n\r\n   i) Offering a pre-application advice and duty desk service. \r\n   ii) Where possible, suggesting solutions to secure a successful outcome.\r\n   iii) As appropriate, updating applicants/agents of any issues that may arise in the processing of their application.\r\n\r\n"
+    "Condition : 9 - In accordance with paragraph 38 of the NPPF, The London Borough of Merton (LBM) takes a positive and proactive approach to development proposals focused on solutions. LBM works with applicants/agents in a positive and proactive manner by:\n\n   i) Offering a pre-application advice and duty desk service. \n   ii) Where possible, suggesting solutions to secure a successful outcome.\n   iii) As appropriate, updating applicants/agents of any issues that may arise in the processing of their application."
   ],
   "parking_details": null,
-  "last_updated": "2025-03-19T01:11:38.247+00:00",
-  "last_updated_by": "Northgate M3",
+  "last_updated": "2025-08-12T14:35:59.925Z",
+  "last_updated_by": "Portal",
   "site_number": "14",
   "appeal_status": null,
   "decision_process": null,
   "application_type_full": "Full planning permission",
   "valid_date": "31/07/2023",
   "pp_id": "PP-12325070",
-  "status": "Approved"
+  "status": "Completed"
 }

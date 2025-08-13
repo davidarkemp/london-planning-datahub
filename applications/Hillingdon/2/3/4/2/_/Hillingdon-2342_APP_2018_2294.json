@@ -4,14 +4,14 @@
   "decision_date": "29/03/2019",
   "epc_number": null,
   "application_type_full": "Full planning permission",
-  "bo_system": "FME Legacy Data Import",
+  "bo_system": "Portal",
   "id": "Hillingdon-2342_APP_2018_2294",
   "secondary_street_name": null,
   "appeal_status": null,
   "postcode": "HA4 6SE",
   "appeal_decision": null,
   "application_details": {
-    "s106_agreement": null,
+    "s106_agreement": false,
     "intended_commencement_date": null,
     "uk_company_registration_no": null,
     "residential_details": {
@@ -31,7 +31,7 @@
       "total_gia_gained": null,
       "residential_units": [],
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
@@ -48,7 +48,7 @@
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
-      "site_area": null,
+      "site_area": 0.2,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_bedrooms": 0,
       "total_no_existing_residential_units_intermediate": 0,
@@ -59,19 +59,19 @@
     "non_residential_details": {
       "development_type": "New Build",
       "site_area": 0.2,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 2266,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 1133,
       "total_gia_gained": 0,
       "total_gia_existing": null,
       "total_gia_lost": 1133,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0
     },
-    "affordable_housing_fast_track": null,
+    "affordable_housing_fast_track": false,
     "superseding_details": [],
     "surface_water_discharge_percentage_reduction": null,
     "internal_resi_water_usage": null,
     "total_gia_gained": null,
     "no_affordable_housing_units_acquired_offsite": null,
-    "garden_land_lost": null,
+    "garden_land_lost": false,
     "transport_contributions": null,
     "building_details": [
       {
@@ -80,27 +80,14 @@
         "building_ref": null
       }
     ],
-    "borough_cil_liability_notice_issued": null,
+    "borough_cil_liability_notice_issued": false,
     "affordable_housing_inlieu_payment": null,
     "existing_proposed_floorspace_details": [
       {
-        "gia_existing": -1,
-        "superseded_date": null,
-        "actual_completion_date": null,
+        "gia_existing": 1133,
         "use_class": "B1",
         "gia_gained": 0,
-        "actual_commencement_date": null,
-        "superseded_by_lpa_app_no": null,
-        "gia_lost": 1133
-      },
-      {
-        "gia_existing": -1,
-        "superseded_date": null,
-        "actual_completion_date": null,
-        "use_class": "B1a",
-        "gia_gained": 0,
-        "actual_commencement_date": null,
-        "superseded_by_lpa_app_no": null,
+        "actual_commencement_date": "08/11/2022",
         "gia_lost": 1133
       }
     ],
@@ -108,7 +95,7 @@
     "existing_uprns": [],
     "lead_developer_company_name": null,
     "total_gia_existing": null,
-    "air_quality_assessment": null,
+    "air_quality_assessment": false,
     "constraints_details": [
       {
         "result": "Suburban",
@@ -120,9 +107,9 @@
       }
     ],
     "projected_cost_of_works": null,
-    "scheme_phasing": null,
-    "viability_assessment": null,
-    "commencement_notice_received": null,
+    "scheme_phasing": false,
+    "viability_assessment": false,
+    "commencement_notice_received": false,
     "open_and_protected_space_details": {
       "open_space_mol_area_loss": 0,
       "open_space_green_belt_area_gain": 0,
@@ -134,7 +121,7 @@
       "open_space_green_belt_area_loss": 0,
       "protected_spaces_details": []
     },
-    "green_suds": null,
+    "green_suds": false,
     "overseas_company_registration_no": null,
     "building_age": null,
     "no_affordable_housing_units_provided_offsite": null,
@@ -144,16 +131,16 @@
     "lead_registered_social_landlord": null,
     "scheme_name": null,
     "social_infrastructure_contributions": null,
-    "3d_model": null,
+    "3d_model": false,
     "non_permanent_dwellings_details": [],
-    "transport_impact_assessment": null,
+    "transport_impact_assessment": false,
     "infrastructure_details": {
-      "ghg_reduction_over_building_regulations": null,
+      "ghg_reduction_over_building_regulations": false,
       "no_passive_slow_ev_charging_points": null,
-      "waste_provision": null,
+      "waste_provision": false,
       "chp_heat_pumps_capacity": null,
       "no_passive_rapid_ev_charging_points": null,
-      "mobile_network_operators_consultation": null,
+      "mobile_network_operators_consultation": false,
       "no_active_other_ev_charging_points": null,
       "no_active_fast_ev_charging_points": null,
       "no_new_gas_connections_required": null,
@@ -167,7 +154,7 @@
       "percentage_demolition_construction_material_recycling": null,
       "no_passive_fast_ev_charging_points": null,
       "no_active_rapid_ev_charging_points": null,
-      "fire_suppression_system_proposed": null,
+      "fire_suppression_system_proposed": false,
       "total_annual_pm_emissions": null,
       "no_homes_passive_cooling": null,
       "no_new_water_connections_required": null,
@@ -180,39 +167,31 @@
       "no_council_tax_rateable_units_lost": 0,
       "other_resi_accommodation_unit_details": [
         {
-          "no_bedrooms_for_older_persons_c2": null,
-          "m43_2b_compliant": null,
-          "superseded_date": null,
-          "actual_completion_date": null,
           "no_rooms_proposed": 79,
-          "m43_2a_compliant": null,
-          "m42_compliant": null,
-          "no_bedrooms_for_older_persons_sg": null,
-          "actual_commencement_date": null,
+          "actual_commencement_date": "08/11/2022",
           "unit_type": "Hotel Room",
-          "superseded_by_lpa_app_no": null,
           "no_rooms_lost": 0
         }
       ],
       "no_council_tax_rateable_units_gained": 0,
-      "site_area": null
+      "site_area": 0.2
     },
     "other_contributions": null,
-    "circular_economy_statement": null,
-    "grey_water_reuse": null,
+    "circular_economy_statement": false,
+    "grey_water_reuse": false,
     "ownership_status": null,
     "occupation_status": null,
     "phasing_details": [],
     "site_area": 0.2,
-    "rain_water_harvesting": null,
-    "mayoral_cil_liability_notice_issued": null
+    "rain_water_harvesting": false,
+    "mayoral_cil_liability_notice_issued": false
   },
   "valid_date": null,
   "reference_no_of_permission_being_relied_on": null,
   "description": "The demolition of the existing building and the erection of a four storey hotel (Class C1), including ancillary restaurant/cafe/bar and associated car parking, servicing and landscaping and the provision of pedestrian access to Odyssey Business Park",
   "decision_conditions": null,
   "date_building_work_started_under_previous_permission": null,
-  "last_updated": "2025-03-20T22:50:16.195+00:00",
+  "last_updated": "2025-08-12T10:47:53.570Z",
   "ward": "SOUTH RUISLIP",
   "parking_details": {
     "no_proposed_lgv": null,
@@ -246,8 +225,8 @@
   "lapsed_date": "29/03/2022",
   "decision_target_date": null,
   "centroid": {
-    "lat": "51.557241",
-    "lon": "-0.4010304"
+    "lat": 51.55724,
+    "lon": -0.401051
   },
   "lpa_app_no": "2342/APP/2018/2294",
   "status": "Approved",
@@ -308,7 +287,7 @@
   "decision_process": null,
   "decision_agency": "Borough",
   "date_building_work_completed_under_previous_permission": null,
-  "last_updated_by": "FME Excel Import",
+  "last_updated_by": "Portal",
   "site_number": "Eagle House",
   "application_type": "All Other",
   "actual_completion_date": null,
@@ -317,50 +296,50 @@
   "street_name": "The Runway",
   "pp_id": null,
   "subdivision_of_building": null,
-  "cil_liability": null,
-  "centroid_easting": "510945",
+  "cil_liability": false,
+  "centroid_easting": 510945,
   "appeal_start_date": null,
-  "centroid_northing": "185473",
+  "centroid_northing": 185473,
   "borough": "Hillingdon",
   "decision": null,
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.401728,
-          51.5576788
+          -0.401749,
+          51.557678
         ],
         [
-          -0.4016244,
-          51.5576405
+          -0.401645,
+          51.557639
         ],
         [
-          -0.4005566,
-          51.5572334
+          -0.400577,
+          51.557232
         ],
         [
-          -0.400763,
-          51.557116
+          -0.400784,
+          51.557115
         ],
         [
-          -0.4009022,
-          51.5570644
+          -0.400923,
+          51.557063
         ],
         [
-          -0.40104599999999996,
-          51.5569902
+          -0.401067,
+          51.556989
         ],
         [
-          -0.40166219999999997,
-          51.5575946
+          -0.401683,
+          51.557593
         ],
         [
-          -0.40165419999999996,
-          51.5576052
+          -0.401675,
+          51.557604
         ],
         [
-          -0.401728,
-          51.5576788
+          -0.401749,
+          51.557678
         ]
       ]
     ],

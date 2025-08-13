@@ -1,13 +1,13 @@
 {
   "appeal_status": null,
   "centroid": {
-    "lon": "-0.12864899999999999",
-    "lat": "51.433872"
+    "lon": -0.128675,
+    "lat": 51.433872
   },
   "decision_target_date": "01/05/2023",
   "lapsed_date": "01/11/2027",
   "appeal_start_date": null,
-  "last_updated": "2025-03-19T20:48:35.314+00:00",
+  "last_updated": "2025-08-12T16:28:38.114Z",
   "locality": null,
   "development_type": null,
   "postcode": "SW16 1BW",
@@ -21,32 +21,32 @@
     "coordinates": [
       [
         [
-          -0.1284402,
-          51.4338894
+          -0.128466,
+          51.433889
         ],
         [
-          -0.1284418,
-          51.4338493
+          -0.128468,
+          51.433849
         ],
         [
-          -0.1287226,
-          51.4338479
+          -0.128748,
+          51.433848
         ],
         [
-          -0.1287196,
-          51.4338642
+          -0.128745,
+          51.433864
         ],
         [
-          -0.1289363,
-          51.4338587
+          -0.128962,
+          51.433859
         ],
         [
-          -0.1289378,
-          51.4338795
+          -0.128964,
+          51.433879
         ],
         [
-          -0.1284402,
-          51.4338894
+          -0.128466,
+          51.433889
         ]
       ]
     ],
@@ -105,16 +105,17 @@
   "application_details": {
     "projected_cost_of_works": "Up to £2m",
     "total_gia_existing": 145.9,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "total_gia_gained": 484.9,
     "site_area": 0.012,
     "rain_water_harvesting": false,
     "non_residential_details": {
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 145.9,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 484.9,
-      "total_non_resi_gross_internal_floor_area_to_be_gained": 484.9,
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_lost": 145.9,
-      "total_gia_existing": 145.9
+      "total_gia_existing": 145.9,
+      "site_area": 0.012
     },
     "garden_land_lost": false,
     "infrastructure_details": {
@@ -123,7 +124,7 @@
       "mobile_network_operators_consultation": false,
       "no_new_water_connections_required": 5,
       "total_annual_nox_emissions": 0,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "no_homes_passive_cooling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "no_new_gas_connections_required": 5,
@@ -131,7 +132,7 @@
       "fire_suppression_system_proposed": false,
       "no_resi_units_to_have_full_fibre": 5,
       "green_roof_area": 0,
-      "waste_provision": true
+      "waste_provision": false
     },
     "ownership_status": "Private",
     "building_details": [
@@ -154,9 +155,21 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 145.9,
-        "use_class": "A1",
-        "gia_gained": 484.9,
+        "use_class": "E",
+        "gia_gained": 0,
         "gia_lost": 145.9
+      },
+      {
+        "gia_existing": 0,
+        "use_class": "E",
+        "gia_gained": 100,
+        "gia_lost": 0
+      },
+      {
+        "gia_existing": 0,
+        "use_class": "C3",
+        "gia_gained": 484.9,
+        "gia_lost": 0
       }
     ],
     "grey_water_reuse": false,
@@ -169,50 +182,65 @@
         {
           "no_habitable_rooms": 3,
           "provider": "Private",
+          "phase_detail": null,
           "unit_no": "Gain-1",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "gia": 87.3,
           "tenure": "Market for sale"
         },
         {
           "no_habitable_rooms": 2,
           "provider": "Private",
+          "phase_detail": null,
           "unit_no": "Gain-2",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "gia": 43.6,
           "tenure": "Market for sale"
         },
         {
           "no_habitable_rooms": 2,
           "provider": "Private",
+          "phase_detail": null,
           "unit_no": "Gain-3",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "gia": 43.6,
           "tenure": "Market for sale"
         },
         {
           "no_habitable_rooms": 2,
           "provider": "Private",
+          "phase_detail": null,
           "unit_no": "Gain-4",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "gia": 61.3,
           "tenure": "Market for sale"
         },
         {
           "no_habitable_rooms": 3,
           "provider": "Private",
+          "phase_detail": null,
           "unit_no": "Gain-5",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "gia": 65.2,
           "tenure": "Market for sale"
         }
@@ -229,7 +257,7 @@
       "total_no_proposed_residential_units_market_for_rent": 0,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 416.6666666666667,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_proposed_bedrooms": 7,
@@ -239,7 +267,7 @@
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 1000,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units": 5,
@@ -250,10 +278,23 @@
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "affordable_percentage": 0
+      "affordable_percentage": 0,
+      "site_area": 0.012
     },
-    "green_suds": true,
-    "affordable_housing_fast_track": true
+    "green_suds": false,
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.012
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "valid_date": "06/03/2023",
   "parking_details": null,
@@ -281,14 +322,14 @@
   ],
   "url_planning_app": null,
   "pp_id": "PP-11600415",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "centroid_easting": 530177,
   "borough": "London Borough of Lambeth",
   "epc_number": null,
   "lpa_app_no": "23/00936/FUL",
   "decision_agency": null,
   "date_building_work_completed_under_previous_permission": null,
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "subdivision_of_building": null,
   "description": "Demolition of the existing building (Use Class E), and erection of a part 4, part 5 storey building to provide a retail unit (Use Class E(a)) to the front at ground and lower ground floors and 5 self contained flats (Use Class C3), along with provision of cycle parking, refuse storage and amenity space.",
   "appeal_decision": null,

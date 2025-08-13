@@ -3,13 +3,13 @@
   "date_building_work_started_under_previous_permission": null,
   "appeal_decision": null,
   "url_planning_app": null,
-  "bo_system": "Agile APAS",
+  "bo_system": "Portal",
   "lpa_name": "Redbridge",
   "application_details": {
     "other_residential_accommodation_details": {
       "no_council_tax_rateable_units_lost": null,
       "other_resi_accommodation_unit_details": [],
-      "site_area": null,
+      "site_area": 0.017,
       "no_council_tax_rateable_units_gained": null
     },
     "occupation_status": null,
@@ -20,7 +20,7 @@
       "total_gia_existing": null,
       "total_gia_gained": null,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "site_area": null
+      "site_area": 0.017
     },
     "overseas_company_registration_no": null,
     "total_gia_gained": null,
@@ -40,18 +40,18 @@
       "no_passive_slow_ev_charging_points": null,
       "green_roof_area": null,
       "no_active_rapid_ev_charging_points": null,
-      "fire_suppression_system_proposed": null,
+      "fire_suppression_system_proposed": false,
       "no_active_fast_ev_charging_points": null,
       "no_passive_other_ev_charging_points": null,
       "no_non_resi_units_to_have_full_fibre": null,
-      "mobile_network_operators_consultation": null,
-      "ghg_reduction_over_building_regulations": null,
+      "mobile_network_operators_consultation": false,
+      "ghg_reduction_over_building_regulations": false,
       "total_annual_pm_emissions": null,
       "chp_heat_pumps_capacity": null,
       "waste_details": [],
       "no_new_water_connections_required": null,
       "community_energy_capacity": null,
-      "waste_provision": null,
+      "waste_provision": false,
       "no_homes_passive_cooling": null,
       "solar_pv_capacity": null
     },
@@ -64,12 +64,9 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 132,
-        "superseded_date": null,
-        "actual_completion_date": null,
+        "actual_completion_date": "10/07/2025",
         "use_class": "A1",
         "gia_gained": 0,
-        "actual_commencement_date": null,
-        "superseded_by_lpa_app_no": null,
         "gia_lost": 59
       }
     ],
@@ -82,52 +79,32 @@
       "total_no_proposed_residential_units_affordable_rent": 0,
       "residential_units": [
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
-          "description": null,
-          "change_type": "Gain",
-          "m42_compliant": null,
-          "sheltered_accommodation": null,
-          "garden_land": null,
-          "unit_type": "Studio Bedsit",
-          "unit_development_type": "Change of Use",
-          "superseded_date": null,
+          "actual_completion_date": "10/07/2025",
           "provider": "Private",
-          "no_habitable_rooms": null,
           "phase_detail": null,
           "unit_no": null,
-          "actual_commencement_date": null,
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Studio Bedsit",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
           "tenure": "Market for sale",
-          "gia": null
+          "gia": null,
+          "unit_development_type": "Change of Use"
         },
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
-          "description": null,
-          "change_type": "Gain",
-          "m42_compliant": null,
-          "sheltered_accommodation": null,
-          "garden_land": null,
-          "unit_type": "Studio Bedsit",
-          "unit_development_type": "Change of Use",
-          "superseded_date": null,
+          "actual_completion_date": "10/07/2025",
           "provider": "Private",
-          "no_habitable_rooms": null,
           "phase_detail": null,
           "unit_no": null,
-          "actual_commencement_date": null,
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Studio Bedsit",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
           "tenure": "Market for sale",
-          "gia": null
+          "gia": null,
+          "unit_development_type": "Change of Use"
         }
       ],
       "total_no_proposed_residential_units_market_for_rent": 0,
@@ -135,7 +112,7 @@
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_gia_gained": null,
       "total_no_proposed_residential_units_shared_equity": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_affordable_units": 0,
@@ -145,7 +122,7 @@
       "total_no_proposed_residential_units": 2,
       "total_no_proposed_residential_units_market_for_sale": 2,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 117.6470588235294,
       "total_no_existing_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_discount_market_rent": 0,
@@ -166,39 +143,54 @@
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "site_area": null,
+      "site_area": 0.017,
       "total_no_proposed_residential_units_intermediate": 0
     },
-    "site_area": 0.017
+    "site_area": 0.017,
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "scheme_phasing": false,
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "garden_land_lost": false
   },
   "decision_agency": null,
   "last_date_consultation_comments": "09/06/2020",
   "site_name": "Development At 151",
   "ward": "Fullwell",
-  "status": "Closed",
+  "status": "Completed",
   "title_number": [],
   "development_type": null,
   "locality": "Barkingside",
   "lapsed_date": "18/06/2023",
   "borough": "Redbridge",
-  "last_updated": "2025-03-20T13:56:32.100+00:00",
+  "last_updated": "2025-08-12T08:19:35.970Z",
   "decision": "Approved",
   "reference_no_of_permission_being_relied_on": null,
-  "cil_liability": true,
+  "cil_liability": false,
   "description": "Change of use of ground floor from shop (A1) to 2 self-contained residential units (C3). (Summary)",
   "pp_id": null,
   "centroid": {
-    "lon": "0.08373359999999999",
-    "lat": "51.5926634"
+    "lon": 0.083707,
+    "lat": 51.592662
   },
   "centroid_northing": 190258,
   "secondary_street_name": null,
   "decision_conditions": [
-    "Prior to first occupation, details of the proposed secure and sheltered cycle store to be provided at the site shall be submitted to and approved in writing by the Local Planning Authority. The facilities as approved shall then be retained at the site thereafter in accordance with the approved drawings at all times. \r\n\r\nReason: In order to ensure the development complies with the terms of the application and with Policy LP23 of the Council’s Local Plan."
+    "Prior to first occupation, details of the proposed secure and sheltered cycle store to be provided at the site shall be submitted to and approved in writing by the Local Planning Authority. The facilities as approved shall then be retained at the site thereafter in accordance with the approved drawings at all times. \n\nReason: In order to ensure the development complies with the terms of the application and with Policy LP23 of the Council’s Local Plan."
   ],
   "actual_commencement_date": null,
   "street_name": "High Street",
-  "last_updated_by": "Agile APAS",
+  "last_updated_by": "Portal",
   "lpa_app_no": "1335/20",
   "decision_date": "18/06/2020",
   "polygon": {
@@ -287,10 +279,10 @@
   "epc_number": null,
   "decision_target_date": "06/07/2020",
   "decision_process": "Delegated",
-  "postcode": null,
+  "postcode": "",
   "appeal_status": null,
   "appeal_decision_date": null,
-  "actual_completion_date": null,
+  "actual_completion_date": "10/07/2025",
   "id": "Redbridge-1335_20",
   "date_building_work_completed_under_previous_permission": null,
   "application_type_full": null,
@@ -302,44 +294,44 @@
     "coordinates": [
       [
         [
-          0.0839419,
-          51.5926238
+          0.083915,
+          51.592622
         ],
         [
-          0.08390299999999999,
-          51.5925781
+          0.083876,
+          51.592577
         ],
         [
-          0.0836726,
-          51.5926555
+          0.083646,
+          51.592654
         ],
         [
-          0.08352419999999999,
-          51.5927054
+          0.083498,
+          51.592704
         ],
         [
-          0.0835316,
-          51.5927138
+          0.083505,
+          51.592712
         ],
         [
-          0.0835466,
-          51.5927086
+          0.08352,
+          51.592707
         ],
         [
-          0.08358,
-          51.5927462
+          0.083553,
+          51.592745
         ],
         [
-          0.0836852,
-          51.5927102
+          0.083659,
+          51.592709
         ],
         [
-          0.08374279999999999,
-          51.5926907
+          0.083716,
+          51.592689
         ],
         [
-          0.0839419,
-          51.5926238
+          0.083915,
+          51.592622
         ]
       ]
     ],
