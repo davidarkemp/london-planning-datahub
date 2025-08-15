@@ -7,22 +7,22 @@
   "appeal_decision": null,
   "lpa_app_no": "2022/4122",
   "centroid": {
-    "lon": "-0.149456",
-    "lat": "51.4498138"
+    "lon": -0.149482,
+    "lat": 51.449813
   },
   "actual_completion_date": null,
   "development_type": "Notifications",
-  "centroid_easting": "528686",
+  "centroid_easting": 528686,
   "url_planning_app": "http://planning.wandsworth.gov.uk/Northgate/PlanningExplorer/DisplayAppDetails.aspx?AppNo=2022/4122",
-  "last_updated": "2025-03-20T13:32:30.706+00:00",
+  "last_updated": "2025-08-13T13:25:44.513Z",
   "subdivision_of_building": null,
   "postcode": "SW12 8AD",
   "uprn": "10093420292",
   "reference_no_of_permission_being_relied_on": null,
-  "bo_system": "Northgate M3",
-  "centroid_northing": "173938",
+  "bo_system": "Portal",
+  "centroid_northing": 173938,
   "site_name": "Unit 1",
-  "status": "Approved",
+  "status": "Commenced",
   "appeal_start_date": null,
   "valid_date": "05/10/2022",
   "lapsed_date": "29/11/2025",
@@ -56,9 +56,9 @@
     "net_carclub": null
   },
   "date_building_work_completed_under_previous_permission": null,
-  "actual_commencement_date": null,
-  "last_updated_by": "FME Excel Import",
-  "cil_liability": true,
+  "actual_commencement_date": "31/03/2025",
+  "last_updated_by": "Portal",
+  "cil_liability": false,
   "decision_target_date": "29/11/2022",
   "title_number": [],
   "decision": "Approved",
@@ -153,7 +153,7 @@
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_passive_cooling": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "green_roof_area": 0,
       "ghg_reduction_over_building_regulations": false,
       "no_passive_rapid_ev_charging_points": null,
@@ -173,19 +173,23 @@
     "total_gia_existing": 236,
     "existing_proposed_floorspace_details": [
       {
-        "gia_existing": 236,
-        "superseded_date": null,
-        "actual_completion_date": null,
+        "gia_existing": 302,
         "use_class": "B1a",
         "gia_gained": 0,
-        "actual_commencement_date": null,
-        "superseded_by_lpa_app_no": null,
+        "actual_commencement_date": "31/03/2025",
+        "gia_lost": 302
+      },
+      {
+        "gia_existing": 0,
+        "use_class": "C3",
+        "gia_gained": 302,
+        "actual_commencement_date": "31/03/2025",
         "gia_lost": 0
       }
     ],
     "non_residential_details": {
       "total_gia_gained": 0,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 302,
       "total_gia_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_existing": 236,
@@ -200,7 +204,7 @@
     "building_age": null,
     "qualifying_vacant_building_floorspace": null,
     "overseas_company_registration_no": null,
-    "resi_extension_exempt": null,
+    "resi_extension_exempt": false,
     "other_residential_accommodation_details": {
       "no_council_tax_rateable_units_gained": null,
       "no_council_tax_rateable_units_lost": null,
@@ -209,9 +213,9 @@
     },
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_bedrooms": 0,
+      "total_no_proposed_bedrooms": 3,
       "total_no_proposed_residential_units_london_living_rent": 0,
-      "total_no_proposed_residential_units": 0,
+      "total_no_proposed_residential_units": 1,
       "total_no_existing_residential_units": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_affordable_units": 0,
@@ -225,16 +229,16 @@
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "total_no_proposed_residential_units_market_for_sale": 0,
+      "total_no_proposed_residential_units_market_for_sale": 1,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
-      "total_gia_gained": null,
+      "total_gia_gained": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
-      "site_area": null,
+      "dwelling_density": 31.25,
+      "site_area": 0.032,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_gia_lost": null,
       "total_no_existing_residential_units_discount_market_sale": 0,
@@ -245,7 +249,21 @@
       "total_no_proposed_residential_units_intermediate": 0,
       "affordable_percentage": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
-      "residential_units": [],
+      "residential_units": [
+        {
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Gain",
+          "actual_commencement_date": "31/03/2025",
+          "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": null
+        }
+      ],
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0
     },
@@ -259,52 +277,52 @@
     "coordinates": [
       [
         [
-          -0.1497981,
-          51.4498619
+          -0.149824,
+          51.449861
         ],
         [
-          -0.1494158,
-          51.449934999999996
+          -0.149441,
+          51.449934
         ],
         [
-          -0.1494086,
+          -0.149434,
           51.44992
         ],
         [
-          -0.149417,
-          51.4498527
+          -0.149443,
+          51.449852
         ],
         [
-          -0.1494874,
-          51.4498372
+          -0.149513,
+          51.449837
         ],
         [
-          -0.14957389999999998,
-          51.4498184
+          -0.149599,
+          51.449818
         ],
         [
-          -0.1496245,
-          51.449812
+          -0.14965,
+          51.449811
         ],
         [
-          -0.14962979999999998,
-          51.4497878
+          -0.149655,
+          51.449787
         ],
         [
-          -0.150061,
-          51.4497303
+          -0.150086,
+          51.44973
         ],
         [
-          -0.1500687,
-          51.4497533
+          -0.150094,
+          51.449753
         ],
         [
-          -0.1497742,
-          51.4497936
+          -0.1498,
+          51.449793
         ],
         [
-          -0.1497981,
-          51.4498619
+          -0.149824,
+          51.449861
         ]
       ]
     ],

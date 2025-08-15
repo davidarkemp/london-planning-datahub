@@ -9,9 +9,35 @@
   "centroid_easting": null,
   "ward": "HD22",
   "date_building_work_completed_under_previous_permission": null,
-  "last_updated": "2025-07-23T20:03:28.473Z",
+  "last_updated": "2025-08-14T20:02:16.157Z",
   "epc_number": null,
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.222778,
+          51.589826
+        ],
+        [
+          -0.222907,
+          51.589846
+        ],
+        [
+          -0.222922,
+          51.589819
+        ],
+        [
+          -0.222779,
+          51.589808
+        ],
+        [
+          -0.222778,
+          51.589826
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "application_type": "All Other",
   "lpa_name": "Barnet",
   "actual_commencement_date": null,
@@ -21,7 +47,38 @@
   "centroid_northing": null,
   "decision_process": null,
   "decision_target_date": "04/09/2025",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              523215,
+              189382
+            ],
+            [
+              523206,
+              189384
+            ],
+            [
+              523205,
+              189381
+            ],
+            [
+              523215,
+              189380
+            ],
+            [
+              523215,
+              189382
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "geometrycollection"
+  },
   "description": "Insertion of two internally illuminated digital LED screens, one on each side of the InLink unit",
   "lpa_app_no": "25/2751/ADV",
   "last_date_consultation_comments": "01/08/2025",
@@ -65,14 +122,14 @@
       "mobile_network_operators_consultation": false,
       "waste_details": [
         {
-          "internal_dry_recycling": false,
-          "unit_reference": "0",
           "external_dry_recycling": false,
           "external_food_waste": false,
-          "internal_residual_waste": false,
+          "unit_reference": "0",
           "external_residual_waste": false,
           "reason_for_no_provision": "No internal storage",
-          "internal_food_waste": false
+          "internal_residual_waste": false,
+          "internal_food_waste": false,
+          "internal_dry_recycling": false
         }
       ],
       "fire_suppression_system_proposed": false
@@ -95,8 +152,8 @@
     "scheme_phasing": true,
     "phasing_details": [
       {
-        "intended_completion_date": "09/2025",
         "phase_detail": "Entire Development",
+        "intended_completion_date": "09/2025",
         "intended_commencement_date": "08/2025"
       }
     ],

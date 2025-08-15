@@ -168,7 +168,7 @@
       "total_gia_existing": 90,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_lost": 0,
-      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 122,
       "total_gia_gained": 32,
       "site_area": 0.025
     },
@@ -186,7 +186,7 @@
       "ghg_reduction_over_building_regulations": false,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
@@ -194,14 +194,20 @@
       "no_new_gas_connections_required": 0,
       "total_annual_pm_emissions": 0
     },
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "surface_water_discharge_percentage_reduction": 55,
     "existing_proposed_floorspace_details": [
       {
-        "gia_existing": 100,
+        "gia_existing": 90,
         "use_class": "C3",
-        "gia_gained": 20,
+        "gia_gained": 0,
         "superseded_by_lpa_app_no": "",
+        "gia_lost": 90
+      },
+      {
+        "gia_existing": 0,
+        "use_class": "C2",
+        "gia_gained": 122,
         "gia_lost": 0
       }
     ],
@@ -212,8 +218,8 @@
     "total_gia_existing": 90,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_bedrooms": 5,
-      "total_no_proposed_residential_units": 1,
+      "total_no_proposed_bedrooms": 0,
+      "total_no_proposed_residential_units": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units": 1,
       "total_no_proposed_residential_units_affordable_rent": 0,
@@ -224,7 +230,7 @@
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_market_for_sale": 1,
       "total_no_existing_residential_units_intermediate": 0,
-      "total_no_proposed_residential_units_market_for_rent": 1,
+      "total_no_proposed_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
@@ -237,7 +243,7 @@
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "site_area": 0.025,
-      "dwelling_density": 40,
+      "dwelling_density": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_gia_lost": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
@@ -256,38 +262,40 @@
           "sheltered_accommodation": false,
           "unit_type": "House or Bungalow",
           "unit_development_type": "Change of Use",
+          "no_habitable_rooms": 4,
           "provider": "Private",
           "phase_detail": "",
           "unit_no": "",
-          "no_bedrooms": 5,
+          "no_bedrooms": 2,
           "superseded_by_lpa_app_no": "",
           "provision_for_older_persons": false,
-          "gia": null,
-          "tenure": "Market for sale"
-        },
-        {
-          "uprn": "",
-          "description": "",
-          "change_type": "Gain",
-          "sheltered_accommodation": true,
-          "unit_type": "House or Bungalow",
-          "unit_development_type": "Change of Use",
-          "provider": "Private",
-          "phase_detail": "",
-          "unit_no": "",
-          "no_bedrooms": 5,
-          "superseded_by_lpa_app_no": "",
-          "provision_for_older_persons": false,
-          "gia": null,
-          "tenure": "Market for rent"
+          "tenure": "Market for sale",
+          "gia": null
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0
     },
     "other_residential_accommodation_details": {
-      "site_area": 0.025
-    }
+      "site_area": 0.025,
+      "other_resi_accommodation_unit_details": [
+        {
+          "no_rooms_proposed": 3,
+          "m42_compliant": true,
+          "unit_type": "Care Home Bedroom",
+          "no_rooms_lost": 0
+        }
+      ]
+    },
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "centroid_northing": 183972,
   "ward": "HILLINGDON EAST 2022",
@@ -306,7 +314,7 @@
   "decision_date": "08/12/2023",
   "actual_commencement_date": null,
   "epc_number": "4200-1109-0422-3093-1223",
-  "last_updated": "2025-03-19T19:49:58.614+00:00",
+  "last_updated": "2025-08-14T15:32:04.379Z",
   "application_type": "All Other",
   "bo_system": "Portal"
 }

@@ -1,6 +1,6 @@
 {
   "actual_completion_date": null,
-  "decision_process": null,
+  "decision_process": "Delegated",
   "actual_commencement_date": null,
   "centroid": {
     "lat": 51.643751,
@@ -17,15 +17,15 @@
   "decision_conditions": null,
   "postcode": "EN1 1DR",
   "decision_date": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "centroid_easting": 534091,
   "secondary_street_name": null,
   "appeal_status": null,
-  "description": "Change of use from Use Class C3 (dwelling house) to Use Class C4 (HMO-house in multiple occupation), single storey rear extension and rear dormer, with associated amenity, cycle and refuse storage.\r",
+  "description": "Change of use from Use Class C3 (dwelling house) to Use Class C4 (HMO-house in multiple occupation), for up to 6 residents, single storey rear extension and rear dormer, with associated amenity, cycle and refuse storage.\r",
   "ward": "Southbury",
   "parking_details": null,
   "development_type": "Other change of use",
-  "last_updated": "2025-07-09T20:06:55.358Z",
+  "last_updated": "2025-08-15T02:41:54.180Z",
   "last_date_consultation_comments": "17/07/2025",
   "uprn": "000207126021",
   "application_type_full": "Full planning permission",
@@ -69,7 +69,7 @@
   "centroid_northing": 195659,
   "site_number": "46",
   "epc_number": null,
-  "cil_liability": null,
+  "cil_liability": false,
   "application_type": "All Other",
   "borough": "Enfield Council",
   "locality": null,
@@ -124,38 +124,24 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "residential_units": [
         {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "description": null,
-          "m42_compliant": false,
-          "change_type": "Gain",
-          "sheltered_accommodation": false,
-          "garden_land": false,
-          "unit_type": "HMO",
           "no_habitable_rooms": 2,
-          "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
-          "no_bedrooms": 6,
-          "provision_for_older_persons": false,
-          "gia": 123.22,
-          "tenure": "Market for rent"
-        },
-        {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "description": null,
-          "m42_compliant": false,
+          "unit_no": "Loss-1",
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "garden_land": false,
           "unit_type": "Terraced Home",
-          "no_habitable_rooms": 2,
-          "phase_detail": null,
-          "unit_no": null,
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
           "gia": 93.62,
+          "tenure": "Market for rent"
+        },
+        {
+          "no_habitable_rooms": 2,
+          "provider": "Private",
+          "unit_no": "Gain-1",
+          "change_type": "Gain",
+          "unit_type": "HMO",
+          "no_bedrooms": 6,
+          "gia": 123.22,
           "tenure": "Market for rent"
         }
       ],
@@ -202,19 +188,19 @@
     "non_residential_details": {
       "site_area": 0.01,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_lost": 0,
-      "total_gia_existing": 0,
-      "total_gia_gained": 0,
+      "total_gia_lost": 93.62,
+      "total_gia_existing": 93.62,
+      "total_gia_gained": 123.22,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0
     },
-    "site_area": 100,
+    "site_area": 0.01,
     "projected_cost_of_works": "Up to £2m",
     "scheme_phasing": true,
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "11/2025",
-        "intended_completion_date": "01/2026"
+        "intended_completion_date": "01/2026",
+        "intended_commencement_date": "11/2025"
       }
     ],
     "total_gia_lost": 93.62,
@@ -226,14 +212,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 93.62,
-        "gia_gained": 0,
         "use_class": "C3",
+        "gia_gained": 0,
         "gia_lost": 93.62
       },
       {
         "gia_existing": 0,
-        "gia_gained": 123.22,
         "use_class": "C4",
+        "gia_gained": 123.22,
         "gia_lost": 0
       }
     ],

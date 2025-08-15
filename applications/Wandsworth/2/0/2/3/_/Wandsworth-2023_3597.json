@@ -5,7 +5,7 @@
   "centroid_northing": 173983,
   "site_number": "2",
   "date_building_work_started_under_previous_permission": null,
-  "bo_system": "Northgate M3",
+  "bo_system": "Portal",
   "site_name": null,
   "appeal_decision_date": null,
   "valid_date": "26/09/2023",
@@ -69,18 +69,18 @@
     ],
     "type": "Polygon"
   },
-  "last_updated_by": "Northgate M3",
+  "last_updated_by": "Portal",
   "appeal_start_date": null,
   "reference_no_of_permission_being_relied_on": null,
   "application_type": "All Other",
   "decision_process": null,
   "application_details": {
     "total_gia_lost": 112.2,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "total_gia_existing": 112.2,
     "total_gia_gained": 54.9,
     "projected_cost_of_works": "Up to £2m",
-    "rain_water_harvesting": true,
+    "rain_water_harvesting": false,
     "residential_details": {
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_social_rent": 0,
@@ -89,26 +89,36 @@
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units": 2,
-      "dwelling_density": 0,
+      "dwelling_density": 123.4567901234568,
       "affordable_percentage": 0,
       "residential_units": [
         {
+          "actual_completion_date": "31/03/2025",
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 4,
           "provider": "Private",
+          "phase_detail": null,
           "unit_no": "Gain-1",
-          "change_type": "Gain",
+          "actual_commencement_date": "01/04/2024",
           "no_bedrooms": 3,
-          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
           "gia": 84,
           "tenure": "Market for sale"
         },
         {
+          "actual_completion_date": "31/03/2025",
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 3,
           "provider": "Private",
+          "phase_detail": null,
           "unit_no": "Gain-2",
-          "change_type": "Gain",
+          "actual_commencement_date": "01/04/2024",
           "no_bedrooms": 2,
-          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
           "gia": 70,
           "tenure": "Market for sale"
         }
@@ -119,7 +129,7 @@
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 432.0987654320988,
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
@@ -141,11 +151,12 @@
       "total_no_proposed_residential_units_market_for_sale": 2,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0
+      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "site_area": 0.0162
     },
     "infrastructure_details": {
       "no_new_water_connections_required": 2,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_non_resi_units_to_have_full_fibre": 0,
       "no_resi_units_to_have_full_fibre": 2,
       "percentage_demolition_construction_material_recycling": 0,
@@ -155,21 +166,31 @@
       "no_new_gas_connections_required": 2,
       "total_annual_pm_emissions": 0,
       "total_annual_nox_emissions": 0,
-      "fire_suppression_system_proposed": true,
+      "fire_suppression_system_proposed": false,
       "ghg_reduction_over_building_regulations": false,
       "chp_heat_pumps_capacity": 10,
       "green_roof_area": 0,
       "no_homes_passive_cooling": 0
     },
-    "grey_water_reuse": true,
+    "grey_water_reuse": false,
     "internal_resi_water_usage": 105,
     "ownership_status": "Private",
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 112.2,
+        "actual_completion_date": "31/03/2025",
         "use_class": "E",
-        "gia_gained": 54.9,
+        "gia_gained": 0,
+        "actual_commencement_date": "01/04/2024",
         "gia_lost": 112.2
+      },
+      {
+        "gia_existing": 0,
+        "actual_completion_date": "31/03/2025",
+        "use_class": "C3",
+        "gia_gained": 154,
+        "actual_commencement_date": "01/04/2024",
+        "gia_lost": 0
       }
     ],
     "non_residential_details": {
@@ -177,7 +198,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_lost": 112.2,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_existing": 112.2
+      "total_gia_existing": 112.2,
+      "site_area": 0.0162
     },
     "phasing_details": [
       {
@@ -190,7 +212,19 @@
     "surface_water_discharge_percentage_reduction": 0,
     "affordable_housing_fast_track": false,
     "site_area": 0.0162,
-    "garden_land_lost": true
+    "garden_land_lost": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.0162
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "appeal_decision": null,
   "postcode": "SW12 9LQ",
@@ -200,7 +234,7 @@
   "actual_commencement_date": null,
   "description": "Alterations including single storey rear/side extension in connection with change of use of existing retail unit (Class E) to provide 2 x 2-bedroom flats, with associated cycle and refuse storage private outside amenity space (Class C3). Demolition of front boundary wall, erection of a replacement front boundary wall, and landscaping.",
   "decision": "Approved",
-  "actual_completion_date": null,
+  "actual_completion_date": "31/03/2025",
   "borough": "Wandsworth",
   "epc_number": null,
   "subdivision_of_building": null,
@@ -212,8 +246,8 @@
   "pp_id": "12484997",
   "id": "Wandsworth-2023_3597",
   "application_type_full": "Full planning permission",
-  "cil_liability": true,
-  "status": "Approved",
+  "cil_liability": false,
+  "status": "Completed",
   "date_building_work_completed_under_previous_permission": null,
   "secondary_street_name": null,
   "decision_agency": "Borough",
@@ -222,14 +256,14 @@
   "lpa_name": "Wandsworth",
   "last_date_consultation_comments": "08/11/2023",
   "decision_conditions": [
-    "Condition : 1 - The development hereby permitted shall be begun within 3 years from the date of this permission.\r\nReason: To prevent the accumulation of unimplemented planning permissions and to comply with Section 91 of the Town and Country Planning Act 1990 (as amended) and to meet the requirements of Section 51 of the Planning and Compulsory Purchase Act 2004 and to meet the requirements of The Town and Country Planning (Development Management Procedure) (England) Order 2015.\r\n",
-    "Condition : 2 - The development shall be carried out in accordance with the reports, specifications and drawings detailed [01, 07 received 22.11.2023, 08 received 22.11.2023, 09 received 22.11.2023, 10 received 22.11.2023, 11 received 22.11.2023, 12 received 22.11.2023, 13 received 22.11.2023, 14 received 22.11.2023, 15 received 22.11.2023, Fire safety report]. \r\nReason: To ensure a satisfactory standard of development and to allow the local planning authority to review any potential changes to the scheme. \r\n",
-    "Condition : 3 - All external materials used in the construction of the development hereby approved shall match the type, texture, tone, colour, size and profile of those used on the existing building and shall be retained permanently. \r\nReason: In the interest of the appearance of the development and to safeguard visual amenity, in accordance with Council policies LP1 and LP5 of the Local Plan coupled with the requirements of the National Planning Policy Framework.\r\n",
-    "Condition : 4 - The roof area of the development hereby permitted shall not be used as a balcony, roof garden or similar amenity area and furthermore, no balustrades, railings or other means of enclosure or means of permanent access shall be erected on this area.\r\nReason: To control overlooking and safeguard the privacy of neighbours in accordance with Council policy LP2 of the Local Plan coupled with the requirements of the National Planning Policy Framework.\r\n",
-    "Condition : 5 - Prior to the first occupation of the development the cycle parking shown on the approved drawing shall be provided, and be retained for cycle parking purposes for the users of the development and for no other purpose.\r\nReason: To ensure adequate provision is made for cycle parking in accordance with Council policies LP2, LP37, LP51, PM2, PM3, PM4, PM6, PM7, PM8 and PM9 of the Wandsworth Local Plan coupled with the requirements of the National Planning Policy Framework.\r\n",
-    "Condition : 6 - Prior to the first occupation of the development, the refuse and recycling storage shown on approved drawings shall be provided and shall be retained for the users of the development and for no other purpose.\r\nReason: To ensure adequate provision is made for waste storage in accordance with Council policy LP2 of the Local Plan coupled with the requirements of the National Planning Policy Framework.\r\n",
-    "Condition : 7 - The development shall achieve a maximum water use of 110 litres per person per day for homes (including an allowance of five litres or less per person per day for\r\nexternal water consumption) in line with the Water Efficiency Calculator for new dwellings from the Department of Communities and Local Government. Prior to first occupation, evidence to demonstrate that that the internal water consumption of the development will not exceed 105l/p/day must be submitted to the local planning authority and approved in writing, unless otherwise agreed in writing by the local planning authority. Measures integrated shall be retained for the lifetime of the development.\r\nReason: In the interest of sustainable development and to accord with Council policy LP1, LP2, LP10 of the Local Plan coupled with the requirements of the National Planning Policy Framework.",
-    "Condition : 8 - Domestic refurbishment BREEAM assessment:\r\nA. No above ground works shall commence until a BREEAM Pre-Assessment has been submitted to and been approved in writing by the local planning authority. The development shall achieve a BREEAM Domestic Refurbishment Outstanding rating (where it is proven that it is not technically feasible then a lower rating will be accepted.). \r\nB. Within three months of the occupation of the buildings, a BREEAM Domestic Refurbishment Certificate, issued by the BRE (or equivalent accredited body), shall be submitted to and approved in writing by the local planning authority to demonstrate that the approved BREEAM Pre-Assessment rating has been achieved. The installed measures shall be retained in accordance with the approved details unless otherwise agreed by the local planning authority. \r\nReason: In the interest of sustainable development and to accord with Council policy LP10 of the Local Plan 2023 coupled with the requirements of the National Planning Policy Framework.\r\n",
+    "Condition : 1 - The development hereby permitted shall be begun within 3 years from the date of this permission.\nReason: To prevent the accumulation of unimplemented planning permissions and to comply with Section 91 of the Town and Country Planning Act 1990 (as amended) and to meet the requirements of Section 51 of the Planning and Compulsory Purchase Act 2004 and to meet the requirements of The Town and Country Planning (Development Management Procedure) (England) Order 2015.",
+    "Condition : 2 - The development shall be carried out in accordance with the reports, specifications and drawings detailed [01, 07 received 22.11.2023, 08 received 22.11.2023, 09 received 22.11.2023, 10 received 22.11.2023, 11 received 22.11.2023, 12 received 22.11.2023, 13 received 22.11.2023, 14 received 22.11.2023, 15 received 22.11.2023, Fire safety report]. \nReason: To ensure a satisfactory standard of development and to allow the local planning authority to review any potential changes to the scheme.",
+    "Condition : 3 - All external materials used in the construction of the development hereby approved shall match the type, texture, tone, colour, size and profile of those used on the existing building and shall be retained permanently. \nReason: In the interest of the appearance of the development and to safeguard visual amenity, in accordance with Council policies LP1 and LP5 of the Local Plan coupled with the requirements of the National Planning Policy Framework.",
+    "Condition : 4 - The roof area of the development hereby permitted shall not be used as a balcony, roof garden or similar amenity area and furthermore, no balustrades, railings or other means of enclosure or means of permanent access shall be erected on this area.\nReason: To control overlooking and safeguard the privacy of neighbours in accordance with Council policy LP2 of the Local Plan coupled with the requirements of the National Planning Policy Framework.",
+    "Condition : 5 - Prior to the first occupation of the development the cycle parking shown on the approved drawing shall be provided, and be retained for cycle parking purposes for the users of the development and for no other purpose.\nReason: To ensure adequate provision is made for cycle parking in accordance with Council policies LP2, LP37, LP51, PM2, PM3, PM4, PM6, PM7, PM8 and PM9 of the Wandsworth Local Plan coupled with the requirements of the National Planning Policy Framework.",
+    "Condition : 6 - Prior to the first occupation of the development, the refuse and recycling storage shown on approved drawings shall be provided and shall be retained for the users of the development and for no other purpose.\nReason: To ensure adequate provision is made for waste storage in accordance with Council policy LP2 of the Local Plan coupled with the requirements of the National Planning Policy Framework.",
+    "Condition : 7 - The development shall achieve a maximum water use of 110 litres per person per day for homes (including an allowance of five litres or less per person per day for\nexternal water consumption) in line with the Water Efficiency Calculator for new dwellings from the Department of Communities and Local Government. Prior to first occupation, evidence to demonstrate that that the internal water consumption of the development will not exceed 105l/p/day must be submitted to the local planning authority and approved in writing, unless otherwise agreed in writing by the local planning authority. Measures integrated shall be retained for the lifetime of the development.\nReason: In the interest of sustainable development and to accord with Council policy LP1, LP2, LP10 of the Local Plan coupled with the requirements of the National Planning Policy Framework.",
+    "Condition : 8 - Domestic refurbishment BREEAM assessment:\nA. No above ground works shall commence until a BREEAM Pre-Assessment has been submitted to and been approved in writing by the local planning authority. The development shall achieve a BREEAM Domestic Refurbishment Outstanding rating (where it is proven that it is not technically feasible then a lower rating will be accepted.). \nB. Within three months of the occupation of the buildings, a BREEAM Domestic Refurbishment Certificate, issued by the BRE (or equivalent accredited body), shall be submitted to and approved in writing by the local planning authority to demonstrate that the approved BREEAM Pre-Assessment rating has been achieved. The installed measures shall be retained in accordance with the approved details unless otherwise agreed by the local planning authority. \nReason: In the interest of sustainable development and to accord with Council policy LP10 of the Local Plan 2023 coupled with the requirements of the National Planning Policy Framework.",
     "Condition : 9 - INFORMATIVE: In dealing with this application the Council has implemented the requirement in the National Planning Policy Framework to work with the applicant in a positive and proactive manner and the Council has, as far as practicable, sought solutions to problems arising in relation to dealing with the planning application. The Council has made available detailed advice in the form of its statutory policies in the Local Plan (2023) as well as offering a full pre-application advice service, in order to ensure that the applicant has been given every opportunity to submit an application which is likely to be considered favourably. In addition, where appropriate, further guidance was offered to the applicant during the processing of the application."
   ],
   "parking_details": {
@@ -237,7 +271,7 @@
     "no_proposed_cycle": 4,
     "net_cycle": 4
   },
-  "last_updated": "2025-03-19T01:00:38.036+00:00",
+  "last_updated": "2025-08-14T13:26:37.139Z",
   "appeal_status": null,
   "street_name": "Dagnan Road",
   "ward": "Balham",

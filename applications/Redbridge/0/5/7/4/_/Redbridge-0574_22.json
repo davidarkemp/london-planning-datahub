@@ -1,5 +1,5 @@
 {
-  "postcode": null,
+  "postcode": "",
   "pp_id": "PP-11048175",
   "reference_no_of_permission_being_relied_on": null,
   "date_building_work_completed_under_previous_permission": null,
@@ -20,6 +20,7 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 60,
+        "actual_completion_date": "17/04/2025",
         "use_class": "A2",
         "gia_gained": 0,
         "gia_lost": 5
@@ -27,7 +28,7 @@
     ],
     "projected_cost_of_works": "Up to £2m",
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "building_details": [
       {
         "no_storeys": 1,
@@ -43,7 +44,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 5,
       "total_gia_gained": 0,
       "total_gia_lost": 5,
-      "total_gia_existing": 60
+      "total_gia_existing": 60,
+      "site_area": 0.011000000000000001
     },
     "garden_land_lost": false,
     "internal_resi_water_usage": 135,
@@ -68,12 +70,12 @@
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 181.8181818181818,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 63,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 90.9090909090909,
       "total_gia_lost": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
@@ -88,16 +90,21 @@
         {
           "no_habitable_rooms": 2,
           "provider": "Private",
+          "phase_detail": null,
           "unit_no": "Gain-1",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
+          "actual_commencement_date": "17/04/2025",
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "gia": 63,
           "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.011000000000000001
     },
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
@@ -108,7 +115,7 @@
       "no_homes_passive_cooling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
@@ -116,7 +123,19 @@
       "no_new_gas_connections_required": 1,
       "ghg_reduction_over_building_regulations": false
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.011000000000000001
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "polygon": {
     "geometries": [
@@ -164,10 +183,10 @@
   },
   "parking_details": {},
   "decision_process": "Delegated",
-  "status": "Approved",
+  "status": "Commenced",
   "centroid": {
-    "lon": "0.0839325",
-    "lat": "51.5730375"
+    "lon": 0.083906,
+    "lat": 51.573037
   },
   "centroid_easting": 544512,
   "decision_agency": null,
@@ -180,7 +199,7 @@
   "application_type_full": "Full planning permission",
   "appeal_decision": null,
   "site_name": "Development Site At 7 And 7a Central Parade",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "17/04/2025",
   "title_number": [
     "EGL100047"
   ],
@@ -192,10 +211,10 @@
   "last_date_consultation_comments": "18/05/2022",
   "epc_number": null,
   "subdivision_of_building": "SECOND FLOOR DEVELOPMENT",
-  "cil_liability": true,
+  "cil_liability": false,
   "lpa_app_no": "0574/22",
   "decision": "Approved",
-  "last_updated": "2025-03-20T13:53:16.838+00:00",
+  "last_updated": "2025-08-14T10:01:42.553Z",
   "street_name": "Ley Street",
   "actual_completion_date": null,
   "ward": "Newbury",
@@ -205,48 +224,48 @@
   "lpa_name": "Redbridge",
   "date_building_work_started_under_previous_permission": null,
   "decision_conditions": [
-    "The development hereby permitted shall be begun no later than the  expiration of three years from the date of this permission.\r\n\r\nReason: In order to comply with the requirements of Section 91 of the Town and Country Planning Act 1990."
+    "The development hereby permitted shall be begun no later than the  expiration of three years from the date of this permission.\n\nReason: In order to comply with the requirements of Section 91 of the Town and Country Planning Act 1990."
   ],
   "locality": null,
   "decision_date": "20/05/2022",
-  "bo_system": "Agile APAS",
-  "last_updated_by": "Planning Portal ingest",
+  "bo_system": "Portal",
+  "last_updated_by": "Portal",
   "uprn": "10094819718",
   "application_type": "All Other",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          0.0841094,
-          51.5730402
+          0.084083,
+          51.573039
         ],
         [
-          0.0840964,
-          51.5730094
+          0.08407,
+          51.573008
         ],
         [
-          0.0839704,
-          51.5730161
+          0.083944,
+          51.573015
         ],
         [
-          0.0839085,
-          51.573019
+          0.083882,
+          51.573018
         ],
         [
-          0.0837811,
-          51.5730249
+          0.083755,
+          51.573024
         ],
         [
-          0.0838083,
-          51.5730847
+          0.083782,
+          51.573084
         ],
         [
-          0.08399039999999999,
-          51.573058
+          0.083964,
+          51.573057
         ],
         [
-          0.0841094,
-          51.5730402
+          0.084083,
+          51.573039
         ]
       ]
     ],
