@@ -148,25 +148,27 @@
       "total_no_existing_residential_units_intermediate": 0,
       "residential_units": [
         {
-          "provider": "Private",
-          "no_habitable_rooms": 1,
-          "phase_detail": null,
-          "unit_no": "Gain-1",
           "description": null,
           "change_type": "Gain",
+          "unit_type": "HMO",
+          "unit_development_type": "Change of Use",
+          "no_habitable_rooms": 1,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": "Gain-1",
           "actual_commencement_date": "26/02/2024",
           "no_bedrooms": 6,
-          "unit_type": "HMO",
           "provision_for_older_persons": false,
-          "gia": 0.73,
+          "gia": 125.9,
           "tenure": "Market for rent"
         },
         {
           "uprn": "",
+          "actual_completion_date": "26/02/2024",
           "description": "",
           "change_type": "Loss",
           "unit_type": "House or Bungalow",
-          "unit_development_type": "",
+          "unit_development_type": "Change of Use",
           "provider": "Private",
           "phase_detail": "",
           "unit_no": "",
@@ -174,7 +176,7 @@
           "no_bedrooms": 4,
           "superseded_by_lpa_app_no": "",
           "provision_for_older_persons": false,
-          "gia": null,
+          "gia": 124.56,
           "tenure": "Market for sale"
         }
       ],
@@ -243,7 +245,7 @@
       "no_new_gas_connections_required": 0,
       "total_annual_pm_emissions": 0
     },
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "surface_water_discharge_percentage_reduction": 10,
     "existing_proposed_floorspace_details": [
       {
@@ -251,6 +253,12 @@
         "use_class": "C3",
         "gia_gained": 125.29,
         "gia_lost": 124.56
+      },
+      {
+        "gia_existing": 0,
+        "use_class": "C4",
+        "gia_gained": 125.29,
+        "gia_lost": 0
       }
     ],
     "ownership_status": "Private",
@@ -260,7 +268,16 @@
     "total_gia_existing": 124.56,
     "other_residential_accommodation_details": {
       "site_area": 0.025
-    }
+    },
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "centroid_northing": 179009,
   "ward": "PINKWELL 2022",
@@ -279,7 +296,7 @@
   "decision_date": "14/08/2023",
   "actual_commencement_date": "26/02/2024",
   "epc_number": null,
-  "last_updated": "2025-03-20T11:48:19.881+00:00",
+  "last_updated": "2025-08-15T11:22:00.270Z",
   "application_type": "All Other",
   "bo_system": "Portal"
 }

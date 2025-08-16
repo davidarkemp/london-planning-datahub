@@ -3,8 +3,10 @@
   "epc_number": null,
   "site_name": "20 GREATFIELDS DRIVE",
   "cil_liability": false,
-  "polygon": null,
-  "actual_commencement_date": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
+  "actual_commencement_date": "17/01/2025",
   "site_number": null,
   "decision": "Approved",
   "parking_details": {
@@ -25,7 +27,7 @@
   "decision_target_date": "22/01/2025",
   "street_name": "HILLINGDON",
   "decision_process": "Delegated",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "centroid_northing": 181785,
   "application_type": "All Other",
   "title_number": null,
@@ -34,14 +36,40 @@
   ],
   "appeal_start_date": null,
   "development_type": null,
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.453427,
+          51.524792
+        ],
+        [
+          -0.453428,
+          51.524765
+        ],
+        [
+          -0.453471,
+          51.524766
+        ],
+        [
+          -0.45347,
+          51.524793
+        ],
+        [
+          -0.453427,
+          51.524792
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "lpa_app_no": "78711/APP/2024/3021",
   "decision_agency": "Borough",
   "decision_date": "17/01/2025",
   "pp_id": "13504432",
   "url_planning_app": "http://planning.hillingdon.gov.uk/OcellaWeb/planningDetails?reference=78711/APP/2024/3021",
   "lpa_name": "Hillingdon",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "subdivision_of_building": null,
   "secondary_street_name": null,
   "date_building_work_started_under_previous_permission": null,
@@ -49,9 +77,9 @@
     "lat": 51.524779,
     "lon": -0.453449
   },
-  "status": "Completed",
-  "last_updated": "2025-08-02T17:18:07.704+01:00",
-  "actual_completion_date": "17/01/2025",
+  "status": "Commenced",
+  "last_updated": "2025-08-15T09:18:15.481Z",
+  "actual_completion_date": null,
   "lapsed_date": "17/01/2028",
   "borough": "Hillingdon",
   "id": "Hillingdon-78711_APP_2024_3021",
@@ -65,7 +93,7 @@
     "no_additional_bathrooms": 0,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_bedrooms": 1,
+      "total_no_proposed_bedrooms": 5,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units": 1,
       "total_no_proposed_residential_affordable_units": 0,
@@ -74,10 +102,10 @@
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_living_rent": 0,
-      "total_no_existing_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_units_market_for_sale": 1,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_proposed_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
@@ -101,23 +129,76 @@
       "residential_units": [
         {
           "actual_completion_date": "17/01/2025",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
           "actual_commencement_date": "17/01/2025",
           "unit_type": "House or Bungalow",
-          "no_bedrooms": 1,
-          "unit_development_type": "Conversion"
+          "no_bedrooms": 4,
+          "provision_for_older_persons": false,
+          "gia": 113,
+          "tenure": "Market for sale",
+          "unit_development_type": "Change of Use"
         },
         {
           "actual_completion_date": "17/01/2025",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "actual_commencement_date": "17/01/2025",
           "unit_type": "HMO",
-          "no_bedrooms": 1,
-          "unit_development_type": "Conversion"
+          "no_bedrooms": 5,
+          "provision_for_older_persons": false,
+          "gia": 113,
+          "tenure": "Market for rent",
+          "unit_development_type": "Change of Use"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "total_gia_gained": 0
+    },
+    "3d_model": false,
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "borough_cil_liability_notice_issued": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 113,
+        "use_class": "C3",
+        "gia_gained": 0,
+        "gia_lost": 113
+      },
+      {
+        "gia_existing": 0,
+        "use_class": "C4",
+        "gia_gained": 113,
+        "gia_lost": 0
+      }
+    ],
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "scheme_phasing": false,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 0
+    },
+    "garden_land_lost": false,
+    "infrastructure_details": {
+      "waste_provision": false,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "ghg_reduction_over_building_regulations": false
     }
   }
 }

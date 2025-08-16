@@ -3,40 +3,40 @@
     "coordinates": [
       [
         [
-          -0.4319318,
-          51.5168746
+          -0.431952,
+          51.516873
         ],
         [
-          -0.43191219999999997,
-          51.5170017
+          -0.431932,
+          51.517
         ],
         [
-          -0.4317928,
-          51.5169822
+          -0.431813,
+          51.516981
         ],
         [
-          -0.43164569999999997,
-          51.5169327
+          -0.431666,
+          51.516931
         ],
         [
-          -0.43154939999999997,
-          51.5169064
+          -0.43157,
+          51.516905
         ],
         [
-          -0.4315194,
-          51.5168917
+          -0.43154,
+          51.516891
         ],
         [
-          -0.43149919999999997,
-          51.5168677
+          -0.431519,
+          51.516866
         ],
         [
-          -0.4315076,
-          51.5168452
+          -0.431528,
+          51.516844
         ],
         [
-          -0.4319318,
-          51.5168746
+          -0.431952,
+          51.516873
         ]
       ]
     ],
@@ -61,7 +61,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 52,
       "total_gia_lost": 52,
       "total_gia_gained": 183,
-      "total_non_resi_gross_internal_floor_area_to_be_gained": 183
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "site_area": 0.02
     },
     "garden_land_lost": false,
     "total_gia_existing": 52,
@@ -70,8 +71,10 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 52,
+        "actual_completion_date": "31/03/2025",
         "use_class": "B8",
-        "gia_gained": 183,
+        "gia_gained": 0,
+        "actual_commencement_date": "31/03/2025",
         "gia_lost": 52
       }
     ],
@@ -89,7 +92,7 @@
     ],
     "projected_cost_of_works": "Up to £2m",
     "infrastructure_details": {
-      "waste_provision": true,
+      "waste_provision": false,
       "total_annual_pm_emissions": 0,
       "no_new_water_connections_required": 2,
       "no_homes_passive_cooling": 2,
@@ -103,14 +106,14 @@
       "total_annual_nox_emissions": 0,
       "no_homes_to_have_electrical_heating": 0,
       "green_roof_area": 0,
-      "ghg_reduction_over_building_regulations": true
+      "ghg_reduction_over_building_regulations": false
     },
     "site_area": 0.02,
     "residential_details": {
       "total_no_existing_residential_affordable_units": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
       "affordable_percentage": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 100,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units": 0,
       "total_no_proposed_residential_affordable_units": 0,
@@ -124,28 +127,40 @@
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 350,
       "total_gia_gained": 173,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "residential_units": [
         {
+          "description": null,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "unit_type": "House or Bungalow",
+          "unit_development_type": "New Build",
           "no_habitable_rooms": 4,
           "provider": "Private",
+          "phase_detail": null,
           "unit_no": "Gain-1",
-          "change_type": "Gain",
+          "actual_commencement_date": "31/03/2025",
           "no_bedrooms": 3,
-          "unit_type": "Terraced Home",
+          "provision_for_older_persons": false,
           "gia": 99,
           "tenure": "Market for sale"
         },
         {
+          "description": null,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "unit_type": "House or Bungalow",
+          "unit_development_type": "New Build",
           "no_habitable_rooms": 3,
           "provider": "Private",
+          "phase_detail": null,
           "unit_no": "Gain-2",
-          "change_type": "Gain",
+          "actual_commencement_date": "31/03/2025",
           "no_bedrooms": 2,
-          "unit_type": "Terraced Home",
+          "provision_for_older_persons": false,
           "gia": 74,
           "tenure": "Market for sale"
         }
@@ -166,14 +181,27 @@
       "total_gia_lost": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.02
     },
     "existing_uprns": null,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "grey_water_reuse": false,
     "total_gia_lost": 52,
     "surface_water_discharge_percentage_reduction": 50,
-    "rain_water_harvesting": false
+    "rain_water_harvesting": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "title_number": null,
   "decision_date": "08/04/2024",
@@ -189,9 +217,9 @@
   },
   "decision": "Approved",
   "decision_agency": "Borough",
-  "last_updated": "2025-03-19T21:05:19.137+00:00",
+  "last_updated": "2025-08-15T17:13:41.102Z",
   "ward": "WOOD END 2022",
-  "cil_liability": true,
+  "cil_liability": false,
   "actual_completion_date": null,
   "application_type_full": "Full planning permission",
   "site_number": null,
@@ -244,7 +272,7 @@
     "type": "GeometryCollection"
   },
   "decision_process": "Committee",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "31/03/2025",
   "lpa_name": "Hillingdon",
   "subdivision_of_building": null,
   "development_type": null,
@@ -336,8 +364,8 @@
   "date_building_work_completed_under_previous_permission": null,
   "appeal_decision": null,
   "centroid_easting": 508915,
-  "bo_system": "CSV Data Import",
-  "last_updated_by": "CSV Data Import",
+  "bo_system": "Portal",
+  "last_updated_by": "Portal",
   "last_date_consultation_comments": "27/02/2024",
   "borough": "Hillingdon",
   "secondary_street_name": "HAYES",
@@ -348,9 +376,9 @@
   "street_name": "15 ASH GROVE",
   "valid_date": "15/08/2023",
   "lpa_app_no": "77939/APP/2023/2448",
-  "status": "Approved",
+  "status": "Commenced",
   "decision_target_date": "12/04/2024",
   "id": "Hillingdon-77939_APP_2023_2448",
   "epc_number": null,
-  "postcode": null
+  "postcode": ""
 }

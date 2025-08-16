@@ -12,9 +12,9 @@
   "street_name": "ICKENHAM",
   "locality": null,
   "ward": "ICK/HAM & S HF/D 22",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "24/06/2024",
   "lpa_name": "Hillingdon",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "decision_conditions": [
     "The development hereby permitted shall be begun before the expiration of three years from the date of this permission.",
     "REASON",
@@ -103,24 +103,50 @@
   ],
   "date_building_work_started_under_previous_permission": null,
   "centroid_easting": 507557,
-  "status": "Approved",
+  "status": "Commenced",
   "decision_date": "10/06/2024",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.449676,
+          51.563912
+        ],
+        [
+          -0.449677,
+          51.563886
+        ],
+        [
+          -0.44972,
+          51.563886
+        ],
+        [
+          -0.449719,
+          51.563913
+        ],
+        [
+          -0.449676,
+          51.563912
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "decision_target_date": "10/06/2024",
   "subdivision_of_building": null,
   "last_date_consultation_comments": "14/03/2024",
   "development_type": null,
   "title_number": null,
   "appeal_status": null,
-  "last_updated": "2025-03-19T21:04:04.351+00:00",
-  "last_updated_by": "CSV Data Import",
+  "last_updated": "2025-08-15T09:57:29.206Z",
+  "last_updated_by": "Portal",
   "site_name": "21 THE AVENUE",
   "id": "Hillingdon-24240_APP_2024_408",
   "decision": "Approved",
-  "cil_liability": true,
+  "cil_liability": false,
   "centroid_northing": 186141,
   "appeal_start_date": null,
-  "postcode": null,
+  "postcode": "",
   "url_planning_app": "http://planning.hillingdon.gov.uk/OcellaWeb/planningDetails?reference=24240/APP/2024/408",
   "date_building_work_completed_under_previous_permission": null,
   "secondary_street_name": null,
@@ -128,17 +154,20 @@
   "reference_no_of_permission_being_relied_on": null,
   "description": "Erection of a new two storey dwelling following the demolition of the existing dwelling.",
   "valid_date": "16/02/2024",
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "pp_id": "12812799",
   "application_details": {
     "total_gia_gained": 345,
     "green_suds": false,
     "non_residential_details": {
-      "total_gia_existing": 145,
+      "total_gia_existing": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_gained": 345,
+      "total_gia_gained": 0,
       "total_gia_lost": 0,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "site_area": 0
     },
     "affordable_housing_fast_track": false,
     "garden_land_lost": false,
@@ -164,7 +193,8 @@
         "gia_existing": 145,
         "use_class": "C3",
         "gia_gained": 345,
-        "gia_lost": 0
+        "actual_commencement_date": "24/06/2024",
+        "gia_lost": 145
       }
     ],
     "surface_water_discharge_percentage_reduction": 0,
@@ -177,9 +207,9 @@
     ],
     "total_gia_lost": 0,
     "projected_cost_of_works": "Up to £2m",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "infrastructure_details": {
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "ghg_reduction_over_building_regulations": false,
       "no_homes_to_have_electrical_heating": 0,
@@ -202,23 +232,34 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 7,
-          "unit_no": "Loss-1",
+          "actual_completion_date": "24/06/2024",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 4,
           "unit_type": "House or Bungalow",
+          "unit_development_type": "New Build",
+          "no_habitable_rooms": 7,
+          "phase_detail": null,
+          "unit_no": "Loss-1",
+          "actual_commencement_date": "24/06/2024",
+          "no_bedrooms": 4,
           "provision_for_older_persons": false,
           "gia": 145,
           "tenure": "Self-Build and Custom Build"
         },
         {
+          "description": null,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "unit_type": "House or Bungalow",
+          "unit_development_type": "New Build",
           "no_habitable_rooms": 9,
           "provider": "Private",
+          "phase_detail": null,
           "unit_no": "Gain-1",
-          "change_type": "Gain",
+          "actual_commencement_date": "24/06/2024",
           "no_bedrooms": 5,
-          "unit_type": "House or Bungalow",
+          "provision_for_older_persons": false,
           "gia": 345,
           "tenure": "Self-Build and Custom Build"
         }
@@ -246,19 +287,32 @@
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_gia_gained": 345,
       "total_no_proposed_residential_units_self_build_and_custom_build": 1,
-      "dwelling_density": 0,
+      "dwelling_density": 9.68054211035818,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_affordable_units": 1,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 87.12487899322362,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_residential_units_market_for_sale": 0
+      "total_no_proposed_residential_units_market_for_sale": 0,
+      "site_area": 0.1033
     },
     "internal_resi_water_usage": 0,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "centroid": {
     "lon": -0.449698,

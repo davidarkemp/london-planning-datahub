@@ -14,11 +14,11 @@
   "status": "Approved",
   "pp_id": "13365098",
   "street_name": "HAYES",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "lpa_name": "Hillingdon",
   "centroid": {
-    "lon": "-0.41837939999999996",
-    "lat": "51.5066431"
+    "lon": -0.418399,
+    "lat": 51.506642
   },
   "lpa_app_no": "17297/APP/2024/2468",
   "borough": "Hillingdon",
@@ -38,15 +38,21 @@
     "total_gia_existing": 145.7,
     "existing_proposed_floorspace_details": [
       {
-        "gia_existing": 145.7,
-        "use_class": "E(a)",
+        "gia_existing": 90,
+        "use_class": "C3",
         "gia_gained": 0,
-        "gia_lost": 70
+        "gia_lost": 90
+      },
+      {
+        "gia_existing": 0,
+        "use_class": "C4",
+        "gia_gained": 90,
+        "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "grey_water_reuse": false,
     "green_suds": false,
     "surface_water_discharge_percentage_reduction": 0,
@@ -67,7 +73,7 @@
       "no_homes_passive_cooling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
@@ -85,13 +91,13 @@
       "total_no_proposed_bedrooms": 3,
       "total_no_proposed_residential_units": 1,
       "total_no_proposed_residential_units_london_living_rent": 0,
-      "total_no_existing_residential_units": 0,
+      "total_no_existing_residential_units": 1,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_living_rent": 0,
-      "total_no_existing_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_units_market_for_sale": 1,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_market_for_rent": 1,
@@ -124,20 +130,41 @@
           "description": "",
           "change_type": "Gain",
           "unit_type": "HMO",
-          "unit_development_type": "",
+          "unit_development_type": "Change of Use",
           "provider": "Private",
           "phase_detail": "",
           "unit_no": "",
           "no_bedrooms": 3,
           "superseded_by_lpa_app_no": "",
           "provision_for_older_persons": false,
-          "gia": 70,
+          "gia": 90,
           "tenure": "Market for rent"
+        },
+        {
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Loss",
+          "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "gia": 90,
+          "tenure": "Market for sale",
+          "unit_development_type": "Change of Use"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0
-    }
+    },
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "application_type_full": "Full planning permission",
   "cil_liability": false,
@@ -145,68 +172,68 @@
     "coordinates": [
       [
         [
-          -0.41866539999999997,
-          51.506698
+          -0.418685,
+          51.506697
         ],
         [
-          -0.4186358,
-          51.5067298
+          -0.418656,
+          51.506729
         ],
         [
-          -0.4184525,
-          51.5066833
+          -0.418472,
+          51.506682
         ],
         [
-          -0.4184343,
-          51.5067116
+          -0.418454,
+          51.506711
         ],
         [
-          -0.4184098,
-          51.5067053
+          -0.41843,
+          51.506704
         ],
         [
-          -0.418394,
-          51.5067194
+          -0.418414,
+          51.506718
         ],
         [
-          -0.41820989999999997,
-          51.5066967
+          -0.41823,
+          51.506696
         ],
         [
-          -0.4182364,
-          51.5066459
+          -0.418256,
+          51.506645
         ],
         [
-          -0.4181798,
-          51.506630799999996
+          -0.4182,
+          51.50663
         ],
         [
-          -0.4182435,
-          51.506552
+          -0.418263,
+          51.506551
         ],
         [
-          -0.4185141,
-          51.5066103
+          -0.418534,
+          51.506609
         ],
         [
-          -0.4184964,
-          51.5066256
+          -0.418516,
+          51.506625
         ],
         [
-          -0.4185191,
-          51.5066306
+          -0.418539,
+          51.50663
         ],
         [
-          -0.418497,
-          51.5066636
+          -0.418517,
+          51.506663
         ],
         [
-          -0.41865979999999997,
-          51.5066968
+          -0.41868,
+          51.506696
         ],
         [
-          -0.41866539999999997,
-          51.506698
+          -0.418685,
+          51.506697
         ]
       ]
     ],
@@ -216,7 +243,7 @@
   "actual_commencement_date": null,
   "date_building_work_completed_under_previous_permission": null,
   "url_planning_app": "http://planning.hillingdon.gov.uk/OcellaWeb/planningDetails?reference=17297/APP/2024/2468",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "appeal_start_date": null,
   "secondary_street_name": null,
   "subdivision_of_building": "First Floor and part ground floor (see PDF's)",
@@ -358,7 +385,7 @@
   "uprn": null,
   "reference_no_of_permission_being_relied_on": null,
   "decision_process": "Delegated",
-  "last_updated": "2025-03-19T17:18:52.316+00:00",
+  "last_updated": "2025-08-15T10:01:28.224Z",
   "decision_agency": "Borough",
   "parking_details": null,
   "lapsed_date": "22/11/2027",

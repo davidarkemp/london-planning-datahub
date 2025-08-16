@@ -2,9 +2,11 @@
   "valid_date": "13/12/2024",
   "epc_number": "8304-3822-2029-0397-7743",
   "site_name": "67 BISHOPS ROAD",
-  "cil_liability": true,
-  "polygon": null,
-  "actual_commencement_date": null,
+  "cil_liability": false,
+  "polygon": {
+    "type": "geometrycollection"
+  },
+  "actual_commencement_date": "02/06/2025",
   "site_number": null,
   "decision": "Approved",
   "parking_details": {
@@ -26,12 +28,12 @@
   "appeal_status": null,
   "description": "Demolition of garage, partial demolition of existing rear extension and erection of a detached two storey 1-bed dwellinghouse with associated amenity space, vehicular parking and new crossover, bicycle and bin stores.",
   "appeal_decision": null,
-  "postcode": null,
+  "postcode": "",
   "date_building_work_completed_under_previous_permission": null,
   "decision_target_date": "21/03/2025",
   "street_name": "HAYES",
   "decision_process": "Delegated",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "centroid_northing": 181208,
   "application_type": "All Other",
   "title_number": null,
@@ -108,23 +110,49 @@
   ],
   "appeal_start_date": null,
   "development_type": null,
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.438648,
+          51.519408
+        ],
+        [
+          -0.438649,
+          51.519381
+        ],
+        [
+          -0.438692,
+          51.519382
+        ],
+        [
+          -0.438691,
+          51.519409
+        ],
+        [
+          -0.438648,
+          51.519408
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "lpa_app_no": "51120/APP/2024/3016",
   "decision_agency": "Borough",
   "decision_date": "10/03/2025",
   "pp_id": "13549734",
   "url_planning_app": "http://planning.hillingdon.gov.uk/OcellaWeb/planningDetails?reference=51120/APP/2024/3016",
   "lpa_name": "Hillingdon",
-  "bo_system": "CSV Data Import",
-  "subdivision_of_building": "The proposed new dwelling is to be erected on land adjacent to 67 Bishops Road, after demolition of the existing garage.\nThe existing dwelling house no.67 will have the front entrance porch reduced in depth to provide the space for car parking. The existing rear extension will be partially demolished to provide required outdoor amenity space.",
+  "bo_system": "Portal",
+  "subdivision_of_building": "The proposed new dwelling is to be erected on land adjacent to 67 Bishops Road, after demolition of the existing garage.The existing dwelling house no.67 will have the front entrance porch reduced in depth to provide the space for car parking. The existing rear extension will be partially demolished to provide required outdoor amenity space.",
   "secondary_street_name": null,
   "date_building_work_started_under_previous_permission": null,
   "centroid": {
     "lat": 51.519395,
     "lon": -0.43867
   },
-  "status": "Approved",
-  "last_updated": "2025-06-08T21:59:14.783Z",
+  "status": "Commenced",
+  "last_updated": "2025-08-15T11:52:28.327Z",
   "actual_completion_date": null,
   "lapsed_date": "10/03/2028",
   "borough": "Hillingdon",
@@ -138,10 +166,10 @@
     "projected_cost_of_works": "Up to £2m",
     "residential_details": {
       "total_no_proposed_residential_units_intermediate": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 37.3134328358209,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_market_for_rent": 0,
-      "affordable_percentage": 50,
+      "affordable_percentage": 100,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
@@ -168,38 +196,39 @@
       "total_no_proposed_residential_units_starter_homes": 0,
       "residential_units": [
         {
-          "unit_no": "Gain-1",
-          "change_type": "Gain",
-          "unit_type": "Communal Space",
-          "gia": 1
-        },
-        {
-          "provider": "Self-Build",
-          "no_habitable_rooms": 2,
-          "unit_no": "Gain-2",
+          "description": null,
+          "m42_compliant": true,
           "change_type": "Gain",
           "unit_type": "House or Bungalow",
+          "unit_development_type": "New Build",
+          "no_habitable_rooms": 2,
+          "provider": "Self-Build",
+          "phase_detail": null,
+          "unit_no": "Gain-2",
+          "actual_commencement_date": "02/06/2025",
           "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "gia": 65,
           "tenure": "Self-Build and Custom Build"
         }
       ],
       "total_no_proposed_bedrooms": 1,
       "total_no_existing_residential_units_market_for_sale": 0,
-      "total_no_proposed_residential_units": 2,
-      "habitable_rooms_density": null,
+      "total_no_proposed_residential_units": 1,
+      "habitable_rooms_density": 74.6268656716418,
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
-      "total_no_proposed_residential_units_self_build_and_custom_build": 1
+      "total_no_proposed_residential_units_self_build_and_custom_build": 1,
+      "site_area": 0.0268
     },
     "total_gia_lost": 15,
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "03/2025",
-        "intended_completion_date": "09/2025"
+        "intended_completion_date": "09/2025",
+        "intended_commencement_date": "03/2025"
       }
     ],
     "building_details": [
@@ -212,18 +241,20 @@
     "total_gia_gained": 65,
     "green_suds": false,
     "non_residential_details": {
-      "total_gia_gained": 65,
+      "total_gia_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_existing": 95,
-      "total_gia_lost": 15,
-      "total_non_resi_gross_internal_floor_area_to_be_gained": 0
+      "total_gia_existing": 0,
+      "total_gia_lost": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "site_area": 0
     },
     "existing_uprns": null,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 95,
-        "gia_gained": 65,
         "use_class": "C3",
+        "gia_gained": 65,
+        "actual_commencement_date": "02/06/2025",
         "gia_lost": 15
       }
     ],
@@ -235,11 +266,11 @@
       "no_active_fast_ev_charging_points": 1,
       "no_non_resi_units_to_have_full_fibre": 0,
       "no_homes_to_have_electrical_heating": 0,
-      "fire_suppression_system_proposed": true,
+      "fire_suppression_system_proposed": false,
       "no_resi_units_to_have_full_fibre": 1,
       "no_passive_fast_ev_charging_points": 0,
       "green_roof_area": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "ghg_reduction_over_building_regulations": false,
       "mobile_network_operators_consultation": false,
       "no_new_gas_connections_required": 1,
@@ -250,8 +281,20 @@
     "rain_water_harvesting": false,
     "surface_water_discharge_percentage_reduction": 1,
     "ownership_status": "Private",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "total_gia_existing": 95,
-    "garden_land_lost": true
+    "garden_land_lost": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   }
 }

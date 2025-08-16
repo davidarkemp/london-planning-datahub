@@ -13,7 +13,7 @@
     "total_gia_lost": 130,
     "projected_cost_of_works": "Up to £2m",
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "green_suds": false,
     "existing_proposed_floorspace_details": [
       {
@@ -21,6 +21,12 @@
         "use_class": "C3",
         "gia_gained": 0,
         "gia_lost": 130
+      },
+      {
+        "gia_existing": 0,
+        "use_class": "C4",
+        "gia_gained": 130,
+        "gia_lost": 0
       }
     ],
     "total_gia_existing": 130,
@@ -33,7 +39,7 @@
       "total_annual_nox_emissions": 0,
       "total_annual_pm_emissions": 0,
       "green_roof_area": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_new_gas_connections_required": 0,
       "no_homes_to_have_electrical_heating": 0,
       "no_active_slow_ev_charging_points": 2,
@@ -110,14 +116,14 @@
           "description": "",
           "change_type": "Loss",
           "unit_type": "House or Bungalow",
-          "unit_development_type": "",
+          "unit_development_type": "Change of Use",
           "provider": "",
           "phase_detail": "",
           "unit_no": "",
           "no_bedrooms": 4,
           "superseded_by_lpa_app_no": "",
           "provision_for_older_persons": false,
-          "gia": null,
+          "gia": 130,
           "tenure": "Market for sale"
         },
         {
@@ -125,20 +131,29 @@
           "description": "",
           "change_type": "Gain",
           "unit_type": "HMO",
-          "unit_development_type": "",
+          "unit_development_type": "Change of Use",
           "provider": "",
           "phase_detail": "",
           "unit_no": "",
           "no_bedrooms": 5,
           "superseded_by_lpa_app_no": "",
           "provision_for_older_persons": false,
-          "gia": null,
+          "gia": 130,
           "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0
-    }
+    },
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "title_number": null,
   "wgs84_polygon": {
@@ -263,7 +278,7 @@
   "appeal_start_date": null,
   "status": "Approved",
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated": "2025-03-20T11:46:11.425+00:00",
+  "last_updated": "2025-08-15T11:32:35.832Z",
   "site_name": "93 HARLINGTON ROAD",
   "development_type": null,
   "appeal_decision_date": null,

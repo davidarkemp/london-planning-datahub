@@ -21,9 +21,9 @@
   "ward": "Clementswood",
   "actual_commencement_date": "26/09/2024",
   "lpa_name": "Redbridge",
-  "bo_system": "Agile APAS",
+  "bo_system": "Portal",
   "decision_conditions": [
-    "The development hereby permitted shall be begun no later than the  expiration of three years from the date of this permission.\r\n\r\nReason: In order to comply with the requirements of Section 91 of the Town and Country Planning Act 1990."
+    "The development hereby permitted shall be begun no later than the  expiration of three years from the date of this permission.\n\nReason: In order to comply with the requirements of Section 91 of the Town and Country Planning Act 1990."
   ],
   "date_building_work_started_under_previous_permission": null,
   "centroid_easting": 544468,
@@ -62,15 +62,15 @@
   "development_type": null,
   "title_number": null,
   "appeal_status": null,
-  "last_updated": "2025-03-19T21:46:08.273+00:00",
-  "last_updated_by": "Agile APAS",
+  "last_updated": "2025-08-15T10:24:00.768Z",
+  "last_updated_by": "Portal",
   "site_name": "Development At 52",
   "id": "Redbridge-0568_24",
   "decision": "Approved",
-  "cil_liability": null,
+  "cil_liability": false,
   "centroid_northing": 186505,
   "appeal_start_date": null,
-  "postcode": null,
+  "postcode": "",
   "url_planning_app": null,
   "date_building_work_completed_under_previous_permission": null,
   "secondary_street_name": null,
@@ -78,7 +78,9 @@
   "reference_no_of_permission_being_relied_on": null,
   "description": "New skylights above existing single storey rear extension. Single storey rear extension. Subdivision of ground floor flat into 2no. self-contained flats (1 x 1 and 1 x 2 bedrooms) with associated cycle storage, waste / refuse storage and amenity space. (Summary).",
   "valid_date": "29/02/2024",
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "pp_id": "PP-12842212         ",
   "application_details": {
     "total_gia_gained": 9,
@@ -88,10 +90,11 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 9,
       "total_gia_lost": 0,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "site_area": 0.028
     },
     "affordable_housing_fast_track": false,
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "site_area": 0.028,
     "total_gia_existing": 157.5,
     "rain_water_harvesting": false,
@@ -114,11 +117,13 @@
       "residential_units": [
         {
           "no_habitable_rooms": 6,
+          "phase_detail": null,
           "unit_no": "Loss-1",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
           "provision_for_older_persons": false,
           "gia": 87.5,
           "tenure": "Market for rent"
@@ -126,20 +131,26 @@
         {
           "no_habitable_rooms": 4,
           "provider": "Private rented sector",
+          "phase_detail": null,
           "unit_no": "Gain-1",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "gia": 61,
           "tenure": "Market for rent"
         },
         {
           "no_habitable_rooms": 3,
           "provider": "Private rented sector",
+          "phase_detail": null,
           "unit_no": "Gain-2",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "gia": 38,
           "tenure": "Market for rent"
         }
@@ -167,16 +178,17 @@
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_gia_gained": 99,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 71.42857142857143,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 250,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_residential_units_market_for_sale": 0
+      "total_no_proposed_residential_units_market_for_sale": 0,
+      "site_area": 0.028
     },
     "surface_water_discharge_percentage_reduction": 0,
     "lead_developer_company_name": "Building Control",
@@ -189,9 +201,9 @@
     ],
     "total_gia_lost": 0,
     "projected_cost_of_works": "Up to £2m",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "infrastructure_details": {
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "ghg_reduction_over_building_regulations": false,
       "no_homes_to_have_electrical_heating": 3,
@@ -207,7 +219,19 @@
       "fire_suppression_system_proposed": false,
       "total_annual_pm_emissions": 0
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.028
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "centroid": {
     "lon": 0.082626,
