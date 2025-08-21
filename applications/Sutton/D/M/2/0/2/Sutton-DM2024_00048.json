@@ -2,16 +2,20 @@
   "subdivision_of_building": null,
   "title_number": [],
   "valid_date": "18/03/2024",
-  "development_type": null,
-  "ward": "W05",
+  "development_type": "Minor dwellings",
+  "ward": "Cheam",
   "lapsed_date": "13/05/2027",
   "decision_date": "13/05/2024",
   "lpa_app_no": "DM2024/00048",
-  "status": "Appeal in Progress",
-  "parking_details": null,
+  "status": "Refused",
+  "parking_details": {
+    "no_existing_car": 4,
+    "net_car": 1,
+    "no_proposed_car": 5
+  },
   "centroid": {
-    "lat": "51.3707832",
-    "lon": "-0.21012789999999998"
+    "lat": 51.37082,
+    "lon": -0.210137
   },
   "application_type": "All Other",
   "borough": "London Borough of Sutton",
@@ -19,17 +23,17 @@
   "last_updated_by": "Idox Uniform",
   "last_date_consultation_comments": "15/04/2024",
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated": "2025-03-19T19:56:27.811+00:00",
+  "last_updated": "2025-08-20T20:00:46.352Z",
   "locality": null,
   "date_building_work_completed_under_previous_permission": null,
   "description": "Demolition of existing buildings and erection of a part 1, part 3 storey building, comprising Use Class E (retail) commercial space at ground floor and 3 self-contained residential units above, together with amenity space, provision of refuse storage and car parking to the front.",
   "application_type_full": "Full planning permission",
   "epc_number": null,
-  "appeal_decision": null,
+  "appeal_decision": "Allowed",
   "date_building_work_started_under_previous_permission": null,
   "secondary_street_name": null,
   "url_planning_app": null,
-  "site_number": null,
+  "site_number": "26A",
   "actual_completion_date": null,
   "bo_system": "Idox Uniform",
   "application_details": {
@@ -47,7 +51,16 @@
       "no_non_resi_units_to_have_full_fibre": 1,
       "waste_provision": true,
       "percentage_demolition_construction_material_recycling": 0,
-      "total_annual_nox_emissions": 0
+      "total_annual_nox_emissions": 0,
+      "no_active_slow_ev_charging_points": 0,
+      "no_passive_rapid_ev_charging_points": 0,
+      "urban_greening_factor_score": 0,
+      "no_active_rapid_ev_charging_points": 0,
+      "no_passive_slow_ev_charging_points": 0,
+      "no_passive_fast_ev_charging_points": 0,
+      "no_active_fast_ev_charging_points": 0,
+      "no_active_other_ev_charging_points": 0,
+      "no_passive_other_ev_charging_points": 0
     },
     "existing_proposed_floorspace_details": [
       {
@@ -58,24 +71,24 @@
       },
       {
         "gia_existing": 119,
-        "use_class": "E(a)",
+        "use_class": "Other",
         "gia_gained": 351,
         "gia_lost": 119
       }
     ],
     "affordable_housing_fast_track": false,
-    "total_gia_lost": 233,
+    "total_gia_lost": 114,
     "total_gia_gained": 644,
     "projected_cost_of_works": "Up to £2m",
-    "total_gia_existing": 233,
+    "total_gia_existing": 114,
     "building_details": [
       {
-        "no_storeys": 2,
+        "no_storeys": null,
         "max_height": 8.16,
         "building_ref": "Existing"
       },
       {
-        "no_storeys": 3,
+        "no_storeys": null,
         "max_height": 9.4,
         "building_ref": "Proposed"
       }
@@ -84,7 +97,7 @@
     "scheme_phasing": true,
     "grey_water_reuse": false,
     "internal_resi_water_usage": 1248,
-    "site_area": 0.07,
+    "site_area": 780,
     "garden_land_lost": true,
     "phasing_details": [
       {
@@ -100,9 +113,9 @@
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_affordable_units": 0,
-      "total_gia_gained": 606,
+      "total_gia_gained": 293,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "total_gia_lost": 143,
+      "total_gia_lost": 114,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_starter_homes": 0,
@@ -112,72 +125,117 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 2,
-          "unit_no": "Loss-1",
-          "change_type": "Loss",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Communal Space",
+          "provision_for_older_persons": false,
+          "gia": 351
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 3,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "gia": 78,
+          "tenure": "Market for rent"
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 3,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "gia": 78,
+          "tenure": "Market for rent"
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 4,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "gia": 99,
+          "tenure": "Market for rent"
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": false,
+          "change_type": "Loss",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
           "gia": 67,
           "tenure": "Market for rent"
         },
         {
-          "no_habitable_rooms": 2,
-          "unit_no": "Loss-2",
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
           "gia": 38,
           "tenure": "Market for rent"
         },
         {
-          "no_habitable_rooms": 2,
-          "unit_no": "Loss-3",
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
           "gia": 38,
-          "tenure": "Market for rent"
-        },
-        {
-          "unit_no": "Gain-1",
-          "change_type": "Gain",
-          "unit_type": "Communal Space",
-          "gia": 351
-        },
-        {
-          "no_habitable_rooms": 3,
-          "provider": "Private",
-          "unit_no": "Gain-2",
-          "change_type": "Gain",
-          "no_bedrooms": 2,
-          "unit_type": "Flat Apartment Maisonette",
-          "gia": 78,
-          "tenure": "Market for rent"
-        },
-        {
-          "no_habitable_rooms": 3,
-          "provider": "Private",
-          "unit_no": "Gain-3",
-          "change_type": "Gain",
-          "no_bedrooms": 2,
-          "unit_type": "Flat Apartment Maisonette",
-          "gia": 78,
-          "tenure": "Market for rent"
-        },
-        {
-          "no_habitable_rooms": 4,
-          "provider": "Private",
-          "unit_no": "Gain-4",
-          "change_type": "Gain",
-          "no_bedrooms": 3,
-          "unit_type": "Flat Apartment Maisonette",
-          "gia": 99,
           "tenure": "Market for rent"
         }
       ],
@@ -207,94 +265,276 @@
     "surface_water_discharge_percentage_reduction": 50,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_lost": 233,
-      "total_gia_gained": 644,
+      "total_gia_lost": 119,
+      "total_gia_gained": 351,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_existing": 233
+      "total_gia_existing": 119,
+      "site_area": 0.08
     },
     "lead_developer_company_name": "Trevi Home Ltd",
     "ownership_status": "Private",
-    "green_suds": true
+    "green_suds": true,
+    "s106_agreement": false,
+    "existing_uprns": [
+      "005870022792",
+      "005870022793"
+    ],
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.08
+    },
+    "open_and_protected_space_details": {
+      "open_space_local_and_other_area_gain": 0,
+      "protected_space_count": 0,
+      "open_spaces_details": [
+        {
+          "land_swap": false
+        }
+      ],
+      "open_space_mol_area_loss": 0,
+      "open_space_green_belt_area_gain": 0,
+      "open_space_local_and_other_area_loss": 0,
+      "open_space_mol_area_gain": 0,
+      "open_space_green_belt_area_loss": 0
+    },
+    "constraints_details": [
+      {
+        "result": null,
+        "constraints_layer_description": "HIGIMP Land Charges Red Route Buffer"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: DM2024/00048--- Address: 26A - 28 St Dunstans Hill\rCheam\rSM1 2UE\r--- Proposal: Demolition of existing buildings and erection of a part 1, part 3 storey building, comprising Use Class E (retail) commercial space at ground floor and 3 self-contained residential units above, together with amenity space, provision of refuse storage and car parking to the front of the property.--- Status: INV--- Decision: --- Date Decision Issued: ---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: DM2023/00109--- Address: 26A - 28 St Dunstans Hill\rCheam\rSM1 2UE\r--- Proposal: Demolition of existing buildings and erection of a part 1, part 3 storey building, comprising commercial space (Retail) at ground floor and 3 self-contained residential units above, together with amenity space and car parking.--- Status: APPRET--- Decision: --- Date Decision Issued: ---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: 83/25040--- Address: 28 St Dunstans Hill\rCheam\rLondon Borough Of Sutton\rSM1 2UE--- Proposal: Retention of premises as two self-contained flats--- Status: GTD--- Decision: GTD--- Date Decision Issued: 07-MAR-83---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: DM2021/00362--- Address: 26A-28 St Dunstans Hill\rCheam\rSM1 2UE\r--- Proposal: Demolition of existing buildings and erection of a part 1, part 2 storey building with accommodation at roof level, comprising commercial space (Retail) at ground floor and 5 self-contained residential units at ground floor and above, together with amenity space and car parking.--- Status: WDN--- Decision: WDN--- Date Decision Issued: 16-JAN-23---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: DM2019/00217--- Address: 28A St Dunstans Hill\rCheam\rSM1 2UE--- Proposal: Retention of an existing single storey rear extension and the erection of a single storey detached outbuilding.--- Status: GTD--- Decision: GTD--- Date Decision Issued: 23-APR-19---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: 82/24953--- Address: 28 A St Dunstans Hill\rCheam\rLondon Borough Of Sutton\rSM1 2UE--- Proposal: Erection of a single storey rear extension--- Status: GTD--- Decision: GTD--- Date Decision Issued: 08-FEB-83---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: DM2019/00404--- Address: Kingswood House \r26A St Dunstans Hill\rCheam\rSM1 2UE--- Proposal: Demolition of a single storey storage buildings and erection of a two storey warehouse building.--- Status: REF--- Decision: REF--- Date Decision Issued: 10-MAY-19---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: N1994/38936--- Address: 26A St. Dunstan's Hill, Cheam,--- Proposal: Erection of a detached single storey building at rear          \rfor storage purposes.                                          --- Status: GTD--- Decision: GTD--- Date Decision Issued: 20-SEP-94---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: 66/1293--- Address: 26 A St Dunstans Hill\rCheam\rLondon Borough Of Sutton\rSM1 2UE--- Proposal: Display of illuminated advertisement--- Status: GTD--- Decision: GTD--- Date Decision Issued: 23-MAY-66---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: 66/1097--- Address: 26 A St Dunstans Hill\rCheam\rLondon Borough Of Sutton\rSM1 2UE--- Proposal: Illuminated fascia box sign--- Status: REF--- Decision: REF--- Date Decision Issued: 16-MAR-66---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: SUT/27255--- Address: 26 A St Dunstans Hill\rCheam\rLondon Borough Of Sutton\rSM1 2UE--- Proposal: Installation of 1250 gallon underground storage tank and pump--- Status: GTD--- Decision: GTD--- Date Decision Issued: 30-OCT-62---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: A2014/69391--- Address: Unitedlife\r26 St Dunstans Hill\rCheam\rSM1 2UE--- Proposal: Demolition of existing building and erection of a two storey building with roof accommodation for use as a showroom with ancillary facilities together with eight car parking spaces.--- Status:  --- Decision:  --- Date Decision Issued: 26-AUG-14---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: A2015/71108--- Address: Unitedlife\r26 St Dunstans Hill\rCheam\rSM1 2UE--- Proposal: Demolition of existing building and erection of a two storey building for use as a showroom with ancillary facilities together with six car parking spaces.--- Status: GTD--- Decision: GTD--- Date Decision Issued: 27-MAY-15---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: SUT/26214--- Address: Elmbrook Chapel, St Dunstans Hill\rCheam\rLondon Borough Of Sutton\rSM1 2UE--- Proposal: Erection of porch--- Status: GTD--- Decision: GTD--- Date Decision Issued: 10-FEB-84---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: N1992/37278--- Address: Elmbrook Chapel, St. Dunstans Hill, Cheam.--- Proposal: Erection of a first-floor front extension incorporating        \rtwo dormer windows and formation of front entrance porch.      --- Status: GTD--- Decision: GTD--- Date Decision Issued: 23-DEC-92---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: N1992/36583--- Address: Elmbrook Chapel, 26 St. Dunstan's Hill, Cheam,--- Proposal: Part demolition and rebuilding of existing chapel, erection    \rof a single-storey rear extension, provision of pitched roof   \rat front and formation of new entrance porch.                  --- Status: REF--- Decision: REF--- Date Decision Issued: 08-APR-92---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: A2015/73076--- Address: Development Site At\r26 St Dunstans Hill\rCheam\rSM1 2UE--- Proposal: Demolition of existing building and erection of a two storey building with roof accommodation providing a second floor gallery and front terrace for use as a showroom with ancillary facilities together with six car parking spaces (amendment to approval A2015/71108/FUL)--- Status: GTD--- Decision: GTD--- Date Decision Issued: 05-JAN-16---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: SUT/23970--- Address: 299 Gander Green Lane\rCheam\rSM3 9QE--- Proposal: Erection of Lavatory block and extension to existing single-storey workshop. 120-47--- Status: GTD--- Decision: GTD--- Date Decision Issued: 25-NOV-59---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: SUT/16505--- Address: R/O 299 Gander Green Lane\rCheam\rSM3 9QE--- Proposal: Extension of existing factory use. 120-47--- Status: GTD--- Decision: GTD--- Date Decision Issued: 26-OCT-51---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: SUT/23057--- Address: 299 Gander Green Lane\rCheam\rSM3 9QE--- Proposal: Extension to Factory. 120-47--- Status: GTD--- Decision: GTD--- Date Decision Issued: 18-FEB-59---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: N1992/36853--- Address: 299 Gander Green Lane, Cheam,--- Proposal: Retention and continued use of a portable building to          \rprovide additional office accommodation.--- Status: GTD--- Decision: GTD--- Date Decision Issued: 30-JUN-92---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: SUT/19962--- Address: 299 Gander Green Lane\rCheam\rSM3 9QE--- Proposal: Erection ofa workshop. 120-47--- Status: GTD--- Decision: GTD--- Date Decision Issued: 26-OCT-55---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: 82/24990--- Address: 299 Gander Green Lane\rCheam\rSM3 9QE--- Proposal: Erection of a portacabin for office purposes at ground level 75-1-11--- Status: GTD--- Decision: GTD--- Date Decision Issued: 08-JUN-83---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: SUT/24305--- Address: 299 Gander Green Lane\rCheam\rSM3 9QE--- Proposal: Extension to first floor office and increase storey height of workshop. 120-47--- Status: GTD--- Decision: GTD--- Date Decision Issued: 28-MAR-60---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: 87/30043--- Address: 299 Gander Green Lane\rCheam\rSM3 9QE--- Proposal: Re-Location of a portacabin for Office purposes. 120-47--- Status: GTD--- Decision: GTD--- Date Decision Issued: 06-JUL-87---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: SUT/16313--- Address: R/O 299 Gander Green Lane\rCheam\rSM3 9QE--- Proposal: Extension to workshop for use in light engineering manufacture. 9-2-37--- Status: GTD--- Decision: GTD--- Date Decision Issued: 27-JUL-51---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: SUT/18632--- Address: R/O 299 Gander Green Lane\rCheam\rSM3 9QE--- Proposal: Erection of factory metal works. 120-47--- Status: GTD--- Decision: GTD--- Date Decision Issued: 16-AUG-54---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: N1989/33137--- Address: 299 Gander Green Lane, Cheam,--- Proposal: Erection of a portacabin to provide additional office          \raccommodation.--- Status: GTD--- Decision: GTD--- Date Decision Issued: 24-APR-89---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: N1995/39942--- Address: 299 Gander Green Lane, Cheam,--- Proposal: Erection of a part one part two-storey building comprising     \rstorage facilities on ground floor with office and canteen     \raccommodation over together with car parking.                  --- Status: GTD--- Decision: GTD--- Date Decision Issued: 08-NOV-95---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: 84/26876--- Address: 299 Gander Green Lane\rCheam\rSM3 9QE--- Proposal: Erection of a two storey extension to existing factory. 120-47--- Status: GTD--- Decision: GTD--- Date Decision Issued: 06-SEP-84---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: A2000/45645--- Address: 299 Gander Green Lane,\rCheam,--- Proposal: Erection of a single-storey extension for use as an ancillary office and reception area in connection with existing workshop.--- Status: GTD--- Decision: GTD--- Date Decision Issued: 06-APR-00---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: SUT/25674--- Address: 299 Gander Green Lane\rCheam\rSM3 9QE--- Proposal: Erection of Factory. 120-47--- Status: REF--- Decision: REF--- Date Decision Issued: 29-MAY-61---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: SUT/22962--- Address: 299 Gander Green Lane\rCheam\rSM3 9QE--- Proposal: Erection of workshop for light engineering. 120-47--- Status: GTD--- Decision: GTD--- Date Decision Issued: 21-JAN-59---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: 84/26704--- Address: 299 Gander Green Lane\rCheam\rSM3 9QE--- Proposal: Retention and continued use of a porta cabin for office purposes at ground level, 120-47--- Status: GTD--- Decision: GTD--- Date Decision Issued: 03-AUG-84---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: SUT/20097--- Address: 299 Gander Green Lane\rCheam\rSM3 9QE--- Proposal: Erection of 50 x 40 Factory building adjacent to existing building. 120-47--- Status: GTD--- Decision: GTD--- Date Decision Issued: 23-NOV-55---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: A2000/46904--- Address: 299 Gander Green Lane,\rCheam,--- Proposal: Rebuilding of existing extensions to vehicle workshops.--- Status: GTD--- Decision: GTD--- Date Decision Issued: 03-JAN-01---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: N1992/36615--- Address: 299 Gander Green Lane, Cheam,--- Proposal: Retention of a temporary building for office purposes.         --- Status: GTD--- Decision: GTD--- Date Decision Issued: 06-MAY-92---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: SUT/25884--- Address: 299 Gander Green Lane\rCheam\rSM3 9QE--- Proposal: Extension to light engineering and sheet metal work factory. 120-47--- Status: GTD--- Decision: GTD--- Date Decision Issued: 12-JUL-61---"
+      }
+    ]
   },
   "pp_id": "PP-12724828",
-  "postcode": null,
+  "postcode": "SM1 2UE",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.2099006,
-          51.3706242
+          -0.209925,
+          51.370625
         ],
         [
-          -0.2100366,
-          51.3705294
+          -0.209929,
+          51.370634
         ],
         [
-          -0.2101062,
-          51.3706185
+          -0.209911,
+          51.370645
         ],
         [
-          -0.2101828,
-          51.370711299999996
+          -0.209967,
+          51.370681
         ],
         [
-          -0.2102658,
-          51.3708191
+          -0.209998,
+          51.370718
         ],
         [
-          -0.210337,
-          51.3709065
+          -0.210102,
+          51.370853
         ],
         [
-          -0.210384,
-          51.3709635
+          -0.210239,
+          51.371027
         ],
         [
-          -0.2102142,
-          51.3710261
+          -0.210409,
+          51.370965
         ],
         [
-          -0.2100774,
-          51.3708523
+          -0.210362,
+          51.370908
         ],
         [
-          -0.209973,
-          51.3707169
+          -0.210291,
+          51.37082
         ],
         [
-          -0.2099421,
-          51.3706794
+          -0.210208,
+          51.370712
         ],
         [
-          -0.20988579999999998,
-          51.3706442
+          -0.210131,
+          51.37062
         ],
         [
-          -0.2099045,
-          51.3706331
+          -0.210061,
+          51.370531
         ],
         [
-          -0.2099006,
-          51.3706242
+          -0.209925,
+          51.370625
         ]
       ]
     ],
     "type": "Polygon"
   },
   "cil_liability": true,
-  "street_name": null,
+  "street_name": "St Dunstans Hill",
   "decision_conditions": [
-    "Design",
-    "Energy",
-    "Principle - Industrial Land",
-    "Highways"
+    "Insufficient evidence has been submitted to demonstrate the warehouse unit has been marketed for a period of 12 months at a reasonable market rent for its location and condition and would unacceptably result in a loss of industrial floor space contrary to the aims and objectives of Policy 14 of the Sutton Local Plan 2018.",
+    "The proposed development, by reason of uncharacteristic design, prominent siting and loss of an established gap between buildings, would not integrate well into the street scene and would result in an unacceptable impact on the character and appearance of the street scene contrary to Policy 28 of the Sutton Local Plan 2018.",
+    "In the absence of a swept path analysis and details regarding access and cycle provision, the proposed development has failed to demonstrate the development would provide satisfactory car and cycle parking provision which would not result in public highway safety issues for vehicles, cyclists and pedestrians contrary to Policies T5, T6, T6.1 and 6.3 of the London Plan 2021 and Policy 37 of the Sutton Local Plan 2018.",
+    "Insufficient details have been submitted to demonstrate the proposed development can satisfactorily meet the stated energy efficiency and sustainability requirements and would be contrary to Policies 31, 32 and 33 of the Sutton Local Plan 2018."
   ],
   "decision_agency": null,
   "actual_commencement_date": null,
-  "centroid_northing": 165045,
-  "site_name": "26A - 28 St Dunstans Hill\rCheam\rSM1 2UE\r",
+  "centroid_northing": 165049,
+  "site_name": "Kingswood House",
   "decision_target_date": "13/05/2024",
-  "appeal_status": null,
+  "appeal_status": "Allowed",
   "decision": "Refused",
   "lpa_name": "Sutton",
   "polygon": {
@@ -304,70 +544,70 @@
           [
             [
               524701.2485,
-              165027.70625
+              165027.706250001
             ],
             [
-              524692.044375,
-              165016.935375
+              524700.95475,
+              165028.685374999
             ],
             [
-              524686.952625,
-              165026.727125
+              524702.227625,
+              165029.958374999
             ],
             [
-              524681.371375,
-              165036.9105
-            ],
-            [
-              524675.3005,
-              165048.758375
-            ],
-            [
-              524670.111,
-              165058.35425
-            ],
-            [
-              524666.683875,
-              165064.620875
-            ],
-            [
-              524678.336,
-              165071.86675
-            ],
-            [
-              524688.3235,
-              165052.773
+              524698.213125,
+              165033.777124999
             ],
             [
               524695.961,
               165037.889625
             ],
             [
-              524698.213125,
-              165033.777125
+              524688.3235,
+              165052.773
             ],
             [
-              524702.227625,
-              165029.958375
+              524678.336,
+              165071.86675
             ],
             [
-              524700.95475,
-              165028.685375
+              524666.683875,
+              165064.620874999
+            ],
+            [
+              524670.111,
+              165058.354250001
+            ],
+            [
+              524675.3005,
+              165048.758375
+            ],
+            [
+              524681.371375,
+              165036.910499999
+            ],
+            [
+              524686.952625,
+              165026.727125
+            ],
+            [
+              524692.044375,
+              165016.935374999
             ],
             [
               524701.2485,
-              165027.70625
+              165027.706250001
             ]
           ]
         ],
         "type": "Polygon"
       }
     ],
-    "type": "GeometryCollection"
+    "type": "geometrycollection"
   },
   "appeal_start_date": "13/11/2024",
   "uprn": "005870022792",
-  "appeal_decision_date": null,
+  "appeal_decision_date": "20/08/2025",
   "id": "Sutton-DM2024_00048",
-  "centroid_easting": 524685
+  "centroid_easting": 524686
 }
