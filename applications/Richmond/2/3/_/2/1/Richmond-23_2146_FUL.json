@@ -23,7 +23,7 @@
   "borough": "Richmond upon Thames",
   "decision_agency": null,
   "reference_no_of_permission_being_relied_on": null,
-  "cil_liability": true,
+  "cil_liability": false,
   "site_name": "Little Orchard",
   "bo_system": "Portal",
   "centroid_easting": 518142,
@@ -65,11 +65,11 @@
   "application_details": {
     "grey_water_reuse": false,
     "affordable_housing_fast_track": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "site_area": 0.06800000000000002,
     "internal_resi_water_usage": 0,
-    "green_suds": true,
-    "garden_land_lost": true,
+    "green_suds": false,
+    "garden_land_lost": false,
     "total_gia_existing": 242,
     "ownership_status": "Private",
     "building_details": [
@@ -164,11 +164,13 @@
       "total_no_existing_residential_units_shared_equity": 0,
       "residential_units": [
         {
+          "actual_completion_date": "30/11/2024",
           "description": null,
           "change_type": "Loss",
-          "sheltered_accommodation": false,
           "garden_land": true,
+          "sheltered_accommodation": false,
           "unit_type": "House or Bungalow",
+          "unit_development_type": "New Build",
           "no_habitable_rooms": 7,
           "phase_detail": null,
           "unit_no": "Loss-1",
@@ -183,8 +185,9 @@
           "change_type": "Gain",
           "garden_land": true,
           "unit_type": "House or Bungalow",
-          "provider": "Private",
+          "unit_development_type": "New Build",
           "no_habitable_rooms": 7,
+          "provider": "Private",
           "phase_detail": null,
           "unit_no": "Gain-1",
           "actual_commencement_date": "30/11/2024",
@@ -203,15 +206,24 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 242,
-        "gia_gained": 305,
         "use_class": "C3",
+        "gia_gained": 305,
         "actual_commencement_date": "30/11/2024",
         "gia_lost": 242
       }
     ],
     "other_residential_accommodation_details": {
       "site_area": 0.06800000000000002
-    }
+    },
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "secondary_street_name": null,
   "polygon": {
@@ -293,7 +305,7 @@
     ],
     "type": "Polygon"
   },
-  "last_updated": "2025-06-13T08:31:19.874Z",
+  "last_updated": "2025-08-26T08:22:59.105Z",
   "date_building_work_started_under_previous_permission": null,
   "ward": "HMP",
   "appeal_start_date": null,

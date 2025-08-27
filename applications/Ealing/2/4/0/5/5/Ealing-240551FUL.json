@@ -18,7 +18,7 @@
   "ward": "Southall Broadway",
   "actual_commencement_date": null,
   "lpa_name": "Ealing",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "decision_conditions": [
     "The development to which this permission relates shall be begun not later than the expiration of three years from the date of this permission.",
     "Reason: To comply with Section 91 of the Town & Country Planning Act 1990. | The development hereby approved shall be carried out in accordance with drawing title number(s): Site Location and Block Plan 2022/051-09FL, Existing Floor Plan 2022/051-01FL, Existing Elevations 2022/051-02FL, Proposed Ground Floor Plan 2022/051-03FL, Proposed First Floor Plan 2022/051-04FL rev A, Proposed Second Floor Plan 2022/051-05FL, Proposed Elevations 2022/051-06FL, Proposed Section 2022/051-07FL, Proposed Bin Enclosure details 2022/051-08FL.",
@@ -42,21 +42,47 @@
   ],
   "date_building_work_started_under_previous_permission": null,
   "centroid_easting": 512659,
-  "status": "Approved",
+  "status": "Completed",
   "decision_date": "08/10/2024",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.377939,
+          51.511256
+        ],
+        [
+          -0.37794,
+          51.511229
+        ],
+        [
+          -0.377984,
+          51.511229
+        ],
+        [
+          -0.377983,
+          51.511256
+        ],
+        [
+          -0.377939,
+          51.511256
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "decision_target_date": "18/10/2024",
   "subdivision_of_building": null,
   "last_date_consultation_comments": null,
   "development_type": null,
   "title_number": null,
   "appeal_status": null,
-  "last_updated": "2025-03-19T20:39:32.067+00:00",
-  "last_updated_by": "CSV Data Import",
+  "last_updated": "2025-08-26T14:36:35.743Z",
+  "last_updated_by": "Portal",
   "site_name": "45 The Broadway",
   "id": "Ealing-240551FUL",
   "decision": "Approved",
-  "cil_liability": true,
+  "cil_liability": false,
   "centroid_northing": 180393,
   "appeal_start_date": null,
   "postcode": "UB1 1JY",
@@ -67,7 +93,9 @@
   "reference_no_of_permission_being_relied_on": null,
   "description": "Change of use of ancillary commercial storage space (Class E) at 1st Floor level and conversion of first floor flat (Class C3), into 3 self-contained flats (Class C3); first floor rear infill extension, and associated external alterations",
   "valid_date": "02/02/2024",
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "pp_id": "PP-12773413",
   "application_details": {
     "total_gia_gained": 0,
@@ -77,7 +105,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 0,
       "total_gia_lost": 1135.55,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "site_area": 0.012603
     },
     "affordable_housing_fast_track": false,
     "garden_land_lost": false,
@@ -90,14 +119,18 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 134.1,
+        "actual_completion_date": "25/10/2024",
         "use_class": "E(a)",
         "gia_gained": 0,
+        "actual_commencement_date": "08/10/2024",
         "gia_lost": 31.76
       },
       {
         "gia_existing": 110.79,
+        "actual_completion_date": "25/10/2024",
         "use_class": "C3",
         "gia_gained": 0,
+        "actual_commencement_date": "08/10/2024",
         "gia_lost": 1103.79
       }
     ],
@@ -111,7 +144,7 @@
     ],
     "total_gia_lost": 1135.55,
     "projected_cost_of_works": "Up to £2m",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "residential_details": {
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
@@ -120,43 +153,66 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 2,
-          "unit_no": "Loss-1",
+          "actual_completion_date": "25/10/2024",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 4,
           "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Part Conversion / Part Change of Use",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": "Loss-1",
+          "actual_commencement_date": "08/10/2024",
+          "no_bedrooms": 4,
           "provision_for_older_persons": false,
           "gia": 110.79,
           "tenure": "Market for rent"
         },
         {
+          "actual_completion_date": "25/10/2024",
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Part Conversion / Part Change of Use",
           "no_habitable_rooms": 1,
           "provider": "Private",
+          "phase_detail": null,
           "unit_no": "Gain-1",
-          "change_type": "Gain",
+          "actual_commencement_date": "08/10/2024",
           "no_bedrooms": 1,
-          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
           "gia": 54.79,
           "tenure": "Market for rent"
         },
         {
+          "actual_completion_date": "25/10/2024",
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Part Conversion / Part Change of Use",
           "no_habitable_rooms": 1,
           "provider": "Private",
+          "phase_detail": null,
           "unit_no": "Gain-2",
-          "change_type": "Gain",
+          "actual_commencement_date": "08/10/2024",
           "no_bedrooms": 1,
-          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
           "gia": 54.79,
           "tenure": "Market for rent"
         },
         {
+          "actual_completion_date": "25/10/2024",
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Studio Bedsit",
+          "unit_development_type": "Part Conversion / Part Change of Use",
           "no_habitable_rooms": 1,
           "provider": "Private",
+          "phase_detail": null,
           "unit_no": "Gain-3",
-          "change_type": "Gain",
+          "actual_commencement_date": "08/10/2024",
           "no_bedrooms": 1,
-          "unit_type": "Studio Bedsit",
+          "provision_for_older_persons": false,
           "gia": 37.18,
           "tenure": "Market for rent"
         }
@@ -184,19 +240,20 @@
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_gia_gained": 146.76,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 238.03856224708403,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 238.03856224708403,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_residential_units_market_for_sale": 0
+      "total_no_proposed_residential_units_market_for_sale": 0,
+      "site_area": 0.012603
     },
     "infrastructure_details": {
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "ghg_reduction_over_building_regulations": false,
       "no_homes_to_have_electrical_heating": 0,
@@ -211,7 +268,19 @@
       "fire_suppression_system_proposed": false,
       "total_annual_pm_emissions": 0
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.012603
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "centroid": {
     "lon": -0.377961,
@@ -219,5 +288,5 @@
   },
   "lapsed_date": "08/10/2027",
   "decision_process": "Delegated",
-  "actual_completion_date": null
+  "actual_completion_date": "25/10/2024"
 }

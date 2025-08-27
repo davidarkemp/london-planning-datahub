@@ -3,22 +3,24 @@
   "url_planning_app": "https://pam.ealing.gov.uk/online-applications/PLAN/234164FUL;",
   "reference_no_of_permission_being_relied_on": null,
   "decision_target_date": "18/01/2024",
-  "polygon": null,
-  "cil_liability": true,
+  "polygon": {
+    "type": "geometrycollection"
+  },
+  "cil_liability": false,
   "lapsed_date": "17/01/2027",
   "appeal_decision": null,
   "street_name": "Seaford Road",
   "decision_agency": "Borough",
-  "last_updated_by": "FME Excel Import",
+  "last_updated_by": "Portal",
   "description": "Conversion of existing single dwellinghouse into two self-contained residential units; single storey rear/side extension; rear roof extension to main rear roofslope and to rear outrigger roofslope, installation of rooflights to front roofslope and associated internal and external alterations [RECONSULATION]\n",
   "decision": "Approved",
-  "centroid_northing": "180286",
-  "bo_system": "CSV Data Import",
-  "last_updated": "2025-03-19T21:36:24.009+00:00",
+  "centroid_northing": 180286,
+  "bo_system": "Portal",
+  "last_updated": "2025-08-26T14:34:38.360Z",
   "appeal_status": null,
   "date_building_work_started_under_previous_permission": null,
   "ward": "Walpole",
-  "centroid_easting": "516516",
+  "centroid_easting": 516516,
   "site_name": null,
   "application_type": "All Other",
   "parking_details": {
@@ -53,7 +55,33 @@
   "subdivision_of_building": null,
   "appeal_start_date": null,
   "lpa_name": "Ealing",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.32242,
+          51.509512
+        ],
+        [
+          -0.322421,
+          51.509486
+        ],
+        [
+          -0.322464,
+          51.509486
+        ],
+        [
+          -0.322463,
+          51.509513
+        ],
+        [
+          -0.32242,
+          51.509512
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "postcode": "W13 9HP",
   "decision_date": "17/01/2024",
   "centroid": {
@@ -66,7 +94,7 @@
   "title_number": [],
   "site_number": "5",
   "borough": "Ealing",
-  "actual_completion_date": null,
+  "actual_completion_date": "11/11/2024",
   "appeal_decision_date": null,
   "valid_date": "16/10/2023",
   "application_type_full": "Full planning permission",
@@ -102,12 +130,12 @@
     "- notifications of works to interested parties and regular neighbour liaison,  - public display of contact details including accessible phone numbers for persons responsible for the site works for the duration of the works in case of emergencies or complaints.",
     "Reason: To ensure that the amenity of occupiers of surrounding premises is not adversely affected by noise, vibration, dust, lighting or other emissions from the site, in accordance with Policies 1.1 and 1.2 of the Ealing Development (Core) Strategy (2012), policies 7A & 7B of the Ealing Development Management Development Plan Document (2013), policy D14 of The London Plan (2021), Ealing SPG10 and the National Planning Policy Framework (2023)."
   ],
-  "status": "Commenced",
+  "status": "Completed",
   "secondary_street_name": null,
   "id": "Ealing-234164FUL",
   "lpa_app_no": "234164FUL",
   "application_details": {
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "rain_water_harvesting": false,
     "total_gia_gained": 0,
     "total_gia_lost": 0,
@@ -124,7 +152,7 @@
       "mobile_network_operators_consultation": false,
       "no_resi_units_to_have_full_fibre": 2,
       "no_homes_passive_cooling": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "ghg_reduction_over_building_regulations": false,
       "fire_suppression_system_proposed": false,
@@ -150,7 +178,7 @@
       "total_gia_existing": 157,
       "total_gia_lost": 0,
       "development_type": null,
-      "site_area": null
+      "site_area": 0.0161
     },
     "total_gia_existing": 157,
     "existing_uprns": [
@@ -159,12 +187,10 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 157,
-        "superseded_date": null,
-        "actual_completion_date": null,
+        "actual_completion_date": "11/11/2024",
         "use_class": "C3",
         "gia_gained": 0,
-        "actual_commencement_date": null,
-        "superseded_by_lpa_app_no": null,
+        "actual_commencement_date": "18/03/2024",
         "gia_lost": 0
       }
     ],
@@ -177,7 +203,7 @@
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_discount_market_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 434.7826086956522,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -185,76 +211,52 @@
       "total_no_proposed_residential_units_shared_equity": 0,
       "residential_units": [
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
+          "actual_completion_date": "18/03/2024",
           "description": null,
           "change_type": "Loss",
-          "m42_compliant": null,
           "sheltered_accommodation": false,
-          "garden_land": null,
           "unit_type": "Semi Detached Home",
-          "unit_development_type": null,
-          "superseded_date": null,
-          "provider": null,
+          "unit_development_type": "Conversion",
           "no_habitable_rooms": 5,
           "phase_detail": null,
           "unit_no": "Loss-1",
           "actual_commencement_date": "18/03/2024",
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
-          "tenure": "Market for rent",
-          "gia": 157
+          "gia": 157,
+          "tenure": "Market for rent"
         },
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
+          "actual_completion_date": "11/11/2024",
           "description": null,
           "change_type": "Gain",
-          "m42_compliant": null,
-          "sheltered_accommodation": null,
-          "garden_land": null,
           "unit_type": "Flat Apartment Maisonette",
-          "unit_development_type": null,
-          "superseded_date": null,
-          "provider": "Private",
+          "unit_development_type": "Conversion",
           "no_habitable_rooms": 3,
+          "provider": "Private",
           "phase_detail": null,
           "unit_no": "Gain-1",
           "actual_commencement_date": "18/03/2024",
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
-          "tenure": "Market for rent",
-          "gia": 61.76
+          "gia": 61.76,
+          "tenure": "Market for rent"
         },
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
+          "actual_completion_date": "11/11/2024",
           "description": null,
           "change_type": "Gain",
-          "m42_compliant": null,
-          "sheltered_accommodation": null,
-          "garden_land": null,
           "unit_type": "Flat Apartment Maisonette",
-          "unit_development_type": null,
-          "superseded_date": null,
-          "provider": "Private",
+          "unit_development_type": "Conversion",
           "no_habitable_rooms": 4,
+          "provider": "Private",
           "phase_detail": null,
           "unit_no": "Gain-2",
           "actual_commencement_date": "18/03/2024",
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
-          "tenure": "Market for rent",
-          "gia": 94.9
+          "gia": 94.9,
+          "tenure": "Market for rent"
         }
       ],
       "total_no_proposed_residential_units_market_for_sale": 0,
@@ -269,7 +271,7 @@
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 124.22360248447205,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units_market_for_rent": 2,
       "total_no_proposed_residential_units_intermediate": 0,
@@ -283,7 +285,7 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "site_area": null
+      "site_area": 0.0161
     },
     "grey_water_reuse": false,
     "phasing_details": [
@@ -296,14 +298,14 @@
     "internal_resi_water_usage": 0,
     "garden_land_lost": false,
     "site_area": 0.0161,
-    "s106_agreement": null,
+    "s106_agreement": false,
     "affordable_housing_inlieu_payment": null,
-    "air_quality_assessment": null,
+    "air_quality_assessment": false,
     "other_contributions": null,
     "intended_commencement_date": null,
     "no_affordable_housing_units_provided_offsite": null,
-    "commencement_notice_received": null,
-    "circular_economy_statement": null,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
     "qualifying_vacant_building_floorspace": null,
     "open_and_protected_space_details": {
       "protected_space_count": 0,
@@ -320,23 +322,23 @@
     "building_details": [],
     "superseding_details": [],
     "lead_registered_social_landlord": null,
-    "viability_assessment": null,
+    "viability_assessment": false,
     "overseas_company_registration_no": null,
-    "mayoral_cil_liability_notice_issued": null,
+    "mayoral_cil_liability_notice_issued": false,
     "non_permanent_dwellings_details": [],
     "intended_completion_date": null,
     "other_residential_accommodation_details": {
       "no_council_tax_rateable_units_gained": null,
       "no_council_tax_rateable_units_lost": null,
-      "site_area": null,
+      "site_area": 0.0161,
       "other_resi_accommodation_unit_details": []
     },
     "uk_company_registration_no": null,
-    "3d_model": null,
+    "3d_model": false,
     "no_affordable_housing_units_acquired_offsite": null,
     "transport_contributions": null,
-    "borough_cil_liability_notice_issued": null,
-    "transport_impact_assessment": null,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
     "social_infrastructure_contributions": null,
     "scheme_name": null,
     "lead_developer_company_name": null
