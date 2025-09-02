@@ -9,7 +9,7 @@
   "centroid_easting": null,
   "ward": "MH22",
   "date_building_work_completed_under_previous_permission": null,
-  "last_updated": "2025-07-23T20:03:31.017Z",
+  "last_updated": "2025-09-01T20:01:10.603Z",
   "epc_number": null,
   "wgs84_polygon": {
     "type": "Polygon",
@@ -45,13 +45,12 @@
   "pp_id": "PP-14139961",
   "appeal_start_date": null,
   "centroid_northing": null,
-  "decision_process": null,
+  "decision_process": "Delegated",
   "decision_target_date": "04/09/2025",
   "polygon": {
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -75,7 +74,8 @@
               189757
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -122,14 +122,14 @@
       "mobile_network_operators_consultation": false,
       "waste_details": [
         {
-          "internal_dry_recycling": false,
-          "unit_reference": "0",
           "external_dry_recycling": false,
           "external_food_waste": false,
-          "internal_residual_waste": false,
+          "unit_reference": "0",
           "external_residual_waste": false,
           "reason_for_no_provision": "No internal storage",
-          "internal_food_waste": false
+          "internal_residual_waste": false,
+          "internal_food_waste": false,
+          "internal_dry_recycling": false
         }
       ],
       "fire_suppression_system_proposed": false
@@ -152,8 +152,8 @@
     "scheme_phasing": true,
     "phasing_details": [
       {
-        "intended_completion_date": "09/2025",
         "phase_detail": "Entire Development",
+        "intended_completion_date": "09/2025",
         "intended_commencement_date": "08/2025"
       }
     ],
