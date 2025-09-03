@@ -14,7 +14,7 @@
   "pp_id": "PP-14071670",
   "ward": "Tolworth",
   "last_date_consultation_comments": null,
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "date_building_work_completed_under_previous_permission": null,
   "uprn": "000128040016",
   "reference_no_of_permission_being_relied_on": null,
@@ -238,7 +238,7 @@
     "type": "geometrycollection"
   },
   "actual_completion_date": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "status": "Application Under Consideration",
   "wgs84_polygon": {
     "coordinates": [
@@ -443,7 +443,11 @@
     ],
     "type": "Polygon"
   },
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 100,
+    "net_car": 0,
+    "no_proposed_car": 100
+  },
   "centroid_easting": 518691,
   "borough": "Royal Borough of Kingston (LA Code)",
   "actual_commencement_date": null,
@@ -499,8 +503,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 2625,
-        "use_class": "Other",
         "gia_gained": 0,
+        "use_class": "ED",
         "gia_lost": 0
       }
     ],
@@ -525,10 +529,10 @@
       "total_gia_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "site_area": 0.25,
-      "total_gia_existing": 0,
+      "total_gia_existing": 2625,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0
     },
-    "site_area": 2532,
+    "site_area": 0.25321299999999997,
     "projected_cost_of_works": "Up to £2m",
     "grey_water_reuse": false,
     "surface_water_discharge_percentage_reduction": 0,
@@ -564,44 +568,44 @@
     "garden_land_lost": false,
     "constraints_details": [
       {
-        "constraints_layer_description": "LGW Name: London Gatwick Safeguarding Zone (200m)",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "LGW Name: London Gatwick Safeguarding Zone (200m)"
       },
       {
-        "constraints_layer_description": "SMKCON Name: Borough Wide Smoke Control Order",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "SMKCON Name: Borough Wide Smoke Control Order"
       },
       {
-        "constraints_layer_description": "KEYACH Multiple",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "KEYACH Multiple"
       },
       {
-        "constraints_layer_description": "NEIPOL Multiple",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "NEIPOL Multiple"
       },
       {
-        "constraints_layer_description": "NEIGH Name: South of the Borough",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "NEIGH Name: South of the Borough"
       },
       {
-        "constraints_layer_description": "AIRCZ Type:: Gatwick Airport Wind Turbine Consultation Zone:\rContact: The Safeguarding Department, Gatwick Airport Limited, 7th Floor Destinations Place, London Gatwick Airport, West Sussex, RH06 0NP",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "AIRCZ Type:: Gatwick Airport Wind Turbine Consultation Zone:\rContact: The Safeguarding Department, Gatwick Airport Limited, 7th Floor Destinations Place, London Gatwick Airport, West Sussex, RH06 0NP"
       },
       {
-        "constraints_layer_description": "VALUER Type: VALUERS\rDescription: Leisure Services",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "VALUER Type: VALUERS\rDescription: Leisure Services"
       },
       {
-        "constraints_layer_description": "VALUER Type: VALUERS\rDescription: Non-Ownership Interests",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "VALUER Type: VALUERS\rDescription: Non-Ownership Interests"
       },
       {
-        "constraints_layer_description": "DESCRI ",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "DESCRI "
       }
     ],
     "ownership_status": "Public",
-    "total_gia_existing": 0,
+    "total_gia_existing": 2625,
     "phasing_details": [
       {
         "phase_detail": "Construction Phase",
@@ -611,15 +615,17 @@
     ],
     "other_residential_accommodation_details": {
       "site_area": 0.25
-    }
+    },
+    "total_gia_gained": 0,
+    "scheme_phasing": true
   },
   "site_name": "Tolworth Recreation Centre",
   "description": "Replacement of existing fire escape staircase with new steel fire escape staircase",
   "street_name": "Fullers Way North",
   "id": "Kingston-25_01522_CREG3",
-  "last_updated": "2025-09-01T17:00:38.790Z",
+  "last_updated": "2025-09-02T02:16:36.953Z",
   "decision_process": null,
   "lpa_app_no": "25/01522/CREG3",
   "date_building_work_started_under_previous_permission": null,
-  "subdivision_of_building": null
+  "subdivision_of_building": "1st - 3rd floors to the South east facing elevation covered by the existing fire escape staircase only."
 }
