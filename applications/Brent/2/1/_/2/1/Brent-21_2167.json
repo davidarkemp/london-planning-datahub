@@ -5,8 +5,8 @@
   "locality": null,
   "url_planning_app": "https://pa.brent.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR_155535&activeTab=summary",
   "centroid": {
-    "lat": 51.532516,
-    "lon": -0.209656
+    "lat": "51.532509",
+    "lon": "-0.2096315"
   },
   "application_type_full": "Prior Approval: Change of use - offices to dwellinghouses",
   "ward": "Queens Park",
@@ -23,8 +23,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 72,
-        "gia_gained": 0,
         "use_class": "B1a",
+        "gia_gained": 0,
         "gia_lost": 0
       }
     ],
@@ -78,14 +78,14 @@
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "residential_units": [
         {
-          "provider": "Private",
           "no_habitable_rooms": 1,
+          "provider": "Private",
           "unit_no": "Gain-1",
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
-          "tenure": "Social Rent",
-          "gia": 72
+          "no_bedrooms": 1,
+          "gia": 72,
+          "tenure": "Social Rent"
         }
       ]
     },
@@ -108,19 +108,55 @@
     "intended_completion_date": "09/2021",
     "total_gia_lost": 0,
     "intended_commencement_date": "08/2021",
-    "total_gia_existing": 72
+    "total_gia_existing": 72,
+    "site_area": 0.006
   },
-  "centroid_northing": 183031,
+  "centroid_northing": 183030,
   "decision_date": "04/08/2021",
   "epc_number": null,
   "actual_commencement_date": null,
   "secondary_street_name": null,
   "id": "Brent-21_2167",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              524274.75,
+              183032.1
+            ],
+            [
+              524278.85,
+              183024.6
+            ],
+            [
+              524283.1,
+              183026.8
+            ],
+            [
+              524284.75,
+              183027.55
+            ],
+            [
+              524281,
+              183035.3
+            ],
+            [
+              524274.75,
+              183032.1
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "description": "Prior approval for proposed change of use from office use (Use Class:E(g)(i))  to residential use (Use Class: C3)",
   "lapsed_date": null,
   "lpa_app_no": "21/2167",
-  "last_updated": "2025-07-20T08:00:47.912Z",
+  "last_updated": "2025-09-04T08:00:48.953Z",
   "application_type": "Prior Approval",
   "site_name": "1A Park Mews, 213 Kilburn Lane, North Kensington, London, W10 4BQ",
   "appeal_decision_date": null,
@@ -149,5 +185,35 @@
   "last_updated_by": "CSV Data Import",
   "appeal_status": null,
   "date_building_work_started_under_previous_permission": null,
-  "wgs84_polygon": null
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.2097064,
+          51.532529
+        ],
+        [
+          -0.20965000000000003,
+          51.5324607
+        ],
+        [
+          -0.2095879,
+          51.5324796
+        ],
+        [
+          -0.2095639,
+          51.532486
+        ],
+        [
+          -0.2096152,
+          51.5325564
+        ],
+        [
+          -0.2097064,
+          51.532529
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  }
 }

@@ -9,8 +9,8 @@
   "lapsed_date": "09/03/2026",
   "secondary_street_name": null,
   "centroid": {
-    "lon": -0.275345,
-    "lat": 51.560333
+    "lon": "-0.27530699999999997",
+    "lat": "51.5603351"
   },
   "decision_process": "Delegated",
   "actual_commencement_date": null,
@@ -20,7 +20,33 @@
   "appeal_status": null,
   "last_date_consultation_comments": "11/01/2023",
   "description": "Temporary change of use to community theatre and ancillary offices (Use Class Sui Generis) and installation of windows",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.2753545,
+          51.5604343
+        ],
+        [
+          -0.2754799,
+          51.5603224
+        ],
+        [
+          -0.2752719,
+          51.560233
+        ],
+        [
+          -0.27514649999999996,
+          51.5603445
+        ],
+        [
+          -0.2753545,
+          51.5604343
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "development_type": "Other change of use",
   "last_updated_by": "CSV Data Import",
   "locality": null,
@@ -34,7 +60,7 @@
   "decision_date": "09/03/2023",
   "parking_details": null,
   "status": "Approved",
-  "centroid_easting": 519651,
+  "centroid_easting": 519652,
   "valid_date": "14/12/2022",
   "borough": "Brent",
   "subdivision_of_building": null,
@@ -44,7 +70,7 @@
   "bo_system": "CSV Data Import",
   "decision_agency": null,
   "date_building_work_started_under_previous_permission": null,
-  "last_updated": "2025-07-09T08:01:26.450Z",
+  "last_updated": "2025-09-04T08:01:19.003Z",
   "street_name": null,
   "decision": "Approved",
   "appeal_start_date": null,
@@ -58,7 +84,7 @@
       "total_gia_gained": 974.4
     },
     "ownership_status": "Private",
-    "site_area": 5.854,
+    "site_area": 0.027,
     "garden_land_lost": false,
     "scheme_phasing": true,
     "existing_uprns": null,
@@ -84,22 +110,22 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "12/2022",
-        "intended_completion_date": "03/2023"
+        "intended_completion_date": "03/2023",
+        "intended_commencement_date": "12/2022"
       }
     ],
     "total_gia_existing": 974.4,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 0,
-        "gia_gained": 974.4,
         "use_class": "SG",
+        "gia_gained": 974.4,
         "gia_lost": 0
       },
       {
         "gia_existing": 974.4,
-        "gia_gained": 0,
         "use_class": "B2",
+        "gia_gained": 0,
         "gia_lost": 974.4
       }
     ],
@@ -704,7 +730,36 @@
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "GeometryCollection",
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              519648.45,
+              186025.95
+            ],
+            [
+              519640.05,
+              186013.3
+            ],
+            [
+              519654.7,
+              186003.7
+            ],
+            [
+              519663.1,
+              186016.3
+            ],
+            [
+              519648.45,
+              186025.95
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ]
   },
   "ward": "Wembley Park"
 }

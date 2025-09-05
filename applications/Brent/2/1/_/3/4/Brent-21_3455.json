@@ -5,8 +5,8 @@
   "locality": null,
   "url_planning_app": "https://pa.brent.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR_156941&activeTab=summary",
   "centroid": {
-    "lat": 51.563565,
-    "lon": -0.223124
+    "lat": "51.5635674",
+    "lon": "-0.2230992"
   },
   "application_type_full": "Full planning permission",
   "ward": "Dollis Hill",
@@ -29,7 +29,7 @@
       }
     ],
     "total_gia_gained": 62.2,
-    "site_area": 0.011,
+    "site_area": 0.007,
     "total_gia_lost": 0,
     "total_gia_existing": 0,
     "existing_proposed_floorspace_details": [
@@ -111,15 +111,15 @@
           "actual_completion_date": null,
           "m43_2a_compliant": null,
           "description": null,
-          "m42_compliant": null,
           "change_type": "Gain",
-          "sheltered_accommodation": null,
+          "m42_compliant": null,
           "garden_land": null,
+          "sheltered_accommodation": null,
           "unit_type": "Semi Detached Home",
           "unit_development_type": null,
           "superseded_date": null,
-          "provider": "Private",
           "no_habitable_rooms": 3,
+          "provider": "Private",
           "phase_detail": null,
           "unit_no": "Gain-1",
           "actual_commencement_date": null,
@@ -264,12 +264,45 @@
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "GeometryCollection",
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              523269.05,
+              186462.55
+            ],
+            [
+              523266.3,
+              186466.25
+            ],
+            [
+              523264.25,
+              186466.45
+            ],
+            [
+              523255.75,
+              186460.2
+            ],
+            [
+              523259.3,
+              186455.35
+            ],
+            [
+              523269.05,
+              186462.55
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ]
   },
   "description": "Proposed erection of a three-storey dwellinghouse with first floor balcony and basement level courtyard, the reduction of the side boundary wall and insertion of side pedestrian gate on the land to the rear of off licence",
   "lapsed_date": null,
   "lpa_app_no": "21/3455",
-  "last_updated": "2025-07-20T08:00:40.646Z",
+  "last_updated": "2025-09-04T08:00:47.616Z",
   "application_type": "All Other",
   "site_name": "3 Gladstone Parade, Edgware Road, Cricklewood, London, NW2 6JR",
   "appeal_decision_date": "22/07/2022",
@@ -322,5 +355,35 @@
   "last_updated_by": "CSV Data Import",
   "appeal_status": null,
   "date_building_work_started_under_previous_permission": null,
-  "wgs84_polygon": null
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.222997,
+          51.5635798
+        ],
+        [
+          -0.2230354,
+          51.5636137
+        ],
+        [
+          -0.22306489999999998,
+          51.5636159
+        ],
+        [
+          -0.2231896,
+          51.5635616
+        ],
+        [
+          -0.22314009999999998,
+          51.5635172
+        ],
+        [
+          -0.222997,
+          51.5635798
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  }
 }

@@ -9,7 +9,7 @@
   "centroid_easting": 534119,
   "ward": "Southbury",
   "date_building_work_completed_under_previous_permission": null,
-  "last_updated": "2025-07-23T20:07:29.021Z",
+  "last_updated": "2025-09-04T20:04:16.563Z",
   "epc_number": null,
   "wgs84_polygon": {
     "type": "Polygon",
@@ -45,7 +45,7 @@
   "pp_id": "PP-14142639",
   "appeal_start_date": null,
   "centroid_northing": 196062,
-  "decision_process": null,
+  "decision_process": "Delegated",
   "decision_target_date": "04/09/2025",
   "polygon": null,
   "description": "Change of use from Use Class C3 (dwelling house) to Use Class C4 (house in multiple occupation - HMO) including single storey rear extension, single storey side infill extension, rear dormer, dormer to rear outrigger, front roof lights and refuse and cycle storage.",
@@ -103,16 +103,16 @@
     "affordable_housing_fast_track": false,
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
+        "gia_existing": 78.3,
         "use_class": "C3",
-        "gia_lost": 78.3,
-        "gia_existing": 78.3
+        "gia_gained": 0,
+        "gia_lost": 78.3
       },
       {
-        "gia_gained": 119.36,
+        "gia_existing": 0,
         "use_class": "C4",
-        "gia_lost": 0,
-        "gia_existing": 0
+        "gia_gained": 119.36,
+        "gia_lost": 0
       }
     ],
     "existing_uprns": [
@@ -201,8 +201,8 @@
     },
     "phasing_details": [
       {
-        "intended_completion_date": "02/2026",
         "phase_detail": "Entire development",
+        "intended_completion_date": "02/2026",
         "intended_commencement_date": "12/2025"
       }
     ],
@@ -238,39 +238,39 @@
       "total_no_existing_residential_units_london_living_rent": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "change_type": "Gain",
           "m42_compliant": false,
           "garden_land": false,
           "sheltered_accommodation": false,
-          "no_bedrooms": 6,
-          "gia": 119.36,
-          "tenure": "Market for rent",
-          "phase_detail": null,
-          "provider": "Private",
-          "m43_2a_compliant": false,
-          "m43_2b_compliant": false,
-          "provision_for_older_persons": false,
+          "unit_type": "HMO",
           "no_habitable_rooms": 2,
+          "provider": "Private",
+          "phase_detail": null,
           "unit_no": null,
-          "change_type": "Gain",
-          "description": null,
-          "unit_type": "HMO"
+          "no_bedrooms": 6,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 119.36
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "change_type": "Loss",
           "m42_compliant": false,
           "garden_land": false,
           "sheltered_accommodation": false,
-          "no_bedrooms": 2,
-          "gia": 78.3,
-          "tenure": "Market for rent",
-          "phase_detail": null,
-          "m43_2a_compliant": false,
-          "m43_2b_compliant": false,
-          "provision_for_older_persons": false,
+          "unit_type": "Terraced Home",
           "no_habitable_rooms": 2,
+          "phase_detail": null,
           "unit_no": null,
-          "change_type": "Loss",
-          "description": null,
-          "unit_type": "Terraced Home"
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 78.3
         }
       ],
       "total_no_existing_residential_units_shared_equity": 0,
