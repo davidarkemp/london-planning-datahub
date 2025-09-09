@@ -29,61 +29,61 @@
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "residential_units": [
         {
-          "unit_no": "Loss-1",
-          "provision_for_older_persons": false,
-          "sheltered_accommodation": false,
-          "change_type": "Loss",
-          "no_bedrooms": 1,
           "no_habitable_rooms": 3,
-          "gia": 46,
+          "unit_no": "Loss-1",
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
+          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
+          "gia": 46,
           "tenure": "Market for rent"
         },
         {
-          "unit_no": "Loss-2",
-          "provision_for_older_persons": false,
-          "sheltered_accommodation": false,
-          "change_type": "Loss",
-          "no_bedrooms": 1,
           "no_habitable_rooms": 3,
-          "gia": 46,
+          "unit_no": "Loss-2",
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
+          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
+          "gia": 46,
           "tenure": "Market for rent"
         },
         {
           "unit_no": "Gain-1",
-          "gia": 112,
+          "change_type": "Gain",
           "unit_type": "Communal Space",
-          "change_type": "Gain"
+          "gia": 112
         },
         {
+          "provider": "Private",
+          "no_habitable_rooms": 3,
           "unit_no": "Gain-2",
           "change_type": "Gain",
           "no_bedrooms": 2,
-          "provider": "Private",
-          "no_habitable_rooms": 3,
-          "gia": 75,
           "unit_type": "Flat Apartment Maisonette",
+          "gia": 75,
           "tenure": "Market for sale"
         },
         {
+          "provider": "Private",
+          "no_habitable_rooms": 3,
           "unit_no": "Gain-3",
           "change_type": "Gain",
           "no_bedrooms": 2,
-          "provider": "Private",
-          "no_habitable_rooms": 3,
-          "gia": 72,
           "unit_type": "Flat Apartment Maisonette",
+          "gia": 72,
           "tenure": "Market for sale"
         },
         {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
           "unit_no": "Gain-4",
           "change_type": "Gain",
           "no_bedrooms": 1,
-          "provider": "Private",
-          "no_habitable_rooms": 2,
-          "gia": 48,
           "unit_type": "Flat Apartment Maisonette",
+          "gia": 48,
           "tenure": "Market for sale"
         }
       ],
@@ -118,12 +118,12 @@
       "open_space_green_belt_area_gain": 0,
       "open_spaces_details": [
         {
+          "area": 0.0112,
+          "access": "Unrestricted",
           "land_swap": false,
           "open_space_designation": "Other",
-          "area": 0.0112,
           "description": "Change of poor quality unused overgrown external space into formal landscaped amenity space",
-          "open_space_type": "Amenity",
-          "access": "Unrestricted"
+          "open_space_type": "Amenity"
         }
       ],
       "open_space_mol_area_gain": 0,
@@ -134,8 +134,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "09/2026",
-        "intended_completion_date": "12/2027"
+        "intended_completion_date": "12/2027",
+        "intended_commencement_date": "09/2026"
       }
     ],
     "rain_water_harvesting": false,
@@ -155,27 +155,27 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 130,
-        "gia_lost": 130,
+        "use_class": "EA",
         "gia_gained": 120,
-        "use_class": "EA"
+        "gia_lost": 130
       },
       {
         "gia_existing": 92,
-        "gia_lost": 92,
+        "use_class": "C3",
         "gia_gained": 195,
-        "use_class": "C3"
+        "gia_lost": 92
       },
       {
         "gia_existing": 184,
-        "gia_lost": 184,
+        "use_class": "SG",
         "gia_gained": 0,
-        "use_class": "SG"
+        "gia_lost": 184
       },
       {
         "gia_existing": 0,
-        "gia_lost": 0,
+        "use_class": "SpecifiedOther",
         "gia_gained": 336,
-        "use_class": "SpecifiedOther"
+        "gia_lost": 0
       }
     ],
     "green_suds": false,
@@ -203,13 +203,13 @@
     "building_details": [
       {
         "no_storeys": 3,
-        "building_ref": "Building fronting East Barnet Road",
-        "max_height": 9.3
+        "max_height": 9.3,
+        "building_ref": "Building fronting East Barnet Road"
       },
       {
         "no_storeys": 2,
-        "building_ref": " Backwater building",
-        "max_height": 6.4
+        "max_height": 6.4,
+        "building_ref": " Backwater building"
       }
     ],
     "lead_developer_company_name": "Regent Lodge Ltd"
@@ -314,7 +314,7 @@
     "type": "geometrycollection"
   },
   "date_building_work_completed_under_previous_permission": null,
-  "last_updated": "2025-07-16T20:14:23.188Z",
+  "last_updated": "2025-09-08T20:03:06.048Z",
   "centroid": {
     "lat": 49.766807,
     "lon": -7.55716
@@ -440,6 +440,6 @@
     "type": "Polygon"
   },
   "date_building_work_started_under_previous_permission": null,
-  "description": "Demolition of existing buildings and erection of 2no. three storey buildings to provide 3no. residential self-contained flats and 2no. retail units at ground floor level of the building fronting the site and 5no class E units to rear of site. Associated refuse/recycling storage, amenity space and cycle storage\r\r\r",
+  "description": "Demolition of existing buildings and erection of 2no. three storey buildings to provide 3no. residential self-contained flats and 2no. retail units at ground floor level of the building fronting the site and 5no class E units to rear of site. Associated refuse/recycling storage, amenity space and cycle storage",
   "application_type_full": "Outline planning permission: Some matters reserved"
 }

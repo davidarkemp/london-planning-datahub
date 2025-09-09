@@ -1,9 +1,9 @@
 {
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "application_type": "All Other",
   "decision_agency": null,
   "centroid_northing": 181152,
-  "status": "Approved",
+  "status": "Completed",
   "date_building_work_started_under_previous_permission": null,
   "appeal_start_date": null,
   "ward": "BWW_22",
@@ -35,20 +35,24 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 140,
+        "actual_completion_date": "08/05/2024",
         "use_class": "E",
         "gia_gained": 0,
+        "actual_commencement_date": "04/10/2023",
         "gia_lost": 0
       },
       {
         "gia_existing": 180,
+        "actual_completion_date": "08/05/2024",
         "use_class": "C3",
         "gia_gained": 60,
+        "actual_commencement_date": "04/10/2023",
         "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "grey_water_reuse": false,
     "surface_water_discharge_percentage_reduction": 20,
     "green_suds": false,
@@ -57,7 +61,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 60,
       "total_gia_lost": 0,
-      "total_gia_existing": 320
+      "total_gia_existing": 320,
+      "site_area": 0.01
     },
     "garden_land_lost": false,
     "internal_resi_water_usage": 105,
@@ -81,13 +86,13 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 300,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 60,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 100,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
@@ -100,18 +105,24 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 3,
-          "provider": "Private",
-          "unit_no": "Gain-1",
+          "actual_completion_date": "08/05/2024",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": "Gain-1",
+          "actual_commencement_date": "04/10/2023",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "gia": 60,
           "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.01
     },
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
@@ -121,39 +132,52 @@
       "no_new_water_connections_required": 1,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 20,
       "no_homes_to_have_electrical_heating": 1,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 1,
-      "ghg_reduction_over_building_regulations": true
+      "ghg_reduction_over_building_regulations": false
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.01
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "reference_no_of_permission_being_relied_on": null,
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.1932601,
-          51.5153105
+          -0.193284,
+          51.515309
         ],
         [
-          -0.1933513,
-          51.5152955
+          -0.193376,
+          51.515294
         ],
         [
-          -0.1933867,
-          51.5154239
+          -0.193411,
+          51.515422
         ],
         [
-          -0.1932932,
-          51.5154389
+          -0.193317,
+          51.515437
         ],
         [
-          -0.1932601,
-          51.5153105
+          -0.193284,
+          51.515309
         ]
       ]
     ],
@@ -165,8 +189,8 @@
   "application_type_full": "Full planning permission",
   "epc_number": null,
   "centroid": {
-    "lon": "-0.1933257",
-    "lat": "51.5153709"
+    "lon": -0.19335,
+    "lat": 51.515369
   },
   "appeal_decision_date": null,
   "decision_process": "Delegated",
@@ -188,15 +212,13 @@
     "For avoidance of doubt",
     "+1 Biodiversity - secure what's offered",
     "DES External works to match existing",
-    "+2 Hours of plant operation",
-    "",
-    ""
+    "+2 Hours of plant operation"
   ],
   "development_type": null,
   "parking_details": null,
   "appeal_decision": null,
   "locality": null,
-  "actual_completion_date": null,
+  "actual_completion_date": "08/05/2024",
   "subdivision_of_building": null,
   "decision_date": "15/05/2023",
   "polygon": {
@@ -237,9 +259,9 @@
   "decision": "Approved",
   "secondary_street_name": null,
   "decision_target_date": "12/05/2023",
-  "last_updated": "2025-03-19T19:50:30.677+00:00",
+  "last_updated": "2025-09-08T14:40:17.015Z",
   "date_building_work_completed_under_previous_permission": null,
   "site_number": "84",
   "last_date_consultation_comments": "25/04/2023",
-  "bo_system": "Idox Uniform"
+  "bo_system": "Portal"
 }
