@@ -88,7 +88,7 @@
     ],
     "projected_cost_of_works": "Up to £2m",
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "grey_water_reuse": false,
     "surface_water_discharge_percentage_reduction": 0,
     "green_suds": false,
@@ -97,15 +97,16 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 3.12,
       "total_gia_lost": 0,
-      "total_gia_existing": 274.9
+      "total_gia_existing": 274.9,
+      "site_area": 0.0117
     },
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_bedrooms": 0,
+      "total_no_proposed_bedrooms": 2,
       "total_no_proposed_residential_units_london_living_rent": 0,
-      "total_no_proposed_residential_units": 0,
-      "total_no_existing_residential_units": 1,
+      "total_no_proposed_residential_units": 1,
+      "total_no_existing_residential_units": 2,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
@@ -114,19 +115,19 @@
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_proposed_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 85.47008547008546,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 85.47008547008546,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -140,7 +141,9 @@
       "residential_units": [
         {
           "no_habitable_rooms": 1,
+          "phase_detail": null,
           "unit_no": "Loss-1",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
           "no_bedrooms": 2,
@@ -148,10 +151,37 @@
           "provision_for_older_persons": false,
           "gia": 56.25,
           "tenure": "Market for rent"
+        },
+        {
+          "no_habitable_rooms": 1,
+          "phase_detail": null,
+          "unit_no": "Loss-1",
+          "description": null,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
+          "gia": 56.25,
+          "tenure": "Market for rent"
+        },
+        {
+          "no_habitable_rooms": 1,
+          "phase_detail": null,
+          "unit_no": "Loss-1",
+          "description": null,
+          "change_type": "Gain",
+          "sheltered_accommodation": false,
+          "no_bedrooms": 2,
+          "unit_type": "House or Bungalow",
+          "provision_for_older_persons": false,
+          "gia": 56.25,
+          "tenure": "Market for rent"
         }
       ],
-      "total_no_existing_residential_units_market_for_rent": 1,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_market_for_rent": 2,
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.0117
     },
     "internal_resi_water_usage": 140,
     "infrastructure_details": {
@@ -162,7 +192,7 @@
       "no_homes_passive_cooling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 50,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
@@ -171,13 +201,25 @@
       "ghg_reduction_over_building_regulations": false
     },
     "ownership_status": "Private",
-    "existing_uprns": null
+    "existing_uprns": [],
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.0117
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "lpa_name": "Camden",
   "decision": "Approved",
   "lpa_app_no": "2023/4968/P",
   "decision_date": "13/02/2024",
-  "last_updated": "2025-03-19T23:16:29.914+00:00",
+  "last_updated": "2025-09-10T09:23:02.773Z",
   "centroid_northing": 184128,
   "centroid": {
     "lon": -0.155194,
@@ -186,7 +228,7 @@
   "appeal_decision_date": null,
   "locality": "London",
   "ward": "Primrose Hill",
-  "bo_system": "Northgate M3",
+  "bo_system": "Portal",
   "lapsed_date": "13/02/2027",
   "decision_process": "Delegated",
   "last_date_consultation_comments": "31/12/2023",
@@ -196,9 +238,9 @@
   "valid_date": "21/11/2023",
   "actual_commencement_date": null,
   "decision_conditions": [
-    "Condition : 1 - The development hereby permitted must be begun not later than the end of three years from the date of this permission.\r\n\r\nReason: In order to comply with the provisions of Section 91 of the Town and Country Planning Act 1990 (as amended).\r\n\r\n",
-    "Condition : 2 - The development hereby permitted shall be carried out in accordance with the following approved plans:\r\n\r\nAll with prefix (638 GA): 010 Rev.PR2; 011 Rev.PR2; 100 Rev.PR4; 101 Rev.PR3; 102 Rev.PR3; 103 Rev.PR2; 105 Rev.PR2; 106 Rev.PR2; 107 Rev.PR2; 110 Rev.PR3; 111 Rev.PR2; 112 Rev.PR2; 120 Rev.PR9; 121 Rev.PR5; 122 Rev.PR5; 123 Rev.PR2; 130 Rev.PR5; 131 Rev.PR2; 132 Rev.PR2; 140 Rev.PR5; 141 Rev.PR2; 142 Rev.PR2; 150; 151; 152; 160; 161; 162; 170 Rev.PR5; 171 Rev.PR2; 172 Rev.PR2.\r\n\r\nAll with prefix (638 E): 200 Rev.PR3; 201 Rev.PR2; 210 Rev.PR4; 211 Rev.PR3; 220; 221; 230; 231; 232; 233; 240; 241; 242; 243; 244; 245. \r\n\r\nAll with prefix (638 S): 300 Rev.PR3; 310 Rev.PR3; 320 Rev.PR5. \r\n\r\nAll with prefix (638 D): 400 Rev.PR2; 401 Rev.PR3; 410 Rev.PR2; 411 Rev.PR2; 420 Rev.PR2; 421 Rev.PR1; 422 Rev.PR1; 423 Rev.PR1; 424 Rev.PR1; 425 Rev.PR1; 430 Rev.PR2; 431 Rev.PR2. \r\n\r\nAll with prefix (SH_): 01; 02 Rev.PR3; 03 Rev.PR3; 04; 05; 06; 07; 08 Rev.PR2; 09 Rev.PR2; 10 Rev.PR3.\r\n\r\nPlanning, heritage and design and access statement by Gravity design dated Oct 2023.\r\n\r\n\r\nReason: For the avoidance of doubt and in the interest of proper planning.\r\n",
-    "Condition : 3 - All new external work shall be carried out in materials that resemble, as closely as possible, in colour and texture those of the existing building, unless otherwise specified in the approved application. \r\n\r\nReason: To safeguard the appearance of the premises and the character of the immediate area in accordance with the requirements of policies D1 and D2 of the London Borough of Camden Local Plan 2017. \r\n"
+    "Condition : 1 - The development hereby permitted must be begun not later than the end of three years from the date of this permission.\n\nReason: In order to comply with the provisions of Section 91 of the Town and Country Planning Act 1990 (as amended).",
+    "Condition : 2 - The development hereby permitted shall be carried out in accordance with the following approved plans:\n\nAll with prefix (638 GA): 010 Rev.PR2; 011 Rev.PR2; 100 Rev.PR4; 101 Rev.PR3; 102 Rev.PR3; 103 Rev.PR2; 105 Rev.PR2; 106 Rev.PR2; 107 Rev.PR2; 110 Rev.PR3; 111 Rev.PR2; 112 Rev.PR2; 120 Rev.PR9; 121 Rev.PR5; 122 Rev.PR5; 123 Rev.PR2; 130 Rev.PR5; 131 Rev.PR2; 132 Rev.PR2; 140 Rev.PR5; 141 Rev.PR2; 142 Rev.PR2; 150; 151; 152; 160; 161; 162; 170 Rev.PR5; 171 Rev.PR2; 172 Rev.PR2.\n\nAll with prefix (638 E): 200 Rev.PR3; 201 Rev.PR2; 210 Rev.PR4; 211 Rev.PR3; 220; 221; 230; 231; 232; 233; 240; 241; 242; 243; 244; 245. \n\nAll with prefix (638 S): 300 Rev.PR3; 310 Rev.PR3; 320 Rev.PR5. \n\nAll with prefix (638 D): 400 Rev.PR2; 401 Rev.PR3; 410 Rev.PR2; 411 Rev.PR2; 420 Rev.PR2; 421 Rev.PR1; 422 Rev.PR1; 423 Rev.PR1; 424 Rev.PR1; 425 Rev.PR1; 430 Rev.PR2; 431 Rev.PR2. \n\nAll with prefix (SH_): 01; 02 Rev.PR3; 03 Rev.PR3; 04; 05; 06; 07; 08 Rev.PR2; 09 Rev.PR2; 10 Rev.PR3.\n\nPlanning, heritage and design and access statement by Gravity design dated Oct 2023.\n\n\nReason: For the avoidance of doubt and in the interest of proper planning.",
+    "Condition : 3 - All new external work shall be carried out in materials that resemble, as closely as possible, in colour and texture those of the existing building, unless otherwise specified in the approved application. \n\nReason: To safeguard the appearance of the premises and the character of the immediate area in accordance with the requirements of policies D1 and D2 of the London Borough of Camden Local Plan 2017."
   ],
   "parking_details": null,
   "site_number": "28",
@@ -265,12 +307,12 @@
       }
     ]
   },
-  "title_number": null,
+  "title_number": [],
   "appeal_status": null,
   "status": "Approved",
   "date_building_work_started_under_previous_permission": null,
   "application_type_full": "Full planning & listed building consent",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Portal",
   "actual_completion_date": null,
   "street_name": "Chalcot Square",
   "secondary_street_name": null,

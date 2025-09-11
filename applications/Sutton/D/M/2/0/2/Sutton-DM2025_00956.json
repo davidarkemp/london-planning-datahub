@@ -157,7 +157,7 @@
   "lpa_name": "Sutton",
   "locality": null,
   "appeal_decision_date": null,
-  "decision_process": null,
+  "decision_process": "Delegated",
   "application_type_full": null,
   "site_number": "103",
   "date_building_work_started_under_previous_permission": null,
@@ -176,7 +176,7 @@
   "uprn": "005870014378",
   "actual_completion_date": null,
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated": "2025-07-30T20:05:11.416Z",
+  "last_updated": "2025-09-10T20:04:01.442Z",
   "cil_liability": true,
   "wgs84_polygon": {
     "coordinates": [
@@ -360,21 +360,21 @@
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "change_type": "Gain",
           "m42_compliant": true,
+          "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Semi Detached Home",
+          "provider": "Private",
+          "no_habitable_rooms": 4,
+          "phase_detail": null,
           "unit_no": null,
           "no_bedrooms": 2,
-          "change_type": "Gain",
-          "m43_2a_compliant": false,
-          "garden_land": false,
           "provision_for_older_persons": false,
-          "phase_detail": null,
-          "sheltered_accommodation": false,
-          "description": null,
-          "provider": "Private",
           "gia": 94.3,
-          "m43_2b_compliant": false,
-          "no_habitable_rooms": 4,
           "tenure": "Market for sale"
         }
       ],
@@ -399,16 +399,16 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
+        "gia_existing": 140.9,
         "use_class": "C3",
-        "gia_lost": 37.5,
-        "gia_existing": 140.9
+        "gia_gained": 0,
+        "gia_lost": 37.5
       },
       {
-        "gia_gained": 94.3,
+        "gia_existing": 0,
         "use_class": "Other",
-        "gia_lost": 0,
-        "gia_existing": 0
+        "gia_gained": 94.3,
+        "gia_lost": 0
       }
     ],
     "infrastructure_details": {
@@ -439,8 +439,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire development",
-        "intended_commencement_date": "09/2025",
-        "intended_completion_date": "03/2026"
+        "intended_completion_date": "03/2026",
+        "intended_commencement_date": "09/2025"
       }
     ],
     "surface_water_discharge_percentage_reduction": 0,
