@@ -1,13 +1,13 @@
 {
   "subdivision_of_building": null,
-  "title_number": null,
+  "title_number": [],
   "valid_date": "28/03/2024",
   "development_type": null,
   "ward": "NORTHWOOD 2022",
   "lapsed_date": "07/06/2027",
   "decision_date": "07/06/2024",
   "lpa_app_no": "52511/APP/2024/822",
-  "status": "Approved",
+  "status": "Commenced",
   "parking_details": {
     "no_existing_cycle": 0,
     "no_proposed_car": 4,
@@ -23,10 +23,10 @@
   "application_type": "All Other",
   "borough": "Hillingdon",
   "decision_process": "Delegated",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "last_date_consultation_comments": "06/06/2024",
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated": "2025-03-19T21:03:45.953+00:00",
+  "last_updated": "2025-09-11T09:09:44.873Z",
   "locality": null,
   "date_building_work_completed_under_previous_permission": null,
   "description": "Demolition of existing dwellinghouse and erection of 2no detached dwellinghouses with associated parking and landscaping",
@@ -38,7 +38,7 @@
   "url_planning_app": "http://planning.hillingdon.gov.uk/OcellaWeb/planningDetails?reference=52511/APP/2024/822",
   "site_number": null,
   "actual_completion_date": null,
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "application_details": {
     "infrastructure_details": {
       "no_new_gas_connections_required": 1,
@@ -54,7 +54,7 @@
       "green_roof_area": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "no_passive_rapid_ev_charging_points": 2,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "total_annual_nox_emissions": 0
     },
@@ -63,6 +63,7 @@
         "gia_existing": 200,
         "use_class": "C3",
         "gia_gained": 557,
+        "actual_commencement_date": "04/03/2025",
         "gia_lost": 200
       }
     ],
@@ -70,10 +71,10 @@
     "total_gia_lost": 200,
     "total_gia_gained": 557,
     "projected_cost_of_works": "Between £2m and £100m",
-    "existing_uprns": null,
+    "existing_uprns": [],
     "total_gia_existing": 200,
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "building_details": [
       {
         "no_storeys": 3,
@@ -89,7 +90,7 @@
     "grey_water_reuse": false,
     "internal_resi_water_usage": 105,
     "site_area": 0.099,
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "phasing_details": [
       {
         "phase_detail": "Entire development ",
@@ -116,41 +117,56 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 6,
-          "unit_no": "Loss-1",
+          "actual_completion_date": "04/03/2025",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 4,
           "unit_type": "House or Bungalow",
+          "unit_development_type": "New Build",
+          "no_habitable_rooms": 6,
+          "phase_detail": null,
+          "unit_no": "Loss-1",
+          "actual_commencement_date": "04/03/2025",
+          "no_bedrooms": 4,
           "provision_for_older_persons": false,
           "gia": 200,
           "tenure": "Market for sale"
         },
         {
-          "no_habitable_rooms": 9,
-          "provider": "Private",
-          "unit_no": "Gain-1",
+          "description": null,
           "change_type": "Gain",
           "garden_land": true,
-          "no_bedrooms": 5,
           "unit_type": "House or Bungalow",
+          "unit_development_type": "New Build",
+          "provider": "Private",
+          "no_habitable_rooms": 9,
+          "phase_detail": null,
+          "unit_no": "Gain-1",
+          "actual_commencement_date": "04/03/2025",
+          "no_bedrooms": 5,
+          "provision_for_older_persons": false,
           "gia": 290,
           "tenure": "Market for sale"
         },
         {
-          "no_habitable_rooms": 7,
-          "provider": "Private",
-          "unit_no": "Gain-2",
+          "description": null,
           "change_type": "Gain",
           "garden_land": true,
-          "no_bedrooms": 4,
           "unit_type": "House or Bungalow",
+          "unit_development_type": "New Build",
+          "provider": "Private",
+          "no_habitable_rooms": 7,
+          "phase_detail": null,
+          "unit_no": "Gain-2",
+          "actual_commencement_date": "04/03/2025",
+          "no_bedrooms": 4,
+          "provision_for_older_persons": false,
           "gia": 267,
           "tenure": "Market for sale"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 161.6161616161616,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
@@ -163,30 +179,70 @@
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 20.2020202020202,
       "total_no_existing_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "total_no_existing_residential_units_social_rent": 0
+      "total_no_existing_residential_units_social_rent": 0,
+      "site_area": 0.099
     },
     "surface_water_discharge_percentage_reduction": 94,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_lost": 200,
-      "total_gia_gained": 557,
+      "total_gia_lost": 0,
+      "total_gia_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_existing": 200
+      "total_gia_existing": 0,
+      "site_area": 0
     },
     "ownership_status": "Private",
-    "green_suds": false
+    "green_suds": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "pp_id": "12914301",
-  "postcode": null,
-  "wgs84_polygon": null,
-  "cil_liability": true,
+  "postcode": "",
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.429807,
+          51.613375
+        ],
+        [
+          -0.429808,
+          51.613348
+        ],
+        [
+          -0.429852,
+          51.613348
+        ],
+        [
+          -0.429851,
+          51.613375
+        ],
+        [
+          -0.429807,
+          51.613375
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "cil_liability": false,
   "street_name": "NORTHWOOD",
   "decision_conditions": [
     "The development hereby permitted shall be begun before the expiration of three years from the date of this permission.",
@@ -270,14 +326,16 @@
     "Wildlife and Countryside Act 1981 and Conservation of Habitats and Species Regulations 2017 (as amended):  Note that it is an offence under these acts to disturb roosting bats, nesting birds or any other protected species.  Therefore, if applicable, it is advisable to consult your tree surgeon / consultant to agree an acceptable time for carrying out the approved works."
   ],
   "decision_agency": "Borough",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "04/03/2025",
   "centroid_northing": 191671,
   "site_name": "6 FIRS WALK",
   "decision_target_date": "07/06/2024",
   "appeal_status": null,
   "decision": "Approved",
   "lpa_name": "Hillingdon",
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "appeal_start_date": null,
   "uprn": null,
   "appeal_decision_date": null,
