@@ -7,7 +7,70 @@
     "lon": -0.032643
   },
   "application_type": "All Other",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              536109.41,
+              199583.44
+            ],
+            [
+              536109.7,
+              199581.15
+            ],
+            [
+              536110.75,
+              199574
+            ],
+            [
+              536117.173,
+              199574.886
+            ],
+            [
+              536119.45,
+              199575.2
+            ],
+            [
+              536124.1,
+              199575.85
+            ],
+            [
+              536125.8,
+              199576.1
+            ],
+            [
+              536132.3,
+              199577.05
+            ],
+            [
+              536132.35,
+              199585.4
+            ],
+            [
+              536125.816,
+              199585.745
+            ],
+            [
+              536122.5,
+              199585.3
+            ],
+            [
+              536115.45,
+              199584.3
+            ],
+            [
+              536109.41,
+              199583.44
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "wgs84_polygon": {
     "type": "Polygon",
     "coordinates": [
@@ -73,36 +136,36 @@
     "internal_resi_water_usage": 110,
     "constraints_details": [
       {
-        "constraints_layer_description": "LHA Maximum Height Level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet).",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "LHA Maximum Height Level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet)."
       },
       {
-        "constraints_layer_description": "LLA Maximum height level: All buildings, structures, and works exceeding 300 metres in height (984.2 feet)",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "LLA Maximum height level: All buildings, structures, and works exceeding 300 metres in height (984.2 feet)"
       },
       {
-        "constraints_layer_description": "DCAREA Area: NORTH\rCode: DCAREA_N",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "DCAREA Area: NORTH\rCode: DCAREA_N"
       },
       {
-        "constraints_layer_description": "OHLZE2 Description: EEB 33KV",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "OHLZE2 Description: EEB 33KV"
       },
       {
-        "constraints_layer_description": "WARDS Name: Enfield Lock",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "WARDS Name: Enfield Lock"
       },
       {
-        "constraints_layer_description": "CILRES CIL ZONE: Lower Rate Eastern Zone - RATE: £40 per square metre",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "CILRES CIL ZONE: Lower Rate Eastern Zone - RATE: £40 per square metre"
       },
       {
-        "constraints_layer_description": "DMDAAP Designation: Area Action Plan- Area: North East Enfield- Policy: Core policy 40",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "DMDAAP Designation: Area Action Plan- Area: North East Enfield- Policy: Core policy 40"
       },
       {
-        "constraints_layer_description": "EFCAZI Chargeable Zone Value: 6176",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "EFCAZI Chargeable Zone Value: 6176"
       }
     ],
     "green_suds": false,
@@ -159,21 +222,21 @@
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
           "change_type": "Gain",
           "m42_compliant": true,
-          "provider": "Private",
-          "gia": 59.5,
           "sheltered_accommodation": false,
           "garden_land": false,
-          "unit_no": null,
-          "provision_for_older_persons": false,
-          "description": null,
-          "m43_2a_compliant": false,
-          "no_bedrooms": 1,
-          "m43_2b_compliant": false,
           "unit_type": "House or Bungalow",
-          "phase_detail": null,
+          "provider": "Private",
           "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "gia": 59.5,
           "tenure": "Market for sale"
         }
       ],
@@ -203,19 +266,19 @@
     "total_gia_existing": 0,
     "phasing_details": [
       {
+        "phase_detail": "single phase",
         "intended_completion_date": "07/2026",
-        "intended_commencement_date": "10/2025",
-        "phase_detail": "single phase"
+        "intended_commencement_date": "10/2025"
       }
     ],
     "s106_agreement": true,
     "total_gia_lost": 0,
     "existing_proposed_floorspace_details": [
       {
-        "gia_lost": 0,
         "gia_existing": 0,
         "use_class": "C3",
-        "gia_gained": 59.5
+        "gia_gained": 59.5,
+        "gia_lost": 0
       }
     ],
     "building_details": [
@@ -243,7 +306,7 @@
   "date_building_work_started_under_previous_permission": null,
   "decision_agency": null,
   "last_updated_by": "Idox Uniform",
-  "last_updated": "2025-09-08T20:04:03.680Z",
+  "last_updated": "2025-09-12T20:03:47.099Z",
   "subdivision_of_building": "N/A\r\n",
   "valid_date": "26/08/2025",
   "lapsed_date": null,

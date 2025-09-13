@@ -17,8 +17,8 @@
   "last_updated_by": "CSV Data Import",
   "lpa_name": "Brent",
   "centroid": {
-    "lon": -0.238055,
-    "lat": 51.547918
+    "lon": "-0.2381013",
+    "lat": "51.5479666"
   },
   "lpa_app_no": "24/1942",
   "borough": "Brent",
@@ -28,12 +28,12 @@
     "phasing_details": [
       {
         "phase_detail": "1",
-        "intended_commencement_date": "11/2024",
-        "intended_completion_date": "03/2025"
+        "intended_completion_date": "03/2025",
+        "intended_commencement_date": "11/2024"
       }
     ],
     "total_gia_gained": 159.65,
-    "site_area": 0.016488,
+    "site_area": 0.016,
     "total_gia_lost": 161.22,
     "total_gia_existing": 161.22,
     "existing_proposed_floorspace_details": [
@@ -41,8 +41,8 @@
         "gia_existing": 161.22,
         "superseded_date": null,
         "actual_completion_date": null,
-        "gia_gained": 159.65,
         "use_class": "C3",
+        "gia_gained": 159.65,
         "actual_commencement_date": null,
         "superseded_by_lpa_app_no": null,
         "gia_lost": 161.22
@@ -108,8 +108,8 @@
           "actual_completion_date": null,
           "m43_2a_compliant": null,
           "description": null,
-          "m42_compliant": null,
           "change_type": "Loss",
+          "m42_compliant": null,
           "sheltered_accommodation": false,
           "garden_land": null,
           "unit_type": "Terraced Home",
@@ -121,10 +121,10 @@
           "unit_no": "Loss-1",
           "actual_commencement_date": null,
           "no_bedrooms": 5,
-          "superseded_by_lpa_app_no": null,
           "provision_for_older_persons": false,
-          "tenure": "Market for rent",
-          "gia": 161.22
+          "superseded_by_lpa_app_no": null,
+          "gia": 161.22,
+          "tenure": "Market for rent"
         },
         {
           "uprn": null,
@@ -132,8 +132,8 @@
           "actual_completion_date": null,
           "m43_2a_compliant": null,
           "description": null,
-          "m42_compliant": null,
           "change_type": "Gain",
+          "m42_compliant": null,
           "sheltered_accommodation": null,
           "garden_land": null,
           "unit_type": "Flat Apartment Maisonette",
@@ -145,10 +145,10 @@
           "unit_no": "Gain-1",
           "actual_commencement_date": null,
           "no_bedrooms": 3,
-          "superseded_by_lpa_app_no": null,
           "provision_for_older_persons": false,
-          "tenure": "Market for rent",
-          "gia": 74.7
+          "superseded_by_lpa_app_no": null,
+          "gia": 74.7,
+          "tenure": "Market for rent"
         },
         {
           "uprn": null,
@@ -156,8 +156,8 @@
           "actual_completion_date": null,
           "m43_2a_compliant": null,
           "description": null,
-          "m42_compliant": null,
           "change_type": "Gain",
+          "m42_compliant": null,
           "sheltered_accommodation": null,
           "garden_land": null,
           "unit_type": "Flat Apartment Maisonette",
@@ -169,10 +169,10 @@
           "unit_no": "Gain-2",
           "actual_commencement_date": null,
           "no_bedrooms": 2,
-          "superseded_by_lpa_app_no": null,
           "provision_for_older_persons": false,
-          "tenure": "Market for rent",
-          "gia": 84.95
+          "superseded_by_lpa_app_no": null,
+          "gia": 84.95,
+          "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 1,
@@ -257,8 +257,58 @@
   },
   "application_type_full": "Full planning permission",
   "cil_liability": false,
-  "wgs84_polygon": null,
-  "centroid_easting": 522269,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.2382635,
+          51.5480599
+        ],
+        [
+          -0.2383083,
+          51.5480205
+        ],
+        [
+          -0.2380785,
+          51.5479213
+        ],
+        [
+          -0.237982,
+          51.5478798
+        ],
+        [
+          -0.23794939999999998,
+          51.5478659
+        ],
+        [
+          -0.2379053,
+          51.5479061
+        ],
+        [
+          -0.2379387,
+          51.5479192
+        ],
+        [
+          -0.2380989,
+          51.5479895
+        ],
+        [
+          -0.23810669999999998,
+          51.5479928
+        ],
+        [
+          -0.23817239999999998,
+          51.5480209
+        ],
+        [
+          -0.2382635,
+          51.5480599
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "centroid_easting": 522264,
   "actual_commencement_date": null,
   "date_building_work_completed_under_previous_permission": null,
   "url_planning_app": "https://pa.brent.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR_169550&activeTab=summary",
@@ -270,16 +320,71 @@
   "site_name": "4 Bertie Road, London, NW10 2LH",
   "id": "Brent-24_1942",
   "decision_target_date": "24/02/2025",
-  "centroid_northing": 184696,
+  "centroid_northing": 184701,
   "date_building_work_started_under_previous_permission": null,
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              522252.5,
+              184711.1
+            ],
+            [
+              522249.5,
+              184706.65
+            ],
+            [
+              522265.7,
+              184696
+            ],
+            [
+              522272.5,
+              184691.55
+            ],
+            [
+              522274.8,
+              184690.05
+            ],
+            [
+              522277.75,
+              184694.6
+            ],
+            [
+              522275.4,
+              184696
+            ],
+            [
+              522264.1,
+              184703.55
+            ],
+            [
+              522263.55,
+              184703.9
+            ],
+            [
+              522258.923,
+              184706.915
+            ],
+            [
+              522252.5,
+              184711.1
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "epc_number": null,
   "decision_conditions": null,
   "appeal_decision_date": null,
   "uprn": "202129824",
   "reference_no_of_permission_being_relied_on": null,
   "decision_process": "Delegated",
-  "last_updated": "2025-07-09T08:01:52.555Z",
+  "last_updated": "2025-09-12T08:01:51.326Z",
   "decision_agency": null,
   "parking_details": {
     "no_proposed_lgv": null,
