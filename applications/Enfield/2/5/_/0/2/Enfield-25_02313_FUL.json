@@ -53,8 +53,8 @@
   "uprn": "000207195562",
   "actual_completion_date": null,
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated": "2025-08-04T20:07:04.472Z",
-  "cil_liability": null,
+  "last_updated": "2025-09-15T20:03:37.507Z",
+  "cil_liability": false,
   "wgs84_polygon": {
     "type": "Polygon",
     "coordinates": [
@@ -125,10 +125,10 @@
     "total_gia_existing": 50,
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 26,
+        "gia_existing": 50,
         "use_class": "C3",
-        "gia_lost": 0,
-        "gia_existing": 50
+        "gia_gained": 26,
+        "gia_lost": 0
       }
     ],
     "residential_details": {
@@ -152,21 +152,21 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "change_type": "Gain",
           "m42_compliant": false,
+          "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Terraced Home",
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
           "unit_no": null,
           "no_bedrooms": 2,
-          "change_type": "Gain",
-          "m43_2a_compliant": false,
-          "garden_land": false,
           "provision_for_older_persons": false,
-          "phase_detail": null,
-          "sheltered_accommodation": false,
-          "description": null,
-          "provider": "Private",
           "gia": 76,
-          "m43_2b_compliant": false,
-          "no_habitable_rooms": 3,
           "tenure": "Market for sale"
         }
       ],
@@ -219,8 +219,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "10/2025",
-        "intended_completion_date": "07/2026"
+        "intended_completion_date": "07/2026",
+        "intended_commencement_date": "10/2025"
       }
     ],
     "surface_water_discharge_percentage_reduction": 0,
