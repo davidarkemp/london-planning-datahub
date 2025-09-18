@@ -2,7 +2,7 @@
   "valid_date": "07/12/2024",
   "epc_number": null,
   "site_name": null,
-  "cil_liability": null,
+  "cil_liability": false,
   "polygon": {
     "geometries": [
       {
@@ -64,7 +64,7 @@
     "no_existing_car": 1
   },
   "application_type_full": "Full planning permission",
-  "ward": null,
+  "ward": "",
   "last_date_consultation_comments": "07/01/2025",
   "centroid_easting": 547255,
   "appeal_decision_date": "28/07/2025",
@@ -76,12 +76,12 @@
   "decision_target_date": "31/01/2025",
   "street_name": "Brian Road",
   "decision_process": null,
-  "last_updated_by": "Agile APAS",
+  "last_updated_by": "Portal",
   "centroid_northing": 188578,
   "application_type": "All Other",
-  "title_number": null,
+  "title_number": [],
   "decision_conditions": [
-    "1.  The appeal is allowed and planning permission is granted for a change of use from\r\ndwellinghouse (Use Class C3) to House in Multiple Occupation (Use Class C4) at\r\n26 Brian Road, Chadwell Heath, Romford, Redbridge RM6 5DA in accordance\r\nwith the terms of the application, Ref 3253/24, subject to the following conditions:\r\n1)  The development hereby permitted shall begin not later than three years from\r\nthe date of this decision.\r\n2)  The development hereby permitted shall be carried out in accordance with\r\nthe Location Plan dated 25 November 2024, and drawing nos 2558-002 and\r\n2558-003.\r\n3)  The HMO Management Plan, ref. 26BR-2558-HMO-02, shall be implemented\r\nprior to the occupation of the development hereby permitted and shall be\r\nretained and operated for so long as the use hereby permitted continues.\r\n4)  The Planning Fire Safety Strategy for 26 Brian Road, Romford RM6 5DA,\r\ndated 5 December 2024, shall be implemented prior to the occupation of the\r\ndevelopment hereby permitted and shall be retained and operated for so long\r\nas the use hereby permitted continues.\r\n5)  The development hereby permitted shall not be occupied until details of the\r\ncycle parking arrangement and facilities have been submitted to, and\r\napproved in writing, by the local planning authority. The approved details\r\nshall be adhered to thereafter."
+    "1.  The appeal is allowed and planning permission is granted for a change of use from\ndwellinghouse (Use Class C3) to House in Multiple Occupation (Use Class C4) at\n26 Brian Road, Chadwell Heath, Romford, Redbridge RM6 5DA in accordance\nwith the terms of the application, Ref 3253/24, subject to the following conditions:\n1)  The development hereby permitted shall begin not later than three years from\nthe date of this decision.\n2)  The development hereby permitted shall be carried out in accordance with\nthe Location Plan dated 25 November 2024, and drawing nos 2558-002 and\n2558-003.\n3)  The HMO Management Plan, ref. 26BR-2558-HMO-02, shall be implemented\nprior to the occupation of the development hereby permitted and shall be\nretained and operated for so long as the use hereby permitted continues.\n4)  The Planning Fire Safety Strategy for 26 Brian Road, Romford RM6 5DA,\ndated 5 December 2024, shall be implemented prior to the occupation of the\ndevelopment hereby permitted and shall be retained and operated for so long\nas the use hereby permitted continues.\n5)  The development hereby permitted shall not be occupied until details of the\ncycle parking arrangement and facilities have been submitted to, and\napproved in writing, by the local planning authority. The approved details\nshall be adhered to thereafter."
   ],
   "appeal_start_date": "04/03/2025",
   "development_type": null,
@@ -89,24 +89,44 @@
     "coordinates": [
       [
         [
-          0.123691,
-          51.576851
+          0.123613,
+          51.576884
         ],
         [
-          0.12369,
-          51.576824
+          0.123726,
+          51.576861
         ],
         [
-          0.123647,
-          51.576825
+          0.124059,
+          51.576793
         ],
         [
-          0.123648,
-          51.576852
+          0.124036,
+          51.576749
         ],
         [
-          0.123691,
-          51.576851
+          0.124035,
+          51.576746
+        ],
+        [
+          0.123702,
+          51.576815
+        ],
+        [
+          0.123604,
+          51.576835
+        ],
+        [
+          0.123537,
+          51.57685
+        ],
+        [
+          0.12356,
+          51.576895
+        ],
+        [
+          0.123613,
+          51.576884
         ]
       ]
     ],
@@ -118,7 +138,7 @@
   "pp_id": "PP-13591195",
   "url_planning_app": null,
   "lpa_name": "Redbridge",
-  "bo_system": "Agile APAS",
+  "bo_system": "Portal",
   "subdivision_of_building": null,
   "secondary_street_name": null,
   "date_building_work_started_under_previous_permission": null,
@@ -127,7 +147,7 @@
     "lon": 0.123669
   },
   "status": "Appeal in Progress",
-  "last_updated": "2025-08-02T00:00:39.776Z",
+  "last_updated": "2025-09-16T09:15:38.270Z",
   "actual_completion_date": null,
   "lapsed_date": "31/01/2028",
   "borough": "Redbridge",
@@ -143,8 +163,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "03/2025",
-        "intended_completion_date": "04/2025"
+        "intended_completion_date": "04/2025",
+        "intended_commencement_date": "03/2025"
       }
     ],
     "green_suds": false,
@@ -158,7 +178,7 @@
       "fire_suppression_system_proposed": false,
       "no_resi_units_to_have_full_fibre": 0,
       "green_roof_area": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "ghg_reduction_over_building_regulations": false,
       "mobile_network_operators_consultation": false,
       "no_new_gas_connections_required": 0,
@@ -170,20 +190,21 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_existing": 100,
       "total_gia_lost": 100,
-      "total_non_resi_gross_internal_floor_area_to_be_gained": 0
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "site_area": 0.02
     },
     "lead_developer_company_name": "Highways & Cleansing",
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 100,
-        "gia_gained": 0,
         "use_class": "C3",
+        "gia_gained": 0,
         "gia_lost": 100
       },
       {
         "gia_existing": 0,
-        "gia_gained": 100,
         "use_class": "C4",
+        "gia_gained": 100,
         "gia_lost": 0
       }
     ],
@@ -192,8 +213,87 @@
     "rain_water_harvesting": false,
     "surface_water_discharge_percentage_reduction": 0,
     "ownership_status": "Private",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "total_gia_existing": 100,
-    "garden_land_lost": false
+    "garden_land_lost": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.02
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "residential_details": {
+      "total_no_proposed_residential_units_shared_equity": 0,
+      "total_no_proposed_bedrooms": 4,
+      "total_no_proposed_residential_units": 1,
+      "total_no_proposed_residential_units_london_living_rent": 0,
+      "total_no_existing_residential_units": 1,
+      "total_no_proposed_residential_affordable_units": 0,
+      "total_no_proposed_residential_units_affordable_rent": 0,
+      "total_no_proposed_residential_units_discount_market_sale": 0,
+      "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_london_living_rent": 0,
+      "total_no_existing_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_units_shared_equity": 0,
+      "total_no_existing_residential_units_intermediate": 0,
+      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_existing_residential_units_social_rent": 0,
+      "total_no_proposed_residential_units_self_build_and_custom_build": 0,
+      "total_no_existing_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_affordable_units": 0,
+      "total_no_existing_residential_units_affordable_rent": 0,
+      "habitable_rooms_density": 0,
+      "total_no_existing_residential_units_london_shared_ownership": 0,
+      "total_gia_gained": 100,
+      "total_no_proposed_residential_units_social_rent": 0,
+      "total_no_existing_residential_units_london_affordable_rent": 0,
+      "dwelling_density": 50,
+      "site_area": 0.02,
+      "total_no_proposed_residential_units_london_affordable_rent": 0,
+      "total_no_proposed_residential_units_starter_homes": 0,
+      "total_no_existing_residential_units_discount_market_sale": 0,
+      "total_gia_lost": 100,
+      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_starter_homes": 0,
+      "total_no_proposed_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_intermediate": 0,
+      "total_no_proposed_residential_units_london_shared_ownership": 0,
+      "affordable_percentage": 0,
+      "residential_units": [
+        {
+          "actual_completion_date": "09/09/2025",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Loss",
+          "actual_commencement_date": "09/09/2025",
+          "no_bedrooms": 3,
+          "unit_type": "House or Bungalow",
+          "provision_for_older_persons": false,
+          "gia": null
+        },
+        {
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Gain",
+          "actual_commencement_date": "09/09/2025",
+          "no_bedrooms": 4,
+          "unit_type": "HMO",
+          "provision_for_older_persons": false,
+          "gia": null
+        }
+      ],
+      "total_no_existing_residential_units_market_for_rent": 0,
+      "total_no_existing_residential_units_self_build_and_custom_build": 0
+    }
   }
 }
