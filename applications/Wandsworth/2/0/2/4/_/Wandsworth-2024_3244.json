@@ -7,7 +7,7 @@
   "development_type": "Minor dwellings",
   "application_type": "All Other",
   "appeal_status": null,
-  "title_number": null,
+  "title_number": [],
   "postcode": "SW17 0QL",
   "locality": "London",
   "appeal_decision": null,
@@ -27,8 +27,8 @@
     "phasing_details": [
       {
         "phase_detail": "Conversion of a single dwelling with two self contained flats to four self contained flats",
-        "intended_completion_date": "06/2025",
-        "intended_commencement_date": "11/2024"
+        "intended_commencement_date": "11/2024",
+        "intended_completion_date": "06/2025"
       }
     ],
     "total_gia_gained": 219,
@@ -98,32 +98,36 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
+          "actual_completion_date": "25/02/2025",
+          "description": null,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
           "no_habitable_rooms": 3,
           "phase_detail": null,
           "unit_no": "Loss-1",
+          "actual_commencement_date": "25/02/2025",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 62
+        },
+        {
+          "actual_completion_date": "25/02/2025",
           "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "actual_commencement_date": "25/02/2025",
           "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 2,
-          "provision_for_older_persons": false,
-          "gia": 62,
-          "tenure": "Market for sale"
-        },
-        {
+          "unit_development_type": "Conversion",
           "no_habitable_rooms": 3,
           "phase_detail": null,
           "unit_no": "Loss-2",
-          "description": null,
-          "change_type": "Loss",
-          "sheltered_accommodation": false,
           "actual_commencement_date": "25/02/2025",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "gia": 62,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 62
         },
         {
           "phase_detail": null,
@@ -133,63 +137,68 @@
           "actual_commencement_date": "25/02/2025",
           "unit_type": "Communal Space",
           "provision_for_older_persons": false,
+          "unit_development_type": "Conversion",
           "gia": 3.45
         },
         {
-          "no_habitable_rooms": 3,
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
           "provider": "Private",
+          "no_habitable_rooms": 3,
           "phase_detail": null,
           "unit_no": "Gain-2",
-          "description": null,
-          "change_type": "Gain",
           "actual_commencement_date": "25/02/2025",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "gia": 60.68,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 60.68
         },
         {
-          "no_habitable_rooms": 2,
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
           "provider": "Private",
+          "no_habitable_rooms": 2,
           "phase_detail": null,
           "unit_no": "Gain-3",
-          "description": null,
-          "change_type": "Gain",
           "actual_commencement_date": "25/02/2025",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "gia": 52.1,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 52.1
         },
         {
-          "no_habitable_rooms": 2,
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
           "provider": "Private",
+          "no_habitable_rooms": 2,
           "phase_detail": null,
           "unit_no": "Gain-4",
-          "description": null,
-          "change_type": "Gain",
           "actual_commencement_date": "25/02/2025",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "gia": 41,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 41
         },
         {
-          "no_habitable_rooms": 4,
-          "provider": "Private",
-          "phase_detail": null,
-          "unit_no": "Gain-5",
           "description": null,
           "change_type": "Gain",
-          "actual_commencement_date": "25/02/2025",
           "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
+          "provider": "Private",
+          "no_habitable_rooms": 4,
+          "phase_detail": null,
+          "unit_no": "Gain-5",
+          "actual_commencement_date": "25/02/2025",
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "gia": 86,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 86
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -225,7 +234,8 @@
     },
     "3d_model": false,
     "borough_cil_liability_notice_issued": false,
-    "transport_impact_assessment": false
+    "transport_impact_assessment": false,
+    "existing_uprns": []
   },
   "application_type_full": "Full planning permission",
   "cil_liability": false,
@@ -376,7 +386,7 @@
   "uprn": "100023321447",
   "reference_no_of_permission_being_relied_on": null,
   "decision_process": null,
-  "last_updated": "2025-08-13T12:32:24.846Z",
+  "last_updated": "2025-09-22T14:30:34.202Z",
   "decision_agency": "Borough",
   "parking_details": null,
   "lapsed_date": "25/02/2028",
