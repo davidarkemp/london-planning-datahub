@@ -2,7 +2,7 @@
   "lpa_app_no": "233731CPE",
   "uprn": "000012101706",
   "lapsed_date": "03/11/2026",
-  "centroid_northing": "180661",
+  "centroid_northing": 180661,
   "site_number": null,
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "CSV Data Import",
@@ -10,7 +10,69 @@
   "appeal_decision_date": null,
   "valid_date": "11/09/2023",
   "decision_date": "03/11/2023",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.26668000000000003,
+          51.5120792
+        ],
+        [
+          -0.2666754,
+          51.5120302
+        ],
+        [
+          -0.2666126,
+          51.512031
+        ],
+        [
+          -0.2666098,
+          51.512031
+        ],
+        [
+          -0.266495,
+          51.5120351
+        ],
+        [
+          -0.2664921,
+          51.5120351
+        ],
+        [
+          -0.2662526,
+          51.5120441
+        ],
+        [
+          -0.2662547,
+          51.5120824
+        ],
+        [
+          -0.2662558,
+          51.5120923
+        ],
+        [
+          -0.266355,
+          51.5120879
+        ],
+        [
+          -0.26635919999999996,
+          51.5120878
+        ],
+        [
+          -0.2663878,
+          51.5120875
+        ],
+        [
+          -0.2666172,
+          51.512081
+        ],
+        [
+          -0.26668000000000003,
+          51.5120792
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "last_updated_by": "FME Excel Import",
   "appeal_start_date": null,
   "reference_no_of_permission_being_relied_on": null,
@@ -56,7 +118,7 @@
       "open_space_mol_area_gain": 0,
       "open_space_green_belt_area_loss": 0
     },
-    "site_area": null,
+    "site_area": 0.016,
     "existing_proposed_floorspace_details": [],
     "constraints_details": [],
     "grey_water_reuse": null,
@@ -120,11 +182,11 @@
     "garden_land_lost": null,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_bedrooms": 0,
+      "total_no_proposed_bedrooms": 2,
       "total_no_proposed_residential_units_london_living_rent": 0,
-      "total_no_proposed_residential_units": 0,
+      "total_no_proposed_residential_units": 2,
       "total_no_proposed_residential_affordable_units": 0,
-      "total_no_existing_residential_units": 0,
+      "total_no_existing_residential_units": 1,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
@@ -156,7 +218,32 @@
       "total_no_proposed_residential_units_intermediate": 0,
       "affordable_percentage": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
-      "residential_units": [],
+      "residential_units": [
+        {
+          "actual_completion_date": "03/11/2023",
+          "change_type": "Loss",
+          "actual_commencement_date": "03/11/2023",
+          "unit_type": "House or Bungalow",
+          "no_bedrooms": 1,
+          "unit_development_type": "Conversion"
+        },
+        {
+          "actual_completion_date": "03/11/2023",
+          "change_type": "Gain",
+          "actual_commencement_date": "03/11/2023",
+          "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
+          "unit_development_type": "Conversion"
+        },
+        {
+          "actual_completion_date": "03/11/2023",
+          "change_type": "Gain",
+          "actual_commencement_date": "03/11/2023",
+          "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
+          "unit_development_type": "Conversion"
+        }
+      ],
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0
     },
@@ -167,7 +254,7 @@
   "postcode": "W3 6SZ",
   "development_type": "Certificates of Lawful Development",
   "title_number": [],
-  "centroid_easting": "520388",
+  "centroid_easting": 520392,
   "actual_commencement_date": "03/11/2023",
   "description": "Continued use of a dwellinghouse as two self-contained residential units (Lawful Development Certificate for an Existing Use)",
   "decision": "Approved",
@@ -176,8 +263,8 @@
   "epc_number": null,
   "subdivision_of_building": null,
   "centroid": {
-    "lon": -0.266547,
-    "lat": 51.512059
+    "lon": "-0.2664667",
+    "lat": "51.512059"
   },
   "url_planning_app": "https://pam.ealing.gov.uk/online-applications/PLAN/233731CPE;",
   "pp_id": "PP-12447367",
@@ -224,9 +311,76 @@
     "net_bluebadge": null,
     "net_carclub": null
   },
-  "last_updated": "2025-03-19T21:10:02.441+00:00",
+  "last_updated": "2025-09-24T01:30:27.140+01:00",
   "appeal_status": null,
   "street_name": "Maldon Road",
   "ward": "North Acton",
-  "polygon": null
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              520377.15,
+              180662.9
+            ],
+            [
+              520377.6,
+              180657.45
+            ],
+            [
+              520381.95,
+              180657.65
+            ],
+            [
+              520382.15,
+              180657.65
+            ],
+            [
+              520390.1,
+              180658.3
+            ],
+            [
+              520390.3,
+              180658.3
+            ],
+            [
+              520406.9,
+              180659.7
+            ],
+            [
+              520406.65,
+              180663.95
+            ],
+            [
+              520406.55,
+              180665.05
+            ],
+            [
+              520399.674,
+              180664.398
+            ],
+            [
+              520399.382,
+              180664.385
+            ],
+            [
+              520397.4,
+              180664.3
+            ],
+            [
+              520381.5,
+              180663.2
+            ],
+            [
+              520377.15,
+              180662.9
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  }
 }

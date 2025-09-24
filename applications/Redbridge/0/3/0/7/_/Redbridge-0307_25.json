@@ -17,7 +17,7 @@
   "decision_conditions": null,
   "postcode": "IG8 0DL",
   "decision_date": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Agile APAS",
   "centroid_easting": 540590,
   "secondary_street_name": null,
   "appeal_status": null,
@@ -29,7 +29,7 @@
     "no_existing_car": 2
   },
   "development_type": null,
-  "last_updated": "2025-09-03T02:17:55.891Z",
+  "last_updated": "2025-09-24T00:00:40.623Z",
   "last_date_consultation_comments": "22/09/2025",
   "uprn": "100022269334",
   "application_type_full": "Full planning permission",
@@ -77,17 +77,72 @@
   "application_type": "All Other",
   "borough": "Redbridge",
   "locality": null,
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              540585.6,
+              191650.3
+            ],
+            [
+              540584.4,
+              191647.9
+            ],
+            [
+              540588.75,
+              191645.65
+            ],
+            [
+              540590,
+              191648.15
+            ],
+            [
+              540590.9,
+              191649.85
+            ],
+            [
+              540592.25,
+              191652.55
+            ],
+            [
+              540594.5,
+              191657
+            ],
+            [
+              540596.9,
+              191661.65
+            ],
+            [
+              540592.37,
+              191663.92
+            ],
+            [
+              540590.05,
+              191659.25
+            ],
+            [
+              540585.6,
+              191650.3
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "valid_date": "19/06/2025",
   "application_details": {
-    "site_area": 0.01,
+    "site_area": 0.009,
     "projected_cost_of_works": "Up to £2m",
     "scheme_phasing": true,
     "phasing_details": [
       {
         "phase_detail": "entire ",
-        "intended_completion_date": "06/2025",
-        "intended_commencement_date": "06/2025"
+        "intended_commencement_date": "06/2025",
+        "intended_completion_date": "06/2025"
       }
     ],
     "total_gia_lost": 130,
@@ -97,8 +152,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 130,
-        "gia_gained": 130,
         "use_class": "C3",
+        "gia_gained": 130,
         "gia_lost": 130
       }
     ],
@@ -131,21 +186,21 @@
           "unit_no": "Loss-1",
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 4,
           "unit_type": "Terraced Home",
+          "no_bedrooms": 4,
           "provision_for_older_persons": false,
-          "gia": 130,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 130
         },
         {
-          "no_habitable_rooms": 6,
           "provider": "Private",
+          "no_habitable_rooms": 6,
           "unit_no": "Gain-1",
           "change_type": "Gain",
-          "no_bedrooms": 5,
           "unit_type": "HMO",
-          "gia": 130,
-          "tenure": "Market for rent"
+          "no_bedrooms": 5,
+          "tenure": "Market for rent",
+          "gia": 130
         }
       ],
       "habitable_rooms_density": null,
