@@ -10,7 +10,7 @@
   "valid_date": "09/09/2025",
   "last_date_consultation_comments": "10/10/2025",
   "secondary_street_name": null,
-  "cil_liability": null,
+  "cil_liability": false,
   "application_type": "All Other",
   "reference_no_of_permission_being_relied_on": null,
   "centroid_northing": 166524,
@@ -59,7 +59,7 @@
   "decision": null,
   "status": "Application Under Consideration",
   "ward": "Beddington",
-  "last_updated": "2025-09-22T20:04:32.193Z",
+  "last_updated": "2025-09-25T20:03:48.875Z",
   "decision_date": null,
   "application_details": {
     "grey_water_reuse": false,
@@ -123,8 +123,8 @@
       "waste_details": [
         {
           "external_dry_recycling": false,
-          "unit_reference": "Trans. - Residential",
           "external_food_waste": false,
+          "unit_reference": "Trans. - Residential",
           "external_residual_waste": false,
           "reason_for_no_provision": "Not Required",
           "internal_residual_waste": false,
@@ -362,10 +362,10 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "SG",
-        "gia_lost": 0,
         "gia_existing": 0,
-        "gia_gained": 11
+        "use_class": "SG",
+        "gia_gained": 11,
+        "gia_lost": 0
       }
     ],
     "garden_land_lost": false,
@@ -393,7 +393,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -417,7 +416,8 @@
               166512.279874999
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
