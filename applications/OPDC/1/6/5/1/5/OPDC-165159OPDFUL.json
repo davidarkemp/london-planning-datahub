@@ -4,7 +4,7 @@
   "decision_date": "28/11/2016",
   "epc_number": null,
   "application_type_full": "Full planning permission",
-  "bo_system": "FME Legacy Data Import",
+  "bo_system": "Portal",
   "id": "OPDC-165159OPDFUL",
   "secondary_street_name": null,
   "appeal_status": null,
@@ -14,7 +14,8 @@
     "other_residential_accommodation_details": {
       "no_council_tax_rateable_units_lost": 0,
       "other_resi_accommodation_unit_details": [],
-      "no_council_tax_rateable_units_gained": 0
+      "no_council_tax_rateable_units_gained": 0,
+      "site_area": 0.08600000000000001
     },
     "affordable_housing_inlieu_payment": null,
     "residential_details": {
@@ -33,7 +34,7 @@
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "residential_units": [],
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
@@ -49,7 +50,7 @@
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
-      "site_area": null,
+      "site_area": 0.08600000000000001,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_bedrooms": 0,
       "total_no_existing_residential_units_intermediate": 0,
@@ -60,51 +61,29 @@
     "non_residential_details": {
       "development_type": "Change of Use",
       "site_area": 0.07,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 862,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 930,
       "total_gia_gained": 862,
       "total_gia_lost": 862,
-      "total_non_resi_gross_internal_floor_area_to_be_gained": 1293
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 930
     },
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 0,
-        "superseded_date": null,
-        "actual_completion_date": null,
-        "use_class": "B1",
-        "gia_gained": 431,
-        "actual_commencement_date": null,
-        "superseded_by_lpa_app_no": null,
-        "gia_lost": 0
-      },
-      {
-        "gia_existing": 0,
-        "superseded_date": null,
-        "actual_completion_date": null,
         "use_class": "B1c",
-        "gia_gained": 431,
-        "actual_commencement_date": null,
-        "superseded_by_lpa_app_no": null,
+        "gia_gained": 465,
         "gia_lost": 0
       },
       {
         "gia_existing": 0,
-        "superseded_date": null,
-        "actual_completion_date": null,
         "use_class": "B2",
-        "gia_gained": 431,
-        "actual_commencement_date": null,
-        "superseded_by_lpa_app_no": null,
+        "gia_gained": 465,
         "gia_lost": 0
       },
       {
         "gia_existing": -1,
-        "superseded_date": null,
-        "actual_completion_date": null,
         "use_class": "B8",
         "gia_gained": 0,
-        "actual_commencement_date": null,
-        "superseded_by_lpa_app_no": null,
-        "gia_lost": 862
+        "gia_lost": 930
       }
     ],
     "superseding_details": [],
@@ -138,14 +117,37 @@
         "result": "PIL / IBP - Park Royal",
         "constraints_layer_description": "Strategic Industrial Location"
       }
-    ]
+    ],
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "scheme_phasing": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "infrastructure_details": {
+      "waste_provision": false,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "site_area": 0.08600000000000001,
+    "transport_impact_assessment": false,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "garden_land_lost": false
   },
   "valid_date": null,
   "reference_no_of_permission_being_relied_on": null,
   "description": "Change of use of building from warehouse (Use class B8) to commercial bakery (Use class B1(c) & B2) with ancillary retail/trade shop.",
   "decision_conditions": null,
   "date_building_work_started_under_previous_permission": null,
-  "last_updated": "2025-08-14T12:02:37.443+01:00",
+  "last_updated": "2025-10-02T17:03:27.484Z",
   "ward": "EAST ACTON",
   "parking_details": {
     "no_proposed_lgv": null,
@@ -174,8 +176,8 @@
   "lapsed_date": "28/11/2019",
   "decision_target_date": null,
   "centroid": {
-    "lat": 51.533355,
-    "lon": -0.260014
+    "lat": 51.533365,
+    "lon": -0.260072
   },
   "lpa_app_no": "165159OPDFUL",
   "status": "Lapsed",
@@ -184,7 +186,47 @@
   "locality": "Park Royal",
   "polygon": {
     "geometries": [],
-    "type": "geometrycollection"
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          520785.75,
+          183022.6
+        ],
+        [
+          520787.3,
+          183022.95
+        ],
+        [
+          520790.28,
+          183023.65
+        ],
+        [
+          520788.9,
+          183029.4
+        ],
+        [
+          520796,
+          183030.95
+        ],
+        [
+          520788.95,
+          183061.05
+        ],
+        [
+          520765.15,
+          183055.7
+        ],
+        [
+          520773.25,
+          183019.8
+        ],
+        [
+          520785.75,
+          183022.6
+        ]
+      ]
+    ]
   },
   "development_type": "Change of Use",
   "last_date_consultation_comments": null,
@@ -192,43 +234,43 @@
   "decision_process": null,
   "decision_agency": "Borough",
   "date_building_work_completed_under_previous_permission": null,
-  "last_updated_by": "FME Legacy Data Import",
+  "last_updated_by": "Portal",
   "site_number": "29-35",
   "application_type": "All Other",
   "actual_completion_date": null,
-  "title_number": null,
+  "title_number": [],
   "actual_commencement_date": null,
   "street_name": "North Acton Road",
   "pp_id": null,
   "subdivision_of_building": "Unit 1, The Royal London Estate",
-  "cil_liability": null,
-  "centroid_easting": 520785,
+  "cil_liability": false,
+  "centroid_easting": 520781,
   "appeal_start_date": null,
-  "centroid_northing": 183040,
+  "centroid_northing": 183041,
   "borough": "Ealing",
   "decision": "Approved",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.259992,
-          51.533368
+          -0.260049,
+          51.533378
         ],
         [
-          -0.259993,
-          51.533341
+          -0.260051,
+          51.533351
         ],
         [
-          -0.260036,
-          51.533342
+          -0.260094,
+          51.533351
         ],
         [
-          -0.260035,
-          51.533369
+          -0.260093,
+          51.533378
         ],
         [
-          -0.259992,
-          51.533368
+          -0.260049,
+          51.533378
         ]
       ]
     ],
