@@ -8,13 +8,13 @@
   "application_type": "All Other",
   "appeal_status": null,
   "title_number": [],
-  "postcode": null,
+  "postcode": "",
   "locality": null,
   "appeal_decision": null,
   "status": "Approved",
   "pp_id": "PP-13249258",
-  "street_name": null,
-  "last_updated_by": "CSV Data Import",
+  "street_name": "",
+  "last_updated_by": "Portal",
   "lpa_name": "Brent",
   "centroid": {
     "lon": -0.306799,
@@ -23,7 +23,7 @@
   "lpa_app_no": "24/2052",
   "borough": "Brent",
   "application_details": {
-    "existing_uprns": null,
+    "existing_uprns": [],
     "affordable_housing_fast_track": false,
     "phasing_details": [
       {
@@ -46,7 +46,7 @@
     ],
     "projected_cost_of_works": "Up to £2m",
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "building_details": [
       {
         "no_storeys": 2,
@@ -64,22 +64,22 @@
       "total_gia_existing": 140,
       "total_gia_lost": 140,
       "development_type": null,
-      "site_area": null
+      "site_area": 0.116
     },
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_proposed_bedrooms": 14,
       "total_no_proposed_residential_units": 4,
       "total_no_proposed_residential_units_london_living_rent": 0,
-      "total_no_existing_residential_units": 0,
+      "total_no_existing_residential_units": 1,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_shared_equity": 0,
-      "total_no_existing_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_units_market_for_sale": 1,
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_social_rent": 0,
@@ -87,13 +87,13 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 4,
       "total_no_existing_residential_affordable_units": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 224.13793103448273,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 654,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 34.48275862068965,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_gia_lost": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -106,51 +106,79 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "provider": "Private",
           "no_habitable_rooms": 7,
+          "provider": "Private",
+          "phase_detail": null,
           "unit_no": "Gain-1",
+          "description": null,
           "change_type": "Gain",
-          "unit_type": "Semi Detached Home",
           "no_bedrooms": 4,
-          "tenure": "Market for sale",
-          "gia": 180
+          "unit_type": "Semi Detached Home",
+          "provision_for_older_persons": false,
+          "unit_development_type": "New Build",
+          "gia": 180,
+          "tenure": "Market for sale"
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 7,
+          "provider": "Private",
+          "phase_detail": null,
           "unit_no": "Gain-2",
+          "description": null,
           "change_type": "Gain",
-          "unit_type": "Semi Detached Home",
           "no_bedrooms": 4,
-          "tenure": "Market for sale",
-          "gia": 180
+          "unit_type": "Semi Detached Home",
+          "provision_for_older_persons": false,
+          "unit_development_type": "New Build",
+          "gia": 180,
+          "tenure": "Market for sale"
         },
         {
-          "provider": "Private",
+          "description": null,
+          "change_type": "Gain",
+          "garden_land": true,
+          "unit_type": "Semi Detached Home",
+          "unit_development_type": "New Build",
           "no_habitable_rooms": 6,
+          "provider": "Private",
+          "phase_detail": null,
           "unit_no": "Gain-3",
-          "change_type": "Gain",
-          "garden_land": true,
-          "unit_type": "Semi Detached Home",
           "no_bedrooms": 3,
-          "tenure": "Market for sale",
-          "gia": 147
+          "provision_for_older_persons": false,
+          "gia": 147,
+          "tenure": "Market for sale"
         },
         {
-          "provider": "Private",
-          "no_habitable_rooms": 6,
-          "unit_no": "Gain-4",
+          "description": null,
           "change_type": "Gain",
           "garden_land": true,
           "unit_type": "Semi Detached Home",
+          "unit_development_type": "New Build",
+          "no_habitable_rooms": 6,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": "Gain-4",
           "no_bedrooms": 3,
-          "tenure": "Market for sale",
-          "gia": 147
+          "provision_for_older_persons": false,
+          "gia": 147,
+          "tenure": "Market for sale"
+        },
+        {
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Loss",
+          "no_bedrooms": 3,
+          "unit_type": "House or Bungalow",
+          "provision_for_older_persons": false,
+          "unit_development_type": "New Build",
+          "gia": null,
+          "tenure": "Market for sale"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
-      "site_area": null
+      "site_area": 0.116
     },
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
@@ -162,7 +190,7 @@
       "no_passive_slow_ev_charging_points": 4,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 10,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
@@ -183,14 +211,14 @@
     },
     "internal_resi_water_usage": 110,
     "ownership_status": "Private",
-    "s106_agreement": null,
+    "s106_agreement": false,
     "affordable_housing_inlieu_payment": null,
-    "air_quality_assessment": null,
+    "air_quality_assessment": false,
     "other_contributions": null,
     "intended_commencement_date": null,
     "no_affordable_housing_units_provided_offsite": null,
-    "commencement_notice_received": null,
-    "circular_economy_statement": null,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
     "qualifying_vacant_building_floorspace": null,
     "open_and_protected_space_details": {
       "open_space_local_and_other_area_gain": 0,
@@ -206,239 +234,239 @@
     "constraints_details": [],
     "superseding_details": [],
     "lead_registered_social_landlord": null,
-    "viability_assessment": null,
+    "viability_assessment": false,
     "overseas_company_registration_no": null,
-    "mayoral_cil_liability_notice_issued": null,
+    "mayoral_cil_liability_notice_issued": false,
     "non_permanent_dwellings_details": [],
     "intended_completion_date": null,
     "other_residential_accommodation_details": {
       "no_council_tax_rateable_units_gained": null,
       "no_council_tax_rateable_units_lost": null,
-      "site_area": null,
+      "site_area": 0.116,
       "other_resi_accommodation_unit_details": []
     },
     "uk_company_registration_no": null,
-    "3d_model": null,
+    "3d_model": false,
     "transport_contributions": null,
     "no_affordable_housing_units_acquired_offsite": null,
-    "borough_cil_liability_notice_issued": null,
-    "transport_impact_assessment": null,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
     "social_infrastructure_contributions": null,
     "scheme_name": null,
     "lead_developer_company_name": null
   },
   "application_type_full": "Full planning permission",
-  "cil_liability": null,
+  "cil_liability": false,
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.3075411,
-          51.5536808
+          -0.307564,
+          51.553679
         ],
         [
-          -0.30748359999999997,
-          51.5535393
+          -0.307507,
+          51.553538
         ],
         [
-          -0.307483,
-          51.5535375
+          -0.307506,
+          51.553536
         ],
         [
-          -0.30683469999999996,
-          51.5535533
+          -0.306858,
+          51.553552
         ],
         [
-          -0.30681379999999997,
-          51.5535535
+          -0.306837,
+          51.553552
         ],
         [
-          -0.30681339999999996,
-          51.5535458
+          -0.306836,
+          51.553544
         ],
         [
-          -0.3067434,
-          51.553547
+          -0.306766,
+          51.553545
         ],
         [
-          -0.30671149999999997,
-          51.5535476
+          -0.306734,
+          51.553546
         ],
         [
-          -0.3066055,
-          51.5535495
+          -0.306628,
+          51.553548
         ],
         [
-          -0.30654909999999996,
-          51.5535528
+          -0.306572,
+          51.553551
         ],
         [
-          -0.3065543,
-          51.5536275
+          -0.306577,
+          51.553626
         ],
         [
-          -0.3065564,
-          51.5536496
+          -0.306579,
+          51.553648
         ],
         [
-          -0.3065613,
-          51.5536717
+          -0.306584,
+          51.55367
         ],
         [
-          -0.30656449999999996,
-          51.5536825
+          -0.306587,
+          51.553681
         ],
         [
-          -0.3065692,
-          51.5536934
+          -0.306592,
+          51.553692
         ],
         [
-          -0.30657049999999997,
-          51.5536956
+          -0.306593,
+          51.553694
         ],
         [
-          -0.3065775,
-          51.5537029
+          -0.3066,
+          51.553701
         ],
         [
-          -0.3065852,
-          51.5537098
-        ],
-        [
-          -0.30659149999999996,
-          51.5537135
-        ],
-        [
-          -0.30659939999999997,
-          51.5537154
-        ],
-        [
-          -0.3066044,
-          51.5537168
-        ],
-        [
-          -0.3066122,
-          51.5537183
-        ],
-        [
-          -0.3066194,
-          51.5537197
-        ],
-        [
-          -0.30662659999999997,
-          51.5537207
-        ],
-        [
-          -0.3066345,
-          51.5537213
-        ],
-        [
-          -0.3066453,
-          51.5537214
-        ],
-        [
-          -0.3066789,
-          51.5537223
-        ],
-        [
-          -0.3067567,
-          51.5537245
-        ],
-        [
-          -0.3068087,
-          51.553726
-        ],
-        [
-          -0.30683699999999997,
-          51.5537269
-        ],
-        [
-          -0.3068586,
-          51.5537272
-        ],
-        [
-          -0.30686579999999997,
-          51.5537264
-        ],
-        [
-          -0.3068724,
-          51.5537247
-        ],
-        [
-          -0.30687749999999997,
-          51.553723
-        ],
-        [
-          -0.3068848,
-          51.5537208
-        ],
-        [
-          -0.3068906,
-          51.5537187
-        ],
-        [
-          -0.3069016,
-          51.5537143
-        ],
-        [
-          -0.3069089,
-          51.5537117
-        ],
-        [
-          -0.3069155,
-          51.55371
-        ],
-        [
-          -0.30692559999999997,
-          51.5537084
-        ],
-        [
-          -0.3069358,
-          51.5537072
-        ],
-        [
-          -0.306948,
-          51.5537069
-        ],
-        [
-          -0.3069617,
+          -0.306608,
           51.553708
         ],
         [
-          -0.3069732,
-          51.5537095
+          -0.306614,
+          51.553712
         ],
         [
-          -0.3069839,
-          51.5537115
+          -0.306622,
+          51.553714
         ],
         [
-          -0.306994,
-          51.5537134
+          -0.306627,
+          51.553715
         ],
         [
-          -0.3070025,
-          51.5537167
+          -0.306635,
+          51.553717
         ],
         [
-          -0.3070082,
-          51.5537195
+          -0.306642,
+          51.553718
         ],
         [
-          -0.3070496,
-          51.5536922
+          -0.30665,
+          51.553719
         ],
         [
-          -0.3071412,
-          51.5536908
+          -0.306657,
+          51.55372
         ],
         [
-          -0.3072524,
-          51.5536875
+          -0.306668,
+          51.55372
         ],
         [
-          -0.3075411,
-          51.5536808
+          -0.306702,
+          51.553721
+        ],
+        [
+          -0.30678,
+          51.553723
+        ],
+        [
+          -0.306832,
+          51.553724
+        ],
+        [
+          -0.30686,
+          51.553725
+        ],
+        [
+          -0.306882,
+          51.553726
+        ],
+        [
+          -0.306889,
+          51.553725
+        ],
+        [
+          -0.306895,
+          51.553723
+        ],
+        [
+          -0.3069,
+          51.553721
+        ],
+        [
+          -0.306908,
+          51.553719
+        ],
+        [
+          -0.306914,
+          51.553717
+        ],
+        [
+          -0.306925,
+          51.553713
+        ],
+        [
+          -0.306932,
+          51.55371
+        ],
+        [
+          -0.306938,
+          51.553708
+        ],
+        [
+          -0.306949,
+          51.553707
+        ],
+        [
+          -0.306959,
+          51.553706
+        ],
+        [
+          -0.306971,
+          51.553705
+        ],
+        [
+          -0.306985,
+          51.553706
+        ],
+        [
+          -0.306996,
+          51.553708
+        ],
+        [
+          -0.307007,
+          51.55371
+        ],
+        [
+          -0.307017,
+          51.553712
+        ],
+        [
+          -0.307025,
+          51.553715
+        ],
+        [
+          -0.307031,
+          51.553718
+        ],
+        [
+          -0.307072,
+          51.553691
+        ],
+        [
+          -0.307164,
+          51.553689
+        ],
+        [
+          -0.307275,
+          51.553686
+        ],
+        [
+          -0.307564,
+          51.553679
         ]
       ]
     ],
@@ -448,7 +476,7 @@
   "actual_commencement_date": null,
   "date_building_work_completed_under_previous_permission": null,
   "url_planning_app": "https://pa.brent.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR_169665&activeTab=summary",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "appeal_start_date": null,
   "secondary_street_name": null,
   "subdivision_of_building": null,
@@ -684,7 +712,7 @@
   "uprn": "202111737",
   "reference_no_of_permission_being_relied_on": null,
   "decision_process": "Committee",
-  "last_updated": "2025-09-21T08:01:55.179Z",
+  "last_updated": "2025-10-06T10:28:13.692Z",
   "decision_agency": null,
   "parking_details": {
     "no_existing_cycle": 0,

@@ -1,8 +1,8 @@
 {
   "secondary_street_name": null,
-  "last_updated": "2025-09-13T08:01:55.685Z",
+  "last_updated": "2025-10-06T13:35:08.029Z",
   "appeal_start_date": null,
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "appeal_decision_date": null,
   "status": "Approved",
   "decision_date": "24/04/2025",
@@ -70,7 +70,33 @@
     "lat": 51.533002,
     "lon": -0.219138
   },
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.219116,
+          51.533015
+        ],
+        [
+          -0.219117,
+          51.532988
+        ],
+        [
+          -0.21916,
+          51.532989
+        ],
+        [
+          -0.219159,
+          51.533016
+        ],
+        [
+          -0.219116,
+          51.533015
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "appeal_decision": null,
   "lapsed_date": "24/04/2028",
   "decision_agency": null,
@@ -78,22 +104,18 @@
   "ward": "Queens Park",
   "application_details": {
     "total_gia_lost": 0,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 127,
-        "superseded_date": null,
-        "actual_completion_date": null,
         "use_class": "C3",
         "gia_gained": 0,
-        "actual_commencement_date": null,
-        "superseded_by_lpa_app_no": null,
         "gia_lost": 0
       }
     ],
     "garden_land_lost": false,
     "total_gia_gained": 0,
-    "existing_uprns": null,
+    "existing_uprns": [],
     "site_area": 0.019,
     "projected_cost_of_works": "Up to £2m",
     "ownership_status": "Private",
@@ -104,65 +126,61 @@
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_gia_gained": 63.5,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "total_no_existing_residential_units_market_for_rent": 1,
-      "total_no_proposed_bedrooms": 2,
+      "total_no_existing_residential_units_market_for_rent": 2,
+      "total_no_proposed_bedrooms": 5,
       "residential_units": [
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
           "description": null,
           "change_type": "Loss",
-          "m42_compliant": null,
           "sheltered_accommodation": false,
-          "garden_land": null,
           "unit_type": "Flat Apartment Maisonette",
-          "unit_development_type": null,
-          "superseded_date": null,
-          "provider": null,
+          "unit_development_type": "Conversion",
           "no_habitable_rooms": 4,
+          "provider": "Private",
           "phase_detail": null,
           "unit_no": "Loss-1",
-          "actual_commencement_date": null,
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
           "gia": 63.5,
           "tenure": "Market for rent"
         },
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
-          "description": null,
-          "change_type": "Gain",
-          "m42_compliant": null,
-          "sheltered_accommodation": null,
-          "garden_land": null,
-          "unit_type": "Semi Detached Home",
-          "unit_development_type": null,
-          "superseded_date": null,
-          "provider": "Private",
           "no_habitable_rooms": 4,
+          "provider": "Private",
           "phase_detail": null,
           "unit_no": "Gain-1",
-          "actual_commencement_date": null,
+          "description": null,
+          "change_type": "Gain",
+          "no_bedrooms": 5,
+          "unit_type": "Semi Detached Home",
+          "provision_for_older_persons": false,
+          "unit_development_type": "Conversion",
+          "gia": 63.5,
+          "tenure": "Market for rent"
+        },
+        {
+          "description": null,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
+          "no_habitable_rooms": 4,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": "Loss-1",
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
           "gia": 63.5,
           "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 210.5263157894737,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_discount_market_rent": 0,
-      "total_no_existing_residential_units": 1,
-      "dwelling_density": 0,
+      "total_no_existing_residential_units": 2,
+      "dwelling_density": 52.631578947368425,
       "total_gia_lost": 63.5,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
@@ -187,7 +205,7 @@
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
-      "site_area": null
+      "site_area": 0.019
     },
     "rain_water_harvesting": false,
     "infrastructure_details": {
@@ -196,7 +214,7 @@
       "fire_suppression_system_proposed": false,
       "total_annual_nox_emissions": 90,
       "no_non_resi_units_to_have_full_fibre": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_new_gas_connections_required": 0,
       "ghg_reduction_over_building_regulations": false,
       "mobile_network_operators_consultation": false,
@@ -225,8 +243,8 @@
     "phasing_details": [
       {
         "phase_detail": "conversion",
-        "intended_completion_date": "05/2025",
-        "intended_commencement_date": "04/2025"
+        "intended_commencement_date": "04/2025",
+        "intended_completion_date": "05/2025"
       }
     ],
     "non_residential_details": {
@@ -236,18 +254,18 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 0,
       "development_type": null,
-      "site_area": null
+      "site_area": 0.019
     },
     "affordable_housing_fast_track": false,
     "grey_water_reuse": false,
-    "s106_agreement": null,
+    "s106_agreement": false,
     "affordable_housing_inlieu_payment": null,
-    "air_quality_assessment": null,
+    "air_quality_assessment": false,
     "other_contributions": null,
     "intended_commencement_date": null,
     "no_affordable_housing_units_provided_offsite": null,
-    "commencement_notice_received": null,
-    "circular_economy_statement": null,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
     "qualifying_vacant_building_floorspace": null,
     "open_and_protected_space_details": {
       "open_space_local_and_other_area_gain": 0,
@@ -264,33 +282,33 @@
     "building_details": [],
     "superseding_details": [],
     "lead_registered_social_landlord": null,
-    "viability_assessment": null,
+    "viability_assessment": false,
     "overseas_company_registration_no": null,
-    "mayoral_cil_liability_notice_issued": null,
+    "mayoral_cil_liability_notice_issued": false,
     "non_permanent_dwellings_details": [],
     "intended_completion_date": null,
     "other_residential_accommodation_details": {
       "no_council_tax_rateable_units_gained": null,
       "no_council_tax_rateable_units_lost": null,
-      "site_area": null,
+      "site_area": 0.019,
       "other_resi_accommodation_unit_details": []
     },
     "uk_company_registration_no": null,
-    "3d_model": null,
+    "3d_model": false,
     "transport_contributions": null,
     "no_affordable_housing_units_acquired_offsite": null,
-    "borough_cil_liability_notice_issued": null,
-    "transport_impact_assessment": null,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
     "social_infrastructure_contributions": null,
     "scheme_name": null,
     "lead_developer_company_name": null
   },
-  "street_name": null,
+  "street_name": "",
   "date_building_work_completed_under_previous_permission": null,
   "centroid_northing": 183069,
   "centroid_easting": 523621,
   "uprn": "202128798",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "decision": "Approved",
   "cil_liability": false,
   "description": "Reversion of two self contained flats into one single dwellinghouse",
@@ -341,6 +359,6 @@
     "net_carclub": null,
     "net_bluebadge": null
   },
-  "postcode": null,
+  "postcode": "",
   "epc_number": null
 }
