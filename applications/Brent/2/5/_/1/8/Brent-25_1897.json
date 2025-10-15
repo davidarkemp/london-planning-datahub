@@ -1,7 +1,7 @@
 {
   "decision_conditions": null,
   "pp_id": "PP-14114290",
-  "title_number": null,
+  "title_number": [],
   "lpa_app_no": "25/1897",
   "postcode": null,
   "borough": "Brent",
@@ -14,9 +14,11 @@
       "other_resi_accommodation_unit_details": [
         {
           "no_rooms_proposed": 3,
+          "unit_type": "Care Home Bedroom",
           "no_rooms_lost": 0
         }
-      ]
+      ],
+      "site_area": 0.057
     },
     "internal_resi_water_usage": 105,
     "residential_details": {
@@ -38,12 +40,15 @@
       "residential_units": [
         {
           "no_habitable_rooms": 6,
+          "phase_detail": null,
           "unit_no": "Loss-1",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
           "no_bedrooms": 4,
           "unit_type": "HMO",
           "provision_for_older_persons": false,
+          "unit_development_type": "Change of Use",
           "gia": 102,
           "tenure": "Market for rent"
         }
@@ -57,7 +62,7 @@
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_bedrooms": 0,
@@ -70,15 +75,16 @@
       "total_no_proposed_residential_units_social_rent": 0,
       "affordable_percentage": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "total_no_existing_residential_units_london_shared_ownership": 0
+      "total_no_existing_residential_units_london_shared_ownership": 0,
+      "site_area": 0.057
     },
     "total_gia_lost": 102,
     "surface_water_discharge_percentage_reduction": 10,
     "phasing_details": [
       {
         "phase_detail": "Change of use ",
-        "intended_completion_date": "11/2025",
-        "intended_commencement_date": "09/2025"
+        "intended_commencement_date": "09/2025",
+        "intended_completion_date": "11/2025"
       }
     ],
     "rain_water_harvesting": false,
@@ -93,7 +99,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 102,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 102,
-      "total_gia_existing": 102
+      "total_gia_existing": 102,
+      "site_area": 0.057
     },
     "existing_proposed_floorspace_details": [
       {
@@ -113,7 +120,7 @@
     "total_gia_gained": 102,
     "affordable_housing_fast_track": false,
     "total_gia_existing": 102,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "infrastructure_details": {
       "ghg_reduction_over_building_regulations": false,
       "no_new_gas_connections_required": 0,
@@ -128,7 +135,7 @@
       "fire_suppression_system_proposed": false,
       "green_roof_area": 0,
       "total_annual_nox_emissions": 40,
-      "waste_provision": true,
+      "waste_provision": false,
       "mobile_network_operators_consultation": false,
       "total_annual_pm_emissions": 0
     },
@@ -138,7 +145,16 @@
         "max_height": 9.5,
         "building_ref": "Number 26"
       }
-    ]
+    ],
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "last_updated_by": "CSV Data Import",
   "street_name": null,
@@ -200,7 +216,7 @@
     "type": "GeometryCollection"
   },
   "date_building_work_completed_under_previous_permission": null,
-  "last_updated": "2025-09-13T08:01:59.973Z",
+  "last_updated": "2025-10-15T01:09:42.228+01:00",
   "centroid": {
     "lat": 51.563463,
     "lon": -0.282108
@@ -245,48 +261,48 @@
     "coordinates": [
       [
         [
-          -0.2825077,
-          51.5632023
+          -0.282531,
+          51.5632
         ],
         [
-          -0.2823836,
-          51.5631465
+          -0.282407,
+          51.563144
         ],
         [
-          -0.28236669999999997,
-          51.563161
+          -0.28239,
+          51.563159
         ],
         [
-          -0.2820623,
-          51.5634219
+          -0.282085,
+          51.56342
         ],
         [
-          -0.2820004,
-          51.5634749
+          -0.282024,
+          51.563473
         ],
         [
-          -0.2819348,
-          51.5635315
+          -0.281958,
+          51.56353
         ],
         [
-          -0.2820611,
-          51.5635882
+          -0.282084,
+          51.563586
         ],
         [
-          -0.28212519999999996,
-          51.5635316
+          -0.282148,
+          51.56353
         ],
         [
-          -0.2821625,
-          51.5635007
+          -0.282186,
+          51.563499
         ],
         [
-          -0.2821669,
-          51.5634972
+          -0.28219,
+          51.563495
         ],
         [
-          -0.2825077,
-          51.5632023
+          -0.282531,
+          51.5632
         ]
       ]
     ],

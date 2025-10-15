@@ -25,19 +25,45 @@
   "ward": "Willesden Green",
   "parking_details": null,
   "development_type": "Minor all other minor developments",
-  "last_updated": "2025-08-27T08:02:22.929Z",
+  "last_updated": "2025-10-15T01:09:40.227+01:00",
   "last_date_consultation_comments": "07/08/2025",
   "uprn": "202117821",
   "application_type_full": "Full planning permission",
   "decision_agency": null,
   "subdivision_of_building": null,
-  "title_number": null,
+  "title_number": [],
   "site_name": "45 Chaplin Road, London, NW2 5PP",
   "street_name": null,
   "appeal_decision_date": null,
   "date_building_work_completed_under_previous_permission": null,
   "lapsed_date": "13/08/2028",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.236298,
+          51.548796
+        ],
+        [
+          -0.236299,
+          51.548769
+        ],
+        [
+          -0.236342,
+          51.548769
+        ],
+        [
+          -0.236341,
+          51.548796
+        ],
+        [
+          -0.236298,
+          51.548796
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "pp_id": "PP-14102353",
   "decision": "Approved",
   "centroid_northing": 184795,
@@ -47,17 +73,19 @@
   "application_type": "All Other",
   "borough": "Brent",
   "locality": null,
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "valid_date": "16/06/2025",
   "application_details": {
     "site_area": 0.02,
     "projected_cost_of_works": "Up to £2m",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_completion_date": "12/2025",
-        "intended_commencement_date": "08/2025"
+        "intended_commencement_date": "08/2025",
+        "intended_completion_date": "12/2025"
       }
     ],
     "total_gia_lost": 0,
@@ -75,7 +103,7 @@
     "rain_water_harvesting": false,
     "infrastructure_details": {
       "green_roof_area": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "total_annual_pm_emissions": 0,
       "ghg_reduction_over_building_regulations": false,
       "no_homes_passive_cooling": 0,
@@ -100,9 +128,104 @@
       "total_gia_lost": 0,
       "total_gia_existing": 189,
       "total_gia_gained": 0,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "site_area": 0.02
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.02
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "residential_details": {
+      "total_no_proposed_residential_units_shared_equity": 0,
+      "total_no_proposed_bedrooms": 4,
+      "total_no_proposed_residential_units_london_living_rent": 0,
+      "total_no_proposed_residential_units": 2,
+      "total_no_proposed_residential_affordable_units": 0,
+      "total_no_proposed_residential_units_affordable_rent": 0,
+      "total_no_existing_residential_units": 1,
+      "total_no_proposed_residential_units_discount_market_sale": 0,
+      "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_london_living_rent": 0,
+      "total_no_existing_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_units_shared_equity": 0,
+      "total_no_existing_residential_units_intermediate": 0,
+      "total_no_proposed_residential_units_market_for_rent": 2,
+      "total_no_existing_residential_units_social_rent": 0,
+      "total_no_proposed_residential_units_self_build_and_custom_build": 0,
+      "total_no_existing_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_affordable_units": 0,
+      "total_no_existing_residential_units_affordable_rent": 0,
+      "habitable_rooms_density": 0,
+      "total_no_existing_residential_units_london_shared_ownership": 0,
+      "total_gia_gained": 0,
+      "total_no_proposed_residential_units_social_rent": 0,
+      "total_no_existing_residential_units_london_affordable_rent": 0,
+      "site_area": 0.02,
+      "dwelling_density": 100,
+      "total_gia_lost": 0,
+      "total_no_existing_residential_units_discount_market_sale": 0,
+      "total_no_proposed_residential_units_starter_homes": 0,
+      "total_no_proposed_residential_units_london_affordable_rent": 0,
+      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_starter_homes": 0,
+      "total_no_proposed_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_intermediate": 0,
+      "total_no_proposed_residential_units_london_shared_ownership": 0,
+      "affordable_percentage": 0,
+      "residential_units": [
+        {
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Loss",
+          "no_bedrooms": 7,
+          "unit_type": "Terraced Home",
+          "provision_for_older_persons": false,
+          "unit_development_type": "Conversion",
+          "gia": null,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
+          "unit_development_type": "Conversion",
+          "gia": null,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Gain",
+          "no_bedrooms": 3,
+          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
+          "unit_development_type": "Conversion",
+          "gia": null,
+          "tenure": "Market for rent"
+        }
+      ],
+      "total_no_existing_residential_units_market_for_rent": 1,
+      "total_no_existing_residential_units_self_build_and_custom_build": 0
+    }
   },
   "id": "Brent-25_1817",
   "reference_no_of_permission_being_relied_on": null,

@@ -1,7 +1,7 @@
 {
   "decision_conditions": null,
   "pp_id": "PP-14114906",
-  "title_number": null,
+  "title_number": [],
   "lpa_app_no": "25/1865",
   "postcode": null,
   "borough": "Brent",
@@ -17,7 +17,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 5,
-      "total_gia_existing": 34.5
+      "total_gia_existing": 34.5,
+      "site_area": 0.014
     },
     "total_gia_lost": 0,
     "existing_proposed_floorspace_details": [
@@ -48,12 +49,16 @@
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 1,
-          "unit_no": "Loss-1",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
+          "no_habitable_rooms": 1,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": "Loss-1",
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
           "gia": 13,
           "tenure": "Market for rent"
@@ -61,10 +66,14 @@
         {
           "no_habitable_rooms": 1,
           "provider": "Private",
+          "phase_detail": null,
           "unit_no": "Gain-1",
+          "description": null,
           "change_type": "Gain",
           "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
+          "unit_development_type": "Conversion",
           "gia": 39,
           "tenure": "Market for rent"
         }
@@ -78,7 +87,7 @@
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 71.42857142857143,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_bedrooms": 1,
@@ -86,12 +95,13 @@
       "total_gia_gained": 39,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_social_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 71.42857142857143,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "affordable_percentage": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "total_no_existing_residential_units_london_shared_ownership": 0
+      "total_no_existing_residential_units_london_shared_ownership": 0,
+      "site_area": 0.014
     },
     "total_gia_gained": 5,
     "affordable_housing_fast_track": false,
@@ -103,7 +113,7 @@
       }
     ],
     "total_gia_existing": 34.5,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "rain_water_harvesting": false,
     "surface_water_discharge_percentage_reduction": 0,
     "infrastructure_details": {
@@ -118,14 +128,26 @@
       "fire_suppression_system_proposed": false,
       "green_roof_area": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "mobile_network_operators_consultation": false,
       "total_annual_pm_emissions": 0
     },
     "ownership_status": "Private",
     "grey_water_reuse": false,
     "site_area": 0.014,
-    "garden_land_lost": false
+    "garden_land_lost": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.014
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "last_updated_by": "CSV Data Import",
   "street_name": null,
@@ -202,7 +224,7 @@
     "type": "Polygon"
   },
   "date_building_work_completed_under_previous_permission": null,
-  "last_updated": "2025-10-01T17:18:56.228Z",
+  "last_updated": "2025-10-15T01:10:09.107+01:00",
   "centroid": {
     "lat": 51.556166,
     "lon": -0.217296
@@ -236,7 +258,33 @@
   "development_type": "Minor all other minor developments",
   "centroid_easting": 523686,
   "appeal_decision": null,
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.217274,
+          51.556179
+        ],
+        [
+          -0.217275,
+          51.556152
+        ],
+        [
+          -0.217318,
+          51.556152
+        ],
+        [
+          -0.217317,
+          51.556179
+        ],
+        [
+          -0.217274,
+          51.556179
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "date_building_work_started_under_previous_permission": null,
   "description": "Proposed conversion of 2x ground floor flats into 1x studio flat",
   "application_type_full": "Full planning permission"

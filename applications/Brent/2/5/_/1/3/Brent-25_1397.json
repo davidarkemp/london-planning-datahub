@@ -84,7 +84,7 @@
   "lpa_app_no": "25/1397",
   "last_date_consultation_comments": "01/08/2025",
   "application_type": "All Other",
-  "title_number": null,
+  "title_number": [],
   "borough": "Brent",
   "parking_details": {
     "no_proposed_car": 0,
@@ -102,7 +102,7 @@
       "no_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
       "ghg_reduction_over_building_regulations": false,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_homes_passive_cooling": 0,
       "no_new_water_connections_required": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
@@ -116,7 +116,7 @@
     },
     "total_gia_lost": 0,
     "surface_water_discharge_percentage_reduction": 0,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "garden_land_lost": false,
     "total_gia_gained": 0,
     "internal_resi_water_usage": 0,
@@ -125,13 +125,14 @@
       "total_gia_existing": 145,
       "total_gia_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "site_area": 0.042
     },
     "phasing_details": [
       {
         "phase_detail": "internal alteration",
-        "intended_completion_date": "10/2025",
-        "intended_commencement_date": "07/2025"
+        "intended_commencement_date": "07/2025",
+        "intended_completion_date": "10/2025"
       }
     ],
     "projected_cost_of_works": "Up to £2m",
@@ -148,7 +149,88 @@
     ],
     "ownership_status": "Private",
     "total_gia_existing": 145,
-    "affordable_housing_fast_track": false
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.042
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "residential_details": {
+      "total_no_proposed_residential_units_shared_equity": 0,
+      "total_no_proposed_bedrooms": 5,
+      "total_no_proposed_residential_units_london_living_rent": 0,
+      "total_no_proposed_residential_units": 1,
+      "total_no_proposed_residential_affordable_units": 0,
+      "total_no_proposed_residential_units_affordable_rent": 0,
+      "total_no_existing_residential_units": 1,
+      "total_no_proposed_residential_units_discount_market_sale": 0,
+      "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_london_living_rent": 0,
+      "total_no_existing_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_units_shared_equity": 0,
+      "total_no_existing_residential_units_intermediate": 0,
+      "total_no_proposed_residential_units_market_for_rent": 1,
+      "total_no_existing_residential_units_social_rent": 0,
+      "total_no_proposed_residential_units_self_build_and_custom_build": 0,
+      "total_no_existing_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_affordable_units": 0,
+      "total_no_existing_residential_units_affordable_rent": 0,
+      "habitable_rooms_density": 0,
+      "total_no_existing_residential_units_london_shared_ownership": 0,
+      "total_gia_gained": 0,
+      "total_no_proposed_residential_units_social_rent": 0,
+      "total_no_existing_residential_units_london_affordable_rent": 0,
+      "site_area": 0.042,
+      "dwelling_density": 23.809523809523807,
+      "total_gia_lost": 0,
+      "total_no_existing_residential_units_discount_market_sale": 0,
+      "total_no_proposed_residential_units_starter_homes": 0,
+      "total_no_proposed_residential_units_london_affordable_rent": 0,
+      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_starter_homes": 0,
+      "total_no_proposed_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_intermediate": 0,
+      "total_no_proposed_residential_units_london_shared_ownership": 0,
+      "affordable_percentage": 0,
+      "residential_units": [
+        {
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Loss",
+          "no_bedrooms": 4,
+          "unit_type": "House or Bungalow",
+          "provision_for_older_persons": false,
+          "unit_development_type": "Change of Use",
+          "gia": null,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Gain",
+          "no_bedrooms": 5,
+          "unit_type": "HMO",
+          "provision_for_older_persons": false,
+          "unit_development_type": "Change of Use",
+          "gia": null,
+          "tenure": "Market for rent"
+        }
+      ],
+      "total_no_existing_residential_units_market_for_rent": 1,
+      "total_no_existing_residential_units_self_build_and_custom_build": 0
+    }
   },
   "valid_date": "29/05/2025",
   "url_planning_app": "https://pa.brent.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR_173389&activeTab=summary",
@@ -156,63 +238,63 @@
     "coordinates": [
       [
         [
-          -0.2856342,
-          51.56282
+          -0.285657,
+          51.562818
         ],
         [
-          -0.28576619999999997,
-          51.5627441
+          -0.285789,
+          51.562742
         ],
         [
-          -0.28564039999999996,
-          51.5626573
+          -0.285663,
+          51.562655
         ],
         [
-          -0.2855843,
-          51.5626897
+          -0.285607,
+          51.562688
         ],
         [
-          -0.2855276,
-          51.5627204
+          -0.285551,
+          51.562718
         ],
         [
-          -0.28550559999999997,
-          51.5627328
+          -0.285529,
+          51.562731
         ],
         [
-          -0.2852984,
-          51.5628501
+          -0.285321,
+          51.562848
         ],
         [
-          -0.2854278,
-          51.5629379
+          -0.285451,
+          51.562936
         ],
         [
-          -0.28549209999999997,
-          51.5629011
+          -0.285515,
+          51.562899
         ],
         [
-          -0.28549789999999997,
-          51.5628979
+          -0.285521,
+          51.562896
         ],
         [
-          -0.28556119999999996,
-          51.5628617
+          -0.285584,
+          51.56286
         ],
         [
-          -0.2855704,
-          51.5628564
+          -0.285593,
+          51.562854
         ],
         [
-          -0.2856342,
-          51.56282
+          -0.285657,
+          51.562818
         ]
       ]
     ],
     "type": "Polygon"
   },
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated": "2025-09-13T08:02:02.469Z",
+  "last_updated": "2025-10-15T01:09:51.671+01:00",
   "appeal_status": null,
   "decision_target_date": "17/07/2025",
   "subdivision_of_building": null,
