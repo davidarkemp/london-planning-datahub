@@ -32,7 +32,7 @@
   "application_type": "All Other",
   "status": "Application Under Consideration",
   "epc_number": null,
-  "cil_liability": null,
+  "cil_liability": false,
   "parking_details": {
     "no_proposed_car": 1,
     "no_proposed_cycle": 6,
@@ -85,39 +85,39 @@
       "habitable_rooms_density": null,
       "residential_units": [
         {
-          "change_type": "Gain",
-          "no_bedrooms": 6,
           "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "change_type": "Gain",
+          "m42_compliant": false,
           "garden_land": false,
-          "gia": 132,
           "sheltered_accommodation": false,
           "unit_type": "HMO",
-          "provision_for_older_persons": false,
-          "phase_detail": null,
-          "unit_no": null,
-          "tenure": "Market for rent",
-          "description": null,
-          "m42_compliant": false,
           "no_habitable_rooms": 1,
           "provider": "Private",
-          "m43_2a_compliant": false
-        },
-        {
-          "change_type": "Loss",
-          "no_bedrooms": 2,
-          "m43_2b_compliant": false,
-          "garden_land": false,
-          "gia": 60,
-          "sheltered_accommodation": false,
-          "unit_type": "Terraced Home",
-          "provision_for_older_persons": false,
           "phase_detail": null,
           "unit_no": null,
-          "tenure": "Market for sale",
+          "no_bedrooms": 6,
+          "provision_for_older_persons": false,
+          "gia": 132,
+          "tenure": "Market for rent"
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
           "description": null,
+          "change_type": "Loss",
           "m42_compliant": false,
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Terraced Home",
           "no_habitable_rooms": 1,
-          "m43_2a_compliant": false
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "gia": 60,
+          "tenure": "Market for sale"
         }
       ],
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -185,14 +185,14 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3",
         "gia_existing": 60,
+        "use_class": "C3",
         "gia_gained": 0,
         "gia_lost": 60
       },
       {
-        "use_class": "SG",
         "gia_existing": 0,
+        "use_class": "SG",
         "gia_gained": 132,
         "gia_lost": 0
       }
@@ -241,13 +241,13 @@
     ]
   },
   "valid_date": "15/09/2025",
-  "decision_process": null,
+  "decision_process": "Delegated",
   "appeal_start_date": null,
   "application_type_full": "Full planning permission",
   "last_updated_by": "Idox Uniform",
   "bo_system": "Idox Uniform",
   "decision_target_date": "10/11/2025",
-  "last_updated": "2025-10-01T20:08:34.519Z",
+  "last_updated": "2025-10-16T20:06:50.749Z",
   "site_name": null,
   "development_type": "Other change of use",
   "centroid_northing": 191721,
