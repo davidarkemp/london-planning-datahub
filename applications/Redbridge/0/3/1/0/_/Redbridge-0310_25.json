@@ -36,7 +36,8 @@
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_gained": 0
+      "total_gia_gained": 0,
+      "site_area": 0.022000000000000002
     },
     "garden_land_lost": false,
     "infrastructure_details": {
@@ -65,13 +66,13 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 90.9090909090909,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
@@ -89,24 +90,11 @@
           "description": null,
           "change_type": "Loss",
           "actual_commencement_date": "20/01/2025",
-          "unit_type": "House or Bungalow",
           "no_bedrooms": 3,
-          "provision_for_older_persons": false,
-          "gia": null,
-          "unit_development_type": "Conversion"
-        },
-        {
-          "actual_completion_date": "20/01/2025",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
-          "change_type": "Gain",
-          "actual_commencement_date": "20/01/2025",
           "unit_type": "House or Bungalow",
-          "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "gia": null,
-          "unit_development_type": "Conversion"
+          "unit_development_type": "Conversion",
+          "gia": null
         },
         {
           "actual_completion_date": "20/01/2025",
@@ -115,15 +103,34 @@
           "description": null,
           "change_type": "Gain",
           "actual_commencement_date": "20/01/2025",
-          "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 1,
+          "no_bedrooms": 2,
+          "unit_type": "House or Bungalow",
           "provision_for_older_persons": false,
-          "gia": null,
-          "unit_development_type": "Conversion"
+          "unit_development_type": "Conversion",
+          "gia": null
+        },
+        {
+          "actual_completion_date": "20/01/2025",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Gain",
+          "actual_commencement_date": "20/01/2025",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
+          "unit_development_type": "Conversion",
+          "gia": null
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.022000000000000002
+    },
+    "existing_uprns": [],
+    "site_area": 0.022000000000000002,
+    "other_residential_accommodation_details": {
+      "site_area": 0.022000000000000002
     }
   },
   "appeal_decision_date": null,
@@ -131,11 +138,11 @@
   "centroid_easting": 544064,
   "decision_target_date": "08/04/2025",
   "street_name": "Grange Road",
-  "last_updated": "2025-08-23T02:03:15.019Z",
+  "last_updated": "2025-10-17T12:14:15.466Z",
   "date_building_work_completed_under_previous_permission": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Portal",
   "development_type": null,
-  "title_number": null,
+  "title_number": [],
   "postcode": "IG1 1EX",
   "parking_details": {},
   "actual_completion_date": null,
@@ -149,7 +156,84 @@
     "lon": 0.07658
   },
   "polygon": {
-    "type": "geometrycollection"
+    "type": "GeometryCollection",
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              544054.75,
+              185973.45
+            ],
+            [
+              544056.235,
+              185969.66
+            ],
+            [
+              544056.534,
+              185968.894
+            ],
+            [
+              544059.581,
+              185961.116
+            ],
+            [
+              544060.797,
+              185958.009
+            ],
+            [
+              544062.25,
+              185954.3
+            ],
+            [
+              544064.9,
+              185947.55
+            ],
+            [
+              544065.312,
+              185946.499
+            ],
+            [
+              544066.45,
+              185943.6
+            ],
+            [
+              544071.2,
+              185945.45
+            ],
+            [
+              544073,
+              185946.2
+            ],
+            [
+              544071.142,
+              185950.763
+            ],
+            [
+              544068.965,
+              185956.114
+            ],
+            [
+              544062.69,
+              185971.531
+            ],
+            [
+              544060.85,
+              185976.05
+            ],
+            [
+              544058.25,
+              185974.95
+            ],
+            [
+              544054.75,
+              185973.45
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ]
   },
   "status": "Application Under Consideration",
   "actual_commencement_date": "10/04/2017",
@@ -162,24 +246,72 @@
     "coordinates": [
       [
         [
-          0.076602,
-          51.554151
+          0.076452,
+          51.554261
         ],
         [
-          0.076601,
-          51.554124
+          0.076472,
+          51.554227
         ],
         [
-          0.076557,
-          51.554125
+          0.076476,
+          51.55422
         ],
         [
-          0.076559,
-          51.554152
+          0.076516,
+          51.554149
         ],
         [
-          0.076602,
-          51.554151
+          0.076533,
+          51.554121
+        ],
+        [
+          0.076552,
+          51.554087
+        ],
+        [
+          0.076588,
+          51.554026
+        ],
+        [
+          0.076593,
+          51.554016
+        ],
+        [
+          0.076608,
+          51.55399
+        ],
+        [
+          0.076677,
+          51.554005
+        ],
+        [
+          0.076704,
+          51.554012
+        ],
+        [
+          0.076679,
+          51.554053
+        ],
+        [
+          0.07665,
+          51.554102
+        ],
+        [
+          0.076565,
+          51.554242
+        ],
+        [
+          0.076541,
+          51.554283
+        ],
+        [
+          0.076503,
+          51.554274
+        ],
+        [
+          0.076452,
+          51.554261
         ]
       ]
     ],
