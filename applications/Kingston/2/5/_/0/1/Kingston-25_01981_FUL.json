@@ -11,7 +11,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -71,7 +70,8 @@
               168178.139
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -174,52 +174,52 @@
     "internal_resi_water_usage": 0,
     "constraints_details": [
       {
-        "constraints_layer_description": "LASC Name: Cranes Park",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "LASC Name: Cranes Park"
       },
       {
-        "constraints_layer_description": "NEIPOL Name: S1  Surbiton",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "NEIPOL Name: S1  Surbiton"
       },
       {
-        "constraints_layer_description": "LGW Name: London Gatwick Safeguarding Zone (200m)",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "LGW Name: London Gatwick Safeguarding Zone (200m)"
       },
       {
-        "constraints_layer_description": "SMKCON Name: Borough Wide Smoke Control Order",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "SMKCON Name: Borough Wide Smoke Control Order"
       },
       {
-        "constraints_layer_description": "NEIGH Name: Surbiton",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "NEIGH Name: Surbiton"
       },
       {
-        "constraints_layer_description": "AIRCZ Type:: Gatwick Airport Wind Turbine Consultation Zone:\rContact: The Safeguarding Department, Gatwick Airport Limited, 7th Floor Destinations Place, London Gatwick Airport, West Sussex, RH06 0NP",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "AIRCZ Type:: Gatwick Airport Wind Turbine Consultation Zone:\rContact: The Safeguarding Department, Gatwick Airport Limited, 7th Floor Destinations Place, London Gatwick Airport, West Sussex, RH06 0NP"
       },
       {
-        "constraints_layer_description": "AIRCZ Type:: Heathrow Planning Consultation Zone: All buildings, structures, erections and works exceeding 90 metres in height (295.3 feet)\rContact: The Safeguarding Department, Heathrow Airport Limited, c/o Planning Services, First Point, Buckingham Gate, Gatwick Airport, West Sussex, RH6 0NT",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "AIRCZ Type:: Heathrow Planning Consultation Zone: All buildings, structures, erections and works exceeding 90 metres in height (295.3 feet)\rContact: The Safeguarding Department, Heathrow Airport Limited, c/o Planning Services, First Point, Buckingham Gate, Gatwick Airport, West Sussex, RH6 0NT"
       },
       {
-        "constraints_layer_description": "HWTERR Type: TERRIER\rDescription: HD",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "HWTERR Type: TERRIER\rDescription: HD"
       },
       {
-        "constraints_layer_description": "SWGV Date Built: \rGradient:",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "SWGV Date Built: \rGradient:"
       },
       {
-        "constraints_layer_description": "SWGV Date Built: \rGradient:",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "SWGV Date Built: \rGradient:"
       },
       {
-        "constraints_layer_description": "SWGV Date Built: \rGradient:",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "SWGV Date Built: \rGradient:"
       },
       {
-        "constraints_layer_description": "SWMH Diameter: 0\rReference: TQ186831AC",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "SWMH Diameter: 0\rReference: TQ186831AC"
       }
     ],
     "green_suds": false,
@@ -276,20 +276,20 @@
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
           "change_type": "Loss",
           "m42_compliant": false,
-          "gia": 12,
-          "sheltered_accommodation": false,
           "garden_land": false,
-          "unit_no": null,
-          "provision_for_older_persons": false,
-          "description": null,
-          "m43_2a_compliant": false,
-          "no_bedrooms": 1,
-          "m43_2b_compliant": false,
+          "sheltered_accommodation": false,
           "unit_type": "HMO",
-          "phase_detail": null,
           "no_habitable_rooms": 9,
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "gia": 12,
           "tenure": "Market for rent"
         }
       ],
@@ -319,20 +319,21 @@
     "total_gia_existing": 237,
     "phasing_details": [
       {
-        "intended_completion_date": "10/2025",
+        "phase_detail": "Phase 1",
         "intended_commencement_date": "09/2025",
-        "phase_detail": "Phase 1"
+        "intended_completion_date": "10/2025"
       }
     ],
     "total_gia_lost": 0,
     "existing_proposed_floorspace_details": [
       {
-        "gia_lost": 0,
         "gia_existing": 237,
         "use_class": "C4",
-        "gia_gained": 0
+        "gia_gained": 0,
+        "gia_lost": 0
       }
-    ]
+    ],
+    "s106_agreement": false
   },
   "appeal_status": null,
   "site_name": null,
@@ -351,12 +352,12 @@
   "date_building_work_started_under_previous_permission": null,
   "decision_agency": null,
   "last_updated_by": "Idox Uniform",
-  "last_updated": "2025-09-08T17:02:00.625Z",
+  "last_updated": "2025-10-20T17:01:03.402Z",
   "subdivision_of_building": null,
   "valid_date": "26/08/2025",
   "lapsed_date": null,
   "status": "Application Under Consideration",
-  "decision_process": null,
+  "decision_process": "Delegated",
   "lpa_app_no": "25/01981/FUL",
   "decision": null,
   "centroid_easting": 518343,
@@ -367,7 +368,9 @@
   "last_date_consultation_comments": null,
   "cil_liability": false,
   "bo_system": "Idox Uniform",
-  "decision_conditions": null,
+  "decision_conditions": [
+    "The proposed development, as a result of no Unilateral Undertaking being secured to prevent future occupiers from applying for resident parking permits within the Controlled Parking Zone, would result in unacceptable impacts on highway function and safety, contrary to Paragraph 116 of the National Planning Policy Framework 2024, Policy T4 of the London Plan 2021 and, Policies DM9 and DM10 of the LDF Core Strategy 2012."
+  ],
   "pp_id": "PP-14201419",
   "lpa_name": "Kingston",
   "appeal_decision": null,

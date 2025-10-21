@@ -10,7 +10,7 @@
   "valid_date": "10/09/2025",
   "last_date_consultation_comments": "10/10/2025",
   "secondary_street_name": null,
-  "cil_liability": null,
+  "cil_liability": false,
   "application_type": "All Other",
   "reference_no_of_permission_being_relied_on": null,
   "centroid_northing": 166550,
@@ -59,7 +59,7 @@
   "decision": null,
   "status": "Application Under Consideration",
   "ward": "Stonecot",
-  "last_updated": "2025-09-23T20:04:02.355Z",
+  "last_updated": "2025-10-20T20:02:17.729Z",
   "decision_date": null,
   "application_details": {
     "scheme_name": "LITTLE AMBASSADORS DAY NURSERY\r",
@@ -197,11 +197,11 @@
       "open_space_green_belt_area_gain": 0,
       "open_spaces_details": [
         {
-          "land_swap": false,
-          "description": "Replacing existing Bowls Pavilion with new Day Nursery Building on site of former Bowling Green",
           "area": 0.202,
           "access": "Restricted",
+          "land_swap": false,
           "open_space_designation": "Not Designated",
+          "description": "Replacing existing Bowls Pavilion with new Day Nursery Building on site of former Bowling Green",
           "open_space_type": "Amenity"
         }
       ],
@@ -256,10 +256,10 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "Other",
-        "gia_lost": 121,
         "gia_existing": 121,
-        "gia_gained": 288
+        "use_class": "Other",
+        "gia_gained": 288,
+        "gia_lost": 121
       }
     ],
     "garden_land_lost": false,
@@ -287,7 +287,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -311,7 +310,8 @@
               166575.466250001
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
