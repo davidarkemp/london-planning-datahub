@@ -11,7 +11,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -59,7 +58,8 @@
               166338.550000001
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -152,40 +152,40 @@
     "internal_resi_water_usage": 0,
     "constraints_details": [
       {
-        "constraints_layer_description": "SMKCON Smoke Control Zone",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "SMKCON Smoke Control Zone"
       },
       {
-        "constraints_layer_description": "ART4 Article 4 Direction - Boroughwide HMO Restriction",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "ART4 Article 4 Direction - Boroughwide HMO Restriction"
       },
       {
-        "constraints_layer_description": "PLAHIS Planning Application Reference: DM2025/01030--- Address: The Anchorage\rMedland Close\rHackbridge\rSM6 7BH\r--- Proposal: Demolition of existing dwelling and erection of two attached single storey dwellings with loft accommodation, refuse storage and parking to the front and solar panels.--- Status: REC--- Decision: --- Date Decision Issued: ---",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: DM2025/01030--- Address: The Anchorage\rMedland Close\rHackbridge\rSM6 7BH\r--- Proposal: Demolition of existing dwelling and erection of two attached single storey dwellings with loft accommodation, refuse storage and parking to the front and solar panels.--- Status: REC--- Decision: --- Date Decision Issued: ---"
       },
       {
-        "constraints_layer_description": "PLAHIS Planning Application Reference: DM2024/01234--- Address: The Anchorage\rMedland Close\rHackbridge\rSM6 7BH\r--- Proposal: Demolition of existing dwelling and erection of two attached single storey dwellings with loft accommodation, refuse storage and parking to the front and solar panels.--- Status: APPRET--- Decision: --- Date Decision Issued: ---",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: DM2024/01234--- Address: The Anchorage\rMedland Close\rHackbridge\rSM6 7BH\r--- Proposal: Demolition of existing dwelling and erection of two attached single storey dwellings with loft accommodation, refuse storage and parking to the front and solar panels.--- Status: APPRET--- Decision: --- Date Decision Issued: ---"
       },
       {
-        "constraints_layer_description": "FL2 Type: Fluvial Models",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "FL2 Type: Fluvial Models"
       },
       {
-        "constraints_layer_description": "ARCH ",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "ARCH "
       },
       {
-        "constraints_layer_description": "DECENE ",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "DECENE "
       },
       {
-        "constraints_layer_description": "PINT ",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "PINT "
       },
       {
-        "constraints_layer_description": "HACKNP ",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "HACKNP "
       }
     ],
     "green_suds": true,
@@ -196,10 +196,10 @@
       "protected_space_count": 0,
       "open_spaces_details": [
         {
-          "access": "Restricted",
-          "open_space_designation": "Other",
-          "land_swap": false,
           "area": 0.018,
+          "access": "Restricted",
+          "land_swap": false,
+          "open_space_designation": "Other",
           "description": "Private rear garden area",
           "open_space_type": "Amenity"
         }
@@ -271,18 +271,18 @@
     "total_gia_existing": 105,
     "phasing_details": [
       {
-        "intended_completion_date": "08/2027",
+        "phase_detail": "unknown",
         "intended_commencement_date": "11/2025",
-        "phase_detail": "unknown"
+        "intended_completion_date": "08/2027"
       }
     ],
     "total_gia_lost": 105,
     "existing_proposed_floorspace_details": [
       {
-        "gia_lost": 105,
         "gia_existing": 105,
         "use_class": "C3",
-        "gia_gained": 281.4
+        "gia_gained": 281.4,
+        "gia_lost": 105
       }
     ],
     "building_details": [
@@ -291,7 +291,8 @@
         "max_height": 6.8,
         "building_ref": "New building"
       }
-    ]
+    ],
+    "s106_agreement": false
   },
   "appeal_status": null,
   "site_name": "The Anchorage",
@@ -310,12 +311,12 @@
   "date_building_work_started_under_previous_permission": null,
   "decision_agency": null,
   "last_updated_by": "Idox Uniform",
-  "last_updated": "2025-09-08T20:04:13.134Z",
+  "last_updated": "2025-10-21T20:02:54.554Z",
   "subdivision_of_building": null,
   "valid_date": "26/08/2025",
   "lapsed_date": null,
   "status": "Application Under Consideration",
-  "decision_process": null,
+  "decision_process": "Delegated",
   "lpa_app_no": "DM2025/01030",
   "decision": null,
   "centroid_easting": 528307,
