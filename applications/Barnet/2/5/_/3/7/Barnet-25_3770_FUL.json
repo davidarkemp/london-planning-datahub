@@ -100,7 +100,7 @@
   "application_type": "All Other",
   "status": "Application Under Consideration",
   "epc_number": null,
-  "cil_liability": false,
+  "cil_liability": true,
   "parking_details": null,
   "centroid": {
     "lat": 51.591287,
@@ -145,80 +145,80 @@
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "residential_units": [
         {
-          "change_type": "Loss",
+          "no_habitable_rooms": 5,
           "unit_no": "Loss-1",
-          "no_bedrooms": 6,
+          "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_habitable_rooms": 5,
-          "gia": 330,
+          "no_bedrooms": 6,
           "unit_type": "House or Bungalow",
-          "tenure": "Market for sale",
-          "provision_for_older_persons": false
+          "provision_for_older_persons": false,
+          "gia": 330,
+          "tenure": "Market for sale"
         },
         {
-          "change_type": "Gain",
           "unit_no": "Gain-1",
-          "gia": 199.2,
-          "unit_type": "Communal Space"
+          "change_type": "Gain",
+          "unit_type": "Communal Space",
+          "gia": 199.2
         },
         {
-          "change_type": "Gain",
+          "provider": "Private",
+          "no_habitable_rooms": 4,
           "unit_no": "Gain-2",
+          "change_type": "Gain",
           "no_bedrooms": 2,
-          "no_habitable_rooms": 4,
-          "gia": 82.8,
-          "provider": "Private",
           "unit_type": "Flat Apartment Maisonette",
+          "gia": 82.8,
           "tenure": "Market for sale"
         },
         {
-          "change_type": "Gain",
+          "provider": "Private",
+          "no_habitable_rooms": 4,
           "unit_no": "Gain-3",
+          "change_type": "Gain",
           "no_bedrooms": 2,
-          "no_habitable_rooms": 4,
+          "unit_type": "Flat Apartment Maisonette",
           "gia": 74.8,
-          "provider": "Private",
-          "unit_type": "Flat Apartment Maisonette",
           "tenure": "Market for sale"
         },
         {
-          "change_type": "Gain",
+          "provider": "Private",
+          "no_habitable_rooms": 5,
           "unit_no": "Gain-4",
+          "change_type": "Gain",
           "no_bedrooms": 3,
-          "no_habitable_rooms": 5,
+          "unit_type": "Flat Apartment Maisonette",
           "gia": 122.6,
-          "provider": "Private",
-          "unit_type": "Flat Apartment Maisonette",
           "tenure": "Market for sale"
         },
         {
-          "change_type": "Gain",
-          "unit_no": "Gain-5",
-          "no_bedrooms": 3,
+          "provider": "Private",
           "no_habitable_rooms": 5,
+          "unit_no": "Gain-5",
+          "change_type": "Gain",
+          "no_bedrooms": 3,
+          "unit_type": "Flat Apartment Maisonette",
           "gia": 94,
-          "provider": "Private",
-          "unit_type": "Flat Apartment Maisonette",
           "tenure": "Market for sale"
         },
         {
-          "change_type": "Gain",
+          "provider": "Private",
+          "no_habitable_rooms": 4,
           "unit_no": "Gain-6",
+          "change_type": "Gain",
           "no_bedrooms": 2,
-          "no_habitable_rooms": 4,
-          "gia": 82.8,
-          "provider": "Private",
           "unit_type": "Flat Apartment Maisonette",
+          "gia": 82.8,
           "tenure": "Market for sale"
         },
         {
-          "change_type": "Gain",
-          "unit_no": "Gain-7",
-          "no_bedrooms": 2,
-          "no_habitable_rooms": 4,
-          "gia": 71.3,
           "provider": "Private",
+          "no_habitable_rooms": 4,
+          "unit_no": "Gain-7",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "gia": 71.3,
           "tenure": "Market for sale"
         }
       ],
@@ -233,8 +233,8 @@
     "building_details": [
       {
         "no_storeys": 4,
-        "building_ref": "block of flats",
-        "max_height": 12.05
+        "max_height": 12.05,
+        "building_ref": "block of flats"
       }
     ],
     "infrastructure_details": {
@@ -276,9 +276,9 @@
     ],
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3",
         "gia_existing": 330,
         "gia_gained": 730,
+        "use_class": "C3",
         "gia_lost": 330
       }
     ],
@@ -298,7 +298,7 @@
   "last_updated_by": "Idox Uniform",
   "bo_system": "Idox Uniform",
   "decision_target_date": "10/11/2025",
-  "last_updated": "2025-10-01T20:03:52.073Z",
+  "last_updated": "2025-11-04T21:27:16.556Z",
   "site_name": "White House",
   "development_type": null,
   "centroid_northing": "189554",
