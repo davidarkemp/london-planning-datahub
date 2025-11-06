@@ -12,7 +12,11 @@
   "last_date_consultation_comments": "18/11/2025",
   "date_building_work_started_under_previous_permission": null,
   "description": "Change of use from Use Class C3 (dwelling house) to Use Class C4 (HMO-house in multiple occupation) involving conversion of garage into habitable room, with associated amenity, cycle and refuse storage.\r",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 1,
+    "net_car": 0,
+    "no_proposed_car": 1
+  },
   "postcode": "EN3 5RP",
   "appeal_status": null,
   "cil_liability": null,
@@ -60,7 +64,7 @@
   "decision_target_date": "17/12/2025",
   "valid_date": "22/10/2025",
   "development_type": "Other change of use",
-  "last_updated": "2025-11-04T21:13:57.312Z",
+  "last_updated": "2025-11-05T21:10:44.992Z",
   "subdivision_of_building": null,
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
@@ -68,7 +72,7 @@
     "lon": -0.045484
   },
   "decision_process": null,
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "decision_agency": null,
   "street_name": "Goodwood Avenue",
   "appeal_decision": null,
@@ -120,38 +124,38 @@
       "residential_units": [
         {
           "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
           "description": null,
-          "gia": 110.02,
-          "provider": "Private",
+          "m42_compliant": false,
+          "change_type": "Gain",
           "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "HMO",
-          "provision_for_older_persons": false,
+          "provider": "Private",
+          "no_habitable_rooms": 1,
           "phase_detail": null,
           "unit_no": null,
-          "garden_land": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": false,
           "no_bedrooms": 6,
-          "tenure": "Market for rent",
-          "no_habitable_rooms": 1,
-          "change_type": "Gain"
+          "provision_for_older_persons": false,
+          "gia": 110.02,
+          "tenure": "Market for rent"
         },
         {
           "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
           "description": null,
-          "gia": 110.02,
+          "m42_compliant": false,
+          "change_type": "Loss",
           "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Terraced Home",
-          "provision_for_older_persons": false,
+          "no_habitable_rooms": 2,
           "phase_detail": null,
           "unit_no": null,
-          "garden_land": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": false,
           "no_bedrooms": 3,
-          "tenure": "Market for rent",
-          "no_habitable_rooms": 2,
-          "change_type": "Loss"
+          "provision_for_older_persons": false,
+          "gia": 110.02,
+          "tenure": "Market for rent"
         }
       ],
       "total_no_proposed_residential_units_market_for_sale": 0,
@@ -189,9 +193,9 @@
     "site_area": 300,
     "phasing_details": [
       {
+        "phase_detail": "Entire development",
         "intended_commencement_date": "02/2026",
-        "intended_completion_date": "03/2026",
-        "phase_detail": "Entire development"
+        "intended_completion_date": "03/2026"
       }
     ],
     "constraints_details": [
@@ -239,16 +243,16 @@
     "garden_land_lost": false,
     "existing_proposed_floorspace_details": [
       {
+        "gia_existing": 110.02,
         "gia_gained": 0,
         "use_class": "C3",
-        "gia_lost": 110.02,
-        "gia_existing": 110.02
+        "gia_lost": 110.02
       },
       {
+        "gia_existing": 0,
         "gia_gained": 110.02,
         "use_class": "C4",
-        "gia_lost": 0,
-        "gia_existing": 0
+        "gia_lost": 0
       }
     ],
     "commencement_notice_received": false,
@@ -277,7 +281,9 @@
       "no_passive_other_ev_charging_points": 0,
       "total_annual_pm_emissions": 0,
       "no_passive_fast_ev_charging_points": 0
-    }
+    },
+    "total_gia_gained": 110.02,
+    "scheme_phasing": true
   },
   "epc_number": null,
   "uprn": "000207155650",

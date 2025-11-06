@@ -60,7 +60,7 @@
   "decision_target_date": "16/12/2025",
   "valid_date": "21/10/2025",
   "development_type": "Other change of use",
-  "last_updated": "2025-11-04T21:13:54.255Z",
+  "last_updated": "2025-11-05T21:10:30.733Z",
   "subdivision_of_building": null,
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
@@ -68,7 +68,7 @@
     "lon": -0.030617
   },
   "decision_process": null,
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "decision_agency": null,
   "street_name": "Forest Road",
   "appeal_decision": null,
@@ -91,10 +91,10 @@
     "garden_land_lost": false,
     "existing_proposed_floorspace_details": [
       {
+        "gia_existing": 127.5,
         "gia_gained": 0,
         "use_class": "Other",
-        "gia_lost": 127.5,
-        "gia_existing": 127.5
+        "gia_lost": 127.5
       }
     ],
     "open_and_protected_space_details": {
@@ -135,38 +135,38 @@
       "residential_units": [
         {
           "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
           "description": null,
-          "gia": 127.5,
-          "provider": "Private",
+          "m42_compliant": false,
+          "change_type": "Gain",
           "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "HMO",
-          "provision_for_older_persons": false,
+          "provider": "Private",
+          "no_habitable_rooms": 6,
           "phase_detail": null,
           "unit_no": null,
-          "garden_land": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": false,
           "no_bedrooms": 4,
-          "tenure": "Market for rent",
-          "no_habitable_rooms": 6,
-          "change_type": "Gain"
+          "provision_for_older_persons": false,
+          "gia": 127.5,
+          "tenure": "Market for rent"
         },
         {
           "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
           "description": null,
-          "gia": 127.5,
+          "m42_compliant": false,
+          "change_type": "Loss",
           "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Semi Detached Home",
-          "provision_for_older_persons": false,
+          "no_habitable_rooms": 6,
           "phase_detail": null,
           "unit_no": null,
-          "garden_land": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": false,
           "no_bedrooms": 4,
-          "tenure": "Market for rent",
-          "no_habitable_rooms": 6,
-          "change_type": "Loss"
+          "provision_for_older_persons": false,
+          "gia": 127.5,
+          "tenure": "Market for rent"
         }
       ],
       "total_no_proposed_residential_units_market_for_sale": 0,
@@ -203,9 +203,9 @@
     "green_suds": false,
     "phasing_details": [
       {
+        "phase_detail": "1",
         "intended_commencement_date": "09/2025",
-        "intended_completion_date": "10/2025",
-        "phase_detail": "1"
+        "intended_completion_date": "10/2025"
       }
     ],
     "constraints_details": [
@@ -266,7 +266,10 @@
       "no_passive_other_ev_charging_points": 0,
       "total_annual_pm_emissions": 0,
       "no_passive_fast_ev_charging_points": 0
-    }
+    },
+    "total_gia_gained": 0,
+    "site_area": 0,
+    "scheme_phasing": true
   },
   "epc_number": null,
   "uprn": "000207129556",

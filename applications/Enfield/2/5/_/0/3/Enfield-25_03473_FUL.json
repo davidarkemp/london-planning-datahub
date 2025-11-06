@@ -60,7 +60,7 @@
   "decision_target_date": "12/12/2025",
   "valid_date": "17/10/2025",
   "development_type": "Minor all other minor developments",
-  "last_updated": "2025-11-04T21:14:10.320Z",
+  "last_updated": "2025-11-05T21:11:05.239Z",
   "subdivision_of_building": "n/a - no existing buildings involved.\r\n",
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
@@ -68,7 +68,7 @@
     "lon": -0.064398
   },
   "decision_process": null,
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "decision_agency": null,
   "street_name": "Hotspur Way",
   "appeal_decision": null,
@@ -152,9 +152,9 @@
     "site_area": 4100,
     "phasing_details": [
       {
+        "phase_detail": "Entire Development",
         "intended_commencement_date": "09/2025",
-        "intended_completion_date": "09/2025",
-        "phase_detail": "Entire Development"
+        "intended_completion_date": "09/2025"
       }
     ],
     "constraints_details": [
@@ -258,16 +258,16 @@
     "garden_land_lost": false,
     "existing_proposed_floorspace_details": [
       {
+        "gia_existing": 0,
         "gia_gained": 168.73,
         "use_class": "Other",
-        "gia_lost": 0,
-        "gia_existing": 0
+        "gia_lost": 0
       }
     ],
     "building_details": [
       {
-        "max_height": 4.62,
         "no_storeys": null,
+        "max_height": 4.62,
         "building_ref": "Temporary Stand"
       }
     ],
@@ -289,14 +289,14 @@
       "fire_suppression_system_proposed": false,
       "waste_details": [
         {
-          "internal_dry_recycling": false,
-          "reason_for_no_provision": "n/a - temporary functional stand within a wider Training Centre",
-          "internal_residual_waste": false,
-          "unit_reference": "Stand - Residential",
           "external_dry_recycling": false,
           "external_food_waste": false,
+          "unit_reference": "Stand - Residential",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "n/a - temporary functional stand within a wider Training Centre",
+          "internal_residual_waste": false,
           "internal_food_waste": false,
-          "external_residual_waste": false
+          "internal_dry_recycling": false
         }
       ],
       "no_passive_rapid_ev_charging_points": 0,
@@ -310,7 +310,9 @@
       "no_passive_other_ev_charging_points": 0,
       "total_annual_pm_emissions": 0,
       "no_passive_fast_ev_charging_points": 0
-    }
+    },
+    "scheme_phasing": true,
+    "total_gia_gained": 168.73
   },
   "epc_number": null,
   "uprn": "000207015229",
