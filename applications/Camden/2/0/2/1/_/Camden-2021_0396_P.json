@@ -1,15 +1,15 @@
 {
   "street_name": "Agar Grove",
-  "centroid_northing": "184393",
+  "centroid_northing": 184393,
   "lapsed_date": "09/11/2025",
-  "bo_system": "Northgate M3",
+  "bo_system": "Portal",
   "site_name": null,
   "date_building_work_completed_under_previous_permission": null,
   "epc_number": null,
   "appeal_status": null,
   "secondary_street_name": null,
   "site_number": "93",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "15/04/2022",
   "decision": "Approved",
   "cil_liability": false,
   "polygon": {
@@ -108,8 +108,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_completion_date": "07/2021",
-        "intended_commencement_date": "04/2021"
+        "intended_commencement_date": "04/2021",
+        "intended_completion_date": "07/2021"
       }
     ],
     "total_gia_gained": 50,
@@ -119,23 +119,27 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 50,
-        "use_class": "B1a",
+        "actual_completion_date": "01/10/2024",
         "gia_gained": 0,
+        "use_class": "B1a",
+        "actual_commencement_date": "15/04/2022",
         "gia_lost": 50
       },
       {
         "gia_existing": 0,
-        "use_class": "C3",
+        "actual_completion_date": "01/10/2024",
         "gia_gained": 50,
+        "use_class": "C3",
+        "actual_commencement_date": "15/04/2022",
         "gia_lost": 50
       }
     ],
     "projected_cost_of_works": "Up to £2m",
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "building_details": [
       {
-        "no_storeys": "4",
+        "no_storeys": 4,
         "max_height": 11.5,
         "building_ref": "Mixed use property"
       }
@@ -148,7 +152,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 50,
       "total_gia_gained": 50,
       "total_gia_lost": 100,
-      "total_gia_existing": 50
+      "total_gia_existing": 50,
+      "site_area": 0.0109
     },
     "garden_land_lost": false,
     "internal_resi_water_usage": 0,
@@ -173,12 +178,12 @@
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 183.4862385321101,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 50,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 91.74311926605505,
       "total_gia_lost": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
@@ -191,19 +196,23 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 2,
           "provider": "Private",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
           "unit_no": "Gain-1",
+          "description": null,
           "change_type": "Gain",
           "sheltered_accommodation": true,
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "gia": 50,
           "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.0109
     },
     "infrastructure_details": {
       "total_annual_pm_emissions": 200,
@@ -213,15 +222,28 @@
       "no_homes_passive_cooling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 6000,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 20,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
-      "ghg_reduction_over_building_regulations": true
+      "ghg_reduction_over_building_regulations": false
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.0109
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "borough": "Camden",
   "actual_completion_date": null,
@@ -229,29 +251,29 @@
   "locality": "London",
   "application_type": "All Other",
   "decision_target_date": "09/11/2022",
-  "last_updated_by": "Northgate M3",
+  "last_updated_by": "Portal",
   "application_type_full": "Full planning permission",
   "lpa_name": "Camden",
   "url_planning_app": "https://planningrecords.camden.gov.uk/Northgate/PlanningExplorer/DisplayAppDetails.aspx?AppNo=2021/0396/P",
   "decision_conditions": [
-    "Condition : 1 - The development hereby permitted must be begun not later than the end of three years from the date of this permission.\r\n\r\nReason: In order to comply with the provisions of Section 91 of the Town and Country Planning Act 1990 (as amended).\r\n\r\n",
-    "Condition : 2 - The development hereby permitted shall be carried out in accordance with the following approved plans:\r\n\r\n032(P)001; 032(P)021 Rev.A; 032(P)041; 032(P)042; 032(P)043; 032(P)044 Rev.A; 032(P)045; letter from Hunters dated 25/3/21 and Marketing evidence and use viability assessment by Iungo studio dated May 2021.\r\n\r\nReason:\r\nFor the avoidance of doubt and in the interest of proper planning.\r\n",
-    "Condition : 3 - All new external work shall be carried out in materials that resemble, as closely as possible, in colour and texture those of the existing building, unless otherwise specified in the approved application. \r\n\r\nReason: To safeguard the appearance of the premises and the character of the immediate area in accordance with the requirements of policies D1 and D2 of the London Borough of Camden Local Plan 2017. \r\n",
-    "Condition : 4 - Prior to occupation, details of secure and covered cycle storage area for 1 cycle shall be submitted to and approved by the local planning authority. The approved facility shall thereafter be provided in its entirety prior to the first occupation of the new unit, and permanently retained thereafter. \r\n\r\nReason: To ensure the development provides adequate cycle parking facilities in accordance with the requirements of policy T1 of the London Borough of Camden Local Plan 2017.\r\n"
+    "Condition : 1 - The development hereby permitted must be begun not later than the end of three years from the date of this permission.\n\nReason: In order to comply with the provisions of Section 91 of the Town and Country Planning Act 1990 (as amended).",
+    "Condition : 2 - The development hereby permitted shall be carried out in accordance with the following approved plans:\n\n032(P)001; 032(P)021 Rev.A; 032(P)041; 032(P)042; 032(P)043; 032(P)044 Rev.A; 032(P)045; letter from Hunters dated 25/3/21 and Marketing evidence and use viability assessment by Iungo studio dated May 2021.\n\nReason:\nFor the avoidance of doubt and in the interest of proper planning.",
+    "Condition : 3 - All new external work shall be carried out in materials that resemble, as closely as possible, in colour and texture those of the existing building, unless otherwise specified in the approved application. \n\nReason: To safeguard the appearance of the premises and the character of the immediate area in accordance with the requirements of policies D1 and D2 of the London Borough of Camden Local Plan 2017.",
+    "Condition : 4 - Prior to occupation, details of secure and covered cycle storage area for 1 cycle shall be submitted to and approved by the local planning authority. The approved facility shall thereafter be provided in its entirety prior to the first occupation of the new unit, and permanently retained thereafter. \n\nReason: To ensure the development provides adequate cycle parking facilities in accordance with the requirements of policy T1 of the London Borough of Camden Local Plan 2017."
   ],
   "id": "Camden-2021_0396_P",
   "appeal_start_date": null,
   "subdivision_of_building": "Ground Floor Office Unit",
   "decision_process": "Delegated",
-  "status": "Approved",
-  "centroid_easting": "529980",
+  "status": "Commenced",
+  "centroid_easting": 529980,
   "description": "Change of use of a part of the ground floor from minicab command center (Class E) to a one bedroom flat (Class C3). Alterations and fenestration insertion/replacement at ground floor",
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
-    "lon": "-0.1269969",
-    "lat": "51.543476"
+    "lon": -0.127023,
+    "lat": 51.543474
   },
-  "last_updated": "2025-03-20T15:36:35.225+00:00",
+  "last_updated": "2025-11-07T15:33:12.523Z",
   "decision_agency": "Borough",
   "ward": "Cantelowes (Pre May 2022)",
   "parking_details": null,
@@ -261,72 +283,72 @@
     "coordinates": [
       [
         [
-          -0.1270683,
-          51.5435644
+          -0.127094,
+          51.543562
         ],
         [
-          -0.1270584,
-          51.5435588
+          -0.127084,
+          51.543557
         ],
         [
-          -0.1270394,
-          51.5435472
+          -0.127065,
+          51.543545
         ],
         [
-          -0.12701969999999999,
-          51.5435357
+          -0.127045,
+          51.543533
         ],
         [
-          -0.1270006,
-          51.5435259
+          -0.127026,
+          51.543524
         ],
         [
-          -0.1269823,
-          51.5435162
+          -0.127008,
+          51.543514
         ],
         [
-          -0.1269696,
-          51.5435092
+          -0.126995,
+          51.543507
         ],
         [
-          -0.1269577,
-          51.5435018
+          -0.126984,
+          51.5435
         ],
         [
-          -0.1269442,
-          51.543494
+          -0.12697,
+          51.543492
         ],
         [
-          -0.12686799999999998,
-          51.5434523
+          -0.126894,
+          51.54345
         ],
         [
-          -0.1268832,
-          51.5434368
+          -0.126909,
+          51.543435
         ],
         [
-          -0.1270231,
-          51.5434341
+          -0.127049,
+          51.543432
         ],
         [
-          -0.1270636,
-          51.5434334
+          -0.127089,
+          51.543431
         ],
         [
-          -0.1270653,
-          51.5434797
+          -0.127091,
+          51.543477
         ],
         [
-          -0.1270668,
-          51.5435112
+          -0.127093,
+          51.543509
         ],
         [
-          -0.12706789999999998,
-          51.5435382
+          -0.127094,
+          51.543536
         ],
         [
-          -0.1270683,
-          51.5435644
+          -0.127094,
+          51.543562
         ]
       ]
     ],
