@@ -13,8 +13,8 @@
     "phasing_details": [
       {
         "phase_detail": "Single Phase",
-        "intended_completion_date": "04/2023",
-        "intended_commencement_date": "04/2022"
+        "intended_commencement_date": "04/2022",
+        "intended_completion_date": "04/2023"
       }
     ],
     "total_gia_gained": 448.5,
@@ -25,15 +25,16 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 165,
-        "use_class": "C3",
+        "actual_completion_date": "29/08/2025",
         "gia_gained": 448.5,
+        "use_class": "C3",
         "actual_commencement_date": "01/02/2024",
         "gia_lost": 165
       }
     ],
     "projected_cost_of_works": "Between £2m and £100m",
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "building_details": [
       {
         "no_storeys": 2,
@@ -52,7 +53,7 @@
       "total_gia_lost": 165,
       "site_area": 0.167
     },
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "uk_company_registration_no": "11106509",
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
@@ -62,7 +63,7 @@
       "no_homes_passive_cooling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
@@ -110,71 +111,76 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
+          "actual_completion_date": "01/02/2024",
+          "description": null,
+          "change_type": "Loss",
+          "unit_type": "House or Bungalow",
           "provider": "Private",
           "no_habitable_rooms": 7,
           "phase_detail": null,
           "unit_no": "Loss-1",
-          "description": null,
-          "change_type": "Loss",
           "actual_commencement_date": "01/02/2024",
           "no_bedrooms": 4,
-          "unit_type": "House or Bungalow",
           "provision_for_older_persons": false,
           "gia": 165,
           "tenure": "Market for sale"
         },
         {
+          "actual_completion_date": "29/08/2025",
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "provider": "Private",
           "no_habitable_rooms": 4,
           "phase_detail": null,
           "unit_no": "Gain-1",
-          "description": null,
-          "change_type": "Gain",
           "actual_commencement_date": "01/02/2024",
           "no_bedrooms": 3,
-          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
           "gia": 85,
           "tenure": "Market for sale"
         },
         {
+          "actual_completion_date": "29/08/2025",
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "provider": "Private",
           "no_habitable_rooms": 3,
           "phase_detail": null,
           "unit_no": "Gain-2",
-          "description": null,
-          "change_type": "Gain",
           "actual_commencement_date": "01/02/2024",
           "no_bedrooms": 2,
-          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
           "gia": 64,
           "tenure": "Market for rent"
         },
         {
+          "actual_completion_date": "29/08/2025",
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Semi Detached Home",
           "provider": "Private",
           "no_habitable_rooms": 6,
           "phase_detail": null,
           "unit_no": "Gain-3",
-          "description": null,
-          "change_type": "Gain",
           "actual_commencement_date": "01/02/2024",
           "no_bedrooms": 4,
-          "unit_type": "Semi Detached Home",
           "provision_for_older_persons": false,
           "gia": 150,
           "tenure": "Market for sale"
         },
         {
+          "actual_completion_date": "29/08/2025",
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Semi Detached Home",
           "provider": "Private",
           "no_habitable_rooms": 6,
           "phase_detail": null,
           "unit_no": "Gain-4",
-          "description": null,
-          "change_type": "Gain",
           "actual_commencement_date": "01/02/2024",
           "no_bedrooms": 4,
-          "unit_type": "Semi Detached Home",
           "provision_for_older_persons": false,
           "gia": 150,
           "tenure": "Market for sale"
@@ -188,7 +194,16 @@
     "lead_developer_company_name": "Luxgrove Capital Partners",
     "other_residential_accommodation_details": {
       "site_area": 0.167
-    }
+    },
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "lpa_app_no": "216269FUL",
   "parking_details": {
@@ -205,7 +220,7 @@
   "locality": "London",
   "appeal_status": null,
   "last_date_consultation_comments": null,
-  "status": "Commenced",
+  "status": "Completed",
   "decision_process": "Delegated",
   "secondary_street_name": null,
   "decision_conditions": [
@@ -498,26 +513,26 @@
   "id": "Ealing-216269FUL",
   "ward": "Hobbayne",
   "development_type": "Minor dwellings",
-  "cil_liability": true,
+  "cil_liability": false,
   "borough": "Ealing",
   "appeal_decision": null,
   "site_name": "178 Church Road",
   "lapsed_date": "24/05/2026",
   "description": "Conversion of the existing single dwelling house to two self-contained units, with associated cycle storage, off street parking and refuse storage facilities; single storey rear/side extension (following demolition of garage); construction of two single storey semi-detached houses to the rear of the site with associated landscaping, refuse and cycle storage.",
   "pp_id": "PP-10277239",
-  "actual_completion_date": null,
+  "actual_completion_date": "29/08/2025",
   "centroid_northing": 180864,
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "date_building_work_started_under_previous_permission": null,
   "appeal_decision_date": null,
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated": "2025-03-19T22:00:20.867+00:00",
+  "last_updated": "2025-11-10T12:02:56.023Z",
   "epc_number": "2538-3053-7207-6331-6984",
   "application_type_full": "Full planning permission",
   "decision": "Approved",
   "postcode": "W7 3BP",
   "site_number": null,
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "centroid": {
     "lat": 51.514992,
     "lon": -0.343196

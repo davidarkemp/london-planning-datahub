@@ -1,8 +1,8 @@
 {
   "cil_liability": false,
-  "last_updated": "2025-03-20T12:46:07.655+00:00",
+  "last_updated": "2025-11-10T09:39:48.599Z",
   "application_details": {
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "building_details": [
       {
         "no_storeys": 0,
@@ -23,7 +23,7 @@
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
       "green_roof_area": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_new_water_connections_required": 0,
       "percentage_demolition_construction_material_recycling": 0,
       "fire_suppression_system_proposed": false,
@@ -40,28 +40,31 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 159.7,
-        "use_class": "SpecifiedOther",
         "gia_gained": 0,
-        "gia_lost": 0
-      },
-      {
-        "gia_existing": 0,
-        "use_class": "C3",
-        "gia_gained": 166.2,
-        "gia_lost": 0
-      },
-      {
-        "gia_existing": 0,
         "use_class": "SpecifiedOther",
+        "actual_commencement_date": "26/02/2024",
+        "gia_lost": 0
+      },
+      {
+        "gia_existing": 0,
+        "gia_gained": 166.2,
+        "use_class": "C3",
+        "actual_commencement_date": "26/02/2024",
+        "gia_lost": 0
+      },
+      {
+        "gia_existing": 0,
         "gia_gained": 159.7,
+        "use_class": "SpecifiedOther",
+        "actual_commencement_date": "26/02/2024",
         "gia_lost": 0
       }
     ],
     "phasing_details": [
       {
         "phase_detail": "1",
-        "intended_completion_date": "12/2022",
-        "intended_commencement_date": "09/2022"
+        "intended_commencement_date": "09/2022",
+        "intended_completion_date": "12/2022"
       }
     ],
     "non_residential_details": {
@@ -69,7 +72,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 325.9,
       "total_gia_existing": 159.7,
-      "total_gia_lost": 0
+      "total_gia_lost": 0,
+      "site_area": 0.015600000000000001
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -102,47 +106,67 @@
       "total_no_existing_residential_units_starter_homes": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 4,
           "provider": "Private",
+          "no_habitable_rooms": 4,
+          "phase_detail": null,
           "unit_no": "Gain-1",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 3,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
           "gia": 93.3,
           "tenure": "Market for rent"
         },
         {
-          "no_habitable_rooms": 2,
           "provider": "Private",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
           "unit_no": "Gain-2",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "gia": 72.9,
           "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 384.6153846153846,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_gia_gained": 166.2,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "affordable_percentage": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 128.2051282051282,
       "total_no_existing_residential_units": 0,
-      "total_no_existing_residential_units_intermediate": 0
+      "total_no_existing_residential_units_intermediate": 0,
+      "site_area": 0.015600000000000001
     },
-    "projected_cost_of_works": "Up to £2m"
+    "projected_cost_of_works": "Up to £2m",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.015600000000000001
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "decision_target_date": "07/07/2023",
   "parking_details": null,
   "postcode": "NW3 1LJ",
   "appeal_decision_date": null,
   "locality": "London",
-  "status": "Approved",
-  "centroid_easting": "526553",
+  "status": "Commenced",
+  "centroid_easting": 526553,
   "lapsed_date": "03/07/2026",
   "reference_no_of_permission_being_relied_on": null,
   "polygon": {
@@ -197,18 +221,18 @@
     ],
     "type": "GeometryCollection"
   },
-  "centroid_northing": "185984",
+  "centroid_northing": 185984,
   "ward": "Hampstead Town",
   "lpa_app_no": "2022/2806/P",
   "pp_id": "11351726",
-  "bo_system": "Northgate M3",
+  "bo_system": "Portal",
   "borough": "Camden",
   "valid_date": "01/07/2022",
-  "title_number": null,
+  "title_number": [],
   "decision_agency": "Borough",
   "uprn": "5155981",
   "appeal_start_date": null,
-  "last_updated_by": "Northgate M3",
+  "last_updated_by": "Portal",
   "appeal_decision": null,
   "last_date_consultation_comments": "28/08/2022",
   "actual_completion_date": null,
@@ -219,58 +243,58 @@
   "secondary_street_name": null,
   "subdivision_of_building": "1st and 2nd Floors.",
   "date_building_work_started_under_previous_permission": null,
-  "actual_commencement_date": null,
+  "actual_commencement_date": "26/02/2024",
   "street_name": "Well Road",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.17571779999999998,
-          51.5585494
+          -0.175743,
+          51.558547
         ],
         [
-          -0.1757201,
-          51.5585471
+          -0.175745,
+          51.558545
         ],
         [
-          -0.1757453,
-          51.5585287
+          -0.175771,
+          51.558526
         ],
         [
-          -0.1758234,
-          51.5584719
+          -0.175849,
+          51.558469
         ],
         [
-          -0.1758537,
-          51.5584894
+          -0.175879,
+          51.558487
         ],
         [
-          -0.175944,
-          51.5585403
+          -0.175969,
+          51.558538
         ],
         [
-          -0.17581259999999999,
-          51.558634
+          -0.175838,
+          51.558632
         ],
         [
-          -0.1757794,
-          51.5586155
+          -0.175805,
+          51.558613
         ],
         [
-          -0.17569189999999998,
-          51.5585687
+          -0.175717,
+          51.558566
         ],
         [
-          -0.17571779999999998,
-          51.5585494
+          -0.175743,
+          51.558547
         ]
       ]
     ],
     "type": "Polygon"
   },
   "centroid": {
-    "lat": "51.5585522",
-    "lon": "-0.17581729999999998"
+    "lat": 51.55855,
+    "lon": -0.175842
   },
   "epc_number": "2893-1918-7440-9699-0515",
   "url_planning_app": "https://planningrecords.camden.gov.uk/Northgate/PlanningExplorer/DisplayAppDetails.aspx?AppNo=2022/2806/P",
@@ -283,10 +307,10 @@
   "description": "Change of use of first and second floor to flexible education use (Class F1), office use (Class E), and public house (Sui Generis). ",
   "decision_date": "03/07/2023",
   "decision_conditions": [
-    "Condition : 1 - The development hereby permitted shall begin either before the expiration of five years from the date of this permission or before the expiration of two years from the date of the last of the reserved matters to be approved, whichever is the later.\r\n\r\nReason: In order to comply with the provisions of Section 92 of the Town and Country Planning Act 1990 (as amended).\r\n",
-    "Condition : 2 - The development hereby permitted shall be carried out in accordance with the following approved plans:\r\n\r\n0500-Site Location Plan, 0501-Block Plan,  0999-Existing Basement Floor Plan, 1000- Existing Ground Floor Plan, 1001-Existing First Floor Plan, 1002-Existing Second Floor Plan, 1003-Existing Roof Plan, 1999-Proposed Basement Plan, 2000-Proposed Ground Floor Plan, 2001-Proposed First Floor Plan, 2002-Proposed Second Floor Plan, 2001_E-Proposed First Floor Plan, 2002_E-Proposed Second Floor Plan, 2007-Proposed First Floor Plan, 2008-Proposed Second Floor Plan, 2003-Proposed Roof Plan.\r\n\r\nReason: For the avoidance of doubt and in the interest of proper planning.\r\n",
-    "Condition : 3 - Before the development commences, details of secure and covered cycle storage area for five (5) cycles shall be submitted to and approved by the local planning authority. The approved facility shall thereafter be provided in its entirety prior to the first occupation of any of the new units, and permanently retained thereafter. \r\n\r\nReason: To ensure the development provides adequate cycle parking facilities in accordance with the requirements of policy T1 of the London Borough of Camden Local Plan 2017.\r\n",
-    "Condition : 4 - Notwithstanding the provisions of Class E of the Schedule of the Town and Country Planning (Use Classes) Order 2015 (as amended), or any provision equivalent to that Class in any statutory instrument revoking and re-enacting that Order, the proposed Flexible Class E/F1/Public House (Sui Generis) use hereby approved at first and second floor shall not be used for any purposes within Class E other than as an office. \r\n\r\nReason: To ensure that the future occupation of the building does not adversely affect the adjoining premises or immediate area by way of noise or disturbance, in accordance with policies G1, A1 and A4 of the Camden Local Plan 2017.\r\n"
+    "Condition : 1 - The development hereby permitted shall begin either before the expiration of five years from the date of this permission or before the expiration of two years from the date of the last of the reserved matters to be approved, whichever is the later.\n\nReason: In order to comply with the provisions of Section 92 of the Town and Country Planning Act 1990 (as amended).",
+    "Condition : 2 - The development hereby permitted shall be carried out in accordance with the following approved plans:\n\n0500-Site Location Plan, 0501-Block Plan,  0999-Existing Basement Floor Plan, 1000- Existing Ground Floor Plan, 1001-Existing First Floor Plan, 1002-Existing Second Floor Plan, 1003-Existing Roof Plan, 1999-Proposed Basement Plan, 2000-Proposed Ground Floor Plan, 2001-Proposed First Floor Plan, 2002-Proposed Second Floor Plan, 2001_E-Proposed First Floor Plan, 2002_E-Proposed Second Floor Plan, 2007-Proposed First Floor Plan, 2008-Proposed Second Floor Plan, 2003-Proposed Roof Plan.\n\nReason: For the avoidance of doubt and in the interest of proper planning.",
+    "Condition : 3 - Before the development commences, details of secure and covered cycle storage area for five (5) cycles shall be submitted to and approved by the local planning authority. The approved facility shall thereafter be provided in its entirety prior to the first occupation of any of the new units, and permanently retained thereafter. \n\nReason: To ensure the development provides adequate cycle parking facilities in accordance with the requirements of policy T1 of the London Borough of Camden Local Plan 2017.",
+    "Condition : 4 - Notwithstanding the provisions of Class E of the Schedule of the Town and Country Planning (Use Classes) Order 2015 (as amended), or any provision equivalent to that Class in any statutory instrument revoking and re-enacting that Order, the proposed Flexible Class E/F1/Public House (Sui Generis) use hereby approved at first and second floor shall not be used for any purposes within Class E other than as an office. \n\nReason: To ensure that the future occupation of the building does not adversely affect the adjoining premises or immediate area by way of noise or disturbance, in accordance with policies G1, A1 and A4 of the Camden Local Plan 2017."
   ],
   "development_type": "Other change of use"
 }
