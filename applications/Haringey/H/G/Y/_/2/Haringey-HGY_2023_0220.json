@@ -12,13 +12,13 @@
   "street_name": "St Anns Road",
   "locality": null,
   "ward": "St Ann's",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "01/10/2024",
   "lpa_name": "Haringey",
   "bo_system": "Arcus",
   "decision_conditions": null,
   "date_building_work_started_under_previous_permission": null,
   "centroid_easting": 531841,
-  "status": "Approved",
+  "status": "Commenced",
   "decision_date": "20/03/2023",
   "wgs84_polygon": {
     "type": "Polygon",
@@ -53,12 +53,12 @@
   "development_type": "Major dwellings",
   "title_number": null,
   "appeal_status": null,
-  "last_updated": "2025-04-07T21:11:15.524Z",
+  "last_updated": "2025-11-17T22:03:54.714Z",
   "last_updated_by": "Arcus",
   "site_name": "438 St Anns Road, Tottenham, London, N15 3JH",
   "id": "Haringey-HGY_2023_0220",
   "decision": "Approved",
-  "cil_liability": null,
+  "cil_liability": false,
   "centroid_northing": 188786,
   "appeal_start_date": null,
   "postcode": "N15 3JH",
@@ -114,7 +114,7 @@
       "site_area": 0.02
     },
     "affordable_housing_fast_track": false,
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "site_area": 0.02,
     "total_gia_existing": 156.35,
     "rain_water_harvesting": false,
@@ -130,8 +130,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 156.35,
-        "use_class": "C4",
         "gia_gained": 156.35,
+        "use_class": "C4",
         "gia_lost": 156.35
       }
     ],
@@ -139,15 +139,15 @@
     "phasing_details": [
       {
         "phase_detail": "1",
-        "intended_completion_date": "06/2023",
-        "intended_commencement_date": "04/2023"
+        "intended_commencement_date": "04/2023",
+        "intended_completion_date": "06/2023"
       }
     ],
     "total_gia_lost": 156.35,
     "projected_cost_of_works": "Up to £2m",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "infrastructure_details": {
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "ghg_reduction_over_building_regulations": false,
       "no_homes_to_have_electrical_heating": 0,
@@ -170,32 +170,34 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
           "provider": "Private",
           "no_habitable_rooms": 4,
           "phase_detail": null,
           "unit_no": "Gain-1",
-          "description": null,
-          "change_type": "Gain",
+          "actual_commencement_date": "01/10/2024",
           "no_bedrooms": 3,
-          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
           "gia": 85.12,
-          "tenure": "Market for rent",
-          "unit_development_type": "Conversion"
+          "tenure": "Market for rent"
         },
         {
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
           "provider": "Private",
           "no_habitable_rooms": 2,
           "phase_detail": null,
           "unit_no": "Gain-2",
-          "description": null,
-          "change_type": "Gain",
+          "actual_commencement_date": "01/10/2024",
           "no_bedrooms": 1,
-          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
           "gia": 61.68,
-          "tenure": "Market for rent",
-          "unit_development_type": "Conversion"
+          "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_intermediate": 0,
@@ -237,7 +239,16 @@
     "ownership_status": "Private",
     "other_residential_accommodation_details": {
       "site_area": 0.02
-    }
+    },
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "centroid": {
     "lon": -7.55716,

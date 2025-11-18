@@ -16,57 +16,57 @@
   "street_name": null,
   "locality": null,
   "ward": "Notting Dale",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "01/03/2025",
   "lpa_name": "Kensington & Chelsea",
   "bo_system": "CSV Data Import",
   "decision_conditions": null,
   "date_building_work_started_under_previous_permission": null,
   "centroid_easting": 523753,
-  "status": "Approved",
+  "status": "Commenced",
   "decision_date": "19/12/2022",
   "wgs84_polygon": {
     "type": "Polygon",
     "coordinates": [
       [
         [
-          -0.2181273,
-          51.5130066
+          -0.218151,
+          51.513005
         ],
         [
-          -0.21811429999999998,
-          51.5130064
+          -0.218138,
+          51.513005
         ],
         [
-          -0.2180676,
-          51.5130053
+          -0.218091,
+          51.513004
         ],
         [
-          -0.2178732,
-          51.5129978
+          -0.217897,
+          51.512996
         ],
         [
-          -0.21787879999999998,
-          51.512948
+          -0.217903,
+          51.512947
         ],
         [
-          -0.21803129999999998,
+          -0.218055,
+          51.512952
+        ],
+        [
+          -0.218108,
           51.512953
         ],
         [
-          -0.2180839,
-          51.5129543
+          -0.218157,
+          51.512954
         ],
         [
-          -0.21813349999999998,
-          51.5129559
+          -0.218153,
+          51.513005
         ],
         [
-          -0.21812869999999998,
-          51.5130066
-        ],
-        [
-          -0.2181273,
-          51.5130066
+          -0.218151,
+          51.513005
         ]
       ]
     ]
@@ -77,7 +77,7 @@
   "development_type": "Minor dwellings",
   "title_number": null,
   "appeal_status": null,
-  "last_updated": "2025-04-07T09:01:35.388Z",
+  "last_updated": "2025-11-17T10:01:30.360Z",
   "last_updated_by": "CSV Data Import",
   "site_name": "37 Bramley Road, LONDON, W10 6SZ",
   "id": "Kensington_&_Chelsea-PP_22_06034",
@@ -147,7 +147,7 @@
   },
   "pp_id": "PP-11454373",
   "application_details": {
-    "green_suds": true,
+    "green_suds": false,
     "superseding_details": [
       {
         "lpa_app_no": "PA/22/01096",
@@ -159,13 +159,14 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 232.5,
       "total_gia_lost": 108.5,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "site_area": 0.01
     },
     "affordable_housing_fast_track": false,
     "garden_land_lost": false,
     "site_area": 0.01,
     "total_gia_existing": 202,
-    "rain_water_harvesting": true,
+    "rain_water_harvesting": false,
     "building_details": [
       {
         "no_storeys": 3,
@@ -177,14 +178,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 93.5,
-        "use_class": "C3",
         "gia_gained": 232.5,
+        "use_class": "C3",
         "gia_lost": 0
       },
       {
         "gia_existing": 108.5,
-        "use_class": "SpecifiedOther",
         "gia_gained": 0,
+        "use_class": "SpecifiedOther",
         "gia_lost": 108.5
       }
     ],
@@ -193,8 +194,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_completion_date": "03/2023",
-        "intended_commencement_date": "01/2022"
+        "intended_commencement_date": "01/2022",
+        "intended_completion_date": "03/2023"
       }
     ],
     "total_gia_lost": 108.5,
@@ -227,7 +228,7 @@
       "fire_suppression_system_proposed": false,
       "total_annual_pm_emissions": 0
     },
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "total_gia_gained": 232.5,
     "ownership_status": "Private",
     "existing_uprns": null,
@@ -239,76 +240,78 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
-          "unit_no": "Loss-1",
-          "change_type": "Loss",
-          "unit_type": "Communal Space",
-          "gia": 72.5
-        },
-        {
-          "unit_no": "Loss-2",
-          "change_type": "Loss",
-          "unit_type": "Communal Space",
-          "gia": 72.5
-        },
-        {
-          "no_habitable_rooms": 3,
-          "unit_no": "Loss-3",
+          "actual_completion_date": "01/03/2025",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Extension",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": "Loss-3",
+          "actual_commencement_date": "01/03/2025",
+          "no_bedrooms": 2,
           "provision_for_older_persons": false,
           "gia": 100,
           "tenure": "Market for rent"
         },
         {
-          "no_habitable_rooms": 1,
-          "unit_no": "Loss-4",
-          "change_type": "Loss",
-          "sheltered_accommodation": false,
-          "no_bedrooms": 45,
+          "description": null,
+          "change_type": "Gain",
           "unit_type": "Studio Bedsit",
-          "provision_for_older_persons": false,
-          "gia": 37,
-          "tenure": "Market for rent"
-        },
-        {
-          "no_habitable_rooms": 1,
+          "unit_development_type": "Extension",
           "provider": "Private",
+          "no_habitable_rooms": 1,
+          "phase_detail": null,
           "unit_no": "Gain-1",
-          "change_type": "Gain",
+          "actual_commencement_date": "01/03/2025",
           "no_bedrooms": 1,
-          "unit_type": "Studio Bedsit",
+          "provision_for_older_persons": false,
           "gia": 42.4,
           "tenure": "Market for rent"
         },
         {
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Studio Bedsit",
+          "unit_development_type": "Extension",
+          "provider": "Private",
           "no_habitable_rooms": 1,
-          "provider": "Private",
+          "phase_detail": null,
           "unit_no": "Gain-2",
-          "change_type": "Gain",
+          "actual_commencement_date": "01/03/2025",
           "no_bedrooms": 1,
-          "unit_type": "Studio Bedsit",
+          "provision_for_older_persons": false,
           "gia": 42.4,
           "tenure": "Market for rent"
         },
         {
-          "no_habitable_rooms": 2,
-          "provider": "Private",
-          "unit_no": "Gain-3",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Extension",
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": "Gain-3",
+          "actual_commencement_date": "01/03/2025",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "gia": 51.1,
           "tenure": "Market for rent"
         },
         {
-          "no_habitable_rooms": 3,
-          "provider": "Private",
-          "unit_no": "Gain-4",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Extension",
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": "Gain-4",
+          "actual_commencement_date": "01/03/2025",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "gia": 76.7,
           "tenure": "Market for rent"
         }
@@ -320,7 +323,7 @@
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units": 4,
       "affordable_percentage": 0,
-      "total_no_existing_residential_units_market_for_rent": 2,
+      "total_no_existing_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
@@ -330,24 +333,37 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_gia_lost": 282,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
-      "total_no_existing_residential_units": 4,
+      "total_no_existing_residential_units": 1,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_gia_gained": 212.6,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 400,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 700,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_residential_units_market_for_sale": 0
+      "total_no_proposed_residential_units_market_for_sale": 0,
+      "site_area": 0.01
     },
-    "projected_cost_of_works": "Up to £2m"
+    "projected_cost_of_works": "Up to £2m",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.01
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "centroid": {
     "lon": -0.218017,

@@ -40,41 +40,41 @@
   "street_name": null,
   "locality": null,
   "ward": "Brompton and Hans Town",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "01/06/2024",
   "lpa_name": "Kensington & Chelsea",
   "bo_system": "CSV Data Import",
   "decision_conditions": null,
   "date_building_work_started_under_previous_permission": null,
   "centroid_easting": 527850,
-  "status": "Lapsed",
+  "status": "Commenced",
   "decision_date": "13/10/2021",
   "wgs84_polygon": {
     "type": "Polygon",
     "coordinates": [
       [
         [
-          -0.1596646,
-          51.4959347
+          -0.159689,
+          51.495934
         ],
         [
-          -0.1595468,
-          51.4959476
+          -0.159571,
+          51.495946
         ],
         [
-          -0.15952729999999998,
-          51.4958789
+          -0.159552,
+          51.495878
         ],
         [
-          -0.15965669999999998,
-          51.4958648
+          -0.159681,
+          51.495864
         ],
         [
-          -0.1596763,
-          51.4959334
+          -0.159701,
+          51.495932
         ],
         [
-          -0.1596646,
-          51.4959347
+          -0.159689,
+          51.495934
         ]
       ]
     ]
@@ -85,7 +85,7 @@
   "development_type": "Minor all other minor developments",
   "title_number": [],
   "appeal_status": null,
-  "last_updated": "2025-04-07T09:00:55.698Z",
+  "last_updated": "2025-11-17T10:00:54.735Z",
   "last_updated_by": "CSV Data Import",
   "site_name": "120 Pavilion Road, LONDON, SW1X 0AX",
   "id": "Kensington_&_Chelsea-PP_21_04876",
@@ -145,7 +145,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 68,
       "total_gia_lost": 0,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "site_area": 0.007
     },
     "affordable_housing_fast_track": false,
     "garden_land_lost": false,
@@ -163,8 +164,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 176,
-        "use_class": "C3",
         "gia_gained": 68,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -173,15 +174,15 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_completion_date": "12/2022",
-        "intended_commencement_date": "02/2022"
+        "intended_commencement_date": "02/2022",
+        "intended_completion_date": "12/2022"
       }
     ],
     "total_gia_lost": 0,
     "infrastructure_details": {
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
       "total_annual_nox_emissions": 0,
@@ -195,7 +196,7 @@
       "total_annual_pm_emissions": 0,
       "chp_heat_pumps_capacity": 0.01
     },
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "householder_dev_category": [],
     "total_gia_gained": 68,
     "resi_extension_exempt": null,
@@ -211,22 +212,33 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 5,
-          "provider": "Private",
-          "unit_no": "Loss-1",
+          "actual_completion_date": "01/06/2024",
+          "description": null,
           "change_type": "Loss",
-          "no_bedrooms": 3,
           "unit_type": "Terraced Home",
+          "unit_development_type": "New Build",
+          "provider": "Private",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": "Loss-1",
+          "actual_commencement_date": "01/06/2024",
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
           "gia": 163,
           "tenure": "Market for sale"
         },
         {
-          "no_habitable_rooms": 6,
-          "provider": "Private",
-          "unit_no": "Gain-1",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 4,
           "unit_type": "Terraced Home",
+          "unit_development_type": "New Build",
+          "provider": "Private",
+          "no_habitable_rooms": 6,
+          "phase_detail": null,
+          "unit_no": "Gain-1",
+          "actual_commencement_date": "01/06/2024",
+          "no_bedrooms": 4,
+          "provision_for_older_persons": false,
           "gia": 224,
           "tenure": "Market for sale"
         }
@@ -254,19 +266,32 @@
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_gia_gained": 224,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 142.85714285714286,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 857.1428571428571,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_residential_units_market_for_sale": 1
+      "total_no_proposed_residential_units_market_for_sale": 1,
+      "site_area": 0.007
     },
     "no_additional_bathrooms": null,
-    "projected_cost_of_works": "Between £2m and £100m"
+    "projected_cost_of_works": "Between £2m and £100m",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.007
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "centroid": {
     "lon": -0.15966,

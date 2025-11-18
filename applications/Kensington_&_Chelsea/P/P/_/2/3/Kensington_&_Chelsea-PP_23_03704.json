@@ -25,100 +25,100 @@
     "coordinates": [
       [
         [
-          -0.2063523,
-          51.508989
+          -0.206376,
+          51.508988
         ],
         [
-          -0.20635879999999998,
-          51.5089982
+          -0.206383,
+          51.508997
         ],
         [
-          -0.20635879999999998,
-          51.5089982
+          -0.206383,
+          51.508997
         ],
         [
-          -0.2063159,
-          51.5090101
+          -0.20634,
+          51.509009
         ],
         [
-          -0.20631349999999998,
-          51.509015
+          -0.206337,
+          51.509014
         ],
         [
-          -0.206309,
-          51.5090194
+          -0.206333,
+          51.509018
         ],
         [
-          -0.2063053,
-          51.5090225
+          -0.206329,
+          51.509021
         ],
         [
-          -0.2062994,
-          51.5090251
+          -0.206323,
+          51.509024
         ],
         [
-          -0.20629209999999998,
-          51.5090273
+          -0.206316,
+          51.509026
         ],
         [
-          -0.20628559999999999,
-          51.5090285
+          -0.20631,
+          51.509027
         ],
         [
-          -0.2062791,
-          51.5090289
-        ],
-        [
-          -0.2062712,
-          51.5090279
-        ],
-        [
-          -0.20626409999999998,
-          51.5090259
-        ],
-        [
-          -0.20626129999999998,
-          51.5090246
-        ],
-        [
-          -0.2062503,
+          -0.206303,
           51.509028
         ],
         [
-          -0.2062503,
-          51.509028
+          -0.206295,
+          51.509027
         ],
         [
-          -0.2062312,
-          51.5090025
+          -0.206288,
+          51.509025
         ],
         [
-          -0.2062144,
-          51.5090072
+          -0.206285,
+          51.509023
         ],
         [
-          -0.20617819999999998,
-          51.508958
+          -0.206274,
+          51.509027
         ],
         [
-          -0.20619559999999998,
-          51.5089534
+          -0.206274,
+          51.509027
         ],
         [
-          -0.2061779,
-          51.5089293
+          -0.206255,
+          51.509001
         ],
         [
-          -0.2062878,
-          51.5088986
+          -0.206238,
+          51.509006
         ],
         [
-          -0.20631139999999998,
-          51.5089316
+          -0.206202,
+          51.508957
         ],
         [
-          -0.2063523,
-          51.508989
+          -0.206219,
+          51.508952
+        ],
+        [
+          -0.206202,
+          51.508928
+        ],
+        [
+          -0.206312,
+          51.508897
+        ],
+        [
+          -0.206335,
+          51.50893
+        ],
+        [
+          -0.206376,
+          51.508988
         ]
       ]
     ]
@@ -129,7 +129,7 @@
   "development_type": "Minor dwellings",
   "title_number": null,
   "appeal_status": null,
-  "last_updated": "2025-04-07T09:01:46.068Z",
+  "last_updated": "2025-11-17T10:01:40.122Z",
   "last_updated_by": "CSV Data Import",
   "site_name": "Flat 1, 12-14 Lansdowne Walk, LONDON, W11 3LN",
   "id": "Kensington_&_Chelsea-PP_23_03704",
@@ -262,7 +262,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 0,
       "total_gia_lost": 0,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "site_area": 0.011000000000000001
     },
     "affordable_housing_fast_track": false,
     "garden_land_lost": false,
@@ -275,8 +276,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 247.8,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -284,13 +285,13 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development ",
-        "intended_completion_date": "06/2025",
-        "intended_commencement_date": "06/2025"
+        "intended_commencement_date": "06/2025",
+        "intended_completion_date": "06/2025"
       }
     ],
     "total_gia_lost": 0,
     "projected_cost_of_works": "Up to £2m",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "residential_details": {
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
@@ -300,22 +301,27 @@
       "residential_units": [
         {
           "no_habitable_rooms": 1,
+          "phase_detail": null,
           "unit_no": "Loss-1",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
           "provision_for_older_persons": true,
           "gia": 56.3,
           "tenure": "Market for rent"
         },
         {
-          "no_habitable_rooms": 1,
           "provider": "Private",
+          "no_habitable_rooms": 1,
+          "phase_detail": null,
           "unit_no": "Gain-1",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 4,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 4,
+          "provision_for_older_persons": false,
           "gia": 247.8,
           "tenure": "Market for rent"
         }
@@ -343,19 +349,20 @@
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_gia_gained": 247.8,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 90.9090909090909,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 90.9090909090909,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_residential_units_market_for_sale": 0
+      "total_no_proposed_residential_units_market_for_sale": 0,
+      "site_area": 0.011000000000000001
     },
     "infrastructure_details": {
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "ghg_reduction_over_building_regulations": false,
       "no_homes_to_have_electrical_heating": 1,
@@ -370,7 +377,19 @@
       "fire_suppression_system_proposed": false,
       "total_annual_pm_emissions": 0
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.011000000000000001
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "centroid": {
     "lon": -0.206284,

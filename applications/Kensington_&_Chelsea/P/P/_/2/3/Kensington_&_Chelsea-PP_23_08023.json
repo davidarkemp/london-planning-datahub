@@ -12,68 +12,68 @@
   "street_name": null,
   "locality": null,
   "ward": "Campden",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "01/03/2025",
   "lpa_name": "Kensington & Chelsea",
   "bo_system": "CSV Data Import",
   "decision_conditions": null,
   "date_building_work_started_under_previous_permission": null,
   "centroid_easting": 525421,
-  "status": "Approved",
+  "status": "Commenced",
   "decision_date": "28/03/2024",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.19422879999999998,
-          51.5067864
+          -0.194253,
+          51.506785
         ],
         [
-          -0.19422889999999998,
-          51.5067865
+          -0.194253,
+          51.506785
         ],
         [
-          -0.1942209,
-          51.5067881
+          -0.194245,
+          51.506787
         ],
         [
-          -0.19418529999999998,
-          51.5067952
+          -0.194209,
+          51.506794
         ],
         [
-          -0.1941611,
-          51.506753
+          -0.194185,
+          51.506752
         ],
         [
-          -0.19411299999999998,
-          51.5066741
+          -0.194137,
+          51.506673
         ],
         [
-          -0.194096,
-          51.5066464
+          -0.19412,
+          51.506645
         ],
         [
-          -0.1941696,
-          51.5066282
+          -0.194194,
+          51.506627
         ],
         [
-          -0.19418639999999998,
-          51.5066563
+          -0.19421,
+          51.506655
         ],
         [
-          -0.19421839999999999,
-          51.5067067
+          -0.194242,
+          51.506705
         ],
         [
-          -0.19423659999999998,
-          51.5067344
+          -0.194261,
+          51.506733
         ],
         [
-          -0.1942032,
-          51.5067416
+          -0.194227,
+          51.50674
         ],
         [
-          -0.19422879999999998,
-          51.5067864
+          -0.194253,
+          51.506785
         ]
       ]
     ],
@@ -83,9 +83,9 @@
   "subdivision_of_building": null,
   "last_date_consultation_comments": "05/01/2024",
   "development_type": "Minor dwellings",
-  "title_number": null,
+  "title_number": [],
   "appeal_status": null,
-  "last_updated": "2025-04-07T09:01:55.680Z",
+  "last_updated": "2025-11-17T10:01:51.630Z",
   "last_updated_by": "CSV Data Import",
   "site_name": "8 Berkeley Gardens, LONDON",
   "id": "Kensington_&_Chelsea-PP_23_08023",
@@ -174,7 +174,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 0,
       "total_gia_lost": 0,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "site_area": 0.009
     },
     "affordable_housing_fast_track": false,
     "garden_land_lost": false,
@@ -187,8 +188,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 255.5,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -196,13 +197,13 @@
     "phasing_details": [
       {
         "phase_detail": "Entire development ",
-        "intended_completion_date": "04/2024",
-        "intended_commencement_date": "02/2024"
+        "intended_commencement_date": "02/2024",
+        "intended_completion_date": "04/2024"
       }
     ],
     "total_gia_lost": 0,
     "projected_cost_of_works": "Up to £2m",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "residential_details": {
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
@@ -211,25 +212,54 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 2,
-          "unit_no": "Loss-1",
+          "actual_completion_date": "01/03/2025",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": "Loss-1",
+          "actual_commencement_date": "01/03/2025",
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
           "gia": 64.1,
           "tenure": "Market for rent"
+        },
+        {
+          "phase_detail": null,
+          "unit_no": "Loss-2",
+          "description": null,
+          "change_type": "Loss",
+          "no_bedrooms": 3,
+          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
+          "gia": 181.6,
+          "tenure": "Market for rent",
+          "unit_development_type": "Conversion"
+        },
+        {
+          "phase_detail": null,
+          "unit_no": "Gain-1",
+          "description": null,
+          "change_type": "Gain",
+          "no_bedrooms": 5,
+          "unit_type": "Terraced Home",
+          "provision_for_older_persons": false,
+          "gia": 253.3,
+          "tenure": "Market for sale",
+          "unit_development_type": "Conversion"
         }
       ],
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
-      "total_no_proposed_bedrooms": 0,
+      "total_no_proposed_bedrooms": 5,
       "total_no_proposed_residential_units_discount_market_rent": 0,
-      "total_no_proposed_residential_units": 0,
+      "total_no_proposed_residential_units": 1,
       "affordable_percentage": 0,
-      "total_no_existing_residential_units_market_for_rent": 1,
+      "total_no_existing_residential_units_market_for_rent": 2,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
@@ -239,25 +269,26 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_gia_lost": 64.1,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
-      "total_no_existing_residential_units": 1,
+      "total_no_existing_residential_units": 2,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_gia_gained": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 111.11111111111111,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_residential_units_market_for_sale": 0
+      "total_no_proposed_residential_units_market_for_sale": 1,
+      "site_area": 0.009
     },
     "infrastructure_details": {
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "ghg_reduction_over_building_regulations": false,
       "no_homes_to_have_electrical_heating": 0,
@@ -272,7 +303,19 @@
       "fire_suppression_system_proposed": false,
       "total_annual_pm_emissions": 0
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.009
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "centroid": {
     "lon": -0.194225,

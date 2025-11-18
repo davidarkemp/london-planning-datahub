@@ -34,7 +34,7 @@
   "decision_agency": null,
   "application_type": "All Other",
   "lpa_app_no": "22/3163/L",
-  "application_type_full": null,
+  "application_type_full": "Full planning & listed building consent",
   "uprn": "10010225408",
   "borough": "Greenwich",
   "street_name": null,
@@ -46,7 +46,7 @@
   "decision_conditions": null,
   "date_building_work_started_under_previous_permission": null,
   "centroid_easting": 543280,
-  "status": "Application Under Consideration",
+  "status": null,
   "decision_date": null,
   "wgs84_polygon": {
     "type": "Polygon",
@@ -225,7 +225,7 @@
   "development_type": null,
   "title_number": [],
   "appeal_status": null,
-  "last_updated": "2025-04-08T22:00:35.242Z",
+  "last_updated": "2025-11-17T23:00:32.080Z",
   "last_updated_by": "CSV Data Import",
   "site_name": "Island Site, Wellington Street, Woolwich SE18",
   "id": "Greenwich-22_3163_L",
@@ -239,7 +239,7 @@
   "secondary_street_name": null,
   "site_number": null,
   "reference_no_of_permission_being_relied_on": null,
-  "description": "Internal and external alterations, demolition, repair and refurbishment works to the Grade II listed University of Greenwich, Woolwich Campus: Original Building, Gymnasium to Rear and Corner Entrance Range to facilitate the change of use of the building to twenty residential dwellings (Use Class C3(a)), together with community uses (Use Class E(d) and F2(b)) at the basement level and co-living communal space (within the Gymnasium) (Use Class Sui Generis).(This listed building application is linked with the full application under ref:ÿ22/3162/F for the wider redevelopment of the Island Site)(The development may impact on the setting of the Grade II listed building on-site being the University of Greenwich, Woolwich Campus: Original Building, Gymnasium to Rear and Corner Entrance Range)",
+  "description": "Internal and external alterations, demolition, repair and refurbishment works to the Grade II listed University of Greenwich, Woolwich Campus: Original Building, Gymnasium to Rear and Corner Entrance Range to facilitate the change of use of the building to twenty residential dwellings (Use Class C3(a)), together with community uses (Use Class E(d) and F2(b)) at the basement level and co-living communal space (within the Gymnasium) (Use Class Sui Generis)",
   "valid_date": "06/03/2023",
   "polygon": {
     "geometries": [
@@ -420,31 +420,102 @@
   "pp_id": "PP-11341858",
   "application_details": {
     "green_suds": true,
-    "superseding_details": [],
+    "superseding_details": [
+      {
+        "lpa_app_no": "16/2480/F",
+        "partial_supersedence": false
+      }
+    ],
     "non_residential_details": {
       "total_gia_existing": 12544,
-      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 23812,
       "total_gia_gained": 26241,
       "total_gia_lost": 12544,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 4358,
       "development_type": null,
       "site_area": null
     },
     "affordable_housing_fast_track": false,
     "garden_land_lost": false,
-    "site_area": 1.112,
+    "site_area": 1.11,
     "total_gia_existing": 12544,
     "rain_water_harvesting": true,
     "grey_water_reuse": true,
-    "building_details": [],
-    "existing_proposed_floorspace_details": [],
+    "building_details": [
+      {
+        "no_storeys": 5,
+        "max_height": 17.6,
+        "building_ref": "2"
+      },
+      {
+        "no_storeys": 6,
+        "max_height": 20.7,
+        "building_ref": "3"
+      },
+      {
+        "no_storeys": 6,
+        "max_height": 20.7,
+        "building_ref": "3"
+      },
+      {
+        "no_storeys": 4,
+        "max_height": 14.5,
+        "building_ref": "7"
+      },
+      {
+        "no_storeys": 6,
+        "max_height": 18.9,
+        "building_ref": "8"
+      },
+      {
+        "no_storeys": 7,
+        "max_height": 20.1,
+        "building_ref": "9"
+      },
+      {
+        "no_storeys": 6,
+        "max_height": 20.4,
+        "building_ref": "10"
+      },
+      {
+        "no_storeys": 6,
+        "max_height": 21.4,
+        "building_ref": "14"
+      }
+    ],
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 1085,
+        "gia_gained": 1606,
+        "use_class": "SpecifiedOther",
+        "gia_lost": 1085
+      },
+      {
+        "gia_existing": 7101,
+        "gia_gained": 823,
+        "use_class": "B1A",
+        "gia_lost": 7101
+      },
+      {
+        "gia_existing": 4358,
+        "gia_gained": 1100,
+        "use_class": "D1",
+        "gia_lost": 4358
+      },
+      {
+        "gia_existing": 0,
+        "gia_gained": 22712,
+        "use_class": "SG",
+        "gia_lost": 0
+      }
+    ],
     "internal_resi_water_usage": 0,
     "surface_water_discharge_percentage_reduction": 10,
     "phasing_details": [
       {
         "phase_detail": "1",
-        "intended_completion_date": "12/2024",
-        "intended_commencement_date": "06/2023"
+        "intended_commencement_date": "06/2023",
+        "intended_completion_date": "12/2024"
       }
     ],
     "total_gia_lost": 12544,
@@ -487,14 +558,215 @@
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
-      "residential_units": [],
+      "residential_units": [
+        {
+          "provider": "Other Affordable Housing Provider",
+          "no_habitable_rooms": 1,
+          "unit_no": "Gain-1",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 47,
+          "tenure": "London Affordable Rent"
+        },
+        {
+          "provider": "Other Affordable Housing Provider",
+          "no_habitable_rooms": 1,
+          "unit_no": "Gain-2",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 50,
+          "tenure": "London Affordable Rent"
+        },
+        {
+          "provider": "Other Affordable Housing Provider",
+          "no_habitable_rooms": 1,
+          "unit_no": "Gain-3",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 50,
+          "tenure": "London Affordable Rent"
+        },
+        {
+          "provider": "Other Affordable Housing Provider",
+          "no_habitable_rooms": 1,
+          "unit_no": "Gain-4",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 50,
+          "tenure": "London Affordable Rent"
+        },
+        {
+          "provider": "Other Affordable Housing Provider",
+          "no_habitable_rooms": 1,
+          "unit_no": "Gain-5",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 50,
+          "tenure": "London Affordable Rent"
+        },
+        {
+          "provider": "Other Affordable Housing Provider",
+          "no_habitable_rooms": 1,
+          "unit_no": "Gain-6",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 50,
+          "tenure": "London Affordable Rent"
+        },
+        {
+          "provider": "Other Affordable Housing Provider",
+          "no_habitable_rooms": 1,
+          "unit_no": "Gain-7",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 50,
+          "tenure": "London Affordable Rent"
+        },
+        {
+          "provider": "Other Affordable Housing Provider",
+          "no_habitable_rooms": 1,
+          "unit_no": "Gain-8",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 50,
+          "tenure": "London Affordable Rent"
+        },
+        {
+          "provider": "Other Affordable Housing Provider",
+          "no_habitable_rooms": 1,
+          "unit_no": "Gain-9",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 50,
+          "tenure": "London Affordable Rent"
+        },
+        {
+          "provider": "Other Affordable Housing Provider",
+          "no_habitable_rooms": 1,
+          "unit_no": "Gain-10",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 50,
+          "tenure": "London Affordable Rent"
+        },
+        {
+          "provider": "Other Affordable Housing Provider",
+          "no_habitable_rooms": 1,
+          "unit_no": "Gain-11",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 50,
+          "tenure": "London Affordable Rent"
+        },
+        {
+          "provider": "Other Affordable Housing Provider",
+          "no_habitable_rooms": 1,
+          "unit_no": "Gain-12",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 50,
+          "tenure": "London Affordable Rent"
+        },
+        {
+          "provider": "Other Affordable Housing Provider",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-13",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 66,
+          "tenure": "London Affordable Rent"
+        },
+        {
+          "provider": "Other Affordable Housing Provider",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-14",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 66,
+          "tenure": "London Affordable Rent"
+        },
+        {
+          "provider": "Other Affordable Housing Provider",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-15",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 66,
+          "tenure": "London Affordable Rent"
+        },
+        {
+          "provider": "Other Affordable Housing Provider",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-16",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 66,
+          "tenure": "London Affordable Rent"
+        },
+        {
+          "provider": "Other Affordable Housing Provider",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-17",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 66,
+          "tenure": "London Affordable Rent"
+        },
+        {
+          "provider": "Other Affordable Housing Provider",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-18",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 66,
+          "tenure": "London Affordable Rent"
+        },
+        {
+          "provider": "Other Affordable Housing Provider",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-19",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 66,
+          "tenure": "London Affordable Rent"
+        },
+        {
+          "provider": "Other Affordable Housing Provider",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-20",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 66,
+          "tenure": "London Affordable Rent"
+        }
+      ],
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
-      "total_no_proposed_bedrooms": 0,
+      "total_no_proposed_bedrooms": 28,
       "total_no_proposed_residential_units_discount_market_rent": 0,
-      "total_no_proposed_residential_units": 0,
-      "affordable_percentage": 0,
+      "total_no_proposed_residential_units": 20,
+      "affordable_percentage": 100,
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_london_living_rent": 0,
@@ -513,9 +785,9 @@
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "dwelling_density": 0,
       "total_no_proposed_residential_units_intermediate": 0,
-      "total_no_proposed_residential_affordable_units": 0,
+      "total_no_proposed_residential_affordable_units": 20,
       "total_no_existing_residential_units_shared_equity": 0,
-      "total_no_proposed_residential_units_london_affordable_rent": 0,
+      "total_no_proposed_residential_units_london_affordable_rent": 20,
       "habitable_rooms_density": null,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,

@@ -12,27 +12,81 @@
   "street_name": "Leaside Avenue",
   "locality": null,
   "ward": "Fortis Green",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "01/06/2024",
   "lpa_name": "Haringey",
   "bo_system": "Arcus",
   "decision_conditions": null,
   "date_building_work_started_under_previous_permission": null,
-  "centroid_easting": 528191,
-  "status": "Approved",
+  "centroid_easting": 528188,
+  "status": "Commenced",
   "decision_date": "14/12/2023",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.1512243,
+          51.5890718
+        ],
+        [
+          -0.15122339999999998,
+          51.5890601
+        ],
+        [
+          -0.151219,
+          51.5890268
+        ],
+        [
+          -0.1512146,
+          51.588993
+        ],
+        [
+          -0.150978,
+          51.5890068
+        ],
+        [
+          -0.1508427,
+          51.5890145
+        ],
+        [
+          -0.1507638,
+          51.5890191
+        ],
+        [
+          -0.1507752,
+          51.5890944
+        ],
+        [
+          -0.1509054,
+          51.5890879
+        ],
+        [
+          -0.1510522,
+          51.5890803
+        ],
+        [
+          -0.15108449999999998,
+          51.5890787
+        ],
+        [
+          -0.1512243,
+          51.5890718
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "decision_target_date": "14/12/2023",
   "subdivision_of_building": null,
   "last_date_consultation_comments": "01/12/2023",
   "development_type": "Major dwellings",
-  "title_number": null,
+  "title_number": [],
   "appeal_status": null,
-  "last_updated": "2025-04-07T21:11:40.287Z",
+  "last_updated": "2025-11-17T22:03:59.124Z",
   "last_updated_by": "Arcus",
   "site_name": "41 Leaside Avenue, Hornsey, London, N10 3BT",
   "id": "Haringey-HGY_2023_2817",
   "decision": "Approved",
-  "cil_liability": null,
+  "cil_liability": false,
   "centroid_northing": 189418,
   "appeal_start_date": null,
   "postcode": "N10 3BT",
@@ -43,7 +97,66 @@
   "reference_no_of_permission_being_relied_on": null,
   "description": "Demolition of existing rear extension, erection of replacement single-storey rear extension, erection of a rear dormer roof extension and roof alterations and installation of 3no. conservation-style rooflights to the front elevation. Replacement of existing windows and doors, new window to rear elevation, enclosure of secondary front porch with new window and deconversion of building from 2no. flats to single dwelling.",
   "valid_date": "19/10/2023",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              528171.9,
+              189420.7
+            ],
+            [
+              528172,
+              189419.4
+            ],
+            [
+              528172.4,
+              189415.7
+            ],
+            [
+              528172.8,
+              189411.95
+            ],
+            [
+              528189.15,
+              189413.9
+            ],
+            [
+              528198.5,
+              189415
+            ],
+            [
+              528203.95,
+              189415.65
+            ],
+            [
+              528202.95,
+              189424
+            ],
+            [
+              528193.95,
+              189423.05
+            ],
+            [
+              528183.8,
+              189421.95
+            ],
+            [
+              528181.566,
+              189421.715
+            ],
+            [
+              528171.9,
+              189420.7
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "pp_id": "PP-12522836",
   "application_details": {
     "total_gia_gained": 0,
@@ -53,21 +166,22 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 0,
       "total_gia_lost": 4.3,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "site_area": 0.026850000000000002
     },
     "affordable_housing_fast_track": false,
     "garden_land_lost": false,
-    "site_area": 0.026850000000000002,
+    "site_area": 0.027,
     "total_gia_existing": 241.1,
     "rain_water_harvesting": false,
     "grey_water_reuse": false,
     "internal_resi_water_usage": 75,
-    "existing_uprns": null,
+    "existing_uprns": [],
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 241.1,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 4.3
       }
     ],
@@ -75,15 +189,15 @@
     "phasing_details": [
       {
         "phase_detail": "All works (rear ground level extension, rear dormer roof extension, replacement and changes to fenestration, deconversion into single dwelling)",
-        "intended_completion_date": "10/2024",
-        "intended_commencement_date": "02/2024"
+        "intended_commencement_date": "02/2024",
+        "intended_completion_date": "10/2024"
       }
     ],
     "total_gia_lost": 4.3,
     "projected_cost_of_works": "Up to £2m",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "infrastructure_details": {
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "ghg_reduction_over_building_regulations": false,
       "no_homes_to_have_electrical_heating": 0,
@@ -106,34 +220,49 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 3,
-          "unit_no": "Loss-1",
+          "actual_completion_date": "01/06/2024",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": "Loss-1",
+          "actual_commencement_date": "01/06/2024",
+          "no_bedrooms": 2,
           "provision_for_older_persons": false,
           "gia": 92,
           "tenure": "Market for sale"
         },
         {
-          "no_habitable_rooms": 4,
-          "unit_no": "Loss-2",
+          "actual_completion_date": "01/06/2024",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
+          "no_habitable_rooms": 4,
+          "phase_detail": null,
+          "unit_no": "Loss-2",
+          "actual_commencement_date": "01/06/2024",
+          "no_bedrooms": 2,
           "provision_for_older_persons": false,
           "gia": 145.5,
           "tenure": "Market for sale"
         },
         {
-          "no_habitable_rooms": 6,
-          "provider": "Private",
-          "unit_no": "Gain-1",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 3,
           "unit_type": "Terraced Home",
+          "unit_development_type": "Conversion",
+          "provider": "Private",
+          "no_habitable_rooms": 6,
+          "phase_detail": null,
+          "unit_no": "Gain-1",
+          "actual_commencement_date": "01/06/2024",
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
           "gia": 236.8,
           "tenure": "Market for sale"
         }
@@ -161,18 +290,31 @@
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_gia_gained": 236.8,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 37.24394785847299,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 223.46368715083798,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_residential_units_market_for_sale": 1
+      "total_no_proposed_residential_units_market_for_sale": 1,
+      "site_area": 0.026850000000000002
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.026850000000000002
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "centroid": {
     "lon": -7.55716,

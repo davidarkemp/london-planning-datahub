@@ -12,69 +12,69 @@
   "street_name": null,
   "locality": null,
   "ward": "Brompton and Hans Town",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "01/01/2025",
   "lpa_name": "Kensington & Chelsea",
   "bo_system": "CSV Data Import",
   "decision_conditions": null,
   "date_building_work_started_under_previous_permission": null,
   "centroid_easting": 526859,
-  "status": "Approved",
+  "status": "Completed",
   "decision_date": "24/09/2024",
   "wgs84_polygon": {
     "type": "Polygon",
     "coordinates": [
       [
         [
-          -0.1739451,
-          51.4946461
+          -0.173969,
+          51.494645
         ],
         [
-          -0.1739378,
-          51.4946285
+          -0.173962,
+          51.494627
         ],
         [
-          -0.17390049999999999,
-          51.4945362
+          -0.173925,
+          51.494535
         ],
         [
-          -0.17389839999999998,
-          51.4945326
+          -0.173923,
+          51.494531
         ],
         [
-          -0.1739558,
-          51.4945236
+          -0.17398,
+          51.494522
         ],
         [
-          -0.1739485,
-          51.4945064
+          -0.173973,
+          51.494505
         ],
         [
-          -0.17398829999999998,
-          51.4945002
+          -0.174012,
+          51.494499
         ],
         [
-          -0.1739962,
-          51.494521
+          -0.17402,
+          51.49452
         ],
         [
-          -0.1740315,
-          51.4946128
+          -0.174056,
+          51.494612
         ],
         [
-          -0.17403659999999999,
-          51.4946255
+          -0.174061,
+          51.494624
         ],
         [
-          -0.1739801,
-          51.494635
+          -0.174004,
+          51.494634
         ],
         [
-          -0.1739813,
-          51.4946404
+          -0.174005,
+          51.494639
         ],
         [
-          -0.1739451,
-          51.4946461
+          -0.173969,
+          51.494645
         ]
       ]
     ]
@@ -85,7 +85,7 @@
   "development_type": "Other change of use",
   "title_number": null,
   "appeal_status": null,
-  "last_updated": "2025-04-07T09:01:44.100Z",
+  "last_updated": "2025-11-17T10:01:40.361Z",
   "last_updated_by": "CSV Data Import",
   "site_name": "33 Thurloe Street, LONDON",
   "id": "Kensington_&_Chelsea-PP_23_03619",
@@ -174,7 +174,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 0,
       "total_gia_lost": 0,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "site_area": 0.009
     },
     "affordable_housing_fast_track": false,
     "garden_land_lost": false,
@@ -187,8 +188,10 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 146,
-        "use_class": "C3",
+        "actual_completion_date": "31/03/2025",
         "gia_gained": 0,
+        "use_class": "C3",
+        "actual_commencement_date": "01/01/2025",
         "gia_lost": 0
       }
     ],
@@ -196,13 +199,13 @@
     "phasing_details": [
       {
         "phase_detail": "Single phase",
-        "intended_completion_date": "06/2024",
-        "intended_commencement_date": "01/2024"
+        "intended_commencement_date": "01/2024",
+        "intended_completion_date": "06/2024"
       }
     ],
     "total_gia_lost": 0,
     "projected_cost_of_works": "Up to £2m",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "residential_details": {
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
@@ -211,54 +214,93 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 3,
-          "provider": "Private rented sector",
-          "unit_no": "Gain-1",
+          "actual_completion_date": "31/03/2025",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
+          "provider": "Private rented sector",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": "Gain-1",
+          "actual_commencement_date": "01/01/2025",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "gia": 61,
+          "tenure": "Market for rent"
+        },
+        {
+          "actual_completion_date": "31/03/2025",
+          "description": null,
+          "change_type": "Loss",
+          "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
+          "provider": "Private rented sector",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": "Loss-1",
+          "actual_commencement_date": "01/01/2025",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "gia": 146,
+          "tenure": "Market for rent"
+        },
+        {
+          "actual_completion_date": "31/03/2025",
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
+          "provider": "Private rented sector",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": "Gain-2",
+          "actual_commencement_date": "01/01/2025",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "gia": 57,
           "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
-      "total_no_proposed_bedrooms": 2,
+      "total_no_proposed_bedrooms": 3,
       "total_no_proposed_residential_units_discount_market_rent": 0,
-      "total_no_proposed_residential_units": 1,
+      "total_no_proposed_residential_units": 2,
       "affordable_percentage": 0,
-      "total_no_existing_residential_units_market_for_rent": 0,
+      "total_no_existing_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
-      "total_no_proposed_residential_units_market_for_rent": 1,
+      "total_no_proposed_residential_units_market_for_rent": 2,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_gia_lost": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
-      "total_no_existing_residential_units": 0,
+      "total_no_existing_residential_units": 1,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_gia_gained": 61,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 222.22222222222223,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 555.5555555555557,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_residential_units_market_for_sale": 0
+      "total_no_proposed_residential_units_market_for_sale": 0,
+      "site_area": 0.009
     },
     "infrastructure_details": {
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "no_homes_to_have_electrical_heating": 2,
       "mobile_network_operators_consultation": false,
       "total_annual_nox_emissions": 0,
@@ -272,7 +314,19 @@
       "total_annual_pm_emissions": 0,
       "chp_heat_pumps_capacity": 0.02
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.009
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "centroid": {
     "lon": -0.173989,
@@ -280,5 +334,5 @@
   },
   "lapsed_date": "24/09/2027",
   "decision_process": "Delegated",
-  "actual_completion_date": null
+  "actual_completion_date": "31/03/2025"
 }

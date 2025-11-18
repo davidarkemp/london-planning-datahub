@@ -1,6 +1,6 @@
 {
   "appeal_decision_date": null,
-  "actual_commencement_date": null,
+  "actual_commencement_date": "01/01/2025",
   "lpa_name": "Kensington & Chelsea",
   "ward": "Redcliffe",
   "application_details": {
@@ -10,7 +10,7 @@
     "infrastructure_details": {
       "no_new_water_connections_required": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "total_annual_pm_emissions": 0,
       "green_roof_area": 0,
       "percentage_demolition_construction_material_recycling": 0,
@@ -28,15 +28,15 @@
     "phasing_details": [
       {
         "phase_detail": "Entire development",
-        "intended_completion_date": "09/2024",
-        "intended_commencement_date": "06/2024"
+        "intended_commencement_date": "06/2024",
+        "intended_completion_date": "09/2024"
       }
     ],
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 131.64,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -46,31 +46,65 @@
     "green_suds": false,
     "residential_details": {
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 461.53846153846155,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_discount_market_rent": 0,
-      "total_no_proposed_residential_units": 0,
+      "total_no_proposed_residential_units": 1,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
-      "total_no_existing_residential_units_market_for_sale": 1,
+      "total_no_existing_residential_units_market_for_sale": 2,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_intermediate": 0,
-      "total_no_existing_residential_units": 1,
+      "total_no_existing_residential_units": 2,
       "residential_units": [
         {
           "no_habitable_rooms": 2,
+          "phase_detail": null,
           "unit_no": "Loss-1",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
           "gia": 40.69,
+          "unit_development_type": "Conversion",
+          "tenure": "Market for sale"
+        },
+        {
+          "actual_completion_date": "01/01/2025",
+          "description": null,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
+          "no_habitable_rooms": 4,
+          "phase_detail": null,
+          "unit_no": "Loss-2",
+          "actual_commencement_date": "01/01/2025",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "gia": 90.95,
+          "tenure": "Market for sale"
+        },
+        {
+          "description": null,
+          "change_type": "Gain",
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
+          "no_habitable_rooms": 6,
+          "phase_detail": null,
+          "unit_no": "Gain-1",
+          "actual_commencement_date": "01/01/2025",
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "gia": 131.64,
           "tenure": "Market for sale"
         }
       ],
@@ -88,16 +122,17 @@
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_starter_homes": 0,
       "affordable_percentage": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 76.92307692307692,
       "total_gia_lost": 40.69,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_gia_gained": 0,
-      "total_no_proposed_bedrooms": 0,
+      "total_no_proposed_bedrooms": 3,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "total_no_proposed_residential_units_market_for_sale": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_proposed_residential_units_market_for_sale": 1,
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.013000000000000001
     },
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "total_gia_existing": 131.64,
     "total_gia_gained": 0,
     "garden_land_lost": false,
@@ -108,8 +143,21 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_existing": 131.64
-    }
+      "total_gia_existing": 131.64,
+      "site_area": 0.013000000000000001
+    },
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.013000000000000001
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "decision_target_date": null,
   "last_date_consultation_comments": "31/05/2024",
@@ -124,7 +172,7 @@
   "centroid_easting": 525902,
   "centroid_northing": 177729,
   "uprn": "217041921",
-  "last_updated": "2025-04-07T09:02:10.121Z",
+  "last_updated": "2025-11-17T10:02:04.920Z",
   "description": "Amalgamation of two flats into one dwelling",
   "subdivision_of_building": "Ground Floor/basement and first floor flats.",
   "decision_agency": null,
@@ -133,8 +181,8 @@
     "lon": -0.188175,
     "lat": 51.484508
   },
-  "title_number": null,
-  "status": "Approved",
+  "title_number": [],
+  "status": "Commenced",
   "application_type_full": "Full planning permission",
   "decision_process": "Delegated",
   "application_type": "All Other",
@@ -155,40 +203,40 @@
     "coordinates": [
       [
         [
-          -0.1880634,
-          51.4846185
+          -0.188087,
+          51.484618
         ],
         [
-          -0.1880093,
-          51.4845844
+          -0.188033,
+          51.484583
         ],
         [
-          -0.1880262,
-          51.4845738
+          -0.18805,
+          51.484573
         ],
         [
-          -0.1881511,
-          51.4844948
+          -0.188175,
+          51.484494
         ],
         [
-          -0.1882633,
-          51.4844246
+          -0.188287,
+          51.484424
         ],
         [
-          -0.1883204,
-          51.4844551
+          -0.188344,
+          51.484454
         ],
         [
-          -0.1881801,
-          51.4845438
+          -0.188204,
+          51.484543
         ],
         [
-          -0.18807959999999999,
-          51.484607
+          -0.188103,
+          51.484606
         ],
         [
-          -0.1880634,
-          51.4846185
+          -0.188087,
+          51.484618
         ]
       ]
     ],

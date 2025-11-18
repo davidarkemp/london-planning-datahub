@@ -29,60 +29,60 @@
     "coordinates": [
       [
         [
-          -0.1837979,
-          51.4962202
+          -0.183822,
+          51.496219
         ],
         [
-          -0.1837897,
-          51.4962212
-        ],
-        [
-          -0.1836999,
-          51.4962351
-        ],
-        [
-          -0.1836803,
-          51.4962379
-        ],
-        [
-          -0.1835128,
-          51.4962637
-        ],
-        [
-          -0.1835085,
-          51.4962641
-        ],
-        [
-          -0.1834788,
-          51.4962685
-        ],
-        [
-          -0.1834645,
-          51.4962297
-        ],
-        [
-          -0.1834553,
-          51.4962066
-        ],
-        [
-          -0.1837762,
-          51.4961603
-        ],
-        [
-          -0.18379579999999998,
-          51.4961575
-        ],
-        [
-          -0.1837975,
-          51.4961863
-        ],
-        [
-          -0.18379979999999999,
+          -0.183814,
           51.49622
         ],
         [
-          -0.1837979,
-          51.4962202
+          -0.183724,
+          51.496234
+        ],
+        [
+          -0.183704,
+          51.496237
+        ],
+        [
+          -0.183537,
+          51.496263
+        ],
+        [
+          -0.183533,
+          51.496263
+        ],
+        [
+          -0.183503,
+          51.496267
+        ],
+        [
+          -0.183489,
+          51.496229
+        ],
+        [
+          -0.183479,
+          51.496205
+        ],
+        [
+          -0.1838,
+          51.496159
+        ],
+        [
+          -0.18382,
+          51.496156
+        ],
+        [
+          -0.183822,
+          51.496185
+        ],
+        [
+          -0.183824,
+          51.496219
+        ],
+        [
+          -0.183822,
+          51.496219
         ]
       ]
     ]
@@ -93,7 +93,7 @@
   "development_type": "Minor dwellings",
   "title_number": null,
   "appeal_status": null,
-  "last_updated": "2025-04-07T09:01:34.097Z",
+  "last_updated": "2025-11-17T10:01:31.792Z",
   "last_updated_by": "CSV Data Import",
   "site_name": "Basement Front, Part Ground Floor and Flat G3, 104 Gloucester Road, LONDON, SW7 4RH",
   "id": "Kensington_&_Chelsea-PP_22_07084",
@@ -185,7 +185,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 112,
       "total_gia_lost": 95,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 51
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 51,
+      "site_area": 0.016
     },
     "affordable_housing_fast_track": false,
     "scheme_name": "104 Gloucester Road ",
@@ -204,26 +205,26 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 51,
-        "use_class": "SG",
         "gia_gained": 0,
+        "use_class": "SG",
         "gia_lost": 51
       },
       {
         "gia_existing": 30,
-        "use_class": "SpecifiedOther",
         "gia_gained": 0,
+        "use_class": "SpecifiedOther",
         "gia_lost": 30
       },
       {
         "gia_existing": 17,
-        "use_class": "C3",
         "gia_gained": 112,
+        "use_class": "C3",
         "gia_lost": 0
       },
       {
         "gia_existing": 14,
-        "use_class": "SpecifiedOther",
         "gia_gained": 0,
+        "use_class": "SpecifiedOther",
         "gia_lost": 14
       }
     ],
@@ -232,13 +233,13 @@
     "phasing_details": [
       {
         "phase_detail": "One phase - includes refurbishment of rest of building  ",
-        "intended_completion_date": "06/2024",
-        "intended_commencement_date": "06/2023"
+        "intended_commencement_date": "06/2023",
+        "intended_completion_date": "06/2024"
       }
     ],
     "total_gia_lost": 95,
     "infrastructure_details": {
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "ghg_reduction_over_building_regulations": false,
       "no_homes_to_have_electrical_heating": 2,
@@ -253,7 +254,7 @@
       "fire_suppression_system_proposed": false,
       "total_annual_pm_emissions": 0
     },
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "lead_developer_company_name": "Leufroy Limited",
     "total_gia_gained": 112,
     "uk_company_registration_no": "09928722",
@@ -268,28 +269,52 @@
       "residential_units": [
         {
           "no_habitable_rooms": 1,
+          "phase_detail": null,
           "unit_no": "Loss-1",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 1,
           "unit_type": "Studio Bedsit",
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
           "gia": 17,
+          "tenure": "Market for rent"
+        },
+        {
+          "phase_detail": null,
+          "unit_no": "Gain-1",
+          "description": null,
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
+          "gia": 57.5,
+          "tenure": "Market for rent"
+        },
+        {
+          "phase_detail": null,
+          "unit_no": "Gain-2",
+          "description": null,
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
+          "gia": 55,
           "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
-      "total_no_proposed_bedrooms": 0,
+      "total_no_proposed_bedrooms": 2,
       "total_no_proposed_residential_units_discount_market_rent": 0,
-      "total_no_proposed_residential_units": 0,
+      "total_no_proposed_residential_units": 2,
       "affordable_percentage": 0,
       "total_no_existing_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
-      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_proposed_residential_units_market_for_rent": 2,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
@@ -301,18 +326,31 @@
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_gia_gained": 112.5,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 125,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_residential_units_market_for_sale": 0
+      "total_no_proposed_residential_units_market_for_sale": 0,
+      "site_area": 0.016
     },
-    "projected_cost_of_works": "Up to £2m"
+    "projected_cost_of_works": "Up to £2m",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.016
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "centroid": {
     "lon": -0.183779,

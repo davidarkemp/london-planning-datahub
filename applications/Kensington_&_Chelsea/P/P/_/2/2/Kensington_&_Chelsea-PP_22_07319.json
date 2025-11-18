@@ -12,60 +12,60 @@
   "street_name": null,
   "locality": null,
   "ward": "Royal Hospital",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "01/03/2025",
   "lpa_name": "Kensington & Chelsea",
   "bo_system": "CSV Data Import",
   "decision_conditions": null,
   "date_building_work_started_under_previous_permission": null,
   "centroid_easting": 527639,
-  "status": "Approved",
+  "status": "Commenced",
   "decision_date": "23/08/2023",
   "wgs84_polygon": {
     "type": "Polygon",
     "coordinates": [
       [
         [
-          -0.1629661,
-          51.4882844
+          -0.16299,
+          51.488283
         ],
         [
-          -0.1630181,
-          51.4883178
+          -0.163042,
+          51.488317
         ],
         [
-          -0.1629604,
-          51.4883551
+          -0.162985,
+          51.488354
         ],
         [
-          -0.1629515,
-          51.4883599
+          -0.162976,
+          51.488359
         ],
         [
-          -0.16287569999999998,
-          51.488312
+          -0.1629,
+          51.488311
         ],
         [
-          -0.1629429,
-          51.4882694
+          -0.162967,
+          51.488268
         ],
         [
-          -0.1629478,
-          51.4882726
+          -0.162972,
+          51.488272
         ],
         [
-          -0.1629661,
-          51.4882844
+          -0.16299,
+          51.488283
         ]
       ]
     ]
   },
   "decision_target_date": "24/08/2023",
-  "subdivision_of_building": "The application affects 48 Smith Terrace and the ground and first floor of 28 Smith Terrace.\nThe upper floors of 28 Smith Terrace are not included.",
+  "subdivision_of_building": "The application affects 48 Smith Terrace and the ground and first floor of 28 Smith Terrace.The upper floors of 28 Smith Terrace are not included.",
   "last_date_consultation_comments": "06/01/2023",
   "development_type": "Other change of use",
   "title_number": null,
   "appeal_status": null,
-  "last_updated": "2025-04-07T09:01:35.664Z",
+  "last_updated": "2025-11-17T10:01:32.044Z",
   "last_updated_by": "CSV Data Import",
   "site_name": "Old Warehouse, 48 Smith Terrace, LONDON, SW3 4DH and 28 Smith Street, LONDON, SW3 4EP",
   "id": "Kensington_&_Chelsea-PP_22_07319",
@@ -134,7 +134,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 0,
       "total_gia_lost": 0,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "site_area": 0.005
     },
     "affordable_housing_fast_track": false,
     "garden_land_lost": false,
@@ -153,8 +154,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 345.6,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -162,13 +163,13 @@
     "phasing_details": [
       {
         "phase_detail": "Single phase",
-        "intended_completion_date": "05/2023",
-        "intended_commencement_date": "04/2023"
+        "intended_commencement_date": "04/2023",
+        "intended_completion_date": "05/2023"
       }
     ],
     "total_gia_lost": 0,
     "projected_cost_of_works": "Up to £2m",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "infrastructure_details": {
       "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
@@ -194,33 +195,48 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 8,
-          "unit_no": "Loss-1",
+          "actual_completion_date": "01/03/2025",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 4,
           "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
+          "no_habitable_rooms": 8,
+          "phase_detail": null,
+          "unit_no": "Loss-1",
+          "actual_commencement_date": "01/03/2025",
+          "no_bedrooms": 4,
           "provision_for_older_persons": false,
           "gia": 345.6,
           "tenure": "Market for sale"
         },
         {
-          "no_habitable_rooms": 5,
-          "provider": "Private",
-          "unit_no": "Gain-1",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 3,
           "unit_type": "Semi Detached Home",
+          "unit_development_type": "Conversion",
+          "provider": "Private",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": "Gain-1",
+          "actual_commencement_date": "01/03/2025",
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
           "gia": 251.7,
           "tenure": "Market for sale"
         },
         {
-          "no_habitable_rooms": 3,
-          "provider": "Private",
-          "unit_no": "Gain-2",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": "Gain-2",
+          "actual_commencement_date": "01/03/2025",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "gia": 93.9,
           "tenure": "Market for sale"
         }
@@ -248,18 +264,31 @@
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_gia_gained": 345.6,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 400,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 1600,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_residential_units_market_for_sale": 2
+      "total_no_proposed_residential_units_market_for_sale": 2,
+      "site_area": 0.005
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.005
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "centroid": {
     "lon": -0.163004,

@@ -3,8 +3,59 @@
   "epc_number": null,
   "site_name": "Flats 6 and 7, 5 Emperor's Gate, LONDON SW7 4HH",
   "cil_liability": false,
-  "polygon": null,
-  "actual_commencement_date": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              526044,
+              178992.25
+            ],
+            [
+              526041.25,
+              178986.9
+            ],
+            [
+              526048.4,
+              178983.25
+            ],
+            [
+              526049.7,
+              178982.5
+            ],
+            [
+              526050,
+              178984.4
+            ],
+            [
+              526050.8,
+              178991.55
+            ],
+            [
+              526050.95,
+              178992.6
+            ],
+            [
+              526047.6,
+              178992.95
+            ],
+            [
+              526044.15,
+              178993.3
+            ],
+            [
+              526044,
+              178992.25
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
+  "actual_commencement_date": "01/01/2025",
   "site_number": null,
   "decision": "Approved",
   "parking_details": null,
@@ -28,7 +79,53 @@
   "decision_conditions": null,
   "appeal_start_date": null,
   "development_type": "Other change of use",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.1856565,
+          51.4958306
+        ],
+        [
+          -0.185698,
+          51.4957831
+        ],
+        [
+          -0.1855963,
+          51.4957487
+        ],
+        [
+          -0.1855779,
+          51.495741699999996
+        ],
+        [
+          -0.18557289999999999,
+          51.4957587
+        ],
+        [
+          -0.1855588,
+          51.4958228
+        ],
+        [
+          -0.18555629999999998,
+          51.4958322
+        ],
+        [
+          -0.1856044,
+          51.4958361
+        ],
+        [
+          -0.18565389999999998,
+          51.49584
+        ],
+        [
+          -0.1856565,
+          51.4958306
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "lpa_app_no": "PP/24/06691",
   "decision_agency": null,
   "decision_date": "11/12/2024",
@@ -43,9 +140,9 @@
     "lat": 51.4958,
     "lon": -0.185638
   },
-  "status": "Approved",
-  "last_updated": "2025-04-07T09:02:20.848Z",
-  "actual_completion_date": null,
+  "status": "Completed",
+  "last_updated": "2025-11-17T10:02:19.787Z",
+  "actual_completion_date": "31/03/2025",
   "lapsed_date": "11/12/2027",
   "borough": "Kensington & Chelsea",
   "id": "Kensington_&_Chelsea-PP_24_06691",
@@ -58,25 +155,27 @@
     "phasing_details": [
       {
         "phase_detail": "Phase one ",
-        "intended_completion_date": "12/2025",
-        "intended_commencement_date": "01/2025"
+        "intended_commencement_date": "01/2025",
+        "intended_completion_date": "12/2025"
       }
     ],
     "total_gia_gained": 0,
-    "site_area": 0.0055000000000000005,
+    "site_area": 0.007,
     "total_gia_lost": 0,
     "total_gia_existing": 225.45,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 225.45,
-        "use_class": "C3",
+        "actual_completion_date": "31/03/2025",
         "gia_gained": 0,
+        "use_class": "C3",
+        "actual_commencement_date": "01/01/2025",
         "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "grey_water_reuse": false,
     "green_suds": false,
     "surface_water_discharge_percentage_reduction": 1,
@@ -85,7 +184,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 0,
       "total_gia_existing": 225.45,
-      "total_gia_lost": 0
+      "total_gia_lost": 0,
+      "site_area": 0.0055000000000000005
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -93,7 +193,7 @@
       "total_no_proposed_bedrooms": 2,
       "total_no_proposed_residential_units": 1,
       "total_no_proposed_residential_units_london_living_rent": 0,
-      "total_no_existing_residential_units": 3,
+      "total_no_existing_residential_units": 2,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
@@ -108,13 +208,13 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 181.81818181818178,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 80,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 181.8181818181818,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_gia_lost": 80,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -127,46 +227,57 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "unit_no": "Loss-1",
-          "change_type": "Loss",
-          "unit_type": "Communal Space",
-          "gia": 18.95
-        },
-        {
-          "no_habitable_rooms": 1,
-          "unit_no": "Loss-2",
+          "actual_completion_date": "31/03/2025",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
+          "no_habitable_rooms": 1,
+          "phase_detail": null,
+          "unit_no": "Loss-2",
+          "actual_commencement_date": "01/01/2025",
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
           "gia": 29.85,
           "tenure": "Market for rent"
         },
         {
-          "no_habitable_rooms": 1,
-          "unit_no": "Loss-3",
+          "actual_completion_date": "31/03/2025",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
+          "no_habitable_rooms": 1,
+          "phase_detail": null,
+          "unit_no": "Loss-3",
+          "actual_commencement_date": "01/01/2025",
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
           "gia": 31.2,
           "tenure": "Market for rent"
         },
         {
-          "no_habitable_rooms": 1,
-          "provider": "Private",
-          "unit_no": "Gain-1",
+          "actual_completion_date": "31/03/2025",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
+          "provider": "Private",
+          "no_habitable_rooms": 1,
+          "phase_detail": null,
+          "unit_no": "Gain-1",
+          "actual_commencement_date": "01/01/2025",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "gia": 80,
           "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 2,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.0055000000000000005
     },
     "infrastructure_details": {
       "total_annual_pm_emissions": 1,
@@ -176,7 +287,7 @@
       "no_homes_passive_cooling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 1,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
@@ -185,6 +296,18 @@
       "ghg_reduction_over_building_regulations": false
     },
     "internal_resi_water_usage": 110,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.0055000000000000005
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   }
 }

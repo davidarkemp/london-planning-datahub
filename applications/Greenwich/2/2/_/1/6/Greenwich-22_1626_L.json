@@ -34,7 +34,7 @@
   "decision_agency": null,
   "application_type": "All Other",
   "lpa_app_no": "22/1626/L",
-  "application_type_full": null,
+  "application_type_full": "Full planning & listed building consent",
   "uprn": "10010200419",
   "borough": "Greenwich",
   "street_name": null,
@@ -46,8 +46,8 @@
   "decision_conditions": null,
   "date_building_work_started_under_previous_permission": null,
   "centroid_easting": 538223,
-  "status": "Application Under Consideration",
-  "decision_date": null,
+  "status": "Approved",
+  "decision_date": "21/10/2025",
   "wgs84_polygon": {
     "type": "Polygon",
     "coordinates": [
@@ -135,17 +135,17 @@
       ]
     ]
   },
-  "decision_target_date": null,
+  "decision_target_date": "21/10/2025",
   "subdivision_of_building": null,
   "last_date_consultation_comments": "23/01/2024",
   "development_type": null,
   "title_number": [],
   "appeal_status": null,
-  "last_updated": "2025-04-07T22:00:23.944Z",
+  "last_updated": "2025-11-17T23:00:22.224Z",
   "last_updated_by": "CSV Data Import",
   "site_name": "ALPHA MERIDIAN COLLEGE, 148 GREENWICH HIGH ROAD, LONDON, SE10 8NN",
   "id": "Greenwich-22_1626_L",
-  "decision": null,
+  "decision": "Approved",
   "cil_liability": true,
   "centroid_northing": 177366,
   "appeal_start_date": null,
@@ -155,7 +155,7 @@
   "secondary_street_name": null,
   "site_number": null,
   "reference_no_of_permission_being_relied_on": null,
-  "description": "Listed Building Consent for a part 1, part 2-storey rooftop build-to rent residential extension (Use Class C3) including rooftop amenity area, alongside a refurbishment and change of use of the existing building from education to a mix of residential (Use Class C3) and flexible employment/community/retail floorspace (within Use Classes E and F), together with hard and soft landscaping, refuse and recycling storage, cycle parking, disabled car parking, and all ancillary works and associated development.  [May affect the setting of the Grade II Listed buildings 148 Greenwich High Road, 146 Greenwich High Road, 199-213 (odd) Greenwich High Road, 1-15A (odd) Greenwich South Street, and the Locally Listed Buildings 144 Greenwich High Road, 221 Greenwich High Road and 1-6 Peyton Place]. [RE-CONSULTATION: Revised proposed upper ground floor layout to provide 7 additional dwellings]",
+  "description": "Listed Building Consent for a part 1, part 2-storey rooftop build-to rent residential extension (Use Class C3) including rooftop amenity area, alongside a refurbishment and change of use of the existing building from education to a mix of residential (Use Class C3) and flexible employment/community/retail floorspace (within Use Classes E and F), together with hard and soft landscaping, refuse and recycling storage, cycle parking, disabled car parking, and all ancillary works and associated development.",
   "valid_date": "01/06/2022",
   "polygon": {
     "geometries": [
@@ -254,11 +254,8 @@
     "green_suds": true,
     "superseding_details": [
       {
-        "lpa_name": null,
-        "unit_reference": null,
         "lpa_app_no": "14/2615/F ",
-        "partial_supersedence": false,
-        "component_description": null
+        "partial_supersedence": false
       }
     ],
     "non_residential_details": {
@@ -272,19 +269,44 @@
     },
     "affordable_housing_fast_track": false,
     "garden_land_lost": false,
-    "site_area": 0.267,
+    "site_area": 0.33,
     "total_gia_existing": 7664.96,
     "rain_water_harvesting": false,
-    "building_details": [],
+    "building_details": [
+      {
+        "no_storeys": 2,
+        "max_height": 31.9,
+        "building_ref": "Meridian House Roof extension "
+      }
+    ],
     "grey_water_reuse": false,
-    "existing_proposed_floorspace_details": [],
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 7664.96,
+        "gia_gained": 0,
+        "use_class": "SpecifiedOther",
+        "gia_lost": 7664.96
+      },
+      {
+        "gia_existing": 0,
+        "gia_gained": 7498.86,
+        "use_class": "C3",
+        "gia_lost": 0
+      },
+      {
+        "gia_existing": 0,
+        "gia_gained": 1780.49,
+        "use_class": "SpecifiedOther",
+        "gia_lost": 0
+      }
+    ],
     "internal_resi_water_usage": 105,
     "surface_water_discharge_percentage_reduction": 58,
     "phasing_details": [
       {
         "phase_detail": "Entire Development ",
-        "intended_completion_date": "12/2024",
-        "intended_commencement_date": "12/2022"
+        "intended_commencement_date": "12/2022",
+        "intended_completion_date": "12/2024"
       }
     ],
     "total_gia_lost": 7664.96,
@@ -327,19 +349,750 @@
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
-      "residential_units": [],
+      "residential_units": [
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 1,
+          "unit_no": "Gain-1",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 45,
+          "tenure": "Discount Market Rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 1,
+          "unit_no": "Gain-2",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 45,
+          "tenure": "Discount Market Rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-3",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 60,
+          "tenure": "Discount Market Rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-4",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 60,
+          "tenure": "Discount Market Rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-5",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 60,
+          "tenure": "Discount Market Rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-6",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 60,
+          "tenure": "Discount Market Rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-7",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 60,
+          "tenure": "Discount Market Rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-8",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 60,
+          "tenure": "Discount Market Rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-9",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 73,
+          "tenure": "Discount Market Rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-10",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 73,
+          "tenure": "Discount Market Rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-11",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 70,
+          "tenure": "Discount Market Rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-12",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 75,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-13",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 75,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-14",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 75,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-15",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 75,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-16",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 75,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-17",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 75,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-18",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 75,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-19",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 75,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-20",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 75,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-21",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 75,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-22",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 70,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-23",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 70,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-24",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 70,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-25",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 70,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-26",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 70,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-27",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 70,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-28",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 70,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-29",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 70,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-30",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 70,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-31",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 70,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-32",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 70,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-33",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 70,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-34",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 75,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-35",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 75,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-36",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 75,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "unit_no": "Gain-37",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 75,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-38",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 58,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-39",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 58,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-40",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 58,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-41",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 58,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-42",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 58,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-43",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 58,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-44",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 58,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-45",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 50,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-46",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 50,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-47",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 50,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-48",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 50,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-49",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 50,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-50",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 50,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-51",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 50,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-52",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 50,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-53",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 50,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-54",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 50,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-55",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 50,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-56",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 50,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-57",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 50,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-58",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 50,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-59",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 50,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-60",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 50,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-61",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 50,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-62",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 50,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-63",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 50,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-64",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 50,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-65",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 50,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-66",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 50,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-67",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 50,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-68",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 50,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-69",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 50,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-70",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 60,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-71",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 60,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-72",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 60,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "unit_no": "Gain-73",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 60,
+          "tenure": "Market for rent"
+        }
+      ],
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
-      "total_no_proposed_bedrooms": 0,
-      "total_no_proposed_residential_units_discount_market_rent": 0,
-      "total_no_proposed_residential_units": 0,
-      "affordable_percentage": 0,
+      "total_no_proposed_bedrooms": 102,
+      "total_no_proposed_residential_units_discount_market_rent": 11,
+      "total_no_proposed_residential_units": 73,
+      "affordable_percentage": 15.068493150684931,
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
-      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_proposed_residential_units_market_for_rent": 62,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
@@ -353,7 +1106,7 @@
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "dwelling_density": 0,
       "total_no_proposed_residential_units_intermediate": 0,
-      "total_no_proposed_residential_affordable_units": 0,
+      "total_no_proposed_residential_affordable_units": 11,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "habitable_rooms_density": null,
@@ -411,7 +1164,7 @@
     "lon": -0.010982,
     "lat": 51.478372
   },
-  "lapsed_date": null,
+  "lapsed_date": "21/10/2028",
   "decision_process": "Committee",
   "actual_completion_date": null
 }

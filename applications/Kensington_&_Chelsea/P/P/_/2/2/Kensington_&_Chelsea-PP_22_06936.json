@@ -12,65 +12,65 @@
   "street_name": null,
   "locality": null,
   "ward": "St Helen's",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "01/03/2025",
   "lpa_name": "Kensington & Chelsea",
   "bo_system": "CSV Data Import",
   "decision_conditions": null,
   "date_building_work_started_under_previous_permission": null,
   "centroid_easting": 524160,
-  "status": "Approved",
+  "status": "Commenced",
   "decision_date": "14/06/2023",
   "wgs84_polygon": {
     "type": "Polygon",
     "coordinates": [
       [
         [
-          -0.2117508,
-          51.5200038
+          -0.211775,
+          51.520002
         ],
         [
-          -0.21171399999999999,
-          51.5199925
+          -0.211738,
+          51.519991
         ],
         [
-          -0.21166859999999998,
-          51.5199172
+          -0.211693,
+          51.519916
         ],
         [
-          -0.21180539999999998,
-          51.5198878
+          -0.211829,
+          51.519886
         ],
         [
-          -0.21189249999999998,
-          51.5198689
+          -0.211917,
+          51.519867
         ],
         [
-          -0.2119231,
-          51.5198621
+          -0.211947,
+          51.519861
         ],
         [
-          -0.2119413,
-          51.5198948
+          -0.211965,
+          51.519893
         ],
         [
-          -0.2119574,
-          51.5199225
+          -0.211982,
+          51.519921
         ],
         [
-          -0.2119641,
-          51.5199208
+          -0.211988,
+          51.519919
         ],
         [
-          -0.2119824,
-          51.5199511
+          -0.212006,
+          51.51995
         ],
         [
-          -0.21175239999999998,
-          51.5200043
+          -0.211777,
+          51.520003
         ],
         [
-          -0.2117508,
-          51.5200038
+          -0.211775,
+          51.520002
         ]
       ]
     ]
@@ -81,7 +81,7 @@
   "development_type": "Minor all other minor developments",
   "title_number": null,
   "appeal_status": null,
-  "last_updated": "2025-04-07T09:01:34.487Z",
+  "last_updated": "2025-11-17T10:01:30.152Z",
   "last_updated_by": "CSV Data Import",
   "site_name": "225 Ladbroke Grove, LONDON, W10 6HQ",
   "id": "Kensington_&_Chelsea-PP_22_06936",
@@ -166,7 +166,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 0,
       "total_gia_lost": 235,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 235
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 235,
+      "site_area": 0.02
     },
     "affordable_housing_fast_track": false,
     "garden_land_lost": false,
@@ -185,8 +186,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 235,
-        "use_class": "C1",
         "gia_gained": 0,
+        "use_class": "C1",
         "gia_lost": 235
       }
     ],
@@ -194,15 +195,15 @@
     "phasing_details": [
       {
         "phase_detail": "Single",
-        "intended_completion_date": "09/2023",
-        "intended_commencement_date": "03/2023"
+        "intended_commencement_date": "03/2023",
+        "intended_completion_date": "09/2023"
       }
     ],
     "total_gia_lost": 235,
     "projected_cost_of_works": "Up to £2m",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "infrastructure_details": {
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "ghg_reduction_over_building_regulations": false,
       "no_homes_to_have_electrical_heating": 0,
@@ -226,12 +227,17 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 3,
-          "provider": "Private",
-          "unit_no": "Gain-1",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 3,
           "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Extension",
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": "Gain-1",
+          "actual_commencement_date": "01/03/2025",
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
           "gia": 151,
           "tenure": "Market for sale"
         }
@@ -259,18 +265,31 @@
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_gia_gained": 151,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 50,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 150,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_residential_units_market_for_sale": 1
+      "total_no_proposed_residential_units_market_for_sale": 1,
+      "site_area": 0.02
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.02
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "centroid": {
     "lon": -0.211879,

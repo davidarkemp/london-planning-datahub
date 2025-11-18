@@ -12,13 +12,13 @@
   "street_name": "Ossian Road",
   "locality": null,
   "ward": "Stroud Green",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "13/02/2023",
   "lpa_name": "Haringey",
   "bo_system": "Arcus",
   "decision_conditions": null,
   "date_building_work_started_under_previous_permission": null,
   "centroid_easting": 530771,
-  "status": "Approved",
+  "status": "Commenced",
   "decision_date": "20/03/2023",
   "wgs84_polygon": {
     "type": "Polygon",
@@ -51,14 +51,14 @@
   "subdivision_of_building": null,
   "last_date_consultation_comments": "10/03/2023",
   "development_type": "Major dwellings",
-  "title_number": null,
+  "title_number": [],
   "appeal_status": null,
-  "last_updated": "2025-04-08T21:03:43.336Z",
+  "last_updated": "2025-11-17T22:03:54.714Z",
   "last_updated_by": "Arcus",
   "site_name": "16 Ossian Road, Hornsey, London, N4 4EA",
   "id": "Haringey-HGY_2023_0212",
   "decision": "Approved",
-  "cil_liability": null,
+  "cil_liability": false,
   "centroid_northing": 187863,
   "appeal_start_date": null,
   "postcode": "N4 4EA",
@@ -114,7 +114,7 @@
       "site_area": 0.019
     },
     "affordable_housing_fast_track": false,
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "site_area": 0.020200000000000003,
     "total_gia_existing": 193,
     "rain_water_harvesting": false,
@@ -126,12 +126,12 @@
       }
     ],
     "grey_water_reuse": false,
-    "existing_uprns": null,
+    "existing_uprns": [],
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 193,
-        "use_class": "C3",
         "gia_gained": 24.5,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -139,15 +139,15 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_completion_date": "09/2023",
-        "intended_commencement_date": "04/2023"
+        "intended_commencement_date": "04/2023",
+        "intended_completion_date": "09/2023"
       }
     ],
     "total_gia_lost": 0,
     "projected_cost_of_works": "Up to £2m",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "infrastructure_details": {
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "ghg_reduction_over_building_regulations": false,
       "no_homes_to_have_electrical_heating": 3,
@@ -170,33 +170,51 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 3,
-          "provider": "Private",
-          "unit_no": "Gain-1",
+          "actual_completion_date": "30/05/2024",
+          "description": null,
           "change_type": "Gain",
           "garden_land": true,
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": "Gain-1",
+          "actual_commencement_date": "13/02/2023",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "gia": 80.4,
           "tenure": "Market for sale"
         },
         {
-          "no_habitable_rooms": 2,
-          "provider": "Private",
-          "unit_no": "Gain-2",
+          "actual_completion_date": "30/05/2024",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": "Gain-2",
+          "actual_commencement_date": "13/02/2023",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "gia": 54.6,
           "tenure": "Market for sale"
         },
         {
-          "no_habitable_rooms": 3,
-          "provider": "Private",
-          "unit_no": "Gain-3",
+          "actual_completion_date": "30/05/2024",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": "Gain-3",
+          "actual_commencement_date": "13/02/2023",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "gia": 62.5,
           "tenure": "Market for sale"
         }
@@ -229,7 +247,7 @@
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "habitable_rooms_density": 421.0526315789474,
+      "habitable_rooms_density": 421.05263157894734,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
@@ -240,7 +258,16 @@
     "ownership_status": "Private",
     "other_residential_accommodation_details": {
       "site_area": 0.019
-    }
+    },
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "centroid": {
     "lon": -7.55716,

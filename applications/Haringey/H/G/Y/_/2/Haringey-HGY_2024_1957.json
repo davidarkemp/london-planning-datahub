@@ -1,10 +1,44 @@
 {
   "date_building_work_completed_under_previous_permission": null,
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.1057273,
+          51.591949
+        ],
+        [
+          -0.105679,
+          51.5919127
+        ],
+        [
+          -0.10558669999999999,
+          51.5919611
+        ],
+        [
+          -0.1055226,
+          51.5919938
+        ],
+        [
+          -0.1054127,
+          51.5920504
+        ],
+        [
+          -0.1054624,
+          51.5920877
+        ],
+        [
+          -0.1057273,
+          51.591949
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "last_updated_by": "Arcus",
   "url_planning_app": "https://publicregister.haringey.gov.uk/pr/s/detail/a0iTu000000NJef",
   "decision_target_date": null,
-  "status": "Approved",
+  "status": "Commenced",
   "parking_details": {
     "no_existing_cycle": 0,
     "no_proposed_cycle": 10,
@@ -22,7 +56,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 115,
-      "total_gia_existing": 475
+      "total_gia_existing": 475,
+      "site_area": 0.026860000000000002
     },
     "affordable_housing_fast_track": false,
     "grey_water_reuse": false,
@@ -37,67 +72,91 @@
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_gia_lost": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 595.6813104988831,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_starter_homes": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 3,
           "provider": "Private",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
           "unit_no": "Gain-1",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
+          "actual_commencement_date": "11/10/2024",
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "gia": 63,
           "tenure": "Market for rent"
         },
         {
-          "no_habitable_rooms": 3,
           "provider": "Private",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
           "unit_no": "Gain-2",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
+          "actual_commencement_date": "11/10/2024",
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "gia": 63,
           "tenure": "Market for rent"
         },
         {
-          "no_habitable_rooms": 3,
           "provider": "Private",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
           "unit_no": "Gain-3",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
+          "actual_commencement_date": "11/10/2024",
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "gia": 63,
           "tenure": "Market for rent"
         },
         {
+          "provider": "Private",
           "no_habitable_rooms": 3,
-          "provider": "Private",
+          "phase_detail": null,
           "unit_no": "Gain-4",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
+          "actual_commencement_date": "11/10/2024",
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "gia": 63,
           "tenure": "Market for rent"
         },
         {
-          "no_habitable_rooms": 2,
           "provider": "Private",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
           "unit_no": "Gain-5",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
+          "actual_commencement_date": "11/10/2024",
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "gia": 51,
           "tenure": "Market for rent"
         },
         {
-          "no_habitable_rooms": 2,
           "provider": "Private",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
           "unit_no": "Gain-6",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
+          "actual_commencement_date": "11/10/2024",
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "gia": 51,
           "tenure": "Market for rent"
         }
@@ -114,7 +173,7 @@
       "total_no_proposed_residential_units": 6,
       "affordable_percentage": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 223.38049143708113,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
@@ -128,13 +187,14 @@
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "total_no_existing_residential_units_discount_market_rent": 0
+      "total_no_existing_residential_units_discount_market_rent": 0,
+      "site_area": 0.026860000000000002
     },
     "internal_resi_water_usage": 0,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "infrastructure_details": {
       "no_non_resi_units_to_have_full_fibre": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "fire_suppression_system_proposed": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_new_gas_connections_required": 0,
@@ -150,7 +210,7 @@
     },
     "total_gia_lost": 10,
     "ownership_status": "Private",
-    "site_area": 0.026860000000000002,
+    "site_area": 0.013000000000000001,
     "superseding_details": [
       {
         "lpa_app_no": "HGY/2022/3353",
@@ -160,14 +220,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 235,
-        "use_class": "E(a)",
         "gia_gained": 0,
+        "use_class": "E(a)",
         "gia_lost": 10
       },
       {
         "gia_existing": 240,
-        "use_class": "C3",
         "gia_gained": 115,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -177,12 +237,24 @@
     "phasing_details": [
       {
         "phase_detail": "ALL",
-        "intended_completion_date": "11/2024",
-        "intended_commencement_date": "08/2024"
+        "intended_commencement_date": "08/2024",
+        "intended_completion_date": "11/2024"
       }
     ],
     "projected_cost_of_works": "Up to £2m",
-    "total_gia_existing": 475
+    "total_gia_existing": 475,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.026860000000000002
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "appeal_decision_date": null,
   "decision_date": "10/09/2024",
@@ -201,27 +273,66 @@
   "application_type": "All Other",
   "locality": null,
   "date_building_work_started_under_previous_permission": null,
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              531315.25,
+              189821.35
+            ],
+            [
+              531318.7,
+              189817.4
+            ],
+            [
+              531324.95,
+              189822.95
+            ],
+            [
+              531329.3,
+              189826.7
+            ],
+            [
+              531336.75,
+              189833.2
+            ],
+            [
+              531333.2,
+              189837.25
+            ],
+            [
+              531315.25,
+              189821.35
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "lpa_name": "Haringey",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "11/10/2024",
   "site_name": "59-61 High Road, Wood Green, London, N22 6BH",
   "decision_conditions": null,
   "application_type_full": "Full planning permission",
-  "centroid_northing": null,
+  "centroid_northing": 189827,
   "epc_number": null,
   "actual_completion_date": null,
   "title_number": null,
   "appeal_status": null,
   "borough": "Haringey",
-  "cil_liability": null,
+  "cil_liability": false,
   "decision_process": null,
   "id": "Haringey-HGY_2024_1957",
   "description": "Dormer extension to the rear roof slope and outrigger projection. The conversion of the upper floors of the building to six self-contained flats comprising four two-bedroom flats on the first/ second floor levels and two one-bed flats on the third/loft floor, including new entrance door on the High Road providing access to all the proposed flats. (Amendments to the approved application HGY/2022/3353).",
   "appeal_start_date": null,
-  "last_updated": "2025-04-08T21:03:54.753Z",
+  "last_updated": "2025-11-17T22:04:03.697Z",
   "centroid": {
     "lon": -7.55716,
     "lat": 49.766807
   },
-  "centroid_easting": null
+  "centroid_easting": 531326
 }
