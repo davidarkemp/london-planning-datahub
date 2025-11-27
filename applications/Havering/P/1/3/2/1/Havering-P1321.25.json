@@ -24,8 +24,185 @@
   "pp_id": "14391539",
   "status": "Application Under Consideration",
   "last_updated_by": "CSV Data Import",
-  "polygon": null,
-  "wgs84_polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              553022.3,
+              187348.25
+            ],
+            [
+              553019.1,
+              187341.95
+            ],
+            [
+              553024.729,
+              187338.461
+            ],
+            [
+              553027.38,
+              187336.818
+            ],
+            [
+              553028.7,
+              187336
+            ],
+            [
+              553029.15,
+              187336.85
+            ],
+            [
+              553032.342,
+              187343.112
+            ],
+            [
+              553033.1,
+              187344.6
+            ],
+            [
+              553033.45,
+              187345.25
+            ],
+            [
+              553033.5,
+              187345.4
+            ],
+            [
+              553035.95,
+              187349.95
+            ],
+            [
+              553046.264,
+              187375.61
+            ],
+            [
+              553038.944,
+              187379.24
+            ],
+            [
+              553039.995,
+              187381.359
+            ],
+            [
+              553040.29,
+              187382.039
+            ],
+            [
+              553038.197,
+              187383.177
+            ],
+            [
+              553037.973,
+              187382.629
+            ],
+            [
+              553037.9,
+              187382.45
+            ],
+            [
+              553029.05,
+              187360.8
+            ],
+            [
+              553022.3,
+              187348.25
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          0.2063243,
+          51.5642561
+        ],
+        [
+          0.2062754,
+          51.5642003
+        ],
+        [
+          0.20635499999999998,
+          51.564167499999996
+        ],
+        [
+          0.20639249999999998,
+          51.564152
+        ],
+        [
+          0.2064112,
+          51.5641443
+        ],
+        [
+          0.2064181,
+          51.5641518
+        ],
+        [
+          0.20646679999999998,
+          51.5642072
+        ],
+        [
+          0.20647839999999998,
+          51.5642203
+        ],
+        [
+          0.2064837,
+          51.5642261
+        ],
+        [
+          0.2064845,
+          51.5642274
+        ],
+        [
+          0.20652179999999998,
+          51.5642676
+        ],
+        [
+          0.2066816,
+          51.5644954
+        ],
+        [
+          0.2065777,
+          51.56453
+        ],
+        [
+          0.2065938,
+          51.5645487
+        ],
+        [
+          0.20659829999999998,
+          51.5645548
+        ],
+        [
+          0.2065686,
+          51.5645656
+        ],
+        [
+          0.2065652,
+          51.5645607
+        ],
+        [
+          0.206564,
+          51.5645591
+        ],
+        [
+          0.206427,
+          51.564367
+        ],
+        [
+          0.2063243,
+          51.5642561
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "appeal_decision_date": null,
   "secondary_street_name": null,
   "lapsed_date": null,
@@ -38,7 +215,7 @@
   "decision_target_date": "11/12/2025",
   "valid_date": "16/10/2025",
   "development_type": null,
-  "last_updated": "2025-11-04T06:01:00.735Z",
+  "last_updated": "2025-11-27T04:59:41.206Z",
   "subdivision_of_building": "Existing property's double-width garage is proposed to be demolished with a detached 3-bed dwelling house built in it's place.  ",
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
@@ -67,16 +244,16 @@
     "garden_land_lost": false,
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 99.1,
+        "gia_existing": 107,
         "use_class": "C3",
-        "gia_lost": 6.7,
-        "gia_existing": 107
+        "gia_gained": 99.1,
+        "gia_lost": 6.7
       }
     ],
     "building_details": [
       {
-        "max_height": 5.4,
         "no_storeys": 3,
+        "max_height": 5.4,
         "building_ref": "113 Hornchurch Rd (Proposed)"
       }
     ],
@@ -88,14 +265,14 @@
     "affordable_housing_fast_track": false,
     "rain_water_harvesting": false,
     "ownership_status": "Private",
-    "site_area": 0.0477,
+    "site_area": 0.047,
     "total_gia_lost": 6.7,
     "green_suds": false,
     "phasing_details": [
       {
-        "intended_commencement_date": "05/2026",
+        "phase_detail": "Entire Development",
         "intended_completion_date": "03/2027",
-        "phase_detail": "Entire Development"
+        "intended_commencement_date": "05/2026"
       }
     ],
     "residential_details": {
@@ -109,14 +286,13 @@
       "total_no_proposed_residential_units_starter_homes": 0,
       "residential_units": [
         {
-          "unit_no": "Gain-1",
-          "gia": 99.1,
-          "provider": "Self-Build",
-          "no_bedrooms": 3,
-          "tenure": "Self-Build and Custom Build",
           "no_habitable_rooms": 5,
+          "provider": "Self-Build",
+          "change_type": "Gain",
           "unit_type": "House or Bungalow",
-          "change_type": "Gain"
+          "no_bedrooms": 3,
+          "gia": 99.1,
+          "tenure": "Self-Build and Custom Build"
         }
       ],
       "total_no_existing_residential_units_london_living_rent": 0,

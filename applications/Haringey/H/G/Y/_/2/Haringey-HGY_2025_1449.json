@@ -194,7 +194,7 @@
   "decision_target_date": null,
   "valid_date": "30/05/2025",
   "development_type": "Change of Use",
-  "last_updated": "2025-11-17T22:04:15.913Z",
+  "last_updated": "2025-11-26T22:04:06.675Z",
   "subdivision_of_building": "The proposed works pertain exclusively to the Second Floor of the existing building.\nRefer to following drawings: D14 - BRAEMAR AVE - PROPOSED FLOOR PLAN, D13A - BRAEMAR AVE - PROPOSED ELEVATIONS and\nD02A - BRAEMAR AVE - PROPOSED SITE LAYOUT\n",
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
@@ -223,10 +223,10 @@
     "garden_land_lost": false,
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 120.8,
+        "gia_existing": 403.6,
         "use_class": "C3",
-        "gia_lost": 114,
-        "gia_existing": 403.6
+        "gia_gained": 120.8,
+        "gia_lost": 114
       }
     ],
     "projected_cost_of_works": "Between £2m and £100m",
@@ -241,9 +241,9 @@
     "green_suds": false,
     "phasing_details": [
       {
-        "intended_commencement_date": "07/2025",
+        "phase_detail": "One Phase",
         "intended_completion_date": "09/2025",
-        "phase_detail": "One Phase"
+        "intended_commencement_date": "07/2025"
       }
     ],
     "residential_details": {
@@ -257,35 +257,32 @@
       "total_no_proposed_residential_units_starter_homes": 0,
       "residential_units": [
         {
-          "unit_no": "Loss-1",
-          "gia": 114,
-          "no_bedrooms": 3,
-          "tenure": "Market for rent",
+          "no_habitable_rooms": 4,
+          "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_habitable_rooms": 4,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "change_type": "Loss"
+          "tenure": "Market for rent",
+          "gia": 114
         },
         {
-          "unit_no": "Gain-1",
-          "gia": 74,
+          "no_habitable_rooms": 4,
           "provider": "Private rented sector",
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
           "tenure": "Market for rent",
-          "no_habitable_rooms": 4,
-          "unit_type": "Flat Apartment Maisonette",
-          "change_type": "Gain"
+          "gia": 74
         },
         {
-          "unit_no": "Gain-2",
-          "gia": 39,
+          "no_habitable_rooms": 2,
           "provider": "Private rented sector",
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
           "tenure": "Market for rent",
-          "no_habitable_rooms": 2,
-          "unit_type": "Flat Apartment Maisonette",
-          "change_type": "Gain"
+          "gia": 39
         }
       ],
       "total_no_existing_residential_units_london_living_rent": 0,

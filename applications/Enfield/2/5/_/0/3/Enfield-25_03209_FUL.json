@@ -32,7 +32,7 @@
   "application_type": "All Other",
   "status": "Application Under Consideration",
   "epc_number": null,
-  "cil_liability": null,
+  "cil_liability": false,
   "parking_details": {
     "no_proposed_cycle": 6,
     "net_cycle": 6,
@@ -81,39 +81,39 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "change_type": "Gain",
-          "no_bedrooms": 6,
           "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": false,
+          "change_type": "Gain",
           "garden_land": false,
-          "gia": 123,
           "sheltered_accommodation": false,
           "unit_type": "HMO",
-          "provision_for_older_persons": false,
+          "provider": "Private",
+          "no_habitable_rooms": 2,
           "phase_detail": null,
           "unit_no": null,
+          "no_bedrooms": 6,
+          "provision_for_older_persons": false,
           "tenure": "Market for sale",
-          "description": null,
-          "m42_compliant": false,
-          "no_habitable_rooms": 2,
-          "provider": "Private",
-          "m43_2a_compliant": false
+          "gia": 123
         },
         {
-          "change_type": "Loss",
-          "no_bedrooms": 6,
           "m43_2b_compliant": false,
-          "garden_land": false,
-          "gia": 123,
-          "sheltered_accommodation": false,
-          "unit_type": "Terraced Home",
-          "provision_for_older_persons": false,
-          "phase_detail": null,
-          "unit_no": null,
-          "tenure": "Market for rent",
+          "m43_2a_compliant": false,
           "description": null,
           "m42_compliant": false,
+          "change_type": "Loss",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Terraced Home",
           "no_habitable_rooms": 2,
-          "m43_2a_compliant": false
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 6,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 123
         }
       ],
       "habitable_rooms_density": null,
@@ -174,14 +174,14 @@
     "ownership_status": "Private",
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3",
         "gia_existing": 123,
+        "use_class": "C3",
         "gia_gained": 0,
         "gia_lost": 123
       },
       {
-        "use_class": "C4",
         "gia_existing": 0,
+        "use_class": "C4",
         "gia_gained": 123,
         "gia_lost": 0
       }
@@ -206,8 +206,8 @@
     "phasing_details": [
       {
         "phase_detail": "Phase 1 ",
-        "intended_commencement_date": "08/2025",
-        "intended_completion_date": "09/2025"
+        "intended_completion_date": "09/2025",
+        "intended_commencement_date": "08/2025"
       }
     ],
     "constraints_details": [
@@ -262,13 +262,13 @@
     ]
   },
   "valid_date": "03/10/2025",
-  "decision_process": null,
+  "decision_process": "Delegated",
   "appeal_start_date": null,
   "application_type_full": "Full planning permission",
   "last_updated_by": "Idox Uniform",
   "bo_system": "Idox Uniform",
   "decision_target_date": "28/11/2025",
-  "last_updated": "2025-10-16T20:07:28.549Z",
+  "last_updated": "2025-11-26T21:07:07.206Z",
   "site_name": null,
   "development_type": "Other change of use",
   "centroid_northing": 192494,
@@ -295,7 +295,86 @@
   "decision_date": null,
   "lapsed_date": null,
   "decision_conditions": null,
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              534353.85,
+              192490.2
+            ],
+            [
+              534353.45,
+              192487.2
+            ],
+            [
+              534358.5,
+              192486.5
+            ],
+            [
+              534358.9,
+              192489.5
+            ],
+            [
+              534359.85,
+              192496.95
+            ],
+            [
+              534360.2,
+              192500
+            ],
+            [
+              534360.432,
+              192501.653
+            ],
+            [
+              534362.388,
+              192515.527
+            ],
+            [
+              534362.75,
+              192518.1
+            ],
+            [
+              534358.95,
+              192518.65
+            ],
+            [
+              534357.7,
+              192518.8
+            ],
+            [
+              534357.358,
+              192516.184
+            ],
+            [
+              534356.401,
+              192508.863
+            ],
+            [
+              534356.129,
+              192506.782
+            ],
+            [
+              534355.7,
+              192503.5
+            ],
+            [
+              534355.2,
+              192500
+            ],
+            [
+              534353.85,
+              192490.2
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "site_number": "63",
   "ward": "Edmonton Green",
   "reference_no_of_permission_being_relied_on": null,

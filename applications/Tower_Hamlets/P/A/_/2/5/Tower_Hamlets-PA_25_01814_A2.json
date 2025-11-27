@@ -9,7 +9,7 @@
   "site_number": null,
   "ward": "Whitechapel",
   "locality": null,
-  "last_date_consultation_comments": null,
+  "last_date_consultation_comments": "01/12/2025",
   "date_building_work_started_under_previous_permission": null,
   "description": "Prior Approval Application, under Part 3 Class G of Schedule 2 of the Town and Country Planning (General Permitted Development) (England) Order 2015 (as amended) for change of use to 1st floor commercial space to create 2 residential dwellings within a mixed use building",
   "parking_details": null,
@@ -20,8 +20,89 @@
   "pp_id": "PP-14328240",
   "status": "Application Under Consideration",
   "last_updated_by": "CSV Data Import",
-  "polygon": null,
-  "wgs84_polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              534667,
+              181346.55
+            ],
+            [
+              534667.1,
+              181342.4
+            ],
+            [
+              534667.3,
+              181328.8
+            ],
+            [
+              534676.65,
+              181328.7
+            ],
+            [
+              534677.9,
+              181330
+            ],
+            [
+              534674.7,
+              181347.9
+            ],
+            [
+              534669.05,
+              181346.9
+            ],
+            [
+              534667,
+              181346.55
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.060612299999999994,
+          51.5150008
+        ],
+        [
+          -0.0606125,
+          51.5149635
+        ],
+        [
+          -0.060614799999999996,
+          51.5148413
+        ],
+        [
+          -0.060480099999999995,
+          51.5148381
+        ],
+        [
+          -0.0604616,
+          51.5148495
+        ],
+        [
+          -0.060500899999999996,
+          51.5150111
+        ],
+        [
+          -0.060582699999999996,
+          51.5150035
+        ],
+        [
+          -0.060612299999999994,
+          51.5150008
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "appeal_decision_date": null,
   "secondary_street_name": null,
   "lapsed_date": null,
@@ -34,7 +115,7 @@
   "decision_target_date": null,
   "valid_date": "10/10/2025",
   "development_type": null,
-  "last_updated": "2025-11-13T21:00:55.677Z",
+  "last_updated": "2025-11-26T21:02:17.132Z",
   "subdivision_of_building": null,
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
@@ -54,14 +135,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 448,
-        "gia_gained": 0,
         "use_class": "SpecifiedOther",
+        "gia_gained": 0,
         "gia_lost": 163
       },
       {
         "gia_existing": 0,
-        "gia_gained": 163,
         "use_class": "C3",
+        "gia_gained": 163,
         "gia_lost": 0
       }
     ],
@@ -113,24 +194,22 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "provider": "Private",
           "no_habitable_rooms": 3,
-          "unit_no": "Gain-1",
+          "provider": "Private",
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 61,
-          "tenure": "Market for rent"
+          "no_bedrooms": 2,
+          "tenure": "Market for rent",
+          "gia": 61
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 4,
-          "unit_no": "Gain-2",
+          "provider": "Private",
           "change_type": "Gain",
-          "no_bedrooms": 3,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 75,
-          "tenure": "Market for rent"
+          "no_bedrooms": 3,
+          "tenure": "Market for rent",
+          "gia": 75
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -155,7 +234,8 @@
     "intended_completion_date": "03/2026",
     "total_gia_existing": 448,
     "intended_commencement_date": "01/2026",
-    "total_gia_lost": 163
+    "total_gia_lost": 163,
+    "site_area": 0.017
   },
   "epc_number": null,
   "uprn": "6115768",

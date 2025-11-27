@@ -24,7 +24,66 @@
   "pp_id": "PP-14361255",
   "status": "Application Under Consideration",
   "last_updated_by": "Arcus",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              530820.3,
+              191350.55
+            ],
+            [
+              530820.3,
+              191348.95
+            ],
+            [
+              530837.65,
+              191346.4
+            ],
+            [
+              530853.55,
+              191342.4
+            ],
+            [
+              530859.56,
+              191340.89
+            ],
+            [
+              530860.4,
+              191344.3
+            ],
+            [
+              530861.05,
+              191346.85
+            ],
+            [
+              530855.1,
+              191348.25
+            ],
+            [
+              530846.65,
+              191350.4
+            ],
+            [
+              530820.5,
+              191354.95
+            ],
+            [
+              530820.4,
+              191352.2
+            ],
+            [
+              530820.3,
+              191350.55
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "wgs84_polygon": {
     "coordinates": [
       [
@@ -64,7 +123,7 @@
   "decision_target_date": null,
   "valid_date": "22/10/2025",
   "development_type": null,
-  "last_updated": "2025-11-17T22:04:18.575Z",
+  "last_updated": "2025-11-26T22:04:09.528Z",
   "subdivision_of_building": null,
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
@@ -93,10 +152,10 @@
     "garden_land_lost": false,
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
+        "gia_existing": 195.8,
         "use_class": "C4",
-        "gia_lost": 0,
-        "gia_existing": 195.8
+        "gia_gained": 0,
+        "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
@@ -106,14 +165,14 @@
     "affordable_housing_fast_track": false,
     "rain_water_harvesting": false,
     "ownership_status": "Private",
-    "site_area": 0.025,
+    "site_area": 0.024,
     "total_gia_lost": 0,
     "green_suds": false,
     "phasing_details": [
       {
-        "intended_commencement_date": "01/2026",
+        "phase_detail": "Entire Development",
         "intended_completion_date": "02/2026",
-        "phase_detail": "Entire Development"
+        "intended_commencement_date": "01/2026"
       }
     ],
     "residential_details": {
@@ -127,25 +186,23 @@
       "total_no_proposed_residential_units_starter_homes": 0,
       "residential_units": [
         {
-          "unit_no": "Loss-1",
-          "gia": 195.8,
-          "no_bedrooms": 6,
-          "tenure": "Market for rent",
-          "sheltered_accommodation": false,
           "no_habitable_rooms": 9,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "Terraced Home",
+          "no_bedrooms": 6,
           "provision_for_older_persons": false,
-          "change_type": "Loss"
+          "tenure": "Market for rent",
+          "gia": 195.8
         },
         {
-          "unit_no": "Gain-1",
-          "gia": 195.8,
+          "no_habitable_rooms": 9,
           "provider": "Private",
+          "change_type": "Gain",
+          "unit_type": "HMO",
           "no_bedrooms": 8,
           "tenure": "Market for rent",
-          "no_habitable_rooms": 9,
-          "unit_type": "HMO",
-          "change_type": "Gain"
+          "gia": 195.8
         }
       ],
       "total_no_existing_residential_units_london_living_rent": 0,

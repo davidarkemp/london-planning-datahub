@@ -1,10 +1,10 @@
 {
-  "postcode": null,
+  "postcode": "",
   "pp_id": "PP-11068896",
   "reference_no_of_permission_being_relied_on": null,
   "date_building_work_completed_under_previous_permission": null,
   "application_details": {
-    "existing_uprns": null,
+    "existing_uprns": [],
     "affordable_housing_fast_track": false,
     "phasing_details": [
       {
@@ -22,12 +22,13 @@
         "gia_existing": 669,
         "use_class": "C3",
         "gia_gained": 328.5,
+        "actual_commencement_date": "06/05/2025",
         "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "building_details": [
       {
         "no_storeys": 3,
@@ -43,7 +44,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 328.5,
       "total_gia_existing": 669,
-      "total_gia_lost": 0
+      "total_gia_lost": 0,
+      "site_area": 0.20400000000000001
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -67,12 +69,12 @@
       "total_no_proposed_residential_units_market_for_sale": 4,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 58.8235294117647,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 284.3,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 19.6078431372549,
       "total_gia_lost": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -85,48 +87,65 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 3,
           "provider": "Private",
-          "unit_no": "Gain-1",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
+          "actual_commencement_date": "06/05/2025",
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 70,
-          "tenure": "Market for sale"
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 70
         },
         {
-          "no_habitable_rooms": 3,
           "provider": "Private",
-          "unit_no": "Gain-2",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
+          "actual_commencement_date": "06/05/2025",
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 70,
-          "tenure": "Market for sale"
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 70
         },
         {
-          "no_habitable_rooms": 3,
           "provider": "Private",
-          "unit_no": "Gain-3",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
+          "actual_commencement_date": "06/05/2025",
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 71.7,
-          "tenure": "Market for sale"
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 71.7
         },
         {
-          "no_habitable_rooms": 3,
           "provider": "Private",
-          "unit_no": "Gain-4",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
+          "actual_commencement_date": "06/05/2025",
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 72.6,
-          "tenure": "Market for sale"
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 72.6
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.20400000000000001
     },
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
@@ -136,17 +155,29 @@
       "no_homes_passive_cooling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 4,
-      "ghg_reduction_over_building_regulations": true
+      "ghg_reduction_over_building_regulations": false
     },
     "internal_resi_water_usage": 125,
     "ownership_status": "Private",
-    "lead_developer_company_name": "London Underground"
+    "lead_developer_company_name": "London Underground",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.20400000000000001
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "polygon": {
     "geometries": [
@@ -310,10 +341,10 @@
   },
   "parking_details": {},
   "decision_process": "100044",
-  "status": "Approved",
+  "status": "Commenced",
   "centroid": {
-    "lon": "0.0198698",
-    "lat": "51.5775395"
+    "lon": 0.019843,
+    "lat": 51.577538
   },
   "centroid_easting": 540059,
   "decision_agency": null,
@@ -326,7 +357,7 @@
   "application_type_full": "Full planning permission",
   "appeal_decision": null,
   "site_name": "Development At 11 To 18",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "06/05/2025",
   "title_number": [
     "EGL315631"
   ],
@@ -338,10 +369,10 @@
   "last_date_consultation_comments": "17/04/2022",
   "epc_number": null,
   "subdivision_of_building": null,
-  "cil_liability": true,
+  "cil_liability": false,
   "lpa_app_no": "0937/22",
   "decision": "Approved",
-  "last_updated": "2025-03-20T13:51:53.660+00:00",
+  "last_updated": "2025-11-26T09:48:39.099Z",
   "street_name": "Chelsea Mews",
   "actual_completion_date": null,
   "ward": "Wanstead Village",
@@ -351,164 +382,164 @@
   "lpa_name": "Redbridge",
   "date_building_work_started_under_previous_permission": null,
   "decision_conditions": [
-    "The development hereby permitted shall be begun no later than the  expiration of three years from the date of this permission.\r\n\r\nReason: In order to comply with the requirements of Section 91 of the Town and Country Planning Act 1990."
+    "The development hereby permitted shall be begun no later than the  expiration of three years from the date of this permission.\n\nReason: In order to comply with the requirements of Section 91 of the Town and Country Planning Act 1990."
   ],
   "locality": "Wanstead",
   "decision_date": "27/05/2022",
-  "bo_system": "Agile APAS",
-  "last_updated_by": "Planning Portal ingest",
+  "bo_system": "Portal",
+  "last_updated_by": "Portal",
   "uprn": "10094822846",
   "application_type": "All Other",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          0.020453199999999998,
-          51.5775299
+          0.020426,
+          51.577528
         ],
         [
-          0.0204441,
-          51.5775215
+          0.020417,
+          51.57752
         ],
         [
-          0.0203736,
-          51.5774549
+          0.020347,
+          51.577453
         ],
         [
-          0.0202999,
-          51.5773836
+          0.020273,
+          51.577382
         ],
         [
-          0.020221799999999998,
-          51.5773081
+          0.020195,
+          51.577307
         ],
         [
-          0.0201369,
-          51.5773298
+          0.02011,
+          51.577328
         ],
         [
-          0.0201356,
-          51.5773302
+          0.020109,
+          51.577329
         ],
         [
-          0.0201329,
-          51.577331
+          0.020106,
+          51.57733
         ],
         [
-          0.020131899999999998,
-          51.5773313
+          0.020105,
+          51.57733
         ],
         [
-          0.020040699999999998,
-          51.5773567
+          0.020014,
+          51.577355
         ],
         [
-          0.0199793,
-          51.577373
+          0.019953,
+          51.577372
         ],
         [
-          0.0199487,
-          51.5773813
+          0.019922,
+          51.57738
         ],
         [
-          0.0199278,
-          51.5773868
+          0.019901,
+          51.577385
         ],
         [
-          0.019899899999999998,
-          51.5773942
+          0.019873,
+          51.577393
         ],
         [
-          0.0198872,
-          51.5773976
+          0.01986,
+          51.577396
         ],
         [
-          0.0198659,
-          51.5774033
+          0.019839,
+          51.577402
         ],
         [
-          0.019853,
-          51.5774058
+          0.019826,
+          51.577404
         ],
         [
-          0.0198394,
-          51.5774082
+          0.019813,
+          51.577407
         ],
         [
-          0.019828,
-          51.5774102
+          0.019801,
+          51.577409
         ],
         [
-          0.019815799999999998,
-          51.5774127
+          0.019789,
+          51.577411
         ],
         [
-          0.019797199999999997,
-          51.5774162
+          0.01977,
+          51.577415
         ],
         [
-          0.019701899999999998,
-          51.5774304
+          0.019675,
+          51.577429
         ],
         [
-          0.0195213,
-          51.57746
+          0.019495,
+          51.577459
         ],
         [
-          0.0193349,
-          51.5775199
+          0.019308,
+          51.577518
         ],
         [
-          0.019349599999999998,
-          51.5775417
+          0.019323,
+          51.57754
         ],
         [
-          0.019379499999999997,
-          51.5775821
+          0.019353,
+          51.577581
         ],
         [
-          0.0194502,
-          51.5776789
+          0.019423,
+          51.577677
         ],
         [
-          0.0195209,
-          51.5777757
+          0.019494,
+          51.577774
         ],
         [
-          0.019620699999999998,
-          51.5777483
+          0.019594,
+          51.577747
         ],
         [
-          0.0197555,
-          51.5777123
+          0.019729,
+          51.577711
         ],
         [
-          0.019852599999999998,
-          51.577686
+          0.019826,
+          51.577685
         ],
         [
-          0.019943699999999998,
-          51.5776614
+          0.019917,
+          51.57766
         ],
         [
-          0.0200648,
-          51.5776292
+          0.020038,
+          51.577628
         ],
         [
-          0.0200757,
-          51.5776263
+          0.020049,
+          51.577625
         ],
         [
-          0.0201087,
-          51.5776194
+          0.020082,
+          51.577618
         ],
         [
-          0.0202971,
-          51.5775703
+          0.02027,
+          51.577569
         ],
         [
-          0.020453199999999998,
-          51.5775299
+          0.020426,
+          51.577528
         ]
       ]
     ],

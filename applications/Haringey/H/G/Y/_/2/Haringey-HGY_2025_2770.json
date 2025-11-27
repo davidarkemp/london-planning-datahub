@@ -20,7 +20,82 @@
   "pp_id": "PP-14394367",
   "status": "Application Under Consideration",
   "last_updated_by": "Arcus",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              528480.63,
+              189006.3
+            ],
+            [
+              528481.75,
+              189000
+            ],
+            [
+              528481.9,
+              188998.9
+            ],
+            [
+              528485.9,
+              188999.25
+            ],
+            [
+              528494.05,
+              189000
+            ],
+            [
+              528497.9,
+              189000.45
+            ],
+            [
+              528500,
+              189000.7
+            ],
+            [
+              528516.25,
+              189002.61
+            ],
+            [
+              528516.394,
+              189002.627
+            ],
+            [
+              528515.945,
+              189006.576
+            ],
+            [
+              528515.55,
+              189010.05
+            ],
+            [
+              528511.65,
+              189009.7
+            ],
+            [
+              528500,
+              189008.6
+            ],
+            [
+              528495.8,
+              189008.1
+            ],
+            [
+              528486.1,
+              189006.95
+            ],
+            [
+              528480.63,
+              189006.3
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "wgs84_polygon": {
     "coordinates": [
       [
@@ -60,7 +135,7 @@
   "decision_target_date": null,
   "valid_date": "27/10/2025",
   "development_type": null,
-  "last_updated": "2025-11-17T22:04:18.575Z",
+  "last_updated": "2025-11-26T22:04:09.529Z",
   "subdivision_of_building": "First annd second floors",
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
@@ -89,10 +164,10 @@
     "garden_land_lost": false,
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
+        "gia_existing": 206,
         "use_class": "SG",
-        "gia_lost": 0,
-        "gia_existing": 206
+        "gia_gained": 0,
+        "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
@@ -102,14 +177,14 @@
     "affordable_housing_fast_track": false,
     "rain_water_harvesting": false,
     "ownership_status": "Private",
-    "site_area": 0.0269,
+    "site_area": 0.027,
     "total_gia_lost": 0,
     "green_suds": false,
     "phasing_details": [
       {
-        "intended_commencement_date": "01/2026",
+        "phase_detail": "Phase 1",
         "intended_completion_date": "04/2026",
-        "phase_detail": "Phase 1"
+        "intended_commencement_date": "01/2026"
       }
     ],
     "residential_details": {
@@ -123,95 +198,86 @@
       "total_no_proposed_residential_units_starter_homes": 0,
       "residential_units": [
         {
-          "unit_no": "Loss-1",
-          "gia": 7.2,
+          "change_type": "Loss",
           "unit_type": "Communal Space",
-          "change_type": "Loss"
+          "gia": 7.2
         },
         {
-          "unit_no": "Loss-2",
-          "gia": 14.66,
-          "no_bedrooms": 1,
-          "tenure": "Market for rent",
-          "sheltered_accommodation": false,
           "no_habitable_rooms": 1,
-          "unit_type": "Co Living Unit",
-          "provision_for_older_persons": false,
-          "change_type": "Loss"
-        },
-        {
-          "unit_no": "Loss-3",
-          "gia": 14.66,
-          "no_bedrooms": 1,
-          "tenure": "Market for rent",
+          "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_habitable_rooms": 1,
           "unit_type": "Co Living Unit",
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "change_type": "Loss"
+          "tenure": "Market for rent",
+          "gia": 14.66
         },
         {
-          "unit_no": "Loss-4",
-          "gia": 14.66,
-          "no_bedrooms": 1,
-          "tenure": "Market for rent",
+          "no_habitable_rooms": 1,
+          "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_habitable_rooms": 1,
           "unit_type": "Co Living Unit",
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "change_type": "Loss"
+          "tenure": "Market for rent",
+          "gia": 14.66
         },
         {
-          "unit_no": "Loss-5",
-          "gia": 14.66,
-          "no_bedrooms": 1,
-          "tenure": "Market for rent",
+          "no_habitable_rooms": 1,
+          "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_habitable_rooms": 1,
           "unit_type": "Co Living Unit",
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "change_type": "Loss"
+          "tenure": "Market for rent",
+          "gia": 14.66
         },
         {
-          "unit_no": "Loss-6",
-          "gia": 14.66,
-          "no_bedrooms": 1,
-          "tenure": "Market for rent",
+          "no_habitable_rooms": 1,
+          "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_habitable_rooms": 1,
           "unit_type": "Co Living Unit",
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "change_type": "Loss"
+          "tenure": "Market for rent",
+          "gia": 14.66
         },
         {
-          "unit_no": "Gain-1",
-          "gia": 26.83,
-          "provider": "Private",
+          "no_habitable_rooms": 1,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
+          "unit_type": "Co Living Unit",
           "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
+          "gia": 14.66
+        },
+        {
           "no_habitable_rooms": 2,
-          "unit_type": "Studio Bedsit",
-          "change_type": "Gain"
-        },
-        {
-          "unit_no": "Gain-2",
-          "gia": 26.83,
           "provider": "Private",
+          "change_type": "Gain",
+          "unit_type": "Studio Bedsit",
           "no_bedrooms": 1,
           "tenure": "Market for rent",
-          "no_habitable_rooms": 2,
-          "unit_type": "Studio Bedsit",
-          "change_type": "Gain"
+          "gia": 26.83
         },
         {
-          "unit_no": "Gain-3",
-          "gia": 26.83,
+          "no_habitable_rooms": 2,
           "provider": "Private",
+          "change_type": "Gain",
+          "unit_type": "Studio Bedsit",
           "no_bedrooms": 1,
           "tenure": "Market for rent",
+          "gia": 26.83
+        },
+        {
           "no_habitable_rooms": 2,
+          "provider": "Private",
+          "change_type": "Gain",
           "unit_type": "Studio Bedsit",
-          "change_type": "Gain"
+          "no_bedrooms": 1,
+          "tenure": "Market for rent",
+          "gia": 26.83
         }
       ],
       "total_no_existing_residential_units_london_living_rent": 0,

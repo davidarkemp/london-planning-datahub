@@ -2,7 +2,9 @@
   "borough": "Redbridge",
   "application_type": "All Other",
   "decision": null,
-  "decision_conditions": null,
+  "decision_conditions": [
+    "in accordance with plans Design and Access and Waste Management Statement, Fire Statement, Flood Risk Assessment, The Daylight Lab, 25.0015-A-PL-DR-00-20-EX01 Rev B, 25.0015-A-PL-DR-00-20-EX02, 25.0015-A-PL-DR-00-20-EX03, 25.0015-A-PL-DR-00-20-PL01 Rev D,"
+  ],
   "centroid_northing": 187011,
   "url_planning_app": null,
   "lpa_app_no": "2981/25",
@@ -20,7 +22,53 @@
   "pp_id": "PP-14414929",
   "status": "Application Under Consideration",
   "last_updated_by": "Agile APAS",
-  "polygon": null,
+  "polygon": {
+    "coordinates": [
+      [
+        [
+          546370.3,
+          187006.1
+        ],
+        [
+          546370.3,
+          187000
+        ],
+        [
+          546370.3,
+          186999.93
+        ],
+        [
+          546376.05,
+          186999.98
+        ],
+        [
+          546376.05,
+          187000
+        ],
+        [
+          546376.05,
+          187000.59
+        ],
+        [
+          546376,
+          187006.1
+        ],
+        [
+          546375.95,
+          187017
+        ],
+        [
+          546370.35,
+          187016.9
+        ],
+        [
+          546370.3,
+          187006.1
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "wgs84_polygon": {
     "coordinates": [
       [
@@ -60,7 +108,7 @@
   "decision_target_date": "14/12/2025",
   "valid_date": "20/10/2025",
   "development_type": null,
-  "last_updated": "2025-11-04T00:01:28.371Z",
+  "last_updated": "2025-11-26T00:01:02.610Z",
   "subdivision_of_building": null,
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
@@ -86,16 +134,16 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
+        "gia_existing": 193.5,
         "use_class": "EC2",
-        "gia_lost": 138,
-        "gia_existing": 193.5
+        "gia_gained": 0,
+        "gia_lost": 138
       },
       {
-        "gia_gained": 138,
+        "gia_existing": 0,
         "use_class": "C3",
-        "gia_lost": 0,
-        "gia_existing": 0
+        "gia_gained": 138,
+        "gia_lost": 0
       }
     ],
     "intended_completion_date": "03/2026",
@@ -114,34 +162,31 @@
       "total_no_proposed_residential_units_starter_homes": 0,
       "residential_units": [
         {
-          "unit_no": "Gain-1",
-          "gia": 37.1,
-          "provider": "Private",
-          "no_bedrooms": 1,
-          "tenure": "Market for rent",
           "no_habitable_rooms": 1,
+          "provider": "Private",
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
-          "change_type": "Gain"
+          "no_bedrooms": 1,
+          "gia": 37.1,
+          "tenure": "Market for rent"
         },
         {
-          "unit_no": "Gain-2",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
           "gia": 48,
-          "provider": "Private",
-          "no_bedrooms": 1,
-          "tenure": "Market for rent",
-          "no_habitable_rooms": 2,
-          "unit_type": "Flat Apartment Maisonette",
-          "change_type": "Gain"
+          "tenure": "Market for rent"
         },
         {
-          "unit_no": "Gain-3",
-          "gia": 52.9,
-          "provider": "Private",
-          "no_bedrooms": 1,
-          "tenure": "Market for rent",
           "no_habitable_rooms": 2,
+          "provider": "Private",
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
-          "change_type": "Gain"
+          "no_bedrooms": 1,
+          "gia": 52.9,
+          "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_london_living_rent": 0,
@@ -191,7 +236,8 @@
       "fire_suppression_system_proposed": false,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_pm_emissions": 0
-    }
+    },
+    "site_area": 0.01
   },
   "epc_number": null,
   "uprn": "10097092634",

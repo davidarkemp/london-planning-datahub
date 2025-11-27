@@ -20,8 +20,129 @@
   "pp_id": "PP-14339784",
   "status": "Application Under Consideration",
   "last_updated_by": "CSV Data Import",
-  "polygon": null,
-  "wgs84_polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              524124.35,
+              180289.8
+            ],
+            [
+              524126.2,
+              180284.5
+            ],
+            [
+              524129.2,
+              180285.55
+            ],
+            [
+              524132.4,
+              180286.65
+            ],
+            [
+              524137.9,
+              180288.6
+            ],
+            [
+              524136.95,
+              180291.35
+            ],
+            [
+              524137.25,
+              180291.55
+            ],
+            [
+              524136.418,
+              180293.998
+            ],
+            [
+              524136.4,
+              180294.05
+            ],
+            [
+              524134.4,
+              180293.25
+            ],
+            [
+              524128.7,
+              180291.25
+            ],
+            [
+              524127.4,
+              180290.8
+            ],
+            [
+              524124.35,
+              180289.8
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.21283919999999998,
+          51.5079164
+        ],
+        [
+          -0.2128144,
+          51.5078683
+        ],
+        [
+          -0.21277089999999999,
+          51.5078771
+        ],
+        [
+          -0.21272439999999998,
+          51.5078863
+        ],
+        [
+          -0.2126445,
+          51.5079026
+        ],
+        [
+          -0.2126572,
+          51.5079275
+        ],
+        [
+          -0.2126528,
+          51.5079292
+        ],
+        [
+          -0.2126639,
+          51.5079514
+        ],
+        [
+          -0.2126642,
+          51.5079519
+        ],
+        [
+          -0.2126933,
+          51.5079452
+        ],
+        [
+          -0.2127761,
+          51.5079284
+        ],
+        [
+          -0.21279489999999998,
+          51.5079247
+        ],
+        [
+          -0.21283919999999998,
+          51.5079164
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "appeal_decision_date": null,
   "secondary_street_name": null,
   "lapsed_date": null,
@@ -34,7 +155,7 @@
   "decision_target_date": null,
   "valid_date": "13/10/2025",
   "development_type": "Other house holder developments",
-  "last_updated": "2025-11-17T10:00:33.333Z",
+  "last_updated": "2025-11-26T01:08:30.227+00:00",
   "subdivision_of_building": null,
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
@@ -63,16 +184,16 @@
     "garden_land_lost": false,
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
+        "gia_existing": 94.63,
         "use_class": "C3",
-        "gia_lost": 8.71,
-        "gia_existing": 94.63
+        "gia_gained": 0,
+        "gia_lost": 8.71
       }
     ],
     "building_details": [
       {
-        "max_height": 7,
         "no_storeys": 2,
+        "max_height": 7,
         "building_ref": "1"
       }
     ],
@@ -84,14 +205,14 @@
     "affordable_housing_fast_track": false,
     "rain_water_harvesting": true,
     "ownership_status": "Private",
-    "site_area": 0.015,
+    "site_area": 0.007,
     "total_gia_lost": 8.71,
     "green_suds": true,
     "phasing_details": [
       {
-        "intended_commencement_date": "12/2025",
+        "phase_detail": "1",
         "intended_completion_date": "12/2026",
-        "phase_detail": "1"
+        "intended_commencement_date": "12/2025"
       }
     ],
     "residential_details": {
@@ -105,25 +226,23 @@
       "total_no_proposed_residential_units_starter_homes": 0,
       "residential_units": [
         {
-          "unit_no": "Loss-1",
-          "gia": 94.63,
-          "no_bedrooms": 2,
-          "tenure": "Market for sale",
-          "sheltered_accommodation": false,
           "no_habitable_rooms": 4,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "Semi Detached Home",
+          "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "change_type": "Loss"
+          "tenure": "Market for sale",
+          "gia": 94.63
         },
         {
-          "unit_no": "Gain-1",
-          "gia": 85.92,
+          "no_habitable_rooms": 4,
           "provider": "Private",
+          "change_type": "Gain",
+          "unit_type": "Terraced Home",
           "no_bedrooms": 2,
           "tenure": "Market for sale",
-          "no_habitable_rooms": 4,
-          "unit_type": "Terraced Home",
-          "change_type": "Gain"
+          "gia": 85.92
         }
       ],
       "total_no_existing_residential_units_london_living_rent": 0,

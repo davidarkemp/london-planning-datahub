@@ -91,7 +91,7 @@
   "decision_target_date": "24/12/2025",
   "valid_date": "29/10/2025",
   "development_type": null,
-  "last_updated": "2025-11-13T21:06:24.599Z",
+  "last_updated": "2025-11-26T21:04:01.768Z",
   "subdivision_of_building": null,
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
@@ -120,10 +120,10 @@
     "garden_land_lost": false,
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 33,
+        "gia_existing": 182.52,
         "use_class": "C3",
-        "gia_lost": 0,
-        "gia_existing": 182.52
+        "gia_gained": 33,
+        "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
@@ -138,9 +138,9 @@
     "green_suds": false,
     "phasing_details": [
       {
-        "intended_commencement_date": "03/2026",
+        "phase_detail": "Entire development",
         "intended_completion_date": "04/2026",
-        "phase_detail": "Entire development"
+        "intended_commencement_date": "03/2026"
       }
     ],
     "residential_details": {
@@ -154,45 +154,41 @@
       "total_no_proposed_residential_units_starter_homes": 0,
       "residential_units": [
         {
-          "unit_no": "Loss-1",
-          "gia": 182.52,
-          "no_bedrooms": 4,
-          "tenure": "Market for rent",
-          "sheltered_accommodation": false,
           "no_habitable_rooms": 3,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "Terraced Home",
+          "no_bedrooms": 4,
           "provision_for_older_persons": false,
-          "change_type": "Loss"
+          "gia": 182.52,
+          "tenure": "Market for rent"
         },
         {
-          "unit_no": "Gain-1",
+          "no_habitable_rooms": 1,
+          "provider": "Private",
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
           "gia": 70.11,
-          "provider": "Private",
-          "no_bedrooms": 2,
-          "tenure": "Market for rent",
-          "no_habitable_rooms": 1,
-          "unit_type": "Flat Apartment Maisonette",
-          "change_type": "Gain"
+          "tenure": "Market for rent"
         },
         {
-          "unit_no": "Gain-2",
-          "gia": 50.57,
+          "no_habitable_rooms": 1,
           "provider": "Private",
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "tenure": "Market for rent",
-          "no_habitable_rooms": 1,
-          "unit_type": "Flat Apartment Maisonette",
-          "change_type": "Gain"
+          "gia": 50.57,
+          "tenure": "Market for rent"
         },
         {
-          "unit_no": "Gain-3",
-          "gia": 80.63,
-          "provider": "Private",
-          "no_bedrooms": 2,
-          "tenure": "Market for rent",
           "no_habitable_rooms": 1,
+          "provider": "Private",
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
-          "change_type": "Gain"
+          "no_bedrooms": 2,
+          "gia": 80.63,
+          "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_london_living_rent": 0,

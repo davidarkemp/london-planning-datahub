@@ -20,7 +20,57 @@
   "pp_id": "PP-14431822",
   "status": "Application Under Consideration",
   "last_updated_by": "CSV Data Import",
-  "polygon": null,
+  "polygon": {
+    "coordinates": [
+      [
+        [
+          526044,
+          178977.1
+        ],
+        [
+          526043.25,
+          178976.15
+        ],
+        [
+          526046.6,
+          178973.7
+        ],
+        [
+          526049.2,
+          178971.85
+        ],
+        [
+          526052.28,
+          178969.59
+        ],
+        [
+          526053,
+          178970.55
+        ],
+        [
+          526057.765,
+          178976.89
+        ],
+        [
+          526052.4,
+          178980.75
+        ],
+        [
+          526049.7,
+          178982.5
+        ],
+        [
+          526048.4,
+          178983.25
+        ],
+        [
+          526044,
+          178977.1
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "wgs84_polygon": null,
   "appeal_decision_date": null,
   "secondary_street_name": null,
@@ -34,7 +84,7 @@
   "decision_target_date": null,
   "valid_date": "03/11/2025",
   "development_type": "Other change of use",
-  "last_updated": "2025-11-17T10:00:35.989Z",
+  "last_updated": "2025-11-26T01:08:31.408+00:00",
   "subdivision_of_building": "Units 11 and 12 - 4th floor",
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
@@ -63,16 +113,16 @@
     "garden_land_lost": false,
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 58,
+        "gia_existing": 418,
         "use_class": "C3",
-        "gia_lost": 0,
-        "gia_existing": 418
+        "gia_gained": 58,
+        "gia_lost": 0
       }
     ],
     "building_details": [
       {
-        "max_height": 22,
         "no_storeys": 6,
+        "max_height": 22,
         "building_ref": "8 Emperors Gate"
       }
     ],
@@ -84,14 +134,14 @@
     "affordable_housing_fast_track": false,
     "rain_water_harvesting": false,
     "ownership_status": "Private",
-    "site_area": 0.013000000000000001,
+    "site_area": 0.01,
     "total_gia_lost": 0,
     "green_suds": false,
     "phasing_details": [
       {
-        "intended_commencement_date": "01/2026",
+        "phase_detail": "Entire Development",
         "intended_completion_date": "10/2026",
-        "phase_detail": "Entire Development"
+        "intended_commencement_date": "01/2026"
       }
     ],
     "residential_details": {
@@ -105,21 +155,19 @@
       "total_no_proposed_residential_units_starter_homes": 0,
       "residential_units": [
         {
-          "unit_no": "Loss-1",
-          "gia": 2,
+          "change_type": "Loss",
           "unit_type": "Communal Space",
-          "change_type": "Loss"
+          "gia": 2
         },
         {
-          "unit_no": "Loss-2",
-          "gia": 18,
-          "no_bedrooms": 1,
-          "tenure": "Market for rent",
-          "sheltered_accommodation": false,
           "no_habitable_rooms": 1,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "Studio Bedsit",
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "change_type": "Loss"
+          "tenure": "Market for rent",
+          "gia": 18
         }
       ],
       "total_no_existing_residential_units_london_living_rent": 0,

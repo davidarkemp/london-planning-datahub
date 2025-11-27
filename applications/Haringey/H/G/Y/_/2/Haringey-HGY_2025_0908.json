@@ -131,7 +131,7 @@
   "decision_target_date": null,
   "valid_date": "03/04/2025",
   "development_type": null,
-  "last_updated": "2025-11-17T22:04:15.204Z",
+  "last_updated": "2025-11-26T22:04:03.602Z",
   "subdivision_of_building": null,
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
@@ -160,10 +160,10 @@
     "garden_land_lost": true,
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 39.6,
+        "gia_existing": 180.5,
         "use_class": "C3",
-        "gia_lost": 0,
-        "gia_existing": 180.5
+        "gia_gained": 39.6,
+        "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
@@ -178,9 +178,9 @@
     "green_suds": false,
     "phasing_details": [
       {
-        "intended_commencement_date": "05/2025",
+        "phase_detail": "Construction",
         "intended_completion_date": "12/2025",
-        "phase_detail": "Construction"
+        "intended_commencement_date": "05/2025"
       }
     ],
     "residential_details": {
@@ -194,36 +194,33 @@
       "total_no_proposed_residential_units_starter_homes": 0,
       "residential_units": [
         {
-          "unit_no": "Loss-1",
-          "garden_land": true,
-          "gia": 180.5,
-          "no_bedrooms": 4,
-          "tenure": "Market for sale",
-          "sheltered_accommodation": false,
           "no_habitable_rooms": 7,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
+          "garden_land": true,
           "unit_type": "Terraced Home",
+          "no_bedrooms": 4,
           "provision_for_older_persons": false,
-          "change_type": "Loss"
+          "tenure": "Market for sale",
+          "gia": 180.5
         },
         {
-          "unit_no": "Gain-1",
-          "gia": 106,
+          "no_habitable_rooms": 4,
           "provider": "Private",
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
           "tenure": "Self-Build and Custom Build",
-          "no_habitable_rooms": 4,
-          "unit_type": "Flat Apartment Maisonette",
-          "change_type": "Gain"
+          "gia": 106
         },
         {
-          "unit_no": "Gain-2",
-          "gia": 106,
+          "no_habitable_rooms": 4,
           "provider": "Private",
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
           "tenure": "Self-Build and Custom Build",
-          "no_habitable_rooms": 4,
-          "unit_type": "Flat Apartment Maisonette",
-          "change_type": "Gain"
+          "gia": 106
         }
       ],
       "total_no_existing_residential_units_london_living_rent": 0,

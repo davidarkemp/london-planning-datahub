@@ -179,7 +179,7 @@
   "decision_target_date": "04/11/2025",
   "valid_date": "09/09/2025",
   "development_type": "Change of Use",
-  "last_updated": "2025-11-17T22:04:18.211Z",
+  "last_updated": "2025-11-26T22:04:09.215Z",
   "subdivision_of_building": "first and second floors",
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
@@ -208,16 +208,16 @@
     "garden_land_lost": false,
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 116.1,
+        "gia_existing": 116.1,
         "use_class": "EB",
-        "gia_lost": 0,
-        "gia_existing": 116.1
+        "gia_gained": 116.1,
+        "gia_lost": 0
       },
       {
-        "gia_gained": 0,
+        "gia_existing": 147.08,
         "use_class": "C3",
-        "gia_lost": 0,
-        "gia_existing": 147.08
+        "gia_gained": 0,
+        "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
@@ -232,9 +232,9 @@
     "green_suds": false,
     "phasing_details": [
       {
-        "intended_commencement_date": "11/2025",
+        "phase_detail": "entire development",
         "intended_completion_date": "07/2026",
-        "phase_detail": "entire development"
+        "intended_commencement_date": "11/2025"
       }
     ],
     "residential_details": {
@@ -248,24 +248,22 @@
       "total_no_proposed_residential_units_starter_homes": 0,
       "residential_units": [
         {
-          "unit_no": "Gain-1",
-          "gia": 67.62,
+          "no_habitable_rooms": 4,
           "provider": "Private",
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
           "tenure": "Market for rent",
-          "no_habitable_rooms": 4,
-          "unit_type": "Flat Apartment Maisonette",
-          "change_type": "Gain"
+          "gia": 67.62
         },
         {
-          "unit_no": "Gain-2",
-          "gia": 74.7,
+          "no_habitable_rooms": 4,
           "provider": "Private",
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
           "tenure": "Market for rent",
-          "no_habitable_rooms": 4,
-          "unit_type": "Flat Apartment Maisonette",
-          "change_type": "Gain"
+          "gia": 74.7
         }
       ],
       "total_no_existing_residential_units_london_living_rent": 0,
@@ -316,24 +314,24 @@
       "total_annual_pm_emissions": 0,
       "waste_details": [
         {
-          "internal_dry_recycling": false,
+          "external_dry_recycling": false,
+          "external_food_waste": false,
+          "unit_reference": "Flat 1",
+          "external_residual_waste": false,
           "reason_for_no_provision": "all residential refuse in this building is presently collected in refuse bags from the street",
           "internal_residual_waste": false,
-          "unit_reference": "Flat 1",
-          "external_dry_recycling": false,
-          "external_food_waste": false,
           "internal_food_waste": true,
-          "external_residual_waste": false
+          "internal_dry_recycling": false
         },
         {
-          "internal_dry_recycling": false,
-          "reason_for_no_provision": "All refuse to existing flat is collected in refuse bags from the street",
-          "internal_residual_waste": false,
-          "unit_reference": "Flat 2",
           "external_dry_recycling": false,
           "external_food_waste": false,
+          "unit_reference": "Flat 2",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "All refuse to existing flat is collected in refuse bags from the street",
+          "internal_residual_waste": false,
           "internal_food_waste": true,
-          "external_residual_waste": false
+          "internal_dry_recycling": false
         }
       ]
     }

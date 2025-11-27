@@ -32,7 +32,7 @@
   "application_type": "All Other",
   "status": "Application Under Consideration",
   "epc_number": null,
-  "cil_liability": null,
+  "cil_liability": false,
   "parking_details": null,
   "centroid": {
     "lat": 51.616968,
@@ -76,22 +76,22 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "change_type": "Gain",
-          "no_bedrooms": 2,
           "m43_2b_compliant": false,
-          "garden_land": false,
-          "gia": 95.5,
-          "sheltered_accommodation": false,
-          "unit_type": "Semi Detached Home",
-          "provision_for_older_persons": false,
-          "phase_detail": null,
-          "unit_no": null,
-          "tenure": "Market for sale",
+          "m43_2a_compliant": false,
           "description": null,
           "m42_compliant": true,
-          "no_habitable_rooms": 2,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Semi Detached Home",
           "provider": "Private",
-          "m43_2a_compliant": false
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 95.5
         }
       ],
       "habitable_rooms_density": null,
@@ -121,8 +121,8 @@
     "building_details": [
       {
         "no_storeys": null,
-        "building_ref": "34A",
-        "max_height": 7.55
+        "max_height": 7.55,
+        "building_ref": "34A"
       }
     ],
     "infrastructure_details": {
@@ -160,8 +160,8 @@
     "ownership_status": "Private",
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3",
         "gia_existing": 46.2,
+        "use_class": "C3",
         "gia_gained": 95.5,
         "gia_lost": 0
       }
@@ -185,8 +185,8 @@
     "phasing_details": [
       {
         "phase_detail": "Construction phase",
-        "intended_commencement_date": "10/2025",
-        "intended_completion_date": "05/2026"
+        "intended_completion_date": "05/2026",
+        "intended_commencement_date": "10/2025"
       }
     ],
     "constraints_details": [
@@ -241,13 +241,13 @@
     ]
   },
   "valid_date": "25/09/2025",
-  "decision_process": null,
+  "decision_process": "Delegated",
   "appeal_start_date": null,
   "application_type_full": null,
   "last_updated_by": "Idox Uniform",
   "bo_system": "Idox Uniform",
   "decision_target_date": "20/11/2025",
-  "last_updated": "2025-10-14T20:05:06.697Z",
+  "last_updated": "2025-11-26T21:03:54.984Z",
   "site_name": null,
   "development_type": "Minor dwellings",
   "centroid_northing": 192698,
@@ -274,7 +274,62 @@
   "decision_date": null,
   "lapsed_date": null,
   "decision_conditions": null,
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              534815.2,
+              192717.15
+            ],
+            [
+              534814.6,
+              192717.15
+            ],
+            [
+              534816.65,
+              192693.25
+            ],
+            [
+              534817.55,
+              192682.4
+            ],
+            [
+              534826.1,
+              192694.25
+            ],
+            [
+              534829.95,
+              192699.55
+            ],
+            [
+              534833.7,
+              192704.9
+            ],
+            [
+              534817.7,
+              192716.35
+            ],
+            [
+              534817.45,
+              192716.45
+            ],
+            [
+              534817.2,
+              192716.6
+            ],
+            [
+              534815.2,
+              192717.15
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "site_number": "34",
   "ward": "Edmonton Green",
   "reference_no_of_permission_being_relied_on": null,

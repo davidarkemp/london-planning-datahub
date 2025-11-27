@@ -1,5 +1,5 @@
 {
-  "development_type": null,
+  "development_type": "Minor dwellings",
   "appeal_decision": null,
   "decision_agency": null,
   "postcode": "EN4 0EU",
@@ -32,9 +32,9 @@
     "type": "Polygon"
   },
   "site_name": "",
-  "centroid_easting": "527210",
+  "centroid_easting": 527210,
   "pp_id": "PP-12645816",
-  "cil_liability": false,
+  "cil_liability": true,
   "reference_no_of_permission_being_relied_on": null,
   "date_building_work_completed_under_previous_permission": null,
   "application_details": {
@@ -58,12 +58,20 @@
       "total_no_existing_residential_affordable_units": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 4,
-          "provider": "Private",
-          "unit_no": "Gain-1",
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": false,
           "change_type": "Gain",
-          "no_bedrooms": 5,
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "House or Bungalow",
+          "provider": "Private",
+          "no_habitable_rooms": 4,
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 5,
+          "provision_for_older_persons": false,
           "gia": 448,
           "tenure": "Market for sale"
         }
@@ -84,7 +92,7 @@
       "total_no_existing_residential_units_market_for_sale": 0,
       "habitable_rooms_density": null,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "total_gia_lost": 0,
+      "total_gia_lost": 195,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_market_for_sale": 1,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
@@ -98,15 +106,16 @@
         "intended_commencement_date": "03/2024"
       }
     ],
-    "site_area": 0.0941,
+    "site_area": 941,
     "affordable_housing_fast_track": false,
     "projected_cost_of_works": "Up to £2m",
     "non_residential_details": {
-      "total_gia_gained": 448,
-      "total_gia_lost": 195,
+      "total_gia_gained": 0,
+      "total_gia_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_existing": 195,
-      "total_non_resi_gross_internal_floor_area_to_be_gained": 0
+      "total_gia_existing": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "site_area": 0.09
     },
     "internal_resi_water_usage": 105,
     "infrastructure_details": {
@@ -126,7 +135,14 @@
       "no_resi_units_to_have_full_fibre": 1,
       "total_annual_nox_emissions": 0,
       "no_homes_passive_cooling": 0,
-      "waste_provision": true
+      "waste_provision": true,
+      "no_passive_rapid_ev_charging_points": 0,
+      "no_active_slow_ev_charging_points": 0,
+      "urban_greening_factor_score": 0,
+      "no_active_rapid_ev_charging_points": 0,
+      "no_passive_slow_ev_charging_points": 0,
+      "no_active_other_ev_charging_points": 0,
+      "no_passive_other_ev_charging_points": 0
     },
     "rain_water_harvesting": true,
     "scheme_phasing": true,
@@ -147,9 +163,52 @@
     "green_suds": false,
     "building_details": [
       {
-        "no_storeys": 2,
+        "no_storeys": null,
         "max_height": 10,
         "building_ref": "Dwellinghouse "
+      }
+    ],
+    "existing_uprns": [
+      "000207128161"
+    ],
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.09
+    },
+    "open_and_protected_space_details": {
+      "protected_space_count": 0,
+      "open_space_local_and_other_area_gain": 0,
+      "open_spaces_details": [
+        {
+          "land_swap": false
+        }
+      ],
+      "open_space_mol_area_loss": 0,
+      "open_space_green_belt_area_gain": 0,
+      "open_space_local_and_other_area_loss": 0,
+      "open_space_mol_area_gain": 0,
+      "open_space_green_belt_area_loss": 0
+    },
+    "constraints_details": [
+      {
+        "result": null,
+        "constraints_layer_description": "DCAREA Area: NORTH\rCode: DCAREA_N"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "DUOLAC Description: DUOLAC1"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "WARDS Name: Cockfosters"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "CILRES CIL ZONE: Higher Rate - RATE: £120 per square metre"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "SUWAFL Surface water flooding zone: Surface Water 100 ye\rSource: Environment Agency"
       }
     ]
   },
@@ -157,47 +216,190 @@
   "decision": "Approved",
   "lpa_app_no": "23/03927/FUL",
   "decision_date": "26/01/2024",
-  "last_updated": "2025-03-19T00:32:01.309+00:00",
-  "centroid_northing": "198224",
+  "last_updated": "2025-11-26T21:01:16.805Z",
+  "centroid_northing": 198224,
   "centroid": {
     "lat": 51.668399,
     "lon": -0.161932
   },
   "appeal_decision_date": null,
   "locality": null,
-  "ward": "CK",
+  "ward": "Cockfosters",
   "bo_system": "Idox Uniform",
   "lapsed_date": "26/01/2027",
   "decision_process": "Delegated",
   "last_date_consultation_comments": "26/12/2023",
   "subdivision_of_building": null,
   "appeal_start_date": null,
-  "epc_number": null,
+  "epc_number": "5532-3023-5100-0126-8206",
   "valid_date": "05/12/2023",
   "actual_commencement_date": null,
   "decision_conditions": [
-    "Time Limited Permission",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    ""
+    "The development to which this permission relates must be begun not later than the expiration of three years beginning with the date of the decision notice. \rReason: To comply with the provisions of S.51 of the Planning & Compulsory Purchase Act 2004.\r",
+    "Unless required by any other condition attached to this Decision, the development hereby permitted shall be carried out in accordance with the following approved plans and documents:\r\rDwg No: 1713.P2.01\rDwg No: 1713.P2.02\rDwg No: 1713.P2.03\rDwg No: 1713.P2.04\rDwg No: 1713.P2.05\rDwg No: 1713.P2.06\rDwg No: 1713.P2.07\r\rReason: For the avoidance of doubt and in the interests of proper planning.",
+    "No development above existing ground level shall commence until a schedule of materials and their use in the approved scheme is submitted to and approved in writing by the local planning authority. Photographs showing all samples must be submitted. The development shall be constructed in accordance with the approved details.\r\rReason: To ensure a satisfactory external appearance\r",
+    "Prior to the commencement of any construction work, the sustainable drainage strategy (79397R2) shall be updated to include:  \r\ro\tHow the roof runoff and hardstanding areas are draining via source control SuDS;\ro\tFinal sizes, storage volumes, invert levels, cross-sections and specifications of all SuDS measures including rain gardens, permeable paving, and soakaways;\ro\tManagement Plan for future maintenance; and\ro\tOverland flow routes for exceedance events including spot levels must be submitted\r\rThe final agreed SUDs strategy must conform with the landscaping strategy (to be submitted under condition 10) and have regard to retention of existing trees on site. \r\r Reason: To ensure the sustainable management of water, minimise flood risk, minimise discharge of surface water outside of the curtilage of the property and ensure that the drainage system will remain functional throughout the lifetime of the development in accordance with Policy CP28 of the Core Strategy, DMD 61, and Policies 5.12 & 5.13 of the London Plan and the NPPF\r\r",
+    "Prior to above ground works details of the siting, number and design of a minimum of 2 secure and fully enclosed cycle parking spaces shall be submitted to and approved in writing by the Local Planning Authority. The development shall be carried out in accordance with the approved details before it is occupied, and the facility retained for the life of the permission.\r\rReason: To ensure the provision of cycle parking in line with the Council's adopted standards\r",
+    "Prior to above ground works details of the means to enclosure shall be submitted to and approved by local planning authority. The site shall be enclosed in accordance with the approved details prior to occupation of the development. \r\rReason:  In the interests of Highway Safety and to ensure adequate visibility splays are maintained and visual amenity respected.\r",
+    "Prior to above ground works a detailed Energy Statement has been submitted and approved in writing by the Local Planning Authority. Submitted details will demonstrate the maximum achievable energy efficiency achievable for the development and shall provide for the maximum achievable improvements in the total CO2 emissions arising from the operation of a development and its services over part L of Building Regs 2013. The Energy Statement should outline how the reductions are achieved through the use of Fabric Energy Efficiency performance, energy efficient fittings, and the use of renewable technologies. in line with Policy DMD49, the CO2 savings of the proposal shall not be less than 35%.\r\rReason: In the interest of sustainable development and to ensure that the Local Planning Authority may be satisfied that CO2 emission reduction targets are met in accordance with Policy CP20 of the Enfield Core Strategy (2010), Policies DMD49, DMD50 and DMD51 of the Enfield Development Management Document (2014).\r",
+    "Following practical completion of works a final Energy Performance Certificate with accompanying Building Regulations compliance report shall be submitted to and approved in writing by the Local Planning Authority. Where applicable, a Display Energy Certificate shall be submitted within 18 months following first occupation. \r\rReason: In the interest of sustainable development and to ensure that the Local Planning Authority may be satisfied that CO2 emission reduction targets are met in accordance with Policy CP20 of the Enfield Core Strategy (2010), Policies DMD49, DMD50 and DMD51 of the Enfield Development Management Document (2014).\r",
+    "Prior to above ground works, details of the internal consumption of potable water shall be submitted to and approved in writing by the Local Planning Authority. Submitted details will demonstrate reduced water consumption through the use of water efficient fittings, appliances, and recycling systems to show consumption equal to or less than 105 litres per person per day. The development shall be carried out strictly in accordance with the details so approved and maintained as such thereafter.\r\rReason: To promote water conservation and efficiency measures in all new developments and where possible in the retrofitting of existing stock in accordance with Policy SI 5 of the London Plan (2021) and Policy CP21 of the Enfield Core Strategy (2010).\r",
+    "Notwithstanding the provisions of the Town and Country Planning (General Permitted Development) Order 1995 or any amending Order, no buildings or extensions to buildings shall be erected without the prior approval in writing of the Local Planning Authority.\r\rReason: to safeguard the residential amenity of neighbouring occupiers and prevent excessive site coverage\r",
+    "Prior to commencement of the development details of existing planting to be retained and trees, shrubs and grass to be planted and the treatment of any hard surfaced amenity areas have been submitted to and approved in writing by the Local Planning Authority. The site shall be landscaped in accordance with the approved details in the first planting season after completion or occupation of the development whichever is the sooner. Any trees or shrubs which die, becomes severely damaged or diseased within five years of planting shall be replaced with new planting in accordance with the approved details. The proposed landscaping strategy must conform with the SUDs strategy having regard to condition 4.\r\rReason: To provide a satisfactory appearance, ensure that the development does not prejudice highway safety,  and to ensure sustainable drainage of the site. \r",
+    "Prior to above groundwork details of the surfacing materials to be used within the development including footpaths, access roads and parking areas and road markings have been submitted to and approved in writing by the Local Planning Authority. The surfacing shall be carried out in accordance with the approved detail before the development is occupied or use commences.\r\rReason: To ensure that the development does not prejudice highway safety and is satisfactory appearance\r",
+    "Prior to above ground works details of refuse storage facilities including facilities for the recycling of waste to be provided within the development, in accordance with the Enfield Councils Waste and Recycling Planning Storage Guidance, available at https://new.enfield.gov.uk/services/planning/waste-and-recycling-storage-planning-guidance-planning.pdf have been submitted to and approved in writing by the Local Planning Authority. The facilities shall be provided in accordance with the approved details before the development is occupied or use commences.\r\rReason: In the interests of amenity and the recycling of waste materials in support of the Borough waste reduction targets. \r",
+    "The flank window proposed to the new en-suite bathrooms on the first floor, as indicated on drawing number '1713.P2.05' shall be in obscured glass with an equivalent obscuration as level 3 on the Pilkington Obscuration Range and be fixed shut unless 1.7m above internal floor level. The glazing shall not be altered without the approval in writing of the Local Planning Authority.\r\rReason: To safeguard the privacy of the occupiers of adjoining and neighbouring properties. \r",
+    "Notwithstanding the provisions of the Town and Country Planning (General Permitted Development) Order 2015, or any amending Order, no external windows or doors other than those indicated on the approved drawings shall be installed in the development hereby approved without the approval in writing of the Local Planning Authority.\r\rReason: To safeguard the privacy of the occupiers of adjoining properties\r"
   ],
   "parking_details": null,
   "site_number": "74",
   "uprn": "000207128161",
   "decision_target_date": "30/01/2024",
   "application_type": "All Other",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              527201.2,
+              198238.3
+            ],
+            [
+              527199.67,
+              198238.26
+            ],
+            [
+              527202.3,
+              198226.2
+            ],
+            [
+              527202.9,
+              198223.45
+            ],
+            [
+              527204.2,
+              198217.7
+            ],
+            [
+              527206.65,
+              198206.8
+            ],
+            [
+              527207.131,
+              198204.689
+            ],
+            [
+              527208.066,
+              198200.593
+            ],
+            [
+              527210.95,
+              198187.95
+            ],
+            [
+              527211.65,
+              198184.1
+            ],
+            [
+              527211.85,
+              198184.1
+            ],
+            [
+              527213.3,
+              198177.1
+            ],
+            [
+              527221.05,
+              198177.75
+            ],
+            [
+              527224.83,
+              198177.96
+            ],
+            [
+              527228.15,
+              198178.15
+            ],
+            [
+              527228.5,
+              198178.2
+            ],
+            [
+              527224.7,
+              198194.9
+            ],
+            [
+              527222,
+              198206.45
+            ],
+            [
+              527221.138,
+              198210.291
+            ],
+            [
+              527220.994,
+              198210.929
+            ],
+            [
+              527220.648,
+              198212.471
+            ],
+            [
+              527220.361,
+              198213.75
+            ],
+            [
+              527219.911,
+              198215.756
+            ],
+            [
+              527219.25,
+              198218.5
+            ],
+            [
+              527218.15,
+              198223.25
+            ],
+            [
+              527217.527,
+              198225.741
+            ],
+            [
+              527217.501,
+              198225.85
+            ],
+            [
+              527216.95,
+              198228.2
+            ],
+            [
+              527214.33,
+              198239.4
+            ],
+            [
+              527212.1,
+              198239.15
+            ],
+            [
+              527210.4,
+              198238.99
+            ],
+            [
+              527206.7,
+              198238.65
+            ],
+            [
+              527201.2,
+              198238.3
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "title_number": [],
   "appeal_status": null,
   "status": "Approved",
@@ -209,5 +411,5 @@
   "secondary_street_name": null,
   "description": "Redevelopment of site by the erection of a detached 2-storey dwelling house with rooms in the roof, front and rear dormers and integral garage.",
   "id": "Enfield-23_03927_FUL",
-  "url_planning_app": null
+  "url_planning_app": "<enter PA URL here>"
 }

@@ -1,7 +1,7 @@
 {
   "borough": "Haringey",
   "application_type": "All Other",
-  "decision": null,
+  "decision": "Approved",
   "decision_conditions": null,
   "centroid_northing": 188809.63400528196,
   "url_planning_app": "https://publicregister.haringey.gov.uk/pr/s/detail/a0iTu0000013yVJ",
@@ -166,7 +166,7 @@
   "secondary_street_name": null,
   "lapsed_date": null,
   "bo_system": "Arcus",
-  "decision_date": null,
+  "decision_date": "21/11/2025",
   "centroid_easting": 531288.3319942281,
   "actual_commencement_date": null,
   "id": "Haringey-HGY_2025_0829",
@@ -174,7 +174,7 @@
   "decision_target_date": null,
   "valid_date": "07/04/2025",
   "development_type": null,
-  "last_updated": "2025-11-17T22:04:15.204Z",
+  "last_updated": "2025-11-26T22:04:03.601Z",
   "subdivision_of_building": null,
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
@@ -203,10 +203,10 @@
     "garden_land_lost": false,
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 37,
+        "gia_existing": 389,
         "use_class": "C3",
-        "gia_lost": 0,
-        "gia_existing": 389
+        "gia_gained": 37,
+        "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
@@ -221,9 +221,9 @@
     "green_suds": false,
     "phasing_details": [
       {
-        "intended_commencement_date": "03/2027",
+        "phase_detail": "Main house conversion",
         "intended_completion_date": "01/2028",
-        "phase_detail": "Main house conversion"
+        "intended_commencement_date": "03/2027"
       }
     ],
     "residential_details": {
@@ -237,45 +237,41 @@
       "total_no_proposed_residential_units_starter_homes": 0,
       "residential_units": [
         {
-          "unit_no": "Loss-1",
-          "gia": 389,
-          "no_bedrooms": 4,
-          "tenure": "Market for sale",
-          "sheltered_accommodation": false,
           "no_habitable_rooms": 10,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "Semi Detached Home",
+          "no_bedrooms": 4,
           "provision_for_older_persons": false,
-          "change_type": "Loss"
+          "tenure": "Market for sale",
+          "gia": 389
         },
         {
-          "unit_no": "Gain-1",
-          "gia": 63,
+          "no_habitable_rooms": 2,
           "provider": "Private",
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
           "tenure": "Market for sale",
-          "no_habitable_rooms": 2,
-          "unit_type": "Flat Apartment Maisonette",
-          "change_type": "Gain"
+          "gia": 63
         },
         {
-          "unit_no": "Gain-2",
-          "gia": 95,
+          "no_habitable_rooms": 3,
           "provider": "Private",
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
           "tenure": "Market for sale",
-          "no_habitable_rooms": 3,
-          "unit_type": "Flat Apartment Maisonette",
-          "change_type": "Gain"
+          "gia": 95
         },
         {
-          "unit_no": "Gain-3",
-          "gia": 129,
+          "no_habitable_rooms": 6,
           "provider": "Private",
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 4,
           "tenure": "Market for sale",
-          "no_habitable_rooms": 6,
-          "unit_type": "Flat Apartment Maisonette",
-          "change_type": "Gain"
+          "gia": 129
         }
       ],
       "total_no_existing_residential_units_london_living_rent": 0,

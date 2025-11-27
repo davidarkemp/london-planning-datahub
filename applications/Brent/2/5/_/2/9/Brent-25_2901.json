@@ -20,8 +20,193 @@
   "pp_id": "PP-14399214",
   "status": "Application Under Consideration",
   "last_updated_by": "CSV Data Import",
-  "polygon": null,
-  "wgs84_polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              520829.75,
+              185999.65
+            ],
+            [
+              520828.1,
+              185997.3
+            ],
+            [
+              520832.6,
+              185994.2
+            ],
+            [
+              520839.1,
+              185989.65
+            ],
+            [
+              520842.127,
+              185987.517
+            ],
+            [
+              520847.65,
+              185983.95
+            ],
+            [
+              520851.002,
+              185981.618
+            ],
+            [
+              520852.25,
+              185980.75
+            ],
+            [
+              520855.7,
+              185978.35
+            ],
+            [
+              520859.1,
+              185978.9
+            ],
+            [
+              520860.602,
+              185981.06
+            ],
+            [
+              520861.95,
+              185982.95
+            ],
+            [
+              520861.237,
+              185983.43
+            ],
+            [
+              520845.75,
+              185993.85
+            ],
+            [
+              520843.9,
+              185995.1
+            ],
+            [
+              520843.25,
+              185995.55
+            ],
+            [
+              520837,
+              186000
+            ],
+            [
+              520836.7,
+              186000.2
+            ],
+            [
+              520832.5,
+              186003.2
+            ],
+            [
+              520830.2,
+              186000
+            ],
+            [
+              520829.75,
+              185999.65
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.2583301,
+          51.5599465
+        ],
+        [
+          -0.2583547,
+          51.5599257
+        ],
+        [
+          -0.2582909,
+          51.5598969
+        ],
+        [
+          -0.2581987,
+          51.5598546
+        ],
+        [
+          -0.2581558,
+          51.5598348
+        ],
+        [
+          -0.2580774,
+          51.5598016
+        ],
+        [
+          -0.2580299,
+          51.5597799
+        ],
+        [
+          -0.25801219999999997,
+          51.5597718
+        ],
+        [
+          -0.2579633,
+          51.5597495
+        ],
+        [
+          -0.257914,
+          51.5597537
+        ],
+        [
+          -0.2578916,
+          51.5597728
+        ],
+        [
+          -0.2578716,
+          51.5597895
+        ],
+        [
+          -0.2578817,
+          51.559794
+        ],
+        [
+          -0.2581014,
+          51.5598909
+        ],
+        [
+          -0.2581276,
+          51.5599026
+        ],
+        [
+          -0.2581369,
+          51.5599067
+        ],
+        [
+          -0.2582255,
+          51.5599481
+        ],
+        [
+          -0.2582297,
+          51.5599499
+        ],
+        [
+          -0.2582892,
+          51.5599778
+        ],
+        [
+          -0.2583235,
+          51.5599495
+        ],
+        [
+          -0.2583301,
+          51.5599465
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "appeal_decision_date": null,
   "secondary_street_name": null,
   "lapsed_date": null,
@@ -34,7 +219,7 @@
   "decision_target_date": "01/12/2025",
   "valid_date": "13/10/2025",
   "development_type": "Minor all other minor developments",
-  "last_updated": "2025-11-04T09:02:13.276Z",
+  "last_updated": "2025-11-26T09:07:31.500Z",
   "subdivision_of_building": "The lower floor has been converted into a self-contained flat",
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
@@ -63,16 +248,16 @@
     "garden_land_lost": false,
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
+        "gia_existing": 60,
         "use_class": "C3",
-        "gia_lost": 60,
-        "gia_existing": 60
+        "gia_gained": 0,
+        "gia_lost": 60
       },
       {
-        "gia_gained": 60,
+        "gia_existing": 0,
         "use_class": "C4",
-        "gia_lost": 0,
-        "gia_existing": 0
+        "gia_gained": 60,
+        "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
@@ -83,14 +268,14 @@
     "affordable_housing_fast_track": false,
     "rain_water_harvesting": false,
     "ownership_status": "Private",
-    "site_area": 0.01,
+    "site_area": 0.026000000000000002,
     "total_gia_lost": 60,
     "green_suds": false,
     "phasing_details": [
       {
-        "intended_commencement_date": "08/2025",
+        "phase_detail": "Build/fit out",
         "intended_completion_date": "08/2025",
-        "phase_detail": "Build/fit out"
+        "intended_commencement_date": "08/2025"
       }
     ],
     "residential_details": {
@@ -104,25 +289,23 @@
       "total_no_proposed_residential_units_starter_homes": 0,
       "residential_units": [
         {
-          "unit_no": "Loss-1",
-          "gia": 60,
-          "no_bedrooms": 3,
-          "tenure": "Market for rent",
-          "sheltered_accommodation": false,
           "no_habitable_rooms": 5,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "change_type": "Loss"
+          "tenure": "Market for rent",
+          "gia": 60
         },
         {
-          "unit_no": "Gain-1",
-          "gia": 60,
-          "provider": "Private",
-          "no_bedrooms": 4,
-          "tenure": "Market for rent",
           "no_habitable_rooms": 6,
+          "provider": "Private",
+          "change_type": "Gain",
           "unit_type": "HMO",
-          "change_type": "Gain"
+          "no_bedrooms": 4,
+          "gia": 60,
+          "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_london_living_rent": 0,
