@@ -9,7 +9,7 @@
   "site_number": "140",
   "ward": "Bullsmoor",
   "locality": null,
-  "last_date_consultation_comments": "24/11/2025",
+  "last_date_consultation_comments": "10/12/2025",
   "date_building_work_started_under_previous_permission": null,
   "description": "Change of use from Use Class C3 (dwelling house) to Use Class C4 (house in multiple occupation - HMO) including rear dormer, front roof lights and refuse and cycle storage.",
   "parking_details": {
@@ -24,7 +24,86 @@
   "pp_id": "PP-14434546",
   "status": "Application Under Consideration",
   "last_updated_by": "Idox Uniform",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              535157.18,
+              199461.43
+            ],
+            [
+              535150.55,
+              199462.5
+            ],
+            [
+              535143.1,
+              199463.7
+            ],
+            [
+              535138.945,
+              199464.379
+            ],
+            [
+              535130.25,
+              199465.8
+            ],
+            [
+              535129.1,
+              199459
+            ],
+            [
+              535137.7,
+              199457.6
+            ],
+            [
+              535140.6,
+              199457.1
+            ],
+            [
+              535140.7,
+              199457.9
+            ],
+            [
+              535141.75,
+              199457.7
+            ],
+            [
+              535148,
+              199456.7
+            ],
+            [
+              535148.2,
+              199457.9
+            ],
+            [
+              535149.8,
+              199457.65
+            ],
+            [
+              535149.502,
+              199455.924
+            ],
+            [
+              535156.132,
+              199454.727
+            ],
+            [
+              535156.35,
+              199456.1
+            ],
+            [
+              535157.18,
+              199461.43
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "wgs84_polygon": {
     "coordinates": [
       [
@@ -64,7 +143,7 @@
   "decision_target_date": "24/12/2025",
   "valid_date": "29/10/2025",
   "development_type": "Other change of use",
-  "last_updated": "2025-11-13T21:10:08.680Z",
+  "last_updated": "2025-11-27T21:09:33.732Z",
   "subdivision_of_building": null,
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
@@ -117,9 +196,9 @@
     "green_suds": false,
     "phasing_details": [
       {
-        "intended_commencement_date": "03/2026",
+        "phase_detail": "Entire development",
         "intended_completion_date": "04/2026",
-        "phase_detail": "Entire development"
+        "intended_commencement_date": "03/2026"
       }
     ],
     "constraints_details": [
@@ -168,38 +247,38 @@
       "residential_units": [
         {
           "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
           "description": null,
-          "gia": 144.39,
-          "provider": "Private",
+          "m42_compliant": false,
+          "change_type": "Gain",
           "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "HMO",
-          "provision_for_older_persons": false,
+          "provider": "Private",
+          "no_habitable_rooms": 1,
           "phase_detail": null,
           "unit_no": null,
-          "garden_land": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": false,
           "no_bedrooms": 6,
-          "tenure": "Market for rent",
-          "no_habitable_rooms": 1,
-          "change_type": "Gain"
+          "provision_for_older_persons": false,
+          "gia": 144.39,
+          "tenure": "Market for rent"
         },
         {
           "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
           "description": null,
-          "gia": 111.26,
+          "m42_compliant": false,
+          "change_type": "Loss",
           "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Terraced Home",
-          "provision_for_older_persons": false,
+          "no_habitable_rooms": 2,
           "phase_detail": null,
           "unit_no": null,
-          "garden_land": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": false,
           "no_bedrooms": 3,
-          "tenure": "Market for rent",
-          "no_habitable_rooms": 2,
-          "change_type": "Loss"
+          "provision_for_older_persons": false,
+          "gia": 111.26,
+          "tenure": "Market for rent"
         }
       ],
       "total_no_proposed_residential_units_market_for_sale": 0,
@@ -241,16 +320,16 @@
     "garden_land_lost": false,
     "existing_proposed_floorspace_details": [
       {
+        "gia_existing": 111.26,
         "gia_gained": 0,
         "use_class": "C3",
-        "gia_lost": 111.26,
-        "gia_existing": 111.26
+        "gia_lost": 111.26
       },
       {
+        "gia_existing": 0,
         "gia_gained": 144.39,
         "use_class": "C4",
-        "gia_lost": 0,
-        "gia_existing": 0
+        "gia_lost": 0
       }
     ],
     "affordable_housing_fast_track": false,

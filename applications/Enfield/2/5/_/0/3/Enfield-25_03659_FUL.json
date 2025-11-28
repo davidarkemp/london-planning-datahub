@@ -20,7 +20,62 @@
   "pp_id": "PP-14430557",
   "status": "Application Under Consideration",
   "last_updated_by": "Idox Uniform",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              534946.5,
+              193411.15
+            ],
+            [
+              534945.9,
+              193406.5
+            ],
+            [
+              534948.75,
+              193406.1
+            ],
+            [
+              534949.737,
+              193405.962
+            ],
+            [
+              534950.9,
+              193405.8
+            ],
+            [
+              534966.5,
+              193403.75
+            ],
+            [
+              534968.65,
+              193403.45
+            ],
+            [
+              534969.35,
+              193408.1
+            ],
+            [
+              534967.2,
+              193408.45
+            ],
+            [
+              534959.4,
+              193409.45
+            ],
+            [
+              534946.5,
+              193411.15
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "wgs84_polygon": {
     "coordinates": [
       [
@@ -60,7 +115,7 @@
   "decision_target_date": "24/12/2025",
   "valid_date": "29/10/2025",
   "development_type": "Other change of use",
-  "last_updated": "2025-11-13T21:10:07.199Z",
+  "last_updated": "2025-11-27T21:09:30.224Z",
   "subdivision_of_building": null,
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
@@ -113,9 +168,9 @@
     "green_suds": false,
     "phasing_details": [
       {
-        "intended_commencement_date": "11/2025",
+        "phase_detail": "Entire Development",
         "intended_completion_date": "01/2026",
-        "phase_detail": "Entire Development"
+        "intended_commencement_date": "11/2025"
       }
     ],
     "constraints_details": [
@@ -184,38 +239,38 @@
       "residential_units": [
         {
           "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
           "description": null,
-          "gia": 139.49,
-          "provider": "Private",
+          "m42_compliant": false,
+          "change_type": "Gain",
           "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "HMO",
-          "provision_for_older_persons": false,
+          "provider": "Private",
+          "no_habitable_rooms": 2,
           "phase_detail": null,
           "unit_no": null,
-          "garden_land": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": false,
           "no_bedrooms": 6,
-          "tenure": "Market for rent",
-          "no_habitable_rooms": 2,
-          "change_type": "Gain"
+          "provision_for_older_persons": false,
+          "gia": 139.49,
+          "tenure": "Market for rent"
         },
         {
           "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
           "description": null,
-          "gia": 101.09,
+          "m42_compliant": false,
+          "change_type": "Loss",
           "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Semi Detached Home",
-          "provision_for_older_persons": false,
+          "no_habitable_rooms": 2,
           "phase_detail": null,
           "unit_no": null,
-          "garden_land": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": false,
           "no_bedrooms": 3,
-          "tenure": "Market for rent",
-          "no_habitable_rooms": 2,
-          "change_type": "Loss"
+          "provision_for_older_persons": false,
+          "gia": 101.09,
+          "tenure": "Market for rent"
         }
       ],
       "total_no_proposed_residential_units_market_for_sale": 0,
@@ -257,16 +312,16 @@
     "garden_land_lost": false,
     "existing_proposed_floorspace_details": [
       {
+        "gia_existing": 101.09,
         "gia_gained": 0,
         "use_class": "C3",
-        "gia_lost": 101.09,
-        "gia_existing": 101.09
+        "gia_lost": 101.09
       },
       {
+        "gia_existing": 0,
         "gia_gained": 139.49,
         "use_class": "C4",
-        "gia_lost": 0,
-        "gia_existing": 0
+        "gia_lost": 0
       }
     ],
     "affordable_housing_fast_track": false,
