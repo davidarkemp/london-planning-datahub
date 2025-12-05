@@ -1,1 +1,1 @@
-export default `2025-12-04T00:00:00.000Z`;
+export default `2025-12-05T00:00:00.000Z`;

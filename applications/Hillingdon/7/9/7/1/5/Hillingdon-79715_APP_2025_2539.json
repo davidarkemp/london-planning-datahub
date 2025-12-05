@@ -11,7 +11,7 @@
   "locality": null,
   "last_date_consultation_comments": "10/11/2025",
   "date_building_work_started_under_previous_permission": null,
-  "description": "Subdivision of existing single dwellinghouse into 2 x two-bedroom houses, with associated private amenity space, car and cycle parking, and refuse storage.",
+  "description": "Subdivision of existing single dwellinghouse into 2 x three-bedroom houses, with associated private amenity space, car and cycle parking, and refuse storage.",
   "parking_details": {
     "no_proposed_car": 2,
     "net_car": 1,
@@ -24,7 +24,125 @@
   "pp_id": "14373593",
   "status": "Application Under Consideration",
   "last_updated_by": "CSV Data Import",
-  "polygon": null,
+  "polygon": {
+    "coordinates": [
+      [
+        [
+          505394.72,
+          190694.25
+        ],
+        [
+          505394.57,
+          190693.94
+        ],
+        [
+          505417.83,
+          190682.29
+        ],
+        [
+          505418.01,
+          190682.64
+        ],
+        [
+          505413.41,
+          190694.38
+        ],
+        [
+          505411.11,
+          190700.48
+        ],
+        [
+          505408.45,
+          190707.64
+        ],
+        [
+          505407.77,
+          190707.4
+        ],
+        [
+          505406.93,
+          190707.06
+        ],
+        [
+          505406.12,
+          190706.69
+        ],
+        [
+          505405.31,
+          190706.29
+        ],
+        [
+          505404.53,
+          190705.85
+        ],
+        [
+          505403.76,
+          190705.38
+        ],
+        [
+          505403.02,
+          190704.88
+        ],
+        [
+          505402.29,
+          190704.35
+        ],
+        [
+          505401.58,
+          190703.8
+        ],
+        [
+          505400.9,
+          190703.21
+        ],
+        [
+          505400.24,
+          190702.6
+        ],
+        [
+          505399.61,
+          190701.97
+        ],
+        [
+          505399,
+          190701.31
+        ],
+        [
+          505398.42,
+          190700.62
+        ],
+        [
+          505397.86,
+          190699.91
+        ],
+        [
+          505397.34,
+          190699.19
+        ],
+        [
+          505396.84,
+          190698.44
+        ],
+        [
+          505396.38,
+          190697.67
+        ],
+        [
+          505395.94,
+          190696.88
+        ],
+        [
+          505395.27,
+          190695.46
+        ],
+        [
+          505394.72,
+          190694.25
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "wgs84_polygon": null,
   "appeal_decision_date": null,
   "secondary_street_name": null,
@@ -38,7 +156,7 @@
   "decision_target_date": "11/12/2025",
   "valid_date": "16/10/2025",
   "development_type": null,
-  "last_updated": "2025-11-04T22:59:21.422Z",
+  "last_updated": "2025-12-04T22:59:15.373Z",
   "subdivision_of_building": null,
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
@@ -67,10 +185,10 @@
     "garden_land_lost": false,
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
+        "gia_existing": 154.71,
         "use_class": "C3",
-        "gia_lost": 0,
-        "gia_existing": 154.71
+        "gia_gained": 0,
+        "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
@@ -81,14 +199,14 @@
     "affordable_housing_fast_track": false,
     "rain_water_harvesting": false,
     "ownership_status": "Private",
-    "site_area": 0.0572,
+    "site_area": 0.027,
     "total_gia_lost": 0,
     "green_suds": false,
     "phasing_details": [
       {
+        "phase_detail": "Single",
         "intended_commencement_date": "12/2025",
-        "intended_completion_date": "02/2026",
-        "phase_detail": "Single"
+        "intended_completion_date": "02/2026"
       }
     ],
     "residential_details": {
@@ -102,35 +220,32 @@
       "total_no_proposed_residential_units_starter_homes": 0,
       "residential_units": [
         {
-          "unit_no": "Loss-1",
-          "gia": 154.71,
-          "no_bedrooms": 6,
-          "tenure": "Market for sale",
-          "sheltered_accommodation": false,
           "no_habitable_rooms": 8,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "House or Bungalow",
+          "no_bedrooms": 6,
           "provision_for_older_persons": false,
-          "change_type": "Loss"
+          "gia": 154.71,
+          "tenure": "Market for sale"
         },
         {
-          "unit_no": "Gain-1",
-          "gia": 77.35,
-          "provider": "Private",
-          "no_bedrooms": 2,
-          "tenure": "Market for sale",
           "no_habitable_rooms": 4,
+          "provider": "Private",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
           "unit_type": "Semi Detached Home",
-          "change_type": "Gain"
+          "gia": 77.35,
+          "tenure": "Market for sale"
         },
         {
-          "unit_no": "Gain-2",
-          "gia": 77.35,
-          "provider": "Private",
-          "no_bedrooms": 2,
-          "tenure": "Market for sale",
           "no_habitable_rooms": 4,
+          "provider": "Private",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
           "unit_type": "Semi Detached Home",
-          "change_type": "Gain"
+          "gia": 77.35,
+          "tenure": "Market for sale"
         }
       ],
       "total_no_existing_residential_units_london_living_rent": 0,

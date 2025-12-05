@@ -171,7 +171,7 @@
   "decision_target_date": "24/06/2025",
   "valid_date": "09/04/2025",
   "development_type": null,
-  "last_updated": "2025-11-17T23:01:30.130Z",
+  "last_updated": "2025-12-04T23:00:51.538Z",
   "subdivision_of_building": null,
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
@@ -200,16 +200,16 @@
     "garden_land_lost": false,
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
+        "gia_existing": 126.45,
         "use_class": "C3",
-        "gia_lost": 126.45,
-        "gia_existing": 126.45
+        "gia_gained": 0,
+        "gia_lost": 126.45
       },
       {
-        "gia_gained": 207.02,
+        "gia_existing": 0,
         "use_class": "SG",
-        "gia_lost": 0,
-        "gia_existing": 0
+        "gia_gained": 207.02,
+        "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
@@ -225,9 +225,9 @@
     "green_suds": false,
     "phasing_details": [
       {
+        "phase_detail": "Entire Development",
         "intended_commencement_date": "05/2025",
-        "intended_completion_date": "07/2025",
-        "phase_detail": "Entire Development"
+        "intended_completion_date": "07/2025"
       }
     ],
     "residential_details": {
@@ -241,25 +241,23 @@
       "total_no_proposed_residential_units_starter_homes": 0,
       "residential_units": [
         {
-          "unit_no": "Loss-1",
-          "gia": 126.45,
-          "no_bedrooms": 3,
-          "tenure": "Market for rent",
-          "sheltered_accommodation": false,
           "no_habitable_rooms": 3,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "Terraced Home",
+          "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "change_type": "Loss"
+          "gia": 126.45,
+          "tenure": "Market for rent"
         },
         {
-          "unit_no": "Gain-1",
-          "gia": 207.02,
-          "provider": "Private",
-          "no_bedrooms": 9,
-          "tenure": "Market for rent",
           "no_habitable_rooms": 3,
+          "provider": "Private",
+          "change_type": "Gain",
+          "no_bedrooms": 9,
           "unit_type": "HMO",
-          "change_type": "Gain"
+          "gia": 207.02,
+          "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_london_living_rent": 0,
