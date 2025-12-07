@@ -1,7 +1,7 @@
 {
   "borough": "Greenwich",
   "application_type": "All Other",
-  "decision": null,
+  "decision": "Approved",
   "decision_conditions": null,
   "centroid_northing": 177853,
   "url_planning_app": "https://planning.royalgreenwich.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=_GRNW_DCAPR_126150&activeTab=summary",
@@ -11,7 +11,7 @@
   "locality": null,
   "last_date_consultation_comments": "05/11/2025",
   "date_building_work_started_under_previous_permission": null,
-  "description": "Change of use of single family dwelling house (Use Class C3) to children's Care Home (Use Class C2) for up to two children with associated cycle parking and waste storage",
+  "description": "Change of use of single family dwelling house (Use Class C3) to children's Care Home (Use Class C2) for up to two children with associated cycle parking and waste storage.",
   "parking_details": {
     "no_existing_cycle": 0,
     "no_proposed_cycle": 2,
@@ -22,15 +22,104 @@
   "cil_liability": false,
   "date_building_work_completed_under_previous_permission": null,
   "pp_id": "PP-14370923",
-  "status": "Application Under Consideration",
+  "status": "Approved",
   "last_updated_by": "CSV Data Import",
-  "polygon": null,
-  "wgs84_polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              546003.4,
+              177850.15
+            ],
+            [
+              546004.25,
+              177845.4
+            ],
+            [
+              546032.05,
+              177850.6
+            ],
+            [
+              546039.7,
+              177851.95
+            ],
+            [
+              546043.4,
+              177852.65
+            ],
+            [
+              546042.55,
+              177857.3
+            ],
+            [
+              546038.8,
+              177856.65
+            ],
+            [
+              546025.45,
+              177854.2
+            ],
+            [
+              546003.4,
+              177850.15
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          0.1012038,
+          51.48077
+        ],
+        [
+          0.1012141,
+          51.4807271
+        ],
+        [
+          0.10161629999999999,
+          51.4807666
+        ],
+        [
+          0.101727,
+          51.4807768
+        ],
+        [
+          0.1017805,
+          51.4807821
+        ],
+        [
+          0.10177019999999999,
+          51.4808241
+        ],
+        [
+          0.1017159,
+          51.4808192
+        ],
+        [
+          0.1015228,
+          51.4808007
+        ],
+        [
+          0.1012038,
+          51.48077
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "appeal_decision_date": null,
   "secondary_street_name": null,
-  "lapsed_date": null,
+  "lapsed_date": "27/11/2028",
   "bo_system": "CSV Data Import",
-  "decision_date": null,
+  "decision_date": "27/11/2025",
   "centroid_easting": 546034,
   "actual_commencement_date": null,
   "id": "Greenwich-25_3284_F",
@@ -38,14 +127,14 @@
   "decision_target_date": null,
   "valid_date": "02/10/2025",
   "development_type": null,
-  "last_updated": "2025-11-17T23:01:32.437Z",
+  "last_updated": "2025-12-06T23:01:01.007Z",
   "subdivision_of_building": null,
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
     "lat": 51.480787,
     "lon": 0.101618
   },
-  "decision_process": null,
+  "decision_process": "Delegated",
   "application_type_full": "Full planning permission",
   "decision_agency": null,
   "street_name": null,
@@ -69,14 +158,14 @@
     "surface_water_discharge_percentage_reduction": 10,
     "rain_water_harvesting": false,
     "ownership_status": "Private",
-    "site_area": 0.019100000000000002,
+    "site_area": 0.019,
     "total_gia_lost": 101,
     "green_suds": false,
     "phasing_details": [
       {
+        "phase_detail": "Conversion / change of use ",
         "intended_commencement_date": "03/2026",
-        "intended_completion_date": "03/2026",
-        "phase_detail": "Conversion / change of use "
+        "intended_completion_date": "03/2026"
       }
     ],
     "residential_details": {
@@ -90,15 +179,14 @@
       "total_no_proposed_residential_units_starter_homes": 0,
       "residential_units": [
         {
-          "unit_no": "Loss-1",
-          "gia": 101,
-          "no_bedrooms": 3,
-          "tenure": "Market for rent",
-          "sheltered_accommodation": false,
           "no_habitable_rooms": 6,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "Terraced Home",
+          "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "change_type": "Loss"
+          "gia": 101,
+          "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_london_living_rent": 0,
@@ -145,22 +233,22 @@
     "garden_land_lost": false,
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
+        "gia_existing": 101,
         "use_class": "C3",
-        "gia_lost": 101,
-        "gia_existing": 101
+        "gia_gained": 0,
+        "gia_lost": 101
       },
       {
-        "gia_gained": 101,
+        "gia_existing": 0,
         "use_class": "C2",
-        "gia_lost": 0,
-        "gia_existing": 0
+        "gia_gained": 101,
+        "gia_lost": 0
       }
     ],
     "building_details": [
       {
-        "max_height": 9.5,
         "no_storeys": 2,
+        "max_height": 9.5,
         "building_ref": "Number 26"
       }
     ],
