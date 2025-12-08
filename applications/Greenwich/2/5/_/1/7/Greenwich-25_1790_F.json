@@ -34,7 +34,7 @@
   "decision_target_date": null,
   "valid_date": "16/06/2025",
   "development_type": null,
-  "last_updated": "2025-11-17T23:01:29.539Z",
+  "last_updated": "2025-12-07T23:00:56.694Z",
   "subdivision_of_building": null,
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
@@ -63,10 +63,10 @@
     "garden_land_lost": false,
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
+        "gia_existing": 184,
         "use_class": "C3",
-        "gia_lost": 0,
-        "gia_existing": 184
+        "gia_gained": 0,
+        "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
@@ -82,9 +82,9 @@
     "green_suds": false,
     "phasing_details": [
       {
+        "phase_detail": "entire development",
         "intended_commencement_date": "08/2025",
-        "intended_completion_date": "11/2025",
-        "phase_detail": "entire development"
+        "intended_completion_date": "11/2025"
       }
     ],
     "residential_details": {
@@ -98,31 +98,28 @@
       "total_no_proposed_residential_units_starter_homes": 0,
       "residential_units": [
         {
-          "unit_no": "Loss-1",
-          "gia": 14,
+          "change_type": "Loss",
           "unit_type": "Communal Space",
-          "change_type": "Loss"
+          "gia": 14
         },
         {
-          "unit_no": "Loss-2",
-          "gia": 36,
-          "no_bedrooms": 1,
-          "tenure": "Market for sale",
-          "sheltered_accommodation": false,
           "no_habitable_rooms": 2,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "change_type": "Loss"
+          "gia": 36,
+          "tenure": "Market for sale"
         },
         {
-          "unit_no": "Gain-1",
-          "gia": 184,
-          "provider": "Private",
-          "no_bedrooms": 5,
-          "tenure": "Self-Build and Custom Build",
           "no_habitable_rooms": 6,
+          "provider": "Private",
+          "change_type": "Gain",
+          "no_bedrooms": 5,
           "unit_type": "Flat Apartment Maisonette",
-          "change_type": "Gain"
+          "gia": 184,
+          "tenure": "Self-Build and Custom Build"
         }
       ],
       "total_no_existing_residential_units_london_living_rent": 0,
@@ -173,24 +170,24 @@
       "total_annual_pm_emissions": 0,
       "waste_details": [
         {
-          "internal_dry_recycling": false,
-          "reason_for_no_provision": "The flats in buildings in Greenwich South Street above shops have special refuse collection arrangements . Refuse sacks are placed outside Medivet, 15A Greenwich South Street, and collected at 19:30 each evening.",
-          "internal_residual_waste": false,
-          "unit_reference": "1",
           "external_dry_recycling": false,
           "external_food_waste": false,
+          "unit_reference": "1",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "The flats in buildings in Greenwich South Street above shops have special refuse collection arrangements . Refuse sacks are placed outside Medivet, 15A Greenwich South Street, and collected at 19:30 each evening.",
+          "internal_residual_waste": false,
           "internal_food_waste": false,
-          "external_residual_waste": false
+          "internal_dry_recycling": false
         },
         {
-          "internal_dry_recycling": false,
-          "reason_for_no_provision": "The flats in buildings in Greenwich South Street above shops have special refuse collection arrangements . Refuse sacks are placed outside Medivet, 15A Greenwich South Street, and collected at 19:30 each evening.",
-          "internal_residual_waste": false,
-          "unit_reference": "2",
           "external_dry_recycling": false,
           "external_food_waste": false,
+          "unit_reference": "2",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "The flats in buildings in Greenwich South Street above shops have special refuse collection arrangements . Refuse sacks are placed outside Medivet, 15A Greenwich South Street, and collected at 19:30 each evening.",
+          "internal_residual_waste": false,
           "internal_food_waste": false,
-          "external_residual_waste": false
+          "internal_dry_recycling": false
         }
       ]
     }
