@@ -11,7 +11,7 @@
   "locality": null,
   "last_date_consultation_comments": "19/11/2025",
   "date_building_work_started_under_previous_permission": null,
-  "description": "Sub-division of the site and construction of 2-storey detached dwelling house.",
+  "description": "Sub-division of the site and construction of two-storey detached dwelling house.",
   "parking_details": {
     "no_existing_cycle": 0,
     "no_proposed_cycle": 4,
@@ -24,7 +24,78 @@
   "pp_id": "PP-14433544",
   "status": "Application Under Consideration",
   "last_updated_by": "Idox Uniform",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              534998.1,
+              192162.7
+            ],
+            [
+              534998.35,
+              192160.5
+            ],
+            [
+              534998.4,
+              192160.3
+            ],
+            [
+              534998.932,
+              192149.394
+            ],
+            [
+              534999.655,
+              192143.161
+            ],
+            [
+              534999.91,
+              192141.28
+            ],
+            [
+              535008.822,
+              192144.325
+            ],
+            [
+              535006.471,
+              192151.205
+            ],
+            [
+              535005.708,
+              192153.435
+            ],
+            [
+              535005.418,
+              192162.614
+            ],
+            [
+              535002.709,
+              192162.529
+            ],
+            [
+              535002.67,
+              192163.776
+            ],
+            [
+              535001.4,
+              192163.45
+            ],
+            [
+              535000,
+              192163.2
+            ],
+            [
+              534998.1,
+              192162.7
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "wgs84_polygon": {
     "coordinates": [
       [
@@ -64,7 +135,7 @@
   "decision_target_date": "18/12/2025",
   "valid_date": "23/10/2025",
   "development_type": "Minor dwellings",
-  "last_updated": "2025-11-05T21:11:26.983Z",
+  "last_updated": "2025-12-09T21:14:33.802Z",
   "subdivision_of_building": null,
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
@@ -125,21 +196,21 @@
       "residential_units": [
         {
           "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
           "description": null,
-          "gia": 94,
-          "provider": "Private",
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
           "sheltered_accommodation": false,
           "unit_type": "House or Bungalow",
-          "provision_for_older_persons": false,
+          "no_habitable_rooms": 5,
+          "provider": "Private",
           "phase_detail": null,
           "unit_no": null,
-          "garden_land": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": true,
           "no_bedrooms": 3,
-          "tenure": "Market for sale",
-          "no_habitable_rooms": 5,
-          "change_type": "Gain"
+          "provision_for_older_persons": false,
+          "gia": 94,
+          "tenure": "Market for sale"
         }
       ],
       "total_no_proposed_residential_units_market_for_sale": 1,
@@ -177,9 +248,9 @@
     "site_area": 300,
     "phasing_details": [
       {
+        "phase_detail": "1",
         "intended_commencement_date": "06/2026",
-        "intended_completion_date": "06/2027",
-        "phase_detail": "1"
+        "intended_completion_date": "06/2027"
       }
     ],
     "constraints_details": [
@@ -260,10 +331,10 @@
     "garden_land_lost": false,
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 94,
+        "gia_existing": 75,
         "use_class": "C3",
-        "gia_lost": 0,
-        "gia_existing": 75
+        "gia_gained": 94,
+        "gia_lost": 0
       }
     ],
     "commencement_notice_received": false,
