@@ -2,7 +2,9 @@
   "borough": "Redbridge",
   "application_type": "All Other",
   "decision": null,
-  "decision_conditions": null,
+  "decision_conditions": [
+    "in accordance with plans, A001, A002, A006, A007, A008, A009, A010, A011, A012,  Planning Statment (Pts 1 and 2), Waste Management Plan (27th October 2025)"
+  ],
   "centroid_northing": 188582,
   "url_planning_app": null,
   "lpa_app_no": "2811/25",
@@ -24,7 +26,62 @@
   "pp_id": "PP-14373031",
   "status": "Application Under Consideration",
   "last_updated_by": "Agile APAS",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              543462.9,
+              188595.55
+            ],
+            [
+              543465.89,
+              188590.431
+            ],
+            [
+              543469.891,
+              188583.899
+            ],
+            [
+              543471.75,
+              188580.8
+            ],
+            [
+              543475.3,
+              188574.9
+            ],
+            [
+              543480.75,
+              188565.9
+            ],
+            [
+              543488.8,
+              188570
+            ],
+            [
+              543473.821,
+              188595.063
+            ],
+            [
+              543470.85,
+              188600.15
+            ],
+            [
+              543467.95,
+              188598.5
+            ],
+            [
+              543462.9,
+              188595.55
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "wgs84_polygon": {
     "coordinates": [
       [
@@ -64,7 +121,7 @@
   "decision_target_date": "24/12/2025",
   "valid_date": "30/10/2025",
   "development_type": null,
-  "last_updated": "2025-11-13T00:01:13.139Z",
+  "last_updated": "2025-12-17T00:00:40.819Z",
   "subdivision_of_building": null,
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
@@ -82,9 +139,9 @@
   "application_details": {
     "phasing_details": [
       {
+        "phase_detail": "Entire Development",
         "intended_commencement_date": "12/2025",
-        "intended_completion_date": "02/2026",
-        "phase_detail": "Entire Development"
+        "intended_completion_date": "02/2026"
       }
     ],
     "scheme_phasing": true,
@@ -100,10 +157,10 @@
     "garden_land_lost": false,
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 214.11,
+        "gia_existing": 214.11,
         "use_class": "C3",
-        "gia_lost": 214.11,
-        "gia_existing": 214.11
+        "gia_gained": 214.11,
+        "gia_lost": 214.11
       }
     ],
     "projected_cost_of_works": "Up to £2m",
@@ -113,7 +170,7 @@
     "affordable_housing_fast_track": false,
     "rain_water_harvesting": false,
     "ownership_status": "Private",
-    "site_area": 0.032173,
+    "site_area": 0.032,
     "residential_details": {
       "total_no_existing_residential_affordable_units": 0,
       "total_no_proposed_bedrooms": 0,
@@ -125,15 +182,14 @@
       "total_no_proposed_residential_units_starter_homes": 0,
       "residential_units": [
         {
-          "unit_no": "Loss-1",
-          "gia": 214.11,
-          "no_bedrooms": 4,
-          "tenure": "Market for rent",
-          "sheltered_accommodation": false,
           "no_habitable_rooms": 6,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "Semi Detached Home",
+          "no_bedrooms": 4,
           "provision_for_older_persons": false,
-          "change_type": "Loss"
+          "gia": 214.11,
+          "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_london_living_rent": 0,

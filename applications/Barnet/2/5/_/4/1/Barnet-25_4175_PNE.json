@@ -1,8 +1,17 @@
 {
   "borough": "London Borough of Barnet",
   "application_type": "All Other",
-  "decision": null,
-  "decision_conditions": null,
+  "decision": "Approved",
+  "decision_conditions": [
+    "C240 - Contaminated Land",
+    "C246B - Air Quality: Comm Gas Blr (Bsp)",
+    "C100 - *Approved Plans",
+    "C325 -Details of cycle parking and strge",
+    "Time Limit-PNE",
+    "C323 - Prkg space/access  info required",
+    "use class restriction - C3",
+    "C222 - Refuse and Recycling"
+  ],
   "centroid_northing": "188013",
   "url_planning_app": null,
   "lpa_app_no": "25/4175/PNE",
@@ -15,10 +24,10 @@
   "parking_details": null,
   "postcode": "NW11 7ND",
   "appeal_status": null,
-  "cil_liability": false,
+  "cil_liability": true,
   "date_building_work_completed_under_previous_permission": null,
   "pp_id": "PP-14414431",
-  "status": "Application Under Consideration",
+  "status": "Approved",
   "last_updated_by": "Idox Uniform",
   "polygon": {
     "geometries": [
@@ -209,9 +218,9 @@
   },
   "appeal_decision_date": null,
   "secondary_street_name": null,
-  "lapsed_date": null,
+  "lapsed_date": "15/12/2030",
   "bo_system": "Idox Uniform",
-  "decision_date": null,
+  "decision_date": "15/12/2025",
   "centroid_easting": "525052",
   "actual_commencement_date": null,
   "id": "Barnet-25_4175_PNE",
@@ -219,14 +228,14 @@
   "decision_target_date": "15/12/2025",
   "valid_date": "20/10/2025",
   "development_type": null,
-  "last_updated": "2025-11-04T21:27:54.014Z",
+  "last_updated": "2025-12-15T21:02:18.486Z",
   "subdivision_of_building": null,
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
     "lat": 51.577119,
     "lon": -0.196762
   },
-  "decision_process": null,
+  "decision_process": "Delegated",
   "application_type_full": "Prior Approval: Change of use from Commercial, Business and Service (Use Class E) to Dwellinghouses (Use Class C3)",
   "decision_agency": null,
   "street_name": "Finchley Road",
@@ -248,10 +257,10 @@
     "intended_commencement_date": "01/2026",
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 99,
+        "gia_existing": 99,
         "use_class": "EE",
-        "gia_lost": 99,
-        "gia_existing": 99
+        "gia_gained": 99,
+        "gia_lost": 99
       }
     ],
     "intended_completion_date": "12/2026",
@@ -266,14 +275,13 @@
       "total_no_proposed_residential_units_starter_homes": 0,
       "residential_units": [
         {
-          "unit_no": "Gain-1",
-          "gia": 99,
-          "provider": "Private",
-          "no_bedrooms": 2,
-          "tenure": "Market for rent",
           "no_habitable_rooms": 3,
+          "provider": "Private",
+          "change_type": "Gain",
+          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "change_type": "Gain"
+          "gia": 99,
+          "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_london_living_rent": 0,

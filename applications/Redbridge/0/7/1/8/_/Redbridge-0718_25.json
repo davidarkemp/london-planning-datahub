@@ -7,7 +7,7 @@
   "borough": "Redbridge",
   "application_type_full": "Full planning permission",
   "actual_commencement_date": "18/02/2024",
-  "ward": null,
+  "ward": "",
   "decision_date": "06/08/2025",
   "parking_details": {},
   "polygon": {
@@ -103,7 +103,7 @@
   "description": "Change of use from a single dwelling house into a small HMO for up to 5 people. (Summary).",
   "site_name": null,
   "decision_conditions": [
-    "The small house in multiple occupation (Use Class C4) hereby approved shall have a maximum of 5 (five) occupants living at the site unless otherwise agreed to in writing by the Local Planning Authority. \r\n\r\nReason: For the avoidance of doubt and in the interests of proper planning, to ensure that there is no reduction in living conditions for occupants and to protect neighbouring amenity in line with Policies LP24 and LP26 of the Council's Local Plan."
+    "The small house in multiple occupation (Use Class C4) hereby approved shall have a maximum of 5 (five) occupants living at the site unless otherwise agreed to in writing by the Local Planning Authority. \n\nReason: For the avoidance of doubt and in the interests of proper planning, to ensure that there is no reduction in living conditions for occupants and to protect neighbouring amenity in line with Policies LP24 and LP26 of the Council's Local Plan."
   ],
   "lpa_app_no": "0718/25",
   "subdivision_of_building": null,
@@ -113,8 +113,8 @@
   "lpa_name": "Redbridge",
   "appeal_decision": null,
   "decision_agency": null,
-  "last_updated_by": "Agile APAS",
-  "cil_liability": null,
+  "last_updated_by": "Portal",
+  "cil_liability": false,
   "postcode": "IG6 1BG",
   "decision_process": null,
   "application_details": {
@@ -125,14 +125,16 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 132,
-        "gia_gained": 0,
+        "actual_completion_date": "06/08/2025",
         "use_class": "C3",
+        "gia_gained": 0,
         "gia_lost": 132
       },
       {
         "gia_existing": 0,
-        "gia_gained": 132,
+        "actual_completion_date": "06/08/2025",
         "use_class": "C4",
+        "gia_gained": 132,
         "gia_lost": 0
       }
     ],
@@ -140,7 +142,7 @@
     "total_gia_gained": 132,
     "surface_water_discharge_percentage_reduction": 0,
     "total_gia_lost": 132,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "rain_water_harvesting": false,
     "projected_cost_of_works": "Up to £2m",
     "green_suds": false,
@@ -149,7 +151,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 132,
-      "total_gia_lost": 132
+      "total_gia_lost": 132,
+      "site_area": 0.02
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -168,11 +171,11 @@
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_market_for_rent": 1,
       "total_no_proposed_residential_units_social_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 350,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 50,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
@@ -193,29 +196,36 @@
       "total_no_existing_residential_affordable_units": 0,
       "residential_units": [
         {
-          "actual_completion_date": "18/02/2024",
-          "no_habitable_rooms": 7,
-          "unit_no": "Loss-1",
+          "actual_completion_date": "06/08/2025",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "actual_commencement_date": "18/02/2024",
           "unit_type": "Terraced Home",
+          "no_habitable_rooms": 7,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "18/02/2024",
           "no_bedrooms": 5,
           "provision_for_older_persons": false,
           "gia": 132,
           "tenure": "Market for rent"
         },
         {
-          "provider": "Private",
+          "actual_completion_date": "06/08/2025",
           "no_habitable_rooms": 7,
-          "unit_no": "Gain-1",
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
+          "unit_type": "HMO",
           "no_bedrooms": 5,
-          "unit_type": "Other",
+          "provision_for_older_persons": false,
           "gia": 132,
           "tenure": "Market for rent"
         }
-      ]
+      ],
+      "site_area": 0.02
     },
     "internal_resi_water_usage": 0,
     "infrastructure_details": {
@@ -232,7 +242,7 @@
       "no_homes_passive_cooling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "total_annual_pm_emissions": 0,
-      "waste_provision": true
+      "waste_provision": false
     },
     "phasing_details": [
       {
@@ -241,7 +251,20 @@
         "intended_completion_date": "06/2025"
       }
     ],
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.02
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "uprn": "100022219820",
   "street_name": "Horns Road",
@@ -251,80 +274,80 @@
     "coordinates": [
       [
         [
-          0.0836859,
-          51.5789412
+          0.08366,
+          51.57894
         ],
         [
-          0.0836591,
-          51.5787672
+          0.083633,
+          51.578766
         ],
         [
-          0.08369449999999999,
-          51.5787836
+          0.083668,
+          51.578783
         ],
         [
-          0.0837115,
-          51.5787919
+          0.083685,
+          51.578791
         ],
         [
-          0.0837692,
-          51.5788223
+          0.083743,
+          51.578821
         ],
         [
-          0.0838583,
-          51.5788722
+          0.083832,
+          51.578871
         ],
         [
-          0.0838617,
-          51.5788741
+          0.083835,
+          51.578873
         ],
         [
-          0.0838891,
-          51.5788894
+          0.083863,
+          51.578888
         ],
         [
-          0.083895,
-          51.5788853
+          0.083869,
+          51.578884
         ],
         [
-          0.08391219999999999,
-          51.5788733
+          0.083886,
+          51.578872
         ],
         [
-          0.0839663,
-          51.5789034
+          0.08394,
+          51.578902
         ],
         [
-          0.0839789,
-          51.5789103
+          0.083953,
+          51.578909
         ],
         [
-          0.08395799999999999,
-          51.5789264
+          0.083932,
+          51.578925
         ],
         [
-          0.08394109999999999,
-          51.5789171
+          0.083915,
+          51.578916
         ],
         [
-          0.0839017,
-          51.578945
+          0.083875,
+          51.578944
         ],
         [
-          0.0838748,
-          51.5789353
+          0.083848,
+          51.578934
         ],
         [
-          0.0838541,
-          51.5789278
+          0.083828,
+          51.578927
         ],
         [
-          0.0837484,
-          51.5789365
+          0.083722,
+          51.578935
         ],
         [
-          0.0836859,
-          51.5789412
+          0.08366,
+          51.57894
         ]
       ]
     ]
@@ -334,19 +357,19 @@
   "date_building_work_started_under_previous_permission": null,
   "centroid_northing": 188725,
   "centroid": {
-    "lon": "0.083781",
-    "lat": "51.5788765"
+    "lon": 0.083755,
+    "lat": 51.578875
   },
   "valid_date": "18/03/2025",
   "id": "Redbridge-0718_25",
-  "last_updated": "2025-11-13T10:18:05.093+00:00",
+  "last_updated": "2025-12-16T15:28:31.569Z",
   "locality": "Barkingside",
-  "status": "Commenced",
+  "status": "Completed",
   "last_date_consultation_comments": "31/07/2025",
   "decision_target_date": "12/05/2025",
-  "actual_completion_date": null,
-  "bo_system": "Agile APAS",
+  "actual_completion_date": "06/08/2025",
+  "bo_system": "Portal",
   "reference_no_of_permission_being_relied_on": null,
-  "title_number": null,
+  "title_number": [],
   "application_type": "All Other"
 }
