@@ -17,15 +17,15 @@
   "url_planning_app": null,
   "valid_date": "31/08/2023",
   "centroid": {
-    "lon": "-0.12228489999999999",
-    "lat": "51.3413063"
+    "lon": -0.12231,
+    "lat": 51.341307
   },
   "borough": "London Borough of Croydon",
   "decision_agency": null,
   "reference_no_of_permission_being_relied_on": null,
-  "cil_liability": true,
+  "cil_liability": false,
   "site_name": "",
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "centroid_easting": 530883,
   "subdivision_of_building": null,
   "status": "Allowed",
@@ -37,32 +37,32 @@
     "coordinates": [
       [
         [
-          -0.12198759999999999,
-          51.3414321
+          -0.122013,
+          51.341433
         ],
         [
-          -0.1223184,
-          51.3410656
+          -0.122344,
+          51.341066
         ],
         [
-          -0.12258459999999999,
-          51.3411755
+          -0.12261,
+          51.341176
         ],
         [
-          -0.1224145,
-          51.3413869
+          -0.12244,
+          51.341388
         ],
         [
-          -0.12228699999999999,
-          51.341544
+          -0.122313,
+          51.341545
         ],
         [
-          -0.1220976,
-          51.3414711
+          -0.122123,
+          51.341472
         ],
         [
-          -0.12198759999999999,
-          51.3414321
+          -0.122013,
+          51.341433
         ]
       ]
     ],
@@ -73,10 +73,10 @@
   "application_details": {
     "grey_water_reuse": false,
     "affordable_housing_fast_track": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "site_area": 0.107,
     "internal_resi_water_usage": 0,
-    "green_suds": true,
+    "green_suds": false,
     "garden_land_lost": false,
     "total_gia_existing": 205,
     "ownership_status": "Private",
@@ -98,14 +98,15 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 682,
       "total_gia_existing": 205,
-      "total_gia_lost": 205
+      "total_gia_lost": 205,
+      "site_area": 0.107
     },
     "surface_water_discharge_percentage_reduction": 0,
     "infrastructure_details": {
       "percentage_demolition_construction_material_recycling": 0,
       "no_active_fast_ev_charging_points": 1,
-      "fire_suppression_system_proposed": true,
-      "waste_provision": true,
+      "fire_suppression_system_proposed": false,
+      "waste_provision": false,
       "total_annual_pm_emissions": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "no_passive_fast_ev_charging_points": 4,
@@ -122,8 +123,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_completion_date": "12/2024",
-        "intended_commencement_date": "04/2024"
+        "intended_commencement_date": "04/2024",
+        "intended_completion_date": "12/2024"
       }
     ],
     "residential_details": {
@@ -139,7 +140,7 @@
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_starter_homes": 0,
       "affordable_percentage": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 224.29906542056077,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_existing_residential_units": 1,
       "total_no_proposed_residential_units_affordable_rent": 0,
@@ -155,7 +156,7 @@
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 74.76635514018692,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
@@ -166,13 +167,16 @@
       "total_no_existing_residential_units_shared_equity": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 7,
-          "unit_no": "Loss-1",
+          "description": null,
           "change_type": "Loss",
-          "garden_land": true,
           "sheltered_accommodation": false,
-          "no_bedrooms": 4,
+          "garden_land": true,
           "unit_type": "House or Bungalow",
+          "unit_development_type": "New Build",
+          "no_habitable_rooms": 7,
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 4,
           "provision_for_older_persons": false,
           "gia": 205,
           "tenure": "Market for sale"
@@ -180,85 +184,118 @@
         {
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "unit_no": "Gain-1",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
           "gia": 75,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "unit_development_type": "New Build"
         },
         {
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "unit_no": "Gain-2",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "gia": 63,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "unit_development_type": "New Build"
         },
         {
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "unit_no": "Gain-3",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "gia": 63,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "unit_development_type": "New Build"
         },
         {
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "unit_no": "Gain-4",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "gia": 77,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "unit_development_type": "New Build"
         },
         {
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "unit_no": "Gain-5",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "gia": 61,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "unit_development_type": "New Build"
         },
         {
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "unit_no": "Gain-6",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
           "gia": 80,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "unit_development_type": "New Build"
         },
         {
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "unit_no": "Gain-7",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "gia": 54.1,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "unit_development_type": "New Build"
         },
         {
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "unit_no": "Gain-8",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "gia": 50.1,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "unit_development_type": "New Build"
         }
       ],
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.107
     },
     "rain_water_harvesting": false,
     "projected_cost_of_works": "Up to £2m",
@@ -270,7 +307,20 @@
         "gia_gained": 682,
         "gia_lost": 205
       }
-    ]
+    ],
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.107
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "secondary_street_name": null,
   "polygon": {
@@ -313,11 +363,11 @@
     ],
     "type": "GeometryCollection"
   },
-  "last_updated": "2025-03-19T20:01:37.801+00:00",
+  "last_updated": "2025-12-17T05:53:20.061Z",
   "date_building_work_started_under_previous_permission": null,
   "ward": "PW18",
   "appeal_start_date": "19/12/2023",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "application_type": "All Other",
   "decision_conditions": [
     "Ecology",
