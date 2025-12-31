@@ -10,8 +10,8 @@
   "status": "Approved",
   "parking_details": null,
   "centroid": {
-    "lat": "51.3534042",
-    "lon": "-0.014950399999999999"
+    "lat": 51.353387,
+    "lon": -0.015021
   },
   "application_type": "All Other",
   "borough": "London Borough of Croydon",
@@ -19,7 +19,7 @@
   "last_updated_by": "Idox Uniform",
   "last_date_consultation_comments": "14/05/2024",
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated": "2025-03-19T21:11:11.401+00:00",
+  "last_updated": "2025-12-30T23:01:02.032Z",
   "locality": null,
   "date_building_work_completed_under_previous_permission": null,
   "description": "Erection of 2 semi-detached dwellings with associated amenity space, parking, following the demolition of an existing garage.",
@@ -46,7 +46,7 @@
       "solar_pv_capacity": 2,
       "green_roof_area": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_active_fast_ev_charging_points": 2,
       "no_homes_to_have_electrical_heating": 0,
       "percentage_demolition_construction_material_recycling": 0,
@@ -54,8 +54,8 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_existing": 242,
-        "use_class": "E(e)",
+        "gia_existing": 0,
+        "use_class": "C3",
         "gia_gained": 160,
         "gia_lost": 20
       }
@@ -78,16 +78,16 @@
       }
     ],
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "grey_water_reuse": false,
     "internal_resi_water_usage": 125,
     "site_area": 0.071,
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_completion_date": "08/2025",
-        "intended_commencement_date": "08/2024"
+        "intended_commencement_date": "08/2024",
+        "intended_completion_date": "08/2025"
       }
     ],
     "residential_details": {
@@ -109,30 +109,36 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 2,
           "provider": "Private",
-          "unit_no": "Gain-1",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "description": null,
           "change_type": "Gain",
           "garden_land": true,
-          "no_bedrooms": 2,
           "unit_type": "Semi Detached Home",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "gia": 80,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "unit_development_type": "New Build"
         },
         {
-          "no_habitable_rooms": 2,
           "provider": "Private",
-          "unit_no": "Gain-2",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "description": null,
           "change_type": "Gain",
           "garden_land": true,
-          "no_bedrooms": 2,
           "unit_type": "Semi Detached Home",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "gia": 80,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "unit_development_type": "New Build"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 56.338028169014095,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
@@ -145,14 +151,15 @@
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 28.169014084507044,
       "total_no_existing_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "total_no_existing_residential_units_social_rent": 0
+      "total_no_existing_residential_units_social_rent": 0,
+      "site_area": 0.071
     },
     "surface_water_discharge_percentage_reduction": 20,
     "non_residential_details": {
@@ -160,10 +167,24 @@
       "total_gia_lost": 20,
       "total_gia_gained": 160,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_existing": 242
+      "total_gia_existing": 242,
+      "site_area": 0.071
     },
     "ownership_status": "Private",
-    "green_suds": true
+    "green_suds": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.071
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "pp_id": "PP-12793359",
   "postcode": "CR0 0QL",
@@ -171,36 +192,36 @@
     "coordinates": [
       [
         [
-          -0.0150829,
-          51.3532598
+          -0.015113,
+          51.353263
         ],
         [
-          -0.0150785,
-          51.3532523
+          -0.014895,
+          51.353313
         ],
         [
-          -0.0151416,
-          51.3533292
+          -0.014721,
+          51.353355
         ],
         [
-          -0.015216299999999999,
-          51.3534153
+          -0.014884,
+          51.353582
         ],
         [
-          -0.014857599999999999,
-          51.3535802
+          -0.01525,
+          51.353418
         ],
         [
-          -0.0146892,
-          51.3533558
+          -0.015168,
+          51.353326
         ],
         [
-          -0.014866899999999999,
-          51.3533112
+          -0.015099,
+          51.353253
         ],
         [
-          -0.0150829,
-          51.3532598
+          -0.015113,
+          51.353263
         ]
       ]
     ],
@@ -228,7 +249,7 @@
   ],
   "decision_agency": null,
   "actual_commencement_date": null,
-  "centroid_northing": 163462,
+  "centroid_northing": "163460",
   "site_name": "Headley Drive Surgery",
   "decision_target_date": "04/06/2024",
   "appeal_status": null,
@@ -240,47 +261,47 @@
         "coordinates": [
           [
             [
-              538313.212,
-              163445.696
+              538313,
+              163446
             ],
             [
-              538313.543,
-              163444.869
+              538328,
+              163452
             ],
             [
-              538308.913,
-              163453.303
+              538340,
+              163457
             ],
             [
-              538303.456,
-              163462.729
+              538328,
+              163482
             ],
             [
-              538327.93,
-              163481.745
+              538303,
+              163463
             ],
             [
-              538340.332,
-              163457.106
+              538309,
+              163453
             ],
             [
-              538328.095,
-              163451.814
+              538314,
+              163445
             ],
             [
-              538313.212,
-              163445.696
+              538313,
+              163446
             ]
           ]
         ],
         "type": "Polygon"
       }
     ],
-    "type": "GeometryCollection"
+    "type": "geometrycollection"
   },
   "appeal_start_date": null,
   "uprn": "100022901193",
   "appeal_decision_date": null,
   "id": "Croydon-24_00613_FUL",
-  "centroid_easting": 538322
+  "centroid_easting": "538319"
 }
