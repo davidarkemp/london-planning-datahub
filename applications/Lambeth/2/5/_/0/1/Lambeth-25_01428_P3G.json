@@ -8,7 +8,7 @@
   "title_number": [],
   "lpa_app_no": "25/01428/P3G",
   "postcode": "SW16 1BZ",
-  "borough": "London Borough of Lambeth",
+  "borough": "Lambeth",
   "decision_agency": null,
   "site_number": "52, 56",
   "valid_date": "01/05/2025",
@@ -41,22 +41,28 @@
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "residential_units": [
         {
-          "provider": "Private",
           "no_habitable_rooms": 4,
-          "unit_no": "Gain-1",
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
+          "provision_for_older_persons": false,
           "gia": 79.1,
           "tenure": "Market for rent"
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 3,
-          "unit_no": "Gain-2",
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "gia": 91.5,
           "tenure": "Market for rent"
         }
@@ -88,8 +94,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 170.6,
+        "use_class": "E(c)(i)",
         "gia_gained": 170.6,
-        "use_class": "EC1",
         "gia_lost": 170.6
       }
     ],
@@ -98,7 +104,7 @@
     "occupation_status": "Vacant",
     "total_gia_gained": 170.6,
     "infrastructure_details": {
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "no_new_gas_connections_required": 0,
       "no_resi_units_to_have_full_fibre": 0,
       "no_homes_to_have_electrical_heating": 0,
@@ -109,12 +115,13 @@
       "fire_suppression_system_proposed": false,
       "green_roof_area": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "mobile_network_operators_consultation": false,
       "total_annual_pm_emissions": 0
-    }
+    },
+    "resi_extension_exempt": false
   },
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "street_name": "Streatham High Road",
   "decision_target_date": "26/06/2025",
   "polygon": {
@@ -158,7 +165,7 @@
     "type": "geometrycollection"
   },
   "date_building_work_completed_under_previous_permission": null,
-  "last_updated": "2025-07-21T20:01:32.264Z",
+  "last_updated": "2026-01-06T17:35:10.307Z",
   "centroid": {
     "lat": 51.436858,
     "lon": -0.128135
@@ -166,21 +173,24 @@
   "decision_date": "26/06/2025",
   "uprn": "100023316320",
   "epc_number": null,
-  "centroid_northing": "172535",
+  "centroid_northing": 172535,
   "application_type": "Prior Approval",
   "actual_completion_date": null,
   "locality": null,
   "ward": "STRSTL",
   "reference_no_of_permission_being_relied_on": null,
   "last_date_consultation_comments": "09/06/2025",
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "appeal_status": null,
   "id": "Lambeth-25_01428_P3G",
   "url_planning_app": null,
   "secondary_street_name": null,
-  "parking_details": null,
+  "parking_details": {
+    "no_proposed_bluebadge": 0,
+    "no_proposed_cycle": 6
+  },
   "lpa_name": "Lambeth",
-  "cil_liability": true,
+  "cil_liability": false,
   "decision": "Approved",
   "lapsed_date": "26/06/2030",
   "status": "Approved",
@@ -190,7 +200,7 @@
   "appeal_decision_date": null,
   "decision_process": "Delegated",
   "development_type": null,
-  "centroid_easting": "530206",
+  "centroid_easting": 530206,
   "appeal_decision": null,
   "wgs84_polygon": {
     "coordinates": [
@@ -229,5 +239,5 @@
   },
   "date_building_work_started_under_previous_permission": null,
   "description": "Application for Prior Approval for the change of use of the first floor Bank office space of 54-56 Streatham High Road (Use Class E) to 2 residential units (Use Class C3), and the provision of refuse and cycle stores.",
-  "application_type_full": "Prior Approval: Change of use from Commercial, Business and Service (Use Class E), or betting office or pay day loan shop to mixed use including up to two flats (Use Class C3)"
+  "application_type_full": "Prior Approval: Change of use - offices to dwellinghouses"
 }
