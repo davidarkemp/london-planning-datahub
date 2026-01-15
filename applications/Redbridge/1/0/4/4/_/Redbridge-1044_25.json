@@ -42,20 +42,21 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 203.4,
       "total_gia_existing": 132.1,
-      "total_gia_lost": 70.9
+      "total_gia_lost": 70.9,
+      "site_area": 0.018250000000000002
     },
     "total_gia_gained": 203.4,
     "affordable_housing_fast_track": false,
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "projected_cost_of_works": "Up to £2m",
     "site_area": 0.018250000000000002,
     "garden_land_lost": false,
     "phasing_details": [
       {
         "phase_detail": "Entire development",
-        "intended_completion_date": "03/2026",
-        "intended_commencement_date": "06/2025"
+        "intended_commencement_date": "06/2025",
+        "intended_completion_date": "03/2026"
       }
     ],
     "infrastructure_details": {
@@ -69,10 +70,10 @@
       "fire_suppression_system_proposed": false,
       "total_annual_nox_emissions": 0,
       "no_non_resi_units_to_have_full_fibre": 1,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
-      "ghg_reduction_over_building_regulations": true
+      "ghg_reduction_over_building_regulations": false
     },
     "internal_resi_water_usage": 110,
     "residential_details": {
@@ -84,7 +85,9 @@
       "residential_units": [
         {
           "no_habitable_rooms": 2,
-          "unit_no": "Loss-1",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
@@ -95,7 +98,9 @@
         },
         {
           "no_habitable_rooms": 3,
-          "unit_no": "Loss-2",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
@@ -107,27 +112,33 @@
         {
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "unit_no": "Gain-1",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "gia": 54.4,
           "tenure": "Market for rent"
         },
         {
           "no_habitable_rooms": 1,
           "provider": "Private",
-          "unit_no": "Gain-2",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Studio Bedsit",
           "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "gia": 42.52,
           "tenure": "Market for rent"
         }
       ],
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 109.5890410958904,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_social_rent": 0,
@@ -142,7 +153,7 @@
       "total_gia_gained": 96.92,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units": 2,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 164.3835616438356,
       "total_no_proposed_bedrooms": 2,
       "total_no_proposed_residential_units_market_for_rent": 2,
       "total_no_existing_residential_units_intermediate": 0,
@@ -157,7 +168,8 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "total_no_existing_residential_units_starter_homes": 0
+      "total_no_existing_residential_units_starter_homes": 0,
+      "site_area": 0.018250000000000002
     },
     "existing_proposed_floorspace_details": [
       {
@@ -168,8 +180,9 @@
       },
       {
         "gia_existing": 0,
-        "use_class": "EA",
+        "use_class": "E(a)",
         "gia_gained": 163,
+        "actual_commencement_date": "01/12/2025",
         "gia_lost": 0
       }
     ],
@@ -195,10 +208,23 @@
         "max_height": 5.8,
         "building_ref": "Two storey rear extension"
       }
-    ]
+    ],
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.018250000000000002
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "ward": null,
-  "cil_liability": null,
+  "cil_liability": false,
   "centroid": {
     "lon": 0.073408,
     "lat": 51.553537
@@ -219,15 +245,17 @@
   "id": "Redbridge-1044_25",
   "centroid_northing": 185887,
   "appeal_status": null,
-  "status": "Approved",
+  "status": "Commenced",
   "description": "Demolish rear structure and front bay window.  Part single, part two storey rear extension.  Single storey front extension with new shopfront and entrance door.  Loft conversion with rear and side dormers.  Three front rooflights.  To provide 2no. self-contained residential units (1x one bedroom and 1x studio).   Excavation of basement.  Change of use of the ground floor from Residential to Retail.  Associated cycle and refuse storage.  (summary)",
   "site_name": "Development At 157 And 157a",
   "appeal_start_date": null,
   "decision_date": "09/07/2025",
   "decision_target_date": "03/06/2025",
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "appeal_decision": null,
-  "title_number": null,
+  "title_number": [],
   "lapsed_date": "08/07/2028",
   "valid_date": "09/04/2025",
   "decision_process": null,
@@ -238,11 +266,11 @@
   ],
   "decision_agency": null,
   "bo_system": "Agile APAS",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "01/12/2025",
   "appeal_decision_date": null,
   "pp_id": "PP-13919441",
   "reference_no_of_permission_being_relied_on": null,
   "borough": "Redbridge",
-  "last_updated": "2025-08-13T00:00:46.332Z",
+  "last_updated": "2026-01-15T00:01:19.237Z",
   "actual_completion_date": null
 }

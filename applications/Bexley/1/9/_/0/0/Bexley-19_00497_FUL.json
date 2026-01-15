@@ -1,5 +1,5 @@
 {
-  "cil_liability": false,
+  "cil_liability": true,
   "url_planning_app": null,
   "lapsed_date": "12/07/2022",
   "decision_target_date": "06/05/2019",
@@ -8,7 +8,7 @@
   "bo_system": "Idox Uniform",
   "lpa_name": "Bexley",
   "postcode": "DA8 1HW",
-  "site_name": null,
+  "site_name": "",
   "status": "Lapsed",
   "application_details": {
     "affordable_housing_inlieu_payment": null,
@@ -52,23 +52,23 @@
           "actual_completion_date": null,
           "m43_2a_compliant": false,
           "description": null,
-          "change_type": "Gain",
           "m42_compliant": true,
+          "change_type": "Gain",
           "sheltered_accommodation": null,
           "garden_land": null,
           "unit_type": "House or Bungalow",
           "unit_development_type": "New Build",
           "superseded_date": null,
-          "provider": "Private",
           "no_habitable_rooms": null,
+          "provider": "Private",
           "phase_detail": null,
           "unit_no": null,
           "actual_commencement_date": null,
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
           "superseded_by_lpa_app_no": null,
-          "tenure": "Market for sale",
-          "gia": null
+          "gia": null,
+          "tenure": "Market for sale"
         }
       ],
       "habitable_rooms_density": 0,
@@ -142,7 +142,7 @@
       "open_space_mol_area_gain": 0,
       "open_space_green_belt_area_loss": 0
     },
-    "site_area": null,
+    "site_area": 0.024,
     "existing_proposed_floorspace_details": [],
     "grey_water_reuse": null,
     "surface_water_discharge_percentage_reduction": null,
@@ -203,7 +203,7 @@
   "date_building_work_completed_under_previous_permission": null,
   "title_number": [],
   "application_type_full": "Full planning permission",
-  "last_updated": "2025-03-20T12:27:01.450+00:00",
+  "last_updated": "2026-01-14T21:00:36.150Z",
   "id": "Bexley-19_00497_FUL",
   "application_type": "All Other",
   "street_name": "Mill Road",
@@ -218,7 +218,7 @@
   "description": "Erection of one x 2 bed detached bungalow with associated parking and amenity space.",
   "actual_completion_date": null,
   "last_date_consultation_comments": "04/04/2019",
-  "last_updated_by": "FME Excel Import",
+  "last_updated_by": "Idox Uniform",
   "development_type": null,
   "centroid_northing": "177097",
   "decision": "Approved",
@@ -228,50 +228,141 @@
     "lon": 0.15985,
     "lat": 51.47293
   },
-  "polygon": null,
-  "parking_details": {
-    "no_proposed_lgv": null,
-    "no_existing_cycle": null,
-    "no_existing_other": null,
-    "no_proposed_motorcycle": null,
-    "net_bus": null,
-    "no_proposed_cycle": null,
-    "no_proposed_resi_offstreet": null,
-    "no_existing_lgv": null,
-    "no_proposed_other": null,
-    "net_cycle": null,
-    "net_resi_offstreet": null,
-    "no_proposed_carclub": null,
-    "no_existing_car": null,
-    "net_car": null,
-    "no_proposed_bus": null,
-    "no_existing_carclub": null,
-    "no_existing_motorcycle": null,
-    "net_other": null,
-    "net_lgv": null,
-    "net_motorcycle": null,
-    "no_existing_resi_offstreet": null,
-    "no_proposed_bluebadge": null,
-    "no_existing_bluebadge": null,
-    "no_existing_bus": null,
-    "no_proposed_car": null,
-    "net_bluebadge": null,
-    "net_carclub": null
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              550134,
+              177043
+            ],
+            [
+              550138,
+              177045
+            ],
+            [
+              550139,
+              177046
+            ],
+            [
+              550138,
+              177048
+            ],
+            [
+              550137,
+              177050
+            ],
+            [
+              550136,
+              177052
+            ],
+            [
+              550134,
+              177057
+            ],
+            [
+              550134,
+              177057
+            ],
+            [
+              550133,
+              177059
+            ],
+            [
+              550131,
+              177061
+            ],
+            [
+              550129,
+              177065
+            ],
+            [
+              550127,
+              177071
+            ],
+            [
+              550122,
+              177082
+            ],
+            [
+              550118,
+              177091
+            ],
+            [
+              550114,
+              177099
+            ],
+            [
+              550110,
+              177108
+            ],
+            [
+              550102,
+              177104
+            ],
+            [
+              550094,
+              177101
+            ],
+            [
+              550096,
+              177098
+            ],
+            [
+              550100,
+              177091
+            ],
+            [
+              550102,
+              177088
+            ],
+            [
+              550102,
+              177087
+            ],
+            [
+              550106,
+              177082
+            ],
+            [
+              550107,
+              177080
+            ],
+            [
+              550128,
+              177046
+            ],
+            [
+              550131,
+              177042
+            ],
+            [
+              550134,
+              177043
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "geometrycollection"
   },
+  "parking_details": null,
   "decision_agency": null,
   "decision_conditions": [
-    "Biodiversity report",
-    "Schedule of materials",
+    "Approved plans",
     "Storage of refuse and recycling",
-    "Secure and covered bicycle",
+    "Sustainabel drainage system",
     "Site boundary treatment",
+    "Parking spaces",
+    "Schedule of materials",
     "Arboricultural",
+    "Use Classes",
     "Hard landscaping works",
     "3 years",
-    "Parking spaces",
-    "Use Classes",
-    "Sustainabel drainage system",
-    "Approved plans"
+    "Biodiversity report",
+    "Secure and covered bicycle"
   ],
   "reference_no_of_permission_being_relied_on": null,
   "valid_date": "11/03/2019",
@@ -282,24 +373,112 @@
     "coordinates": [
       [
         [
-          0.159872,
-          51.472943
+          0.160273,
+          51.472437
         ],
         [
-          0.159871,
-          51.472917
+          0.160332,
+          51.472454
         ],
         [
-          0.159828,
-          51.472917
+          0.160346,
+          51.472463
         ],
         [
-          0.159829,
-          51.472944
+          0.160333,
+          51.472481
         ],
         [
-          0.159872,
-          51.472943
+          0.160319,
+          51.472499
+        ],
+        [
+          0.160306,
+          51.472517
+        ],
+        [
+          0.160279,
+          51.472563
+        ],
+        [
+          0.160279,
+          51.472563
+        ],
+        [
+          0.160266,
+          51.472581
+        ],
+        [
+          0.160238,
+          51.4726
+        ],
+        [
+          0.160211,
+          51.472636
+        ],
+        [
+          0.160184,
+          51.47269
+        ],
+        [
+          0.160117,
+          51.472791
+        ],
+        [
+          0.160063,
+          51.472873
+        ],
+        [
+          0.160009,
+          51.472945
+        ],
+        [
+          0.159955,
+          51.473027
+        ],
+        [
+          0.159839,
+          51.472994
+        ],
+        [
+          0.159722,
+          51.472969
+        ],
+        [
+          0.15975,
+          51.472941
+        ],
+        [
+          0.159804,
+          51.472877
+        ],
+        [
+          0.159832,
+          51.47285
+        ],
+        [
+          0.159831,
+          51.472841
+        ],
+        [
+          0.159887,
+          51.472795
+        ],
+        [
+          0.1599,
+          51.472777
+        ],
+        [
+          0.160188,
+          51.472466
+        ],
+        [
+          0.16023,
+          51.472429
+        ],
+        [
+          0.160273,
+          51.472437
         ]
       ]
     ],
