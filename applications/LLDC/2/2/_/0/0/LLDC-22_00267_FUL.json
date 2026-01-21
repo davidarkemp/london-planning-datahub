@@ -26,20 +26,20 @@
     ],
     "type": "Polygon"
   },
-  "cil_liability": null,
+  "cil_liability": false,
   "lapsed_date": "26/01/2026",
   "appeal_decision": null,
   "street_name": "Stour Road",
   "decision_agency": null,
-  "last_updated_by": "Agile APAS",
+  "last_updated_by": "Portal",
   "description": "Application for full planning permission for the retention of and minor renovation works to the chimney, demolition of all other existing buildings and the construction of three buildings ranging in height from 5 to 7 storeys to provide 204 rooms and ancillary amenity space (purpose built student accommodation Sui Generis), 1,406 sqm (GIA) of commercial floorspace (Class E(g)(iii)) with associated external commercial yard space, along with hard and soft landscaping, public realm improvements, parking cycle parking, refuse/recycling stores and associated works",
   "decision": "Approved",
   "centroid_northing": 184123,
-  "bo_system": "Agile APAS",
-  "last_updated": "2025-03-19T21:46:05.746+00:00",
+  "bo_system": "Portal",
+  "last_updated": "2026-01-20T13:24:01.131Z",
   "appeal_status": null,
   "date_building_work_started_under_previous_permission": null,
-  "ward": null,
+  "ward": "",
   "centroid_easting": 537265,
   "site_name": "Former Piano Factory",
   "application_type": "All Other",
@@ -75,19 +75,45 @@
   "subdivision_of_building": null,
   "appeal_start_date": null,
   "lpa_name": "LLDC",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.022118,
+          51.539337
+        ],
+        [
+          -0.022119,
+          51.53931
+        ],
+        [
+          -0.022163,
+          51.539311
+        ],
+        [
+          -0.022161,
+          51.539338
+        ],
+        [
+          -0.022118,
+          51.539337
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "postcode": "E3 2NT",
   "decision_date": "27/01/2023",
   "centroid": {
-    "lon": "-0.022112899999999998",
-    "lat": "51.5393258"
+    "lon": -0.02214,
+    "lat": 51.539324
   },
   "decision_process": "Committee",
   "epc_number": null,
   "date_building_work_completed_under_previous_permission": null,
   "title_number": [],
   "site_number": null,
-  "borough": "LLDC",
+  "borough": "Tower Hamlets",
   "actual_completion_date": null,
   "appeal_decision_date": null,
   "valid_date": "28/06/2022",
@@ -97,31 +123,31 @@
   "pp_id": "PP-11158266         ",
   "development_type": null,
   "decision_conditions": null,
-  "status": "Closed",
+  "status": "Approved",
   "secondary_street_name": null,
   "id": "LLDC-22_00267_FUL",
   "lpa_app_no": "22/00267/FUL",
   "application_details": {
     "lead_developer_company_name": "LB Tower Hamlets-Planning",
     "site_area": 0.029,
-    "affordable_housing_fast_track": null,
-    "s106_agreement": null,
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
     "affordable_housing_inlieu_payment": null,
-    "air_quality_assessment": null,
+    "air_quality_assessment": false,
     "other_contributions": null,
     "existing_uprns": [],
     "intended_commencement_date": null,
     "total_gia_existing": null,
     "no_affordable_housing_units_provided_offsite": null,
-    "scheme_phasing": null,
-    "circular_economy_statement": null,
-    "commencement_notice_received": null,
+    "scheme_phasing": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
     "non_residential_details": {
       "development_type": null,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": null,
-      "site_area": null,
+      "site_area": 0.029,
       "total_gia_lost": null,
       "total_gia_existing": null
     },
@@ -138,24 +164,42 @@
       "open_space_mol_area_gain": 0,
       "open_space_green_belt_area_loss": 0
     },
-    "existing_proposed_floorspace_details": [],
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 0,
+        "use_class": "E(g)(iii)",
+        "gia_gained": 1406,
+        "gia_lost": 0
+      }
+    ],
     "constraints_details": [],
-    "building_details": [],
-    "grey_water_reuse": null,
+    "building_details": [
+      {
+        "no_storeys": 7,
+        "building_ref": "Main building"
+      }
+    ],
+    "grey_water_reuse": false,
     "surface_water_discharge_percentage_reduction": null,
     "superseding_details": [],
     "lead_registered_social_landlord": null,
-    "viability_assessment": null,
+    "viability_assessment": false,
     "overseas_company_registration_no": null,
-    "mayoral_cil_liability_notice_issued": null,
+    "mayoral_cil_liability_notice_issued": false,
     "intended_completion_date": null,
     "non_permanent_dwellings_details": [],
     "projected_cost_of_works": null,
     "other_residential_accommodation_details": {
       "no_council_tax_rateable_units_gained": null,
       "no_council_tax_rateable_units_lost": null,
-      "site_area": null,
-      "other_resi_accommodation_unit_details": []
+      "site_area": 0.029,
+      "other_resi_accommodation_unit_details": [
+        {
+          "no_rooms_proposed": 204,
+          "unit_type": "Student Accommodation",
+          "no_rooms_lost": 0
+        }
+      ]
     },
     "internal_resi_water_usage": null,
     "infrastructure_details": {
@@ -168,10 +212,10 @@
       "no_non_resi_units_to_have_full_fibre": null,
       "no_active_fast_ev_charging_points": null,
       "no_active_other_ev_charging_points": null,
-      "mobile_network_operators_consultation": null,
+      "mobile_network_operators_consultation": false,
       "no_passive_other_ev_charging_points": null,
-      "fire_suppression_system_proposed": null,
-      "ghg_reduction_over_building_regulations": null,
+      "fire_suppression_system_proposed": false,
+      "ghg_reduction_over_building_regulations": false,
       "chp_heat_pumps_capacity": null,
       "no_active_slow_ev_charging_points": null,
       "green_roof_area": null,
@@ -180,7 +224,7 @@
       "solar_pv_capacity": null,
       "no_passive_slow_ev_charging_points": null,
       "total_annual_nox_emissions": null,
-      "waste_provision": null,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": null,
       "no_homes_to_have_electrical_heating": null,
       "community_energy_capacity": null,
@@ -188,18 +232,18 @@
       "waste_details": []
     },
     "uk_company_registration_no": null,
-    "3d_model": null,
+    "3d_model": false,
     "no_affordable_housing_units_acquired_offsite": null,
     "transport_contributions": null,
     "total_gia_gained": null,
-    "borough_cil_liability_notice_issued": null,
-    "transport_impact_assessment": null,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
     "total_gia_lost": null,
     "scheme_name": null,
     "social_infrastructure_contributions": null,
-    "rain_water_harvesting": null,
-    "green_suds": null,
-    "garden_land_lost": null,
+    "rain_water_harvesting": false,
+    "green_suds": false,
+    "garden_land_lost": false,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_proposed_bedrooms": 0,
@@ -220,13 +264,13 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": null,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "site_area": null,
+      "site_area": 0.029,
       "dwelling_density": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
