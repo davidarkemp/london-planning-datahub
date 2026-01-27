@@ -7,25 +7,25 @@
   "development_type": null,
   "application_type": "All Other",
   "appeal_status": null,
-  "title_number": null,
-  "postcode": null,
+  "title_number": [],
+  "postcode": "",
   "locality": "London",
   "appeal_decision": null,
   "status": "Application Under Consideration",
   "pp_id": "PP-13421940         ",
   "street_name": "Richmond Crescent",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Portal",
   "lpa_name": "Islington",
   "centroid": {
-    "lon": "-0.11224909999999999",
-    "lat": "51.5391569"
+    "lon": -0.112275,
+    "lat": 51.539155
   },
   "lpa_app_no": "P2024/2799/FUL",
   "borough": "Islington",
   "application_details": {
     "total_gia_lost": 0,
     "internal_resi_water_usage": 0,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "surface_water_discharge_percentage_reduction": 0,
     "ownership_status": "Private",
     "garden_land_lost": false,
@@ -47,13 +47,14 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_existing": 225
+      "total_gia_existing": 225,
+      "site_area": 0.02
     },
     "phasing_details": [
       {
         "phase_detail": "Entire development",
-        "intended_completion_date": "12/2024",
-        "intended_commencement_date": "12/2024"
+        "intended_commencement_date": "12/2024",
+        "intended_completion_date": "12/2024"
       }
     ],
     "affordable_housing_fast_track": false,
@@ -65,7 +66,7 @@
       "affordable_percentage": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
@@ -76,46 +77,78 @@
       "total_no_proposed_residential_units_market_for_rent": 0,
       "residential_units": [
         {
-          "unit_no": "Loss-1",
+          "actual_completion_date": "01/12/2024",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
+          "actual_commencement_date": "01/12/2024",
           "unit_type": "Communal Space",
-          "gia": 1
+          "no_bedrooms": 0,
+          "provision_for_older_persons": false,
+          "gia": 105,
+          "unit_development_type": "Conversion"
         },
         {
-          "no_habitable_rooms": 2,
-          "unit_no": "Loss-2",
+          "actual_completion_date": "01/12/2024",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 3,
           "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "01/12/2024",
+          "no_bedrooms": 3,
           "provision_for_older_persons": false,
           "gia": 120,
           "tenure": "Market for rent"
+        },
+        {
+          "actual_completion_date": "01/12/2024",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "House or Bungalow",
+          "no_bedrooms": 6,
+          "provision_for_older_persons": false,
+          "gia": null,
+          "unit_development_type": "Conversion"
+        },
+        {
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "provision_for_older_persons": false,
+          "gia": null
         }
       ],
       "total_no_proposed_residential_units_london_shared_ownership": 0,
-      "total_no_proposed_bedrooms": 0,
+      "total_no_proposed_bedrooms": 6,
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "total_no_existing_residential_units": 2,
+      "total_no_existing_residential_units": 3,
       "total_gia_lost": 121,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_shared_equity": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 50,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
-      "total_no_proposed_residential_units": 0,
+      "total_no_proposed_residential_units": 1,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_social_rent": 0,
-      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0
+      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "site_area": 0.02
     },
     "rain_water_harvesting": false,
     "site_area": 0.02,
@@ -124,7 +157,7 @@
       "fire_suppression_system_proposed": false,
       "total_annual_nox_emissions": 0,
       "percentage_demolition_construction_material_recycling": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_resi_units_to_have_full_fibre": 0,
       "total_annual_pm_emissions": 0,
       "green_roof_area": 0,
@@ -134,40 +167,53 @@
       "no_new_gas_connections_required": 0,
       "no_homes_to_have_electrical_heating": 0,
       "no_non_resi_units_to_have_full_fibre": 0
-    }
+    },
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.02
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "application_type_full": "Full planning permission",
-  "cil_liability": null,
+  "cil_liability": false,
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.1124607,
-          51.5391574
+          -0.112487,
+          51.539155
         ],
         [
-          -0.11244159999999999,
-          51.5392178
+          -0.112468,
+          51.539216
         ],
         [
-          -0.1122566,
-          51.5391922
+          -0.112283,
+          51.53919
         ],
         [
-          -0.11201499999999999,
-          51.5391551
+          -0.112041,
+          51.539153
         ],
         [
-          -0.1120171,
-          51.5391052
+          -0.112043,
+          51.539103
         ],
         [
-          -0.11227469999999999,
-          51.5391338
+          -0.112301,
+          51.539132
         ],
         [
-          -0.1124607,
-          51.5391574
+          -0.112487,
+          51.539155
         ]
       ]
     ],
@@ -177,7 +223,7 @@
   "actual_commencement_date": null,
   "date_building_work_completed_under_previous_permission": null,
   "url_planning_app": null,
-  "bo_system": "Agile APAS",
+  "bo_system": "Portal",
   "appeal_start_date": null,
   "secondary_street_name": null,
   "subdivision_of_building": null,
@@ -233,7 +279,7 @@
   "uprn": "5300078013",
   "reference_no_of_permission_being_relied_on": null,
   "decision_process": null,
-  "last_updated": "2025-03-19T21:11:26.317+00:00",
+  "last_updated": "2026-01-26T16:47:23.428Z",
   "decision_agency": null,
   "parking_details": {},
   "lapsed_date": null,

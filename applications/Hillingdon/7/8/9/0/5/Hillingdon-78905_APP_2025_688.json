@@ -5,22 +5,49 @@
   "subdivision_of_building": null,
   "url_planning_app": "http://planning.hillingdon.gov.uk/OcellaWeb/planningDetails?reference=78905/APP/2025/688",
   "epc_number": "1330-4329-7009-0103-1206",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.417096,
+          51.523265
+        ],
+        [
+          -0.417097,
+          51.523238
+        ],
+        [
+          -0.41714,
+          51.523238
+        ],
+        [
+          -0.417139,
+          51.523265
+        ],
+        [
+          -0.417096,
+          51.523265
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "secondary_street_name": null,
   "street_name": "HAYES",
   "last_updated_by": "CSV Data Import",
   "date_building_work_started_under_previous_permission": null,
   "application_details": {
     "non_residential_details": {
-      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 154.7,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 3.5,
       "total_gia_existing": 151.2,
-      "total_gia_lost": 0
+      "total_gia_lost": 0,
+      "site_area": 0.019
     },
     "total_gia_gained": 3.5,
     "affordable_housing_fast_track": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "rain_water_harvesting": false,
     "projected_cost_of_works": "Up to £2m",
     "site_area": 0.019,
@@ -44,7 +71,7 @@
       "fire_suppression_system_proposed": false,
       "total_annual_nox_emissions": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
       "ghg_reduction_over_building_regulations": false
@@ -54,7 +81,13 @@
       {
         "gia_existing": 151.2,
         "use_class": "C3",
-        "gia_gained": 3.5,
+        "gia_gained": 0,
+        "gia_lost": 0
+      },
+      {
+        "gia_existing": 0,
+        "use_class": "C2",
+        "gia_gained": 154.7,
         "gia_lost": 0
       }
     ],
@@ -63,7 +96,69 @@
     "total_gia_lost": 0,
     "total_gia_existing": 151.2,
     "green_suds": false,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.019,
+      "other_resi_accommodation_unit_details": [
+        {
+          "no_bedrooms_for_older_persons_c2": 3,
+          "no_rooms_proposed": 3,
+          "unit_type": "Care Home Bedroom",
+          "no_rooms_lost": 0
+        }
+      ]
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "residential_details": {
+      "total_no_proposed_residential_units_shared_equity": 0,
+      "total_no_proposed_bedrooms": 0,
+      "total_no_proposed_residential_units": 0,
+      "total_no_proposed_residential_units_london_living_rent": 0,
+      "total_no_proposed_residential_affordable_units": 0,
+      "total_no_proposed_residential_units_affordable_rent": 0,
+      "total_no_existing_residential_units": 0,
+      "total_no_proposed_residential_units_discount_market_sale": 0,
+      "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_london_living_rent": 0,
+      "total_no_existing_residential_units_shared_equity": 0,
+      "total_no_existing_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_units_intermediate": 0,
+      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_existing_residential_units_social_rent": 0,
+      "total_no_proposed_residential_units_self_build_and_custom_build": 0,
+      "total_no_existing_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_affordable_units": 0,
+      "total_no_existing_residential_units_affordable_rent": 0,
+      "habitable_rooms_density": 0,
+      "total_no_existing_residential_units_london_shared_ownership": 0,
+      "total_gia_gained": 3.5,
+      "total_no_proposed_residential_units_social_rent": 0,
+      "total_no_existing_residential_units_london_affordable_rent": 0,
+      "dwelling_density": 0,
+      "site_area": 0.019,
+      "total_no_existing_residential_units_discount_market_sale": 0,
+      "total_no_proposed_residential_units_starter_homes": 0,
+      "total_no_proposed_residential_units_london_affordable_rent": 0,
+      "total_gia_lost": 0,
+      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_starter_homes": 0,
+      "total_no_proposed_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_intermediate": 0,
+      "affordable_percentage": 0,
+      "total_no_proposed_residential_units_london_shared_ownership": 0,
+      "residential_units": [],
+      "total_no_existing_residential_units_market_for_rent": 0,
+      "total_no_existing_residential_units_self_build_and_custom_build": 0
+    }
   },
   "ward": "BELMORE 2022",
   "cil_liability": false,
@@ -208,7 +303,7 @@
     "type": "Polygon"
   },
   "appeal_decision": null,
-  "title_number": null,
+  "title_number": [],
   "lapsed_date": "20/11/2028",
   "valid_date": "15/04/2025",
   "decision_process": "Delegated",
@@ -286,6 +381,6 @@
   "pp_id": "13817889",
   "reference_no_of_permission_being_relied_on": null,
   "borough": "Hillingdon",
-  "last_updated": "2025-12-04T22:59:14.444Z",
+  "last_updated": "2026-01-26T22:59:14.183Z",
   "actual_completion_date": null
 }
