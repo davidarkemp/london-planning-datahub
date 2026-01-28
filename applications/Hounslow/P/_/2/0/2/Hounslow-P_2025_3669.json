@@ -13,7 +13,14 @@
   "lpa_app_no": "P/2025/3669",
   "locality": "Hounslow",
   "appeal_decision_date": null,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 360,
+    "net_car": -277,
+    "no_proposed_cycle": 150,
+    "no_proposed_car": 83,
+    "net_cycle": 150
+  },
   "decision_process": null,
   "street_name": "Silver Jubilee Way",
   "site_number": null,
@@ -416,7 +423,7 @@
   "site_name": "Haslemere Heathrow Estate",
   "borough": "Hounslow",
   "last_date_consultation_comments": "30/01/2026",
-  "application_type_full": null,
+  "application_type_full": "Outline planning permission: Some matters reserved",
   "url_planning_app": "https://planningandbuilding.hounslow.gov.uk/NECSWS/ES/Presentation/Planning/OnlinePlanning/OnlinePlanningOverview?applicationNumber=P/2025/3669",
   "decision_date": null,
   "bo_system": "Northgate M3",
@@ -427,14 +434,98 @@
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
   "epc_number": null,
-  "last_updated": "2025-12-22T12:20:08.700Z",
+  "last_updated": "2026-01-27T14:47:53.764Z",
   "centroid": {
     "lon": -0.406809,
     "lat": 51.472503
   },
   "lpa_name": "Hounslow",
   "secondary_street_name": null,
-  "application_details": {},
+  "application_details": {
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "Demolition",
+        "intended_commencement_date": "09/2027",
+        "intended_completion_date": "01/2028"
+      },
+      {
+        "phase_detail": "Construction",
+        "intended_commencement_date": "03/2028",
+        "intended_completion_date": "07/2029"
+      }
+    ],
+    "total_gia_gained": 54150,
+    "site_area": 4.9398,
+    "total_gia_existing": 28047,
+    "total_gia_lost": 28047,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 28047,
+        "use_class": "SpecifiedOther",
+        "gia_gained": 50000,
+        "gia_lost": 28047
+      },
+      {
+        "gia_existing": 0,
+        "use_class": "EC3",
+        "gia_gained": 4150,
+        "gia_lost": 0
+      }
+    ],
+    "projected_cost_of_works": "Over £100m",
+    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "building_details": [
+      {
+        "no_storeys": 2,
+        "max_height": 23.25,
+        "building_ref": "Data Centre"
+      },
+      {
+        "no_storeys": 1,
+        "max_height": 11.5,
+        "building_ref": "Substation"
+      },
+      {
+        "no_storeys": 1,
+        "max_height": 9.5,
+        "building_ref": "Work units"
+      }
+    ],
+    "green_suds": false,
+    "surface_water_discharge_percentage_reduction": 0,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 54150,
+      "total_gia_existing": 28047,
+      "total_gia_lost": 28047
+    },
+    "garden_land_lost": false,
+    "internal_resi_water_usage": 0,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0,
+      "no_active_slow_ev_charging_points": 85,
+      "green_roof_area": 1115,
+      "no_resi_units_to_have_full_fibre": 0,
+      "urban_greening_factor_score": 0.22,
+      "no_new_water_connections_required": 0,
+      "no_homes_passive_cooling": 0,
+      "no_passive_slow_ev_charging_points": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 0,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "ownership_status": "Private"
+  },
   "wgs84_polygon": {
     "coordinates": [
       [
@@ -821,5 +912,5 @@
   "id": "Hounslow-P_2025_3669",
   "reference_no_of_permission_being_relied_on": null,
   "title_number": null,
-  "last_updated_by": "Northgate M3"
+  "last_updated_by": "Planning Portal ingest"
 }

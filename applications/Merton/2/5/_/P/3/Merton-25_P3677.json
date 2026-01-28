@@ -22,7 +22,11 @@
   "lpa_app_no": "25/P3677",
   "locality": "Mitcham",
   "appeal_decision_date": null,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 10,
+    "net_car": -10,
+    "no_proposed_car": 0
+  },
   "decision_process": null,
   "street_name": "Cranmer Road",
   "site_number": null,
@@ -217,7 +221,7 @@
   "site_name": "Carp Park",
   "borough": "Merton",
   "last_date_consultation_comments": "07/01/2026",
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "url_planning_app": "http://planning.merton.gov.uk/Northgate/PlanningExplorer/DisplayAppDetails.aspx?AppNo=25/P3677",
   "decision_date": "13/01/2026",
   "bo_system": "Northgate M3",
@@ -228,14 +232,74 @@
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
   "epc_number": null,
-  "last_updated": "2026-01-13T15:00:02.638Z",
+  "last_updated": "2026-01-27T14:47:51.373Z",
   "centroid": {
     "lon": -0.163635,
     "lat": 51.397627
   },
   "lpa_name": "Merton",
   "secondary_street_name": null,
-  "application_details": {},
+  "application_details": {
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "Entire Development",
+        "intended_commencement_date": "01/2026",
+        "intended_completion_date": "01/2026"
+      }
+    ],
+    "total_gia_gained": 187,
+    "site_area": 0.0187,
+    "total_gia_existing": 0,
+    "total_gia_lost": 0,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 0,
+        "use_class": "C2A",
+        "gia_gained": 187,
+        "gia_lost": 0
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "building_details": [
+      {
+        "no_storeys": 1,
+        "max_height": 3.4,
+        "building_ref": "Portacabin"
+      }
+    ],
+    "green_suds": false,
+    "surface_water_discharge_percentage_reduction": 0,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 187,
+      "total_gia_existing": 0,
+      "total_gia_lost": 0
+    },
+    "garden_land_lost": false,
+    "internal_resi_water_usage": 0,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0,
+      "green_roof_area": 0,
+      "no_resi_units_to_have_full_fibre": 0,
+      "no_new_water_connections_required": 1,
+      "no_homes_passive_cooling": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 100,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 0,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "ownership_status": "Public"
+  },
   "wgs84_polygon": {
     "coordinates": [
       [
@@ -414,5 +478,5 @@
   "id": "Merton-25_P3677",
   "reference_no_of_permission_being_relied_on": null,
   "title_number": null,
-  "last_updated_by": "Northgate M3"
+  "last_updated_by": "Planning Portal ingest"
 }

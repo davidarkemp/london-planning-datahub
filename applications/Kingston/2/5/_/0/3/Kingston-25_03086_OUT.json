@@ -13,7 +13,14 @@
   "lpa_app_no": "25/03086/OUT",
   "locality": null,
   "appeal_decision_date": null,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 10,
+    "net_car": -6,
+    "no_proposed_cycle": 18,
+    "no_proposed_car": 4,
+    "net_cycle": 18
+  },
   "decision_process": null,
   "street_name": "Blagdon Road",
   "site_number": "109",
@@ -96,7 +103,7 @@
   "site_name": "Hobkirk House",
   "borough": "Royal Borough of Kingston (LA Code)",
   "last_date_consultation_comments": null,
-  "application_type_full": null,
+  "application_type_full": "Outline planning permission: Some matters reserved",
   "url_planning_app": "https://publicaccess.kingston.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=T6KZFONHL7C00",
   "decision_date": null,
   "bo_system": "Idox Uniform",
@@ -107,7 +114,7 @@
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
   "epc_number": null,
-  "last_updated": "2026-01-16T18:01:38.095Z",
+  "last_updated": "2026-01-27T14:48:08.912Z",
   "centroid": {
     "lon": -0.250497,
     "lat": 51.400512
@@ -129,8 +136,8 @@
     ],
     "constraints_details": [
       {
-        "constraints_layer_description": "NEIPOL MC1  Maldens and Coombe",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "NEIPOL MC1  Maldens and Coombe"
       }
     ],
     "surface_water_discharge_percentage_reduction": 3,
@@ -173,24 +180,19 @@
     "other_residential_accommodation_details": {
       "other_resi_accommodation_unit_details": [
         {
-          "no_bedrooms_for_older_persons_sg": 0,
-          "no_bedrooms_for_older_persons_c2": 0
-        },
-        {
-          "no_rooms_lost": 0,
           "no_rooms_proposed": 80,
-          "unit_type": "Care Home Bedroom"
+          "no_rooms_lost": 0
         }
       ],
       "site_area": 0.2
     },
     "ownership_status": "Public",
-    "site_area": 1950,
+    "site_area": 0.195,
     "building_details": [
       {
+        "no_storeys": 5,
         "max_height": 15.5,
-        "building_ref": "1",
-        "no_storeys": null
+        "building_ref": "1"
       }
     ],
     "commencement_notice_received": false,
@@ -234,9 +236,9 @@
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_existing_residential_units_shared_equity": 0
     },
-    "total_gia_existing": 0,
+    "total_gia_existing": 1400,
     "garden_land_lost": false,
-    "total_gia_lost": 0,
+    "total_gia_lost": 1400,
     "open_and_protected_space_details": {
       "open_space_green_belt_area_gain": 0,
       "open_space_mol_area_loss": 0,
@@ -256,12 +258,14 @@
     ],
     "phasing_details": [
       {
-        "intended_commencement_date": "07/2026",
         "phase_detail": "1",
+        "intended_commencement_date": "07/2026",
         "intended_completion_date": "12/2027"
       }
     ],
-    "rain_water_harvesting": false
+    "rain_water_harvesting": false,
+    "scheme_phasing": true,
+    "total_gia_gained": 3394
   },
   "wgs84_polygon": {
     "coordinates": [
@@ -329,5 +333,5 @@
   "id": "Kingston-25_03086_OUT",
   "reference_no_of_permission_being_relied_on": null,
   "title_number": null,
-  "last_updated_by": "Idox Uniform"
+  "last_updated_by": "Planning Portal ingest"
 }

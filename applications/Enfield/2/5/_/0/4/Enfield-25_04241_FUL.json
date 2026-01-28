@@ -13,7 +13,11 @@
   "lpa_app_no": "25/04241/FUL",
   "locality": null,
   "appeal_decision_date": null,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 0,
+    "net_car": 60,
+    "no_proposed_car": 60
+  },
   "decision_process": null,
   "street_name": "Bowes Road",
   "site_number": "7",
@@ -29,7 +33,7 @@
   "site_name": null,
   "borough": "Enfield Council",
   "last_date_consultation_comments": "28/01/2026",
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "url_planning_app": "<enter PA URL here>",
   "decision_date": null,
   "bo_system": "Idox Uniform",
@@ -40,7 +44,7 @@
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": "02/06/2025",
   "epc_number": null,
-  "last_updated": "2026-01-07T21:06:50.419Z",
+  "last_updated": "2026-01-27T21:06:38.174Z",
   "centroid": {
     "lon": -0.110633,
     "lat": 51.612183
@@ -62,60 +66,60 @@
     ],
     "constraints_details": [
       {
-        "constraints_layer_description": "LHA Maximum Height Level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet).",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "LHA Maximum Height Level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet)."
       },
       {
-        "constraints_layer_description": "LGA Maximum Height Level: >300",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "LGA Maximum Height Level: >300"
       },
       {
-        "constraints_layer_description": "LLA Maximum height level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet)",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "LLA Maximum height level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet)"
       },
       {
-        "constraints_layer_description": "100Y Name: Wood Green Model\rDescription: 100YRCC3565\rScenario: 1 in 100 year plus climate change allowance",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "100Y Name: Wood Green Model\rDescription: 100YRCC3565\rScenario: 1 in 100 year plus climate change allowance"
       },
       {
-        "constraints_layer_description": "DCAREA Area: SOUTH\rCode: DCAREA_S",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "DCAREA Area: SOUTH\rCode: DCAREA_S"
       },
       {
-        "constraints_layer_description": "PRIROA Name:",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "PRIROA Name:"
       },
       {
-        "constraints_layer_description": "SECOAR Description: SECOAR7",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "SECOAR Description: SECOAR7"
       },
       {
-        "constraints_layer_description": "TRROCB Description: TRROCB1",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "TRROCB Description: TRROCB1"
       },
       {
-        "constraints_layer_description": "TRUROA Name: BOWES ROAD",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "TRUROA Name: BOWES ROAD"
       },
       {
-        "constraints_layer_description": "WARDS Name: Bowes",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "WARDS Name: Bowes"
       },
       {
-        "constraints_layer_description": "CILRES CIL ZONE: Intermediate Zone - RATE: £60 per square metre",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "CILRES CIL ZONE: Intermediate Zone - RATE: £60 per square metre"
       },
       {
-        "constraints_layer_description": "DMDAAP Designation: Area Action Plan- Area: North Circular Road- Policy: Core policy 44",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "DMDAAP Designation: Area Action Plan- Area: North Circular Road- Policy: Core policy 44"
       },
       {
-        "constraints_layer_description": "DMDNCA Designation: North Circular Road Opportunity Site",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "DMDNCA Designation: North Circular Road Opportunity Site"
       },
       {
-        "constraints_layer_description": "DMDLOC Designation: Local Centre- Name: Green Lanes- Policy: DMD 28-36- Core Strategy: Core policy 17-18",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "DMDLOC Designation: Local Centre- Name: Green Lanes- Policy: DMD 28-36- Core Strategy: Core policy 17-18"
       }
     ],
     "surface_water_discharge_percentage_reduction": 0,
@@ -222,12 +226,14 @@
     ],
     "phasing_details": [
       {
-        "intended_commencement_date": "05/2025",
         "phase_detail": "1",
+        "intended_commencement_date": "05/2025",
         "intended_completion_date": "05/2025"
       }
     ],
-    "rain_water_harvesting": false
+    "rain_water_harvesting": false,
+    "total_gia_gained": 0,
+    "scheme_phasing": true
   },
   "wgs84_polygon": {
     "coordinates": [

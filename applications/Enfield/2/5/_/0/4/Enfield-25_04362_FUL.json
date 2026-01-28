@@ -13,7 +13,11 @@
   "lpa_app_no": "25/04362/FUL",
   "locality": null,
   "appeal_decision_date": null,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 1,
+    "net_car": 0,
+    "no_proposed_car": 1
+  },
   "decision_process": null,
   "street_name": "Pasteur Gardens",
   "site_number": "59",
@@ -29,7 +33,7 @@
   "site_name": null,
   "borough": "Enfield Council",
   "last_date_consultation_comments": "29/01/2026",
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "url_planning_app": "<enter PA URL here>",
   "decision_date": null,
   "bo_system": "Idox Uniform",
@@ -40,7 +44,7 @@
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
   "epc_number": null,
-  "last_updated": "2026-01-08T21:05:22.425Z",
+  "last_updated": "2026-01-27T21:07:23.835Z",
   "centroid": {
     "lon": -0.090121,
     "lat": 51.612238
@@ -68,40 +72,40 @@
     ],
     "constraints_details": [
       {
-        "constraints_layer_description": "SURWAT Description: Idox.Spatial.Common.Desktop.DataAccess.Shape",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "SURWAT Description: Idox.Spatial.Common.Desktop.DataAccess.Shape"
       },
       {
-        "constraints_layer_description": "LHA Maximum Height Level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet).",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "LHA Maximum Height Level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet)."
       },
       {
-        "constraints_layer_description": "LGA Maximum Height Level: >300",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "LGA Maximum Height Level: >300"
       },
       {
-        "constraints_layer_description": "LLA Maximum height level: All buildings, structures, and works exceeding 300 metres in height (984.2 feet)",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "LLA Maximum height level: All buildings, structures, and works exceeding 300 metres in height (984.2 feet)"
       },
       {
-        "constraints_layer_description": "DCAREA Area: SOUTH\rCode: DCAREA_S",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "DCAREA Area: SOUTH\rCode: DCAREA_S"
       },
       {
-        "constraints_layer_description": "WARDS Name: Upper Edmonton",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "WARDS Name: Upper Edmonton"
       },
       {
-        "constraints_layer_description": "CILRES CIL ZONE: Lower Rate Eastern Zone - RATE: £40 per square metre",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "CILRES CIL ZONE: Lower Rate Eastern Zone - RATE: £40 per square metre"
       },
       {
-        "constraints_layer_description": "DMDLOS Designation: Local Open Space- Type: Private Land- Name: Queensland Avenue Playing Fields- Land Type: Outdoors Sports Facilities/Private Playing Fields- Policy: DMD 71-74- Core Strategy: Core policy 34, 36",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "DMDLOS Designation: Local Open Space- Type: Private Land- Name: Queensland Avenue Playing Fields- Land Type: Outdoors Sports Facilities/Private Playing Fields- Policy: DMD 71-74- Core Strategy: Core policy 34, 36"
       },
       {
-        "constraints_layer_description": "DMDMOL Designation: Metropolitan Open Land- Name: Queensland Ave Playing fields- Policy: DMD 71-74- Core Strategy: Core policy 34",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "DMDMOL Designation: Metropolitan Open Land- Name: Queensland Ave Playing fields- Policy: DMD 71-74- Core Strategy: Core policy 34"
       }
     ],
     "surface_water_discharge_percentage_reduction": 0,
@@ -178,39 +182,39 @@
       "total_no_proposed_residential_units_market_for_sale": 0,
       "residential_units": [
         {
-          "gia": 160,
-          "provider": "Private",
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
           "description": null,
           "m42_compliant": false,
-          "no_habitable_rooms": 1,
-          "unit_type": "HMO",
-          "m43_2a_compliant": false,
-          "provision_for_older_persons": false,
-          "tenure": "Market for rent",
-          "m43_2b_compliant": false,
-          "unit_no": null,
           "change_type": "Gain",
-          "no_bedrooms": 6,
-          "phase_detail": null,
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "garden_land": false
+          "unit_type": "HMO",
+          "no_habitable_rooms": 1,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 6,
+          "provision_for_older_persons": false,
+          "gia": 160,
+          "tenure": "Market for rent"
         },
         {
-          "gia": 160,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
           "description": null,
           "m42_compliant": false,
-          "no_habitable_rooms": 2,
-          "unit_type": "Terraced Home",
-          "m43_2a_compliant": false,
-          "provision_for_older_persons": false,
-          "tenure": "Market for rent",
-          "m43_2b_compliant": false,
-          "unit_no": null,
           "change_type": "Loss",
-          "no_bedrooms": 4,
-          "phase_detail": null,
           "sheltered_accommodation": false,
-          "garden_land": false
+          "garden_land": false,
+          "unit_type": "Terraced Home",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 4,
+          "provision_for_older_persons": false,
+          "gia": 160,
+          "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units": 1,
@@ -244,12 +248,14 @@
     ],
     "phasing_details": [
       {
-        "intended_commencement_date": "04/2026",
         "phase_detail": "Entire development",
+        "intended_commencement_date": "04/2026",
         "intended_completion_date": "06/2026"
       }
     ],
-    "rain_water_harvesting": false
+    "rain_water_harvesting": false,
+    "total_gia_gained": 160,
+    "scheme_phasing": true
   },
   "wgs84_polygon": {
     "coordinates": [

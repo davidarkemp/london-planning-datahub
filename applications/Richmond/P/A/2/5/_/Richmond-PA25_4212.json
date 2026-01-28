@@ -15,7 +15,14 @@
   "lpa_app_no": "PA25/4212",
   "locality": null,
   "appeal_decision_date": null,
-  "parking_details": {},
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 1,
+    "net_car": 0,
+    "no_proposed_cycle": 2,
+    "no_proposed_car": 1,
+    "net_cycle": 2
+  },
   "decision_process": null,
   "street_name": "Sandycombe Road",
   "site_number": "121",
@@ -31,7 +38,7 @@
   "site_name": "Station Point",
   "borough": "Richmond",
   "last_date_consultation_comments": null,
-  "application_type_full": null,
+  "application_type_full": "Prior Approval: Change of use from Commercial, Business and Service (Use Class E) to Dwellinghouses (Use Class C3)",
   "url_planning_app": null,
   "decision_date": "15/01/2026",
   "bo_system": "Agile APAS",
@@ -42,14 +49,58 @@
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
   "epc_number": null,
-  "last_updated": "2026-01-27T00:02:15.429Z",
+  "last_updated": "2026-01-27T14:48:36.552Z",
   "centroid": {
     "lon": -0.287185,
     "lat": 51.47052
   },
   "lpa_name": "Richmond",
   "secondary_street_name": null,
-  "application_details": {},
+  "application_details": {
+    "superseding_details": [
+      {
+        "lpa_app_no": "PA25/1238",
+        "partial_supersedence": false
+      }
+    ],
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 111,
+        "use_class": "EG1",
+        "gia_gained": 0,
+        "gia_lost": 111
+      }
+    ],
+    "occupation_status": "Occupied",
+    "total_gia_gained": 0,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 0,
+      "total_gia_existing": 111,
+      "total_gia_lost": 111
+    },
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0,
+      "green_roof_area": 0,
+      "no_resi_units_to_have_full_fibre": 1,
+      "no_new_water_connections_required": 0,
+      "no_homes_passive_cooling": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 0,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "total_gia_lost": 111,
+    "intended_commencement_date": "02/2026",
+    "total_gia_existing": 111,
+    "intended_completion_date": "03/2026"
+  },
   "wgs84_polygon": {
     "coordinates": [
       [
@@ -80,5 +131,5 @@
   "id": "Richmond-PA25_4212",
   "reference_no_of_permission_being_relied_on": null,
   "title_number": null,
-  "last_updated_by": "Agile APAS"
+  "last_updated_by": "Planning Portal ingest"
 }

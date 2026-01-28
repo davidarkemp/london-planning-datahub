@@ -34,7 +34,14 @@
   "lpa_app_no": "25/02299/FUL",
   "locality": null,
   "appeal_decision_date": null,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 9,
+    "net_car": 4,
+    "no_proposed_cycle": 2,
+    "no_proposed_car": 13,
+    "net_cycle": 2
+  },
   "decision_process": "Delegated",
   "street_name": "Malden Road",
   "site_number": "213",
@@ -185,7 +192,7 @@
   "site_name": "Devonshire Dementia Care Home",
   "borough": "Royal Borough of Kingston (LA Code)",
   "last_date_consultation_comments": "26/01/2026",
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "url_planning_app": "https://publicaccess.kingston.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=T1YRWHNHJ9C00",
   "decision_date": "22/01/2026",
   "bo_system": "Idox Uniform",
@@ -196,7 +203,7 @@
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
   "epc_number": null,
-  "last_updated": "2026-01-23T18:01:20.077Z",
+  "last_updated": "2026-01-27T14:48:44.512Z",
   "centroid": {
     "lon": -0.253609,
     "lat": 51.393535
@@ -288,12 +295,7 @@
     "other_residential_accommodation_details": {
       "other_resi_accommodation_unit_details": [
         {
-          "no_bedrooms_for_older_persons_c2": 0,
-          "no_bedrooms_for_older_persons_sg": 0
-        },
-        {
           "no_rooms_proposed": 17,
-          "unit_type": "Care Home Bedroom",
           "no_rooms_lost": 0
         }
       ],
@@ -301,7 +303,7 @@
     },
     "affordable_housing_fast_track": false,
     "ownership_status": "Private",
-    "site_area": 1929,
+    "site_area": 0.19290000000000002,
     "commencement_notice_received": false,
     "lead_developer_company_name": "Treemont Care Ltd",
     "residential_details": {
@@ -332,41 +334,27 @@
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "total_gia_lost": 0,
+      "total_gia_lost": 170,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_market_for_rent": 2,
       "total_no_proposed_residential_units_market_for_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
       "residential_units": [
         {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "description": null,
-          "m42_compliant": false,
+          "no_habitable_rooms": 4,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "garden_land": false,
           "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 4,
-          "phase_detail": null,
-          "unit_no": null,
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
           "gia": 85,
           "tenure": "Market for rent"
         },
         {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "description": null,
-          "m42_compliant": false,
+          "no_habitable_rooms": 4,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "garden_land": false,
           "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 4,
-          "phase_detail": null,
-          "unit_no": null,
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
           "gia": 85,
@@ -380,9 +368,9 @@
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_existing_residential_units_shared_equity": 0
     },
-    "total_gia_existing": 0,
+    "total_gia_existing": 1259,
     "garden_land_lost": true,
-    "total_gia_lost": 0,
+    "total_gia_lost": 345,
     "open_and_protected_space_details": {
       "open_space_green_belt_area_gain": 0,
       "open_space_mol_area_loss": 0,
@@ -407,7 +395,9 @@
         "intended_completion_date": "09/2026"
       }
     ],
-    "rain_water_harvesting": false
+    "rain_water_harvesting": false,
+    "scheme_phasing": true,
+    "total_gia_gained": 2088
   },
   "wgs84_polygon": {
     "coordinates": [
@@ -543,5 +533,5 @@
   "id": "Kingston-25_02299_FUL",
   "reference_no_of_permission_being_relied_on": null,
   "title_number": null,
-  "last_updated_by": "Idox Uniform"
+  "last_updated_by": "Planning Portal ingest"
 }

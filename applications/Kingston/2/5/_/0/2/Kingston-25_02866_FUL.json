@@ -13,7 +13,11 @@
   "lpa_app_no": "25/02866/FUL",
   "locality": null,
   "appeal_decision_date": null,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 2,
+    "net_car": 0,
+    "no_proposed_car": 2
+  },
   "decision_process": "Delegated",
   "street_name": "Tolworth Rise North",
   "site_number": "211",
@@ -76,7 +80,7 @@
   "site_name": null,
   "borough": "Royal Borough of Kingston (LA Code)",
   "last_date_consultation_comments": "16/01/2026",
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "url_planning_app": "https://publicaccess.kingston.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=T5AOLMNHKNZ00",
   "decision_date": null,
   "bo_system": "Idox Uniform",
@@ -87,7 +91,7 @@
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
   "epc_number": null,
-  "last_updated": "2026-01-26T18:02:01.053Z",
+  "last_updated": "2026-01-27T14:48:17.047Z",
   "centroid": {
     "lon": -0.271819,
     "lat": 51.38787
@@ -156,8 +160,8 @@
     "surface_water_discharge_percentage_reduction": 0,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_gained": 0,
-      "total_gia_existing": 0,
+      "total_gia_gained": 37.09,
+      "total_gia_existing": 168,
       "site_area": 0.04,
       "total_gia_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0
@@ -192,7 +196,7 @@
       "site_area": 0.04
     },
     "ownership_status": "Private",
-    "site_area": 400,
+    "site_area": 0.04,
     "commencement_notice_received": false,
     "residential_details": {
       "total_no_proposed_residential_units_london_shared_ownership": 0,
@@ -210,7 +214,7 @@
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
-      "total_gia_gained": 37.09,
+      "total_gia_gained": 197.35,
       "total_no_proposed_residential_units_shared_equity": 0,
       "dwelling_density": 0,
       "total_no_existing_residential_units_intermediate": 0,
@@ -222,61 +226,36 @@
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "total_gia_lost": 0,
+      "total_gia_lost": 168,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
       "residential_units": [
         {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "description": null,
-          "m42_compliant": false,
-          "change_type": "Gain",
-          "garden_land": false,
+          "no_habitable_rooms": 2,
+          "change_type": "Loss",
           "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
+          "unit_type": "Semi Detached Home",
+          "no_bedrooms": 4,
+          "provision_for_older_persons": false,
+          "gia": 168,
+          "tenure": "Market for rent"
+        },
+        {
           "no_habitable_rooms": 1,
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
+          "change_type": "Gain",
           "no_bedrooms": 3,
-          "provision_for_older_persons": false,
+          "unit_type": "Flat Apartment Maisonette",
           "gia": 103.1,
           "tenure": "Market for rent"
         },
         {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "description": null,
-          "m42_compliant": false,
-          "change_type": "Gain",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 1,
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
+          "change_type": "Gain",
           "no_bedrooms": 2,
-          "provision_for_older_persons": false,
+          "unit_type": "Flat Apartment Maisonette",
           "gia": 94.25,
-          "tenure": "Market for rent"
-        },
-        {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "description": null,
-          "m42_compliant": false,
-          "change_type": "Loss",
-          "sheltered_accommodation": false,
-          "garden_land": false,
-          "unit_type": "Semi Detached Home",
-          "no_habitable_rooms": 2,
-          "phase_detail": null,
-          "unit_no": null,
-          "no_bedrooms": 4,
-          "provision_for_older_persons": false,
-          "gia": 168,
           "tenure": "Market for rent"
         }
       ],
@@ -316,7 +295,9 @@
         "intended_completion_date": "04/2026"
       }
     ],
-    "rain_water_harvesting": false
+    "rain_water_harvesting": false,
+    "total_gia_gained": 37.09,
+    "scheme_phasing": true
   },
   "wgs84_polygon": {
     "coordinates": [
@@ -364,5 +345,5 @@
   "id": "Kingston-25_02866_FUL",
   "reference_no_of_permission_being_relied_on": null,
   "title_number": null,
-  "last_updated_by": "Idox Uniform"
+  "last_updated_by": "Planning Portal ingest"
 }

@@ -13,7 +13,11 @@
   "lpa_app_no": "25/04250/FUL",
   "locality": null,
   "appeal_decision_date": null,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 1,
+    "net_car": 0,
+    "no_proposed_car": 1
+  },
   "decision_process": null,
   "street_name": "Amersham Avenue",
   "site_number": "76",
@@ -29,7 +33,7 @@
   "site_name": null,
   "borough": "Enfield Council",
   "last_date_consultation_comments": "02/01/2026",
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "url_planning_app": "<enter PA URL here>",
   "decision_date": null,
   "bo_system": "Idox Uniform",
@@ -40,7 +44,7 @@
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
   "epc_number": null,
-  "last_updated": "2025-12-16T21:10:18.324Z",
+  "last_updated": "2026-01-27T14:47:41.215Z",
   "centroid": {
     "lon": -0.079164,
     "lat": 51.610413
@@ -99,10 +103,10 @@
     "surface_water_discharge_percentage_reduction": 0,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_gained": 0,
-      "total_gia_existing": 0,
+      "total_gia_gained": 106.8,
+      "total_gia_existing": 95.72,
       "site_area": 0.02,
-      "total_gia_lost": 0,
+      "total_gia_lost": 95.72,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0
     },
     "infrastructure_details": {
@@ -135,7 +139,7 @@
       "site_area": 0.02
     },
     "ownership_status": "Private",
-    "site_area": 200,
+    "site_area": 0.02,
     "commencement_notice_received": false,
     "residential_details": {
       "total_no_proposed_residential_units_london_shared_ownership": 0,
@@ -170,38 +174,22 @@
       "total_no_proposed_residential_units_market_for_sale": 0,
       "residential_units": [
         {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "description": null,
-          "m42_compliant": false,
-          "change_type": "Gain",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "HMO",
-          "no_habitable_rooms": 1,
-          "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
-          "no_bedrooms": 6,
-          "provision_for_older_persons": false,
-          "gia": 106.8,
-          "tenure": "Market for rent"
-        },
-        {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "description": null,
-          "m42_compliant": false,
+          "no_habitable_rooms": 2,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "garden_land": false,
           "unit_type": "Terraced Home",
-          "no_habitable_rooms": 2,
-          "phase_detail": null,
-          "unit_no": null,
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
           "gia": 95.72,
+          "tenure": "Market for rent"
+        },
+        {
+          "no_habitable_rooms": 1,
+          "provider": "Private",
+          "change_type": "Gain",
+          "no_bedrooms": 6,
+          "unit_type": "HMO",
+          "gia": 106.8,
           "tenure": "Market for rent"
         }
       ],
@@ -241,7 +229,9 @@
         "intended_completion_date": "06/2026"
       }
     ],
-    "rain_water_harvesting": false
+    "rain_water_harvesting": false,
+    "total_gia_gained": 106.8,
+    "scheme_phasing": true
   },
   "wgs84_polygon": {
     "coordinates": [
@@ -273,5 +263,5 @@
   "id": "Enfield-25_04250_FUL",
   "reference_no_of_permission_being_relied_on": null,
   "title_number": null,
-  "last_updated_by": "Idox Uniform"
+  "last_updated_by": "Planning Portal ingest"
 }

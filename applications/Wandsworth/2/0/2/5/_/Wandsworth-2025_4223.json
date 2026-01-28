@@ -13,7 +13,11 @@
   "lpa_app_no": "2025/4223",
   "locality": "London",
   "appeal_decision_date": null,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 41,
+    "net_car": -30,
+    "no_proposed_car": 11
+  },
   "decision_process": null,
   "street_name": "York Road",
   "site_number": "248",
@@ -268,7 +272,7 @@
   "site_name": null,
   "borough": "Wandsworth",
   "last_date_consultation_comments": "22/01/2026",
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "url_planning_app": "http://planning.wandsworth.gov.uk/Northgate/PlanningExplorer/DisplayAppDetails.aspx?AppNo=2025/4223",
   "decision_date": null,
   "bo_system": "Northgate M3",
@@ -278,15 +282,98 @@
   "description": "Phased development comprising partial demolition, partial rebuild and partial extensions to create additional Class B8 (self-storage) space, landscaping, vehicle and cycle parking, solar panels and associated works to be delivered in two phases.",
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
-  "epc_number": null,
-  "last_updated": "2025-12-18T16:20:04.665Z",
+  "epc_number": "7480-4831-7120-8242-6348",
+  "last_updated": "2026-01-27T14:48:00.428Z",
   "centroid": {
     "lon": -0.182825,
     "lat": 51.46511
   },
   "lpa_name": "Wandsworth",
   "secondary_street_name": null,
-  "application_details": {},
+  "application_details": {
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "Phase 1",
+        "intended_commencement_date": "11/2026",
+        "intended_completion_date": "11/2027"
+      },
+      {
+        "phase_detail": "Phase 2",
+        "intended_commencement_date": "11/2027",
+        "intended_completion_date": "11/2028"
+      }
+    ],
+    "total_gia_gained": 1658,
+    "site_area": 0.581828,
+    "total_gia_existing": 11517,
+    "total_gia_lost": 0,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 1400,
+        "use_class": "EG1",
+        "gia_gained": 0,
+        "gia_lost": 0
+      },
+      {
+        "gia_existing": 10117,
+        "use_class": "B8",
+        "gia_gained": 1658,
+        "gia_lost": 0
+      }
+    ],
+    "projected_cost_of_works": "Between £2m and £100m",
+    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "building_details": [
+      {
+        "no_storeys": 4,
+        "max_height": 12,
+        "building_ref": "Block A"
+      },
+      {
+        "no_storeys": 6,
+        "max_height": 18,
+        "building_ref": "Block B"
+      },
+      {
+        "no_storeys": 5,
+        "max_height": 15,
+        "building_ref": "Block C"
+      }
+    ],
+    "green_suds": true,
+    "surface_water_discharge_percentage_reduction": 90,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 1658,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 1658,
+      "total_gia_existing": 11517,
+      "total_gia_lost": 0
+    },
+    "garden_land_lost": false,
+    "internal_resi_water_usage": 0,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 16.37,
+      "green_roof_area": 1385,
+      "no_resi_units_to_have_full_fibre": 0,
+      "urban_greening_factor_score": 0.2,
+      "solar_pv_capacity": 33.22,
+      "no_new_water_connections_required": 0,
+      "no_homes_passive_cooling": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 35.12,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 0,
+      "ghg_reduction_over_building_regulations": true
+    },
+    "ownership_status": "Private"
+  },
   "wgs84_polygon": {
     "coordinates": [
       [
@@ -525,5 +612,5 @@
   "id": "Wandsworth-2025_4223",
   "reference_no_of_permission_being_relied_on": null,
   "title_number": null,
-  "last_updated_by": "Northgate M3"
+  "last_updated_by": "Planning Portal ingest"
 }
