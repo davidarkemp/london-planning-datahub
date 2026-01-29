@@ -4,14 +4,14 @@
   "decision_agency": null,
   "lpa_name": "Croydon",
   "decision_date": "03/06/2025",
-  "centroid_easting": "530572",
+  "centroid_easting": 530572,
   "url_planning_app": null,
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "title_number": [],
   "decision": "Approved",
   "valid_date": "27/02/2025",
-  "status": "Approved",
-  "last_updated_by": "Idox Uniform",
+  "status": "Commenced",
+  "last_updated_by": "Portal",
   "lapsed_date": "03/06/2028",
   "pp_id": "PP-13804060",
   "description": "Demolition of existing garage and erection of a detached two-storey dwellinghouse within the rear garden of No.23 Monahan Avenue, provision of associated car parking, amenity space, landscaping, bin and cycle stores.",
@@ -20,23 +20,24 @@
   "decision_process": "Delegated",
   "epc_number": null,
   "appeal_start_date": null,
-  "centroid_northing": "161440",
+  "centroid_northing": 161440,
   "actual_completion_date": null,
-  "actual_commencement_date": null,
+  "actual_commencement_date": "26/09/2025",
   "date_building_work_started_under_previous_permission": null,
   "appeal_decision": null,
   "borough": "London Borough of Croydon",
   "uprn": "100020667626",
   "application_details": {
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "surface_water_discharge_percentage_reduction": 0,
-    "green_suds": true,
+    "green_suds": false,
     "non_residential_details": {
       "total_gia_existing": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_lost": 0,
       "total_gia_gained": 162,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "site_area": 0.0606
     },
     "residential_details": {
       "total_no_existing_residential_units_london_affordable_rent": 0,
@@ -45,7 +46,7 @@
       "total_no_existing_residential_units": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_social_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 99.00990099009901,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_gia_gained": 162,
       "total_no_proposed_bedrooms": 4,
@@ -53,15 +54,20 @@
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "residential_units": [
         {
-          "provider": "Private",
-          "no_habitable_rooms": 6,
-          "unit_no": "Gain-1",
+          "description": null,
           "change_type": "Gain",
           "garden_land": true,
-          "no_bedrooms": 4,
           "unit_type": "House or Bungalow",
-          "tenure": "Market for sale",
-          "gia": 162
+          "unit_development_type": "New Build",
+          "no_habitable_rooms": 6,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "26/09/2025",
+          "no_bedrooms": 4,
+          "provision_for_older_persons": false,
+          "gia": 162,
+          "tenure": "Market for sale"
         }
       ],
       "total_no_existing_residential_affordable_units": 0,
@@ -86,10 +92,11 @@
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_market_for_sale": 1,
-      "dwelling_density": 0,
+      "dwelling_density": 16.5016501650165,
       "total_gia_lost": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
-      "total_no_proposed_residential_units_intermediate": 0
+      "total_no_proposed_residential_units_intermediate": 0,
+      "site_area": 0.0606
     },
     "ownership_status": "Private",
     "projected_cost_of_works": "Up to £2m",
@@ -105,8 +112,8 @@
     "site_area": 0.0606,
     "affordable_housing_fast_track": false,
     "total_gia_existing": 0,
-    "scheme_phasing": true,
-    "grey_water_reuse": true,
+    "scheme_phasing": false,
+    "grey_water_reuse": false,
     "building_details": [
       {
         "no_storeys": 2,
@@ -117,31 +124,45 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 0,
-        "gia_gained": 162,
         "use_class": "C3",
+        "gia_gained": 162,
+        "actual_commencement_date": "26/09/2025",
         "gia_lost": 0
       }
     ],
     "total_gia_lost": 0,
-    "rain_water_harvesting": true,
+    "rain_water_harvesting": false,
     "infrastructure_details": {
       "percentage_demolition_construction_material_recycling": 0,
       "no_resi_units_to_have_full_fibre": 1,
       "total_annual_nox_emissions": 0,
-      "fire_suppression_system_proposed": true,
+      "fire_suppression_system_proposed": false,
       "no_new_water_connections_required": 1,
       "no_passive_slow_ev_charging_points": 0,
       "total_annual_pm_emissions": 0,
       "mobile_network_operators_consultation": false,
       "no_active_slow_ev_charging_points": 1,
       "no_new_gas_connections_required": 1,
-      "waste_provision": true,
+      "waste_provision": false,
       "green_roof_area": 20,
       "no_homes_passive_cooling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "no_homes_to_have_electrical_heating": 0
-    }
+    },
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.0606
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "centroid": {
     "lat": 51.337065,
@@ -201,13 +222,17 @@
     "type": "Polygon"
   },
   "secondary_street_name": null,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_proposed_cycle": 2,
+    "net_cycle": 2
+  },
   "site_name": "",
   "decision_target_date": "24/04/2025",
   "locality": null,
   "ward": "PW18",
-  "cil_liability": true,
-  "last_updated": "2025-07-09T22:00:57.854Z",
+  "cil_liability": false,
+  "last_updated": "2026-01-28T20:04:45.776Z",
   "appeal_status": null,
   "decision_conditions": [
     "Tree protection plan",

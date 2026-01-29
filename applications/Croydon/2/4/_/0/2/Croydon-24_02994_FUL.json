@@ -5,11 +5,11 @@
   "actual_completion_date": null,
   "reference_no_of_permission_being_relied_on": null,
   "application_type_full": "Full planning permission",
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "valid_date": "15/01/2025",
   "lpa_name": "Croydon",
   "borough": "London Borough of Croydon",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "status": "Approved",
   "appeal_start_date": null,
   "subdivision_of_building": null,
@@ -55,11 +55,18 @@
   "cil_liability": false,
   "last_date_consultation_comments": "02/06/2025",
   "decision_date": "13/06/2025",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 0,
+    "net_car": 1,
+    "no_proposed_cycle": 2,
+    "no_proposed_car": 1,
+    "net_cycle": 2
+  },
   "date_building_work_started_under_previous_permission": null,
   "date_building_work_completed_under_previous_permission": null,
   "centroid_easting": null,
-  "postcode": null,
+  "postcode": "",
   "centroid": {
     "lon": -7.55716,
     "lat": 49.766807
@@ -67,9 +74,9 @@
   "url_planning_app": null,
   "appeal_status": null,
   "centroid_northing": null,
-  "site_name": "Land R/O\r175 Queens Road\rCroydon\rCR0 2PX\r",
+  "site_name": "Land R/O\n175 Queens Road\nCroydon\nCR0 2PX\n",
   "actual_commencement_date": null,
-  "last_updated": "2025-07-09T22:00:41.287Z",
+  "last_updated": "2026-01-28T16:41:43.326Z",
   "decision_conditions": [
     "Time limit (planning consent)",
     "No Pre App - Complied No amendments Reqd",
@@ -121,7 +128,7 @@
   "development_type": null,
   "lapsed_date": "13/06/2028",
   "id": "Croydon-24_02994_FUL",
-  "street_name": null,
+  "street_name": "",
   "locality": null,
   "application_details": {
     "ownership_status": "Private",
@@ -134,17 +141,21 @@
       "total_gia_lost": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 31.446540880503143,
       "residential_units": [
         {
-          "provider": "Private",
           "no_habitable_rooms": 7,
-          "unit_no": "Gain-1",
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 5,
           "unit_type": "House or Bungalow",
+          "no_bedrooms": 5,
+          "provision_for_older_persons": false,
           "gia": 150,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "unit_development_type": "New Build"
         }
       ],
       "total_no_existing_residential_units_affordable_rent": 0,
@@ -177,8 +188,9 @@
       "total_gia_gained": 150,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "habitable_rooms_density": null,
-      "total_no_proposed_residential_units_social_rent": 0
+      "habitable_rooms_density": 220.125786163522,
+      "total_no_proposed_residential_units_social_rent": 0,
+      "site_area": 0.0318
     },
     "site_area": 0.0318,
     "building_details": [
@@ -191,13 +203,14 @@
     "surface_water_discharge_percentage_reduction": 50,
     "total_gia_existing": 0,
     "projected_cost_of_works": "Up to £2m",
-    "green_suds": true,
+    "green_suds": false,
     "non_residential_details": {
       "total_gia_gained": 150,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_lost": 0,
-      "total_gia_existing": 0
+      "total_gia_existing": 0,
+      "site_area": 0.0318
     },
     "phasing_details": [
       {
@@ -207,7 +220,7 @@
       }
     ],
     "infrastructure_details": {
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "no_passive_fast_ev_charging_points": 0,
       "no_homes_to_have_electrical_heating": 1,
       "no_non_resi_units_to_have_full_fibre": 0,
@@ -221,21 +234,34 @@
       "no_homes_passive_cooling": 0,
       "no_new_water_connections_required": 1,
       "fire_suppression_system_proposed": false,
-      "waste_provision": true,
+      "waste_provision": false,
       "total_annual_nox_emissions": 0
     },
     "total_gia_gained": 150,
     "rain_water_harvesting": false,
     "internal_resi_water_usage": 120,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 0,
-        "gia_gained": 150,
         "use_class": "C3",
+        "gia_gained": 150,
         "gia_lost": 0
       }
     ],
-    "affordable_housing_fast_track": false
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.0318
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   }
 }

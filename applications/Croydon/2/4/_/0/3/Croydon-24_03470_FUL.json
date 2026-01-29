@@ -98,12 +98,19 @@
   "decision_process": "Committee",
   "lapsed_date": "02/06/2028",
   "application_type_full": "Full planning permission",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 0,
+    "net_car": 10,
+    "no_proposed_cycle": 20,
+    "no_proposed_car": 10,
+    "net_cycle": 20
+  },
   "date_building_work_completed_under_previous_permission": null,
   "id": "Croydon-24_03470_FUL",
   "actual_commencement_date": null,
   "lpa_name": "Croydon",
-  "last_updated": "2025-11-26T23:00:37.654Z",
+  "last_updated": "2026-01-28T14:58:30.981Z",
   "lpa_app_no": "24/03470/FUL",
   "wgs84_polygon": {
     "coordinates": [
@@ -157,16 +164,16 @@
     "type": "Polygon"
   },
   "appeal_status": null,
-  "site_name": "Land To Rear Of 198 Harrington Road\rSouth Norwood\rLondon\rSE25 4NE\r",
+  "site_name": "Land To Rear Of 198 Harrington Road\nSouth Norwood\nLondon\nSE25 4NE\n",
   "title_number": [],
   "decision_date": "02/06/2025",
   "appeal_start_date": null,
-  "cil_liability": true,
+  "cil_liability": false,
   "development_type": null,
   "description": "Demolition of end of terrace dwelling and existing structures on site. Erection of 9 dwellings with associated external works including access, parking, amenity space, landscaping, refuse and cycle storage.",
   "epc_number": null,
   "reference_no_of_permission_being_relied_on": null,
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "appeal_decision": null,
   "actual_completion_date": null,
   "centroid_easting": null,
@@ -176,8 +183,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_completion_date": "06/2025",
-        "intended_commencement_date": "12/2024"
+        "intended_commencement_date": "12/2024",
+        "intended_completion_date": "06/2025"
       }
     ],
     "total_gia_gained": 1035,
@@ -194,7 +201,7 @@
     ],
     "projected_cost_of_works": "Up to £2m",
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "building_details": [
       {
         "no_storeys": 3,
@@ -210,7 +217,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 1035,
       "total_gia_existing": 259.39,
-      "total_gia_lost": 259.39
+      "total_gia_lost": 259.39,
+      "site_area": 0.15
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -233,13 +241,13 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 9,
       "total_no_existing_residential_affordable_units": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 213.33333333333334,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 1035,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 60,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_gia_lost": 259.39,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -252,99 +260,149 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 4,
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
           "unit_type": "House or Bungalow",
+          "unit_development_type": "New Build",
+          "no_habitable_rooms": 4,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "tenure": "Market for sale",
-          "gia": 259.39
+          "gia": 259.39,
+          "tenure": "Market for sale"
         },
         {
           "no_habitable_rooms": 4,
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "gia": 115,
           "tenure": "Market for sale",
-          "gia": 115
+          "unit_development_type": "New Build"
         },
         {
           "no_habitable_rooms": 4,
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "gia": 115,
           "tenure": "Market for sale",
-          "gia": 115
+          "unit_development_type": "New Build"
         },
         {
           "no_habitable_rooms": 4,
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "gia": 115,
           "tenure": "Market for sale",
-          "gia": 115
+          "unit_development_type": "New Build"
         },
         {
           "no_habitable_rooms": 4,
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "gia": 115,
           "tenure": "Market for sale",
-          "gia": 115
+          "unit_development_type": "New Build"
         },
         {
           "no_habitable_rooms": 4,
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "gia": 115,
           "tenure": "Market for sale",
-          "gia": 115
+          "unit_development_type": "New Build"
         },
         {
           "no_habitable_rooms": 4,
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "gia": 115,
           "tenure": "Market for sale",
-          "gia": 115
+          "unit_development_type": "New Build"
         },
         {
           "no_habitable_rooms": 4,
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "gia": 115,
           "tenure": "Market for sale",
-          "gia": 115
+          "unit_development_type": "New Build"
         },
         {
           "no_habitable_rooms": 4,
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "gia": 115,
           "tenure": "Market for sale",
-          "gia": 115
+          "unit_development_type": "New Build"
         },
         {
-          "no_habitable_rooms": 4,
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "gia": 115,
           "tenure": "Market for sale",
-          "gia": 115
+          "unit_development_type": "New Build"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.15
     },
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
@@ -355,7 +413,7 @@
       "no_passive_fast_ev_charging_points": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_active_fast_ev_charging_points": 9,
       "no_homes_to_have_electrical_heating": 0,
@@ -366,13 +424,26 @@
     },
     "internal_resi_water_usage": 0,
     "ownership_status": "Private",
-    "lead_developer_company_name": "Inicio Homes"
+    "lead_developer_company_name": "Inicio Homes",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.15
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
-  "last_updated_by": "Idox Uniform",
-  "postcode": null,
+  "last_updated_by": "Portal",
+  "postcode": "",
   "last_date_consultation_comments": "02/06/2025",
   "secondary_street_name": null,
   "site_number": null,
   "subdivision_of_building": null,
-  "street_name": null
+  "street_name": ""
 }
