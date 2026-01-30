@@ -80,7 +80,7 @@
     "total_gia_gained": 247,
     "building_details": [
       {
-        "no_storeys": null,
+        "no_storeys": 3,
         "max_height": 9.2,
         "building_ref": "1 Paulet Road - Rear Dormer. (Does not extend over existing ridge height)"
       }
@@ -88,7 +88,7 @@
     "garden_land_lost": true,
     "total_gia_existing": 210,
     "ownership_status": "Private",
-    "site_area": 0.015000000000000001,
+    "site_area": 0.0171,
     "projected_cost_of_works": "Up to £2m",
     "infrastructure_details": {
       "green_roof_area": 0,
@@ -131,9 +131,9 @@
     "scheme_phasing": true,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_gained": 0,
-      "total_gia_existing": 0,
-      "total_gia_lost": 0,
+      "total_gia_gained": 247,
+      "total_gia_existing": 210,
+      "total_gia_lost": 210,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "site_area": 0.02
     },
@@ -170,102 +170,55 @@
       "total_no_existing_residential_units_market_for_rent": 0,
       "residential_units": [
         {
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
-          "change_type": "Gain",
-          "unit_type": "Communal Space",
-          "provision_for_older_persons": false,
-          "gia": 15
-        },
-        {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "description": null,
-          "change_type": "Gain",
-          "m42_compliant": false,
-          "sheltered_accommodation": false,
-          "garden_land": false,
-          "unit_type": "Flat Apartment Maisonette",
-          "provider": "Private",
-          "no_habitable_rooms": 4,
-          "phase_detail": null,
-          "unit_no": null,
-          "no_bedrooms": 3,
-          "provision_for_older_persons": false,
-          "gia": 95,
-          "tenure": "Market for rent"
-        },
-        {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "description": null,
-          "change_type": "Gain",
-          "m42_compliant": false,
-          "sheltered_accommodation": false,
-          "garden_land": false,
-          "unit_type": "Flat Apartment Maisonette",
-          "provider": "Private",
-          "no_habitable_rooms": 3,
-          "phase_detail": null,
-          "unit_no": null,
-          "no_bedrooms": 1,
-          "provision_for_older_persons": false,
-          "gia": 58,
-          "tenure": "Market for rent"
-        },
-        {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "description": null,
-          "change_type": "Gain",
-          "m42_compliant": false,
-          "sheltered_accommodation": false,
-          "garden_land": false,
-          "unit_type": "Studio Bedsit",
-          "provider": "Private",
-          "no_habitable_rooms": 2,
-          "phase_detail": null,
-          "unit_no": null,
-          "no_bedrooms": 1,
-          "provision_for_older_persons": false,
-          "gia": 37,
-          "tenure": "Market for rent"
-        },
-        {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "description": null,
-          "change_type": "Gain",
-          "m42_compliant": false,
-          "sheltered_accommodation": false,
-          "garden_land": false,
-          "unit_type": "Studio Bedsit",
-          "provider": "Private",
-          "no_habitable_rooms": 2,
-          "phase_detail": null,
-          "unit_no": null,
-          "no_bedrooms": 1,
-          "provision_for_older_persons": false,
-          "gia": 42,
-          "tenure": "Market for rent"
-        },
-        {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "description": null,
-          "change_type": "Loss",
-          "m42_compliant": false,
-          "sheltered_accommodation": false,
-          "garden_land": false,
-          "unit_type": "Terraced Home",
           "no_habitable_rooms": 11,
-          "phase_detail": null,
-          "unit_no": null,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
+          "unit_type": "Terraced Home",
           "no_bedrooms": 7,
           "provision_for_older_persons": false,
           "gia": 210,
           "tenure": "Market for sale"
+        },
+        {
+          "change_type": "Gain",
+          "unit_type": "Communal Space",
+          "gia": 15
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 4,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 3,
+          "gia": 95,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
+          "gia": 58,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "change_type": "Gain",
+          "unit_type": "Studio Bedsit",
+          "no_bedrooms": 1,
+          "gia": 37,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "change_type": "Gain",
+          "unit_type": "Studio Bedsit",
+          "no_bedrooms": 1,
+          "gia": 42,
+          "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_affordable_rent": 0,
@@ -280,8 +233,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 210,
-        "use_class": "Dwellinghouses",
         "gia_gained": 247,
+        "use_class": "C3",
         "gia_lost": 210
       }
     ],
@@ -390,8 +343,8 @@
     "In the absence of a Unilateral Undertaking or other legal agreement securing appropriate mitigation by restricting future occupiers of the development from obtaining parking permits within the Controlled Parking Zone, providing car club membership and cycle hire scheme, the proposed development would likely exacerbate existing parking stress and congestion on the surrounding highway network. The application is therefore contrary to Policies D4, T1 and T7 of the Lambeth Local Plan 2020-2035 (2021) and Policy T6 of the London Plan (2021)."
   ],
   "parking_details": null,
-  "last_updated": "2025-03-19T02:42:06.264+00:00",
-  "last_updated_by": "Idox Uniform",
+  "last_updated": "2026-01-29T22:36:15.229Z",
+  "last_updated_by": "Planning Portal ingest",
   "site_number": "1",
   "appeal_status": null,
   "decision_process": "Delegated",

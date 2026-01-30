@@ -46,7 +46,7 @@
   "reference_no_of_permission_being_relied_on": null,
   "date_building_work_completed_under_previous_permission": null,
   "application_details": {
-    "site_area": 0.08,
+    "site_area": 0.8200000000000001,
     "3d_model": false,
     "affordable_housing_fast_track": false,
     "s106_agreement": false,
@@ -56,15 +56,18 @@
     "mayoral_cil_liability_notice_issued": false,
     "transport_impact_assessment": false,
     "commencement_notice_received": false,
-    "scheme_phasing": false,
+    "scheme_phasing": true,
     "rain_water_harvesting": false,
     "circular_economy_statement": false,
     "grey_water_reuse": false,
     "green_suds": false,
     "non_residential_details": {
-      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 220,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "site_area": 0.08
+      "site_area": 0.08,
+      "total_gia_gained": 220,
+      "total_gia_existing": 1396,
+      "total_gia_lost": 0
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -110,7 +113,29 @@
       "waste_provision": false,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "total_annual_pm_emissions": 0,
+      "green_roof_area": 0,
+      "no_resi_units_to_have_full_fibre": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "no_new_gas_connections_required": 0,
+      "waste_details": [
+        {
+          "external_dry_recycling": true,
+          "external_food_waste": true,
+          "unit_reference": "All Rooms",
+          "external_residual_waste": true,
+          "reason_for_no_provision": "The 'units' are hotel rooms",
+          "internal_residual_waste": true,
+          "internal_food_waste": true,
+          "internal_dry_recycling": true
+        }
+      ]
     },
     "other_residential_accommodation_details": {
       "site_area": 0.08,
@@ -120,13 +145,52 @@
           "unit_type": "Hotel Room"
         }
       ]
-    }
+    },
+    "superseding_details": [
+      {
+        "lpa_app_no": "21/01386/FUL",
+        "partial_supersedence": false
+      },
+      {
+        "lpa_app_no": "15/01219/FUL",
+        "partial_supersedence": false
+      }
+    ],
+    "total_gia_existing": 1396,
+    "projected_cost_of_works": "Up to £2m",
+    "internal_resi_water_usage": 0,
+    "phasing_details": [
+      {
+        "phase_detail": "Entire Development",
+        "intended_completion_date": "12/2024",
+        "intended_commencement_date": "03/2024"
+      }
+    ],
+    "total_gia_gained": 220,
+    "total_gia_lost": 0,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 1396,
+        "gia_gained": 220,
+        "use_class": "C1",
+        "gia_lost": 0
+      }
+    ],
+    "building_details": [
+      {
+        "no_storeys": 1,
+        "max_height": 2.96,
+        "building_ref": "Existing Rear Extension"
+      }
+    ],
+    "surface_water_discharge_percentage_reduction": 0,
+    "ownership_status": "Private"
   },
   "lpa_name": "Lambeth",
   "decision": "Approved",
   "lpa_app_no": "23/04037/FUL",
   "decision_date": "18/07/2024",
-  "last_updated": "2025-07-28T16:20:14.303Z",
+  "last_updated": "2026-01-29T22:35:20.593Z",
   "centroid_northing": 174563,
   "centroid": {
     "lat": 51.455356,
@@ -139,9 +203,9 @@
   "lapsed_date": "18/07/2027",
   "decision_process": "Delegated",
   "last_date_consultation_comments": "04/04/2024",
-  "subdivision_of_building": null,
+  "subdivision_of_building": "Rear Ground Floor, front forecourt and basement.",
   "appeal_start_date": null,
-  "epc_number": null,
+  "epc_number": "0220-0531-7259-6107-5006",
   "valid_date": "15/12/2023",
   "actual_commencement_date": null,
   "decision_conditions": [
@@ -166,7 +230,14 @@
     "Lightwell and grille",
     "Noise"
   ],
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 2,
+    "no_existing_car": 4,
+    "net_car": -1,
+    "no_proposed_car": 3,
+    "no_proposed_cycle": 4,
+    "net_cycle": 2
+  },
   "site_number": "79, 81",
   "uprn": "010090199601",
   "decision_target_date": "09/02/2024",
@@ -215,8 +286,8 @@
   "appeal_status": null,
   "status": "Approved",
   "date_building_work_started_under_previous_permission": null,
-  "application_type_full": null,
-  "last_updated_by": "Portal",
+  "application_type_full": "Full planning permission",
+  "last_updated_by": "Planning Portal ingest",
   "actual_completion_date": null,
   "street_name": "Clapham Common South Side",
   "secondary_street_name": null,

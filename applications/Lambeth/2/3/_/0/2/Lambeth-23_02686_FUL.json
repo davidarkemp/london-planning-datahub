@@ -13,7 +13,11 @@
   "decision_process": "Delegated",
   "uprn": "100023321006",
   "appeal_status": null,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 4,
+    "net_car": 0,
+    "no_proposed_car": 4
+  },
   "url_planning_app": "<enter PA URL here>",
   "valid_date": "23/08/2023",
   "centroid": {
@@ -74,15 +78,15 @@
     "grey_water_reuse": false,
     "affordable_housing_fast_track": false,
     "scheme_phasing": true,
-    "site_area": 0.012,
+    "site_area": 0.0161,
     "internal_resi_water_usage": 110,
     "green_suds": false,
     "garden_land_lost": true,
-    "total_gia_existing": 0,
+    "total_gia_existing": 302,
     "ownership_status": "Mixed",
     "building_details": [
       {
-        "no_storeys": null,
+        "no_storeys": 0,
         "max_height": 0,
         "building_ref": "N/A"
       }
@@ -163,27 +167,18 @@
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "total_gia_gained": 0,
+      "total_gia_gained": 65,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "residential_units": [
         {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "description": null,
-          "change_type": "Gain",
-          "m42_compliant": true,
-          "sheltered_accommodation": false,
-          "garden_land": false,
-          "unit_type": "Flat Apartment Maisonette",
           "provider": "Private",
           "no_habitable_rooms": 1,
-          "phase_detail": null,
-          "unit_no": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "provision_for_older_persons": false,
           "gia": 65,
           "tenure": "Market for rent"
         }
@@ -195,8 +190,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 302,
-        "use_class": "E",
         "gia_gained": 10,
+        "use_class": "E",
         "gia_lost": 0
       }
     ],
@@ -277,11 +272,11 @@
       }
     ]
   },
-  "last_updated": "2025-03-19T02:42:01.732+00:00",
+  "last_updated": "2026-01-29T22:36:18.561Z",
   "date_building_work_started_under_previous_permission": null,
   "ward": "Streatham St Leonards",
   "appeal_start_date": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "application_type": "All Other",
   "decision_conditions": [
     "The proposal fails to demonstrate that the introduction of a residential use and loss of commercial floorspace compatible with the function of the Major Centre Boundary would support the vitality and viability of this part of the Major Centre Boundary of Streatham contrary to LLP Policy PN4 (Streatham)  and ED7 (Town Centres) of the Lambeth Local Plan (2021) 2020-2035.",

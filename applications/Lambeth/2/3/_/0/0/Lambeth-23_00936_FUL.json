@@ -7,7 +7,7 @@
   "decision_target_date": "01/05/2023",
   "lapsed_date": "01/11/2027",
   "appeal_start_date": null,
-  "last_updated": "2025-08-12T16:28:38.114Z",
+  "last_updated": "2026-01-29T22:36:29.443Z",
   "locality": null,
   "development_type": null,
   "postcode": "SW16 1BW",
@@ -105,14 +105,14 @@
   "application_details": {
     "projected_cost_of_works": "Up to £2m",
     "total_gia_existing": 145.9,
-    "scheme_phasing": false,
+    "scheme_phasing": true,
     "total_gia_gained": 484.9,
-    "site_area": 0.012,
+    "site_area": 0.01572,
     "rain_water_harvesting": false,
     "non_residential_details": {
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 145.9,
       "total_gia_gained": 484.9,
-      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 484.9,
       "total_gia_lost": 145.9,
       "total_gia_existing": 145.9,
       "site_area": 0.012
@@ -124,7 +124,7 @@
       "mobile_network_operators_consultation": false,
       "no_new_water_connections_required": 5,
       "total_annual_nox_emissions": 0,
-      "ghg_reduction_over_building_regulations": false,
+      "ghg_reduction_over_building_regulations": true,
       "no_homes_passive_cooling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "no_new_gas_connections_required": 5,
@@ -132,7 +132,7 @@
       "fire_suppression_system_proposed": false,
       "no_resi_units_to_have_full_fibre": 5,
       "green_roof_area": 0,
-      "waste_provision": false
+      "waste_provision": true
     },
     "ownership_status": "Private",
     "building_details": [
@@ -155,21 +155,9 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 145.9,
-        "use_class": "E",
-        "gia_gained": 0,
-        "gia_lost": 145.9
-      },
-      {
-        "gia_existing": 0,
-        "use_class": "E",
-        "gia_gained": 100,
-        "gia_lost": 0
-      },
-      {
-        "gia_existing": 0,
-        "use_class": "C3",
         "gia_gained": 484.9,
-        "gia_lost": 0
+        "use_class": "A1",
+        "gia_lost": 145.9
       }
     ],
     "grey_water_reuse": false,
@@ -180,67 +168,47 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 3,
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": "Gain-1",
-          "description": null,
+          "no_habitable_rooms": 3,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "provision_for_older_persons": false,
           "gia": 87.3,
           "tenure": "Market for sale"
         },
         {
-          "no_habitable_rooms": 2,
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": "Gain-2",
-          "description": null,
+          "no_habitable_rooms": 2,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "provision_for_older_persons": false,
           "gia": 43.6,
           "tenure": "Market for sale"
         },
         {
-          "no_habitable_rooms": 2,
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": "Gain-3",
-          "description": null,
+          "no_habitable_rooms": 2,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "provision_for_older_persons": false,
           "gia": 43.6,
           "tenure": "Market for sale"
         },
         {
-          "no_habitable_rooms": 2,
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": "Gain-4",
-          "description": null,
+          "no_habitable_rooms": 2,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "provision_for_older_persons": false,
           "gia": 61.3,
           "tenure": "Market for sale"
         },
         {
-          "no_habitable_rooms": 3,
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": "Gain-5",
-          "description": null,
+          "no_habitable_rooms": 3,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "provision_for_older_persons": false,
           "gia": 65.2,
           "tenure": "Market for sale"
         }
@@ -281,8 +249,8 @@
       "affordable_percentage": 0,
       "site_area": 0.012
     },
-    "green_suds": false,
-    "affordable_housing_fast_track": false,
+    "green_suds": true,
+    "affordable_housing_fast_track": true,
     "s106_agreement": false,
     "viability_assessment": false,
     "air_quality_assessment": false,
@@ -297,7 +265,11 @@
     "transport_impact_assessment": false
   },
   "valid_date": "06/03/2023",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_proposed_cycle": 8,
+    "net_cycle": 8
+  },
   "actual_commencement_date": null,
   "centroid_northing": 172202,
   "application_type": "All Other",
@@ -322,7 +294,7 @@
   ],
   "url_planning_app": null,
   "pp_id": "PP-11600415",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "centroid_easting": 530177,
   "borough": "London Borough of Lambeth",
   "epc_number": null,

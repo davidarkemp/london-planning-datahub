@@ -51,11 +51,18 @@
     ],
     "type": "Polygon"
   },
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "url_planning_app": null,
   "decision_target_date": "08/10/2024",
   "status": "Approved",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 2,
+    "net_car": 3,
+    "no_proposed_car": 5,
+    "no_proposed_cycle": 8,
+    "net_cycle": 8
+  },
   "street_name": "Orchard Rise",
   "decision_agency": null,
   "appeal_decision": null,
@@ -90,7 +97,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 296.8,
-      "total_gia_existing": 111.2
+      "total_gia_existing": 111.2,
+      "site_area": 0.0927
     },
     "affordable_housing_fast_track": false,
     "grey_water_reuse": false,
@@ -105,13 +113,12 @@
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_gia_lost": 111,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 172.5997842502697,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_starter_homes": 0,
       "residential_units": [
         {
           "no_habitable_rooms": 3,
-          "unit_no": "Loss-1",
           "change_type": "Loss",
           "garden_land": true,
           "sheltered_accommodation": false,
@@ -122,9 +129,8 @@
           "tenure": "Self-Build and Custom Build"
         },
         {
-          "no_habitable_rooms": 4,
           "provider": "Private",
-          "unit_no": "Gain-1",
+          "no_habitable_rooms": 4,
           "change_type": "Gain",
           "garden_land": true,
           "unit_type": "Semi Detached Home",
@@ -133,9 +139,8 @@
           "tenure": "Market for sale"
         },
         {
-          "no_habitable_rooms": 4,
           "provider": "Private",
-          "unit_no": "Gain-2",
+          "no_habitable_rooms": 4,
           "change_type": "Gain",
           "garden_land": true,
           "unit_type": "Semi Detached Home",
@@ -144,9 +149,8 @@
           "tenure": "Market for sale"
         },
         {
-          "no_habitable_rooms": 4,
           "provider": "Private",
-          "unit_no": "Gain-3",
+          "no_habitable_rooms": 4,
           "change_type": "Gain",
           "garden_land": true,
           "unit_type": "Semi Detached Home",
@@ -155,9 +159,8 @@
           "tenure": "Market for sale"
         },
         {
-          "no_habitable_rooms": 4,
           "provider": "Private",
-          "unit_no": "Gain-4",
+          "no_habitable_rooms": 4,
           "change_type": "Gain",
           "garden_land": true,
           "unit_type": "Semi Detached Home",
@@ -178,7 +181,7 @@
       "total_no_proposed_residential_units": 4,
       "affordable_percentage": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 43.14994606256742,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
@@ -192,7 +195,8 @@
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "total_no_existing_residential_units_discount_market_rent": 0
+      "total_no_existing_residential_units_discount_market_rent": 0,
+      "site_area": 0.0927
     },
     "internal_resi_water_usage": 120,
     "scheme_phasing": true,
@@ -220,8 +224,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 111.2,
-        "use_class": "C3",
         "gia_gained": 296.8,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -236,7 +240,20 @@
       }
     ],
     "projected_cost_of_works": "Up to £2m",
-    "total_gia_existing": 111.2
+    "total_gia_existing": 111.2,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.0927
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "appeal_decision_date": null,
   "decision_date": "11/08/2025",
@@ -247,7 +264,7 @@
   "ward": "SHN18",
   "lapsed_date": "11/08/2028",
   "last_date_consultation_comments": "30/09/2024",
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "lpa_app_no": "24/02781/FUL",
   "postcode": "CR0 7QZ",
   "pp_id": "PP-13252426",
@@ -315,49 +332,24 @@
   "actual_commencement_date": null,
   "site_name": "",
   "decision_conditions": [
-    "Time limit (planning consent)",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    ""
+    "Time limit (planning consent)"
   ],
   "application_type_full": "Full planning permission",
-  "centroid_northing": "166542",
-  "epc_number": null,
+  "centroid_northing": 166542,
+  "epc_number": "0335-2823-7325-9905-8805",
   "actual_completion_date": null,
   "title_number": [],
   "appeal_status": null,
   "borough": "London Borough of Croydon",
-  "cil_liability": true,
+  "cil_liability": false,
   "decision_process": "Committee",
   "id": "Croydon-24_02781_FUL",
-  "description": "Demolition of existing dwelling and the construction of 4no. semi-detached dwellings with associated parking, refuse and cycle storage.\r",
+  "description": "Demolition of existing dwelling and the construction of 4no. semi-detached dwellings with associated parking, refuse and cycle storage.\n",
   "appeal_start_date": null,
-  "last_updated": "2025-08-26T22:00:24.602Z",
+  "last_updated": "2026-01-30T00:35:07.422Z",
   "centroid": {
     "lon": -0.039169,
     "lat": 51.38151
   },
-  "centroid_easting": "536554"
+  "centroid_easting": 536554
 }

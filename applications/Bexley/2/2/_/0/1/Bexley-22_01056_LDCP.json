@@ -1,5 +1,5 @@
 {
-  "last_updated_by": "FME Excel Import",
+  "last_updated_by": "Planning Portal ingest",
   "date_building_work_completed_under_previous_permission": null,
   "ward": "SIDCPN",
   "postcode": "DA14 4LF",
@@ -8,11 +8,82 @@
   "decision_agency": null,
   "street_name": "Birchwood Avenue",
   "site_number": "38",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              546901.75,
+              172169.5
+            ],
+            [
+              546906.75,
+              172179.1
+            ],
+            [
+              546896.9,
+              172192.7
+            ],
+            [
+              546889,
+              172203.8
+            ],
+            [
+              546880.44,
+              172215.83
+            ],
+            [
+              546874.317,
+              172211.542
+            ],
+            [
+              546878.55,
+              172205.5
+            ],
+            [
+              546884.05,
+              172197.65
+            ],
+            [
+              546885.825,
+              172195.109
+            ],
+            [
+              546886.714,
+              172195.739
+            ],
+            [
+              546888.55,
+              172193.15
+            ],
+            [
+              546886.4,
+              172191.6
+            ],
+            [
+              546888.7,
+              172188.15
+            ],
+            [
+              546889.05,
+              172187.65
+            ],
+            [
+              546901.75,
+              172169.5
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "id": "Bexley-22_01056_LDCP",
   "locality": null,
   "actual_completion_date": null,
-  "last_updated": "2025-03-19T20:35:11.122+00:00",
+  "last_updated": "2026-01-29T22:33:01.710Z",
   "appeal_status": null,
   "parking_details": {
     "no_proposed_lgv": null,
@@ -27,8 +98,8 @@
     "net_cycle": null,
     "no_proposed_carclub": null,
     "net_resi_offstreet": null,
-    "no_existing_car": null,
-    "net_car": null,
+    "no_existing_car": 1,
+    "net_car": 0,
     "no_existing_carclub": null,
     "no_proposed_bus": null,
     "no_existing_motorcycle": null,
@@ -39,7 +110,7 @@
     "no_proposed_bluebadge": null,
     "no_existing_bluebadge": null,
     "no_existing_bus": null,
-    "no_proposed_car": null,
+    "no_proposed_car": 1,
     "net_bluebadge": null,
     "net_carclub": null
   },
@@ -48,7 +119,9 @@
   "cil_liability": false,
   "decision_process": null,
   "status": "Approved",
-  "title_number": [],
+  "title_number": [
+    "Unregistered"
+  ],
   "subdivision_of_building": null,
   "description": "Lawful Development Certificate (Proposed) for alterations to roofline including formation of rear dormer extension with two rooflights in front roof slope to provide rooms in roof space.",
   "secondary_street_name": null,
@@ -60,14 +133,14 @@
     "gpdo"
   ],
   "centroid": {
-    "lat": 51.4298,
-    "lon": 0.11152
+    "lat": "51.4297079",
+    "lon": "0.1116426"
   },
   "bo_system": "Idox Uniform",
   "lpa_app_no": "22/01056/LDCP",
   "pp_id": "PP-11128869",
   "last_date_consultation_comments": null,
-  "centroid_easting": "546885",
+  "centroid_easting": 546892,
   "decision_date": "13/06/2022",
   "lpa_name": "Bexley",
   "uprn": "100020245792",
@@ -108,7 +181,7 @@
       "open_space_mol_area_gain": 0,
       "open_space_green_belt_area_loss": 0
     },
-    "site_area": null,
+    "site_area": 0.04,
     "existing_proposed_floorspace_details": [],
     "constraints_details": [],
     "building_details": [],
@@ -162,7 +235,7 @@
     "3d_model": null,
     "transport_contributions": null,
     "no_affordable_housing_units_acquired_offsite": null,
-    "total_gia_gained": null,
+    "total_gia_gained": 41.2,
     "borough_cil_liability_notice_issued": null,
     "transport_impact_assessment": null,
     "total_gia_lost": null,
@@ -214,10 +287,12 @@
       "total_no_existing_residential_units_self_build_and_custom_build": 0
     },
     "ownership_status": null,
-    "lead_developer_company_name": null
+    "lead_developer_company_name": null,
+    "no_additional_bathrooms": 1,
+    "no_additional_bedrooms": 2
   },
   "reference_no_of_permission_being_relied_on": null,
-  "centroid_northing": "172203",
+  "centroid_northing": 172193,
   "epc_number": null,
   "development_type": null,
   "date_building_work_started_under_previous_permission": null,
@@ -229,24 +304,64 @@
     "coordinates": [
       [
         [
-          0.111542,
-          51.429813
+          0.111773,
+          51.4294942
         ],
         [
-          0.111541,
-          51.429786
+          0.1118488,
+          51.4295792
         ],
         [
-          0.111498,
-          51.429787
+          0.11171289999999999,
+          51.4297039
         ],
         [
-          0.111499,
-          51.429813
+          0.11160389999999999,
+          51.4298057
         ],
         [
-          0.111542,
-          51.429813
+          0.1114859,
+          51.429916
+        ],
+        [
+          0.1113961,
+          51.4298791
+        ],
+        [
+          0.1114544,
+          51.4298237
+        ],
+        [
+          0.1115302,
+          51.4297517
+        ],
+        [
+          0.11155469999999999,
+          51.4297284
+        ],
+        [
+          0.11156769999999999,
+          51.4297339
+        ],
+        [
+          0.1115931,
+          51.4297101
+        ],
+        [
+          0.1115615,
+          51.4296968
+        ],
+        [
+          0.1115931,
+          51.4296652
+        ],
+        [
+          0.11159799999999999,
+          51.4296606
+        ],
+        [
+          0.111773,
+          51.4294942
         ]
       ]
     ],

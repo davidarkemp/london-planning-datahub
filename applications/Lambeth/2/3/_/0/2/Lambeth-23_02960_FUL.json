@@ -62,16 +62,23 @@
   "site_name": "",
   "valid_date": "15/09/2023",
   "appeal_decision_date": null,
-  "application_type_full": null,
-  "last_updated": "2025-03-19T20:05:56.247+00:00",
+  "application_type_full": "Full planning permission",
+  "last_updated": "2026-01-29T22:34:16.796Z",
   "actual_completion_date": null,
   "decision_process": "Delegated",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "borough": "London Borough of Lambeth",
   "bo_system": "Idox Uniform",
   "actual_commencement_date": null,
   "id": "Lambeth-23_02960_FUL",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 0,
+    "net_car": 3,
+    "no_proposed_car": 3,
+    "no_proposed_cycle": 8,
+    "net_cycle": 8
+  },
   "wgs84_polygon": {
     "coordinates": [
       [
@@ -133,14 +140,14 @@
     "existing_uprns": [
       "100023258266"
     ],
-    "site_area": 0.10200000000000001,
+    "site_area": 0.09770000000000001,
     "total_gia_existing": 0,
     "total_gia_lost": 0,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 0,
-        "use_class": "Storage and distribution",
         "gia_gained": 987,
+        "use_class": "B8",
         "gia_lost": 0
       }
     ],
@@ -173,7 +180,7 @@
     "surface_water_discharge_percentage_reduction": 0,
     "green_suds": false,
     "non_residential_details": {
-      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 987,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 987,
       "site_area": 0.1,
@@ -250,7 +257,9 @@
       "total_no_existing_residential_units_self_build_and_custom_build": 0
     },
     "internal_resi_water_usage": 0,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "total_gia_gained": 987,
+    "scheme_phasing": true
   },
   "secondary_street_name": null,
   "centroid": {

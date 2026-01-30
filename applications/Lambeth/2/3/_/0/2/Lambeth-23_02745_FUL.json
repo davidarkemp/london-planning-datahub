@@ -69,7 +69,7 @@
     ],
     "type": "Polygon"
   },
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_start_date": null,
   "reference_no_of_permission_being_relied_on": null,
   "application_type": "All Other",
@@ -100,14 +100,14 @@
     "existing_uprns": [
       "100023387940"
     ],
-    "site_area": 0.011000000000000001,
+    "site_area": 0.0119,
     "total_gia_existing": 179.1,
     "total_gia_lost": 0,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 179.1,
-        "use_class": "Dwellinghouses",
         "gia_gained": 105.16,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -143,7 +143,7 @@
     "grey_water_reuse": false,
     "building_details": [
       {
-        "no_storeys": null,
+        "no_storeys": 4,
         "max_height": 11.7,
         "building_ref": "No.48"
       }
@@ -153,9 +153,9 @@
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_gained": 0,
+      "total_gia_gained": 105.16,
       "site_area": 0.01,
-      "total_gia_existing": 0,
+      "total_gia_existing": 179.1,
       "total_gia_lost": 0
     },
     "garden_land_lost": false,
@@ -186,7 +186,7 @@
         {
           "external_dry_recycling": false,
           "external_food_waste": false,
-          "unit_reference": "UNIT A - Residential",
+          "unit_reference": "UNIT A",
           "external_residual_waste": false,
           "reason_for_no_provision": "NO AVAILABLE EXTERNAL SPACE. COLLECTED DAILY FROM COUNCIL, IN CONJUNCTION WITH EXISTING ARRENGMENTS FROM RETAIL PREMISES ON GROUND FLOOR",
           "internal_residual_waste": true,
@@ -196,7 +196,7 @@
         {
           "external_dry_recycling": false,
           "external_food_waste": false,
-          "unit_reference": "UNIT B - Residential",
+          "unit_reference": "UNIT B",
           "external_residual_waste": false,
           "reason_for_no_provision": "COLLECTED DAILY FROM COUNCIL, IN CONJUNCTION WITH EXISTING ARRENGMENTS FROM RETAIL PREMISES ON GROUND FLOOR",
           "internal_residual_waste": true,
@@ -206,7 +206,7 @@
         {
           "external_dry_recycling": false,
           "external_food_waste": false,
-          "unit_reference": "UNIT C - Residential",
+          "unit_reference": "UNIT C",
           "external_residual_waste": false,
           "reason_for_no_provision": "NO OUTSIDE SPACE AVAILABLE WITHIN CLOSE VICINITY. WASTE WILL BE COLLECTED DAILY FROM COUNCIL, IN CONJUNCTION WITH EXISTING ARRENGMENTS FROM RETAIL PREMISES ON GROUND FLOOR",
           "internal_residual_waste": true,
@@ -242,7 +242,7 @@
       "habitable_rooms_density": null,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
-      "total_gia_gained": 105.16,
+      "total_gia_gained": 53.9,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "dwelling_density": 0,
@@ -258,20 +258,11 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "description": null,
-          "change_type": "Gain",
-          "m42_compliant": false,
-          "sheltered_accommodation": false,
-          "garden_land": false,
-          "unit_type": "Flat Apartment Maisonette",
           "provider": "Private",
           "no_habitable_rooms": 2,
-          "phase_detail": null,
-          "unit_no": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "provision_for_older_persons": false,
           "gia": 53.9,
           "tenure": "Market for rent"
         }
@@ -280,7 +271,9 @@
       "total_no_existing_residential_units_self_build_and_custom_build": 0
     },
     "internal_resi_water_usage": 125,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "scheme_phasing": true,
+    "total_gia_gained": 105.16
   },
   "appeal_decision": null,
   "postcode": null,
@@ -301,7 +294,7 @@
   "url_planning_app": null,
   "pp_id": "PP-11966781",
   "id": "Lambeth-23_02745_FUL",
-  "application_type_full": null,
+  "application_type_full": "Full planning & demolition in a conservation area",
   "cil_liability": true,
   "status": "Refused",
   "date_building_work_completed_under_previous_permission": null,
@@ -320,8 +313,12 @@
     "",
     ""
   ],
-  "parking_details": null,
-  "last_updated": "2025-03-19T02:21:47.791+00:00",
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_proposed_cycle": 4,
+    "net_cycle": 4
+  },
+  "last_updated": "2026-01-29T22:36:19.880Z",
   "appeal_status": null,
   "street_name": null,
   "ward": "BRWIND",

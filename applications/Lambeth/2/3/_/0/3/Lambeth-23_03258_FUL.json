@@ -14,7 +14,7 @@
   "status": "Refused",
   "url_planning_app": null,
   "reference_no_of_permission_being_relied_on": null,
-  "epc_number": null,
+  "epc_number": "9714-2815-7495-9824-5451",
   "centroid_easting": 529936,
   "actual_completion_date": null,
   "site_name": "",
@@ -76,7 +76,7 @@
   },
   "site_number": "46",
   "date_building_work_started_under_previous_permission": null,
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "wgs84_polygon": {
     "type": "Polygon",
     "coordinates": [
@@ -129,9 +129,13 @@
   "decision_target_date": "10/12/2023",
   "borough": "London Borough of Lambeth",
   "lpa_name": "Lambeth",
-  "last_updated": "2025-03-19T00:46:38.135+00:00",
+  "last_updated": "2026-01-29T22:36:40.538Z",
   "secondary_street_name": null,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 2,
+    "net_car": 0,
+    "no_proposed_car": 2
+  },
   "subdivision_of_building": null,
   "decision": "Refused",
   "last_date_consultation_comments": "28/11/2023",
@@ -158,13 +162,13 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 210,
-        "use_class": "Dwellinghouses",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
     "affordable_housing_fast_track": false,
-    "site_area": 0.044000000000000004,
+    "site_area": 0.048,
     "infrastructure_details": {
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
@@ -211,7 +215,7 @@
     "non_residential_details": {
       "total_gia_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_existing": 0,
+      "total_gia_existing": 210,
       "total_gia_gained": 0,
       "site_area": 0.05,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0
@@ -234,7 +238,7 @@
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
-      "total_gia_gained": 0,
+      "total_gia_gained": 200,
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units_discount_market_rent": 0,
@@ -243,60 +247,35 @@
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "total_gia_lost": 0,
+      "total_gia_lost": 210,
       "total_no_existing_residential_affordable_units": 0,
       "residential_units": [
         {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "description": null,
-          "change_type": "Gain",
-          "m42_compliant": false,
-          "sheltered_accommodation": false,
-          "garden_land": false,
-          "unit_type": "Flat Apartment Maisonette",
-          "provider": "Private",
-          "no_habitable_rooms": 5,
-          "phase_detail": null,
-          "unit_no": null,
-          "no_bedrooms": 3,
-          "provision_for_older_persons": false,
-          "gia": 100,
-          "tenure": "Market for sale"
-        },
-        {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "description": null,
-          "change_type": "Gain",
-          "m42_compliant": false,
-          "sheltered_accommodation": false,
-          "garden_land": false,
-          "unit_type": "Flat Apartment Maisonette",
-          "provider": "Private",
-          "no_habitable_rooms": 5,
-          "phase_detail": null,
-          "unit_no": null,
-          "no_bedrooms": 3,
-          "provision_for_older_persons": false,
-          "gia": 100,
-          "tenure": "Market for sale"
-        },
-        {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "description": null,
-          "change_type": "Loss",
-          "m42_compliant": false,
-          "sheltered_accommodation": false,
-          "garden_land": false,
-          "unit_type": "Semi Detached Home",
           "no_habitable_rooms": 10,
-          "phase_detail": null,
-          "unit_no": null,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
+          "unit_type": "Semi Detached Home",
           "no_bedrooms": 6,
           "provision_for_older_persons": false,
           "gia": 210,
+          "tenure": "Market for sale"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 5,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 3,
+          "gia": 100,
+          "tenure": "Market for sale"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 5,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 3,
+          "gia": 100,
           "tenure": "Market for sale"
         }
       ],
@@ -312,9 +291,11 @@
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0
     },
     "garden_land_lost": false,
-    "rain_water_harvesting": false
+    "rain_water_harvesting": false,
+    "total_gia_gained": 0,
+    "scheme_phasing": true
   },
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "lpa_app_no": "23/03258/FUL",
   "cil_liability": false,
   "appeal_decision_date": null,

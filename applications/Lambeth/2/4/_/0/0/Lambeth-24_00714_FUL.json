@@ -1,12 +1,19 @@
 {
   "epc_number": null,
   "appeal_decision_date": null,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 10,
+    "net_car": -8,
+    "no_proposed_car": 2,
+    "no_proposed_cycle": 8,
+    "net_cycle": 8
+  },
   "appeal_decision": null,
   "decision_agency": null,
   "application_type": "All Other",
   "lpa_app_no": "24/00714/FUL",
-  "application_type_full": null,
+  "application_type_full": "Full planning & demolition in a conservation area",
   "uprn": "200000476065",
   "borough": "London Borough of Lambeth",
   "street_name": "West Road",
@@ -150,8 +157,8 @@
   "development_type": null,
   "title_number": [],
   "appeal_status": null,
-  "last_updated": "2025-09-01T20:01:05.097Z",
-  "last_updated_by": "Idox Uniform",
+  "last_updated": "2026-01-29T22:37:58.622Z",
+  "last_updated_by": "Planning Portal ingest",
   "site_name": "West View",
   "id": "Lambeth-24_00714_FUL",
   "decision": "Approved",
@@ -268,7 +275,7 @@
   },
   "pp_id": "PP-12786501",
   "application_details": {
-    "site_area": 0.031,
+    "site_area": 0.030320000000000003,
     "3d_model": false,
     "affordable_housing_fast_track": false,
     "s106_agreement": false,
@@ -278,15 +285,18 @@
     "mayoral_cil_liability_notice_issued": false,
     "transport_impact_assessment": false,
     "commencement_notice_received": false,
-    "scheme_phasing": false,
-    "rain_water_harvesting": false,
+    "scheme_phasing": true,
+    "rain_water_harvesting": true,
     "circular_economy_statement": false,
     "grey_water_reuse": false,
     "green_suds": false,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "site_area": 0.031
+      "site_area": 0.031,
+      "total_gia_gained": 210.8,
+      "total_gia_existing": 116.9,
+      "total_gia_lost": 116.9
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -307,9 +317,9 @@
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "total_no_proposed_residential_units_market_for_sale": 0,
+      "total_no_proposed_residential_units_market_for_sale": 2,
       "total_no_existing_residential_affordable_units": 0,
-      "habitable_rooms_density": 0,
+      "habitable_rooms_density": 96.7741935483871,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_social_rent": 0,
@@ -328,39 +338,92 @@
       "residential_units": [
         {
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
+          "no_habitable_rooms": 1,
           "change_type": "Gain",
-          "unit_type": "House or Bungalow",
-          "no_bedrooms": 2,
-          "provision_for_older_persons": false,
-          "gia": null
+          "unit_type": "Semi Detached Home",
+          "no_bedrooms": 3,
+          "gia": 103.4,
+          "tenure": "Market for sale"
         },
         {
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
+          "no_habitable_rooms": 2,
           "change_type": "Gain",
-          "unit_type": "House or Bungalow",
-          "no_bedrooms": 3,
-          "provision_for_older_persons": false,
-          "gia": null
+          "unit_type": "Semi Detached Home",
+          "no_bedrooms": 2,
+          "gia": 107.4,
+          "tenure": "Market for sale"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "total_gia_gained": 210.8,
+      "total_gia_lost": 0
     },
     "infrastructure_details": {
-      "waste_provision": false,
+      "waste_provision": true,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": true,
+      "total_annual_pm_emissions": 0,
+      "green_roof_area": 0,
+      "no_resi_units_to_have_full_fibre": 2,
+      "urban_greening_factor_score": 1.2,
+      "solar_pv_capacity": 4,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 2,
+      "no_passive_fast_ev_charging_points": 2,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "percentage_demolition_construction_material_recycling": 5,
+      "no_active_fast_ev_charging_points": 0,
+      "no_homes_to_have_electrical_heating": 2,
+      "no_new_gas_connections_required": 0,
+      "chp_heat_pumps_capacity": 10
     },
     "other_residential_accommodation_details": {
       "site_area": 0.031
-    }
+    },
+    "total_gia_existing": 116.9,
+    "projected_cost_of_works": "Up to £2m",
+    "internal_resi_water_usage": 105,
+    "phasing_details": [
+      {
+        "phase_detail": "Full Construction",
+        "intended_completion_date": "10/2025",
+        "intended_commencement_date": "08/2024"
+      }
+    ],
+    "total_gia_gained": 210.8,
+    "total_gia_lost": 116.9,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 116.9,
+        "gia_gained": 0,
+        "use_class": "SpecifiedOther",
+        "gia_lost": 116.9
+      },
+      {
+        "gia_existing": 0,
+        "gia_gained": 210.8,
+        "use_class": "C3",
+        "gia_lost": 0
+      }
+    ],
+    "building_details": [
+      {
+        "no_storeys": 2,
+        "max_height": 8,
+        "building_ref": "19 West View"
+      },
+      {
+        "no_storeys": 2,
+        "max_height": 8,
+        "building_ref": "21 West View"
+      }
+    ],
+    "surface_water_discharge_percentage_reduction": 50,
+    "ownership_status": "Private"
   },
   "centroid": {
     "lon": -0.131495,

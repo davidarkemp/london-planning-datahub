@@ -50,7 +50,7 @@
   "reference_no_of_permission_being_relied_on": null,
   "date_building_work_completed_under_previous_permission": null,
   "application_details": {
-    "site_area": 0.026000000000000002,
+    "site_area": 0.1,
     "3d_model": false,
     "affordable_housing_fast_track": false,
     "s106_agreement": false,
@@ -62,29 +62,48 @@
     "transport_impact_assessment": false,
     "existing_proposed_floorspace_details": [
       {
-        "gia_existing": 381.6,
-        "use_class": "B8",
+        "gia_existing": 317,
         "gia_gained": 0,
-        "gia_lost": 381.6
+        "use_class": "B8",
+        "gia_lost": 317
+      },
+      {
+        "gia_existing": 0,
+        "gia_gained": 514,
+        "use_class": "C3",
+        "gia_lost": 0
       }
     ],
     "circular_economy_statement": false,
     "commencement_notice_received": false,
-    "scheme_phasing": false,
+    "scheme_phasing": true,
     "rain_water_harvesting": false,
     "grey_water_reuse": false,
     "green_suds": false,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 381.6,
-      "site_area": 0.026000000000000002
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 317,
+      "site_area": 0.026000000000000002,
+      "total_gia_gained": 514,
+      "total_gia_existing": 317,
+      "total_gia_lost": 317
     },
     "garden_land_lost": false,
     "infrastructure_details": {
-      "waste_provision": false,
+      "waste_provision": true,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "total_annual_pm_emissions": 0,
+      "green_roof_area": 0,
+      "no_resi_units_to_have_full_fibre": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "no_new_gas_connections_required": 0
     },
     "other_residential_accommodation_details": {
       "site_area": 0.026000000000000002
@@ -92,7 +111,7 @@
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_proposed_bedrooms": 11,
-      "total_no_proposed_residential_units": 6,
+      "total_no_proposed_residential_units": 7,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
@@ -103,18 +122,18 @@
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_proposed_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "total_no_proposed_residential_units_market_for_sale": 6,
+      "total_no_proposed_residential_units_market_for_sale": 5,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": 0,
+      "habitable_rooms_density": 653.8461538461538,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 230.76923076923075,
+      "dwelling_density": 269.2307692307692,
       "site_area": 0.026000000000000002,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
@@ -127,87 +146,97 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Communal Space",
+          "gia": 72.6
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
+          "gia": 72.4,
+          "tenure": "Market for sale"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "provision_for_older_persons": false,
-          "gia": null,
-          "tenure": "Market for sale",
-          "unit_development_type": "New Build"
+          "gia": 51.4,
+          "tenure": "Market for rent"
         },
         {
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 1,
-          "provision_for_older_persons": false,
-          "gia": null,
-          "tenure": "Market for sale",
-          "unit_development_type": "New Build"
-        },
-        {
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
+          "provider": "Private",
+          "no_habitable_rooms": 3,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "provision_for_older_persons": false,
-          "gia": null,
-          "tenure": "Market for sale",
-          "unit_development_type": "New Build"
+          "gia": 64.2,
+          "tenure": "Market for sale"
         },
         {
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 2,
-          "provision_for_older_persons": false,
-          "gia": null,
-          "tenure": "Market for sale",
-          "unit_development_type": "New Build"
-        },
-        {
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 2,
-          "provision_for_older_persons": false,
-          "gia": null,
-          "tenure": "Market for sale",
-          "unit_development_type": "New Build"
-        },
-        {
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
+          "provider": "Private",
+          "no_habitable_rooms": 4,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "provision_for_older_persons": false,
-          "gia": null,
-          "tenure": "Market for sale",
-          "unit_development_type": "New Build"
+          "gia": 74.7,
+          "tenure": "Market for sale"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
+          "gia": 52.6,
+          "tenure": "Market for sale"
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
+          "gia": 62.5,
+          "tenure": "Market for sale"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
-    }
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "total_gia_gained": 450.4,
+      "total_gia_lost": 0
+    },
+    "total_gia_existing": 317,
+    "projected_cost_of_works": "Up to £2m",
+    "internal_resi_water_usage": 0,
+    "phasing_details": [
+      {
+        "phase_detail": "1",
+        "intended_completion_date": "02/2025",
+        "intended_commencement_date": "02/2024"
+      }
+    ],
+    "total_gia_gained": 514,
+    "total_gia_lost": 317,
+    "building_details": [
+      {
+        "no_storeys": 0,
+        "max_height": 0,
+        "building_ref": "0"
+      }
+    ],
+    "surface_water_discharge_percentage_reduction": 0,
+    "ownership_status": "Private"
   },
   "lpa_name": "Lambeth",
   "decision": "Approved",
   "lpa_app_no": "23/03924/FUL",
   "decision_date": "07/05/2025",
-  "last_updated": "2026-01-06T15:33:39.148Z",
+  "last_updated": "2026-01-29T22:39:30.516Z",
   "centroid_northing": 175837,
   "centroid": {
     "lat": 51.466143,
@@ -289,8 +318,8 @@
   "appeal_status": null,
   "status": "Approved",
   "date_building_work_started_under_previous_permission": null,
-  "application_type_full": null,
-  "last_updated_by": "Portal",
+  "application_type_full": "Full planning permission",
+  "last_updated_by": "Planning Portal ingest",
   "actual_completion_date": null,
   "street_name": "Station Avenue",
   "secondary_street_name": null,

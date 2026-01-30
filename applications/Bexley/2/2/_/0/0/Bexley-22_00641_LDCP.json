@@ -34,7 +34,7 @@
       "open_space_mol_area_gain": 0,
       "open_space_green_belt_area_loss": 0
     },
-    "site_area": null,
+    "site_area": 0.033,
     "existing_proposed_floorspace_details": [],
     "constraints_details": [],
     "building_details": [],
@@ -88,7 +88,7 @@
     "3d_model": null,
     "transport_contributions": null,
     "no_affordable_housing_units_acquired_offsite": null,
-    "total_gia_gained": null,
+    "total_gia_gained": 28,
     "borough_cil_liability_notice_issued": null,
     "transport_impact_assessment": null,
     "total_gia_lost": null,
@@ -140,7 +140,9 @@
       "total_no_existing_residential_units_self_build_and_custom_build": 0
     },
     "ownership_status": null,
-    "lead_developer_company_name": null
+    "lead_developer_company_name": null,
+    "no_additional_bathrooms": 1,
+    "no_additional_bedrooms": 1
   },
   "decision": "Approved",
   "appeal_status": null,
@@ -149,7 +151,7 @@
   "lpa_name": "Bexley",
   "decision_date": "04/05/2022",
   "valid_date": "14/03/2022",
-  "centroid_easting": "548302",
+  "centroid_easting": 548303,
   "epc_number": null,
   "lapsed_date": "04/05/2027",
   "reference_no_of_permission_being_relied_on": null,
@@ -160,23 +162,102 @@
   "street_name": "Davenport Road",
   "site_number": "66",
   "date_building_work_started_under_previous_permission": null,
-  "last_updated_by": "FME Excel Import",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_start_date": null,
   "appeal_decision": null,
   "cil_liability": false,
   "borough": "London Borough of Bexley",
   "lpa_app_no": "22/00641/LDCP",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              548293.44,
+              172798.96
+            ],
+            [
+              548291.7,
+              172798.2
+            ],
+            [
+              548293.974,
+              172792.969
+            ],
+            [
+              548294.868,
+              172790.914
+            ],
+            [
+              548295.7,
+              172789
+            ],
+            [
+              548297.3,
+              172785.4
+            ],
+            [
+              548298.385,
+              172782.921
+            ],
+            [
+              548305.9,
+              172765.75
+            ],
+            [
+              548307.09,
+              172765.93
+            ],
+            [
+              548314.95,
+              172767.15
+            ],
+            [
+              548313.472,
+              172770.576
+            ],
+            [
+              548307.585,
+              172784.221
+            ],
+            [
+              548305.9,
+              172788.05
+            ],
+            [
+              548303.1,
+              172794.55
+            ],
+            [
+              548299.85,
+              172801.85
+            ],
+            [
+              548294.8,
+              172799.55
+            ],
+            [
+              548293.44,
+              172798.96
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "date_building_work_completed_under_previous_permission": null,
   "actual_commencement_date": null,
   "description": "Lawful Development Certificate (Proposed) for alteration to roofline incorporating hip to gable and rear dormer extension with Juliet balcony and two rooflights in front roof slope to provide rooms in roof space.",
   "decision_process": null,
-  "last_updated": "2025-03-19T20:35:11.569+00:00",
+  "last_updated": "2026-01-29T22:33:01.628Z",
   "postcode": "DA14 4PW",
   "development_type": null,
   "site_name": null,
-  "centroid_northing": "172789",
+  "centroid_northing": 172783,
   "status": "Approved",
   "actual_completion_date": null,
   "parking_details": {
@@ -209,12 +290,14 @@
     "net_carclub": null
   },
   "application_type": "All Other",
-  "title_number": [],
+  "title_number": [
+    "Unregistered"
+  ],
   "decision_agency": null,
   "url_planning_app": null,
   "centroid": {
-    "lon": 0.132133,
-    "lat": 51.434696
+    "lon": "0.1321713",
+    "lat": "51.4346422"
   },
   "bo_system": "Idox Uniform",
   "id": "Bexley-22_00641_LDCP",
@@ -229,24 +312,72 @@
     "coordinates": [
       [
         [
-          0.132156,
-          51.434709
+          0.1320405,
+          51.4347881
         ],
         [
-          0.132154,
-          51.434682
+          0.1320152,
+          51.4347817
         ],
         [
-          0.132111,
-          51.434683
+          0.1320457,
+          51.4347341
         ],
         [
-          0.132112,
-          51.43471
+          0.1320577,
+          51.4347154
         ],
         [
-          0.132156,
-          51.434709
+          0.1320689,
+          51.434698
+        ],
+        [
+          0.1320903,
+          51.4346653
+        ],
+        [
+          0.1321049,
+          51.4346427
+        ],
+        [
+          0.13220579999999998,
+          51.4344864
+        ],
+        [
+          0.1322229,
+          51.4344878
+        ],
+        [
+          0.1323364,
+          51.4344967
+        ],
+        [
+          0.1323166,
+          51.4345278
+        ],
+        [
+          0.13223769999999999,
+          51.434652
+        ],
+        [
+          0.1322151,
+          51.4346868
+        ],
+        [
+          0.1321776,
+          51.434746
+        ],
+        [
+          0.1321339,
+          51.4348124
+        ],
+        [
+          0.1320603,
+          51.4347931
+        ],
+        [
+          0.1320405,
+          51.4347881
         ]
       ]
     ],

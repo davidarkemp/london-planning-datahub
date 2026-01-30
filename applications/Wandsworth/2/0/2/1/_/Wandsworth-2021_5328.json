@@ -106,7 +106,9 @@
   "date_building_work_started_under_previous_permission": null,
   "appeal_decision_date": null,
   "postcode": "SW12 9JA",
-  "title_number": null,
+  "title_number": [
+    "TGL126781"
+  ],
   "lpa_app_no": "2021/5328",
   "uprn": "121033502",
   "application_details": {
@@ -121,37 +123,48 @@
     "transport_impact_assessment": false,
     "existing_proposed_floorspace_details": [
       {
-        "gia_existing": null,
-        "actual_completion_date": "31/03/2023",
+        "gia_existing": 195,
+        "gia_gained": 0,
         "use_class": "B8",
-        "gia_gained": null,
-        "actual_commencement_date": "01/03/2023",
-        "gia_lost": 180
+        "gia_lost": 195
       },
       {
-        "gia_existing": null,
-        "actual_completion_date": "31/03/2025",
-        "use_class": "C3",
+        "gia_existing": 0,
         "gia_gained": 257,
-        "actual_commencement_date": "01/03/2023",
-        "gia_lost": null
+        "use_class": "C3",
+        "gia_lost": 0
       }
     ],
     "circular_economy_statement": false,
-    "scheme_phasing": false,
+    "scheme_phasing": true,
     "rain_water_harvesting": false,
     "commencement_notice_received": false,
     "grey_water_reuse": false,
     "green_suds": false,
     "non_residential_details": {
-      "site_area": 0.039
+      "site_area": 0.039,
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 195,
+      "total_gia_gained": 257,
+      "total_gia_existing": 195,
+      "total_gia_lost": 195
     },
     "garden_land_lost": false,
     "infrastructure_details": {
-      "waste_provision": false,
+      "waste_provision": true,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "total_annual_pm_emissions": 0,
+      "green_roof_area": 0,
+      "no_resi_units_to_have_full_fibre": 3,
+      "no_homes_passive_cooling": 3,
+      "no_new_water_connections_required": 3,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "percentage_demolition_construction_material_recycling": 25,
+      "no_homes_to_have_electrical_heating": 0,
+      "no_new_gas_connections_required": 3
     },
     "other_residential_accommodation_details": {
       "site_area": 0.039
@@ -176,7 +189,7 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 3,
       "total_no_existing_residential_affordable_units": 0,
-      "habitable_rooms_density": 0,
+      "habitable_rooms_density": 256.4102564102564,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_social_rent": 0,
@@ -194,48 +207,60 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "actual_completion_date": "31/03/2025",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
+          "provider": "Private",
+          "no_habitable_rooms": 4,
           "change_type": "Gain",
-          "actual_commencement_date": "01/03/2023",
-          "unit_type": "House or Bungalow",
+          "unit_type": "Semi Detached Home",
           "no_bedrooms": 3,
-          "provision_for_older_persons": false,
-          "tenure": "Market for sale",
-          "gia": null
+          "gia": 115,
+          "tenure": "Market for sale"
         },
         {
-          "actual_completion_date": "31/03/2025",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
+          "provider": "Private",
+          "no_habitable_rooms": 3,
           "change_type": "Gain",
-          "actual_commencement_date": "01/03/2023",
-          "unit_type": "House or Bungalow",
+          "unit_type": "Terraced Home",
           "no_bedrooms": 2,
-          "provision_for_older_persons": false,
-          "tenure": "Market for sale",
-          "gia": null
+          "gia": 80,
+          "tenure": "Market for sale"
         },
         {
-          "actual_completion_date": "31/03/2025",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
+          "provider": "Private",
+          "no_habitable_rooms": 3,
           "change_type": "Gain",
-          "actual_commencement_date": "01/03/2023",
-          "unit_type": "House or Bungalow",
+          "unit_type": "Semi Detached Home",
           "no_bedrooms": 2,
-          "provision_for_older_persons": false,
-          "tenure": "Market for sale",
-          "gia": null
+          "gia": 62,
+          "tenure": "Market for sale"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
-    }
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "total_gia_gained": 257,
+      "total_gia_lost": 0
+    },
+    "existing_uprns": [],
+    "total_gia_existing": 195,
+    "projected_cost_of_works": "Up to £2m",
+    "internal_resi_water_usage": 125,
+    "phasing_details": [
+      {
+        "phase_detail": "ALL",
+        "intended_completion_date": "08/2023",
+        "intended_commencement_date": "03/2022"
+      }
+    ],
+    "total_gia_gained": 257,
+    "total_gia_lost": 195,
+    "building_details": [
+      {
+        "no_storeys": 1,
+        "max_height": 4.3,
+        "building_ref": "height"
+      }
+    ],
+    "surface_water_discharge_percentage_reduction": 35,
+    "ownership_status": "Private"
   },
   "borough": "Wandsworth",
   "actual_completion_date": null,
@@ -243,8 +268,8 @@
   "locality": "London",
   "application_type": "All Other",
   "decision_target_date": "20/05/2022",
-  "last_updated_by": "Portal",
-  "application_type_full": null,
+  "last_updated_by": "Planning Portal ingest",
+  "application_type_full": "Full planning permission",
   "lpa_name": "Wandsworth",
   "url_planning_app": "http://planning.wandsworth.gov.uk/Northgate/PlanningExplorer/DisplayAppDetails.aspx?AppNo=2021/5328",
   "decision_conditions": null,
@@ -260,7 +285,7 @@
     "lon": -0.143246,
     "lat": 51.439967
   },
-  "last_updated": "2025-08-14T17:02:52.106Z",
+  "last_updated": "2026-01-29T22:32:54.120Z",
   "decision_agency": "Borough",
   "ward": "Bedford - Historic",
   "parking_details": null,

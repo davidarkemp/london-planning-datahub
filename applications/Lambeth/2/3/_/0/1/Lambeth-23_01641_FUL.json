@@ -87,13 +87,20 @@
   },
   "last_date_consultation_comments": "11/08/2023",
   "reference_no_of_permission_being_relied_on": null,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 0,
+    "net_car": 1,
+    "no_proposed_car": 1,
+    "no_proposed_cycle": 10,
+    "net_cycle": 10
+  },
   "lpa_name": "Lambeth",
   "decision_process": "Delegated",
   "decision_target_date": "28/07/2023",
   "secondary_street_name": null,
   "actual_completion_date": null,
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "centroid_easting": 529559,
   "decision_conditions": [
     "",
@@ -123,20 +130,12 @@
       "total_no_existing_residential_units_intermediate": 0,
       "residential_units": [
         {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "description": null,
-          "m42_compliant": false,
+          "provider": "Private",
+          "no_habitable_rooms": 3,
           "change_type": "Gain",
           "garden_land": true,
-          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 3,
-          "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
           "no_bedrooms": 2,
-          "provision_for_older_persons": false,
           "gia": 84,
           "tenure": "Market for rent"
         }
@@ -162,7 +161,7 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
-      "total_gia_gained": 94,
+      "total_gia_gained": 84,
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
@@ -177,14 +176,14 @@
       "site_area": 0.07
     },
     "non_residential_details": {
-      "total_gia_existing": 0,
+      "total_gia_existing": 306,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_gained": 0,
+      "total_gia_gained": 94,
       "site_area": 0.05
     },
-    "site_area": 0.07,
+    "site_area": 0.0461,
     "total_gia_gained": 94,
     "green_suds": false,
     "affordable_housing_fast_track": false,
@@ -197,7 +196,7 @@
       "ghg_reduction_over_building_regulations": false,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
-      "waste_provision": false,
+      "waste_provision": true,
       "percentage_demolition_construction_material_recycling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 46,
@@ -214,20 +213,20 @@
       "no_active_other_ev_charging_points": 0,
       "no_passive_other_ev_charging_points": 0
     },
-    "scheme_phasing": false,
+    "scheme_phasing": true,
     "surface_water_discharge_percentage_reduction": 1,
     "existing_proposed_floorspace_details": [
       {
-        "gia_existing": 368.11,
-        "use_class": "C3",
-        "gia_gained": 100.46,
+        "gia_existing": 306,
+        "gia_gained": 94,
+        "use_class": "C4",
         "gia_lost": 0
       }
     ],
     "ownership_status": "Private",
     "grey_water_reuse": false,
     "total_gia_lost": 0,
-    "garden_land_lost": false,
+    "garden_land_lost": true,
     "total_gia_existing": 306,
     "open_and_protected_space_details": {
       "open_space_local_and_other_area_gain": 0,
@@ -269,7 +268,7 @@
   "ward": "STRSTL",
   "locality": null,
   "appeal_start_date": null,
-  "subdivision_of_building": null,
+  "subdivision_of_building": "Please see attached drawings for details.",
   "id": "Lambeth-23_01641_FUL",
   "url_planning_app": null,
   "uprn": "100021827728",
@@ -282,7 +281,7 @@
   "decision_date": "19/03/2025",
   "actual_commencement_date": null,
   "epc_number": null,
-  "last_updated": "2025-08-12T17:29:11.428Z",
+  "last_updated": "2026-01-29T22:33:19.833Z",
   "application_type": "All Other",
   "bo_system": "Portal"
 }
