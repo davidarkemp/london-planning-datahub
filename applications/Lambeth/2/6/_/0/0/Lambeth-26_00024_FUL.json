@@ -47,7 +47,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -83,7 +82,8 @@
               171220
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -134,17 +134,17 @@
     },
     "building_details": [
       {
-        "max_height": 10,
         "no_storeys": 3,
+        "max_height": 10,
         "building_ref": "single building "
       }
     ],
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 56.8,
         "gia_existing": 56.8,
-        "gia_lost": 0,
-        "use_class": "EA"
+        "gia_gained": 56.8,
+        "use_class": "EA",
+        "gia_lost": 0
       }
     ],
     "green_suds": false,
@@ -175,28 +175,28 @@
       "residential_units": [
         {
           "provider": "Private",
+          "no_habitable_rooms": 2,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "no_habitable_rooms": 2,
           "gia": 50,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 2,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "no_habitable_rooms": 2,
           "gia": 50,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 4,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "change_type": "Gain",
-          "no_habitable_rooms": 4,
           "gia": 80,
           "tenure": "Market for sale"
         }
@@ -250,21 +250,17 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "171218",
-  "last_updated": "2026-01-30T00:35:08.563Z",
+  "last_updated": "2026-01-30T21:01:22.043Z",
   "centroid": {
     "lon": -0.083814,
     "lat": 51.424298
   },
   "subdivision_of_building": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "id": "Lambeth-26_00024_FUL",
-  "parking_details": {
-    "net_cycle": 6,
-    "no_existing_cycle": 0,
-    "no_proposed_cycle": 6
-  },
+  "parking_details": null,
   "description": "Erection of a single storey retail unit fronting Gipsy Hill and a ground plus two storey building to the rear fronting Sainsbury Road to accommodate three flats, following demolition of the existing single storey building."
 }

@@ -43,7 +43,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -75,7 +74,8 @@
               180139
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -116,17 +116,17 @@
     },
     "building_details": [
       {
-        "max_height": 2.8,
         "no_storeys": 1,
+        "max_height": 2.8,
         "building_ref": "Building A"
       }
     ],
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 144,
         "gia_existing": 0,
-        "gia_lost": 0,
-        "use_class": "SG"
+        "gia_gained": 144,
+        "use_class": "SG",
+        "gia_lost": 0
       }
     ],
     "green_suds": true,
@@ -153,101 +153,101 @@
       "residential_units": [
         {
           "change_type": "Gain",
-          "gia": 144,
-          "unit_type": "Communal Space"
+          "unit_type": "Communal Space",
+          "gia": 144
         },
         {
           "change_type": "Gain",
-          "gia": 144,
-          "unit_type": "Communal Space"
+          "unit_type": "Communal Space",
+          "gia": 144
         },
         {
           "change_type": "Gain",
-          "gia": 144,
-          "unit_type": "Communal Space"
+          "unit_type": "Communal Space",
+          "gia": 144
         },
         {
           "change_type": "Gain",
-          "gia": 144,
-          "unit_type": "Communal Space"
+          "unit_type": "Communal Space",
+          "gia": 144
         },
         {
           "change_type": "Gain",
-          "gia": 144,
-          "unit_type": "Communal Space"
+          "unit_type": "Communal Space",
+          "gia": 144
         },
         {
           "change_type": "Gain",
-          "gia": 144,
-          "unit_type": "Communal Space"
+          "unit_type": "Communal Space",
+          "gia": 144
         },
         {
           "change_type": "Gain",
-          "gia": 144,
-          "unit_type": "Communal Space"
+          "unit_type": "Communal Space",
+          "gia": 144
         },
         {
           "change_type": "Gain",
-          "gia": 144,
-          "unit_type": "Communal Space"
+          "unit_type": "Communal Space",
+          "gia": 144
         },
         {
           "provider": "Housing Association",
+          "no_habitable_rooms": 2,
+          "change_type": "Gain",
+          "sheltered_accommodation": true,
           "unit_type": "Other",
           "no_bedrooms": 1,
-          "sheltered_accommodation": true,
-          "change_type": "Gain",
-          "no_habitable_rooms": 2,
           "gia": 24,
           "tenure": "Social Rent"
         },
         {
           "provider": "Housing Association",
+          "no_habitable_rooms": 2,
+          "change_type": "Gain",
+          "sheltered_accommodation": true,
           "unit_type": "Other",
           "no_bedrooms": 1,
-          "sheltered_accommodation": true,
-          "change_type": "Gain",
-          "no_habitable_rooms": 2,
           "gia": 24,
           "tenure": "Social Rent"
         },
         {
           "provider": "Housing Association",
+          "no_habitable_rooms": 2,
+          "change_type": "Gain",
+          "sheltered_accommodation": true,
           "unit_type": "Other",
           "no_bedrooms": 1,
-          "sheltered_accommodation": true,
-          "change_type": "Gain",
-          "no_habitable_rooms": 2,
           "gia": 24,
           "tenure": "Social Rent"
         },
         {
           "provider": "Housing Association",
+          "no_habitable_rooms": 2,
+          "change_type": "Gain",
+          "sheltered_accommodation": true,
           "unit_type": "Other",
           "no_bedrooms": 1,
-          "sheltered_accommodation": true,
-          "change_type": "Gain",
-          "no_habitable_rooms": 2,
           "gia": 24,
           "tenure": "Social Rent"
         },
         {
           "provider": "Housing Association",
+          "no_habitable_rooms": 2,
+          "change_type": "Gain",
+          "sheltered_accommodation": true,
           "unit_type": "Other",
           "no_bedrooms": 1,
-          "sheltered_accommodation": true,
-          "change_type": "Gain",
-          "no_habitable_rooms": 2,
           "gia": 24,
           "tenure": "Social Rent"
         },
         {
           "provider": "Housing Association",
+          "no_habitable_rooms": 2,
+          "change_type": "Gain",
+          "sheltered_accommodation": true,
           "unit_type": "Other",
           "no_bedrooms": 1,
-          "sheltered_accommodation": true,
-          "change_type": "Gain",
-          "no_habitable_rooms": 2,
           "gia": 24,
           "tenure": "Social Rent"
         }
@@ -326,21 +326,17 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": null,
-  "last_updated": "2026-01-30T00:35:07.776Z",
+  "last_updated": "2026-01-30T21:02:06.359Z",
   "centroid": {
     "lon": -7.55716,
     "lat": 49.766807
   },
   "subdivision_of_building": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "id": "Southwark-26_AP_0231",
-  "parking_details": {
-    "no_proposed_car": 0,
-    "no_existing_car": 26,
-    "net_car": -26
-  },
+  "parking_details": null,
   "description": "Temporary use of the Site for six Solohaus modular homes with associated landscaping, amenity space and cycling provision."
 }

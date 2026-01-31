@@ -151,7 +151,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -291,7 +290,8 @@
               178582
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -342,23 +342,23 @@
     },
     "building_details": [
       {
-        "max_height": 7,
         "no_storeys": 2,
+        "max_height": 7,
         "building_ref": "Host building"
       }
     ],
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
         "gia_existing": 81,
-        "gia_lost": 81,
-        "use_class": "C3"
+        "gia_gained": 0,
+        "use_class": "C3",
+        "gia_lost": 81
       },
       {
-        "gia_gained": 146,
         "gia_existing": 0,
-        "gia_lost": 0,
-        "use_class": "C2"
+        "gia_gained": 146,
+        "use_class": "C2",
+        "gia_lost": 0
       }
     ],
     "green_suds": false,
@@ -396,12 +396,12 @@
       "total_no_proposed_residential_units_social_rent": 0,
       "residential_units": [
         {
-          "provision_for_older_persons": false,
+          "no_habitable_rooms": 4,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "House or Bungalow",
           "no_bedrooms": 3,
-          "sheltered_accommodation": false,
-          "change_type": "Loss",
-          "no_habitable_rooms": 4,
+          "provision_for_older_persons": false,
           "gia": 81,
           "tenure": "Market for sale"
         }
@@ -455,24 +455,17 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "178615",
-  "last_updated": "2026-01-30T00:35:07.938Z",
+  "last_updated": "2026-01-30T21:01:36.034Z",
   "centroid": {
     "lon": 0.14973,
     "lat": 51.486768
   },
   "subdivision_of_building": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "id": "Bexley-26_00063_FUL",
-  "parking_details": {
-    "no_proposed_car": 5,
-    "no_existing_cycle": 0,
-    "no_proposed_cycle": 7,
-    "net_cycle": 7,
-    "no_existing_car": 5,
-    "net_car": 0
-  },
+  "parking_details": null,
   "description": "Change of Use from Dwelling House (Class C3) to Residential Children's Home (Class C2) following single storey side and porch extension and erection of a first floor along with associated cycle storage."
 }

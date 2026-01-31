@@ -67,7 +67,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -123,7 +122,8 @@
               180118
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -157,28 +157,28 @@
     },
     "building_details": [
       {
-        "max_height": 8,
         "no_storeys": 2,
+        "max_height": 8,
         "building_ref": "Existing ground and first floor building"
       },
       {
-        "max_height": 8,
         "no_storeys": 3,
+        "max_height": 8,
         "building_ref": "New building including loft"
       }
     ],
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
         "gia_existing": 135,
-        "gia_lost": 0,
-        "use_class": "EA"
+        "gia_gained": 0,
+        "use_class": "EA",
+        "gia_lost": 0
       },
       {
-        "gia_gained": 125,
         "gia_existing": 80,
-        "gia_lost": 0,
-        "use_class": "C3"
+        "gia_gained": 125,
+        "use_class": "C3",
+        "gia_lost": 0
       }
     ],
     "green_suds": false,
@@ -205,33 +205,33 @@
       "residential_units": [
         {
           "change_type": "Gain",
-          "gia": 42,
-          "unit_type": "Communal Space"
+          "unit_type": "Communal Space",
+          "gia": 42
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 3,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "no_habitable_rooms": 3,
           "gia": 58,
           "tenure": "Market for rent"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 4,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "no_habitable_rooms": 4,
           "gia": 80,
           "tenure": "Market for rent"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 5,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "change_type": "Gain",
-          "no_habitable_rooms": 5,
           "gia": 110,
           "tenure": "Market for rent"
         }
@@ -311,27 +311,17 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "180119",
-  "last_updated": "2026-01-29T07:19:14.041Z",
+  "last_updated": "2026-01-30T05:00:46.949Z",
   "centroid": {
     "lon": 0.046737,
     "lat": 51.502136
   },
   "subdivision_of_building": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "id": "Newham-25_02530_FUL",
-  "parking_details": {
-    "no_proposed_car": 0,
-    "no_existing_cycle": 0,
-    "no_proposed_cycle": 4,
-    "net_motorcycle": 2,
-    "net_cycle": 4,
-    "no_proposed_motorcycle": 2,
-    "no_existing_car": 1,
-    "no_existing_motorcycle": 0,
-    "net_car": -1
-  },
+  "parking_details": null,
   "description": "Part change of use of ground floor retail use (Use Class E) to residential use (Use Class C3), first-floor rear and side extension and roof extension to provide 1no. two-bedroom flat, 1no. one-bedroom flat and 1no. three-bedroom flat, with associated alterations to side and front elevations.\r\r"
 }

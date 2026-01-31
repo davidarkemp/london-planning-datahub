@@ -7,14 +7,14 @@
   "development_type": null,
   "application_type": "All Other",
   "appeal_status": null,
-  "title_number": null,
-  "postcode": null,
+  "title_number": [],
+  "postcode": "",
   "locality": null,
   "appeal_decision": null,
   "status": "Approved",
   "pp_id": "13383304",
   "street_name": "UXBRIDGE",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "lpa_name": "Hillingdon",
   "centroid": {
     "lon": -0.477956,
@@ -23,7 +23,7 @@
   "lpa_app_no": "25767/APP/2024/2484",
   "borough": "Hillingdon",
   "application_details": {
-    "existing_uprns": null,
+    "existing_uprns": [],
     "affordable_housing_fast_track": false,
     "phasing_details": [
       {
@@ -39,14 +39,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 194.3,
-        "use_class": "C3",
         "gia_gained": 855.5,
+        "use_class": "C3",
         "gia_lost": 194.3
       }
     ],
     "projected_cost_of_works": "Up to £2m",
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "building_details": [
       {
         "no_storeys": 4,
@@ -62,9 +62,10 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 855.5,
       "total_gia_existing": 194.3,
-      "total_gia_lost": 194.3
+      "total_gia_lost": 194.3,
+      "site_area": 0.108
     },
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
       "no_resi_units_to_have_full_fibre": 9,
@@ -74,7 +75,7 @@
       "no_passive_fast_ev_charging_points": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_active_fast_ev_charging_points": 2,
       "no_homes_to_have_electrical_heating": 0,
@@ -104,13 +105,13 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 9,
       "total_no_existing_residential_affordable_units": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 231.4814814814815,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 710,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 83.33333333333333,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_gia_lost": 194,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -124,144 +125,195 @@
       "residential_units": [
         {
           "no_habitable_rooms": 9,
-          "unit_no": "Loss-1",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 5,
           "unit_type": "House or Bungalow",
+          "no_bedrooms": 4,
           "provision_for_older_persons": false,
           "tenure": "Market for sale",
-          "gia": 194
+          "gia": 194.3
         },
         {
-          "no_habitable_rooms": 4,
           "provider": "Private",
-          "unit_no": "Gain-1",
+          "no_habitable_rooms": 4,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 3,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "unit_development_type": "New Build",
           "tenure": "Market for sale",
           "gia": 142
         },
         {
-          "no_habitable_rooms": 3,
           "provider": "Private",
-          "unit_no": "Gain-2",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "unit_development_type": "New Build",
           "tenure": "Market for sale",
           "gia": 82
         },
         {
-          "no_habitable_rooms": 3,
           "provider": "Private",
-          "unit_no": "Gain-3",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "unit_development_type": "New Build",
           "tenure": "Market for sale",
           "gia": 78
         },
         {
-          "no_habitable_rooms": 2,
           "provider": "Private",
-          "unit_no": "Gain-4",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "unit_development_type": "New Build",
           "tenure": "Market for sale",
           "gia": 66
         },
         {
-          "no_habitable_rooms": 2,
           "provider": "Private",
-          "unit_no": "Gain-5",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "unit_development_type": "New Build",
           "tenure": "Market for sale",
           "gia": 58
         },
         {
-          "no_habitable_rooms": 3,
           "provider": "Private",
-          "unit_no": "Gain-6",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "unit_development_type": "New Build",
           "tenure": "Market for sale",
           "gia": 84
         },
         {
-          "no_habitable_rooms": 3,
           "provider": "Private",
-          "unit_no": "Gain-7",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "unit_development_type": "New Build",
           "tenure": "Market for sale",
           "gia": 76
         },
         {
-          "no_habitable_rooms": 2,
           "provider": "Private",
-          "unit_no": "Gain-8",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "unit_development_type": "New Build",
           "tenure": "Market for sale",
           "gia": 54
         },
         {
-          "no_habitable_rooms": 3,
           "provider": "Private",
-          "unit_no": "Gain-9",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "unit_development_type": "New Build",
           "tenure": "Market for sale",
           "gia": 70
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.108
     },
     "ownership_status": "Private",
-    "lead_developer_company_name": "Twiglets Developments Limited"
+    "lead_developer_company_name": "Twiglets Developments Limited",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.108
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "application_type_full": "Full planning permission",
-  "cil_liability": true,
+  "cil_liability": false,
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.47816719999999996,
-          51.5526207
+          -0.478188,
+          51.552619
         ],
         [
-          -0.47816349999999996,
-          51.5526171
+          -0.478184,
+          51.552615
         ],
         [
-          -0.4775005,
-          51.5523004
+          -0.477521,
+          51.552299
         ],
         [
-          -0.4775083,
-          51.552293399999996
+          -0.477529,
+          51.552292
         ],
         [
-          -0.47763429999999996,
-          51.5521772
+          -0.477655,
+          51.552175
         ],
         [
-          -0.4783327,
-          51.5524647
+          -0.478354,
+          51.552463
         ],
         [
-          -0.47816719999999996,
-          51.5526207
+          -0.478188,
+          51.552619
         ]
       ]
     ],
@@ -271,7 +323,7 @@
   "actual_commencement_date": null,
   "date_building_work_completed_under_previous_permission": null,
   "url_planning_app": "http://planning.hillingdon.gov.uk/OcellaWeb/planningDetails?reference=25767/APP/2024/2484",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "appeal_start_date": null,
   "secondary_street_name": null,
   "subdivision_of_building": null,
@@ -429,7 +481,7 @@
   "uprn": null,
   "reference_no_of_permission_being_relied_on": null,
   "decision_process": "Committee",
-  "last_updated": "2025-04-15T21:59:12.242Z",
+  "last_updated": "2026-01-30T17:17:52.878Z",
   "decision_agency": "Borough",
   "parking_details": {
     "no_proposed_bluebadge": 1,

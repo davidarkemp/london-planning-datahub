@@ -123,7 +123,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -235,7 +234,8 @@
               165661
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -279,13 +279,13 @@
       "waste_details": [
         {
           "external_dry_recycling": false,
-          "internal_food_waste": false,
-          "internal_dry_recycling": false,
-          "reason_for_no_provision": "0",
-          "unit_reference": "0",
           "external_food_waste": false,
+          "unit_reference": "0",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "0",
           "internal_residual_waste": false,
-          "external_residual_waste": false
+          "internal_food_waste": false,
+          "internal_dry_recycling": false
         }
       ]
     },
@@ -334,21 +334,17 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": null,
-  "last_updated": "2026-01-30T00:35:09.078Z",
+  "last_updated": "2026-01-30T23:00:56.540Z",
   "centroid": {
     "lon": -7.55716,
     "lat": 49.766807
   },
-  "subdivision_of_building": "Car park only",
-  "last_updated_by": "Planning Portal ingest",
+  "subdivision_of_building": null,
+  "last_updated_by": "Idox Uniform",
   "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "id": "Croydon-25_04129_FUL",
-  "parking_details": {
-    "no_proposed_car": 12,
-    "no_existing_car": 16,
-    "net_car": -4
-  },
+  "parking_details": null,
   "description": "Installation of 8 Electric Vehicle Charging Points with associated electrical infrastructure"
 }

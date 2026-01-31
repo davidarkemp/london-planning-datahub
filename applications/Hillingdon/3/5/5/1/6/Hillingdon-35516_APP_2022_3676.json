@@ -1,6 +1,6 @@
 {
   "reference_no_of_permission_being_relied_on": null,
-  "title_number": null,
+  "title_number": [],
   "application_type_full": "Full planning permission",
   "lpa_app_no": "35516/APP/2022/3676",
   "url_planning_app": "http://planning.hillingdon.gov.uk/OcellaWeb/planningDetails?reference=35516/APP/2022/3676",
@@ -56,12 +56,12 @@
     "type": "Polygon"
   },
   "development_type": null,
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "locality": null,
   "site_name": "32 NORWICH ROAD",
   "appeal_decision_date": null,
   "date_building_work_completed_under_previous_permission": null,
-  "cil_liability": true,
+  "cil_liability": false,
   "decision_conditions": [
     "The development hereby permitted shall be begun before the expiration of three years from the date of this permission.",
     "REASON",
@@ -144,7 +144,7 @@
     "You are advised to consult the Council's Environmental Protection Unit (www.hillingdon.gov.uk/nois",
     "Wildlife and Countryside Act 1981:  Note that it is an offence under this act to disturb roosting bats, nesting birds or any other protected species.  Therefore, if applicable, it is advisable to consult your tree surgeon / consultant to agree an acceptable time for carrying out the approved works."
   ],
-  "postcode": null,
+  "postcode": "",
   "application_type": "All Other",
   "decision_date": "22/03/2024",
   "parking_details": {
@@ -163,16 +163,16 @@
   "decision_target_date": "25/03/2024",
   "id": "Hillingdon-35516_APP_2022_3676",
   "lpa_name": "Hillingdon",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "decision_agency": "Borough",
   "date_building_work_started_under_previous_permission": null,
-  "last_updated": "2025-03-20T10:53:47.034+00:00",
+  "last_updated": "2026-01-30T18:34:58.394Z",
   "street_name": "NORTHWOOD",
   "decision": "Approved",
   "appeal_start_date": null,
   "centroid_northing": 189805,
   "application_details": {
-    "existing_uprns": null,
+    "existing_uprns": [],
     "total_gia_gained": 358.4,
     "total_gia_lost": 293.2,
     "grey_water_reuse": false,
@@ -197,8 +197,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 293.2,
-        "use_class": "C3",
         "gia_gained": 358.4,
+        "use_class": "C3",
         "gia_lost": 293.2
       }
     ],
@@ -212,56 +212,63 @@
       "dwelling_density": 51.80720810955498,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": false,
+          "change_type": "Loss",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "House or Bungalow",
           "no_habitable_rooms": 13,
           "phase_detail": null,
-          "unit_no": "Loss-1",
-          "description": null,
-          "change_type": "Loss",
-          "sheltered_accommodation": false,
+          "unit_no": null,
           "no_bedrooms": 8,
-          "unit_type": "House or Bungalow",
           "provision_for_older_persons": false,
-          "gia": 293.2,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 293.2
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 4,
           "phase_detail": null,
-          "unit_no": "Gain-1",
+          "unit_no": null,
           "description": null,
           "change_type": "Gain",
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
-          "gia": 116.85,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 101.23
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 3,
           "phase_detail": null,
-          "unit_no": "Gain-2",
+          "unit_no": null,
           "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "gia": 70.47,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 95.17
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 3,
           "phase_detail": null,
-          "unit_no": "Gain-3",
+          "unit_no": null,
           "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "gia": 70.38,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 61.87
         }
       ],
       "total_no_proposed_residential_units_intermediate": 0,
@@ -273,7 +280,7 @@
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_gia_gained": 295.2,
+      "total_gia_gained": 310.1,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_starter_homes": 0,
@@ -298,7 +305,8 @@
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
-      "site_area": 0.057907
+      "site_area": 0.057907,
+      "total_no_affordable_units": 0
     },
     "affordable_housing_fast_track": false,
     "building_details": [
@@ -308,13 +316,13 @@
         "building_ref": "32 Norwich Road"
       }
     ],
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "green_suds": false,
-    "rain_water_harvesting": true,
+    "rain_water_harvesting": false,
     "infrastructure_details": {
       "no_homes_passive_cooling": 4,
       "no_resi_units_to_have_full_fibre": 4,
-      "waste_provision": true,
+      "waste_provision": false,
       "total_annual_pm_emissions": 0,
       "no_new_water_connections_required": 4,
       "mobile_network_operators_consultation": false,
@@ -330,12 +338,21 @@
       "total_annual_nox_emissions": 0,
       "urban_greening_factor_score": 0.27,
       "no_passive_fast_ev_charging_points": 0,
-      "ghg_reduction_over_building_regulations": true
+      "ghg_reduction_over_building_regulations": false
     },
     "internal_resi_water_usage": 110,
     "other_residential_accommodation_details": {
       "site_area": 0.057907
-    }
+    },
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "appeal_decision": null,
   "polygon": {
