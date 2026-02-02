@@ -34,7 +34,7 @@
   },
   "secondary_street_name": null,
   "street_name": "Warwick Road",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "date_building_work_started_under_previous_permission": null,
   "application_details": {
     "non_residential_details": {
@@ -42,15 +42,16 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 184.7,
       "total_gia_existing": 193,
-      "total_gia_lost": 0
+      "total_gia_lost": 0,
+      "site_area": 0.1018
     },
     "total_gia_gained": 184.7,
     "affordable_housing_fast_track": false,
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "projected_cost_of_works": "Up to £2m",
     "site_area": 0.1018,
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
@@ -71,7 +72,7 @@
       "no_active_fast_ev_charging_points": 1,
       "total_annual_nox_emissions": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_homes_to_have_electrical_heating": 0,
       "solar_pv_capacity": 0.4,
       "mobile_network_operators_consultation": false,
@@ -86,18 +87,25 @@
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "residential_units": [
         {
-          "provider": "Private",
-          "no_habitable_rooms": 2,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": true,
           "change_type": "Gain",
           "unit_type": "House or Bungalow",
+          "unit_development_type": "New Build",
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
           "no_bedrooms": 5,
+          "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 184.8
         }
       ],
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 9.823182711198427,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_social_rent": 0,
@@ -112,7 +120,7 @@
       "total_gia_gained": 184.8,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units": 1,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 19.646365422396855,
       "total_no_proposed_bedrooms": 5,
       "total_no_proposed_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_intermediate": 0,
@@ -127,12 +135,13 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "total_no_existing_residential_units_starter_homes": 0
+      "total_no_existing_residential_units_starter_homes": 0,
+      "site_area": 0.1018
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_existing": 193,
-        "gia_gained": 184.7,
+        "gia_existing": 0,
+        "gia_gained": 184.8,
         "use_class": "C3",
         "gia_lost": 0
       }
@@ -150,17 +159,37 @@
         "max_height": 8.7,
         "building_ref": "New single dwelling house"
       }
-    ]
+    ],
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.1018
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "ward": "CT18",
-  "cil_liability": true,
+  "cil_liability": false,
   "centroid": {
     "lon": -0.142424,
     "lat": 51.325378
   },
   "uprn": "100020578849",
-  "parking_details": null,
-  "centroid_easting": "529527",
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 0,
+    "net_car": 2,
+    "no_proposed_car": 2,
+    "no_proposed_cycle": 2,
+    "net_cycle": 2
+  },
+  "centroid_easting": 529527,
   "development_type": null,
   "lpa_app_no": "25/00994/FUL",
   "date_building_work_completed_under_previous_permission": null,
@@ -168,7 +197,7 @@
   "locality": null,
   "application_type": "All Other",
   "id": "Croydon-25_00994_FUL",
-  "centroid_northing": "160113",
+  "centroid_northing": 160113,
   "appeal_status": null,
   "status": "Approved",
   "description": "Erection of 3 storey, 5 bedroom dwelling on the land adjacent to no 30 Warwick Road, provision of off street parking for new dwelling.",
@@ -228,7 +257,6 @@
     "Cycle and refuse",
     "Removal of PD rights",
     "lighting strategy for biodiversity",
-    "",
     "Tree protection plan",
     "Fire safety",
     "Biodiversity Method Statement",
@@ -238,12 +266,12 @@
     "obs glazing"
   ],
   "decision_agency": null,
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "actual_commencement_date": null,
   "appeal_decision_date": null,
   "pp_id": "PP-13847971",
   "reference_no_of_permission_being_relied_on": null,
   "borough": "London Borough of Croydon",
-  "last_updated": "2025-11-27T23:01:16.409Z",
+  "last_updated": "2026-02-01T14:44:18.018Z",
   "actual_completion_date": null
 }
