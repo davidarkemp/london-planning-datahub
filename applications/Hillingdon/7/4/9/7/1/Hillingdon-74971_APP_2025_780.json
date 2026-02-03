@@ -303,12 +303,12 @@
       }
     ],
     "total_gia_existing": 200,
-    "grey_water_reuse": true,
+    "grey_water_reuse": false,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 200,
-        "use_class": "C3",
         "gia_gained": 200,
+        "use_class": "C3",
         "gia_lost": 200
       }
     ],
@@ -316,19 +316,20 @@
     "existing_uprns": null,
     "total_gia_gained": 200,
     "total_gia_lost": 200,
-    "scheme_phasing": true,
-    "rain_water_harvesting": true,
+    "scheme_phasing": false,
+    "rain_water_harvesting": false,
     "projected_cost_of_works": "Up to £2m",
-    "green_suds": true,
+    "green_suds": false,
     "surface_water_discharge_percentage_reduction": 0,
     "non_residential_details": {
       "total_gia_existing": 200,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 200,
-      "total_gia_lost": 200
+      "total_gia_lost": 200,
+      "site_area": 0.02
     },
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
@@ -345,11 +346,11 @@
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_proposed_residential_units_social_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 150,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 50,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
@@ -372,27 +373,32 @@
         {
           "provider": "Private",
           "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "garden_land": true,
           "unit_type": "House or Bungalow",
           "no_bedrooms": 2,
-          "gia": 99.9,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 99.9
         }
-      ]
+      ],
+      "site_area": 0.02
     },
     "infrastructure_details": {
       "total_annual_nox_emissions": 0,
       "total_annual_pm_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "green_roof_area": 0,
       "no_resi_units_to_have_full_fibre": 1,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "no_new_water_connections_required": 1,
       "no_non_resi_units_to_have_full_fibre": 1,
       "mobile_network_operators_consultation": false,
-      "fire_suppression_system_proposed": true,
+      "fire_suppression_system_proposed": false,
       "no_passive_other_ev_charging_points": 0,
       "urban_greening_factor_score": 10,
       "no_homes_passive_cooling": 0,
@@ -403,17 +409,55 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "10/2025",
-        "intended_completion_date": "01/2026"
+        "intended_completion_date": "01/2026",
+        "intended_commencement_date": "10/2025"
       }
     ],
     "internal_resi_water_usage": 110,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.02
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "uprn": null,
   "street_name": "18 MOOR PARK ROAD",
   "decision": "Approved",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.429769,
+          51.616584
+        ],
+        [
+          -0.42977,
+          51.616557
+        ],
+        [
+          -0.429813,
+          51.616558
+        ],
+        [
+          -0.429812,
+          51.616585
+        ],
+        [
+          -0.429769,
+          51.616584
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "appeal_decision_date": null,
   "site_number": null,
   "date_building_work_started_under_previous_permission": null,
@@ -424,7 +468,7 @@
   },
   "valid_date": "19/03/2025",
   "id": "Hillingdon-74971_APP_2025_780",
-  "last_updated": "2025-12-04T22:59:13.678Z",
+  "last_updated": "2026-02-02T22:59:13.419Z",
   "locality": null,
   "status": "Approved",
   "last_date_consultation_comments": "30/04/2025",
@@ -432,6 +476,6 @@
   "actual_completion_date": null,
   "bo_system": "CSV Data Import",
   "reference_no_of_permission_being_relied_on": null,
-  "title_number": null,
+  "title_number": [],
   "application_type": "All Other"
 }

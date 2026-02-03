@@ -4,7 +4,7 @@
   "decision_agency": "Borough",
   "application_type_full": "Full planning permission",
   "application_details": {
-    "existing_uprns": null,
+    "existing_uprns": [],
     "affordable_housing_fast_track": false,
     "site_area": 0.05,
     "garden_land_lost": false,
@@ -20,14 +20,14 @@
         "building_ref": "House No. 142"
       }
     ],
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "total_gia_gained": 285.1,
     "rain_water_harvesting": false,
     "infrastructure_details": {
       "total_annual_pm_emissions": 0.1,
       "urban_greening_factor_score": 1,
       "no_new_gas_connections_required": 1,
-      "waste_provision": true,
+      "waste_provision": false,
       "ghg_reduction_over_building_regulations": false,
       "no_homes_passive_cooling": 0,
       "no_homes_to_have_electrical_heating": 0,
@@ -45,8 +45,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 69,
-        "use_class": "C3",
         "gia_gained": 285.1,
+        "use_class": "C3",
         "gia_lost": 69
       }
     ],
@@ -60,7 +60,8 @@
       "total_gia_lost": 69,
       "total_gia_existing": 69,
       "total_gia_gained": 285.1,
-      "total_non_resi_gross_internal_floor_area_to_be_gained": 0
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "site_area": 0.05
     },
     "total_gia_existing": 69,
     "phasing_details": [
@@ -79,7 +80,7 @@
     },
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_bedrooms": 14,
+      "total_no_proposed_bedrooms": 7,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units": 2,
       "total_no_proposed_residential_affordable_units": 0,
@@ -119,8 +120,8 @@
         {
           "uprn": "",
           "description": "",
-          "change_type": "Loss",
           "m42_compliant": true,
+          "change_type": "Loss",
           "unit_type": "House or Bungalow",
           "unit_development_type": "",
           "provider": "",
@@ -128,76 +129,81 @@
           "phase_detail": "",
           "unit_no": "",
           "no_bedrooms": 2,
-          "superseded_by_lpa_app_no": "",
           "provision_for_older_persons": false,
-          "gia": 69,
-          "tenure": "Market for sale"
+          "superseded_by_lpa_app_no": "",
+          "tenure": "Market for sale",
+          "gia": 69
         },
         {
           "uprn": "",
           "description": "",
-          "change_type": "Gain",
           "m42_compliant": true,
+          "change_type": "Gain",
           "unit_type": "House or Bungalow",
           "unit_development_type": "",
           "provider": "",
           "no_habitable_rooms": 15,
           "phase_detail": "",
           "unit_no": "",
-          "no_bedrooms": 7,
-          "superseded_by_lpa_app_no": "",
+          "no_bedrooms": 4,
           "provision_for_older_persons": false,
-          "gia": 285.1,
-          "tenure": "Market for sale"
+          "superseded_by_lpa_app_no": "",
+          "tenure": "Market for sale",
+          "gia": 165
         },
         {
-          "uprn": "",
-          "description": "",
-          "change_type": "Gain",
-          "m42_compliant": true,
-          "unit_type": "House or Bungalow",
-          "unit_development_type": "",
-          "provider": "",
           "no_habitable_rooms": 15,
-          "phase_detail": "",
-          "unit_no": "",
-          "no_bedrooms": 7,
-          "superseded_by_lpa_app_no": "",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "unit_type": "House or Bungalow",
+          "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "gia": 285.1,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 120
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0
-    }
+    },
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.40136649999999996,
-          51.5752209
+          -0.401387,
+          51.575219
         ],
         [
-          -0.4011837,
-          51.575263
+          -0.401205,
+          51.575261
         ],
         [
-          -0.40100349999999996,
-          51.5749572
+          -0.401024,
+          51.574955
         ],
         [
-          -0.4012054,
-          51.5749153
+          -0.401226,
+          51.574913
         ],
         [
-          -0.4013618,
-          51.5752208
+          -0.401383,
+          51.575219
         ],
         [
-          -0.40136649999999996,
-          51.5752209
+          -0.401387,
+          51.575219
         ]
       ]
     ],
@@ -342,13 +348,13 @@
   "actual_completion_date": null,
   "subdivision_of_building": null,
   "centroid": {
-    "lon": "-0.40118339999999997",
-    "lat": "51.5750841"
+    "lon": -0.401204,
+    "lat": 51.575082
   },
-  "cil_liability": true,
+  "cil_liability": false,
   "valid_date": "12/06/2024",
   "postcode": "HA4 8UB",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "borough": "Hillingdon",
   "id": "Hillingdon-78323_APP_2024_968",
   "application_type": "All Other",
@@ -360,13 +366,13 @@
   },
   "decision_target_date": "11/11/2024",
   "pp_id": "12964181",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "locality": null,
   "uprn": null,
   "last_date_consultation_comments": "21/08/2024",
-  "title_number": null,
+  "title_number": [],
   "decision": "Approved",
-  "last_updated": "2025-03-19T18:43:20.725+00:00",
+  "last_updated": "2026-02-02T11:56:48.989Z",
   "polygon": {
     "geometries": [
       {

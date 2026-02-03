@@ -1,8 +1,8 @@
 {
-  "cil_liability": true,
-  "last_updated": "2025-03-20T12:36:48.898+00:00",
+  "cil_liability": false,
+  "last_updated": "2026-02-02T14:49:48.398Z",
   "application_details": {
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "building_details": [
       {
         "no_storeys": 2,
@@ -18,12 +18,12 @@
     "green_suds": false,
     "infrastructure_details": {
       "total_annual_pm_emissions": 1,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "no_homes_passive_cooling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 1,
       "green_roof_area": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_new_water_connections_required": 1,
       "percentage_demolition_construction_material_recycling": 0,
       "fire_suppression_system_proposed": false,
@@ -35,14 +35,14 @@
     "surface_water_discharge_percentage_reduction": 1,
     "rain_water_harvesting": false,
     "ownership_status": "Private",
-    "existing_uprns": null,
+    "existing_uprns": [],
     "total_gia_gained": 74,
     "grey_water_reuse": false,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 0,
-        "use_class": "C3",
         "gia_gained": 74,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -58,9 +58,10 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 74,
       "total_gia_existing": 0,
-      "total_gia_lost": 0
+      "total_gia_lost": 0,
+      "site_area": 0.039
     },
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "residential_details": {
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units_london_living_rent": 0,
@@ -91,37 +92,54 @@
       "total_no_existing_residential_units_starter_homes": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 4,
           "provider": "Private",
-          "unit_no": "Gain-1",
+          "no_habitable_rooms": 4,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
+          "actual_commencement_date": "23/08/2025",
           "unit_type": "House or Bungalow",
-          "gia": 74,
-          "tenure": "Market for sale"
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 74
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 102.56410256410257,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_market_for_sale": 1,
       "total_gia_gained": 74,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "affordable_percentage": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 25.641025641025642,
       "total_no_existing_residential_units": 0,
-      "total_no_existing_residential_units_intermediate": 0
+      "total_no_existing_residential_units_intermediate": 0,
+      "site_area": 0.039
     },
     "projected_cost_of_works": "Up to £2m",
-    "lead_developer_company_name": "Network Management"
+    "lead_developer_company_name": "Network Management",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.039
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "decision_target_date": "05/09/2022",
   "parking_details": {},
-  "postcode": null,
+  "postcode": "",
   "appeal_decision_date": null,
   "locality": "Newbury Park",
-  "status": "Approved",
+  "status": "Commenced",
   "centroid_easting": 545866,
   "lapsed_date": "08/09/2025",
   "reference_no_of_permission_being_relied_on": null,
@@ -229,14 +247,14 @@
   "ward": "Aldborough",
   "lpa_app_no": "2310/22",
   "pp_id": "PP-11387353         ",
-  "bo_system": "Agile APAS",
+  "bo_system": "Portal",
   "borough": "Redbridge",
   "valid_date": "12/07/2022",
-  "title_number": null,
+  "title_number": [],
   "decision_agency": null,
   "uprn": "10096143834",
   "appeal_start_date": null,
-  "last_updated_by": "Agile APAS",
+  "last_updated_by": "Portal",
   "appeal_decision": null,
   "last_date_consultation_comments": "07/08/2022",
   "actual_completion_date": null,
@@ -247,106 +265,106 @@
   "secondary_street_name": null,
   "subdivision_of_building": "REAR OF SITE",
   "date_building_work_started_under_previous_permission": null,
-  "actual_commencement_date": null,
+  "actual_commencement_date": "23/08/2025",
   "street_name": "Bawdsey Avenue",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          0.1040567,
-          51.5805477
+          0.104031,
+          51.580547
         ],
         [
-          0.1041381,
-          51.5804824
+          0.104112,
+          51.580482
         ],
         [
-          0.1041182,
-          51.5804729
+          0.104092,
+          51.580472
         ],
         [
-          0.1040673,
-          51.5804482
+          0.104041,
+          51.580447
         ],
         [
-          0.1039948,
-          51.5805043
+          0.103969,
+          51.580503
         ],
         [
-          0.1039239,
-          51.5805636
+          0.103898,
+          51.580563
         ],
         [
-          0.10389609999999999,
-          51.5805862
+          0.10387,
+          51.580585
         ],
         [
-          0.103807,
-          51.580657
+          0.103781,
+          51.580656
         ],
         [
-          0.1037374,
-          51.5807136
+          0.103711,
+          51.580713
         ],
         [
-          0.10361959999999999,
-          51.5808038
+          0.103593,
+          51.580803
         ],
         [
-          0.1035222,
-          51.580882
+          0.103496,
+          51.580881
         ],
         [
-          0.10357459999999999,
-          51.5809071
+          0.103548,
+          51.580906
         ],
         [
-          0.1036015,
-          51.5809111
+          0.103575,
+          51.58091
         ],
         [
-          0.10367399999999999,
-          51.5808563
+          0.103648,
+          51.580855
         ],
         [
-          0.103736,
-          51.5808085
+          0.10371,
+          51.580808
         ],
         [
-          0.10381119999999999,
-          51.5807477
+          0.103785,
+          51.580747
         ],
         [
-          0.103809,
-          51.5807464
+          0.103783,
+          51.580746
         ],
         [
-          0.10384789999999999,
-          51.5807143
+          0.103822,
+          51.580713
         ],
         [
-          0.103907,
-          51.5806664
+          0.103881,
+          51.580666
         ],
         [
-          0.10396549999999999,
-          51.5806204
+          0.103939,
+          51.58062
         ],
         [
-          0.1039919,
-          51.5805988
+          0.103966,
+          51.580598
         ],
         [
-          0.1040567,
-          51.5805477
+          0.104031,
+          51.580547
         ]
       ]
     ],
     "type": "Polygon"
   },
   "centroid": {
-    "lat": "51.5806859",
-    "lon": "0.10382559999999999"
+    "lat": 51.580685,
+    "lon": 0.103799
   },
   "epc_number": null,
   "url_planning_app": null,
@@ -359,7 +377,7 @@
   "description": "Demolish outbuildings. Erection of 1x2 bedroom dwelling house with associated waste/refuse, cycle store, car parking, landscaping and amenity space (summary)",
   "decision_date": "09/09/2022",
   "decision_conditions": [
-    "The development hereby permitted shall make provision for off-highway 2 cycle parking spaces to be provided at this site in accordance with the standards embodied in Policy LP23 of the Council’s Local Plan.\r\n\r\nReason: In order to ensure that satisfactory provision is made to accommodate vehicles and cycles within the site, and to accord with Policy T5 of the London Plan and Policy LP23 of the Council’s Local Plan."
+    "The development hereby permitted shall make provision for off-highway 2 cycle parking spaces to be provided at this site in accordance with the standards embodied in Policy LP23 of the Council’s Local Plan.\n\nReason: In order to ensure that satisfactory provision is made to accommodate vehicles and cycles within the site, and to accord with Policy T5 of the London Plan and Policy LP23 of the Council’s Local Plan."
   ],
   "development_type": null
 }

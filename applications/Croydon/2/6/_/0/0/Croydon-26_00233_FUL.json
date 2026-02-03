@@ -39,7 +39,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -67,7 +66,8 @@
               168491
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -120,10 +120,10 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
         "gia_existing": 210,
-        "gia_lost": 0,
-        "use_class": "C3"
+        "gia_gained": 0,
+        "use_class": "C3",
+        "gia_lost": 0
       }
     ],
     "green_suds": false,
@@ -154,26 +154,26 @@
       "residential_units": [
         {
           "provider": "Local Authority",
+          "no_habitable_rooms": 2,
+          "change_type": "Gain",
           "unit_type": "Other",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "no_habitable_rooms": 2,
           "gia": 40
         },
         {
           "provider": "Local Authority",
+          "no_habitable_rooms": 2,
+          "change_type": "Gain",
           "unit_type": "Other",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "no_habitable_rooms": 2,
           "gia": 40
         },
         {
           "provider": "Local Authority",
+          "no_habitable_rooms": 2,
+          "change_type": "Gain",
           "unit_type": "Other",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "no_habitable_rooms": 2,
           "gia": 40
         }
       ],
@@ -226,21 +226,17 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "168498",
-  "last_updated": "2026-01-31T00:37:51.706Z",
+  "last_updated": "2026-02-02T23:01:11.739Z",
   "centroid": {
     "lon": -0.078974,
     "lat": 51.399759
   },
   "subdivision_of_building": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "id": "Croydon-26_00233_FUL",
-  "parking_details": {
-    "no_existing_resi_offstreet": 1,
-    "net_resi_offstreet": 0,
-    "no_proposed_resi_offstreet": 1
-  },
+  "parking_details": null,
   "description": "Alterations; single storey side extension (for boiler); Change of use from Family Home (Class C3) to Residential Institution (Class C2), Children's Home for the care of up to 3 children with associated landscaping and parking"
 }

@@ -21,7 +21,7 @@
   "ward": "UXBRIDGE 2022",
   "actual_commencement_date": null,
   "lpa_name": "Hillingdon",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "decision_conditions": [
     "The development hereby permitted shall be begun before the expiration of three years from the date of this permission.",
     "REASON",
@@ -120,19 +120,45 @@
   "centroid_easting": 504754,
   "status": "Approved",
   "decision_date": "21/11/2024",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.490951,
+          51.538679
+        ],
+        [
+          -0.490952,
+          51.538652
+        ],
+        [
+          -0.490996,
+          51.538653
+        ],
+        [
+          -0.490995,
+          51.53868
+        ],
+        [
+          -0.490951,
+          51.538679
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "decision_target_date": "21/11/2024",
   "subdivision_of_building": null,
   "last_date_consultation_comments": "20/03/2024",
   "development_type": null,
-  "title_number": null,
+  "title_number": [],
   "appeal_status": null,
-  "last_updated": "2025-03-19T17:20:14.409+00:00",
-  "last_updated_by": "CSV Data Import",
+  "last_updated": "2026-02-02T11:13:45.894Z",
+  "last_updated_by": "Portal",
   "site_name": "GARAGE SITE",
   "id": "Hillingdon-77811_APP_2024_442",
   "decision": "Approved",
-  "cil_liability": true,
+  "cil_liability": false,
   "centroid_northing": 183275,
   "appeal_start_date": null,
   "postcode": "UB8 2QL",
@@ -143,7 +169,9 @@
   "reference_no_of_permission_being_relied_on": null,
   "description": "Erection of two 3-bedroom detached dwellings with associated parking and amenity space following demolition of existing garages.",
   "valid_date": "20/02/2024",
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "pp_id": "12768632",
   "application_details": {
     "green_suds": false,
@@ -152,7 +180,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 272,
       "total_gia_gained": 272,
       "total_gia_lost": 260,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 260
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 260,
+      "site_area": 0.07
     },
     "affordable_housing_fast_track": false,
     "garden_land_lost": false,
@@ -175,8 +204,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 260,
-        "use_class": "SG",
         "gia_gained": 272,
+        "use_class": "SG",
         "gia_lost": 260
       }
     ],
@@ -191,9 +220,9 @@
     ],
     "total_gia_lost": 260,
     "infrastructure_details": {
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 20,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "no_homes_to_have_electrical_heating": 2,
       "mobile_network_operators_consultation": false,
       "total_annual_nox_emissions": 0,
@@ -207,11 +236,11 @@
       "fire_suppression_system_proposed": false,
       "total_annual_pm_emissions": 0
     },
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "lead_registered_social_landlord": "London Borough of Hillingdon",
     "total_gia_gained": 272,
     "ownership_status": "Public",
-    "existing_uprns": null,
+    "existing_uprns": [],
     "residential_details": {
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
@@ -220,24 +249,30 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 5,
           "provider": "Local Authority",
-          "unit_no": "Gain-1",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 3,
           "unit_type": "House or Bungalow",
-          "gia": 272,
-          "tenure": "Social Rent"
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "tenure": "Social Rent",
+          "gia": 272
         },
         {
-          "no_habitable_rooms": 5,
           "provider": "Local Authority",
-          "unit_no": "Gain-2",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 3,
           "unit_type": "House or Bungalow",
-          "gia": 272,
-          "tenure": "Social Rent"
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "tenure": "Social Rent",
+          "gia": 272
         }
       ],
       "total_no_existing_residential_units_intermediate": 0,
@@ -263,18 +298,31 @@
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_gia_gained": 544,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 28.57142857142857,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_affordable_units": 2,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 142.85714285714283,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_residential_units_market_for_sale": 0
+      "total_no_proposed_residential_units_market_for_sale": 0,
+      "site_area": 0.07
     },
-    "projected_cost_of_works": "Up to £2m"
+    "projected_cost_of_works": "Up to £2m",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.07
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "centroid": {
     "lon": -0.490973,
