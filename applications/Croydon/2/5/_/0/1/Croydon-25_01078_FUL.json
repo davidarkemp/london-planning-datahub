@@ -6,10 +6,17 @@
   "url_planning_app": null,
   "borough": "London Borough of Croydon",
   "application_type_full": "Full planning permission",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "25/07/2025",
   "ward": "WS18",
   "decision_date": "18/06/2025",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 0,
+    "net_car": 0,
+    "no_proposed_car": 0,
+    "no_proposed_cycle": 9,
+    "net_cycle": 9
+  },
   "polygon": {
     "type": "geometrycollection",
     "geometries": [
@@ -76,14 +83,14 @@
   ],
   "lpa_app_no": "25/01078/FUL",
   "subdivision_of_building": null,
-  "centroid_easting": "534191",
+  "centroid_easting": 534191,
   "epc_number": null,
   "secondary_street_name": null,
   "lpa_name": "Croydon",
   "appeal_decision": null,
   "decision_agency": null,
-  "last_updated_by": "Idox Uniform",
-  "cil_liability": true,
+  "last_updated_by": "Portal",
+  "cil_liability": false,
   "postcode": "SE25 5BE",
   "decision_process": "Delegated",
   "application_details": {
@@ -100,22 +107,24 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 132,
-        "use_class": "C3",
         "gia_gained": 101,
+        "use_class": "C3",
+        "actual_commencement_date": "25/07/2025",
         "gia_lost": 132
       },
       {
         "gia_existing": 0,
-        "use_class": "SG",
         "gia_gained": 132,
+        "use_class": "SG",
+        "actual_commencement_date": "25/07/2025",
         "gia_lost": 0
       }
     ],
     "site_area": 0.0252,
     "total_gia_gained": 233,
-    "green_suds": true,
+    "green_suds": false,
     "total_gia_lost": 132,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "rain_water_harvesting": false,
     "projected_cost_of_works": "Up to £2m",
     "surface_water_discharge_percentage_reduction": 0,
@@ -124,9 +133,10 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 132,
       "total_gia_gained": 233,
-      "total_gia_lost": 132
+      "total_gia_lost": 132,
+      "site_area": 0.0252
     },
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_market_for_sale": 1,
@@ -143,11 +153,11 @@
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_proposed_residential_units_social_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 158.73015873015873,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 39.682539682539684,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
@@ -168,25 +178,41 @@
       "total_no_existing_residential_affordable_units": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 4,
+          "actual_completion_date": "25/07/2025",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
           "unit_type": "Terraced Home",
+          "unit_development_type": "Change of Use",
+          "provider": "Private",
+          "no_habitable_rooms": 4,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "25/07/2025",
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 132
         },
         {
-          "no_habitable_rooms": 4,
-          "provider": "Private",
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": true,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
+          "unit_development_type": "New Build",
+          "provider": "Private",
+          "no_habitable_rooms": 4,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "25/07/2025",
           "no_bedrooms": 3,
+          "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 101
         }
-      ]
+      ],
+      "site_area": 0.0252
     },
     "infrastructure_details": {
       "total_annual_nox_emissions": 0,
@@ -194,7 +220,7 @@
       "percentage_demolition_construction_material_recycling": 0,
       "green_roof_area": 7,
       "no_resi_units_to_have_full_fibre": 2,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "no_new_water_connections_required": 1,
       "no_non_resi_units_to_have_full_fibre": 0,
       "chp_heat_pumps_capacity": 0.05,
@@ -204,7 +230,7 @@
       "no_homes_passive_cooling": 2,
       "no_homes_to_have_electrical_heating": 2,
       "total_annual_pm_emissions": 0,
-      "waste_provision": true
+      "waste_provision": false
     },
     "internal_resi_water_usage": 120,
     "phasing_details": [
@@ -218,12 +244,26 @@
       "other_resi_accommodation_unit_details": [
         {
           "no_rooms_proposed": 5,
-          "unit_type": "Secure Residential Room",
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "actual_commencement_date": "25/07/2025",
+          "unit_type": "Hostel Room",
           "no_rooms_lost": 0
         }
-      ]
+      ],
+      "site_area": 0.0252
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "uprn": "100020640170",
   "street_name": "Birchanger Road",
@@ -270,20 +310,20 @@
   "appeal_decision_date": null,
   "site_number": "49",
   "date_building_work_started_under_previous_permission": null,
-  "centroid_northing": "167821",
+  "centroid_northing": 167821,
   "centroid": {
     "lon": -0.072621,
     "lat": 51.393566
   },
   "valid_date": "28/03/2025",
   "id": "Croydon-25_01078_FUL",
-  "last_updated": "2025-11-26T23:00:45.550Z",
+  "last_updated": "2026-02-03T15:34:26.277Z",
   "locality": "South Norwood",
-  "status": "Approved",
+  "status": "Commenced",
   "last_date_consultation_comments": "29/04/2025",
   "decision_target_date": "23/05/2025",
   "actual_completion_date": null,
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "reference_no_of_permission_being_relied_on": null,
   "title_number": [],
   "application_type": "All Other"

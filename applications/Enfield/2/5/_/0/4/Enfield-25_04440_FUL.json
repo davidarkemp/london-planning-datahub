@@ -93,23 +93,23 @@
     "non_residential_details": {
       "site_area": 0.02,
       "total_gia_gained": 105,
-      "total_gia_existing": 105,
+      "total_gia_existing": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 105,
-      "total_gia_lost": 105,
+      "total_gia_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
         "gia_existing": 105,
-        "gia_lost": 105,
-        "use_class": "C3"
+        "gia_gained": 0,
+        "use_class": "C3",
+        "gia_lost": 105
       },
       {
-        "gia_gained": 105,
         "gia_existing": 0,
-        "gia_lost": 0,
-        "use_class": "C2"
+        "gia_gained": 105,
+        "use_class": "C2",
+        "gia_lost": 0
       }
     ],
     "green_suds": false,
@@ -135,12 +135,20 @@
       "total_no_proposed_residential_units_social_rent": 0,
       "residential_units": [
         {
-          "provision_for_older_persons": false,
-          "unit_type": "Terraced Home",
-          "no_bedrooms": 4,
-          "sheltered_accommodation": false,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Terraced Home",
           "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 4,
+          "provision_for_older_persons": false,
+          "tenure": "Intermediate Other",
           "gia": 105
         }
       ],
@@ -163,7 +171,7 @@
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_gia_gained": 0,
-      "total_no_existing_residential_affordable_units": 0,
+      "total_no_existing_residential_affordable_units": 1,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_gia_lost": 105,
       "habitable_rooms_density": null,
@@ -173,7 +181,7 @@
       "total_no_existing_residential_units_starter_homes": 0
     },
     "rain_water_harvesting": false,
-    "site_area": 0.0158,
+    "site_area": 158,
     "infrastructure_details": {
       "no_passive_slow_ev_charging_points": 0,
       "fire_suppression_system_proposed": false,
@@ -217,7 +225,12 @@
       "site_area": 0.02,
       "other_resi_accommodation_unit_details": [
         {
+          "no_bedrooms_for_older_persons_c2": 0,
+          "no_bedrooms_for_older_persons_sg": 0
+        },
+        {
           "no_rooms_proposed": 3,
+          "unit_type": "Care Home Bedroom",
           "no_rooms_lost": 0
         }
       ]
@@ -247,13 +260,13 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": 199818,
-  "last_updated": "2026-02-03T00:36:25.708Z",
+  "last_updated": "2026-02-03T21:07:36.700Z",
   "centroid": {
     "lon": -0.048177,
     "lat": 51.680897
   },
   "subdivision_of_building": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "title_number": null,
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
