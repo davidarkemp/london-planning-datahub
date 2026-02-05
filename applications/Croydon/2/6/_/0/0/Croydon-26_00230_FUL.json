@@ -35,7 +35,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -59,7 +58,8 @@
               169035
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -135,44 +135,44 @@
       "total_no_proposed_residential_units_social_rent": 0,
       "residential_units": [
         {
-          "provision_for_older_persons": false,
+          "no_habitable_rooms": 8,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "Semi Detached Home",
           "no_bedrooms": 5,
-          "sheltered_accommodation": false,
-          "change_type": "Loss",
-          "no_habitable_rooms": 8,
+          "provision_for_older_persons": false,
           "gia": 170,
           "tenure": "London Affordable Rent"
         },
         {
           "change_type": "Gain",
-          "gia": 49,
-          "unit_type": "Communal Space"
+          "unit_type": "Communal Space",
+          "gia": 49
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 3,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "no_habitable_rooms": 3,
           "gia": 101,
           "tenure": "London Affordable Rent"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 4,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "change_type": "Gain",
-          "no_habitable_rooms": 4,
           "gia": 70,
           "tenure": "London Affordable Rent"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 2,
+          "change_type": "Gain",
           "unit_type": "Studio Bedsit",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "no_habitable_rooms": 2,
           "gia": 49,
           "tenure": "London Affordable Rent"
         }
@@ -226,24 +226,17 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "169046",
-  "last_updated": "2026-02-04T00:37:23.289Z",
+  "last_updated": "2026-02-04T23:01:56.628Z",
   "centroid": {
     "lon": -0.123065,
     "lat": 51.405401
   },
-  "subdivision_of_building": "THIS INVOLVES THE WHOLE PROPERTY\n\nPLEASE NOTE APPROVAL HAS ALREADY BEEN GAINED FOR A LOFT CONVERSION UNDER PERMITTED DEVELOPMENT.",
-  "last_updated_by": "Planning Portal ingest",
+  "subdivision_of_building": null,
+  "last_updated_by": "Idox Uniform",
   "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "id": "Croydon-26_00230_FUL",
-  "parking_details": {
-    "no_proposed_car": 1,
-    "no_existing_cycle": 2,
-    "no_proposed_cycle": 4,
-    "net_cycle": 2,
-    "no_existing_car": 1,
-    "net_car": 0
-  },
+  "parking_details": null,
   "description": "Erection of a hip to gable roof extension, rear dormer and 4 front rooflights to facilitate the conversion of the dwelling to 3 flats. Installation of external bin and bike storage."
 }

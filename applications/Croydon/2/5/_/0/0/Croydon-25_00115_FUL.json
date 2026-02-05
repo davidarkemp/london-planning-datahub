@@ -6,7 +6,7 @@
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
   "decision": "",
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "valid_date": "13/02/2025",
   "description": "Change of use from a small House in Multiple Occupation (Use class C4) to a large 9-bedroom 9 person HMO (sui generis Use class) with additional floor area to be created through the erection of a ground-floor wrap around extension, and an L-shape dormer extension, following the approval of application reference 24/02447/FUL.",
   "application_type_full": "Full planning permission",
@@ -21,8 +21,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "04/2025",
-        "intended_completion_date": "06/2025"
+        "intended_completion_date": "06/2025",
+        "intended_commencement_date": "04/2025"
       }
     ],
     "site_area": 0.02,
@@ -32,7 +32,8 @@
       "total_gia_existing": 160,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 195,
       "total_gia_lost": 0,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "site_area": 0.02
     },
     "garden_land_lost": false,
     "total_gia_gained": 195,
@@ -49,7 +50,7 @@
       "green_roof_area": 0,
       "no_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_homes_to_have_electrical_heating": 0,
       "no_new_water_connections_required": 0,
       "percentage_demolition_construction_material_recycling": 0,
@@ -60,12 +61,14 @@
         "gia_existing": 160,
         "gia_gained": 0,
         "use_class": "C4",
+        "actual_commencement_date": "01/04/2025",
         "gia_lost": 0
       },
       {
         "gia_existing": 0,
         "gia_gained": 195,
         "use_class": "SG",
+        "actual_commencement_date": "01/04/2025",
         "gia_lost": 0
       }
     ],
@@ -76,7 +79,7 @@
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "total_no_proposed_residential_units_market_for_rent": 1,
+      "total_no_proposed_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
@@ -87,34 +90,32 @@
       "total_no_existing_residential_affordable_units": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 1,
-          "unit_no": "Loss-1",
+          "actual_completion_date": "01/04/2025",
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": false,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 4,
           "unit_type": "HMO",
+          "unit_development_type": "Change of Use",
+          "provider": "Private rented sector",
+          "no_habitable_rooms": 1,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "01/04/2025",
+          "no_bedrooms": 4,
           "provision_for_older_persons": false,
-          "gia": 160,
-          "tenure": "Market for rent"
-        },
-        {
-          "provider": "Private",
-          "no_habitable_rooms": 2,
-          "unit_no": "Gain-1",
-          "change_type": "Gain",
-          "no_bedrooms": 9,
-          "unit_type": "Other",
-          "gia": 195,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 160
         }
       ],
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units_market_for_rent": 1,
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_bedrooms": 9,
+      "total_no_proposed_bedrooms": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_london_living_rent": 0,
@@ -122,7 +123,7 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
-      "total_no_proposed_residential_units": 1,
+      "total_no_proposed_residential_units": 0,
       "total_gia_gained": 195,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "affordable_percentage": 0,
@@ -131,25 +132,53 @@
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_starter_homes": 0,
       "total_gia_lost": 160,
-      "total_no_proposed_residential_units_intermediate": 0
+      "total_no_proposed_residential_units_intermediate": 0,
+      "site_area": 0.02
     },
     "ownership_status": "Private",
     "total_gia_lost": 0,
     "projected_cost_of_works": "Up to £2m",
-    "scheme_phasing": true
+    "scheme_phasing": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.02,
+      "other_resi_accommodation_unit_details": [
+        {
+          "no_rooms_proposed": 9,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "actual_commencement_date": "01/04/2025",
+          "unit_type": "Hostel Room",
+          "no_rooms_lost": 0
+        }
+      ]
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "appeal_decision_date": null,
   "lapsed_date": "27/06/2028",
-  "centroid_easting": "532528",
+  "centroid_easting": 532528,
   "decision_target_date": "10/04/2025",
   "street_name": "Ledbury Road",
-  "last_updated": "2025-07-10T22:00:42.463Z",
+  "last_updated": "2026-02-04T11:24:08.755Z",
   "date_building_work_completed_under_previous_permission": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "development_type": null,
   "title_number": [],
   "postcode": "CR0 1EP",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_proposed_cycle": 9,
+    "net_cycle": 9
+  },
   "actual_completion_date": null,
   "appeal_start_date": null,
   "secondary_street_name": null,
@@ -208,8 +237,8 @@
       }
     ]
   },
-  "status": "",
-  "actual_commencement_date": null,
+  "status": "Commenced",
+  "actual_commencement_date": "01/04/2025",
   "decision_conditions": [
     "Time limit (planning consent)",
     "cycle and front wall",
@@ -224,7 +253,7 @@
   ],
   "uprn": "100020608138",
   "lpa_name": "Croydon",
-  "centroid_northing": "164545",
+  "centroid_northing": 164545,
   "site_name": "",
   "wgs84_polygon": {
     "coordinates": [
@@ -274,5 +303,5 @@
   "subdivision_of_building": null,
   "id": "Croydon-25_00115_FUL",
   "decision_date": "27/06/2025",
-  "cil_liability": true
+  "cil_liability": false
 }

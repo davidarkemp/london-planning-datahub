@@ -79,7 +79,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -147,7 +146,8 @@
               166963.75
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -194,9 +194,9 @@
     },
     "total_gia_gained": 0,
     "intended_completion_date": "03/2026",
-    "total_gia_existing": 58.8,
+    "total_gia_existing": 0,
     "intended_commencement_date": "03/2026",
-    "total_gia_lost": 58.8,
+    "total_gia_lost": 0,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
@@ -218,13 +218,22 @@
       "total_no_proposed_residential_units_social_rent": 0,
       "residential_units": [
         {
-          "provider": "Private",
-          "unit_type": "Terraced Home",
-          "no_bedrooms": 1,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": true,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Terraced Home",
+          "provider": "Private",
           "no_habitable_rooms": 3,
-          "gia": 58.8,
-          "tenure": "Market for sale"
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 58.8
         }
       ],
       "total_no_existing_residential_units_london_shared_ownership": 0,
@@ -245,7 +254,7 @@
       "total_no_existing_residential_units": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
-      "total_gia_gained": 58.8,
+      "total_gia_gained": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_gia_lost": 0,
@@ -257,10 +266,10 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
         "gia_existing": 58.8,
-        "gia_lost": 58.8,
-        "use_class": "EA"
+        "gia_gained": 0,
+        "use_class": "Other",
+        "gia_lost": 58.8
       }
     ]
   },
@@ -283,13 +292,13 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": 166967,
-  "last_updated": "2026-02-03T00:36:24.988Z",
+  "last_updated": "2026-02-04T18:02:11.628Z",
   "centroid": {
     "lon": -0.297591,
     "lat": 51.389371
   },
   "subdivision_of_building": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "title_number": null,
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,

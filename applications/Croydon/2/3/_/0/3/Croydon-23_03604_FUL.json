@@ -47,24 +47,31 @@
     ],
     "type": "geometrycollection"
   },
-  "cil_liability": true,
+  "cil_liability": false,
   "lapsed_date": "15/08/2028",
   "appeal_decision": null,
   "street_name": "Rickman Hill",
   "decision_agency": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "description": "Construction of a 1-bedroom detached dwellinghouse with 1no. on-site car parking space, associated access, soft and hard landscaping on land to the rear of 76 Rickman Hill following the demolition of an existing garage. Creation of new vehicular access off Rickman Hill with associated hard landscaping to provide 1no. on-site car parking spaces for existing dwelling. [amended description]",
   "decision": "",
-  "centroid_northing": "158797",
-  "bo_system": "Idox Uniform",
-  "last_updated": "2025-08-28T22:00:52.167Z",
+  "centroid_northing": 158797,
+  "bo_system": "Portal",
+  "last_updated": "2026-02-04T12:17:16.596Z",
   "appeal_status": null,
   "date_building_work_started_under_previous_permission": null,
   "ward": "CT18",
-  "centroid_easting": "528748",
+  "centroid_easting": 528748,
   "site_name": "",
   "application_type": "All Other",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 1,
+    "net_car": 1,
+    "no_proposed_car": 2,
+    "no_proposed_cycle": 2,
+    "net_cycle": 2
+  },
   "subdivision_of_building": null,
   "appeal_start_date": null,
   "lpa_name": "Croydon",
@@ -141,7 +148,6 @@
     "removal of pd rights",
     "Approved plans",
     "Cycle and bin storage",
-    "",
     "M4(2)"
   ],
   "status": "",
@@ -149,7 +155,7 @@
   "id": "Croydon-23_03604_FUL",
   "lpa_app_no": "23/03604/FUL",
   "application_details": {
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "rain_water_harvesting": false,
     "total_gia_gained": 50,
     "total_gia_lost": 0,
@@ -166,9 +172,9 @@
       "mobile_network_operators_consultation": false,
       "no_resi_units_to_have_full_fibre": 1,
       "no_homes_passive_cooling": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 50,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "fire_suppression_system_proposed": false
     },
     "projected_cost_of_works": "Up to £2m",
@@ -177,14 +183,15 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 50,
       "total_gia_existing": 0,
-      "total_gia_lost": 0
+      "total_gia_lost": 0,
+      "site_area": 0.059000000000000004
     },
     "total_gia_existing": 0,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 0,
-        "use_class": "C3",
         "gia_gained": 50,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -197,7 +204,7 @@
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_discount_market_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 33.89830508474576,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -205,14 +212,20 @@
       "total_no_proposed_residential_units_shared_equity": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 2,
-          "provider": "Private",
-          "unit_no": "Gain-1",
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": true,
           "change_type": "Gain",
           "unit_type": "House or Bungalow",
+          "unit_development_type": "New Build",
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
           "no_bedrooms": 1,
-          "gia": 50,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 50
         }
       ],
       "total_no_proposed_residential_units_market_for_sale": 1,
@@ -227,7 +240,7 @@
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 16.94915254237288,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units_market_for_rent": 0,
       "total_no_proposed_residential_units_intermediate": 0,
@@ -240,7 +253,8 @@
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_starter_homes": 0,
-      "total_no_existing_residential_units_intermediate": 0
+      "total_no_existing_residential_units_intermediate": 0,
+      "site_area": 0.059000000000000004
     },
     "grey_water_reuse": false,
     "phasing_details": [
@@ -251,8 +265,21 @@
       }
     ],
     "internal_resi_water_usage": 0,
-    "garden_land_lost": true,
-    "site_area": 0.059000000000000004
+    "garden_land_lost": false,
+    "site_area": 0.059000000000000004,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.059000000000000004
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "uprn": "100020576593"
 }
