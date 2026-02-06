@@ -59,7 +59,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -107,7 +106,8 @@
               171365
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -160,28 +160,28 @@
     },
     "building_details": [
       {
-        "max_height": 8.8,
         "no_storeys": 3,
+        "max_height": 8.8,
         "building_ref": "Houses 1 to 4"
       },
       {
-        "max_height": 6,
         "no_storeys": 2,
+        "max_height": 6,
         "building_ref": "Houses 5 to 6"
       }
     ],
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 579,
         "gia_existing": 0,
-        "gia_lost": 0,
-        "use_class": "C3"
+        "gia_gained": 579,
+        "use_class": "C3",
+        "gia_lost": 0
       },
       {
-        "gia_gained": 0,
         "gia_existing": 255,
-        "gia_lost": 255,
-        "use_class": "SpecifiedOther"
+        "gia_gained": 0,
+        "use_class": "SpecifiedOther",
+        "gia_lost": 255
       }
     ],
     "green_suds": true,
@@ -212,55 +212,55 @@
       "residential_units": [
         {
           "provider": "Private",
+          "no_habitable_rooms": 5,
+          "change_type": "Gain",
           "unit_type": "Semi Detached Home",
           "no_bedrooms": 3,
-          "change_type": "Gain",
-          "no_habitable_rooms": 5,
           "gia": 104,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 5,
+          "change_type": "Gain",
           "unit_type": "Semi Detached Home",
           "no_bedrooms": 3,
-          "change_type": "Gain",
-          "no_habitable_rooms": 5,
           "gia": 104,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 5,
+          "change_type": "Gain",
           "unit_type": "Semi Detached Home",
           "no_bedrooms": 3,
-          "change_type": "Gain",
-          "no_habitable_rooms": 5,
           "gia": 104,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 5,
+          "change_type": "Gain",
           "unit_type": "Semi Detached Home",
           "no_bedrooms": 3,
-          "change_type": "Gain",
-          "no_habitable_rooms": 5,
           "gia": 104,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 4,
+          "change_type": "Gain",
           "unit_type": "Semi Detached Home",
           "no_bedrooms": 2,
-          "change_type": "Gain",
-          "no_habitable_rooms": 4,
           "gia": 82,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 4,
+          "change_type": "Gain",
           "unit_type": "Semi Detached Home",
           "no_bedrooms": 2,
-          "change_type": "Gain",
-          "no_habitable_rooms": 4,
           "gia": 82,
           "tenure": "Market for sale"
         }
@@ -314,21 +314,17 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "171381",
-  "last_updated": "2026-02-05T00:40:22.375Z",
+  "last_updated": "2026-02-05T21:02:13.263Z",
   "centroid": {
     "lon": -0.113178,
     "lat": 51.42624
   },
   "subdivision_of_building": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "id": "Lambeth-26_00184_FUL",
-  "parking_details": {
-    "no_proposed_car": 0,
-    "no_existing_car": 21,
-    "net_car": -21
-  },
+  "parking_details": null,
   "description": "Redevelopment of the site to provide six dwellinghouses and the provision of cycle parking, refuse storage, landscaping and associated works."
 }
