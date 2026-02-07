@@ -2,11 +2,11 @@
   "lpa_app_no": "23/03630/LE",
   "uprn": "100020627411",
   "lapsed_date": "08/12/2028",
-  "centroid_northing": 167014,
+  "centroid_northing": "167017",
   "site_number": "83",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Idox Uniform",
-  "site_name": null,
+  "site_name": "",
   "appeal_decision_date": null,
   "valid_date": "25/09/2023",
   "decision_date": "08/12/2023",
@@ -14,30 +14,30 @@
     "coordinates": [
       [
         [
-          -0.0444551,
-          51.385848
+          -0.044488,
+          51.385852
         ],
         [
-          -0.0450767,
-          51.3857632
+          -0.044514,
+          51.385933
         ],
         [
-          -0.0451023,
-          51.385832
+          -0.045121,
+          51.385836
         ],
         [
-          -0.044487399999999996,
-          51.3859288
+          -0.04511,
+          51.385763
         ],
         [
-          -0.0444551,
-          51.385848
+          -0.044488,
+          51.385852
         ]
       ]
     ],
     "type": "Polygon"
   },
-  "last_updated_by": "FME Excel Import",
+  "last_updated_by": "Idox Uniform",
   "appeal_start_date": null,
   "reference_no_of_permission_being_relied_on": null,
   "application_type": "All Other",
@@ -144,9 +144,9 @@
     "garden_land_lost": null,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_bedrooms": 0,
+      "total_no_proposed_bedrooms": 1,
       "total_no_proposed_residential_units_london_living_rent": 0,
-      "total_no_proposed_residential_units": 0,
+      "total_no_proposed_residential_units": 1,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
@@ -180,7 +180,16 @@
       "total_no_proposed_residential_units_intermediate": 0,
       "affordable_percentage": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
-      "residential_units": [],
+      "residential_units": [
+        {
+          "actual_completion_date": "08/12/2023",
+          "change_type": "Gain",
+          "actual_commencement_date": "08/12/2023",
+          "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
+          "unit_development_type": "Conversion"
+        }
+      ],
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0
     },
@@ -191,7 +200,7 @@
   "postcode": "CR0 7QN",
   "development_type": null,
   "title_number": [],
-  "centroid_easting": 536149,
+  "centroid_easting": "536149",
   "actual_commencement_date": "08/12/2023",
   "description": "Certificate for Existing Lawful Use of dwelling for Class C3(b) purposes for four occupiers",
   "decision": "Approved",
@@ -200,8 +209,8 @@
   "epc_number": null,
   "subdivision_of_building": null,
   "centroid": {
-    "lon": "-0.044778399999999996",
-    "lat": "51.3858472"
+    "lon": -0.044803,
+    "lat": 51.385875
   },
   "url_planning_app": null,
   "pp_id": "PP-12426895",
@@ -222,36 +231,8 @@
     "PD",
     "No Material Change Presumed"
   ],
-  "parking_details": {
-    "no_proposed_lgv": null,
-    "no_existing_cycle": null,
-    "no_existing_other": null,
-    "no_proposed_motorcycle": null,
-    "net_bus": null,
-    "no_proposed_cycle": null,
-    "no_proposed_resi_offstreet": null,
-    "no_existing_lgv": null,
-    "no_proposed_other": null,
-    "net_cycle": null,
-    "net_resi_offstreet": null,
-    "no_proposed_carclub": null,
-    "no_existing_car": null,
-    "net_car": null,
-    "no_proposed_bus": null,
-    "no_existing_carclub": null,
-    "no_existing_motorcycle": null,
-    "net_other": null,
-    "net_motorcycle": null,
-    "net_lgv": null,
-    "no_existing_resi_offstreet": null,
-    "no_proposed_bluebadge": null,
-    "no_existing_bluebadge": null,
-    "no_existing_bus": null,
-    "no_proposed_car": null,
-    "net_bluebadge": null,
-    "net_carclub": null
-  },
-  "last_updated": "2025-03-19T21:10:09.021+00:00",
+  "parking_details": null,
+  "last_updated": "2026-02-07T02:08:38.048+00:00",
   "appeal_status": null,
   "street_name": "The Glade",
   "ward": "SHN18",
@@ -261,30 +242,30 @@
         "coordinates": [
           [
             [
-              536171.49,
-              167014.685
+              536171,
+              167015
             ],
             [
-              536128.495,
-              167004.102
+              536169,
+              167024
             ],
             [
-              536126.51,
-              167011.708
+              536127,
+              167012
             ],
             [
-              536169.009,
-              167023.615
+              536128,
+              167004
             ],
             [
-              536171.49,
-              167014.685
+              536171,
+              167015
             ]
           ]
         ],
         "type": "Polygon"
       }
     ],
-    "type": "GeometryCollection"
+    "type": "geometrycollection"
   }
 }

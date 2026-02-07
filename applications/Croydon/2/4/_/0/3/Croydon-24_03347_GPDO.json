@@ -17,8 +17,8 @@
   "last_updated_by": "Idox Uniform",
   "lpa_name": "Croydon",
   "centroid": {
-    "lon": "-0.09721049999999999",
-    "lat": "51.3740225"
+    "lon": -0.097293,
+    "lat": 51.374024
   },
   "lpa_app_no": "24/03347/GPDO",
   "borough": "London Borough of Croydon",
@@ -28,7 +28,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 363,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_existing": 363
+      "total_gia_existing": 363,
+      "site_area": 0.018000000000000002
     },
     "intended_completion_date": "08/2026",
     "total_gia_lost": 363,
@@ -40,7 +41,7 @@
       "affordable_percentage": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 500,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
@@ -51,34 +52,43 @@
       "total_no_proposed_residential_units_market_for_rent": 3,
       "residential_units": [
         {
-          "no_habitable_rooms": 3,
           "provider": "Private",
-          "unit_no": "Gain-1",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 121,
-          "tenure": "Market for rent"
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "unit_development_type": "Change of Use",
+          "tenure": "Market for rent",
+          "gia": 121
         },
         {
-          "no_habitable_rooms": 3,
           "provider": "Private",
-          "unit_no": "Gain-2",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 121,
-          "tenure": "Market for rent"
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "unit_development_type": "Change of Use",
+          "tenure": "Market for rent",
+          "gia": 121
         },
         {
-          "no_habitable_rooms": 3,
           "provider": "Private",
-          "unit_no": "Gain-3",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 121,
-          "tenure": "Market for rent"
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "unit_development_type": "Change of Use",
+          "tenure": "Market for rent",
+          "gia": 121
         }
       ],
       "total_no_proposed_residential_units_london_shared_ownership": 0,
@@ -94,7 +104,7 @@
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_shared_equity": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 166.66666666666666,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
@@ -103,19 +113,20 @@
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_social_rent": 0,
-      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0
+      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "site_area": 0.018000000000000002
     },
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 363,
-        "use_class": "E(c)(i)",
         "gia_gained": 0,
+        "use_class": "E(c)(i)",
         "gia_lost": 363
       },
       {
         "gia_existing": 0,
-        "use_class": "C3",
         "gia_gained": 363,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -126,7 +137,7 @@
       "fire_suppression_system_proposed": false,
       "total_annual_nox_emissions": 0,
       "percentage_demolition_construction_material_recycling": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_resi_units_to_have_full_fibre": 3,
       "total_annual_pm_emissions": 0,
       "green_roof_area": 0,
@@ -138,7 +149,26 @@
       "no_non_resi_units_to_have_full_fibre": 0
     },
     "intended_commencement_date": "08/2025",
-    "site_area": 0.018000000000000002
+    "site_area": 0.018000000000000002,
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "scheme_phasing": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.018000000000000002
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "garden_land_lost": false
   },
   "application_type_full": "Prior Approval: Change of use from Commercial, Business and Service (Use Class E) to Dwellinghouses (Use Class C3)",
   "cil_liability": true,
@@ -146,42 +176,42 @@
     "coordinates": [
       [
         [
-          -0.09721339999999999,
-          51.3739341
+          -0.097239,
+          51.373933
         ],
         [
-          -0.0972729,
-          51.3739306
+          -0.097252,
+          51.373978
         ],
         [
-          -0.0973146,
-          51.3740725
+          -0.097107,
+          51.374003
         ],
         [
-          -0.0971474,
-          51.3740936
+          -0.097133,
+          51.374075
         ],
         [
-          -0.0971032,
-          51.3740706
+          -0.097175,
+          51.374094
         ],
         [
-          -0.0970798,
-          51.3740033
+          -0.097334,
+          51.374069
         ],
         [
-          -0.0972304,
-          51.3739819
+          -0.097297,
+          51.373934
         ],
         [
-          -0.09721339999999999,
-          51.3739341
+          -0.097239,
+          51.373933
         ]
       ]
     ],
     "type": "Polygon"
   },
-  "centroid_easting": 532535,
+  "centroid_easting": "532531",
   "actual_commencement_date": null,
   "date_building_work_completed_under_previous_permission": null,
   "url_planning_app": null,
@@ -193,7 +223,7 @@
   "site_name": "",
   "id": "Croydon-24_03347_GPDO",
   "decision_target_date": "25/11/2024",
-  "centroid_northing": 165603,
+  "centroid_northing": "165603",
   "date_building_work_started_under_previous_permission": null,
   "polygon": {
     "geometries": [
@@ -201,43 +231,43 @@
         "coordinates": [
           [
             [
-              532535.051,
-              165593.161
+              532535,
+              165593
             ],
             [
-              532530.917,
-              165592.665
+              532534,
+              165598
             ],
             [
-              532527.61,
-              165608.374
+              532544,
+              165601
             ],
             [
-              532539.186,
-              165611.02
+              532542,
+              165609
             ],
             [
-              532542.327,
-              165608.54
+              532539,
+              165611
             ],
             [
-              532544.147,
-              165601.098
+              532528,
+              165608
             ],
             [
-              532533.729,
-              165598.452
+              532531,
+              165593
             ],
             [
-              532535.051,
-              165593.161
+              532535,
+              165593
             ]
           ]
         ],
         "type": "Polygon"
       }
     ],
-    "type": "GeometryCollection"
+    "type": "geometrycollection"
   },
   "epc_number": null,
   "decision_conditions": [
@@ -251,7 +281,7 @@
   "uprn": "100022901659",
   "reference_no_of_permission_being_relied_on": null,
   "decision_process": "Delegated",
-  "last_updated": "2025-03-19T18:50:20.539+00:00",
+  "last_updated": "2026-02-06T23:06:59.476Z",
   "decision_agency": null,
   "parking_details": null,
   "lapsed_date": "25/11/2029",

@@ -7,8 +7,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 242,
-        "use_class": "E(g)(i)",
         "gia_gained": 0,
+        "use_class": "E(g)(i)",
+        "gia_lost": 0
+      },
+      {
+        "gia_existing": 0,
+        "gia_gained": 242,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -46,60 +52,76 @@
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 190.47619047619048,
       "total_gia_lost": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 238.09523809523807,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
-          "unit_no": "Gain-1",
+          "phase_detail": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Communal Space",
+          "provision_for_older_persons": false,
+          "unit_development_type": "Change of Use",
           "gia": 18
         },
         {
+          "provider": "Private rented sector",
           "no_habitable_rooms": 1,
-          "provider": "Private",
-          "unit_no": "Gain-2",
+          "phase_detail": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 50,
-          "tenure": "Market for rent"
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "unit_development_type": "Change of Use",
+          "tenure": "Market for rent",
+          "gia": 50
         },
         {
+          "provider": "Private rented sector",
           "no_habitable_rooms": 1,
-          "provider": "Private",
-          "unit_no": "Gain-3",
+          "phase_detail": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 50,
-          "tenure": "Market for rent"
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "unit_development_type": "Change of Use",
+          "tenure": "Market for rent",
+          "gia": 50
         },
         {
+          "provider": "Private rented sector",
           "no_habitable_rooms": 1,
-          "provider": "Private",
-          "unit_no": "Gain-4",
+          "phase_detail": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 50,
-          "tenure": "Market for rent"
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "unit_development_type": "Change of Use",
+          "tenure": "Market for rent",
+          "gia": 50
         },
         {
+          "provider": "Private rented sector",
           "no_habitable_rooms": 1,
-          "provider": "Private",
-          "unit_no": "Gain-5",
+          "phase_detail": null,
+          "description": null,
           "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "unit_type": "Flat Apartment Maisonette",
-          "gia": 75,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "unit_development_type": "Change of Use",
+          "tenure": "Market for rent",
+          "gia": 75
         }
       ],
-      "total_no_existing_residential_units_london_affordable_rent": 0
+      "total_no_existing_residential_units_london_affordable_rent": 0,
+      "site_area": 0.021
     },
     "intended_completion_date": "12/2024",
     "occupation_status": "Occupied",
@@ -108,7 +130,8 @@
       "total_gia_lost": 0,
       "total_gia_existing": 242,
       "total_gia_gained": 0,
-      "total_non_resi_gross_internal_floor_area_to_be_gained": 0
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "site_area": 0.021
     },
     "intended_commencement_date": "09/2024",
     "total_gia_gained": 0,
@@ -116,7 +139,7 @@
       "total_annual_pm_emissions": 0,
       "ghg_reduction_over_building_regulations": false,
       "no_new_gas_connections_required": 4,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_homes_passive_cooling": 0,
       "no_homes_to_have_electrical_heating": 4,
       "percentage_demolition_construction_material_recycling": 0,
@@ -129,45 +152,64 @@
       "total_annual_nox_emissions": 0
     },
     "total_gia_existing": 242,
-    "site_area": 0.021
+    "site_area": 0.021,
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "scheme_phasing": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.021
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "garden_land_lost": false
   },
   "wgs84_polygon": {
     "type": "Polygon",
     "coordinates": [
       [
         [
-          -0.09916839999999999,
-          51.3666372
+          -0.099194,
+          51.366636
         ],
         [
-          -0.0994535,
-          51.3666358
+          -0.09919,
+          51.366725
         ],
         [
-          -0.09945419999999999,
-          51.366734
+          -0.099204,
+          51.366735
         ],
         [
-          -0.09945179999999999,
-          51.366734
+          -0.099477,
+          51.36673
         ],
         [
-          -0.09918339999999999,
-          51.3667326
+          -0.099477,
+          51.36673
         ],
         [
-          -0.0991672,
-          51.3667234
+          -0.099481,
+          51.36664
         ],
         [
-          -0.09916839999999999,
-          51.3666372
+          -0.099194,
+          51.366636
         ]
       ]
     ]
   },
   "site_name": "",
-  "centroid_easting": 532410,
+  "centroid_easting": "532411",
   "site_number": "16, 18",
   "development_type": null,
   "decision_date": "04/09/2024",
@@ -178,7 +220,7 @@
   "epc_number": null,
   "appeal_status": null,
   "lpa_name": "Croydon",
-  "centroid_northing": 164783,
+  "centroid_northing": "164786",
   "appeal_decision_date": null,
   "decision_conditions": [
     "CLP",
@@ -191,8 +233,8 @@
   "actual_completion_date": null,
   "subdivision_of_building": null,
   "centroid": {
-    "lon": "-0.09931029999999999",
-    "lat": "51.3666824"
+    "lon": -0.09932,
+    "lat": 51.36671
   },
   "cil_liability": true,
   "valid_date": "24/06/2024",
@@ -210,46 +252,46 @@
   "last_date_consultation_comments": "05/08/2024",
   "title_number": [],
   "decision": "Approved",
-  "last_updated": "2025-03-19T20:46:11.017+00:00",
+  "last_updated": "2026-02-06T23:06:00.096Z",
   "polygon": {
     "geometries": [
       {
         "coordinates": [
           [
             [
-              532420.012,
-              164778.228
+              532420,
+              164778
             ],
             [
-              532400.168,
-              164777.566
+              532420,
+              164788
             ],
             [
-              532399.838,
-              164788.48
+              532419,
+              164789
             ],
             [
-              532400.003,
-              164788.48
+              532400,
+              164788
             ],
             [
-              532418.689,
-              164788.811
+              532400,
+              164788
             ],
             [
-              532419.847,
-              164787.819
+              532400,
+              164778
             ],
             [
-              532420.012,
-              164778.228
+              532420,
+              164778
             ]
           ]
         ],
         "type": "Polygon"
       }
     ],
-    "type": "GeometryCollection"
+    "type": "geometrycollection"
   },
   "date_building_work_started_under_previous_permission": null,
   "actual_commencement_date": null,

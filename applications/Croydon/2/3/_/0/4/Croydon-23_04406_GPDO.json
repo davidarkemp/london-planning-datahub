@@ -28,7 +28,7 @@
     ""
   ],
   "date_building_work_started_under_previous_permission": null,
-  "centroid_easting": 532089,
+  "centroid_easting": "532089",
   "status": "Approved",
   "decision_date": "12/08/2024",
   "wgs84_polygon": {
@@ -36,24 +36,24 @@
     "coordinates": [
       [
         [
-          -0.1037123,
-          51.3700627
+          -0.103736,
+          51.370063
         ],
         [
-          -0.10377209999999999,
-          51.3700518
+          -0.103775,
+          51.370163
         ],
         [
-          -0.1038607,
-          51.3701514
+          -0.10389,
+          51.370156
         ],
         [
-          -0.1037461,
-          51.3701644
+          -0.103794,
+          51.370055
         ],
         [
-          -0.1037123,
-          51.3700627
+          -0.103736,
+          51.370063
         ]
       ]
     ]
@@ -64,13 +64,13 @@
   "development_type": null,
   "title_number": [],
   "appeal_status": null,
-  "last_updated": "2025-03-19T21:32:38.424+00:00",
+  "last_updated": "2026-02-06T23:03:48.303Z",
   "last_updated_by": "Idox Uniform",
   "site_name": "",
   "id": "Croydon-23_04406_GPDO",
   "decision": "Approved",
   "cil_liability": true,
-  "centroid_northing": 165156,
+  "centroid_northing": "165156",
   "appeal_start_date": null,
   "postcode": "CR0 1SE",
   "url_planning_app": null,
@@ -86,31 +86,31 @@
         "coordinates": [
           [
             [
-              532093.878,
-              165150.956
+              532094,
+              165151
             ],
             [
-              532089.744,
-              165149.633
+              532091,
+              165162
             ],
             [
-              532083.295,
-              165160.548
+              532083,
+              165161
             ],
             [
-              532091.232,
-              165162.201
+              532090,
+              165150
             ],
             [
-              532093.878,
-              165150.956
+              532094,
+              165151
             ]
           ]
         ],
         "type": "Polygon"
       }
     ],
-    "type": "GeometryCollection"
+    "type": "geometrycollection"
   },
   "pp_id": "PP-12601031",
   "application_details": {
@@ -119,9 +119,15 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 132,
-        "use_class": "B8",
         "gia_gained": 0,
+        "use_class": "B8",
         "gia_lost": 66
+      },
+      {
+        "gia_existing": 0,
+        "gia_gained": 66,
+        "use_class": "C3",
+        "gia_lost": 0
       }
     ],
     "occupation_status": "Vacant",
@@ -133,14 +139,17 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 2,
           "provider": "Private",
-          "unit_no": "Gain-1",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 66,
-          "tenure": "Market for sale"
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "unit_development_type": "Change of Use",
+          "tenure": "Market for sale",
+          "gia": 66
         }
       ],
       "total_no_existing_residential_units_intermediate": 0,
@@ -166,21 +175,22 @@
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_gia_gained": 66,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 142.85714285714286,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 285.7142857142857,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_residential_units_market_for_sale": 1
+      "total_no_proposed_residential_units_market_for_sale": 1,
+      "site_area": 0.007
     },
     "infrastructure_details": {
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "no_homes_to_have_electrical_heating": 1,
       "mobile_network_operators_consultation": false,
       "total_annual_nox_emissions": 0,
@@ -198,16 +208,36 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 0,
       "total_gia_lost": 66,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 66
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 66,
+      "site_area": 0.007
     },
     "intended_commencement_date": "12/2023",
     "total_gia_lost": 66,
     "intended_completion_date": "03/2024",
-    "site_area": 0.007
+    "site_area": 0.007,
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "scheme_phasing": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.007
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "garden_land_lost": false
   },
   "centroid": {
-    "lon": "-0.1037804",
-    "lat": "51.3701092"
+    "lon": -0.103806,
+    "lat": 51.37011
   },
   "lapsed_date": "12/08/2029",
   "decision_process": "Delegated",

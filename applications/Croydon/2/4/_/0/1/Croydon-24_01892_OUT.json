@@ -6,34 +6,34 @@
     "coordinates": [
       [
         [
-          -0.027996399999999998,
-          51.3717932
+          -0.028019,
+          51.37179
         ],
         [
-          -0.0281392,
-          51.3717866
+          -0.028054,
+          51.371979
         ],
         [
-          -0.0282174,
-          51.3722894
+          -0.028097,
+          51.372295
         ],
         [
-          -0.028071799999999997,
-          51.3722941
+          -0.028241,
+          51.372288
         ],
         [
-          -0.0280199,
-          51.3719756
+          -0.028163,
+          51.371783
         ],
         [
-          -0.027996399999999998,
-          51.3717932
+          -0.028019,
+          51.37179
         ]
       ]
     ]
   },
   "appeal_start_date": null,
-  "centroid_northing": 165510,
+  "centroid_northing": "165494",
   "decision": "Approved",
   "polygon": {
     "geometries": [
@@ -41,35 +41,35 @@
         "coordinates": [
           [
             [
-              537358.663,
-              165482.391
+              537359,
+              165482
             ],
             [
-              537348.741,
-              165481.399
+              537356,
+              165503
             ],
             [
-              537341.796,
-              165537.16
+              537352,
+              165538
             ],
             [
-              537351.916,
-              165537.954
+              537342,
+              165537
             ],
             [
-              537356.48,
-              165502.632
+              537349,
+              165481
             ],
             [
-              537358.663,
-              165482.391
+              537359,
+              165482
             ]
           ]
         ],
         "type": "Polygon"
       }
     ],
-    "type": "GeometryCollection"
+    "type": "geometrycollection"
   },
   "borough": "London Borough of Croydon",
   "bo_system": "Idox Uniform",
@@ -82,8 +82,8 @@
   "postcode": "CR0 8NA",
   "appeal_decision": null,
   "centroid": {
-    "lon": "-0.0281101",
-    "lat": "51.3720434"
+    "lon": -0.028086,
+    "lat": 51.371899
   },
   "lapsed_date": "17/09/2027",
   "application_type": "All Other",
@@ -120,7 +120,7 @@
   "date_building_work_started_under_previous_permission": null,
   "site_name": "",
   "subdivision_of_building": null,
-  "last_updated": "2025-03-19T20:50:10.582+00:00",
+  "last_updated": "2026-02-06T23:05:46.655Z",
   "decision_target_date": "26/07/2024",
   "valid_date": "31/05/2024",
   "reference_no_of_permission_being_relied_on": null,
@@ -138,7 +138,7 @@
       "percentage_demolition_construction_material_recycling": 0,
       "no_resi_units_to_have_full_fibre": 0,
       "no_homes_passive_cooling": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_homes_to_have_electrical_heating": 0,
       "green_roof_area": 0,
       "fire_suppression_system_proposed": false,
@@ -166,26 +166,29 @@
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 3,
           "provider": "Private",
-          "unit_no": "Gain-1",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "description": null,
           "change_type": "Gain",
           "garden_land": true,
-          "no_bedrooms": 2,
           "unit_type": "Semi Detached Home",
-          "gia": 70,
-          "tenure": "Market for sale"
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "unit_development_type": "Extension",
+          "tenure": "Market for sale",
+          "gia": 70
         }
       ],
       "total_no_proposed_residential_units_london_living_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 17.543859649122805,
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 52.63157894736842,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_discount_market_rent": 0,
@@ -197,10 +200,11 @@
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_market_for_rent": 0,
       "total_no_proposed_residential_units_intermediate": 0,
-      "total_gia_gained": 70
+      "total_gia_gained": 70,
+      "site_area": 0.057
     },
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "internal_resi_water_usage": 0,
     "green_suds": false,
     "surface_water_discharge_percentage_reduction": 0,
@@ -221,8 +225,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 124,
-        "use_class": "C3",
         "gia_gained": 70,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -231,18 +235,32 @@
       "total_gia_gained": 70,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_existing": 124,
-      "total_gia_lost": 0
+      "total_gia_lost": 0,
+      "site_area": 0.057
     },
     "site_area": 0.057,
     "grey_water_reuse": false,
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "projected_cost_of_works": "Up to £2m",
     "total_gia_existing": 124,
     "affordable_housing_fast_track": false,
     "ownership_status": "Private",
-    "total_gia_gained": 70
+    "total_gia_gained": 70,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.057
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "ward": "SHS18",
-  "centroid_easting": 537350,
+  "centroid_easting": "537354",
   "epc_number": null
 }

@@ -35,7 +35,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -59,7 +58,8 @@
               180868
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -118,31 +118,31 @@
     },
     "building_details": [
       {
-        "max_height": 17.1,
         "no_storeys": 5,
+        "max_height": 17.1,
         "building_ref": "Existing: Ambassador Court, 17/19 Craven Terrace W2 3QH"
       },
       {
-        "max_height": 17.5,
         "no_storeys": 6,
+        "max_height": 17.5,
         "building_ref": "Proposed: Ambassador Court, 17/19 Craven Terrace W2 3QH"
       }
     ],
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 94,
         "gia_existing": 0,
-        "gia_lost": 0,
-        "use_class": "C3"
+        "gia_gained": 94,
+        "use_class": "C3",
+        "gia_lost": 0
       }
     ],
     "green_suds": false,
     "other_residential_accommodation_details": {
       "other_resi_accommodation_unit_details": [
         {
-          "no_rooms_lost": 0,
           "no_rooms_proposed": 2,
-          "unit_type": "Secure Residential Room"
+          "unit_type": "Secure Residential Room",
+          "no_rooms_lost": 0
         }
       ]
     },
@@ -179,13 +179,13 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "180873",
-  "last_updated": "2026-02-06T00:34:32.792Z",
+  "last_updated": "2026-02-06T21:05:15.929Z",
   "centroid": {
     "lon": -0.178888,
     "lat": 51.512637
   },
-  "subdivision_of_building": "The proposal concerns the roof space only",
-  "last_updated_by": "Planning Portal ingest",
+  "subdivision_of_building": null,
+  "last_updated_by": "Idox Uniform",
   "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,

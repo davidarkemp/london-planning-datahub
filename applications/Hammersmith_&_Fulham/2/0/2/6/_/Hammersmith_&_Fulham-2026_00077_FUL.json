@@ -111,7 +111,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -211,7 +210,8 @@
               176090
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -262,16 +262,16 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
         "gia_existing": 83,
-        "gia_lost": 83,
-        "use_class": "EC2"
+        "gia_gained": 0,
+        "use_class": "EC2",
+        "gia_lost": 83
       },
       {
-        "gia_gained": 70,
         "gia_existing": 90.5,
-        "gia_lost": 0,
-        "use_class": "C3"
+        "gia_gained": 70,
+        "use_class": "C3",
+        "gia_lost": 0
       }
     ],
     "green_suds": false,
@@ -302,19 +302,19 @@
       "residential_units": [
         {
           "provider": "Private",
+          "no_habitable_rooms": 3,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "change_type": "Gain",
-          "no_habitable_rooms": 3,
           "gia": 61,
           "tenure": "Market for rent"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 4,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "change_type": "Gain",
-          "no_habitable_rooms": 4,
           "gia": 93.5,
           "tenure": "Market for rent"
         }
@@ -368,21 +368,17 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "176087",
-  "last_updated": "2026-02-06T00:34:32.475Z",
+  "last_updated": "2026-02-06T21:01:52.845Z",
   "centroid": {
     "lon": -0.208502,
     "lat": 51.470055
   },
-  "subdivision_of_building": "Basement to first floor only",
-  "last_updated_by": "Planning Portal ingest",
+  "subdivision_of_building": null,
+  "last_updated_by": "Idox Uniform",
   "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "id": "Hammersmith_&_Fulham-2026_00077_FUL",
-  "parking_details": {
-    "net_cycle": 2,
-    "no_existing_cycle": 1,
-    "no_proposed_cycle": 3
-  },
+  "parking_details": null,
   "description": "Change of use of the basement and ground floor level from office use (Class E) into 2no. self-contained flats (Class C3), comprising of a self-contained flat at basement level and a self-contained maisonette flat at ground and first floor level; installation of new timber sash windows with fanlights following the removal of existing shopfront and commercial entrance door, to the front elevation at ground floor level; excavation of part of the rear garden, in connection with the enlargement of the existing rear terrace at basement level and enlargement of the existing metal balustrade above."
 }

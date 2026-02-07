@@ -59,7 +59,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -107,7 +106,8 @@
               175988
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -158,17 +158,17 @@
     },
     "building_details": [
       {
-        "max_height": 5.9,
         "no_storeys": 2,
+        "max_height": 5.9,
         "building_ref": "Rear extension "
       }
     ],
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 180,
         "gia_existing": 292,
-        "gia_lost": 248,
-        "use_class": "EG3"
+        "gia_gained": 180,
+        "use_class": "EG3",
+        "gia_lost": 248
       }
     ],
     "green_suds": false,
@@ -199,19 +199,19 @@
       "residential_units": [
         {
           "provider": "Private rented sector",
+          "no_habitable_rooms": 4,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "change_type": "Gain",
-          "no_habitable_rooms": 4,
           "gia": 83,
           "tenure": "Market for rent"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 3,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "no_habitable_rooms": 3,
           "gia": 50,
           "tenure": "Market for rent"
         }
@@ -260,18 +260,18 @@
   "street_name": "Stockwell Green",
   "locality": null,
   "application_type": "All Other",
-  "epc_number": "7330-9729-8009-0185-1226",
+  "epc_number": null,
   "decision_conditions": null,
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "175981",
-  "last_updated": "2026-02-06T00:34:32.576Z",
+  "last_updated": "2026-02-06T21:01:25.424Z",
   "centroid": {
     "lon": -0.119127,
     "lat": 51.467702
   },
-  "subdivision_of_building": "Upper Floors of the current forward building remain in use as flats and are not affected by the proposal other than in the wider repairs to the structure.",
-  "last_updated_by": "Planning Portal ingest",
+  "subdivision_of_building": null,
+  "last_updated_by": "Idox Uniform",
   "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,

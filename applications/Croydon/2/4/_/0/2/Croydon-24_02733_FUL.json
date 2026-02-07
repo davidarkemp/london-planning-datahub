@@ -4,28 +4,28 @@
     "coordinates": [
       [
         [
-          -0.1006137,
-          51.3520948
+          -0.100643,
+          51.3521
         ],
         [
-          -0.100659,
-          51.3520331
+          -0.101084,
+          51.352215
         ],
         [
-          -0.1013584,
-          51.3522363
+          -0.101353,
+          51.352291
         ],
         [
-          -0.1013205,
-          51.3522892
+          -0.101384,
+          51.352238
         ],
         [
-          -0.10105299999999999,
-          51.352212
+          -0.100689,
+          51.352038
         ],
         [
-          -0.1006137,
-          51.3520948
+          -0.100643,
+          51.3521
         ]
       ]
     ],
@@ -48,7 +48,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 21.5,
-      "total_gia_existing": 110.16
+      "total_gia_existing": 110.16,
+      "site_area": 0.037000000000000005
     },
     "affordable_housing_fast_track": false,
     "grey_water_reuse": false,
@@ -63,51 +64,65 @@
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_gia_lost": 110.16,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 135.1351351351351,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_starter_homes": 0,
       "residential_units": [
         {
+          "provider": "Private",
           "no_habitable_rooms": 4,
-          "unit_no": "Loss-1",
+          "phase_detail": null,
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "gia": 110.16,
-          "tenure": "Market for sale"
+          "unit_development_type": "Conversion",
+          "tenure": "Market for sale",
+          "gia": 110.16
         },
         {
-          "unit_no": "Gain-1",
+          "provider": "Private",
+          "phase_detail": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Communal Space",
-          "gia": 10.22
+          "provision_for_older_persons": false,
+          "unit_development_type": "Conversion",
+          "gia": 10.22,
+          "tenure": "Market for sale"
         },
         {
+          "provider": "Private",
           "no_habitable_rooms": 1,
-          "provider": "Private",
-          "unit_no": "Gain-2",
+          "phase_detail": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 37.01,
-          "tenure": "Market for sale"
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "unit_development_type": "Conversion",
+          "tenure": "Market for sale",
+          "gia": 37.01
         },
         {
-          "no_habitable_rooms": 4,
           "provider": "Private",
-          "unit_no": "Gain-3",
+          "no_habitable_rooms": 4,
+          "phase_detail": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 3,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 84.43,
-          "tenure": "Market for sale"
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "unit_development_type": "Conversion",
+          "tenure": "Market for sale",
+          "gia": 84.43
         }
       ],
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_proposed_bedrooms": 4,
-      "total_no_proposed_residential_units_market_for_sale": 2,
+      "total_no_proposed_residential_units_market_for_sale": 3,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -117,7 +132,7 @@
       "total_no_proposed_residential_units": 3,
       "affordable_percentage": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 81.08108108108107,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_market_for_sale": 1,
       "total_no_proposed_residential_units_affordable_rent": 0,
@@ -131,13 +146,14 @@
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "total_no_existing_residential_units_discount_market_rent": 0
+      "total_no_existing_residential_units_discount_market_rent": 0,
+      "site_area": 0.037000000000000005
     },
     "internal_resi_water_usage": 110,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "infrastructure_details": {
       "no_non_resi_units_to_have_full_fibre": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "fire_suppression_system_proposed": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_new_gas_connections_required": 1,
@@ -157,8 +173,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 110.16,
-        "use_class": "C3",
         "gia_gained": 21.5,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -173,7 +189,20 @@
       }
     ],
     "projected_cost_of_works": "Up to £2m",
-    "total_gia_existing": 110.16
+    "total_gia_existing": 110.16,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.037000000000000005
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "appeal_decision_date": null,
   "decision_date": "25/11/2024",
@@ -198,35 +227,35 @@
         "coordinates": [
           [
             [
-              532361.259,
-              163158.523
+              532361,
+              163159
             ],
             [
-              532358.282,
-              163151.577
+              532330,
+              163171
             ],
             [
-              532309.003,
-              163172.91
+              532311,
+              163179
             ],
             [
-              532311.484,
-              163178.863
+              532309,
+              163173
             ],
             [
-              532330.335,
-              163170.76
+              532358,
+              163152
             ],
             [
-              532361.259,
-              163158.523
+              532361,
+              163159
             ]
           ]
         ],
         "type": "Polygon"
       }
     ],
-    "type": "GeometryCollection"
+    "type": "geometrycollection"
   },
   "lpa_name": "Croydon",
   "actual_commencement_date": null,
@@ -244,7 +273,7 @@
     "fire strategy"
   ],
   "application_type_full": "Full planning permission",
-  "centroid_northing": 163165,
+  "centroid_northing": "163172",
   "epc_number": null,
   "actual_completion_date": null,
   "title_number": [],
@@ -255,10 +284,10 @@
   "id": "Croydon-24_02733_FUL",
   "description": "Erection of a rear roof extension to the main rear roof and above the existing outrigger and the conversion of first floor flat to 1 x 3 bedroom flat and 1 x studio flat together with waste and cycle storage.",
   "appeal_start_date": null,
-  "last_updated": "2025-03-19T19:36:25.095+00:00",
+  "last_updated": "2026-02-06T23:06:29.174Z",
   "centroid": {
-    "lon": "-0.10097379999999999",
-    "lat": "51.3521589"
+    "lon": -0.101227,
+    "lat": 51.352226
   },
-  "centroid_easting": 532336
+  "centroid_easting": "532320"
 }

@@ -15,13 +15,13 @@
   "locality": null,
   "street_name": null,
   "site_name": "Land Adjacent To 185 Brighton Road\rCoulsdon\rCR5 2NH\r",
-  "last_updated": "2025-03-19T21:44:36.214+00:00",
+  "last_updated": "2026-02-06T23:02:07.003Z",
   "appeal_decision_date": "19/07/2024",
   "appeal_start_date": "28/05/2023",
   "reference_no_of_permission_being_relied_on": null,
   "last_updated_by": "Idox Uniform",
   "site_number": null,
-  "centroid_easting": 529787,
+  "centroid_easting": null,
   "application_details": {
     "affordable_housing_fast_track": false,
     "phasing_details": [
@@ -38,20 +38,20 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 0,
-        "use_class": "SpecifiedOther",
         "gia_gained": 90,
+        "use_class": "E",
         "gia_lost": 0
       },
       {
         "gia_existing": 0,
-        "use_class": "C3",
         "gia_gained": 249,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "building_details": [
       {
         "no_storeys": 3,
@@ -60,14 +60,15 @@
       }
     ],
     "grey_water_reuse": false,
-    "green_suds": true,
+    "green_suds": false,
     "surface_water_discharge_percentage_reduction": 78,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 339,
       "total_gia_existing": 0,
-      "total_gia_lost": 0
+      "total_gia_lost": 0,
+      "site_area": 0.024
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -91,12 +92,12 @@
       "total_no_proposed_residential_units_market_for_sale": 3,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 375,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 374,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 166.66666666666666,
       "total_gia_lost": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -109,44 +110,60 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "unit_no": "Gain-1",
+          "phase_detail": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Communal Space",
+          "provision_for_older_persons": false,
+          "unit_development_type": "New Build",
           "gia": 125
         },
         {
+          "provider": "Private",
           "no_habitable_rooms": 2,
-          "provider": "Private",
-          "unit_no": "Gain-2",
+          "phase_detail": null,
+          "description": null,
+          "m42_compliant": true,
           "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "unit_type": "Flat Apartment Maisonette",
-          "gia": 50.5,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "unit_development_type": "New Build",
+          "tenure": "Market for sale",
+          "gia": 50.5
         },
         {
+          "provider": "Private",
           "no_habitable_rooms": 4,
-          "provider": "Private",
-          "unit_no": "Gain-3",
+          "phase_detail": null,
+          "description": null,
+          "m42_compliant": true,
           "change_type": "Gain",
-          "no_bedrooms": 3,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 125,
-          "tenure": "Market for sale"
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "unit_development_type": "New Build",
+          "tenure": "Market for sale",
+          "gia": 125
         },
         {
-          "no_habitable_rooms": 3,
           "provider": "Private",
-          "unit_no": "Gain-4",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "description": null,
+          "m42_compliant": true,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 73.5,
-          "tenure": "Market for sale"
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "unit_development_type": "New Build",
+          "tenure": "Market for sale",
+          "gia": 73.5
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.024
     },
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
@@ -158,16 +175,29 @@
       "no_homes_passive_cooling": 3,
       "no_non_resi_units_to_have_full_fibre": 1,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 4,
-      "ghg_reduction_over_building_regulations": true
+      "ghg_reduction_over_building_regulations": false
     },
     "internal_resi_water_usage": 125,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.024
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "cil_liability": true,
   "decision_target_date": "15/09/2022",
@@ -181,31 +211,31 @@
         "coordinates": [
           [
             [
-              529799.048,
-              159435.928
+              529799,
+              159436
             ],
             [
-              529785.323,
-              159423.857
+              529781,
+              159446
             ],
             [
-              529779.37,
-              159425.18
+              529779,
+              159425
             ],
             [
-              529781.023,
-              159445.52
+              529785,
+              159424
             ],
             [
-              529799.048,
-              159435.928
+              529799,
+              159436
             ]
           ]
         ],
         "type": "Polygon"
       }
     ],
-    "type": "GeometryCollection"
+    "type": "geometrycollection"
   },
   "subdivision_of_building": null,
   "bo_system": "Idox Uniform",
@@ -219,17 +249,17 @@
   "actual_commencement_date": null,
   "pp_id": "PP-11337035",
   "centroid": {
-    "lon": "-0.13891599999999998",
-    "lat": "51.3192147"
+    "lon": -7.55716,
+    "lat": 49.766807
   },
-  "centroid_northing": 159434,
+  "centroid_northing": null,
   "lpa_name": "Croydon",
   "title_number": [],
   "secondary_street_name": null,
   "development_type": null,
   "valid_date": "21/07/2022",
   "date_building_work_started_under_previous_permission": null,
-  "lapsed_date": "08/03/2026",
+  "lapsed_date": "19/07/2027",
   "decision_date": "08/03/2023",
   "parking_details": null,
   "url_planning_app": null,
@@ -238,24 +268,24 @@
     "coordinates": [
       [
         [
-          -0.1387425,
-          51.3192293
+          -0.138769,
+          51.319232
         ],
         [
-          -0.1389437,
-          51.3191239
+          -0.139023,
+          51.319326
         ],
         [
-          -0.1390286,
-          51.3191372
+          -0.13906,
+          51.319137
         ],
         [
-          -0.1389975,
-          51.3193196
+          -0.138974,
+          51.319127
         ],
         [
-          -0.1387425,
-          51.3192293
+          -0.138769,
+          51.319232
         ]
       ]
     ],
