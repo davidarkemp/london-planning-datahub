@@ -4,7 +4,7 @@
   "decision_agency": null,
   "subdivision_of_building": null,
   "appeal_start_date": null,
-  "cil_liability": null,
+  "cil_liability": false,
   "decision_conditions": null,
   "actual_commencement_date": null,
   "pp_id": "PP-14541646",
@@ -14,7 +14,7 @@
   "locality": null,
   "appeal_decision_date": null,
   "parking_details": null,
-  "decision_process": null,
+  "decision_process": "Delegated",
   "street_name": "Goat Lane",
   "site_number": "107",
   "centroid_easting": 533912,
@@ -40,7 +40,7 @@
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
   "epc_number": null,
-  "last_updated": "2026-01-27T21:06:21.388Z",
+  "last_updated": "2026-02-09T21:04:18.396Z",
   "centroid": {
     "lon": -0.065105,
     "lat": 51.666223
@@ -55,14 +55,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 96.68,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 96.68
       },
       {
         "gia_existing": 0,
-        "use_class": "C4",
         "gia_gained": 101,
+        "use_class": "C4",
         "gia_lost": 0
       }
     ],
@@ -174,14 +174,14 @@
           "garden_land": false,
           "sheltered_accommodation": false,
           "unit_type": "HMO",
-          "no_habitable_rooms": 7,
           "provider": "Private rented sector",
+          "no_habitable_rooms": 7,
           "phase_detail": null,
           "unit_no": null,
           "no_bedrooms": 6,
           "provision_for_older_persons": false,
-          "gia": 101,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 101
         },
         {
           "m43_2b_compliant": false,
@@ -189,16 +189,16 @@
           "description": null,
           "m42_compliant": false,
           "change_type": "Loss",
-          "sheltered_accommodation": false,
           "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Semi Detached Home",
           "no_habitable_rooms": 4,
           "phase_detail": null,
           "unit_no": null,
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "gia": 96.6,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 96.6
         }
       ],
       "total_no_existing_residential_units": 1,
@@ -233,8 +233,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "09/2025",
-        "intended_completion_date": "11/2025"
+        "intended_completion_date": "11/2025",
+        "intended_commencement_date": "09/2025"
       }
     ],
     "rain_water_harvesting": false,

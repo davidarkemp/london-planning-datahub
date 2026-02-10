@@ -239,7 +239,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -467,7 +466,8 @@
               177801
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -509,13 +509,13 @@
       "waste_details": [
         {
           "external_dry_recycling": false,
-          "internal_food_waste": false,
-          "internal_dry_recycling": false,
-          "reason_for_no_provision": "The proposal doesn't include this as the existing arrangements will remain. ",
-          "unit_reference": "10 ",
           "external_food_waste": false,
+          "unit_reference": "10 ",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "The proposal doesn't include this as the existing arrangements will remain. ",
           "internal_residual_waste": false,
-          "external_residual_waste": false
+          "internal_food_waste": false,
+          "internal_dry_recycling": false
         }
       ]
     },
@@ -530,10 +530,10 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
         "gia_existing": 2092,
-        "gia_lost": 0,
-        "use_class": "F2"
+        "gia_gained": 0,
+        "use_class": "F2",
+        "gia_lost": 0
       }
     ],
     "green_suds": false,
@@ -570,7 +570,7 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": null,
-  "last_updated": "2026-02-07T00:34:39.249Z",
+  "last_updated": "2026-02-10T00:34:45.245Z",
   "centroid": {
     "lon": -7.55716,
     "lat": 49.766807
@@ -582,5 +582,5 @@
   "date_building_work_completed_under_previous_permission": null,
   "id": "Southwark-26_AP_0085",
   "parking_details": null,
-  "description": "Installation of a manual vertical aluminium bifold window hatch following removal of the existing window at ground floor level on the east elevation."
+  "description": "Replacement of existing ground floor window to east elevation with a manual vertical bifold aluminium window hatch."
 }
