@@ -35,7 +35,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -59,7 +58,8 @@
               169892
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -111,16 +111,16 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
         "gia_existing": 96.3,
-        "gia_lost": 36.8,
-        "use_class": "EC1"
+        "gia_gained": 0,
+        "use_class": "EC1",
+        "gia_lost": 36.8
       },
       {
-        "gia_gained": 56.05,
         "gia_existing": 132.75,
-        "gia_lost": 0,
-        "use_class": "C3"
+        "gia_gained": 56.05,
+        "use_class": "C3",
+        "gia_lost": 0
       }
     ],
     "green_suds": false,
@@ -150,30 +150,30 @@
       "total_no_proposed_residential_units_social_rent": 0,
       "residential_units": [
         {
-          "provision_for_older_persons": false,
+          "no_habitable_rooms": 7,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 5,
-          "sheltered_accommodation": false,
-          "change_type": "Loss",
-          "no_habitable_rooms": 7,
+          "provision_for_older_persons": false,
           "gia": 132.75,
           "tenure": "London Affordable Rent"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 5,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "change_type": "Gain",
-          "no_habitable_rooms": 5,
           "gia": 99,
           "tenure": "London Affordable Rent"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 4,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "change_type": "Gain",
-          "no_habitable_rooms": 4,
           "gia": 82.3,
           "tenure": "London Affordable Rent"
         }
@@ -227,21 +227,17 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "169891",
-  "last_updated": "2026-02-10T00:34:45.912Z",
+  "last_updated": "2026-02-10T23:10:59.140Z",
   "centroid": {
     "lon": -0.123976,
     "lat": 51.413015
   },
-  "subdivision_of_building": "Rear ground floor, first floor, second floor and loft",
-  "last_updated_by": "Planning Portal ingest",
+  "subdivision_of_building": null,
+  "last_updated_by": "Idox Uniform",
   "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "id": "Croydon-26_00202_FUL",
-  "parking_details": {
-    "net_cycle": 6,
-    "no_existing_cycle": 0,
-    "no_proposed_cycle": 6
-  },
+  "parking_details": null,
   "description": "Proposed partial change of use from Class E (financial services) to Class C3 (residential) comprising 2no. duplex flats, together with associated external alterations including ground and first floor rear infill extension with roof terrace; raising of existing rear outrigger flat roof; second floor rear dormer extension with roof terrace; and provision of refuse and cycle storage."
 }

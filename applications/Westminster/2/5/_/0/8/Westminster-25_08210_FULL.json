@@ -35,7 +35,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -59,7 +58,8 @@
               180592
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -101,13 +101,13 @@
       "waste_details": [
         {
           "external_dry_recycling": false,
-          "internal_food_waste": false,
-          "internal_dry_recycling": false,
-          "reason_for_no_provision": "The proposal is for a micro logistic hub within an existing underground car park to use existing waste and recycling facilities. No additional dedicated internal or external waste storage requiring Council waste services is proposed as part of this micro logistics hub, as any operational waste will be managed by the hub operator.",
-          "unit_reference": "Micro Hub",
           "external_food_waste": false,
+          "unit_reference": "Micro Hub",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "The proposal is for a micro logistic hub within an existing underground car park to use existing waste and recycling facilities. No additional dedicated internal or external waste storage requiring Council waste services is proposed as part of this micro logistics hub, as any operational waste will be managed by the hub operator.",
           "internal_residual_waste": false,
-          "external_residual_waste": false
+          "internal_food_waste": false,
+          "internal_dry_recycling": false
         }
       ]
     },
@@ -122,10 +122,10 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
         "gia_existing": 599.99,
-        "gia_lost": 55.58,
-        "use_class": "SG"
+        "gia_gained": 0,
+        "use_class": "SG",
+        "gia_lost": 55.58
       }
     ],
     "green_suds": false,
@@ -162,21 +162,17 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "180602",
-  "last_updated": "2026-02-10T00:34:44.049Z",
+  "last_updated": "2026-02-10T21:04:22.788Z",
   "centroid": {
     "lon": -0.130998,
     "lat": 51.509447
   },
-  "subdivision_of_building": "Six car park spaces located on the corner of Level 7 of the car park. It's two levels down from the car park street entrance at street level.",
-  "last_updated_by": "Planning Portal ingest",
+  "subdivision_of_building": null,
+  "last_updated_by": "Idox Uniform",
   "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "id": "Westminster-25_08210_FULL",
-  "parking_details": {
-    "no_proposed_car": 241,
-    "no_existing_car": 247,
-    "net_car": -6
-  },
+  "parking_details": null,
   "description": "Alterations to car park including repurposing six car spaces into a micro logistic hub for a trial; securely storing up to 12 e-cargo bikes overnight; fire safe cabinets; additional power sockets, fencing; installing additional lights and potentially a WIFI booster; and other associated works."
 }

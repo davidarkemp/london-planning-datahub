@@ -1,6 +1,6 @@
 {
   "decision": null,
-  "last_date_consultation_comments": null,
+  "last_date_consultation_comments": "24/02/2026",
   "wgs84_polygon": {
     "type": "Polygon",
     "coordinates": [
@@ -63,7 +63,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -115,7 +114,8 @@
               178682
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -166,10 +166,10 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
         "gia_existing": 124.2,
-        "gia_lost": 0,
-        "use_class": "C3"
+        "gia_gained": 0,
+        "use_class": "C3",
+        "gia_lost": 0
       }
     ],
     "green_suds": false,
@@ -200,24 +200,24 @@
       "residential_units": [
         {
           "change_type": "Gain",
-          "gia": 6.69,
-          "unit_type": "Communal Space"
+          "unit_type": "Communal Space",
+          "gia": 6.69
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 3,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "no_habitable_rooms": 3,
           "gia": 44.6,
           "tenure": "London Affordable Rent"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 4,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "change_type": "Gain",
-          "no_habitable_rooms": 4,
           "gia": 72.91,
           "tenure": "London Affordable Rent"
         }
@@ -271,7 +271,7 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "178687",
-  "last_updated": "2026-02-10T00:34:44.225Z",
+  "last_updated": "2026-02-11T00:36:18.728Z",
   "centroid": {
     "lon": 0.146838,
     "lat": 51.487468

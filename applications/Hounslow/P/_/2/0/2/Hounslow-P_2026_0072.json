@@ -711,7 +711,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -1411,7 +1410,8 @@
               177874.4676063584
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -1453,13 +1453,13 @@
       "waste_details": [
         {
           "external_dry_recycling": false,
-          "internal_food_waste": false,
-          "internal_dry_recycling": false,
-          "reason_for_no_provision": "Relocation of existing sign on existing building",
-          "unit_reference": "0",
           "external_food_waste": false,
+          "unit_reference": "0",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "Relocation of existing sign on existing building",
           "internal_residual_waste": false,
-          "external_residual_waste": false
+          "internal_food_waste": false,
+          "internal_dry_recycling": false
         }
       ]
     },
@@ -1474,10 +1474,10 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 23,
         "gia_existing": 23,
-        "gia_lost": 23,
-        "use_class": "B2"
+        "gia_gained": 23,
+        "use_class": "B2",
+        "gia_lost": 23
       }
     ],
     "green_suds": false,
@@ -1514,13 +1514,13 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": 177977,
-  "last_updated": "2026-02-10T00:34:44.263Z",
+  "last_updated": "2026-02-10T14:10:05.917Z",
   "centroid": {
     "lon": -0.249842,
     "lat": 51.487675
   },
   "subdivision_of_building": "Relocation of sign on warehouse external facade",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Northgate M3",
   "title_number": null,
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,

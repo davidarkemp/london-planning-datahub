@@ -43,7 +43,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -75,7 +74,8 @@
               180673
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -126,17 +126,17 @@
     },
     "building_details": [
       {
-        "max_height": 12,
         "no_storeys": 4,
+        "max_height": 12,
         "building_ref": "1"
       }
     ],
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 247.9,
         "gia_existing": 231.3,
-        "gia_lost": 0,
-        "use_class": "C3"
+        "gia_gained": 247.9,
+        "use_class": "C3",
+        "gia_lost": 0
       }
     ],
     "green_suds": false,
@@ -167,19 +167,19 @@
       "residential_units": [
         {
           "provider": "Private",
+          "no_habitable_rooms": 1,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "change_type": "Gain",
-          "no_habitable_rooms": 1,
           "gia": 86.7,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 1,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "change_type": "Gain",
-          "no_habitable_rooms": 1,
           "gia": 108.8,
           "tenure": "Market for sale"
         }
@@ -233,7 +233,7 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "180679",
-  "last_updated": "2026-02-10T00:34:44.193Z",
+  "last_updated": "2026-02-11T00:36:20.636Z",
   "centroid": {
     "lon": -0.150355,
     "lat": 51.510446
@@ -249,5 +249,5 @@
     "no_existing_cycle": 0,
     "no_proposed_cycle": 6
   },
-  "description": "Construction of a new second floor and third floor mansard extension to form two new residential units (Class C3) at second and third floor levels with associated external alterations."
+  "description": "Construction of a new second floor and third floor mansard extension to form two new residential units (Class C3) at second and third floor level and installation of plant equipment at ground level with associated external alterations."
 }
