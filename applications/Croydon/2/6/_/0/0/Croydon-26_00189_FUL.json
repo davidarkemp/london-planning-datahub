@@ -35,7 +35,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -59,7 +58,8 @@
               160218
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -110,17 +110,17 @@
     },
     "building_details": [
       {
-        "max_height": 3,
         "no_storeys": 1,
+        "max_height": 3,
         "building_ref": "XX"
       }
     ],
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 29,
         "gia_existing": 58,
-        "gia_lost": 42,
-        "use_class": "EA"
+        "gia_gained": 29,
+        "use_class": "EA",
+        "gia_lost": 42
       }
     ],
     "green_suds": false,
@@ -197,21 +197,17 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "160213",
-  "last_updated": "2026-02-11T00:36:21.211Z",
+  "last_updated": "2026-02-11T23:10:27.989Z",
   "centroid": {
     "lon": -0.100446,
     "lat": 51.325604
   },
-  "subdivision_of_building": "GROUND FLOOR ",
-  "last_updated_by": "Planning Portal ingest",
+  "subdivision_of_building": null,
+  "last_updated_by": "Idox Uniform",
   "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "id": "Croydon-26_00189_FUL",
-  "parking_details": {
-    "no_proposed_car": 1,
-    "no_existing_car": 1,
-    "net_car": 0
-  },
+  "parking_details": null,
   "description": "Alterations, demolition of existing garage and erection of single-storey rear/side extension"
 }

@@ -4,7 +4,7 @@
   "decision_date": "03/03/2017",
   "epc_number": null,
   "application_type_full": "Lawful development: Proposed use",
-  "bo_system": "FME Legacy Data Import",
+  "bo_system": "Portal",
   "id": "Camden-2017_0815_P",
   "secondary_street_name": null,
   "appeal_status": null,
@@ -14,7 +14,8 @@
     "other_residential_accommodation_details": {
       "no_council_tax_rateable_units_lost": 0,
       "other_resi_accommodation_unit_details": [],
-      "no_council_tax_rateable_units_gained": 0
+      "no_council_tax_rateable_units_gained": 0,
+      "site_area": 0.005
     },
     "affordable_housing_inlieu_payment": null,
     "residential_details": {
@@ -33,7 +34,7 @@
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "residential_units": [],
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
@@ -49,7 +50,7 @@
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
-      "site_area": null,
+      "site_area": 0.005,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_bedrooms": 0,
       "total_no_existing_residential_units_intermediate": 0,
@@ -68,22 +69,18 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": -1,
-        "superseded_date": null,
-        "actual_completion_date": null,
-        "use_class": "A1",
+        "actual_completion_date": "01/03/2018",
         "gia_gained": 0,
-        "actual_commencement_date": null,
-        "superseded_by_lpa_app_no": null,
+        "use_class": "A1",
+        "actual_commencement_date": "01/05/2017",
         "gia_lost": 125
       },
       {
         "gia_existing": 0,
-        "superseded_date": null,
-        "actual_completion_date": null,
-        "use_class": "A2",
+        "actual_completion_date": "01/03/2018",
         "gia_gained": 125,
-        "actual_commencement_date": null,
-        "superseded_by_lpa_app_no": null,
+        "use_class": "A2",
+        "actual_commencement_date": "01/05/2017",
         "gia_lost": 0
       }
     ],
@@ -114,14 +111,37 @@
         "result": "6",
         "constraints_layer_description": "PTAL 2008"
       }
-    ]
+    ],
+    "site_area": 0.005,
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "scheme_phasing": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "infrastructure_details": {
+      "waste_provision": false,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "garden_land_lost": false
   },
   "valid_date": null,
   "reference_no_of_permission_being_relied_on": null,
   "description": "Change of use from A1 (shops) to Class A2 (Financial and Professional Services).",
   "decision_conditions": null,
   "date_building_work_started_under_previous_permission": null,
-  "last_updated": "2025-08-14T12:01:24.520+01:00",
+  "last_updated": "2026-02-11T15:36:56.007Z",
   "ward": "ST. PANCRAS AND SOMERS TOWN",
   "parking_details": {
     "no_proposed_lgv": null,
@@ -150,17 +170,53 @@
   "lapsed_date": "01/01/2100",
   "decision_target_date": null,
   "centroid": {
-    "lat": 51.52914,
-    "lon": -0.129298
+    "lat": 51.529131,
+    "lon": -0.129313
   },
   "lpa_app_no": "2017/0815/P",
-  "status": "Approved",
+  "status": "Completed",
   "site_name": "28",
   "url_planning_app": null,
   "locality": null,
   "polygon": {
     "geometries": [],
-    "type": "geometrycollection"
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          529857.95,
+          182795.25
+        ],
+        [
+          529857.4,
+          182794.85
+        ],
+        [
+          529861.1,
+          182789.5
+        ],
+        [
+          529863.9,
+          182791.4
+        ],
+        [
+          529867.6,
+          182793.9
+        ],
+        [
+          529864.05,
+          182799.05
+        ],
+        [
+          529863.95,
+          182799.25
+        ],
+        [
+          529857.95,
+          182795.25
+        ]
+      ]
+    ]
   },
   "development_type": "Change of Use",
   "last_date_consultation_comments": null,
@@ -168,43 +224,43 @@
   "decision_process": null,
   "decision_agency": "Borough",
   "date_building_work_completed_under_previous_permission": null,
-  "last_updated_by": "FME Legacy Data Import",
+  "last_updated_by": "Portal",
   "site_number": "28",
   "application_type": "All Other",
-  "actual_completion_date": null,
-  "title_number": null,
-  "actual_commencement_date": null,
+  "actual_completion_date": "01/03/2018",
+  "title_number": [],
+  "actual_commencement_date": "01/05/2017",
   "street_name": "Chalton Street",
   "pp_id": null,
   "subdivision_of_building": null,
-  "cil_liability": null,
-  "centroid_easting": 529863,
+  "cil_liability": false,
+  "centroid_easting": 529862,
   "appeal_start_date": null,
-  "centroid_northing": 182795,
+  "centroid_northing": 182794,
   "borough": "Camden",
   "decision": "Approved",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.129276,
-          51.529153
+          -0.12929,
+          51.529144
         ],
         [
-          -0.129277,
-          51.529126
+          -0.129292,
+          51.529117
         ],
         [
-          -0.12932,
-          51.529127
+          -0.129335,
+          51.529118
         ],
         [
-          -0.129319,
-          51.529154
+          -0.129334,
+          51.529145
         ],
         [
-          -0.129276,
-          51.529153
+          -0.12929,
+          51.529144
         ]
       ]
     ],

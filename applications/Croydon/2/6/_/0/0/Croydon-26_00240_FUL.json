@@ -47,7 +47,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -83,7 +82,8 @@
               165788
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -135,16 +135,16 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
         "gia_existing": 300,
-        "gia_lost": 0,
-        "use_class": "EA"
+        "gia_gained": 0,
+        "use_class": "EA",
+        "gia_lost": 0
       },
       {
-        "gia_gained": 62,
         "gia_existing": 179,
-        "gia_lost": 0,
-        "use_class": "C3"
+        "gia_gained": 62,
+        "use_class": "C3",
+        "gia_lost": 0
       }
     ],
     "green_suds": false,
@@ -175,10 +175,10 @@
       "residential_units": [
         {
           "provider": "Private",
+          "no_habitable_rooms": 2,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "no_habitable_rooms": 2,
           "gia": 62,
           "tenure": "Market for rent"
         }
@@ -232,21 +232,17 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "165792",
-  "last_updated": "2026-02-11T00:36:21.196Z",
+  "last_updated": "2026-02-11T23:10:29.820Z",
   "centroid": {
     "lon": -0.101789,
     "lat": 51.375796
   },
   "subdivision_of_building": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "id": "Croydon-26_00240_FUL",
-  "parking_details": {
-    "net_cycle": 2,
-    "no_existing_cycle": 6,
-    "no_proposed_cycle": 8
-  },
+  "parking_details": null,
   "description": "Extension to existing building at third floor level to create one residential flat with associated refuse and cycle storage."
 }

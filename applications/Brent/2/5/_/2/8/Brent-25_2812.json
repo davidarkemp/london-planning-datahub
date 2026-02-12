@@ -13,13 +13,13 @@
   "date_building_work_started_under_previous_permission": null,
   "description": "Mansard roof extension to create 1 self-contained dwelling and solar panels",
   "parking_details": null,
-  "postcode": null,
+  "postcode": "",
   "appeal_status": null,
-  "cil_liability": true,
+  "cil_liability": false,
   "date_building_work_completed_under_previous_permission": null,
   "pp_id": "PP-14381112",
   "status": "Approved",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "polygon": {
     "coordinates": [
       [
@@ -71,11 +71,37 @@
     ],
     "type": "Polygon"
   },
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.215818,
+          51.556885
+        ],
+        [
+          -0.215819,
+          51.556858
+        ],
+        [
+          -0.215862,
+          51.556859
+        ],
+        [
+          -0.215861,
+          51.556886
+        ],
+        [
+          -0.215818,
+          51.556885
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "appeal_decision_date": null,
   "secondary_street_name": null,
   "lapsed_date": "30/12/2028",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "decision_date": "30/12/2025",
   "centroid_easting": 523785,
   "actual_commencement_date": null,
@@ -84,7 +110,7 @@
   "decision_target_date": "29/12/2025",
   "valid_date": "10/11/2025",
   "development_type": "Minor dwellings",
-  "last_updated": "2026-01-28T09:01:44.205Z",
+  "last_updated": "2026-02-11T12:03:21.815Z",
   "subdivision_of_building": "New construction on the roof, together with new staircase from the existing 2nd Floor up to new home.",
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
@@ -94,20 +120,20 @@
   "decision_process": "Delegated",
   "application_type_full": "Full planning permission",
   "decision_agency": null,
-  "street_name": null,
+  "street_name": "",
   "appeal_decision": null,
-  "title_number": null,
+  "title_number": [],
   "site_name": "183 Cricklewood Broadway, London, NW2 3HT",
   "appeal_start_date": null,
   "application_details": {
-    "existing_uprns": null,
+    "existing_uprns": [],
     "site_area": 0.011600000000000001,
     "affordable_housing_fast_track": false,
     "phasing_details": [
       {
         "phase_detail": "whole development",
-        "intended_commencement_date": "03/2026",
-        "intended_completion_date": "06/2026"
+        "intended_completion_date": "06/2026",
+        "intended_commencement_date": "03/2026"
       }
     ],
     "total_gia_gained": 37,
@@ -116,19 +142,19 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 132,
-        "use_class": "C3",
         "gia_gained": 37,
+        "use_class": "C3",
         "gia_lost": 0
       },
       {
         "gia_existing": 98.5,
-        "use_class": "EA",
         "gia_gained": 0,
+        "use_class": "E(a)",
         "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "rain_water_harvesting": false,
     "grey_water_reuse": false,
     "building_details": [
@@ -145,7 +171,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 37,
       "total_gia_existing": 230.5,
-      "total_gia_lost": 0
+      "total_gia_lost": 0,
+      "site_area": 0.011600000000000001
     },
     "garden_land_lost": false,
     "internal_resi_water_usage": 125,
@@ -158,13 +185,13 @@
       "no_homes_passive_cooling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 50,
       "no_homes_to_have_electrical_heating": 1,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
-      "ghg_reduction_over_building_regulations": true
+      "ghg_reduction_over_building_regulations": false
     },
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
@@ -187,12 +214,12 @@
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 86.20689655172413,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 37,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 86.20689655172413,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -205,20 +232,37 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 1,
           "provider": "Private",
+          "no_habitable_rooms": 1,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
+          "unit_type": "Studio Bedsit",
           "no_bedrooms": 1,
-          "unit_type": "Flat Apartment Maisonette",
-          "gia": 37,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 37
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.011600000000000001
     },
     "ownership_status": "Private",
-    "lead_developer_company_name": "Kara Reality Trading Ltd"
+    "lead_developer_company_name": "Kara Reality Trading Ltd",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.011600000000000001
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "epc_number": null,
   "uprn": "202201578",
