@@ -1,164 +1,24 @@
 {
   "lpa_app_no": "P/2023/1974",
-  "centroid_northing": 178252,
-  "status": "Approved",
+  "centroid_northing": 178239,
+  "status": "Commenced",
   "epc_number": null,
   "last_date_consultation_comments": "28/06/2023",
   "locality": "Brentford",
   "secondary_street_name": null,
   "subdivision_of_building": null,
   "date_building_work_started_under_previous_permission": null,
-  "last_updated": "2025-03-19T17:36:23.609+00:00",
+  "last_updated": "2026-02-12T13:10:37.252Z",
   "valid_date": "28/06/2023",
   "polygon": {
-    "geometries": [
-      {
-        "coordinates": [
-          [
-            [
-              517828.06,
-              178264.57
-            ],
-            [
-              517832.21,
-              178263.78
-            ],
-            [
-              517835.5,
-              178262.02
-            ],
-            [
-              517836.02,
-              178261.31
-            ],
-            [
-              517836.58,
-              178260.29
-            ],
-            [
-              517838.89,
-              178255.92
-            ],
-            [
-              517839.48,
-              178254.67
-            ],
-            [
-              517840.08,
-              178253.42
-            ],
-            [
-              517832.91,
-              178249.88
-            ],
-            [
-              517828.94,
-              178247.92
-            ],
-            [
-              517830.11,
-              178245.56
-            ],
-            [
-              517824.07,
-              178242.59
-            ],
-            [
-              517807.18,
-              178233.9
-            ],
-            [
-              517803.2,
-              178231.85
-            ],
-            [
-              517800.71,
-              178230.77
-            ],
-            [
-              517791.03,
-              178253.38
-            ],
-            [
-              517791.01,
-              178253.43
-            ],
-            [
-              517790.41,
-              178254.82
-            ],
-            [
-              517789.75,
-              178257.28
-            ],
-            [
-              517789.69,
-              178257.73
-            ],
-            [
-              517789.68,
-              178260.05
-            ],
-            [
-              517790.71,
-              178262.48
-            ],
-            [
-              517794.5,
-              178263.5
-            ],
-            [
-              517801.95,
-              178265.5
-            ],
-            [
-              517805.28,
-              178266.1
-            ],
-            [
-              517808.6,
-              178266.7
-            ],
-            [
-              517817.39,
-              178266.04
-            ],
-            [
-              517818.24,
-              178266
-            ],
-            [
-              517821.59,
-              178265.57
-            ],
-            [
-              517825.06,
-              178265.08
-            ],
-            [
-              517826.56,
-              178264.86
-            ],
-            [
-              517828.04,
-              178264.58
-            ],
-            [
-              517828.06,
-              178264.57
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      }
-    ],
-    "type": "GeometryCollection"
+    "geometries": [],
+    "type": "geometrycollection"
   },
-  "cil_liability": false,
-  "title_number": null,
+  "cil_liability": true,
+  "title_number": [],
   "decision_process": "Committee",
-  "centroid_easting": 517812,
-  "actual_commencement_date": null,
+  "centroid_easting": 517777,
+  "actual_commencement_date": "01/01/2025",
   "url_planning_app": "https://planningandbuilding.hounslow.gov.uk/NECSWS/ES/Presentation/Planning/OnlinePlanning/OnlinePlanningOverview?applicationNumber=P/2023/1974",
   "site_number": "1050",
   "decision": "Approved",
@@ -187,7 +47,7 @@
   "id": "Hounslow-P_2023_1974",
   "application_details": {
     "internal_resi_water_usage": 0,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "garden_land_lost": false,
     "phasing_details": [
       {
@@ -199,14 +59,16 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 0,
-        "use_class": "B8",
         "gia_gained": 2903,
+        "use_class": "B8",
+        "actual_commencement_date": "01/01/2025",
         "gia_lost": 0
       },
       {
         "gia_existing": 0,
-        "use_class": "E",
         "gia_gained": 446,
+        "use_class": "E(g)(iii)",
+        "actual_commencement_date": "01/01/2025",
         "gia_lost": 0
       }
     ],
@@ -216,9 +78,10 @@
       "total_gia_lost": 0,
       "total_gia_existing": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_gained": 3349
+      "total_gia_gained": 3349,
+      "site_area": 0.113
     },
-    "site_area": 0.113,
+    "site_area": 0.185,
     "building_details": [
       {
         "no_storeys": 11,
@@ -231,7 +94,7 @@
     "total_gia_existing": 0,
     "grey_water_reuse": false,
     "surface_water_discharge_percentage_reduction": 40,
-    "green_suds": true,
+    "green_suds": false,
     "infrastructure_details": {
       "no_passive_fast_ev_charging_points": 5,
       "fire_suppression_system_proposed": false,
@@ -247,21 +110,74 @@
       "no_new_gas_connections_required": 0,
       "no_new_water_connections_required": 2,
       "mobile_network_operators_consultation": false,
-      "waste_provision": true,
-      "ghg_reduction_over_building_regulations": true,
+      "waste_provision": false,
+      "ghg_reduction_over_building_regulations": false,
       "green_roof_area": 70,
       "solar_pv_capacity": 15.58
     },
     "affordable_housing_fast_track": false,
     "ownership_status": "Private",
-    "existing_uprns": null,
-    "rain_water_harvesting": false
+    "existing_uprns": [],
+    "rain_water_harvesting": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.113
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "residential_details": {
+      "total_no_proposed_residential_units_shared_equity": 0,
+      "total_no_proposed_bedrooms": 0,
+      "total_no_proposed_residential_units_london_living_rent": 0,
+      "total_no_proposed_residential_units": 0,
+      "total_no_existing_residential_units": 0,
+      "total_no_proposed_residential_affordable_units": 0,
+      "total_no_proposed_residential_units_affordable_rent": 0,
+      "total_no_proposed_residential_units_discount_market_sale": 0,
+      "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_london_living_rent": 0,
+      "total_no_existing_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_units_shared_equity": 0,
+      "total_no_existing_residential_units_intermediate": 0,
+      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_existing_residential_units_social_rent": 0,
+      "total_no_proposed_residential_units_self_build_and_custom_build": 0,
+      "total_no_existing_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_affordable_units": 0,
+      "total_no_existing_residential_units_affordable_rent": 0,
+      "habitable_rooms_density": 0,
+      "total_no_existing_residential_units_london_shared_ownership": 0,
+      "total_gia_gained": 3349,
+      "total_no_proposed_residential_units_social_rent": 0,
+      "total_no_existing_residential_units_london_affordable_rent": 0,
+      "site_area": 0.113,
+      "dwelling_density": 0,
+      "total_no_proposed_residential_units_starter_homes": 0,
+      "total_no_proposed_residential_units_london_affordable_rent": 0,
+      "total_gia_lost": 0,
+      "total_no_existing_residential_units_discount_market_sale": 0,
+      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_starter_homes": 0,
+      "total_no_proposed_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_intermediate": 0,
+      "affordable_percentage": 0,
+      "total_no_proposed_residential_units_london_shared_ownership": 0,
+      "total_no_existing_residential_units_market_for_rent": 0,
+      "total_no_existing_residential_units_self_build_and_custom_build": 0
+    }
   },
   "uprn": "10091692517",
   "decision_date": "22/08/2024",
   "description": "Redevelopment of the site to provide a new self-storage facility (Class B8) and new light Industrial workspace / incubator units (Class E(g)(iii)) with associated car and cycle parking, landscaping and other works ancillary to the development.",
   "site_name": "DEVELOPMENT SITE ADJACENT TO",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Northgate M3",
   "decision_target_date": "23/08/2024",
   "borough": "Hounslow",
   "postcode": "TW8 0LW",
@@ -296,136 +212,24 @@
     "coordinates": [
       [
         [
-          -0.3041972,
-          51.4910604
+          -0.304941,
+          51.490854
         ],
         [
-          -0.3041377,
-          51.4910524
+          -0.304942,
+          51.490827
         ],
         [
-          -0.304091,
-          51.4910359
+          -0.304985,
+          51.490828
         ],
         [
-          -0.3040837,
-          51.4910294
+          -0.304984,
+          51.490854
         ],
         [
-          -0.304076,
-          51.4910201
-        ],
-        [
-          -0.3040442,
-          51.4909804
-        ],
-        [
-          -0.3040361,
-          51.490969
-        ],
-        [
-          -0.30402789999999996,
-          51.4909577
-        ],
-        [
-          -0.30413229999999997,
-          51.4909273
-        ],
-        [
-          -0.30419009999999996,
-          51.4909105
-        ],
-        [
-          -0.304174,
-          51.4908891
-        ],
-        [
-          -0.304262,
-          51.4908636
-        ],
-        [
-          -0.3045081,
-          51.4907891
-        ],
-        [
-          -0.3045661,
-          51.4907715
-        ],
-        [
-          -0.3046023,
-          51.4907623
-        ],
-        [
-          -0.3047341,
-          51.4909675
-        ],
-        [
-          -0.30473439999999996,
-          51.490968
-        ],
-        [
-          -0.30474249999999997,
-          51.4909806
-        ],
-        [
-          -0.3047512,
-          51.4910028
-        ],
-        [
-          -0.30475189999999996,
-          51.4910069
-        ],
-        [
-          -0.3047513,
-          51.4910277
-        ],
-        [
-          -0.3047357,
-          51.4910494
-        ],
-        [
-          -0.30468069999999997,
-          51.4910577
-        ],
-        [
-          -0.3045728,
-          51.4910742
-        ],
-        [
-          -0.3045247,
-          51.4910789
-        ],
-        [
-          -0.3044767,
-          51.4910836
-        ],
-        [
-          -0.30435029999999996,
-          51.4910758
-        ],
-        [
-          -0.3043381,
-          51.4910753
-        ],
-        [
-          -0.30429,
-          51.4910707
-        ],
-        [
-          -0.30424019999999996,
-          51.4910656
-        ],
-        [
-          -0.3042187,
-          51.4910633
-        ],
-        [
-          -0.3041975,
-          51.4910605
-        ],
-        [
-          -0.3041972,
-          51.4910604
+          -0.304941,
+          51.490854
         ]
       ]
     ]
@@ -433,8 +237,8 @@
   "appeal_decision_date": null,
   "pp_id": "12169344",
   "centroid": {
-    "lon": "-0.3044326",
-    "lat": "51.4909507"
+    "lon": -0.304963,
+    "lat": 51.490841
   },
   "actual_completion_date": null,
   "reference_no_of_permission_being_relied_on": null,

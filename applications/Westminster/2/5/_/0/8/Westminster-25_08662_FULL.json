@@ -1,6 +1,6 @@
 {
   "decision": null,
-  "last_date_consultation_comments": null,
+  "last_date_consultation_comments": "05/03/2026",
   "wgs84_polygon": {
     "type": "Polygon",
     "coordinates": [
@@ -51,7 +51,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -91,7 +90,8 @@
               182957
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -133,13 +133,13 @@
       "waste_details": [
         {
           "external_dry_recycling": false,
-          "internal_food_waste": true,
-          "internal_dry_recycling": true,
-          "reason_for_no_provision": "Existing historic arrangements",
-          "unit_reference": "All flats",
           "external_food_waste": false,
+          "unit_reference": "All flats",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "Existing historic arrangements",
           "internal_residual_waste": true,
-          "external_residual_waste": false
+          "internal_food_waste": true,
+          "internal_dry_recycling": true
         }
       ]
     },
@@ -154,10 +154,10 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
         "gia_existing": 90,
-        "gia_lost": 0,
-        "use_class": "C3"
+        "gia_gained": 0,
+        "use_class": "C3",
+        "gia_lost": 0
       }
     ],
     "green_suds": false,
@@ -187,12 +187,12 @@
       "total_no_proposed_residential_units_social_rent": 0,
       "residential_units": [
         {
-          "provision_for_older_persons": false,
+          "no_habitable_rooms": 2,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "sheltered_accommodation": false,
-          "change_type": "Loss",
-          "no_habitable_rooms": 2,
+          "provision_for_older_persons": false,
           "gia": 45,
           "tenure": "Market for rent"
         }
@@ -246,7 +246,7 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "182963",
-  "last_updated": "2026-02-12T00:35:17.170Z",
+  "last_updated": "2026-02-13T00:35:16.648Z",
   "centroid": {
     "lon": -0.180689,
     "lat": 51.531459

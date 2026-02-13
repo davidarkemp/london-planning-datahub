@@ -51,7 +51,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -91,7 +90,8 @@
               183201
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -133,13 +133,13 @@
       "waste_details": [
         {
           "external_dry_recycling": false,
-          "internal_food_waste": false,
-          "internal_dry_recycling": false,
-          "reason_for_no_provision": "not relevant",
-          "unit_reference": "11",
           "external_food_waste": false,
+          "unit_reference": "11",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "not relevant",
           "internal_residual_waste": false,
-          "external_residual_waste": false
+          "internal_food_waste": false,
+          "internal_dry_recycling": false
         }
       ]
     },
@@ -154,10 +154,10 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 200,
         "gia_existing": 200,
-        "gia_lost": 0,
-        "use_class": "C3"
+        "gia_gained": 200,
+        "use_class": "C3",
+        "gia_lost": 0
       }
     ],
     "green_suds": false,
@@ -194,13 +194,13 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "183223",
-  "last_updated": "2026-02-12T00:35:19.254Z",
+  "last_updated": "2026-02-12T21:03:16.697Z",
   "centroid": {
     "lon": -0.166056,
     "lat": 51.533569
   },
   "subdivision_of_building": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
