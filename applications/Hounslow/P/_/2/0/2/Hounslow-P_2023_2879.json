@@ -1,6 +1,6 @@
 {
   "lpa_app_no": "P/2023/2879",
-  "centroid_northing": 176482,
+  "centroid_northing": 176485,
   "status": "Approved",
   "epc_number": null,
   "last_date_consultation_comments": null,
@@ -8,80 +8,16 @@
   "secondary_street_name": null,
   "subdivision_of_building": null,
   "date_building_work_started_under_previous_permission": null,
-  "last_updated": "2025-03-19T18:16:12.686+00:00",
+  "last_updated": "2026-02-13T13:34:37.476Z",
   "valid_date": "18/09/2023",
   "polygon": {
-    "type": "GeometryCollection",
-    "geometries": [
-      {
-        "coordinates": [
-          [
-            [
-              511187.84,
-              176472.53
-            ],
-            [
-              511185,
-              176461.9
-            ],
-            [
-              511177.9,
-              176466
-            ],
-            [
-              511177.65,
-              176466.15
-            ],
-            [
-              511176.5,
-              176466.78
-            ],
-            [
-              511175.44,
-              176481.8
-            ],
-            [
-              511183.74,
-              176500.79
-            ],
-            [
-              511185.6,
-              176500
-            ],
-            [
-              511186.65,
-              176499.55
-            ],
-            [
-              511194.95,
-              176496.1
-            ],
-            [
-              511192.48,
-              176488.83
-            ],
-            [
-              511192.96,
-              176488.69
-            ],
-            [
-              511190.69,
-              176483.17
-            ],
-            [
-              511187.84,
-              176472.53
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      }
-    ]
+    "type": "geometrycollection",
+    "geometries": []
   },
-  "cil_liability": false,
-  "title_number": null,
+  "cil_liability": true,
+  "title_number": [],
   "decision_process": "Delegated",
-  "centroid_easting": 511184,
+  "centroid_easting": 511185,
   "actual_commencement_date": null,
   "url_planning_app": "https://planningandbuilding.hounslow.gov.uk/NECSWS/ES/Presentation/Planning/OnlinePlanning/OnlinePlanningOverview?applicationNumber=P/2023/2879",
   "site_number": "520",
@@ -105,9 +41,16 @@
   "id": "Hounslow-P_2023_2879",
   "application_details": {
     "internal_resi_water_usage": 100,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "other_residential_accommodation_details": {
-      "site_area": 0.044
+      "site_area": 0.044,
+      "other_resi_accommodation_unit_details": [
+        {
+          "no_rooms_proposed": 0,
+          "unit_type": "Hostel Room",
+          "no_rooms_lost": 7
+        }
+      ]
     },
     "phasing_details": [
       {
@@ -141,8 +84,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 216,
-        "use_class": "C4",
         "gia_gained": 227,
+        "use_class": "C4",
         "gia_lost": 216
       }
     ],
@@ -160,48 +103,60 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 2,
           "provider": "Private",
-          "unit_no": "Gain-1",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 50,
-          "tenure": "Market for rent"
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 50
         },
         {
-          "no_habitable_rooms": 2,
           "provider": "Private",
-          "unit_no": "Gain-2",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 50,
-          "tenure": "Market for rent"
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 50
         },
         {
-          "no_habitable_rooms": 2,
           "provider": "Private",
-          "unit_no": "Gain-3",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 50,
-          "tenure": "Market for rent"
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 50
         },
         {
-          "no_habitable_rooms": 2,
           "provider": "Private",
-          "unit_no": "Gain-4",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 50,
-          "tenure": "Market for rent"
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 50
         }
       ],
       "total_no_proposed_bedrooms": 8,
-      "habitable_rooms_density": 181.81818181818184,
+      "habitable_rooms_density": 181.8181818181818,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "site_area": 0.044,
       "total_gia_lost": 0,
@@ -244,13 +199,22 @@
       "no_new_gas_connections_required": 4,
       "no_new_water_connections_required": 4,
       "mobile_network_operators_consultation": false,
-      "waste_provision": true,
+      "waste_provision": false,
       "ghg_reduction_over_building_regulations": false,
       "green_roof_area": 0
     },
     "affordable_housing_fast_track": false,
     "ownership_status": "Private",
-    "existing_uprns": null
+    "existing_uprns": [],
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "uprn": "10014073695",
   "decision_date": "08/12/2023",
@@ -277,60 +241,24 @@
     "coordinates": [
       [
         [
-          -0.4003651,
-          51.4762966
+          -0.400401,
+          51.476422
         ],
         [
-          -0.40040929999999997,
-          51.4762016
+          -0.400402,
+          51.476395
         ],
         [
-          -0.4005103,
-          51.4762399
+          -0.400445,
+          51.476396
         ],
         [
-          -0.4005138,
-          51.4762413
+          -0.400444,
+          51.476423
         ],
         [
-          -0.4005302,
-          51.4762472
-        ],
-        [
-          -0.40054069999999997,
-          51.4763824
-        ],
-        [
-          -0.4004153,
-          51.4765514
-        ],
-        [
-          -0.4003887,
-          51.476544
-        ],
-        [
-          -0.4003738,
-          51.4765397
-        ],
-        [
-          -0.4002554,
-          51.4765071
-        ],
-        [
-          -0.40029319999999996,
-          51.4764422
-        ],
-        [
-          -0.4002864,
-          51.4764409
-        ],
-        [
-          -0.4003208,
-          51.4763917
-        ],
-        [
-          -0.4003651,
-          51.4762966
+          -0.400401,
+          51.476422
         ]
       ]
     ]
@@ -338,8 +266,8 @@
   "appeal_decision_date": null,
   "pp_id": "12360443",
   "centroid": {
-    "lon": "-0.4004174",
-    "lat": "51.4763825"
+    "lon": -0.400423,
+    "lat": 51.476409
   },
   "actual_completion_date": null,
   "reference_no_of_permission_being_relied_on": null,

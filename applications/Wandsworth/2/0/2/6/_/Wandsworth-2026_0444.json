@@ -75,7 +75,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -139,7 +138,8 @@
               171495.95032743312
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -190,17 +190,17 @@
     },
     "building_details": [
       {
-        "max_height": 13,
         "no_storeys": 4,
+        "max_height": 13,
         "building_ref": "54 Gilbey Rd "
       }
     ],
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
         "gia_existing": 185.6,
-        "gia_lost": 4.6,
-        "use_class": "C3"
+        "gia_gained": 0,
+        "use_class": "C3",
+        "gia_lost": 4.6
       }
     ],
     "green_suds": false,
@@ -231,63 +231,63 @@
       "residential_units": [
         {
           "change_type": "Loss",
-          "gia": 2,
-          "unit_type": "Communal Space"
+          "unit_type": "Communal Space",
+          "gia": 2
         },
         {
           "change_type": "Loss",
-          "gia": 2,
-          "unit_type": "Communal Space"
+          "unit_type": "Communal Space",
+          "gia": 2
         },
         {
-          "provision_for_older_persons": false,
+          "no_habitable_rooms": 4,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "sheltered_accommodation": false,
-          "change_type": "Loss",
-          "no_habitable_rooms": 4,
+          "provision_for_older_persons": false,
           "gia": 58,
           "tenure": "Market for sale"
         },
         {
-          "provision_for_older_persons": false,
+          "no_habitable_rooms": 6,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "sheltered_accommodation": false,
-          "change_type": "Loss",
-          "no_habitable_rooms": 6,
+          "provision_for_older_persons": false,
           "gia": 119,
           "tenure": "Market for sale"
         },
         {
           "change_type": "Gain",
-          "gia": 14.6,
-          "unit_type": "Communal Space"
+          "unit_type": "Communal Space",
+          "gia": 14.6
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 4,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "change_type": "Gain",
-          "no_habitable_rooms": 4,
           "gia": 81.5,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 3,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "change_type": "Gain",
-          "no_habitable_rooms": 3,
           "gia": 61,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 1,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "no_habitable_rooms": 1,
           "gia": 38.5,
           "tenure": "Market for rent"
         }
@@ -341,13 +341,13 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": 171502,
-  "last_updated": "2026-02-13T00:35:14.162Z",
+  "last_updated": "2026-02-13T18:00:04.315Z",
   "centroid": {
     "lon": -0.17101,
     "lat": 51.428245
   },
   "subdivision_of_building": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Northgate M3",
   "title_number": null,
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,

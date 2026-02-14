@@ -39,7 +39,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -67,7 +66,8 @@
               172356
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -119,23 +119,23 @@
     },
     "building_details": [
       {
-        "max_height": 12.8,
         "no_storeys": 4,
+        "max_height": 12.8,
         "building_ref": "Ground, First and second floors and Mansard Loft."
       }
     ],
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
         "gia_existing": 76.5,
-        "gia_lost": 15.85,
-        "use_class": "EA"
+        "gia_gained": 0,
+        "use_class": "EA",
+        "gia_lost": 15.85
       },
       {
-        "gia_gained": 27,
         "gia_existing": 69.9,
-        "gia_lost": 0,
-        "use_class": "C3"
+        "gia_gained": 27,
+        "use_class": "C3",
+        "gia_lost": 0
       }
     ],
     "green_suds": false,
@@ -165,26 +165,26 @@
       "total_no_proposed_residential_units_social_rent": 0,
       "residential_units": [
         {
-          "provision_for_older_persons": false,
+          "no_habitable_rooms": 3,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "sheltered_accommodation": false,
-          "change_type": "Loss",
-          "no_habitable_rooms": 3,
+          "provision_for_older_persons": false,
           "gia": 69.9,
           "tenure": "Market for rent"
         },
         {
           "change_type": "Gain",
-          "gia": 58.45,
-          "unit_type": "Communal Space"
+          "unit_type": "Communal Space",
+          "gia": 58.45
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 2,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "no_habitable_rooms": 2,
           "gia": 38.75,
           "tenure": "Market for rent"
         }
@@ -238,13 +238,13 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "172359",
-  "last_updated": "2026-02-13T00:35:14.632Z",
+  "last_updated": "2026-02-13T21:01:28.323Z",
   "centroid": {
     "lon": -0.104318,
     "lat": 51.434892
   },
-  "subdivision_of_building": "Part of ground floor and complete First and second floors as well as roof space.",
-  "last_updated_by": "Planning Portal ingest",
+  "subdivision_of_building": null,
+  "last_updated_by": "Idox Uniform",
   "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,

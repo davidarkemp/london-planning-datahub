@@ -1,120 +1,24 @@
 {
   "lpa_app_no": "P/2023/2974",
-  "centroid_northing": 176463,
-  "status": "Approved",
+  "centroid_northing": 176459,
+  "status": "Commenced",
   "epc_number": null,
   "last_date_consultation_comments": "01/11/2023",
   "locality": "Isleworth",
   "secondary_street_name": null,
   "subdivision_of_building": null,
   "date_building_work_started_under_previous_permission": null,
-  "last_updated": "2025-03-19T17:52:48.610+00:00",
+  "last_updated": "2026-02-13T12:46:25.014Z",
   "valid_date": "01/11/2023",
   "polygon": {
-    "type": "GeometryCollection",
-    "geometries": [
-      {
-        "coordinates": [
-          [
-            [
-              515510.89,
-              176449.83
-            ],
-            [
-              515500,
-              176448.55
-            ],
-            [
-              515492.65,
-              176447.75
-            ],
-            [
-              515485,
-              176446.85
-            ],
-            [
-              515482.7,
-              176459.56
-            ],
-            [
-              515483.55,
-              176459.65
-            ],
-            [
-              515480.45,
-              176475.9
-            ],
-            [
-              515499.05,
-              176477.4
-            ],
-            [
-              515500,
-              176473.4
-            ],
-            [
-              515501.75,
-              176473.7
-            ],
-            [
-              515501.35,
-              176477.85
-            ],
-            [
-              515517.9,
-              176481.05
-            ],
-            [
-              515519.25,
-              176475
-            ],
-            [
-              515523.25,
-              176475.9
-            ],
-            [
-              515527.35,
-              176457.95
-            ],
-            [
-              515528,
-              176455.7
-            ],
-            [
-              515527,
-              176454.4
-            ],
-            [
-              515525.45,
-              176452.4
-            ],
-            [
-              515524.8,
-              176451.45
-            ],
-            [
-              515522.1,
-              176451.15
-            ],
-            [
-              515521.78,
-              176451.11
-            ],
-            [
-              515510.89,
-              176449.83
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      }
-    ]
+    "type": "geometrycollection",
+    "geometries": []
   },
-  "cil_liability": false,
-  "title_number": null,
+  "cil_liability": true,
+  "title_number": [],
   "decision_process": "Delegated",
-  "centroid_easting": 515504,
-  "actual_commencement_date": null,
+  "centroid_easting": 515507,
+  "actual_commencement_date": "01/01/2024",
   "url_planning_app": "https://planningandbuilding.hounslow.gov.uk/NECSWS/ES/Presentation/Planning/OnlinePlanning/OnlinePlanningOverview?applicationNumber=P/2023/2974",
   "site_number": "462",
   "decision": "Approved",
@@ -137,11 +41,14 @@
   "id": "Hounslow-P_2023_2974",
   "application_details": {
     "internal_resi_water_usage": 105,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "other_residential_accommodation_details": {
       "other_resi_accommodation_unit_details": [
         {
           "no_rooms_proposed": 39,
+          "m42_compliant": true,
+          "actual_commencement_date": "01/01/2024",
+          "unit_type": "Care Home Bedroom",
           "no_rooms_lost": 0
         }
       ],
@@ -163,7 +70,7 @@
       "total_gia_gained": 1704.51,
       "site_area": 1
     },
-    "site_area": 0.122,
+    "site_area": 0.13,
     "scheme_name": "Astoria Health Isleworth",
     "projected_cost_of_works": "Between £2m and £100m",
     "total_gia_lost": 925.2,
@@ -180,14 +87,16 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 925.2,
-        "use_class": "E",
         "gia_gained": 0,
+        "use_class": "E",
+        "actual_commencement_date": "01/01/2024",
         "gia_lost": 925.2
       },
       {
         "gia_existing": 0,
-        "use_class": "C2",
         "gia_gained": 1704.51,
+        "use_class": "C2",
+        "actual_commencement_date": "01/01/2024",
         "gia_lost": 0
       }
     ],
@@ -232,11 +141,11 @@
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_discount_market_rent": 0
     },
-    "green_suds": true,
+    "green_suds": false,
     "total_gia_existing": 925.2,
     "grey_water_reuse": false,
     "infrastructure_details": {
-      "fire_suppression_system_proposed": true,
+      "fire_suppression_system_proposed": false,
       "no_resi_units_to_have_full_fibre": 1,
       "total_annual_nox_emissions": 0,
       "no_non_resi_units_to_have_full_fibre": 1,
@@ -248,10 +157,10 @@
       "no_new_gas_connections_required": 0,
       "no_active_slow_ev_charging_points": 2,
       "no_new_water_connections_required": 1,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_passive_slow_ev_charging_points": 0,
       "mobile_network_operators_consultation": false,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "green_roof_area": 0
     },
     "superseding_details": [
@@ -261,14 +170,23 @@
       }
     ],
     "affordable_housing_fast_track": false,
-    "existing_uprns": null,
-    "ownership_status": "Private"
+    "existing_uprns": [],
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "uprn": "100023406352",
   "decision_date": "18/03/2024",
   "description": "Erection of a single storey rear and three storey side extension incorporating roof alterations with five roof windows to facilitate the conversion from offices (Use Class E) to a care home (Use Class C2) with associated works including landscaping, access and parking",
   "site_name": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Northgate M3",
   "decision_target_date": "31/01/2024",
   "borough": "Hounslow",
   "postcode": "TW7 4ED",
@@ -302,92 +220,24 @@
     "coordinates": [
       [
         [
-          -0.3381515,
-          51.475227
+          -0.338204,
+          51.475324
         ],
         [
-          -0.33830859999999996,
-          51.4752178
+          -0.338205,
+          51.475297
         ],
         [
-          -0.33841469999999996,
-          51.4752121
+          -0.338248,
+          51.475297
         ],
         [
-          -0.33852509999999997,
-          51.4752055
+          -0.338247,
+          51.475324
         ],
         [
-          -0.33855399999999997,
-          51.4753202
-        ],
-        [
-          -0.3385418,
-          51.4753209
-        ],
-        [
-          -0.33858109999999997,
-          51.4754676
-        ],
-        [
-          -0.33831289999999997,
-          51.4754773
-        ],
-        [
-          -0.3383005,
-          51.4754411
-        ],
-        [
-          -0.3382752,
-          51.4754434
-        ],
-        [
-          -0.33827959999999996,
-          51.4754808
-        ],
-        [
-          -0.33804039999999996,
-          51.4755062
-        ],
-        [
-          -0.33802289999999996,
-          51.4754516
-        ],
-        [
-          -0.33796509999999996,
-          51.4754588
-        ],
-        [
-          -0.3379119,
-          51.4752967
-        ],
-        [
-          -0.33790329999999996,
-          51.4752763
-        ],
-        [
-          -0.3379181,
-          51.4752648
-        ],
-        [
-          -0.3379411,
-          51.4752472
-        ],
-        [
-          -0.3379507,
-          51.4752388
-        ],
-        [
-          -0.3379897,
-          51.4752366
-        ],
-        [
-          -0.33799429999999997,
-          51.4752363
-        ],
-        [
-          -0.3381515,
-          51.475227
+          -0.338204,
+          51.475324
         ]
       ]
     ]
@@ -395,8 +245,8 @@
   "appeal_decision_date": null,
   "pp_id": "12450252",
   "centroid": {
-    "lon": "-0.3382463",
-    "lat": "51.4753468"
+    "lon": -0.338226,
+    "lat": 51.47531
   },
   "actual_completion_date": null,
   "reference_no_of_permission_being_relied_on": null,
