@@ -75,7 +75,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -139,7 +138,8 @@
               174781.12682866253
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -190,10 +190,10 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
         "gia_existing": 175,
-        "gia_lost": 0,
-        "use_class": "SG"
+        "gia_gained": 0,
+        "use_class": "SG",
+        "gia_lost": 0
       }
     ],
     "green_suds": false,
@@ -224,113 +224,113 @@
       "residential_units": [
         {
           "change_type": "Loss",
-          "gia": 1,
-          "unit_type": "Communal Space"
+          "unit_type": "Communal Space",
+          "gia": 1
         },
         {
-          "provision_for_older_persons": false,
+          "no_habitable_rooms": 1,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "HMO",
           "no_bedrooms": 1,
-          "sheltered_accommodation": false,
-          "change_type": "Loss",
-          "no_habitable_rooms": 1,
+          "provision_for_older_persons": false,
           "gia": 15,
           "tenure": "London Affordable Rent"
         },
         {
-          "provision_for_older_persons": false,
+          "no_habitable_rooms": 1,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "HMO",
           "no_bedrooms": 1,
-          "sheltered_accommodation": false,
-          "change_type": "Loss",
-          "no_habitable_rooms": 1,
+          "provision_for_older_persons": false,
           "gia": 15,
           "tenure": "London Affordable Rent"
         },
         {
-          "provision_for_older_persons": false,
+          "no_habitable_rooms": 1,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "HMO",
           "no_bedrooms": 1,
-          "sheltered_accommodation": false,
-          "change_type": "Loss",
-          "no_habitable_rooms": 1,
+          "provision_for_older_persons": false,
           "gia": 15,
           "tenure": "London Affordable Rent"
         },
         {
-          "provision_for_older_persons": false,
+          "no_habitable_rooms": 1,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "HMO",
           "no_bedrooms": 1,
-          "sheltered_accommodation": false,
-          "change_type": "Loss",
-          "no_habitable_rooms": 1,
+          "provision_for_older_persons": false,
           "gia": 15,
           "tenure": "London Affordable Rent"
         },
         {
-          "provision_for_older_persons": false,
+          "no_habitable_rooms": 1,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "HMO",
           "no_bedrooms": 1,
-          "sheltered_accommodation": false,
-          "change_type": "Loss",
-          "no_habitable_rooms": 1,
+          "provision_for_older_persons": false,
           "gia": 15,
           "tenure": "London Affordable Rent"
         },
         {
-          "provision_for_older_persons": false,
+          "no_habitable_rooms": 1,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "HMO",
           "no_bedrooms": 1,
-          "sheltered_accommodation": false,
-          "change_type": "Loss",
-          "no_habitable_rooms": 1,
+          "provision_for_older_persons": false,
           "gia": 15,
           "tenure": "London Affordable Rent"
         },
         {
-          "provision_for_older_persons": false,
+          "no_habitable_rooms": 1,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "HMO",
           "no_bedrooms": 1,
-          "sheltered_accommodation": false,
-          "change_type": "Loss",
-          "no_habitable_rooms": 1,
+          "provision_for_older_persons": false,
           "gia": 15,
           "tenure": "London Affordable Rent"
         },
         {
-          "provision_for_older_persons": false,
+          "no_habitable_rooms": 1,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "HMO",
           "no_bedrooms": 1,
-          "sheltered_accommodation": false,
-          "change_type": "Loss",
-          "no_habitable_rooms": 1,
+          "provision_for_older_persons": false,
           "gia": 15,
           "tenure": "London Affordable Rent"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 1,
+          "change_type": "Gain",
           "unit_type": "Studio Bedsit",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "no_habitable_rooms": 1,
           "gia": 38,
           "tenure": "London Affordable Rent"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 2,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "no_habitable_rooms": 2,
           "gia": 57.5,
           "tenure": "London Affordable Rent"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 3,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "change_type": "Gain",
-          "no_habitable_rooms": 3,
           "gia": 64.5,
           "tenure": "London Affordable Rent"
         }
@@ -384,13 +384,13 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": 174774,
-  "last_updated": "2026-01-30T00:35:07.600Z",
+  "last_updated": "2026-02-14T09:32:16.936Z",
   "centroid": {
     "lon": -0.362415,
     "lat": 51.460499
   },
   "subdivision_of_building": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Northgate M3",
   "title_number": null,
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
