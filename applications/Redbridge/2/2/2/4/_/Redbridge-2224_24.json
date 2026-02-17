@@ -1,13 +1,13 @@
 {
   "decision_date": "19/11/2024",
   "appeal_decision_date": null,
-  "title_number": null,
+  "title_number": [],
   "borough": "Redbridge",
-  "last_updated": "2026-01-27T14:47:51.155Z",
+  "last_updated": "2026-02-17T00:00:47.808Z",
   "centroid_northing": 192610,
   "url_planning_app": null,
   "actual_completion_date": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Agile APAS",
   "decision_target_date": "18/10/2024",
   "locality": null,
   "epc_number": null,
@@ -17,12 +17,12 @@
   "decision_conditions": [
     "The development hereby permitted shall be begun no later than the  expiration of three years from the date of this permission.\r\n\r\nReason: In order to comply with the requirements of Section 91 of the Town and Country Planning Act 1990."
   ],
-  "status": "Approved",
+  "status": "Commenced",
   "valid_date": "24/08/2024",
   "application_type": "All Other",
   "appeal_start_date": null,
   "description": "Erection of one (one x 2-bedroom) dwelling house with associated waste/refuse and cycle store. Extension of means of access to a highway (summary)",
-  "cil_liability": null,
+  "cil_liability": false,
   "uprn": "10097091349",
   "decision": "Approved",
   "decision_agency": null,
@@ -35,7 +35,7 @@
   "centroid_easting": 545380,
   "lpa_name": "Redbridge",
   "appeal_decision": null,
-  "actual_commencement_date": null,
+  "actual_commencement_date": "01/03/2026",
   "secondary_street_name": null,
   "development_type": null,
   "ward": null,
@@ -196,7 +196,7 @@
     ]
   },
   "application_details": {
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "total_gia_lost": 0,
     "rain_water_harvesting": false,
     "projected_cost_of_works": "Up to £2m",
@@ -209,8 +209,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "03/2025",
-        "intended_completion_date": "12/2025"
+        "intended_completion_date": "12/2025",
+        "intended_commencement_date": "03/2025"
       }
     ],
     "grey_water_reuse": false,
@@ -230,16 +230,16 @@
       "fire_suppression_system_proposed": false,
       "no_active_rapid_ev_charging_points": 2,
       "percentage_demolition_construction_material_recycling": 25,
-      "waste_provision": true,
-      "ghg_reduction_over_building_regulations": true
+      "waste_provision": false,
+      "ghg_reduction_over_building_regulations": false
     },
     "ownership_status": "Private",
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 119,
-        "use_class": "C3",
         "gia_gained": 84,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -248,7 +248,8 @@
       "total_gia_existing": 119,
       "total_gia_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_gained": 84
+      "total_gia_gained": 84,
+      "site_area": 0.0396
     },
     "building_details": [
       {
@@ -267,7 +268,7 @@
       "total_no_existing_residential_affordable_units": 0,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 25.25252525252525,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
@@ -281,7 +282,7 @@
       "total_no_proposed_residential_units": 1,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_market_for_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 101.01010101010101,
       "total_gia_lost": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_bedrooms": 2,
@@ -297,20 +298,39 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "provider": "Private",
-          "no_habitable_rooms": 4,
+          "description": null,
           "change_type": "Gain",
           "garden_land": true,
           "unit_type": "House or Bungalow",
+          "provider": "Private",
+          "no_habitable_rooms": 4,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "01/03/2026",
           "no_bedrooms": 2,
-          "gia": 84,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 84
         }
       ],
       "total_no_proposed_residential_units_social_rent": 0,
       "total_gia_gained": 84,
-      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0
-    }
+      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "site_area": 0.0396
+    },
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.0396
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "reference_no_of_permission_being_relied_on": null,
   "parking_details": {

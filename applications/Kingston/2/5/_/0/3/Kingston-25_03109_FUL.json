@@ -79,7 +79,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -147,7 +146,8 @@
               166546.2
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -215,18 +215,18 @@
     ],
     "non_residential_details": {
       "site_area": 0.15,
-      "total_gia_gained": 583,
-      "total_gia_existing": 316.8,
+      "total_gia_gained": 0,
+      "total_gia_existing": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_lost": 316.8,
+      "total_gia_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 583,
         "gia_existing": 316.8,
-        "gia_lost": 316.8,
-        "use_class": "C3"
+        "gia_gained": 583,
+        "use_class": "C3",
+        "gia_lost": 316.8
       }
     ],
     "green_suds": true,
@@ -252,32 +252,57 @@
       "total_no_proposed_residential_units_social_rent": 0,
       "residential_units": [
         {
-          "provision_for_older_persons": false,
-          "unit_type": "House or Bungalow",
-          "no_bedrooms": 3,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
           "sheltered_accommodation": false,
+          "unit_type": "Semi Detached Home",
+          "provider": "Private",
+          "no_habitable_rooms": 7,
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 5,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 290
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Semi Detached Home",
+          "provider": "Private",
+          "no_habitable_rooms": 7,
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 5,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 290
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "House or Bungalow",
           "no_habitable_rooms": 6,
-          "gia": 311.8,
-          "tenure": "Market for sale"
-        },
-        {
-          "provider": "Private",
-          "unit_type": "Semi Detached Home",
-          "no_bedrooms": 5,
-          "change_type": "Gain",
-          "no_habitable_rooms": 7,
-          "gia": 290,
-          "tenure": "Market for sale"
-        },
-        {
-          "provider": "Private",
-          "unit_type": "Semi Detached Home",
-          "no_bedrooms": 5,
-          "change_type": "Gain",
-          "no_habitable_rooms": 7,
-          "gia": 290,
-          "tenure": "Market for sale"
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 311.8
         }
       ],
       "total_no_existing_residential_units_london_shared_ownership": 0,
@@ -298,10 +323,10 @@
       "total_no_existing_residential_units": 1,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
-      "total_gia_gained": 580,
+      "total_gia_gained": 583,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
-      "total_gia_lost": 311.8,
+      "total_gia_lost": 316.8,
       "habitable_rooms_density": null,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
@@ -309,7 +334,7 @@
       "total_no_existing_residential_units_starter_homes": 0
     },
     "rain_water_harvesting": false,
-    "site_area": 0.15,
+    "site_area": 1500,
     "infrastructure_details": {
       "no_passive_slow_ev_charging_points": 0,
       "fire_suppression_system_proposed": false,
@@ -378,13 +403,13 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": 166541,
-  "last_updated": "2026-02-14T00:32:21.089Z",
+  "last_updated": "2026-02-16T18:01:49.122Z",
   "centroid": {
     "lon": -0.306451,
     "lat": 51.385669
   },
   "subdivision_of_building": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "title_number": null,
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,

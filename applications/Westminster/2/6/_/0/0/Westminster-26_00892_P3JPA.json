@@ -47,7 +47,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -83,7 +82,8 @@
               182108
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -146,132 +146,132 @@
       "residential_units": [
         {
           "change_type": "Gain",
-          "gia": 181.5,
-          "unit_type": "Communal Space"
+          "unit_type": "Communal Space",
+          "gia": 181.5
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 2,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "no_habitable_rooms": 2,
           "gia": 50.1,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 2,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "no_habitable_rooms": 2,
           "gia": 50.1,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 2,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "no_habitable_rooms": 2,
           "gia": 50.1,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 2,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "no_habitable_rooms": 2,
           "gia": 50.1,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 2,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "no_habitable_rooms": 2,
           "gia": 41.3,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 2,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "no_habitable_rooms": 2,
           "gia": 41.3,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 2,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "no_habitable_rooms": 2,
           "gia": 41.3,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
-          "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 1,
-          "change_type": "Gain",
           "no_habitable_rooms": 3,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
           "gia": 38.6,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 2,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "no_habitable_rooms": 2,
           "gia": 47.6,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 3,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "no_habitable_rooms": 3,
           "gia": 46.9,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 2,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "no_habitable_rooms": 2,
           "gia": 37.9,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 3,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "no_habitable_rooms": 3,
           "gia": 50,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 3,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "no_habitable_rooms": 3,
           "gia": 50,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
-          "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 1,
-          "change_type": "Gain",
           "no_habitable_rooms": 2,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
           "gia": 50,
           "tenure": "Market for sale"
         }
@@ -306,10 +306,10 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 13.18,
         "gia_existing": 0,
-        "gia_lost": 0,
-        "use_class": "SpecifiedOther"
+        "gia_gained": 13.18,
+        "use_class": "SpecifiedOther",
+        "gia_lost": 0
       }
     ]
   },
@@ -327,26 +327,22 @@
   "street_name": "Cleveland Street",
   "locality": null,
   "application_type": "Prior Approval",
-  "epc_number": "9313-7334-6002-0407-2402",
+  "epc_number": null,
   "decision_conditions": null,
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "182109",
-  "last_updated": "2026-02-14T00:32:21.540Z",
+  "last_updated": "2026-02-16T21:06:02.858Z",
   "centroid": {
     "lon": -0.142256,
     "lat": 51.523177
   },
   "subdivision_of_building": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "id": "Westminster-26_00892_P3JPA",
-  "parking_details": {
-    "net_cycle": 21,
-    "no_existing_cycle": 0,
-    "no_proposed_cycle": 21
-  },
+  "parking_details": null,
   "description": "Notification for Prior Approval for the change of use from a use Class E (office) to Class C3 (residential) to form 12 units under the Town and Country Planning (General Permitted Development) (England) Order 2015 (as amended) Schedule 2, Part 3, Class MA."
 }
