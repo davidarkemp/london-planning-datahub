@@ -207,7 +207,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -403,7 +402,8 @@
               178523
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -446,13 +446,13 @@
       "waste_details": [
         {
           "external_dry_recycling": true,
-          "internal_food_waste": false,
-          "internal_dry_recycling": true,
-          "reason_for_no_provision": "NOT APPLICABLE BUT UNABLE TO AVOID QUESTIONS",
-          "unit_reference": "1",
           "external_food_waste": false,
+          "unit_reference": "1",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "NOT APPLICABLE BUT UNABLE TO AVOID QUESTIONS",
           "internal_residual_waste": false,
-          "external_residual_waste": false
+          "internal_food_waste": false,
+          "internal_dry_recycling": true
         }
       ]
     },
@@ -467,17 +467,17 @@
     },
     "building_details": [
       {
-        "max_height": 0,
         "no_storeys": 0,
+        "max_height": 0,
         "building_ref": "1"
       }
     ],
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
         "gia_existing": 1,
-        "gia_lost": 1,
-        "use_class": "C3"
+        "gia_gained": 0,
+        "use_class": "C3",
+        "gia_lost": 1
       }
     ],
     "green_suds": false,
@@ -514,13 +514,13 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "178498",
-  "last_updated": "2026-02-17T00:31:35.328Z",
+  "last_updated": "2026-02-17T21:04:36.724Z",
   "centroid": {
     "lon": -0.135903,
     "lat": 51.490604
   },
-  "subdivision_of_building": "BIN CHUTE DOORS TO COMMUNAL WALKWAYS ON GF, 1st,2nd,3rd AND 5th FLOORS.",
-  "last_updated_by": "Planning Portal ingest",
+  "subdivision_of_building": null,
+  "last_updated_by": "Idox Uniform",
   "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,

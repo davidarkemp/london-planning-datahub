@@ -120,14 +120,13 @@
       ]
     ]
   },
-  "date_building_work_started_under_previous_permission": "05/01/2025",
+  "date_building_work_started_under_previous_permission": null,
   "ward": "BP22",
   "site_number": "83",
   "polygon": {
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -243,7 +242,8 @@
               193017
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -294,10 +294,10 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
         "gia_existing": 214.8,
-        "gia_lost": 0,
-        "use_class": "C3"
+        "gia_gained": 0,
+        "use_class": "C3",
+        "gia_lost": 0
       }
     ],
     "green_suds": false,
@@ -328,19 +328,19 @@
       "residential_units": [
         {
           "provider": "Private",
+          "no_habitable_rooms": 3,
+          "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 2,
-          "change_type": "Gain",
-          "no_habitable_rooms": 3,
           "gia": 126.4,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 3,
+          "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 2,
-          "change_type": "Gain",
-          "no_habitable_rooms": 3,
           "gia": 85.1,
           "tenure": "Market for sale"
         }
@@ -394,24 +394,17 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "193020",
-  "last_updated": "2026-02-17T00:31:35.435Z",
+  "last_updated": "2026-02-17T21:03:37.048Z",
   "centroid": {
     "lon": -0.1412,
     "lat": 51.621277
   },
   "subdivision_of_building": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "id": "Barnet-26_0388_RCU",
-  "parking_details": {
-    "no_proposed_car": 2,
-    "no_existing_cycle": 0,
-    "no_proposed_cycle": 4,
-    "net_cycle": 4,
-    "no_existing_car": 2,
-    "net_car": 0
-  },
+  "parking_details": null,
   "description": "Conversion of the existing dwelling into 2no. self-contained dwellings (Retrospective application)"
 }

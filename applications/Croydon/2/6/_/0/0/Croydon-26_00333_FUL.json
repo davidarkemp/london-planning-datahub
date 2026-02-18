@@ -47,7 +47,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -83,7 +82,8 @@
               169546
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -134,10 +134,10 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 204.44,
         "gia_existing": 204.44,
-        "gia_lost": 204.44,
-        "use_class": "C2"
+        "gia_gained": 204.44,
+        "use_class": "C2",
+        "gia_lost": 204.44
       }
     ],
     "green_suds": true,
@@ -175,12 +175,12 @@
       "total_no_proposed_residential_units_social_rent": 0,
       "residential_units": [
         {
-          "provision_for_older_persons": false,
+          "no_habitable_rooms": 4,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "House or Bungalow",
           "no_bedrooms": 6,
-          "sheltered_accommodation": false,
-          "change_type": "Loss",
-          "no_habitable_rooms": 4,
+          "provision_for_older_persons": false,
           "gia": 204.44,
           "tenure": "Market for sale"
         }
@@ -229,26 +229,22 @@
   "street_name": "Kingslyn Crescent",
   "locality": "Upper Norwood",
   "application_type": "All Other",
-  "epc_number": "8594-3207-0729-1826-4213",
+  "epc_number": null,
   "decision_conditions": null,
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "169548",
-  "last_updated": "2026-02-17T00:31:37.199Z",
+  "last_updated": "2026-02-17T23:11:22.588Z",
   "centroid": {
     "lon": -0.088062,
     "lat": 51.40935
   },
   "subdivision_of_building": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "id": "Croydon-26_00333_FUL",
-  "parking_details": {
-    "no_proposed_car": 2,
-    "no_existing_car": 2,
-    "net_car": 0
-  },
+  "parking_details": null,
   "description": "Change of use from dwelling (Use Class C3) to a childrens home (Use Class C2) to accommodate up to six (6) children."
 }
