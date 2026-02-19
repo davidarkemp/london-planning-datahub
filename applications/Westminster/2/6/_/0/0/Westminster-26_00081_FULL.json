@@ -35,7 +35,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -59,7 +58,8 @@
               178244
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -101,13 +101,13 @@
       "waste_details": [
         {
           "external_dry_recycling": false,
-          "internal_food_waste": true,
-          "internal_dry_recycling": true,
-          "reason_for_no_provision": "Existing building, these buildings have front light wells and local waste collection strategy is to bring waste out to kerb on collection days",
-          "unit_reference": "Flats 1-4",
           "external_food_waste": false,
+          "unit_reference": "Flats 1-4",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "Existing building, these buildings have front light wells and local waste collection strategy is to bring waste out to kerb on collection days",
           "internal_residual_waste": true,
-          "external_residual_waste": false
+          "internal_food_waste": true,
+          "internal_dry_recycling": true
         }
       ]
     },
@@ -122,17 +122,17 @@
     },
     "building_details": [
       {
-        "max_height": 13.8,
         "no_storeys": 5,
+        "max_height": 13.8,
         "building_ref": "72 Charlwood Street "
       }
     ],
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 56,
         "gia_existing": 239,
-        "gia_lost": 0,
-        "use_class": "C3"
+        "gia_gained": 56,
+        "use_class": "C3",
+        "gia_lost": 0
       }
     ],
     "green_suds": false,
@@ -162,68 +162,68 @@
       "total_no_proposed_residential_units_social_rent": 0,
       "residential_units": [
         {
-          "provision_for_older_persons": false,
+          "no_habitable_rooms": 4,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "sheltered_accommodation": false,
-          "change_type": "Loss",
-          "no_habitable_rooms": 4,
+          "provision_for_older_persons": false,
           "gia": 130,
           "tenure": "Market for sale"
         },
         {
-          "provision_for_older_persons": false,
+          "no_habitable_rooms": 4,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "sheltered_accommodation": false,
-          "change_type": "Loss",
-          "no_habitable_rooms": 4,
+          "provision_for_older_persons": false,
           "gia": 130,
           "tenure": "Market for sale"
         },
         {
-          "provision_for_older_persons": false,
+          "no_habitable_rooms": 4,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "sheltered_accommodation": false,
-          "change_type": "Loss",
-          "no_habitable_rooms": 4,
+          "provision_for_older_persons": false,
           "gia": 103,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 3,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "change_type": "Gain",
-          "no_habitable_rooms": 3,
           "gia": 75,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 3,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "change_type": "Gain",
-          "no_habitable_rooms": 3,
           "gia": 61,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 3,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "change_type": "Gain",
-          "no_habitable_rooms": 3,
           "gia": 61,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 4,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "change_type": "Gain",
-          "no_habitable_rooms": 4,
           "gia": 88,
           "tenure": "Market for sale"
         }
@@ -273,18 +273,18 @@
   "street_name": "Charlwood Street",
   "locality": null,
   "application_type": "All Other",
-  "epc_number": "0310-2181-5340-2424-0775",
+  "epc_number": null,
   "decision_conditions": null,
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "178235",
-  "last_updated": "2026-02-18T00:32:33.877Z",
+  "last_updated": "2026-02-18T21:07:50.842Z",
   "centroid": {
     "lon": -0.140318,
     "lat": 51.488309
   },
   "subdivision_of_building": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,

@@ -67,7 +67,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -123,7 +122,8 @@
               177358
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -174,16 +174,16 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
         "gia_existing": 155,
-        "gia_lost": 155,
-        "use_class": "C3"
+        "gia_gained": 0,
+        "use_class": "C3",
+        "gia_lost": 155
       },
       {
-        "gia_gained": 155,
         "gia_existing": 0,
-        "gia_lost": 0,
-        "use_class": "C2"
+        "gia_gained": 155,
+        "use_class": "C2",
+        "gia_lost": 0
       }
     ],
     "green_suds": false,
@@ -221,21 +221,21 @@
       "total_no_proposed_residential_units_social_rent": 0,
       "residential_units": [
         {
-          "provision_for_older_persons": false,
+          "no_habitable_rooms": 2,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "Semi Detached Home",
           "no_bedrooms": 4,
-          "sheltered_accommodation": false,
-          "change_type": "Loss",
-          "no_habitable_rooms": 2,
+          "provision_for_older_persons": false,
           "gia": 155,
           "tenure": "Market for rent"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 2,
+          "change_type": "Gain",
           "unit_type": "Other",
           "no_bedrooms": 4,
-          "change_type": "Gain",
-          "no_habitable_rooms": 2,
           "gia": 155,
           "tenure": "Market for rent"
         }
@@ -289,13 +289,13 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "177364",
-  "last_updated": "2026-02-18T00:32:32.066Z",
+  "last_updated": "2026-02-18T21:01:54.416Z",
   "centroid": {
     "lon": 0.173589,
     "lat": 51.475078
   },
   "subdivision_of_building": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
