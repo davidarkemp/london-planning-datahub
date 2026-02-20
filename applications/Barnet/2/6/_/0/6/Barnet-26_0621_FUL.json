@@ -1,6 +1,6 @@
 {
   "decision": null,
-  "last_date_consultation_comments": null,
+  "last_date_consultation_comments": "12/03/2026",
   "wgs84_polygon": {
     "type": "Polygon",
     "coordinates": [
@@ -35,7 +35,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -59,7 +58,8 @@
               188215
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -110,17 +110,17 @@
     },
     "building_details": [
       {
-        "max_height": 9,
         "no_storeys": 2,
+        "max_height": 9,
         "building_ref": "1"
       }
     ],
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 480,
         "gia_existing": 0,
-        "gia_lost": 0,
-        "use_class": "C3"
+        "gia_gained": 480,
+        "use_class": "C3",
+        "gia_lost": 0
       }
     ],
     "green_suds": true,
@@ -151,10 +151,10 @@
       "residential_units": [
         {
           "provider": "Self-Build",
+          "no_habitable_rooms": 7,
+          "change_type": "Gain",
           "unit_type": "House or Bungalow",
           "no_bedrooms": 5,
-          "change_type": "Gain",
-          "no_habitable_rooms": 7,
           "gia": 668,
           "tenure": "Self-Build and Custom Build"
         }
@@ -208,7 +208,7 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "188228",
-  "last_updated": "2026-02-19T00:33:46.440Z",
+  "last_updated": "2026-02-20T00:31:47.948Z",
   "centroid": {
     "lon": -0.17779,
     "lat": 51.578759

@@ -35,7 +35,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -59,7 +58,8 @@
               178640
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -101,13 +101,13 @@
       "waste_details": [
         {
           "external_dry_recycling": false,
-          "internal_food_waste": false,
-          "internal_dry_recycling": false,
-          "reason_for_no_provision": "This is already provided, we are only providing a mansard roof extension.",
-          "unit_reference": "Flat ",
           "external_food_waste": false,
+          "unit_reference": "Flat ",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "This is already provided, we are only providing a mansard roof extension.",
           "internal_residual_waste": false,
-          "external_residual_waste": false
+          "internal_food_waste": false,
+          "internal_dry_recycling": false
         }
       ]
     },
@@ -122,17 +122,17 @@
     },
     "building_details": [
       {
-        "max_height": 0.8,
         "no_storeys": 1,
+        "max_height": 0.8,
         "building_ref": "Mansard roof extension"
       }
     ],
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 32,
         "gia_existing": 118,
-        "gia_lost": 0,
-        "use_class": "C3"
+        "gia_gained": 32,
+        "use_class": "C3",
+        "gia_lost": 0
       }
     ],
     "green_suds": false,
@@ -169,13 +169,13 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "178639",
-  "last_updated": "2026-02-19T00:33:46.657Z",
+  "last_updated": "2026-02-19T21:07:18.285Z",
   "centroid": {
     "lon": -0.139666,
     "lat": 51.491932
   },
-  "subdivision_of_building": "Ground floor upwards. The LGF is a separate flat.",
-  "last_updated_by": "Planning Portal ingest",
+  "subdivision_of_building": null,
+  "last_updated_by": "Idox Uniform",
   "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
