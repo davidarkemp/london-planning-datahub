@@ -1,6 +1,6 @@
 {
   "decision": null,
-  "last_date_consultation_comments": "12/03/2026",
+  "last_date_consultation_comments": "13/03/2026",
   "wgs84_polygon": {
     "type": "Polygon",
     "coordinates": [
@@ -155,7 +155,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -299,7 +298,8 @@
               181176
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -341,13 +341,13 @@
       "waste_details": [
         {
           "external_dry_recycling": false,
-          "internal_food_waste": false,
-          "internal_dry_recycling": false,
-          "reason_for_no_provision": "All rubbish will be collected weekly",
-          "unit_reference": "n/a",
           "external_food_waste": false,
+          "unit_reference": "n/a",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "All rubbish will be collected weekly",
           "internal_residual_waste": false,
-          "external_residual_waste": false
+          "internal_food_waste": false,
+          "internal_dry_recycling": false
         }
       ]
     },
@@ -362,10 +362,10 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
         "gia_existing": 248,
-        "gia_lost": 248,
-        "use_class": "EA"
+        "gia_gained": 0,
+        "use_class": "EA",
+        "gia_lost": 248
       }
     ],
     "green_suds": false,
@@ -402,7 +402,7 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "181160",
-  "last_updated": "2026-02-20T00:31:48.224Z",
+  "last_updated": "2026-02-21T00:30:33.577Z",
   "centroid": {
     "lon": -0.091704,
     "lat": 51.513832

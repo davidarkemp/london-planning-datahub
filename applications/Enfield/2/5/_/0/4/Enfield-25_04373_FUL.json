@@ -104,25 +104,25 @@
     ],
     "non_residential_details": {
       "site_area": 0.02,
-      "total_gia_gained": 102.9,
-      "total_gia_existing": 87.9,
+      "total_gia_gained": 0,
+      "total_gia_existing": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_lost": 23.7,
+      "total_gia_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0
     },
     "building_details": [
       {
+        "no_storeys": null,
         "max_height": 7.72,
-        "no_storeys": 2,
         "building_ref": "New build 2 bed house"
       }
     ],
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 102.9,
         "gia_existing": 87.9,
-        "gia_lost": 23.7,
-        "use_class": "C3"
+        "gia_gained": 102.9,
+        "use_class": "C3",
+        "gia_lost": 23.7
       }
     ],
     "green_suds": false,
@@ -148,13 +148,22 @@
       "total_no_proposed_residential_units_social_rent": 0,
       "residential_units": [
         {
-          "provider": "Private",
-          "unit_type": "Semi Detached Home",
-          "no_bedrooms": 2,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": true,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Semi Detached Home",
+          "provider": "Private",
           "no_habitable_rooms": 1,
-          "gia": 68.7,
-          "tenure": "Market for rent"
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 68.7
         }
       ],
       "total_no_existing_residential_units_london_shared_ownership": 0,
@@ -175,10 +184,10 @@
       "total_no_existing_residential_units": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
-      "total_gia_gained": 68.7,
+      "total_gia_gained": 102.9,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
-      "total_gia_lost": 0,
+      "total_gia_lost": 23.7,
       "habitable_rooms_density": null,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
@@ -186,7 +195,7 @@
       "total_no_existing_residential_units_starter_homes": 0
     },
     "rain_water_harvesting": false,
-    "site_area": 0.02364,
+    "site_area": 236,
     "infrastructure_details": {
       "no_passive_slow_ev_charging_points": 0,
       "fire_suppression_system_proposed": false,
@@ -255,13 +264,13 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": 195562,
-  "last_updated": "2026-02-20T00:31:48.160Z",
+  "last_updated": "2026-02-20T21:04:37.460Z",
   "centroid": {
     "lon": -0.063108,
     "lat": 51.642873
   },
   "subdivision_of_building": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "title_number": null,
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,

@@ -35,7 +35,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -59,7 +58,8 @@
               181051
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -101,13 +101,13 @@
       "waste_details": [
         {
           "external_dry_recycling": false,
-          "internal_food_waste": false,
-          "internal_dry_recycling": false,
-          "reason_for_no_provision": "Sculpture installation. No waste requirement",
-          "unit_reference": "N/A",
           "external_food_waste": false,
+          "unit_reference": "N/A",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "Sculpture installation. No waste requirement",
           "internal_residual_waste": false,
-          "external_residual_waste": false
+          "internal_food_waste": false,
+          "internal_dry_recycling": false
         }
       ]
     },
@@ -122,10 +122,10 @@
         {
           "area": 0.0006000000000000001,
           "access": "Restricted",
-          "open_space_type": "Parks and gardens",
-          "open_space_designation": "Local Open Spaces",
           "land_swap": false,
-          "description": "The sculpture will be installed on the grassy area of Hanover Square Gardens"
+          "open_space_designation": "Local Open Spaces",
+          "description": "The sculpture will be installed on the grassy area of Hanover Square Gardens",
+          "open_space_type": "Parks and gardens"
         }
       ],
       "open_space_mol_area_gain": 0,
@@ -173,13 +173,13 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "181078",
-  "last_updated": "2026-02-20T00:31:47.579Z",
+  "last_updated": "2026-02-20T21:03:30.614Z",
   "centroid": {
     "lon": -0.143829,
     "lat": 51.513931
   },
-  "subdivision_of_building": "There is no building within scope, application is for a public sculpture installation in a public park.",
-  "last_updated_by": "Planning Portal ingest",
+  "subdivision_of_building": null,
+  "last_updated_by": "Idox Uniform",
   "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
