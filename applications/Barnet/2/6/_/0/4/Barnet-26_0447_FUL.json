@@ -39,7 +39,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -67,7 +66,8 @@
               188521
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -118,10 +118,10 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
         "gia_existing": 115,
-        "gia_lost": 0,
-        "use_class": "C3"
+        "gia_gained": 0,
+        "use_class": "C3",
+        "gia_lost": 0
       }
     ],
     "green_suds": false,
@@ -151,12 +151,12 @@
       "total_no_proposed_residential_units_social_rent": 0,
       "residential_units": [
         {
-          "provision_for_older_persons": false,
+          "no_habitable_rooms": 4,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 4,
-          "sheltered_accommodation": false,
-          "change_type": "Loss",
-          "no_habitable_rooms": 4,
+          "provision_for_older_persons": false,
           "gia": 115,
           "tenure": "Market for sale"
         }
@@ -210,13 +210,13 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "188523",
-  "last_updated": "2026-02-24T00:30:35.846Z",
+  "last_updated": "2026-02-24T21:02:36.991Z",
   "centroid": {
     "lon": -0.226599,
     "lat": 51.582159
   },
-  "subdivision_of_building": "a first floor flat",
-  "last_updated_by": "Planning Portal ingest",
+  "subdivision_of_building": null,
+  "last_updated_by": "Idox Uniform",
   "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,

@@ -35,7 +35,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -59,7 +58,8 @@
               164990.474625001
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -151,10 +151,10 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
         "gia_existing": 0,
-        "gia_lost": 0,
-        "use_class": "Other"
+        "gia_gained": 0,
+        "use_class": "Other",
+        "gia_lost": 0
       }
     ],
     "green_suds": false,
@@ -208,7 +208,7 @@
     },
     "rain_water_harvesting": false,
     "lead_developer_company_name": "Zest",
-    "site_area": 0.012100000000000001,
+    "site_area": 121,
     "infrastructure_details": {
       "no_passive_slow_ev_charging_points": 0,
       "fire_suppression_system_proposed": false,
@@ -236,13 +236,13 @@
       "waste_details": [
         {
           "external_dry_recycling": false,
-          "internal_food_waste": false,
-          "internal_dry_recycling": false,
-          "reason_for_no_provision": "N/A",
-          "unit_reference": "N/A",
           "external_food_waste": false,
+          "unit_reference": "N/A - Residential",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "N/A",
           "internal_residual_waste": false,
-          "external_residual_waste": false
+          "internal_food_waste": false,
+          "internal_dry_recycling": false
         }
       ]
     },
@@ -289,13 +289,13 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": 164972,
-  "last_updated": "2026-02-24T00:30:35.345Z",
+  "last_updated": "2026-02-24T21:04:48.781Z",
   "centroid": {
     "lon": -0.228141,
     "lat": 51.370401
   },
   "subdivision_of_building": "N/A",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "title_number": null,
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,

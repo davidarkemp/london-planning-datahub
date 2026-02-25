@@ -71,7 +71,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -131,7 +130,8 @@
               181208
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -173,13 +173,13 @@
       "waste_details": [
         {
           "external_dry_recycling": false,
-          "internal_food_waste": false,
-          "internal_dry_recycling": false,
-          "reason_for_no_provision": "No units",
-          "unit_reference": "Car park ",
           "external_food_waste": false,
+          "unit_reference": "Car park ",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "No units",
           "internal_residual_waste": false,
-          "external_residual_waste": false
+          "internal_food_waste": false,
+          "internal_dry_recycling": false
         }
       ]
     },
@@ -194,10 +194,10 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
         "gia_existing": 2650,
-        "gia_lost": 8,
-        "use_class": "SpecifiedOther"
+        "gia_gained": 0,
+        "use_class": "SpecifiedOther",
+        "gia_lost": 8
       }
     ],
     "green_suds": false,
@@ -234,21 +234,17 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "181362",
-  "last_updated": "2026-02-24T00:30:36.206Z",
+  "last_updated": "2026-02-24T21:04:21.924Z",
   "centroid": {
     "lon": -0.166397,
     "lat": 51.51684
   },
-  "subdivision_of_building": "The vehicle ramp located on Burwood Place. ",
-  "last_updated_by": "Planning Portal ingest",
+  "subdivision_of_building": null,
+  "last_updated_by": "Idox Uniform",
   "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "id": "Westminster-25_09316_FULL",
-  "parking_details": {
-    "no_proposed_car": 83,
-    "no_existing_car": 81,
-    "net_car": 2
-  },
+  "parking_details": null,
   "description": "Installation of a new electronic gate at the top of the ramp with traditional railings containing both a vehicle and pedestrian gate; A new vehicle access system to the ramp which will comprise of an ANPR system, traffic light system and an intercom; and an RFID reader to the proposed pedestrian gate facing Burwood Place for pedestrian access."
 }
