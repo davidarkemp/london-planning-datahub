@@ -1,6 +1,6 @@
 {
   "decision": null,
-  "last_date_consultation_comments": "05/03/2026",
+  "last_date_consultation_comments": "14/03/2026",
   "wgs84_polygon": {
     "type": "Polygon",
     "coordinates": [
@@ -55,7 +55,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -99,7 +98,8 @@
               185037.55313802755
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -152,23 +152,23 @@
     },
     "building_details": [
       {
-        "max_height": 15.7,
         "no_storeys": 5,
+        "max_height": 15.7,
         "building_ref": "main building as indicated"
       }
     ],
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
         "gia_existing": 240,
-        "gia_lost": 0,
-        "use_class": "B2"
+        "gia_gained": 0,
+        "use_class": "B2",
+        "gia_lost": 0
       },
       {
-        "gia_gained": 52,
         "gia_existing": 368,
-        "gia_lost": 0,
-        "use_class": "C3"
+        "gia_gained": 52,
+        "use_class": "C3",
+        "gia_lost": 0
       }
     ],
     "green_suds": false,
@@ -199,20 +199,20 @@
       "residential_units": [
         {
           "change_type": "Gain",
-          "gia": 44,
-          "unit_type": "Communal Space"
+          "unit_type": "Communal Space",
+          "gia": 44
         },
         {
           "change_type": "Gain",
-          "gia": 44,
-          "unit_type": "Communal Space"
+          "unit_type": "Communal Space",
+          "gia": 44
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 2,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "no_habitable_rooms": 2,
           "gia": 52,
           "tenure": "Market for sale"
         }
@@ -266,7 +266,7 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": 185041,
-  "last_updated": "2026-02-14T00:32:23.094Z",
+  "last_updated": "2026-02-26T00:31:20.494Z",
   "centroid": {
     "lon": -0.130632,
     "lat": 51.549358

@@ -55,7 +55,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -99,7 +98,8 @@
               174742.65032837202
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -150,10 +150,10 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
         "gia_existing": 126.2,
-        "gia_lost": 0,
-        "use_class": "C3"
+        "gia_gained": 0,
+        "use_class": "C3",
+        "gia_lost": 0
       }
     ],
     "green_suds": false,
@@ -183,31 +183,31 @@
       "total_no_proposed_residential_units_social_rent": 0,
       "residential_units": [
         {
-          "provision_for_older_persons": false,
+          "no_habitable_rooms": 4,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "sheltered_accommodation": false,
-          "change_type": "Loss",
-          "no_habitable_rooms": 4,
+          "provision_for_older_persons": false,
           "gia": 71.9,
           "tenure": "Market for sale"
         },
         {
-          "provision_for_older_persons": false,
+          "no_habitable_rooms": 3,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "sheltered_accommodation": false,
-          "change_type": "Loss",
-          "no_habitable_rooms": 3,
+          "provision_for_older_persons": false,
           "gia": 54.3,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 6,
+          "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 4,
-          "change_type": "Gain",
-          "no_habitable_rooms": 6,
           "gia": 126.2,
           "tenure": "Market for sale"
         }
@@ -261,7 +261,7 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": 174728,
-  "last_updated": "2026-02-14T00:32:21.241Z",
+  "last_updated": "2026-02-26T00:31:19.833Z",
   "centroid": {
     "lon": -0.167953,
     "lat": 51.457208
@@ -273,5 +273,5 @@
   "date_building_work_completed_under_previous_permission": null,
   "id": "Wandsworth-2026_0531",
   "parking_details": null,
-  "description": "Conversion of a 3 storey, split level Victorian terraced house into one single dwelling house from its current arrangement of 2 flats."
+  "description": "Alterations including conversion of two flats into one single dwelling house."
 }

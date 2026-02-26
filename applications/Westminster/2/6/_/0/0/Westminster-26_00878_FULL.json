@@ -107,7 +107,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -203,7 +202,8 @@
               178500
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -263,23 +263,23 @@
     },
     "building_details": [
       {
-        "max_height": 24.1,
         "no_storeys": 6,
+        "max_height": 24.1,
         "building_ref": "Apart-hotel"
       }
     ],
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
         "gia_existing": 1429.6,
-        "gia_lost": 1429.6,
-        "use_class": "SpecifiedOther"
+        "gia_gained": 0,
+        "use_class": "SpecifiedOther",
+        "gia_lost": 1429.6
       },
       {
-        "gia_gained": 2796.4,
         "gia_existing": 0,
-        "gia_lost": 0,
-        "use_class": "C1"
+        "gia_gained": 2796.4,
+        "use_class": "C1",
+        "gia_lost": 0
       }
     ],
     "green_suds": true,
@@ -316,24 +316,17 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "178506",
-  "last_updated": "2026-02-25T00:30:49.653Z",
+  "last_updated": "2026-02-25T21:06:26.720Z",
   "centroid": {
     "lon": -0.133223,
     "lat": 51.490634
   },
-  "subdivision_of_building": "46 Vauxhall Bridge Road (Halley House) not included ",
-  "last_updated_by": "Planning Portal ingest",
+  "subdivision_of_building": null,
+  "last_updated_by": "Idox Uniform",
   "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "id": "Westminster-26_00878_FULL",
-  "parking_details": {
-    "no_proposed_car": 0,
-    "no_existing_cycle": 5,
-    "no_proposed_cycle": 8,
-    "net_cycle": 3,
-    "no_existing_car": 0,
-    "net_car": 0
-  },
+  "parking_details": null,
   "description": "Demolition of the existing warehouse structure fronting Douglas Street to provide a 6-storey extension for use as an apart-hotel (Class C1). External alterations to the Vauxhall Bridge Road facade, provision of on-site cycle parking, servicing, refuse storage, plant and other ancillary and associated works (Site includes 46-50 Vauxhall Bridge Road)."
 }

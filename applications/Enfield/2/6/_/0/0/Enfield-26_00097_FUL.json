@@ -92,7 +92,7 @@
     ],
     "non_residential_details": {
       "site_area": 0.05,
-      "total_gia_gained": 93,
+      "total_gia_gained": 0,
       "total_gia_existing": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_lost": 0,
@@ -100,17 +100,17 @@
     },
     "building_details": [
       {
+        "no_storeys": null,
         "max_height": 7,
-        "no_storeys": 2,
         "building_ref": "new dwelling"
       }
     ],
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 93,
         "gia_existing": 0,
-        "gia_lost": 0,
-        "use_class": "C3"
+        "gia_gained": 93,
+        "use_class": "C3",
+        "gia_lost": 0
       }
     ],
     "green_suds": false,
@@ -136,14 +136,22 @@
       "total_no_proposed_residential_units_social_rent": 0,
       "residential_units": [
         {
-          "garden_land": true,
-          "provider": "Private",
-          "unit_type": "Semi Detached Home",
-          "no_bedrooms": 3,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": true,
+          "sheltered_accommodation": false,
+          "unit_type": "Semi Detached Home",
+          "provider": "Private",
           "no_habitable_rooms": 4,
-          "gia": 93,
-          "tenure": "Market for rent"
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 93
         }
       ],
       "total_no_existing_residential_units_london_shared_ownership": 0,
@@ -175,7 +183,7 @@
       "total_no_existing_residential_units_starter_homes": 0
     },
     "rain_water_harvesting": false,
-    "site_area": 0.0477,
+    "site_area": 477,
     "infrastructure_details": {
       "no_passive_slow_ev_charging_points": 0,
       "fire_suppression_system_proposed": false,
@@ -243,13 +251,13 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": 196959,
-  "last_updated": "2026-02-25T00:30:50.066Z",
+  "last_updated": "2026-02-25T21:06:14.446Z",
   "centroid": {
     "lon": -0.095758,
     "lat": 51.655969
   },
-  "subdivision_of_building": "land adjacent",
-  "last_updated_by": "Planning Portal ingest",
+  "subdivision_of_building": "land adjacent\r\n",
+  "last_updated_by": "Idox Uniform",
   "title_number": null,
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,

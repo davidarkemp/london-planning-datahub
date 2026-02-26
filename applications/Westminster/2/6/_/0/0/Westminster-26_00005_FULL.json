@@ -47,7 +47,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -83,7 +82,8 @@
               179452
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -137,23 +137,23 @@
     },
     "building_details": [
       {
-        "max_height": 59.3,
         "no_storeys": 13,
+        "max_height": 59.3,
         "building_ref": "10-20 Victoria Street"
       }
     ],
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 24025,
         "gia_existing": 12826,
-        "gia_lost": 12826,
-        "use_class": "EC2"
+        "gia_gained": 24025,
+        "use_class": "EC2",
+        "gia_lost": 12826
       },
       {
-        "gia_gained": 754,
         "gia_existing": 0,
-        "gia_lost": 0,
-        "use_class": "EA"
+        "gia_gained": 754,
+        "use_class": "EA",
+        "gia_lost": 0
       }
     ],
     "green_suds": true,
@@ -185,29 +185,22 @@
   "street_name": "Victoria Street",
   "locality": null,
   "application_type": "All Other",
-  "epc_number": "8745-6928-6978-8683-5932",
+  "epc_number": null,
   "decision_conditions": null,
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "179435",
-  "last_updated": "2026-02-25T00:30:49.468Z",
+  "last_updated": "2026-02-25T21:05:58.214Z",
   "centroid": {
     "lon": -0.131586,
     "lat": 51.498962
   },
   "subdivision_of_building": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "id": "Westminster-26_00005_FULL",
-  "parking_details": {
-    "no_existing_other": 0,
-    "no_proposed_car": 0,
-    "no_proposed_other": 52,
-    "no_existing_car": 13,
-    "net_other": 52,
-    "net_car": -13
-  },
+  "parking_details": null,
   "description": "Demolition and redevelopment of site to provide a building comprising retained basement, ground plus 12 upper storeys with rooftop plant and terraces for use as office (Class E(g)) and mixed uses at ground floor level (Class E (a)(b)(c)(d)(e), together with ancillary spaces. Provision of public realm works to Victoria Street and Dean Farrar Street, on-site cycle parking, servicing, refuse storage, plant and associated works. (Site includes 10-18 and 20 Victoria Street)."
 }

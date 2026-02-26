@@ -1,6 +1,6 @@
 {
   "decision": null,
-  "last_date_consultation_comments": null,
+  "last_date_consultation_comments": "25/03/2026",
   "wgs84_polygon": {
     "type": "Polygon",
     "coordinates": [
@@ -43,7 +43,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -75,7 +74,8 @@
               181656
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -118,13 +118,13 @@
       "waste_details": [
         {
           "external_dry_recycling": false,
-          "internal_food_waste": true,
-          "internal_dry_recycling": true,
-          "reason_for_no_provision": "Refuse and recycling will be managed via the existing on-street collection arrangements operated by the local authority. Internal kitchen-level storage for segregated waste and recycling is provided within the dwelling. No new external refuse or recycling storage is proposed as part of the development.",
-          "unit_reference": "97 York",
           "external_food_waste": false,
+          "unit_reference": "97 York",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "Refuse and recycling will be managed via the existing on-street collection arrangements operated by the local authority. Internal kitchen-level storage for segregated waste and recycling is provided within the dwelling. No new external refuse or recycling storage is proposed as part of the development.",
           "internal_residual_waste": true,
-          "external_residual_waste": false
+          "internal_food_waste": true,
+          "internal_dry_recycling": true
         }
       ]
     },
@@ -139,16 +139,16 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
         "gia_existing": 116,
-        "gia_lost": 116,
-        "use_class": "EC3"
+        "gia_gained": 0,
+        "use_class": "EC3",
+        "gia_lost": 116
       },
       {
-        "gia_gained": 116,
         "gia_existing": 144,
-        "gia_lost": 0,
-        "use_class": "C3"
+        "gia_gained": 116,
+        "use_class": "C3",
+        "gia_lost": 0
       }
     ],
     "green_suds": false,
@@ -185,7 +185,7 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "181660",
-  "last_updated": "2026-02-25T00:30:49.458Z",
+  "last_updated": "2026-02-26T00:31:20.188Z",
   "centroid": {
     "lon": -0.163999,
     "lat": 51.519482
