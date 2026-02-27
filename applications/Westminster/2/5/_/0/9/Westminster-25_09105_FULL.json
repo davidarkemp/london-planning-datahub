@@ -1,6 +1,6 @@
 {
   "decision": null,
-  "last_date_consultation_comments": null,
+  "last_date_consultation_comments": "26/03/2026",
   "wgs84_polygon": {
     "type": "Polygon",
     "coordinates": [
@@ -39,7 +39,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -67,7 +66,8 @@
               178214
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -109,13 +109,13 @@
       "waste_details": [
         {
           "external_dry_recycling": false,
-          "internal_food_waste": false,
-          "internal_dry_recycling": false,
-          "reason_for_no_provision": "Not Applicable.",
-          "unit_reference": "N/A",
           "external_food_waste": false,
+          "unit_reference": "N/A",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "Not Applicable.",
           "internal_residual_waste": false,
-          "external_residual_waste": false
+          "internal_food_waste": false,
+          "internal_dry_recycling": false
         }
       ]
     },
@@ -130,23 +130,23 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
         "gia_existing": 6,
-        "gia_lost": 0,
-        "use_class": "SpecifiedOther"
+        "use_class": "SpecifiedOther",
+        "gia_gained": 0,
+        "gia_lost": 0
       }
     ],
     "green_suds": false,
     "phasing_details": [
       {
         "phase_detail": "Phase 1 - Removal",
-        "intended_completion_date": "03/2026",
-        "intended_commencement_date": "01/2026"
+        "intended_commencement_date": "01/2026",
+        "intended_completion_date": "03/2026"
       },
       {
         "phase_detail": "Phase 2 - Re-instatement",
-        "intended_completion_date": "04/2027",
-        "intended_commencement_date": "04/2027"
+        "intended_commencement_date": "04/2027",
+        "intended_completion_date": "04/2027"
       }
     ],
     "total_gia_gained": 0,
@@ -176,7 +176,7 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "178283",
-  "last_updated": "2026-02-26T00:31:21.044Z",
+  "last_updated": "2026-02-27T00:33:42.789Z",
   "centroid": {
     "lon": -0.154379,
     "lat": 51.488963

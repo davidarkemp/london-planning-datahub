@@ -75,7 +75,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -139,7 +138,8 @@
               165290
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -190,10 +190,10 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 66.8,
         "gia_existing": 0,
-        "gia_lost": 0,
-        "use_class": "C3"
+        "use_class": "C3",
+        "gia_gained": 66.8,
+        "gia_lost": 0
       }
     ],
     "green_suds": false,
@@ -224,10 +224,10 @@
       "residential_units": [
         {
           "provider": "Private",
+          "no_habitable_rooms": 2,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "no_habitable_rooms": 2,
           "gia": 50,
           "tenure": "Market for sale"
         }
@@ -281,24 +281,17 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "165278",
-  "last_updated": "2026-02-26T00:31:19.127Z",
+  "last_updated": "2026-02-26T23:11:06.483Z",
   "centroid": {
     "lon": -0.101363,
     "lat": 51.371167
   },
-  "subdivision_of_building": "Mezzanine level and rear elevation at mezzanine level\n",
-  "last_updated_by": "Planning Portal ingest",
+  "subdivision_of_building": null,
+  "last_updated_by": "Idox Uniform",
   "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "id": "Croydon-26_00197_FUL",
-  "parking_details": {
-    "no_existing_bluebadge": 4,
-    "no_existing_cycle": 56,
-    "no_proposed_cycle": 56,
-    "no_proposed_bluebadge": 4,
-    "net_cycle": 0,
-    "net_bluebadge": 0
-  },
+  "parking_details": null,
   "description": "Formation of mezzanine level and provision of new residential unit (studio flat) in redundant service space of existing building. Addition of new\rwindows and a balcony at rear of building for the use of the new flat."
 }

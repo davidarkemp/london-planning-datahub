@@ -103,7 +103,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -195,7 +194,8 @@
               173155
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -218,10 +218,10 @@
     "site_area": 0.0397,
     "superseding_details": [
       {
+        "lpa_app_no": "22/02336/FUL",
         "unit_reference": "Original house loft conversion with dormer",
         "partial_supersedence": true,
-        "component_description": "Proposed Roof on original property",
-        "lpa_app_no": "22/02336/FUL"
+        "component_description": "Proposed Roof on original property"
       }
     ],
     "projected_cost_of_works": "Up to £2m",
@@ -254,17 +254,17 @@
     },
     "building_details": [
       {
-        "max_height": 8.3,
         "no_storeys": 2,
+        "max_height": 8.3,
         "building_ref": "NEW DWELLING"
       }
     ],
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 167,
         "gia_existing": 86,
-        "gia_lost": 0,
-        "use_class": "C3"
+        "use_class": "C3",
+        "gia_gained": 167,
+        "gia_lost": 0
       }
     ],
     "green_suds": true,
@@ -294,12 +294,12 @@
       "total_no_proposed_residential_units_social_rent": 0,
       "residential_units": [
         {
-          "garden_land": true,
           "provider": "Private",
+          "no_habitable_rooms": 3,
+          "change_type": "Gain",
+          "garden_land": true,
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
-          "change_type": "Gain",
-          "no_habitable_rooms": 3,
           "gia": 133,
           "tenure": "Market for sale"
         }
@@ -353,21 +353,17 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "173169",
-  "last_updated": "2026-02-26T00:31:19.146Z",
+  "last_updated": "2026-02-26T21:00:50.321Z",
   "centroid": {
     "lon": 0.080966,
     "lat": 51.439033
   },
   "subdivision_of_building": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "id": "Bexley-26_00298_FUL",
-  "parking_details": {
-    "no_proposed_car": 2,
-    "no_existing_car": 1,
-    "net_car": 1
-  },
+  "parking_details": null,
   "description": "Application under Section 73 of the Town and Country Planning Act 1990 to vary condition 2 (Approved Drawings) to retain loft conversion, solar panels to side and rear roof slopes and alterations to rear fenestration of planning permission Ref: 22/02336/FUL for the 'Single storey rear extension to existing property and proposed 2 storey side extension to form 1x4 bedroom new dwelling'."
 }

@@ -75,7 +75,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -139,7 +138,8 @@
               186872
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -190,10 +190,10 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 130.16,
         "gia_existing": 130.16,
-        "gia_lost": 130.16,
-        "use_class": "C4"
+        "use_class": "C4",
+        "gia_gained": 130.16,
+        "gia_lost": 130.16
       }
     ],
     "green_suds": false,
@@ -224,65 +224,65 @@
       "residential_units": [
         {
           "change_type": "Loss",
-          "gia": 24.43,
-          "unit_type": "Communal Space"
+          "unit_type": "Communal Space",
+          "gia": 24.43
         },
         {
-          "provision_for_older_persons": false,
+          "no_habitable_rooms": 1,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "HMO",
           "no_bedrooms": 1,
-          "sheltered_accommodation": false,
-          "change_type": "Loss",
-          "no_habitable_rooms": 1,
+          "provision_for_older_persons": false,
           "gia": 18,
           "tenure": "Market for rent"
         },
         {
-          "provision_for_older_persons": false,
+          "no_habitable_rooms": 1,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "HMO",
           "no_bedrooms": 1,
-          "sheltered_accommodation": false,
-          "change_type": "Loss",
-          "no_habitable_rooms": 1,
+          "provision_for_older_persons": false,
           "gia": 18,
           "tenure": "Market for rent"
         },
         {
-          "provision_for_older_persons": false,
+          "no_habitable_rooms": 1,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "HMO",
           "no_bedrooms": 1,
-          "sheltered_accommodation": false,
-          "change_type": "Loss",
-          "no_habitable_rooms": 1,
+          "provision_for_older_persons": false,
           "gia": 18,
           "tenure": "Market for rent"
         },
         {
-          "provision_for_older_persons": false,
+          "no_habitable_rooms": 1,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "HMO",
           "no_bedrooms": 1,
-          "sheltered_accommodation": false,
-          "change_type": "Loss",
-          "no_habitable_rooms": 1,
+          "provision_for_older_persons": false,
           "gia": 18,
           "tenure": "Market for rent"
         },
         {
-          "provision_for_older_persons": false,
+          "no_habitable_rooms": 1,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "HMO",
           "no_bedrooms": 1,
-          "sheltered_accommodation": false,
-          "change_type": "Loss",
-          "no_habitable_rooms": 1,
+          "provision_for_older_persons": false,
           "gia": 18,
           "tenure": "Market for rent"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 5,
+          "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 4,
-          "change_type": "Gain",
-          "no_habitable_rooms": 5,
           "gia": 130.16,
           "tenure": "Market for rent"
         }
@@ -336,21 +336,17 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "186877",
-  "last_updated": "2026-02-26T00:31:19.637Z",
+  "last_updated": "2026-02-26T21:02:44.236Z",
   "centroid": {
     "lon": -0.219113,
     "lat": 51.567245
   },
   "subdivision_of_building": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "id": "Barnet-26_0728_FUL",
-  "parking_details": {
-    "no_proposed_car": 1,
-    "no_existing_car": 1,
-    "net_car": 0
-  },
+  "parking_details": null,
   "description": "Change of use from a House in Multiple Occupation (HMO) (Class C4) to single family dwelling (Class C3) Changes to rear fenestration.\r"
 }
