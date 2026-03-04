@@ -6,10 +6,10 @@
   "appeal_decision": null,
   "lapsed_date": null,
   "appeal_decision_date": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "CSV Data Import",
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": null,
-  "last_updated": "2026-03-03T00:30:41.634Z",
+  "last_updated": "2026-03-03T22:59:08.983Z",
   "url_planning_app": "http://planning.hillingdon.gov.uk/OcellaWeb/planningDetails?reference=17611/APP/2026/400",
   "street_name": "HILLINGDON",
   "parking_details": null,
@@ -22,8 +22,8 @@
       "other_resi_accommodation_unit_details": [
         {
           "no_rooms_proposed": 2,
-          "no_rooms_lost": 1,
-          "unit_type": "Hotel Room"
+          "unit_type": "Hotel Room",
+          "no_rooms_lost": 1
         }
       ]
     },
@@ -33,9 +33,9 @@
     "existing_uprns": null,
     "phasing_details": [
       {
+        "phase_detail": "Creation of the firs floor extension ",
         "intended_commencement_date": "04/2026",
-        "intended_completion_date": "06/2026",
-        "phase_detail": "Creation of the firs floor extension "
+        "intended_completion_date": "06/2026"
       }
     ],
     "garden_land_lost": false,
@@ -112,32 +112,32 @@
       "total_no_proposed_residential_units_affordable_rent": 0,
       "residential_units": [
         {
-          "unit_type": "Other",
-          "change_type": "Loss",
-          "gia": 10,
-          "tenure": "Market for rent",
-          "provision_for_older_persons": false,
           "no_habitable_rooms": 1,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
+          "unit_type": "Other",
           "no_bedrooms": 1,
-          "sheltered_accommodation": false
+          "provision_for_older_persons": false,
+          "gia": 10,
+          "tenure": "Market for rent"
         },
         {
-          "unit_type": "Other",
-          "change_type": "Gain",
-          "gia": 20,
-          "tenure": "Market for rent",
           "provider": "Private",
           "no_habitable_rooms": 1,
-          "no_bedrooms": 1
+          "change_type": "Gain",
+          "unit_type": "Other",
+          "no_bedrooms": 1,
+          "gia": 20,
+          "tenure": "Market for rent"
         },
         {
-          "unit_type": "Other",
-          "change_type": "Gain",
-          "gia": 42,
-          "tenure": "Market for rent",
           "provider": "Private",
           "no_habitable_rooms": 2,
-          "no_bedrooms": 1
+          "change_type": "Gain",
+          "unit_type": "Other",
+          "no_bedrooms": 1,
+          "gia": 42,
+          "tenure": "Market for rent"
         }
       ]
     },

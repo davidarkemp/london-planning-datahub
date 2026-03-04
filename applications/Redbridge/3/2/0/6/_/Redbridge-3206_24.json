@@ -2,7 +2,7 @@
   "valid_date": "20/11/2024",
   "epc_number": null,
   "site_name": null,
-  "cil_liability": null,
+  "cil_liability": false,
   "polygon": {
     "geometries": [
       {
@@ -99,7 +99,7 @@
     ],
     "type": "GeometryCollection"
   },
-  "actual_commencement_date": null,
+  "actual_commencement_date": "03/03/2026",
   "site_number": "19",
   "decision": "Approved",
   "parking_details": {
@@ -108,7 +108,7 @@
     "no_proposed_car": 1
   },
   "application_type_full": "Full planning permission",
-  "ward": null,
+  "ward": "",
   "last_date_consultation_comments": "24/12/2024",
   "centroid_easting": 543391,
   "appeal_decision_date": null,
@@ -120,12 +120,12 @@
   "decision_target_date": "14/01/2025",
   "street_name": "Gaysham Avenue",
   "decision_process": null,
-  "last_updated_by": "Agile APAS",
+  "last_updated_by": "Portal",
   "centroid_northing": 188625,
   "application_type": "All Other",
-  "title_number": null,
+  "title_number": [],
   "decision_conditions": [
-    "The development hereby permitted shall be begun no later than the  expiration of three years from the date of this permission.\r\n\r\nReason: In order to comply with the requirements of Section 91 of the Town and Country Planning Act 1990."
+    "The development hereby permitted shall be begun no later than the  expiration of three years from the date of this permission.\n\nReason: In order to comply with the requirements of Section 91 of the Town and Country Planning Act 1990."
   ],
   "appeal_start_date": null,
   "development_type": null,
@@ -133,88 +133,88 @@
     "coordinates": [
       [
         [
-          0.0680339,
-          51.57826
+          0.068007,
+          51.578259
         ],
         [
-          0.0680812,
-          51.5782043
+          0.068055,
+          51.578203
         ],
         [
-          0.06811199999999999,
-          51.5781678
+          0.068086,
+          51.578167
         ],
         [
-          0.0679941,
-          51.578129
+          0.067968,
+          51.578128
         ],
         [
-          0.067964,
-          51.5781659
+          0.067938,
+          51.578165
         ],
         [
-          0.0679113,
-          51.5782289
+          0.067885,
+          51.578228
         ],
         [
-          0.0678236,
-          51.5783325
+          0.067797,
+          51.578331
         ],
         [
-          0.0678602,
-          51.5783445
+          0.067834,
+          51.578343
         ],
         [
-          0.0678773,
-          51.5783239
+          0.067851,
+          51.578323
         ],
         [
-          0.06796379999999999,
-          51.5783359
+          0.067937,
+          51.578335
         ],
         [
-          0.068004,
-          51.5783491
+          0.067978,
+          51.578348
         ],
         [
-          0.0680663,
-          51.5783696
+          0.06804,
+          51.578368
         ],
         [
-          0.0681286,
-          51.5783901
+          0.068102,
+          51.578389
         ],
         [
-          0.0681492,
-          51.5783673
+          0.068123,
+          51.578366
         ],
         [
-          0.06808689999999999,
-          51.5783468
+          0.06806,
+          51.578346
         ],
         [
-          0.06802459999999999,
-          51.5783258
+          0.067998,
+          51.578325
         ],
         [
-          0.0680192,
-          51.5783322
+          0.067993,
+          51.578331
         ],
         [
-          0.0679839,
-          51.5783194
+          0.067958,
+          51.578318
         ],
         [
-          0.0679887,
-          51.5783138
+          0.067962,
+          51.578313
         ],
         [
-          0.0680326,
-          51.5782618
+          0.068006,
+          51.578261
         ],
         [
-          0.0680339,
-          51.57826
+          0.068007,
+          51.578259
         ]
       ]
     ],
@@ -226,16 +226,16 @@
   "pp_id": "PP-13562262",
   "url_planning_app": null,
   "lpa_name": "Redbridge",
-  "bo_system": "Agile APAS",
+  "bo_system": "Portal",
   "subdivision_of_building": null,
   "secondary_street_name": null,
   "date_building_work_started_under_previous_permission": null,
   "centroid": {
-    "lat": "51.5782567",
-    "lon": "0.0679919"
+    "lat": 51.578256,
+    "lon": 0.067965
   },
-  "status": "Closed",
-  "last_updated": "2025-03-19T17:25:13.523+00:00",
+  "status": "Commenced",
+  "last_updated": "2026-03-03T10:20:10.754Z",
   "actual_completion_date": null,
   "lapsed_date": "13/01/2028",
   "borough": "Redbridge",
@@ -249,8 +249,8 @@
     "phasing_details": [
       {
         "phase_detail": "conversion",
-        "intended_completion_date": "08/2025",
-        "intended_commencement_date": "04/2025"
+        "intended_commencement_date": "04/2025",
+        "intended_completion_date": "08/2025"
       }
     ],
     "total_gia_gained": 110,
@@ -273,7 +273,7 @@
     ],
     "projected_cost_of_works": "Up to £2m",
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "grey_water_reuse": false,
     "green_suds": false,
     "surface_water_discharge_percentage_reduction": 0,
@@ -282,7 +282,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 110,
       "total_gia_existing": 110,
-      "total_gia_lost": 110
+      "total_gia_lost": 110,
+      "site_area": 0.025
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -305,13 +306,13 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 120,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 110,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 40,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_gia_lost": 110,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -324,29 +325,38 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 3,
-          "unit_no": "Loss-1",
+          "actual_completion_date": "03/03/2026",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 5,
           "unit_type": "Semi Detached Home",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "03/03/2026",
+          "no_bedrooms": 5,
           "provision_for_older_persons": false,
           "gia": 110,
           "tenure": "Market for sale"
         },
         {
-          "no_habitable_rooms": 3,
+          "actual_completion_date": "03/03/2026",
           "provider": "Private",
-          "unit_no": "Gain-1",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 6,
           "unit_type": "HMO",
+          "no_bedrooms": 6,
+          "provision_for_older_persons": false,
           "gia": 110,
           "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.025
     },
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
@@ -356,7 +366,7 @@
       "no_homes_passive_cooling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
@@ -365,6 +375,19 @@
       "ghg_reduction_over_building_regulations": false
     },
     "internal_resi_water_usage": 0,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.025
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   }
 }
