@@ -75,7 +75,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -139,7 +138,8 @@
               171593.34032746195
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -190,10 +190,10 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 72.8,
         "gia_existing": 173.6,
-        "gia_lost": 0,
-        "use_class": "C3"
+        "use_class": "C3",
+        "gia_gained": 72.8,
+        "gia_lost": 0
       }
     ],
     "green_suds": false,
@@ -224,67 +224,67 @@
       "residential_units": [
         {
           "change_type": "Loss",
-          "gia": 3,
-          "unit_type": "Communal Space"
+          "unit_type": "Communal Space",
+          "gia": 3
         },
         {
-          "provision_for_older_persons": false,
+          "no_habitable_rooms": 4,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "sheltered_accommodation": false,
-          "change_type": "Loss",
-          "no_habitable_rooms": 4,
+          "provision_for_older_persons": false,
           "gia": 62,
           "tenure": "Market for sale"
         },
         {
-          "provision_for_older_persons": false,
+          "no_habitable_rooms": 5,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "sheltered_accommodation": false,
-          "change_type": "Loss",
-          "no_habitable_rooms": 5,
+          "provision_for_older_persons": false,
           "gia": 105,
           "tenure": "Market for sale"
         },
         {
           "change_type": "Gain",
-          "gia": 10.4,
-          "unit_type": "Communal Space"
+          "unit_type": "Communal Space",
+          "gia": 10.4
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 4,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "change_type": "Gain",
-          "no_habitable_rooms": 4,
           "gia": 89.2,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 3,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "change_type": "Gain",
-          "no_habitable_rooms": 3,
           "gia": 66.2,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 2,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "no_habitable_rooms": 2,
           "gia": 52.8,
           "tenure": "Market for sale"
         },
         {
           "provider": "Private",
+          "no_habitable_rooms": 1,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "no_habitable_rooms": 1,
           "gia": 38.2,
           "tenure": "Market for sale"
         }
@@ -338,13 +338,13 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": 171589,
-  "last_updated": "2026-02-06T00:34:32.292Z",
+  "last_updated": "2026-03-06T16:00:04.931Z",
   "centroid": {
     "lon": -0.172086,
     "lat": 51.429044
   },
   "subdivision_of_building": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Northgate M3",
   "title_number": null,
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
