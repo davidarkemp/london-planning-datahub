@@ -18,7 +18,7 @@
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_pm_emissions": 0,
       "no_resi_units_to_have_full_fibre": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
@@ -39,12 +39,12 @@
           "provider": "Private",
           "no_habitable_rooms": 1,
           "phase_detail": null,
-          "unit_no": "Gain-1",
+          "unit_no": null,
           "actual_commencement_date": "18/10/2024",
-          "no_bedrooms": 1,
+          "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "tenure": "Market for rent",
-          "gia": 37
+          "gia": 37,
+          "tenure": "Market for rent"
         },
         {
           "actual_completion_date": "30/05/2025",
@@ -54,12 +54,24 @@
           "provider": "Private",
           "no_habitable_rooms": 1,
           "phase_detail": null,
-          "unit_no": "Gain-1",
+          "unit_no": null,
           "actual_commencement_date": "18/10/2024",
-          "no_bedrooms": 1,
+          "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "tenure": "Market for rent",
-          "gia": 37
+          "gia": 37,
+          "tenure": "Market for rent"
+        },
+        {
+          "actual_completion_date": "30/05/2025",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Loss",
+          "actual_commencement_date": "30/05/2025",
+          "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "gia": null
         }
       ],
       "total_no_proposed_residential_units": 2,
@@ -75,7 +87,7 @@
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_market_for_rent": 2,
-      "dwelling_density": 0,
+      "dwelling_density": 133.33333333333331,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
@@ -83,7 +95,7 @@
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
-      "total_no_existing_residential_units": 0,
+      "total_no_existing_residential_units": 1,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_gia_lost": 0,
       "total_no_proposed_residential_affordable_units": 0,
@@ -91,14 +103,15 @@
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 133.33333333333331,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
-      "total_no_proposed_bedrooms": 2,
+      "total_no_proposed_bedrooms": 4,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_discount_market_sale": 0
+      "total_no_existing_residential_units_discount_market_sale": 0,
+      "site_area": 0.015000000000000001
     },
     "total_gia_existing": 80,
     "existing_proposed_floorspace_details": [
@@ -116,10 +129,31 @@
       "total_gia_lost": 80,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_gained": 80
+      "total_gia_gained": 80,
+      "site_area": 0.015000000000000001
     },
     "total_gia_lost": 80,
-    "intended_commencement_date": "08/2024"
+    "intended_commencement_date": "08/2024",
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "scheme_phasing": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.015000000000000001
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "site_area": 0.015000000000000001,
+    "transport_impact_assessment": false,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "garden_land_lost": false
   },
   "borough": "London Borough of Bexley",
   "application_type_full": "Prior Approval: Change of use from Commercial, Business and Service (Use Class E), or betting office or pay day loan shop to mixed use including up to two flats (Use Class C3)",
@@ -128,13 +162,50 @@
   "lapsed_date": "18/09/2029",
   "bo_system": "Portal",
   "polygon": {
-    "type": "geometrycollection"
+    "type": "GeometryCollection",
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              546379,
+              175848
+            ],
+            [
+              546373,
+              175849
+            ],
+            [
+              546367,
+              175831
+            ],
+            [
+              546368,
+              175831
+            ],
+            [
+              546366,
+              175825
+            ],
+            [
+              546371,
+              175824
+            ],
+            [
+              546379,
+              175848
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ]
   },
   "appeal_status": null,
   "parking_details": null,
   "centroid": {
-    "lon": 0.105677,
-    "lat": 51.462603
+    "lon": 0.105648,
+    "lat": 51.462585
   },
   "locality": null,
   "secondary_street_name": null,
@@ -145,24 +216,32 @@
     "coordinates": [
       [
         [
-          0.1057,
-          51.462616
+          0.105753,
+          51.462682
         ],
         [
-          0.105698,
-          51.462589
+          0.105667,
+          51.462693
         ],
         [
-          0.105655,
-          51.46259
+          0.105573,
+          51.462533
         ],
         [
-          0.105656,
-          51.462617
+          0.105588,
+          51.462533
         ],
         [
-          0.1057,
-          51.462616
+          0.105557,
+          51.462479
+        ],
+        [
+          0.105628,
+          51.462469
+        ],
+        [
+          0.105753,
+          51.462682
         ]
       ]
     ]
@@ -174,18 +253,18 @@
   "decision": "Approved",
   "id": "Bexley-24_02012_PRIORM",
   "lpa_name": "Bexley",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "18/10/2024",
   "site_name": "",
   "url_planning_app": null,
   "pp_id": "PP-13159462",
   "decision_process": null,
-  "centroid_easting": 546374,
-  "last_updated": "2025-06-10T14:22:45.778Z",
+  "centroid_easting": 546372,
+  "last_updated": "2026-03-12T15:26:01.245Z",
   "appeal_decision_date": null,
   "reference_no_of_permission_being_relied_on": null,
   "last_updated_by": "Portal",
   "site_number": "31A",
-  "centroid_northing": 175839,
+  "centroid_northing": 175837,
   "development_type": null,
   "description": "Prior approval for the change of use of first and second floor to self contained flats.",
   "status": "Completed",
