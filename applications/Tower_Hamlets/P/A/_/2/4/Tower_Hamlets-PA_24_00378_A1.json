@@ -6,7 +6,9 @@
     "lon": -0.065412,
     "lat": 51.514597
   },
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "borough": "Tower Hamlets",
   "application_type": "All Other",
   "date_building_work_started_under_previous_permission": null,
@@ -55,9 +57,35 @@
   "id": "Tower_Hamlets-PA_24_00378_A1",
   "actual_commencement_date": null,
   "lpa_name": "Tower Hamlets",
-  "last_updated": "2026-02-03T21:00:05.510Z",
+  "last_updated": "2026-03-16T20:59:46.801Z",
   "lpa_app_no": "PA/24/00378/A1",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.06539,
+          51.51461
+        ],
+        [
+          -0.065391,
+          51.514583
+        ],
+        [
+          -0.065434,
+          51.514584
+        ],
+        [
+          -0.065433,
+          51.514611
+        ],
+        [
+          -0.06539,
+          51.51461
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "appeal_status": null,
   "site_name": "86 Commercial Road, London, E1 1NU",
   "title_number": [],
@@ -79,8 +107,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_completion_date": "04/2026",
-        "intended_commencement_date": "04/2025"
+        "intended_commencement_date": "04/2025",
+        "intended_completion_date": "04/2026"
       }
     ],
     "total_gia_gained": 59.23,
@@ -90,14 +118,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 81.21,
-        "gia_gained": 59.23,
         "use_class": "C3",
+        "gia_gained": 59.23,
         "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "building_details": [
       {
         "no_storeys": 5,
@@ -115,12 +143,12 @@
       "total_gia_existing": 81.21,
       "total_gia_lost": 0,
       "development_type": null,
-      "site_area": null
+      "site_area": 0.009548
     },
     "garden_land_lost": false,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_bedrooms": 2,
+      "total_no_proposed_bedrooms": 6,
       "total_no_proposed_residential_units": 3,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units": 2,
@@ -138,13 +166,13 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 209.16,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 314.20192710515295,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_gia_lost": 162.42,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -157,12 +185,19 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
           "unit_type": "Communal Space",
+          "provision_for_older_persons": false,
           "gia": 81.21
         },
         {
           "no_habitable_rooms": 4,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
@@ -172,32 +207,42 @@
           "tenure": "Market for rent"
         },
         {
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Communal Space",
+          "provision_for_older_persons": false,
           "gia": 83.96
         },
         {
-          "provider": "Private rented sector",
-          "no_habitable_rooms": 2,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 1,
-          "gia": 62.6,
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "gia": null,
           "tenure": "Market for rent"
         },
         {
-          "provider": "Private rented sector",
-          "no_habitable_rooms": 2,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 1,
-          "gia": 62.6,
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "gia": null,
           "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
-      "site_area": null
+      "site_area": 0.009548
     },
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
@@ -207,7 +252,7 @@
       "no_homes_passive_cooling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
@@ -230,14 +275,14 @@
     },
     "internal_resi_water_usage": 40,
     "ownership_status": "Private",
-    "s106_agreement": null,
+    "s106_agreement": false,
     "affordable_housing_inlieu_payment": null,
-    "air_quality_assessment": null,
+    "air_quality_assessment": false,
     "other_contributions": null,
     "intended_commencement_date": null,
     "no_affordable_housing_units_provided_offsite": null,
-    "commencement_notice_received": null,
-    "circular_economy_statement": null,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
     "qualifying_vacant_building_floorspace": null,
     "open_and_protected_space_details": {
       "open_space_local_and_other_area_gain": 0,
@@ -253,23 +298,23 @@
     "constraints_details": [],
     "superseding_details": [],
     "lead_registered_social_landlord": null,
-    "viability_assessment": null,
+    "viability_assessment": false,
     "overseas_company_registration_no": null,
-    "mayoral_cil_liability_notice_issued": null,
+    "mayoral_cil_liability_notice_issued": false,
     "non_permanent_dwellings_details": [],
     "intended_completion_date": null,
     "other_residential_accommodation_details": {
       "no_council_tax_rateable_units_gained": null,
       "no_council_tax_rateable_units_lost": null,
-      "site_area": null,
+      "site_area": 0.009548,
       "other_resi_accommodation_unit_details": []
     },
     "uk_company_registration_no": null,
-    "3d_model": null,
+    "3d_model": false,
     "transport_contributions": null,
     "no_affordable_housing_units_acquired_offsite": null,
-    "borough_cil_liability_notice_issued": null,
-    "transport_impact_assessment": null,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
     "social_infrastructure_contributions": null,
     "scheme_name": null,
     "lead_developer_company_name": null
