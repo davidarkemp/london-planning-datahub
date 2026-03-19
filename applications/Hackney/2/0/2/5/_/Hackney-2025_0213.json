@@ -35,8 +35,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 128,
-        "gia_gained": 158,
         "use_class": "C3",
+        "gia_gained": 158,
         "gia_lost": 0
       }
     ],
@@ -50,7 +50,7 @@
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 1,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0.03418803418803419,
       "total_no_proposed_residential_units": 1,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_gia_lost": 128,
@@ -70,37 +70,56 @@
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 158,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 0.008547008547008548,
       "residential_units": [
         {
-          "no_habitable_rooms": 2,
-          "unit_no": "Loss-1",
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": false,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
           "gia": 62,
           "tenure": "Market for rent"
         },
         {
-          "no_habitable_rooms": 2,
-          "unit_no": "Loss-2",
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": false,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 2,
           "provision_for_older_persons": false,
           "gia": 66,
           "tenure": "Market for rent"
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "unit_type": "Terraced Home",
+          "unit_development_type": "Conversion",
           "provider": "Private",
           "no_habitable_rooms": 4,
-          "unit_no": "Gain-1",
-          "change_type": "Gain",
+          "phase_detail": null,
+          "unit_no": null,
           "no_bedrooms": 4,
-          "unit_type": "Terraced Home",
+          "provision_for_older_persons": false,
           "gia": 158,
           "tenure": "Self-Build and Custom Build"
         }
@@ -113,7 +132,8 @@
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
-      "total_no_proposed_residential_units_london_living_rent": 0
+      "total_no_proposed_residential_units_london_living_rent": 0,
+      "site_area": 117
     },
     "phasing_details": [
       {
@@ -128,7 +148,7 @@
       "green_roof_area": 0,
       "mobile_network_operators_consultation": false,
       "no_new_water_connections_required": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "total_annual_pm_emissions": 2,
       "no_resi_units_to_have_full_fibre": 1,
       "percentage_demolition_construction_material_recycling": 0,
@@ -145,7 +165,7 @@
     "other_residential_accommodation_details": {
       "site_area": 117
     },
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "total_gia_gained": 158,
     "surface_water_discharge_percentage_reduction": 0,
     "grey_water_reuse": false,
@@ -155,8 +175,19 @@
       "total_gia_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_gained": 158
-    }
+      "total_gia_gained": 158,
+      "site_area": 117
+    },
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "date_building_work_completed_under_previous_permission": null,
   "site_name": null,
@@ -203,8 +234,8 @@
     ],
     "type": "Polygon"
   },
-  "cil_liability": null,
-  "title_number": null,
+  "cil_liability": false,
+  "title_number": [],
   "application_type": "All Other",
   "street_name": "KING EDWARDS ROAD",
   "actual_commencement_date": null,
@@ -213,7 +244,7 @@
   "lpa_name": "Hackney",
   "secondary_street_name": null,
   "decision_date": "11/04/2025",
-  "last_updated": "2025-07-09T09:27:00.575Z",
+  "last_updated": "2026-03-18T15:24:20.973Z",
   "url_planning_app": "https://developmentandhousing.hackney.gov.uk//planning/index.html?fa=getApplication&id=81429",
   "ward": "Victoria Ward",
   "valid_date": "03/02/2025",
@@ -232,10 +263,10 @@
   "appeal_status": null,
   "id": "Hackney-2025_0213",
   "decision_conditions": [
-    "&lt;p&gt;Prior to the first occupation of the development hereby approved a minimum of 1 Swift nesting bricks and/or boxes shall be provided at or close to eaves level of the development hereby approved. The bricks/boxes shall be retained thereafter in perpetuity.&amp;nbsp;&lt;br&gt;&lt;br&gt;REASON: In the interests of biodiversity.&lt;br&gt;&lt;/p&gt;",
-    "<p>The Development hereby permitted shall only be carried out and completed strictly in accordance with the submitted plans hereby approved and any subsequent approval of details.\r\n</p><p><br></p><p>\r\nREASON: To ensure that the development hereby permitted is carried out in full accordance with the plans hereby approved.\r\n</p>",
-    "<p>The development hereby permitted must be begun not later than the expiration of three years beginning with the date of this permission.</p><p><br></p><p>\r\n</p><p>\r\nREASON: In order to comply with the provisions of the Town and Country Planning Act 1990 (as amended).</p><p>\r\n</p>",
-    "&lt;p&gt;All new works in respect of all the works hereby approved (and any other incidental works to be carried out in this connection) shall match the existing building in respect of materials used, detailed execution and finished appearance.\r\n\r\n&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;REASON: To ensure a satisfactory external appearance.&lt;/p&gt;"
+    "Prior to the first occupation of the development hereby approved a minimum of 1 Swift nesting bricks and/or boxes shall be provided at or close to eaves level of the development hereby approved. The bricks/boxes shall be retained thereafter in perpetuity. REASON: In the interests of biodiversity.",
+    "The Development hereby permitted shall only be carried out and completed strictly in accordance with the submitted plans hereby approved and any subsequent approval of details.\n\nREASON: To ensure that the development hereby permitted is carried out in full accordance with the plans hereby approved.",
+    "The development hereby permitted must be begun not later than the expiration of three years beginning with the date of this permission.\n\nREASON: In order to comply with the provisions of the Town and Country Planning Act 1990 (as amended).",
+    "All new works in respect of all the works hereby approved (and any other incidental works to be carried out in this connection) shall match the existing building in respect of materials used, detailed execution and finished appearance.\n\nREASON: To ensure a satisfactory external appearance."
   ],
   "pp_id": "13739441",
   "last_date_consultation_comments": "01/04/2025",
