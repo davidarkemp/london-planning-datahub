@@ -55,7 +55,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -99,7 +98,8 @@
               171124.80032729276
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -152,10 +152,10 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 62.11,
         "gia_existing": 62.11,
-        "gia_lost": 62.11,
-        "use_class": "EG1"
+        "use_class": "EG1",
+        "gia_gained": 62.11,
+        "gia_lost": 62.11
       }
     ],
     "total_gia_gained": 62.11,
@@ -176,10 +176,10 @@
       "residential_units": [
         {
           "provider": "Private",
+          "no_habitable_rooms": 3,
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "change_type": "Gain",
-          "no_habitable_rooms": 3,
           "gia": 62.11,
           "tenure": "Market for sale"
         }
@@ -232,7 +232,7 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": 171118,
-  "last_updated": "2026-02-03T00:36:24.751Z",
+  "last_updated": "2026-03-20T00:41:59.453Z",
   "centroid": {
     "lon": -0.141377,
     "lat": 51.424326
@@ -244,5 +244,5 @@
   "date_building_work_completed_under_previous_permission": null,
   "id": "Wandsworth-2026_0382",
   "parking_details": null,
-  "description": "Determination as to whether prior approval is required for change of use of \r\noffice at ground floor level from (Class E) to residential (Class C3) to provide 1 \r\nx 2-bedroom flats."
+  "description": "Determination as to whether prior approval is required for change of use of office at ground floor level from (Class E) to residential (Class C3) to provide 1 x 2-bedroom flats."
 }
