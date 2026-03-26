@@ -1,16 +1,44 @@
 {
   "decision": "Approved",
   "last_date_consultation_comments": "05/03/2026",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.318579,
+          51.562161
+        ],
+        [
+          -0.31858,
+          51.562134
+        ],
+        [
+          -0.318623,
+          51.562135
+        ],
+        [
+          -0.318622,
+          51.562162
+        ],
+        [
+          -0.318579,
+          51.562161
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "date_building_work_started_under_previous_permission": null,
   "ward": "Northwick Park",
   "site_number": null,
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "appeal_status": null,
   "application_type_full": "Full planning permission",
   "borough": "Brent",
   "lpa_name": "Brent",
-  "postcode": null,
+  "postcode": "",
   "appeal_start_date": null,
   "appeal_decision_date": null,
   "status": "Approved",
@@ -23,16 +51,16 @@
   "application_details": {
     "surface_water_discharge_percentage_reduction": 0,
     "site_area": 0.0063,
-    "existing_uprns": null,
+    "existing_uprns": [],
     "projected_cost_of_works": "Up to £2m",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "garden_land_lost": false,
     "infrastructure_details": {
       "fire_suppression_system_proposed": false,
       "green_roof_area": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 10,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "no_homes_to_have_electrical_heating": 0,
       "no_resi_units_to_have_full_fibre": 2,
       "total_annual_pm_emissions": 0,
@@ -50,7 +78,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_lost": 0,
       "total_gia_gained": 0,
-      "total_gia_existing": 97.6
+      "total_gia_existing": 97.6,
+      "site_area": 0.0063
     },
     "existing_proposed_floorspace_details": [
       {
@@ -64,8 +93,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_completion_date": "05/2026",
-        "intended_commencement_date": "03/2026"
+        "intended_commencement_date": "03/2026",
+        "intended_completion_date": "05/2026"
       }
     ],
     "total_gia_gained": 0,
@@ -89,19 +118,39 @@
         {
           "provider": "Private",
           "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "gia": 45,
           "tenure": "Market for rent"
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "gia": 52.43,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Loss",
+          "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 4,
+          "provision_for_older_persons": false,
+          "gia": 99.65,
           "tenure": "Market for rent"
         }
       ],
@@ -114,13 +163,13 @@
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 317.46031746031747,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_shared_equity": 0,
-      "total_no_existing_residential_units": 0,
+      "total_no_existing_residential_units": 1,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_gia_gained": 97.43,
@@ -128,12 +177,25 @@
       "total_no_existing_residential_affordable_units": 0,
       "total_gia_lost": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 634.9206349206349,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
-      "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_starter_homes": 0
+      "total_no_existing_residential_units_market_for_rent": 1,
+      "total_no_existing_residential_units_starter_homes": 0,
+      "site_area": 0.0063
     },
-    "rain_water_harvesting": false
+    "rain_water_harvesting": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.0063
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "development_type": "Minor all other minor developments",
   "centroid_easting": 516648,
@@ -144,9 +206,9 @@
   "decision_process": "Delegated",
   "lapsed_date": "17/03/2029",
   "uprn": "202139570",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "cil_liability": false,
-  "street_name": null,
+  "street_name": "",
   "locality": null,
   "application_type": "All Other",
   "epc_number": null,
@@ -154,14 +216,14 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": 186147,
-  "last_updated": "2026-03-18T09:01:55.403Z",
+  "last_updated": "2026-03-25T15:08:01.633Z",
   "centroid": {
     "lon": -0.318601,
     "lat": 51.562148
   },
   "subdivision_of_building": "First and Second Floor",
-  "last_updated_by": "CSV Data Import",
-  "title_number": null,
+  "last_updated_by": "Portal",
+  "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "id": "Brent-26_0130",

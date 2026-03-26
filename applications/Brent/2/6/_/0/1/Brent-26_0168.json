@@ -1,16 +1,44 @@
 {
   "decision": "Approved",
   "last_date_consultation_comments": null,
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.228099,
+          51.548591
+        ],
+        [
+          -0.2281,
+          51.548564
+        ],
+        [
+          -0.228143,
+          51.548565
+        ],
+        [
+          -0.228142,
+          51.548592
+        ],
+        [
+          -0.228099,
+          51.548591
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "date_building_work_started_under_previous_permission": null,
   "ward": "Willesden Green",
   "site_number": null,
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "appeal_status": null,
   "application_type_full": "Lawful development: Existing use",
   "borough": "Brent",
   "lpa_name": "Brent",
-  "postcode": null,
+  "postcode": "",
   "appeal_start_date": null,
   "appeal_decision_date": null,
   "status": "Completed",
@@ -22,12 +50,12 @@
   "url_planning_app": "https://pa.brent.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR_176271&activeTab=summary",
   "application_details": {
     "no_additional_bathrooms": 0,
-    "existing_uprns": null,
+    "existing_uprns": [],
     "total_gia_gained": 0,
     "no_additional_bedrooms": 0,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_bedrooms": 2,
+      "total_no_proposed_bedrooms": 7,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units": 2,
       "total_no_existing_residential_units": 0,
@@ -39,7 +67,7 @@
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_proposed_residential_units_market_for_rent": 2,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
@@ -63,23 +91,64 @@
       "residential_units": [
         {
           "actual_completion_date": "06/03/2026",
+          "description": null,
           "change_type": "Gain",
-          "actual_commencement_date": "06/03/2026",
           "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 1,
-          "unit_development_type": "Conversion"
+          "unit_development_type": "Conversion",
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "06/03/2026",
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "gia": null,
+          "tenure": "Market for rent"
         },
         {
           "actual_completion_date": "06/03/2026",
+          "description": null,
           "change_type": "Gain",
-          "actual_commencement_date": "06/03/2026",
           "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 1,
-          "unit_development_type": "Conversion"
+          "unit_development_type": "Conversion",
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "06/03/2026",
+          "no_bedrooms": 4,
+          "provision_for_older_persons": false,
+          "gia": null,
+          "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "total_gia_gained": 0
+    },
+    "3d_model": false,
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "borough_cil_liability_notice_issued": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "rain_water_harvesting": false,
+    "scheme_phasing": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 0
+    },
+    "garden_land_lost": false,
+    "infrastructure_details": {
+      "waste_provision": false,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "ghg_reduction_over_building_regulations": false
     }
   },
   "development_type": "Certificates of Lawful Development",
@@ -91,9 +160,9 @@
   "decision_process": "Delegated",
   "lapsed_date": "06/03/2029",
   "uprn": "202136947",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "cil_liability": false,
-  "street_name": null,
+  "street_name": "",
   "locality": null,
   "application_type": "All Other",
   "epc_number": null,
@@ -101,14 +170,14 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": 184786,
-  "last_updated": "2026-03-08T02:02:21.465+00:00",
+  "last_updated": "2026-03-25T16:02:25.354Z",
   "centroid": {
     "lon": -0.228121,
     "lat": 51.548578
   },
   "subdivision_of_building": null,
-  "last_updated_by": "CSV Data Import",
-  "title_number": null,
+  "last_updated_by": "Portal",
+  "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "id": "Brent-26_0168",
