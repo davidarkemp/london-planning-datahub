@@ -48,59 +48,59 @@
   ],
   "date_building_work_started_under_previous_permission": null,
   "centroid_easting": 530480,
-  "status": "Approved",
+  "status": "Superseded",
   "decision_date": "20/05/2022",
   "wgs84_polygon": {
     "type": "Polygon",
     "coordinates": [
       [
         [
-          -0.11922619999999999,
-          51.5610681
+          -0.119252,
+          51.561065
         ],
         [
-          -0.11927629999999999,
-          51.5611052
+          -0.119302,
+          51.561103
         ],
         [
-          -0.1192794,
-          51.5611076
+          -0.119305,
+          51.561105
         ],
         [
-          -0.1191464,
-          51.5611684
+          -0.119172,
+          51.561166
         ],
         [
-          -0.11905299999999999,
-          51.56121
+          -0.119079,
+          51.561207
         ],
         [
-          -0.11893039999999999,
-          51.5612647
+          -0.118956,
+          51.561262
         ],
         [
-          -0.1188876,
-          51.5612856
+          -0.118914,
+          51.561283
         ],
         [
-          -0.1188388,
-          51.5612465
+          -0.118865,
+          51.561244
         ],
         [
-          -0.1188829,
-          51.5612266
+          -0.118909,
+          51.561224
         ],
         [
-          -0.11898879999999999,
-          51.5611785
+          -0.119015,
+          51.561176
         ],
         [
-          -0.1190778,
-          51.5611376
+          -0.119104,
+          51.561135
         ],
         [
-          -0.11922619999999999,
-          51.5610681
+          -0.119252,
+          51.561065
         ]
       ]
     ]
@@ -113,7 +113,7 @@
     "406898"
   ],
   "appeal_status": null,
-  "last_updated": "2025-03-19T22:37:02.641+00:00",
+  "last_updated": "2026-04-02T13:43:35.064Z",
   "last_updated_by": "Portal",
   "site_name": "",
   "id": "Islington-P2022_0243_FUL",
@@ -216,15 +216,15 @@
     "rain_water_harvesting": false,
     "grey_water_reuse": false,
     "s106_agreement": false,
-    "air_quality_assessment": null,
+    "air_quality_assessment": false,
     "total_gia_lost": 0,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "overseas_company_registration_no": null,
     "lead_registered_social_landlord": null,
     "total_gia_gained": 52,
     "no_affordable_housing_units_provided_offsite": null,
     "uk_company_registration_no": null,
-    "transport_impact_assessment": null,
+    "transport_impact_assessment": false,
     "qualifying_vacant_building_floorspace": null,
     "residential_details": {
       "total_no_existing_residential_units_social_rent": 0,
@@ -238,26 +238,26 @@
           "change_type": "Loss",
           "unit_type": "Terraced Home",
           "superseded_date": "25/07/2022",
-          "provider": "Private",
           "no_habitable_rooms": 7,
+          "provider": "Private",
           "phase_detail": null,
-          "unit_no": "Loss-1",
+          "unit_no": null,
           "no_bedrooms": 5,
           "superseded_by_lpa_app_no": "P2022/2109/FUL",
           "provision_for_older_persons": false,
-          "gia": 168,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 168
         },
         {
           "superseded_date": "25/07/2022",
           "provider": "Private",
           "phase_detail": null,
-          "unit_no": "Gain-1",
+          "unit_no": null,
           "description": null,
           "change_type": "Gain",
           "unit_type": "Communal Space",
-          "superseded_by_lpa_app_no": "P2022/2109/FUL",
           "provision_for_older_persons": false,
+          "superseded_by_lpa_app_no": "P2022/2109/FUL",
           "gia": 8
         },
         {
@@ -265,30 +265,30 @@
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "superseded_date": "25/07/2022",
-          "provider": "Private",
           "no_habitable_rooms": 4,
+          "provider": "Private",
           "phase_detail": null,
-          "unit_no": "Gain-2",
+          "unit_no": null,
           "no_bedrooms": 3,
           "superseded_by_lpa_app_no": "P2022/2109/FUL",
           "provision_for_older_persons": false,
-          "gia": 104,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 104
         },
         {
           "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "superseded_date": "25/07/2022",
-          "provider": "Private",
           "no_habitable_rooms": 5,
+          "provider": "Private",
           "phase_detail": null,
-          "unit_no": "Gain-3",
+          "unit_no": null,
           "no_bedrooms": 3,
           "superseded_by_lpa_app_no": "P2022/2109/FUL",
           "provision_for_older_persons": false,
-          "gia": 111,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 111
         }
       ],
       "total_no_existing_residential_units_intermediate": 0,
@@ -328,9 +328,9 @@
     },
     "projected_cost_of_works": "Up to £2m",
     "intended_commencement_date": null,
-    "3d_model": null,
+    "3d_model": false,
     "green_suds": false,
-    "circular_economy_statement": null,
+    "circular_economy_statement": false,
     "non_residential_details": {
       "total_gia_existing": 168,
       "total_gia_gained": 52,
@@ -343,16 +343,18 @@
     "non_permanent_dwellings_details": [],
     "no_affordable_housing_units_acquired_offsite": null,
     "affordable_housing_fast_track": false,
-    "commencement_notice_received": null,
+    "commencement_notice_received": false,
     "scheme_name": null,
     "total_gia_existing": 168,
     "internal_resi_water_usage": 0,
-    "mayoral_cil_liability_notice_issued": null,
+    "mayoral_cil_liability_notice_issued": false,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 168,
+        "superseded_date": "22/07/2022",
         "use_class": "C3",
         "gia_gained": 52,
+        "superseded_by_lpa_app_no": "P2022/2109/FUL",
         "gia_lost": 0
       }
     ],
@@ -377,7 +379,7 @@
       "chp_heat_pumps_capacity": null,
       "no_active_rapid_ev_charging_points": null,
       "solar_pv_capacity": null,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_passive_rapid_ev_charging_points": null,
       "no_active_other_ev_charging_points": null,
       "percentage_demolition_construction_material_recycling": 0,
@@ -397,9 +399,9 @@
     "intended_completion_date": null,
     "other_contributions": null,
     "social_infrastructure_contributions": null,
-    "borough_cil_liability_notice_issued": null,
+    "borough_cil_liability_notice_issued": false,
     "affordable_housing_inlieu_payment": null,
-    "viability_assessment": null,
+    "viability_assessment": false,
     "transport_contributions": null,
     "other_residential_accommodation_details": {
       "no_council_tax_rateable_units_lost": null,
@@ -408,11 +410,11 @@
       "no_council_tax_rateable_units_gained": null
     },
     "ownership_status": "Private",
-    "existing_uprns": null
+    "existing_uprns": []
   },
   "centroid": {
-    "lon": "-0.1190561",
-    "lat": "51.5611723"
+    "lon": -0.119082,
+    "lat": 51.56117
   },
   "lapsed_date": "20/05/2025",
   "decision_process": "Delegated",
