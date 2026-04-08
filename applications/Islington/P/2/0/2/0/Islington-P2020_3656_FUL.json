@@ -12,59 +12,59 @@
   "street_name": "Florence Street",
   "locality": "London",
   "ward": "St. Marys - historic",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "01/01/2022",
   "lpa_name": "Islington",
-  "bo_system": "Agile APAS",
+  "bo_system": "Portal",
   "decision_conditions": [
-    "3 YEAR CONSENT PERIOD:  The development hereby permitted shall be begun not later than the expiration of three years from the date of this permission.\r\n\r\nREASON: To comply with the provisions of Section 91(1)(a) of the Town and Country Planning Act 1990 as amended by the Planning and Compulsory Purchase Act 2004 (Chapter 5)."
+    "3 YEAR CONSENT PERIOD:  The development hereby permitted shall be begun not later than the expiration of three years from the date of this permission.\n\nREASON: To comply with the provisions of Section 91(1)(a) of the Town and Country Planning Act 1990 as amended by the Planning and Compulsory Purchase Act 2004 (Chapter 5)."
   ],
   "date_building_work_started_under_previous_permission": null,
   "centroid_easting": 531731,
-  "status": "Lapsed",
+  "status": "Superseded",
   "decision_date": "11/06/2021",
   "wgs84_polygon": {
     "type": "Polygon",
     "coordinates": [
       [
         [
-          -0.10171279999999999,
-          51.5399198
+          -0.101739,
+          51.539918
         ],
         [
-          -0.1017366,
-          51.5399184
+          -0.101763,
+          51.539916
         ],
         [
-          -0.1018806,
-          51.5399068
+          -0.101907,
+          51.539905
         ],
         [
-          -0.1020528,
-          51.5398934
+          -0.102079,
+          51.539891
         ],
         [
-          -0.10205739999999999,
-          51.5399182
+          -0.102084,
+          51.539916
         ],
         [
-          -0.10206169999999999,
-          51.5399412
+          -0.102088,
+          51.539939
         ],
         [
-          -0.1018895,
-          51.5399537
+          -0.101916,
+          51.539952
         ],
         [
-          -0.1017448,
-          51.5399643
+          -0.101771,
+          51.539962
         ],
         [
-          -0.1017217,
-          51.5399658
+          -0.101748,
+          51.539964
         ],
         [
-          -0.10171279999999999,
-          51.5399198
+          -0.101739,
+          51.539918
         ]
       ]
     ]
@@ -77,8 +77,8 @@
     "NGL94948"
   ],
   "appeal_status": null,
-  "last_updated": "2025-03-19T23:46:02.985+00:00",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated": "2026-04-07T15:31:55.230Z",
+  "last_updated_by": "Portal",
   "site_name": "",
   "id": "Islington-P2020_3656_FUL",
   "decision": "Approved",
@@ -154,7 +154,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 0,
       "total_gia_lost": 169,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "site_area": 0.012
     },
     "affordable_housing_fast_track": false,
     "garden_land_lost": false,
@@ -169,12 +170,14 @@
       }
     ],
     "grey_water_reuse": false,
-    "existing_uprns": null,
+    "existing_uprns": [],
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 174,
+        "superseded_date": "25/02/2022",
         "use_class": "C3",
         "gia_gained": 0,
+        "superseded_by_lpa_app_no": "P2021/3759/FUL",
         "gia_lost": 169
       }
     ],
@@ -188,7 +191,7 @@
     ],
     "total_gia_lost": 169,
     "projected_cost_of_works": "Up to £2m",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "internal_resi_water_usage": 122,
     "residential_details": {
       "total_no_existing_residential_units_social_rent": 0,
@@ -198,14 +201,18 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
+          "superseded_date": "25/02/2022",
           "no_habitable_rooms": 6,
-          "unit_no": "Loss-1",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
           "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "superseded_by_lpa_app_no": "P2021/3759/FUL",
           "provision_for_older_persons": false,
-          "gia": 0,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 0
         }
       ],
       "total_no_existing_residential_units_intermediate": 0,
@@ -236,14 +243,15 @@
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_residential_units_market_for_sale": 0
+      "total_no_proposed_residential_units_market_for_sale": 0,
+      "site_area": 0.012
     },
     "infrastructure_details": {
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "ghg_reduction_over_building_regulations": false,
       "no_homes_to_have_electrical_heating": 0,
@@ -260,11 +268,29 @@
     },
     "ownership_status": "Private",
     "s106_agreement": false,
-    "lead_developer_company_name": "Councillor Angela Picknell"
+    "lead_developer_company_name": "Councillor Angela Picknell",
+    "superseding_details": [
+      {
+        "lpa_name": "Islington",
+        "lpa_app_no": "P2021/3759/FUL",
+        "partial_supersedence": false
+      }
+    ],
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.012
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "centroid": {
-    "lon": "-0.1018917",
-    "lat": "51.5399339"
+    "lon": -0.101918,
+    "lat": 51.539932
   },
   "lapsed_date": "11/06/2024",
   "decision_process": "Delegated",
