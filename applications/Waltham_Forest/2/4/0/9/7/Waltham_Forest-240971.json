@@ -1,20 +1,20 @@
 {
   "locality": null,
   "appeal_status": null,
-  "url_planning_app": null,
-  "decision_process": null,
+  "url_planning_app": "https://builtenvironment.walthamforest.gov.uk/planning/index.html?fa=getApplication&id=114996",
+  "decision_process": "Delegated",
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
   "decision": "Refused",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "valid_date": "07/05/2024",
   "description": "Change of use of retail unit (Use Class E(a)) into restaurant (Use Class E(b)) together with the installation of an extraction flue to the side elevation.",
   "application_type_full": "Full planning permission",
   "reference_no_of_permission_being_relied_on": null,
   "application_type": "All Other",
   "borough": "Waltham Forest",
-  "pp_id": "PP-12988299",
-  "site_number": null,
+  "pp_id": "12988299",
+  "site_number": "27",
   "application_details": {
     "affordable_housing_fast_track": false,
     "rain_water_harvesting": false,
@@ -58,13 +58,13 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 174,
-        "use_class": "E(a)",
+        "use_class": "EA",
         "gia_gained": 0,
         "gia_lost": 174
       },
       {
         "gia_existing": 0,
-        "use_class": "E(b)",
+        "use_class": "EB",
         "gia_gained": 174,
         "gia_lost": 0
       }
@@ -74,19 +74,41 @@
     "existing_uprns": null,
     "total_gia_lost": 174,
     "projected_cost_of_works": "Up to £2m",
-    "scheme_phasing": true
+    "scheme_phasing": true,
+    "constraints_details": [
+      {
+        "result": "1",
+        "constraints_layer_description": "Borough_Boundary"
+      },
+      {
+        "result": "213441",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "240340",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "223636",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "PRE_22_0180",
+        "constraints_layer_description": "Pre-Applications"
+      }
+    ]
   },
   "appeal_decision_date": null,
   "lapsed_date": "22/07/2027",
-  "centroid_easting": 535756,
-  "decision_target_date": null,
-  "street_name": null,
-  "last_updated": "2025-03-19T11:39:10.525+00:00",
+  "centroid_easting": null,
+  "decision_target_date": "02/07/2024",
+  "street_name": "FOREST ROAD",
+  "last_updated": "2026-04-15T11:56:15.103Z",
   "date_building_work_completed_under_previous_permission": null,
-  "last_updated_by": "Planning Portal ingest",
-  "development_type": null,
+  "last_updated_by": "Portal",
+  "development_type": "Minor all other minor developments",
   "title_number": null,
-  "postcode": null,
+  "postcode": "E17 6ZJ",
   "parking_details": {
     "no_existing_car": 1,
     "no_proposed_car": 1,
@@ -96,152 +118,158 @@
   "appeal_start_date": null,
   "secondary_street_name": null,
   "epc_number": null,
-  "decision_agency": null,
-  "ward": null,
+  "decision_agency": "Borough",
+  "ward": "St James",
   "centroid": {
-    "lat": "51.587281",
-    "lon": "-0.041816099999999995"
+    "lat": 49.766807,
+    "lon": -7.55716
   },
   "polygon": {
-    "type": "GeometryCollection",
+    "type": "geometrycollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              535765.3949208,
-              189425.627429
+              535765.39492076,
+              189425.627429026
             ],
             [
-              535765.6976852,
-              189414.3250013
+              535765.697685218,
+              189414.325001285
             ],
             [
-              535754.7202455,
-              189411.8344126
+              535754.720245522,
+              189411.834412598
             ],
             [
-              535750.3097348,
-              189410.8311036
+              535750.309734823,
+              189410.83110357
             ],
             [
-              535749.8550376,
-              189413.0810354
+              535749.85503757,
+              189413.081035443
             ],
             [
-              535747.7962731,
-              189412.6324826
+              535747.796273112,
+              189412.632482612
             ],
             [
-              535747.3254297,
-              189422.848534
+              535747.325429682,
+              189422.848533983
             ],
             [
-              535740.4330608,
-              189422.4672287
+              535740.433060818,
+              189422.467228715
             ],
             [
-              535740.3883126,
-              189424.1380211
+              535740.388312608,
+              189424.13802115
             ],
             [
-              535749.6455813,
-              189424.5826684
+              535749.64558126,
+              189424.582668405
             ],
             [
-              535749.6929649,
-              189422.8135942
+              535749.692964954,
+              189422.813594146
             ],
             [
-              535754.2230629,
-              189423.0332848
+              535754.223062948,
+              189423.033284808
             ],
             [
-              535754.1704126,
-              189424.9989228
+              535754.170412639,
+              189424.998922783
             ],
             [
-              535765.3949208,
-              189425.627429
+              535765.39492076,
+              189425.627429026
             ]
           ]
         ],
         "type": "Polygon"
       }
-    ]
+    ],
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "EPSG:27700"
+      }
+    }
   },
   "status": "Refused",
   "actual_commencement_date": null,
   "decision_conditions": null,
-  "uprn": null,
+  "uprn": "10095403196",
   "lpa_name": "Waltham Forest",
-  "centroid_northing": 189419,
+  "centroid_northing": null,
   "site_name": "27 Forest Road, Walthamstow, London, E17 6ZJ",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.041678,
-          51.5873383
+          -0.041704,
+          51.587337
         ],
         [
-          -0.041678,
-          51.5872367
+          -0.041704,
+          51.587235
         ],
         [
-          -0.0418374,
-          51.587217
+          -0.041863,
+          51.587215
         ],
         [
-          -0.0419014,
-          51.587209
+          -0.041927,
+          51.587207
         ],
         [
-          -0.041907099999999996,
-          51.5872293
+          -0.041933,
+          51.587228
         ],
         [
-          -0.0419369,
-          51.5872258
+          -0.041963,
+          51.587224
         ],
         [
-          -0.0419398,
-          51.5873177
+          -0.041965,
+          51.587316
         ],
         [
-          -0.0420394,
-          51.5873159
+          -0.042065,
+          51.587314
         ],
         [
-          -0.0420394,
+          -0.042065,
+          51.587329
+        ],
+        [
+          -0.041931,
           51.587331
         ],
         [
-          -0.0419056,
-          51.5873327
+          -0.041931,
+          51.587315
         ],
         [
-          -0.0419056,
-          51.587316799999996
+          -0.041866,
+          51.587316
         ],
         [
-          -0.0418402,
-          51.5873177
+          -0.041866,
+          51.587334
         ],
         [
-          -0.0418402,
-          51.5873354
-        ],
-        [
-          -0.041678,
-          51.5873383
+          -0.041704,
+          51.587337
         ]
       ]
     ],
     "type": "Polygon"
   },
   "lpa_app_no": "240971",
-  "last_date_consultation_comments": null,
+  "last_date_consultation_comments": "21/06/2024",
   "subdivision_of_building": "Ground floor unit ",
   "id": "Waltham_Forest-240971",
   "decision_date": "22/07/2024",

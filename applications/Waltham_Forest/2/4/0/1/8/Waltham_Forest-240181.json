@@ -1,20 +1,20 @@
 {
   "locality": null,
   "appeal_status": null,
-  "url_planning_app": null,
-  "decision_process": null,
+  "url_planning_app": "https://builtenvironment.walthamforest.gov.uk/planning/index.html?fa=getApplication&id=114322",
+  "decision_process": "Delegated",
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
   "decision": "Refused",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "valid_date": "16/02/2024",
   "description": "Change of use of existing storage unit to one self-contained residential unit (1x1-bed) (Use Class C3) together with terrace, refuse and recycling storage facilities and bicycle storage provision.",
   "application_type_full": "Full planning permission",
   "reference_no_of_permission_being_relied_on": null,
   "application_type": "All Other",
   "borough": "Waltham Forest",
-  "pp_id": "PP-12754485",
-  "site_number": null,
+  "pp_id": "12754485",
+  "site_number": "23b",
   "application_details": {
     "projected_cost_of_works": "Up to £2m",
     "rain_water_harvesting": false,
@@ -59,7 +59,7 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 39,
-        "use_class": "E(a)",
+        "use_class": "EA",
         "gia_gained": 39,
         "gia_lost": 39
       }
@@ -83,14 +83,13 @@
       "total_no_existing_residential_affordable_units": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 1,
           "provider": "Private",
-          "unit_no": "Gain-1",
+          "no_habitable_rooms": 1,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 39,
-          "tenure": "Market for rent"
+          "no_bedrooms": 1,
+          "tenure": "Market for rent",
+          "gia": 39
         }
       ],
       "total_no_existing_residential_units_market_for_sale": 0,
@@ -120,130 +119,174 @@
     },
     "total_gia_lost": 39,
     "scheme_phasing": true,
-    "existing_uprns": null
+    "existing_uprns": null,
+    "constraints_details": [
+      {
+        "result": "1907684",
+        "constraints_layer_description": "topoline"
+      },
+      {
+        "result": "1907784",
+        "constraints_layer_description": "topoline"
+      },
+      {
+        "result": "1967123",
+        "constraints_layer_description": "topoline"
+      },
+      {
+        "result": "1967136",
+        "constraints_layer_description": "topoline"
+      },
+      {
+        "result": "1",
+        "constraints_layer_description": "Borough_Boundary"
+      },
+      {
+        "result": "223138",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "23a Old Church Road, Chingford, London, E4 6SJ",
+        "constraints_layer_description": "Locations"
+      },
+      {
+        "result": "23b Old Church Road, Chingford, London, E4 6SJ",
+        "constraints_layer_description": "Locations"
+      },
+      {
+        "result": "23 Old Church Road, Chingford, London, E4 6SJ",
+        "constraints_layer_description": "Locations"
+      }
+    ]
   },
   "appeal_decision_date": null,
   "lapsed_date": "11/04/2027",
-  "centroid_easting": 537372,
-  "decision_target_date": null,
-  "street_name": null,
-  "last_updated": "2025-03-19T11:39:04.195+00:00",
+  "centroid_easting": null,
+  "decision_target_date": "12/04/2024",
+  "street_name": "OLD CHURCH ROAD",
+  "last_updated": "2026-04-15T11:54:29.281Z",
   "date_building_work_completed_under_previous_permission": null,
-  "last_updated_by": "Planning Portal ingest",
-  "development_type": null,
+  "last_updated_by": "Portal",
+  "development_type": "Minor dwellings",
   "title_number": null,
-  "postcode": null,
+  "postcode": "E4 6SJ",
   "parking_details": null,
   "actual_completion_date": null,
   "appeal_start_date": null,
   "secondary_street_name": null,
   "epc_number": null,
-  "decision_agency": null,
-  "ward": null,
+  "decision_agency": "Borough",
+  "ward": "Larkswood",
   "centroid": {
-    "lat": "51.6178368",
-    "lon": "-0.0171568"
+    "lat": 49.766807,
+    "lon": -7.55716
   },
   "polygon": {
-    "type": "GeometryCollection",
+    "type": "geometrycollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              537377.1060312,
-              192861.1086821
+              537377.10603116,
+              192861.108682075
             ],
             [
-              537377.2203789,
-              192860.1443394
+              537377.324936015,
+              192866.039796818
             ],
             [
-              537365.353646,
-              192860.3940134
+              537366.695376723,
+              192866.19111367
             ],
             [
-              537365.6047548,
-              192864.1386827
+              537366.722800087,
+              192865.18043956
             ],
             [
-              537366.6192456,
-              192864.1222358
+              537366.619245629,
+              192864.122235826
             ],
             [
-              537366.7228001,
-              192865.1804396
+              537365.604754804,
+              192864.138682728
             ],
             [
-              537366.6953767,
-              192866.1911137
+              537365.353646051,
+              192860.394013386
             ],
             [
-              537377.324936,
-              192866.0397968
+              537377.220378929,
+              192860.144339358
             ],
             [
-              537377.1060312,
-              192861.1086821
+              537377.10603116,
+              192861.108682075
             ]
           ]
         ],
         "type": "Polygon"
       }
-    ]
+    ],
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "EPSG:27700"
+      }
+    }
   },
   "status": "Refused",
   "actual_commencement_date": null,
   "decision_conditions": null,
-  "uprn": null,
+  "uprn": "10095403624",
   "lpa_name": "Waltham Forest",
-  "centroid_northing": 192863,
+  "centroid_northing": null,
   "site_name": "23b Old Church Road, Chingford, London, E4 6SJ",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.0170838,
-          51.6178186
+          -0.01711,
+          51.617817
         ],
         [
-          -0.0170825,
-          51.6178099
+          -0.017105,
+          51.617862
         ],
         [
-          -0.0172537,
-          51.617815
+          -0.017258,
+          51.617866
         ],
         [
-          -0.0172486,
-          51.6178486
+          -0.017258,
+          51.617856
         ],
         [
-          -0.017234,
-          51.6178482
+          -0.01726,
+          51.617847
         ],
         [
-          -0.0172321,
-          51.6178577
+          -0.017275,
+          51.617847
         ],
         [
-          -0.0172321,
-          51.6178668
+          -0.01728,
+          51.617814
         ],
         [
-          -0.0170787,
-          51.6178629
+          -0.017109,
+          51.617809
         ],
         [
-          -0.0170838,
-          51.6178186
+          -0.01711,
+          51.617817
         ]
       ]
     ],
     "type": "Polygon"
   },
   "lpa_app_no": "240181",
-  "last_date_consultation_comments": null,
+  "last_date_consultation_comments": "27/03/2024",
   "subdivision_of_building": "Ground Floor Rear",
   "id": "Waltham_Forest-240181",
   "decision_date": "11/04/2024",

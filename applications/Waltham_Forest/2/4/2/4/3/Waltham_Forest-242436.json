@@ -1,20 +1,20 @@
 {
   "locality": null,
   "appeal_status": null,
-  "url_planning_app": null,
-  "decision_process": null,
+  "url_planning_app": "https://builtenvironment.walthamforest.gov.uk/planning/index.html?fa=getApplication&id=116134",
+  "decision_process": "Delegated",
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
   "decision": "Withdrawn",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "valid_date": "14/10/2024",
-  "description": "Construction of a single storey residential unit (1x2-bed) (Use Class C3) on land at rear of 14 Grange Park Road together with hard and soft landscaping, one parking space, refuse and recycling storage facilities and bicycle parking provision. ",
+  "description": "Construction of a single storey residential unit (1x2-bed) (Use Class C3) on land at rear of 14 Grange Park Road together with hard and soft landscaping, one parking space, refuse and recycling storage facilities and bicycle parking provision.&nbsp;",
   "application_type_full": "Full planning permission",
   "reference_no_of_permission_being_relied_on": null,
   "application_type": "All Other",
   "borough": "Waltham Forest",
-  "pp_id": "PP-13456329",
-  "site_number": null,
+  "pp_id": "13456329",
+  "site_number": "14",
   "application_details": {
     "projected_cost_of_works": "Up to £2m",
     "rain_water_harvesting": false,
@@ -90,14 +90,13 @@
       "total_no_existing_residential_affordable_units": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 3,
           "provider": "Private",
-          "unit_no": "Gain-1",
+          "no_habitable_rooms": 3,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "House or Bungalow",
-          "gia": 61.8,
-          "tenure": "Self-Build and Custom Build"
+          "no_bedrooms": 2,
+          "tenure": "Self-Build and Custom Build",
+          "gia": 61.8
         }
       ],
       "total_no_existing_residential_units_market_for_sale": 0,
@@ -127,19 +126,61 @@
     },
     "total_gia_lost": 0,
     "scheme_phasing": true,
-    "existing_uprns": null
+    "existing_uprns": null,
+    "constraints_details": [
+      {
+        "result": "1278210",
+        "constraints_layer_description": "topoline"
+      },
+      {
+        "result": "1278266",
+        "constraints_layer_description": "topoline"
+      },
+      {
+        "result": "1278473",
+        "constraints_layer_description": "topoline"
+      },
+      {
+        "result": "1278484",
+        "constraints_layer_description": "topoline"
+      },
+      {
+        "result": "1278487",
+        "constraints_layer_description": "topoline"
+      },
+      {
+        "result": "1278494",
+        "constraints_layer_description": "topoline"
+      },
+      {
+        "result": "1278508",
+        "constraints_layer_description": "topoline"
+      },
+      {
+        "result": "1278541",
+        "constraints_layer_description": "topoline"
+      },
+      {
+        "result": "1362150",
+        "constraints_layer_description": "topoline"
+      },
+      {
+        "result": "1",
+        "constraints_layer_description": "Borough_Boundary"
+      }
+    ]
   },
   "appeal_decision_date": null,
   "lapsed_date": "06/12/2027",
-  "centroid_easting": 537901,
-  "decision_target_date": null,
-  "street_name": null,
-  "last_updated": "2025-03-19T11:41:06.962+00:00",
+  "centroid_easting": null,
+  "decision_target_date": "09/12/2024",
+  "street_name": "GRANGE PARK ROAD",
+  "last_updated": "2026-04-15T12:01:00.522Z",
   "date_building_work_completed_under_previous_permission": null,
-  "last_updated_by": "Planning Portal ingest",
-  "development_type": null,
+  "last_updated_by": "Portal",
+  "development_type": "Minor dwellings",
   "title_number": null,
-  "postcode": null,
+  "postcode": "",
   "parking_details": {
     "no_existing_car": 0,
     "no_proposed_car": 1,
@@ -149,112 +190,118 @@
   "appeal_start_date": null,
   "secondary_street_name": null,
   "epc_number": null,
-  "decision_agency": null,
-  "ward": null,
+  "decision_agency": "Borough",
+  "ward": "Leyton",
   "centroid": {
-    "lat": "51.5628853",
-    "lon": "-0.0119145"
+    "lat": 49.766807,
+    "lon": -7.55716
   },
   "polygon": {
-    "type": "GeometryCollection",
+    "type": "geometrycollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              537914.7240732,
-              186767.9675109
+              537914.724073162,
+              186767.967510916
             ],
             [
-              537894.9027361,
-              186752.0109219
+              537909.670729748,
+              186773.465553122
             ],
             [
-              537892.6537646,
-              186756.3092808
+              537891.945278803,
+              186758.841919246
             ],
             [
-              537887.9206802,
-              186753.9477074
+              537890.828015963,
+              186760.725472473
             ],
             [
-              537886.3079932,
-              186758.3696943
+              537886.307993234,
+              186758.369694265
             ],
             [
-              537890.828016,
-              186760.7254725
+              537887.920680239,
+              186753.94770744
             ],
             [
-              537891.9452788,
-              186758.8419193
+              537892.653764618,
+              186756.309280796
             ],
             [
-              537909.6707297,
-              186773.4655531
+              537894.902736084,
+              186752.010921871
             ],
             [
-              537914.7240732,
-              186767.9675109
+              537914.724073162,
+              186767.967510916
             ]
           ]
         ],
         "type": "Polygon"
       }
-    ]
+    ],
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "EPSG:27700"
+      }
+    }
   },
   "status": "Withdrawn",
   "actual_commencement_date": null,
   "decision_conditions": null,
-  "uprn": null,
+  "uprn": "100022954538",
   "lpa_name": "Waltham Forest",
-  "centroid_northing": 186762,
+  "centroid_northing": null,
   "site_name": "14 Grange Park Road,",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.011714299999999999,
-          51.5629356
+          -0.011742,
+          51.562934
         ],
         [
-          -0.0120063,
-          51.562797
+          -0.011813,
+          51.562984
         ],
         [
-          -0.012036999999999999,
-          51.5628362
+          -0.012074,
+          51.562857
         ],
         [
-          -0.0121062,
-          51.5628161
+          -0.012089,
+          51.562874
         ],
         [
-          -0.0121277,
-          51.5628563
+          -0.012155,
+          51.562854
         ],
         [
-          -0.012061599999999999,
-          51.5628763
+          -0.012134,
+          51.562814
         ],
         [
-          -0.0120463,
-          51.5628591
+          -0.012065,
+          51.562834
         ],
         [
-          -0.011784999999999999,
-          51.5629862
+          -0.012034,
+          51.562795
         ],
         [
-          -0.011714299999999999,
-          51.5629356
+          -0.011742,
+          51.562934
         ]
       ]
     ],
     "type": "Polygon"
   },
   "lpa_app_no": "242436",
-  "last_date_consultation_comments": null,
+  "last_date_consultation_comments": "18/11/2024",
   "subdivision_of_building": null,
   "id": "Waltham_Forest-242436",
   "decision_date": "06/12/2024",

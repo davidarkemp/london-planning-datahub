@@ -1,20 +1,20 @@
 {
   "locality": null,
   "appeal_status": null,
-  "url_planning_app": null,
-  "decision_process": null,
-  "appeal_decision": null,
+  "url_planning_app": "https://builtenvironment.walthamforest.gov.uk/planning/index.html?fa=getApplication&id=115101",
+  "decision_process": "Delegated",
+  "appeal_decision": "Dismissed",
   "date_building_work_started_under_previous_permission": null,
   "decision": "Refused",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "valid_date": "31/05/2024",
   "description": "Subdivision of existing site and construction of one two storey end of terrace dwellinghouse (1x2-bed) (Use Class C3) together with associated hard and soft landscaping, refuse and recycling storage facilities, and bicycle parking provision. Alterations to existing dwelling including demolition of rear shed and existing two storey rear extension and construction of a new single storey rear extension, alterations to fenestration and removal of existing dropped kerb together with reinstatement of footpath.",
   "application_type_full": "Full planning permission",
   "reference_no_of_permission_being_relied_on": null,
   "application_type": "All Other",
   "borough": "Waltham Forest",
-  "pp_id": "PP-12961398",
-  "site_number": null,
+  "pp_id": "12961398",
+  "site_number": "14",
   "application_details": {
     "projected_cost_of_works": "Up to £2m",
     "rain_water_harvesting": false,
@@ -90,14 +90,13 @@
       "total_no_existing_residential_affordable_units": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 3,
           "provider": "Private",
-          "unit_no": "Gain-1",
+          "no_habitable_rooms": 3,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Terraced Home",
-          "gia": 82.15,
-          "tenure": "Market for rent"
+          "no_bedrooms": 2,
+          "tenure": "Market for rent",
+          "gia": 82.15
         }
       ],
       "total_no_existing_residential_units_market_for_sale": 0,
@@ -127,19 +126,65 @@
     },
     "total_gia_lost": 46.5,
     "scheme_phasing": true,
-    "existing_uprns": null
+    "existing_uprns": null,
+    "constraints_details": [
+      {
+        "result": "1792395",
+        "constraints_layer_description": "topoline"
+      },
+      {
+        "result": "1792521",
+        "constraints_layer_description": "topoline"
+      },
+      {
+        "result": "1792503",
+        "constraints_layer_description": "topoline"
+      },
+      {
+        "result": "1792490",
+        "constraints_layer_description": "topoline"
+      },
+      {
+        "result": "1792388",
+        "constraints_layer_description": "topoline"
+      },
+      {
+        "result": "132857",
+        "constraints_layer_description": "cartotext"
+      },
+      {
+        "result": "1",
+        "constraints_layer_description": "Borough_Boundary"
+      },
+      {
+        "result": "212665",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "PRE_22_0205",
+        "constraints_layer_description": "Pre-Applications"
+      },
+      {
+        "result": "PRE_23_0336",
+        "constraints_layer_description": "Pre-Applications"
+      },
+      {
+        "result": "14 Shaw Square, Walthamstow, London, E17 5JB",
+        "constraints_layer_description": "Locations"
+      }
+    ]
   },
-  "appeal_decision_date": null,
-  "lapsed_date": "25/07/2027",
+  "appeal_decision_date": "08/04/2025",
+  "lapsed_date": "25/07/2024",
   "centroid_easting": 536520,
-  "decision_target_date": null,
-  "street_name": null,
-  "last_updated": "2025-03-19T11:39:20.218+00:00",
+  "decision_target_date": "26/07/2024",
+  "street_name": "SHAW SQUARE",
+  "last_updated": "2026-04-15T12:21:09.226Z",
   "date_building_work_completed_under_previous_permission": null,
-  "last_updated_by": "Planning Portal ingest",
-  "development_type": null,
+  "last_updated_by": "Portal",
+  "development_type": "Minor dwellings",
   "title_number": null,
-  "postcode": null,
+  "postcode": "E17 5JB",
   "parking_details": {
     "no_existing_car": 1,
     "no_proposed_cycle": 3,
@@ -149,55 +194,64 @@
     "net_cycle": 3
   },
   "actual_completion_date": null,
-  "appeal_start_date": null,
+  "appeal_start_date": "25/10/2024",
   "secondary_street_name": null,
   "epc_number": null,
-  "decision_agency": null,
-  "ward": null,
+  "decision_agency": "Borough",
+  "ward": "Higham Hill",
   "centroid": {
-    "lat": "51.5989848",
-    "lon": "-0.030281"
+    "lat": 51.598983,
+    "lon": -0.030307
   },
   "polygon": {
-    "type": "GeometryCollection",
+    "type": "geometrycollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              536511.8424495,
-              190735.5304116
+              536511.842449452,
+              190735.530411619
             ],
             [
-              536511.219638,
-              190748.4236048
+              536511.219637968,
+              190748.423604814
             ],
             [
-              536529.2374675,
-              190749.1838293
+              536529.237467525,
+              190749.183829348
             ],
             [
-              536529.2729511,
-              190737.6482117
+              536529.272951128,
+              190737.648211674
             ],
             [
-              536528.0900489,
-              190735.5562283
+              536528.090048921,
+              190735.556228272
             ],
             [
-              536511.8424495,
-              190735.5304116
+              536511.842449452,
+              190735.530411619
             ]
           ]
         ],
         "type": "Polygon"
       }
-    ]
+    ],
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "EPSG:27700"
+      }
+    }
   },
-  "status": "Refused",
+  "status": "Dismissed",
   "actual_commencement_date": null,
-  "decision_conditions": null,
-  "uprn": null,
+  "decision_conditions": [
+    "&lt;p&gt;&lt;span arial=&quot;&quot;&gt;The proposal fails to demonstrate how the development would adhere to appropriate energy and sustainability efficiency measures as the proposal has been submitted without an energy and sustainability statement which is a validation requirement and therefore the Local Planning Authority is unable to establish whether the development would be compliant with Policies 85 or 87 of Waltham Forests LP1 (2024).&lt;/span&gt;&lt;br&gt;&lt;/p&gt;",
+    "&lt;p&gt;&lt;span arial=&quot;&quot;&gt;The proposed development which involves the sub-division of no.14 Shaw Square would result in insufficient, sub-standard external amenity space for the existing and future occupiers of no.14 Shaw Square. The development would be contrary to D6 of the London Plan (2021), Policy 56 of Waltham Forests LP1 (2024).&lt;/span&gt;&lt;br&gt;&lt;/p&gt;"
+  ],
+  "uprn": "100022583957",
   "lpa_name": "Waltham Forest",
   "centroid_northing": 190742,
   "site_name": "14 Shaw Square, Walthamstow, London, E17 5JB",
@@ -205,35 +259,35 @@
     "coordinates": [
       [
         [
-          -0.0304012,
-          51.5989287
+          -0.030427,
+          51.598927
         ],
         [
-          -0.0304052,
-          51.5990447
+          -0.030431,
+          51.599043
         ],
         [
-          -0.0301449,
-          51.5990471
+          -0.030171,
+          51.599046
         ],
         [
-          -0.0301489,
-          51.5989435
+          -0.030175,
+          51.598942
         ],
         [
-          -0.030166799999999997,
-          51.598925
+          -0.030192,
+          51.598924
         ],
         [
-          -0.0304012,
-          51.5989287
+          -0.030427,
+          51.598927
         ]
       ]
     ],
     "type": "Polygon"
   },
   "lpa_app_no": "241062",
-  "last_date_consultation_comments": null,
+  "last_date_consultation_comments": "02/07/2024",
   "subdivision_of_building": null,
   "id": "Waltham_Forest-241062",
   "decision_date": "25/07/2024",

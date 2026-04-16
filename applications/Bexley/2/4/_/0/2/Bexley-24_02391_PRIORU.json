@@ -11,7 +11,210 @@
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": null,
   "borough": "London Borough of Bexley",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              546435,
+              171947
+            ],
+            [
+              546436,
+              171954
+            ],
+            [
+              546438,
+              171963
+            ],
+            [
+              546415,
+              171966
+            ],
+            [
+              546409,
+              171917
+            ],
+            [
+              546429,
+              171914
+            ],
+            [
+              546435,
+              171947
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "coordinates": [
+      [
+        [
+          546429.7,
+          171919.8
+        ],
+        [
+          546430.7,
+          171925.25
+        ],
+        [
+          546430.9,
+          171926.4
+        ],
+        [
+          546433.2,
+          171937.8
+        ],
+        [
+          546435,
+          171946.65
+        ],
+        [
+          546435.1,
+          171947.25
+        ],
+        [
+          546435.15,
+          171948.05
+        ],
+        [
+          546435.65,
+          171952.15
+        ],
+        [
+          546435.75,
+          171952.95
+        ],
+        [
+          546435.85,
+          171953.6
+        ],
+        [
+          546435.95,
+          171954.35
+        ],
+        [
+          546436.1,
+          171954.85
+        ],
+        [
+          546436.25,
+          171955.65
+        ],
+        [
+          546437.8,
+          171962.55
+        ],
+        [
+          546434.2,
+          171963.05
+        ],
+        [
+          546426.05,
+          171964.1
+        ],
+        [
+          546425.15,
+          171964.2
+        ],
+        [
+          546415.35,
+          171965.6
+        ],
+        [
+          546415.014,
+          171962.992
+        ],
+        [
+          546413.15,
+          171948.5
+        ],
+        [
+          546412.25,
+          171941.6
+        ],
+        [
+          546411.3,
+          171934.05
+        ],
+        [
+          546410.8,
+          171930.2
+        ],
+        [
+          546409.758,
+          171922.519
+        ],
+        [
+          546409.05,
+          171917.3
+        ],
+        [
+          546410.4,
+          171917.1
+        ],
+        [
+          546412.9,
+          171916.8
+        ],
+        [
+          546414.35,
+          171916.6
+        ],
+        [
+          546415.3,
+          171916.45
+        ],
+        [
+          546416.95,
+          171916.25
+        ],
+        [
+          546417.7,
+          171916.15
+        ],
+        [
+          546419.5,
+          171915.9
+        ],
+        [
+          546420.2,
+          171915.8
+        ],
+        [
+          546421.9,
+          171915.6
+        ],
+        [
+          546422.75,
+          171915.5
+        ],
+        [
+          546423.65,
+          171915.35
+        ],
+        [
+          546424.4,
+          171915.3
+        ],
+        [
+          546426.95,
+          171914.95
+        ],
+        [
+          546428.75,
+          171914.7
+        ],
+        [
+          546429.7,
+          171919.8
+        ]
+      ]
+    ],
+    "type": "geometrycollection"
+  },
   "development_type": null,
   "cil_liability": true,
   "locality": null,
@@ -32,34 +235,31 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 2,
           "provider": "Private",
-          "unit_no": "Gain-1",
+          "no_habitable_rooms": 2,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 51,
-          "tenure": "Market for rent"
+          "no_bedrooms": 1,
+          "tenure": "Market for rent",
+          "gia": 51
         },
         {
-          "no_habitable_rooms": 2,
           "provider": "Private",
-          "unit_no": "Gain-2",
+          "no_habitable_rooms": 2,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 51,
-          "tenure": "Market for rent"
+          "no_bedrooms": 1,
+          "tenure": "Market for rent",
+          "gia": 51
         },
         {
-          "no_habitable_rooms": 2,
           "provider": "Private",
-          "unit_no": "Gain-3",
+          "no_habitable_rooms": 2,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 51,
-          "tenure": "Market for rent"
+          "no_bedrooms": 1,
+          "tenure": "Market for rent",
+          "gia": 51
         }
       ],
       "dwelling_density": 0,
@@ -126,7 +326,8 @@
       "total_gia_gained": 146,
       "total_gia_lost": 0,
       "total_gia_existing": 498
-    }
+    },
+    "site_area": 0.10300000000000001
   },
   "application_type_full": "Prior Approval: New dwellinghouses on detached blocks of flats",
   "decision_target_date": "07/11/2024",
@@ -135,7 +336,7 @@
   "application_type": "All Other",
   "subdivision_of_building": null,
   "last_updated_by": "Idox Uniform",
-  "status": "PRIORR",
+  "status": "Refused",
   "lpa_name": "Bexley",
   "ward": "SIDCPN",
   "parking_details": null,
@@ -158,24 +359,32 @@
     "coordinates": [
       [
         [
-          0.104795,
-          51.427614
+          0.104946,
+          51.427616
         ],
         [
-          0.104794,
-          51.427587
+          0.104963,
+          51.427678
         ],
         [
-          0.10475,
-          51.427588
+          0.104996,
+          51.427759
         ],
         [
-          0.104752,
-          51.427615
+          0.104666,
+          51.427792
         ],
         [
-          0.104795,
-          51.427614
+          0.10456,
+          51.427353
+        ],
+        [
+          0.104846,
+          51.427321
+        ],
+        [
+          0.104946,
+          51.427616
         ]
       ]
     ]
@@ -184,7 +393,7 @@
   "appeal_start_date": null,
   "url_planning_app": null,
   "bo_system": "Idox Uniform",
-  "last_updated": "2025-03-19T20:46:19.181+00:00",
+  "last_updated": "2026-04-15T20:00:47.202Z",
   "decision_conditions": null,
   "uprn": "100020251523",
   "appeal_decision_date": null

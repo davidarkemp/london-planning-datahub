@@ -1,20 +1,20 @@
 {
   "locality": null,
   "appeal_status": null,
-  "url_planning_app": null,
-  "decision_process": null,
+  "url_planning_app": "https://builtenvironment.walthamforest.gov.uk/planning/index.html?fa=getApplication&id=114679",
+  "decision_process": "Delegated",
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
   "decision": "Approved",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "valid_date": "16/04/2024",
-  "description": "Re-development of the site at 694 High Road Leytonstone involving the construction of a roof extension to facilitate the extension of the first-floor level comprising two self-contained flats (1 x 1-bed and 1 x 2bed) (Use class C3) and retention of the existing ground floor and commercial space (Use Class E).",
+  "description": "Re-development\r\nof the site at 694 High Road Leytonstone involving the construction of a roof extension to facilitate the extension of the first-floor level comprising two\r\nself-contained flats (1 x 1-bed and 1 x 2bed) (Use class C3) and retention of the\r\nexisting ground floor and commercial space (Use Class E).",
   "application_type_full": "Full planning permission",
   "reference_no_of_permission_being_relied_on": null,
   "application_type": "All Other",
   "borough": "Waltham Forest",
-  "pp_id": "PP-12947453",
-  "site_number": null,
+  "pp_id": "12947453",
+  "site_number": "694",
   "application_details": {
     "projected_cost_of_works": "Up to £2m",
     "rain_water_harvesting": false,
@@ -67,7 +67,7 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 279,
-        "use_class": "E(a)",
+        "use_class": "EA",
         "gia_gained": 0,
         "gia_lost": 113
       },
@@ -97,24 +97,22 @@
       "total_no_existing_residential_affordable_units": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 2,
           "provider": "Private",
-          "unit_no": "Gain-1",
+          "no_habitable_rooms": 2,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 50.2,
-          "tenure": "Market for sale"
+          "no_bedrooms": 1,
+          "tenure": "Market for sale",
+          "gia": 50.2
         },
         {
-          "no_habitable_rooms": 3,
           "provider": "Private",
-          "unit_no": "Gain-2",
+          "no_habitable_rooms": 3,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 67.2,
-          "tenure": "Market for sale"
+          "no_bedrooms": 2,
+          "tenure": "Market for sale",
+          "gia": 67.2
         }
       ],
       "total_no_existing_residential_units_market_for_sale": 0,
@@ -144,19 +142,73 @@
     },
     "total_gia_lost": 113,
     "scheme_phasing": true,
-    "existing_uprns": null
+    "existing_uprns": null,
+    "constraints_details": [
+      {
+        "result": "1338570",
+        "constraints_layer_description": "topoline"
+      },
+      {
+        "result": "1592040",
+        "constraints_layer_description": "topoline"
+      },
+      {
+        "result": "1592093",
+        "constraints_layer_description": "topoline"
+      },
+      {
+        "result": "77034",
+        "constraints_layer_description": "cartotext"
+      },
+      {
+        "result": "77037",
+        "constraints_layer_description": "cartotext"
+      },
+      {
+        "result": "1",
+        "constraints_layer_description": "Borough_Boundary"
+      },
+      {
+        "result": "231392",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "232161",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "240626",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "203124",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "213834",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "PRE_23_0459",
+        "constraints_layer_description": "Pre-Applications"
+      },
+      {
+        "result": "694 High Road Leytonstone, Leytonstone, London, E11 3AA",
+        "constraints_layer_description": "Locations"
+      }
+    ]
   },
   "appeal_decision_date": null,
   "lapsed_date": "08/08/2027",
-  "centroid_easting": 539575,
-  "decision_target_date": null,
-  "street_name": null,
-  "last_updated": "2025-03-19T11:49:28.564+00:00",
+  "centroid_easting": 1390,
+  "decision_target_date": "11/06/2024",
+  "street_name": "HIGH ROAD LEYTONSTONE",
+  "last_updated": "2026-04-15T12:20:29.322Z",
   "date_building_work_completed_under_previous_permission": null,
-  "last_updated_by": "Planning Portal ingest",
-  "development_type": null,
+  "last_updated_by": "Portal",
+  "development_type": "Minor dwellings",
   "title_number": null,
-  "postcode": null,
+  "postcode": "E11 3AA",
   "parking_details": {
     "no_existing_cycle": 0,
     "net_cycle": 2,
@@ -166,82 +218,88 @@
   "appeal_start_date": null,
   "secondary_street_name": null,
   "epc_number": null,
-  "decision_agency": null,
-  "ward": null,
+  "decision_agency": "Borough",
+  "ward": "Leytonstone",
   "centroid": {
-    "lat": "51.5692489",
-    "lon": "0.0125186"
+    "lat": 89.995772,
+    "lon": -15.951001
   },
   "polygon": {
-    "type": "GeometryCollection",
+    "type": "geometrycollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              539570.7965396,
-              187527.2148284
+              539570.796539617,
+              187527.214828434
             ],
             [
-              539586.8120054,
-              187513.0448074
+              539586.812005409,
+              187513.044807406
             ],
             [
-              539579.2462819,
-              187504.0700525
+              539579.246281932,
+              187504.070052472
             ],
             [
               539562.8125888,
-              187518.228613
+              187518.228613013
             ],
             [
-              539570.7965396,
-              187527.2148284
+              539570.796539617,
+              187527.214828434
             ]
           ]
         ],
         "type": "Polygon"
       }
-    ]
+    ],
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "EPSG:27700"
+      }
+    }
   },
   "status": "Approved",
   "actual_commencement_date": null,
   "decision_conditions": null,
-  "uprn": null,
+  "uprn": "100022961268",
   "lpa_name": "Waltham Forest",
-  "centroid_northing": 187516,
+  "centroid_northing": 6722611,
   "site_name": "694 High Road Leytonstone, Leytonstone, London, E11 3AA",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          0.0124624,
-          51.5693507
+          0.012435,
+          51.569349
         ],
         [
-          0.0126877,
-          51.5692194
+          0.012661,
+          51.569218
         ],
         [
-          0.012575,
-          51.5691407
+          0.012548,
+          51.569139
         ],
         [
-          0.012343699999999999,
-          51.569272
+          0.012317,
+          51.56927
         ],
         [
-          0.0124624,
-          51.5693507
+          0.012435,
+          51.569349
         ]
       ]
     ],
     "type": "Polygon"
   },
   "lpa_app_no": "240869",
-  "last_date_consultation_comments": null,
+  "last_date_consultation_comments": "14/05/2024",
   "subdivision_of_building": null,
   "id": "Waltham_Forest-240869",
   "decision_date": "08/08/2024",
-  "cil_liability": null
+  "cil_liability": true
 }

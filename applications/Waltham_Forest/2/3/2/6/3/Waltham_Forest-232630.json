@@ -1,20 +1,20 @@
 {
   "locality": null,
   "appeal_status": null,
-  "url_planning_app": null,
-  "decision_process": null,
+  "url_planning_app": "https://builtenvironment.walthamforest.gov.uk/planning/index.html?fa=getApplication&id=113946",
+  "decision_process": "Delegated",
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": "12/11/2018",
   "decision": "Refused",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "valid_date": "15/01/2024",
-  "description": "Continuation of use as a small house in multiple occupation (HMO) (Use Class C4) for three persons. ",
+  "description": "Continuation of use as a small house in multiple occupation (HMO) (Use Class C4) for three persons.&nbsp;",
   "application_type_full": "Full planning permission",
   "reference_no_of_permission_being_relied_on": null,
   "application_type": "All Other",
   "borough": "Waltham Forest",
-  "pp_id": "PP-12559357",
-  "site_number": null,
+  "pp_id": "12559357",
+  "site_number": "92",
   "application_details": {
     "projected_cost_of_works": "Up to £2m",
     "rain_water_harvesting": false,
@@ -90,24 +90,22 @@
       "residential_units": [
         {
           "no_habitable_rooms": 4,
-          "unit_no": "Loss-1",
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 3,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "gia": 110,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 110
         },
         {
-          "no_habitable_rooms": 4,
           "provider": "Housing Association",
-          "unit_no": "Gain-1",
+          "no_habitable_rooms": 4,
           "change_type": "Gain",
-          "no_bedrooms": 3,
           "unit_type": "HMO",
-          "gia": 110,
-          "tenure": "Market for rent"
+          "no_bedrooms": 3,
+          "tenure": "Market for rent",
+          "gia": 110
         }
       ],
       "total_no_existing_residential_units_market_for_sale": 0,
@@ -137,114 +135,162 @@
     },
     "total_gia_lost": 110,
     "scheme_phasing": true,
-    "existing_uprns": null
+    "existing_uprns": null,
+    "constraints_details": [
+      {
+        "result": "729",
+        "constraints_layer_description": "Flood_Zone_3"
+      },
+      {
+        "result": "Flood Zone 2",
+        "constraints_layer_description": "Flood_Map_2"
+      },
+      {
+        "result": "7",
+        "constraints_layer_description": "Flood_Map_3"
+      },
+      {
+        "result": "2021209",
+        "constraints_layer_description": "topoline"
+      },
+      {
+        "result": "128803",
+        "constraints_layer_description": "cartotext"
+      },
+      {
+        "result": "1",
+        "constraints_layer_description": "Borough_Boundary"
+      },
+      {
+        "result": "231733",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "231618",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "212708",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "92 Parade Gardens, Chingford, London, E4 8EB",
+        "constraints_layer_description": "Locations"
+      }
+    ]
   },
   "appeal_decision_date": null,
   "lapsed_date": "11/03/2027",
-  "centroid_easting": 537703,
-  "decision_target_date": null,
-  "street_name": null,
-  "last_updated": "2025-03-19T11:47:34.327+00:00",
+  "centroid_easting": null,
+  "decision_target_date": "11/03/2024",
+  "street_name": "PARADE GARDENS",
+  "last_updated": "2026-04-15T11:54:29.182Z",
   "date_building_work_completed_under_previous_permission": "12/11/2018",
-  "last_updated_by": "Planning Portal ingest",
-  "development_type": null,
+  "last_updated_by": "Portal",
+  "development_type": "Other change of use",
   "title_number": null,
-  "postcode": null,
+  "postcode": "E4 8EB",
   "parking_details": null,
   "actual_completion_date": null,
   "appeal_start_date": null,
   "secondary_street_name": null,
   "epc_number": "8223-7739-4620-5989-7972",
-  "decision_agency": null,
-  "ward": null,
+  "decision_agency": "Borough",
+  "ward": "Larkswood",
   "centroid": {
-    "lat": "51.603154",
-    "lon": "-0.013016699999999999"
+    "lat": 49.766807,
+    "lon": -7.55716
   },
   "polygon": {
-    "type": "GeometryCollection",
+    "type": "geometrycollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              537708.393173,
-              191246.2807206
+              537708.393173012,
+              191246.280720575
             ],
             [
-              537707.0592736,
-              191234.5714902
+              537707.059273582,
+              191234.571490176
             ],
             [
-              537698.0570342,
-              191231.4428472
+              537698.057034191,
+              191231.442847164
             ],
             [
-              537696.5207887,
-              191237.3062337
+              537696.520788698,
+              191237.306233679
             ],
             [
-              537702.9462073,
-              191238.9915325
+              537702.946207319,
+              191238.991532501
             ],
             [
-              537701.0345101,
-              191243.4714189
+              537701.034510142,
+              191243.471418893
             ],
             [
-              537708.393173,
-              191246.2807206
+              537708.393173012,
+              191246.280720575
             ]
           ]
         ],
         "type": "Polygon"
       }
-    ]
+    ],
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "EPSG:27700"
+      }
+    }
   },
   "status": "Refused",
   "actual_commencement_date": null,
   "decision_conditions": null,
-  "uprn": null,
+  "uprn": "10091183826",
   "lpa_name": "Waltham Forest",
-  "centroid_northing": 191238,
+  "centroid_northing": null,
   "site_name": "92 Parade Gardens, Chingford, London, E4 8EB",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.0129356,
-          51.6032271
+          -0.012962,
+          51.603226
         ],
         [
-          -0.012959499999999999,
-          51.6031222
+          -0.012986,
+          51.603121
         ],
         [
-          -0.013090599999999999,
-          51.6030963
+          -0.013117,
+          51.603095
         ],
         [
-          -0.013110499999999999,
-          51.6031494
+          -0.013137,
+          51.603148
         ],
         [
-          -0.0130171,
-          51.603163
+          -0.013043,
+          51.603162
         ],
         [
-          -0.0130429,
-          51.6032037
+          -0.013069,
+          51.603202
         ],
         [
-          -0.0129356,
-          51.6032271
+          -0.012962,
+          51.603226
         ]
       ]
     ],
     "type": "Polygon"
   },
   "lpa_app_no": "232630",
-  "last_date_consultation_comments": null,
+  "last_date_consultation_comments": "12/02/2024",
   "subdivision_of_building": "92 Parade Gardens",
   "id": "Waltham_Forest-232630",
   "decision_date": "11/03/2024",
