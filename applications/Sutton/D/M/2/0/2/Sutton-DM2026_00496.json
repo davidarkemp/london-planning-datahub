@@ -48,21 +48,21 @@
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "residential_units": [
         {
-          "change_type": "Gain",
-          "provider": "Private rented sector",
-          "phase_detail": null,
-          "garden_land": false,
+          "m43_2b_compliant": false,
           "m43_2a_compliant": false,
+          "description": null,
+          "change_type": "Gain",
+          "m42_compliant": true,
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "provider": "Private rented sector",
+          "no_habitable_rooms": 1,
+          "phase_detail": null,
           "unit_no": null,
           "no_bedrooms": 1,
-          "m42_compliant": true,
-          "tenure": "Market for rent",
-          "sheltered_accommodation": false,
-          "no_habitable_rooms": 1,
-          "description": null,
-          "m43_2b_compliant": false,
           "provision_for_older_persons": false,
-          "unit_type": "Flat Apartment Maisonette",
+          "tenure": "Market for rent",
           "gia": 43.45
         }
       ]
@@ -103,8 +103,8 @@
       {
         "gia_existing": 43.45,
         "use_class": "Other",
-        "gia_lost": 0,
-        "gia_gained": 0
+        "gia_gained": 0,
+        "gia_lost": 0
       }
     ]
   },
@@ -123,7 +123,7 @@
   "description": "Prior Approval for change of use from Use Class E to residential use providing 1 self contained unit.",
   "decision_conditions": null,
   "site_number": "59",
-  "last_updated": "2026-04-24T20:06:17.136Z",
+  "last_updated": "2026-04-27T20:04:11.625Z",
   "last_date_consultation_comments": null,
   "valid_date": "20/04/2026",
   "actual_commencement_date": null,
@@ -138,7 +138,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -206,7 +205,8 @@
               164341.002
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -217,7 +217,7 @@
   "secondary_street_name": null,
   "lpa_name": "Sutton",
   "reference_no_of_permission_being_relied_on": null,
-  "cil_liability": null,
+  "cil_liability": false,
   "wgs84_polygon": {
     "type": "Polygon",
     "coordinates": [

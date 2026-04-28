@@ -3,8 +3,10 @@
   "epc_number": null,
   "site_name": "504 Roman Road, London, E3 5LU",
   "cil_liability": true,
-  "polygon": null,
-  "actual_commencement_date": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
+  "actual_commencement_date": "01/08/2025",
   "site_number": null,
   "decision": "Approved",
   "parking_details": {
@@ -56,7 +58,33 @@
   "decision_conditions": null,
   "appeal_start_date": null,
   "development_type": "Minor dwellings",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.03246,
+          51.532263
+        ],
+        [
+          -0.032461,
+          51.532236
+        ],
+        [
+          -0.032504,
+          51.532237
+        ],
+        [
+          -0.032503,
+          51.532264
+        ],
+        [
+          -0.03246,
+          51.532263
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "lpa_app_no": "PA/24/01934/A1",
   "decision_agency": null,
   "decision_date": "07/03/2025",
@@ -64,15 +92,15 @@
   "url_planning_app": "https://development.towerhamlets.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR146722&activeTab=summary",
   "lpa_name": "Tower Hamlets",
   "bo_system": "CSV Data Import",
-  "subdivision_of_building": "504 Roman Road is a 2 storey building. This application refers to the First floor of the existing building only. Ground floor is unaffected. Rear access is shown on existing and proposed floor plans.\n",
+  "subdivision_of_building": "504 Roman Road is a 2 storey building. This application refers to the First floor of the existing building only. Ground floor is unaffected. Rear access is shown on existing and proposed floor plans.",
   "secondary_street_name": null,
   "date_building_work_started_under_previous_permission": null,
   "centroid": {
     "lat": 51.53225,
     "lon": -0.032482
   },
-  "status": "Approved",
-  "last_updated": "2025-11-26T21:02:02.452Z",
+  "status": "Commenced",
+  "last_updated": "2026-04-27T20:01:44.784Z",
   "actual_completion_date": null,
   "lapsed_date": "07/03/2028",
   "borough": "Tower Hamlets",
@@ -86,7 +114,7 @@
     "projected_cost_of_works": "Up to £2m",
     "residential_details": {
       "total_no_proposed_residential_units_intermediate": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 71.42857142857143,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_market_for_rent": 1,
       "affordable_percentage": 0,
@@ -116,39 +144,30 @@
       "total_no_proposed_residential_units_starter_homes": 0,
       "residential_units": [
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
-          "description": null,
-          "m42_compliant": null,
-          "change_type": "Gain",
-          "garden_land": null,
-          "sheltered_accommodation": null,
-          "unit_type": "Flat Apartment Maisonette",
-          "unit_development_type": null,
-          "superseded_date": null,
           "provider": "Private",
           "no_habitable_rooms": 2,
           "phase_detail": null,
-          "actual_commencement_date": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Gain",
+          "actual_commencement_date": "01/08/2025",
           "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
-          "gia": 53,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 53
         }
       ],
       "total_no_proposed_bedrooms": 1,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_proposed_residential_units": 1,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 142.85714285714286,
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
-      "site_area": null
+      "site_area": 0.014
     },
     "total_gia_lost": 53,
     "phasing_details": [
@@ -174,7 +193,7 @@
       "fire_suppression_system_proposed": false,
       "no_resi_units_to_have_full_fibre": 1,
       "green_roof_area": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "ghg_reduction_over_building_regulations": false,
       "mobile_network_operators_consultation": false,
       "no_new_gas_connections_required": 0,
@@ -201,18 +220,14 @@
       "total_gia_lost": 53,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "development_type": null,
-      "site_area": null
+      "site_area": 0.014
     },
-    "existing_uprns": null,
+    "existing_uprns": [],
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 53,
-        "superseded_date": null,
-        "actual_completion_date": null,
         "use_class": "E(g)(i)",
         "gia_gained": 53,
-        "actual_commencement_date": null,
-        "superseded_by_lpa_app_no": null,
         "gia_lost": 53
       }
     ],
@@ -221,26 +236,23 @@
     "rain_water_harvesting": false,
     "superseding_details": [
       {
-        "lpa_name": null,
-        "unit_reference": null,
         "lpa_app_no": "pa/22/00790",
-        "partial_supersedence": false,
-        "component_description": null
+        "partial_supersedence": false
       }
     ],
     "surface_water_discharge_percentage_reduction": 0,
     "ownership_status": "Private",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "total_gia_existing": 53,
     "garden_land_lost": false,
-    "s106_agreement": null,
+    "s106_agreement": false,
     "affordable_housing_inlieu_payment": null,
-    "air_quality_assessment": null,
+    "air_quality_assessment": false,
     "other_contributions": null,
     "intended_commencement_date": null,
     "no_affordable_housing_units_provided_offsite": null,
-    "commencement_notice_received": null,
-    "circular_economy_statement": null,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
     "qualifying_vacant_building_floorspace": null,
     "open_and_protected_space_details": {
       "open_space_local_and_other_area_gain": 0,
@@ -256,23 +268,23 @@
     "constraints_details": [],
     "building_details": [],
     "lead_registered_social_landlord": null,
-    "viability_assessment": null,
+    "viability_assessment": false,
     "overseas_company_registration_no": null,
-    "mayoral_cil_liability_notice_issued": null,
+    "mayoral_cil_liability_notice_issued": false,
     "non_permanent_dwellings_details": [],
     "intended_completion_date": null,
     "other_residential_accommodation_details": {
       "no_council_tax_rateable_units_gained": null,
       "no_council_tax_rateable_units_lost": null,
-      "site_area": null,
+      "site_area": 0.014,
       "other_resi_accommodation_unit_details": []
     },
     "uk_company_registration_no": null,
-    "3d_model": null,
+    "3d_model": false,
     "transport_contributions": null,
     "no_affordable_housing_units_acquired_offsite": null,
-    "borough_cil_liability_notice_issued": null,
-    "transport_impact_assessment": null,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
     "social_infrastructure_contributions": null,
     "scheme_name": null,
     "lead_developer_company_name": null

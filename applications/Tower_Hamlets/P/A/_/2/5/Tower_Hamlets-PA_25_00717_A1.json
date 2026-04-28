@@ -30,7 +30,7 @@
   "secondary_street_name": null,
   "subdivision_of_building": "Rear ground floor",
   "last_updated_by": "CSV Data Import",
-  "status": "Allowed",
+  "status": "Commenced",
   "url_planning_app": "https://development.towerhamlets.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR147988&activeTab=summary",
   "lpa_app_no": "PA/25/00717/A1",
   "valid_date": "26/06/2025",
@@ -47,15 +47,15 @@
     "projected_cost_of_works": "Up to £2m",
     "grey_water_reuse": false,
     "internal_resi_water_usage": 110,
-    "existing_uprns": null,
+    "existing_uprns": [],
     "site_area": 0.0083,
     "total_gia_existing": 39,
     "total_gia_lost": 39,
     "infrastructure_details": {
       "no_homes_passive_cooling": 0,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "percentage_demolition_construction_material_recycling": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "total_annual_nox_emissions": 0,
       "green_roof_area": 0,
       "no_homes_to_have_electrical_heating": 1,
@@ -67,12 +67,12 @@
       "no_new_water_connections_required": 0,
       "no_resi_units_to_have_full_fibre": 1
     },
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "phasing_details": [
       {
         "phase_detail": "Entire development",
-        "intended_commencement_date": "04/2025",
-        "intended_completion_date": "05/2025"
+        "intended_completion_date": "05/2025",
+        "intended_commencement_date": "04/2025"
       }
     ],
     "ownership_status": "Private",
@@ -82,7 +82,8 @@
       "total_gia_lost": 39,
       "total_gia_gained": 39,
       "total_gia_existing": 39,
-      "total_non_resi_gross_internal_floor_area_to_be_gained": 0
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "site_area": 0.0083
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -92,19 +93,24 @@
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_proposed_residential_units": 1,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 120.48192771084338,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_market_for_rent": 1,
       "total_no_existing_residential_affordable_units": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 1,
           "provider": "Private",
+          "no_habitable_rooms": 1,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
+          "actual_commencement_date": "01/04/2026",
           "no_bedrooms": 1,
           "unit_type": "Studio Bedsit",
-          "gia": 39,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 39
         }
       ],
       "total_no_existing_residential_units_affordable_rent": 0,
@@ -123,7 +129,7 @@
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 120.48192771084337,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
@@ -134,28 +140,69 @@
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_existing_residential_units_starter_homes": 0,
       "total_gia_gained": 39,
-      "affordable_percentage": 0
+      "affordable_percentage": 0,
+      "site_area": 0.0083
     },
     "total_gia_gained": 39,
     "affordable_housing_fast_track": false,
-    "surface_water_discharge_percentage_reduction": 0
+    "surface_water_discharge_percentage_reduction": 0,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.0083
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "decision_process": null,
   "lpa_name": "Tower Hamlets",
   "id": "Tower_Hamlets-PA_25_00717_A1",
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "cil_liability": true,
-  "last_updated": "2026-01-16T21:00:21.081Z",
-  "wgs84_polygon": null,
+  "last_updated": "2026-04-27T20:02:39.547Z",
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.03246,
+          51.532263
+        ],
+        [
+          -0.032461,
+          51.532236
+        ],
+        [
+          -0.032504,
+          51.532237
+        ],
+        [
+          -0.032503,
+          51.532264
+        ],
+        [
+          -0.03246,
+          51.532263
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "street_name": null,
   "decision_date": "01/10/2025",
   "date_building_work_completed_under_previous_permission": null,
   "decision_conditions": null,
   "reference_no_of_permission_being_relied_on": null,
-  "actual_commencement_date": null,
+  "actual_commencement_date": "01/04/2026",
   "borough": "Tower Hamlets",
   "centroid_northing": 183317,
   "site_number": null,
-  "title_number": null,
+  "title_number": [],
   "development_type": "Minor dwellings"
 }
