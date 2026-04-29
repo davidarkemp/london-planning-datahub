@@ -284,9 +284,9 @@
   "lpa_name": "Hillingdon",
   "appeal_decision": null,
   "decision_agency": "Borough",
-  "last_updated_by": "CSV Data Import",
-  "cil_liability": true,
-  "postcode": null,
+  "last_updated_by": "Portal",
+  "cil_liability": false,
+  "postcode": "",
   "decision_process": "Delegated",
   "application_details": {
     "affordable_housing_fast_track": false,
@@ -318,22 +318,23 @@
       }
     ],
     "site_area": 0.185,
-    "existing_uprns": null,
+    "existing_uprns": [],
     "total_gia_gained": 918,
     "total_gia_lost": 319,
-    "scheme_phasing": true,
-    "rain_water_harvesting": true,
+    "scheme_phasing": false,
+    "rain_water_harvesting": false,
     "projected_cost_of_works": "Between £2m and £100m",
-    "green_suds": true,
+    "green_suds": false,
     "surface_water_discharge_percentage_reduction": 96,
     "non_residential_details": {
       "total_gia_existing": 319,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 918,
-      "total_gia_lost": 319
+      "total_gia_lost": 319,
+      "site_area": 0.185
     },
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_market_for_sale": 1,
@@ -350,11 +351,11 @@
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_proposed_residential_units_social_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 194.5945945945946,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 32.432432432432435,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
@@ -376,69 +377,97 @@
       "residential_units": [
         {
           "no_habitable_rooms": 14,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "unit_type": "House or Bungalow",
           "no_bedrooms": 6,
+          "unit_type": "House or Bungalow",
           "provision_for_older_persons": false,
-          "gia": 319,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 319
         },
         {
-          "no_habitable_rooms": 6,
           "provider": "Private",
+          "no_habitable_rooms": 6,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "no_bedrooms": 4,
           "unit_type": "Semi Detached Home",
-          "gia": 153,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 153
         },
         {
-          "no_habitable_rooms": 6,
           "provider": "Private",
+          "no_habitable_rooms": 6,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "no_bedrooms": 4,
           "unit_type": "Semi Detached Home",
-          "gia": 153,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 153
         },
         {
-          "no_habitable_rooms": 6,
           "provider": "Private",
+          "no_habitable_rooms": 6,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "no_bedrooms": 4,
           "unit_type": "Semi Detached Home",
-          "gia": 153,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 153
         },
         {
-          "no_habitable_rooms": 6,
           "provider": "Private",
+          "no_habitable_rooms": 6,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "no_bedrooms": 4,
           "unit_type": "Semi Detached Home",
-          "gia": 153,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 153
         },
         {
-          "no_habitable_rooms": 6,
           "provider": "Private",
+          "no_habitable_rooms": 6,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "no_bedrooms": 4,
           "unit_type": "Semi Detached Home",
-          "gia": 153,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 153
         },
         {
-          "no_habitable_rooms": 6,
           "provider": "Private",
+          "no_habitable_rooms": 6,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "no_bedrooms": 4,
           "unit_type": "Semi Detached Home",
-          "gia": 153,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 153
         }
-      ]
+      ],
+      "site_area": 0.185
     },
     "infrastructure_details": {
       "total_annual_nox_emissions": 0,
@@ -446,7 +475,7 @@
       "percentage_demolition_construction_material_recycling": 0,
       "green_roof_area": 22,
       "no_resi_units_to_have_full_fibre": 6,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "no_new_water_connections_required": 6,
       "no_non_resi_units_to_have_full_fibre": 0,
       "chp_heat_pumps_capacity": 0.08,
@@ -457,22 +486,60 @@
       "no_homes_passive_cooling": 6,
       "no_homes_to_have_electrical_heating": 6,
       "total_annual_pm_emissions": 0,
-      "waste_provision": true
+      "waste_provision": false
     },
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "07/2025",
-        "intended_completion_date": "12/2026"
+        "intended_completion_date": "12/2026",
+        "intended_commencement_date": "07/2025"
       }
     ],
     "internal_resi_water_usage": 105,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.185
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "uprn": null,
   "street_name": "RICKMANSWORTH ROAD",
   "decision": "Approved",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.430078,
+          51.608891
+        ],
+        [
+          -0.430079,
+          51.608864
+        ],
+        [
+          -0.430122,
+          51.608865
+        ],
+        [
+          -0.430121,
+          51.608892
+        ],
+        [
+          -0.430078,
+          51.608891
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "appeal_decision_date": null,
   "site_number": null,
   "date_building_work_started_under_previous_permission": null,
@@ -483,14 +550,14 @@
   },
   "valid_date": "02/04/2025",
   "id": "Hillingdon-49436_APP_2025_985",
-  "last_updated": "2026-01-07T22:59:11.388Z",
+  "last_updated": "2026-04-28T14:11:55.113Z",
   "locality": null,
   "status": "Approved",
   "last_date_consultation_comments": "17/05/2025",
   "decision_target_date": "07/01/2026",
   "actual_completion_date": null,
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "reference_no_of_permission_being_relied_on": null,
-  "title_number": null,
+  "title_number": [],
   "application_type": "All Other"
 }

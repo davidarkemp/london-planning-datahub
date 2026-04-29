@@ -214,14 +214,40 @@
     "For further information and advice contact - Highways Maintenance Operations, Central Depot - Block K, Harlington Road Depot, 128 Harlington Road, Hillingdon, Middlesex, UB3 3EU (Tel: 01895 277524).",
     "For Private Roads: Care should be taken during the building works hereby approved to ensure no damage occurs to the verge of footpaths on private roads during construction. Vehicles delivering materials to this development shall not override or cause damage to a private road and where possible alternative routes should be ta"
   ],
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "lpa_app_no": "29379/APP/2025/1516",
-  "bo_system": "CSV Data Import",
-  "wgs84_polygon": null,
+  "bo_system": "Portal",
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.434115,
+          51.538114
+        ],
+        [
+          -0.434115,
+          51.538087
+        ],
+        [
+          -0.434159,
+          51.538088
+        ],
+        [
+          -0.434158,
+          51.538115
+        ],
+        [
+          -0.434115,
+          51.538114
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "actual_commencement_date": null,
   "lapsed_date": "23/12/2028",
   "reference_no_of_permission_being_relied_on": null,
-  "postcode": null,
+  "postcode": "",
   "date_building_work_started_under_previous_permission": null,
   "uprn": null,
   "appeal_decision_date": null,
@@ -229,14 +255,14 @@
   "application_type": "All Other",
   "id": "Hillingdon-29379_APP_2025_1516",
   "locality": null,
-  "title_number": null,
+  "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "centroid": {
     "lat": 51.538101,
     "lon": -0.434137
   },
-  "last_updated": "2026-01-27T22:59:10.087Z",
+  "last_updated": "2026-04-28T13:39:43.015Z",
   "subdivision_of_building": "N/A",
   "site_name": "70 HAYMAN CRESCENT",
   "development_type": null,
@@ -249,7 +275,7 @@
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_proposed_residential_units_market_for_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 116.27906976744185,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units": 0,
       "total_no_existing_residential_affordable_units": 0,
@@ -276,26 +302,31 @@
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_starter_homes": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 38.75968992248062,
       "total_no_proposed_residential_units": 1,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 3,
           "provider": "Private",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "no_bedrooms": 2,
           "unit_type": "House or Bungalow",
-          "gia": 71,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 71
         }
-      ]
+      ],
+      "site_area": 0.0258
     },
     "grey_water_reuse": false,
     "surface_water_discharge_percentage_reduction": 50,
-    "existing_uprns": null,
+    "existing_uprns": [],
     "total_gia_existing": 0,
     "infrastructure_details": {
       "no_new_gas_connections_required": 1,
@@ -305,13 +336,13 @@
       "no_non_resi_units_to_have_full_fibre": 0,
       "percentage_demolition_construction_material_recycling": 10,
       "urban_greening_factor_score": 1,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_active_fast_ev_charging_points": 2,
       "green_roof_area": 0,
       "chp_heat_pumps_capacity": 0.01,
       "fire_suppression_system_proposed": false,
       "no_new_water_connections_required": 1,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "no_homes_passive_cooling": 0,
       "no_resi_units_to_have_full_fibre": 1,
       "no_homes_to_have_electrical_heating": 0,
@@ -319,13 +350,14 @@
       "mobile_network_operators_consultation": false
     },
     "projected_cost_of_works": "Up to £2m",
-    "rain_water_harvesting": true,
+    "rain_water_harvesting": false,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 71,
       "total_gia_existing": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_lost": 0
+      "total_gia_lost": 0,
+      "site_area": 0.0258
     },
     "affordable_housing_fast_track": false,
     "existing_proposed_floorspace_details": [
@@ -348,16 +380,28 @@
     "phasing_details": [
       {
         "phase_detail": "single phase",
-        "intended_commencement_date": "11/2025",
-        "intended_completion_date": "07/2026"
+        "intended_completion_date": "07/2026",
+        "intended_commencement_date": "11/2025"
       }
     ],
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "garden_land_lost": false,
     "internal_resi_water_usage": 110,
     "total_gia_gained": 71,
     "total_gia_lost": 0,
-    "green_suds": false
+    "green_suds": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.0258
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "actual_completion_date": null,
   "decision_agency": "Borough",
@@ -379,7 +423,7 @@
     "net_car": 1,
     "net_cycle": 4
   },
-  "cil_liability": true,
+  "cil_liability": false,
   "appeal_status": null,
   "decision_target_date": "23/12/2025"
 }
