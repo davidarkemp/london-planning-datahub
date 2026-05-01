@@ -1,8 +1,8 @@
 {
   "application_type_full": "Full planning permission",
-  "postcode": null,
+  "postcode": "",
   "development_type": null,
-  "street_name": null,
+  "street_name": "",
   "decision_date": "07/02/2023",
   "date_building_work_started_under_previous_permission": null,
   "reference_no_of_permission_being_relied_on": null,
@@ -12,13 +12,13 @@
   "id": "Sutton-DM2021_00734",
   "appeal_decision_date": null,
   "title_number": [],
-  "site_name": "27-29 The Broadway\rCheam\rSM3 8BL\r",
+  "site_name": "27-29 The Broadway\nCheam\nSM3 8BL\n",
   "last_date_consultation_comments": "28/07/2021",
   "ward": "W05",
   "appeal_status": null,
   "pp_id": "PP-09500602",
   "decision_process": "Committee",
-  "cil_liability": true,
+  "cil_liability": false,
   "locality": null,
   "date_building_work_completed_under_previous_permission": null,
   "appeal_start_date": null,
@@ -90,22 +90,22 @@
   "subdivision_of_building": null,
   "valid_date": "10/05/2021",
   "decision_target_date": "05/07/2021",
-  "bo_system": "Idox Uniform",
-  "actual_commencement_date": null,
+  "bo_system": "Portal",
+  "actual_commencement_date": "20/01/2025",
   "centroid": {
-    "lon": "-0.21692209999999998",
-    "lat": "51.3586119"
+    "lon": -0.216947,
+    "lat": 51.358613
   },
   "site_number": null,
   "decision": "Approved",
-  "status": "Approved",
-  "last_updated_by": "Idox Uniform",
+  "status": "Commenced",
+  "last_updated_by": "Portal",
   "application_details": {
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_completion_date": "06/2022",
-        "intended_commencement_date": "09/2021"
+        "intended_commencement_date": "09/2021",
+        "intended_completion_date": "06/2022"
       }
     ],
     "total_gia_existing": 487.5,
@@ -119,31 +119,34 @@
     ],
     "affordable_housing_fast_track": false,
     "internal_resi_water_usage": 110,
-    "green_suds": true,
+    "green_suds": false,
     "non_residential_details": {
       "total_gia_lost": 96.5,
       "total_gia_gained": 334.5,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 8,
       "total_gia_existing": 487.5,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 96.5
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 96.5,
+      "site_area": 0.034
     },
     "site_area": 0.034,
     "total_gia_lost": 96.5,
     "total_gia_gained": 334.5,
     "garden_land_lost": false,
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 238.5,
         "use_class": "A2",
         "gia_gained": 8,
+        "actual_commencement_date": "20/01/2025",
         "gia_lost": 96.5
       },
       {
         "gia_existing": 249,
         "use_class": "C3",
         "gia_gained": 326.5,
+        "actual_commencement_date": "20/01/2025",
         "gia_lost": 0
       }
     ],
@@ -153,7 +156,7 @@
       "fire_suppression_system_proposed": false,
       "no_new_water_connections_required": 3,
       "no_resi_units_to_have_full_fibre": 3,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "no_new_gas_connections_required": 3,
       "no_homes_to_have_electrical_heating": 0,
       "total_annual_pm_emissions": 19.88,
@@ -161,7 +164,7 @@
       "no_homes_passive_cooling": 0,
       "total_annual_nox_emissions": 681,
       "percentage_demolition_construction_material_recycling": 85,
-      "waste_provision": true,
+      "waste_provision": false,
       "mobile_network_operators_consultation": false
     },
     "residential_details": {
@@ -184,10 +187,10 @@
       "total_gia_gained": 331,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 323.52941176470586,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_existing_residential_affordable_units": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 117.6470588235294,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_shared_equity": 0,
@@ -197,40 +200,52 @@
       "residential_units": [
         {
           "provider": "Private",
-          "unit_no": "Gain-1",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Communal Space",
+          "provision_for_older_persons": false,
           "gia": 63
         },
         {
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "unit_no": "Gain-2",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 63,
-          "tenure": "Market for rent"
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 63
         },
         {
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "unit_no": "Gain-3",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 101,
-          "tenure": "Market for rent"
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 101
         },
         {
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "unit_no": "Gain-4",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 104,
-          "tenure": "Market for rent"
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 104
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -241,14 +256,28 @@
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units_social_rent": 0,
-      "total_no_proposed_residential_units_discount_market_rent": 0
+      "total_no_proposed_residential_units_discount_market_rent": 0,
+      "site_area": 0.034
     },
     "surface_water_discharge_percentage_reduction": 49,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.034
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "uprn": "005870128466",
   "url_planning_app": null,
-  "last_updated": "2025-03-20T14:55:11.651+00:00",
+  "last_updated": "2026-04-30T14:05:56.643Z",
   "application_type": "All Other",
   "description": "Part demolition of the existing mixed use building and erection of a part two, part three storey rear extension to create three additional dwellings, and associated works.",
   "epc_number": null,
@@ -276,52 +305,52 @@
     "coordinates": [
       [
         [
-          -0.2170251,
-          51.3585308
+          -0.21705,
+          51.358532
         ],
         [
-          -0.21708249999999998,
-          51.3585281
+          -0.217107,
+          51.358529
         ],
         [
-          -0.2170838,
-          51.3585352
+          -0.217109,
+          51.358536
         ],
         [
-          -0.2170926,
-          51.3585862
+          -0.217117,
+          51.358587
         ],
         [
-          -0.2170967,
-          51.3586083
+          -0.217122,
+          51.358609
         ],
         [
-          -0.2171053,
-          51.3586542
+          -0.21713,
+          51.358655
         ],
         [
-          -0.2170801,
-          51.3586568
+          -0.217105,
+          51.358658
         ],
         [
-          -0.2167671,
-          51.3586888
+          -0.216792,
+          51.35869
         ],
         [
-          -0.2167284,
-          51.3585699
+          -0.216753,
+          51.358571
         ],
         [
-          -0.21687769999999998,
-          51.3585519
+          -0.216903,
+          51.358553
         ],
         [
-          -0.2168765,
-          51.3585478
+          -0.216901,
+          51.358549
         ],
         [
-          -0.2170251,
-          51.3585308
+          -0.21705,
+          51.358532
         ]
       ]
     ],

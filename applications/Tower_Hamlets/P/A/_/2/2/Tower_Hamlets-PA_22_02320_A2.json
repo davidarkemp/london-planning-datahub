@@ -25,7 +25,7 @@
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 300,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "affordable_percentage": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
@@ -53,31 +53,45 @@
       "residential_units": [
         {
           "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
+          "actual_commencement_date": "20/10/2025",
           "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "gia": 51.3,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 51.3
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 3,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
+          "actual_commencement_date": "20/10/2025",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 74.7,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 74.7
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 3,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
+          "actual_commencement_date": "20/10/2025",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 67.4,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 67.4
         }
       ],
       "total_no_existing_residential_units_shared_equity": 0,
@@ -86,12 +100,13 @@
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "dwelling_density": 0,
-      "total_no_existing_residential_units_market_for_rent": 0
+      "dwelling_density": 100,
+      "total_no_existing_residential_units_market_for_rent": 0,
+      "site_area": 0.02
     },
-    "rain_water_harvesting": true,
-    "scheme_phasing": true,
-    "green_suds": true,
+    "rain_water_harvesting": false,
+    "scheme_phasing": false,
+    "green_suds": false,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 186.3,
@@ -111,12 +126,12 @@
       "fire_suppression_system_proposed": false,
       "no_non_resi_units_to_have_full_fibre": 0,
       "mobile_network_operators_consultation": false,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "percentage_demolition_construction_material_recycling": 75,
       "total_annual_nox_emissions": 0,
       "total_annual_pm_emissions": 0,
       "green_roof_area": 140.8,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_new_gas_connections_required": 0,
       "no_homes_to_have_electrical_heating": 2,
       "urban_greening_factor_score": 0.4,
@@ -124,15 +139,15 @@
       "no_new_water_connections_required": 1,
       "no_resi_units_to_have_full_fibre": 2
     },
-    "existing_uprns": null,
+    "existing_uprns": [],
     "ownership_status": "Private",
     "grey_water_reuse": false,
     "garden_land_lost": false,
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_completion_date": "08/2024",
-        "intended_commencement_date": "07/2023"
+        "intended_commencement_date": "07/2023",
+        "intended_completion_date": "08/2024"
       }
     ],
     "site_area": 0.02,
@@ -142,80 +157,93 @@
       "total_gia_gained": 90.8,
       "total_gia_lost": 4.4,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_existing": 237.6
-    }
+      "total_gia_existing": 237.6,
+      "site_area": 0.02
+    },
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.02
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
-  "title_number": null,
+  "title_number": [],
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.012946599999999999,
-          51.4875766
+          -0.012973,
+          51.487576
         ],
         [
-          -0.012946299999999999,
-          51.4875438
+          -0.012973,
+          51.487543
         ],
         [
-          -0.012946099999999999,
-          51.4875163
+          -0.012972,
+          51.487516
         ],
         [
-          -0.0129275,
-          51.4874459
+          -0.012954,
+          51.487445
         ],
         [
-          -0.012920000000000001,
-          51.4874197
+          -0.012946,
+          51.487419
         ],
         [
-          -0.0129155,
-          51.4874026
+          -0.012942,
+          51.487402
         ],
         [
-          -0.0129068,
+          -0.012933,
           51.48737
         ],
         [
-          -0.0129027,
-          51.4873546
+          -0.012929,
+          51.487354
         ],
         [
-          -0.0128802,
-          51.4873574
+          -0.012907,
+          51.487357
         ],
         [
-          -0.012806399999999999,
-          51.4873656
+          -0.012833,
+          51.487365
         ],
         [
-          -0.012779599999999999,
-          51.4873683
+          -0.012806,
+          51.487368
         ],
         [
-          -0.012799099999999999,
-          51.4874338
+          -0.012825,
+          51.487433
         ],
         [
-          -0.012828599999999999,
-          51.4875282
+          -0.012855,
+          51.487528
         ],
         [
-          -0.0128446,
-          51.4875794
+          -0.012871,
+          51.487579
         ],
         [
-          -0.012882099999999999,
-          51.4875782
+          -0.012908,
+          51.487578
         ],
         [
-          -0.0129225,
-          51.4875771
+          -0.012949,
+          51.487577
         ],
         [
-          -0.012946599999999999,
-          51.4875766
+          -0.012973,
+          51.487576
         ]
       ]
     ],
@@ -328,9 +356,9 @@
   "appeal_decision": null,
   "secondary_street_name": null,
   "appeal_start_date": null,
-  "status": "Lapsed",
+  "status": "Commenced",
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated": "2026-03-01T20:59:49.296Z",
+  "last_updated": "2026-04-30T20:01:12.571Z",
   "site_name": "3 Manchester Road, London",
   "development_type": "Minor dwellings",
   "appeal_decision_date": null,
@@ -342,6 +370,6 @@
   "date_building_work_started_under_previous_permission": null,
   "url_planning_app": "https://development.towerhamlets.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR139615&activeTab=summary",
   "id": "Tower_Hamlets-PA_22_02320_A2",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "20/10/2025",
   "postcode": null
 }
