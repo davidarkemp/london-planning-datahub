@@ -7,14 +7,109 @@
   "borough": "Redbridge",
   "application_type_full": "Lawful development: Proposed use",
   "actual_commencement_date": null,
-  "ward": null,
+  "ward": "",
   "decision_date": "16/05/2025",
   "parking_details": {
     "no_proposed_car": 2,
     "no_existing_car": 2,
     "net_car": 0
   },
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              545663.85,
+              186774.6
+            ],
+            [
+              545666.05,
+              186769.2
+            ],
+            [
+              545669.35,
+              186761
+            ],
+            [
+              545669.85,
+              186759.75
+            ],
+            [
+              545671.091,
+              186756.513
+            ],
+            [
+              545674.06,
+              186748.769
+            ],
+            [
+              545675.459,
+              186745.12
+            ],
+            [
+              545675.85,
+              186744.1
+            ],
+            [
+              545681,
+              186745.9
+            ],
+            [
+              545679.3,
+              186750.95
+            ],
+            [
+              545677.36,
+              186755.923
+            ],
+            [
+              545677.169,
+              186756.412
+            ],
+            [
+              545677.022,
+              186756.789
+            ],
+            [
+              545676.766,
+              186757.443
+            ],
+            [
+              545676.1,
+              186759.15
+            ],
+            [
+              545675.7,
+              186760.2
+            ],
+            [
+              545675.1,
+              186761.75
+            ],
+            [
+              545675,
+              186761.95
+            ],
+            [
+              545671.4,
+              186771.3
+            ],
+            [
+              545669.3,
+              186776.75
+            ],
+            [
+              545663.85,
+              186774.6
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "pp_id": "PP-13569754",
   "development_type": null,
   "description": "Change of use from a single dwelling house to Class C3 (b) for 3 adults only between the age of 18-35 years receiving care. (Summary).",
@@ -30,8 +125,8 @@
   "lpa_name": "Redbridge",
   "appeal_decision": null,
   "decision_agency": null,
-  "last_updated_by": "Agile APAS",
-  "cil_liability": null,
+  "last_updated_by": "Portal",
+  "cil_liability": false,
   "postcode": "IG3 9LD",
   "decision_process": null,
   "application_details": {
@@ -40,7 +135,7 @@
     "total_gia_gained": 0,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_bedrooms": 1,
+      "total_no_proposed_bedrooms": 3,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units": 1,
       "total_no_proposed_residential_affordable_units": 0,
@@ -52,18 +147,18 @@
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_proposed_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 52.631578947368425,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
@@ -75,20 +170,68 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
           "unit_type": "House or Bungalow",
-          "no_bedrooms": 1,
-          "unit_development_type": "Conversion"
+          "provision_for_older_persons": false,
+          "unit_development_type": "Conversion",
+          "tenure": "Market for rent",
+          "gia": null
         },
         {
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
+          "sheltered_accommodation": true,
           "unit_type": "House or Bungalow",
-          "no_bedrooms": 1,
-          "unit_development_type": "Conversion"
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "unit_development_type": "Conversion",
+          "gia": null
         }
       ],
-      "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_market_for_rent": 1,
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "total_gia_gained": 0,
+      "site_area": 0.019
+    },
+    "site_area": 0.019,
+    "3d_model": false,
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "borough_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "scheme_phasing": false,
+    "commencement_notice_received": false,
+    "rain_water_harvesting": false,
+    "circular_economy_statement": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 0,
+      "site_area": 0.019
+    },
+    "garden_land_lost": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.019
+    },
+    "infrastructure_details": {
+      "waste_provision": false,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "ghg_reduction_over_building_regulations": false
     }
   },
   "uprn": "100022215501",
@@ -99,24 +242,88 @@
     "coordinates": [
       [
         [
-          0.100124,
-          51.560926
+          0.099976,
+          51.561047
         ],
         [
-          0.100123,
-          51.560899
+          0.100006,
+          51.560998
         ],
         [
-          0.10008,
-          51.5609
+          0.10005,
+          51.560923
         ],
         [
-          0.100081,
-          51.560927
+          0.100057,
+          51.560912
         ],
         [
-          0.100124,
-          51.560926
+          0.100073,
+          51.560882
+        ],
+        [
+          0.100113,
+          51.560812
+        ],
+        [
+          0.100132,
+          51.560779
+        ],
+        [
+          0.100137,
+          51.56077
+        ],
+        [
+          0.100212,
+          51.560785
+        ],
+        [
+          0.100189,
+          51.56083
+        ],
+        [
+          0.100163,
+          51.560876
+        ],
+        [
+          0.100161,
+          51.56088
+        ],
+        [
+          0.100159,
+          51.560883
+        ],
+        [
+          0.100155,
+          51.560889
+        ],
+        [
+          0.100147,
+          51.560905
+        ],
+        [
+          0.100141,
+          51.560914
+        ],
+        [
+          0.100133,
+          51.560928
+        ],
+        [
+          0.100132,
+          51.56093
+        ],
+        [
+          0.100084,
+          51.561015
+        ],
+        [
+          0.100056,
+          51.561065
+        ],
+        [
+          0.099976,
+          51.561047
         ]
       ]
     ]
@@ -131,14 +338,14 @@
   },
   "valid_date": "20/03/2025",
   "id": "Redbridge-0634_25",
-  "last_updated": "2025-08-02T17:18:05.449+01:00",
+  "last_updated": "2026-05-08T10:20:55.001Z",
   "locality": null,
   "status": "Approved",
   "last_date_consultation_comments": null,
   "decision_target_date": "14/05/2025",
   "actual_completion_date": null,
-  "bo_system": "Agile APAS",
+  "bo_system": "Portal",
   "reference_no_of_permission_being_relied_on": null,
-  "title_number": null,
+  "title_number": [],
   "application_type": "All Other"
 }
