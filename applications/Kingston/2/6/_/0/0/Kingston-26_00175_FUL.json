@@ -1,7 +1,7 @@
 {
   "site_name": null,
   "site_number": "196",
-  "decision_process": null,
+  "decision_process": "Delegated",
   "subdivision_of_building": null,
   "decision_date": null,
   "last_date_consultation_comments": "24/04/2026",
@@ -110,7 +110,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -178,7 +177,8 @@
               166599.75
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -230,39 +230,39 @@
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "residential_units": [
         {
-          "change_type": "Gain",
-          "unit_no": null,
-          "tenure": "Market for rent",
-          "m42_compliant": true,
-          "no_habitable_rooms": 10,
-          "description": null,
-          "sheltered_accommodation": false,
-          "garden_land": false,
-          "gia": 199.44,
           "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 10,
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
           "no_bedrooms": 7,
           "provision_for_older_persons": false,
-          "phase_detail": null,
-          "m43_2a_compliant": false
+          "tenure": "Market for rent",
+          "gia": 199.44
         },
         {
-          "change_type": "Loss",
-          "unit_no": null,
-          "tenure": "Intermediate Other",
-          "m42_compliant": true,
-          "no_habitable_rooms": 7,
-          "description": null,
-          "sheltered_accommodation": false,
-          "garden_land": false,
-          "gia": 160.28,
           "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": true,
+          "change_type": "Loss",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Terraced Home",
+          "no_habitable_rooms": 7,
+          "phase_detail": null,
+          "unit_no": null,
           "no_bedrooms": 4,
           "provision_for_older_persons": false,
-          "phase_detail": null,
-          "m43_2a_compliant": false
+          "tenure": "Intermediate Other",
+          "gia": 160.28
         }
       ],
       "total_no_proposed_residential_units_discount_market_sale": 0,
@@ -298,8 +298,8 @@
     "phasing_details": [
       {
         "phase_detail": "Conversion",
-        "intended_completion_date": "04/2026",
-        "intended_commencement_date": "03/2026"
+        "intended_commencement_date": "03/2026",
+        "intended_completion_date": "04/2026"
       }
     ],
     "ownership_status": "Private",
@@ -313,12 +313,12 @@
     },
     "constraints_details": [
       {
-        "constraints_layer_description": "NEIPOL S1  Surbiton",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "NEIPOL S1  Surbiton"
       },
       {
-        "constraints_layer_description": "KEYACH Tolworth Key Area of Change",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "KEYACH Tolworth Key Area of Change"
       }
     ],
     "surface_water_discharge_percentage_reduction": 0,
@@ -331,10 +331,10 @@
     "green_suds": false,
     "existing_proposed_floorspace_details": [
       {
-        "gia_lost": 0,
         "gia_existing": 160.28,
+        "use_class": "C3",
         "gia_gained": 39.16,
-        "use_class": "C3"
+        "gia_lost": 0
       }
     ],
     "existing_uprns": [
@@ -363,7 +363,7 @@
   "lapsed_date": null,
   "application_type_full": null,
   "borough": "Royal Borough of Kingston (LA Code)",
-  "last_updated": "2026-04-01T17:01:32.091Z",
+  "last_updated": "2026-05-11T17:01:55.425Z",
   "development_type": "Minor dwellings",
   "id": "Kingston-26_00175_FUL",
   "valid_date": "20/03/2026"
