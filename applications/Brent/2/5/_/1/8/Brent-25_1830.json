@@ -7,7 +7,7 @@
     "lon": -0.197459
   },
   "appeal_decision": null,
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "date_building_work_started_under_previous_permission": null,
   "lpa_app_no": "25/1830",
   "decision_target_date": "29/07/2025",
@@ -15,9 +15,9 @@
   "url_planning_app": "https://pa.brent.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR_173997&activeTab=summary",
   "appeal_start_date": null,
   "decision_conditions": null,
-  "postcode": null,
+  "postcode": "",
   "decision_date": "13/08/2025",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "centroid_easting": 525102,
   "secondary_street_name": null,
   "appeal_status": null,
@@ -25,19 +25,45 @@
   "ward": "Kilburn",
   "parking_details": null,
   "development_type": "Certificates of Lawful Development",
-  "last_updated": "2025-09-21T08:02:06.481Z",
+  "last_updated": "2026-05-12T11:18:47.771Z",
   "last_date_consultation_comments": null,
   "uprn": "202017861",
   "application_type_full": "Lawful development: Existing use",
   "decision_agency": null,
   "subdivision_of_building": null,
-  "title_number": null,
+  "title_number": [],
   "site_name": "183C & E, Kilburn High Road, London, NW6 7HY",
-  "street_name": null,
+  "street_name": "",
   "appeal_decision_date": null,
   "date_building_work_completed_under_previous_permission": null,
   "lapsed_date": "13/08/2028",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.197437,
+          51.541254
+        ],
+        [
+          -0.197438,
+          51.541227
+        ],
+        [
+          -0.197481,
+          51.541228
+        ],
+        [
+          -0.19748,
+          51.541255
+        ],
+        [
+          -0.197437,
+          51.541254
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "pp_id": "PP-14078865",
   "decision": "Approved",
   "centroid_northing": 184022,
@@ -47,12 +73,14 @@
   "application_type": "All Other",
   "borough": "Brent",
   "locality": null,
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "valid_date": "17/06/2025",
   "application_details": {
     "total_gia_gained": 0,
     "no_additional_bathrooms": 2,
-    "existing_uprns": null,
+    "existing_uprns": [],
     "no_additional_bedrooms": 2,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
@@ -68,7 +96,7 @@
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_proposed_residential_units_market_for_rent": 2,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
@@ -92,23 +120,62 @@
       "residential_units": [
         {
           "actual_completion_date": "13/08/2025",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "actual_commencement_date": "13/08/2025",
           "unit_type": "Studio Bedsit",
           "no_bedrooms": 1,
-          "unit_development_type": "Conversion"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "unit_development_type": "Conversion",
+          "gia": null
         },
         {
           "actual_completion_date": "13/08/2025",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "actual_commencement_date": "13/08/2025",
           "unit_type": "Studio Bedsit",
           "no_bedrooms": 1,
-          "unit_development_type": "Conversion"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "unit_development_type": "Conversion",
+          "gia": null
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "total_gia_gained": 0
+    },
+    "3d_model": false,
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "borough_cil_liability_notice_issued": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "scheme_phasing": false,
+    "commencement_notice_received": false,
+    "rain_water_harvesting": false,
+    "circular_economy_statement": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 0
+    },
+    "garden_land_lost": false,
+    "infrastructure_details": {
+      "waste_provision": false,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "ghg_reduction_over_building_regulations": false
     }
   },
   "id": "Brent-25_1830",

@@ -1,7 +1,7 @@
 {
   "locality": null,
   "subdivision_of_building": null,
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "date_building_work_started_under_previous_permission": null,
   "development_type": "Certificates of Lawful Development",
   "valid_date": "08/07/2025",
@@ -9,9 +9,35 @@
   "centroid_easting": 519016,
   "ward": "Alperton",
   "date_building_work_completed_under_previous_permission": null,
-  "last_updated": "2025-09-21T08:02:06.956Z",
+  "last_updated": "2026-05-12T11:19:15.636Z",
   "epc_number": "0081-3008-4208-1829-7200",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.285086,
+          51.544321
+        ],
+        [
+          -0.285087,
+          51.544294
+        ],
+        [
+          -0.285131,
+          51.544295
+        ],
+        [
+          -0.285129,
+          51.544322
+        ],
+        [
+          -0.285086,
+          51.544321
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "application_type": "All Other",
   "lpa_name": "Brent",
   "actual_commencement_date": "04/09/2025",
@@ -21,7 +47,9 @@
   "centroid_northing": 184217,
   "decision_process": "Delegated",
   "decision_target_date": "28/08/2025",
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "description": "Certificate of lawfulness for existing use as 3x separate self contained flats",
   "lpa_app_no": "25/1879",
   "last_date_consultation_comments": null,
@@ -30,18 +58,18 @@
     "lon": -0.285108
   },
   "lapsed_date": "04/09/2028",
-  "postcode": null,
+  "postcode": "",
   "id": "Brent-25_1879",
-  "street_name": null,
+  "street_name": "",
   "decision_agency": null,
-  "title_number": null,
+  "title_number": [],
   "application_type_full": "Lawful development: Existing use",
   "url_planning_app": "https://pa.brent.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR_174055&activeTab=summary",
   "status": "Completed",
   "reference_no_of_permission_being_relied_on": null,
   "decision_conditions": null,
   "actual_completion_date": "04/09/2025",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "parking_details": {
     "net_car": 0,
     "no_proposed_car": 1,
@@ -53,7 +81,7 @@
   "cil_liability": false,
   "application_details": {
     "total_gia_gained": 0,
-    "existing_uprns": null,
+    "existing_uprns": [],
     "no_additional_bedrooms": 0,
     "no_additional_bathrooms": 0,
     "residential_details": {
@@ -70,7 +98,7 @@
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_proposed_residential_units_market_for_rent": 3,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
@@ -94,31 +122,76 @@
       "residential_units": [
         {
           "actual_completion_date": "04/09/2025",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "actual_commencement_date": "04/09/2025",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "unit_development_type": "Conversion"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "unit_development_type": "Conversion",
+          "gia": null
         },
         {
           "actual_completion_date": "04/09/2025",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "actual_commencement_date": "04/09/2025",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "unit_development_type": "Conversion"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "unit_development_type": "Conversion",
+          "gia": null
         },
         {
           "actual_completion_date": "04/09/2025",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "actual_commencement_date": "04/09/2025",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "unit_development_type": "Conversion"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "unit_development_type": "Conversion",
+          "gia": null
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "total_gia_gained": 0
+    },
+    "3d_model": false,
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "borough_cil_liability_notice_issued": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "scheme_phasing": false,
+    "commencement_notice_received": false,
+    "rain_water_harvesting": false,
+    "circular_economy_statement": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 0
+    },
+    "garden_land_lost": false,
+    "infrastructure_details": {
+      "waste_provision": false,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "ghg_reduction_over_building_regulations": false
     }
   },
   "uprn": "202152304",
