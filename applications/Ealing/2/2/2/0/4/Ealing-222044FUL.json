@@ -24,11 +24,12 @@
         "gia_existing": 24.7,
         "use_class": "SpecifiedOther",
         "gia_gained": 79.2,
+        "actual_commencement_date": "02/05/2025",
         "gia_lost": 24.7
       }
     ],
     "projected_cost_of_works": "Up to £2m",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "rain_water_harvesting": false,
     "grey_water_reuse": false,
     "building_details": [
@@ -45,7 +46,8 @@
       "total_gia_lost": 24.7,
       "total_gia_existing": 24.7,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "site_area": 0.008
     },
     "garden_land_lost": false,
     "infrastructure_details": {
@@ -57,13 +59,13 @@
       "no_homes_passive_cooling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 1,
-      "ghg_reduction_over_building_regulations": true
+      "ghg_reduction_over_building_regulations": false
     },
     "internal_resi_water_usage": 105,
     "residential_details": {
@@ -71,14 +73,18 @@
       "total_gia_gained": 79.2,
       "residential_units": [
         {
+          "provider": "Private",
           "no_habitable_rooms": 4,
-          "provider": "Self-Build",
-          "unit_no": "Gain-1",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
+          "actual_commencement_date": "02/05/2025",
           "unit_type": "House or Bungalow",
-          "gia": 79.2,
-          "tenure": "Self-Build and Custom Build"
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 79.2
         }
       ],
       "total_gia_lost": 0,
@@ -87,7 +93,7 @@
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
-      "total_no_proposed_residential_affordable_units": 1,
+      "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_living_rent": 0,
@@ -96,16 +102,16 @@
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_social_rent": 0,
-      "total_no_proposed_residential_units_self_build_and_custom_build": 1,
+      "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "total_no_proposed_residential_units_market_for_sale": 0,
+      "total_no_proposed_residential_units_market_for_sale": 1,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 500,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 125,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -114,11 +120,24 @@
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
-      "affordable_percentage": 100,
+      "affordable_percentage": 0,
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.008
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": true,
+    "other_residential_accommodation_details": {
+      "site_area": 0.008
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "polygon": {
     "geometries": [
@@ -164,8 +183,8 @@
   "decision_process": "Delegated",
   "status": "Application Under Consideration",
   "centroid": {
-    "lon": "-0.27540159999999997",
-    "lat": "51.5181707"
+    "lon": -0.275424,
+    "lat": 51.518169
   },
   "centroid_easting": 519756,
   "decision_agency": "Borough",
@@ -179,7 +198,7 @@
   "appeal_decision": null,
   "site_name": "Garages 3 & 4",
   "actual_commencement_date": null,
-  "title_number": null,
+  "title_number": [],
   "valid_date": "12/05/2022",
   "appeal_decision_date": null,
   "secondary_street_name": null,
@@ -188,10 +207,10 @@
   "last_date_consultation_comments": null,
   "epc_number": null,
   "subdivision_of_building": null,
-  "cil_liability": true,
+  "cil_liability": false,
   "lpa_app_no": "222044FUL",
   "decision": null,
-  "last_updated": "2025-03-20T17:27:35.312+00:00",
+  "last_updated": "2026-06-02T16:04:43.325Z",
   "street_name": "Noel Road",
   "actual_completion_date": null,
   "ward": "North Acton",
@@ -203,36 +222,36 @@
   "decision_conditions": null,
   "locality": "London",
   "decision_date": null,
-  "bo_system": "CSV Data Import",
-  "last_updated_by": "Planning Portal ingest",
+  "bo_system": "Portal",
+  "last_updated_by": "Portal",
   "uprn": "000012095763",
   "application_type": "All Other",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.2753007,
-          51.5181564
+          -0.275323,
+          51.518155
         ],
         [
-          -0.2754687,
-          51.5181261
+          -0.275491,
+          51.518125
         ],
         [
-          -0.2754953,
-          51.5181786
+          -0.275518,
+          51.518177
         ],
         [
-          -0.2753249,
-          51.5182102
+          -0.275348,
+          51.518209
         ],
         [
-          -0.2753226,
-          51.5182088
+          -0.275345,
+          51.518208
         ],
         [
-          -0.2753007,
-          51.5181564
+          -0.275323,
+          51.518155
         ]
       ]
     ],

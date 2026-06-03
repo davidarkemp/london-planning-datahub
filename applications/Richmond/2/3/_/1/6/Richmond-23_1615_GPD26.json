@@ -15,7 +15,7 @@
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 300,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "affordable_percentage": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
@@ -46,20 +46,26 @@
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 100,
       "total_no_existing_residential_units_market_for_rent": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 3,
-          "provider": "Private",
-          "unit_no": "Gain-1",
+          "actual_completion_date": "19/10/2025",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 44,
-          "tenure": "Market for rent"
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "11/07/2025",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 44
         }
-      ]
+      ],
+      "site_area": 0.01
     },
     "occupation_status": "Partially Vacant",
     "non_residential_details": {
@@ -74,8 +80,10 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 44,
+        "actual_completion_date": "19/10/2025",
         "use_class": "C3",
         "gia_gained": 0,
+        "actual_commencement_date": "11/07/2025",
         "gia_lost": 44
       }
     ],
@@ -83,12 +91,12 @@
       "fire_suppression_system_proposed": false,
       "no_non_resi_units_to_have_full_fibre": 0,
       "mobile_network_operators_consultation": false,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "percentage_demolition_construction_material_recycling": 80,
       "total_annual_nox_emissions": 50,
       "total_annual_pm_emissions": 2.5,
       "green_roof_area": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_new_gas_connections_required": 0,
       "no_homes_to_have_electrical_heating": 0,
       "urban_greening_factor_score": 0.6000000000000001,
@@ -97,14 +105,41 @@
       "no_resi_units_to_have_full_fibre": 1
     },
     "total_gia_existing": 44,
-    "site_area": 0.01
+    "site_area": 0.01,
+    "resi_extension_exempt": false
   },
   "title_number": [],
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.353691,
+          51.455111
+        ],
+        [
+          -0.353692,
+          51.455084
+        ],
+        [
+          -0.353735,
+          51.455085
+        ],
+        [
+          -0.353734,
+          51.455112
+        ],
+        [
+          -0.353691,
+          51.455111
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "valid_date": "19/06/2023",
   "centroid": {
-    "lat": "51.4550979",
-    "lon": "-0.3536919"
+    "lat": 51.455098,
+    "lon": -0.353713
   },
   "site_number": "15",
   "decision_conditions": [
@@ -188,7 +223,7 @@
   "pp_id": "PP-12205312",
   "lapsed_date": "14/08/2026",
   "decision_agency": null,
-  "actual_completion_date": null,
+  "actual_completion_date": "19/10/2025",
   "description": "Conversion of existing ground floor offices (Class E) to residential (class C3). Retention of existing rear garden including secure cycle storage unit and recycling bin area.",
   "centroid_northing": 174187,
   "street_name": "Nelson Road",
@@ -197,15 +232,15 @@
   "appeal_decision": null,
   "secondary_street_name": null,
   "appeal_start_date": null,
-  "status": "Approved",
+  "status": "Completed",
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated": "2025-03-19T04:20:49.199+00:00",
+  "last_updated": "2026-06-02T12:53:30.895Z",
   "site_name": "",
   "development_type": null,
   "appeal_decision_date": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Portal",
   "application_type": "Prior Approval",
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "subdivision_of_building": null,
   "parking_details": {
     "no_existing_cycle": 2,
@@ -215,6 +250,6 @@
   "date_building_work_started_under_previous_permission": null,
   "url_planning_app": null,
   "id": "Richmond-23_1615_GPD26",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "11/07/2025",
   "postcode": "TW2 7AR"
 }

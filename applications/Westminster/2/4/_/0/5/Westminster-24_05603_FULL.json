@@ -3,7 +3,7 @@
   "appeal_decision_date": null,
   "title_number": [],
   "borough": "Westminster",
-  "last_updated": "2025-07-07T20:04:33.336Z",
+  "last_updated": "2026-06-02T20:01:08.426Z",
   "centroid_northing": "181242",
   "url_planning_app": null,
   "actual_completion_date": null,
@@ -43,31 +43,62 @@
   "street_name": "Ledbury Road",
   "decision_process": "Delegated",
   "appeal_status": null,
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              525044,
+              181241
+            ],
+            [
+              525043,
+              181247
+            ],
+            [
+              525020,
+              181241
+            ],
+            [
+              525021,
+              181236
+            ],
+            [
+              525044,
+              181241
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "geometrycollection"
+  },
   "application_type_full": "Full planning permission",
   "wgs84_polygon": {
     "type": "Polygon",
     "coordinates": [
       [
         [
-          -0.199432,
-          51.516286
+          -0.199282,
+          51.516261
         ],
         [
-          -0.199433,
-          51.516259
+          -0.199294,
+          51.516315
         ],
         [
-          -0.199476,
-          51.516259
+          -0.199627,
+          51.516266
         ],
         [
-          -0.199475,
-          51.516286
+          -0.199615,
+          51.516221
         ],
         [
-          -0.199432,
-          51.516286
+          -0.199282,
+          51.516261
         ]
       ]
     ]
@@ -86,8 +117,8 @@
     "phasing_details": [
       {
         "phase_detail": "Phase 1",
-        "intended_commencement_date": "07/2021",
-        "intended_completion_date": "09/2022"
+        "intended_completion_date": "09/2022",
+        "intended_commencement_date": "07/2021"
       }
     ],
     "grey_water_reuse": false,
@@ -111,8 +142,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 92,
-        "gia_gained": 0,
         "use_class": "C3",
+        "gia_gained": 0,
         "gia_lost": 0
       }
     ],
@@ -164,14 +195,13 @@
       "residential_units": [
         {
           "no_habitable_rooms": 2,
-          "unit_no": "Loss-1",
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "gia": 46,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 46
         }
       ],
       "total_no_proposed_residential_units_social_rent": 0,

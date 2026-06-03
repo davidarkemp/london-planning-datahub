@@ -1,5 +1,31 @@
 {
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.322375,
+          51.449515
+        ],
+        [
+          -0.322376,
+          51.449488
+        ],
+        [
+          -0.322419,
+          51.449488
+        ],
+        [
+          -0.322418,
+          51.449515
+        ],
+        [
+          -0.322375,
+          51.449515
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "polygon": {
     "coordinates": [
       [
@@ -68,7 +94,7 @@
     "type": "Polygon"
   },
   "appeal_status": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "epc_number": null,
   "decision_process": "Delegated",
   "locality": null,
@@ -80,7 +106,7 @@
         "intended_commencement_date": "04/2023"
       }
     ],
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "site_area": 0.011000000000000001,
     "existing_proposed_floorspace_details": [
       {
@@ -92,8 +118,8 @@
     ],
     "rain_water_harvesting": false,
     "residential_details": {
-      "total_no_proposed_bedrooms": 1,
-      "total_no_existing_residential_units": 0,
+      "total_no_proposed_bedrooms": 4,
+      "total_no_existing_residential_units": 1,
       "total_no_existing_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -106,7 +132,7 @@
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_market_for_rent": 0,
       "total_gia_gained": 28,
-      "dwelling_density": 0,
+      "dwelling_density": 181.8181818181818,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_gia_lost": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
@@ -114,41 +140,70 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "total_no_proposed_residential_units": 1,
+      "total_no_proposed_residential_units": 2,
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 2,
           "provider": "Self-Build",
-          "unit_no": "Gain-1",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 28,
-          "tenure": "Self-Build and Custom Build"
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "tenure": "Self-Build and Custom Build",
+          "gia": 28
+        },
+        {
+          "provider": "Self-Build",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "tenure": "Self-Build and Custom Build",
+          "gia": null
+        },
+        {
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Loss",
+          "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 4,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": null
         }
       ],
       "total_no_proposed_residential_units_intermediate": 0,
-      "total_no_existing_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_units_market_for_sale": 1,
       "total_no_existing_residential_units_london_shared_ownership": 0,
-      "habitable_rooms_density": null,
-      "total_no_proposed_residential_affordable_units": 1,
+      "habitable_rooms_density": 363.6363636363636,
+      "total_no_proposed_residential_affordable_units": 2,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
-      "total_no_proposed_residential_units_self_build_and_custom_build": 1,
+      "total_no_proposed_residential_units_self_build_and_custom_build": 2,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
-      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0
+      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "site_area": 0.011000000000000001
     },
     "projected_cost_of_works": "Up to £2m",
     "infrastructure_details": {
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_passive_cooling": 0,
       "ghg_reduction_over_building_regulations": false,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_resi_units_to_have_full_fibre": 1,
       "mobile_network_operators_consultation": false,
       "total_annual_pm_emissions": 0,
@@ -182,18 +237,32 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_existing": 171,
-      "total_gia_gained": 28
-    }
+      "total_gia_gained": 28,
+      "site_area": 0.011000000000000001
+    },
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.011000000000000001
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "decision_agency": null,
   "decision_target_date": "29/06/2023",
   "centroid": {
-    "lat": "51.4495012",
-    "lon": "-0.32237479999999996"
+    "lat": 51.449502,
+    "lon": -0.322397
   },
   "secondary_street_name": null,
   "reference_no_of_permission_being_relied_on": null,
-  "cil_liability": true,
+  "cil_liability": false,
   "uprn": "100023392312",
   "development_type": null,
   "actual_completion_date": null,
@@ -201,7 +270,7 @@
   "borough": "Richmond upon Thames",
   "ward": "TRW",
   "last_date_consultation_comments": "23/05/2023",
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "application_type_full": "Full planning permission",
   "valid_date": "04/05/2023",
   "site_number": "74A",
@@ -241,7 +310,7 @@
   "decision": "Approved",
   "application_type": "All Other",
   "status": "Approved",
-  "last_updated": "2025-03-18T23:56:54.902+00:00",
+  "last_updated": "2026-06-02T12:28:47.599Z",
   "date_building_work_started_under_previous_permission": null,
   "subdivision_of_building": null
 }

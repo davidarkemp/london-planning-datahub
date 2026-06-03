@@ -1,13 +1,80 @@
 {
   "secondary_street_name": null,
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              525446,
+              182334
+            ],
+            [
+              525449,
+              182338
+            ],
+            [
+              525454,
+              182345
+            ],
+            [
+              525456,
+              182348
+            ],
+            [
+              525449,
+              182354
+            ],
+            [
+              525447,
+              182350
+            ],
+            [
+              525442,
+              182344
+            ],
+            [
+              525442,
+              182343
+            ],
+            [
+              525441,
+              182342
+            ],
+            [
+              525439,
+              182339
+            ],
+            [
+              525444,
+              182335
+            ],
+            [
+              525438,
+              182328
+            ],
+            [
+              525440,
+              182327
+            ],
+            [
+              525446,
+              182334
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "geometrycollection"
+  },
   "cil_liability": false,
   "site_name": "",
   "last_updated_by": "Idox Uniform",
   "centroid_northing": "182343",
   "date_building_work_started_under_previous_permission": null,
   "appeal_start_date": null,
-  "last_updated": "2025-06-26T20:04:33.946Z",
+  "last_updated": "2026-06-02T20:00:37.400Z",
   "centroid": {
     "lat": 51.526075,
     "lon": -0.193085
@@ -35,19 +102,19 @@
     "phasing_details": [
       {
         "phase_detail": "1",
-        "intended_commencement_date": "11/2022",
-        "intended_completion_date": "11/2023"
+        "intended_completion_date": "11/2023",
+        "intended_commencement_date": "11/2022"
       }
     ],
     "total_gia_gained": 390,
-    "site_area": 0.018000000000000002,
+    "site_area": 0.017,
     "total_gia_lost": 307,
     "total_gia_existing": 307,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 307,
-        "gia_gained": 390,
         "use_class": "C3",
+        "gia_gained": 390,
         "gia_lost": 307
       }
     ],
@@ -111,79 +178,71 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "unit_no": "Loss-1",
           "change_type": "Loss",
           "unit_type": "Communal Space",
           "gia": 93
         },
         {
           "no_habitable_rooms": 3,
-          "unit_no": "Loss-2",
           "change_type": "Loss",
           "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
-          "gia": 54,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 54
         },
         {
           "no_habitable_rooms": 1,
-          "unit_no": "Loss-3",
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "gia": 17,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 17
         },
         {
           "no_habitable_rooms": 1,
-          "unit_no": "Loss-4",
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "gia": 27,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 27
         },
         {
           "no_habitable_rooms": 1,
-          "unit_no": "Loss-5",
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "gia": 33,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 33
         },
         {
           "no_habitable_rooms": 2,
-          "unit_no": "Loss-6",
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "gia": 53,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 53
         },
         {
           "no_habitable_rooms": 1,
-          "unit_no": "Loss-7",
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "gia": 29,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 29
         },
         {
-          "unit_no": "Gain-1",
           "change_type": "Gain",
           "unit_type": "Communal Space",
           "gia": 66.92
@@ -191,12 +250,11 @@
         {
           "provider": "Private",
           "no_habitable_rooms": 16,
-          "unit_no": "Gain-2",
           "change_type": "Gain",
-          "no_bedrooms": 16,
           "unit_type": "HMO",
-          "gia": 322.54,
-          "tenure": "Market for rent"
+          "no_bedrooms": 16,
+          "tenure": "Market for rent",
+          "gia": 322.54
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 6,
@@ -235,24 +293,60 @@
     "coordinates": [
       [
         [
-          -0.193063,
-          51.526088
+          -0.193102,
+          51.525995
         ],
         [
-          -0.193064,
-          51.526061
+          -0.193058,
+          51.52603
         ],
         [
-          -0.193107,
-          51.526062
+          -0.192983,
+          51.526092
         ],
         [
-          -0.193106,
-          51.526089
+          -0.192953,
+          51.526118
         ],
         [
-          -0.193063,
-          51.526088
+          -0.193052,
+          51.526174
+        ],
+        [
+          -0.193082,
+          51.526138
+        ],
+        [
+          -0.193156,
+          51.526085
+        ],
+        [
+          -0.193157,
+          51.526076
+        ],
+        [
+          -0.193172,
+          51.526068
+        ],
+        [
+          -0.193201,
+          51.526041
+        ],
+        [
+          -0.193131,
+          51.526004
+        ],
+        [
+          -0.19322,
+          51.525942
+        ],
+        [
+          -0.193191,
+          51.525933
+        ],
+        [
+          -0.193102,
+          51.525995
         ]
       ]
     ]

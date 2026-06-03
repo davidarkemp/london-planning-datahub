@@ -1,19 +1,19 @@
 {
-  "centroid_northing": 164605,
+  "centroid_northing": 164607,
   "appeal_status": null,
   "pp_id": "PP-09965543",
   "appeal_decision_date": null,
   "valid_date": "14/09/2021",
-  "last_updated": "2025-03-20T13:20:05.430+00:00",
-  "ward": "B07",
+  "last_updated": "2026-06-02T20:00:56.368Z",
+  "ward": "Sutton Central",
   "last_updated_by": "Idox Uniform",
   "site_name": "",
   "last_date_consultation_comments": "13/10/2021",
   "centroid": {
-    "lat": "51.3665124",
-    "lon": "-0.1896936"
+    "lat": 51.366531,
+    "lon": -0.189704
   },
-  "status": "Approved",
+  "status": "Lapsed",
   "id": "Sutton-DM2021_01358",
   "reference_no_of_permission_being_relied_on": null,
   "polygon": {
@@ -41,66 +41,66 @@
         ]
       ]
     ],
-    "type": "GeometryCollection",
+    "type": "geometrycollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
               526124.57,
-              164604.55
+              164604.550000001
             ],
             [
-              526123.9,
-              164587.81
+              526124.98,
+              164613.970000001
             ],
             [
-              526120.75,
-              164587.95
+              526125.84,
+              164620.060000001
             ],
             [
-              526119.077,
-              164588.018
-            ],
-            [
-              526112.65,
-              164588.28
-            ],
-            [
-              526112.767,
-              164591.158
-            ],
-            [
-              526113.15,
-              164599.45
-            ],
-            [
-              526114.3,
-              164622.78
-            ],
-            [
-              526117.2,
-              164622.1
+              526123.85,
+              164620.550000001
             ],
             [
               526121.95,
               164621
             ],
             [
-              526123.85,
-              164620.55
+              526117.2,
+              164622.1
             ],
             [
-              526125.84,
-              164620.06
+              526114.3,
+              164622.779999999
             ],
             [
-              526124.98,
-              164613.97
+              526113.15,
+              164599.449999999
+            ],
+            [
+              526112.767,
+              164591.158
+            ],
+            [
+              526112.65,
+              164588.279999999
+            ],
+            [
+              526119.077,
+              164588.017999999
+            ],
+            [
+              526120.75,
+              164587.949999999
+            ],
+            [
+              526123.9,
+              164587.810000001
             ],
             [
               526124.57,
-              164604.55
+              164604.550000001
             ]
           ]
         ],
@@ -114,9 +114,13 @@
   "lapsed_date": "19/04/2026",
   "epc_number": null,
   "application_type": "All Other",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 4,
+    "net_car": 0,
+    "no_proposed_car": 4
+  },
   "uprn": "005870048376",
-  "centroid_easting": 526119,
+  "centroid_easting": 526120,
   "secondary_street_name": null,
   "application_details": {
     "affordable_housing_fast_track": false,
@@ -128,7 +132,7 @@
       }
     ],
     "total_gia_gained": 269.1,
-    "site_area": 0.038000000000000006,
+    "site_area": 376,
     "total_gia_lost": 269.1,
     "total_gia_existing": 199.5,
     "existing_proposed_floorspace_details": [
@@ -141,7 +145,7 @@
     ],
     "projected_cost_of_works": "Up to £2m",
     "rain_water_harvesting": true,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "building_details": [
       {
         "no_storeys": 3,
@@ -200,34 +204,31 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
+          "provider": "Private rented sector",
           "no_habitable_rooms": 10,
-          "provider": "Private rented sector",
-          "unit_no": "Loss-1",
           "change_type": "Loss",
+          "unit_type": "Semi Detached Home",
           "no_bedrooms": 5,
-          "unit_type": "Semi Detached Home",
-          "gia": 199,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 199
         },
         {
-          "no_habitable_rooms": 6,
           "provider": "Private rented sector",
-          "unit_no": "Gain-1",
+          "no_habitable_rooms": 6,
           "change_type": "Gain",
+          "unit_type": "Semi Detached Home",
           "no_bedrooms": 4,
-          "unit_type": "Semi Detached Home",
-          "gia": 140,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 140
         },
         {
-          "no_habitable_rooms": 6,
           "provider": "Private rented sector",
-          "unit_no": "Gain-2",
+          "no_habitable_rooms": 6,
           "change_type": "Gain",
-          "no_bedrooms": 3,
           "unit_type": "Semi Detached Home",
-          "gia": 99,
-          "tenure": "Market for rent"
+          "no_bedrooms": 3,
+          "tenure": "Market for rent",
+          "gia": 99
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -249,7 +250,62 @@
       "no_new_gas_connections_required": 1,
       "ghg_reduction_over_building_regulations": false
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": true,
+    "existing_uprns": [
+      "005870048376"
+    ],
+    "constraints_details": [
+      {
+        "result": null,
+        "constraints_layer_description": "RADCON "
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "SMKCON Smoke Control Zone"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: DM2019/00462--- Address: 60 Benhill Avenue\rSutton\rSM1 4DW--- Proposal: Erection of a part one, part two storey rear extension, and conversion of loft space involving the formation of a dormer extension at rear and alteration of existing roofline including the installation of roof lights to front slope.--- Status: REF--- Decision: REF--- Date Decision Issued: 09-MAY-19---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: B2000/46620--- Address: 60 Benhill Avenue,\rSutton,--- Proposal: Erection of a two storey side extension.--- Status: GTD--- Decision: GTD--- Date Decision Issued: 29-NOV-00---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: B2001/47598--- Address: 60 Benhill Avenue,\rSutton,--- Proposal: Erection of a single storey extension and alterations of roof to single storey element at rear ( part amendment to previous App. No. 00/46620/HHA). --- Status: GTD--- Decision: GTD--- Date Decision Issued: 09-JUL-01---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: DM2020/02171--- Address: 60 Benhill Avenue\rSutton\rSM1 4DW--- Proposal: Conversion of loft space involving alterations to existing roofline, hip to gable with a dormer extension at rear and rooflights to front and rear roofslopes.--- Status: GTD--- Decision: GTD--- Date Decision Issued: 22-FEB-21---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: DM2021/01358--- Address: 60 Benhill Avenue\rSutton\rSM1 4DW--- Proposal: PROPOSED SINGLE STORY REAR EXTENSION, LOFT COVERSION, INTERNAL CHANGES AND CONVERSION OF EXISTING PROPERTY INTO 1NOS THREE-BEDROOM FOUR PERSONS FLAT AND 1NOS FOUR BEDROOM SIX PERSON'S FLAT AND ASSOCIATED AMENITIES.--- Status: REC--- Decision: --- Date Decision Issued: ---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: DM2018/01340--- Address: 60 Benhill Avenue\rSutton\rSM1 4DW--- Proposal: Erection of first floor rear extension including terrace at roof level and loft conversion including the formation of a rear dormer, alteration to the existing roof line and addition of roof lights to the front roof slope.--- Status: REF--- Decision: REF--- Date Decision Issued: 18-SEP-18---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "DECENE "
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PINT "
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "CPZ "
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "CPZ "
+      }
+    ],
+    "commencement_notice_received": false
   },
   "decision_agency": null,
   "postcode": "SM1 4DW",
@@ -258,15 +314,16 @@
   "date_building_work_started_under_previous_permission": null,
   "date_building_work_completed_under_previous_permission": null,
   "decision_conditions": [
-    "Standard 3 years",
-    "No terrace",
-    "Materials Similar (review if LBC/CON)",
-    "CLP for Highway considerations",
-    "Car Parking",
-    "Detail of Solar Panels",
-    "Fire safety",
-    "Cycle storage",
-    "Approved Energy Statement"
+    "Occupier",
+    "The development must be begun not later than the expiration of three years beginning with the date hereof.\r\rReason: To comply with Section 91 of the Town and Country Planning Act 1990, as amended.",
+    "All external facing materials, treatments and finishes shall be similar to those of the original building and maintained and retained thereafter. This applies unless differences are shown on the drawings we have approved. \r\rReason: To ensure that the extension harmonises with the existing building and to ensure compliance with Policy 28 of the Sutton Local Plan 2018.",
+    "The flat roof of the extension hereby approved shall not be used, all or in part, as a terrace or other amenity space. No railings, fences, walls or other means of enclosure shall be erected on this flat roof, and no alterations shall be carried out to the elevation of the application property to form access onto the roof.\r\rReason: Such a use could be harmful to the existing amenities of the occupiers of neighbouring residential properties as a result of overlooking and loss of privacy and the generation of noise and disturbance contrary to Policy 29 of the Sutton Local Plan 2018.",
+    "No development shall begin, including demolition and site clearance works, until a Construction Logistics Plan (CLP), to include details of: (a) loading and unloading of plant and materials; (b ) storage of plant and materials; (c) programme of works (including measures for traffic management); (d) provision of boundary hoarding, behind any visibility zones of construction traffic routing; (e) hours of operation; (f) means to prevent deposition of mud on the highway have been submitted to and approved in writing by the Local Planning Authority. The development shall be constructed in accordance with the approved statement.\r\rReason: To ensure that the proposed development does not interfere with the free flow of traffic and conditions of safety on the public highway, and to ensure the development process does not have a significant adverse impact on the amenities of nearby residential properties in accordance with Policies 29 and 36 of the Sutton Local Plan 2018. This condition is required to be pre-commencement as the Construction Logistics Plan needs to be in place before any works take place and to mitigate against the impacts of the demolition / construction process.",
+    "The development hereby approved shall not be commenced prior to the submission and approval of a Fire Safety Strategy pursuant to Policy 12 (A) of the London Plan.\r\rReason: To ensure that the development incorporates the necessary fire safety measures in accordance with the Mayor's London Plan Policy D12.",
+    "Prior to the commencement of development, details of the proposed solar PV array must be submitted to the Local Planning Authority and approved in writing, including:\r\r(i) roof plans showing the amount of available roof space that is proposed to be used\rfor the solar PV array with suitable orientation and lack of shading;\r(ii) the number of solar PV panels and the total area of the proposed solar PV array;\r(iii) product specifications including the power output of each panel and estimates of\rthe electricity that each panels will generate; and\r(iv) calculations demonstrating the CO2 savings expected to be achieved.\r\rReason: To comply with Policy 31 of the Sutton Local Plan 2018",
+    "The development hereby approved shall be constructed in accordance with the approved Energy Statement (Ref: SPR-2020) prepared by Energy Test Ltd and dated 13 December 2021. Prior to first occupation, as-built' Standard Assessment Procedure\r(SAP) outputs must be submitted to the Local Planning Authority and approved in writing to demonstrate that the development has achieved the targeted reduction in CO2 emissions. All of the approved measures must thereafter be retained for as long as the\rdevelopment is in existence.\r\rReason: To comply with Policy 31 of the Sutton Local Plan 2018",
+    "Prior to the occupation of the development hereby approved,  full details of the secure cycle storage facilities shall be submitted to, and approved in writing by, the Local Planning Authority which shall show their positioning within the site, the size and materials of the enclosure and the means of access. The approved details shall thereafter permanently retained in accordance with the approved details.\r\rReason: To ensure the development provides an adequate level of cycle parking facilities and to encourage sustainable modes of transport, in accordance with Policies 36 and 37 of the Sutton Local Plan 2018.",
+    "Prior to the first occupation of the development hereby approved, a revised site car parking layout shall be submitted to, and approved in writing by, the Local Planning Authority which shall show their positioning within the site, the size and materials of the enclosure and the means of access. The approved details shall thereafter permanently retained in accordance with the approved details.\r\rReason: To ensure the development provides an adequate on site parking in accordance with Policies 36 and 37 of the Sutton Local Plan 2018."
   ],
   "decision_target_date": "09/11/2021",
   "locality": null,
@@ -274,13 +331,13 @@
   "cil_liability": true,
   "decision_date": "19/04/2023",
   "appeal_decision": null,
-  "borough": "London Borough of Sutton",
+  "borough": "Sutton",
   "subdivision_of_building": null,
   "lpa_app_no": "DM2021/01358",
   "actual_commencement_date": null,
-  "development_type": null,
+  "development_type": "Minor dwellings",
   "decision_process": "Delegated",
-  "description": "Conversation into two flats with a single storey side extension, first floor extension, conversion of loft space involving alterations to existing roofline, hip to gable with a dormer extension at rear and rooflights to front and rear.",
+  "description": "Conversion into two flats with a single storey side extension, first floor extension, conversion of loft space involving alterations to existing roofline, hip to gable with a dormer extension at rear and rooflights to front and rear.",
   "actual_completion_date": null,
   "title_number": [],
   "street_name": "Benhill Avenue",
@@ -289,60 +346,60 @@
     "coordinates": [
       [
         [
-          -0.1896138,
-          51.3665071
+          -0.189639,
+          51.366508
         ],
         [
-          -0.1896294,
-          51.3663568
+          -0.18963,
+          51.366593
         ],
         [
-          -0.1896745,
-          51.3663588
+          -0.189615,
+          51.366647
         ],
         [
-          -0.1896985,
-          51.3663598
+          -0.189643,
+          51.366652
         ],
         [
-          -0.18979069999999998,
-          51.3663636
+          -0.189671,
+          51.366657
         ],
         [
-          -0.18978799999999998,
-          51.3663894
+          -0.189738,
+          51.366668
         ],
         [
-          -0.1897796,
-          51.3664638
+          -0.18978,
+          51.366674
         ],
         [
-          -0.1897548,
-          51.3666733
+          -0.189805,
+          51.366465
         ],
         [
-          -0.1897134,
-          51.3666665
+          -0.189813,
+          51.366391
         ],
         [
-          -0.1896456,
-          51.3666556
+          -0.189816,
+          51.366365
         ],
         [
-          -0.1896185,
-          51.3666511
+          -0.189723,
+          51.366361
         ],
         [
-          -0.18959009999999998,
-          51.3666463
+          -0.1897,
+          51.36636
         ],
         [
-          -0.18960459999999998,
-          51.3665917
+          -0.189654,
+          51.366358
         ],
         [
-          -0.1896138,
-          51.3665071
+          -0.189639,
+          51.366508
         ]
       ]
     ],

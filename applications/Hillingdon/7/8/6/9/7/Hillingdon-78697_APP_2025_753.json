@@ -5,19 +5,45 @@
   "subdivision_of_building": null,
   "url_planning_app": "http://planning.hillingdon.gov.uk/OcellaWeb/planningDetails?reference=78697/APP/2025/753",
   "epc_number": null,
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.453354,
+          51.524818
+        ],
+        [
+          -0.453355,
+          51.524791
+        ],
+        [
+          -0.453398,
+          51.524792
+        ],
+        [
+          -0.453397,
+          51.524819
+        ],
+        [
+          -0.453354,
+          51.524818
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "secondary_street_name": null,
   "street_name": "HILLINGDON",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "date_building_work_started_under_previous_permission": null,
   "application_details": {
-    "existing_uprns": null,
+    "existing_uprns": [],
     "no_additional_bathrooms": 0,
     "total_gia_gained": 0,
     "no_additional_bedrooms": 0,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_bedrooms": 6,
+      "total_no_proposed_bedrooms": 5,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units": 1,
       "total_no_proposed_residential_units_affordable_rent": 0,
@@ -29,18 +55,18 @@
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_proposed_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 90.9090909090909,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -53,28 +79,76 @@
       "residential_units": [
         {
           "actual_completion_date": "12/05/2025",
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
           "actual_commencement_date": "12/05/2025",
           "unit_type": "House or Bungalow",
-          "no_bedrooms": 1
+          "provision_for_older_persons": false,
+          "unit_development_type": "Conversion",
+          "tenure": "Market for rent",
+          "gia": null
         },
         {
           "actual_completion_date": "12/05/2025",
+          "description": null,
           "change_type": "Gain",
-          "actual_commencement_date": "12/05/2025",
           "unit_type": "HMO",
-          "no_bedrooms": 6
+          "unit_development_type": "Conversion",
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "12/05/2025",
+          "no_bedrooms": 5,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": null
         }
       ],
-      "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_market_for_rent": 1,
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "total_gia_gained": 0,
+      "site_area": 0.011000000000000001
+    },
+    "site_area": 0.011000000000000001,
+    "3d_model": false,
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "rain_water_harvesting": false,
+    "scheme_phasing": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 0,
+      "site_area": 0.011000000000000001
+    },
+    "garden_land_lost": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.011000000000000001
+    },
+    "infrastructure_details": {
+      "waste_provision": false,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "ghg_reduction_over_building_regulations": false
     }
   },
   "ward": "COLHAM & COWLEY",
   "cil_liability": false,
   "centroid": {
     "lon": -0.453376,
-    "lat": 51.524796
+    "lat": 51.524805
   },
   "uprn": null,
   "parking_details": {
@@ -90,7 +164,7 @@
   "locality": null,
   "application_type": "All Other",
   "id": "Hillingdon-78697_APP_2025_753",
-  "centroid_northing": 181787,
+  "centroid_northing": 181788,
   "appeal_status": null,
   "status": "Completed",
   "description": "Continuation of use of dwellinghouse as a six person Class C4 (Small HMO) (Application for a Certificate of Lawful Development for an Existing Use)",
@@ -98,24 +172,74 @@
   "appeal_start_date": null,
   "decision_date": "12/05/2025",
   "decision_target_date": "26/05/2025",
-  "polygon": null,
+  "polygon": {
+    "coordinates": [
+      [
+        [
+          507388.99,
+          181797.21
+        ],
+        [
+          507390.25,
+          181792.7
+        ],
+        [
+          507390.95,
+          181790.2
+        ],
+        [
+          507393.35,
+          181782.2
+        ],
+        [
+          507395.1,
+          181776.35
+        ],
+        [
+          507399.7,
+          181777.8
+        ],
+        [
+          507398.05,
+          181783.55
+        ],
+        [
+          507395.7,
+          181791.6
+        ],
+        [
+          507395,
+          181794.1
+        ],
+        [
+          507393.74,
+          181798.62
+        ],
+        [
+          507388.99,
+          181797.21
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "appeal_decision": null,
-  "title_number": null,
+  "title_number": [],
   "lapsed_date": "12/05/2028",
   "valid_date": "31/03/2025",
   "decision_process": "Delegated",
   "decision": "Approved",
-  "postcode": null,
+  "postcode": "",
   "decision_conditions": [
     "The existing  use does not require planning permission by reason of Section(s) (enter other sec no's) 191 of the Town and Country Planning Act 1990: Section 191 as amended by section 10 of the Planning Compensation Act 1991, as the Applicant has been able to demonstrate that the operation described as the Description of the Development has been in existence and has been constantly used as such for a period of at least ten years prior to the date of this application."
   ],
   "decision_agency": "Borough",
-  "bo_system": "CSV Data Import",
-  "actual_commencement_date": null,
+  "bo_system": "Portal",
+  "actual_commencement_date": "12/05/2025",
   "appeal_decision_date": null,
   "pp_id": "13871371",
   "reference_no_of_permission_being_relied_on": null,
   "borough": "Hillingdon",
-  "last_updated": "2025-07-19T21:59:25.256Z",
+  "last_updated": "2026-06-02T10:54:59.544Z",
   "actual_completion_date": "12/05/2025"
 }
