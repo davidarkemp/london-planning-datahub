@@ -29,9 +29,11 @@
     ]
   },
   "date_building_work_started_under_previous_permission": null,
-  "ward": null,
+  "ward": "",
   "site_number": "363",
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "appeal_status": null,
   "application_type_full": "Lawful development: Existing use",
   "borough": "Redbridge",
@@ -52,8 +54,8 @@
     "total_gia_gained": 0,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_bedrooms": 1,
-      "total_no_proposed_residential_units": 1,
+      "total_no_proposed_bedrooms": 5,
+      "total_no_proposed_residential_units": 2,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units": 0,
@@ -64,7 +66,7 @@
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_proposed_residential_units_market_for_rent": 2,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
@@ -88,15 +90,66 @@
       "residential_units": [
         {
           "actual_completion_date": "09/04/2026",
+          "description": null,
           "change_type": "Gain",
+          "sheltered_accommodation": false,
+          "unit_type": "House or Bungalow",
+          "unit_development_type": "Conversion",
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
           "actual_commencement_date": "09/04/2026",
-          "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 1,
-          "unit_development_type": "Conversion"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": null
+        },
+        {
+          "actual_completion_date": "09/04/2026",
+          "description": null,
+          "change_type": "Gain",
+          "sheltered_accommodation": true,
+          "unit_type": "HMO",
+          "unit_development_type": "Conversion",
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "09/04/2026",
+          "no_bedrooms": 5,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": null
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "total_gia_gained": 0
+    },
+    "3d_model": false,
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "borough_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "transport_impact_assessment": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "rain_water_harvesting": false,
+    "scheme_phasing": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 0
+    },
+    "garden_land_lost": false,
+    "infrastructure_details": {
+      "waste_provision": false,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "ghg_reduction_over_building_regulations": false
     }
   },
   "development_type": null,
@@ -108,8 +161,8 @@
   "decision_process": null,
   "lapsed_date": "09/04/2029",
   "uprn": "100022205451",
-  "bo_system": "Agile APAS",
-  "cil_liability": null,
+  "bo_system": "Portal",
+  "cil_liability": false,
   "street_name": "Cranbrook Road",
   "locality": null,
   "application_type": "All Other",
@@ -120,14 +173,14 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": 187606,
-  "last_updated": "2026-04-11T02:00:54.392+01:00",
+  "last_updated": "2026-06-03T11:51:27.928Z",
   "centroid": {
     "lon": 0.064262,
     "lat": 51.569157
   },
   "subdivision_of_building": null,
-  "last_updated_by": "Agile APAS",
-  "title_number": null,
+  "last_updated_by": "Portal",
+  "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "id": "Redbridge-0430_26",
