@@ -8,13 +8,103 @@
   "secondary_street_name": "SOUTH RUISLIP",
   "subdivision_of_building": null,
   "date_building_work_started_under_previous_permission": null,
-  "last_updated": "2025-07-09T21:59:16.883Z",
+  "last_updated": "2026-06-04T13:44:57.186Z",
   "valid_date": "02/01/2025",
-  "polygon": null,
-  "cil_liability": true,
-  "title_number": null,
+  "polygon": {
+    "coordinates": [
+      [
+        [
+          510963.96,
+          185243.67
+        ],
+        [
+          510966.08,
+          185240.64
+        ],
+        [
+          510966.71,
+          185239.74
+        ],
+        [
+          510981.46,
+          185218.61
+        ],
+        [
+          510981.69,
+          185218.28
+        ],
+        [
+          510987.95,
+          185222.5
+        ],
+        [
+          510991.15,
+          185224.75
+        ],
+        [
+          510991.3,
+          185224.85
+        ],
+        [
+          510990.775,
+          185225.635
+        ],
+        [
+          510988.161,
+          185229.541
+        ],
+        [
+          510987.581,
+          185230.408
+        ],
+        [
+          510985.233,
+          185233.917
+        ],
+        [
+          510984.721,
+          185234.682
+        ],
+        [
+          510982.3,
+          185238.3
+        ],
+        [
+          510982.124,
+          185238.581
+        ],
+        [
+          510977.04,
+          185246.688
+        ],
+        [
+          510976.5,
+          185247.55
+        ],
+        [
+          510974.25,
+          185251.1
+        ],
+        [
+          510970.527,
+          185248.528
+        ],
+        [
+          510967.52,
+          185246.45
+        ],
+        [
+          510963.96,
+          185243.67
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "cil_liability": false,
+  "title_number": [],
   "decision_process": "Delegated",
-  "centroid_easting": 510977,
+  "centroid_easting": 510978,
   "actual_commencement_date": null,
   "url_planning_app": "http://planning.hillingdon.gov.uk/OcellaWeb/planningDetails?reference=68501/APP/2025/22",
   "site_number": null,
@@ -38,20 +128,20 @@
   "id": "Hillingdon-68501_APP_2025_22",
   "application_details": {
     "internal_resi_water_usage": 120,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "garden_land_lost": false,
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "04/2025",
-        "intended_completion_date": "09/2025"
+        "intended_completion_date": "09/2025",
+        "intended_commencement_date": "04/2025"
       }
     ],
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 92.1,
-        "gia_gained": 50,
         "use_class": "C3",
+        "gia_gained": 50,
         "gia_lost": 0
       }
     ],
@@ -61,9 +151,10 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 50,
       "total_gia_lost": 0,
-      "total_gia_existing": 92.1
+      "total_gia_existing": 92.1,
+      "site_area": 0.038000000000000006
     },
-    "site_area": 0.0376,
+    "site_area": 0.038000000000000006,
     "projected_cost_of_works": "Up to £2m",
     "total_gia_lost": 0,
     "total_gia_existing": 92.1,
@@ -84,18 +175,27 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Extension",
           "provider": "Private",
           "no_habitable_rooms": 1,
-          "unit_no": "Gain-1",
-          "change_type": "Gain",
+          "phase_detail": null,
+          "unit_no": null,
           "no_bedrooms": 1,
-          "unit_type": "Flat Apartment Maisonette",
-          "gia": 50,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 50.25
         }
       ],
       "total_no_proposed_bedrooms": 1,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 26.595744680851062,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_gia_lost": 0,
       "total_no_existing_residential_units_starter_homes": 0,
@@ -111,7 +211,7 @@
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_social_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 26.595744680851062,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
@@ -120,7 +220,8 @@
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_market_for_rent": 1,
       "total_no_proposed_residential_units_discount_market_sale": 0,
-      "total_no_existing_residential_units_discount_market_rent": 0
+      "total_no_existing_residential_units_discount_market_rent": 0,
+      "site_area": 0.0376
     },
     "infrastructure_details": {
       "fire_suppression_system_proposed": false,
@@ -134,25 +235,37 @@
       "no_new_gas_connections_required": 0,
       "no_new_water_connections_required": 1,
       "mobile_network_operators_consultation": false,
-      "waste_provision": true,
+      "waste_provision": false,
       "ghg_reduction_over_building_regulations": false,
       "green_roof_area": 0
     },
     "affordable_housing_fast_track": false,
     "ownership_status": "Private",
-    "existing_uprns": null,
-    "rain_water_harvesting": false
+    "existing_uprns": [],
+    "rain_water_harvesting": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.038000000000000006
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "uprn": null,
   "decision_date": "10/04/2025",
   "description": "Erection of a first-floor side extension. Alterations to the roof, including raising the ridge height and converting the roof space to create one studio unit. Changes to the front and rear fenestration to include the addition of two side dormers and five side roof lights. Associated parking and refuse storage.",
   "site_name": "48 & 50",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "decision_target_date": "11/04/2025",
   "borough": "Hillingdon",
   "postcode": "HA4 6RZ",
   "street_name": "STATION APPROACH",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "development_type": null,
   "lapsed_date": "10/04/2028",
   "decision_conditions": [
@@ -204,11 +317,37 @@
     "Under the terms of the Planning Act 2008 (as amended) and Community Infrastructure Levy Regulations 2010 (as amended), this development is liable to pay the London Borough of Hillingdon Community Infrastructure Levy (CIL) and the Mayor of London's Community Infrastructure Levy (CIL). This will be calculated in accordance with the London Borough of Hillingdon CIL Charging Schedule 2014 and the Mayor of London's CIL Charging Schedule 2012. Before commencement of works the development parties must notify the London Borough of Hillingdon of the commencement date for the construction works (by submitting a Commencement Notice) and assume liability to pay CIL (by submitting an Assumption of Liability Notice) to the Council at planning@hillingdon.gov.uk. The Council will then issue a Demand Notice setting out the date and the amount of CIL that is payable. Failure to submit a valid Assumption of Liability Notice and Commencement Notice prior to commencement of the development may result in su",
     "The decision to GRANT planning permission has been taken having regard to all relevant planning legislation, regulations, guidance, circulars and Council policies, including The Human Rights Act (1998) (HRA 1998) which makes it unlawful for the Council to act incompatibly with Convention rights, specifically Article 6 (right to a fair hearing); Article 8 (right to respect for private and family life); Article 1 of the First Protocol (protection of property) and Article 14 (prohibition of discrimination)."
   ],
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.400628,
+          51.555107
+        ],
+        [
+          -0.400629,
+          51.55508
+        ],
+        [
+          -0.400672,
+          51.555081
+        ],
+        [
+          -0.400671,
+          51.555108
+        ],
+        [
+          -0.400628,
+          51.555107
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "appeal_decision_date": null,
   "pp_id": "13660722",
   "centroid": {
-    "lon": -0.400665,
+    "lon": -0.40065,
     "lat": 51.555094
   },
   "actual_completion_date": null,

@@ -1,22 +1,50 @@
 {
   "secondary_street_name": null,
-  "last_updated": "2025-07-09T21:59:19.228Z",
+  "last_updated": "2026-06-04T13:31:15.558Z",
   "appeal_start_date": null,
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "appeal_decision_date": null,
   "status": "Approved",
   "decision_date": "15/04/2025",
   "reference_no_of_permission_being_relied_on": null,
   "url_planning_app": "http://planning.hillingdon.gov.uk/OcellaWeb/planningDetails?reference=79328/APP/2025/528",
   "site_number": null,
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "development_type": null,
   "appeal_status": null,
   "centroid": {
     "lat": 51.532134,
     "lon": -0.42102
   },
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.420998,
+          51.532147
+        ],
+        [
+          -0.420998,
+          51.53212
+        ],
+        [
+          -0.421042,
+          51.532121
+        ],
+        [
+          -0.421041,
+          51.532148
+        ],
+        [
+          -0.420998,
+          51.532147
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "appeal_decision": null,
   "lapsed_date": "15/04/2028",
   "decision_agency": "Borough",
@@ -24,12 +52,12 @@
   "ward": "CHARVILLE 2022",
   "application_details": {
     "total_gia_lost": 142,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 72,
+        "use_class": "E(a)",
         "gia_gained": 70,
-        "use_class": "EA",
         "gia_lost": 142
       }
     ],
@@ -42,7 +70,7 @@
     ],
     "garden_land_lost": false,
     "total_gia_gained": 70,
-    "existing_uprns": null,
+    "existing_uprns": [],
     "site_area": 0.0154,
     "projected_cost_of_works": "Up to £2m",
     "ownership_status": "Private",
@@ -54,9 +82,9 @@
       "fire_suppression_system_proposed": false,
       "total_annual_nox_emissions": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_new_gas_connections_required": 0,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "mobile_network_operators_consultation": false,
       "no_new_water_connections_required": 0,
       "no_resi_units_to_have_full_fibre": 0,
@@ -70,8 +98,8 @@
     "phasing_details": [
       {
         "phase_detail": "Extension ",
-        "intended_commencement_date": "08/2025",
-        "intended_completion_date": "11/2025"
+        "intended_completion_date": "11/2025",
+        "intended_commencement_date": "08/2025"
       }
     ],
     "non_residential_details": {
@@ -79,17 +107,30 @@
       "total_gia_lost": 142,
       "total_gia_existing": 72,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_gained": 70
+      "total_gia_gained": 70,
+      "site_area": 0.0154
     },
     "affordable_housing_fast_track": false,
-    "grey_water_reuse": false
+    "grey_water_reuse": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.0154
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "street_name": "HAYES",
   "date_building_work_completed_under_previous_permission": null,
   "centroid_northing": 182651,
   "centroid_easting": 509621,
   "uprn": null,
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "decision": "Approved",
   "cil_liability": false,
   "description": "Erection of a single storey rear extension",
@@ -134,7 +175,7 @@
   "lpa_name": "Hillingdon",
   "application_type": "All Other",
   "locality": null,
-  "title_number": null,
+  "title_number": [],
   "pp_id": "13808687",
   "decision_process": "Delegated",
   "site_name": "266 KINGSHILL AVENUE",

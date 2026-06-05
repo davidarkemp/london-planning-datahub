@@ -18,15 +18,15 @@
       "total_no_existing_residential_units_market_for_sale": 1,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
-      "total_no_proposed_residential_units_self_build_and_custom_build": 1,
-      "habitable_rooms_density": null,
+      "total_no_proposed_residential_units_self_build_and_custom_build": 0,
+      "habitable_rooms_density": 67.41573033707864,
       "total_no_proposed_residential_units": 1,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_gia_lost": 184.9,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
-      "affordable_percentage": 100,
-      "total_no_proposed_residential_affordable_units": 1,
+      "affordable_percentage": 0,
+      "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
@@ -35,32 +35,37 @@
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_residential_units_market_for_sale": 0,
+      "total_no_proposed_residential_units_market_for_sale": 1,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 322,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 11.235955056179774,
       "residential_units": [
         {
           "no_habitable_rooms": 6,
-          "unit_no": "Loss-1",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 4,
           "unit_type": "House or Bungalow",
+          "no_bedrooms": 4,
           "provision_for_older_persons": false,
-          "gia": 184.9,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 184.9
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 6,
-          "unit_no": "Gain-1",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 4,
           "unit_type": "House or Bungalow",
-          "gia": 322,
-          "tenure": "Self-Build and Custom Build"
+          "no_bedrooms": 4,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 322
         }
       ],
       "total_no_proposed_residential_units_social_rent": 0,
@@ -71,7 +76,8 @@
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
-      "total_no_proposed_residential_units_london_living_rent": 0
+      "total_no_proposed_residential_units_london_living_rent": 0,
+      "site_area": 0.08900000000000001
     },
     "phasing_details": [
       {
@@ -86,7 +92,7 @@
       "green_roof_area": 0,
       "mobile_network_operators_consultation": false,
       "no_new_water_connections_required": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_active_fast_ev_charging_points": 1,
       "total_annual_pm_emissions": 0,
       "no_resi_units_to_have_full_fibre": 1,
@@ -110,11 +116,11 @@
     "projected_cost_of_works": "Up to £2m",
     "affordable_housing_fast_track": false,
     "total_gia_gained": 322,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "grey_water_reuse": false,
     "total_gia_lost": 184.9,
     "surface_water_discharge_percentage_reduction": 0,
-    "existing_uprns": null,
+    "existing_uprns": [],
     "site_area": 0.08900000000000001,
     "ownership_status": "Private",
     "non_residential_details": {
@@ -122,7 +128,8 @@
       "total_gia_lost": 184.9,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_gained": 322
+      "total_gia_gained": 322,
+      "site_area": 0.08900000000000001
     },
     "total_gia_existing": 184.9,
     "existing_proposed_floorspace_details": [
@@ -133,17 +140,55 @@
         "gia_lost": 184.9
       }
     ],
-    "rain_water_harvesting": false
+    "rain_water_harvesting": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.08900000000000001
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "date_building_work_completed_under_previous_permission": null,
   "site_name": "545 UXBRIDGE ROAD",
   "borough": "Hillingdon",
   "status": "Approved",
   "epc_number": null,
-  "bo_system": "CSV Data Import",
-  "wgs84_polygon": null,
-  "cil_liability": true,
-  "title_number": null,
+  "bo_system": "Portal",
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.425476,
+          51.523108
+        ],
+        [
+          -0.425477,
+          51.523081
+        ],
+        [
+          -0.42552,
+          51.523081
+        ],
+        [
+          -0.425519,
+          51.523108
+        ],
+        [
+          -0.425476,
+          51.523108
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "cil_liability": false,
+  "title_number": [],
   "application_type": "All Other",
   "street_name": "HAYES",
   "actual_commencement_date": null,
@@ -159,14 +204,14 @@
   "lpa_name": "Hillingdon",
   "secondary_street_name": null,
   "decision_date": "26/08/2025",
-  "last_updated": "2025-09-12T21:59:10.249Z",
+  "last_updated": "2026-06-04T14:02:36.296Z",
   "url_planning_app": "http://planning.hillingdon.gov.uk/OcellaWeb/planningDetails?reference=28174/APP/2025/903",
   "ward": "WOOD END 2022",
   "valid_date": "08/05/2025",
   "reference_no_of_permission_being_relied_on": null,
   "development_type": null,
   "appeal_decision": null,
-  "postcode": null,
+  "postcode": "",
   "centroid_northing": 181639,
   "description": "Erection of new dwellinghouse, following demolition of existing dwelling with associated works.",
   "subdivision_of_building": null,
@@ -174,7 +219,7 @@
   "lpa_app_no": "28174/APP/2025/903",
   "decision": "Approved",
   "application_type_full": "Full planning permission",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "appeal_status": null,
   "id": "Hillingdon-28174_APP_2025_903",
   "decision_conditions": [

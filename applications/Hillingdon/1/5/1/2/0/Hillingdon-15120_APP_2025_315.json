@@ -9,9 +9,35 @@
   "date_building_work_started_under_previous_permission": null,
   "appeal_decision_date": null,
   "pp_id": "13760677",
-  "wgs84_polygon": null,
-  "last_updated": "2025-07-09T21:59:10.858Z",
-  "centroid_easting": 507130,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.456669,
+          51.538899
+        ],
+        [
+          -0.45667,
+          51.538872
+        ],
+        [
+          -0.456713,
+          51.538872
+        ],
+        [
+          -0.456712,
+          51.538899
+        ],
+        [
+          -0.456669,
+          51.538899
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "last_updated": "2026-06-04T13:18:41.090Z",
+  "centroid_easting": 507131,
   "lpa_name": "Hillingdon",
   "decision_agency": "Borough",
   "decision_conditions": [
@@ -43,7 +69,7 @@
     "net_car": 0,
     "no_proposed_car": 2
   },
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "appeal_decision": null,
   "last_date_consultation_comments": "21/03/2025",
   "reference_no_of_permission_being_relied_on": null,
@@ -52,14 +78,14 @@
   "description": "Change of Use from Use Class C3 (Dwellinghouse) to Use Class C2 (Children's Care Home)",
   "decision_date": "17/04/2025",
   "centroid": {
-    "lon": -0.456705,
-    "lat": 51.538886
+    "lon": -0.456691,
+    "lat": 51.538885
   },
   "cil_liability": false,
-  "postcode": null,
+  "postcode": "UB10 0HJ",
   "actual_completion_date": null,
   "valid_date": "10/02/2025",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "id": "Hillingdon-15120_APP_2025_315",
   "lapsed_date": "17/04/2028",
   "application_details": {
@@ -67,21 +93,24 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 90,
-        "gia_gained": 0,
         "use_class": "C3",
+        "gia_gained": 0,
         "gia_lost": 90
       }
     ],
     "other_residential_accommodation_details": {
       "other_resi_accommodation_unit_details": [
         {
-          "no_rooms_proposed": 3,
+          "no_rooms_proposed": 2,
+          "unit_type": "Care Home Bedroom",
           "no_rooms_lost": 0
         }
-      ]
+      ],
+      "no_council_tax_rateable_units_gained": 1,
+      "site_area": 0.0233
     },
     "total_gia_existing": 90,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "surface_water_discharge_percentage_reduction": 0,
     "total_gia_gained": 0,
     "total_gia_lost": 90,
@@ -90,7 +119,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_lost": 90,
-      "total_gia_existing": 90
+      "total_gia_existing": 90,
+      "site_area": 0.023
     },
     "rain_water_harvesting": false,
     "garden_land_lost": false,
@@ -123,21 +153,30 @@
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "residential_units": [
         {
-          "unit_no": "Loss-1",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
           "unit_type": "Communal Space",
+          "provision_for_older_persons": false,
           "gia": 24
         },
         {
-          "no_habitable_rooms": 3,
-          "unit_no": "Loss-2",
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "no_bedrooms": 3,
           "unit_type": "Semi Detached Home",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "gia": 89,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 89
         }
       ],
       "total_no_proposed_residential_units_market_for_rent": 0,
@@ -146,24 +185,25 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "total_no_proposed_residential_units_social_rent": 0
+      "total_no_proposed_residential_units_social_rent": 0,
+      "site_area": 0.0233
     },
     "ownership_status": "Private",
     "phasing_details": [
       {
         "phase_detail": "ENTIRE DEVELOPMENT",
-        "intended_commencement_date": "03/2025",
-        "intended_completion_date": "08/2025"
+        "intended_completion_date": "08/2025",
+        "intended_commencement_date": "03/2025"
       }
     ],
     "internal_resi_water_usage": 120,
-    "existing_uprns": null,
-    "site_area": 0.0233,
+    "existing_uprns": [],
+    "site_area": 0.023,
     "projected_cost_of_works": "Up to £2m",
     "green_suds": false,
     "infrastructure_details": {
@@ -180,22 +220,89 @@
       "no_active_fast_ev_charging_points": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "no_new_gas_connections_required": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "ghg_reduction_over_building_regulations": false
     },
-    "grey_water_reuse": false
+    "grey_water_reuse": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "decision_target_date": "17/04/2025",
   "uprn": null,
   "lpa_app_no": "15120/APP/2025/315",
   "locality": null,
-  "title_number": null,
+  "title_number": [],
   "actual_commencement_date": null,
   "decision": "Approved",
   "application_type": "All Other",
   "street_name": "HILLINGDON",
-  "polygon": null,
+  "polygon": {
+    "coordinates": [
+      [
+        [
+          507111.6,
+          183350.9
+        ],
+        [
+          507112.2,
+          183344.7
+        ],
+        [
+          507132.14,
+          183346.548
+        ],
+        [
+          507136.849,
+          183346.985
+        ],
+        [
+          507138.002,
+          183347.092
+        ],
+        [
+          507150.5,
+          183348.25
+        ],
+        [
+          507149.95,
+          183354.1
+        ],
+        [
+          507144.8,
+          183353.65
+        ],
+        [
+          507137.5,
+          183353.05
+        ],
+        [
+          507133.688,
+          183352.734
+        ],
+        [
+          507132.852,
+          183352.664
+        ],
+        [
+          507130.754,
+          183352.49
+        ],
+        [
+          507111.6,
+          183350.9
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "date_building_work_completed_under_previous_permission": null,
   "url_planning_app": "http://planning.hillingdon.gov.uk/OcellaWeb/planningDetails?reference=15120/APP/2025/315"
 }

@@ -7,14 +7,14 @@
   "development_type": null,
   "application_type": "All Other",
   "appeal_status": null,
-  "title_number": null,
+  "title_number": [],
   "postcode": "UB7 7BE",
   "locality": null,
   "appeal_decision": null,
   "status": "Approved",
   "pp_id": "12778136",
   "street_name": "YIEWSLEY",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "lpa_name": "Hillingdon",
   "centroid": {
     "lon": -0.473512,
@@ -23,13 +23,13 @@
   "lpa_app_no": "77794/APP/2024/1226",
   "borough": "Hillingdon",
   "application_details": {
-    "existing_uprns": null,
+    "existing_uprns": [],
     "affordable_housing_fast_track": false,
     "phasing_details": [
       {
         "phase_detail": "Entire Development ",
-        "intended_commencement_date": "04/2024",
-        "intended_completion_date": "04/2024"
+        "intended_completion_date": "04/2024",
+        "intended_commencement_date": "04/2024"
       }
     ],
     "total_gia_gained": 336.6,
@@ -39,20 +39,20 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 336.6,
-        "gia_gained": 0,
         "use_class": "E(c)(ii)",
+        "gia_gained": 0,
         "gia_lost": 336.6
       },
       {
         "gia_existing": 0,
-        "gia_gained": 336.6,
         "use_class": "F2",
+        "gia_gained": 336.6,
         "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "grey_water_reuse": false,
     "green_suds": false,
     "surface_water_discharge_percentage_reduction": 0,
@@ -61,7 +61,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 336.6,
       "total_gia_existing": 336.6,
-      "total_gia_lost": 336.6
+      "total_gia_lost": 336.6,
+      "site_area": 0.051000000000000004
     },
     "garden_land_lost": false,
     "infrastructure_details": {
@@ -81,7 +82,60 @@
       "ghg_reduction_over_building_regulations": false
     },
     "internal_resi_water_usage": 0,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.051000000000000004
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "residential_details": {
+      "total_no_proposed_residential_units_shared_equity": 0,
+      "total_no_proposed_bedrooms": 0,
+      "total_no_proposed_residential_units": 0,
+      "total_no_proposed_residential_units_london_living_rent": 0,
+      "total_no_proposed_residential_units_affordable_rent": 0,
+      "total_no_existing_residential_units": 0,
+      "total_no_proposed_residential_affordable_units": 0,
+      "total_no_proposed_residential_units_discount_market_sale": 0,
+      "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_london_living_rent": 0,
+      "total_no_existing_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_units_shared_equity": 0,
+      "total_no_existing_residential_units_intermediate": 0,
+      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_existing_residential_units_social_rent": 0,
+      "total_no_proposed_residential_units_self_build_and_custom_build": 0,
+      "total_no_existing_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_affordable_units": 0,
+      "habitable_rooms_density": 0,
+      "total_no_existing_residential_units_affordable_rent": 0,
+      "total_no_existing_residential_units_london_shared_ownership": 0,
+      "total_gia_gained": 336.6,
+      "total_no_proposed_residential_units_social_rent": 0,
+      "total_no_existing_residential_units_london_affordable_rent": 0,
+      "site_area": 0.051000000000000004,
+      "dwelling_density": 0,
+      "total_gia_lost": 336.6,
+      "total_no_proposed_residential_units_london_affordable_rent": 0,
+      "total_no_proposed_residential_units_starter_homes": 0,
+      "total_no_existing_residential_units_discount_market_sale": 0,
+      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_starter_homes": 0,
+      "total_no_proposed_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_intermediate": 0,
+      "total_no_proposed_residential_units_london_shared_ownership": 0,
+      "affordable_percentage": 0,
+      "total_no_existing_residential_units_market_for_rent": 0,
+      "total_no_existing_residential_units_self_build_and_custom_build": 0
+    }
   },
   "application_type_full": "Full planning permission",
   "cil_liability": false,
@@ -89,84 +143,84 @@
     "coordinates": [
       [
         [
-          -0.4736468,
-          51.5145246
+          -0.473667,
+          51.514523
         ],
         [
-          -0.4736449,
-          51.514522
+          -0.473665,
+          51.514521
         ],
         [
-          -0.4735275,
-          51.5145562
+          -0.473548,
+          51.514555
         ],
         [
-          -0.4736469,
-          51.5145249
+          -0.473667,
+          51.514523
         ],
         [
-          -0.4736722,
-          51.5145616
+          -0.473693,
+          51.51456
         ],
         [
-          -0.4735548,
-          51.5145946
+          -0.473575,
+          51.514593
         ],
         [
-          -0.4735966,
-          51.5146558
+          -0.473617,
+          51.514654
         ],
         [
-          -0.47346000000000005,
-          51.5146933
+          -0.47348,
+          51.514692
         ],
         [
-          -0.4732848,
-          51.5144566
+          -0.473305,
+          51.514455
         ],
         [
-          -0.47339109999999995,
-          51.5144152
+          -0.473412,
+          51.514414
         ],
         [
-          -0.4734037,
-          51.5144368
+          -0.473424,
+          51.514435
         ],
         [
-          -0.47356729999999997,
-          51.5143913
+          -0.473588,
+          51.51439
         ],
         [
-          -0.4735817,
-          51.5144165
+          -0.473602,
+          51.514415
         ],
         [
-          -0.4736068,
-          51.5144085
+          -0.473627,
+          51.514407
         ],
         [
-          -0.47362679999999996,
-          51.5144373
+          -0.473647,
+          51.514436
         ],
         [
-          -0.47361129999999996,
-          51.5144442
+          -0.473632,
+          51.514443
         ],
         [
-          -0.473624,
-          51.5144646
+          -0.473644,
+          51.514463
         ],
         [
-          -0.4736028,
-          51.5144715
+          -0.473623,
+          51.51447
         ],
         [
-          -0.4736487,
-          51.5145244
+          -0.473669,
+          51.514523
         ],
         [
-          -0.4736468,
-          51.5145246
+          -0.473667,
+          51.514523
         ]
       ]
     ],
@@ -176,7 +230,7 @@
   "actual_commencement_date": null,
   "date_building_work_completed_under_previous_permission": null,
   "url_planning_app": "http://planning.hillingdon.gov.uk/OcellaWeb/planningDetails?reference=77794/APP/2024/1226",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "appeal_start_date": null,
   "secondary_street_name": null,
   "subdivision_of_building": "Part of the building known as the chapel - 152-156 High Street",
@@ -317,7 +371,7 @@
   "uprn": null,
   "reference_no_of_permission_being_relied_on": null,
   "decision_process": "Delegated",
-  "last_updated": "2025-07-09T21:59:18.435Z",
+  "last_updated": "2026-06-04T15:09:51.239Z",
   "decision_agency": "Borough",
   "parking_details": {
     "no_existing_car": 8,
