@@ -1,13 +1,13 @@
 {
   "uprn": "000012078814",
   "valid_date": "12/10/2023",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "application_type": "All Other",
   "development_type": "Minor dwellings",
   "date_building_work_completed_under_previous_permission": null,
   "pp_id": "PP-12466867",
   "postcode": "UB6 7JA",
-  "title_number": null,
+  "title_number": [],
   "decision_conditions": [
     "The development to which this permission relates shall be begun not later than the expiration of three years from the date of this permission.",
     "Reason: To comply with Section 91 of the Town & Country Planning Act 1990. | The development hereby approved shall be carried out in accordance with drawing / document title number(s):",
@@ -24,16 +24,18 @@
     "| The refuse and recycling storage area identified in the approved drawings listed under condition 2 shall be brought into use prior to the first occupation of the hereby approved flats and shall be permanently retained for the lifetime of the development.",
     "Reason: To provide adequate refuse facilities for future occupiers in accordance with policy SI7 of the London Plan (2021) and Ealing Council Waste Management Guidelines for Architects and Developers."
   ],
-  "status": "Approved",
+  "status": "Completed",
   "url_planning_app": "https://pam.ealing.gov.uk/online-applications/PLAN/233982FUL;",
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": "5539-9227-7000-0806-4206",
   "centroid_easting": 516754,
-  "actual_completion_date": null,
+  "actual_completion_date": "13/02/2024",
   "site_name": "71 George V Way",
   "decision_date": "21/12/2023",
   "locality": "Greenford",
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "appeal_decision": null,
   "street_name": "George V Way",
   "centroid": {
@@ -43,8 +45,34 @@
   "site_number": null,
   "date_building_work_started_under_previous_permission": null,
   "application_type_full": "Full planning permission",
-  "wgs84_polygon": null,
-  "actual_commencement_date": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.317761,
+          51.54287
+        ],
+        [
+          -0.317762,
+          51.542843
+        ],
+        [
+          -0.317806,
+          51.542844
+        ],
+        [
+          -0.317805,
+          51.542871
+        ],
+        [
+          -0.317761,
+          51.54287
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "actual_commencement_date": "29/10/2021",
   "appeal_start_date": null,
   "centroid_northing": 184003,
   "decision_process": "Delegated",
@@ -53,7 +81,7 @@
   "decision_target_date": "22/12/2023",
   "borough": "Ealing",
   "lpa_name": "Ealing",
-  "last_updated": "2025-03-19T00:57:14.745+00:00",
+  "last_updated": "2026-06-09T11:36:21.532Z",
   "secondary_street_name": null,
   "parking_details": {
     "net_car": 2,
@@ -75,8 +103,10 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 148.8,
+        "actual_completion_date": "13/02/2024",
         "use_class": "C3",
         "gia_gained": 148.8,
+        "actual_commencement_date": "29/10/2021",
         "gia_lost": 0
       }
     ],
@@ -89,19 +119,19 @@
         "intended_commencement_date": "12/2023"
       }
     ],
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "surface_water_discharge_percentage_reduction": 10,
     "infrastructure_details": {
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
       "total_annual_pm_emissions": 0,
-      "fire_suppression_system_proposed": true,
+      "fire_suppression_system_proposed": false,
       "no_active_rapid_ev_charging_points": 0,
       "no_passive_rapid_ev_charging_points": 2,
       "percentage_demolition_construction_material_recycling": 0,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "no_new_water_connections_required": 1,
-      "waste_provision": true,
+      "waste_provision": false,
       "green_roof_area": 0,
       "no_new_gas_connections_required": 1,
       "no_resi_units_to_have_full_fibre": 1,
@@ -132,15 +162,16 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 148.8,
       "total_gia_lost": 0,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "site_area": 0.0175
     },
     "total_gia_gained": 148.8,
     "residential_details": {
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units": 0,
-      "habitable_rooms_density": null,
-      "dwelling_density": 0,
+      "habitable_rooms_density": 342.85714285714283,
+      "dwelling_density": 114.28571428571428,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
@@ -169,24 +200,34 @@
       "total_no_proposed_residential_units_intermediate": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 3,
-          "provider": "Private",
-          "unit_no": "Gain-1",
+          "actual_completion_date": "13/02/2024",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 61.2,
-          "tenure": "Market for rent"
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "29/10/2021",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 61.2
         },
         {
-          "no_habitable_rooms": 3,
-          "provider": "Private",
-          "unit_no": "Gain-2",
+          "actual_completion_date": "13/02/2024",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 80.5,
-          "tenure": "Market for rent"
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "29/10/2021",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 80.5
         }
       ],
       "total_no_existing_residential_units_affordable_rent": 0,
@@ -195,12 +236,25 @@
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0
+      "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "site_area": 0.0175
     },
     "garden_land_lost": false,
-    "rain_water_harvesting": false
+    "rain_water_harvesting": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.0175
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "lpa_app_no": "233982FUL",
   "cil_liability": false,
   "appeal_decision_date": null,
