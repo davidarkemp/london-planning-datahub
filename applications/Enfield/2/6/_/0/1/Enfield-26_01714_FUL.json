@@ -6,7 +6,7 @@
   "decision": null,
   "appeal_decision": null,
   "valid_date": "02/06/2026",
-  "description": "Change of use from Use Class C3 (dwelling house) to a Class Sui Generis (HMO - house in multiple occupation) and single storey rear extension, rear dormer with associated amenity, cycle and refuse storage.\r\r",
+  "description": "Change of use from Use Class C3 (dwelling house) to a Class Sui Generis (HMO - house in multiple occupation) with single storey side and rear extensions, rear dormer with associated amenity, cycle and refuse storage.\r\r",
   "status": "Application Under Consideration",
   "last_updated_by": "Idox Uniform",
   "site_number": "476",
@@ -15,7 +15,7 @@
   "development_type": "Other change of use",
   "subdivision_of_building": null,
   "centroid_northing": 198199,
-  "last_updated": "2026-06-10T20:15:44.041Z",
+  "last_updated": "2026-06-11T20:08:28.831Z",
   "lapsed_date": null,
   "bo_system": "Idox Uniform",
   "centroid": {
@@ -45,39 +45,39 @@
       "total_no_proposed_residential_units_market_for_rent": 1,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
           "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "HMO",
           "provider": "Private rented sector",
-          "m43_2a_compliant": false,
-          "phase_detail": null,
-          "garden_land": false,
-          "tenure": "Market for rent",
           "no_habitable_rooms": 9,
-          "description": null,
+          "phase_detail": null,
           "unit_no": null,
           "no_bedrooms": 8,
-          "change_type": "Gain",
-          "sheltered_accommodation": false,
-          "gia": 130,
           "provision_for_older_persons": false,
-          "m43_2b_compliant": false
+          "tenure": "Market for rent",
+          "gia": 130
         },
         {
-          "m42_compliant": false,
-          "unit_type": "Terraced Home",
+          "m43_2b_compliant": false,
           "m43_2a_compliant": false,
-          "phase_detail": null,
-          "garden_land": false,
-          "tenure": "Market for sale",
-          "no_habitable_rooms": 5,
           "description": null,
+          "m42_compliant": false,
+          "change_type": "Loss",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Terraced Home",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
           "unit_no": null,
           "no_bedrooms": 3,
-          "change_type": "Loss",
-          "sheltered_accommodation": false,
-          "gia": 88,
           "provision_for_older_persons": false,
-          "m43_2b_compliant": false
+          "tenure": "Market for sale",
+          "gia": 88
         }
       ],
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
@@ -109,23 +109,23 @@
     },
     "phasing_details": [
       {
-        "intended_completion_date": "09/2026",
         "phase_detail": "Entire Development",
+        "intended_completion_date": "09/2026",
         "intended_commencement_date": "06/2026"
       }
     ],
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3",
-        "gia_lost": 130,
         "gia_existing": 130,
-        "gia_gained": 0
+        "use_class": "C3",
+        "gia_gained": 0,
+        "gia_lost": 130
       },
       {
-        "use_class": "SG",
-        "gia_lost": 0,
         "gia_existing": 0,
-        "gia_gained": 130
+        "use_class": "SG",
+        "gia_gained": 130,
+        "gia_lost": 0
       }
     ],
     "total_gia_existing": 130,
@@ -141,36 +141,36 @@
     "affordable_housing_fast_track": false,
     "constraints_details": [
       {
-        "constraints_layer_description": "LHA Maximum Height Level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet).",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "LHA Maximum Height Level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet)."
       },
       {
-        "constraints_layer_description": "LLA Maximum height level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet)",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "LLA Maximum height level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet)"
       },
       {
-        "constraints_layer_description": "SIARIN Description: Multi-period site including Ermine Street, medieval manors, post medieval Elsynge Palace and Flash R\rName: Whitewebbs Hill, Bulls Cross and Forty Hill",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "SIARIN Description: Multi-period site including Ermine Street, medieval manors, post medieval Elsynge Palace and Flash R\rName: Whitewebbs Hill, Bulls Cross and Forty Hill"
       },
       {
-        "constraints_layer_description": "DCAREA Area: NORTH\rCode: DCAREA_N",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "DCAREA Area: NORTH\rCode: DCAREA_N"
       },
       {
-        "constraints_layer_description": "PRIROA Name: BAKER STREET",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "PRIROA Name: BAKER STREET"
       },
       {
-        "constraints_layer_description": "WARDS Name: Whitewebbs",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "WARDS Name: Whitewebbs"
       },
       {
-        "constraints_layer_description": "CILRES CIL ZONE: Intermediate Zone - RATE: £60 per square metre",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "CILRES CIL ZONE: Intermediate Zone - RATE: £60 per square metre"
       },
       {
-        "constraints_layer_description": "EFCAZI Chargeable Zone Value: 6176",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "EFCAZI Chargeable Zone Value: 6176"
       }
     ],
     "green_suds": true,
@@ -230,16 +230,17 @@
     "building_details": [
       {
         "no_storeys": null,
-        "building_ref": "Main Dwelling (Extended)",
-        "max_height": 8.95
+        "max_height": 8.95,
+        "building_ref": "Main Dwelling (Extended)"
       },
       {
         "no_storeys": null,
-        "building_ref": "Ancillary Cycle Store (New Building)",
-        "max_height": 2.1
+        "max_height": 2.1,
+        "building_ref": "Ancillary Cycle Store (New Building)"
       }
     ],
-    "site_area": 165
+    "site_area": 165,
+    "s106_agreement": true
   },
   "street_name": "Baker Street",
   "decision_agency": null,

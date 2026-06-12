@@ -1,9 +1,76 @@
 {
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection",
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              528160,
+              181172
+            ],
+            [
+              528145,
+              181169
+            ],
+            [
+              528149,
+              181158
+            ],
+            [
+              528114,
+              181146
+            ],
+            [
+              528111,
+              181152
+            ],
+            [
+              528098,
+              181148
+            ],
+            [
+              528107,
+              181111
+            ],
+            [
+              528114,
+              181114
+            ],
+            [
+              528120,
+              181100
+            ],
+            [
+              528122,
+              181088
+            ],
+            [
+              528111,
+              181087
+            ],
+            [
+              528115,
+              181057
+            ],
+            [
+              528195,
+              181068
+            ],
+            [
+              528160,
+              181172
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ]
+  },
   "reference_no_of_permission_being_relied_on": null,
   "pp_id": "PP-9869573",
   "appeal_status": null,
-  "last_updated": "2025-04-30T20:04:05.394Z",
+  "last_updated": "2026-06-11T20:02:37.961Z",
   "appeal_decision_date": "05/12/2024",
   "status": "Allowed",
   "decision_process": "Delegated",
@@ -32,8 +99,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "01/2023",
-        "intended_completion_date": "01/2027"
+        "intended_completion_date": "01/2027",
+        "intended_commencement_date": "01/2023"
       }
     ],
     "total_gia_gained": 60777,
@@ -44,42 +111,43 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 34837.7,
-        "gia_gained": 0,
         "use_class": "SpecifiedOther",
+        "gia_gained": 0,
         "gia_lost": 34608.7
       },
       {
         "gia_existing": 754,
-        "gia_gained": 0,
         "use_class": "SpecifiedOther",
+        "gia_gained": 0,
         "gia_lost": 754
       },
       {
         "gia_existing": 0,
-        "gia_gained": 60777,
         "use_class": "SpecifiedOther",
+        "gia_gained": 60777,
         "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Over £100m",
-    "rain_water_harvesting": true,
-    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "scheme_phasing": false,
     "building_details": [
       {
-        "no_storeys": 10,
+        "no_storeys": 9,
         "max_height": 70.31,
-        "building_ref": "Top AOD (Height of Lift Overrun)"
+        "building_ref": "Building 1"
       }
     ],
-    "grey_water_reuse": true,
-    "green_suds": true,
+    "grey_water_reuse": false,
+    "green_suds": false,
     "surface_water_discharge_percentage_reduction": 98,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 60777,
       "total_gia_lost": 35362.7,
-      "total_gia_existing": 35591.7
+      "total_gia_existing": 35591.7,
+      "site_area": 0.67
     },
     "garden_land_lost": false,
     "infrastructure_details": {
@@ -92,13 +160,13 @@
       "no_new_water_connections_required": 1,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 99,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
-      "fire_suppression_system_proposed": true,
+      "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "chp_heat_pumps_capacity": 2.5
     },
     "residential_details": {
@@ -139,10 +207,24 @@
       "affordable_percentage": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.67
     },
     "internal_resi_water_usage": 0,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.67
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "cil_liability": false,
   "postcode": "W1C 1AP",
@@ -229,24 +311,60 @@
     "coordinates": [
       [
         [
-          -0.154323,
-          51.514065
+          -0.154424,
+          51.514943
         ],
         [
-          -0.154324,
-          51.514038
+          -0.154641,
+          51.51492
         ],
         [
-          -0.154367,
-          51.514039
+          -0.154588,
+          51.51482
         ],
         [
-          -0.154366,
-          51.514066
+          -0.155096,
+          51.51472
         ],
         [
-          -0.154323,
-          51.514065
+          -0.155137,
+          51.514775
+        ],
+        [
+          -0.155326,
+          51.514742
+        ],
+        [
+          -0.15521,
+          51.514407
+        ],
+        [
+          -0.155108,
+          51.514432
+        ],
+        [
+          -0.155026,
+          51.514305
+        ],
+        [
+          -0.155002,
+          51.514197
+        ],
+        [
+          -0.155161,
+          51.51419
+        ],
+        [
+          -0.155114,
+          51.51392
+        ],
+        [
+          -0.153958,
+          51.514001
+        ],
+        [
+          -0.154424,
+          51.514943
         ]
       ]
     ],
