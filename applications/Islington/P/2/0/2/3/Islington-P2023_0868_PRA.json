@@ -7,7 +7,7 @@
     "infrastructure_details": {
       "no_new_water_connections_required": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "total_annual_pm_emissions": 0,
       "green_roof_area": 0,
       "percentage_demolition_construction_material_recycling": 0,
@@ -23,7 +23,7 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 105,
-        "use_class": "SpecifiedOther",
+        "use_class": "E(b)",
         "gia_gained": 0,
         "gia_lost": 105
       },
@@ -34,11 +34,11 @@
         "gia_lost": 0
       }
     ],
-    "existing_uprns": null,
+    "existing_uprns": [],
     "total_gia_lost": 105,
     "residential_details": {
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 199.99999999999997,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
@@ -55,14 +55,20 @@
       "total_no_existing_residential_units": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 3,
-          "provider": "Private",
-          "unit_no": "Gain-1",
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": false,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 105,
-          "tenure": "Market for sale"
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 105
         }
       ],
       "total_no_proposed_residential_units_social_rent": 0,
@@ -79,14 +85,15 @@
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_starter_homes": 0,
       "affordable_percentage": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 66.66666666666666,
       "total_gia_lost": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_gia_gained": 105,
       "total_no_proposed_bedrooms": 2,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 1,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.015000000000000001
     },
     "occupation_status": "Vacant",
     "total_gia_existing": 105,
@@ -97,12 +104,30 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_lost": 105,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_existing": 105
+      "total_gia_existing": 105,
+      "site_area": 0.015000000000000001
     },
     "intended_commencement_date": "06/2023",
     "s106_agreement": false,
     "lead_developer_company_name": "Councillor Angelo Weekes",
-    "site_area": 0.015000000000000001
+    "site_area": 0.015000000000000001,
+    "affordable_housing_fast_track": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "scheme_phasing": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.015000000000000001
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "garden_land_lost": false
   },
   "decision_target_date": "18/05/2023",
   "last_date_consultation_comments": "30/04/2023",
@@ -117,17 +142,17 @@
   "centroid_easting": 532913,
   "centroid_northing": 185241,
   "uprn": "5300062794",
-  "last_updated": "2025-03-19T23:37:21.312+00:00",
+  "last_updated": "2026-06-15T15:27:33.366Z",
   "description": "Notification of Prior Approval for the change of use of the lower ground and ground floors from commercial (Class E) to provide 1 x 2 bed self-contained flat (Class C3).",
   "subdivision_of_building": null,
   "decision_agency": "Borough",
   "valid_date": "24/03/2023",
   "centroid": {
-    "lat": "51.5504134",
-    "lon": "-0.0844062"
+    "lat": 51.550412,
+    "lon": -0.084433
   },
-  "title_number": null,
-  "status": "Approved",
+  "title_number": [],
+  "status": "Lapsed",
   "application_type_full": "Prior Approval: Change of use from Commercial, Business and Service (Use Class E) to Dwellinghouses (Use Class C3)",
   "decision_process": "Delegated",
   "application_type": "All Other",
@@ -136,7 +161,7 @@
   "street_name": "Mildmay Park",
   "borough": "Islington",
   "epc_number": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Portal",
   "date_building_work_started_under_previous_permission": null,
   "pp_id": "11999452            ",
   "decision": "Approved",
@@ -148,40 +173,40 @@
     "coordinates": [
       [
         [
-          -0.0844182,
-          51.5504388
+          -0.084445,
+          51.550437
         ],
         [
-          -0.0842501,
-          51.5504576
+          -0.084277,
+          51.550456
         ],
         [
-          -0.0842359,
-          51.5503998
+          -0.084262,
+          51.550398
         ],
         [
-          -0.08440399999999999,
-          51.5503828
+          -0.08443,
+          51.550381
         ],
         [
-          -0.0844351,
-          51.5503797
+          -0.084462,
+          51.550378
         ],
         [
-          -0.08456759999999999,
-          51.5503666
+          -0.084594,
+          51.550365
         ],
         [
-          -0.0845834,
-          51.5504226
+          -0.08461,
+          51.550421
         ],
         [
-          -0.0844501,
-          51.5504357
+          -0.084477,
+          51.550434
         ],
         [
-          -0.0844182,
-          51.5504388
+          -0.084445,
+          51.550437
         ]
       ]
     ],
@@ -239,9 +264,9 @@
     "type": "GeometryCollection"
   },
   "id": "Islington-P2023_0868_PRA",
-  "bo_system": "Agile APAS",
+  "bo_system": "Portal",
   "postcode": "N1 4PR",
   "decision_conditions": [
-    "3 YEAR CONSENT PERIOD:  The development hereby permitted shall be begun not later than the expiration of three years from the date of this permission.\r\n\r\nREASON: To comply with the provisions of Section 91(1)(a) of the Town and Country Planning Act 1990 as amended by the Planning and Compulsory Purchase Act 2004 (Chapter 5)."
+    "3 YEAR CONSENT PERIOD:  The development hereby permitted shall be begun not later than the expiration of three years from the date of this permission.\n\nREASON: To comply with the provisions of Section 91(1)(a) of the Town and Country Planning Act 1990 as amended by the Planning and Compulsory Purchase Act 2004 (Chapter 5)."
   ]
 }
