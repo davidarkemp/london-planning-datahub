@@ -63,7 +63,7 @@
     ],
     "type": "Polygon"
   },
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Portal",
   "url_planning_app": "https://planningrecords.camden.gov.uk/Northgate/PlanningExplorer/DisplayAppDetails.aspx?AppNo=2024/3231/P",
   "decision_target_date": "25/10/2024",
   "status": "Approved",
@@ -80,7 +80,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 20,
-      "total_gia_existing": 287
+      "total_gia_existing": 287,
+      "site_area": 0.0431
     },
     "affordable_housing_fast_track": false,
     "grey_water_reuse": false,
@@ -95,13 +96,15 @@
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_gia_lost": 254,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 208.8167053364269,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_starter_homes": 0,
       "residential_units": [
         {
           "no_habitable_rooms": 4,
-          "unit_no": "Loss-1",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
           "no_bedrooms": 2,
@@ -112,7 +115,9 @@
         },
         {
           "no_habitable_rooms": 2,
-          "unit_no": "Loss-2",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
           "no_bedrooms": 1,
@@ -123,7 +128,9 @@
         },
         {
           "no_habitable_rooms": 3,
-          "unit_no": "Loss-3",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
           "no_bedrooms": 1,
@@ -135,20 +142,26 @@
         {
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "unit_no": "Gain-1",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Studio Bedsit",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "gia": 37,
           "tenure": "Market for sale"
         },
         {
           "no_habitable_rooms": 7,
           "provider": "Private",
-          "unit_no": "Gain-2",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 4,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 4,
+          "provision_for_older_persons": false,
           "gia": 269,
           "tenure": "Market for sale"
         }
@@ -165,7 +178,7 @@
       "total_no_proposed_residential_units": 2,
       "affordable_percentage": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 46.40371229698376,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_market_for_sale": 3,
       "total_no_proposed_residential_units_affordable_rent": 0,
@@ -179,13 +192,14 @@
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "total_no_existing_residential_units_discount_market_rent": 0
+      "total_no_existing_residential_units_discount_market_rent": 0,
+      "site_area": 0.0431
     },
     "internal_resi_water_usage": 160,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "infrastructure_details": {
       "no_non_resi_units_to_have_full_fibre": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "fire_suppression_system_proposed": false,
       "percentage_demolition_construction_material_recycling": 10,
       "no_new_gas_connections_required": 0,
@@ -216,12 +230,25 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_completion_date": "02/2026",
-        "intended_commencement_date": "12/2024"
+        "intended_commencement_date": "12/2024",
+        "intended_completion_date": "02/2026"
       }
     ],
     "projected_cost_of_works": "Up to £2m",
-    "total_gia_existing": 287
+    "total_gia_existing": 287,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.0431
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "appeal_decision_date": null,
   "decision_date": "23/10/2024",
@@ -232,7 +259,7 @@
   "ward": "Highgate",
   "lapsed_date": "23/10/2027",
   "last_date_consultation_comments": "08/09/2024",
-  "bo_system": "Northgate M3",
+  "bo_system": "Portal",
   "lpa_app_no": "2024/3231/P",
   "postcode": "NW5 1SL",
   "pp_id": "12990118",
@@ -312,17 +339,17 @@
   "actual_commencement_date": null,
   "site_name": null,
   "decision_conditions": [
-    "Condition : 1 - The development hereby permitted must be begun not later than the end of three years from the date of this permission.\r\n\r\nReason: In order to comply with the provisions of Section 91 of the Town and Country Planning Act 1990 (as amended).\r\n\r\n",
-    "Condition : 2 - The development hereby permitted shall be carried out in accordance with the following approved documents and drawings;\r\n\r\n61DAR:- 000 Rev 2, 001, 002, 003, 020, 021, 030, 031, 032 Rev 2, 100 Rev 2, 101 Rev 2, 102 Rev 2, 103 Rev 2, 200 Rev 2, 201 Rev 2, 300, 301 Rev 2, 302 Rev 2\r\n\r\nHeritage, Design and Access Statement (Rev A | Ref: 61DAR-A-4-ST_240731),  Daylight & Sunlight Summary Report (Delva Patman Redler), Arboricultural Impact Assessment, Method Statement & Tree Protection Plan - Trevor Heaps Arboricultural Consultancy Ltd - TH 4675 - 20/06/2024)\r\n\r\nReason: For the avoidance of doubt and in the interest of proper planning.\r\n",
-    "Condition : 3 - All new external work shall be carried out in materials that resemble, as closely as possible, in colour and texture those of the existing building, unless otherwise specified in the approved application. \r\n\r\nReason: To safeguard the appearance of the premises and the character of the immediate area in accordance with the requirements of policies D1 and D2 of the London Borough of Camden Local Plan 2017 and policies DC1, DC2, DC3, of DC4 of the Dartmouth Park Neighbourhood Plan 2020.\r\n",
-    "Condition : 4 - No development shall take place until full details of hard and soft landscaping and means of enclosure of all un-built, open areas have been submitted to and approved by the local planning authority in writing. The relevant part of the works shall not be carried out otherwise than in accordance with the details thus approved. \r\n\r\nReason: To ensure that the development achieves a high quality of landscaping which contributes to the visual amenity and character of the area in accordance with the requirements of policies A2, A3, A5, D1 and D2 of the London Borough of Camden Local Plan 2017 and policies ES2 and ES3 of the Dartmouth Park Neighbourhood Plan 2020.\r\n\r\n",
-    "Condition : 5 - Prior to the commencement of works on site, tree protection measures shall be installed and working practices adopted in accordance with the document entitled Arboricultural Impact Assessment, Method Statement & Tree Protection Plan - Trevor Heaps Arboricultural Consultancy Ltd - TH 4675 - 20/06/2024).  All trees on the site, or parts of trees growing from adjoining sites, unless shown on the permitted drawings as being removed, shall be retained and protected from damage in accordance with BS5837:2012 and with the approved protection details. The development shall be monitored by the project arboriculturalist in accordance with the approved report.\r\n\r\nReason: To ensure that the development will not have an adverse effect on existing trees and in order to maintain the character and amenity of the area in accordance with the requirements of policies A2 and A3 of the Camden Local Plan and policies ES2 and ES3 of the Dartmouth Park Neighbourhood Plan 2020.\r\n\r\n"
+    "Condition : 1 - The development hereby permitted must be begun not later than the end of three years from the date of this permission.\n\nReason: In order to comply with the provisions of Section 91 of the Town and Country Planning Act 1990 (as amended).",
+    "Condition : 2 - The development hereby permitted shall be carried out in accordance with the following approved documents and drawings;\n\n61DAR:- 000 Rev 2, 001, 002, 003, 020, 021, 030, 031, 032 Rev 2, 100 Rev 2, 101 Rev 2, 102 Rev 2, 103 Rev 2, 200 Rev 2, 201 Rev 2, 300, 301 Rev 2, 302 Rev 2\n\nHeritage, Design and Access Statement (Rev A | Ref: 61DAR-A-4-ST_240731),  Daylight & Sunlight Summary Report (Delva Patman Redler), Arboricultural Impact Assessment, Method Statement & Tree Protection Plan - Trevor Heaps Arboricultural Consultancy Ltd - TH 4675 - 20/06/2024)\n\nReason: For the avoidance of doubt and in the interest of proper planning.",
+    "Condition : 3 - All new external work shall be carried out in materials that resemble, as closely as possible, in colour and texture those of the existing building, unless otherwise specified in the approved application. \n\nReason: To safeguard the appearance of the premises and the character of the immediate area in accordance with the requirements of policies D1 and D2 of the London Borough of Camden Local Plan 2017 and policies DC1, DC2, DC3, of DC4 of the Dartmouth Park Neighbourhood Plan 2020.",
+    "Condition : 4 - No development shall take place until full details of hard and soft landscaping and means of enclosure of all un-built, open areas have been submitted to and approved by the local planning authority in writing. The relevant part of the works shall not be carried out otherwise than in accordance with the details thus approved. \n\nReason: To ensure that the development achieves a high quality of landscaping which contributes to the visual amenity and character of the area in accordance with the requirements of policies A2, A3, A5, D1 and D2 of the London Borough of Camden Local Plan 2017 and policies ES2 and ES3 of the Dartmouth Park Neighbourhood Plan 2020.",
+    "Condition : 5 - Prior to the commencement of works on site, tree protection measures shall be installed and working practices adopted in accordance with the document entitled Arboricultural Impact Assessment, Method Statement & Tree Protection Plan - Trevor Heaps Arboricultural Consultancy Ltd - TH 4675 - 20/06/2024).  All trees on the site, or parts of trees growing from adjoining sites, unless shown on the permitted drawings as being removed, shall be retained and protected from damage in accordance with BS5837:2012 and with the approved protection details. The development shall be monitored by the project arboriculturalist in accordance with the approved report.\n\nReason: To ensure that the development will not have an adverse effect on existing trees and in order to maintain the character and amenity of the area in accordance with the requirements of policies A2 and A3 of the Camden Local Plan and policies ES2 and ES3 of the Dartmouth Park Neighbourhood Plan 2020."
   ],
   "application_type_full": "Full planning permission",
   "centroid_northing": 186100,
   "epc_number": "2781-4862-1011-4832-2709",
   "actual_completion_date": null,
-  "title_number": null,
+  "title_number": [],
   "appeal_status": null,
   "borough": "Camden",
   "cil_liability": false,
@@ -330,7 +357,7 @@
   "id": "Camden-2024_3231_P",
   "description": "Amalgamation of three existing flats to create one studio flat and one four-bedroom flat. Lower ground floor rear extension and single storey side 'infill' extension.  Roof replacement with new rooflights (side and rear roofslopes).  New windows in side elevation.  Window alterations and provision of upper ground floor level balustrade and trellis on rear elevation.  New front boundary wall with railings and gate. Alterations to the front garden and rear patio. Replacement tree at front.",
   "appeal_start_date": null,
-  "last_updated": "2025-03-19T20:20:13.764+00:00",
+  "last_updated": "2026-06-16T15:17:09.658Z",
   "centroid": {
     "lon": -0.143145,
     "lat": 51.55908
