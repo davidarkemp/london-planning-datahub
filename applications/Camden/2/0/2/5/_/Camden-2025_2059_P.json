@@ -7,8 +7,8 @@
   "epc_number": "2235-4824-1400-0913-8202",
   "appeal_decision_date": null,
   "decision_conditions": [
-    "Condition : 1 - The development hereby permitted must be begun not later than the end of three years from the date of this permission.\r\n\r\nReason: In order to comply with the provisions of Section 91 of the Town and Country Planning Act 1990 (as amended).\r\n\r\n",
-    "Condition : 2 - The development hereby permitted shall be carried out in accordance with the following approved plans: Design and Access Statement, Location Plan 1:1250, Drawing 1, Drawing 2. \r\n\r\nReason: For the avoidance of doubt and in the interest of proper planning.\r\n"
+    "Condition : 1 - The development hereby permitted must be begun not later than the end of three years from the date of this permission.\n\nReason: In order to comply with the provisions of Section 91 of the Town and Country Planning Act 1990 (as amended).",
+    "Condition : 2 - The development hereby permitted shall be carried out in accordance with the following approved plans: Design and Access Statement, Location Plan 1:1250, Drawing 1, Drawing 2. \n\nReason: For the avoidance of doubt and in the interest of proper planning."
   ],
   "postcode": "NW5 1UH",
   "appeal_decision": null,
@@ -80,14 +80,14 @@
   "decision_process": null,
   "lapsed_date": "23/06/2028",
   "locality": "London",
-  "bo_system": "Northgate M3",
+  "bo_system": "Portal",
   "ward": "Kentish Town North",
   "lpa_name": "Camden",
   "centroid_northing": 185732,
   "lpa_app_no": "2025/2059/P",
   "last_date_consultation_comments": "09/06/2025",
   "application_type": "All Other",
-  "title_number": null,
+  "title_number": [],
   "borough": "Camden",
   "parking_details": null,
   "pp_id": "13993050",
@@ -100,7 +100,7 @@
       "total_annual_pm_emissions": 0,
       "no_resi_units_to_have_full_fibre": 1,
       "ghg_reduction_over_building_regulations": false,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_homes_passive_cooling": 0,
       "no_new_water_connections_required": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
@@ -114,7 +114,7 @@
     },
     "total_gia_lost": 0,
     "surface_water_discharge_percentage_reduction": 0,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "garden_land_lost": false,
     "total_gia_gained": 0,
     "internal_resi_water_usage": 142,
@@ -126,7 +126,7 @@
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_market_for_sale": 2,
-      "dwelling_density": 0,
+      "dwelling_density": 72.46376811594202,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units": 2,
       "total_no_proposed_bedrooms": 5,
@@ -139,7 +139,7 @@
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 797.1014492753623,
       "total_no_existing_residential_units_london_living_rent": 0,
       "total_gia_lost": 173.31,
       "total_no_proposed_residential_units_intermediate": 0,
@@ -148,7 +148,9 @@
       "residential_units": [
         {
           "no_habitable_rooms": 4,
-          "unit_no": "Loss-1",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
           "no_bedrooms": 2,
@@ -159,7 +161,9 @@
         },
         {
           "no_habitable_rooms": 7,
-          "unit_no": "Loss-2",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
           "no_bedrooms": 3,
@@ -171,10 +175,13 @@
         {
           "no_habitable_rooms": 11,
           "provider": "Private",
-          "unit_no": "Gain-1",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 5,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 5,
+          "provision_for_older_persons": false,
           "gia": 173.31,
           "tenure": "Market for sale"
         }
@@ -190,14 +197,16 @@
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
-      "total_no_proposed_residential_units_market_for_rent": 0
+      "total_no_proposed_residential_units_market_for_rent": 0,
+      "site_area": 0.013800000000000002
     },
     "non_residential_details": {
       "total_gia_gained": 0,
       "total_gia_existing": 173.31,
       "total_gia_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "site_area": 0.013800000000000002
     },
     "phasing_details": [
       {
@@ -213,13 +222,26 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 173.31,
-        "gia_gained": 0,
         "use_class": "C3",
+        "gia_gained": 0,
         "gia_lost": 0
       }
     ],
     "total_gia_existing": 173.31,
-    "affordable_housing_fast_track": false
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.013800000000000002
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "valid_date": "14/05/2025",
   "url_planning_app": "https://planningrecords.camden.gov.uk/Northgate/PlanningExplorer/DisplayAppDetails.aspx?AppNo=2025/2059/P",
@@ -283,7 +305,7 @@
     "type": "Polygon"
   },
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated": "2025-06-25T10:21:03.047Z",
+  "last_updated": "2026-06-17T13:39:52.038Z",
   "appeal_status": null,
   "decision_target_date": "09/07/2025",
   "subdivision_of_building": null,
@@ -300,7 +322,7 @@
   "application_type_full": "Full planning permission",
   "date_building_work_started_under_previous_permission": null,
   "site_number": "59",
-  "last_updated_by": "Northgate M3",
+  "last_updated_by": "Portal",
   "id": "Camden-2025_2059_P",
   "description": "Conversion of two flats (59a and 59b Burghley Road) into a single family dwelling house.",
   "decision_agency": "Borough"

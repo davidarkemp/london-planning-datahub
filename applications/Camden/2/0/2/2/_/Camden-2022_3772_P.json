@@ -1,6 +1,6 @@
 {
   "reference_no_of_permission_being_relied_on": null,
-  "title_number": null,
+  "title_number": [],
   "application_type_full": "Full planning & listed building consent",
   "lpa_app_no": "2022/3772/P",
   "url_planning_app": "https://planningrecords.camden.gov.uk/Northgate/PlanningExplorer/DisplayAppDetails.aspx?AppNo=2022/3772/P",
@@ -19,7 +19,7 @@
   "epc_number": null,
   "appeal_status": null,
   "last_date_consultation_comments": "08/01/2023",
-  "description": "Change of use from office (Class E) to residential (Class C) to form a two bedroom flat.\r\n",
+  "description": "Change of use from office (Class E) to residential (Class C) to form a two bedroom flat.\n",
   "wgs84_polygon": {
     "coordinates": [
       [
@@ -96,16 +96,16 @@
     "type": "Polygon"
   },
   "development_type": "Other change of use",
-  "last_updated_by": "Northgate M3",
+  "last_updated_by": "Portal",
   "locality": "London",
   "site_name": "Former Offices And Premises At 1st Floor",
   "appeal_decision_date": null,
   "date_building_work_completed_under_previous_permission": null,
   "cil_liability": false,
   "decision_conditions": [
-    "Condition : 1 - The development hereby permitted must be begun not later than the end of three years from the date of this permission.\r\n\r\nReason: In order to comply with the provisions of Section 91 of the Town and Country Planning Act 1990 (as amended).\r\n\r\n",
-    "Condition : 2 - The development hereby permitted shall be carried out in accordance with the following approved plans 05/1087/PLAN/201_A; 05/1111/PLAN/205; 05/1111/PLAN/206_A\r\n\r\nReason: For the avoidance of doubt and in the interest of proper planning.\r\n\r\n",
-    "Condition : 3 - The development hereby approved shall achieve a maximum internal water use of 110litres/person/day. The dwelling/s shall not be occupied until the Building Regulation optional requirement has been complied with. \r\n\r\nReason: To ensure the development contributes to minimising the need for further water infrastructure in an area of water stress in accordance with Policies CC1, CC2, CC3 of the London Borough of Camden Local Plan 2017.\r\n"
+    "Condition : 1 - The development hereby permitted must be begun not later than the end of three years from the date of this permission.\n\nReason: In order to comply with the provisions of Section 91 of the Town and Country Planning Act 1990 (as amended).",
+    "Condition : 2 - The development hereby permitted shall be carried out in accordance with the following approved plans 05/1087/PLAN/201_A; 05/1111/PLAN/205; 05/1111/PLAN/206_A\n\nReason: For the avoidance of doubt and in the interest of proper planning.",
+    "Condition : 3 - The development hereby approved shall achieve a maximum internal water use of 110litres/person/day. The dwelling/s shall not be occupied until the Building Regulation optional requirement has been complied with. \n\nReason: To ensure the development contributes to minimising the need for further water infrastructure in an area of water stress in accordance with Policies CC1, CC2, CC3 of the London Borough of Camden Local Plan 2017."
   ],
   "postcode": "NW3 6UP",
   "application_type": "All Other",
@@ -119,10 +119,10 @@
   "decision_target_date": "14/03/2025",
   "id": "Camden-2022_3772_P",
   "lpa_name": "Camden",
-  "bo_system": "Northgate M3",
+  "bo_system": "Portal",
   "decision_agency": "Borough",
   "date_building_work_started_under_previous_permission": null,
-  "last_updated": "2025-04-16T14:00:55.299Z",
+  "last_updated": "2026-06-17T14:59:57.881Z",
   "street_name": "Church Row",
   "decision": "Approved",
   "appeal_start_date": null,
@@ -136,14 +136,15 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_lost": 82,
-      "total_gia_gained": 82
+      "total_gia_gained": 82,
+      "site_area": 0.012400000000000001
     },
     "ownership_status": "Private",
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_completion_date": "04/2023",
-        "intended_commencement_date": "02/2023"
+        "intended_commencement_date": "02/2023",
+        "intended_completion_date": "04/2023"
       }
     ],
     "site_area": 0.012400000000000001,
@@ -163,7 +164,7 @@
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_social_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 80.64516129032258,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
@@ -193,7 +194,7 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_proposed_bedrooms": 2,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 241.93548387096772,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
@@ -202,14 +203,18 @@
         {
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "unit_no": "Gain-1",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "tenure": "Market for rent",
-          "gia": 82
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "gia": 82,
+          "tenure": "Market for rent"
         }
-      ]
+      ],
+      "site_area": 0.012400000000000001
     },
     "affordable_housing_fast_track": false,
     "building_details": [
@@ -219,7 +224,7 @@
         "building_ref": "0"
       }
     ],
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "green_suds": false,
     "rain_water_harvesting": false,
     "infrastructure_details": {
@@ -251,7 +256,19 @@
       "no_resi_units_to_have_full_fibre": 1
     },
     "internal_resi_water_usage": 105,
-    "existing_uprns": null
+    "existing_uprns": [],
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.012400000000000001
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "appeal_decision": null,
   "polygon": {

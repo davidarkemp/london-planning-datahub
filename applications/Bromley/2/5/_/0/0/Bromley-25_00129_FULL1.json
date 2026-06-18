@@ -21,11 +21,13 @@
   "actual_commencement_date": null,
   "decision_target_date": "24/03/2025",
   "lpa_name": "Bromley",
-  "centroid_northing": "165971",
-  "last_updated": "2025-04-23T20:00:26.910Z",
+  "centroid_northing": 165973,
+  "last_updated": "2026-06-17T16:38:16.636Z",
   "development_type": null,
   "ward": "BROCOH",
-  "parking_details": null,
+  "parking_details": {
+    "no_proposed_car": 4
+  },
   "uprn": "100020403089",
   "application_details": {
     "affordable_housing_fast_track": false,
@@ -46,14 +48,19 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "residential_units": [
         {
+          "description": null,
+          "change_type": "Gain",
+          "garden_land": false,
+          "unit_type": "House or Bungalow",
+          "unit_development_type": "New Build",
           "no_habitable_rooms": 7,
           "provider": "Self-Build",
-          "unit_no": "Gain-1",
-          "change_type": "Gain",
+          "phase_detail": null,
+          "unit_no": null,
           "no_bedrooms": 4,
-          "unit_type": "House or Bungalow",
-          "tenure": "Self-Build and Custom Build",
-          "gia": 211
+          "provision_for_older_persons": false,
+          "gia": 211,
+          "tenure": "Self-Build and Custom Build"
         }
       ],
       "total_no_existing_residential_units_affordable_rent": 0,
@@ -69,18 +76,19 @@
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 43.75,
       "total_no_existing_residential_units_starter_homes": 0,
       "total_gia_lost": 0,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 6.25,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_existing_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "total_no_proposed_residential_units_market_for_sale": 0
+      "total_no_proposed_residential_units_market_for_sale": 0,
+      "site_area": 0.16
     },
     "rain_water_harvesting": false,
     "surface_water_discharge_percentage_reduction": 0,
@@ -88,22 +96,23 @@
     "phasing_details": [
       {
         "phase_detail": "Single phase",
-        "intended_completion_date": "06/2025",
-        "intended_commencement_date": "04/2025"
+        "intended_commencement_date": "04/2025",
+        "intended_completion_date": "06/2025"
       }
     ],
     "projected_cost_of_works": "Up to £2m",
-    "total_gia_lost": 0,
+    "total_gia_lost": 211,
     "total_gia_gained": 211,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "ownership_status": "Private",
-    "total_gia_existing": 0,
+    "total_gia_existing": 211,
     "non_residential_details": {
-      "total_gia_existing": 0,
-      "total_gia_lost": 0,
+      "total_gia_existing": 211,
+      "total_gia_lost": 211,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 211,
-      "total_non_resi_gross_internal_floor_area_to_be_gained": 211
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 211,
+      "site_area": 0.16
     },
     "infrastructure_details": {
       "no_homes_to_have_electrical_heating": 0,
@@ -112,7 +121,7 @@
       "total_annual_pm_emissions": 0,
       "green_roof_area": 0,
       "no_new_water_connections_required": 1,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_non_resi_units_to_have_full_fibre": 1,
       "ghg_reduction_over_building_regulations": false,
@@ -125,17 +134,31 @@
     "internal_resi_water_usage": 0,
     "existing_proposed_floorspace_details": [
       {
-        "gia_existing": 0,
+        "gia_existing": 211,
         "use_class": "SG",
-        "gia_gained": 211,
-        "gia_lost": 0
+        "gia_gained": null,
+        "gia_lost": 211
       }
     ],
-    "site_area": 0.16620000000000001
+    "site_area": 0.1,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.16
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "constraints_details": []
   },
   "last_date_consultation_comments": "19/02/2025",
   "decision": "Approved",
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "postcode": "BR2 8NS",
   "secondary_street_name": null,
   "appeal_decision_date": null,
@@ -147,24 +170,212 @@
     "coordinates": [
       [
         [
-          0.049167,
-          51.374876
+          0.049358,
+          51.374702
         ],
         [
-          0.049165,
-          51.374849
+          0.049546,
+          51.374739
         ],
         [
-          0.049122,
-          51.37485
+          0.049679,
+          51.374764
         ],
         [
-          0.049124,
-          51.374877
+          0.049666,
+          51.374818
         ],
         [
-          0.049167,
-          51.374876
+          0.04966,
+          51.374842
+        ],
+        [
+          0.049645,
+          51.374905
+        ],
+        [
+          0.049634,
+          51.374948
+        ],
+        [
+          0.049632,
+          51.374959
+        ],
+        [
+          0.049631,
+          51.374963
+        ],
+        [
+          0.049627,
+          51.374976
+        ],
+        [
+          0.049616,
+          51.37502
+        ],
+        [
+          0.049607,
+          51.375056
+        ],
+        [
+          0.049603,
+          51.375073
+        ],
+        [
+          0.049603,
+          51.375076
+        ],
+        [
+          0.049449,
+          51.37506
+        ],
+        [
+          0.04941,
+          51.375055
+        ],
+        [
+          0.049418,
+          51.375017
+        ],
+        [
+          0.049432,
+          51.37495
+        ],
+        [
+          0.049413,
+          51.374949
+        ],
+        [
+          0.049414,
+          51.374945
+        ],
+        [
+          0.049237,
+          51.374928
+        ],
+        [
+          0.049179,
+          51.374923
+        ],
+        [
+          0.049156,
+          51.374921
+        ],
+        [
+          0.04906,
+          51.374912
+        ],
+        [
+          0.048987,
+          51.374905
+        ],
+        [
+          0.048992,
+          51.374898
+        ],
+        [
+          0.049,
+          51.374889
+        ],
+        [
+          0.049007,
+          51.374875
+        ],
+        [
+          0.049022,
+          51.374847
+        ],
+        [
+          0.049035,
+          51.374821
+        ],
+        [
+          0.049045,
+          51.374804
+        ],
+        [
+          0.049053,
+          51.374804
+        ],
+        [
+          0.049085,
+          51.374807
+        ],
+        [
+          0.04918,
+          51.374816
+        ],
+        [
+          0.049181,
+          51.374816
+        ],
+        [
+          0.049182,
+          51.374814
+        ],
+        [
+          0.049186,
+          51.374812
+        ],
+        [
+          0.049191,
+          51.37481
+        ],
+        [
+          0.049196,
+          51.374809
+        ],
+        [
+          0.049202,
+          51.374809
+        ],
+        [
+          0.049225,
+          51.374811
+        ],
+        [
+          0.049249,
+          51.374813
+        ],
+        [
+          0.049262,
+          51.374813
+        ],
+        [
+          0.049282,
+          51.374813
+        ],
+        [
+          0.049289,
+          51.374811
+        ],
+        [
+          0.049299,
+          51.374808
+        ],
+        [
+          0.049304,
+          51.374804
+        ],
+        [
+          0.049309,
+          51.3748
+        ],
+        [
+          0.049317,
+          51.374794
+        ],
+        [
+          0.049323,
+          51.374786
+        ],
+        [
+          0.049351,
+          51.374717
+        ],
+        [
+          0.049358,
+          51.374702
         ]
       ]
     ]
@@ -172,7 +383,7 @@
   "lpa_app_no": "25/00129/FULL1",
   "valid_date": "27/01/2025",
   "description": "Erection of dwelling to land at rear of 58 and 60 Jackson Road.",
-  "centroid_easting": "542720",
+  "centroid_easting": 542738,
   "site_number": "58",
   "lapsed_date": "10/04/2028",
   "date_building_work_started_under_previous_permission": null,
@@ -180,19 +391,19 @@
   "decision_process": "Delegated",
   "epc_number": null,
   "street_name": "Jackson Road",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "appeal_start_date": null,
   "actual_completion_date": null,
   "locality": null,
   "decision_agency": null,
   "centroid": {
-    "lat": 51.374863,
-    "lon": 0.049145
+    "lat": 51.374877,
+    "lon": 0.049404
   },
   "date_building_work_completed_under_previous_permission": null,
   "url_planning_app": null,
   "site_name": "",
-  "cil_liability": true,
+  "cil_liability": false,
   "subdivision_of_building": null,
   "appeal_status": null,
   "status": "Approved",
@@ -201,5 +412,224 @@
   "reference_no_of_permission_being_relied_on": null,
   "application_type_full": "Full planning permission",
   "id": "Bromley-25_00129_FULL1",
-  "polygon": null
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              542735.323,
+              165953.52
+            ],
+            [
+              542748.354,
+              165957.932
+            ],
+            [
+              542757.527,
+              165961.038
+            ],
+            [
+              542756.426,
+              165967.033
+            ],
+            [
+              542755.958,
+              165969.608
+            ],
+            [
+              542754.677,
+              165976.665
+            ],
+            [
+              542753.821,
+              165981.381
+            ],
+            [
+              542753.592,
+              165982.642
+            ],
+            [
+              542753.511,
+              165983.088
+            ],
+            [
+              542753.258,
+              165984.441
+            ],
+            [
+              542752.344,
+              165989.333
+            ],
+            [
+              542751.58,
+              165993.377
+            ],
+            [
+              542751.25,
+              165995.221
+            ],
+            [
+              542751.276,
+              165995.6
+            ],
+            [
+              542740.592,
+              165993.431
+            ],
+            [
+              542737.912,
+              165992.887
+            ],
+            [
+              542738.567,
+              165988.651
+            ],
+            [
+              542739.71,
+              165981.251
+            ],
+            [
+              542738.398,
+              165981.049
+            ],
+            [
+              542738.47,
+              165980.58
+            ],
+            [
+              542726.235,
+              165978.437
+            ],
+            [
+              542722.194,
+              165977.729
+            ],
+            [
+              542720.6,
+              165977.45
+            ],
+            [
+              542714,
+              165976.25
+            ],
+            [
+              542708.927,
+              165975.328
+            ],
+            [
+              542709.3,
+              165974.55
+            ],
+            [
+              542709.85,
+              165973.6
+            ],
+            [
+              542710.4,
+              165972.1
+            ],
+            [
+              542711.5,
+              165969
+            ],
+            [
+              542712.5,
+              165966.05
+            ],
+            [
+              542713.25,
+              165964.2
+            ],
+            [
+              542713.839,
+              165964.295
+            ],
+            [
+              542716.05,
+              165964.65
+            ],
+            [
+              542722.648,
+              165965.807
+            ],
+            [
+              542722.651,
+              165965.801
+            ],
+            [
+              542722.75,
+              165965.65
+            ],
+            [
+              542723.05,
+              165965.4
+            ],
+            [
+              542723.4,
+              165965.2
+            ],
+            [
+              542723.75,
+              165965.1
+            ],
+            [
+              542724.15,
+              165965.1
+            ],
+            [
+              542725.75,
+              165965.3
+            ],
+            [
+              542727.45,
+              165965.6
+            ],
+            [
+              542728.3,
+              165965.65
+            ],
+            [
+              542729.7,
+              165965.65
+            ],
+            [
+              542730.2,
+              165965.5
+            ],
+            [
+              542730.9,
+              165965.15
+            ],
+            [
+              542731.3,
+              165964.75
+            ],
+            [
+              542731.65,
+              165964.35
+            ],
+            [
+              542732.2,
+              165963.6
+            ],
+            [
+              542732.65,
+              165962.8
+            ],
+            [
+              542734.85,
+              165955.2
+            ],
+            [
+              542735.323,
+              165953.52
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  }
 }
