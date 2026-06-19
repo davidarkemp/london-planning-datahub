@@ -1,11 +1,37 @@
 {
   "borough": "Ealing",
   "subdivision_of_building": null,
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.317939,
+          51.503621
+        ],
+        [
+          -0.31794,
+          51.503594
+        ],
+        [
+          -0.317983,
+          51.503595
+        ],
+        [
+          -0.317982,
+          51.503622
+        ],
+        [
+          -0.317939,
+          51.503621
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "site_name": "76 & 76A Northfield Avenue",
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": null,
-  "last_updated": "2025-06-04T13:59:17.896Z",
+  "last_updated": "2026-06-18T11:08:52.257Z",
   "locality": "London",
   "centroid_easting": 516842,
   "lpa_name": "Ealing",
@@ -14,22 +40,26 @@
   "site_number": null,
   "lapsed_date": "03/04/2028",
   "secondary_street_name": null,
-  "cil_liability": true,
+  "cil_liability": false,
   "application_details": {
     "total_gia_lost": 41,
-    "existing_uprns": null,
-    "garden_land_lost": true,
+    "existing_uprns": [],
+    "garden_land_lost": false,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 66,
-        "gia_gained": 0,
+        "actual_completion_date": "01/02/2025",
         "use_class": "E",
+        "gia_gained": 0,
+        "actual_commencement_date": "01/07/2024",
         "gia_lost": 41
       },
       {
         "gia_existing": 56,
-        "gia_gained": 60,
+        "actual_completion_date": "01/02/2025",
         "use_class": "C3",
+        "gia_gained": 60,
+        "actual_commencement_date": "01/07/2024",
         "gia_lost": 0
       }
     ],
@@ -45,7 +75,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_existing": 122,
       "total_gia_gained": 60,
-      "total_gia_lost": 41
+      "total_gia_lost": 41,
+      "site_area": 155
     },
     "green_suds": false,
     "grey_water_reuse": false,
@@ -60,7 +91,7 @@
       "no_non_resi_units_to_have_full_fibre": 1,
       "total_annual_nox_emissions": 0,
       "total_annual_pm_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_new_water_connections_required": 2,
       "no_new_gas_connections_required": 2,
       "green_roof_area": 0,
@@ -73,7 +104,7 @@
       "ghg_reduction_over_building_regulations": false
     },
     "internal_resi_water_usage": 105,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "residential_details": {
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 3,
@@ -101,38 +132,53 @@
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0.04516129032258064,
       "total_gia_gained": 148,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "provider": "Private",
-          "no_habitable_rooms": 3,
-          "unit_no": "Gain-1",
+          "actual_completion_date": "01/02/2025",
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 3,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "01/07/2024",
           "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "gia": 61,
           "tenure": "Market for sale"
         },
         {
-          "provider": "Private",
-          "no_habitable_rooms": 2,
-          "unit_no": "Gain-2",
+          "actual_completion_date": "01/02/2025",
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "01/07/2024",
           "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "gia": 50,
           "tenure": "Market for sale"
         },
         {
-          "provider": "Private",
-          "no_habitable_rooms": 2,
-          "unit_no": "Gain-3",
+          "actual_completion_date": "01/02/2025",
+          "description": null,
           "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
+          "unit_type": "Studio Bedsit",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "01/07/2024",
           "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "gia": 37,
           "tenure": "Market for sale"
         }
@@ -143,13 +189,26 @@
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
-      "dwelling_density": 0,
-      "total_gia_lost": 0
+      "dwelling_density": 0.01935483870967742,
+      "total_gia_lost": 0,
+      "site_area": 155
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 155
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "url_planning_app": "https://pam.ealing.gov.uk/online-applications/PLAN/232037FUL;",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "01/07/2024",
   "centroid": {
     "lon": -0.317961,
     "lat": 51.503608
@@ -159,7 +218,7 @@
   "postcode": "W13 9RR",
   "pp_id": "PP-12166798",
   "appeal_decision_date": null,
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "decision_conditions": [
     "The development to which this permission relates shall be begun not later than the expiration of three years from the date of this permission.",
     "Reason: To comply with Section 91 of the Town & Country Planning Act 1990. | The development hereby approved shall be carried out in accordance with drawing title number(s): Design and Access Statement dated May 2023, 23-006-E01, 23-006-E02, 23-006-E03, 23-006-E04, 23-006-E05, 23-006-E06, 23-006-E07, 23-006-E08, 23-006-P01 rev A, 23-006-P02 rev A, 23-006-P03 rev A, 23-006-P04 rev A, 23-006-P05, 23-006-P06, 23-006-P07 rev A, 23-006-P08 rev A, 23-006-P09, 23-006-P11.",
@@ -195,16 +254,18 @@
   "appeal_decision": null,
   "valid_date": "18/05/2023",
   "decision_agency": "Borough",
-  "polygon": null,
-  "last_updated_by": "CSV Data Import",
+  "polygon": {
+    "type": "geometrycollection"
+  },
+  "last_updated_by": "Portal",
   "date_building_work_started_under_previous_permission": null,
   "last_date_consultation_comments": null,
   "uprn": "000012135352",
   "decision_target_date": "08/04/2025",
   "centroid_northing": 179638,
   "application_type": "All Other",
-  "actual_completion_date": null,
-  "title_number": null,
+  "actual_completion_date": "01/02/2025",
+  "title_number": [],
   "appeal_status": null,
   "description": "Conversion of part of ground floor commercial space and first floor flat into three self-contained flats; single storey rear extension; single storey rear/side infill extension; rear roof extension to main roofslope incorporating Juliet balcony; roof extension to rear outrigger; and installation of three rooflights to front roofslope",
   "development_type": null,
@@ -213,7 +274,7 @@
   "lpa_app_no": "232037FUL",
   "application_type_full": "Full planning permission",
   "id": "Ealing-232037FUL",
-  "status": "Approved",
+  "status": "Completed",
   "appeal_start_date": null,
   "decision": "Approved"
 }

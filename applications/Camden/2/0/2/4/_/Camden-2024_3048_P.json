@@ -17,7 +17,7 @@
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_pm_emissions": 0,
       "no_resi_units_to_have_full_fibre": 3,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
@@ -31,31 +31,43 @@
       "total_no_existing_residential_units_intermediate": 0,
       "residential_units": [
         {
-          "provider": "Private",
           "no_habitable_rooms": 2,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "tenure": "Market for rent",
-          "gia": 37
+          "provision_for_older_persons": false,
+          "gia": 37,
+          "tenure": "Market for rent"
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 3,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "tenure": "Market for rent",
-          "gia": 70
+          "provision_for_older_persons": false,
+          "gia": 70,
+          "tenure": "Market for rent"
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 3,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "tenure": "Market for rent",
-          "gia": 61
+          "provision_for_older_persons": false,
+          "gia": 61,
+          "tenure": "Market for rent"
         }
       ],
       "total_no_proposed_residential_units": 3,
@@ -71,7 +83,7 @@
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_market_for_rent": 3,
-      "dwelling_density": 0,
+      "dwelling_density": 29.126213592233007,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
@@ -88,13 +100,14 @@
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 77.66990291262135,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_bedrooms": 5,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_discount_market_sale": 0
+      "total_no_existing_residential_units_discount_market_sale": 0,
+      "site_area": 0.10300000000000001
     },
     "total_gia_existing": 0,
     "existing_proposed_floorspace_details": [
@@ -114,14 +127,15 @@
     },
     "total_gia_lost": 0,
     "intended_commencement_date": "09/2024",
-    "site_area": 0.10300000000000001
+    "site_area": 0.10300000000000001,
+    "resi_extension_exempt": false
   },
   "borough": "Camden",
   "application_type_full": "Prior Approval: New dwellinghouses on detached blocks of flats",
   "cil_liability": false,
   "date_building_work_started_under_previous_permission": null,
   "lapsed_date": "09/09/2027",
-  "bo_system": "Northgate M3",
+  "bo_system": "Portal",
   "polygon": {
     "type": "geometrycollection",
     "geometries": [
@@ -287,9 +301,9 @@
   "locality": "London",
   "secondary_street_name": null,
   "decision_conditions": [
-    "Reason : 1 - The proposal does not comply with the nationally described space standard issued by the Department for Communities and Local Government and so cannot benefit from permitted development by virtue of Article 3(9A) of the Town and Country Planning (General Permitted Development) Order 2015 (as amended).\r\n",
-    "Reason : 2 - The external appearance of the proposed two storeys upwards extension, by reason of its design, height, materials, scale and massing, would be detrimental to the character and appearance of the host building, and the surrounding area. The proposal would be contrary to policies D1(Design) and D2(Heritage) of Camden Council's Local Plan 2017, the London Plan 2021 and section 12 (Achieving well-designed places) of the National Planning Policy Framework 2023. Prior approval is therefore refused due to the detrimental impact under Paragraph A.2.(1)(e) of Part 20 (external appearance) of the Town and Country Planning (General Permitted Development) Order 2015 (as amended 2020).\r\n",
-    "Reason : 3 - The proposed development, in the absence of a legal agreement to secure a car-free development, would be likely to contribute unacceptably to parking stress and congestion in the surrounding area, contrary to policies T1 (Prioritising walking, cycling and public transport), T2 (Parking and car-free development) and DM1 (Delivery and monitoring) of Camden Local Plan 2017.\r\n"
+    "Reason : 1 - The proposal does not comply with the nationally described space standard issued by the Department for Communities and Local Government and so cannot benefit from permitted development by virtue of Article 3(9A) of the Town and Country Planning (General Permitted Development) Order 2015 (as amended).",
+    "Reason : 2 - The external appearance of the proposed two storeys upwards extension, by reason of its design, height, materials, scale and massing, would be detrimental to the character and appearance of the host building, and the surrounding area. The proposal would be contrary to policies D1(Design) and D2(Heritage) of Camden Council's Local Plan 2017, the London Plan 2021 and section 12 (Achieving well-designed places) of the National Planning Policy Framework 2023. Prior approval is therefore refused due to the detrimental impact under Paragraph A.2.(1)(e) of Part 20 (external appearance) of the Town and Country Planning (General Permitted Development) Order 2015 (as amended 2020).",
+    "Reason : 3 - The proposed development, in the absence of a legal agreement to secure a car-free development, would be likely to contribute unacceptably to parking stress and congestion in the surrounding area, contrary to policies T1 (Prioritising walking, cycling and public transport), T2 (Parking and car-free development) and DM1 (Delivery and monitoring) of Camden Local Plan 2017."
   ],
   "decision_agency": "Borough",
   "wgs84_polygon": {
@@ -452,17 +466,17 @@
   "pp_id": "13234567",
   "decision_process": "Delegated",
   "centroid_easting": 525413,
-  "last_updated": "2026-06-08T09:51:17.829Z",
+  "last_updated": "2026-06-18T15:25:37.990Z",
   "appeal_decision_date": "31/03/2025",
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated_by": "Northgate M3",
+  "last_updated_by": "Portal",
   "site_number": "523",
   "centroid_northing": 185525,
   "development_type": "Minor dwellings",
-  "description": "Erection of a two storey upward extension, to create 3 x residential units. \r\n",
+  "description": "Erection of a two storey upward extension, to create 3 x residential units. \n",
   "status": "Dismissed",
   "actual_completion_date": null,
   "appeal_start_date": "04/11/2024",
   "street_name": "Finchley Road",
-  "title_number": null
+  "title_number": []
 }
