@@ -1,19 +1,130 @@
 {
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.250373,
+          51.512863
+        ],
+        [
+          -0.250342,
+          51.512866
+        ],
+        [
+          -0.250318,
+          51.512868
+        ],
+        [
+          -0.250286,
+          51.512872
+        ],
+        [
+          -0.250301,
+          51.51294
+        ],
+        [
+          -0.250324,
+          51.513045
+        ],
+        [
+          -0.25034,
+          51.513119
+        ],
+        [
+          -0.25035,
+          51.513165
+        ],
+        [
+          -0.250351,
+          51.51317
+        ],
+        [
+          -0.250353,
+          51.513173
+        ],
+        [
+          -0.250354,
+          51.513175
+        ],
+        [
+          -0.250356,
+          51.513176
+        ],
+        [
+          -0.250358,
+          51.513177
+        ],
+        [
+          -0.25036,
+          51.513178
+        ],
+        [
+          -0.250362,
+          51.513179
+        ],
+        [
+          -0.250364,
+          51.51318
+        ],
+        [
+          -0.250367,
+          51.513181
+        ],
+        [
+          -0.250369,
+          51.513181
+        ],
+        [
+          -0.250376,
+          51.513181
+        ],
+        [
+          -0.250382,
+          51.513181
+        ],
+        [
+          -0.250445,
+          51.513177
+        ],
+        [
+          -0.250436,
+          51.51314
+        ],
+        [
+          -0.250422,
+          51.513077
+        ],
+        [
+          -0.250408,
+          51.51302
+        ],
+        [
+          -0.250389,
+          51.51293
+        ],
+        [
+          -0.250373,
+          51.512863
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "ward": "East Acton",
   "decision": "Approved",
   "decision_process": "Delegated",
   "appeal_status": null,
-  "status": "Approved",
+  "status": "Completed",
   "parking_details": null,
-  "centroid_easting": 521509,
+  "centroid_easting": 521508,
   "application_details": {
     "non_residential_details": {
       "total_gia_lost": 184.8,
       "total_gia_existing": 184.8,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_gained": 190
+      "total_gia_gained": 190,
+      "site_area": 0.022000000000000002
     },
     "grey_water_reuse": false,
     "total_gia_gained": 190,
@@ -27,7 +138,7 @@
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_passive_cooling": 0,
       "no_resi_units_to_have_full_fibre": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "total_annual_nox_emissions": 0,
       "no_homes_to_have_electrical_heating": 0,
       "no_new_gas_connections_required": 0,
@@ -36,14 +147,14 @@
     "internal_resi_water_usage": 0,
     "surface_water_discharge_percentage_reduction": 0,
     "green_suds": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "affordable_housing_fast_track": false,
     "garden_land_lost": false,
     "phasing_details": [
       {
         "phase_detail": "Main Build",
-        "intended_completion_date": "08/2024",
-        "intended_commencement_date": "06/2024"
+        "intended_commencement_date": "06/2024",
+        "intended_completion_date": "08/2024"
       }
     ],
     "total_gia_lost": 184.8,
@@ -51,7 +162,7 @@
     "residential_details": {
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 90.9090909090909,
       "total_gia_gained": 184.9,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_social_rent": 0,
@@ -59,8 +170,8 @@
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
-      "total_no_proposed_bedrooms": 5,
-      "habitable_rooms_density": null,
+      "total_no_proposed_bedrooms": 6,
+      "habitable_rooms_density": 363.6363636363636,
       "total_no_proposed_residential_units_market_for_sale": 2,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_gia_lost": 184.8,
@@ -76,40 +187,48 @@
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 7,
-          "unit_no": "Loss-1",
+          "actual_completion_date": "05/09/2024",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 4,
           "unit_type": "Semi Detached Home",
+          "no_habitable_rooms": 7,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "04/06/2024",
+          "no_bedrooms": 4,
           "provision_for_older_persons": false,
           "gia": 184.8,
           "tenure": "Market for sale"
         },
         {
-          "unit_no": "Gain-1",
+          "actual_completion_date": "05/09/2024",
+          "description": null,
           "change_type": "Gain",
-          "unit_type": "Communal Space",
-          "gia": 4
-        },
-        {
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "unit_no": "Gain-2",
-          "change_type": "Gain",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "04/06/2024",
           "no_bedrooms": 3,
-          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
           "gia": 91.7,
           "tenure": "Market for sale"
         },
         {
-          "no_habitable_rooms": 3,
-          "provider": "Private",
-          "unit_no": "Gain-3",
+          "actual_completion_date": "05/09/2024",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 89.2,
+          "no_habitable_rooms": 4,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "04/06/2024",
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "gia": 91.7,
           "tenure": "Market for sale"
         }
       ],
@@ -117,7 +236,7 @@
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units": 1,
       "total_no_proposed_residential_units_social_rent": 0,
-      "total_no_proposed_residential_units": 3,
+      "total_no_proposed_residential_units": 2,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_market_for_sale": 1,
@@ -125,7 +244,8 @@
       "total_no_proposed_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
-      "total_no_proposed_residential_units_london_shared_ownership": 0
+      "total_no_proposed_residential_units_london_shared_ownership": 0,
+      "site_area": 0.022000000000000002
     },
     "existing_uprns": [
       "000012107554"
@@ -135,23 +255,37 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 184.8,
+        "actual_completion_date": "05/09/2024",
         "use_class": "C3",
         "gia_gained": 190,
+        "actual_commencement_date": "04/06/2024",
         "gia_lost": 184.8
       }
     ],
-    "site_area": 0.022350000000000002,
-    "projected_cost_of_works": "Up to £2m"
+    "site_area": 0.022000000000000002,
+    "projected_cost_of_works": "Up to £2m",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.022000000000000002
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
-  "actual_completion_date": null,
+  "actual_completion_date": "05/09/2024",
   "application_type_full": "Full planning permission",
   "locality": "London",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "04/06/2024",
   "development_type": "Minor dwellings",
   "appeal_decision_date": null,
-  "centroid_northing": 180793,
+  "centroid_northing": 180795,
   "date_building_work_started_under_previous_permission": null,
-  "title_number": null,
+  "title_number": [],
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": false,
   "lapsed_date": "04/06/2027",
@@ -160,23 +294,23 @@
   "epc_number": null,
   "decision_agency": "Borough",
   "centroid": {
-    "lat": 51.513005,
-    "lon": -0.250356
+    "lat": 51.513023,
+    "lon": -0.250369
   },
   "application_type": "All Other",
   "borough": "Ealing",
   "postcode": "W3 7EG",
   "site_name": "2 East Acton Lane",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "site_number": null,
   "decision_target_date": "07/06/2024",
   "valid_date": "12/04/2024",
   "street_name": "East Acton Lane",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "url_planning_app": "https://pam.ealing.gov.uk/online-applications/PLAN/241425FUL;",
   "appeal_start_date": null,
   "last_date_consultation_comments": null,
-  "last_updated": "2025-03-19T22:56:01.943+00:00",
+  "last_updated": "2026-06-19T11:14:58.086Z",
   "appeal_decision": null,
   "description": "Conversion of the existing house into two single dwelling flats, alterations to the existing rear extension and provision of associated cycle storage and refuse storage facilities.",
   "decision_date": "04/06/2024",
@@ -214,6 +348,121 @@
   ],
   "uprn": "000012107554",
   "id": "Ealing-241425FUL",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              521508.15,
+              180777.1
+            ],
+            [
+              521510.288,
+              180777.514
+            ],
+            [
+              521511.996,
+              180777.844
+            ],
+            [
+              521514.16,
+              180778.262
+            ],
+            [
+              521512.95,
+              180785.85
+            ],
+            [
+              521511.1,
+              180797.45
+            ],
+            [
+              521509.793,
+              180805.646
+            ],
+            [
+              521508.97,
+              180810.805
+            ],
+            [
+              521508.879,
+              180811.269
+            ],
+            [
+              521508.732,
+              180811.662
+            ],
+            [
+              521508.638,
+              180811.832
+            ],
+            [
+              521508.529,
+              180811.984
+            ],
+            [
+              521508.407,
+              180812.118
+            ],
+            [
+              521508.27,
+              180812.234
+            ],
+            [
+              521508.12,
+              180812.332
+            ],
+            [
+              521507.955,
+              180812.412
+            ],
+            [
+              521507.776,
+              180812.475
+            ],
+            [
+              521507.583,
+              180812.519
+            ],
+            [
+              521507.156,
+              180812.555
+            ],
+            [
+              521506.672,
+              180812.519
+            ],
+            [
+              521502.35,
+              180811.95
+            ],
+            [
+              521503.053,
+              180807.794
+            ],
+            [
+              521504.219,
+              180800.892
+            ],
+            [
+              521505.3,
+              180794.5
+            ],
+            [
+              521506.9,
+              180784.6
+            ],
+            [
+              521508.15,
+              180777.1
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "lpa_name": "Ealing"
 }

@@ -207,14 +207,14 @@
   "decision_target_date": "15/01/2025",
   "street_name": "Great Russell Street",
   "decision_process": "Delegated",
-  "last_updated_by": "Northgate M3",
+  "last_updated_by": "Portal",
   "centroid_northing": 181532,
   "application_type": "All Other",
-  "title_number": null,
+  "title_number": [],
   "decision_conditions": [
     "Reason : 1 - The proposed residential unit, by virtue of the proposed site layout and its location within the building, would result in a substandard unit of accommodation, providing poor quality outlook and sunlight contrary to policies D1 (Design) and H6 (Housing Choice and Mix) of the Camden Local Plan 2017 and policies D3 (Optimising site capacity through the design-led approach) and D4 (Delivering good design) of the London Plan 2021.",
-    "Reason : 2 - The proposed development, in the absence of a legal agreement securing an affordable housing contribution, would fail to maximise the supply of affordable to meet the needs of households unable to access market housing, contrary to policy H4 (Maximising the supply of affordable housing) of the Camden Local Plan 2017\r\n",
-    "Reason : 3 - The proposed development, in the absence of a legal agreement securing car-free housing, would contribute unacceptably to parking stress and congestion in the surrounding area and fail to promote more sustainable and efficient forms of transport and active lifestyles, contrary to policies T2 (Parking and car-free development) and DM1 (Delivery and monitoring) of the Camden Local Plan 2017.\r\n"
+    "Reason : 2 - The proposed development, in the absence of a legal agreement securing an affordable housing contribution, would fail to maximise the supply of affordable to meet the needs of households unable to access market housing, contrary to policy H4 (Maximising the supply of affordable housing) of the Camden Local Plan 2017",
+    "Reason : 3 - The proposed development, in the absence of a legal agreement securing car-free housing, would contribute unacceptably to parking stress and congestion in the surrounding area and fail to promote more sustainable and efficient forms of transport and active lifestyles, contrary to policies T2 (Parking and car-free development) and DM1 (Delivery and monitoring) of the Camden Local Plan 2017."
   ],
   "appeal_start_date": "13/02/2025",
   "development_type": "Minor dwellings",
@@ -339,7 +339,7 @@
   "pp_id": "13580322",
   "url_planning_app": "https://planningrecords.camden.gov.uk/Northgate/PlanningExplorer/DisplayAppDetails.aspx?AppNo=2024/5112/P",
   "lpa_name": "Camden",
-  "bo_system": "Northgate M3",
+  "bo_system": "Portal",
   "subdivision_of_building": null,
   "secondary_street_name": null,
   "date_building_work_started_under_previous_permission": null,
@@ -348,7 +348,7 @@
     "lon": -0.127329
   },
   "status": "Dismissed",
-  "last_updated": "2025-07-23T10:21:08.790Z",
+  "last_updated": "2026-06-19T10:50:47.878Z",
   "actual_completion_date": null,
   "lapsed_date": "14/01/2028",
   "borough": "Camden",
@@ -362,8 +362,8 @@
     "phasing_details": [
       {
         "phase_detail": "1",
-        "intended_completion_date": "06/2025",
-        "intended_commencement_date": "03/2025"
+        "intended_commencement_date": "03/2025",
+        "intended_completion_date": "06/2025"
       }
     ],
     "total_gia_gained": 47,
@@ -373,20 +373,20 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 47,
-        "gia_gained": 0,
         "use_class": "E(c)(ii)",
+        "gia_gained": 0,
         "gia_lost": 47
       },
       {
         "gia_existing": 0,
-        "gia_gained": 47,
         "use_class": "C3",
+        "gia_gained": 47,
         "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "grey_water_reuse": false,
     "green_suds": false,
     "surface_water_discharge_percentage_reduction": 0,
@@ -395,7 +395,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 47,
       "total_gia_existing": 47,
-      "total_gia_lost": 47
+      "total_gia_lost": 47,
+      "site_area": 0.01
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -418,13 +419,13 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 1,
       "total_no_existing_residential_affordable_units": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 100,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 47,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 100,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_gia_lost": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -437,18 +438,23 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "provider": "Private",
           "no_habitable_rooms": 1,
-          "unit_no": "Gain-1",
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
           "gia": 47,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "unit_development_type": "Change of Use"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.01
     },
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
@@ -458,7 +464,7 @@
       "no_homes_passive_cooling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_to_have_electrical_heating": 1,
       "mobile_network_operators_consultation": false,
@@ -467,6 +473,19 @@
       "ghg_reduction_over_building_regulations": false
     },
     "internal_resi_water_usage": 0,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.01
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   }
 }

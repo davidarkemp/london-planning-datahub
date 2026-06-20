@@ -1,11 +1,37 @@
 {
   "site_name": "14 Holyrood Gardens, Edgware, HA8 5LR",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "centroid": {
     "lon": -0.271332,
     "lat": 51.597655
   },
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.27131,
+          51.597668
+        ],
+        [
+          -0.271311,
+          51.597641
+        ],
+        [
+          -0.271354,
+          51.597642
+        ],
+        [
+          -0.271353,
+          51.597669
+        ],
+        [
+          -0.27131,
+          51.597668
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "appeal_decision_date": null,
   "url_planning_app": "https://pa.brent.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR_167256&activeTab=summary",
   "secondary_street_name": null,
@@ -15,8 +41,8 @@
     "phasing_details": [
       {
         "phase_detail": "single phase",
-        "intended_completion_date": "07/2024",
-        "intended_commencement_date": "05/2024"
+        "intended_commencement_date": "05/2024",
+        "intended_completion_date": "07/2024"
       }
     ],
     "total_gia_gained": 141,
@@ -24,7 +50,7 @@
     "site_area": 0.033,
     "total_gia_existing": 141,
     "surface_water_discharge_percentage_reduction": 0,
-    "existing_uprns": null,
+    "existing_uprns": [],
     "residential_details": {
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_gia_lost": 141,
@@ -38,71 +64,47 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
+          "actual_completion_date": "25/11/2024",
           "description": null,
-          "m42_compliant": null,
           "change_type": "Loss",
-          "garden_land": null,
           "sheltered_accommodation": false,
           "unit_type": "HMO",
-          "unit_development_type": null,
-          "superseded_date": null,
-          "provider": null,
           "no_habitable_rooms": 6,
           "phase_detail": null,
-          "actual_commencement_date": null,
+          "unit_no": null,
+          "actual_commencement_date": "25/11/2024",
           "no_bedrooms": 5,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
           "gia": 141,
           "tenure": "Market for rent"
         },
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
+          "actual_completion_date": "16/06/2025",
           "description": null,
-          "m42_compliant": null,
           "change_type": "Gain",
-          "garden_land": null,
-          "sheltered_accommodation": null,
           "unit_type": "Flat Apartment Maisonette",
-          "unit_development_type": null,
-          "superseded_date": null,
-          "provider": "Private",
           "no_habitable_rooms": 2,
+          "provider": "Private",
           "phase_detail": null,
-          "actual_commencement_date": null,
+          "unit_no": null,
+          "actual_commencement_date": "25/11/2024",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
           "gia": 37,
           "tenure": "Market for sale"
         },
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
+          "actual_completion_date": "16/06/2025",
           "description": null,
-          "m42_compliant": null,
           "change_type": "Gain",
-          "garden_land": null,
-          "sheltered_accommodation": null,
           "unit_type": "Flat Apartment Maisonette",
-          "unit_development_type": null,
-          "superseded_date": null,
-          "provider": "Private",
           "no_habitable_rooms": 4,
+          "provider": "Private",
           "phase_detail": null,
-          "actual_commencement_date": null,
+          "unit_no": null,
+          "actual_commencement_date": "25/11/2024",
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
           "gia": 101,
           "tenure": "Market for sale"
         }
@@ -110,7 +112,7 @@
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_social_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 60.6060606060606,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 2,
@@ -132,12 +134,12 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 181.8181818181818,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_intermediate": 0,
-      "site_area": null
+      "site_area": 0.033
     },
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "garden_land_lost": false,
     "projected_cost_of_works": "Up to £2m",
     "grey_water_reuse": false,
@@ -155,8 +157,8 @@
       "no_new_gas_connections_required": 0,
       "no_homes_passive_cooling": 0,
       "no_new_water_connections_required": 1,
-      "fire_suppression_system_proposed": true,
-      "waste_provision": true,
+      "fire_suppression_system_proposed": false,
+      "waste_provision": false,
       "no_passive_rapid_ev_charging_points": null,
       "no_active_rapid_ev_charging_points": null,
       "no_passive_fast_ev_charging_points": null,
@@ -180,39 +182,31 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_lost": 141,
       "development_type": null,
-      "site_area": null
+      "site_area": 0.033
     },
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 0,
-        "superseded_date": null,
-        "actual_completion_date": null,
         "use_class": "C3",
         "gia_gained": 141,
-        "actual_commencement_date": null,
-        "superseded_by_lpa_app_no": null,
         "gia_lost": 0
       },
       {
         "gia_existing": 141,
-        "superseded_date": null,
-        "actual_completion_date": null,
         "use_class": "C4",
         "gia_gained": 0,
-        "actual_commencement_date": null,
-        "superseded_by_lpa_app_no": null,
         "gia_lost": 141
       }
     ],
     "total_gia_lost": 141,
-    "s106_agreement": null,
+    "s106_agreement": false,
     "affordable_housing_inlieu_payment": null,
-    "air_quality_assessment": null,
+    "air_quality_assessment": false,
     "other_contributions": null,
     "intended_commencement_date": null,
     "no_affordable_housing_units_provided_offsite": null,
-    "commencement_notice_received": null,
-    "circular_economy_statement": null,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
     "qualifying_vacant_building_floorspace": null,
     "open_and_protected_space_details": {
       "open_space_local_and_other_area_gain": 0,
@@ -229,36 +223,36 @@
     "building_details": [],
     "superseding_details": [],
     "lead_registered_social_landlord": null,
-    "viability_assessment": null,
+    "viability_assessment": false,
     "overseas_company_registration_no": null,
-    "mayoral_cil_liability_notice_issued": null,
+    "mayoral_cil_liability_notice_issued": false,
     "non_permanent_dwellings_details": [],
     "intended_completion_date": null,
     "other_residential_accommodation_details": {
       "no_council_tax_rateable_units_gained": null,
       "no_council_tax_rateable_units_lost": null,
-      "site_area": null,
+      "site_area": 0.033,
       "other_resi_accommodation_unit_details": []
     },
     "uk_company_registration_no": null,
-    "3d_model": null,
+    "3d_model": false,
     "transport_contributions": null,
     "no_affordable_housing_units_acquired_offsite": null,
-    "borough_cil_liability_notice_issued": null,
-    "transport_impact_assessment": null,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
     "social_infrastructure_contributions": null,
     "scheme_name": null,
     "lead_developer_company_name": null
   },
   "lapsed_date": "06/02/2027",
   "decision": "Approved",
-  "postcode": null,
+  "postcode": "",
   "last_date_consultation_comments": "13/01/2024",
   "decision_process": "Delegated",
   "epc_number": "8871-7320-1109-8982-7906",
   "pp_id": "PP-12669714",
   "development_type": "Other change of use",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "valid_date": "12/12/2023",
   "polygon": {
     "coordinates": [
@@ -335,7 +329,7 @@
     ],
     "type": "Polygon"
   },
-  "actual_commencement_date": null,
+  "actual_commencement_date": "25/11/2024",
   "parking_details": {
     "no_proposed_car": 1,
     "net_car": 0,
@@ -378,15 +372,15 @@
   "ward": "Queensbury",
   "appeal_decision": null,
   "locality": null,
-  "street_name": null,
-  "status": "Approved",
+  "street_name": "",
+  "status": "Commenced",
   "application_type_full": "Full planning permission",
   "decision_agency": null,
   "uprn": "202084380",
   "date_building_work_started_under_previous_permission": null,
   "lpa_app_no": "23/3892",
   "title_number": [],
-  "last_updated": "2025-11-26T09:03:21.800Z",
+  "last_updated": "2026-06-19T14:48:37.441Z",
   "cil_liability": false,
   "subdivision_of_building": null,
   "actual_completion_date": null,

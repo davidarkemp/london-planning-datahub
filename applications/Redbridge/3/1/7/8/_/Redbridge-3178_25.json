@@ -9,7 +9,7 @@
   "url_planning_app": null,
   "lpa_app_no": "3178/25",
   "site_number": "54",
-  "ward": null,
+  "ward": "",
   "locality": null,
   "last_date_consultation_comments": "06/12/2025",
   "date_building_work_started_under_previous_permission": null,
@@ -21,11 +21,11 @@
   },
   "postcode": "IG6 1DU",
   "appeal_status": null,
-  "cil_liability": null,
+  "cil_liability": false,
   "date_building_work_completed_under_previous_permission": null,
   "pp_id": "PP-14389884",
   "status": "Appeal In Progress",
-  "last_updated_by": "Agile APAS",
+  "last_updated_by": "Portal",
   "polygon": {
     "geometries": [
       {
@@ -106,24 +106,68 @@
     "coordinates": [
       [
         [
-          0.079609,
-          51.582119
+          0.079391,
+          51.581982
         ],
         [
-          0.079608,
-          51.582092
+          0.079415,
+          51.581973
         ],
         [
-          0.079564,
-          51.582093
+          0.07948,
+          51.581949
         ],
         [
-          0.079566,
-          51.58212
+          0.079527,
+          51.581999
         ],
         [
-          0.079609,
-          51.582119
+          0.079561,
+          51.582036
+        ],
+        [
+          0.079581,
+          51.582058
+        ],
+        [
+          0.079588,
+          51.582066
+        ],
+        [
+          0.079595,
+          51.582072
+        ],
+        [
+          0.079604,
+          51.58208
+        ],
+        [
+          0.079667,
+          51.582148
+        ],
+        [
+          0.079698,
+          51.582184
+        ],
+        [
+          0.079611,
+          51.582216
+        ],
+        [
+          0.079569,
+          51.582171
+        ],
+        [
+          0.079522,
+          51.582121
+        ],
+        [
+          0.079482,
+          51.582079
+        ],
+        [
+          0.079391,
+          51.581982
         ]
       ]
     ],
@@ -132,7 +176,7 @@
   "appeal_decision_date": null,
   "secondary_street_name": null,
   "lapsed_date": "24/12/2028",
-  "bo_system": "Agile APAS",
+  "bo_system": "Portal",
   "decision_date": "24/12/2025",
   "centroid_easting": 544184,
   "actual_commencement_date": null,
@@ -141,7 +185,7 @@
   "decision_target_date": "02/01/2026",
   "valid_date": "08/11/2025",
   "development_type": null,
-  "last_updated": "2026-03-03T00:00:11.460Z",
+  "last_updated": "2026-06-19T09:11:10.092Z",
   "subdivision_of_building": null,
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
@@ -153,7 +197,7 @@
   "decision_agency": null,
   "street_name": "Hastings Avenue",
   "appeal_decision": null,
-  "title_number": null,
+  "title_number": [],
   "site_name": null,
   "appeal_start_date": "23/02/2026",
   "application_details": {
@@ -164,8 +208,8 @@
     "phasing_details": [
       {
         "phase_detail": "HMO conversion ",
-        "intended_completion_date": "02/2026",
-        "intended_commencement_date": "01/2026"
+        "intended_commencement_date": "01/2026",
+        "intended_completion_date": "02/2026"
       }
     ],
     "total_gia_gained": 152.39,
@@ -173,19 +217,21 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 0,
+        "actual_completion_date": "18/06/2026",
         "use_class": "C4",
         "gia_gained": 152.39,
         "gia_lost": 0
       },
       {
         "gia_existing": 152.39,
+        "actual_completion_date": "18/06/2026",
         "use_class": "C3",
         "gia_gained": 0,
         "gia_lost": 152.39
       }
     ],
     "projected_cost_of_works": "Up to £2m",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "rain_water_harvesting": false,
     "grey_water_reuse": false,
     "green_suds": false,
@@ -195,7 +241,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 152.39,
       "total_gia_existing": 152.39,
-      "total_gia_lost": 152.39
+      "total_gia_lost": 152.39,
+      "site_area": 0.022161
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -219,12 +266,12 @@
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 45.12431749469789,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 152.39,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 45.12431749469789,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -237,27 +284,38 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 1,
+          "actual_completion_date": "18/06/2026",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
           "unit_type": "Semi Detached Home",
+          "no_habitable_rooms": 1,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "18/06/2026",
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
           "gia": 152.39,
           "tenure": "Market for rent"
         },
         {
-          "provider": "Private",
+          "actual_completion_date": "18/06/2026",
           "no_habitable_rooms": 1,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "HMO",
           "no_bedrooms": 3,
+          "provision_for_older_persons": false,
           "gia": 152.39,
           "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 1,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.022161
     },
     "internal_resi_water_usage": 0,
     "infrastructure_details": {
@@ -268,7 +326,7 @@
       "no_homes_passive_cooling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
@@ -276,7 +334,20 @@
       "no_new_gas_connections_required": 0,
       "ghg_reduction_over_building_regulations": false
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.022161
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "epc_number": null,
   "uprn": "100022217209",
