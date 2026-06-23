@@ -1,6 +1,6 @@
 {
   "date_building_work_completed_under_previous_permission": null,
-  "cil_liability": null,
+  "cil_liability": false,
   "wgs84_polygon": {
     "type": "Polygon",
     "coordinates": [
@@ -49,7 +49,7 @@
   "centroid_northing": 164464,
   "reference_no_of_permission_being_relied_on": null,
   "actual_commencement_date": null,
-  "last_updated": "2026-06-18T20:03:41.191Z",
+  "last_updated": "2026-06-22T20:08:25.627Z",
   "description": "Alterations to the fenestrations and materials used, including installation of new security shutters.",
   "subdivision_of_building": null,
   "epc_number": null,
@@ -83,7 +83,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -119,7 +118,8 @@
               164460.65
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -136,10 +136,10 @@
   "application_details": {
     "existing_proposed_floorspace_details": [
       {
-        "gia_lost": 0,
+        "gia_existing": 153,
         "use_class": "B8",
         "gia_gained": 0,
-        "gia_existing": 153
+        "gia_lost": 0
       }
     ],
     "open_and_protected_space_details": {
@@ -354,9 +354,9 @@
     "grey_water_reuse": false,
     "phasing_details": [
       {
+        "phase_detail": "frontage ",
         "intended_commencement_date": "08/2026",
-        "intended_completion_date": "09/2026",
-        "phase_detail": "frontage "
+        "intended_completion_date": "09/2026"
       }
     ],
     "affordable_housing_fast_track": false,
@@ -367,14 +367,14 @@
       "no_resi_units_to_have_full_fibre": 0,
       "waste_details": [
         {
-          "internal_food_waste": false,
-          "internal_dry_recycling": false,
-          "external_residual_waste": false,
-          "internal_residual_waste": false,
           "external_dry_recycling": false,
           "external_food_waste": false,
+          "unit_reference": "storage  - Residential",
+          "external_residual_waste": false,
           "reason_for_no_provision": "not applicable ",
-          "unit_reference": "storage  - Residential"
+          "internal_residual_waste": false,
+          "internal_food_waste": false,
+          "internal_dry_recycling": false
         }
       ],
       "urban_greening_factor_score": 0,
