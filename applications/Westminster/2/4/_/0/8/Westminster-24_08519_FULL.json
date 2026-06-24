@@ -3,7 +3,38 @@
   "epc_number": null,
   "site_name": "",
   "cil_liability": false,
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              526297,
+              182992
+            ],
+            [
+              526294,
+              182996
+            ],
+            [
+              526281,
+              182987
+            ],
+            [
+              526285,
+              182983
+            ],
+            [
+              526297,
+              182992
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "geometrycollection"
+  },
   "actual_commencement_date": null,
   "site_number": "9",
   "decision": "Approved",
@@ -47,24 +78,24 @@
     "coordinates": [
       [
         [
-          -0.180773,
-          51.53169
+          -0.180606,
+          51.531718
         ],
         [
-          -0.180774,
-          51.531663
+          -0.180648,
+          51.531755
         ],
         [
-          -0.180817,
-          51.531663
+          -0.180839,
+          51.531677
         ],
         [
-          -0.180816,
-          51.53169
+          -0.180782,
+          51.53164
         ],
         [
-          -0.180773,
-          51.53169
+          -0.180606,
+          51.531718
         ]
       ]
     ],
@@ -85,7 +116,7 @@
     "lon": -0.180795
   },
   "status": "Approved",
-  "last_updated": "2025-07-09T20:05:45.684Z",
+  "last_updated": "2026-06-23T20:04:29.574Z",
   "actual_completion_date": null,
   "lapsed_date": "31/01/2028",
   "borough": "Westminster",
@@ -130,32 +161,29 @@
       "residential_units": [
         {
           "no_habitable_rooms": 6,
-          "unit_no": "Loss-1",
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
           "provision_for_older_persons": false,
           "gia": 167,
           "tenure": "Market for sale"
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 2,
-          "unit_no": "Gain-1",
+          "provider": "Private",
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
           "gia": 40,
           "tenure": "Market for sale"
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 3,
-          "unit_no": "Gain-2",
+          "provider": "Private",
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
           "gia": 81,
           "tenure": "Market for sale"
         }
@@ -206,14 +234,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 33.9,
-        "gia_gained": 21.5,
         "use_class": "E(a)",
+        "gia_gained": 21.5,
         "gia_lost": 0
       },
       {
         "gia_existing": 170,
-        "gia_gained": 0,
         "use_class": "C3",
+        "gia_gained": 0,
         "gia_lost": 29.7
       }
     ],
