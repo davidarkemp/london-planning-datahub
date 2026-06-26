@@ -4,34 +4,44 @@
     "coordinates": [
       [
         [
-          -0.363644,
-          51.549841
-        ],
-        [
-          -0.363645,
-          51.549814
-        ],
-        [
-          -0.363688,
-          51.549814
-        ],
-        [
-          -0.363688,
-          51.549841
-        ],
-        [
-          -0.363644,
-          51.549841
+          [
+            -0.363795,
+            51.54992
+          ],
+          [
+            -0.363553,
+            51.549654
+          ],
+          [
+            -0.363425,
+            51.549693
+          ],
+          [
+            -0.36366,
+            51.549953
+          ],
+          [
+            -0.363691,
+            51.549957
+          ],
+          [
+            -0.363795,
+            51.54992
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "url_planning_app": null,
   "decision_target_date": "04/10/2024",
   "status": "Dismissed",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_proposed_cycle": 1,
+    "net_cycle": 1
+  },
   "street_name": "Mandeville Road",
   "decision_agency": null,
   "appeal_decision": "Dismissed",
@@ -71,13 +81,19 @@
       "total_no_existing_residential_units_starter_homes": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "House or Bungalow",
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "House or Bungalow",
           "no_bedrooms": 1,
-          "gia": 37,
-          "tenure": "Self-Build and Custom Build"
+          "provision_for_older_persons": false,
+          "tenure": "Self-Build and Custom Build",
+          "gia": 37
         }
       ],
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
@@ -124,16 +140,17 @@
       "no_homes_passive_cooling": 0,
       "no_new_water_connections_required": 1,
       "no_resi_units_to_have_full_fibre": 1,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "urban_greening_factor_score": 0
     },
     "total_gia_lost": 0,
     "ownership_status": "Private",
-    "site_area": 0.035,
+    "site_area": 0.0084,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 11,
-        "use_class": "C3",
         "gia_gained": 26,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -144,17 +161,18 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "11/2024",
-        "intended_completion_date": "02/2025"
+        "intended_completion_date": "02/2025",
+        "intended_commencement_date": "11/2024"
       }
     ],
     "projected_cost_of_works": "Up to £2m",
-    "total_gia_existing": 11
+    "total_gia_existing": 11,
+    "occupation_status": "Occupied"
   },
   "appeal_decision_date": "06/03/2025",
   "decision_date": "13/09/2024",
   "valid_date": "09/08/2024",
-  "site_number": "107",
+  "site_number": 107,
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "ward": "NORMAN",
@@ -164,11 +182,48 @@
   "lpa_app_no": "242868FUL",
   "postcode": "UB5 4LX",
   "pp_id": "PP-13275396",
-  "uprn": "000012046920",
+  "uprn": 12046920,
   "application_type": "All Other",
-  "locality": null,
+  "locality": "Northolt",
   "date_building_work_started_under_previous_permission": null,
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                513545.85,
+                184716.05
+              ],
+              [
+                513563.266,
+                184686.845
+              ],
+              [
+                513572.1,
+                184691.45
+              ],
+              [
+                513555.1,
+                184720
+              ],
+              [
+                513553,
+                184720.4
+              ],
+              [
+                513545.85,
+                184716.05
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "lpa_name": "Ealing",
   "actual_commencement_date": null,
   "site_name": "",
@@ -177,21 +232,21 @@
     ""
   ],
   "application_type_full": "Full planning permission",
-  "centroid_northing": "184706",
+  "centroid_northing": 184706,
   "epc_number": null,
   "actual_completion_date": null,
   "title_number": [],
   "appeal_status": null,
-  "borough": "London Borough of Ealing",
+  "borough": "Ealing",
   "cil_liability": true,
   "decision_process": null,
   "id": "Ealing-242868FUL",
-  "description": "Construction of single storey dwellinghouse (following demolition of the existing rear outbuilding)",
+  "description": "The erection of a one-bed one person dwelling following the demolition of the existing outbuilding to the rear of 107 Mandeville Road. ",
   "appeal_start_date": "30/10/2024",
-  "last_updated": "2026-06-20T04:01:34.851Z",
+  "last_updated": "2026-06-26T01:28:26.480Z",
   "centroid": {
     "lon": -0.363666,
     "lat": 51.549827
   },
-  "centroid_easting": "513555"
+  "centroid_easting": 513555
 }

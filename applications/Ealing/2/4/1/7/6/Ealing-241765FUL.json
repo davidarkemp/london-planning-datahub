@@ -48,28 +48,38 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 3,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
-          "gia": 66.9,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 66.9
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Semi Detached Home",
           "no_habitable_rooms": 7,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Semi Detached Home",
           "no_bedrooms": 3,
-          "gia": 140.4,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 140.4
         }
       ],
       "total_no_existing_residential_units_london_affordable_rent": 0
     },
-    "site_area": 0.020450000000000003,
+    "site_area": 0.02045,
     "garden_land_lost": false,
     "scheme_phasing": true,
     "total_gia_gained": 0,
@@ -88,13 +98,14 @@
       "no_non_resi_units_to_have_full_fibre": 0,
       "fire_suppression_system_proposed": false,
       "mobile_network_operators_consultation": false,
-      "total_annual_nox_emissions": 0
+      "total_annual_nox_emissions": 0,
+      "urban_greening_factor_score": 0
     },
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 140.4,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -114,43 +125,94 @@
     "phasing_details": [
       {
         "phase_detail": "Construction ",
-        "intended_commencement_date": "08/2024",
-        "intended_completion_date": "10/2024"
+        "intended_completion_date": "10/2024",
+        "intended_commencement_date": "08/2024"
       }
     ],
     "surface_water_discharge_percentage_reduction": 0,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "occupation_status": "Occupied"
   },
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.317639,
-          51.521161
-        ],
-        [
-          -0.31764,
-          51.521134
-        ],
-        [
-          -0.317683,
-          51.521135
-        ],
-        [
-          -0.317682,
-          51.521162
-        ],
-        [
-          -0.317639,
-          51.521161
+          [
+            -0.317608,
+            51.521113
+          ],
+          [
+            -0.317537,
+            51.52111
+          ],
+          [
+            -0.317419,
+            51.521105
+          ],
+          [
+            -0.317397,
+            51.521105
+          ],
+          [
+            -0.317383,
+            51.521104
+          ],
+          [
+            -0.31734,
+            51.521102
+          ],
+          [
+            -0.317339,
+            51.521105
+          ],
+          [
+            -0.317334,
+            51.521151
+          ],
+          [
+            -0.317392,
+            51.521154
+          ],
+          [
+            -0.31748,
+            51.521158
+          ],
+          [
+            -0.317522,
+            51.521159
+          ],
+          [
+            -0.317745,
+            51.52117
+          ],
+          [
+            -0.31783,
+            51.521173
+          ],
+          [
+            -0.317843,
+            51.521174
+          ],
+          [
+            -0.317849,
+            51.521123
+          ],
+          [
+            -0.317623,
+            51.521114
+          ],
+          [
+            -0.317608,
+            51.521113
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "site_name": "",
-  "centroid_easting": "516818",
-  "site_number": "34A",
+  "centroid_easting": 516818,
+  "site_number": 34,
   "development_type": null,
   "decision_date": "16/07/2024",
   "appeal_start_date": null,
@@ -160,7 +222,7 @@
   "epc_number": null,
   "appeal_status": null,
   "lpa_name": "Ealing",
-  "centroid_northing": "181589",
+  "centroid_northing": 181589,
   "appeal_decision_date": null,
   "decision_conditions": [
     "Standard Cond - Expiration Three Years",
@@ -181,25 +243,106 @@
   "valid_date": "08/05/2024",
   "postcode": "W13 8AS",
   "bo_system": "Idox Uniform",
-  "borough": "London Borough of Ealing",
+  "borough": "Ealing",
   "id": "Ealing-241765FUL",
   "application_type": "All Other",
   "parking_details": null,
   "decision_target_date": "03/07/2024",
   "pp_id": "PP-13046551",
-  "last_updated_by": "Idox Uniform",
-  "locality": null,
-  "uprn": "000012135380",
+  "last_updated_by": "Planning Portal ingest",
+  "locality": "West Ealing",
+  "uprn": 12135380,
   "last_date_consultation_comments": "13/06/2024",
   "title_number": [],
   "decision": "Approved",
-  "last_updated": "2026-06-20T04:01:00.928Z",
-  "polygon": null,
+  "last_updated": "2026-06-25T16:13:31.984Z",
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                516821.765,
+                181585.207
+              ],
+              [
+                516826.708,
+                181585.006
+              ],
+              [
+                516834.917,
+                181584.673
+              ],
+              [
+                516836.43,
+                181584.61
+              ],
+              [
+                516837.417,
+                181584.571
+              ],
+              [
+                516840.4,
+                181584.45
+              ],
+              [
+                516840.45,
+                181584.8
+              ],
+              [
+                516840.7,
+                181589.9
+              ],
+              [
+                516836.681,
+                181590.084
+              ],
+              [
+                516830.534,
+                181590.366
+              ],
+              [
+                516827.6,
+                181590.5
+              ],
+              [
+                516812.1,
+                181591.3
+              ],
+              [
+                516806.24,
+                181591.56
+              ],
+              [
+                516805.3,
+                181591.6
+              ],
+              [
+                516805.01,
+                181585.89
+              ],
+              [
+                516820.7,
+                181585.25
+              ],
+              [
+                516821.765,
+                181585.207
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "date_building_work_started_under_previous_permission": null,
   "actual_commencement_date": null,
   "ward": "EALBDY",
   "appeal_decision": null,
   "lpa_app_no": "241765FUL",
-  "description": "Conversion of two flats to create a single three-bedroom dwelling house.",
+  "description": "CONVERSION OF TWO FLATS TO CREATE ONE FOUR BEDROOM HOUSE",
   "date_building_work_completed_under_previous_permission": null
 }

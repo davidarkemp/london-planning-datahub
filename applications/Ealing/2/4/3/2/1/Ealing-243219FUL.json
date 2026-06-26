@@ -4,30 +4,108 @@
     "coordinates": [
       [
         [
-          -0.264732,
-          51.501605
-        ],
-        [
-          -0.264733,
-          51.501578
-        ],
-        [
-          -0.264776,
-          51.501579
-        ],
-        [
-          -0.264775,
-          51.501606
-        ],
-        [
-          -0.264732,
-          51.501605
+          [
+            -0.264686,
+            51.501635
+          ],
+          [
+            -0.26484,
+            51.50163
+          ],
+          [
+            -0.264825,
+            51.501593
+          ],
+          [
+            -0.264816,
+            51.501569
+          ],
+          [
+            -0.26477,
+            51.501572
+          ],
+          [
+            -0.264752,
+            51.501571
+          ],
+          [
+            -0.264747,
+            51.501571
+          ],
+          [
+            -0.264744,
+            51.501571
+          ],
+          [
+            -0.264738,
+            51.50157
+          ],
+          [
+            -0.264733,
+            51.501569
+          ],
+          [
+            -0.264721,
+            51.501567
+          ],
+          [
+            -0.264709,
+            51.501564
+          ],
+          [
+            -0.264707,
+            51.501563
+          ],
+          [
+            -0.264704,
+            51.501563
+          ],
+          [
+            -0.264693,
+            51.501561
+          ],
+          [
+            -0.26464,
+            51.50154
+          ],
+          [
+            -0.264619,
+            51.501531
+          ],
+          [
+            -0.264612,
+            51.501534
+          ],
+          [
+            -0.264608,
+            51.501539
+          ],
+          [
+            -0.264591,
+            51.501558
+          ],
+          [
+            -0.264583,
+            51.501566
+          ],
+          [
+            -0.264585,
+            51.501591
+          ],
+          [
+            -0.26459,
+            51.501638
+          ],
+          [
+            -0.264686,
+            51.501635
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "url_planning_app": null,
   "decision_target_date": "07/10/2024",
   "status": "Approved",
@@ -43,7 +121,7 @@
       "total_gia_lost": 52,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 52,
-      "total_gia_gained": 205.52,
+      "total_gia_gained": 205.51999999999998,
       "total_gia_existing": 52
     },
     "affordable_housing_fast_track": false,
@@ -64,13 +142,19 @@
       "total_no_existing_residential_units_starter_homes": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Semi Detached Home",
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Semi Detached Home",
           "no_bedrooms": 3,
-          "gia": 102.53,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 102.53
         }
       ],
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
@@ -117,44 +201,46 @@
       "no_homes_passive_cooling": 0,
       "no_new_water_connections_required": 1,
       "no_resi_units_to_have_full_fibre": 1,
-      "ghg_reduction_over_building_regulations": true
+      "ghg_reduction_over_building_regulations": true,
+      "urban_greening_factor_score": 0
     },
     "total_gia_lost": 52,
     "ownership_status": "Private",
-    "site_area": 0.014,
+    "site_area": 0.01,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 52,
-        "use_class": "B2",
         "gia_gained": 0,
+        "use_class": "B2",
         "gia_lost": 52
       },
       {
         "gia_existing": 0,
-        "use_class": "C3",
         "gia_gained": 102.53,
+        "use_class": "C3",
         "gia_lost": 0
       },
       {
         "gia_existing": 0,
-        "use_class": "E(g)(i)",
         "gia_gained": 102.99,
+        "use_class": "EG1",
         "gia_lost": 0
       }
     ],
     "existing_uprns": null,
     "green_suds": false,
     "rain_water_harvesting": false,
-    "total_gia_gained": 205.52,
+    "total_gia_gained": 205.51999999999998,
     "phasing_details": [
       {
         "phase_detail": "Entire Developemnt",
-        "intended_commencement_date": "12/2024",
-        "intended_completion_date": "06/2025"
+        "intended_completion_date": "06/2025",
+        "intended_commencement_date": "12/2024"
       }
     ],
     "projected_cost_of_works": "Up to £2m",
-    "total_gia_existing": 52
+    "total_gia_existing": 52,
+    "occupation_status": "Occupied"
   },
   "appeal_decision_date": null,
   "decision_date": "28/11/2024",
@@ -169,14 +255,123 @@
   "lpa_app_no": "243219FUL",
   "postcode": "W4 5DR",
   "pp_id": "PP-13298156",
-  "uprn": "000012116525",
+  "uprn": 12160758,
   "application_type": "All Other",
-  "locality": null,
+  "locality": "Chiswick",
   "date_building_work_started_under_previous_permission": null,
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                520544.6,
+                179504.9
+              ],
+              [
+                520533.95,
+                179504.1
+              ],
+              [
+                520535.07,
+                179500
+              ],
+              [
+                520535.8,
+                179497.32
+              ],
+              [
+                520539,
+                179497.7
+              ],
+              [
+                520540.2,
+                179497.7
+              ],
+              [
+                520540.55,
+                179497.65
+              ],
+              [
+                520540.8,
+                179497.65
+              ],
+              [
+                520541.2,
+                179497.55
+              ],
+              [
+                520541.55,
+                179497.5
+              ],
+              [
+                520542.4,
+                179497.25
+              ],
+              [
+                520543.2,
+                179497
+              ],
+              [
+                520543.35,
+                179496.9
+              ],
+              [
+                520543.55,
+                179496.9
+              ],
+              [
+                520544.35,
+                179496.6
+              ],
+              [
+                520548.05,
+                179494.4
+              ],
+              [
+                520549.546,
+                179493.429
+              ],
+              [
+                520550.027,
+                179493.787
+              ],
+              [
+                520550.299,
+                179494.297
+              ],
+              [
+                520551.445,
+                179496.443
+              ],
+              [
+                520551.958,
+                179497.404
+              ],
+              [
+                520551.734,
+                179500.135
+              ],
+              [
+                520551.302,
+                179505.391
+              ],
+              [
+                520544.6,
+                179504.9
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "lpa_name": "Ealing",
   "actual_commencement_date": null,
-  "site_name": "",
+  "site_name": "43a Storage Land",
   "decision_conditions": [
     "Standard Cond - Expiration Three Years",
     "Anti-vibration isolators",
@@ -191,21 +386,21 @@
     "Hours of commercial use"
   ],
   "application_type_full": "Full planning permission",
-  "centroid_northing": "179500",
+  "centroid_northing": 179500,
   "epc_number": null,
   "actual_completion_date": null,
   "title_number": [],
   "appeal_status": null,
-  "borough": "London Borough of Ealing",
+  "borough": "Ealing",
   "cil_liability": true,
   "decision_process": null,
   "id": "Ealing-243219FUL",
-  "description": "Redevelopment of site (following demolition of existing workshop) to create (use class E) commercial building and 1 no. 3 bedroom single residential dwelling.\r\r",
+  "description": "Demolition of existing workshop.  Redevelopment of the site to create a 1 ½ storey commercial Class E building, and a 2 ½ storey 3 bedroom single family dwelling",
   "appeal_start_date": null,
-  "last_updated": "2026-06-20T04:01:45.082Z",
+  "last_updated": "2026-06-26T00:06:56.978Z",
   "centroid": {
     "lon": -0.264754,
     "lat": 51.501592
   },
-  "centroid_easting": "520540"
+  "centroid_easting": 520540
 }

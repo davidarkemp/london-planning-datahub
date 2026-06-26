@@ -6,16 +6,85 @@
     "lon": -0.25597,
     "lat": 51.500724
   },
-  "polygon": null,
-  "borough": "London Borough of Ealing",
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                521147.5,
+                179428.25
+              ],
+              [
+                521147.75,
+                179420.9
+              ],
+              [
+                521148,
+                179410.4
+              ],
+              [
+                521148.15,
+                179407.95
+              ],
+              [
+                521148.6,
+                179407.95
+              ],
+              [
+                521153,
+                179408
+              ],
+              [
+                521153,
+                179410.4
+              ],
+              [
+                521152.926,
+                179412.253
+              ],
+              [
+                521152.9,
+                179412.9
+              ],
+              [
+                521152.9,
+                179414.25
+              ],
+              [
+                521152.5,
+                179428.3
+              ],
+              [
+                521152.4,
+                179431.2
+              ],
+              [
+                521147.4,
+                179431.05
+              ],
+              [
+                521147.5,
+                179428.25
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
+  "borough": "Ealing",
   "application_type": "All Other",
   "date_building_work_started_under_previous_permission": null,
-  "uprn": "000012106533",
+  "uprn": 12106533,
   "valid_date": "29/08/2024",
   "decision_target_date": "24/10/2024",
   "appeal_decision_date": null,
-  "locality": null,
-  "centroid_northing": "179418",
+  "locality": "Chiswick",
+  "centroid_northing": 179418,
   "ward": "SOUFLD",
   "decision_conditions": [
     "Standard Cond - Expiration Three Years",
@@ -31,34 +100,72 @@
   "id": "Ealing-243261FUL",
   "actual_commencement_date": null,
   "lpa_name": "Ealing",
-  "last_updated": "2026-06-20T04:01:46.289Z",
+  "last_updated": "2026-06-26T00:12:39.196Z",
   "lpa_app_no": "243261FUL",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.255948,
-          51.500738
-        ],
-        [
-          -0.255949,
-          51.500711
-        ],
-        [
-          -0.255992,
-          51.500711
-        ],
-        [
-          -0.255991,
-          51.500738
-        ],
-        [
-          -0.255948,
-          51.500738
+          [
+            -0.256031,
+            51.500817
+          ],
+          [
+            -0.25603,
+            51.500751
+          ],
+          [
+            -0.25603,
+            51.500657
+          ],
+          [
+            -0.256029,
+            51.500635
+          ],
+          [
+            -0.256022,
+            51.500635
+          ],
+          [
+            -0.255959,
+            51.500634
+          ],
+          [
+            -0.255958,
+            51.500656
+          ],
+          [
+            -0.255958,
+            51.500673
+          ],
+          [
+            -0.255958,
+            51.500678
+          ],
+          [
+            -0.255958,
+            51.50069
+          ],
+          [
+            -0.255959,
+            51.500817
+          ],
+          [
+            -0.255959,
+            51.500843
+          ],
+          [
+            -0.256031,
+            51.500843
+          ],
+          [
+            -0.256031,
+            51.500817
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "appeal_status": null,
   "site_name": "",
@@ -67,13 +174,13 @@
   "appeal_start_date": null,
   "cil_liability": false,
   "development_type": null,
-  "description": "Conversion of two self-contained residential units into one single-family dwellinghouse; and associated internal alterations",
-  "epc_number": null,
+  "description": "De-conversion of two self-contained flats to a Single dwelling, with internal alterations",
+  "epc_number": "9072-3007-9202-7034-3204",
   "reference_no_of_permission_being_relied_on": null,
   "bo_system": "Idox Uniform",
   "appeal_decision": null,
   "actual_completion_date": null,
-  "centroid_easting": "521152",
+  "centroid_easting": 521152,
   "url_planning_app": null,
   "application_details": {
     "existing_uprns": null,
@@ -81,19 +188,19 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "11/2024",
-        "intended_completion_date": "02/2025"
+        "intended_completion_date": "02/2025",
+        "intended_commencement_date": "11/2024"
       }
     ],
     "total_gia_gained": 0,
-    "site_area": 0.012,
+    "site_area": 0.0115,
     "total_gia_lost": 0,
     "total_gia_existing": 102.7,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 102.7,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -150,33 +257,47 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 3,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
-          "gia": 50.7,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 50.7
         },
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 3,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
-          "gia": 50.7,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 50.7
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Terraced Home",
           "no_habitable_rooms": 5,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Terraced Home",
           "no_bedrooms": 3,
-          "gia": 102.7,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 102.7
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -196,16 +317,18 @@
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
-      "ghg_reduction_over_building_regulations": true
+      "ghg_reduction_over_building_regulations": true,
+      "urban_greening_factor_score": 0
     },
     "internal_resi_water_usage": 120,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "occupation_status": "Occupied"
   },
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "postcode": "W4 1DY",
   "last_date_consultation_comments": "30/09/2024",
   "secondary_street_name": null,
-  "site_number": "65",
+  "site_number": 65,
   "subdivision_of_building": null,
   "street_name": "Whellock Road"
 }

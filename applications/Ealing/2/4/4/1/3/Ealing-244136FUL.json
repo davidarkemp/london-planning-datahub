@@ -7,15 +7,15 @@
     "lat": 51.517281
   },
   "polygon": null,
-  "borough": "London Borough of Ealing",
+  "borough": "Ealing",
   "application_type": "All Other",
   "date_building_work_started_under_previous_permission": null,
-  "uprn": "000012108906",
+  "uprn": 12108906,
   "valid_date": "04/11/2024",
   "decision_target_date": "30/12/2024",
   "appeal_decision_date": null,
-  "locality": null,
-  "centroid_northing": "181266",
+  "locality": "Acton",
+  "centroid_northing": 181266,
   "ward": "EASACT",
   "decision_conditions": [
     "Cycle Store - Compliance",
@@ -31,12 +31,16 @@
   "decision_process": null,
   "lapsed_date": "03/02/2028",
   "application_type_full": "Full planning permission",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 5,
+    "no_proposed_cycle": 9,
+    "net_cycle": 4
+  },
   "date_building_work_completed_under_previous_permission": null,
   "id": "Ealing-244136FUL",
   "actual_commencement_date": null,
   "lpa_name": "Ealing",
-  "last_updated": "2026-06-20T04:02:12.262Z",
+  "last_updated": "2026-06-25T23:44:33.553Z",
   "lpa_app_no": "244136FUL",
   "wgs84_polygon": {
     "coordinates": [
@@ -72,13 +76,13 @@
   "appeal_start_date": null,
   "cil_liability": true,
   "development_type": null,
-  "description": "Construction of two-storey attached dwellinghouse with provision of associated private amenity space, cycle, refuse and recycling spaces",
+  "description": "Construction of a two storey, attached, two-bedroom, 3 person dwellinghouse; provision of\nassociated private amenity space, cycle, refuse and recycling spaces",
   "epc_number": null,
   "reference_no_of_permission_being_relied_on": null,
   "bo_system": "Idox Uniform",
   "appeal_decision": null,
   "actual_completion_date": null,
-  "centroid_easting": "521393",
+  "centroid_easting": 521393,
   "url_planning_app": null,
   "application_details": {
     "existing_uprns": null,
@@ -86,19 +90,19 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "03/2025",
-        "intended_completion_date": "07/2025"
+        "intended_completion_date": "07/2025",
+        "intended_commencement_date": "03/2025"
       }
     ],
     "total_gia_gained": 0,
-    "site_area": 0.031,
+    "site_area": 0.0316,
     "total_gia_lost": 0,
     "total_gia_existing": 106.2,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 106.2,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -162,13 +166,19 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Terraced Home",
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Terraced Home",
           "no_bedrooms": 2,
-          "gia": 81.2,
-          "tenure": "Self-Build and Custom Build"
+          "provision_for_older_persons": false,
+          "tenure": "Self-Build and Custom Build",
+          "gia": 81.2
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -192,13 +202,14 @@
       "ghg_reduction_over_building_regulations": true
     },
     "internal_resi_water_usage": 103,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "occupation_status": "Occupied"
   },
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "postcode": "W3 7NF",
   "last_date_consultation_comments": "10/12/2024",
   "secondary_street_name": null,
-  "site_number": "58",
-  "subdivision_of_building": null,
+  "site_number": 58,
+  "subdivision_of_building": "A two storey side extension to create a two-bedroom dwellinghouse.",
   "street_name": "St Andrews Road"
 }

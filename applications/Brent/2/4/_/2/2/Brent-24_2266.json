@@ -8,13 +8,13 @@
   "application_type": "All Other",
   "appeal_status": null,
   "title_number": [],
-  "postcode": null,
+  "postcode": "",
   "locality": null,
   "appeal_decision": null,
-  "status": "Commenced",
+  "status": "Completed",
   "pp_id": "PP-13331380",
-  "street_name": null,
-  "last_updated_by": "CSV Data Import",
+  "street_name": "",
+  "last_updated_by": "Portal",
   "lpa_name": "Brent",
   "centroid": {
     "lon": -0.217948,
@@ -23,7 +23,7 @@
   "lpa_app_no": "24/2266",
   "borough": "Brent",
   "application_details": {
-    "existing_uprns": null,
+    "existing_uprns": [],
     "affordable_housing_fast_track": false,
     "phasing_details": [
       {
@@ -39,8 +39,10 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 180.5,
-        "use_class": "C3",
+        "actual_completion_date": "22/10/2025",
         "gia_gained": 0,
+        "use_class": "C3",
+        "actual_commencement_date": "01/04/2024",
         "gia_lost": 0
       }
     ],
@@ -107,6 +109,7 @@
           "unit_development_type": "Conversion",
           "no_habitable_rooms": 3,
           "phase_detail": null,
+          "unit_no": null,
           "actual_commencement_date": "01/04/2024",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
@@ -122,6 +125,7 @@
           "unit_development_type": "Conversion",
           "no_habitable_rooms": 4,
           "phase_detail": null,
+          "unit_no": null,
           "actual_commencement_date": "01/04/2024",
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
@@ -129,18 +133,20 @@
           "gia": 83.2
         },
         {
-          "provider": "Private",
-          "no_habitable_rooms": 7,
-          "phase_detail": null,
+          "actual_completion_date": "22/10/2025",
           "description": null,
           "change_type": "Gain",
-          "actual_commencement_date": "01/04/2024",
           "unit_type": "Terraced Home",
+          "unit_development_type": "Conversion",
+          "no_habitable_rooms": 7,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "01/04/2024",
           "no_bedrooms": 4,
           "provision_for_older_persons": false,
           "tenure": "Market for sale",
-          "gia": 180.5,
-          "unit_development_type": "Conversion"
+          "gia": 180.5
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -225,16 +231,42 @@
   },
   "application_type_full": "Full planning permission",
   "cil_liability": false,
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.217926,
+          51.536531
+        ],
+        [
+          -0.217927,
+          51.536504
+        ],
+        [
+          -0.21797,
+          51.536505
+        ],
+        [
+          -0.217969,
+          51.536532
+        ],
+        [
+          -0.217926,
+          51.536531
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "centroid_easting": 523694,
   "actual_commencement_date": "01/04/2024",
   "date_building_work_completed_under_previous_permission": null,
   "url_planning_app": "https://pa.brent.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR_169895&activeTab=summary",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "appeal_start_date": null,
   "secondary_street_name": null,
   "subdivision_of_building": null,
-  "actual_completion_date": null,
+  "actual_completion_date": "22/10/2025",
   "site_name": "Ground Floor Flat and First Floor Flat, 37 Wrentham Avenue, London, NW10 3HS",
   "id": "Brent-24_2266",
   "decision_target_date": "02/10/2024",
@@ -309,7 +341,7 @@
   "uprn": "202028729",
   "reference_no_of_permission_being_relied_on": null,
   "decision_process": "Delegated",
-  "last_updated": "2025-11-26T09:04:18.879Z",
+  "last_updated": "2026-06-25T14:27:39.816Z",
   "decision_agency": null,
   "parking_details": {
     "no_existing_car": 1,

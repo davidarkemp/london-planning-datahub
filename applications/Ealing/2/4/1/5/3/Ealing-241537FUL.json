@@ -3,36 +3,66 @@
     "coordinates": [
       [
         [
-          -0.275985,
-          51.513812
-        ],
-        [
-          -0.275986,
-          51.513785
-        ],
-        [
-          -0.27603,
-          51.513786
-        ],
-        [
-          -0.276029,
-          51.513813
-        ],
-        [
-          -0.275985,
-          51.513812
+          [
+            -0.276221,
+            51.51351
+          ],
+          [
+            -0.276117,
+            51.513586
+          ],
+          [
+            -0.275971,
+            51.513693
+          ],
+          [
+            -0.275873,
+            51.513765
+          ],
+          [
+            -0.275799,
+            51.513819
+          ],
+          [
+            -0.275856,
+            51.51385
+          ],
+          [
+            -0.276021,
+            51.513937
+          ],
+          [
+            -0.276097,
+            51.513882
+          ],
+          [
+            -0.276463,
+            51.513617
+          ],
+          [
+            -0.276242,
+            51.513495
+          ],
+          [
+            -0.276221,
+            51.51351
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "ward": "NORACT",
   "decision": "Approved",
   "decision_process": null,
   "appeal_status": null,
   "status": "Approved",
-  "parking_details": null,
-  "centroid_easting": "519727",
+  "parking_details": {
+    "no_existing_car": 1,
+    "net_car": 0,
+    "no_proposed_car": 1
+  },
+  "centroid_easting": 519722,
   "application_details": {
     "non_residential_details": {
       "total_gia_lost": 0,
@@ -57,7 +87,8 @@
       "total_annual_nox_emissions": 0,
       "no_homes_to_have_electrical_heating": 0,
       "no_new_gas_connections_required": 0,
-      "mobile_network_operators_consultation": false
+      "mobile_network_operators_consultation": false,
+      "urban_greening_factor_score": 0
     },
     "internal_resi_water_usage": 105,
     "surface_water_discharge_percentage_reduction": 5,
@@ -68,8 +99,8 @@
     "phasing_details": [
       {
         "phase_detail": "1",
-        "intended_commencement_date": "01/2025",
-        "intended_completion_date": "04/2025"
+        "intended_completion_date": "04/2025",
+        "intended_commencement_date": "01/2025"
       }
     ],
     "total_gia_lost": 0,
@@ -82,21 +113,22 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 65,
-        "use_class": "SpecifiedOther",
         "gia_gained": 21,
+        "use_class": "Other",
         "gia_lost": 0
       }
     ],
     "site_area": 0.0961,
-    "projected_cost_of_works": "Up to £2m"
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Vacant"
   },
   "actual_completion_date": null,
   "application_type_full": "Full planning permission",
-  "locality": null,
+  "locality": "Acton",
   "actual_commencement_date": null,
   "development_type": null,
   "appeal_decision_date": null,
-  "centroid_northing": "180839",
+  "centroid_northing": 180842,
   "date_building_work_started_under_previous_permission": null,
   "title_number": [],
   "reference_no_of_permission_being_relied_on": null,
@@ -107,23 +139,23 @@
   "epc_number": null,
   "decision_agency": null,
   "centroid": {
-    "lat": 51.513799,
-    "lon": -0.276007
+    "lat": 51.513827,
+    "lon": -0.276078
   },
   "application_type": "All Other",
-  "borough": "London Borough of Ealing",
+  "borough": "Ealing",
   "postcode": "W3 9HF",
   "site_name": "",
   "bo_system": "Idox Uniform",
-  "site_number": "42",
+  "site_number": 42,
   "decision_target_date": "17/06/2024",
   "valid_date": "22/04/2024",
   "street_name": "Creswick Road",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "url_planning_app": null,
   "appeal_start_date": null,
   "last_date_consultation_comments": "24/05/2024",
-  "last_updated": "2026-06-20T04:00:53.957Z",
+  "last_updated": "2026-06-26T02:10:19.469Z",
   "appeal_decision": null,
   "description": "Part-demolition and part-extension to the existing outbuilding.",
   "decision_date": "05/06/2024",
@@ -137,8 +169,65 @@
     "",
     ""
   ],
-  "uprn": "000012094251",
+  "uprn": 12094251,
   "id": "Ealing-241537FUL",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                519712.914,
+                180806.528
+              ],
+              [
+                519719.959,
+                180815.194
+              ],
+              [
+                519729.8,
+                180827.3
+              ],
+              [
+                519736.439,
+                180835.42
+              ],
+              [
+                519741.4,
+                180841.6
+              ],
+              [
+                519737.344,
+                180844.907
+              ],
+              [
+                519725.7,
+                180854.4
+              ],
+              [
+                519720.55,
+                180848.15
+              ],
+              [
+                519695.9,
+                180818
+              ],
+              [
+                519711.55,
+                180804.85
+              ],
+              [
+                519712.914,
+                180806.528
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "lpa_name": "Ealing"
 }

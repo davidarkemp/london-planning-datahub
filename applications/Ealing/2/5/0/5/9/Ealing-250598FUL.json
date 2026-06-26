@@ -6,9 +6,9 @@
   "appeal_start_date": null,
   "lapsed_date": "23/07/2028",
   "uprn": "000012189306",
-  "locality": null,
+  "locality": "London",
   "appeal_decision_date": null,
-  "centroid_easting": null,
+  "centroid_easting": 517946,
   "application_details": {
     "residential_details": {
       "total_no_existing_residential_units": 0,
@@ -42,13 +42,19 @@
       "dwelling_density": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "gia": 79.55,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 79.55
         }
       ],
       "total_no_proposed_residential_units_social_rent": 0,
@@ -64,8 +70,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "02/2025",
-        "intended_completion_date": "10/2025"
+        "intended_completion_date": "10/2025",
+        "intended_commencement_date": "02/2025"
       }
     ],
     "green_suds": false,
@@ -83,7 +89,8 @@
       "no_new_gas_connections_required": 0,
       "total_annual_nox_emissions": 0,
       "ghg_reduction_over_building_regulations": true,
-      "fire_suppression_system_proposed": false
+      "fire_suppression_system_proposed": false,
+      "urban_greening_factor_score": 0
     },
     "garden_land_lost": false,
     "internal_resi_water_usage": 0,
@@ -101,7 +108,7 @@
     "total_gia_lost": 62.5,
     "grey_water_reuse": false,
     "existing_uprns": null,
-    "site_area": 0.0031000000000000003,
+    "site_area": 0.0031,
     "surface_water_discharge_percentage_reduction": 0,
     "non_residential_details": {
       "total_gia_existing": 62.5,
@@ -115,67 +122,95 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 0,
-        "use_class": "C3",
         "gia_gained": 79.55,
+        "use_class": "C3",
         "gia_lost": 0
       },
       {
         "gia_existing": 62.5,
-        "use_class": "B8",
         "gia_gained": 0,
+        "use_class": "B8",
         "gia_lost": 62.5
       }
     ],
-    "rain_water_harvesting": false
+    "rain_water_harvesting": false,
+    "occupation_status": "Vacant"
   },
   "date_building_work_completed_under_previous_permission": null,
-  "site_name": "3 Haven Green Mews\rBuildings Rear Of 31 To 36 Haven Green\rEaling\rW5 2NX\r\r",
+  "site_name": "3 Haven Green Mews",
   "borough": "London Borough of Ealing",
   "status": "Approved",
   "epc_number": null,
   "bo_system": "Idox Uniform",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.301581,
+          51.51575
+        ],
+        [
+          -0.301582,
+          51.515723
+        ],
+        [
+          -0.301625,
+          51.515724
+        ],
+        [
+          -0.301624,
+          51.515751
+        ],
+        [
+          -0.301581,
+          51.51575
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "cil_liability": true,
   "title_number": [],
   "application_type": "All Other",
-  "street_name": null,
+  "street_name": "Rear Of 31 To 36 Haven Green ",
   "actual_commencement_date": null,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_proposed_cycle": 1,
+    "net_cycle": 1
+  },
   "decision_target_date": "10/04/2025",
   "lpa_name": "Ealing",
   "secondary_street_name": null,
   "decision_date": "23/07/2025",
-  "last_updated": "2026-06-20T04:02:52.105Z",
+  "last_updated": "2026-06-26T01:30:36.884Z",
   "url_planning_app": null,
   "ward": "EALBDY",
   "valid_date": "13/02/2025",
   "reference_no_of_permission_being_relied_on": null,
   "development_type": null,
   "appeal_decision": null,
-  "postcode": null,
-  "centroid_northing": null,
-  "description": "Conversion of storage facility (Use Class B8) into a one bedroom dwellinghouse (Use Class C3); mansard roof extension and alterations to fenestration",
+  "postcode": "W5 2NX",
+  "centroid_northing": 181013,
+  "description": "Conversion of storage facility (Class B8) to a two-bedroom, single dwelling (Class C3); mansard rood extension incorporating two dormer windows roofslope and alterations to fenestration. \n",
   "subdivision_of_building": null,
   "actual_completion_date": null,
   "lpa_app_no": "250598FUL",
   "decision": "Approved",
   "application_type_full": "Full planning permission",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_status": null,
   "id": "Ealing-250598FUL",
   "decision_conditions": [
     "Standard Cond - Expiration Three Years",
     "Standard Cond - Materials",
-    "",
-    "list of drawings",
-    "",
-    ""
+    "list of drawings"
   ],
   "pp_id": "PP-13752476",
   "last_date_consultation_comments": "02/06/2025",
   "polygon": null,
   "centroid": {
-    "lat": 49.766807,
-    "lon": -7.55716
+    "lat": 51.515737,
+    "lon": -0.301603
   }
 }

@@ -1,20 +1,20 @@
 {
   "decision_agency": null,
   "date_building_work_started_under_previous_permission": null,
-  "site_number": "18",
+  "site_number": 18,
   "decision_process": null,
   "appeal_start_date": null,
   "lapsed_date": "15/09/2028",
-  "uprn": "000012091764",
-  "locality": null,
+  "uprn": 12091764,
+  "locality": "Ealing",
   "appeal_decision_date": null,
-  "centroid_easting": "518220",
+  "centroid_easting": 518233,
   "application_details": {
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "05/2025",
-        "intended_completion_date": "11/2025"
+        "intended_completion_date": "11/2025",
+        "intended_commencement_date": "05/2025"
       }
     ],
     "green_suds": false,
@@ -32,7 +32,8 @@
       "no_new_gas_connections_required": 0,
       "total_annual_nox_emissions": 0,
       "ghg_reduction_over_building_regulations": true,
-      "fire_suppression_system_proposed": false
+      "fire_suppression_system_proposed": false,
+      "urban_greening_factor_score": 0
     },
     "garden_land_lost": true,
     "internal_resi_water_usage": 50,
@@ -44,7 +45,7 @@
     "total_gia_lost": 0,
     "surface_water_discharge_percentage_reduction": 0,
     "existing_uprns": null,
-    "site_area": 0.198,
+    "site_area": 0.1133,
     "ownership_status": "Private",
     "non_residential_details": {
       "total_gia_existing": 520,
@@ -57,16 +58,17 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 520,
-        "use_class": "C2",
         "gia_gained": 95,
+        "use_class": "C2",
         "gia_lost": 0
       }
     ],
-    "rain_water_harvesting": false
+    "rain_water_harvesting": false,
+    "occupation_status": "Occupied"
   },
   "date_building_work_completed_under_previous_permission": null,
   "site_name": "",
-  "borough": "London Borough of Ealing",
+  "borough": "Ealing",
   "status": "Refused",
   "epc_number": null,
   "bo_system": "Idox Uniform",
@@ -74,40 +76,46 @@
     "coordinates": [
       [
         [
-          -0.297452,
-          51.520582
-        ],
-        [
-          -0.297453,
-          51.520555
-        ],
-        [
-          -0.297496,
-          51.520556
-        ],
-        [
-          -0.297495,
-          51.520583
-        ],
-        [
-          -0.297452,
-          51.520582
+          [
+            -0.29768,
+            51.520682
+          ],
+          [
+            -0.297731,
+            51.520493
+          ],
+          [
+            -0.296989,
+            51.520414
+          ],
+          [
+            -0.296927,
+            51.520601
+          ],
+          [
+            -0.29768,
+            51.520682
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "cil_liability": true,
   "title_number": [],
   "application_type": "All Other",
   "street_name": "Corfton Road",
   "actual_commencement_date": null,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 4,
+    "net_car": 0,
+    "no_proposed_car": 4
+  },
   "decision_target_date": "22/04/2025",
   "lpa_name": "Ealing",
   "secondary_street_name": null,
   "decision_date": "15/09/2025",
-  "last_updated": "2026-06-20T04:02:56.411Z",
+  "last_updated": "2026-06-26T01:38:26.343Z",
   "url_planning_app": null,
   "ward": "HANHIL",
   "valid_date": "25/02/2025",
@@ -115,14 +123,14 @@
   "development_type": null,
   "appeal_decision": null,
   "postcode": "W5 2HT",
-  "centroid_northing": "181557",
-  "description": "Single storey building to rear of Amadeus House to provide staff offices, confidential space and sleep-in accommodation for overnight staff (use class C2)",
+  "centroid_northing": 181551,
+  "description": "Single Storey building to rear of Amadeus House, 18 Corfton Road, Ealing W5 2HT, to provide staff offices, confidential space and sleep-in accommodation for overnight staff. Revised Application with additional information to address reasons for refusal of application reference 242118FUL",
   "subdivision_of_building": null,
   "actual_completion_date": null,
   "lpa_app_no": "250748FUL",
   "decision": "REF",
   "application_type_full": "Full planning permission",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_status": null,
   "id": "Ealing-250748FUL",
   "decision_conditions": [
@@ -131,9 +139,42 @@
   ],
   "pp_id": "PP-13798583",
   "last_date_consultation_comments": "26/03/2025",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                518205.4,
+                181569.2
+              ],
+              [
+                518202.35,
+                181548.2
+              ],
+              [
+                518254.016,
+                181540.622
+              ],
+              [
+                518257.825,
+                181561.442
+              ],
+              [
+                518205.4,
+                181569.2
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "centroid": {
-    "lat": 51.520569,
-    "lon": -0.297474
+    "lat": 51.520512,
+    "lon": -0.297289
   }
 }

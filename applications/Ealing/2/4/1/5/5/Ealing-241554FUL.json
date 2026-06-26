@@ -31,8 +31,12 @@
   "decision_process": null,
   "appeal_status": null,
   "status": "Approved",
-  "parking_details": null,
-  "centroid_easting": "512436",
+  "parking_details": {
+    "no_existing_car": 50,
+    "net_car": 0,
+    "no_proposed_car": 50
+  },
+  "centroid_easting": 512436,
   "application_details": {
     "non_residential_details": {
       "total_gia_lost": 0,
@@ -58,7 +62,8 @@
       "total_annual_nox_emissions": 0,
       "no_homes_to_have_electrical_heating": 0,
       "no_new_gas_connections_required": 0,
-      "mobile_network_operators_consultation": false
+      "mobile_network_operators_consultation": false,
+      "urban_greening_factor_score": 0
     },
     "internal_resi_water_usage": 0,
     "surface_water_discharge_percentage_reduction": 0,
@@ -69,8 +74,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development ",
-        "intended_commencement_date": "06/2024",
-        "intended_completion_date": "10/2024"
+        "intended_completion_date": "10/2024",
+        "intended_commencement_date": "06/2024"
       }
     ],
     "total_gia_lost": 0,
@@ -83,27 +88,28 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 139,
-        "use_class": "E(c)(iii)",
         "gia_gained": 10.5,
+        "use_class": "EC3",
         "gia_lost": 0
       },
       {
         "gia_existing": 297.5,
-        "use_class": "SG",
         "gia_gained": 0,
+        "use_class": "SG",
         "gia_lost": 0
       }
     ],
-    "site_area": 6.222,
-    "projected_cost_of_works": "Up to £2m"
+    "site_area": 11.7,
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied"
   },
   "actual_completion_date": null,
   "application_type_full": "Full planning permission",
-  "locality": null,
+  "locality": "Northolt",
   "actual_commencement_date": null,
   "development_type": null,
   "appeal_decision_date": null,
-  "centroid_northing": "183373",
+  "centroid_northing": 183373,
   "date_building_work_started_under_previous_permission": null,
   "title_number": [],
   "reference_no_of_permission_being_relied_on": null,
@@ -118,7 +124,7 @@
     "lon": -0.380223
   },
   "application_type": "All Other",
-  "borough": "London Borough of Ealing",
+  "borough": "Ealing",
   "postcode": "UB5 5UL",
   "site_name": "Northolt Golf Club",
   "bo_system": "Idox Uniform",
@@ -126,13 +132,13 @@
   "decision_target_date": "07/06/2024",
   "valid_date": "12/04/2024",
   "street_name": "Huxley Close",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "url_planning_app": null,
   "appeal_start_date": null,
   "last_date_consultation_comments": "20/05/2024",
-  "last_updated": "2026-06-20T04:00:54.387Z",
+  "last_updated": "2026-06-26T02:03:37.489Z",
   "appeal_decision": null,
-  "description": "Internal and external alterations, including various changes to fenestration, of Northolt Golf Clubhouse associated with improvements to the health care clinic (Class E Use) and ancillary health, fitness and beauty treatments (Sui Generis Use), additional installation of rooflights and installation of solar panels to the existing roof.",
+  "description": "Improvement of the health care clinic (Class E Use) with internal and external alterations of Northolt Golf Clubhouse ",
   "decision_date": "31/05/2024",
   "secondary_street_name": null,
   "subdivision_of_building": null,
@@ -141,10 +147,9 @@
     "Balconies for Flat Roofs",
     "Standard Cond - Expiration Three Years",
     "Standard Cond - Materials",
-    "approved plans",
-    ""
+    "approved plans"
   ],
-  "uprn": "000012143031",
+  "uprn": 12143031,
   "id": "Ealing-241554FUL",
   "polygon": null,
   "lpa_name": "Ealing"

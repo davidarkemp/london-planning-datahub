@@ -6,16 +6,77 @@
     "lon": -0.288991,
     "lat": 51.502677
   },
-  "polygon": null,
-  "borough": "London Borough of Ealing",
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                518845.729,
+                179584.312
+              ],
+              [
+                518814.8,
+                179574.1
+              ],
+              [
+                518817.28,
+                179567.76
+              ],
+              [
+                518818.63,
+                179564.32
+              ],
+              [
+                518821.05,
+                179558.15
+              ],
+              [
+                518860.808,
+                179572.839
+              ],
+              [
+                518876.4,
+                179578.6
+              ],
+              [
+                518875.02,
+                179582.13
+              ],
+              [
+                518870.85,
+                179592.75
+              ],
+              [
+                518860.2,
+                179589.15
+              ],
+              [
+                518851.9,
+                179586.35
+              ],
+              [
+                518845.729,
+                179584.312
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
+  "borough": "Ealing",
   "application_type": "All Other",
   "date_building_work_started_under_previous_permission": null,
-  "uprn": "000012090020",
+  "uprn": 12090020,
   "valid_date": "20/09/2024",
   "decision_target_date": "15/11/2024",
   "appeal_decision_date": null,
-  "locality": null,
-  "centroid_northing": "179581",
+  "locality": "Ealing",
+  "centroid_northing": 179581,
   "ward": "EALCOM",
   "decision_conditions": [
     "Balconies",
@@ -44,39 +105,76 @@
   "decision_process": null,
   "lapsed_date": "06/03/2028",
   "application_type_full": "Full planning permission",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 3,
+    "net_car": 0,
+    "no_proposed_cycle": 18,
+    "no_proposed_car": 3,
+    "net_cycle": 18
+  },
   "date_building_work_completed_under_previous_permission": null,
   "id": "Ealing-243450FUL",
   "actual_commencement_date": null,
   "lpa_name": "Ealing",
-  "last_updated": "2026-06-20T04:01:51.319Z",
+  "last_updated": "2026-06-26T00:14:23.679Z",
   "lpa_app_no": "243450FUL",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.288969,
-          51.50269
-        ],
-        [
-          -0.28897,
-          51.502663
-        ],
-        [
-          -0.289013,
-          51.502663
-        ],
-        [
-          -0.289012,
-          51.50269
-        ],
-        [
-          -0.288969,
-          51.50269
+          [
+            -0.289124,
+            51.502708
+          ],
+          [
+            -0.289573,
+            51.502623
+          ],
+          [
+            -0.289539,
+            51.502565
+          ],
+          [
+            -0.289521,
+            51.502534
+          ],
+          [
+            -0.289488,
+            51.502478
+          ],
+          [
+            -0.28891,
+            51.502602
+          ],
+          [
+            -0.288684,
+            51.50265
+          ],
+          [
+            -0.288703,
+            51.502682
+          ],
+          [
+            -0.288759,
+            51.502779
+          ],
+          [
+            -0.288914,
+            51.502749
+          ],
+          [
+            -0.289034,
+            51.502725
+          ],
+          [
+            -0.289124,
+            51.502708
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "appeal_status": null,
   "site_name": "",
@@ -85,13 +183,13 @@
   "appeal_start_date": null,
   "cil_liability": true,
   "development_type": null,
-  "description": "Construction of a two-storey building to accommodate 8 self-contained residential units with associated amenity space and alterations to the landscaping, front driveway parking spaces, alterations to the front driveway with the creation of a new central vehicular and pedestrian entrance, front bin stores, rear cycle store and 2 private outbuildings to ground floor flats and creation of new rear communal garden. (Following demolition of existing building)",
+  "description": "Redevelopment of the site to accommodate 8 residential flats with associated amenity space and alterations to the landscaping, front driveway parking spaces, alterations to the front driveway with the creation of a new central vehicular and pedestrian entrance, front bin stores, rear cycle store and 2 private outbuildings to ground floor flats and creation of new rear communal garden.",
   "epc_number": null,
   "reference_no_of_permission_being_relied_on": null,
   "bo_system": "Idox Uniform",
   "appeal_decision": null,
   "actual_completion_date": null,
-  "centroid_easting": "518855",
+  "centroid_easting": 518855,
   "url_planning_app": null,
   "application_details": {
     "existing_uprns": null,
@@ -99,8 +197,8 @@
     "phasing_details": [
       {
         "phase_detail": "1",
-        "intended_commencement_date": "01/2025",
-        "intended_completion_date": "12/2025"
+        "intended_completion_date": "12/2025",
+        "intended_commencement_date": "01/2025"
       }
     ],
     "total_gia_gained": 695,
@@ -110,8 +208,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 392.6,
-        "use_class": "C3",
         "gia_gained": 695,
+        "use_class": "C3",
         "gia_lost": 392.6
       }
     ],
@@ -175,86 +273,138 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 6,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "House or Bungalow",
           "no_bedrooms": 4,
+          "unit_type": "House or Bungalow",
           "provision_for_older_persons": false,
-          "gia": 392,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 392
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 63,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 63
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 63,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 63
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 63,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 63
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 63,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 63
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 63,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 63
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 63,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 63
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "gia": 87,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 87
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": true,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "gia": 141,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 141
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -282,13 +432,14 @@
       "ghg_reduction_over_building_regulations": true
     },
     "internal_resi_water_usage": 105,
-    "ownership_status": "Public"
+    "ownership_status": "Public",
+    "occupation_status": "Occupied"
   },
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "postcode": "W5 4LP",
   "last_date_consultation_comments": "15/10/2024",
   "secondary_street_name": null,
-  "site_number": "79",
+  "site_number": 79,
   "subdivision_of_building": null,
   "street_name": "Gunnersbury Avenue"
 }

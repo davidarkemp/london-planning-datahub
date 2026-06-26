@@ -48,32 +48,48 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 2,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 55.65
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
           "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 1,
-          "provision_for_older_persons": false,
-          "gia": 55.65,
-          "tenure": "Market for sale"
-        },
-        {
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "gia": 51.36,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 51.36
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "gia": 47.2,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 47.2
         }
       ],
       "total_no_existing_residential_units_london_affordable_rent": 0
@@ -97,13 +113,14 @@
       "no_non_resi_units_to_have_full_fibre": 0,
       "fire_suppression_system_proposed": false,
       "mobile_network_operators_consultation": false,
-      "total_annual_nox_emissions": 0
+      "total_annual_nox_emissions": 0,
+      "urban_greening_factor_score": 0
     },
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 273.63,
-        "use_class": "C3",
         "gia_gained": 51.36,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -123,53 +140,84 @@
     "phasing_details": [
       {
         "phase_detail": "Construction",
-        "intended_commencement_date": "12/2024",
-        "intended_completion_date": "06/2025"
+        "intended_completion_date": "06/2025",
+        "intended_commencement_date": "12/2024"
       }
     ],
     "surface_water_discharge_percentage_reduction": 0,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "occupation_status": "Occupied"
   },
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.291107,
-          51.50639
-        ],
-        [
-          -0.291108,
-          51.506363
-        ],
-        [
-          -0.291152,
-          51.506363
-        ],
-        [
-          -0.291151,
-          51.50639
-        ],
-        [
-          -0.291107,
-          51.50639
+          [
+            -0.291059,
+            51.506474
+          ],
+          [
+            -0.291198,
+            51.506444
+          ],
+          [
+            -0.29124,
+            51.506435
+          ],
+          [
+            -0.291712,
+            51.506331
+          ],
+          [
+            -0.291706,
+            51.50632
+          ],
+          [
+            -0.291698,
+            51.506307
+          ],
+          [
+            -0.291634,
+            51.506191
+          ],
+          [
+            -0.29113,
+            51.506303
+          ],
+          [
+            -0.290802,
+            51.506375
+          ],
+          [
+            -0.290861,
+            51.506472
+          ],
+          [
+            -0.290884,
+            51.506513
+          ],
+          [
+            -0.291059,
+            51.506474
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "site_name": "",
-  "centroid_easting": "518697",
-  "site_number": "21A",
+  "centroid_easting": 518697,
+  "site_number": 21,
   "development_type": null,
   "decision_date": "23/08/2024",
   "appeal_start_date": null,
   "lapsed_date": "23/08/2027",
   "status": "Refused",
   "decision_process": null,
-  "epc_number": null,
+  "epc_number": "8260-6324-6980-0247-8222",
   "appeal_status": null,
   "lpa_name": "Ealing",
-  "centroid_northing": "179989",
+  "centroid_northing": 179989,
   "appeal_decision_date": null,
   "decision_conditions": [
     "",
@@ -178,7 +226,7 @@
   "reference_no_of_permission_being_relied_on": null,
   "street_name": "Gunnersbury Avenue",
   "actual_completion_date": null,
-  "subdivision_of_building": null,
+  "subdivision_of_building": "First Floor ",
   "centroid": {
     "lon": -0.29113,
     "lat": 51.506377
@@ -187,25 +235,86 @@
   "valid_date": "21/06/2024",
   "postcode": "W5 3XD",
   "bo_system": "Idox Uniform",
-  "borough": "London Borough of Ealing",
+  "borough": "Ealing",
   "id": "Ealing-242379FUL",
   "application_type": "All Other",
   "parking_details": null,
   "decision_target_date": "16/08/2024",
   "pp_id": "PP-13140268",
-  "last_updated_by": "Idox Uniform",
-  "locality": null,
-  "uprn": "000012162277",
+  "last_updated_by": "Planning Portal ingest",
+  "locality": "Ealing",
+  "uprn": 12162277,
   "last_date_consultation_comments": "21/07/2024",
   "title_number": [],
   "decision": "REF",
-  "last_updated": "2026-06-20T04:01:20.188Z",
-  "polygon": null,
+  "last_updated": "2026-06-26T00:33:19.068Z",
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                518701.65,
+                180000
+              ],
+              [
+                518692.1,
+                179996.4
+              ],
+              [
+                518689.191,
+                179995.299
+              ],
+              [
+                518656.7,
+                179983
+              ],
+              [
+                518657.15,
+                179981.8
+              ],
+              [
+                518657.71,
+                179980.31
+              ],
+              [
+                518662.45,
+                179967.6
+              ],
+              [
+                518697.14,
+                179980.78
+              ],
+              [
+                518719.7,
+                179989.35
+              ],
+              [
+                518715.4,
+                180000
+              ],
+              [
+                518713.7,
+                180004.6
+              ],
+              [
+                518701.65,
+                180000
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "date_building_work_started_under_previous_permission": null,
   "actual_commencement_date": null,
   "ward": "EALCOM",
   "appeal_decision": null,
   "lpa_app_no": "242379FUL",
-  "description": "First floor side/rear extension to provide additional residential unit; installation of rooflights to front and side roofslopes ; and all associated works",
+  "description": "Proposed first floor extension, creation of additional residential unit and all associated works at 21a Gunnersbury Avenue, London, W5 3XD",
   "date_building_work_completed_under_previous_permission": null
 }

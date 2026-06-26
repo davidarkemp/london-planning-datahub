@@ -2,28 +2,30 @@
   "date_building_work_completed_under_previous_permission": null,
   "cil_liability": true,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.300371,
-          51.515741
-        ],
-        [
-          -0.300372,
-          51.515715
-        ],
-        [
-          -0.300415,
-          51.515715
-        ],
-        [
-          -0.300414,
-          51.515742
-        ],
-        [
-          -0.300371,
-          51.515741
+          [
+            -0.300458,
+            51.515916
+          ],
+          [
+            -0.300448,
+            51.515425
+          ],
+          [
+            -0.300271,
+            51.515427
+          ],
+          [
+            -0.30028,
+            51.515905
+          ],
+          [
+            -0.300458,
+            51.515916
+          ]
         ]
       ]
     ]
@@ -34,40 +36,73 @@
   "appeal_decision": null,
   "valid_date": "19/05/2026",
   "secondary_street_name": null,
-  "centroid_northing": "181014",
+  "centroid_northing": 181014,
   "reference_no_of_permission_being_relied_on": null,
   "actual_commencement_date": null,
-  "last_updated": "2026-06-20T04:05:52.962Z",
-  "description": "Alterations to the existing self-contained (Use Class C3 ) flat at ground floor and basement levels; change of use of the existing Large House in Multiple Occupation (HMO) (Use Class Sui Generis) comprising seven bedrooms (for 7 occupants); into a Small House in Multiple Occupation (HMO)(Use Class C4) comprising 6 bedrooms (for 6 occupants); along with two storey rear extension incorporating a mansard roof; increase in height of the main roof ridge, parapet wall and chimneys by 200mm; installation of a rear roof extension with mansard/dormer to the rear roof slope; and formation of a sunken garden to the basement level",
+  "last_updated": "2026-06-25T16:09:46.808Z",
+  "description": "Alterations and extensions to the existing self-contained C3 flat at ground floor and basement level, and change of use of the existing 7-person sui generis House in Multiple Occupation (HMO) at first and second floor levels to a 6-person C4 HMO, including erection of a two-storey rear extension with mansard roof; increase in ridge height, parapet wall and chimneys by 200mm to the main roof; construction of a rear mansard/dormer extension to the rear roof slope; and formation of a sunken garden to the basement.",
   "subdivision_of_building": null,
-  "epc_number": null,
+  "epc_number": "2179-3001-0202-0559-5204",
   "url_planning_app": null,
-  "borough": "London Borough of Ealing",
+  "borough": "Ealing",
   "street_name": "Madeley Road",
   "decision_process": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "date_building_work_started_under_previous_permission": null,
   "application_type": "All Other",
   "lapsed_date": null,
   "last_date_consultation_comments": "17/06/2026",
   "title_number": [],
   "appeal_status": null,
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "development_type": null,
   "decision_target_date": "14/07/2026",
   "lpa_name": "Ealing",
-  "uprn": "000012091335",
+  "uprn": 12091335,
   "decision_date": null,
   "lpa_app_no": "262079FUL",
-  "centroid_easting": "518030",
+  "centroid_easting": 518030,
   "appeal_decision_date": null,
   "decision_conditions": null,
-  "site_number": "12",
+  "site_number": 12,
   "bo_system": "Idox Uniform",
   "status": "Application Under Consideration",
   "site_name": "",
   "decision": null,
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                518025,
+                181034.75
+              ],
+              [
+                518026.95,
+                180980.2
+              ],
+              [
+                518039.25,
+                180980.65
+              ],
+              [
+                518037.4,
+                181033.8
+              ],
+              [
+                518025,
+                181034.75
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "centroid": {
     "lon": -0.300393,
     "lat": 51.515728
@@ -75,8 +110,80 @@
   "actual_completion_date": null,
   "pp_id": "PP-14939732",
   "decision_agency": null,
-  "parking_details": null,
-  "locality": null,
+  "parking_details": {
+    "no_existing_car": 1,
+    "net_car": 0,
+    "no_proposed_car": 1
+  },
+  "locality": "Ealing",
   "id": "Ealing-262079FUL",
-  "application_details": {}
+  "application_details": {
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "Entire Development",
+        "intended_completion_date": "08/2027",
+        "intended_commencement_date": "08/2026"
+      }
+    ],
+    "total_gia_gained": 204.89999999999998,
+    "site_area": 0.067,
+    "total_gia_lost": 0,
+    "total_gia_existing": 336.4,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 133.3,
+        "gia_gained": 158.1,
+        "use_class": "C3",
+        "gia_lost": 0
+      },
+      {
+        "gia_existing": 203.1,
+        "gia_gained": 46.8,
+        "use_class": "SG",
+        "gia_lost": 0
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied",
+    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "building_details": [
+      {
+        "no_storeys": 2,
+        "max_height": 9.5,
+        "building_ref": "12 Madeley Road"
+      }
+    ],
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "surface_water_discharge_percentage_reduction": 0,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 46.8,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 204.89999999999998,
+      "total_gia_lost": 0,
+      "total_gia_existing": 336.4
+    },
+    "garden_land_lost": false,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 1,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 0,
+      "ghg_reduction_over_building_regulations": true
+    },
+    "internal_resi_water_usage": 110,
+    "ownership_status": "Private"
+  }
 }

@@ -1,12 +1,42 @@
 {
   "date_building_work_completed_under_previous_permission": null,
-  "wgs84_polygon": null,
-  "last_updated_by": "Idox Uniform",
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.272752,
+          51.50747
+        ],
+        [
+          -0.272753,
+          51.507443
+        ],
+        [
+          -0.272796,
+          51.507443
+        ],
+        [
+          -0.272795,
+          51.50747
+        ],
+        [
+          -0.272752,
+          51.50747
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "last_updated_by": "Planning Portal ingest",
   "url_planning_app": null,
   "decision_target_date": "07/10/2024",
   "status": "Refused",
-  "parking_details": null,
-  "street_name": null,
+  "parking_details": {
+    "no_existing_cycle": 14,
+    "no_proposed_cycle": 18,
+    "net_cycle": 4
+  },
+  "street_name": "High Street",
   "decision_agency": null,
   "appeal_decision": null,
   "subdivision_of_building": null,
@@ -38,22 +68,34 @@
       "total_no_existing_residential_units_starter_homes": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 1,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "gia": 40.6,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 40.6
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "gia": 53.4,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 53.4
         }
       ],
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
@@ -100,7 +142,8 @@
       "no_homes_passive_cooling": 0,
       "no_new_water_connections_required": 0,
       "no_resi_units_to_have_full_fibre": 0,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "urban_greening_factor_score": 0
     },
     "total_gia_lost": 95.5,
     "ownership_status": "Private",
@@ -108,14 +151,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 159,
-        "use_class": "E(e)",
         "gia_gained": 0,
+        "use_class": "EE",
         "gia_lost": 95.5
       },
       {
         "gia_existing": 0,
-        "use_class": "C3",
         "gia_gained": 94,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -126,12 +169,13 @@
     "phasing_details": [
       {
         "phase_detail": "1",
-        "intended_commencement_date": "11/2024",
-        "intended_completion_date": "11/2025"
+        "intended_completion_date": "11/2025",
+        "intended_commencement_date": "11/2024"
       }
     ],
     "projected_cost_of_works": "Up to £2m",
-    "total_gia_existing": 159
+    "total_gia_existing": 159,
+    "occupation_status": "Vacant"
   },
   "appeal_decision_date": null,
   "decision_date": "02/10/2024",
@@ -144,22 +188,22 @@
   "last_date_consultation_comments": "11/09/2024",
   "bo_system": "Idox Uniform",
   "lpa_app_no": "243220FUL",
-  "postcode": null,
+  "postcode": "W3 9DD",
   "pp_id": "PP-13292363",
   "uprn": "000012134130",
   "application_type": "All Other",
-  "locality": null,
+  "locality": "Acton",
   "date_building_work_started_under_previous_permission": null,
   "polygon": null,
   "lpa_name": "Ealing",
   "actual_commencement_date": null,
-  "site_name": "199 - 201 High Street\rActon\rW3 9DD\r",
+  "site_name": "199-201",
   "decision_conditions": [
     "",
     ""
   ],
   "application_type_full": "Full planning permission",
-  "centroid_northing": null,
+  "centroid_northing": 180139,
   "epc_number": null,
   "actual_completion_date": null,
   "title_number": [],
@@ -168,12 +212,12 @@
   "cil_liability": true,
   "decision_process": null,
   "id": "Ealing-243220FUL",
-  "description": "Change of use of ground floor from health centre /clinic to one studio flat, one x 1 bedroom flat and retail floorspace along with the retention of the existing active frontage",
+  "description": "Partial change of Use at ground floor (Health Centre and Clinic), retention of existing active frontage, creation of 1x Studio and 1x 1bx2p units.",
   "appeal_start_date": null,
-  "last_updated": "2026-06-20T04:01:45.146Z",
+  "last_updated": "2026-06-26T00:07:39.539Z",
   "centroid": {
-    "lon": -7.55716,
-    "lat": 49.766807
+    "lon": -0.272774,
+    "lat": 51.507457
   },
-  "centroid_easting": null
+  "centroid_easting": 519968
 }

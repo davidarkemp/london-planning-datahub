@@ -6,16 +6,81 @@
     "lon": -0.376634,
     "lat": 51.512924
   },
-  "polygon": null,
-  "borough": "London Borough of Ealing",
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                512754.1,
+                180579.75
+              ],
+              [
+                512758.945,
+                180580.285
+              ],
+              [
+                512769.424,
+                180581.441
+              ],
+              [
+                512775.85,
+                180582.15
+              ],
+              [
+                512775.75,
+                180583.35
+              ],
+              [
+                512775.358,
+                180587.821
+              ],
+              [
+                512775.25,
+                180589.05
+              ],
+              [
+                512739.361,
+                180585.917
+              ],
+              [
+                512737.45,
+                180585.75
+              ],
+              [
+                512737.8,
+                180582.05
+              ],
+              [
+                512738.15,
+                180578.3
+              ],
+              [
+                512743.35,
+                180578.8
+              ],
+              [
+                512754.1,
+                180579.75
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
+  "borough": "Ealing",
   "application_type": "All Other",
   "date_building_work_started_under_previous_permission": null,
-  "uprn": "000012030147",
+  "uprn": 12030147,
   "valid_date": "22/10/2024",
   "decision_target_date": "17/12/2024",
   "appeal_decision_date": null,
-  "locality": null,
-  "centroid_northing": "180582",
+  "locality": "Southall",
+  "centroid_northing": 180582,
   "ward": "DORWE",
   "decision_conditions": [
     ""
@@ -24,39 +89,80 @@
   "decision_process": null,
   "lapsed_date": "17/12/2027",
   "application_type_full": "Full planning permission",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 3,
+    "net_car": 0,
+    "no_proposed_cycle": 4,
+    "no_proposed_car": 3,
+    "net_cycle": 4
+  },
   "date_building_work_completed_under_previous_permission": null,
   "id": "Ealing-243999FUL",
   "actual_commencement_date": null,
   "lpa_name": "Ealing",
-  "last_updated": "2026-06-20T04:02:07.701Z",
+  "last_updated": "2026-06-25T16:14:09.089Z",
   "lpa_app_no": "243999FUL",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.376611,
-          51.512937
-        ],
-        [
-          -0.376612,
-          51.51291
-        ],
-        [
-          -0.376656,
-          51.51291
-        ],
-        [
-          -0.376655,
-          51.512937
-        ],
-        [
-          -0.376611,
-          51.512937
+          [
+            -0.376532,
+            51.512902
+          ],
+          [
+            -0.376462,
+            51.512906
+          ],
+          [
+            -0.376311,
+            51.512914
+          ],
+          [
+            -0.376218,
+            51.512919
+          ],
+          [
+            -0.376219,
+            51.51293
+          ],
+          [
+            -0.376223,
+            51.51297
+          ],
+          [
+            -0.376224,
+            51.512981
+          ],
+          [
+            -0.376742,
+            51.51296
+          ],
+          [
+            -0.37677,
+            51.512959
+          ],
+          [
+            -0.376766,
+            51.512926
+          ],
+          [
+            -0.376762,
+            51.512892
+          ],
+          [
+            -0.376687,
+            51.512896
+          ],
+          [
+            -0.376532,
+            51.512902
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "appeal_status": null,
   "site_name": "",
@@ -65,13 +171,13 @@
   "appeal_start_date": null,
   "cil_liability": true,
   "development_type": null,
-  "description": "Conversion of a single dwellinghouse into 2 self-contained residential units; single storey rear extension; and provision of associated amenity, refuse and bicycle storage",
-  "epc_number": null,
+  "description": "Proposed conversion of single dwelling into 2 self contained flats, following single storey rear extension with associated bin and bicycle storage.",
+  "epc_number": "8997-7425-2629-3296-8213",
   "reference_no_of_permission_being_relied_on": null,
   "bo_system": "Idox Uniform",
   "appeal_decision": null,
   "actual_completion_date": null,
-  "centroid_easting": "512747",
+  "centroid_easting": 512747,
   "url_planning_app": null,
   "application_details": {
     "existing_uprns": null,
@@ -79,19 +185,19 @@
     "phasing_details": [
       {
         "phase_detail": "Whole building",
-        "intended_commencement_date": "01/2025",
-        "intended_completion_date": "03/2025"
+        "intended_completion_date": "03/2025",
+        "intended_commencement_date": "01/2025"
       }
     ],
     "total_gia_gained": 187.8,
-    "site_area": 0.028,
+    "site_area": 0.028758999999999996,
     "total_gia_lost": 178.35,
     "total_gia_existing": 178.35,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 178.35,
-        "use_class": "C3",
         "gia_gained": 187.8,
+        "use_class": "C3",
         "gia_lost": 178.35
       }
     ],
@@ -148,32 +254,48 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 8,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Semi Detached Home",
           "no_bedrooms": 6,
+          "unit_type": "Semi Detached Home",
           "provision_for_older_persons": false,
-          "gia": 178.35,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 178.35
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "gia": 86.99,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 86.99
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 6,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 4,
-          "gia": 100.81,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 100.81
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -193,16 +315,18 @@
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 1,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "urban_greening_factor_score": 0
     },
     "internal_resi_water_usage": 125,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "occupation_status": "Occupied"
   },
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "postcode": "UB1 2AD",
   "last_date_consultation_comments": "19/11/2024",
   "secondary_street_name": null,
-  "site_number": "31",
+  "site_number": 31,
   "subdivision_of_building": null,
   "street_name": "Greenford Avenue"
 }

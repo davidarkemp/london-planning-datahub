@@ -3,28 +3,82 @@
     "coordinates": [
       [
         [
-          -0.286045,
-          51.523788
-        ],
-        [
-          -0.286046,
-          51.523761
-        ],
-        [
-          -0.286089,
-          51.523762
-        ],
-        [
-          -0.286088,
-          51.523789
-        ],
-        [
-          -0.286045,
-          51.523788
+          [
+            -0.286274,
+            51.52377
+          ],
+          [
+            -0.286363,
+            51.523738
+          ],
+          [
+            -0.286309,
+            51.523682
+          ],
+          [
+            -0.286303,
+            51.523676
+          ],
+          [
+            -0.286271,
+            51.523642
+          ],
+          [
+            -0.286268,
+            51.523638
+          ],
+          [
+            -0.286182,
+            51.523667
+          ],
+          [
+            -0.286114,
+            51.523694
+          ],
+          [
+            -0.285824,
+            51.523797
+          ],
+          [
+            -0.285859,
+            51.523834
+          ],
+          [
+            -0.285938,
+            51.523851
+          ],
+          [
+            -0.285967,
+            51.523881
+          ],
+          [
+            -0.286105,
+            51.523831
+          ],
+          [
+            -0.286108,
+            51.52383
+          ],
+          [
+            -0.286184,
+            51.523803
+          ],
+          [
+            -0.286223,
+            51.523788
+          ],
+          [
+            -0.286268,
+            51.523772
+          ],
+          [
+            -0.286274,
+            51.52377
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "ward": "HANHIL",
   "decision": "REF",
@@ -32,34 +86,34 @@
   "appeal_status": null,
   "status": "Refused",
   "parking_details": null,
-  "centroid_easting": "519003",
+  "centroid_easting": 519003,
   "application_details": {
     "non_residential_details": {
-      "total_gia_lost": null,
-      "total_gia_existing": null,
+      "total_gia_lost": 0,
+      "total_gia_existing": 160.5,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_gained": null,
+      "total_gia_gained": 20.5,
       "development_type": null,
       "site_area": null
     },
-    "grey_water_reuse": null,
-    "total_gia_gained": null,
+    "grey_water_reuse": false,
+    "total_gia_gained": 20.5,
     "infrastructure_details": {
-      "fire_suppression_system_proposed": null,
-      "ghg_reduction_over_building_regulations": null,
-      "no_non_resi_units_to_have_full_fibre": null,
-      "green_roof_area": null,
-      "total_annual_pm_emissions": null,
-      "no_new_water_connections_required": null,
-      "percentage_demolition_construction_material_recycling": null,
-      "no_homes_passive_cooling": null,
-      "no_resi_units_to_have_full_fibre": null,
-      "waste_provision": null,
-      "total_annual_nox_emissions": null,
-      "no_homes_to_have_electrical_heating": null,
-      "no_new_gas_connections_required": null,
-      "mobile_network_operators_consultation": null,
+      "fire_suppression_system_proposed": false,
+      "ghg_reduction_over_building_regulations": false,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "green_roof_area": 0,
+      "total_annual_pm_emissions": 0,
+      "no_new_water_connections_required": 0,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_passive_cooling": 0,
+      "no_resi_units_to_have_full_fibre": 0,
+      "waste_provision": true,
+      "total_annual_nox_emissions": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "no_new_gas_connections_required": 0,
+      "mobile_network_operators_consultation": false,
       "no_passive_rapid_ev_charging_points": null,
       "no_active_rapid_ev_charging_points": null,
       "no_passive_fast_ev_charging_points": null,
@@ -68,27 +122,40 @@
       "no_passive_other_ev_charging_points": null,
       "chp_heat_pumps_capacity": null,
       "no_active_slow_ev_charging_points": null,
-      "urban_greening_factor_score": null,
+      "urban_greening_factor_score": 0,
       "solar_pv_capacity": null,
       "no_passive_slow_ev_charging_points": null,
       "community_energy_capacity": null,
       "waste_details": []
     },
-    "internal_resi_water_usage": null,
-    "surface_water_discharge_percentage_reduction": null,
-    "green_suds": null,
-    "scheme_phasing": null,
-    "affordable_housing_fast_track": null,
-    "garden_land_lost": null,
-    "phasing_details": [],
-    "total_gia_lost": null,
-    "ownership_status": null,
+    "internal_resi_water_usage": 840,
+    "surface_water_discharge_percentage_reduction": 6,
+    "green_suds": false,
+    "scheme_phasing": true,
+    "affordable_housing_fast_track": false,
+    "garden_land_lost": false,
+    "phasing_details": [
+      {
+        "phase_detail": "Entire Development - Completed ",
+        "intended_completion_date": "08/2023",
+        "intended_commencement_date": "03/2023"
+      }
+    ],
+    "total_gia_lost": 0,
+    "ownership_status": "Private",
     "existing_uprns": [],
-    "rain_water_harvesting": null,
-    "total_gia_existing": null,
-    "existing_proposed_floorspace_details": [],
-    "site_area": 0.044000000000000004,
-    "projected_cost_of_works": null,
+    "rain_water_harvesting": false,
+    "total_gia_existing": 160.5,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 160.5,
+        "gia_gained": 20.5,
+        "use_class": "C3",
+        "gia_lost": 0
+      }
+    ],
+    "site_area": 0.0437,
+    "projected_cost_of_works": "Up to £2m",
     "s106_agreement": null,
     "affordable_housing_inlieu_payment": null,
     "air_quality_assessment": null,
@@ -153,7 +220,7 @@
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": null,
       "total_no_proposed_residential_units_social_rent": 0,
@@ -174,16 +241,17 @@
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0
     },
-    "lead_developer_company_name": null
+    "lead_developer_company_name": null,
+    "occupation_status": "Occupied"
   },
   "actual_completion_date": null,
   "application_type_full": "Full planning permission",
-  "locality": null,
+  "locality": "Ealing",
   "actual_commencement_date": null,
   "development_type": null,
   "appeal_decision_date": null,
-  "centroid_northing": "181932",
-  "date_building_work_started_under_previous_permission": null,
+  "centroid_northing": 181932,
+  "date_building_work_started_under_previous_permission": "15/03/2023",
   "title_number": [],
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": false,
@@ -197,30 +265,115 @@
     "lon": -0.286067
   },
   "application_type": "All Other",
-  "borough": "London Borough of Ealing",
+  "borough": "Ealing",
   "postcode": "W5 3EF",
   "site_name": "",
   "bo_system": "Idox Uniform",
-  "site_number": "4",
+  "site_number": 4,
   "decision_target_date": "13/06/2024",
   "valid_date": "18/04/2024",
   "street_name": "Ashbourne Close",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "url_planning_app": null,
   "appeal_start_date": null,
   "last_date_consultation_comments": "23/05/2024",
-  "last_updated": "2026-06-20T04:00:52.926Z",
+  "last_updated": "2026-06-26T01:59:14.755Z",
   "appeal_decision": null,
-  "description": "Erection of first floor rear extension and roof extension (Retrospective application).",
+  "description": "Retrospective application Retention of existing dormer ",
   "decision_date": "11/06/2024",
   "secondary_street_name": null,
-  "subdivision_of_building": null,
-  "date_building_work_completed_under_previous_permission": null,
+  "subdivision_of_building": "Loft level and roof ",
+  "date_building_work_completed_under_previous_permission": "17/08/2023",
   "decision_conditions": [
     ""
   ],
-  "uprn": "000012096561",
+  "uprn": 12096561,
   "id": "Ealing-241507FUL",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                518988.695,
+                181931.133
+              ],
+              [
+                518982.6,
+                181927.4
+              ],
+              [
+                518986.5,
+                181921.25
+              ],
+              [
+                518986.9,
+                181920.6
+              ],
+              [
+                518989.2,
+                181916.85
+              ],
+              [
+                518989.45,
+                181916.45
+              ],
+              [
+                518995.3,
+                181919.85
+              ],
+              [
+                519000,
+                181922.9
+              ],
+              [
+                519019.804,
+                181934.843
+              ],
+              [
+                519017.3,
+                181938.95
+              ],
+              [
+                519011.75,
+                181940.65
+              ],
+              [
+                519009.7,
+                181944
+              ],
+              [
+                519000.25,
+                181938.2
+              ],
+              [
+                519000,
+                181938.05
+              ],
+              [
+                518994.85,
+                181934.9
+              ],
+              [
+                518992.144,
+                181933.244
+              ],
+              [
+                518989.05,
+                181931.35
+              ],
+              [
+                518988.695,
+                181931.133
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "lpa_name": "Ealing"
 }

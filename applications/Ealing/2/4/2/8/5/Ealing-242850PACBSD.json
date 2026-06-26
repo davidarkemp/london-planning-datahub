@@ -1,16 +1,18 @@
 {
   "decision_date": "04/10/2024",
   "appeal_decision_date": null,
-  "title_number": [],
-  "borough": "London Borough of Ealing",
-  "last_updated": "2026-06-20T04:01:34.421Z",
-  "centroid_northing": null,
+  "title_number": [
+    "AGL353476"
+  ],
+  "borough": "Ealing",
+  "last_updated": "2026-06-26T01:26:24.787Z",
+  "centroid_northing": 178803,
   "url_planning_app": null,
   "actual_completion_date": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "decision_target_date": "07/10/2024",
-  "locality": null,
-  "epc_number": null,
+  "locality": "Chiswick",
+  "epc_number": "0480-0831-8049-7726-5000",
   "site_number": null,
   "lpa_app_no": "242850PACBSD",
   "last_date_consultation_comments": "19/09/2024",
@@ -21,18 +23,18 @@
   "valid_date": "12/08/2024",
   "application_type": "Prior Approval",
   "appeal_start_date": null,
-  "description": "Change of use of ground floor from offices (Use Class E) to residential (Use Class C3), (new Class MA) 56 day Prior Approval Process).",
+  "description": "Change of use from office to residential",
   "cil_liability": true,
-  "uprn": "000012176810",
+  "uprn": 12176810,
   "decision": "Refused",
   "decision_agency": null,
   "pp_id": "PP-13270847",
-  "site_name": "Edmunds House, Unit C \rColonial Drive\rChiswick\rW4 5HJ",
+  "site_name": "Edmunds House, Unit C",
   "id": "Ealing-242850PACBSD",
-  "postcode": null,
+  "postcode": "W4 5HJ",
   "subdivision_of_building": null,
   "date_building_work_completed_under_previous_permission": null,
-  "centroid_easting": null,
+  "centroid_easting": 520074,
   "lpa_name": "Ealing",
   "appeal_decision": null,
   "actual_commencement_date": null,
@@ -40,12 +42,38 @@
   "development_type": null,
   "ward": "SOUFLD",
   "bo_system": "Idox Uniform",
-  "street_name": null,
+  "street_name": "Colonial Drive",
   "decision_process": null,
   "appeal_status": null,
   "polygon": null,
   "application_type_full": "Prior Approval: Change of use from Commercial, Business and Service (Use Class E) to Dwellinghouses (Use Class C3)",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.27168,
+          51.49544
+        ],
+        [
+          -0.271681,
+          51.495413
+        ],
+        [
+          -0.271724,
+          51.495414
+        ],
+        [
+          -0.271723,
+          51.495441
+        ],
+        [
+          -0.27168,
+          51.49544
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "application_details": {
     "occupation_status": "Vacant",
     "total_gia_lost": 0,
@@ -66,14 +94,15 @@
       "fire_suppression_system_proposed": false,
       "percentage_demolition_construction_material_recycling": 0,
       "waste_provision": true,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "urban_greening_factor_score": 0
     },
     "existing_uprns": null,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 85,
-        "use_class": "C3",
         "gia_gained": 85,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -122,13 +151,19 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 85,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 85
         }
       ],
       "total_no_proposed_residential_units_social_rent": 0,
@@ -143,7 +178,7 @@
   "lapsed_date": "04/10/2027",
   "date_building_work_started_under_previous_permission": null,
   "centroid": {
-    "lat": 49.766807,
-    "lon": -7.55716
+    "lat": 51.495427,
+    "lon": -0.271702
   }
 }

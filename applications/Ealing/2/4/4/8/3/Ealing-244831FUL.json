@@ -2,28 +2,54 @@
   "date_building_work_completed_under_previous_permission": null,
   "cil_liability": true,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.354622,
-          51.524455
-        ],
+          [
+            -0.354715,
+            51.5245
+          ],
+          [
+            -0.354687,
+            51.524496
+          ],
+          [
+            -0.354669,
+            51.524547
+          ],
+          [
+            -0.354695,
+            51.524551
+          ],
+          [
+            -0.354715,
+            51.5245
+          ]
+        ]
+      ],
+      [
         [
-          -0.354623,
-          51.524428
-        ],
-        [
-          -0.354667,
-          51.524429
-        ],
-        [
-          -0.354666,
-          51.524456
-        ],
-        [
-          -0.354622,
-          51.524455
+          [
+            -0.354582,
+            51.524463
+          ],
+          [
+            -0.354705,
+            51.52448
+          ],
+          [
+            -0.354724,
+            51.524429
+          ],
+          [
+            -0.354599,
+            51.524411
+          ],
+          [
+            -0.354582,
+            51.524463
+          ]
         ]
       ]
     ]
@@ -34,32 +60,32 @@
   "appeal_decision": null,
   "valid_date": "18/12/2024",
   "secondary_street_name": null,
-  "centroid_northing": "181897",
+  "centroid_northing": 181897,
   "reference_no_of_permission_being_relied_on": null,
   "actual_commencement_date": null,
-  "last_updated": "2026-06-20T04:02:31.925Z",
-  "description": "Conversion of semi-detached dwellinghouse into two self-contained residential units; associated internal and external alterations; and provision of cycle and refuse storage",
+  "last_updated": "2026-06-26T02:36:24.761Z",
+  "description": "Proposed Conversion of semi-detached house into two self-contained\nflats with bin storage and bicycle storage.\nGround floor flat for 3 persons\nFirst floor flat for 1 person \n",
   "subdivision_of_building": null,
   "epc_number": null,
   "url_planning_app": null,
-  "borough": "London Borough of Ealing",
+  "borough": "Ealing",
   "street_name": "Windmill Lane",
   "decision_process": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "date_building_work_started_under_previous_permission": null,
   "application_type": "All Other",
   "lapsed_date": "18/02/2028",
   "last_date_consultation_comments": "23/01/2025",
   "title_number": [],
   "appeal_status": null,
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "development_type": null,
   "decision_target_date": "12/02/2025",
   "lpa_name": "Ealing",
-  "uprn": "000012049999",
+  "uprn": 12049999,
   "decision_date": "18/02/2025",
   "lpa_app_no": "244831FUL",
-  "centroid_easting": "514244",
+  "centroid_easting": 514244,
   "appeal_decision_date": null,
   "decision_conditions": [
     "Refuse - Compliance",
@@ -70,12 +96,69 @@
     "Approved Plans",
     "HMO"
   ],
-  "site_number": "140",
+  "site_number": 140,
   "bo_system": "Idox Uniform",
   "status": "Withdrawn",
   "site_name": "",
   "decision": "WDN",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                514238.95,
+                181903.35
+              ],
+              [
+                514240.9,
+                181902.95
+              ],
+              [
+                514242.05,
+                181908.65
+              ],
+              [
+                514240.25,
+                181909
+              ],
+              [
+                514238.95,
+                181903.35
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                514248.25,
+                181899.4
+              ],
+              [
+                514239.7,
+                181901.15
+              ],
+              [
+                514238.5,
+                181895.45
+              ],
+              [
+                514247.2,
+                181893.65
+              ],
+              [
+                514248.25,
+                181899.4
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "centroid": {
     "lon": -0.354644,
     "lat": 51.524442
@@ -83,8 +166,138 @@
   "actual_completion_date": null,
   "pp_id": "PP-13645625",
   "decision_agency": null,
-  "parking_details": null,
-  "locality": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_proposed_cycle": 4,
+    "net_cycle": 4
+  },
+  "locality": "Greenford",
   "id": "Ealing-244831FUL",
-  "application_details": {}
+  "application_details": {
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "The Phase Detail covers the entire development, including all proposed works and modifications as outlined in the application.",
+        "intended_completion_date": "07/2025",
+        "intended_commencement_date": "03/2025"
+      }
+    ],
+    "total_gia_gained": 0,
+    "site_area": 0.01586,
+    "total_gia_lost": 0,
+    "total_gia_existing": 114,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 114,
+        "gia_gained": 0,
+        "use_class": "C3",
+        "gia_lost": 0
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied",
+    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": true,
+    "surface_water_discharge_percentage_reduction": 50,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 0,
+      "total_gia_lost": 0,
+      "total_gia_existing": 114
+    },
+    "garden_land_lost": false,
+    "residential_details": {
+      "total_no_proposed_residential_units_shared_equity": 0,
+      "total_no_proposed_bedrooms": 2,
+      "total_no_proposed_residential_units": 2,
+      "total_no_proposed_residential_units_london_living_rent": 0,
+      "total_no_proposed_residential_affordable_units": 0,
+      "total_no_existing_residential_units": 0,
+      "total_no_proposed_residential_units_affordable_rent": 0,
+      "total_no_proposed_residential_units_discount_market_sale": 0,
+      "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_london_living_rent": 0,
+      "total_no_existing_residential_units_shared_equity": 0,
+      "total_no_existing_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_units_intermediate": 0,
+      "total_no_proposed_residential_units_market_for_rent": 2,
+      "total_no_existing_residential_units_social_rent": 0,
+      "total_no_proposed_residential_units_self_build_and_custom_build": 0,
+      "total_no_existing_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_affordable_units": 0,
+      "total_no_existing_residential_units_affordable_rent": 0,
+      "habitable_rooms_density": null,
+      "total_no_existing_residential_units_london_shared_ownership": 0,
+      "total_gia_gained": 144,
+      "total_no_proposed_residential_units_social_rent": 0,
+      "total_no_existing_residential_units_london_affordable_rent": 0,
+      "dwelling_density": 0,
+      "total_no_proposed_residential_units_london_affordable_rent": 0,
+      "total_no_existing_residential_units_discount_market_sale": 0,
+      "total_no_proposed_residential_units_starter_homes": 0,
+      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_starter_homes": 0,
+      "total_no_proposed_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_intermediate": 0,
+      "affordable_percentage": 0,
+      "total_no_proposed_residential_units_london_shared_ownership": 0,
+      "residential_units": [
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 72
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 72
+        }
+      ],
+      "total_no_existing_residential_units_market_for_rent": 0,
+      "total_no_existing_residential_units_self_build_and_custom_build": 0
+    },
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 5000,
+      "no_resi_units_to_have_full_fibre": 2,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 2,
+      "no_non_resi_units_to_have_full_fibre": 2,
+      "total_annual_nox_emissions": 70,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 2,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "internal_resi_water_usage": 105,
+    "ownership_status": "Private"
+  }
 }

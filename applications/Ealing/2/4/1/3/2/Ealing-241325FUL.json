@@ -3,36 +3,86 @@
     "coordinates": [
       [
         [
-          -0.370006,
-          51.517926
-        ],
-        [
-          -0.370007,
-          51.517899
-        ],
-        [
-          -0.37005,
-          51.517899
-        ],
-        [
-          -0.370049,
-          51.517926
-        ],
-        [
-          -0.370006,
-          51.517926
+          [
+            -0.369959,
+            51.517935
+          ],
+          [
+            -0.370067,
+            51.517948
+          ],
+          [
+            -0.370103,
+            51.517953
+          ],
+          [
+            -0.370122,
+            51.517955
+          ],
+          [
+            -0.370147,
+            51.517959
+          ],
+          [
+            -0.370259,
+            51.517972
+          ],
+          [
+            -0.370321,
+            51.51798
+          ],
+          [
+            -0.370333,
+            51.517948
+          ],
+          [
+            -0.370343,
+            51.517922
+          ],
+          [
+            -0.370346,
+            51.517914
+          ],
+          [
+            -0.370313,
+            51.51791
+          ],
+          [
+            -0.370123,
+            51.517886
+          ],
+          [
+            -0.369971,
+            51.517865
+          ],
+          [
+            -0.369934,
+            51.51786
+          ],
+          [
+            -0.369911,
+            51.517928
+          ],
+          [
+            -0.369959,
+            51.517935
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "ward": "LDYMAR",
   "decision": "Approved",
   "decision_process": null,
   "appeal_status": null,
   "status": "Approved",
-  "parking_details": null,
-  "centroid_easting": "513193",
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_proposed_cycle": 5,
+    "net_cycle": 5
+  },
+  "centroid_easting": 513193,
   "application_details": {
     "non_residential_details": {
       "total_gia_lost": 135,
@@ -57,7 +107,8 @@
       "total_annual_nox_emissions": 0,
       "no_homes_to_have_electrical_heating": 0,
       "no_new_gas_connections_required": 0,
-      "mobile_network_operators_consultation": false
+      "mobile_network_operators_consultation": false,
+      "urban_greening_factor_score": 0
     },
     "internal_resi_water_usage": 0,
     "surface_water_discharge_percentage_reduction": 0,
@@ -68,8 +119,8 @@
     "phasing_details": [
       {
         "phase_detail": "Main Build",
-        "intended_commencement_date": "04/2024",
-        "intended_completion_date": "05/2024"
+        "intended_completion_date": "05/2024",
+        "intended_commencement_date": "04/2024"
       }
     ],
     "total_gia_lost": 135,
@@ -78,7 +129,7 @@
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "dwelling_density": 0,
-      "total_gia_gained": 166.4,
+      "total_gia_gained": 156.39999999999998,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_existing_residential_units_intermediate": 0,
@@ -102,34 +153,41 @@
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Gain",
-          "unit_type": "Communal Space",
-          "gia": 10
-        },
-        {
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 80.1,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 80.1
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "gia": 76.3,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 76.3
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units": 0,
       "total_no_proposed_residential_units_social_rent": 0,
-      "total_no_proposed_residential_units": 3,
+      "total_no_proposed_residential_units": 2,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
@@ -147,21 +205,22 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 135,
-        "use_class": "C3",
         "gia_gained": 160.1,
+        "use_class": "C3",
         "gia_lost": 135
       }
     ],
-    "site_area": 0.022000000000000002,
-    "projected_cost_of_works": "Up to £2m"
+    "site_area": 0.0233,
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied"
   },
   "actual_completion_date": null,
   "application_type_full": "Full planning permission",
-  "locality": null,
+  "locality": "Southall",
   "actual_commencement_date": null,
   "development_type": null,
   "appeal_decision_date": null,
-  "centroid_northing": "181147",
+  "centroid_northing": 181147,
   "date_building_work_started_under_previous_permission": null,
   "title_number": [],
   "reference_no_of_permission_being_relied_on": null,
@@ -176,21 +235,21 @@
     "lon": -0.370028
   },
   "application_type": "All Other",
-  "borough": "London Borough of Ealing",
+  "borough": "Ealing",
   "postcode": "UB1 2LH",
   "site_name": "",
   "bo_system": "Idox Uniform",
-  "site_number": "41",
+  "site_number": 41,
   "decision_target_date": "29/05/2024",
   "valid_date": "03/04/2024",
   "street_name": "Mount Avenue",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "url_planning_app": null,
   "appeal_start_date": null,
   "last_date_consultation_comments": "29/04/2024",
-  "last_updated": "2026-06-20T04:00:47.714Z",
+  "last_updated": "2026-06-26T02:07:44.382Z",
   "appeal_decision": null,
-  "description": "Conversion of single dwelling house to 2 x single dwelling flats; part single storey rear extension.",
+  "description": "Conversion of single dwelling house to 2 x single dwelling flats by way of partial ground floor  rear extension ",
   "decision_date": "28/06/2024",
   "secondary_street_name": null,
   "subdivision_of_building": null,
@@ -200,12 +259,88 @@
     "Refuse - Compliance",
     "Standard Cond - Expiration Three Years",
     "Standard Cond - Materials",
-    "",
     "Sound insulation",
     "Approved Plans"
   ],
-  "uprn": "000012040703",
+  "uprn": 12040703,
   "id": "Ealing-241325FUL",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                513197.75,
+                181149.55
+              ],
+              [
+                513190.2,
+                181150.899
+              ],
+              [
+                513187.695,
+                181151.346
+              ],
+              [
+                513186.361,
+                181151.583
+              ],
+              [
+                513184.604,
+                181151.952
+              ],
+              [
+                513176.797,
+                181153.285
+              ],
+              [
+                513172.5,
+                181154.05
+              ],
+              [
+                513171.753,
+                181150.479
+              ],
+              [
+                513171.15,
+                181147.6
+              ],
+              [
+                513170.95,
+                181146.7
+              ],
+              [
+                513173.242,
+                181146.279
+              ],
+              [
+                513186.45,
+                181143.85
+              ],
+              [
+                513197.05,
+                181141.85
+              ],
+              [
+                513199.65,
+                181141.35
+              ],
+              [
+                513201.05,
+                181148.95
+              ],
+              [
+                513197.75,
+                181149.55
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "lpa_name": "Ealing"
 }

@@ -32,7 +32,7 @@
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_gia_gained": 151.5,
-      "total_no_proposed_residential_units_market_for_sale": 2,
+      "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_proposed_residential_units_intermediate": 0,
@@ -42,53 +42,53 @@
       "habitable_rooms_density": 302.571860816944,
       "total_gia_lost": 0,
       "dwelling_density": 75.642965204236,
-      "total_no_proposed_residential_units_starter_homes": 0,
+      "total_no_proposed_residential_units_starter_homes": 2,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
-          "actual_completion_date": "14/03/2025",
-          "description": null,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
-          "unit_development_type": "Conversion",
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "phase_detail": null,
-          "actual_commencement_date": "03/12/2024",
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "gia": 90,
-          "tenure": "Market for sale"
+          "tenure": "Starter Homes",
+          "gia": 90
         },
         {
-          "actual_completion_date": "14/03/2025",
-          "description": null,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
-          "unit_development_type": "Conversion",
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "phase_detail": null,
-          "actual_commencement_date": "03/12/2024",
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "gia": 61.5,
-          "tenure": "Market for sale"
+          "tenure": "Starter Homes",
+          "gia": 61.5
         }
       ],
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "site_area": 0.02644
     },
-    "site_area": 0.026000000000000002,
+    "site_area": 0.026439999999999998,
     "garden_land_lost": false,
-    "scheme_phasing": false,
+    "scheme_phasing": true,
     "total_gia_gained": 0,
     "rain_water_harvesting": false,
     "infrastructure_details": {
       "total_annual_pm_emissions": 10,
       "ghg_reduction_over_building_regulations": false,
       "no_new_gas_connections_required": 1,
-      "waste_provision": false,
+      "waste_provision": true,
       "no_homes_passive_cooling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "percentage_demolition_construction_material_recycling": 0,
@@ -98,15 +98,14 @@
       "no_non_resi_units_to_have_full_fibre": 0,
       "fire_suppression_system_proposed": false,
       "mobile_network_operators_consultation": false,
-      "total_annual_nox_emissions": 10
+      "total_annual_nox_emissions": 10,
+      "urban_greening_factor_score": 0
     },
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 151.5,
-        "actual_completion_date": "14/03/2025",
-        "use_class": "C3",
         "gia_gained": 0,
-        "actual_commencement_date": "03/12/2024",
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -127,8 +126,8 @@
     "phasing_details": [
       {
         "phase_detail": "Construction",
-        "intended_commencement_date": "08/2024",
-        "intended_completion_date": "11/2024"
+        "intended_completion_date": "11/2024",
+        "intended_commencement_date": "08/2024"
       }
     ],
     "surface_water_discharge_percentage_reduction": 0,
@@ -144,48 +143,49 @@
     },
     "3d_model": false,
     "borough_cil_liability_notice_issued": false,
-    "transport_impact_assessment": false
+    "transport_impact_assessment": false,
+    "occupation_status": "Occupied"
   },
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.3427,
-          51.551084
+          -0.342772,
+          51.551094
         ],
         [
-          -0.342701,
-          51.551057
+          -0.342773,
+          51.551067
         ],
         [
-          -0.342744,
-          51.551058
+          -0.342816,
+          51.551068
         ],
         [
-          -0.342743,
-          51.551085
+          -0.342815,
+          51.551095
         ],
         [
-          -0.3427,
-          51.551084
+          -0.342772,
+          51.551094
         ]
       ]
     ],
     "type": "Polygon"
   },
   "site_name": "",
-  "centroid_easting": "515004",
-  "site_number": "23",
+  "centroid_easting": 514999,
+  "site_number": 23,
   "development_type": null,
   "decision_date": "03/12/2024",
   "appeal_start_date": null,
   "lapsed_date": "03/12/2027",
-  "status": "Completed",
+  "status": "Commenced",
   "decision_process": null,
   "epc_number": null,
   "appeal_status": null,
   "lpa_name": "Ealing",
-  "centroid_northing": "184877",
+  "centroid_northing": 184878,
   "appeal_decision_date": null,
   "decision_conditions": [
     "Cycle Store - Compliance",
@@ -193,42 +193,44 @@
     "Refuse - Compliance",
     "Standard Cond - Expiration Three Years",
     "Standard Cond - Materials",
-    "",
     "Obscure Glazing",
-    "Fencing",
-    ""
+    "Fencing"
   ],
   "reference_no_of_permission_being_relied_on": null,
   "street_name": "Rugby Avenue",
   "actual_completion_date": "14/03/2025",
   "subdivision_of_building": null,
   "centroid": {
-    "lon": -0.342722,
-    "lat": 51.551071
+    "lon": -0.342794,
+    "lat": 51.551081
   },
   "cil_liability": false,
   "valid_date": "28/05/2024",
   "postcode": "UB6 0EZ",
   "bo_system": "Idox Uniform",
-  "borough": "London Borough of Ealing",
+  "borough": "Ealing",
   "id": "Ealing-242013FUL",
   "application_type": "All Other",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 2,
+    "net_car": 0,
+    "no_proposed_car": 2
+  },
   "decision_target_date": "23/07/2024",
   "pp_id": "PP-13095990",
-  "last_updated_by": "Idox Uniform",
-  "locality": null,
-  "uprn": "000012055256",
+  "last_updated_by": "Planning Portal ingest",
+  "locality": "Greenford",
+  "uprn": 12055256,
   "last_date_consultation_comments": "26/06/2024",
   "title_number": [],
   "decision": "Approved",
-  "last_updated": "2026-06-20T04:01:08.549Z",
+  "last_updated": "2026-06-25T16:13:55.815Z",
   "polygon": null,
   "date_building_work_started_under_previous_permission": null,
   "actual_commencement_date": "03/12/2024",
   "ward": "CENGRE",
   "appeal_decision": null,
   "lpa_app_no": "242013FUL",
-  "description": "Conversion of dwellinghouse into two self-contained flats; alterations to side and rear fenestrations\r",
+  "description": "conversion of an existing single dwelling to two flats",
   "date_building_work_completed_under_previous_permission": null
 }

@@ -48,18 +48,24 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 86,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 86
         }
       ],
       "total_no_existing_residential_units_london_affordable_rent": 0
     },
-    "site_area": 0.016,
+    "site_area": 0.0162,
     "garden_land_lost": false,
     "lead_developer_company_name": "Ibm constructions ltd",
     "scheme_phasing": true,
@@ -79,13 +85,14 @@
       "no_non_resi_units_to_have_full_fibre": 0,
       "fire_suppression_system_proposed": false,
       "mobile_network_operators_consultation": false,
-      "total_annual_nox_emissions": 0
+      "total_annual_nox_emissions": 0,
+      "urban_greening_factor_score": 0
     },
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 86,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -105,53 +112,104 @@
     "phasing_details": [
       {
         "phase_detail": "Entire development",
-        "intended_commencement_date": "08/2024",
-        "intended_completion_date": "08/2024"
+        "intended_completion_date": "08/2024",
+        "intended_commencement_date": "08/2024"
       }
     ],
     "surface_water_discharge_percentage_reduction": 50,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "occupation_status": "Occupied"
   },
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.386591,
-          51.495611
-        ],
-        [
-          -0.386592,
-          51.495584
-        ],
-        [
-          -0.386635,
-          51.495585
-        ],
-        [
-          -0.386634,
-          51.495612
-        ],
-        [
-          -0.386591,
-          51.495611
+          [
+            -0.386846,
+            51.495647
+          ],
+          [
+            -0.386761,
+            51.495621
+          ],
+          [
+            -0.38672,
+            51.495608
+          ],
+          [
+            -0.386681,
+            51.495596
+          ],
+          [
+            -0.386578,
+            51.495557
+          ],
+          [
+            -0.386571,
+            51.495555
+          ],
+          [
+            -0.38653,
+            51.495538
+          ],
+          [
+            -0.386492,
+            51.495578
+          ],
+          [
+            -0.386487,
+            51.495583
+          ],
+          [
+            -0.386526,
+            51.495598
+          ],
+          [
+            -0.38668,
+            51.49565
+          ],
+          [
+            -0.38672,
+            51.495664
+          ],
+          [
+            -0.386805,
+            51.495687
+          ],
+          [
+            -0.386815,
+            51.49569
+          ],
+          [
+            -0.38687,
+            51.495706
+          ],
+          [
+            -0.386897,
+            51.495663
+          ],
+          [
+            -0.386846,
+            51.495647
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "site_name": "",
-  "centroid_easting": "512097",
-  "site_number": "172",
+  "centroid_easting": 512097,
+  "site_number": 172,
   "development_type": null,
   "decision_date": "27/08/2024",
   "appeal_start_date": null,
   "lapsed_date": "27/08/2027",
   "status": "Refused",
   "decision_process": null,
-  "epc_number": null,
+  "epc_number": "9800-5229-2009-0092-1296",
   "appeal_status": null,
   "lpa_name": "Ealing",
-  "centroid_northing": "178640",
+  "centroid_northing": 178640,
   "appeal_decision_date": null,
   "decision_conditions": [
     "",
@@ -172,25 +230,117 @@
   "valid_date": "14/06/2024",
   "postcode": "UB2 5PR",
   "bo_system": "Idox Uniform",
-  "borough": "London Borough of Ealing",
+  "borough": "Ealing",
   "id": "Ealing-242284FUL",
   "application_type": "All Other",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 2,
+    "net_car": 0,
+    "no_proposed_car": 2
+  },
   "decision_target_date": "09/08/2024",
   "pp_id": "PP-13143485",
-  "last_updated_by": "Idox Uniform",
-  "locality": null,
-  "uprn": "000012025917",
+  "last_updated_by": "Planning Portal ingest",
+  "locality": "Southall",
+  "uprn": 12025917,
   "last_date_consultation_comments": "18/07/2024",
   "title_number": [],
   "decision": "REF",
-  "last_updated": "2026-06-20T04:01:17.061Z",
-  "polygon": null,
+  "last_updated": "2026-06-26T00:42:14.272Z",
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                512080.695,
+                178645.097
+              ],
+              [
+                512086.652,
+                178642.275
+              ],
+              [
+                512089.526,
+                178640.914
+              ],
+              [
+                512092.3,
+                178639.6
+              ],
+              [
+                512099.55,
+                178635.45
+              ],
+              [
+                512100,
+                178635.2
+              ],
+              [
+                512102.9,
+                178633.45
+              ],
+              [
+                512105.45,
+                178637.95
+              ],
+              [
+                512105.8,
+                178638.55
+              ],
+              [
+                512103.05,
+                178640.1
+              ],
+              [
+                512092.21,
+                178645.651
+              ],
+              [
+                512089.384,
+                178647.098
+              ],
+              [
+                512083.462,
+                178649.614
+              ],
+              [
+                512082.742,
+                178649.919
+              ],
+              [
+                512078.9,
+                178651.55
+              ],
+              [
+                512077.1,
+                178646.8
+              ],
+              [
+                512080.695,
+                178645.097
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      },
+      {
+        "coordinates": [
+          512109.183340454,
+          178622.8416635511
+        ],
+        "type": "Point"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "date_building_work_started_under_previous_permission": null,
   "actual_commencement_date": null,
   "ward": "SOUGRE",
   "appeal_decision": null,
   "lpa_app_no": "242284FUL",
-  "description": "Conversion of single dwellinghouse into two self-contained residential units; and associated internal alterations",
+  "description": "The proposal is to convert a single dwelling house into 2 flats.",
   "date_building_work_completed_under_previous_permission": null
 }

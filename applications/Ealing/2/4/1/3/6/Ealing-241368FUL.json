@@ -3,72 +3,78 @@
     "coordinates": [
       [
         [
-          -0.3740848,
-          51.510286
-        ],
-        [
-          -0.3740981,
-          51.510256
-        ],
-        [
-          -0.3740072,
-          51.5102399
-        ],
-        [
-          -0.37399309999999997,
-          51.5102703
-        ],
-        [
-          -0.3739422,
-          51.510386
-        ],
-        [
-          -0.37393329999999997,
-          51.5104067
-        ],
-        [
-          -0.37391589999999997,
-          51.5104471
-        ],
-        [
-          -0.3739013,
-          51.5104808
-        ],
-        [
-          -0.3739933,
-          51.5104897
-        ],
-        [
-          -0.3740068,
-          51.5104594
-        ],
-        [
-          -0.37400849999999997,
-          51.5104556
-        ],
-        [
-          -0.3740323,
-          51.5104021
-        ],
-        [
-          -0.37404889999999996,
-          51.510365
-        ],
-        [
-          -0.3740848,
-          51.510286
+          [
+            -0.374014,
+            51.51027
+          ],
+          [
+            -0.373963,
+            51.510385
+          ],
+          [
+            -0.373954,
+            51.510406
+          ],
+          [
+            -0.373937,
+            51.510446
+          ],
+          [
+            -0.373923,
+            51.51048
+          ],
+          [
+            -0.374014,
+            51.510489
+          ],
+          [
+            -0.374028,
+            51.510459
+          ],
+          [
+            -0.37403,
+            51.510455
+          ],
+          [
+            -0.374054,
+            51.510401
+          ],
+          [
+            -0.37407,
+            51.510364
+          ],
+          [
+            -0.374106,
+            51.510285
+          ],
+          [
+            -0.374119,
+            51.510255
+          ],
+          [
+            -0.374028,
+            51.510239
+          ],
+          [
+            -0.374014,
+            51.51027
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "ward": "SOUBDY",
   "decision": "Approved",
   "decision_process": null,
   "appeal_status": null,
   "status": "Approved",
-  "parking_details": null,
-  "centroid_easting": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_proposed_cycle": 4,
+    "net_cycle": 4
+  },
+  "centroid_easting": 512934,
   "application_details": {
     "non_residential_details": {
       "total_gia_lost": 128.8,
@@ -93,7 +99,8 @@
       "total_annual_nox_emissions": 0,
       "no_homes_to_have_electrical_heating": 0,
       "no_new_gas_connections_required": 1,
-      "mobile_network_operators_consultation": false
+      "mobile_network_operators_consultation": false,
+      "urban_greening_factor_score": 0
     },
     "internal_resi_water_usage": 120,
     "surface_water_discharge_percentage_reduction": 0,
@@ -104,8 +111,8 @@
     "phasing_details": [
       {
         "phase_detail": "Whole building",
-        "intended_commencement_date": "07/2024",
-        "intended_completion_date": "12/2024"
+        "intended_completion_date": "12/2024",
+        "intended_commencement_date": "07/2024"
       }
     ],
     "total_gia_lost": 128.8,
@@ -138,32 +145,48 @@
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 7,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "HMO",
           "no_bedrooms": 6,
+          "unit_type": "HMO",
           "provision_for_older_persons": false,
-          "gia": 128.8,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 128.8
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 81.2,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 81.2
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "gia": 95.8,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 95.8
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -188,21 +211,22 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 128.8,
-        "use_class": "C4",
         "gia_gained": 179.98,
+        "use_class": "C4",
         "gia_lost": 128.8
       }
     ],
-    "site_area": 0.018000000000000002,
-    "projected_cost_of_works": "Up to £2m"
+    "site_area": 0.017730000000000003,
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied"
   },
   "actual_completion_date": null,
   "application_type_full": "Full planning permission",
-  "locality": null,
+  "locality": "Southall",
   "actual_commencement_date": null,
   "development_type": null,
   "appeal_decision_date": null,
-  "centroid_northing": null,
+  "centroid_northing": 180297,
   "date_building_work_started_under_previous_permission": null,
   "title_number": [],
   "reference_no_of_permission_being_relied_on": null,
@@ -210,43 +234,107 @@
   "lapsed_date": "11/07/2027",
   "pp_id": "PP-12952659",
   "lpa_app_no": "241368FUL",
-  "epc_number": null,
+  "epc_number": "8284-7425-2420-1341-6902",
   "decision_agency": null,
   "centroid": {
-    "lat": 49.766807,
-    "lon": -7.55716
+    "lat": 51.510325,
+    "lon": -0.374031
   },
   "application_type": "All Other",
-  "borough": "London Borough of Ealing",
-  "postcode": null,
+  "borough": "Ealing",
+  "postcode": "UB1 3BT",
   "site_name": "3 Boyd Avenue\rSouthall\rEaling\rUB1 3BT",
   "bo_system": "Idox Uniform",
-  "site_number": null,
+  "site_number": 3,
   "decision_target_date": "03/06/2024",
   "valid_date": "08/04/2024",
-  "street_name": null,
-  "last_updated_by": "Idox Uniform",
+  "street_name": "Boyd Avenue",
+  "last_updated_by": "Planning Portal ingest",
   "url_planning_app": null,
   "appeal_start_date": null,
   "last_date_consultation_comments": "03/05/2024",
-  "last_updated": "2026-06-20T04:00:48.782Z",
+  "last_updated": "2026-06-26T01:53:51.040Z",
   "appeal_decision": null,
-  "description": "Conversion of existing House in Multiple Occupation (HMO) into 2 self-contained flats, and provision of associated bin and bicycle storage; single storey front porch extension; single storey rear extension; rear roof extension, and installation of three roof lights to front roofslope",
+  "description": "Conversion of existing HMO to 1no. of '2bed for 4 persons' and 1no. '3bed for 5 persons'  self-contained flats, following proposed front porch, single storey rear (infill) extension and loft conversion, with associated bin and bicycle storage.",
   "decision_date": "11/07/2024",
   "secondary_street_name": null,
   "subdivision_of_building": null,
   "date_building_work_completed_under_previous_permission": null,
   "decision_conditions": [
     "Cycle Store - Compliance",
-    "Refuse - Compliance",
-    "",
-    "",
-    "",
-    "",
-    ""
+    "Refuse - Compliance"
   ],
-  "uprn": "000012031220",
+  "uprn": 12031220,
   "id": "Ealing-241368FUL",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                512935.3,
+                180290.9
+              ],
+              [
+                512938.55,
+                180303.85
+              ],
+              [
+                512939.116,
+                180306.157
+              ],
+              [
+                512940.225,
+                180310.68
+              ],
+              [
+                512941.15,
+                180314.45
+              ],
+              [
+                512934.75,
+                180315.3
+              ],
+              [
+                512933.888,
+                180311.911
+              ],
+              [
+                512933.778,
+                180311.48
+              ],
+              [
+                512932.256,
+                180305.501
+              ],
+              [
+                512931.2,
+                180301.35
+              ],
+              [
+                512928.9,
+                180292.5
+              ],
+              [
+                512928.05,
+                180289.15
+              ],
+              [
+                512934.4,
+                180287.5
+              ],
+              [
+                512935.3,
+                180290.9
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "lpa_name": "Ealing"
 }

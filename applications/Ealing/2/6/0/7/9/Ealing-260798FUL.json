@@ -6,26 +6,30 @@
   "appeal_decision": null,
   "lapsed_date": "17/04/2029",
   "appeal_decision_date": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": null,
-  "last_updated": "2026-06-20T04:05:15.978Z",
+  "last_updated": "2026-06-25T16:10:48.072Z",
   "url_planning_app": null,
-  "street_name": null,
-  "parking_details": null,
+  "street_name": "Little Ealing Lane",
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_proposed_cycle": 2,
+    "net_cycle": 2
+  },
   "ward": "NORFLD",
   "bo_system": "Idox Uniform",
   "site_name": "30 Little Ealing Lane\rEaling\rW5 4EA",
-  "site_number": null,
+  "site_number": 30,
   "application_details": {
-    "site_area": 0.017457999999999998,
+    "site_area": 0.017458,
     "total_gia_existing": 61.2,
     "ownership_status": "Private",
     "phasing_details": [
       {
         "phase_detail": "Entire development ",
-        "intended_commencement_date": "02/2026",
-        "intended_completion_date": "02/2026"
+        "intended_completion_date": "02/2026",
+        "intended_commencement_date": "02/2026"
       }
     ],
     "garden_land_lost": false,
@@ -33,8 +37,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 61.2,
-        "use_class": "C3",
         "gia_gained": 61.2,
+        "use_class": "C3",
         "gia_lost": 61.2
       }
     ],
@@ -54,7 +58,8 @@
       "mobile_network_operators_consultation": false,
       "ghg_reduction_over_building_regulations": false,
       "fire_suppression_system_proposed": false,
-      "total_annual_nox_emissions": 0
+      "total_annual_nox_emissions": 0,
+      "urban_greening_factor_score": 0
     },
     "rain_water_harvesting": false,
     "projected_cost_of_works": "Up to £2m",
@@ -100,14 +105,18 @@
       "total_no_proposed_residential_units_affordable_rent": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 2,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
-          "gia": 61.2,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 61.2
         }
       ]
     },
@@ -121,28 +130,78 @@
     "affordable_housing_fast_track": false,
     "grey_water_reuse": false,
     "total_gia_lost": 61.2,
-    "surface_water_discharge_percentage_reduction": 0
+    "surface_water_discharge_percentage_reduction": 0,
+    "occupation_status": "Occupied"
   },
-  "uprn": "000012081720",
-  "locality": null,
+  "uprn": 12081720,
+  "locality": "Ealing",
   "date_building_work_started_under_previous_permission": null,
-  "postcode": null,
+  "postcode": "W5 4EA",
   "valid_date": "24/02/2026",
   "cil_liability": false,
   "actual_completion_date": null,
   "centroid": {
-    "lat": 49.766807,
-    "lon": -7.55716
+    "lat": 51.498192,
+    "lon": -0.307168
   },
-  "centroid_easting": null,
+  "centroid_easting": 517605,
   "application_type_full": "Full planning permission",
   "pp_id": "PP-14667347",
   "lpa_app_no": "260798FUL",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                517609.1,
+                179050.2
+              ],
+              [
+                517607.1,
+                179056.9
+              ],
+              [
+                517602.5,
+                179072.05
+              ],
+              [
+                517597,
+                179070.45
+              ],
+              [
+                517599.15,
+                179063.25
+              ],
+              [
+                517603.5,
+                179048.45
+              ],
+              [
+                517605.25,
+                179042.6
+              ],
+              [
+                517610.85,
+                179044.3
+              ],
+              [
+                517609.1,
+                179050.2
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "id": "Ealing-260798FUL",
   "appeal_status": null,
   "appeal_start_date": null,
-  "description": "Change of use of an existing ground floor self-contained residential flat (Use Class C3) to allow its use as temporary sleeping accommodation (Sui Generis) for short-term visitor stays in excess of 90 nights per calendar year with provision of bicycle storage",
+  "description": "The proposed development seeks planning permission for the change of use of an existing self-contained residential flat (Use Class C3) to allow its use as temporary sleeping accommodation (sui generis) for short-term visitor stays in excess of 90 nights per calendar year.",
   "development_type": null,
   "decision_conditions": [
     "",
@@ -152,11 +211,55 @@
   "title_number": [],
   "last_date_consultation_comments": "23/04/2026",
   "decision_process": null,
-  "centroid_northing": null,
-  "borough": "London Borough of Ealing",
+  "centroid_northing": 179053,
+  "borough": "Ealing",
   "decision": "REF",
   "application_type": "All Other",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          [
+            -0.30711,
+            51.498166
+          ],
+          [
+            -0.307137,
+            51.498227
+          ],
+          [
+            -0.307198,
+            51.498364
+          ],
+          [
+            -0.307277,
+            51.498351
+          ],
+          [
+            -0.307249,
+            51.498286
+          ],
+          [
+            -0.307191,
+            51.498152
+          ],
+          [
+            -0.307168,
+            51.498099
+          ],
+          [
+            -0.307087,
+            51.498113
+          ],
+          [
+            -0.30711,
+            51.498166
+          ]
+        ]
+      ]
+    ],
+    "type": "MultiPolygon"
+  },
   "decision_agency": null,
   "decision_target_date": "21/04/2026",
   "status": "Refused",

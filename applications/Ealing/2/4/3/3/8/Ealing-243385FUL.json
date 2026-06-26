@@ -6,16 +6,81 @@
     "lon": -0.329414,
     "lat": 51.55251
   },
-  "polygon": null,
-  "borough": "London Borough of Ealing",
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                515919,
+                185060.3
+              ],
+              [
+                515921.35,
+                185053.8
+              ],
+              [
+                515921.65,
+                185052.95
+              ],
+              [
+                515924.1,
+                185046.3
+              ],
+              [
+                515929.2,
+                185048.05
+              ],
+              [
+                515927.05,
+                185053.9
+              ],
+              [
+                515926.8,
+                185054.65
+              ],
+              [
+                515924.2,
+                185061.95
+              ],
+              [
+                515924.15,
+                185062.1
+              ],
+              [
+                515915.238,
+                185086.963
+              ],
+              [
+                515909.13,
+                185084.794
+              ],
+              [
+                515917.9,
+                185059.9
+              ],
+              [
+                515919,
+                185060.3
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
+  "borough": "Ealing",
   "application_type": "All Other",
   "date_building_work_started_under_previous_permission": null,
-  "uprn": "000012067159",
+  "uprn": 12067159,
   "valid_date": "05/09/2024",
   "decision_target_date": "31/10/2024",
   "appeal_decision_date": null,
-  "locality": null,
-  "centroid_northing": "185058",
+  "locality": "Greenford",
+  "centroid_northing": 185058,
   "ward": "NORGRE",
   "decision_conditions": [
     "Balconies for Flat Roofs",
@@ -23,8 +88,7 @@
     "Refuse - Compliance",
     "Standard Cond - Expiration Three Years",
     "Standard Cond - Materials",
-    "Fencing",
-    ""
+    "Fencing"
   ],
   "pp_id": "PP-13385080",
   "decision_process": null,
@@ -35,34 +99,68 @@
   "id": "Ealing-243385FUL",
   "actual_commencement_date": null,
   "lpa_name": "Ealing",
-  "last_updated": "2026-06-20T04:01:49.494Z",
+  "last_updated": "2026-06-26T00:16:56.431Z",
   "lpa_app_no": "243385FUL",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.329392,
-          51.552523
-        ],
-        [
-          -0.329393,
-          51.552496
-        ],
-        [
-          -0.329436,
-          51.552497
-        ],
-        [
-          -0.329435,
-          51.552524
-        ],
-        [
-          -0.329392,
-          51.552523
+          [
+            -0.329471,
+            51.552531
+          ],
+          [
+            -0.329439,
+            51.552473
+          ],
+          [
+            -0.329435,
+            51.552465
+          ],
+          [
+            -0.329402,
+            51.552405
+          ],
+          [
+            -0.329328,
+            51.552419
+          ],
+          [
+            -0.329357,
+            51.552472
+          ],
+          [
+            -0.32936,
+            51.552479
+          ],
+          [
+            -0.329395,
+            51.552545
+          ],
+          [
+            -0.329396,
+            51.552547
+          ],
+          [
+            -0.329516,
+            51.552772
+          ],
+          [
+            -0.329605,
+            51.552754
+          ],
+          [
+            -0.329487,
+            51.552528
+          ],
+          [
+            -0.329471,
+            51.552531
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "appeal_status": null,
   "site_name": "",
@@ -71,13 +169,13 @@
   "appeal_start_date": null,
   "cil_liability": true,
   "development_type": null,
-  "description": "Erection of a two storey rear extension and rear roof extension, hip to gable end roof alteration, and installation of two roof lights to front roof slope  to facilitate the conversion of an existing dwelling house into two self contained flats together with the provision of refuse and cycle storage",
+  "description": "Erection of a two storey rear extension and rear dormer extension to facilitate the conversion of an existing dwelling house into two self contained flats together with the provision of refuse and cycle storage",
   "epc_number": null,
   "reference_no_of_permission_being_relied_on": null,
   "bo_system": "Idox Uniform",
   "appeal_decision": null,
   "actual_completion_date": null,
-  "centroid_easting": "515923",
+  "centroid_easting": 515923,
   "url_planning_app": null,
   "application_details": {
     "existing_uprns": null,
@@ -85,19 +183,19 @@
     "phasing_details": [
       {
         "phase_detail": "Entire development",
-        "intended_commencement_date": "11/2024",
-        "intended_completion_date": "12/2024"
+        "intended_completion_date": "12/2024",
+        "intended_commencement_date": "11/2024"
       }
     ],
     "total_gia_gained": 140,
-    "site_area": 0.027,
+    "site_area": 0.02,
     "total_gia_lost": 0,
     "total_gia_existing": 82,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 82,
-        "use_class": "C3",
         "gia_gained": 140,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -154,32 +252,48 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 4,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Terraced Home",
           "no_bedrooms": 3,
+          "unit_type": "Terraced Home",
           "provision_for_older_persons": false,
-          "gia": 82,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 82
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 64,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 64
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 75,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 75
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -199,16 +313,18 @@
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "urban_greening_factor_score": 0
     },
     "internal_resi_water_usage": 0,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "occupation_status": "Occupied"
   },
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "postcode": "UB6 7QS",
   "last_date_consultation_comments": null,
   "secondary_street_name": null,
-  "site_number": "61",
+  "site_number": 61,
   "subdivision_of_building": null,
   "street_name": "Bourne View"
 }

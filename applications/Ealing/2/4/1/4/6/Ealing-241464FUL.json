@@ -3,36 +3,97 @@
     "coordinates": [
       [
         [
-          -0.327191,
-          51.509473
-        ],
-        [
-          -0.327192,
-          51.509446
-        ],
-        [
-          -0.327236,
-          51.509446
-        ],
-        [
-          -0.327235,
-          51.509473
-        ],
-        [
-          -0.327191,
-          51.509473
+          [
+            -0.327159,
+            51.509316
+          ],
+          [
+            -0.327177,
+            51.509313
+          ],
+          [
+            -0.327223,
+            51.5094
+          ],
+          [
+            -0.327141,
+            51.509417
+          ],
+          [
+            -0.327146,
+            51.509426
+          ],
+          [
+            -0.327167,
+            51.509463
+          ],
+          [
+            -0.327229,
+            51.509578
+          ],
+          [
+            -0.327329,
+            51.509566
+          ],
+          [
+            -0.327299,
+            51.509511
+          ],
+          [
+            -0.327291,
+            51.509495
+          ],
+          [
+            -0.327263,
+            51.509441
+          ],
+          [
+            -0.327246,
+            51.50941
+          ],
+          [
+            -0.327201,
+            51.509325
+          ],
+          [
+            -0.327168,
+            51.509263
+          ],
+          [
+            -0.327134,
+            51.50927
+          ],
+          [
+            -0.32707,
+            51.509284
+          ],
+          [
+            -0.327095,
+            51.50933
+          ],
+          [
+            -0.327159,
+            51.509316
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "ward": "WALPLE",
   "decision": "REF",
   "decision_process": null,
   "appeal_status": null,
   "status": "Refused",
-  "parking_details": null,
-  "centroid_easting": "516185",
+  "parking_details": {
+    "no_existing_cycle": 1,
+    "no_existing_car": 1,
+    "net_car": 0,
+    "no_proposed_cycle": 2,
+    "no_proposed_car": 1,
+    "net_cycle": 1
+  },
+  "centroid_easting": 516185,
   "application_details": {
     "non_residential_details": {
       "total_gia_lost": 42,
@@ -57,7 +118,8 @@
       "total_annual_nox_emissions": 0,
       "no_homes_to_have_electrical_heating": 1,
       "no_new_gas_connections_required": 0,
-      "mobile_network_operators_consultation": false
+      "mobile_network_operators_consultation": false,
+      "urban_greening_factor_score": 0
     },
     "internal_resi_water_usage": 142,
     "surface_water_discharge_percentage_reduction": 0,
@@ -68,8 +130,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "06/2024",
-        "intended_completion_date": "08/2024"
+        "intended_completion_date": "08/2024",
+        "intended_commencement_date": "06/2024"
       }
     ],
     "total_gia_lost": 42,
@@ -102,13 +164,19 @@
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Studio Bedsit",
           "no_habitable_rooms": 1,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Studio Bedsit",
           "no_bedrooms": 1,
-          "gia": 42,
-          "tenure": "Social Rent"
+          "provision_for_older_persons": false,
+          "tenure": "Social Rent",
+          "gia": 42
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -133,21 +201,22 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 116,
-        "use_class": "E(a)",
         "gia_gained": 0,
+        "use_class": "EA",
         "gia_lost": 42
       }
     ],
-    "site_area": 0.013000000000000001,
-    "projected_cost_of_works": "Up to £2m"
+    "site_area": 0.0242,
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied"
   },
   "actual_completion_date": null,
   "application_type_full": "Full planning permission",
-  "locality": null,
+  "locality": "West Ealing",
   "actual_commencement_date": null,
   "development_type": null,
   "appeal_decision_date": null,
-  "centroid_northing": "180274",
+  "centroid_northing": 180274,
   "date_building_work_started_under_previous_permission": null,
   "title_number": [],
   "reference_no_of_permission_being_relied_on": null,
@@ -162,30 +231,156 @@
     "lon": -0.327213
   },
   "application_type": "All Other",
-  "borough": "London Borough of Ealing",
+  "borough": "Ealing",
   "postcode": "W13 9BE",
   "site_name": "",
   "bo_system": "Idox Uniform",
-  "site_number": "125",
+  "site_number": 125,
   "decision_target_date": "28/05/2024",
   "valid_date": "02/04/2024",
   "street_name": "Broadway",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "url_planning_app": null,
   "appeal_start_date": null,
   "last_date_consultation_comments": "07/05/2024",
-  "last_updated": "2026-06-20T04:00:51.564Z",
+  "last_updated": "2026-06-26T01:56:51.078Z",
   "appeal_decision": null,
-  "description": "Part Change of Use of Ground Floor Retail Unit (Use Class E(a)) to one Studio Unit (Use Class C3)",
+  "description": "Proposed Part Change of Use of Ground Floor Retail Unit (Use Class E(a)) to one New Studio Unit (Use Class C3).\n",
   "decision_date": "23/05/2024",
   "secondary_street_name": null,
-  "subdivision_of_building": null,
+  "subdivision_of_building": "Ground floor Retail unit.",
   "date_building_work_completed_under_previous_permission": null,
   "decision_conditions": [
     ""
   ],
-  "uprn": "000012073795",
+  "uprn": 12073795,
   "id": "Ealing-241464FUL",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                516189.165,
+                180258.167
+              ],
+              [
+                516187.908,
+                180257.71
+              ],
+              [
+                516184.476,
+                180267.326
+              ],
+              [
+                516190.112,
+                180269.331
+              ],
+              [
+                516189.74,
+                180270.347
+              ],
+              [
+                516188.238,
+                180274.446
+              ],
+              [
+                516183.6,
+                180287.1
+              ],
+              [
+                516176.7,
+                180285.6
+              ],
+              [
+                516178.9,
+                180279.6
+              ],
+              [
+                516179.5,
+                180277.8
+              ],
+              [
+                516181.6,
+                180271.9
+              ],
+              [
+                516182.9,
+                180268.4
+              ],
+              [
+                516186.22,
+                180259.07
+              ],
+              [
+                516188.65,
+                180252.25
+              ],
+              [
+                516190.981,
+                180253.096
+              ],
+              [
+                516195.4,
+                180254.7
+              ],
+              [
+                516193.571,
+                180259.768
+              ],
+              [
+                516189.165,
+                180258.167
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      },
+      {
+        "coordinates": [
+          [
+            [
+              [
+                516193.571,
+                180259.768
+              ],
+              [
+                516192.311,
+                180263.259
+              ],
+              [
+                516190.6,
+                180268
+              ],
+              [
+                516190.112,
+                180269.331
+              ],
+              [
+                516184.476,
+                180267.326
+              ],
+              [
+                516187.908,
+                180257.71
+              ],
+              [
+                516189.165,
+                180258.167
+              ],
+              [
+                516193.571,
+                180259.768
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "lpa_name": "Ealing"
 }

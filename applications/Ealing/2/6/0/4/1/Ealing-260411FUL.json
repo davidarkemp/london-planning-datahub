@@ -6,27 +6,31 @@
   "appeal_decision": null,
   "lapsed_date": null,
   "appeal_decision_date": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": null,
-  "last_updated": "2026-06-20T04:05:04.217Z",
+  "last_updated": "2026-06-26T01:20:17.092Z",
   "url_planning_app": null,
   "street_name": null,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 2,
+    "net_car": -1,
+    "no_proposed_car": 1
+  },
   "ward": "GREBDY",
   "bo_system": "Idox Uniform",
   "site_name": "Garages Adjacent To 20 Goring Way\rGreenford\rUB6 9NL\r",
   "site_number": null,
   "application_details": {
-    "site_area": 0.007200000000000001,
+    "site_area": 0.0072,
     "total_gia_existing": 32,
     "ownership_status": "Private",
     "scheme_name": "Land adjacent to 20 Goring Way",
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "05/2026",
-        "intended_completion_date": "05/2027"
+        "intended_completion_date": "05/2027",
+        "intended_commencement_date": "05/2026"
       }
     ],
     "garden_land_lost": false,
@@ -34,8 +38,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 32,
-        "use_class": "B8",
         "gia_gained": 90,
+        "use_class": "B8",
         "gia_lost": 32
       }
     ],
@@ -60,7 +64,8 @@
       "no_passive_fast_ev_charging_points": 0,
       "fire_suppression_system_proposed": false,
       "total_annual_nox_emissions": 0,
-      "no_active_fast_ev_charging_points": 1
+      "no_active_fast_ev_charging_points": 1,
+      "urban_greening_factor_score": 0
     },
     "rain_water_harvesting": false,
     "projected_cost_of_works": "Up to £2m",
@@ -113,13 +118,19 @@
       "total_no_proposed_residential_units_affordable_rent": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "House or Bungalow",
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "House or Bungalow",
           "no_bedrooms": 3,
-          "gia": 90,
-          "tenure": "Self-Build and Custom Build"
+          "provision_for_older_persons": false,
+          "tenure": "Self-Build and Custom Build",
+          "gia": 90
         }
       ]
     },
@@ -133,39 +144,133 @@
     "affordable_housing_fast_track": false,
     "grey_water_reuse": false,
     "total_gia_lost": 32,
-    "surface_water_discharge_percentage_reduction": 0
+    "surface_water_discharge_percentage_reduction": 0,
+    "occupation_status": "Vacant"
   },
   "uprn": "000012053708",
-  "locality": null,
+  "locality": "London",
   "date_building_work_started_under_previous_permission": null,
-  "postcode": null,
+  "postcode": "UB6 9NL",
   "valid_date": "03/02/2026",
   "cil_liability": true,
   "actual_completion_date": null,
   "centroid": {
-    "lat": 49.766807,
-    "lon": -7.55716
+    "lat": 51.53451,
+    "lon": -0.352494
   },
-  "centroid_easting": null,
+  "centroid_easting": 514368,
   "application_type_full": "Full planning permission",
   "pp_id": "PP-14424778",
   "lpa_app_no": "260411FUL",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                514364.3,
+                183022.6
+              ],
+              [
+                514362.5,
+                183017.25
+              ],
+              [
+                514367.3,
+                183015.65
+              ],
+              [
+                514368.95,
+                183015.1
+              ],
+              [
+                514374.7,
+                183014.15
+              ],
+              [
+                514375.7,
+                183017.3
+              ],
+              [
+                514370.5,
+                183020.45
+              ],
+              [
+                514369.1,
+                183021
+              ],
+              [
+                514364.3,
+                183022.6
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "id": "Ealing-260411FUL",
   "appeal_status": null,
   "appeal_start_date": null,
-  "description": "Construction of a two bedroom four person single-dwellinghouse with green roof and terrace; provision of bin storage, cycle storage; hard and soft landscaping; installation of solar PV panels; installation of EV charger (following demolition of existing garages)\r",
+  "description": "The proposal seeks to convert two existing underused garages into a three-storey residential dwelling. The development will provide approximately 90 sqm of internal floor space, comprising three bedrooms and two bathrooms, to accommodate up to four occupants.\n\nA second-floor terrace is proposed to provide private external amenity space. Existing off-street parking will be retained and upgraded to include an electric vehicle charging point, along with provision for refuse and cycle storage in accordance with current standards.",
   "development_type": null,
   "decision_conditions": null,
   "secondary_street_name": null,
   "title_number": [],
   "last_date_consultation_comments": "26/06/2026",
   "decision_process": null,
-  "centroid_northing": null,
+  "centroid_northing": 183020,
   "borough": "London Borough of Ealing",
   "decision": null,
   "application_type": "All Other",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          [
+            -0.352546,
+            51.534534
+          ],
+          [
+            -0.352574,
+            51.534487
+          ],
+          [
+            -0.352505,
+            51.534471
+          ],
+          [
+            -0.352481,
+            51.534466
+          ],
+          [
+            -0.352399,
+            51.534456
+          ],
+          [
+            -0.352383,
+            51.534484
+          ],
+          [
+            -0.352457,
+            51.534514
+          ],
+          [
+            -0.352477,
+            51.534519
+          ],
+          [
+            -0.352546,
+            51.534534
+          ]
+        ]
+      ]
+    ],
+    "type": "MultiPolygon"
+  },
   "decision_agency": null,
   "decision_target_date": "31/03/2026",
   "status": "Application Under Consideration",

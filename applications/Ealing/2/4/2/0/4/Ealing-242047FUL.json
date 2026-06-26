@@ -1,7 +1,7 @@
 {
   "application_type": "All Other",
   "valid_date": "01/07/2024",
-  "uprn": "000012104300",
+  "uprn": 12104300,
   "decision_target_date": "26/08/2024",
   "lpa_app_no": "242047FUL",
   "last_date_consultation_comments": "08/08/2024",
@@ -14,7 +14,7 @@
     "existing_uprns": [
       "000012104300"
     ],
-    "site_area": 0.026000000000000002,
+    "site_area": 0.00495,
     "total_gia_existing": 91.3,
     "total_gia_lost": 91.3,
     "scheme_phasing": true,
@@ -25,7 +25,7 @@
     "garden_land_lost": true,
     "infrastructure_details": {
       "green_roof_area": 0,
-      "urban_greening_factor_score": 0.30000000000000004,
+      "urban_greening_factor_score": 0.3,
       "total_annual_nox_emissions": 0,
       "no_non_resi_units_to_have_full_fibre": 2,
       "total_annual_pm_emissions": 0,
@@ -45,32 +45,48 @@
       "total_no_existing_residential_units_intermediate": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 6,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Terraced Home",
           "no_bedrooms": 3,
+          "unit_type": "Terraced Home",
           "provision_for_older_persons": false,
-          "gia": 91.3,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 91.3
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 70,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 70
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 74.6,
-          "tenure": "Discount Market Rent"
+          "provision_for_older_persons": false,
+          "tenure": "Discount Market Rent",
+          "gia": 74.6
         }
       ],
       "total_no_proposed_residential_units": 2,
@@ -114,8 +130,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 91.3,
-        "use_class": "C3",
         "gia_gained": 151.8,
+        "use_class": "C3",
         "gia_lost": 91.3
       }
     ],
@@ -130,13 +146,14 @@
     "phasing_details": [
       {
         "phase_detail": "Entire development",
-        "intended_commencement_date": "11/2024",
-        "intended_completion_date": "07/2025"
+        "intended_completion_date": "07/2025",
+        "intended_commencement_date": "11/2024"
       }
     ],
-    "internal_resi_water_usage": 0
+    "internal_resi_water_usage": 0,
+    "occupation_status": "Occupied"
   },
-  "borough": "London Borough of Ealing",
+  "borough": "Ealing",
   "application_type_full": "Full planning permission",
   "cil_liability": true,
   "date_building_work_started_under_previous_permission": null,
@@ -144,12 +161,16 @@
   "bo_system": "Idox Uniform",
   "polygon": null,
   "appeal_status": null,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_proposed_cycle": 6,
+    "net_cycle": 6
+  },
   "centroid": {
     "lon": -0.265857,
     "lat": 51.522633
   },
-  "locality": null,
+  "locality": "Acton",
   "secondary_street_name": null,
   "decision_conditions": [
     "Balconies for Flat Roofs",
@@ -158,10 +179,7 @@
     "Rooflight - INSERT",
     "Standard Cond - Expiration Three Years",
     "Standard Cond - Materials",
-    "",
-    "",
-    "Approved Plans",
-    ""
+    "Approved Plans"
   ],
   "decision_agency": null,
   "wgs84_polygon": {
@@ -194,7 +212,7 @@
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "postcode": "W3 0PZ",
-  "epc_number": null,
+  "epc_number": "2598-3989-7219-3598-8950",
   "decision": "Approved",
   "id": "Ealing-242047FUL",
   "lpa_name": "Ealing",
@@ -203,15 +221,15 @@
   "url_planning_app": null,
   "pp_id": "PP-13004728",
   "decision_process": null,
-  "centroid_easting": "520408",
-  "last_updated": "2026-06-20T04:01:09.694Z",
+  "centroid_easting": 520408,
+  "last_updated": "2026-06-25T16:13:58.799Z",
   "appeal_decision_date": null,
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated_by": "Idox Uniform",
-  "site_number": "6",
-  "centroid_northing": "181838",
+  "last_updated_by": "Planning Portal ingest",
+  "site_number": 6,
+  "centroid_northing": 181838,
   "development_type": null,
-  "description": "Conversion of single dwelling house into two self contained flats; single storey front porch extension; part two, part single storey rear extension (following demolition of existing); alteration of roof from hip to gable end, rear roof extension; installation of two rooflights to the front roof slope.",
+  "description": "Erection of First Floor rear extension (as per approved application 232063HH), Ground Floor rear extension (as per approved application 231002PALHE), hip to gable roof conversion, dormer extension and installation of 2no. skylights to the front slope of the roof (as per approved application 231004CPL), creation of front porch and creation of 2no. 2-bedrooms flats.",
   "status": "Approved",
   "actual_completion_date": null,
   "appeal_start_date": null,

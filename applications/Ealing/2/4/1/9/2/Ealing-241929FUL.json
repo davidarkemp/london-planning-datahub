@@ -48,19 +48,24 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 2,
-          "provider": "Private",
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
           "garden_land": true,
+          "sheltered_accommodation": false,
           "unit_type": "Other",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
           "no_bedrooms": 1,
-          "gia": 51.5,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 51.5
         }
       ],
       "total_no_existing_residential_units_london_affordable_rent": 0
     },
-    "site_area": 0.014,
+    "site_area": 0.0137,
     "garden_land_lost": false,
     "building_details": [
       {
@@ -86,13 +91,14 @@
       "no_non_resi_units_to_have_full_fibre": 1,
       "fire_suppression_system_proposed": false,
       "mobile_network_operators_consultation": false,
-      "total_annual_nox_emissions": 0
+      "total_annual_nox_emissions": 0,
+      "urban_greening_factor_score": 0
     },
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 73,
-        "use_class": "SpecifiedOther",
         "gia_gained": 11,
+        "use_class": "Other",
         "gia_lost": 40.5
       }
     ],
@@ -112,43 +118,74 @@
     "phasing_details": [
       {
         "phase_detail": "1",
-        "intended_commencement_date": "09/2024",
-        "intended_completion_date": "06/2025"
+        "intended_completion_date": "06/2025",
+        "intended_commencement_date": "09/2024"
       }
     ],
     "surface_water_discharge_percentage_reduction": 0,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "occupation_status": "Occupied"
   },
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.313877,
-          51.526224
-        ],
-        [
-          -0.313878,
-          51.526197
-        ],
-        [
-          -0.313921,
-          51.526197
-        ],
-        [
-          -0.31392,
-          51.526224
-        ],
-        [
-          -0.313877,
-          51.526224
+          [
+            -0.313902,
+            51.52628
+          ],
+          [
+            -0.313914,
+            51.526304
+          ],
+          [
+            -0.313918,
+            51.526312
+          ],
+          [
+            -0.313953,
+            51.526387
+          ],
+          [
+            -0.314026,
+            51.526375
+          ],
+          [
+            -0.313991,
+            51.526303
+          ],
+          [
+            -0.313989,
+            51.526299
+          ],
+          [
+            -0.313974,
+            51.526267
+          ],
+          [
+            -0.313915,
+            51.526146
+          ],
+          [
+            -0.313845,
+            51.52616
+          ],
+          [
+            -0.313879,
+            51.526232
+          ],
+          [
+            -0.313902,
+            51.52628
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "site_name": "",
-  "centroid_easting": "517066",
-  "site_number": "94",
+  "centroid_easting": 517066,
+  "site_number": 94,
   "development_type": null,
   "decision_date": "17/07/2024",
   "appeal_start_date": null,
@@ -158,7 +195,7 @@
   "epc_number": null,
   "appeal_status": null,
   "lpa_name": "Ealing",
-  "centroid_northing": "182158",
+  "centroid_northing": 182158,
   "appeal_decision_date": null,
   "decision_conditions": [
     "Refuse - Compliance",
@@ -166,7 +203,6 @@
     "Standard Cond - Materials",
     "Cycle Parking",
     "Sound Insulation",
-    "",
     "Control Measures"
   ],
   "reference_no_of_permission_being_relied_on": null,
@@ -181,25 +217,93 @@
   "valid_date": "20/05/2024",
   "postcode": "W5 1QX",
   "bo_system": "Idox Uniform",
-  "borough": "London Borough of Ealing",
+  "borough": "Ealing",
   "id": "Ealing-241929FUL",
   "application_type": "All Other",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 0,
+    "net_car": 0,
+    "no_proposed_cycle": 4,
+    "no_proposed_car": 0,
+    "net_cycle": 4
+  },
   "decision_target_date": "15/07/2024",
   "pp_id": "PP-13080331",
-  "last_updated_by": "Idox Uniform",
-  "locality": null,
-  "uprn": "000012086379",
+  "last_updated_by": "Planning Portal ingest",
+  "locality": "Ealing",
+  "uprn": 12086379,
   "last_date_consultation_comments": "27/06/2024",
   "title_number": [],
   "decision": "Approved",
-  "last_updated": "2026-06-20T04:01:05.930Z",
-  "polygon": null,
+  "last_updated": "2026-06-25T16:13:54.554Z",
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                517065.6,
+                182165.783
+              ],
+              [
+                517064.75,
+                182168.4
+              ],
+              [
+                517064.472,
+                182169.266
+              ],
+              [
+                517061.8,
+                182177.6
+              ],
+              [
+                517056.8,
+                182176.05
+              ],
+              [
+                517059.409,
+                182168.122
+              ],
+              [
+                517059.555,
+                182167.678
+              ],
+              [
+                517060.7,
+                182164.2
+              ],
+              [
+                517065.1,
+                182150.8
+              ],
+              [
+                517069.9,
+                182152.45
+              ],
+              [
+                517067.35,
+                182160.4
+              ],
+              [
+                517065.6,
+                182165.783
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "date_building_work_started_under_previous_permission": null,
   "actual_commencement_date": null,
   "ward": "PITSHG",
   "appeal_decision": null,
   "lpa_app_no": "241929FUL",
-  "description": "Conversion of part ground floor and upper floors into 2 self-contained flats; single storey rear extension; rear roof extension, and installation of three roof lights to front roofslope; alterations to the shop front",
+  "description": "Loft conversion to existing first floor flat.\nSingle storey rear extension for a new one bedroom flat.\nReplacement of shop front.",
   "date_building_work_completed_under_previous_permission": null
 }

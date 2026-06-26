@@ -1,14 +1,14 @@
 {
   "decision_agency": null,
-  "date_building_work_started_under_previous_permission": null,
-  "site_number": "30",
+  "date_building_work_started_under_previous_permission": "31/08/2024",
+  "site_number": 30,
   "decision_process": null,
   "appeal_start_date": null,
   "lapsed_date": "03/03/2029",
-  "uprn": "000012077917",
-  "locality": null,
+  "uprn": 12077917,
+  "locality": "Perivale",
   "appeal_decision_date": null,
-  "centroid_easting": "516135",
+  "centroid_easting": 516135,
   "application_details": {
     "residential_details": {
       "total_no_existing_residential_units": 1,
@@ -42,23 +42,33 @@
       "dwelling_density": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 6,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Semi Detached Home",
           "no_bedrooms": 4,
+          "unit_type": "Semi Detached Home",
           "provision_for_older_persons": false,
-          "gia": 112.5,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 112.5
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "HMO",
           "no_habitable_rooms": 6,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "HMO",
           "no_bedrooms": 6,
-          "gia": 112.5,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 112.5
         }
       ],
       "total_no_proposed_residential_units_social_rent": 0,
@@ -74,8 +84,8 @@
     "phasing_details": [
       {
         "phase_detail": "Main Build",
-        "intended_commencement_date": "08/2024",
-        "intended_completion_date": "11/2024"
+        "intended_completion_date": "11/2024",
+        "intended_commencement_date": "08/2024"
       }
     ],
     "green_suds": false,
@@ -93,7 +103,8 @@
       "no_new_gas_connections_required": 0,
       "total_annual_nox_emissions": 0,
       "ghg_reduction_over_building_regulations": false,
-      "fire_suppression_system_proposed": false
+      "fire_suppression_system_proposed": false,
+      "urban_greening_factor_score": 0
     },
     "garden_land_lost": false,
     "internal_resi_water_usage": 0,
@@ -105,7 +116,7 @@
     "total_gia_lost": 112.5,
     "surface_water_discharge_percentage_reduction": 0,
     "existing_uprns": null,
-    "site_area": 0.02,
+    "site_area": 0.01958,
     "ownership_status": "Private",
     "non_residential_details": {
       "total_gia_existing": 112.5,
@@ -118,16 +129,17 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 112.5,
-        "use_class": "C3",
         "gia_gained": 112.5,
+        "use_class": "C3",
         "gia_lost": 112.5
       }
     ],
-    "rain_water_harvesting": false
+    "rain_water_harvesting": false,
+    "occupation_status": "Occupied"
   },
-  "date_building_work_completed_under_previous_permission": null,
+  "date_building_work_completed_under_previous_permission": "01/11/2024",
   "site_name": "",
-  "borough": "London Borough of Ealing",
+  "borough": "Ealing",
   "status": "Refused",
   "epc_number": null,
   "bo_system": "Idox Uniform",
@@ -135,28 +147,90 @@
     "coordinates": [
       [
         [
-          -0.326906,
-          51.536913
-        ],
-        [
-          -0.326907,
-          51.536886
-        ],
-        [
-          -0.326951,
-          51.536887
-        ],
-        [
-          -0.32695,
-          51.536914
-        ],
-        [
-          -0.326906,
-          51.536913
+          [
+            -0.326901,
+            51.536922
+          ],
+          [
+            -0.327016,
+            51.536925
+          ],
+          [
+            -0.327017,
+            51.536898
+          ],
+          [
+            -0.327017,
+            51.536897
+          ],
+          [
+            -0.327015,
+            51.536896
+          ],
+          [
+            -0.327012,
+            51.536894
+          ],
+          [
+            -0.32701,
+            51.536893
+          ],
+          [
+            -0.327002,
+            51.536892
+          ],
+          [
+            -0.327004,
+            51.536874
+          ],
+          [
+            -0.326904,
+            51.536872
+          ],
+          [
+            -0.326888,
+            51.536871
+          ],
+          [
+            -0.326865,
+            51.536871
+          ],
+          [
+            -0.326884,
+            51.536858
+          ],
+          [
+            -0.32681,
+            51.536856
+          ],
+          [
+            -0.326798,
+            51.536856
+          ],
+          [
+            -0.326709,
+            51.536853
+          ],
+          [
+            -0.326666,
+            51.536853
+          ],
+          [
+            -0.326664,
+            51.536883
+          ],
+          [
+            -0.326662,
+            51.536919
+          ],
+          [
+            -0.326901,
+            51.536922
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "cil_liability": false,
   "title_number": [],
@@ -168,7 +242,7 @@
   "lpa_name": "Ealing",
   "secondary_street_name": null,
   "decision_date": "03/03/2026",
-  "last_updated": "2026-06-20T04:02:46.774Z",
+  "last_updated": "2026-06-26T01:31:45.162Z",
   "url_planning_app": null,
   "ward": "PERVAL",
   "valid_date": "19/03/2025",
@@ -176,14 +250,14 @@
   "development_type": null,
   "appeal_decision": null,
   "postcode": "UB6 8LA",
-  "centroid_northing": "183326",
-  "description": "Conversion of the property from a C3 single dwelling house to a C4 small HMO (Retrospective)",
+  "centroid_northing": 183326,
+  "description": "Retrospective planning for the conversion of the property from a C3 classification single dwelling house to a C4 classification a small HMO",
   "subdivision_of_building": null,
   "actual_completion_date": null,
   "lpa_app_no": "250420FUL",
   "decision": "REF",
   "application_type_full": "Full planning permission",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_status": null,
   "id": "Ealing-250420FUL",
   "decision_conditions": [
@@ -191,7 +265,100 @@
   ],
   "pp_id": "PP-13738864",
   "last_date_consultation_comments": "09/04/2025",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                516136.85,
+                183328.5
+              ],
+              [
+                516128.9,
+                183328.65
+              ],
+              [
+                516128.85,
+                183325.65
+              ],
+              [
+                516128.9,
+                183325.5
+              ],
+              [
+                516129.05,
+                183325.4
+              ],
+              [
+                516129.2,
+                183325.2
+              ],
+              [
+                516129.4,
+                183325.1
+              ],
+              [
+                516129.9,
+                183325.05
+              ],
+              [
+                516129.85,
+                183322.95
+              ],
+              [
+                516136.8,
+                183322.95
+              ],
+              [
+                516137.9,
+                183322.9
+              ],
+              [
+                516139.487,
+                183322.828
+              ],
+              [
+                516138.198,
+                183321.444
+              ],
+              [
+                516143.338,
+                183321.32
+              ],
+              [
+                516144.15,
+                183321.3
+              ],
+              [
+                516150.35,
+                183321.15
+              ],
+              [
+                516153.3,
+                183321.15
+              ],
+              [
+                516153.4,
+                183324.55
+              ],
+              [
+                516153.45,
+                183328.55
+              ],
+              [
+                516136.85,
+                183328.5
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "centroid": {
     "lat": 51.5369,
     "lon": -0.326929

@@ -6,17 +6,24 @@
   "appeal_decision": null,
   "lapsed_date": "23/04/2029",
   "appeal_decision_date": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": null,
-  "last_updated": "2026-06-20T04:04:48.822Z",
+  "last_updated": "2026-06-25T23:38:57.662Z",
   "url_planning_app": null,
   "street_name": "East Acton Lane",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 0,
+    "net_car": 1,
+    "no_proposed_cycle": 3,
+    "no_proposed_car": 1,
+    "net_cycle": 3
+  },
   "ward": "EASACT",
   "bo_system": "Idox Uniform",
   "site_name": "",
-  "site_number": "162",
+  "site_number": 162,
   "application_details": {
     "site_area": 0.0413,
     "total_gia_existing": 0,
@@ -24,8 +31,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "06/2026",
-        "intended_completion_date": "03/2027"
+        "intended_completion_date": "03/2027",
+        "intended_commencement_date": "06/2026"
       }
     ],
     "garden_land_lost": true,
@@ -33,8 +40,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 0,
-        "use_class": "C3",
         "gia_gained": 113.6,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -58,7 +65,8 @@
       "solar_pv_capacity": 0,
       "fire_suppression_system_proposed": false,
       "ghg_reduction_over_building_regulations": false,
-      "total_annual_nox_emissions": 0
+      "total_annual_nox_emissions": 0,
+      "urban_greening_factor_score": 0
     },
     "rain_water_harvesting": false,
     "projected_cost_of_works": "Up to £2m",
@@ -111,13 +119,19 @@
       "total_no_proposed_residential_units_affordable_rent": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "House or Bungalow",
           "no_habitable_rooms": 5,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "House or Bungalow",
           "no_bedrooms": 3,
-          "gia": 113.6,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 113.6
         }
       ]
     },
@@ -131,10 +145,11 @@
     "affordable_housing_fast_track": false,
     "grey_water_reuse": false,
     "total_gia_lost": 0,
-    "surface_water_discharge_percentage_reduction": 0
+    "surface_water_discharge_percentage_reduction": 0,
+    "occupation_status": "Occupied"
   },
-  "uprn": "000012103248",
-  "locality": null,
+  "uprn": 12103248,
+  "locality": "Acton",
   "date_building_work_started_under_previous_permission": null,
   "postcode": "W3 7EW",
   "valid_date": "18/12/2025",
@@ -144,15 +159,88 @@
     "lat": 51.510127,
     "lon": -0.258176
   },
-  "centroid_easting": "520974",
+  "centroid_easting": 520974,
   "application_type_full": "Full planning permission",
   "pp_id": "PP-14460056",
   "lpa_app_no": "254754FUL",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                520940.70853919024,
+                180463.37058327798
+              ],
+              [
+                520943.65,
+                180448.4
+              ],
+              [
+                520950.2,
+                180449.75
+              ],
+              [
+                520965.234,
+                180452.825
+              ],
+              [
+                520982.3,
+                180456.35
+              ],
+              [
+                520991.75,
+                180458.25
+              ],
+              [
+                520992.65,
+                180465.5
+              ],
+              [
+                520980.85,
+                180463.05
+              ],
+              [
+                520969.3,
+                180460.65
+              ],
+              [
+                520966.1,
+                180458.95
+              ],
+              [
+                520965.6,
+                180461.4
+              ],
+              [
+                520957.174,
+                180459.559
+              ],
+              [
+                520945.3,
+                180457.1
+              ],
+              [
+                520943.7777050635,
+                180463.93708113788
+              ],
+              [
+                520940.70853919024,
+                180463.37058327798
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "id": "Ealing-254754FUL",
   "appeal_status": null,
   "appeal_start_date": null,
-  "description": "Construction of a two storey detached single dwellinghouse in rear garden fronting Goldsmiths Close; provision of associated amenity space, cycle and refuse storage, vehicle parking; felling of a Sycamore Tree",
+  "description": "Construction of a 2 storey plus accessible loft detached single dwelling; provision of associated external amenity space; provision of cycle and refuse storage; felling of a Sycamore Tree.",
   "development_type": null,
   "decision_conditions": [
     "",
@@ -162,36 +250,78 @@
   "title_number": [],
   "last_date_consultation_comments": "29/01/2026",
   "decision_process": null,
-  "centroid_northing": "180460",
-  "borough": "London Borough of Ealing",
+  "centroid_northing": 180460,
+  "borough": "Ealing",
   "decision": "REF",
   "application_type": "All Other",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.258154,
-          51.51014
-        ],
-        [
-          -0.258155,
-          51.510113
-        ],
-        [
-          -0.258198,
-          51.510114
-        ],
-        [
-          -0.258197,
-          51.510141
-        ],
-        [
-          -0.258154,
-          51.51014
+          [
+            -0.258654,
+            51.510165
+          ],
+          [
+            -0.258617,
+            51.510029
+          ],
+          [
+            -0.258522,
+            51.51004
+          ],
+          [
+            -0.258304,
+            51.510065
+          ],
+          [
+            -0.258057,
+            51.510093
+          ],
+          [
+            -0.257921,
+            51.510108
+          ],
+          [
+            -0.257905,
+            51.510173
+          ],
+          [
+            -0.258076,
+            51.510153
+          ],
+          [
+            -0.258243,
+            51.510134
+          ],
+          [
+            -0.25829,
+            51.510119
+          ],
+          [
+            -0.258296,
+            51.510142
+          ],
+          [
+            -0.258418,
+            51.510127
+          ],
+          [
+            -0.25859,
+            51.510107
+          ],
+          [
+            -0.25861,
+            51.510169
+          ],
+          [
+            -0.258654,
+            51.510165
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "decision_agency": null,
   "decision_target_date": "12/02/2026",

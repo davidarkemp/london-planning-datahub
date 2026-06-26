@@ -48,18 +48,24 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Terraced Home",
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Terraced Home",
           "no_bedrooms": 2,
-          "gia": 105,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 105
         }
       ],
       "total_no_existing_residential_units_london_affordable_rent": 0
     },
-    "site_area": 0.026000000000000002,
+    "site_area": 0.0271,
     "garden_land_lost": false,
     "scheme_phasing": true,
     "total_gia_gained": 144,
@@ -78,13 +84,14 @@
       "no_non_resi_units_to_have_full_fibre": 0,
       "fire_suppression_system_proposed": true,
       "mobile_network_operators_consultation": false,
-      "total_annual_nox_emissions": 0
+      "total_annual_nox_emissions": 0,
+      "urban_greening_factor_score": 0
     },
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 77,
-        "use_class": "C3",
         "gia_gained": 144,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -104,53 +111,172 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "08/2024",
-        "intended_completion_date": "04/2025"
+        "intended_completion_date": "04/2025",
+        "intended_commencement_date": "08/2024"
       }
     ],
     "surface_water_discharge_percentage_reduction": 0,
-    "ownership_status": "Public"
+    "ownership_status": "Public",
+    "occupation_status": "Occupied"
   },
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.392621,
-          51.538362
-        ],
-        [
-          -0.392622,
-          51.538335
-        ],
-        [
-          -0.392665,
-          51.538336
-        ],
-        [
-          -0.392664,
-          51.538363
-        ],
-        [
-          -0.392621,
-          51.538362
+          [
+            -0.392588,
+            51.538342
+          ],
+          [
+            -0.392484,
+            51.538366
+          ],
+          [
+            -0.392379,
+            51.538392
+          ],
+          [
+            -0.392411,
+            51.538445
+          ],
+          [
+            -0.392503,
+            51.538423
+          ],
+          [
+            -0.392624,
+            51.538395
+          ],
+          [
+            -0.39264,
+            51.538423
+          ],
+          [
+            -0.392695,
+            51.53841
+          ],
+          [
+            -0.392717,
+            51.538405
+          ],
+          [
+            -0.392751,
+            51.538397
+          ],
+          [
+            -0.392763,
+            51.538394
+          ],
+          [
+            -0.392783,
+            51.538388
+          ],
+          [
+            -0.392786,
+            51.538387
+          ],
+          [
+            -0.392796,
+            51.538383
+          ],
+          [
+            -0.392807,
+            51.538375
+          ],
+          [
+            -0.392819,
+            51.538367
+          ],
+          [
+            -0.392828,
+            51.538358
+          ],
+          [
+            -0.392838,
+            51.538348
+          ],
+          [
+            -0.392841,
+            51.538345
+          ],
+          [
+            -0.392845,
+            51.538338
+          ],
+          [
+            -0.39285,
+            51.538329
+          ],
+          [
+            -0.392853,
+            51.538321
+          ],
+          [
+            -0.392853,
+            51.538314
+          ],
+          [
+            -0.392852,
+            51.538306
+          ],
+          [
+            -0.392849,
+            51.538298
+          ],
+          [
+            -0.392848,
+            51.538297
+          ],
+          [
+            -0.392846,
+            51.538292
+          ],
+          [
+            -0.392841,
+            51.538286
+          ],
+          [
+            -0.392837,
+            51.538283
+          ],
+          [
+            -0.392741,
+            51.538307
+          ],
+          [
+            -0.392717,
+            51.538312
+          ],
+          [
+            -0.392632,
+            51.538332
+          ],
+          [
+            -0.392613,
+            51.538337
+          ],
+          [
+            -0.392588,
+            51.538342
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "site_name": "",
-  "centroid_easting": "511574",
-  "site_number": "10",
+  "centroid_easting": 511574,
+  "site_number": 10,
   "development_type": null,
   "decision_date": "05/07/2024",
   "appeal_start_date": null,
   "lapsed_date": "05/07/2027",
   "status": "Refused",
   "decision_process": null,
-  "epc_number": null,
+  "epc_number": "5600-2107-0922-5197-3523",
   "appeal_status": null,
   "lpa_name": "Ealing",
-  "centroid_northing": "183385",
+  "centroid_northing": 183385,
   "appeal_decision_date": null,
   "decision_conditions": [
     "",
@@ -168,25 +294,178 @@
   "valid_date": "29/05/2024",
   "postcode": "UB5 5JG",
   "bo_system": "Idox Uniform",
-  "borough": "London Borough of Ealing",
+  "borough": "Ealing",
   "id": "Ealing-241776FUL",
   "application_type": "All Other",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_proposed_cycle": 4,
+    "net_cycle": 4
+  },
   "decision_target_date": "24/07/2024",
   "pp_id": "PP-13050005",
-  "last_updated_by": "Idox Uniform",
-  "locality": null,
-  "uprn": "000012020625",
+  "last_updated_by": "Planning Portal ingest",
+  "locality": "Northolt",
+  "uprn": 12020625,
   "last_date_consultation_comments": "26/06/2024",
   "title_number": [],
   "decision": "REF",
-  "last_updated": "2026-06-20T04:01:01.355Z",
-  "polygon": null,
+  "last_updated": "2026-06-25T16:13:34.774Z",
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                511577.816,
+                183384.299
+              ],
+              [
+                511585,
+                183387.1
+              ],
+              [
+                511592.25,
+                183390.15
+              ],
+              [
+                511589.85,
+                183396
+              ],
+              [
+                511583.55,
+                183393.45
+              ],
+              [
+                511575.2,
+                183390.15
+              ],
+              [
+                511574.036,
+                183393.2
+              ],
+              [
+                511570.25,
+                183391.65
+              ],
+              [
+                511568.759,
+                183391.069
+              ],
+              [
+                511566.4,
+                183390.15
+              ],
+              [
+                511565.55,
+                183389.8
+              ],
+              [
+                511564.2,
+                183389.1
+              ],
+              [
+                511564,
+                183388.95
+              ],
+              [
+                511563.35,
+                183388.5
+              ],
+              [
+                511562.55,
+                183387.65
+              ],
+              [
+                511561.8,
+                183386.7
+              ],
+              [
+                511561.15,
+                183385.75
+              ],
+              [
+                511560.5,
+                183384.6
+              ],
+              [
+                511560.3,
+                183384.2
+              ],
+              [
+                511560,
+                183383.45
+              ],
+              [
+                511559.7,
+                183382.4
+              ],
+              [
+                511559.55,
+                183381.55
+              ],
+              [
+                511559.55,
+                183380.8
+              ],
+              [
+                511559.65,
+                183379.9
+              ],
+              [
+                511559.85,
+                183379
+              ],
+              [
+                511559.9,
+                183378.85
+              ],
+              [
+                511560.1,
+                183378.35
+              ],
+              [
+                511560.45,
+                183377.7
+              ],
+              [
+                511560.75,
+                183377.3
+              ],
+              [
+                511567.3,
+                183380.15
+              ],
+              [
+                511568.95,
+                183380.8
+              ],
+              [
+                511574.8,
+                183383.1
+              ],
+              [
+                511576.15,
+                183383.65
+              ],
+              [
+                511577.816,
+                183384.299
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "date_building_work_started_under_previous_permission": null,
   "actual_commencement_date": null,
   "ward": "NORWED",
   "appeal_decision": null,
   "lpa_app_no": "241776FUL",
-  "description": "Construction of a two-storey, end-of-terrace dwellinghouse adjoining No 10 Lynne Way (following demolition of existing porch and outbuilding); single storey front extension, single storey rear extension, rear roof extension and alteration to front gable of existing dwellinghouse (following demolition of existing bay window, rear extension and rear gable)",
+  "description": "Two storey side extension to create a new dwelling and associated works.\n",
   "date_building_work_completed_under_previous_permission": null
 }

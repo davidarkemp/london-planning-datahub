@@ -6,26 +6,30 @@
   "appeal_decision": null,
   "lapsed_date": "16/06/2029",
   "appeal_decision_date": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "reference_no_of_permission_being_relied_on": null,
-  "epc_number": null,
-  "last_updated": "2026-06-16T22:10:36.418Z",
+  "epc_number": "2150-9467-2020-1001-3205",
+  "last_updated": "2026-06-26T00:22:33.141Z",
   "url_planning_app": null,
   "street_name": "Norbury Crescent",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 2,
+    "net_car": 0,
+    "no_proposed_car": 2
+  },
   "ward": "NPH18",
   "bo_system": "Idox Uniform",
   "site_name": "",
-  "site_number": "76",
+  "site_number": 76,
   "application_details": {
-    "site_area": 0.023940000000000003,
+    "site_area": 0.02394,
     "total_gia_existing": 140,
     "ownership_status": "Private",
     "phasing_details": [
       {
         "phase_detail": "proposed conversion into three self contained flats",
-        "intended_commencement_date": "02/2026",
-        "intended_completion_date": "05/2026"
+        "intended_completion_date": "05/2026",
+        "intended_commencement_date": "02/2026"
       }
     ],
     "garden_land_lost": true,
@@ -33,8 +37,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 140,
-        "use_class": "C3",
         "gia_gained": 59,
+        "use_class": "C3",
         "gia_lost": 140
       }
     ],
@@ -54,7 +58,8 @@
       "mobile_network_operators_consultation": false,
       "ghg_reduction_over_building_regulations": true,
       "fire_suppression_system_proposed": false,
-      "total_annual_nox_emissions": 0
+      "total_annual_nox_emissions": 0,
+      "urban_greening_factor_score": 0
     },
     "rain_water_harvesting": true,
     "projected_cost_of_works": "Up to £2m",
@@ -100,41 +105,63 @@
       "total_no_proposed_residential_units_affordable_rent": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 7,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Semi Detached Home",
           "no_bedrooms": 4,
+          "unit_type": "Semi Detached Home",
           "provision_for_older_persons": false,
-          "gia": 140,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 140
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 5,
           "provider": "Private rented sector",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 4,
-          "gia": 99,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 99
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 3,
           "provider": "Private rented sector",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 63,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 63
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 1,
           "provider": "Private rented sector",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "gia": 37,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 37
         }
       ]
     },
@@ -148,10 +175,11 @@
     "affordable_housing_fast_track": false,
     "grey_water_reuse": false,
     "total_gia_lost": 140,
-    "surface_water_discharge_percentage_reduction": 10
+    "surface_water_discharge_percentage_reduction": 10,
+    "occupation_status": "Occupied"
   },
-  "uprn": "100020652411",
-  "locality": "Norbury",
+  "uprn": 100020652411,
+  "locality": "London",
   "date_building_work_started_under_previous_permission": null,
   "postcode": "SW16 4LA",
   "valid_date": "18/03/2026",
@@ -161,7 +189,7 @@
     "lat": 51.408257,
     "lon": -0.11665
   },
-  "centroid_easting": "531086",
+  "centroid_easting": 531086,
   "application_type_full": "Full planning permission",
   "pp_id": "PP-14647041",
   "lpa_app_no": "26/00731/FUL",
@@ -171,40 +199,78 @@
         "coordinates": [
           [
             [
-              531094,
-              169385
-            ],
-            [
-              531088,
-              169388
-            ],
-            [
-              531072,
-              169358
-            ],
-            [
-              531072,
-              169357
-            ],
-            [
-              531078,
-              169355
-            ],
-            [
-              531094,
-              169385
+              [
+                531085.7,
+                169383.25
+              ],
+              [
+                531085.3,
+                169382.4
+              ],
+              [
+                531080.65,
+                169373.35
+              ],
+              [
+                531072.25,
+                169357.65
+              ],
+              [
+                531072.75,
+                169357
+              ],
+              [
+                531078.3,
+                169354.15
+              ],
+              [
+                531080.45,
+                169358.5
+              ],
+              [
+                531083.55,
+                169364.65
+              ],
+              [
+                531084.569,
+                169366.538
+              ],
+              [
+                531085.25,
+                169367.8
+              ],
+              [
+                531091.2,
+                169379.4
+              ],
+              [
+                531094.05,
+                169384.9
+              ],
+              [
+                531093.25,
+                169385.3
+              ],
+              [
+                531088.25,
+                169387.9
+              ],
+              [
+                531085.7,
+                169383.25
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
-    "type": "geometrycollection"
+    "type": "GeometryCollection"
   },
   "id": "Croydon-26_00731_FUL",
   "appeal_status": null,
   "appeal_start_date": null,
-  "description": "Alterations, conversion of existing dwelling to form 1x four bedroom flat, 1x two bedroom flat, 1x 1 bedroom flat. Erection of single storey side/rear extension, rear dormer roof extension with terrace,  provision of additional rooflights and refuse storage.",
+  "description": "Extension and Conversion of an existing single dwelling house into three self contained flats. ",
   "development_type": null,
   "decision_conditions": [
     "PR - No Pre App",
@@ -216,40 +282,78 @@
   "title_number": [],
   "last_date_consultation_comments": "15/04/2026",
   "decision_process": "Delegated",
-  "centroid_northing": "169375",
-  "borough": "London Borough of Croydon",
+  "centroid_northing": 169375,
+  "borough": "Croydon",
   "decision": "Refused",
   "application_type": "All Other",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.116532,
-          51.408345
-        ],
-        [
-          -0.116617,
-          51.408373
-        ],
-        [
-          -0.116858,
-          51.408107
-        ],
-        [
-          -0.116858,
-          51.408098
-        ],
-        [
-          -0.116773,
-          51.408079
-        ],
-        [
-          -0.116532,
-          51.408345
+          [
+            -0.116651,
+            51.408331
+          ],
+          [
+            -0.116657,
+            51.408324
+          ],
+          [
+            -0.116728,
+            51.408243
+          ],
+          [
+            -0.116854,
+            51.408104
+          ],
+          [
+            -0.116847,
+            51.408098
+          ],
+          [
+            -0.116769,
+            51.408071
+          ],
+          [
+            -0.116736,
+            51.40811
+          ],
+          [
+            -0.116689,
+            51.408165
+          ],
+          [
+            -0.116674,
+            51.408181
+          ],
+          [
+            -0.116664,
+            51.408192
+          ],
+          [
+            -0.116574,
+            51.408295
+          ],
+          [
+            -0.116531,
+            51.408344
+          ],
+          [
+            -0.116542,
+            51.408348
+          ],
+          [
+            -0.116613,
+            51.408372
+          ],
+          [
+            -0.116651,
+            51.408331
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "decision_agency": null,
   "decision_target_date": "13/05/2026",

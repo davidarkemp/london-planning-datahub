@@ -6,16 +6,81 @@
     "lon": -0.358628,
     "lat": 51.524309
   },
-  "polygon": null,
-  "borough": "London Borough of Ealing",
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                513969.15,
+                181871.5
+              ],
+              [
+                513971.3,
+                181879
+              ],
+              [
+                513973.45,
+                181886.15
+              ],
+              [
+                513967.7,
+                181887.8
+              ],
+              [
+                513965.65,
+                181880.6
+              ],
+              [
+                513963.45,
+                181873.15
+              ],
+              [
+                513960.532,
+                181863.176
+              ],
+              [
+                513958.872,
+                181857.545
+              ],
+              [
+                513958.5,
+                181856.3
+              ],
+              [
+                513962.65,
+                181855.1
+              ],
+              [
+                513964.65,
+                181856.05
+              ],
+              [
+                513965.2,
+                181858
+              ],
+              [
+                513969.15,
+                181871.5
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
+  "borough": "Ealing",
   "application_type": "All Other",
   "date_building_work_started_under_previous_permission": null,
-  "uprn": "000012042499",
+  "uprn": 12042499,
   "valid_date": "16/09/2024",
   "decision_target_date": "11/11/2024",
   "appeal_decision_date": null,
-  "locality": null,
-  "centroid_northing": "181876",
+  "locality": "Greenford",
+  "centroid_northing": 181876,
   "ward": "LDYMAR",
   "decision_conditions": [
     ""
@@ -29,34 +94,68 @@
   "id": "Ealing-243508FUL",
   "actual_commencement_date": null,
   "lpa_name": "Ealing",
-  "last_updated": "2026-06-20T04:01:53.083Z",
+  "last_updated": "2026-06-26T00:08:51.539Z",
   "lpa_app_no": "243508FUL",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.358606,
-          51.524322
-        ],
-        [
-          -0.358607,
-          51.524295
-        ],
-        [
-          -0.35865,
-          51.524296
-        ],
-        [
-          -0.358649,
-          51.524323
-        ],
-        [
-          -0.358606,
-          51.524322
+          [
+            -0.358613,
+            51.524268
+          ],
+          [
+            -0.358579,
+            51.524335
+          ],
+          [
+            -0.358546,
+            51.524399
+          ],
+          [
+            -0.358628,
+            51.524415
+          ],
+          [
+            -0.35866,
+            51.524351
+          ],
+          [
+            -0.358694,
+            51.524284
+          ],
+          [
+            -0.35874,
+            51.524195
+          ],
+          [
+            -0.358765,
+            51.524145
+          ],
+          [
+            -0.358771,
+            51.524134
+          ],
+          [
+            -0.358712,
+            51.524122
+          ],
+          [
+            -0.358683,
+            51.52413
+          ],
+          [
+            -0.358674,
+            51.524148
+          ],
+          [
+            -0.358613,
+            51.524268
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "appeal_status": null,
   "site_name": "",
@@ -65,13 +164,13 @@
   "appeal_start_date": null,
   "cil_liability": true,
   "development_type": null,
-  "description": "Conversion of existing dwellinghouse into 2 self-contained flats and provision of associated cycle storage and refuse storage facilities; single storey, part two storey, rear extension; alteration of roof from hip to gable end; rear roof extension and installation of two roof lights to front roofslope.",
+  "description": "Erection of a two storey rear extension and rear dormer extension to facilitate the conversion of an existing dwelling house into two self contained flats together with the provision of refuse and cycle storage",
   "epc_number": null,
   "reference_no_of_permission_being_relied_on": null,
   "bo_system": "Idox Uniform",
   "appeal_decision": null,
   "actual_completion_date": null,
-  "centroid_easting": "513968",
+  "centroid_easting": 513968,
   "url_planning_app": null,
   "application_details": {
     "existing_uprns": null,
@@ -79,19 +178,19 @@
     "phasing_details": [
       {
         "phase_detail": "Entire development",
-        "intended_commencement_date": "11/2024",
-        "intended_completion_date": "12/2024"
+        "intended_completion_date": "12/2024",
+        "intended_commencement_date": "11/2024"
       }
     ],
     "total_gia_gained": 152,
-    "site_area": 0.019,
+    "site_area": 0.02,
     "total_gia_lost": 0,
     "total_gia_existing": 88,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 88,
-        "use_class": "C3",
         "gia_gained": 152,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -148,32 +247,48 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 4,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Terraced Home",
           "no_bedrooms": 3,
+          "unit_type": "Terraced Home",
           "provision_for_older_persons": false,
-          "gia": 88,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 88
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 70,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 70
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 81,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 81
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -193,16 +308,18 @@
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "urban_greening_factor_score": 0
     },
     "internal_resi_water_usage": 0,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "occupation_status": "Occupied"
   },
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "postcode": "UB6 9EU",
   "last_date_consultation_comments": "10/10/2024",
   "secondary_street_name": null,
-  "site_number": "23",
+  "site_number": 23,
   "subdivision_of_building": null,
   "street_name": "Portland Crescent"
 }

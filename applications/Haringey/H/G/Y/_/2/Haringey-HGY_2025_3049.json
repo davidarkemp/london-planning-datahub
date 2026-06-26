@@ -6,9 +6,9 @@
   "centroid_northing": 188710.003630283,
   "url_planning_app": "https://publicregister.haringey.gov.uk/pr/s/detail/a0iTu000001WdSH",
   "lpa_app_no": "HGY/2025/3049",
-  "site_number": null,
+  "site_number": 1,
   "ward": "St Ann's",
-  "locality": null,
+  "locality": "London",
   "last_date_consultation_comments": "17/03/2026",
   "date_building_work_started_under_previous_permission": null,
   "description": "Single-storey new-build house with external amenity space on derelict infill site.",
@@ -30,96 +30,86 @@
         "coordinates": [
           [
             [
-              532212.35,
-              188717.8
-            ],
-            [
-              532212.45,
-              188713.55
-            ],
-            [
-              532212.5,
-              188712.1
-            ],
-            [
-              532212.5,
-              188708.9
-            ],
-            [
-              532218.25,
-              188709.25
-            ],
-            [
-              532218.3,
-              188706.9
-            ],
-            [
-              532220.6,
-              188707.6
-            ],
-            [
-              532223.35,
-              188708.4
-            ],
-            [
-              532225.606,
-              188709.236
-            ],
-            [
-              532226.05,
-              188709.4
-            ],
-            [
-              532231,
-              188709.9
-            ],
-            [
-              532235.9,
-              188710.25
-            ],
-            [
-              532235.9,
-              188710.4
-            ],
-            [
-              532235.8,
-              188713.05
-            ],
-            [
-              532235.6,
-              188718.8
-            ],
-            [
-              532233.45,
-              188718.7
-            ],
-            [
-              532225.9,
-              188718.4
-            ],
-            [
-              532224.5,
-              188718.3
-            ],
-            [
-              532221.888,
-              188718.192
-            ],
-            [
-              532216.988,
-              188717.991
-            ],
-            [
-              532215.253,
-              188717.919
-            ],
-            [
-              532212.35,
-              188717.8
+              [
+                532212.5,
+                188708.9
+              ],
+              [
+                532212.6,
+                188705.15
+              ],
+              [
+                532215.5,
+                188706
+              ],
+              [
+                532218.3,
+                188706.9
+              ],
+              [
+                532220.6,
+                188707.6
+              ],
+              [
+                532223.35,
+                188708.4
+              ],
+              [
+                532225.606,
+                188709.236
+              ],
+              [
+                532226.05,
+                188709.4
+              ],
+              [
+                532231,
+                188709.9
+              ],
+              [
+                532235.9,
+                188710.25
+              ],
+              [
+                532235.9,
+                188710.4
+              ],
+              [
+                532235.8,
+                188713.05
+              ],
+              [
+                532233.65,
+                188713
+              ],
+              [
+                532226.15,
+                188712.65
+              ],
+              [
+                532222.08,
+                188712.497
+              ],
+              [
+                532218.15,
+                188712.35
+              ],
+              [
+                532215.386,
+                188712.228
+              ],
+              [
+                532212.5,
+                188712.1
+              ],
+              [
+                532212.5,
+                188708.9
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "type": "GeometryCollection"
@@ -163,7 +153,7 @@
   "decision_target_date": null,
   "valid_date": "19/12/2025",
   "development_type": null,
-  "last_updated": "2026-04-20T21:04:48.294Z",
+  "last_updated": "2026-06-25T21:04:54.085Z",
   "subdivision_of_building": null,
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
@@ -194,8 +184,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 0,
-        "use_class": "C3",
         "gia_gained": 59,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -259,11 +249,17 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "provider": "Private",
-          "no_habitable_rooms": 2,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "House or Bungalow",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
           "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "tenure": "Self-Build and Custom Build",
           "gia": 59
         }
@@ -288,9 +284,11 @@
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
       "ghg_reduction_over_building_regulations": false,
-      "chp_heat_pumps_capacity": 8.5
+      "chp_heat_pumps_capacity": 8.5,
+      "urban_greening_factor_score": 0
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "occupation_status": "Vacant"
   },
   "epc_number": null,
   "uprn": "100021219612",

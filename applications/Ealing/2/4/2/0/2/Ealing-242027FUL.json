@@ -48,27 +48,39 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 1,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "gia": 80,
-          "tenure": "Social Rent"
+          "provision_for_older_persons": false,
+          "tenure": "Social Rent",
+          "gia": 80
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 1,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "gia": 80,
-          "tenure": "Social Rent"
+          "provision_for_older_persons": false,
+          "tenure": "Social Rent",
+          "gia": 80
         }
       ],
       "total_no_existing_residential_units_london_affordable_rent": 0
     },
-    "site_area": 0.007,
+    "site_area": 0.015,
     "garden_land_lost": false,
     "scheme_phasing": true,
     "total_gia_gained": 78,
@@ -87,13 +99,14 @@
       "no_non_resi_units_to_have_full_fibre": 2,
       "fire_suppression_system_proposed": false,
       "mobile_network_operators_consultation": false,
-      "total_annual_nox_emissions": 0
+      "total_annual_nox_emissions": 0,
+      "urban_greening_factor_score": 0
     },
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 450,
-        "use_class": "C2",
         "gia_gained": 78,
+        "use_class": "C2",
         "gia_lost": 0
       }
     ],
@@ -113,83 +126,102 @@
     "phasing_details": [
       {
         "phase_detail": "2 additional studio flat",
-        "intended_commencement_date": "07/2024",
-        "intended_completion_date": "10/2024"
+        "intended_completion_date": "10/2024",
+        "intended_commencement_date": "07/2024"
       }
     ],
     "surface_water_discharge_percentage_reduction": 1,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "occupation_status": "Occupied"
   },
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.3196872,
-          51.5111969
-        ],
-        [
-          -0.3196215,
-          51.5112009
-        ],
-        [
-          -0.31962769999999996,
-          51.5112293
-        ],
-        [
-          -0.3196912,
-          51.5112253
-        ],
-        [
-          -0.3197028,
-          51.5112245
-        ],
-        [
-          -0.31975329999999996,
-          51.5112213
-        ],
-        [
-          -0.31974969999999997,
-          51.5112023
-        ],
-        [
-          -0.31974369999999996,
-          51.5111707
-        ],
-        [
-          -0.3197382,
-          51.5111428
-        ],
-        [
-          -0.3197364,
-          51.5111337
-        ],
-        [
-          -0.31971259999999996,
-          51.5111343
-        ],
-        [
-          -0.3196113,
-          51.5111445
-        ],
-        [
-          -0.31961609999999996,
-          51.5111711
-        ],
-        [
-          -0.3196811,
-          51.5111667
-        ],
-        [
-          -0.3196872,
-          51.5111969
+          [
+            -0.319626,
+            51.51111
+          ],
+          [
+            -0.319634,
+            51.511144
+          ],
+          [
+            -0.319638,
+            51.51117
+          ],
+          [
+            -0.319644,
+            51.5112
+          ],
+          [
+            -0.31965,
+            51.511229
+          ],
+          [
+            -0.319655,
+            51.511257
+          ],
+          [
+            -0.31973,
+            51.511254
+          ],
+          [
+            -0.319725,
+            51.511224
+          ],
+          [
+            -0.319776,
+            51.511221
+          ],
+          [
+            -0.319772,
+            51.511202
+          ],
+          [
+            -0.319766,
+            51.51117
+          ],
+          [
+            -0.31976,
+            51.511142
+          ],
+          [
+            -0.319759,
+            51.511133
+          ],
+          [
+            -0.319735,
+            51.511134
+          ],
+          [
+            -0.319724,
+            51.511093
+          ],
+          [
+            -0.319703,
+            51.511094
+          ],
+          [
+            -0.319699,
+            51.511074
+          ],
+          [
+            -0.319621,
+            51.511081
+          ],
+          [
+            -0.319626,
+            51.51111
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
-  "site_name": "Gillingas House \r5 Drayton Green Road\rWest Ealing\rW13 0NG",
-  "centroid_easting": null,
-  "site_number": null,
+  "site_name": "Gillingas House",
+  "centroid_easting": 516702,
+  "site_number": 5,
   "development_type": null,
   "decision_date": "03/09/2024",
   "appeal_start_date": null,
@@ -199,43 +231,132 @@
   "epc_number": null,
   "appeal_status": null,
   "lpa_name": "Ealing",
-  "centroid_northing": null,
+  "centroid_northing": 180473,
   "appeal_decision_date": null,
   "decision_conditions": [
     "",
     ""
   ],
   "reference_no_of_permission_being_relied_on": null,
-  "street_name": null,
+  "street_name": "Drayton Green Road",
   "actual_completion_date": null,
-  "subdivision_of_building": null,
+  "subdivision_of_building": "additional 2 studio flat over the building as 4. floor",
   "centroid": {
-    "lon": -7.55716,
-    "lat": 49.766807
+    "lon": -0.319701,
+    "lat": 51.511142
   },
   "cil_liability": true,
   "valid_date": "09/07/2024",
-  "postcode": null,
+  "postcode": "W13 0NG",
   "bo_system": "Idox Uniform",
-  "borough": "London Borough of Ealing",
+  "borough": "Ealing",
   "id": "Ealing-242027FUL",
   "application_type": "All Other",
   "parking_details": null,
   "decision_target_date": "03/09/2024",
   "pp_id": "PP-13082975",
-  "last_updated_by": "Idox Uniform",
-  "locality": null,
-  "uprn": "000012169760",
+  "last_updated_by": "Planning Portal ingest",
+  "locality": "West Ealing",
+  "uprn": 12169760,
   "last_date_consultation_comments": "30/07/2024",
   "title_number": [],
   "decision": "REF",
-  "last_updated": "2026-06-20T04:01:08.996Z",
-  "polygon": null,
+  "last_updated": "2026-06-25T16:13:58.988Z",
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                516707.3,
+                180469.6
+              ],
+              [
+                516706.7,
+                180473.35
+              ],
+              [
+                516706.3,
+                180476.3
+              ],
+              [
+                516705.85,
+                180479.6
+              ],
+              [
+                516705.35,
+                180482.75
+              ],
+              [
+                516704.9,
+                180485.95
+              ],
+              [
+                516699.7,
+                180485.4
+              ],
+              [
+                516700.15,
+                180482.1
+              ],
+              [
+                516696.65,
+                180481.66
+              ],
+              [
+                516696.95,
+                180479.55
+              ],
+              [
+                516697.45,
+                180476.05
+              ],
+              [
+                516697.9,
+                180472.95
+              ],
+              [
+                516698.05,
+                180471.95
+              ],
+              [
+                516699.7,
+                180472.05
+              ],
+              [
+                516700.55,
+                180467.5
+              ],
+              [
+                516702,
+                180467.7
+              ],
+              [
+                516702.35,
+                180465.45
+              ],
+              [
+                516707.7,
+                180466.35
+              ],
+              [
+                516707.3,
+                180469.6
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "date_building_work_started_under_previous_permission": null,
   "actual_commencement_date": null,
   "ward": "HANBDY",
   "appeal_decision": null,
   "lpa_app_no": "242027FUL",
-  "description": "Construction of fourth floor level to create one self-contained residential unit",
+  "description": "2 additional studio flats over existing building",
   "date_building_work_completed_under_previous_permission": null
 }

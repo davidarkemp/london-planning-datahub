@@ -1,14 +1,14 @@
 {
   "decision_agency": null,
   "date_building_work_started_under_previous_permission": null,
-  "site_number": "151",
+  "site_number": 151,
   "decision_process": null,
   "appeal_start_date": null,
   "lapsed_date": "23/04/2028",
-  "uprn": "000012070266",
-  "locality": null,
+  "uprn": 12070266,
+  "locality": "West Ealing",
   "appeal_decision_date": null,
-  "centroid_easting": "516970",
+  "centroid_easting": 516970,
   "application_details": {
     "residential_details": {
       "total_no_existing_residential_units": 0,
@@ -20,7 +20,7 @@
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "habitable_rooms_density": null,
-      "total_no_proposed_residential_units": 2,
+      "total_no_proposed_residential_units": 1,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_gia_lost": 0,
       "total_no_proposed_residential_units_intermediate": 0,
@@ -37,23 +37,24 @@
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
-      "total_gia_gained": 41.9,
+      "total_gia_gained": 38,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "dwelling_density": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Gain",
-          "unit_type": "Communal Space",
-          "gia": 3.9
-        },
-        {
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "gia": 38,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 38
         }
       ],
       "total_no_proposed_residential_units_social_rent": 0,
@@ -69,8 +70,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "03/2025",
-        "intended_completion_date": "05/2025"
+        "intended_completion_date": "05/2025",
+        "intended_commencement_date": "03/2025"
       }
     ],
     "green_suds": false,
@@ -88,7 +89,8 @@
       "no_new_gas_connections_required": 0,
       "total_annual_nox_emissions": 0,
       "ghg_reduction_over_building_regulations": false,
-      "fire_suppression_system_proposed": false
+      "fire_suppression_system_proposed": false,
+      "urban_greening_factor_score": 0
     },
     "garden_land_lost": false,
     "internal_resi_water_usage": 0,
@@ -106,7 +108,7 @@
     "total_gia_lost": 0,
     "grey_water_reuse": false,
     "existing_uprns": null,
-    "site_area": 0.008400000000000001,
+    "site_area": 0.0084,
     "surface_water_discharge_percentage_reduction": 0,
     "non_residential_details": {
       "total_gia_existing": 91,
@@ -120,16 +122,17 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 91,
-        "use_class": "C3",
         "gia_gained": 38,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
-    "rain_water_harvesting": false
+    "rain_water_harvesting": false,
+    "occupation_status": "Occupied"
   },
   "date_building_work_completed_under_previous_permission": null,
   "site_name": "",
-  "borough": "London Borough of Ealing",
+  "borough": "Ealing",
   "status": "Approved",
   "epc_number": null,
   "bo_system": "Idox Uniform",
@@ -137,28 +140,46 @@
     "coordinates": [
       [
         [
-          -0.316136,
-          51.502507
-        ],
-        [
-          -0.316137,
-          51.50248
-        ],
-        [
-          -0.31618,
-          51.502481
-        ],
-        [
-          -0.316179,
-          51.502508
-        ],
-        [
-          -0.316136,
-          51.502507
+          [
+            -0.316031,
+            51.502535
+          ],
+          [
+            -0.316046,
+            51.502554
+          ],
+          [
+            -0.316087,
+            51.502541
+          ],
+          [
+            -0.316114,
+            51.502534
+          ],
+          [
+            -0.316232,
+            51.502499
+          ],
+          [
+            -0.316198,
+            51.502453
+          ],
+          [
+            -0.316079,
+            51.502488
+          ],
+          [
+            -0.31601,
+            51.502509
+          ],
+          [
+            -0.316031,
+            51.502535
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "cil_liability": true,
   "title_number": [],
@@ -170,7 +191,7 @@
   "lpa_name": "Ealing",
   "secondary_street_name": null,
   "decision_date": "23/04/2025",
-  "last_updated": "2026-06-20T04:02:44.525Z",
+  "last_updated": "2026-06-26T02:30:46.292Z",
   "url_planning_app": null,
   "ward": "WALPLE",
   "valid_date": "27/01/2025",
@@ -178,27 +199,89 @@
   "development_type": null,
   "appeal_decision": null,
   "postcode": "W13 9QT",
-  "centroid_northing": "179517",
-  "description": "Construction of an additional storey with a room in the roof space to provide a two bedroom, three person flat on the second and loft floor level and the demolition of the external staircase",
-  "subdivision_of_building": null,
+  "centroid_northing": 179517,
+  "description": "Construction of an additional storey with mansard roof to provide a 1 person studio flat at 2nd floor level including internal alteration to the existing flat at 1st floor level and the demolition of the existing external stair to the rear",
+  "subdivision_of_building": "Rear Ground Floor and 1st Floor",
   "actual_completion_date": null,
   "lpa_app_no": "250347FUL",
   "decision": "Approved",
   "application_type_full": "Full planning permission",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_status": null,
   "id": "Ealing-250347FUL",
   "decision_conditions": [
     "Standard Cond - Expiration Three Years",
     "Standard Cond - Materials",
     "Cycle storage",
-    "",
     "aircraft noise",
     "refuse and recycling"
   ],
   "pp_id": "PP-13726789",
   "last_date_consultation_comments": "26/02/2025",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                516978.737,
+                179521.751
+              ],
+              [
+                516977.65,
+                179523.8
+              ],
+              [
+                516974.8,
+                179522.35
+              ],
+              [
+                516972.95,
+                179521.45
+              ],
+              [
+                516964.85,
+                179517.4
+              ],
+              [
+                516967.3,
+                179512.35
+              ],
+              [
+                516975.5,
+                179516.4
+              ],
+              [
+                516980.25,
+                179518.9
+              ],
+              [
+                516978.737,
+                179521.751
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      },
+      {
+        "coordinates": [
+          516954.9041809081,
+          179514.33801326755
+        ],
+        "type": "Point"
+      },
+      {
+        "coordinates": [
+          517014.0152801513,
+          179505.78245296484
+        ],
+        "type": "Point"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "centroid": {
     "lat": 51.502494,
     "lon": -0.316158

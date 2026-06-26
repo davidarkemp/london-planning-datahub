@@ -6,26 +6,33 @@
   "appeal_decision": null,
   "lapsed_date": "01/06/2029",
   "appeal_decision_date": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "reference_no_of_permission_being_relied_on": null,
-  "epc_number": null,
-  "last_updated": "2026-06-20T04:04:44.351Z",
+  "epc_number": "9532-0021-6200-0986-0206",
+  "last_updated": "2026-06-25T16:08:03.098Z",
   "url_planning_app": null,
   "street_name": "Hale Gardens",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 2,
+    "net_car": 0,
+    "no_proposed_cycle": 10,
+    "no_proposed_car": 2,
+    "net_cycle": 10
+  },
   "ward": "EALCOM",
   "bo_system": "Idox Uniform",
   "site_name": "",
-  "site_number": "8",
+  "site_number": 8,
   "application_details": {
-    "site_area": 0.039970000000000006,
+    "site_area": 0.03997,
     "total_gia_existing": 214.8,
     "ownership_status": "Private",
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "03/2026",
-        "intended_completion_date": "07/2026"
+        "intended_completion_date": "07/2026",
+        "intended_commencement_date": "03/2026"
       }
     ],
     "garden_land_lost": false,
@@ -33,14 +40,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 214.8,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 214.8
       },
       {
         "gia_existing": 0,
-        "use_class": "SG",
         "gia_gained": 214.8,
+        "use_class": "SG",
         "gia_lost": 0
       }
     ],
@@ -60,7 +67,8 @@
       "mobile_network_operators_consultation": false,
       "ghg_reduction_over_building_regulations": false,
       "fire_suppression_system_proposed": false,
-      "total_annual_nox_emissions": 0
+      "total_annual_nox_emissions": 0,
+      "urban_greening_factor_score": 0
     },
     "rain_water_harvesting": false,
     "projected_cost_of_works": "Up to £2m",
@@ -106,23 +114,33 @@
       "total_no_proposed_residential_units_affordable_rent": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 8,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Semi Detached Home",
           "no_bedrooms": 5,
+          "unit_type": "Semi Detached Home",
           "provision_for_older_persons": false,
-          "gia": 214.8,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 214.8
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "HMO",
           "no_habitable_rooms": 9,
           "provider": "Private rented sector",
-          "change_type": "Gain",
-          "unit_type": "HMO",
           "no_bedrooms": 8,
-          "gia": 214.8,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 214.8
         }
       ]
     },
@@ -136,28 +154,82 @@
     "affordable_housing_fast_track": false,
     "grey_water_reuse": false,
     "total_gia_lost": 214.8,
-    "surface_water_discharge_percentage_reduction": 0
+    "surface_water_discharge_percentage_reduction": 0,
+    "occupation_status": "Occupied"
   },
-  "uprn": "000012094797",
-  "locality": null,
+  "uprn": 12094797,
+  "locality": "Acton",
   "date_building_work_started_under_previous_permission": null,
   "postcode": "W3 9SQ",
   "valid_date": "05/12/2025",
   "cil_liability": false,
   "actual_completion_date": null,
   "centroid": {
-    "lat": 51.509613,
-    "lon": -0.283097
+    "lat": 51.509614,
+    "lon": -0.283126
   },
-  "centroid_easting": "519246",
+  "centroid_easting": 519244,
   "application_type_full": "Full planning permission",
   "pp_id": "PP-14466677",
   "lpa_app_no": "254590FUL",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                519254.7,
+                180356.85
+              ],
+              [
+                519262.8,
+                180354.95
+              ],
+              [
+                519263.1,
+                180357.6
+              ],
+              [
+                519263.15,
+                180363.4
+              ],
+              [
+                519251.7,
+                180365.95
+              ],
+              [
+                519214.25,
+                180374.1
+              ],
+              [
+                519213.2,
+                180368.3
+              ],
+              [
+                519212.9,
+                180366.55
+              ],
+              [
+                519241.5,
+                180359.9
+              ],
+              [
+                519254.7,
+                180356.85
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "id": "Ealing-254590FUL",
   "appeal_status": null,
   "appeal_start_date": null,
-  "description": "Change of use of existing single dwellinghouse (Use Class C3) into an 8 bedroom 10 person large House in Multiple Occupation (Use Class Sui Generis)",
+  "description": "Change of use of the existing dwelling house (C3) into an 8-bed/10-person large HMO (Sui generis)",
   "development_type": null,
   "decision_conditions": [
     "",
@@ -167,36 +239,58 @@
   "title_number": [],
   "last_date_consultation_comments": "06/01/2026",
   "decision_process": null,
-  "centroid_northing": "180362",
-  "borough": "London Borough of Ealing",
+  "centroid_northing": 180362,
+  "borough": "Ealing",
   "decision": "REF",
   "application_type": "All Other",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.283075,
-          51.509627
-        ],
-        [
-          -0.283076,
-          51.5096
-        ],
-        [
-          -0.283119,
-          51.5096
-        ],
-        [
-          -0.283118,
-          51.509627
-        ],
-        [
-          -0.283075,
-          51.509627
+          [
+            -0.282973,
+            51.509565
+          ],
+          [
+            -0.282857,
+            51.509547
+          ],
+          [
+            -0.282852,
+            51.50957
+          ],
+          [
+            -0.282849,
+            51.509622
+          ],
+          [
+            -0.283014,
+            51.509648
+          ],
+          [
+            -0.28355,
+            51.509729
+          ],
+          [
+            -0.283567,
+            51.509677
+          ],
+          [
+            -0.283572,
+            51.509661
+          ],
+          [
+            -0.283162,
+            51.509595
+          ],
+          [
+            -0.282973,
+            51.509565
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "decision_agency": null,
   "decision_target_date": "30/01/2026",

@@ -1,20 +1,20 @@
 {
   "decision_agency": null,
   "date_building_work_started_under_previous_permission": null,
-  "site_number": "27",
+  "site_number": 27,
   "decision_process": null,
   "appeal_start_date": null,
   "lapsed_date": "28/03/2028",
-  "uprn": "000012102618",
-  "locality": null,
+  "uprn": 12102618,
+  "locality": "Acton",
   "appeal_decision_date": null,
-  "centroid_easting": "520335",
+  "centroid_easting": 520335,
   "application_details": {
     "phasing_details": [
       {
         "phase_detail": "entire development",
-        "intended_commencement_date": "03/2025",
-        "intended_completion_date": "06/2025"
+        "intended_completion_date": "06/2025",
+        "intended_commencement_date": "03/2025"
       }
     ],
     "green_suds": false,
@@ -32,7 +32,8 @@
       "no_new_gas_connections_required": 0,
       "total_annual_nox_emissions": 0,
       "ghg_reduction_over_building_regulations": false,
-      "fire_suppression_system_proposed": false
+      "fire_suppression_system_proposed": false,
+      "urban_greening_factor_score": 0
     },
     "garden_land_lost": true,
     "internal_resi_water_usage": 142,
@@ -44,7 +45,7 @@
     "total_gia_lost": 0,
     "surface_water_discharge_percentage_reduction": 0,
     "existing_uprns": null,
-    "site_area": 0.024,
+    "site_area": 0.0242,
     "ownership_status": "Private",
     "non_residential_details": {
       "total_gia_existing": 77,
@@ -57,16 +58,17 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 77,
-        "use_class": "C3",
         "gia_gained": 11,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
-    "rain_water_harvesting": false
+    "rain_water_harvesting": false,
+    "occupation_status": "Occupied"
   },
   "date_building_work_completed_under_previous_permission": null,
   "site_name": "",
-  "borough": "London Borough of Ealing",
+  "borough": "Ealing",
   "status": "Approved",
   "epc_number": null,
   "bo_system": "Idox Uniform",
@@ -74,28 +76,46 @@
     "coordinates": [
       [
         [
-          -0.267211,
-          51.514132
-        ],
-        [
-          -0.267212,
-          51.514105
-        ],
-        [
-          -0.267255,
-          51.514106
-        ],
-        [
-          -0.267254,
-          51.514133
-        ],
-        [
-          -0.267211,
-          51.514132
+          [
+            -0.267314,
+            51.514128
+          ],
+          [
+            -0.267314,
+            51.514059
+          ],
+          [
+            -0.267313,
+            51.514031
+          ],
+          [
+            -0.267206,
+            51.514032
+          ],
+          [
+            -0.267153,
+            51.514032
+          ],
+          [
+            -0.267155,
+            51.514226
+          ],
+          [
+            -0.267242,
+            51.514226
+          ],
+          [
+            -0.267315,
+            51.514226
+          ],
+          [
+            -0.267314,
+            51.514128
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "cil_liability": false,
   "title_number": [],
@@ -107,7 +127,7 @@
   "lpa_name": "Ealing",
   "secondary_street_name": null,
   "decision_date": "28/03/2025",
-  "last_updated": "2026-06-20T04:02:41.697Z",
+  "last_updated": "2026-06-26T02:17:50.263Z",
   "url_planning_app": null,
   "ward": "EASACT",
   "valid_date": "03/02/2025",
@@ -115,14 +135,14 @@
   "development_type": null,
   "appeal_decision": null,
   "postcode": "W3 6PB",
-  "centroid_northing": "180889",
-  "description": "Single storey side/rear infill extension",
-  "subdivision_of_building": null,
+  "centroid_northing": 180889,
+  "description": "construction of a ground floor single storey rear extension/infill with associated internal alterations",
+  "subdivision_of_building": "ground floor single storey rear extension/infill",
   "actual_completion_date": null,
   "lpa_app_no": "250261FUL",
   "decision": "Approved",
   "application_type_full": "Full planning permission",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_status": null,
   "id": "Ealing-250261FUL",
   "decision_conditions": [
@@ -133,7 +153,56 @@
   ],
   "pp_id": "PP-13704107",
   "last_date_consultation_comments": "25/02/2025",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                520329.35,
+                180889.9
+              ],
+              [
+                520329.55,
+                180882.2
+              ],
+              [
+                520329.65,
+                180879.1
+              ],
+              [
+                520337.1,
+                180879.35
+              ],
+              [
+                520340.75,
+                180879.45
+              ],
+              [
+                520340.1,
+                180901
+              ],
+              [
+                520334.05,
+                180900.85
+              ],
+              [
+                520329.05,
+                180900.75
+              ],
+              [
+                520329.35,
+                180889.9
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "centroid": {
     "lat": 51.514119,
     "lon": -0.267233

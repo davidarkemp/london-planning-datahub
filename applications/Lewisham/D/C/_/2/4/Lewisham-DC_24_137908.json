@@ -1,7 +1,7 @@
 {
   "valid_date": "11/11/2024",
   "epc_number": null,
-  "site_name": "REAR OF 170, LEWISHAM WAY, LONDON, SE14 6NP",
+  "site_name": "Rear Of 170",
   "cil_liability": true,
   "polygon": {
     "geometries": [
@@ -9,28 +9,59 @@
         "coordinates": [
           [
             [
-              536954.6321262,
-              176399.8093433
-            ],
-            [
-              536960.362376,
-              176392.5493528
-            ],
-            [
-              536943.2921122,
-              176377.1391616
-            ],
-            [
-              536936.6318337,
-              176384.6991464
-            ],
-            [
-              536954.6321262,
-              176399.8093433
+              [
+                536936.6,
+                176384.75
+              ],
+              [
+                536942.8,
+                176377.35
+              ],
+              [
+                536961.2748809309,
+                176392.55599589308
+              ],
+              [
+                536954.963394026,
+                176400.08357073192
+              ],
+              [
+                536936.6,
+                176384.75
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
+      },
+      {
+        "coordinates": [
+          [
+            [
+              [
+                536934.21,
+                176379.54
+              ],
+              [
+                536938.5,
+                176374
+              ],
+              [
+                536942.8,
+                176377.35
+              ],
+              [
+                536936.6,
+                176384.75
+              ],
+              [
+                536934.21,
+                176379.54
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
       }
     ],
     "type": "GeometryCollection"
@@ -73,14 +104,14 @@
   "centroid_easting": 536609,
   "appeal_decision_date": null,
   "appeal_status": null,
-  "description": "Change of use from former builders storage yard (Use Class B8) to a two storey dwellinghouse, together with cycle and refuse storage at the rear of 170 Lewisham Way SE4.",
+  "description": "Construction of a two storey, 4 bedroom single family house with garden on a vacant builders yard.  Change of use from B8 to C3.",
   "appeal_decision": null,
-  "postcode": null,
+  "postcode": "SE4 1UU",
   "date_building_work_completed_under_previous_permission": null,
   "decision_target_date": "09/01/2025",
-  "street_name": null,
+  "street_name": "Lewisham Way",
   "decision_process": "Delegated",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Planning Portal ingest",
   "centroid_northing": 176849,
   "application_type": "All Other",
   "title_number": [],
@@ -91,28 +122,30 @@
     "coordinates": [
       [
         [
-          -0.0295834,
-          51.4699982
-        ],
-        [
-          -0.0295038,
-          51.4699315
-        ],
-        [
-          -0.0297553,
-          51.4697972
-        ],
-        [
-          -0.0298482,
-          51.4698667
-        ],
-        [
-          -0.0295834,
-          51.4699982
+          [
+            -0.029874,
+            51.469867
+          ],
+          [
+            -0.029788,
+            51.469799
+          ],
+          [
+            -0.029516,
+            51.469931
+          ],
+          [
+            -0.029604,
+            51.47
+          ],
+          [
+            -0.029874,
+            51.469867
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "lpa_app_no": "DC/24/137908",
   "decision_agency": null,
@@ -129,17 +162,17 @@
     "lon": -0.034409
   },
   "status": "Approved",
-  "last_updated": "2026-06-23T09:02:55.631Z",
+  "last_updated": "2026-06-25T23:37:14.201Z",
   "actual_completion_date": null,
   "lapsed_date": "09/01/2028",
   "borough": "Lewisham",
   "id": "Lewisham-DC_24_137908",
   "reference_no_of_permission_being_relied_on": null,
-  "uprn": "200000557159",
-  "locality": null,
+  "uprn": 200000557159,
+  "locality": "London",
   "application_details": {
     "affordable_housing_fast_track": false,
-    "site_area": 0.022,
+    "site_area": 0.0212,
     "projected_cost_of_works": "Up to £2m",
     "residential_details": {
       "total_no_proposed_residential_units_intermediate": 0,
@@ -173,27 +206,19 @@
       "total_no_proposed_residential_units_starter_homes": 0,
       "residential_units": [
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
-          "description": null,
-          "m42_compliant": null,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
-          "garden_land": null,
-          "sheltered_accommodation": null,
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "House or Bungalow",
-          "unit_development_type": null,
-          "superseded_date": null,
           "no_habitable_rooms": 5,
           "provider": "Self-Build",
-          "phase_detail": null,
-          "actual_commencement_date": null,
           "no_bedrooms": 4,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
-          "gia": 160,
-          "tenure": "Self-Build and Custom Build"
+          "tenure": "Self-Build and Custom Build",
+          "gia": 160
         }
       ],
       "total_no_proposed_bedrooms": 4,
@@ -211,8 +236,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "03/2025",
-        "intended_completion_date": "12/2025"
+        "intended_completion_date": "12/2025",
+        "intended_commencement_date": "03/2025"
       }
     ],
     "building_details": [
@@ -237,12 +262,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 0,
-        "superseded_date": null,
-        "actual_completion_date": null,
-        "use_class": "C3",
         "gia_gained": 160,
-        "actual_commencement_date": null,
-        "superseded_by_lpa_app_no": null,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -325,6 +346,7 @@
     "transport_impact_assessment": null,
     "social_infrastructure_contributions": null,
     "scheme_name": null,
-    "lead_developer_company_name": null
+    "lead_developer_company_name": null,
+    "occupation_status": "Vacant"
   }
 }

@@ -3,19 +3,19 @@
   "status": "PARG",
   "decision": "PARG",
   "centroid": {
-    "lon": -7.55716,
-    "lat": 49.766807
+    "lon": -0.255793,
+    "lat": 51.504588
   },
   "polygon": null,
-  "borough": "London Borough of Ealing",
+  "borough": "Ealing",
   "application_type": "Prior Approval",
   "date_building_work_started_under_previous_permission": null,
-  "uprn": "000012149813",
+  "uprn": 12149813,
   "valid_date": "03/10/2024",
   "decision_target_date": "28/11/2024",
   "appeal_decision_date": null,
-  "locality": null,
-  "centroid_northing": null,
+  "locality": "Acton",
+  "centroid_northing": 179848,
   "ward": "SOUFLD",
   "decision_conditions": [
     "Cycle Parking",
@@ -31,36 +31,71 @@
   "decision_process": null,
   "lapsed_date": "28/11/2027",
   "application_type_full": "Prior Approval: Change of use from Commercial, Business and Service (Use Class E) to Dwellinghouses (Use Class C3)",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 2,
+    "net_car": 0,
+    "no_proposed_cycle": 2,
+    "no_proposed_car": 2,
+    "net_cycle": 2
+  },
   "date_building_work_completed_under_previous_permission": null,
   "id": "Ealing-243822PACBSD",
   "actual_commencement_date": null,
   "lpa_name": "Ealing",
-  "last_updated": "2026-06-20T04:02:02.266Z",
+  "last_updated": "2026-06-25T16:14:07.044Z",
   "lpa_app_no": "243822PACBSD",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.255771,
+          51.504602
+        ],
+        [
+          -0.255772,
+          51.504575
+        ],
+        [
+          -0.255815,
+          51.504575
+        ],
+        [
+          -0.255814,
+          51.504602
+        ],
+        [
+          -0.255771,
+          51.504602
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "appeal_status": null,
-  "site_name": "Unit 4E And 4F\rWestpoint\r33 - 34 Warple Way\rActon\rW3 0RG\r",
-  "title_number": [],
+  "site_name": "33-34 Westpoint, Unit 4e And 4f",
+  "title_number": [
+    "Unregistered"
+  ],
   "decision_date": "28/11/2024",
   "appeal_start_date": null,
   "cil_liability": true,
   "development_type": null,
-  "description": "Change of use of Unit 4E/4F on the fourth floor of 33-34 Warple Way (Use Class E) to 1-bedroom, 2-person self-contained residential unit (Use Class C3) (Class MA, 56 Day Prior Approval Process)",
+  "description": "Change of use of Unit 4E/4F on the fourth floor of 33-34 Warple Way (Use Class E) to 1-bedroom, 2-person self-contained residential unit (Use Class C3)",
   "epc_number": null,
   "reference_no_of_permission_being_relied_on": null,
   "bo_system": "Idox Uniform",
   "appeal_decision": null,
   "actual_completion_date": null,
-  "centroid_easting": null,
+  "centroid_easting": 521154,
   "url_planning_app": null,
   "application_details": {
     "existing_uprns": null,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 131,
-        "use_class": "E(c)(ii)",
         "gia_gained": 0,
+        "use_class": "EC2",
         "gia_lost": 131
       }
     ],
@@ -112,13 +147,19 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "gia": 131,
-          "tenure": "Self-Build and Custom Build"
+          "provision_for_older_persons": false,
+          "tenure": "Self-Build and Custom Build",
+          "gia": 131
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -138,7 +179,8 @@
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "urban_greening_factor_score": 0
     },
     "total_gia_lost": 131,
     "intended_completion_date": "06/2025",
@@ -146,11 +188,11 @@
     "total_gia_existing": 131,
     "site_area": 0.027
   },
-  "last_updated_by": "Idox Uniform",
-  "postcode": null,
+  "last_updated_by": "Planning Portal ingest",
+  "postcode": "W3 0RG",
   "last_date_consultation_comments": "29/10/2024",
   "secondary_street_name": null,
   "site_number": null,
   "subdivision_of_building": null,
-  "street_name": null
+  "street_name": "Warple Way"
 }

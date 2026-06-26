@@ -2,28 +2,30 @@
   "date_building_work_completed_under_previous_permission": null,
   "cil_liability": false,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.339035,
-          51.551122
-        ],
-        [
-          -0.339036,
-          51.551095
-        ],
-        [
-          -0.339079,
-          51.551096
-        ],
-        [
-          -0.339078,
-          51.551123
-        ],
-        [
-          -0.339035,
-          51.551122
+          [
+            -0.339157,
+            51.551144
+          ],
+          [
+            -0.339168,
+            51.551096
+          ],
+          [
+            -0.338994,
+            51.55108
+          ],
+          [
+            -0.338988,
+            51.551129
+          ],
+          [
+            -0.339157,
+            51.551144
+          ]
         ]
       ]
     ]
@@ -34,42 +36,104 @@
   "appeal_decision": null,
   "valid_date": "23/03/2026",
   "secondary_street_name": null,
-  "centroid_northing": "184887",
+  "centroid_northing": 184887,
   "reference_no_of_permission_being_relied_on": null,
   "actual_commencement_date": null,
-  "last_updated": "2026-06-20T04:05:29.744Z",
-  "description": "Rear infill extension to first and second floor; rear roof extension, installation of two window openings to front elevation of existing maisonette",
-  "subdivision_of_building": null,
-  "epc_number": null,
+  "last_updated": "2026-06-25T16:08:57.278Z",
+  "description": "2 storey rear infill extension to existing flat and conversion of loft space to habitable accommodation including rooflights and rear dormer ",
+  "subdivision_of_building": "ground floor is a separate retail unit",
+  "epc_number": "0853-2839-7911-9993-6341",
   "url_planning_app": null,
-  "borough": "London Borough of Ealing",
+  "borough": "Ealing",
   "street_name": "Greenford Road",
   "decision_process": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "date_building_work_started_under_previous_permission": null,
   "application_type": "All Other",
   "lapsed_date": "03/06/2029",
   "last_date_consultation_comments": "08/04/2026",
   "title_number": [],
   "appeal_status": null,
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "development_type": null,
   "decision_target_date": "18/05/2026",
   "lpa_name": "Ealing",
-  "uprn": "000012065535",
+  "uprn": 12065535,
   "decision_date": "03/06/2026",
   "lpa_app_no": "261258FUL",
-  "centroid_easting": "515258",
+  "centroid_easting": 515258,
   "appeal_decision_date": null,
   "decision_conditions": [
     ""
   ],
-  "site_number": "1362",
+  "site_number": 1362,
   "bo_system": "Idox Uniform",
   "status": "Declined to Determine",
   "site_name": "",
   "decision": "DECLIN",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                515251,
+                184890.75
+              ],
+              [
+                515250.3,
+                184885.35
+              ],
+              [
+                515262.45,
+                184883.85
+              ],
+              [
+                515262.7304615384,
+                184889.28369230768
+              ],
+              [
+                515251,
+                184890.75
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      },
+      {
+        "coordinates": [
+          [
+            [
+              [
+                515262.7304615384,
+                184889.28369230768
+              ],
+              [
+                515262.45,
+                184883.85
+              ],
+              [
+                515271,
+                184882.7
+              ],
+              [
+                515271.75,
+                184888.2
+              ],
+              [
+                515262.7304615384,
+                184889.28369230768
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "centroid": {
     "lon": -0.339057,
     "lat": 51.551109
@@ -78,7 +142,62 @@
   "pp_id": "PP-14785393",
   "decision_agency": null,
   "parking_details": null,
-  "locality": null,
+  "locality": "Greenford",
   "id": "Ealing-261258FUL",
-  "application_details": {}
+  "application_details": {
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "1",
+        "intended_completion_date": "10/2026",
+        "intended_commencement_date": "06/2026"
+      }
+    ],
+    "total_gia_gained": 45,
+    "site_area": 0.015,
+    "total_gia_lost": 0,
+    "total_gia_existing": 105,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 105,
+        "gia_gained": 45,
+        "use_class": "C3",
+        "gia_lost": 0
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied",
+    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "surface_water_discharge_percentage_reduction": 0,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 45,
+      "total_gia_lost": 0,
+      "total_gia_existing": 105
+    },
+    "garden_land_lost": false,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 1,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 1,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 1,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 10,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 0,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "internal_resi_water_usage": 100,
+    "ownership_status": "Private"
+  }
 }

@@ -2,28 +2,30 @@
   "date_building_work_completed_under_previous_permission": null,
   "cil_liability": true,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.366599,
-          51.51688
-        ],
-        [
-          -0.366599,
-          51.516853
-        ],
-        [
-          -0.366643,
-          51.516854
-        ],
-        [
-          -0.366642,
-          51.516881
-        ],
-        [
-          -0.366599,
-          51.51688
+          [
+            -0.366352,
+            51.517126
+          ],
+          [
+            -0.366458,
+            51.517154
+          ],
+          [
+            -0.366734,
+            51.516801
+          ],
+          [
+            -0.366633,
+            51.516772
+          ],
+          [
+            -0.366352,
+            51.517126
+          ]
         ]
       ]
     ]
@@ -34,40 +36,73 @@
   "appeal_decision": null,
   "valid_date": "18/05/2026",
   "secondary_street_name": null,
-  "centroid_northing": "181036",
+  "centroid_northing": 181036,
   "reference_no_of_permission_being_relied_on": null,
   "actual_commencement_date": null,
-  "last_updated": "2026-06-20T04:05:52.118Z",
-  "description": "Conversion of a single dwellinghouse into two self-contained dwellings; first floor rear extension; and provision of associated amenity space, refuse and cycle storage",
+  "last_updated": "2026-06-25T16:09:40.876Z",
+  "description": "Conversion of single dwellinghouse into , with first floor extension,  two self-contained flats including associated refuse storage, Car parking, cycle storage and amenity space;",
   "subdivision_of_building": null,
   "epc_number": null,
   "url_planning_app": null,
-  "borough": "London Borough of Ealing",
+  "borough": "Ealing",
   "street_name": "Dormers Wells Lane",
   "decision_process": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "date_building_work_started_under_previous_permission": null,
   "application_type": "All Other",
   "lapsed_date": null,
   "last_date_consultation_comments": "16/06/2026",
   "title_number": [],
   "appeal_status": null,
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "development_type": null,
   "decision_target_date": "13/07/2026",
   "lpa_name": "Ealing",
-  "uprn": "000012042087",
+  "uprn": 12042087,
   "decision_date": null,
   "lpa_app_no": "262047FUL",
-  "centroid_easting": "513432",
+  "centroid_easting": 513432,
   "appeal_decision_date": null,
   "decision_conditions": null,
-  "site_number": "138",
+  "site_number": 138,
   "bo_system": "Idox Uniform",
   "status": "Application Under Consideration",
   "site_name": "",
   "decision": null,
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                513450,
+                181065.2
+              ],
+              [
+                513442.55,
+                181068.2
+              ],
+              [
+                513424.30775221233,
+                181028.51771681418
+              ],
+              [
+                513431.35,
+                181025.4
+              ],
+              [
+                513450,
+                181065.2
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "centroid": {
     "lon": -0.366621,
     "lat": 51.516867
@@ -76,7 +111,62 @@
   "pp_id": "PP-14941445",
   "decision_agency": null,
   "parking_details": null,
-  "locality": null,
+  "locality": "Southall",
   "id": "Ealing-262047FUL",
-  "application_details": {}
+  "application_details": {
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "Construction ",
+        "intended_completion_date": "10/2026",
+        "intended_commencement_date": "04/2026"
+      }
+    ],
+    "total_gia_gained": 45.4,
+    "site_area": 0.03518,
+    "total_gia_lost": 0,
+    "total_gia_existing": 119.5,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 119.5,
+        "gia_gained": 45.4,
+        "use_class": "C3",
+        "gia_lost": 0
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied",
+    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "surface_water_discharge_percentage_reduction": 0,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 45.4,
+      "total_gia_lost": 0,
+      "total_gia_existing": 119.5
+    },
+    "garden_land_lost": false,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 2,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 2,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 2,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "internal_resi_water_usage": 0,
+    "ownership_status": "Private"
+  }
 }

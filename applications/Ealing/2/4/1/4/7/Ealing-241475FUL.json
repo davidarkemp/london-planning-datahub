@@ -3,28 +3,74 @@
     "coordinates": [
       [
         [
-          -0.34844,
-          51.54193
-        ],
-        [
-          -0.348441,
-          51.541903
-        ],
-        [
-          -0.348484,
-          51.541904
-        ],
-        [
-          -0.348483,
-          51.541931
-        ],
-        [
-          -0.34844,
-          51.54193
+          [
+            -0.348565,
+            51.541916
+          ],
+          [
+            -0.348461,
+            51.541888
+          ],
+          [
+            -0.348422,
+            51.541876
+          ],
+          [
+            -0.34821,
+            51.541815
+          ],
+          [
+            -0.348197,
+            51.541826
+          ],
+          [
+            -0.34824,
+            51.541869
+          ],
+          [
+            -0.348294,
+            51.541892
+          ],
+          [
+            -0.348325,
+            51.541904
+          ],
+          [
+            -0.348391,
+            51.541931
+          ],
+          [
+            -0.348434,
+            51.541949
+          ],
+          [
+            -0.348461,
+            51.541961
+          ],
+          [
+            -0.348502,
+            51.541977
+          ],
+          [
+            -0.348515,
+            51.541983
+          ],
+          [
+            -0.348592,
+            51.542014
+          ],
+          [
+            -0.348645,
+            51.541939
+          ],
+          [
+            -0.348565,
+            51.541916
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "ward": "CENGRE",
   "decision": "Approved",
@@ -32,7 +78,7 @@
   "appeal_status": null,
   "status": "Approved",
   "parking_details": null,
-  "centroid_easting": "514629",
+  "centroid_easting": 514629,
   "application_details": {
     "non_residential_details": {
       "total_gia_lost": 0,
@@ -57,7 +103,8 @@
       "total_annual_nox_emissions": 0,
       "no_homes_to_have_electrical_heating": 0,
       "no_new_gas_connections_required": 0,
-      "mobile_network_operators_consultation": false
+      "mobile_network_operators_consultation": false,
+      "urban_greening_factor_score": 0
     },
     "internal_resi_water_usage": 0,
     "surface_water_discharge_percentage_reduction": 0,
@@ -68,8 +115,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development ",
-        "intended_commencement_date": "04/2024",
-        "intended_completion_date": "08/2024"
+        "intended_completion_date": "08/2024",
+        "intended_commencement_date": "04/2024"
       }
     ],
     "total_gia_lost": 0,
@@ -102,32 +149,48 @@
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 3,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
+          "no_bedrooms": 3,
           "unit_type": "Semi Detached Home",
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 95
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 3,
+          "provider": "Private",
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "gia": 95,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 79
         },
         {
-          "no_habitable_rooms": 3,
-          "provider": "Private",
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 3,
-          "gia": 79,
-          "tenure": "Market for rent"
-        },
-        {
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 81,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 81
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 1,
@@ -152,21 +215,22 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 95,
-        "use_class": "C3",
         "gia_gained": 60,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
-    "site_area": 0.021,
-    "projected_cost_of_works": "Up to £2m"
+    "site_area": 0.02,
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied"
   },
   "actual_completion_date": null,
   "application_type_full": "Full planning permission",
-  "locality": null,
+  "locality": "Greenford",
   "actual_commencement_date": null,
   "development_type": null,
   "appeal_decision_date": null,
-  "centroid_northing": "183850",
+  "centroid_northing": 183850,
   "date_building_work_started_under_previous_permission": null,
   "title_number": [],
   "reference_no_of_permission_being_relied_on": null,
@@ -181,21 +245,21 @@
     "lon": -0.348462
   },
   "application_type": "All Other",
-  "borough": "London Borough of Ealing",
+  "borough": "Ealing",
   "postcode": "UB6 8LT",
   "site_name": "",
   "bo_system": "Idox Uniform",
-  "site_number": "19",
+  "site_number": 19,
   "decision_target_date": "12/06/2024",
   "valid_date": "17/04/2024",
   "street_name": "Hillbeck Way",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "url_planning_app": null,
   "appeal_start_date": null,
   "last_date_consultation_comments": "22/05/2024",
-  "last_updated": "2026-06-20T04:00:51.908Z",
+  "last_updated": "2026-06-26T01:57:42.426Z",
   "appeal_decision": null,
-  "description": "Conversion of single dwellinghouse to two flats; Single storey ground floor wrap-around extension and first-floor side extension; Rear roof extension",
+  "description": "Erection of a ground floor wrap-around extension and first-floor side extension (as already approved in application, Ref 213922FUL) and a rear dormer extension and the change of use from a single dwellinghouse to two flats ",
   "decision_date": "07/08/2024",
   "secondary_street_name": null,
   "subdivision_of_building": null,
@@ -211,8 +275,85 @@
     "Standard Cond - Materials",
     "Approved Plans"
   ],
-  "uprn": "000012052537",
+  "uprn": 12052537,
   "id": "Ealing-241475FUL",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                514621.9,
+                183849.75
+              ],
+              [
+                514629.15,
+                183846.75
+              ],
+              [
+                514631.928,
+                183845.527
+              ],
+              [
+                514646.75,
+                183839
+              ],
+              [
+                514647.65,
+                183840.3
+              ],
+              [
+                514644.55,
+                183845
+              ],
+              [
+                514640.7,
+                183847.45
+              ],
+              [
+                514638.554,
+                183848.791
+              ],
+              [
+                514633.9,
+                183851.7
+              ],
+              [
+                514630.883,
+                183853.62
+              ],
+              [
+                514628.95,
+                183854.85
+              ],
+              [
+                514626.123,
+                183856.635
+              ],
+              [
+                514625.15,
+                183857.25
+              ],
+              [
+                514619.75,
+                183860.6
+              ],
+              [
+                514616.25,
+                183852.15
+              ],
+              [
+                514621.9,
+                183849.75
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "lpa_name": "Ealing"
 }

@@ -4,9 +4,9 @@
   "decision_agency": null,
   "subdivision_of_building": null,
   "appeal_start_date": null,
-  "cil_liability": null,
+  "cil_liability": false,
   "decision_conditions": [
-    "3 YEAR CONSENT PERIOD:  The development hereby permitted shall be begun not later than the expiration of three years from the date of this permission.\r\n\r\nREASON: To comply with the provisions of Section 91(1)(a) of the Town and Country Planning Act 1990 as amended by the Planning and Compulsory Purchase Act 2004 (Chapter 5)."
+    "3 YEAR CONSENT PERIOD:  The development hereby permitted shall be begun not later than the expiration of three years from the date of this permission.\n\nREASON: To comply with the provisions of Section 91(1)(a) of the Town and Country Planning Act 1990 as amended by the Planning and Compulsory Purchase Act 2004 (Chapter 5)."
   ],
   "actual_commencement_date": null,
   "pp_id": "PP-14580432",
@@ -20,8 +20,10 @@
   "street_name": "Arlington Square",
   "site_number": "1A",
   "centroid_easting": 532425,
-  "polygon": null,
-  "ward": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
+  "ward": "St Marys and St James'",
   "centroid_northing": 183644,
   "application_type": "All Other",
   "uprn": "5300003030",
@@ -34,7 +36,7 @@
   "application_type_full": "Full planning permission",
   "url_planning_app": null,
   "decision_date": "24/03/2026",
-  "bo_system": "Agile APAS",
+  "bo_system": "Portal",
   "development_type": null,
   "appeal_status": null,
   "date_building_work_completed_under_previous_permission": null,
@@ -42,7 +44,7 @@
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
   "epc_number": null,
-  "last_updated": "2026-03-25T00:00:08.711Z",
+  "last_updated": "2026-06-25T10:45:14.072Z",
   "centroid": {
     "lon": -0.092067,
     "lat": 51.536175
@@ -66,13 +68,13 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 370,
-        "use_class": "C3",
         "gia_gained": 370,
+        "use_class": "C3",
         "gia_lost": 370
       }
     ],
     "projected_cost_of_works": "Between £2m and £100m",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "rain_water_harvesting": false,
     "grey_water_reuse": false,
     "green_suds": false,
@@ -82,7 +84,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 370,
       "total_gia_existing": 370,
-      "total_gia_lost": 370
+      "total_gia_lost": 370,
+      "site_area": 0.0459
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -106,12 +109,12 @@
       "total_no_proposed_residential_units_market_for_sale": 1,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 261.437908496732,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 390,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 21.78649237472767,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -125,36 +128,47 @@
       "residential_units": [
         {
           "no_habitable_rooms": 4,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
-          "gia": 90,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 90
         },
         {
           "no_habitable_rooms": 9,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 4,
+          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
-          "gia": 278,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 278
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 12,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "unit_type": "House or Bungalow",
           "no_bedrooms": 4,
-          "gia": 390,
-          "tenure": "Market for sale"
+          "unit_type": "House or Bungalow",
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 390
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.0459
     },
     "internal_resi_water_usage": 125,
     "infrastructure_details": {
@@ -166,7 +180,7 @@
       "no_homes_passive_cooling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
@@ -174,7 +188,20 @@
       "no_new_gas_connections_required": 0,
       "ghg_reduction_over_building_regulations": false
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.0459
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "wgs84_polygon": {
     "coordinates": [
@@ -205,6 +232,6 @@
   },
   "id": "Islington-P2026_0016_FUL",
   "reference_no_of_permission_being_relied_on": null,
-  "title_number": null,
-  "last_updated_by": "Agile APAS"
+  "title_number": [],
+  "last_updated_by": "Portal"
 }

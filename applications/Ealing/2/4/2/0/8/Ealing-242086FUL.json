@@ -48,37 +48,53 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 5,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Semi Detached Home",
           "no_bedrooms": 4,
+          "unit_type": "Semi Detached Home",
           "provision_for_older_persons": false,
-          "gia": 127,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 127
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "gia": 87,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 87
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 77,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 77
         }
       ],
       "total_no_existing_residential_units_london_affordable_rent": 0
     },
-    "site_area": 0.026000000000000002,
+    "site_area": 0.02,
     "garden_land_lost": false,
     "scheme_phasing": true,
     "total_gia_gained": 167,
@@ -97,13 +113,14 @@
       "no_non_resi_units_to_have_full_fibre": 0,
       "fire_suppression_system_proposed": false,
       "mobile_network_operators_consultation": false,
-      "total_annual_nox_emissions": 0
+      "total_annual_nox_emissions": 0,
+      "urban_greening_factor_score": 0
     },
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 127,
-        "use_class": "C3",
         "gia_gained": 167,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -123,43 +140,110 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development ",
-        "intended_commencement_date": "08/2024",
-        "intended_completion_date": "11/2024"
+        "intended_completion_date": "11/2024",
+        "intended_commencement_date": "08/2024"
       }
     ],
     "surface_water_discharge_percentage_reduction": 0,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "occupation_status": "Occupied"
   },
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.314676,
-          51.538168
-        ],
-        [
-          -0.314677,
-          51.538141
-        ],
-        [
-          -0.31472,
-          51.538142
-        ],
-        [
-          -0.314719,
-          51.538168
-        ],
-        [
-          -0.314676,
-          51.538168
+          [
+            -0.314837,
+            51.538126
+          ],
+          [
+            -0.314817,
+            51.538123
+          ],
+          [
+            -0.314806,
+            51.538122
+          ],
+          [
+            -0.314794,
+            51.538121
+          ],
+          [
+            -0.31475,
+            51.538115
+          ],
+          [
+            -0.314661,
+            51.538104
+          ],
+          [
+            -0.314651,
+            51.538103
+          ],
+          [
+            -0.314548,
+            51.53809
+          ],
+          [
+            -0.314538,
+            51.53812
+          ],
+          [
+            -0.314526,
+            51.538161
+          ],
+          [
+            -0.314635,
+            51.538175
+          ],
+          [
+            -0.314729,
+            51.538186
+          ],
+          [
+            -0.314762,
+            51.53819
+          ],
+          [
+            -0.314768,
+            51.538191
+          ],
+          [
+            -0.314814,
+            51.538196
+          ],
+          [
+            -0.314927,
+            51.538211
+          ],
+          [
+            -0.314991,
+            51.538218
+          ],
+          [
+            -0.315013,
+            51.538148
+          ],
+          [
+            -0.314905,
+            51.538134
+          ],
+          [
+            -0.314884,
+            51.538132
+          ],
+          [
+            -0.314837,
+            51.538126
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "site_name": "",
-  "centroid_easting": "516980",
-  "site_number": "1",
+  "centroid_easting": 516980,
+  "site_number": 1,
   "development_type": null,
   "decision_date": "16/07/2024",
   "appeal_start_date": null,
@@ -169,17 +253,13 @@
   "epc_number": null,
   "appeal_status": null,
   "lpa_name": "Ealing",
-  "centroid_northing": "183485",
+  "centroid_northing": 183485,
   "appeal_decision_date": null,
   "decision_conditions": [
     "Balconies for Flat Roofs",
     "Refuse - Compliance",
     "Standard Cond - Expiration Three Years",
     "Standard Cond - Materials",
-    "",
-    "",
-    "",
-    "",
     "approved plans"
   ],
   "reference_no_of_permission_being_relied_on": null,
@@ -194,25 +274,122 @@
   "valid_date": "30/05/2024",
   "postcode": "UB6 7AD",
   "bo_system": "Idox Uniform",
-  "borough": "London Borough of Ealing",
+  "borough": "Ealing",
   "id": "Ealing-242086FUL",
   "application_type": "All Other",
   "parking_details": null,
   "decision_target_date": "25/07/2024",
   "pp_id": "PP-13106290",
-  "last_updated_by": "Idox Uniform",
-  "locality": null,
-  "uprn": "000012076789",
+  "last_updated_by": "Planning Portal ingest",
+  "locality": "Perivale",
+  "uprn": 12076789,
   "last_date_consultation_comments": "03/07/2024",
   "title_number": [],
   "decision": "Approved",
-  "last_updated": "2026-06-20T04:01:10.686Z",
-  "polygon": null,
+  "last_updated": "2026-06-25T16:13:48.456Z",
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                516970.458,
+                183481.552
+              ],
+              [
+                516971.85,
+                183481.3
+              ],
+              [
+                516972.614,
+                183481.177
+              ],
+              [
+                516973.4,
+                183481.05
+              ],
+              [
+                516976.502,
+                183480.507
+              ],
+              [
+                516982.686,
+                183479.426
+              ],
+              [
+                516983.421,
+                183479.298
+              ],
+              [
+                516990.6,
+                183478.05
+              ],
+              [
+                516991.2,
+                183481.45
+              ],
+              [
+                516991.95,
+                183485.95
+              ],
+              [
+                516984.3,
+                183487.35
+              ],
+              [
+                516977.75,
+                183488.4
+              ],
+              [
+                516975.5,
+                183488.8
+              ],
+              [
+                516975.06,
+                183488.88
+              ],
+              [
+                516971.846,
+                183489.464
+              ],
+              [
+                516963.95,
+                183490.9
+              ],
+              [
+                516959.55,
+                183491.6
+              ],
+              [
+                516958.15,
+                183483.7
+              ],
+              [
+                516965.707,
+                183482.398
+              ],
+              [
+                516967.15,
+                183482.15
+              ],
+              [
+                516970.458,
+                183481.552
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "date_building_work_started_under_previous_permission": null,
   "actual_commencement_date": null,
   "ward": "PERVAL",
   "appeal_decision": null,
   "lpa_app_no": "242086FUL",
-  "description": "Conversion of existing single family dwelling house into 2 self-contained flats; provision of cycle storage and refuse storage facilities; and associates external alterations; part first floor side/rear extension; alteration of roof from hip to gable end; rear roof extension and installation of two roof lights to front roofslope\r\r",
+  "description": "Conversion of existing single family dwelling house into 2 self-contained flats: first floor extension and a rear dormer\n",
   "date_building_work_completed_under_previous_permission": null
 }

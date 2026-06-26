@@ -6,16 +6,81 @@
     "lon": -0.266514,
     "lat": 51.511806
   },
-  "polygon": null,
-  "borough": "London Borough of Ealing",
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                520384.1,
+                180630.15
+              ],
+              [
+                520384.3,
+                180630.15
+              ],
+              [
+                520399.5,
+                180631.4
+              ],
+              [
+                520400.92,
+                180631.514
+              ],
+              [
+                520401.865,
+                180631.581
+              ],
+              [
+                520408.2,
+                180632.1
+              ],
+              [
+                520407.9,
+                180637.65
+              ],
+              [
+                520400.985,
+                180637.081
+              ],
+              [
+                520392.1,
+                180636.35
+              ],
+              [
+                520383.7,
+                180635.7
+              ],
+              [
+                520379.5,
+                180635.4
+              ],
+              [
+                520379.95,
+                180629.95
+              ],
+              [
+                520384.1,
+                180630.15
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
+  "borough": "Ealing",
   "application_type": "All Other",
   "date_building_work_started_under_previous_permission": null,
-  "uprn": "000012101654",
+  "uprn": 12101654,
   "valid_date": "16/10/2024",
   "decision_target_date": "11/12/2024",
   "appeal_decision_date": null,
-  "locality": null,
-  "centroid_northing": "180633",
+  "locality": "Acton",
+  "centroid_northing": 180633,
   "ward": "NORACT",
   "decision_conditions": [
     "",
@@ -30,34 +95,68 @@
   "id": "Ealing-243921FUL",
   "actual_commencement_date": null,
   "lpa_name": "Ealing",
-  "last_updated": "2026-06-20T04:02:05.247Z",
+  "last_updated": "2026-06-25T23:42:11.763Z",
   "lpa_app_no": "243921FUL",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.266491,
-          51.51182
-        ],
-        [
-          -0.266492,
-          51.511793
-        ],
-        [
-          -0.266536,
-          51.511793
-        ],
-        [
-          -0.266535,
-          51.51182
-        ],
-        [
-          -0.266491,
-          51.51182
+          [
+            -0.266614,
+            51.511782
+          ],
+          [
+            -0.266611,
+            51.511782
+          ],
+          [
+            -0.266392,
+            51.51179
+          ],
+          [
+            -0.266371,
+            51.511791
+          ],
+          [
+            -0.266358,
+            51.511791
+          ],
+          [
+            -0.266266,
+            51.511795
+          ],
+          [
+            -0.266269,
+            51.511845
+          ],
+          [
+            -0.266368,
+            51.511841
+          ],
+          [
+            -0.266497,
+            51.511836
+          ],
+          [
+            -0.266618,
+            51.511832
+          ],
+          [
+            -0.266678,
+            51.51183
+          ],
+          [
+            -0.266674,
+            51.511781
+          ],
+          [
+            -0.266614,
+            51.511782
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "appeal_status": null,
   "site_name": "",
@@ -66,13 +165,13 @@
   "appeal_start_date": null,
   "cil_liability": true,
   "development_type": null,
-  "description": "Conversion of house in multiple occupation (HMO) comprising 8 bedrooms (Use Class Sui Generis) into 2 studio flats (Use Class C3) at the ground floor and 7 bedrooms HMO on upper floors",
+  "description": "Conversion of 8 bedroom HMO into 2 studio flats at the ground floor and 7 bedroom HMO",
   "epc_number": null,
   "reference_no_of_permission_being_relied_on": null,
   "bo_system": "Idox Uniform",
   "appeal_decision": null,
   "actual_completion_date": null,
-  "centroid_easting": "520391",
+  "centroid_easting": 520391,
   "url_planning_app": null,
   "application_details": {
     "existing_uprns": null,
@@ -80,19 +179,19 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "01/2025",
-        "intended_completion_date": "03/2025"
+        "intended_completion_date": "03/2025",
+        "intended_commencement_date": "01/2025"
       }
     ],
     "total_gia_gained": 0,
-    "site_area": 0.016,
+    "site_area": 0.015790000000000002,
     "total_gia_lost": 0,
     "total_gia_existing": 188.74,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 188.74,
-        "use_class": "SG",
         "gia_gained": 0,
+        "use_class": "SG",
         "gia_lost": 0
       }
     ],
@@ -149,13 +248,19 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 1,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "gia": 10.7,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 10.7
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -175,16 +280,18 @@
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 2,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "urban_greening_factor_score": 0
     },
     "internal_resi_water_usage": 0,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "occupation_status": "Occupied"
   },
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "postcode": "W3 6SU",
   "last_date_consultation_comments": "22/11/2024",
   "secondary_street_name": null,
-  "site_number": "24",
+  "site_number": 24,
   "subdivision_of_building": null,
   "street_name": "Maldon Road"
 }

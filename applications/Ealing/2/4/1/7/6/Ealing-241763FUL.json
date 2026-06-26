@@ -1,7 +1,7 @@
 {
   "application_type": "All Other",
   "valid_date": "08/05/2024",
-  "uprn": "000012039262",
+  "uprn": 12039262,
   "decision_target_date": "03/07/2024",
   "lpa_app_no": "241763FUL",
   "last_date_consultation_comments": "18/06/2024",
@@ -14,7 +14,7 @@
     "existing_uprns": [
       "000012039262"
     ],
-    "site_area": 0.02,
+    "site_area": 0.018782,
     "total_gia_existing": 147.43,
     "total_gia_lost": 13.66,
     "scheme_phasing": true,
@@ -37,44 +37,56 @@
       "no_new_water_connections_required": 1,
       "no_homes_to_have_electrical_heating": 0,
       "no_new_gas_connections_required": 1,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "urban_greening_factor_score": 0
     },
     "surface_water_discharge_percentage_reduction": 0,
     "residential_details": {
       "total_no_existing_residential_units_intermediate": 0,
       "residential_units": [
         {
-          "change_type": "Loss",
-          "unit_type": "Communal Space",
-          "gia": 1
-        },
-        {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 2,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Terraced Home",
           "no_bedrooms": 5,
+          "unit_type": "Terraced Home",
           "provision_for_older_persons": false,
-          "gia": 147.43,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 147.43
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 1,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "gia": 54.75,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 54.75
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 1,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 70.58,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 70.58
         }
       ],
       "total_no_proposed_residential_units": 2,
@@ -98,9 +110,9 @@
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
-      "total_no_existing_residential_units": 2,
+      "total_no_existing_residential_units": 1,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "total_gia_lost": 148.43,
+      "total_gia_lost": 147.43,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
@@ -118,8 +130,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 147.43,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 13.66
       }
     ],
@@ -134,26 +146,164 @@
     "phasing_details": [
       {
         "phase_detail": "conversion",
-        "intended_commencement_date": "07/2024",
-        "intended_completion_date": "09/2024"
+        "intended_completion_date": "09/2024",
+        "intended_commencement_date": "07/2024"
       }
     ],
-    "internal_resi_water_usage": 0
+    "internal_resi_water_usage": 0,
+    "occupation_status": "Occupied"
   },
-  "borough": "London Borough of Ealing",
+  "borough": "Ealing",
   "application_type_full": "Full planning permission",
   "cil_liability": false,
   "date_building_work_started_under_previous_permission": null,
   "lapsed_date": "12/07/2027",
   "bo_system": "Idox Uniform",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                513167.605,
+                180679.382
+              ],
+              [
+                513167.532,
+                180679.947
+              ],
+              [
+                513167.509,
+                180680.124
+              ],
+              [
+                513167.487,
+                180680.12
+              ],
+              [
+                513163.55,
+                180679.4
+              ],
+              [
+                513160.865,
+                180678.909
+              ],
+              [
+                513159.425,
+                180678.646
+              ],
+              [
+                513152.289,
+                180677.342
+              ],
+              [
+                513149.6,
+                180676.85
+              ],
+              [
+                513149.356,
+                180676.752
+              ],
+              [
+                513148.1,
+                180676.25
+              ],
+              [
+                513146.1,
+                180675.1
+              ],
+              [
+                513139,
+                180671.05
+              ],
+              [
+                513134.45,
+                180668.45
+              ],
+              [
+                513134.65,
+                180668.1
+              ],
+              [
+                513136.05,
+                180665.7
+              ],
+              [
+                513137.25,
+                180663.55
+              ],
+              [
+                513141.75,
+                180666.15
+              ],
+              [
+                513148.85,
+                180670.3
+              ],
+              [
+                513150.3,
+                180671.15
+              ],
+              [
+                513152.074,
+                180671.886
+              ],
+              [
+                513152.35,
+                180672
+              ],
+              [
+                513154.874,
+                180672.576
+              ],
+              [
+                513160.379,
+                180673.832
+              ],
+              [
+                513160.86,
+                180673.941
+              ],
+              [
+                513168.096,
+                180675.592
+              ],
+              [
+                513169.199,
+                180675.643
+              ],
+              [
+                513170.439,
+                180675.701
+              ],
+              [
+                513172.86,
+                180675.814
+              ],
+              [
+                513171.742,
+                180679.981
+              ],
+              [
+                513167.605,
+                180679.382
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "appeal_status": null,
   "parking_details": null,
   "centroid": {
     "lon": -0.370886,
     "lat": 51.513644
   },
-  "locality": null,
+  "locality": "Southall",
   "secondary_street_name": null,
   "decision_conditions": [
     "Balconies for Flat Roofs",
@@ -161,39 +311,141 @@
     "Standard Cond - Expiration Three Years",
     "Standard Cond - Materials",
     "approved plans",
-    "",
-    "cycle compliance",
-    "",
-    "",
-    ""
+    "cycle compliance"
   ],
   "decision_agency": null,
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.370864,
-          51.513657
-        ],
-        [
-          -0.370865,
-          51.51363
-        ],
-        [
-          -0.370909,
-          51.513631
-        ],
-        [
-          -0.370908,
-          51.513658
-        ],
-        [
-          -0.370864,
-          51.513657
+          [
+            -0.370544,
+            51.513715
+          ],
+          [
+            -0.370545,
+            51.51372
+          ],
+          [
+            -0.370545,
+            51.513721
+          ],
+          [
+            -0.370545,
+            51.513721
+          ],
+          [
+            -0.370602,
+            51.513716
+          ],
+          [
+            -0.370641,
+            51.513712
+          ],
+          [
+            -0.370662,
+            51.51371
+          ],
+          [
+            -0.370765,
+            51.5137
+          ],
+          [
+            -0.370804,
+            51.513696
+          ],
+          [
+            -0.370807,
+            51.513695
+          ],
+          [
+            -0.370826,
+            51.513691
+          ],
+          [
+            -0.370855,
+            51.513681
+          ],
+          [
+            -0.370958,
+            51.513646
+          ],
+          [
+            -0.371025,
+            51.513623
+          ],
+          [
+            -0.371022,
+            51.51362
+          ],
+          [
+            -0.371003,
+            51.513598
+          ],
+          [
+            -0.370986,
+            51.513579
+          ],
+          [
+            -0.37092,
+            51.513601
+          ],
+          [
+            -0.370817,
+            51.513637
+          ],
+          [
+            -0.370796,
+            51.513644
+          ],
+          [
+            -0.37077,
+            51.513651
+          ],
+          [
+            -0.370766,
+            51.513651
+          ],
+          [
+            -0.370729,
+            51.513656
+          ],
+          [
+            -0.37065,
+            51.513666
+          ],
+          [
+            -0.370643,
+            51.513667
+          ],
+          [
+            -0.370538,
+            51.513681
+          ],
+          [
+            -0.370522,
+            51.513681
+          ],
+          [
+            -0.370504,
+            51.513681
+          ],
+          [
+            -0.370469,
+            51.513682
+          ],
+          [
+            -0.370484,
+            51.513719
+          ],
+          [
+            -0.370544,
+            51.513715
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
@@ -207,15 +459,15 @@
   "url_planning_app": null,
   "pp_id": "PP-13045168",
   "decision_process": null,
-  "centroid_easting": "513144",
-  "last_updated": "2026-06-20T04:01:00.846Z",
+  "centroid_easting": 513144,
+  "last_updated": "2026-06-25T16:13:31.515Z",
   "appeal_decision_date": null,
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated_by": "Idox Uniform",
-  "site_number": "14",
-  "centroid_northing": "180671",
+  "last_updated_by": "Planning Portal ingest",
+  "site_number": 14,
+  "centroid_northing": 180671,
   "development_type": null,
-  "description": "Conversion of a single family dwellinghouse into two self-contained residential units (following demolition of existing conservatory); alteration of existing outbuilding; installation of boundary fence to front and rear; provision of associated bin storage and bicycle spaces",
+  "description": "conversion of existing single dwelling to 2no. of self contained flats.",
   "status": "Approved",
   "actual_completion_date": null,
   "appeal_start_date": null,
