@@ -5,195 +5,68 @@
   "date_building_work_completed_under_previous_permission": null,
   "url_planning_app": "http://development.havering.gov.uk/OcellaWeb/planningDetails?reference=P0505.25",
   "borough": "Havering",
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "actual_commencement_date": null,
   "ward": "Marshalls & Rise Pk",
   "decision_date": "28/11/2025",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 1,
+    "net_car": 2,
+    "no_proposed_cycle": 6,
+    "no_proposed_car": 3,
+    "net_cycle": 6
+  },
   "polygon": {
     "geometries": [
       {
         "coordinates": [
           [
             [
-              551635.55,
-              189532.85
-            ],
-            [
-              551645.5,
-              189516.7
-            ],
-            [
-              551653.7,
-              189520
-            ],
-            [
-              551653.9,
-              189520.95
-            ],
-            [
-              551658.75,
-              189522.65
-            ],
-            [
-              551660.96,
-              189523.43
-            ],
-            [
-              551661.8,
-              189521.07
-            ],
-            [
-              551661.97,
-              189521.16
-            ],
-            [
-              551662.06,
-              189521.2
-            ],
-            [
-              551662.24,
-              189521.3
-            ],
-            [
-              551662.4,
-              189521.4
-            ],
-            [
-              551662.49,
-              189521.45
-            ],
-            [
-              551662.57,
-              189521.5
-            ],
-            [
-              551662.72,
-              189521.62
-            ],
-            [
-              551662.87,
-              189521.75
-            ],
-            [
-              551662.94,
-              189521.81
-            ],
-            [
-              551663.01,
-              189521.88
-            ],
-            [
-              551663.07,
-              189521.95
-            ],
-            [
-              551663.23,
-              189522.19
-            ],
-            [
-              551663.3,
-              189522.31
-            ],
-            [
-              551663.34,
-              189522.4
-            ],
-            [
-              551663.37,
-              189522.49
-            ],
-            [
-              551663.41,
-              189522.58
-            ],
-            [
-              551663.43,
-              189522.67
-            ],
-            [
-              551663.46,
-              189522.77
-            ],
-            [
-              551663.48,
-              189522.86
-            ],
-            [
-              551663.51,
-              189523.06
-            ],
-            [
-              551663.52,
-              189523.15
-            ],
-            [
-              551663.52,
-              189523.44
-            ],
-            [
-              551663.5,
-              189523.64
-            ],
-            [
-              551663.48,
-              189523.73
-            ],
-            [
-              551663.46,
-              189523.83
-            ],
-            [
-              551663.44,
-              189523.92
-            ],
-            [
-              551663.41,
-              189524.02
-            ],
-            [
-              551663.38,
-              189524.11
-            ],
-            [
-              551663.32,
-              189524.26
-            ],
-            [
-              551658.7,
-              189535.55
-            ],
-            [
-              551667.27,
-              189538.6
-            ],
-            [
-              551664.97,
-              189539.69
-            ],
-            [
-              551658.1,
-              189537.25
-            ],
-            [
-              551656.89,
-              189540.72
-            ],
-            [
-              551656.05,
-              189540.4
-            ],
-            [
-              551648.55,
-              189537.65
-            ],
-            [
-              551635.55,
-              189532.85
+              [
+                551635.55,
+                189532.85
+              ],
+              [
+                551645.5,
+                189516.7
+              ],
+              [
+                551653.7,
+                189520
+              ],
+              [
+                551665.5998126637,
+                189524.4120948258
+              ],
+              [
+                551689.9508218699,
+                189536.46542293974
+              ],
+              [
+                551684.65,
+                189550.95
+              ],
+              [
+                551683.7,
+                189550.6
+              ],
+              [
+                551656.05,
+                189540.4
+              ],
+              [
+                551648.55,
+                189537.65
+              ],
+              [
+                551635.55,
+                189532.85
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "type": "GeometryCollection"
@@ -300,202 +173,219 @@
   "lpa_name": "Havering",
   "appeal_decision": null,
   "decision_agency": "Borough",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Planning Portal ingest",
   "cil_liability": true,
   "postcode": "RM1 4HL",
   "decision_process": "Delegated",
   "application_details": {
     "existing_uprns": null,
-    "site_area": 0.04
+    "site_area": 0.0891,
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "Construction",
+        "intended_completion_date": "06/2026",
+        "intended_commencement_date": "06/2025"
+      }
+    ],
+    "total_gia_gained": 374,
+    "total_gia_existing": 185,
+    "total_gia_lost": 185,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 185,
+        "gia_gained": 374,
+        "use_class": "EE",
+        "gia_lost": 185
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Vacant",
+    "rain_water_harvesting": false,
+    "scheme_phasing": true,
+    "building_details": [
+      {
+        "no_storeys": 3,
+        "max_height": 9.15,
+        "building_ref": "PLot 1"
+      },
+      {
+        "no_storeys": 3,
+        "max_height": 9.15,
+        "building_ref": "Plots 2 & 3"
+      }
+    ],
+    "grey_water_reuse": false,
+    "surface_water_discharge_percentage_reduction": 50,
+    "green_suds": false,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 374,
+      "total_gia_lost": 185,
+      "total_gia_existing": 185
+    },
+    "garden_land_lost": false,
+    "residential_details": {
+      "total_no_proposed_residential_units_shared_equity": 0,
+      "total_no_proposed_bedrooms": 10,
+      "total_no_proposed_residential_units": 3,
+      "total_no_proposed_residential_units_london_living_rent": 0,
+      "total_no_proposed_residential_affordable_units": 0,
+      "total_no_existing_residential_units": 0,
+      "total_no_proposed_residential_units_affordable_rent": 0,
+      "total_no_proposed_residential_units_discount_market_sale": 0,
+      "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_london_living_rent": 0,
+      "total_no_existing_residential_units_shared_equity": 0,
+      "total_no_existing_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_units_intermediate": 0,
+      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_existing_residential_units_social_rent": 0,
+      "total_no_proposed_residential_units_self_build_and_custom_build": 0,
+      "total_no_existing_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_market_for_sale": 3,
+      "total_no_existing_residential_affordable_units": 0,
+      "total_no_existing_residential_units_affordable_rent": 0,
+      "habitable_rooms_density": null,
+      "total_no_existing_residential_units_london_shared_ownership": 0,
+      "total_gia_gained": 374,
+      "total_no_proposed_residential_units_social_rent": 0,
+      "total_no_existing_residential_units_london_affordable_rent": 0,
+      "dwelling_density": 0,
+      "total_no_proposed_residential_units_london_affordable_rent": 0,
+      "total_no_existing_residential_units_discount_market_sale": 0,
+      "total_no_proposed_residential_units_starter_homes": 0,
+      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_starter_homes": 0,
+      "total_no_proposed_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_intermediate": 0,
+      "affordable_percentage": 0,
+      "total_no_proposed_residential_units_london_shared_ownership": 0,
+      "residential_units": [
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "House or Bungalow",
+          "no_habitable_rooms": 6,
+          "provider": "Private",
+          "no_bedrooms": 4,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 140
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Semi Detached Home",
+          "no_habitable_rooms": 4,
+          "provider": "Private",
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 117
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Semi Detached Home",
+          "no_habitable_rooms": 4,
+          "provider": "Private",
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 117
+        }
+      ],
+      "total_no_existing_residential_units_market_for_rent": 0,
+      "total_no_existing_residential_units_self_build_and_custom_build": 0
+    },
+    "internal_resi_water_usage": 125,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 3,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 3,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 50,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 3,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "ownership_status": "Private"
   },
-  "uprn": "100023211924",
-  "street_name": "Romford",
+  "uprn": 100023211924,
+  "street_name": "Pettits Lane",
   "decision": "Approved",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          0.1872751,
-          51.584259
-        ],
-        [
-          0.18741159999999998,
-          51.5841112
-        ],
-        [
-          0.18753129999999998,
-          51.5841387
-        ],
-        [
-          0.1875346,
-          51.5841471
-        ],
-        [
-          0.1876053,
-          51.5841611
-        ],
-        [
-          0.18763749999999998,
-          51.5841675
-        ],
-        [
-          0.1876486,
-          51.5841461
-        ],
-        [
-          0.18765099999999998,
-          51.5841469
-        ],
-        [
-          0.1876524,
-          51.5841472
-        ],
-        [
-          0.187655,
-          51.584148
-        ],
-        [
-          0.1876574,
-          51.5841489
-        ],
-        [
-          0.18765869999999998,
-          51.5841493
-        ],
-        [
-          0.1876598,
-          51.5841497
-        ],
-        [
-          0.1876621,
-          51.5841508
-        ],
-        [
-          0.18766429999999998,
-          51.5841519
-        ],
-        [
-          0.18766529999999998,
-          51.5841524
-        ],
-        [
-          0.18766639999999998,
-          51.584153
-        ],
-        [
-          0.18766729999999998,
-          51.5841537
-        ],
-        [
-          0.1876697,
-          51.5841558
-        ],
-        [
-          0.1876707,
-          51.5841568
-        ],
-        [
-          0.18767129999999999,
-          51.5841576
-        ],
-        [
-          0.1876718,
-          51.5841584
-        ],
-        [
-          0.1876724,
-          51.5841592
-        ],
-        [
-          0.1876728,
-          51.58416
-        ],
-        [
-          0.18767319999999998,
-          51.5841609
-        ],
-        [
-          0.1876736,
-          51.5841617
-        ],
-        [
-          0.18767409999999998,
-          51.5841635
-        ],
-        [
-          0.1876743,
-          51.5841643
-        ],
-        [
-          0.1876744,
-          51.5841669
-        ],
-        [
-          0.18767419999999999,
-          51.5841687
-        ],
-        [
-          0.1876739,
-          51.5841695
-        ],
-        [
-          0.1876737,
-          51.5841704
-        ],
-        [
-          0.1876734,
-          51.5841713
-        ],
-        [
-          0.18767299999999998,
-          51.5841722
-        ],
-        [
-          0.1876727,
-          51.584173
-        ],
-        [
-          0.1876719,
-          51.5841743
-        ],
-        [
-          0.1876101,
-          51.584277
-        ],
-        [
-          0.18773499999999999,
-          51.5843021
-        ],
-        [
-          0.1877023,
-          51.5843125
-        ],
-        [
-          0.1876022,
-          51.5842925
-        ],
-        [
-          0.18758619999999998,
-          51.584324
-        ],
-        [
-          0.187574,
-          51.5843213
-        ],
-        [
-          0.18746459999999998,
-          51.5842986
-        ],
-        [
-          0.1872751,
-          51.584259
+          [
+            0.187248,
+            51.584257
+          ],
+          [
+            0.187385,
+            51.584109
+          ],
+          [
+            0.187505,
+            51.584136
+          ],
+          [
+            0.187678,
+            51.584173
+          ],
+          [
+            0.188035,
+            51.584275
+          ],
+          [
+            0.187964,
+            51.584406
+          ],
+          [
+            0.187951,
+            51.584403
+          ],
+          [
+            0.187547,
+            51.584319
+          ],
+          [
+            0.187438,
+            51.584296
+          ],
+          [
+            0.187248,
+            51.584257
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "appeal_decision_date": null,
-  "site_number": null,
+  "site_number": 4,
   "date_building_work_started_under_previous_permission": null,
   "centroid_northing": 189527,
   "centroid": {
@@ -504,8 +394,8 @@
   },
   "valid_date": "03/04/2025",
   "id": "Havering-P0505.25",
-  "last_updated": "2025-12-20T04:59:06.391Z",
-  "locality": null,
+  "last_updated": "2026-06-26T21:20:16.693Z",
+  "locality": "Romford",
   "status": "Approved",
   "last_date_consultation_comments": "03/05/2025",
   "decision_target_date": "28/11/2025",

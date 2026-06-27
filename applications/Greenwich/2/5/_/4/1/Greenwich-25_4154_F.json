@@ -1,5 +1,5 @@
 {
-  "postcode": null,
+  "postcode": "SE9 5BS",
   "status": "Application Under Consideration",
   "decision_agency": null,
   "subdivision_of_building": null,
@@ -11,18 +11,151 @@
   "decision_target_date": null,
   "valid_date": "22/12/2025",
   "lpa_app_no": "25/4154/F",
-  "locality": null,
+  "locality": "Eltham",
   "appeal_decision_date": null,
   "parking_details": null,
   "decision_process": null,
-  "street_name": null,
-  "site_number": null,
+  "street_name": "Halons Road",
+  "site_number": 12,
   "centroid_easting": 543358,
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                543348.174,
+                173996.147
+              ],
+              [
+                543348.397,
+                173995.388
+              ],
+              [
+                543348.66,
+                173995.472
+              ],
+              [
+                543348.692,
+                173995.482
+              ],
+              [
+                543348.9,
+                173994.828
+              ],
+              [
+                543348.956,
+                173994.649
+              ],
+              [
+                543349.829,
+                173991.901
+              ],
+              [
+                543351.1,
+                173988.7
+              ],
+              [
+                543351.572,
+                173987.16
+              ],
+              [
+                543352.028,
+                173985.671
+              ],
+              [
+                543356.6,
+                173970.9
+              ],
+              [
+                543356.8,
+                173970.3
+              ],
+              [
+                543357.9,
+                173966.55
+              ],
+              [
+                543361.7,
+                173967.7
+              ],
+              [
+                543363.3,
+                173968.2
+              ],
+              [
+                543361.9,
+                173972.6
+              ],
+              [
+                543359.6,
+                173980.15
+              ],
+              [
+                543358,
+                173979.65
+              ],
+              [
+                543356.084,
+                173985.664
+              ],
+              [
+                543357.737,
+                173986.191
+              ],
+              [
+                543356.588,
+                173989.796
+              ],
+              [
+                543355,
+                173994.8
+              ],
+              [
+                543353.2,
+                174000
+              ],
+              [
+                543352.75,
+                174001.5
+              ],
+              [
+                543350.795,
+                174000.885
+              ],
+              [
+                543348.3,
+                174000.1
+              ],
+              [
+                543347.8,
+                174000
+              ],
+              [
+                543347.1,
+                173999.8
+              ],
+              [
+                543347.912,
+                173997.038
+              ],
+              [
+                543348.174,
+                173996.147
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "ward": "ELTHAM TOWN & AVERY HILL",
   "centroid_northing": 173978,
   "application_type": "All Other",
-  "uprn": "100020972723",
+  "uprn": 100020972723,
   "lapsed_date": null,
   "actual_completion_date": null,
   "decision": null,
@@ -36,11 +169,11 @@
   "development_type": null,
   "appeal_status": null,
   "date_building_work_completed_under_previous_permission": null,
-  "description": "Change of use from an existing dwelling (Use Class C3) to a 6-bed, 6-person HMO (Use Class C4), in addition to the removal of the existing side infill extension, provision of cycle and refuse storage and all other associated works (Re-consultation - following a Parking Survey)",
+  "description": "Conversion of a single-family dwelling (C3) into a 6-bedroom HMO (sui generis) up to 6 occupants",
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
   "epc_number": null,
-  "last_updated": "2026-04-01T22:00:56.858Z",
+  "last_updated": "2026-06-26T20:12:32.828Z",
   "centroid": {
     "lon": 0.061539,
     "lat": 51.446652
@@ -84,23 +217,33 @@
       "total_no_existing_residential_units": 1,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 7,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Terraced Home",
           "no_bedrooms": 6,
+          "unit_type": "Terraced Home",
           "provision_for_older_persons": false,
-          "gia": 172,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 172
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "HMO",
           "no_habitable_rooms": 7,
           "provider": "Private rented sector",
-          "change_type": "Gain",
-          "unit_type": "HMO",
           "no_bedrooms": 6,
-          "gia": 172,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 172
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -153,7 +296,8 @@
       "no_homes_passive_cooling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_pm_emissions": 0,
-      "percentage_demolition_construction_material_recycling": 0
+      "percentage_demolition_construction_material_recycling": 0,
+      "urban_greening_factor_score": 0
     },
     "existing_uprns": null,
     "affordable_housing_fast_track": false,
@@ -167,11 +311,140 @@
     "total_gia_gained": 172,
     "ownership_status": "Private",
     "rain_water_harvesting": false,
-    "site_area": 0.02
+    "site_area": 0.02,
+    "occupation_status": "Occupied"
   },
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          [
+            0.061405,
+            51.446817
+          ],
+          [
+            0.061408,
+            51.44681
+          ],
+          [
+            0.061412,
+            51.446811
+          ],
+          [
+            0.061412,
+            51.446811
+          ],
+          [
+            0.061415,
+            51.446805
+          ],
+          [
+            0.061415,
+            51.446804
+          ],
+          [
+            0.061427,
+            51.446779
+          ],
+          [
+            0.061444,
+            51.44675
+          ],
+          [
+            0.06145,
+            51.446736
+          ],
+          [
+            0.061456,
+            51.446722
+          ],
+          [
+            0.061516,
+            51.446588
+          ],
+          [
+            0.061518,
+            51.446583
+          ],
+          [
+            0.061533,
+            51.446549
+          ],
+          [
+            0.061588,
+            51.446558
+          ],
+          [
+            0.061611,
+            51.446562
+          ],
+          [
+            0.061593,
+            51.446602
+          ],
+          [
+            0.061563,
+            51.446671
+          ],
+          [
+            0.061539,
+            51.446667
+          ],
+          [
+            0.061514,
+            51.446721
+          ],
+          [
+            0.061538,
+            51.446725
+          ],
+          [
+            0.061523,
+            51.446758
+          ],
+          [
+            0.061502,
+            51.446803
+          ],
+          [
+            0.061479,
+            51.446851
+          ],
+          [
+            0.061473,
+            51.446864
+          ],
+          [
+            0.061444,
+            51.446859
+          ],
+          [
+            0.061408,
+            51.446853
+          ],
+          [
+            0.061401,
+            51.446852
+          ],
+          [
+            0.061391,
+            51.44685
+          ],
+          [
+            0.061401,
+            51.446825
+          ],
+          [
+            0.061405,
+            51.446817
+          ]
+        ]
+      ]
+    ],
+    "type": "MultiPolygon"
+  },
   "id": "Greenwich-25_4154_F",
   "reference_no_of_permission_being_relied_on": null,
   "title_number": null,
-  "last_updated_by": "CSV Data Import"
+  "last_updated_by": "Planning Portal ingest"
 }

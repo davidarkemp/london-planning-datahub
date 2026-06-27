@@ -2,128 +2,136 @@
   "decision": "Refused",
   "last_date_consultation_comments": "06/03/2026",
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.154852,
-          51.433054
+          [
+            -0.154714,
+            51.433128
+          ],
+          [
+            -0.154852,
+            51.433054
+          ],
+          [
+            -0.154763,
+            51.432981
+          ],
+          [
+            -0.154673,
+            51.433033
+          ],
+          [
+            -0.154485,
+            51.433138
+          ],
+          [
+            -0.154573,
+            51.433203
+          ],
+          [
+            -0.154614,
+            51.433181
+          ],
+          [
+            -0.154714,
+            51.433128
+          ]
         ],
         [
-          -0.154714,
-          51.433128
-        ],
-        [
-          -0.154614,
-          51.433181
-        ],
-        [
-          -0.154573,
-          51.433203
-        ],
-        [
-          -0.154566,
-          51.433198
-        ],
-        [
-          -0.154485,
-          51.433138
-        ],
-        [
-          -0.154512,
-          51.433123
-        ],
-        [
-          -0.154631,
-          51.433056
-        ],
-        [
-          -0.154673,
-          51.433033
-        ],
-        [
-          -0.154751,
-          51.432988
-        ],
-        [
-          -0.154763,
-          51.432981
-        ],
-        [
-          -0.154852,
-          51.433054
-        ],
-        [
-          -0.154852,
-          51.433054
+          [
+            -0.154839,
+            51.433057
+          ],
+          [
+            -0.154811,
+            51.433069
+          ],
+          [
+            -0.154769,
+            51.433035
+          ],
+          [
+            -0.154797,
+            51.433022
+          ],
+          [
+            -0.154839,
+            51.433057
+          ]
         ]
       ]
     ]
   },
   "date_building_work_started_under_previous_permission": null,
   "ward": "Tooting Bec",
-  "site_number": "138",
+  "site_number": 138,
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              528359.8000125848,
-              172064.90032758034
+              [
+                528369.2,
+                172073.4
+              ],
+              [
+                528359.8,
+                172064.9
+              ],
+              [
+                528366.15,
+                172056.95
+              ],
+              [
+                528372.3,
+                172062.85
+              ],
+              [
+                528385.05,
+                172074.9
+              ],
+              [
+                528378.75,
+                172082
+              ],
+              [
+                528376,
+                172079.5
+              ],
+              [
+                528369.2,
+                172073.4
+              ]
             ],
             [
-              528369.1900125912,
-              172073.39032758237
-            ],
-            [
-              528376.0000125961,
-              172079.49032758444
-            ],
-            [
-              528378.7400125981,
-              172081.99032758403
-            ],
-            [
-              528379.2700125984,
-              172081.40032758407
-            ],
-            [
-              528385.0400126022,
-              172074.8903275836
-            ],
-            [
-              528383.2400126009,
-              172073.1903275831
-            ],
-            [
-              528375.1100125953,
-              172065.51032757905
-            ],
-            [
-              528372.3000125934,
-              172062.85032757954
-            ],
-            [
-              528367.0200125896,
-              172057.78032757732
-            ],
-            [
-              528366.140012589,
-              172056.9503275776
-            ],
-            [
-              528359.8000125848,
-              172064.90032758034
-            ],
-            [
-              528359.8000125848,
-              172064.90032758034
+              [
+                528360.7,
+                172065.25
+              ],
+              [
+                528362.6,
+                172066.7
+              ],
+              [
+                528365.6,
+                172062.9
+              ],
+              [
+                528363.7,
+                172061.45
+              ],
+              [
+                528360.7,
+                172065.25
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ]
   },
@@ -143,7 +151,7 @@
   "url_planning_app": "http://planning.wandsworth.gov.uk/Northgate/PlanningExplorer/DisplayAppDetails.aspx?AppNo=2026/0344",
   "application_details": {
     "surface_water_discharge_percentage_reduction": 100,
-    "site_area": 0.025140000000000003,
+    "site_area": 0.02514,
     "projected_cost_of_works": "Up to £2m",
     "garden_land_lost": true,
     "scheme_phasing": true,
@@ -165,7 +173,8 @@
       "no_new_water_connections_required": 1,
       "no_new_gas_connections_required": 1,
       "no_non_resi_units_to_have_full_fibre": 1,
-      "mobile_network_operators_consultation": false
+      "mobile_network_operators_consultation": false,
+      "urban_greening_factor_score": 0
     },
     "internal_resi_water_usage": 125,
     "ownership_status": "Private",
@@ -212,13 +221,19 @@
       "total_no_proposed_residential_units_social_rent": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 97.8,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 97.8
         }
       ],
       "total_no_existing_residential_units_london_shared_ownership": 0,
@@ -249,7 +264,8 @@
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_starter_homes": 0
     },
-    "rain_water_harvesting": true
+    "rain_water_harvesting": true,
+    "occupation_status": "Occupied"
   },
   "development_type": "Minor dwellings",
   "centroid_easting": 528374,
@@ -259,7 +275,7 @@
   "lpa_app_no": "2026/0344",
   "decision_process": null,
   "lapsed_date": "01/04/2029",
-  "uprn": "121018999",
+  "uprn": 121018999,
   "bo_system": "Northgate M3",
   "cil_liability": false,
   "street_name": "Tooting Bec Road",
@@ -275,13 +291,13 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": 172073,
-  "last_updated": "2026-04-01T12:20:01.875Z",
+  "last_updated": "2026-06-26T20:36:29.897Z",
   "centroid": {
     "lon": -0.154645,
     "lat": 51.433123
   },
   "subdivision_of_building": "PROPOSED SIDE VACANT GARDEN LAND DEVELOPMENT",
-  "last_updated_by": "Northgate M3",
+  "last_updated_by": "Planning Portal ingest",
   "title_number": null,
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
@@ -291,5 +307,5 @@
     "no_existing_car": 2,
     "net_car": 0
   },
-  "description": "Erection of a two storey dwellinghouse plus accommodation in basement with associated bicycle, waste storage and landscaping."
+  "description": "PROPOSED ERECTION OF A 2-BEDROOM HOUSE WITH BASEMENT LEVEL ALONG THE SIDE GARDEN LAND "
 }

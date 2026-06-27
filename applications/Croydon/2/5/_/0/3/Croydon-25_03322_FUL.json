@@ -103,7 +103,7 @@
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
   "epc_number": null,
-  "last_updated": "2026-06-18T22:09:06.488Z",
+  "last_updated": "2026-06-26T22:08:27.810Z",
   "centroid": {
     "lon": -0.107806,
     "lat": 51.383897
@@ -115,25 +115,25 @@
     "phasing_details": [
       {
         "phase_detail": "Phase 1",
-        "intended_commencement_date": "05/2026",
-        "intended_completion_date": "10/2027"
+        "intended_completion_date": "10/2027",
+        "intended_commencement_date": "05/2026"
       }
     ],
     "total_gia_gained": 300.2,
-    "site_area": 0.044750000000000005,
+    "site_area": 0.04475,
     "total_gia_existing": 285.6,
     "total_gia_lost": 285.6,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 142.8,
-        "use_class": "C3",
         "gia_gained": 157.2,
+        "use_class": "C3",
         "gia_lost": 142.8
       },
       {
         "gia_existing": 142.8,
-        "use_class": "F1",
         "gia_gained": 143,
+        "use_class": "F1",
         "gia_lost": 142.8
       }
     ],
@@ -197,14 +197,18 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 3,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
-          "gia": 95.62,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 95.62
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 1,
@@ -227,9 +231,11 @@
       "mobile_network_operators_consultation": true,
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 4,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "urban_greening_factor_score": 0
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "occupation_status": "Occupied"
   },
   "wgs84_polygon": {
     "coordinates": [

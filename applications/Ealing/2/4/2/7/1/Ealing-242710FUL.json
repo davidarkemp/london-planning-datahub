@@ -1,7 +1,7 @@
 {
   "application_type": "All Other",
   "valid_date": "12/07/2024",
-  "uprn": "000012139143",
+  "uprn": 12139143,
   "decision_target_date": "06/09/2024",
   "lpa_app_no": "242710FUL",
   "last_date_consultation_comments": "11/12/2024",
@@ -12,7 +12,7 @@
     "rain_water_harvesting": false,
     "affordable_housing_fast_track": false,
     "existing_uprns": null,
-    "site_area": 0.005,
+    "site_area": 0.0328,
     "total_gia_existing": 0,
     "total_gia_lost": 0,
     "scheme_phasing": true,
@@ -35,29 +35,42 @@
       "no_new_water_connections_required": 2,
       "no_homes_to_have_electrical_heating": 0,
       "no_new_gas_connections_required": 2,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "urban_greening_factor_score": 0
     },
     "surface_water_discharge_percentage_reduction": 0,
     "residential_details": {
       "total_no_existing_residential_units_intermediate": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Semi Detached Home",
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Semi Detached Home",
           "no_bedrooms": 2,
-          "gia": 76.1,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 76.1
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Semi Detached Home",
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Semi Detached Home",
           "no_bedrooms": 2,
-          "gia": 76.1,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 76.1
         }
       ],
       "total_no_proposed_residential_units": 2,
@@ -101,8 +114,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 0,
-        "use_class": "C3",
         "gia_gained": 152.2,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -117,13 +130,14 @@
     "phasing_details": [
       {
         "phase_detail": "1",
-        "intended_commencement_date": "07/2025",
-        "intended_completion_date": "07/2026"
+        "intended_completion_date": "07/2026",
+        "intended_commencement_date": "07/2025"
       }
     ],
-    "internal_resi_water_usage": 0
+    "internal_resi_water_usage": 0,
+    "occupation_status": "Occupied"
   },
-  "borough": "London Borough of Ealing",
+  "borough": "Ealing",
   "application_type_full": "Full planning permission",
   "cil_liability": true,
   "date_building_work_started_under_previous_permission": null,
@@ -131,12 +145,19 @@
   "bo_system": "Idox Uniform",
   "polygon": null,
   "appeal_status": null,
-  "parking_details": null,
-  "centroid": {
-    "lon": -7.55716,
-    "lat": 49.766807
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 0,
+    "net_car": 2,
+    "no_proposed_cycle": 10,
+    "no_proposed_car": 2,
+    "net_cycle": 10
   },
-  "locality": null,
+  "centroid": {
+    "lon": -0.338152,
+    "lat": 51.504292
+  },
+  "locality": "Hanwell",
   "secondary_street_name": null,
   "decision_conditions": [
     "Standard Cond - Expiration Three Years",
@@ -151,31 +172,57 @@
     "Materials"
   ],
   "decision_agency": null,
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.33813,
+          51.504305
+        ],
+        [
+          -0.338131,
+          51.504278
+        ],
+        [
+          -0.338174,
+          51.504278
+        ],
+        [
+          -0.338173,
+          51.504305
+        ],
+        [
+          -0.33813,
+          51.504305
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
-  "postcode": null,
+  "postcode": "W7 2EW",
   "epc_number": null,
   "decision": "Approved",
   "id": "Ealing-242710FUL",
   "lpa_name": "Ealing",
   "actual_commencement_date": null,
-  "site_name": "Rosebank Yard \rRosebank Road\rHanwell\rW7 2EW",
+  "site_name": "Rosebank Yard",
   "url_planning_app": null,
   "pp_id": "PP-13233093",
   "decision_process": null,
-  "centroid_easting": null,
-  "last_updated": "2026-06-20T04:01:29.845Z",
+  "centroid_easting": 515439,
+  "last_updated": "2026-06-26T05:03:34.690Z",
   "appeal_decision_date": null,
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "site_number": null,
-  "centroid_northing": null,
+  "centroid_northing": 179682,
   "development_type": null,
-  "description": "Construction of two dwellinghouses with provision of cycle storage, bin storage, amenity space, and hard and soft landscaping.",
+  "description": "Erection of resdential development, associated car parking and landscaping.",
   "status": "Approved",
   "actual_completion_date": null,
   "appeal_start_date": null,
-  "street_name": null,
+  "street_name": "Rosebank Road",
   "title_number": []
 }

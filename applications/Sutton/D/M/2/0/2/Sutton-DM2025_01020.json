@@ -1,8 +1,8 @@
 {
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "development_type": "Minor dwellings",
   "decision_target_date": "15/01/2026",
-  "site_number": "44",
+  "site_number": 44,
   "centroid_easting": 530410,
   "postcode": "CR0 4PT",
   "lpa_name": "Sutton",
@@ -22,8 +22,8 @@
     "phasing_details": [
       {
         "phase_detail": "Single Phase",
-        "intended_commencement_date": "08/2025",
-        "intended_completion_date": "10/2025"
+        "intended_completion_date": "10/2025",
+        "intended_commencement_date": "08/2025"
       }
     ],
     "affordable_housing_fast_track": false,
@@ -65,7 +65,7 @@
       "no_passive_other_ev_charging_points": 0,
       "ghg_reduction_over_building_regulations": false
     },
-    "site_area": 205,
+    "site_area": 0.0205,
     "residential_details": {
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -107,38 +107,30 @@
       "total_no_proposed_residential_units_shared_equity": 0
     },
     "ownership_status": "Private",
-    "total_gia_lost": 0,
+    "total_gia_lost": 205,
     "constraints_details": [
       {
-        "result": null,
         "constraints_layer_description": "SMKCON Smoke Control Zone"
       },
       {
-        "result": null,
         "constraints_layer_description": "ART4 Article 4 Direction - Boroughwide HMO Restriction"
       },
       {
-        "result": null,
         "constraints_layer_description": "PLAHIS Planning Application Reference: DM2025/01020--- Address: 44 Cedars Road\rBeddington\rCR0 4PT\r--- Proposal: Change of use from Class C3(a) (dwellinghouse) to Class C3(b) (Supported Living), provision of enclosed water tank system and alterations to fenestrations.--- Status: REC--- Decision: --- Date Decision Issued: ---"
       },
       {
-        "result": null,
         "constraints_layer_description": "FL3 Type: Fluvial Models"
       },
       {
-        "result": null,
         "constraints_layer_description": "ARCH "
       },
       {
-        "result": null,
         "constraints_layer_description": "FLOOD "
       },
       {
-        "result": null,
         "constraints_layer_description": "GREENC "
       },
       {
-        "result": null,
         "constraints_layer_description": "SINCBU "
       }
     ],
@@ -147,23 +139,20 @@
       "other_resi_accommodation_unit_details": [
         {
           "no_bedrooms_for_older_persons_c2": 0,
-          "no_bedrooms_for_older_persons_sg": 0
-        },
-        {
           "no_rooms_proposed": 0,
-          "unit_type": "Care Home Bedroom",
+          "unit_type": "ResidentialCareHomeRoom",
           "no_rooms_lost": 3
         }
       ]
     },
-    "total_gia_existing": 0,
+    "total_gia_existing": 205,
     "commencement_notice_received": false,
     "internal_resi_water_usage": 140,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 205,
-        "use_class": "Other",
         "gia_gained": 0,
+        "use_class": "Other",
         "gia_lost": 205
       }
     ],
@@ -185,85 +174,90 @@
     "existing_uprns": [
       "005870099888"
     ],
-    "s106_agreement": false
+    "s106_agreement": false,
+    "scheme_phasing": true,
+    "total_gia_gained": 0,
+    "occupation_status": "Vacant"
   },
   "status": "Approved",
   "epc_number": "9975-2894-6598-9025-3915",
   "appeal_decision": null,
   "appeal_start_date": null,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.127748,
-          51.369728
-        ],
-        [
-          -0.127646,
-          51.36973
-        ],
-        [
-          -0.12766,
-          51.369776
-        ],
-        [
-          -0.127672,
-          51.369816
-        ],
-        [
-          -0.127677,
-          51.369833
-        ],
-        [
-          -0.127898,
-          51.36984
-        ],
-        [
-          -0.127899,
-          51.36984
-        ],
-        [
-          -0.127931,
-          51.369842
-        ],
-        [
-          -0.12804,
-          51.369845
-        ],
-        [
-          -0.128088,
-          51.369809
-        ],
-        [
-          -0.128031,
-          51.369781
-        ],
-        [
-          -0.127945,
-          51.369739
-        ],
-        [
-          -0.12794,
-          51.369737
-        ],
-        [
-          -0.127897,
-          51.369726
-        ],
-        [
-          -0.127748,
-          51.369728
+          [
+            -0.127672,
+            51.369816
+          ],
+          [
+            -0.127677,
+            51.369833
+          ],
+          [
+            -0.127898,
+            51.36984
+          ],
+          [
+            -0.127899,
+            51.36984
+          ],
+          [
+            -0.127931,
+            51.369842
+          ],
+          [
+            -0.12804,
+            51.369845
+          ],
+          [
+            -0.128088,
+            51.369809
+          ],
+          [
+            -0.128031,
+            51.369781
+          ],
+          [
+            -0.127945,
+            51.369739
+          ],
+          [
+            -0.12794,
+            51.369737
+          ],
+          [
+            -0.127897,
+            51.369726
+          ],
+          [
+            -0.127748,
+            51.369728
+          ],
+          [
+            -0.127646,
+            51.36973
+          ],
+          [
+            -0.12766,
+            51.369776
+          ],
+          [
+            -0.127672,
+            51.369816
+          ]
         ]
       ]
     ]
   },
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "last_date_consultation_comments": "15/12/2025",
   "borough": "Sutton",
   "pp_id": "PP-14225275",
   "url_planning_app": "https://planningregister.sutton.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=T0GL5JKCKHQ00",
-  "last_updated": "2026-01-16T21:00:48.018Z",
+  "last_updated": "2026-06-26T21:24:01.067Z",
   "site_name": null,
   "valid_date": "20/11/2025",
   "decision_process": "Delegated",
@@ -278,82 +272,84 @@
   "decision_date": "15/01/2026",
   "bo_system": "Idox Uniform",
   "ward": "Beddington",
-  "locality": null,
+  "locality": "Beddington",
   "lpa_app_no": "DM2025/01020",
   "appeal_status": null,
   "street_name": "Cedars Road",
-  "uprn": "005870099888",
+  "uprn": 5870099888,
   "polygon": {
     "geometries": [
       {
         "coordinates": [
           [
             [
-              530423.6,
-              165070.800000001
-            ],
-            [
-              530430.7,
-              165071.199999999
-            ],
-            [
-              530429.6,
-              165076.300000001
-            ],
-            [
-              530428.65,
-              165080.699999999
-            ],
-            [
-              530428.25,
-              165082.5
-            ],
-            [
-              530412.843,
-              165082.979
-            ],
-            [
-              530412.8,
-              165082.98
-            ],
-            [
-              530410.55,
-              165083.050000001
-            ],
-            [
-              530402.95,
-              165083.25
-            ],
-            [
-              530399.7,
-              165079.15
-            ],
-            [
-              530403.8,
-              165076.1
-            ],
-            [
-              530409.9,
-              165071.65
-            ],
-            [
-              530410.25,
-              165071.4
-            ],
-            [
-              530413.25,
-              165070.300000001
-            ],
-            [
-              530423.6,
-              165070.800000001
+              [
+                530428.65,
+                165080.7
+              ],
+              [
+                530428.25,
+                165082.5
+              ],
+              [
+                530412.843,
+                165082.979
+              ],
+              [
+                530412.8,
+                165082.98
+              ],
+              [
+                530410.55,
+                165083.05
+              ],
+              [
+                530402.95,
+                165083.25
+              ],
+              [
+                530399.7,
+                165079.15
+              ],
+              [
+                530403.8,
+                165076.1
+              ],
+              [
+                530409.9,
+                165071.65
+              ],
+              [
+                530410.25,
+                165071.4
+              ],
+              [
+                530413.25,
+                165070.3
+              ],
+              [
+                530423.6,
+                165070.8
+              ],
+              [
+                530430.7,
+                165071.2
+              ],
+              [
+                530429.6,
+                165076.3
+              ],
+              [
+                530428.65,
+                165080.7
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
-    "type": "geometrycollection"
+    "type": "GeometryCollection"
   },
   "lapsed_date": "15/01/2029",
   "title_number": null,
@@ -361,7 +357,7 @@
   "decision": "Approved",
   "actual_commencement_date": null,
   "subdivision_of_building": null,
-  "description": "Conversion of property into 3 supported living units (Class C3(b)) and alterations to fenestrations.",
+  "description": "Change of use from a single residential property formed of 6 Bedroom supported living accommodation for 6 residents - in to 3 apartments to\ngive 3 residents a better level of independence and a better quality of supported living accommodation.",
   "parking_details": {
     "no_proposed_car": 2,
     "net_car": 0,

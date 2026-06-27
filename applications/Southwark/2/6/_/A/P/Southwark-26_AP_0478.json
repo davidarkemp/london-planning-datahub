@@ -2,109 +2,113 @@
   "decision": null,
   "last_date_consultation_comments": "27/05/2026",
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.045023,
-          51.491597
-        ],
-        [
-          -0.045022,
-          51.491606
-        ],
-        [
-          -0.045062,
-          51.491697
-        ],
-        [
-          -0.045178,
-          51.491681
-        ],
-        [
-          -0.045178,
-          51.491672
-        ],
-        [
-          -0.045193,
-          51.491663
-        ],
-        [
-          -0.045208,
-          51.491654
-        ],
-        [
-          -0.045167,
-          51.491582
-        ],
-        [
-          -0.045023,
-          51.491597
+          [
+            -0.045023,
+            51.491598
+          ],
+          [
+            -0.045026,
+            51.491607
+          ],
+          [
+            -0.045056,
+            51.491699
+          ],
+          [
+            -0.045171,
+            51.491679
+          ],
+          [
+            -0.045175,
+            51.491675
+          ],
+          [
+            -0.045186,
+            51.491665
+          ],
+          [
+            -0.045202,
+            51.49165
+          ],
+          [
+            -0.045174,
+            51.491579
+          ],
+          [
+            -0.045023,
+            51.491598
+          ]
         ]
       ]
     ]
   },
   "date_building_work_started_under_previous_permission": null,
   "ward": "ROTH",
-  "site_number": null,
+  "site_number": 3,
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              535820,
-              178773
-            ],
-            [
-              535820,
-              178774
-            ],
-            [
-              535817,
-              178784
-            ],
-            [
-              535809,
-              178782
-            ],
-            [
-              535809,
-              178781
-            ],
-            [
-              535808,
-              178780
-            ],
-            [
-              535807,
-              178779
-            ],
-            [
-              535810,
-              178771
-            ],
-            [
-              535820,
-              178773
+              [
+                535820,
+                178773.05
+              ],
+              [
+                535819.75,
+                178774.05
+              ],
+              [
+                535817.4,
+                178784.2
+              ],
+              [
+                535809.465,
+                178781.847
+              ],
+              [
+                535809.184,
+                178781.396
+              ],
+              [
+                535808.453,
+                178780.222
+              ],
+              [
+                535807.425,
+                178778.572
+              ],
+              [
+                535809.536,
+                178770.687
+              ],
+              [
+                535820,
+                178773.05
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ]
   },
   "appeal_status": null,
   "application_type_full": "Full planning permission",
-  "borough": "London Borough of Southwark",
+  "borough": "Southwark",
   "lpa_name": "Southwark",
-  "postcode": null,
+  "postcode": "SE16 2AH",
   "appeal_start_date": null,
   "appeal_decision_date": null,
   "status": "Application Under Consideration",
   "valid_date": "23/02/2026",
-  "site_name": "Nordic Court\r3 Rotherhithe New Road\rLondon\rSouthwark\rSE16 2AH",
+  "site_name": "Nordic Court",
   "decision_date": null,
   "pp_id": "PP-14668153",
   "actual_completion_date": null,
@@ -152,14 +156,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 55,
-        "use_class": "EC2",
         "gia_gained": 0,
+        "use_class": "EC2",
         "gia_lost": 0
       },
       {
         "gia_existing": 463,
-        "use_class": "C3",
         "gia_gained": 110,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -167,8 +171,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire development",
-        "intended_commencement_date": "07/2026",
-        "intended_completion_date": "01/2027"
+        "intended_completion_date": "01/2027",
+        "intended_commencement_date": "07/2026"
       }
     ],
     "total_gia_gained": 110,
@@ -190,20 +194,32 @@
       "total_no_proposed_residential_units_social_rent": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "tenure": "London Living Rent",
           "gia": 44
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "tenure": "London Living Rent",
           "gia": 44
         }
@@ -236,38 +252,43 @@
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_starter_homes": 0
     },
-    "rain_water_harvesting": false
+    "rain_water_harvesting": false,
+    "occupation_status": "Occupied"
   },
   "development_type": null,
-  "centroid_easting": null,
+  "centroid_easting": 535813,
   "decision_target_date": "19/04/2026",
   "decision_agency": null,
   "actual_commencement_date": null,
   "lpa_app_no": "26/AP/0478",
   "decision_process": null,
   "lapsed_date": null,
-  "uprn": "010094086365",
+  "uprn": 10094086365,
   "bo_system": "Idox Uniform",
   "cil_liability": true,
-  "street_name": null,
-  "locality": null,
+  "street_name": "Rotherhithe New Road",
+  "locality": "London",
   "application_type": "All Other",
   "epc_number": null,
   "decision_conditions": null,
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
-  "centroid_northing": null,
-  "last_updated": "2026-05-12T20:01:23.539Z",
+  "centroid_northing": 178776,
+  "last_updated": "2026-06-26T08:51:25.047Z",
   "centroid": {
-    "lon": -7.55716,
-    "lat": 49.766807
+    "lon": -0.045122,
+    "lat": 51.491626
   },
-  "subdivision_of_building": null,
-  "last_updated_by": "Idox Uniform",
+  "subdivision_of_building": "Rooftop extension - fourth floor",
+  "last_updated_by": "Planning Portal ingest",
   "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "id": "Southwark-26_AP_0478",
-  "parking_details": null,
-  "description": "Erection of a rooftop extension set back behind the parapet wall to form fourth-floor residential accommodation comprising one studio and one one-bedroom flat."
+  "parking_details": {
+    "no_existing_cycle": 6,
+    "no_proposed_cycle": 8,
+    "net_cycle": 2
+  },
+  "description": "Erection of rooftop extension set back behind parapet wall to form fourth floor residential accommodation comprising of 1 Studio and 1 bed Flat."
 }

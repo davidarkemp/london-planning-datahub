@@ -77,9 +77,9 @@
   "centroid_northing": 165256,
   "reference_no_of_permission_being_relied_on": null,
   "actual_commencement_date": null,
-  "last_updated": "2026-06-17T17:01:55.773Z",
+  "last_updated": "2026-06-26T17:01:53.056Z",
   "description": "Conversion of garage to form additional bedroom in existing HMO (Use Class Sui Generis) and changes to front fenestration",
-  "subdivision_of_building": null,
+  "subdivision_of_building": "Ground floor only ",
   "epc_number": "2436-3042-9201-4514-4200",
   "url_planning_app": "https://publicaccess.kingston.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFE9CZNHGYL00",
   "borough": "Kingston",
@@ -92,7 +92,7 @@
   "last_date_consultation_comments": null,
   "title_number": null,
   "appeal_status": null,
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "development_type": "Minor all other minor developments",
   "decision_target_date": "04/08/2026",
   "lpa_name": "Kingston",
@@ -111,7 +111,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -175,7 +174,8 @@
               165248.05
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -186,16 +186,20 @@
   "actual_completion_date": null,
   "pp_id": "PP-14951593",
   "decision_agency": null,
-  "parking_details": null,
-  "locality": null,
+  "parking_details": {
+    "no_existing_car": 1,
+    "net_car": 0,
+    "no_proposed_car": 1
+  },
+  "locality": "Tolworth",
   "id": "Kingston-26_01090_FUL",
   "application_details": {
     "existing_proposed_floorspace_details": [
       {
-        "gia_lost": 0,
-        "use_class": "SG",
+        "gia_existing": 149.65,
         "gia_gained": 12.3,
-        "gia_existing": 149.65
+        "use_class": "SG",
+        "gia_lost": 0
       }
     ],
     "open_and_protected_space_details": {
@@ -314,9 +318,9 @@
     "grey_water_reuse": false,
     "phasing_details": [
       {
-        "intended_commencement_date": "06/2026",
+        "phase_detail": "Garage Conversion ",
         "intended_completion_date": "07/2026",
-        "phase_detail": "Garage Conversion "
+        "intended_commencement_date": "06/2026"
       }
     ],
     "affordable_housing_fast_track": false,
@@ -344,6 +348,9 @@
       "ghg_reduction_over_building_regulations": false,
       "no_homes_to_have_electrical_heating": 0,
       "no_active_other_ev_charging_points": 0
-    }
+    },
+    "scheme_phasing": true,
+    "total_gia_gained": 12.3,
+    "occupation_status": "Occupied"
   }
 }

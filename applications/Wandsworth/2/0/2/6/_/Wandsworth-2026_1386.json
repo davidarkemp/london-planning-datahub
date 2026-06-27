@@ -1,12 +1,20 @@
 {
   "decision_target_date": "22/06/2026",
-  "last_updated_by": "Northgate M3",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Minor dwellings",
   "postcode": "SW18 3QP",
-  "title_number": null,
-  "application_details": {},
+  "title_number": [
+    "TGL620699"
+  ],
+  "application_details": {
+    "total_gia_gained": 8.6,
+    "no_additional_bathrooms": 0,
+    "no_additional_bedrooms": 0,
+    "intended_completion_date": "07/2027",
+    "intended_commencement_date": "08/2026"
+  },
   "decision_date": "16/06/2026",
   "url_planning_app": "http://planning.wandsworth.gov.uk/Northgate/PlanningExplorer/DisplayAppDetails.aspx?AppNo=2026/1386",
   "borough": "Wandsworth",
@@ -14,12 +22,12 @@
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Northgate M3",
   "parking_details": null,
-  "site_name": "Flat B",
+  "site_name": "103 Flat B",
   "epc_number": null,
   "pp_id": "14661952",
   "subdivision_of_building": null,
   "status": "Approved",
-  "description": "Alterations including erection of extension above part of two-storey back addition  and formation of roof terrace above two-storey back addition with 1.7m high screen surround.",
+  "description": "Alterations including rear loft extension with formation of a 1.7m privacy screened roof terrace.",
   "decision_conditions": [
     "Condition : 1 - The development hereby permitted shall be begun within 3 years from the date of this permission.\r\nReason: To prevent the accumulation of unimplemented planning permissions and to comply with Section 91 of the Town and Country Planning Act 1990 (as amended) and to meet the requirements of Section 51 of the Planning and Compulsory Purchase Act 2004 and to meet the requirements of The Town and Country Planning (Development Management Procedure) (England) Order 2015.\r\n",
     "Condition : 2 - The development shall be carried out in accordance with the reports, specifications and drawings detailed Drawing titled 'Proposed Plans'; Drawing titled 'Proposed Elevations'; Drawing titled 'Existing & Proposed Sections'.\r\nReason: To ensure a satisfactory standard of development and to allow the local planning authority to review any potential changes to the scheme. \r\n",
@@ -28,11 +36,11 @@
     "Condition : 5 - INFORMATIVE: In dealing with this application the Council has implemented the requirement in the National Planning Policy Framework to work with the applicant in a positive and proactive manner and the Council has, as far as practicable, sought solutions to problems arising in relation to dealing with the planning application. The Council has made available detailed advice in the form of its statutory policies in the Local Plan (2023) as well as offering a full pre-application advice service, in order to ensure that the applicant has been given every opportunity to submit an application which is likely to be considered favourably. In addition, where appropriate, further guidance was offered to the applicant during the processing of the application."
   ],
   "site_number": null,
-  "last_updated": "2026-06-16T14:50:03.609Z",
+  "last_updated": "2026-06-26T11:08:22.000Z",
   "last_date_consultation_comments": "20/05/2026",
   "valid_date": "27/04/2026",
   "actual_commencement_date": null,
-  "centroid_northing": 172776,
+  "centroid_northing": 172774,
   "appeal_decision": null,
   "decision_agency": "Borough",
   "lpa_app_no": "2026/1386",
@@ -40,74 +48,96 @@
   "decision": "Approved",
   "id": "Wandsworth-2026_1386",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              526370.9500112955,
-              172785.90032781876
-            ],
-            [
-              526352.2500112837,
-              172774.14032781654
-            ],
-            [
-              526345.5900112794,
-              172769.99032781518
-            ],
-            [
-              526343.0000112779,
-              172768.3403278151
-            ],
-            [
-              526342.4900112776,
-              172769.19032781478
-            ],
-            [
-              526342.4500112775,
-              172769.27032781462
-            ],
-            [
-              526339.7500112759,
-              172773.64032781695
-            ],
-            [
-              526342.3000112775,
-              172775.19032781705
-            ],
-            [
-              526354.5500112853,
-              172782.79032781965
-            ],
-            [
-              526367.7500112936,
-              172791.00032782083
-            ],
-            [
-              526368.470011294,
-              172789.8503278214
-            ],
-            [
-              526368.7000112941,
-              172789.5003278223
-            ],
-            [
-              526370.2500112951,
-              172787.00032782066
-            ],
-            [
-              526370.9500112955,
-              172785.90032781876
-            ],
-            [
-              526370.9500112955,
-              172785.90032781876
+              [
+                526364.848,
+                172789.197
+              ],
+              [
+                526363.014,
+                172788.058
+              ],
+              [
+                526362.235,
+                172787.574
+              ],
+              [
+                526357.828,
+                172784.837
+              ],
+              [
+                526355.992,
+                172783.696
+              ],
+              [
+                526354.55,
+                172782.8
+              ],
+              [
+                526342.3,
+                172775.2
+              ],
+              [
+                526339.75,
+                172773.65
+              ],
+              [
+                526342.5,
+                172769.2
+              ],
+              [
+                526343,
+                172768.35
+              ],
+              [
+                526345.6,
+                172770
+              ],
+              [
+                526352.25,
+                172774.15
+              ],
+              [
+                526354.921,
+                172775.828
+              ],
+              [
+                526361.062,
+                172779.687
+              ],
+              [
+                526369.073,
+                172784.721
+              ],
+              [
+                526370.95,
+                172785.9
+              ],
+              [
+                526370.25,
+                172787
+              ],
+              [
+                526368.7,
+                172789.5
+              ],
+              [
+                526367.75,
+                172791
+              ],
+              [
+                526364.848,
+                172789.197
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ]
   },
@@ -120,80 +150,102 @@
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": false,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.18319,
-          51.43998
-        ],
-        [
-          -0.183463,
-          51.439879
-        ],
-        [
-          -0.18356,
-          51.439843
-        ],
-        [
-          -0.183598,
-          51.439829
-        ],
-        [
-          -0.183605,
-          51.439836
-        ],
-        [
-          -0.183606,
-          51.439837
-        ],
-        [
-          -0.183643,
-          51.439877
-        ],
-        [
-          -0.183606,
-          51.43989
-        ],
-        [
-          -0.183427,
-          51.439956
-        ],
-        [
-          -0.183234,
-          51.440027
-        ],
-        [
-          -0.183224,
-          51.440016
-        ],
-        [
-          -0.183221,
-          51.440013
-        ],
-        [
-          -0.1832,
-          51.43999
-        ],
-        [
-          -0.18319,
-          51.43998
-        ],
-        [
-          -0.18319,
-          51.43998
+          [
+            -0.183277,
+            51.440011
+          ],
+          [
+            -0.183303,
+            51.440001
+          ],
+          [
+            -0.183315,
+            51.439997
+          ],
+          [
+            -0.183379,
+            51.439974
+          ],
+          [
+            -0.183406,
+            51.439964
+          ],
+          [
+            -0.183427,
+            51.439956
+          ],
+          [
+            -0.183606,
+            51.43989
+          ],
+          [
+            -0.183643,
+            51.439877
+          ],
+          [
+            -0.183605,
+            51.439836
+          ],
+          [
+            -0.183598,
+            51.439829
+          ],
+          [
+            -0.18356,
+            51.439843
+          ],
+          [
+            -0.183463,
+            51.439879
+          ],
+          [
+            -0.183424,
+            51.439893
+          ],
+          [
+            -0.183334,
+            51.439927
+          ],
+          [
+            -0.183217,
+            51.43997
+          ],
+          [
+            -0.18319,
+            51.43998
+          ],
+          [
+            -0.1832,
+            51.43999
+          ],
+          [
+            -0.183221,
+            51.440013
+          ],
+          [
+            -0.183234,
+            51.440027
+          ],
+          [
+            -0.183277,
+            51.440011
+          ]
         ]
       ]
     ]
   },
-  "uprn": "121046761",
-  "application_type": "All Other",
+  "uprn": 121046761,
+  "application_type": "Householder",
   "centroid": {
-    "lat": 51.439896,
-    "lon": -0.183509
+    "lat": 51.439879,
+    "lon": -0.183553
   },
   "lapsed_date": "16/06/2029",
-  "application_type_full": null,
-  "centroid_easting": 526349,
+  "application_type_full": "Householder planning permission",
+  "centroid_easting": 526346,
   "actual_completion_date": null
 }

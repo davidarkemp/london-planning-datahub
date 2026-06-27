@@ -10,10 +10,10 @@
   "lpa_app_no": "P2025/1930/FUL",
   "site_number": "25",
   "ward": null,
-  "locality": null,
+  "locality": "London",
   "last_date_consultation_comments": "06/09/2025",
   "date_building_work_started_under_previous_permission": null,
-  "description": "Erection of rear dormer with associated alterations and three front rooflights",
+  "description": "Erection of rear dormer",
   "parking_details": {},
   "postcode": "N5 2SL",
   "appeal_status": null,
@@ -21,7 +21,7 @@
   "date_building_work_completed_under_previous_permission": null,
   "pp_id": "PP-14152045",
   "status": "Approved",
-  "last_updated_by": "Agile APAS",
+  "last_updated_by": "Planning Portal ingest",
   "polygon": {
     "coordinates": [
       [
@@ -71,34 +71,115 @@
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "GeometryCollection",
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                532609.4,
+                185432.8
+              ],
+              [
+                532607.35,
+                185419.8
+              ],
+              [
+                532606.75,
+                185415.5
+              ],
+              [
+                532607.55,
+                185415.4
+              ],
+              [
+                532612.1,
+                185414.7
+              ],
+              [
+                532612.8,
+                185419
+              ],
+              [
+                532614,
+                185427.15
+              ],
+              [
+                532614.75,
+                185432.05
+              ],
+              [
+                532614.3,
+                185446.25
+              ],
+              [
+                532608.9,
+                185447.15
+              ],
+              [
+                532609.4,
+                185432.8
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ]
   },
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.088695,
-          51.55214
-        ],
-        [
-          -0.088696,
-          51.552113
-        ],
-        [
-          -0.088739,
-          51.552114
-        ],
-        [
-          -0.088738,
-          51.552141
-        ],
-        [
-          -0.088695,
-          51.55214
+          [
+            -0.088736,
+            51.552207
+          ],
+          [
+            -0.088771,
+            51.55209
+          ],
+          [
+            -0.088781,
+            51.552052
+          ],
+          [
+            -0.08877,
+            51.552051
+          ],
+          [
+            -0.088704,
+            51.552043
+          ],
+          [
+            -0.088693,
+            51.552082
+          ],
+          [
+            -0.088672,
+            51.552155
+          ],
+          [
+            -0.08866,
+            51.552199
+          ],
+          [
+            -0.088661,
+            51.552326
+          ],
+          [
+            -0.088738,
+            51.552336
+          ],
+          [
+            -0.088736,
+            51.552207
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "appeal_decision_date": null,
   "secondary_street_name": null,
@@ -112,26 +193,79 @@
   "decision_target_date": "18/09/2025",
   "valid_date": "25/07/2025",
   "development_type": null,
-  "last_updated": "2026-02-03T00:00:38.457Z",
-  "subdivision_of_building": null,
+  "last_updated": "2026-06-26T23:07:12.938Z",
+  "subdivision_of_building": "1st and 2nd floors",
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
     "lat": 51.552127,
     "lon": -0.088717
   },
   "decision_process": null,
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "decision_agency": null,
   "street_name": "Poets Road",
   "appeal_decision": null,
   "title_number": null,
-  "site_name": null,
+  "site_name": "25 Flat C",
   "appeal_start_date": null,
   "application_details": {
     "lead_developer_company_name": "Councillor Jenny Kay",
-    "site_area": 0.017
+    "site_area": 0.0173,
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "Entire Development",
+        "intended_completion_date": "11/2025",
+        "intended_commencement_date": "08/2025"
+      }
+    ],
+    "total_gia_gained": 6,
+    "total_gia_lost": 0,
+    "total_gia_existing": 74,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 74,
+        "gia_gained": 6,
+        "use_class": "C3",
+        "gia_lost": 0
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied",
+    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "surface_water_discharge_percentage_reduction": 0,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 6,
+      "total_gia_lost": 0,
+      "total_gia_existing": 74
+    },
+    "garden_land_lost": false,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 0,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 35,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 0,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "internal_resi_water_usage": 0,
+    "ownership_status": "Private"
   },
   "epc_number": null,
-  "uprn": "5300074886",
+  "uprn": 5300074886,
   "actual_completion_date": null
 }

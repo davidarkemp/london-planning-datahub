@@ -95,7 +95,7 @@
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
   "epc_number": null,
-  "last_updated": "2026-06-02T20:01:10.393Z",
+  "last_updated": "2026-06-26T20:00:34.434Z",
   "centroid": {
     "lon": -7.55716,
     "lat": 49.766807
@@ -118,8 +118,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 38.2,
-        "use_class": "C3",
         "gia_gained": 36.35,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -176,11 +176,17 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "provider": "Private",
-          "no_habitable_rooms": 2,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
           "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 75
         }
@@ -203,9 +209,11 @@
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "urban_greening_factor_score": 0
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "occupation_status": "Occupied"
   },
   "wgs84_polygon": {
     "coordinates": [

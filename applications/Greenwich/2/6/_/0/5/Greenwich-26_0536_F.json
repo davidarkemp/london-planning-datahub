@@ -6,27 +6,27 @@
   "appeal_decision": null,
   "lapsed_date": "16/04/2029",
   "appeal_decision_date": null,
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Planning Portal ingest",
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": null,
-  "last_updated": "2026-06-22T22:03:48.133Z",
+  "last_updated": "2026-06-26T10:11:36.054Z",
   "url_planning_app": "https://planning.royalgreenwich.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=_GRNW_DCAPR_127730&activeTab=summary",
-  "street_name": null,
+  "street_name": "Parkdale Road",
   "parking_details": null,
   "ward": "PLUMSTEAD & GLYNDON",
   "bo_system": "CSV Data Import",
   "site_name": "109 PARKDALE ROAD, PLUMSTEAD, LONDON, SE18 1RW",
-  "site_number": null,
+  "site_number": 109,
   "application_details": {
-    "site_area": 0.010690000000000002,
+    "site_area": 0.01069,
     "total_gia_existing": 99.49,
     "ownership_status": "Private",
     "existing_uprns": null,
     "phasing_details": [
       {
         "phase_detail": "change of use",
-        "intended_commencement_date": "04/2026",
-        "intended_completion_date": "05/2026"
+        "intended_completion_date": "05/2026",
+        "intended_commencement_date": "04/2026"
       }
     ],
     "garden_land_lost": false,
@@ -34,8 +34,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 99.49,
-        "use_class": "C3",
         "gia_gained": 119.93,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -55,7 +55,8 @@
       "mobile_network_operators_consultation": false,
       "ghg_reduction_over_building_regulations": false,
       "fire_suppression_system_proposed": false,
-      "total_annual_nox_emissions": 0
+      "total_annual_nox_emissions": 0,
+      "urban_greening_factor_score": 0
     },
     "rain_water_harvesting": false,
     "projected_cost_of_works": "Up to £2m",
@@ -101,22 +102,33 @@
       "total_no_proposed_residential_units_affordable_rent": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 4,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Terraced Home",
           "no_bedrooms": 3,
+          "unit_type": "Terraced Home",
           "provision_for_older_persons": false,
+          "tenure": "IntermediateOther",
           "gia": 99.49
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "HMO",
           "no_habitable_rooms": 6,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "HMO",
           "no_bedrooms": 6,
-          "gia": 119.93,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 119.93
         }
       ]
     },
@@ -130,12 +142,13 @@
     "affordable_housing_fast_track": false,
     "grey_water_reuse": false,
     "total_gia_lost": 0,
-    "surface_water_discharge_percentage_reduction": 0
+    "surface_water_discharge_percentage_reduction": 0,
+    "occupation_status": "Occupied"
   },
-  "uprn": "100020992472",
-  "locality": null,
+  "uprn": 100020992472,
+  "locality": "Plumstead",
   "date_building_work_started_under_previous_permission": null,
-  "postcode": null,
+  "postcode": "SE18 1RW",
   "valid_date": "19/02/2026",
   "cil_liability": false,
   "actual_completion_date": null,
@@ -147,11 +160,72 @@
   "application_type_full": "Full planning permission",
   "pp_id": "PP-14712553",
   "lpa_app_no": "26/0536/F",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                545131.5,
+                178119.45
+              ],
+              [
+                545138.5,
+                178116.2
+              ],
+              [
+                545150.9,
+                178110.4
+              ],
+              [
+                545151.1,
+                178111.4
+              ],
+              [
+                545151.4,
+                178112.85
+              ],
+              [
+                545151.9,
+                178115.2
+              ],
+              [
+                545144.29,
+                178118.656
+              ],
+              [
+                545140.45,
+                178120.4
+              ],
+              [
+                545133.45,
+                178123.55
+              ],
+              [
+                545131.45,
+                178124.5
+              ],
+              [
+                545129.55,
+                178120.35
+              ],
+              [
+                545131.5,
+                178119.45
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "id": "Greenwich-26_0536_F",
   "appeal_status": null,
   "appeal_start_date": null,
-  "description": "Change of use from an existing dwelling house (Use Class C3) to a 6-bed, 6-person HMO (Use Class C4), in addition to the erection of a rear dormer extension, provision of refuse and cycle storage, and all other associated works (amended description).",
+  "description": "Change of Use from Use Class C3 (Single Dwellinghouse) to Use Class C4 (Small HMO)",
   "development_type": null,
   "decision_conditions": null,
   "secondary_street_name": null,
@@ -162,7 +236,63 @@
   "borough": "Greenwich",
   "decision": "REFUSED",
   "application_type": "All Other",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          [
+            0.08874,
+            51.483414
+          ],
+          [
+            0.08884,
+            51.483383
+          ],
+          [
+            0.089016,
+            51.483327
+          ],
+          [
+            0.089019,
+            51.483336
+          ],
+          [
+            0.089024,
+            51.483349
+          ],
+          [
+            0.089032,
+            51.48337
+          ],
+          [
+            0.088924,
+            51.483403
+          ],
+          [
+            0.088869,
+            51.48342
+          ],
+          [
+            0.08877,
+            51.48345
+          ],
+          [
+            0.088742,
+            51.483459
+          ],
+          [
+            0.088712,
+            51.483422
+          ],
+          [
+            0.08874,
+            51.483414
+          ]
+        ]
+      ]
+    ],
+    "type": "MultiPolygon"
+  },
   "decision_agency": null,
   "decision_target_date": null,
   "status": "REFUSED",

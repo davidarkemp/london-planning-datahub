@@ -45,8 +45,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 150.23,
-        "use_class": "C3",
         "gia_gained": 40.27,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -60,11 +60,12 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "08/2024",
-        "intended_completion_date": "08/2025"
+        "intended_completion_date": "08/2025",
+        "intended_commencement_date": "08/2024"
       }
     ],
-    "internal_resi_water_usage": 0
+    "internal_resi_water_usage": 0,
+    "occupation_status": "Occupied"
   },
   "borough": "London Borough of Ealing",
   "application_type_full": "Full planning permission",
@@ -72,14 +73,51 @@
   "date_building_work_started_under_previous_permission": null,
   "lapsed_date": "06/09/2027",
   "bo_system": "Idox Uniform",
-  "polygon": null,
-  "appeal_status": null,
-  "parking_details": null,
-  "centroid": {
-    "lon": -7.55716,
-    "lat": 49.766807
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                513056.61,
+                178193.85
+              ],
+              [
+                513062.7,
+                178186.1
+              ],
+              [
+                513093.9,
+                178204.9
+              ],
+              [
+                513088.8,
+                178213.3
+              ],
+              [
+                513056.61,
+                178193.85
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
   },
-  "locality": null,
+  "appeal_status": null,
+  "parking_details": {
+    "no_existing_car": 1,
+    "net_car": 0,
+    "no_proposed_car": 1
+  },
+  "centroid": {
+    "lon": -0.372746,
+    "lat": 51.491396
+  },
+  "locality": "Southall",
   "secondary_street_name": null,
   "decision_conditions": [
     "Outbuildings - Ancillary",
@@ -88,31 +126,59 @@
     "Approved Plans"
   ],
   "decision_agency": null,
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          [
+            -0.372938,
+            51.491397
+          ],
+          [
+            -0.372853,
+            51.491327
+          ],
+          [
+            -0.372398,
+            51.491489
+          ],
+          [
+            -0.372469,
+            51.491566
+          ],
+          [
+            -0.372938,
+            51.491397
+          ]
+        ]
+      ]
+    ],
+    "type": "MultiPolygon"
+  },
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
-  "postcode": null,
+  "postcode": "UB2 5QY",
   "epc_number": null,
   "decision": "Approved",
   "id": "Ealing-242696FUL",
   "lpa_name": "Ealing",
   "actual_commencement_date": null,
-  "site_name": "11 & 11A Crosslands Avenue\rSouthall\rUB2 5QY\r",
+  "site_name": "& 11A",
   "url_planning_app": null,
   "pp_id": "PP-13217673",
   "decision_process": null,
-  "centroid_easting": null,
-  "last_updated": "2026-06-20T04:01:29.447Z",
+  "centroid_easting": 513070,
+  "last_updated": "2026-06-26T05:02:57.083Z",
   "appeal_decision_date": null,
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated_by": "Idox Uniform",
-  "site_number": null,
-  "centroid_northing": null,
+  "last_updated_by": "Planning Portal ingest",
+  "site_number": 11,
+  "centroid_northing": 178194,
   "development_type": null,
-  "description": "Single storey ear extension; alteration of roof from hip to gable end; rear roof extension and installation of three roof lights to front roofslope; single storey detached garden outbuilding",
+  "description": "Single Storey Rear Extension; alteration of roof from hip to gable end; rear roof extension and installation of three roof lights to front roofslope; single storey detached garden outbuilding \n",
   "status": "Approved",
   "actual_completion_date": null,
   "appeal_start_date": null,
-  "street_name": null,
+  "street_name": "Crosslands Avenue ",
   "title_number": []
 }

@@ -1,14 +1,14 @@
 {
   "decision_agency": null,
   "date_building_work_started_under_previous_permission": null,
-  "site_number": "67A",
+  "site_number": 67,
   "decision_process": null,
   "appeal_start_date": null,
   "lapsed_date": "20/05/2028",
-  "uprn": "000012114609",
-  "locality": null,
+  "uprn": 12114609,
+  "locality": "Ealing",
   "appeal_decision_date": null,
-  "centroid_easting": "517730",
+  "centroid_easting": 517730,
   "application_details": {
     "residential_details": {
       "total_no_existing_residential_units": 0,
@@ -42,13 +42,19 @@
       "dwelling_density": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Studio Bedsit",
           "no_habitable_rooms": 1,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Studio Bedsit",
           "no_bedrooms": 1,
-          "gia": 42.5,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 42.5
         }
       ],
       "total_no_proposed_residential_units_social_rent": 0,
@@ -64,8 +70,8 @@
     "phasing_details": [
       {
         "phase_detail": "start ",
-        "intended_commencement_date": "06/2025",
-        "intended_completion_date": "09/2025"
+        "intended_completion_date": "09/2025",
+        "intended_commencement_date": "06/2025"
       }
     ],
     "green_suds": false,
@@ -83,7 +89,8 @@
       "no_new_gas_connections_required": 0,
       "total_annual_nox_emissions": 0,
       "ghg_reduction_over_building_regulations": false,
-      "fire_suppression_system_proposed": false
+      "fire_suppression_system_proposed": false,
+      "urban_greening_factor_score": 0
     },
     "garden_land_lost": false,
     "internal_resi_water_usage": 0,
@@ -108,16 +115,17 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 60,
-        "use_class": "C3",
         "gia_gained": 60,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
-    "rain_water_harvesting": false
+    "rain_water_harvesting": false,
+    "occupation_status": "Occupied"
   },
   "date_building_work_completed_under_previous_permission": null,
   "site_name": "",
-  "borough": "London Borough of Ealing",
+  "borough": "Ealing",
   "status": "Refused",
   "epc_number": null,
   "bo_system": "Idox Uniform",
@@ -125,28 +133,30 @@
     "coordinates": [
       [
         [
-          -0.305089,
-          51.5051
-        ],
-        [
-          -0.30509,
-          51.505073
-        ],
-        [
-          -0.305134,
-          51.505074
-        ],
-        [
-          -0.305133,
-          51.505101
-        ],
-        [
-          -0.305089,
-          51.5051
+          [
+            -0.305186,
+            51.505115
+          ],
+          [
+            -0.305207,
+            51.505065
+          ],
+          [
+            -0.304601,
+            51.505011
+          ],
+          [
+            -0.304586,
+            51.50508
+          ],
+          [
+            -0.305186,
+            51.505115
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "cil_liability": false,
   "title_number": [],
@@ -158,7 +168,7 @@
   "lpa_name": "Ealing",
   "secondary_street_name": null,
   "decision_date": "20/05/2025",
-  "last_updated": "2026-06-20T04:03:08.983Z",
+  "last_updated": "2026-06-26T03:27:28.886Z",
   "url_planning_app": null,
   "ward": "EALCOM",
   "valid_date": "25/03/2025",
@@ -166,14 +176,14 @@
   "development_type": null,
   "appeal_decision": null,
   "postcode": "W5 5RG",
-  "centroid_northing": "179823",
-  "description": "Excavation to provide basement to studio, Rear roof extension, and installation of one roof lights to front roof slope.\r",
-  "subdivision_of_building": null,
+  "centroid_northing": 179823,
+  "description": "Loft and Basement conversion,  studio to the Basement ",
+  "subdivision_of_building": "Loft and Basement ",
   "actual_completion_date": null,
   "lpa_app_no": "251151FUL",
   "decision": "REF",
   "application_type_full": "Full planning permission",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_status": null,
   "id": "Ealing-251151FUL",
   "decision_conditions": [
@@ -182,7 +192,40 @@
   ],
   "pp_id": "PP-13869793",
   "last_date_consultation_comments": "30/04/2025",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                517724.75,
+                179826.05
+              ],
+              [
+                517723.4,
+                179820.45
+              ],
+              [
+                517765.622,
+                179815.447
+              ],
+              [
+                517766.45,
+                179823.05
+              ],
+              [
+                517724.75,
+                179826.05
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "centroid": {
     "lat": 51.505087,
     "lon": -0.305111

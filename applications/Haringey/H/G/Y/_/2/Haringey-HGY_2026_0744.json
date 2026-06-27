@@ -9,7 +9,7 @@
   "last_updated_by": "Arcus",
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": null,
-  "last_updated": "2026-06-19T21:05:21.649Z",
+  "last_updated": "2026-06-26T21:04:20.772Z",
   "url_planning_app": "https://publicregister.haringey.gov.uk/pr/s/detail/a0iP200000H6aNB",
   "street_name": "Caversham Road",
   "parking_details": {
@@ -20,25 +20,25 @@
   "ward": "West Green",
   "bo_system": "Arcus",
   "site_name": "2 Caversham Road, Tottenham, London, N15 3QP",
-  "site_number": null,
+  "site_number": 2,
   "application_details": {
     "affordable_housing_fast_track": false,
     "phasing_details": [
       {
         "phase_detail": "ALL",
-        "intended_commencement_date": "05/2026",
-        "intended_completion_date": "12/2026"
+        "intended_completion_date": "12/2026",
+        "intended_commencement_date": "05/2026"
       }
     ],
     "total_gia_gained": 70.12,
-    "site_area": 0.026840000000000003,
+    "site_area": 0.02684,
     "total_gia_existing": 105.07,
     "total_gia_lost": 14.7,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 105.07,
-        "use_class": "C3",
         "gia_gained": 70.12,
+        "use_class": "C3",
         "gia_lost": 14.7
       }
     ],
@@ -77,7 +77,8 @@
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 1,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "urban_greening_factor_score": 0
     },
     "internal_resi_water_usage": 105,
     "residential_details": {
@@ -119,23 +120,29 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 3,
-          "provider": "Private",
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
           "garden_land": true,
+          "sheltered_accommodation": false,
           "unit_type": "House or Bungalow",
+          "no_habitable_rooms": 3,
+          "provider": "Private",
           "no_bedrooms": 2,
-          "gia": 70.12,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 70.12
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "occupation_status": "Vacant"
   },
   "uprn": "100021163177",
-  "locality": null,
+  "locality": "London",
   "date_building_work_started_under_previous_permission": null,
   "postcode": "N15 3QP",
   "valid_date": "17/03/2026",
@@ -149,7 +156,64 @@
   "application_type_full": "Full planning permission",
   "pp_id": "PP-14777350",
   "lpa_app_no": "HGY/2026/0744",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                532251.4,
+                189242.95
+              ],
+              [
+                532253.591,
+                189243.718
+              ],
+              [
+                532265.927,
+                189248.04
+              ],
+              [
+                532269.95,
+                189249.45
+              ],
+              [
+                532271.7,
+                189244.2
+              ],
+              [
+                532282.8,
+                189248.1
+              ],
+              [
+                532282.05,
+                189250.35
+              ],
+              [
+                532279.0082127497,
+                189259.48725506483
+              ],
+              [
+                532276.35,
+                189258.7
+              ],
+              [
+                532249.2,
+                189249.4
+              ],
+              [
+                532251.4,
+                189242.95
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "id": "Haringey-HGY_2026_0744",
   "appeal_status": null,
   "appeal_start_date": null,

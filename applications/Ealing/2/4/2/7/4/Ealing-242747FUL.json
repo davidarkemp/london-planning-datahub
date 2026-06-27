@@ -1,7 +1,7 @@
 {
   "application_type": "All Other",
   "valid_date": "17/07/2024",
-  "uprn": "000012044545",
+  "uprn": 12044545,
   "decision_target_date": "11/09/2024",
   "lpa_app_no": "242747FUL",
   "last_date_consultation_comments": "09/08/2024",
@@ -12,7 +12,7 @@
     "rain_water_harvesting": false,
     "affordable_housing_fast_track": false,
     "existing_uprns": null,
-    "site_area": 0.025,
+    "site_area": 0.0245,
     "total_gia_existing": 68,
     "total_gia_lost": 0,
     "scheme_phasing": true,
@@ -35,15 +35,16 @@
       "no_new_water_connections_required": 1,
       "no_homes_to_have_electrical_heating": 0,
       "no_new_gas_connections_required": 1,
-      "ghg_reduction_over_building_regulations": true
+      "ghg_reduction_over_building_regulations": true,
+      "urban_greening_factor_score": 0
     },
     "surface_water_discharge_percentage_reduction": 5,
     "ownership_status": "Private",
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 68,
-        "use_class": "C3",
         "gia_gained": 68,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -57,26 +58,128 @@
     "phasing_details": [
       {
         "phase_detail": "Planning",
-        "intended_commencement_date": "07/2024",
-        "intended_completion_date": "09/2025"
+        "intended_completion_date": "09/2025",
+        "intended_commencement_date": "07/2024"
       }
     ],
-    "internal_resi_water_usage": 10
+    "internal_resi_water_usage": 10,
+    "occupation_status": "Occupied"
   },
-  "borough": "London Borough of Ealing",
+  "borough": "Ealing",
   "application_type_full": "Full planning permission",
   "cil_liability": true,
   "date_building_work_started_under_previous_permission": null,
   "lapsed_date": "11/09/2027",
   "bo_system": "Idox Uniform",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                513454.05,
+                182656
+              ],
+              [
+                513453.2,
+                182654.85
+              ],
+              [
+                513452.44,
+                182653.078
+              ],
+              [
+                513447.962,
+                182643.483
+              ],
+              [
+                513446.75,
+                182640.127
+              ],
+              [
+                513446.036,
+                182638.15
+              ],
+              [
+                513445.898,
+                182637.768
+              ],
+              [
+                513449.813,
+                182635.068
+              ],
+              [
+                513450.325,
+                182634.717
+              ],
+              [
+                513451.302,
+                182636.227
+              ],
+              [
+                513454.477,
+                182641.068
+              ],
+              [
+                513455.3,
+                182642.75
+              ],
+              [
+                513456.2,
+                182644.05
+              ],
+              [
+                513460.35,
+                182650.1
+              ],
+              [
+                513462.15,
+                182652.75
+              ],
+              [
+                513465.1,
+                182656.8
+              ],
+              [
+                513468.5,
+                182661.5
+              ],
+              [
+                513468.15,
+                182661.8
+              ],
+              [
+                513464.4,
+                182664.75
+              ],
+              [
+                513461.7,
+                182666.7
+              ],
+              [
+                513458.1,
+                182661.7
+              ],
+              [
+                513454.05,
+                182656
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "appeal_status": null,
   "parking_details": null,
   "centroid": {
     "lon": -0.365754,
     "lat": 51.531422
   },
-  "locality": null,
+  "locality": "Greenford",
   "secondary_street_name": null,
   "decision_conditions": [
     "",
@@ -87,33 +190,103 @@
     "coordinates": [
       [
         [
-          -0.365732,
-          51.531436
-        ],
-        [
-          -0.365733,
-          51.531409
-        ],
-        [
-          -0.365776,
-          51.531409
-        ],
-        [
-          -0.365775,
-          51.531436
-        ],
-        [
-          -0.365732,
-          51.531436
+          [
+            -0.365782,
+            51.531423
+          ],
+          [
+            -0.365794,
+            51.531413
+          ],
+          [
+            -0.365806,
+            51.531397
+          ],
+          [
+            -0.365874,
+            51.531312
+          ],
+          [
+            -0.365892,
+            51.531282
+          ],
+          [
+            -0.365903,
+            51.531264
+          ],
+          [
+            -0.365905,
+            51.531261
+          ],
+          [
+            -0.36585,
+            51.531236
+          ],
+          [
+            -0.365842,
+            51.531232
+          ],
+          [
+            -0.365828,
+            51.531246
+          ],
+          [
+            -0.36578,
+            51.531288
+          ],
+          [
+            -0.365768,
+            51.531303
+          ],
+          [
+            -0.365755,
+            51.531315
+          ],
+          [
+            -0.365693,
+            51.531368
+          ],
+          [
+            -0.365666,
+            51.531392
+          ],
+          [
+            -0.365622,
+            51.531428
+          ],
+          [
+            -0.365572,
+            51.531469
+          ],
+          [
+            -0.365577,
+            51.531472
+          ],
+          [
+            -0.36563,
+            51.531499
+          ],
+          [
+            -0.365668,
+            51.531517
+          ],
+          [
+            -0.365722,
+            51.531473
+          ],
+          [
+            -0.365782,
+            51.531423
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "postcode": "UB6 9RY",
-  "epc_number": null,
+  "epc_number": "0065-0201-4107-4305-2404",
   "decision": "REF",
   "id": "Ealing-242747FUL",
   "lpa_name": "Ealing",
@@ -122,15 +295,15 @@
   "url_planning_app": null,
   "pp_id": "PP-13248177",
   "decision_process": null,
-  "centroid_easting": "513456",
-  "last_updated": "2026-06-20T04:01:30.983Z",
+  "centroid_easting": 513456,
+  "last_updated": "2026-06-26T05:04:00.854Z",
   "appeal_decision_date": null,
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated_by": "Idox Uniform",
-  "site_number": "175",
-  "centroid_northing": "182656",
+  "last_updated_by": "Planning Portal ingest",
+  "site_number": 175,
+  "centroid_northing": 182656,
   "development_type": null,
-  "description": "Conversion of existing single family dwelling house into 2 self-contained flats and provision of associated cycle and refuse storage; single storey, part two storey, side and rear extension.",
+  "description": "Conversion of single dwelling into 2 self contained flats incorporating a ground floor side and rear extension and a part first floor part side and rear extension. together with associated landscaping, cycle store, and refuse storage",
   "status": "Refused",
   "actual_completion_date": null,
   "appeal_start_date": null,

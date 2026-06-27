@@ -4,34 +4,79 @@
     "coordinates": [
       [
         [
-          -0.299795,
-          51.529276
-        ],
-        [
-          -0.299796,
-          51.529249
-        ],
-        [
-          -0.299839,
-          51.529249
-        ],
-        [
-          -0.299838,
-          51.529276
-        ],
-        [
-          -0.299795,
-          51.529276
+          [
+            -0.29975,
+            51.529302
+          ],
+          [
+            -0.299787,
+            51.529309
+          ],
+          [
+            -0.299869,
+            51.529323
+          ],
+          [
+            -0.299977,
+            51.529342
+          ],
+          [
+            -0.299972,
+            51.52932
+          ],
+          [
+            -0.299947,
+            51.529215
+          ],
+          [
+            -0.29986,
+            51.529223
+          ],
+          [
+            -0.299723,
+            51.529235
+          ],
+          [
+            -0.299385,
+            51.529216
+          ],
+          [
+            -0.299374,
+            51.529215
+          ],
+          [
+            -0.299374,
+            51.529223
+          ],
+          [
+            -0.299397,
+            51.529236
+          ],
+          [
+            -0.299664,
+            51.529286
+          ],
+          [
+            -0.29975,
+            51.529302
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "url_planning_app": null,
   "decision_target_date": "18/09/2024",
   "status": "Approved",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 3,
+    "net_car": 0,
+    "no_proposed_cycle": 5,
+    "no_proposed_car": 3,
+    "net_cycle": 5
+  },
   "street_name": "Lynwood Road",
   "decision_agency": null,
   "appeal_decision": null,
@@ -64,31 +109,49 @@
       "total_no_existing_residential_units_starter_homes": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 5,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "gia": 102.3,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 102.3
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "gia": 50.66,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 50.66
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "gia": 63.8,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 63.8
         }
       ],
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
@@ -135,11 +198,12 @@
       "no_homes_passive_cooling": 0,
       "no_new_water_connections_required": 0,
       "no_resi_units_to_have_full_fibre": 0,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "urban_greening_factor_score": 0
     },
     "total_gia_lost": 0,
     "ownership_status": "Private",
-    "site_area": 0.028,
+    "site_area": 0.028074,
     "superseding_details": [
       {
         "lpa_app_no": " 231836FUL",
@@ -157,8 +221,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 216.76,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -171,18 +235,19 @@
     "phasing_details": [
       {
         "phase_detail": "1",
-        "intended_commencement_date": "11/2024",
-        "intended_completion_date": "06/2025"
+        "intended_completion_date": "06/2025",
+        "intended_commencement_date": "11/2024"
       }
     ],
     "projected_cost_of_works": "Up to £2m",
-    "total_gia_existing": 216.76
+    "total_gia_existing": 216.76,
+    "occupation_status": "Vacant"
   },
   "appeal_decision_date": null,
   "decision_date": "09/09/2024",
   "valid_date": "24/07/2024",
-  "site_number": "9",
-  "reference_no_of_permission_being_relied_on": null,
+  "site_number": 9,
+  "reference_no_of_permission_being_relied_on": " 231836FUL",
   "secondary_street_name": null,
   "ward": "HANHIL",
   "lapsed_date": "09/09/2027",
@@ -191,11 +256,181 @@
   "lpa_app_no": "242943FUL",
   "postcode": "W5 1JQ",
   "pp_id": "PP-13266613",
-  "uprn": "000012092656",
+  "uprn": 12092656,
   "application_type": "All Other",
-  "locality": null,
+  "locality": "Ealing",
   "date_building_work_started_under_previous_permission": null,
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                518039.557,
+                182524.488
+              ],
+              [
+                518036.95,
+                182525.2
+              ],
+              [
+                518031.223,
+                182526.67
+              ],
+              [
+                518023.7,
+                182528.6
+              ],
+              [
+                518024.109,
+                182526.197
+              ],
+              [
+                518026.1,
+                182514.5
+              ],
+              [
+                518032.1,
+                182515.5
+              ],
+              [
+                518041.55,
+                182517.05
+              ],
+              [
+                518065.05,
+                182515.5
+              ],
+              [
+                518065.846,
+                182515.434
+              ],
+              [
+                518065.795,
+                182516.286
+              ],
+              [
+                518064.2,
+                182517.7
+              ],
+              [
+                518045.55,
+                182522.85
+              ],
+              [
+                518039.557,
+                182524.488
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      },
+      {
+        "coordinates": [
+          [
+            [
+              [
+                518075.797,
+                182476.754
+              ],
+              [
+                518069.2,
+                182519.8
+              ],
+              [
+                518023.1,
+                182532.05
+              ],
+              [
+                518023.7,
+                182528.6
+              ],
+              [
+                518064.2,
+                182517.7
+              ],
+              [
+                518065.795,
+                182516.286
+              ],
+              [
+                518065.696,
+                182510.262
+              ],
+              [
+                518066.454,
+                182510.271
+              ],
+              [
+                518066.65,
+                182506.45
+              ],
+              [
+                518066.4,
+                182505.8
+              ],
+              [
+                518067.982,
+                182493.175
+              ],
+              [
+                518068.887,
+                182493.336
+              ],
+              [
+                518069.83659271715,
+                182487.51525435573
+              ],
+              [
+                518070.1,
+                182484.55
+              ],
+              [
+                518070.45,
+                182484.4
+              ],
+              [
+                518071.2,
+                182483.9
+              ],
+              [
+                518071.6939602374,
+                182483.62221203343
+              ],
+              [
+                518071.85,
+                182483
+              ],
+              [
+                518069.45,
+                182481
+              ],
+              [
+                518069.5,
+                182480.2
+              ],
+              [
+                518069.9,
+                182477.85
+              ],
+              [
+                518072.95,
+                182476.35
+              ],
+              [
+                518075.797,
+                182476.754
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "lpa_name": "Ealing",
   "actual_commencement_date": null,
   "site_name": "",
@@ -204,26 +439,24 @@
     "Landscaping/Boundary Treatment - Details",
     "Noise - Enhanced Sound Insulation",
     "Standard Cond - Expiration Three Years",
-    "Standard Cond - Materials",
-    "",
-    ""
+    "Standard Cond - Materials"
   ],
   "application_type_full": "Full planning permission",
-  "centroid_northing": "182520",
+  "centroid_northing": 182520,
   "epc_number": null,
   "actual_completion_date": null,
   "title_number": [],
   "appeal_status": null,
-  "borough": "London Borough of Ealing",
+  "borough": "Ealing",
   "cil_liability": false,
   "decision_process": null,
   "id": "Ealing-242943FUL",
-  "description": "Construction of a rear extension and rear roof extension, installation of skylights on the front roof slope and rear extension, conversion of an existing house into 3 self-contained flats, extension of a vehicle crossing to allow access to three off-street carparks, and provision of associated cycle storage and refuse storage facilities.es.",
+  "description": "Conversion of existing dwelling into three flats with provision of car and cycle parking and outdoor amenity space",
   "appeal_start_date": null,
-  "last_updated": "2026-06-20T04:01:36.948Z",
+  "last_updated": "2026-06-26T05:06:04.610Z",
   "centroid": {
     "lon": -0.299817,
     "lat": 51.529262
   },
-  "centroid_easting": "518035"
+  "centroid_easting": 518035
 }

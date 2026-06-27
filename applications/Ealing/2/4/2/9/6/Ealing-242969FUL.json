@@ -4,38 +4,60 @@
     "coordinates": [
       [
         [
-          -0.276083,
-          51.508166
-        ],
-        [
-          -0.276084,
-          51.508139
-        ],
-        [
-          -0.276127,
-          51.50814
-        ],
-        [
-          -0.276126,
-          51.508167
-        ],
-        [
-          -0.276083,
-          51.508166
+          [
+            -0.275983,
+            51.508084
+          ],
+          [
+            -0.275966,
+            51.508086
+          ],
+          [
+            -0.27593,
+            51.508091
+          ],
+          [
+            -0.275982,
+            51.50825
+          ],
+          [
+            -0.275994,
+            51.508247
+          ],
+          [
+            -0.276018,
+            51.508239
+          ],
+          [
+            -0.27604,
+            51.508232
+          ],
+          [
+            -0.275987,
+            51.508084
+          ],
+          [
+            -0.275983,
+            51.508084
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "url_planning_app": null,
   "decision_target_date": "23/09/2024",
   "status": "Refused",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_proposed_cycle": 1,
+    "net_cycle": 1
+  },
   "street_name": "High Street",
   "decision_agency": null,
   "appeal_decision": null,
-  "subdivision_of_building": null,
+  "subdivision_of_building": "Ground floor",
   "development_type": null,
   "decision": "REF",
   "application_details": {
@@ -64,13 +86,19 @@
       "total_no_existing_residential_units_starter_homes": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Studio Bedsit",
           "no_habitable_rooms": 1,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Studio Bedsit",
           "no_bedrooms": 1,
-          "gia": 40.7,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 40.7
         }
       ],
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
@@ -117,7 +145,8 @@
       "no_homes_passive_cooling": 0,
       "no_new_water_connections_required": 0,
       "no_resi_units_to_have_full_fibre": 0,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "urban_greening_factor_score": 0
     },
     "total_gia_lost": 40.7,
     "ownership_status": "Private",
@@ -125,14 +154,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 40.7,
-        "use_class": "E(c)(iii)",
         "gia_gained": 0,
+        "use_class": "EC3",
         "gia_lost": 40.7
       },
       {
         "gia_existing": 0,
-        "use_class": "C3",
         "gia_gained": 40.7,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -145,12 +174,13 @@
     "phasing_details": [
       {
         "phase_detail": "All works",
-        "intended_commencement_date": "12/2024",
-        "intended_completion_date": "09/2025"
+        "intended_completion_date": "09/2025",
+        "intended_commencement_date": "12/2024"
       }
     ],
     "projected_cost_of_works": "Up to £2m",
-    "total_gia_existing": 40.7
+    "total_gia_existing": 40.7,
+    "occupation_status": "Occupied"
   },
   "appeal_decision_date": null,
   "decision_date": "20/09/2024",
@@ -165,33 +195,82 @@
   "lpa_app_no": "242969FUL",
   "postcode": "W3 9BT",
   "pp_id": "PP-13260735",
-  "uprn": "000012133436",
+  "uprn": 12133436,
   "application_type": "All Other",
-  "locality": null,
+  "locality": "Acton",
   "date_building_work_started_under_previous_permission": null,
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                519743.65,
+                180203.549
+              ],
+              [
+                519744.816,
+                180203.818
+              ],
+              [
+                519747.35,
+                180204.4
+              ],
+              [
+                519743.3,
+                180222
+              ],
+              [
+                519742.5,
+                180221.6
+              ],
+              [
+                519740.85,
+                180220.75
+              ],
+              [
+                519739.35,
+                180219.85
+              ],
+              [
+                519743.359,
+                180203.482
+              ],
+              [
+                519743.65,
+                180203.549
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "lpa_name": "Ealing",
   "actual_commencement_date": null,
-  "site_name": "",
+  "site_name": "273-279",
   "decision_conditions": [
     ""
   ],
   "application_type_full": "Full planning permission",
-  "centroid_northing": "180211",
+  "centroid_northing": 180211,
   "epc_number": null,
   "actual_completion_date": null,
   "title_number": [],
   "appeal_status": null,
-  "borough": "London Borough of Ealing",
+  "borough": "Ealing",
   "cil_liability": true,
   "decision_process": null,
   "id": "Ealing-242969FUL",
-  "description": "Conversion of part the ground floor into 1 self-contained flat and associated external alterations.",
+  "description": "Part change of use of the ground floor from commercial to create a studio flat with associated alterations to rear elevation; insertion of two windows and two rooflights",
   "appeal_start_date": null,
-  "last_updated": "2026-06-20T04:01:37.731Z",
+  "last_updated": "2026-06-26T05:07:06.303Z",
   "centroid": {
     "lon": -0.276105,
     "lat": 51.508153
   },
-  "centroid_easting": "519735"
+  "centroid_easting": 519735
 }

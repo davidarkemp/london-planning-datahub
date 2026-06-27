@@ -367,7 +367,7 @@
   "url_planning_app": null,
   "application_details": {
     "surface_water_discharge_percentage_reduction": 0,
-    "site_area": 0.056600000000000004,
+    "site_area": 0.0566,
     "projected_cost_of_works": "Up to £2m",
     "garden_land_lost": false,
     "scheme_phasing": true,
@@ -385,7 +385,8 @@
       "no_new_water_connections_required": 0,
       "no_new_gas_connections_required": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
-      "mobile_network_operators_consultation": false
+      "mobile_network_operators_consultation": false,
+      "urban_greening_factor_score": 0
     },
     "internal_resi_water_usage": 105,
     "ownership_status": "Private",
@@ -399,8 +400,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 162,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -408,8 +409,8 @@
     "phasing_details": [
       {
         "phase_detail": "single phase",
-        "intended_commencement_date": "03/2026",
-        "intended_completion_date": "05/2026"
+        "intended_completion_date": "05/2026",
+        "intended_commencement_date": "03/2026"
       }
     ],
     "total_gia_gained": 0,
@@ -421,7 +422,7 @@
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_market_for_sale": 1,
-      "total_no_proposed_residential_units": 2,
+      "total_no_proposed_residential_units": 1,
       "affordable_percentage": 0,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
@@ -431,16 +432,17 @@
       "total_no_proposed_residential_units_social_rent": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
-          "unit_type": "Communal Space",
-          "gia": 1
-        },
-        {
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
+          "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 107
         }
@@ -463,7 +465,7 @@
       "total_no_existing_residential_units": 0,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
-      "total_gia_gained": 108,
+      "total_gia_gained": 107,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_gia_lost": 0,
@@ -473,7 +475,8 @@
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_starter_homes": 0
     },
-    "rain_water_harvesting": false
+    "rain_water_harvesting": false,
+    "occupation_status": "Occupied"
   },
   "development_type": null,
   "centroid_easting": "527084",
@@ -501,7 +504,7 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": "179639",
-  "last_updated": "2026-05-06T20:05:35.551Z",
+  "last_updated": "2026-06-26T20:02:42.457Z",
   "centroid": {
     "lon": -0.170474,
     "lat": 51.501409

@@ -1,5 +1,5 @@
 {
-  "site_number": null,
+  "site_number": 11,
   "decision_target_date": "22/12/2025",
   "postcode": null,
   "centroid": {
@@ -53,16 +53,27 @@
     "transport_impact_assessment": false,
     "circular_economy_statement": false,
     "commencement_notice_received": false,
-    "scheme_phasing": false,
+    "scheme_phasing": true,
     "rain_water_harvesting": false,
     "grey_water_reuse": false,
     "green_suds": false,
     "garden_land_lost": false,
     "infrastructure_details": {
-      "waste_provision": false,
+      "waste_provision": true,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 0,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 1,
+      "no_new_gas_connections_required": 0
     },
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
@@ -101,21 +112,56 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 3,
+          "provider": "Private",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "gia": null,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 60
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
-    }
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "total_gia_gained": 60
+    },
+    "total_gia_existing": 60,
+    "projected_cost_of_works": "Up to £2m",
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 0,
+      "total_gia_lost": 0,
+      "total_gia_existing": 60
+    },
+    "internal_resi_water_usage": 40,
+    "phasing_details": [
+      {
+        "phase_detail": "1 Phase",
+        "intended_completion_date": "04/2026",
+        "intended_commencement_date": "01/2026"
+      }
+    ],
+    "total_gia_gained": 0,
+    "site_area": 0.0051,
+    "total_gia_lost": 0,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 60,
+        "gia_gained": 0,
+        "use_class": "EB",
+        "gia_lost": 0
+      }
+    ],
+    "occupation_status": "Occupied",
+    "surface_water_discharge_percentage_reduction": 0,
+    "ownership_status": "Private"
   },
   "appeal_status": null,
   "site_name": "11 Hooper Street, London, E1 8BP",
@@ -130,12 +176,12 @@
   "description": "Proposed change of use from restaurant and takeaway (Class E) to a one-bedroom residential dwelling (Class C3), including the installation of two vents and obscured glazing to the front shopfront, the addition of two timber windows at the ground-floor level to the rear elevation, the replacement of the existing rear door with a new timber framed door and associated glazing and the addition of a new glazed door and associated glazing to the rear.ÿ",
   "epc_number": null,
   "title_number": [],
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "date_building_work_started_under_previous_permission": null,
   "decision_agency": null,
   "last_updated_by": "CSV Data Import",
-  "last_updated": "2026-03-12T21:00:28.770Z",
-  "subdivision_of_building": null,
+  "last_updated": "2026-06-26T20:02:39.074Z",
+  "subdivision_of_building": "Lower ground and ground floor Unit",
   "valid_date": "29/08/2025",
   "lapsed_date": "22/12/2028",
   "status": "Approved",

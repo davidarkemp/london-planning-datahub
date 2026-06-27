@@ -1,6 +1,106 @@
 {
   "date_building_work_completed_under_previous_permission": null,
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          [
+            -0.116278,
+            51.595135
+          ],
+          [
+            -0.116273,
+            51.595136
+          ],
+          [
+            -0.116244,
+            51.595143
+          ],
+          [
+            -0.116276,
+            51.595192
+          ],
+          [
+            -0.116289,
+            51.595213
+          ],
+          [
+            -0.116384,
+            51.595359
+          ],
+          [
+            -0.116573,
+            51.595654
+          ],
+          [
+            -0.117142,
+            51.595511
+          ],
+          [
+            -0.116819,
+            51.595009
+          ],
+          [
+            -0.116807,
+            51.59499
+          ],
+          [
+            -0.116781,
+            51.59497
+          ],
+          [
+            -0.116746,
+            51.594964
+          ],
+          [
+            -0.116126,
+            51.594935
+          ],
+          [
+            -0.116117,
+            51.594948
+          ],
+          [
+            -0.116146,
+            51.594953
+          ],
+          [
+            -0.116168,
+            51.595004
+          ],
+          [
+            -0.116165,
+            51.595022
+          ],
+          [
+            -0.11623,
+            51.595121
+          ],
+          [
+            -0.116264,
+            51.595112
+          ],
+          [
+            -0.116315,
+            51.5951
+          ],
+          [
+            -0.116326,
+            51.595117
+          ],
+          [
+            -0.116275,
+            51.59513
+          ],
+          [
+            -0.116278,
+            51.595135
+          ]
+        ]
+      ]
+    ],
+    "type": "MultiPolygon"
+  },
   "last_updated_by": "Arcus",
   "url_planning_app": "https://publicregister.haringey.gov.uk/pr/s/detail/a0iTu0000000dFt",
   "decision_target_date": null,
@@ -41,29 +141,35 @@
   "development_type": null,
   "decision": "Approved",
   "application_details": {
-    "affordable_housing_fast_track": null,
+    "affordable_housing_fast_track": false,
     "s106_agreement": null,
     "affordable_housing_inlieu_payment": null,
     "air_quality_assessment": null,
     "other_contributions": null,
     "existing_uprns": [],
-    "total_gia_existing": null,
+    "total_gia_existing": 0,
     "intended_commencement_date": null,
     "no_affordable_housing_units_provided_offsite": null,
-    "scheme_phasing": null,
+    "scheme_phasing": true,
     "circular_economy_statement": null,
     "commencement_notice_received": null,
     "non_residential_details": {
       "development_type": null,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_gained": null,
+      "total_gia_gained": 0,
       "site_area": null,
-      "total_gia_existing": null,
-      "total_gia_lost": null
+      "total_gia_existing": 0,
+      "total_gia_lost": 0
     },
     "qualifying_vacant_building_floorspace": null,
-    "phasing_details": [],
+    "phasing_details": [
+      {
+        "phase_detail": "1",
+        "intended_completion_date": "04/2024",
+        "intended_commencement_date": "02/2024"
+      }
+    ],
     "open_and_protected_space_details": {
       "open_space_local_and_other_area_gain": 0,
       "protected_space_count": 0,
@@ -75,12 +181,12 @@
       "open_space_mol_area_gain": 0,
       "open_space_green_belt_area_loss": 0
     },
-    "site_area": null,
+    "site_area": 0.5,
     "existing_proposed_floorspace_details": [],
     "constraints_details": [],
-    "grey_water_reuse": null,
+    "grey_water_reuse": false,
     "building_details": [],
-    "surface_water_discharge_percentage_reduction": null,
+    "surface_water_discharge_percentage_reduction": 0,
     "superseding_details": [],
     "lead_registered_social_landlord": null,
     "viability_assessment": null,
@@ -88,9 +194,9 @@
     "mayoral_cil_liability_notice_issued": null,
     "intended_completion_date": null,
     "non_permanent_dwellings_details": [],
-    "projected_cost_of_works": null,
+    "projected_cost_of_works": "Up to £2m",
     "uk_company_registration_no": null,
-    "internal_resi_water_usage": null,
+    "internal_resi_water_usage": 0,
     "other_residential_accommodation_details": {
       "no_council_tax_rateable_units_gained": null,
       "no_council_tax_rateable_units_lost": null,
@@ -98,46 +204,46 @@
       "other_resi_accommodation_unit_details": []
     },
     "infrastructure_details": {
-      "total_annual_pm_emissions": null,
+      "total_annual_pm_emissions": 0,
       "no_passive_rapid_ev_charging_points": null,
-      "no_homes_passive_cooling": null,
-      "no_new_water_connections_required": null,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
       "no_active_rapid_ev_charging_points": null,
       "no_passive_fast_ev_charging_points": null,
-      "no_non_resi_units_to_have_full_fibre": null,
+      "no_non_resi_units_to_have_full_fibre": 0,
       "no_active_fast_ev_charging_points": null,
       "no_active_other_ev_charging_points": null,
-      "mobile_network_operators_consultation": null,
+      "mobile_network_operators_consultation": false,
       "no_passive_other_ev_charging_points": null,
-      "fire_suppression_system_proposed": null,
-      "ghg_reduction_over_building_regulations": null,
+      "fire_suppression_system_proposed": false,
+      "ghg_reduction_over_building_regulations": false,
       "chp_heat_pumps_capacity": null,
       "no_active_slow_ev_charging_points": null,
-      "green_roof_area": null,
-      "no_resi_units_to_have_full_fibre": null,
-      "urban_greening_factor_score": null,
+      "green_roof_area": 0,
+      "no_resi_units_to_have_full_fibre": 0,
+      "urban_greening_factor_score": 0,
       "solar_pv_capacity": null,
       "no_passive_slow_ev_charging_points": null,
-      "total_annual_nox_emissions": null,
-      "waste_provision": null,
-      "percentage_demolition_construction_material_recycling": null,
-      "no_homes_to_have_electrical_heating": null,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
       "community_energy_capacity": null,
-      "no_new_gas_connections_required": null,
+      "no_new_gas_connections_required": 0,
       "waste_details": []
     },
     "3d_model": null,
     "no_affordable_housing_units_acquired_offsite": null,
     "transport_contributions": null,
-    "total_gia_gained": null,
+    "total_gia_gained": 0,
     "borough_cil_liability_notice_issued": null,
-    "total_gia_lost": null,
+    "total_gia_lost": 0,
     "transport_impact_assessment": null,
     "social_infrastructure_contributions": null,
     "scheme_name": null,
-    "rain_water_harvesting": null,
-    "green_suds": null,
-    "garden_land_lost": null,
+    "rain_water_harvesting": false,
+    "green_suds": false,
+    "garden_land_lost": false,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_proposed_bedrooms": 0,
@@ -180,8 +286,9 @@
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0
     },
-    "ownership_status": null,
-    "lead_developer_company_name": null
+    "ownership_status": "Public",
+    "lead_developer_company_name": null,
+    "occupation_status": "Occupied"
   },
   "appeal_decision_date": null,
   "decision_date": "16/01/2024",
@@ -198,15 +305,120 @@
   "pp_id": "PP-12612576",
   "uprn": "768025338",
   "application_type": "All Other",
-  "locality": null,
+  "locality": "London",
   "date_building_work_started_under_previous_permission": null,
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                530577.046,
+                190157.048
+              ],
+              [
+                530577.389,
+                190157.198
+              ],
+              [
+                530579.39,
+                190158.068
+              ],
+              [
+                530577.05,
+                190163.45
+              ],
+              [
+                530576.1,
+                190165.7
+              ],
+              [
+                530569.1,
+                190181.85
+              ],
+              [
+                530555.15,
+                190214.25
+              ],
+              [
+                530516.1,
+                190197.4
+              ],
+              [
+                530539.95,
+                190142.15
+              ],
+              [
+                530540.8,
+                190140.05
+              ],
+              [
+                530542.65,
+                190137.9
+              ],
+              [
+                530545.1,
+                190137.2
+              ],
+              [
+                530588.187,
+                190135.085
+              ],
+              [
+                530588.76,
+                190136.609
+              ],
+              [
+                530586.699,
+                190137.118
+              ],
+              [
+                530585.059,
+                190142.737
+              ],
+              [
+                530585.212,
+                190144.678
+              ],
+              [
+                530580.449,
+                190155.633
+              ],
+              [
+                530578.105,
+                190154.614
+              ],
+              [
+                530574.623,
+                190153.099
+              ],
+              [
+                530573.793,
+                190155.007
+              ],
+              [
+                530577.275,
+                190156.521
+              ],
+              [
+                530577.046,
+                190157.048
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "lpa_name": "Haringey",
   "actual_commencement_date": null,
   "site_name": "Patrol Base, Western Road, Wood Green, London, N22 6UH",
   "decision_conditions": null,
   "application_type_full": "Full planning permission",
-  "centroid_northing": null,
+  "centroid_northing": 190218,
   "epc_number": null,
   "actual_completion_date": null,
   "title_number": [],
@@ -217,10 +429,10 @@
   "id": "Haringey-HGY_2023_3128",
   "description": "Cladding replacement works, installation of external air conditioning unit and substation.",
   "appeal_start_date": null,
-  "last_updated": "2025-11-17T22:03:59.473Z",
+  "last_updated": "2026-06-26T21:04:22.746Z",
   "centroid": {
     "lon": -7.55716,
     "lat": 49.766807
   },
-  "centroid_easting": null
+  "centroid_easting": 530621
 }

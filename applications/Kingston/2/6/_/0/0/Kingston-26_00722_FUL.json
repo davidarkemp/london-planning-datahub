@@ -85,7 +85,7 @@
   "centroid_northing": 170223,
   "reference_no_of_permission_being_relied_on": null,
   "actual_commencement_date": null,
-  "last_updated": "2026-06-24T17:01:36.513Z",
+  "last_updated": "2026-06-26T17:01:02.704Z",
   "description": "Demolition of existing dwelling and an erection of new house",
   "subdivision_of_building": null,
   "epc_number": null,
@@ -100,7 +100,7 @@
   "last_date_consultation_comments": "14/07/2026",
   "title_number": null,
   "appeal_status": null,
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "development_type": "Minor dwellings",
   "decision_target_date": "10/08/2026",
   "lpa_name": "Kingston",
@@ -119,7 +119,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -191,7 +190,8 @@
               170222.9
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -202,16 +202,23 @@
   "actual_completion_date": null,
   "pp_id": "PP-14827104",
   "decision_agency": null,
-  "parking_details": null,
-  "locality": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 1,
+    "net_car": 0,
+    "no_proposed_cycle": 3,
+    "no_proposed_car": 1,
+    "net_cycle": 3
+  },
+  "locality": "Kingston Upon Thames",
   "id": "Kingston-26_00722_FUL",
   "application_details": {
     "existing_proposed_floorspace_details": [
       {
-        "gia_lost": 91,
-        "use_class": "C3",
+        "gia_existing": 91,
         "gia_gained": 210,
-        "gia_existing": 91
+        "use_class": "C3",
+        "gia_lost": 91
       }
     ],
     "open_and_protected_space_details": {
@@ -294,8 +301,8 @@
     "building_details": [
       {
         "no_storeys": null,
-        "building_ref": "New building",
-        "max_height": 10.1
+        "max_height": 10.1,
+        "building_ref": "New building"
       }
     ],
     "site_area": 280,
@@ -341,9 +348,9 @@
     "grey_water_reuse": false,
     "phasing_details": [
       {
-        "intended_commencement_date": "06/2026",
+        "phase_detail": "Entire development",
         "intended_completion_date": "03/2027",
-        "phase_detail": "Entire development"
+        "intended_commencement_date": "06/2026"
       }
     ],
     "affordable_housing_fast_track": false,
@@ -371,6 +378,9 @@
       "ghg_reduction_over_building_regulations": true,
       "no_homes_to_have_electrical_heating": 0,
       "no_active_other_ev_charging_points": 0
-    }
+    },
+    "scheme_phasing": true,
+    "total_gia_gained": 210,
+    "occupation_status": "Occupied"
   }
 }

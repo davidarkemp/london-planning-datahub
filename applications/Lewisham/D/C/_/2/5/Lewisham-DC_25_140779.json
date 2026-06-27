@@ -2,7 +2,11 @@
   "appeal_status": null,
   "centroid_easting": 537416,
   "centroid_northing": 173816,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 4,
+    "no_proposed_cycle": 6,
+    "net_cycle": 2
+  },
   "appeal_start_date": "11/11/2025",
   "valid_date": "11/07/2025",
   "lapsed_date": "05/02/2029",
@@ -13,7 +17,7 @@
   "site_name": "86 DOGGETT ROAD, LONDON, SE6 4QA",
   "development_type": "Other change of use",
   "actual_commencement_date": null,
-  "postcode": null,
+  "postcode": "SE6 4QA",
   "borough": "Lewisham",
   "decision": "Refused",
   "polygon": {
@@ -77,14 +81,14 @@
     "lat": 51.446668
   },
   "appeal_decision": "Allowed",
-  "description": "Change of use of the existing dwellinghouse (Use Class C3b) into a 5-bed HMO (House of Multiple Occupation) (Use Class C4), together with the provision of cycle and bin storage in the front and rear garden at 86 Doggett Road SE6.",
+  "description": "Change of use of the existing dwellinghouse (Use Class C3b) into a 5-bed HMO (House of Multiple Occupation) (Use Class C4), together with the provision of cycle and bin storage in the front and rear garden",
   "title_number": null,
   "lpa_name": "Lewisham",
-  "locality": null,
+  "locality": "London",
   "appeal_decision_date": "05/02/2026",
   "decision_process": "Delegated",
-  "application_type_full": null,
-  "site_number": null,
+  "application_type_full": "Full planning permission",
+  "site_number": 86,
   "date_building_work_started_under_previous_permission": null,
   "decision_target_date": null,
   "decision_agency": null,
@@ -97,58 +101,34 @@
   "decision_date": "05/09/2025",
   "pp_id": "PP-14166344",
   "last_date_consultation_comments": null,
-  "last_updated_by": "CSV Data Import",
-  "uprn": "100021952869",
+  "last_updated_by": "Planning Portal ingest",
+  "uprn": 100021952869,
   "actual_completion_date": null,
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated": "2026-04-21T08:44:05.278Z",
+  "last_updated": "2026-06-26T16:05:08.821Z",
   "cil_liability": false,
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.024116799999999997,
-          51.4466967
+          -0.023952,
+          51.446681
         ],
         [
-          -0.0241286,
-          51.4466574
+          -0.023953,
+          51.446654
         ],
         [
-          -0.0241014,
-          51.4466542
+          -0.023996,
+          51.446655
         ],
         [
-          -0.023996899999999998,
-          51.4466421
+          -0.023995,
+          51.446682
         ],
         [
-          -0.0237998,
-          51.4466199
-        ],
-        [
-          -0.0237969,
-          51.4466309
-        ],
-        [
-          -0.023794,
-          51.4466414
-        ],
-        [
-          -0.023788899999999998,
-          51.4466597
-        ],
-        [
-          -0.0239013,
-          51.4466724
-        ],
-        [
-          -0.0240896,
-          51.4466936
-        ],
-        [
-          -0.024116799999999997,
-          51.4466967
+          -0.023952,
+          51.446681
         ]
       ]
     ],
@@ -158,7 +138,66 @@
   "epc_number": null,
   "application_details": {
     "existing_uprns": null,
-    "site_area": 0.01
+    "site_area": 0.0104,
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "1",
+        "intended_completion_date": "11/2025",
+        "intended_commencement_date": "09/2025"
+      }
+    ],
+    "total_gia_gained": 111,
+    "total_gia_lost": 111,
+    "total_gia_existing": 111,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 111,
+        "gia_gained": 0,
+        "use_class": "C3",
+        "gia_lost": 111
+      },
+      {
+        "gia_existing": 0,
+        "gia_gained": 111,
+        "use_class": "C4",
+        "gia_lost": 0
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied",
+    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "surface_water_discharge_percentage_reduction": 0,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 111,
+      "total_gia_lost": 111,
+      "total_gia_existing": 111
+    },
+    "garden_land_lost": false,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 0,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": true,
+      "no_new_gas_connections_required": 0,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "internal_resi_water_usage": 0,
+    "ownership_status": "Private"
   },
-  "street_name": null
+  "street_name": "Doggett Road"
 }

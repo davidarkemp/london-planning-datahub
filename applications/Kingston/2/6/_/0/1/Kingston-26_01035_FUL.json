@@ -57,7 +57,7 @@
   "centroid_northing": 167983,
   "reference_no_of_permission_being_relied_on": null,
   "actual_commencement_date": null,
-  "last_updated": "2026-06-24T17:02:21.656Z",
+  "last_updated": "2026-06-26T17:01:44.306Z",
   "description": "Demolition of existing garages and erection of single-storey, one-bedroom flat, including the provision of private amenity space, cycle storage and refuse facilities.",
   "subdivision_of_building": null,
   "epc_number": "9554-2848-7900-9693-0041",
@@ -72,7 +72,7 @@
   "last_date_consultation_comments": "15/07/2026",
   "title_number": null,
   "appeal_status": null,
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "development_type": "Minor dwellings",
   "decision_target_date": "10/08/2026",
   "lpa_name": "Kingston",
@@ -91,7 +91,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -135,7 +134,8 @@
               167985
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -147,21 +147,21 @@
   "pp_id": "PP-14903839",
   "decision_agency": null,
   "parking_details": null,
-  "locality": null,
+  "locality": "New Malden",
   "id": "Kingston-26_01035_FUL",
   "application_details": {
     "existing_proposed_floorspace_details": [
       {
-        "gia_lost": 87.8,
-        "use_class": "B8",
+        "gia_existing": 87.8,
         "gia_gained": 0,
-        "gia_existing": 87.8
+        "use_class": "B8",
+        "gia_lost": 87.8
       },
       {
-        "gia_lost": 0,
-        "use_class": "C3",
+        "gia_existing": 0,
         "gia_gained": 66.3,
-        "gia_existing": 0
+        "use_class": "C3",
+        "gia_lost": 0
       }
     ],
     "open_and_protected_space_details": {
@@ -211,40 +211,40 @@
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "residential_units": [
         {
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Gain",
           "unit_type": "Communal Space",
           "provision_for_older_persons": false,
-          "gia": 13.6,
-          "change_type": "Gain",
-          "description": null,
-          "unit_no": null,
-          "phase_detail": null
+          "gia": 13.6
         },
         {
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Gain",
           "unit_type": "Communal Space",
           "provision_for_older_persons": false,
-          "gia": 13.6,
-          "change_type": "Gain",
-          "description": null,
-          "unit_no": null,
-          "phase_detail": null
+          "gia": 13.6
         },
         {
-          "unit_no": null,
-          "provision_for_older_persons": false,
-          "no_bedrooms": 1,
-          "no_habitable_rooms": 2,
-          "gia": 52.7,
-          "provider": "Private",
-          "m43_2a_compliant": false,
-          "tenure": "Market for sale",
-          "garden_land": false,
-          "description": null,
-          "sheltered_accommodation": false,
-          "m42_compliant": true,
           "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": true,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
-          "phase_detail": null
+          "no_habitable_rooms": 2,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 52.7
         }
       ],
       "total_no_existing_residential_units": 0,
@@ -282,8 +282,8 @@
     "building_details": [
       {
         "no_storeys": null,
-        "building_ref": "1 Bed flat ",
-        "max_height": 3
+        "max_height": 3,
+        "building_ref": "1 Bed flat "
       }
     ],
     "site_area": 120,
@@ -321,9 +321,9 @@
     "grey_water_reuse": false,
     "phasing_details": [
       {
-        "intended_commencement_date": "08/2026",
+        "phase_detail": "From start to completion",
         "intended_completion_date": "03/2027",
-        "phase_detail": "From start to completion"
+        "intended_commencement_date": "08/2026"
       }
     ],
     "affordable_housing_fast_track": false,
@@ -351,6 +351,9 @@
       "ghg_reduction_over_building_regulations": false,
       "no_homes_to_have_electrical_heating": 1,
       "no_active_other_ev_charging_points": 0
-    }
+    },
+    "scheme_phasing": true,
+    "total_gia_gained": 66.3,
+    "occupation_status": "Vacant"
   }
 }

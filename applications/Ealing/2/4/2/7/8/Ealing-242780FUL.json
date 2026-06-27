@@ -1,7 +1,7 @@
 {
   "application_type": "All Other",
   "valid_date": "18/07/2024",
-  "uprn": "000012052961",
+  "uprn": 12052961,
   "decision_target_date": "12/09/2024",
   "lpa_app_no": "242780FUL",
   "last_date_consultation_comments": "14/08/2024",
@@ -12,7 +12,7 @@
     "rain_water_harvesting": false,
     "affordable_housing_fast_track": false,
     "existing_uprns": null,
-    "site_area": 0.033,
+    "site_area": 0.02,
     "total_gia_existing": 93.18,
     "total_gia_lost": 0,
     "scheme_phasing": true,
@@ -35,39 +35,56 @@
       "no_new_water_connections_required": 0,
       "no_homes_to_have_electrical_heating": 0,
       "no_new_gas_connections_required": 0,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "urban_greening_factor_score": 0
     },
     "surface_water_discharge_percentage_reduction": 0,
     "residential_details": {
       "total_no_existing_residential_units_intermediate": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 4,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
+          "no_bedrooms": 3,
           "unit_type": "Terraced Home",
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 94
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 4,
+          "provider": "Private",
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "gia": 94,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 93.8
         },
         {
-          "no_habitable_rooms": 4,
-          "provider": "Private",
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 3,
-          "gia": 93.8,
-          "tenure": "Market for sale"
-        },
-        {
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 95,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 95
         }
       ],
       "total_no_proposed_residential_units": 2,
@@ -111,8 +128,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 93.18,
-        "use_class": "C3",
         "gia_gained": 175,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -127,26 +144,84 @@
     "phasing_details": [
       {
         "phase_detail": "Entire development",
-        "intended_commencement_date": "07/2024",
-        "intended_completion_date": "08/2024"
+        "intended_completion_date": "08/2024",
+        "intended_commencement_date": "07/2024"
       }
     ],
-    "internal_resi_water_usage": 0
+    "internal_resi_water_usage": 0,
+    "occupation_status": "Occupied"
   },
-  "borough": "London Borough of Ealing",
+  "borough": "Ealing",
   "application_type_full": "Full planning permission",
   "cil_liability": true,
   "date_building_work_started_under_previous_permission": null,
   "lapsed_date": "25/09/2027",
   "bo_system": "Idox Uniform",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                514683.7,
+                183880.15
+              ],
+              [
+                514690.6,
+                183884.3
+              ],
+              [
+                514702.7,
+                183898.2
+              ],
+              [
+                514695.934,
+                183897.208
+              ],
+              [
+                514689.4,
+                183896.25
+              ],
+              [
+                514678.4,
+                183894.55
+              ],
+              [
+                514676.65,
+                183890.3
+              ],
+              [
+                514671.35,
+                183877.7
+              ],
+              [
+                514672.15,
+                183876.25
+              ],
+              [
+                514675.85,
+                183874.5
+              ],
+              [
+                514683.7,
+                183880.15
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "appeal_status": null,
   "parking_details": null,
   "centroid": {
     "lon": -0.3476,
     "lat": 51.542229
   },
-  "locality": null,
+  "locality": "Greenford",
   "secondary_street_name": null,
   "decision_conditions": [
     "Balconies for Flat Roofs",
@@ -154,40 +229,61 @@
     "Refuse - Compliance",
     "Standard Cond - Expiration Three Years",
     "Standard Cond - Materials",
-    "",
-    "",
-    "",
-    "",
-    "approved plans",
-    ""
+    "approved plans"
   ],
   "decision_agency": null,
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.347578,
-          51.542242
-        ],
-        [
-          -0.347579,
-          51.542215
-        ],
-        [
-          -0.347622,
-          51.542215
-        ],
-        [
-          -0.347621,
-          51.542242
-        ],
-        [
-          -0.347578,
-          51.542242
+          [
+            -0.347664,
+            51.542177
+          ],
+          [
+            -0.347563,
+            51.542213
+          ],
+          [
+            -0.347384,
+            51.542335
+          ],
+          [
+            -0.347482,
+            51.542328
+          ],
+          [
+            -0.347577,
+            51.54232
+          ],
+          [
+            -0.347736,
+            51.542307
+          ],
+          [
+            -0.347762,
+            51.54227
+          ],
+          [
+            -0.347843,
+            51.542157
+          ],
+          [
+            -0.347832,
+            51.542144
+          ],
+          [
+            -0.347779,
+            51.542128
+          ],
+          [
+            -0.347664,
+            51.542177
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
@@ -201,15 +297,15 @@
   "url_planning_app": null,
   "pp_id": "PP-13209710",
   "decision_process": null,
-  "centroid_easting": "514688",
-  "last_updated": "2026-06-20T04:01:32.007Z",
+  "centroid_easting": 514688,
+  "last_updated": "2026-06-26T05:02:15.842Z",
   "appeal_decision_date": null,
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated_by": "Idox Uniform",
-  "site_number": "16",
-  "centroid_northing": "183886",
+  "last_updated_by": "Planning Portal ingest",
+  "site_number": 16,
+  "centroid_northing": 183886,
   "development_type": null,
-  "description": "Conversion of a single family dwellinghouse into 2 self-contained residential units and provision of associated  refuse and cycle storage; single storey, part two storey, rear/side extension.",
+  "description": "Erection of a two storey rear/side extension and rear dormer extension to facilitate the conversion of an existing dwellinghouse into 1x3 bed and 1x2 bed self contained flats together with the provision of refuse and cycle storage",
   "status": "Approved",
   "actual_completion_date": null,
   "appeal_start_date": null,

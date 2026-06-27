@@ -9,17 +9,17 @@
   "last_updated_by": "CSV Data Import",
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": null,
-  "last_updated": "2026-04-20T20:02:39.455Z",
+  "last_updated": "2026-06-26T20:02:27.630Z",
   "url_planning_app": "https://development.towerhamlets.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR149699&activeTab=summary",
   "street_name": null,
   "parking_details": null,
   "ward": "Bow West",
   "bo_system": "CSV Data Import",
   "site_name": "415 Roman Road, London, E3 5QS",
-  "site_number": null,
+  "site_number": 415,
   "application_details": {
     "site_area": 0.0125,
-    "total_gia_existing": 195.1,
+    "total_gia_existing": 195.10000000000002,
     "ownership_status": "Private",
     "existing_uprns": null,
     "phasing_details": [
@@ -34,14 +34,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 102.4,
-        "use_class": "SpecifiedOther",
         "gia_gained": 0,
+        "use_class": "Other",
         "gia_lost": 0
       },
       {
         "gia_existing": 92.7,
-        "use_class": "C3",
         "gia_gained": 44,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -83,7 +83,8 @@
           "internal_dry_recycling": true
         }
       ],
-      "total_annual_nox_emissions": 0
+      "total_annual_nox_emissions": 0,
+      "urban_greening_factor_score": 0
     },
     "rain_water_harvesting": false,
     "projected_cost_of_works": "Up to £2m",
@@ -136,18 +137,24 @@
       "total_no_proposed_residential_units_affordable_rent": 0,
       "residential_units": [
         {
-          "provider": "Private",
-          "no_habitable_rooms": 2,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Studio Bedsit",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
           "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 39.3
         }
       ]
     },
     "non_residential_details": {
-      "total_gia_existing": 195.1,
+      "total_gia_existing": 195.10000000000002,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_lost": 0,
       "total_gia_gained": 44,
@@ -156,11 +163,12 @@
     "affordable_housing_fast_track": false,
     "grey_water_reuse": false,
     "total_gia_lost": 0,
-    "surface_water_discharge_percentage_reduction": 0
+    "surface_water_discharge_percentage_reduction": 0,
+    "occupation_status": "Occupied"
   },
   "uprn": "6119098",
   "locality": null,
-  "date_building_work_started_under_previous_permission": "08/07/2025",
+  "date_building_work_started_under_previous_permission": "07/07/2025",
   "postcode": null,
   "valid_date": "11/03/2026",
   "cil_liability": null,
@@ -173,7 +181,60 @@
   "application_type_full": "Full planning permission",
   "pp_id": "PP-14561836",
   "lpa_app_no": "PA/25/02223/NC",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                536291.05,
+                183249.35
+              ],
+              [
+                536285.5,
+                183267.25
+              ],
+              [
+                536283.9,
+                183272.25
+              ],
+              [
+                536279.15,
+                183270.45
+              ],
+              [
+                536279.909,
+                183268.098
+              ],
+              [
+                536281.15,
+                183264.25
+              ],
+              [
+                536281.2,
+                183264.05
+              ],
+              [
+                536284.1,
+                183255
+              ],
+              [
+                536286.4,
+                183247.85
+              ],
+              [
+                536291.05,
+                183249.35
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "id": "Tower_Hamlets-PA_25_02223_NC",
   "appeal_status": null,
   "appeal_start_date": null,
@@ -188,9 +249,57 @@
   "borough": "Tower Hamlets",
   "decision": null,
   "application_type": "All Other",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          [
+            -0.036513,
+            51.531709
+          ],
+          [
+            -0.036586,
+            51.531872
+          ],
+          [
+            -0.036607,
+            51.531917
+          ],
+          [
+            -0.036676,
+            51.531902
+          ],
+          [
+            -0.036666,
+            51.53188
+          ],
+          [
+            -0.03665,
+            51.531846
+          ],
+          [
+            -0.036649,
+            51.531844
+          ],
+          [
+            -0.036611,
+            51.531762
+          ],
+          [
+            -0.036581,
+            51.531697
+          ],
+          [
+            -0.036513,
+            51.531709
+          ]
+        ]
+      ]
+    ],
+    "type": "MultiPolygon"
+  },
   "decision_agency": null,
-  "decision_target_date": null,
+  "decision_target_date": "17/07/2026",
   "status": "Application Under Consideration",
   "decision_date": null
 }

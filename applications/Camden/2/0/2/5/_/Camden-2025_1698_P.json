@@ -6,63 +6,57 @@
   "url_planning_app": "https://planningrecords.camden.gov.uk/Northgate/PlanningExplorer/DisplayAppDetails.aspx?AppNo=2025/1698/P",
   "epc_number": "9500-3205-0222-6229-3773",
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.193624,
-          51.559715
-        ],
-        [
-          -0.19366,
-          51.559681
-        ],
-        [
-          -0.193684,
-          51.55966
-        ],
-        [
-          -0.193726,
-          51.55962
-        ],
-        [
-          -0.193817,
-          51.559537
-        ],
-        [
-          -0.193924,
-          51.559582
-        ],
-        [
-          -0.193908,
-          51.559764
-        ],
-        [
-          -0.193904,
-          51.559824
-        ],
-        [
-          -0.193759,
-          51.559773
-        ],
-        [
-          -0.193624,
-          51.559715
-        ],
-        [
-          -0.193624,
-          51.559715
-        ],
-        [
-          -0.193624,
-          51.559715
+          [
+            -0.193684,
+            51.55966
+          ],
+          [
+            -0.19366,
+            51.559681
+          ],
+          [
+            -0.193624,
+            51.559715
+          ],
+          [
+            -0.193759,
+            51.559773
+          ],
+          [
+            -0.193903,
+            51.559824
+          ],
+          [
+            -0.193908,
+            51.559764
+          ],
+          [
+            -0.193924,
+            51.559582
+          ],
+          [
+            -0.193817,
+            51.559537
+          ],
+          [
+            -0.193726,
+            51.55962
+          ],
+          [
+            -0.193684,
+            51.55966
+          ]
         ]
       ]
     ]
   },
   "secondary_street_name": null,
   "street_name": "Platt's Lane",
-  "last_updated_by": "Northgate M3",
+  "last_updated_by": "Planning Portal ingest",
   "date_building_work_started_under_previous_permission": null,
   "application_details": {
     "non_residential_details": {
@@ -82,8 +76,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire development",
-        "intended_commencement_date": "11/2025",
-        "intended_completion_date": "04/2026"
+        "intended_completion_date": "04/2026",
+        "intended_commencement_date": "11/2025"
       }
     ],
     "infrastructure_details": {
@@ -100,14 +94,15 @@
       "waste_provision": true,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "urban_greening_factor_score": 0
     },
     "internal_resi_water_usage": 0,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 105.2,
-        "use_class": "C3",
         "gia_gained": 248,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -116,7 +111,8 @@
     "total_gia_lost": 0,
     "total_gia_existing": 105.2,
     "green_suds": true,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "occupation_status": "Occupied"
   },
   "ward": "Frognal",
   "cil_liability": false,
@@ -124,7 +120,7 @@
     "lon": -0.193743,
     "lat": 51.559708
   },
-  "uprn": "5059006",
+  "uprn": 5096505,
   "parking_details": {
     "no_existing_car": 2,
     "net_car": 0,
@@ -141,68 +137,62 @@
   "centroid_northing": 186082,
   "appeal_status": null,
   "status": "Application Received",
-  "description": "Construction of a basement extension with associated rooflight and lightwell; removal of existing communal bin store and construction of a new communal bin store in rear garden; proposed timber gate in rear garden (southern boundary) to match existing fence.",
-  "site_name": null,
+  "description": "Construction of a basement extension with associated rooflight and lightwell; removal of existing communal bin store and construction of a new communal bin store in rear garden; proposed timber gate in rear garden (southern boundary) to match existing fence",
+  "site_name": "18 Flat 1",
   "appeal_start_date": null,
   "decision_date": null,
   "decision_target_date": "07/11/2025",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              525317.2525956837,
-              186082.95389554516
-            ],
-            [
-              525314.8038125351,
-              186079.10499727947
-            ],
-            [
-              525313.1960256193,
-              186076.7456726288
-            ],
-            [
-              525310.4009499045,
-              186072.24696036888
-            ],
-            [
-              525304.2996046857,
-              186062.89963601128
-            ],
-            [
-              525296.7965990793,
-              186067.69826242072
-            ],
-            [
-              525297.3984885403,
-              186087.9024790285
-            ],
-            [
-              525297.5468996404,
-              186094.65054741548
-            ],
-            [
-              525307.6965698618,
-              186089.152121322
-            ],
-            [
-              525317.2525956837,
-              186082.95389554516
-            ],
-            [
-              525317.2525956837,
-              186082.95389554516
-            ],
-            [
-              525317.2525956837,
-              186082.95389554516
+              [
+                525313.2,
+                186076.75
+              ],
+              [
+                525314.8,
+                186079.1
+              ],
+              [
+                525317.25,
+                186082.95
+              ],
+              [
+                525307.7,
+                186089.15
+              ],
+              [
+                525297.55,
+                186094.65
+              ],
+              [
+                525297.4,
+                186087.9
+              ],
+              [
+                525296.8,
+                186067.7
+              ],
+              [
+                525304.3,
+                186062.9
+              ],
+              [
+                525310.4,
+                186072.25
+              ],
+              [
+                525313.2,
+                186076.75
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ]
   },
@@ -221,6 +211,6 @@
   "pp_id": "13950493",
   "reference_no_of_permission_being_relied_on": null,
   "borough": "Camden",
-  "last_updated": "2026-06-24T09:51:27.190Z",
+  "last_updated": "2026-06-26T05:13:13.468Z",
   "actual_completion_date": null
 }

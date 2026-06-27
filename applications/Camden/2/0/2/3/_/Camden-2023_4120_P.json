@@ -1,12 +1,12 @@
 {
   "lpa_app_no": "2023/4120/P",
-  "uprn": "5109559",
+  "uprn": 5109559,
   "lapsed_date": "08/08/2027",
   "centroid_northing": 182837,
   "site_number": "62",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
-  "site_name": "62-64 Churchway\n",
+  "site_name": "62-64",
   "appeal_decision_date": null,
   "valid_date": "02/10/2023",
   "decision_date": "08/08/2024",
@@ -14,77 +14,83 @@
     "coordinates": [
       [
         [
-          -0.130559,
-          51.529581
-        ],
-        [
-          -0.130589,
-          51.52957
-        ],
-        [
-          -0.13064,
-          51.529552
-        ],
-        [
-          -0.130759,
-          51.529509
-        ],
-        [
-          -0.130774,
-          51.529539
-        ],
-        [
-          -0.130711,
-          51.529562
-        ],
-        [
-          -0.130678,
-          51.529574
-        ],
-        [
-          -0.130674,
-          51.52957
-        ],
-        [
-          -0.130661,
-          51.529574
-        ],
-        [
-          -0.130612,
-          51.529593
-        ],
-        [
-          -0.130598,
-          51.529598
-        ],
-        [
-          -0.130584,
-          51.529604
-        ],
-        [
-          -0.130559,
-          51.529581
-        ],
-        [
-          -0.130559,
-          51.529581
-        ],
-        [
-          -0.130559,
-          51.529581
+          [
+            -0.130759,
+            51.529509
+          ],
+          [
+            -0.130744,
+            51.529477
+          ],
+          [
+            -0.130742,
+            51.529475
+          ],
+          [
+            -0.130614,
+            51.529526
+          ],
+          [
+            -0.130564,
+            51.529546
+          ],
+          [
+            -0.130534,
+            51.529558
+          ],
+          [
+            -0.130559,
+            51.529581
+          ],
+          [
+            -0.130584,
+            51.529604
+          ],
+          [
+            -0.130598,
+            51.529598
+          ],
+          [
+            -0.130612,
+            51.529593
+          ],
+          [
+            -0.130661,
+            51.529574
+          ],
+          [
+            -0.130674,
+            51.52957
+          ],
+          [
+            -0.130678,
+            51.529574
+          ],
+          [
+            -0.130711,
+            51.529562
+          ],
+          [
+            -0.130774,
+            51.529539
+          ],
+          [
+            -0.130759,
+            51.529509
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_start_date": null,
   "reference_no_of_permission_being_relied_on": null,
   "application_type": "All Other",
   "decision_process": "Delegated",
   "application_details": {
     "total_gia_lost": 0,
-    "scheme_phasing": false,
+    "scheme_phasing": true,
     "total_gia_existing": 0,
     "total_gia_gained": 42,
     "projected_cost_of_works": "Up to £2m",
@@ -101,17 +107,19 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "gia": 42,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 42
         }
       ],
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -148,7 +156,7 @@
     "infrastructure_details": {
       "urban_greening_factor_score": 0.4,
       "no_new_water_connections_required": 1,
-      "waste_provision": false,
+      "waste_provision": true,
       "no_non_resi_units_to_have_full_fibre": 0,
       "no_resi_units_to_have_full_fibre": 1,
       "percentage_demolition_construction_material_recycling": 0,
@@ -168,8 +176,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 0,
-        "use_class": "C3",
         "gia_gained": 42,
+        "use_class": "c3",
         "gia_lost": 0
       }
     ],
@@ -184,8 +192,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "02/2024",
-        "intended_completion_date": "06/2024"
+        "intended_completion_date": "06/2024",
+        "intended_commencement_date": "02/2024"
       }
     ],
     "green_suds": false,
@@ -205,7 +213,8 @@
     },
     "3d_model": false,
     "borough_cil_liability_notice_issued": false,
-    "transport_impact_assessment": false
+    "transport_impact_assessment": false,
+    "occupation_status": "Occupied"
   },
   "appeal_decision": null,
   "postcode": "NW1 1LT",
@@ -213,7 +222,7 @@
   "title_number": [],
   "centroid_easting": 529764,
   "actual_commencement_date": null,
-  "description": "Roof extension to provide an additional residential dwelling, including front facade alterations at third floor roof and ground floor.\n\n",
+  "description": "Roof extension to provide an additional residential dwelling, including facade alterations. ",
   "decision": "Approved",
   "actual_completion_date": null,
   "borough": "Camden",
@@ -242,79 +251,85 @@
     "Condition : 3 - All new external work shall be carried out in materials that resemble, as closely as possible, in colour and texture those of the existing building, unless otherwise specified in the approved application. \n\nReason: To safeguard the appearance of the premises and the character of the immediate area in accordance with the requirements of policy D1 of the London Borough of Camden Local Plan 2017."
   ],
   "parking_details": null,
-  "last_updated": "2026-06-18T10:38:35.659Z",
+  "last_updated": "2026-06-26T08:34:26.943Z",
   "appeal_status": null,
   "street_name": "Churchway",
   "ward": "St Pancras and Somers Town",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              529774.3017681655,
-              182841.80166470975
-            ],
-            [
-              529772.2487479498,
-              182840.50203672488
-            ],
-            [
-              529768.7528420404,
-              182838.40263767098
-            ],
-            [
-              529760.5984766053,
-              182833.4040684952
-            ],
-            [
-              529759.501883478,
-              182836.80309553386
-            ],
-            [
-              529763.7480899483,
-              182839.40235150536
-            ],
-            [
-              529766.0484619973,
-              182840.8019508749
-            ],
-            [
-              529766.3535292582,
-              182840.402065341
-            ],
-            [
-              529767.2027705522,
-              182840.80195087474
-            ],
-            [
-              529770.5502653619,
-              182843.00132131175
-            ],
-            [
-              529771.5479177558,
-              182843.651135306
-            ],
-            [
-              529772.4960997831,
-              182844.30094929773
-            ],
-            [
-              529774.3017681655,
-              182841.80166470975
-            ],
-            [
-              529774.3017681655,
-              182841.80166470975
-            ],
-            [
-              529774.3017681655,
-              182841.80166470975
+              [
+                529760.6,
+                182833.4
+              ],
+              [
+                529761.75,
+                182829.9
+              ],
+              [
+                529761.85,
+                182829.7
+              ],
+              [
+                529770.605,
+                182835.567
+              ],
+              [
+                529774.038,
+                182837.868
+              ],
+              [
+                529776.1,
+                182839.25
+              ],
+              [
+                529774.3,
+                182841.8
+              ],
+              [
+                529772.5,
+                182844.3
+              ],
+              [
+                529771.55,
+                182843.65
+              ],
+              [
+                529770.55,
+                182843
+              ],
+              [
+                529767.2,
+                182840.8
+              ],
+              [
+                529766.35,
+                182840.4
+              ],
+              [
+                529766.05,
+                182840.8
+              ],
+              [
+                529763.75,
+                182839.4
+              ],
+              [
+                529759.5,
+                182836.8
+              ],
+              [
+                529760.6,
+                182833.4
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ]
   }

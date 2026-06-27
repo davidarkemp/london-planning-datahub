@@ -6,7 +6,7 @@
   "lpa_app_no": "242744FUL",
   "last_date_consultation_comments": "13/08/2024",
   "decision_date": "14/03/2025",
-  "subdivision_of_building": null,
+  "subdivision_of_building": "Application relates to land at the rear only",
   "ward": "SOUFLD",
   "application_details": {
     "rain_water_harvesting": true,
@@ -44,29 +44,42 @@
       "no_homes_to_have_electrical_heating": 2,
       "no_new_gas_connections_required": 0,
       "solar_pv_capacity": 0.01,
-      "ghg_reduction_over_building_regulations": true
+      "ghg_reduction_over_building_regulations": true,
+      "urban_greening_factor_score": 0
     },
     "surface_water_discharge_percentage_reduction": 0,
     "residential_details": {
       "total_no_existing_residential_units_intermediate": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Semi Detached Home",
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Semi Detached Home",
           "no_bedrooms": 2,
-          "gia": 59.9,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 59.9
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Semi Detached Home",
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Semi Detached Home",
           "no_bedrooms": 2,
-          "gia": 59.9,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 59.9
         }
       ],
       "total_no_proposed_residential_units": 2,
@@ -110,8 +123,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 0,
-        "use_class": "C3",
         "gia_gained": 1198.8,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -126,11 +139,12 @@
     "phasing_details": [
       {
         "phase_detail": "Single",
-        "intended_commencement_date": "02/2025",
-        "intended_completion_date": "02/2026"
+        "intended_completion_date": "02/2026",
+        "intended_commencement_date": "02/2025"
       }
     ],
-    "internal_resi_water_usage": 105
+    "internal_resi_water_usage": 105,
+    "occupation_status": "Vacant"
   },
   "borough": "London Borough of Ealing",
   "application_type_full": "Full planning permission",
@@ -140,10 +154,14 @@
   "bo_system": "Idox Uniform",
   "polygon": null,
   "appeal_status": null,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_proposed_cycle": 4,
+    "net_cycle": 4
+  },
   "centroid": {
-    "lon": -7.55716,
-    "lat": 49.766807
+    "lon": -0.265073,
+    "lat": 51.499663
   },
   "locality": null,
   "secondary_street_name": null,
@@ -161,10 +179,36 @@
     "no HMO"
   ],
   "decision_agency": null,
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.26505,
+          51.499677
+        ],
+        [
+          -0.265051,
+          51.49965
+        ],
+        [
+          -0.265095,
+          51.49965
+        ],
+        [
+          -0.265094,
+          51.499677
+        ],
+        [
+          -0.26505,
+          51.499677
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
-  "postcode": null,
+  "postcode": "W5 5DL",
   "epc_number": null,
   "decision": "Approved",
   "id": "Ealing-242744FUL",
@@ -174,18 +218,18 @@
   "url_planning_app": null,
   "pp_id": "PP-13236317",
   "decision_process": null,
-  "centroid_easting": null,
-  "last_updated": "2026-06-20T04:01:30.884Z",
+  "centroid_easting": 520523,
+  "last_updated": "2026-06-26T05:04:36.835Z",
   "appeal_decision_date": null,
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "site_number": null,
-  "centroid_northing": null,
+  "centroid_northing": 179285,
   "development_type": null,
-  "description": "Construction of two 1.5-storey semi-detached dwellinghouses with habitable loft space",
+  "description": "Erection of 2no, two-storey one bedroom houses",
   "status": "Approved",
   "actual_completion_date": null,
   "appeal_start_date": null,
-  "street_name": null,
+  "street_name": "Land to the rear of ",
   "title_number": []
 }

@@ -1,5 +1,5 @@
 {
-  "postcode": null,
+  "postcode": "SE8 4PQ",
   "status": "Refused",
   "decision_agency": null,
   "subdivision_of_building": null,
@@ -11,18 +11,71 @@
   "decision_target_date": null,
   "valid_date": "15/12/2025",
   "lpa_app_no": "DC/25/142422",
-  "locality": null,
+  "locality": "London",
   "appeal_decision_date": null,
   "parking_details": null,
   "decision_process": "Delegated",
-  "street_name": null,
-  "site_number": null,
+  "street_name": "Deptford Broadway",
+  "site_number": 40,
   "centroid_easting": 537282,
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                537276.701,
+                176894.087
+              ],
+              [
+                537276.431,
+                176894.325
+              ],
+              [
+                537278.65,
+                176897.2
+              ],
+              [
+                537292.2,
+                176914.75
+              ],
+              [
+                537288.4,
+                176917.7
+              ],
+              [
+                537271.7,
+                176895.9
+              ],
+              [
+                537271.505,
+                176895.645
+              ],
+              [
+                537274.847,
+                176892.294
+              ],
+              [
+                537275.041,
+                176892.099
+              ],
+              [
+                537276.701,
+                176894.087
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "ward": "Deptford",
   "centroid_northing": 176905,
   "application_type": "All Other",
-  "uprn": "100023281219",
+  "uprn": 100023281219,
   "lapsed_date": "19/03/2029",
   "actual_completion_date": null,
   "decision": "Refused",
@@ -36,11 +89,11 @@
   "development_type": "Minor dwellings",
   "appeal_status": null,
   "date_building_work_completed_under_previous_permission": null,
-  "description": "The construction of an additional storey and a first floor extension to the rear incorporating roof terraces to provide one additional self-contained flat, reconfiguration of the existing flats, alterations to the side elevation for a new communal entrance and staircase and all associated works at 40 Deptford Broadway SE8.",
+  "description": "The erection of an additional storey above the main building and first floor rear extension to create a 1 x 2 bedroom dwelling and the introduction of a new communal side entrance and staircase and some alterations to the existing flats and 2 x rear balconies with some internal and external alterations and demolitions.",
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
   "epc_number": "4739-5727-1000-0750-1226",
-  "last_updated": "2026-04-21T08:44:17.794Z",
+  "last_updated": "2026-06-26T15:26:06.279Z",
   "centroid": {
     "lon": -0.024703,
     "lat": 51.474458
@@ -84,11 +137,17 @@
       "total_no_existing_residential_units": 0,
       "residential_units": [
         {
-          "provider": "Private",
-          "no_habitable_rooms": 3,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 3,
+          "provider": "Private",
           "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 61
         }
@@ -107,14 +166,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 147,
-        "use_class": "EC3",
         "gia_gained": 0,
+        "use_class": "EC3",
         "gia_lost": 7
       },
       {
         "gia_existing": 68,
-        "use_class": "C3",
         "gia_gained": 81,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -144,7 +203,8 @@
       "no_homes_passive_cooling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_pm_emissions": 0,
-      "percentage_demolition_construction_material_recycling": 0
+      "percentage_demolition_construction_material_recycling": 0,
+      "urban_greening_factor_score": 0
     },
     "existing_uprns": null,
     "affordable_housing_fast_track": false,
@@ -165,11 +225,60 @@
         "max_height": 12.6,
         "building_ref": "Whole building as proposed"
       }
-    ]
+    ],
+    "occupation_status": "Occupied"
   },
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          [
+            -0.024783,
+            51.474362
+          ],
+          [
+            -0.024787,
+            51.474364
+          ],
+          [
+            -0.024754,
+            51.474389
+          ],
+          [
+            -0.024552,
+            51.474544
+          ],
+          [
+            -0.024606,
+            51.474571
+          ],
+          [
+            -0.024855,
+            51.474379
+          ],
+          [
+            -0.024857,
+            51.474377
+          ],
+          [
+            -0.024811,
+            51.474346
+          ],
+          [
+            -0.024808,
+            51.474344
+          ],
+          [
+            -0.024783,
+            51.474362
+          ]
+        ]
+      ]
+    ],
+    "type": "MultiPolygon"
+  },
   "id": "Lewisham-DC_25_142422",
   "reference_no_of_permission_being_relied_on": null,
   "title_number": null,
-  "last_updated_by": "CSV Data Import"
+  "last_updated_by": "Planning Portal ingest"
 }

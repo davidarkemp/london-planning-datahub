@@ -6,16 +6,20 @@
   "appeal_decision": null,
   "lapsed_date": "10/06/2029",
   "appeal_decision_date": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": null,
-  "last_updated": "2026-06-10T20:00:44.819Z",
+  "last_updated": "2026-06-26T11:25:24.441Z",
   "url_planning_app": null,
-  "street_name": null,
-  "parking_details": null,
+  "street_name": "Blackfen Road",
+  "parking_details": {
+    "no_existing_car": 0,
+    "net_car": 2,
+    "no_proposed_car": 2
+  },
   "ward": "BLACKF",
   "bo_system": "Idox Uniform",
-  "site_name": "Rear Of \r216 - 218 Blackfen Road\rSidcup\rKent\rDA15 8PT\r",
+  "site_name": "216-218",
   "site_number": null,
   "application_details": {
     "total_gia_existing": 95,
@@ -32,14 +36,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 95,
-        "use_class": "SG",
         "gia_gained": 0,
+        "use_class": "SG",
         "gia_lost": 52.25
       },
       {
         "gia_existing": 0,
-        "use_class": "EG1",
         "gia_gained": 52.25,
+        "use_class": "EG1",
         "gia_lost": 0
       }
     ],
@@ -59,7 +63,8 @@
       "mobile_network_operators_consultation": false,
       "ghg_reduction_over_building_regulations": false,
       "fire_suppression_system_proposed": false,
-      "total_annual_nox_emissions": 0
+      "total_annual_nox_emissions": 0,
+      "urban_greening_factor_score": 0
     },
     "rain_water_harvesting": false,
     "projected_cost_of_works": "Up to £2m",
@@ -75,20 +80,21 @@
       "total_gia_lost": 52.25,
       "total_gia_gained": 52.25,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0
-    }
+    },
+    "occupation_status": "Occupied"
   },
-  "uprn": "100022919928",
-  "locality": null,
+  "uprn": 100022919928,
+  "locality": "Sidcup",
   "date_building_work_started_under_previous_permission": null,
-  "postcode": null,
+  "postcode": "DA15 8PT",
   "valid_date": "11/03/2026",
   "cil_liability": false,
   "actual_completion_date": null,
   "centroid": {
-    "lat": 49.766807,
-    "lon": -7.55716
+    "lat": 51.450998,
+    "lon": 0.09989
   },
-  "centroid_easting": null,
+  "centroid_easting": 546009,
   "application_type_full": "Full planning permission",
   "pp_id": "PP-14769497",
   "lpa_app_no": "26/00501/FUL",
@@ -98,68 +104,141 @@
         "coordinates": [
           [
             [
-              546010,
-              174520
-            ],
-            [
-              546011,
-              174524
-            ],
-            [
-              546012,
-              174525
-            ],
-            [
-              546003,
-              174529
-            ],
-            [
-              546003,
-              174529
-            ],
-            [
-              546000,
-              174531
-            ],
-            [
-              545995,
-              174533
-            ],
-            [
-              545993,
-              174529
-            ],
-            [
-              545992,
-              174528
-            ],
-            [
-              545997,
-              174526
-            ],
-            [
-              546000,
-              174524
-            ],
-            [
-              546001,
-              174524
-            ],
-            [
-              546010,
-              174520
+              [
+                546000.9,
+                174523.7
+              ],
+              [
+                546009.55,
+                174519.75
+              ],
+              [
+                546011.3,
+                174523.7
+              ],
+              [
+                546011.7,
+                174524.6
+              ],
+              [
+                546012.207,
+                174526.115
+              ],
+              [
+                546016.986,
+                174536.179
+              ],
+              [
+                546017.603,
+                174537.477
+              ],
+              [
+                546015.48,
+                174538.75
+              ],
+              [
+                546011.2,
+                174529.8
+              ],
+              [
+                546008.45,
+                174531.1
+              ],
+              [
+                546009.352,
+                174533.206
+              ],
+              [
+                546005.9,
+                174534.75
+              ],
+              [
+                546002.5,
+                174536.35
+              ],
+              [
+                546001.6,
+                174534.4
+              ],
+              [
+                546000,
+                174535.1
+              ],
+              [
+                545999.7,
+                174535.25
+              ],
+              [
+                545998.249,
+                174535.975
+              ],
+              [
+                546000,
+                174539.7
+              ],
+              [
+                546002.9,
+                174546
+              ],
+              [
+                546000.86,
+                174546.95
+              ],
+              [
+                546000.29,
+                174547.22
+              ],
+              [
+                546000,
+                174546.61
+              ],
+              [
+                545995.25,
+                174536.7
+              ],
+              [
+                545994.7,
+                174532.8
+              ],
+              [
+                545992.95,
+                174529.2
+              ],
+              [
+                545992.35,
+                174527.9
+              ],
+              [
+                545997.1,
+                174525.55
+              ],
+              [
+                546000,
+                174524.1
+              ],
+              [
+                546000.9,
+                174523.7
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
+      },
+      {
+        "coordinates": [
+          546007.9515000025,
+          174496.13311726158
+        ],
+        "type": "Point"
       }
     ],
-    "type": "geometrycollection"
+    "type": "GeometryCollection"
   },
   "id": "Bexley-26_00501_FUL",
   "appeal_status": null,
   "appeal_start_date": null,
-  "description": "Change of Use of part of existing workshop (Sui Generis) to Office (Class E(g)(i) and partial retention of workshop.",
+  "description": "Partial Change of Use from Workshop (Sui Generis) to Office (Class E(g))",
   "development_type": null,
   "decision_conditions": [
     "Refuse Storage",
@@ -172,68 +251,134 @@
   "title_number": [],
   "last_date_consultation_comments": "15/05/2026",
   "decision_process": null,
-  "centroid_northing": null,
-  "borough": "London Borough of Bexley",
+  "centroid_northing": 174537,
+  "borough": "Bexley",
   "decision": "Approved",
   "application_type": "All Other",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          0.099897,
-          51.450845
-        ],
-        [
-          0.099913,
-          51.450881
-        ],
-        [
-          0.099928,
-          51.450889
-        ],
-        [
-          0.0998,
-          51.450928
-        ],
-        [
-          0.0998,
-          51.450928
-        ],
-        [
-          0.099758,
-          51.450946
-        ],
-        [
-          0.099687,
-          51.450966
-        ],
-        [
-          0.099657,
-          51.45093
-        ],
-        [
-          0.099642,
-          51.450922
-        ],
-        [
-          0.099713,
-          51.450902
-        ],
-        [
-          0.099755,
-          51.450884
-        ],
-        [
-          0.09977,
-          51.450883
-        ],
-        [
-          0.099897,
-          51.450845
+          [
+            0.099768,
+            51.450881
+          ],
+          [
+            0.099891,
+            51.450843
+          ],
+          [
+            0.099918,
+            51.450878
+          ],
+          [
+            0.099924,
+            51.450886
+          ],
+          [
+            0.099932,
+            51.450899
+          ],
+          [
+            0.100004,
+            51.450989
+          ],
+          [
+            0.100014,
+            51.451
+          ],
+          [
+            0.099984,
+            51.451012
+          ],
+          [
+            0.099919,
+            51.450933
+          ],
+          [
+            0.09988,
+            51.450945
+          ],
+          [
+            0.099893,
+            51.450964
+          ],
+          [
+            0.099844,
+            51.450979
+          ],
+          [
+            0.099796,
+            51.450994
+          ],
+          [
+            0.099782,
+            51.450977
+          ],
+          [
+            0.09976,
+            51.450983
+          ],
+          [
+            0.099755,
+            51.450985
+          ],
+          [
+            0.099735,
+            51.450992
+          ],
+          [
+            0.099762,
+            51.451025
+          ],
+          [
+            0.099806,
+            51.45108
+          ],
+          [
+            0.099777,
+            51.451089
+          ],
+          [
+            0.099769,
+            51.451092
+          ],
+          [
+            0.099764,
+            51.451087
+          ],
+          [
+            0.099692,
+            51.450999
+          ],
+          [
+            0.099683,
+            51.450964
+          ],
+          [
+            0.099656,
+            51.450932
+          ],
+          [
+            0.099647,
+            51.450921
+          ],
+          [
+            0.099714,
+            51.450898
+          ],
+          [
+            0.099755,
+            51.450884
+          ],
+          [
+            0.099768,
+            51.450881
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "decision_agency": null,
   "decision_target_date": "06/05/2026",

@@ -6,19 +6,26 @@
   "appeal_decision": null,
   "lapsed_date": null,
   "appeal_decision_date": null,
-  "last_updated_by": "Idox Uniform",
-  "reference_no_of_permission_being_relied_on": null,
+  "last_updated_by": "Planning Portal ingest",
+  "reference_no_of_permission_being_relied_on": "23/0021/FUL",
   "epc_number": null,
-  "last_updated": "2026-06-02T20:00:40.453Z",
+  "last_updated": "2026-06-26T17:42:59.341Z",
   "url_planning_app": null,
   "street_name": "Western Avenue",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 2,
+    "net_car": 0,
+    "no_proposed_cycle": 10,
+    "no_proposed_car": 2,
+    "net_cycle": 10
+  },
   "ward": "GG22",
   "bo_system": "Idox Uniform",
   "site_name": "",
-  "site_number": "2A",
+  "site_number": 2,
   "application_details": {
-    "site_area": 0.044500000000000005,
+    "site_area": 0.0445,
     "total_gia_existing": 113.8,
     "ownership_status": "Private",
     "phasing_details": [
@@ -30,8 +37,8 @@
     ],
     "superseding_details": [
       {
-        "unit_reference": "only first floor reconfiguration",
         "lpa_app_no": "23/0021/FUL",
+        "unit_reference": "only first floor reconfiguration",
         "partial_supersedence": true,
         "component_description": "2 flats on first floor instead of 1 "
       }
@@ -41,8 +48,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 113.8,
-        "use_class": "C3",
         "gia_gained": 235,
+        "use_class": "C3",
         "gia_lost": 113.8
       }
     ],
@@ -62,7 +69,8 @@
       "mobile_network_operators_consultation": false,
       "ghg_reduction_over_building_regulations": false,
       "fire_suppression_system_proposed": false,
-      "total_annual_nox_emissions": 0
+      "total_annual_nox_emissions": 0,
+      "urban_greening_factor_score": 0
     },
     "rain_water_harvesting": false,
     "projected_cost_of_works": "Up to £2m",
@@ -115,39 +123,61 @@
       "total_no_proposed_residential_units_affordable_rent": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 9,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "House or Bungalow",
           "no_bedrooms": 4,
+          "unit_type": "House or Bungalow",
           "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 113.8
         },
         {
-          "provider": "Private",
-          "no_habitable_rooms": 5,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 5,
+          "provider": "Private",
           "no_bedrooms": 3,
+          "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 125.9
         },
         {
-          "provider": "Private",
-          "no_habitable_rooms": 4,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 4,
+          "provider": "Private",
           "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 62.3
         },
         {
-          "provider": "Private",
-          "no_habitable_rooms": 2,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
           "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 38.9
         }
@@ -163,10 +193,11 @@
     "affordable_housing_fast_track": false,
     "grey_water_reuse": false,
     "total_gia_lost": 113.8,
-    "surface_water_discharge_percentage_reduction": 0
+    "surface_water_discharge_percentage_reduction": 0,
+    "occupation_status": "Occupied"
   },
-  "uprn": "000200125475",
-  "locality": "Golders Green",
+  "uprn": 200125475,
+  "locality": "London",
   "date_building_work_started_under_previous_permission": null,
   "postcode": "NW11 9HH",
   "valid_date": "09/03/2026",
@@ -176,7 +207,7 @@
     "lat": 51.578369,
     "lon": -0.21445
   },
-  "centroid_easting": "523823",
+  "centroid_easting": 523823,
   "application_type_full": "Full planning permission",
   "pp_id": "PP-14707769",
   "lpa_app_no": "26/0834/FUL",
@@ -186,88 +217,428 @@
         "coordinates": [
           [
             [
-              523824,
-              188113
-            ],
-            [
-              523827,
-              188119
-            ],
-            [
-              523834,
-              188132
-            ],
-            [
-              523826,
-              188137
-            ],
-            [
-              523803,
-              188112
-            ],
-            [
-              523819,
-              188104
-            ],
-            [
-              523824,
-              188113
+              [
+                523826.1,
+                188136.7
+              ],
+              [
+                523824.75,
+                188135.3
+              ],
+              [
+                523823.4,
+                188133.85
+              ],
+              [
+                523822.2,
+                188132.55
+              ],
+              [
+                523821,
+                188131.3
+              ],
+              [
+                523820,
+                188130.2
+              ],
+              [
+                523819,
+                188129.05
+              ],
+              [
+                523817.7,
+                188127.7
+              ],
+              [
+                523816.5,
+                188126.3
+              ],
+              [
+                523814.9,
+                188124.55
+              ],
+              [
+                523813.3,
+                188122.85
+              ],
+              [
+                523807.5,
+                188116.55
+              ],
+              [
+                523803.45,
+                188111.85
+              ],
+              [
+                523806.5,
+                188110.3
+              ],
+              [
+                523807,
+                188110.1
+              ],
+              [
+                523807.85,
+                188109.75
+              ],
+              [
+                523809.25,
+                188109.2
+              ],
+              [
+                523811.85,
+                188107.8
+              ],
+              [
+                523813.1,
+                188107.25
+              ],
+              [
+                523813.7,
+                188106.95
+              ],
+              [
+                523814.95,
+                188106.3
+              ],
+              [
+                523816.25,
+                188105.6
+              ],
+              [
+                523817.65,
+                188104.95
+              ],
+              [
+                523818.75,
+                188104.4
+              ],
+              [
+                523819.8,
+                188103.8
+              ],
+              [
+                523820.25,
+                188103.55
+              ],
+              [
+                523821.5,
+                188102.9
+              ],
+              [
+                523822.4,
+                188102.35
+              ],
+              [
+                523823.35,
+                188101.7
+              ],
+              [
+                523824.95,
+                188100.8
+              ],
+              [
+                523826.5,
+                188099.85
+              ],
+              [
+                523828.15,
+                188098.95
+              ],
+              [
+                523829.75,
+                188098
+              ],
+              [
+                523834.555,
+                188106.467
+              ],
+              [
+                523836.088,
+                188109.169
+              ],
+              [
+                523834.381,
+                188110.131
+              ],
+              [
+                523829.798,
+                188112.714
+              ],
+              [
+                523826.71,
+                188114.445
+              ],
+              [
+                523828.552,
+                188117.73
+              ],
+              [
+                523827.24,
+                188118.466
+              ],
+              [
+                523829.9,
+                188123.25
+              ],
+              [
+                523829.45,
+                188123.5
+              ],
+              [
+                523831.387,
+                188126.996
+              ],
+              [
+                523831.75,
+                188127.65
+              ],
+              [
+                523833.75,
+                188126.5
+              ],
+              [
+                523833.35,
+                188125.85
+              ],
+              [
+                523842.6,
+                188120.65
+              ],
+              [
+                523845.45,
+                188125.9
+              ],
+              [
+                523826.1,
+                188136.7
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
-    "type": "geometrycollection"
+    "type": "GeometryCollection"
   },
   "id": "Barnet-26_0834_FUL",
   "appeal_status": null,
   "appeal_start_date": null,
-  "description": "Demolition of existing dwelling and erection of a part single, part two storey building to provide 3no. self-contained flats. Associated refuse/recycling store, cycle storage and provision of 2no off street parking spaces",
+  "description": "Erection of a two storey property, following demolition of existing dwelling which will be subdivided into 3no. self-contained flats. Associated\nrefuse/recycling store, cycle storage and provision of 2no off street parking spaces",
   "development_type": null,
   "decision_conditions": null,
   "secondary_street_name": null,
   "title_number": [],
   "last_date_consultation_comments": "04/05/2026",
   "decision_process": "Delegated",
-  "centroid_northing": "188122",
-  "borough": "London Borough of Barnet",
+  "centroid_northing": 188122,
+  "borough": "Barnet",
   "decision": null,
   "application_type": "All Other",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.214439,
-          51.578288
-        ],
-        [
-          -0.214393,
-          51.578341
-        ],
-        [
-          -0.214288,
-          51.578457
-        ],
-        [
-          -0.214401,
-          51.578503
-        ],
-        [
-          -0.214742,
-          51.578284
-        ],
-        [
-          -0.214514,
-          51.578208
-        ],
-        [
-          -0.214439,
-          51.578288
+          [
+            -0.2144,
+            51.578501
+          ],
+          [
+            -0.21442,
+            51.578488
+          ],
+          [
+            -0.21444,
+            51.578476
+          ],
+          [
+            -0.214458,
+            51.578464
+          ],
+          [
+            -0.214475,
+            51.578453
+          ],
+          [
+            -0.21449,
+            51.578444
+          ],
+          [
+            -0.214505,
+            51.578434
+          ],
+          [
+            -0.214524,
+            51.578422
+          ],
+          [
+            -0.214542,
+            51.578409
+          ],
+          [
+            -0.214566,
+            51.578394
+          ],
+          [
+            -0.214589,
+            51.578379
+          ],
+          [
+            -0.214675,
+            51.578324
+          ],
+          [
+            -0.214735,
+            51.578282
+          ],
+          [
+            -0.214692,
+            51.578268
+          ],
+          [
+            -0.214685,
+            51.578266
+          ],
+          [
+            -0.214673,
+            51.578263
+          ],
+          [
+            -0.214653,
+            51.578257
+          ],
+          [
+            -0.214616,
+            51.578244
+          ],
+          [
+            -0.214598,
+            51.578239
+          ],
+          [
+            -0.214589,
+            51.578236
+          ],
+          [
+            -0.214571,
+            51.57823
+          ],
+          [
+            -0.214553,
+            51.578223
+          ],
+          [
+            -0.214533,
+            51.578217
+          ],
+          [
+            -0.214517,
+            51.578212
+          ],
+          [
+            -0.214502,
+            51.578206
+          ],
+          [
+            -0.214496,
+            51.578204
+          ],
+          [
+            -0.214478,
+            51.578198
+          ],
+          [
+            -0.214465,
+            51.578193
+          ],
+          [
+            -0.214452,
+            51.578187
+          ],
+          [
+            -0.214429,
+            51.578178
+          ],
+          [
+            -0.214407,
+            51.57817
+          ],
+          [
+            -0.214384,
+            51.578161
+          ],
+          [
+            -0.214361,
+            51.578152
+          ],
+          [
+            -0.214289,
+            51.578227
+          ],
+          [
+            -0.214266,
+            51.578251
+          ],
+          [
+            -0.21429,
+            51.57826
+          ],
+          [
+            -0.214355,
+            51.578284
+          ],
+          [
+            -0.214399,
+            51.578301
+          ],
+          [
+            -0.214371,
+            51.57833
+          ],
+          [
+            -0.21439,
+            51.578337
+          ],
+          [
+            -0.21435,
+            51.578379
+          ],
+          [
+            -0.214356,
+            51.578381
+          ],
+          [
+            -0.214327,
+            51.578412
+          ],
+          [
+            -0.214322,
+            51.578418
+          ],
+          [
+            -0.214293,
+            51.578407
+          ],
+          [
+            -0.214299,
+            51.578402
+          ],
+          [
+            -0.214168,
+            51.578353
+          ],
+          [
+            -0.214125,
+            51.578399
+          ],
+          [
+            -0.2144,
+            51.578501
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "decision_agency": null,
   "decision_target_date": "04/05/2026",

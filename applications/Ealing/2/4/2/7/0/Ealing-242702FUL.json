@@ -4,30 +4,60 @@
     "coordinates": [
       [
         [
-          -0.346964,
-          51.531317
-        ],
-        [
-          -0.346965,
-          51.53129
-        ],
-        [
-          -0.347009,
-          51.53129
-        ],
-        [
-          -0.347008,
-          51.531317
-        ],
-        [
-          -0.346964,
-          51.531317
+          [
+            -0.347119,
+            51.531298
+          ],
+          [
+            -0.347026,
+            51.531255
+          ],
+          [
+            -0.3468,
+            51.531149
+          ],
+          [
+            -0.34677,
+            51.531175
+          ],
+          [
+            -0.346722,
+            51.531216
+          ],
+          [
+            -0.346794,
+            51.531249
+          ],
+          [
+            -0.34695,
+            51.53132
+          ],
+          [
+            -0.347042,
+            51.531362
+          ],
+          [
+            -0.347102,
+            51.531389
+          ],
+          [
+            -0.347134,
+            51.531362
+          ],
+          [
+            -0.347177,
+            51.531325
+          ],
+          [
+            -0.347119,
+            51.531298
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "url_planning_app": null,
   "decision_target_date": "20/09/2024",
   "status": "Approved",
@@ -64,32 +94,48 @@
       "total_no_existing_residential_units_starter_homes": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 4,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
+          "no_bedrooms": 3,
           "unit_type": "Terraced Home",
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 134
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 4,
+          "provider": "Private",
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "gia": 134,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 87.2
         },
         {
-          "no_habitable_rooms": 4,
-          "provider": "Private",
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 3,
-          "gia": 87.2,
-          "tenure": "Market for sale"
-        },
-        {
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 91,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 91
         }
       ],
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
@@ -136,16 +182,17 @@
       "no_homes_passive_cooling": 0,
       "no_new_water_connections_required": 0,
       "no_resi_units_to_have_full_fibre": 0,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "urban_greening_factor_score": 0
     },
     "total_gia_lost": 0,
     "ownership_status": "Private",
-    "site_area": 0.029,
+    "site_area": 0.02,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 134.14,
-        "use_class": "C3",
         "gia_gained": 187.58,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -158,17 +205,18 @@
     "phasing_details": [
       {
         "phase_detail": "Entire development",
-        "intended_commencement_date": "07/2024",
-        "intended_completion_date": "08/2024"
+        "intended_completion_date": "08/2024",
+        "intended_commencement_date": "07/2024"
       }
     ],
     "projected_cost_of_works": "Up to £2m",
-    "total_gia_existing": 134.14
+    "total_gia_existing": 134.14,
+    "occupation_status": "Occupied"
   },
   "appeal_decision_date": null,
   "decision_date": "18/09/2024",
   "valid_date": "26/07/2024",
-  "site_number": "83",
+  "site_number": 83,
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "ward": "CENGRE",
@@ -178,11 +226,72 @@
   "lpa_app_no": "242702FUL",
   "postcode": "UB6 8RN",
   "pp_id": "PP-13238514",
-  "uprn": "000012050955",
+  "uprn": 12050955,
   "application_type": "All Other",
-  "locality": null,
+  "locality": "Greenford",
   "date_building_work_started_under_previous_permission": null,
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                514748.85,
+                182671.2
+              ],
+              [
+                514755.35,
+                182666.6
+              ],
+              [
+                514771.3,
+                182655.1
+              ],
+              [
+                514773.328,
+                182658.036
+              ],
+              [
+                514776.55,
+                182662.7
+              ],
+              [
+                514771.458,
+                182666.253
+              ],
+              [
+                514760.5,
+                182673.9
+              ],
+              [
+                514754,
+                182678.4
+              ],
+              [
+                514749.75,
+                182681.35
+              ],
+              [
+                514747.622,
+                182678.286
+              ],
+              [
+                514744.75,
+                182674.15
+              ],
+              [
+                514748.85,
+                182671.2
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "lpa_name": "Ealing",
   "actual_commencement_date": null,
   "site_name": "",
@@ -196,21 +305,21 @@
     "Seperation of noise sensitive rooms"
   ],
   "application_type_full": "Full planning permission",
-  "centroid_northing": "182672",
+  "centroid_northing": 182672,
   "epc_number": null,
   "actual_completion_date": null,
   "title_number": [],
   "appeal_status": null,
-  "borough": "London Borough of Ealing",
+  "borough": "Ealing",
   "cil_liability": true,
   "decision_process": null,
   "id": "Ealing-242702FUL",
-  "description": "Conversion of the existing property into two self-contained residential units and provision of associated cycle storage and refuse storage facilities; single storey rear extension; rear roof extension, and installation of two roof lights to front roofslope.",
+  "description": "Erection of a single storey rear extension and rear dormer extension to facilitate the conversion of an existing dwellinghouse into 1x3 bed and 1x2 bed self contained flats together with the provision of refuse and cycle storage",
   "appeal_start_date": null,
-  "last_updated": "2026-06-20T04:01:29.594Z",
+  "last_updated": "2026-06-26T05:03:29.500Z",
   "centroid": {
     "lon": -0.346987,
     "lat": 51.531303
   },
-  "centroid_easting": "514758"
+  "centroid_easting": 514758
 }

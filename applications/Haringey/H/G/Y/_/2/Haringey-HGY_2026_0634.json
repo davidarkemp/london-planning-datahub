@@ -9,21 +9,21 @@
   "last_updated_by": "Arcus",
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": "7220-2197-0128-0095-1593",
-  "last_updated": "2026-05-12T21:04:29.727Z",
+  "last_updated": "2026-06-26T21:04:20.772Z",
   "url_planning_app": "https://publicregister.haringey.gov.uk/pr/s/detail/a0iP200000H1LVF",
   "street_name": "Eldon Road",
   "parking_details": {},
   "ward": "White Hart Lane",
   "bo_system": "Arcus",
   "site_name": "47 Eldon Road, Wood Green, London, N22 5DX",
-  "site_number": null,
+  "site_number": 47,
   "application_details": {
     "affordable_housing_fast_track": false,
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "06/2026",
-        "intended_completion_date": "12/2026"
+        "intended_completion_date": "12/2026",
+        "intended_commencement_date": "06/2026"
       }
     ],
     "total_gia_gained": 217.1,
@@ -33,20 +33,20 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 75.2,
-        "use_class": "EA",
         "gia_gained": 0,
+        "use_class": "EA",
         "gia_lost": 75.2
       },
       {
         "gia_existing": 70.1,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 70.1
       },
       {
         "gia_existing": 0,
-        "use_class": "C4",
         "gia_gained": 217.1,
+        "use_class": "C4",
         "gia_lost": 0
       }
     ],
@@ -78,7 +78,8 @@
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "urban_greening_factor_score": 0
     },
     "internal_resi_water_usage": 0,
     "residential_details": {
@@ -120,21 +121,31 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 3,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 70.01
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "HMO",
           "no_habitable_rooms": 7,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "HMO",
           "no_bedrooms": 6,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 217.1
         }
@@ -142,10 +153,11 @@
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "occupation_status": "Vacant"
   },
   "uprn": "100021175789",
-  "locality": null,
+  "locality": "London",
   "date_building_work_started_under_previous_permission": null,
   "postcode": "N22 5DX",
   "valid_date": "05/03/2026",
@@ -159,7 +171,52 @@
   "application_type_full": "Full planning permission",
   "pp_id": "PP-14755889",
   "lpa_app_no": "HGY/2026/0634",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                531905.35,
+                190840.7
+              ],
+              [
+                531904.05,
+                190833.2
+              ],
+              [
+                531917.553,
+                190830.859
+              ],
+              [
+                531929.5,
+                190828.9
+              ],
+              [
+                531932.0829534513,
+                190828.4500496528
+              ],
+              [
+                531933.2662280331,
+                190836.45591139607
+              ],
+              [
+                531926.4,
+                190837.45
+              ],
+              [
+                531905.35,
+                190840.7
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "id": "Haringey-HGY_2026_0634",
   "appeal_status": null,
   "appeal_start_date": null,

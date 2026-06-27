@@ -8,13 +8,13 @@
   "uprn": "000012063587",
   "locality": null,
   "appeal_decision_date": null,
-  "centroid_easting": null,
+  "centroid_easting": 515625,
   "application_details": {
     "phasing_details": [
       {
         "phase_detail": "Entire development",
-        "intended_commencement_date": "03/2025",
-        "intended_completion_date": "06/2025"
+        "intended_completion_date": "06/2025",
+        "intended_commencement_date": "03/2025"
       }
     ],
     "green_suds": false,
@@ -32,7 +32,8 @@
       "no_new_gas_connections_required": 0,
       "total_annual_nox_emissions": 0,
       "ghg_reduction_over_building_regulations": false,
-      "fire_suppression_system_proposed": false
+      "fire_suppression_system_proposed": false,
+      "urban_greening_factor_score": 0
     },
     "garden_land_lost": false,
     "internal_resi_water_usage": 0,
@@ -44,7 +45,7 @@
     "total_gia_lost": 0,
     "surface_water_discharge_percentage_reduction": 0,
     "existing_uprns": null,
-    "site_area": 0.02211,
+    "site_area": 0.022109999999999998,
     "ownership_status": "Private",
     "non_residential_details": {
       "total_gia_existing": 409.81,
@@ -57,46 +58,107 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 409.81,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
-    "rain_water_harvesting": false
+    "rain_water_harvesting": false,
+    "occupation_status": "Occupied"
   },
   "date_building_work_completed_under_previous_permission": null,
-  "site_name": "74-84 Haymill Close\rPerivale\rUB6 8EJ\r",
+  "site_name": "74-84 Haymill Close",
   "borough": "London Borough of Ealing",
   "status": "Approved",
   "epc_number": null,
   "bo_system": "Idox Uniform",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          [
+            -0.334455,
+            51.533567
+          ],
+          [
+            -0.334202,
+            51.533526
+          ],
+          [
+            -0.334203,
+            51.533572
+          ],
+          [
+            -0.334205,
+            51.533649
+          ],
+          [
+            -0.334284,
+            51.533661
+          ],
+          [
+            -0.334286,
+            51.533654
+          ],
+          [
+            -0.334302,
+            51.533657
+          ],
+          [
+            -0.334296,
+            51.533674
+          ],
+          [
+            -0.334316,
+            51.533677
+          ],
+          [
+            -0.334317,
+            51.533675
+          ],
+          [
+            -0.334406,
+            51.533689
+          ],
+          [
+            -0.334435,
+            51.533616
+          ],
+          [
+            -0.334455,
+            51.533567
+          ]
+        ]
+      ]
+    ],
+    "type": "MultiPolygon"
+  },
   "cil_liability": false,
   "title_number": [],
   "application_type": "All Other",
-  "street_name": null,
+  "street_name": "Greenford",
   "actual_commencement_date": null,
   "parking_details": null,
   "decision_target_date": "06/05/2025",
   "lpa_name": "Ealing",
   "secondary_street_name": null,
   "decision_date": "25/04/2025",
-  "last_updated": "2026-06-20T04:03:02.376Z",
+  "last_updated": "2026-06-26T03:22:51.370Z",
   "url_planning_app": null,
   "ward": "PERVAL",
   "valid_date": "11/03/2025",
   "reference_no_of_permission_being_relied_on": null,
   "development_type": null,
   "appeal_decision": null,
-  "postcode": null,
-  "centroid_northing": null,
-  "description": "Replacement front entrance doors, windows, doors and associated windows to existing residential block",
+  "postcode": "UB6 8EJ",
+  "centroid_northing": 182954,
+  "description": "Replacement of front entrance doors, windows, doors and associated windows.",
   "subdivision_of_building": null,
   "actual_completion_date": null,
   "lpa_app_no": "250942FUL",
   "decision": "Approved",
   "application_type_full": "Full planning permission",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_status": null,
   "id": "Ealing-250942FUL",
   "decision_conditions": [
@@ -106,9 +168,74 @@
   ],
   "pp_id": "PP-13842492",
   "last_date_consultation_comments": "01/04/2025",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                515621.4381840559,
+                182943.3961830922
+              ],
+              [
+                515639.1299125912,
+                182939.28576580292
+              ],
+              [
+                515638.96,
+                182944.43
+              ],
+              [
+                515638.62,
+                182952.97
+              ],
+              [
+                515633.12,
+                182954.18
+              ],
+              [
+                515632.95,
+                182953.42
+              ],
+              [
+                515631.83,
+                182953.67
+              ],
+              [
+                515632.25,
+                182955.54
+              ],
+              [
+                515630.82,
+                182955.86
+              ],
+              [
+                515630.75,
+                182955.66
+              ],
+              [
+                515624.56802224333,
+                182957.05353935043
+              ],
+              [
+                515622.76,
+                182948.96
+              ],
+              [
+                515621.4381840559,
+                182943.3961830922
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "centroid": {
-    "lat": 49.766807,
-    "lon": -7.55716
+    "lat": 51.533661,
+    "lon": -0.334401
   }
 }

@@ -3,16 +3,20 @@
   "application_type": "All Other",
   "decision": "Approved",
   "decision_conditions": null,
-  "centroid_northing": 191166,
+  "centroid_northing": 191172,
   "url_planning_app": "https://publicregister.haringey.gov.uk/pr/s/detail/a0iTu000001LY4X",
   "lpa_app_no": "HGY/2025/2097",
-  "site_number": null,
+  "site_number": 107,
   "ward": "White Hart Lane",
-  "locality": null,
+  "locality": "London",
   "last_date_consultation_comments": "09/09/2025",
   "date_building_work_started_under_previous_permission": null,
   "description": "Erection of a two-storey side extension to form a new dwelling including car park and charging point at the rear",
-  "parking_details": {},
+  "parking_details": {
+    "no_existing_car": 1,
+    "net_car": 1,
+    "no_proposed_car": 2
+  },
   "postcode": "N17 7JT",
   "appeal_status": null,
   "cil_liability": false,
@@ -26,60 +30,71 @@
         "coordinates": [
           [
             [
-              532221.75,
-              191181.1
-            ],
-            [
-              532221.8,
-              191176.25
-            ],
-            [
-              532223.3,
-              191149.35
-            ],
-            [
-              532227.9,
-              191150.55
-            ],
-            [
-              532232.2,
-              191151.65
-            ],
-            [
-              532232.801,
-              191159.765
-            ],
-            [
-              532233.194,
-              191165.07
-            ],
-            [
-              532233.3,
-              191166.5
-            ],
-            [
-              532233.258,
-              191167.137
-            ],
-            [
-              532233.1,
-              191169.55
-            ],
-            [
-              532232.7,
-              191177
-            ],
-            [
-              532232.4,
-              191181.7
-            ],
-            [
-              532221.75,
-              191181.1
+              [
+                532227.9,
+                191150.55
+              ],
+              [
+                532226.45,
+                191176.6
+              ],
+              [
+                532221.8,
+                191176.25
+              ],
+              [
+                532223.3,
+                191149.35
+              ],
+              [
+                532227.9,
+                191150.55
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
+      },
+      {
+        "coordinates": [
+          [
+            [
+              [
+                532221.8,
+                191176.25
+              ],
+              [
+                532226.45,
+                191176.6
+              ],
+              [
+                532227.9,
+                191150.55
+              ],
+              [
+                532232.2,
+                191151.65
+              ],
+              [
+                532233.3,
+                191166.5
+              ],
+              [
+                532232.4,
+                191181.7
+              ],
+              [
+                532221.75,
+                191181.1
+              ],
+              [
+                532221.8,
+                191176.25
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
       }
     ],
     "type": "GeometryCollection"
@@ -88,75 +103,45 @@
     "coordinates": [
       [
         [
-          -0.092162,
-          51.603954
-        ],
-        [
-          -0.092163,
-          51.60391
-        ],
-        [
-          -0.092152,
-          51.603668
-        ],
-        [
-          -0.092085,
-          51.603678
-        ],
-        [
-          -0.092023,
-          51.603687
-        ],
-        [
-          -0.092011,
-          51.603759
-        ],
-        [
-          -0.092003,
-          51.603807
-        ],
-        [
-          -0.092001,
-          51.60382
-        ],
-        [
-          -0.092001,
-          51.603826
-        ],
-        [
-          -0.092003,
-          51.603847
-        ],
-        [
-          -0.092006,
-          51.603914
-        ],
-        [
-          -0.092008,
-          51.603957
-        ],
-        [
-          -0.092162,
-          51.603954
+          [
+            -0.092085,
+            51.603678
+          ],
+          [
+            -0.092096,
+            51.603912
+          ],
+          [
+            -0.092163,
+            51.60391
+          ],
+          [
+            -0.092152,
+            51.603668
+          ],
+          [
+            -0.092085,
+            51.603678
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "appeal_decision_date": null,
   "secondary_street_name": null,
   "lapsed_date": "30/12/2028",
   "bo_system": "Arcus",
   "decision_date": "30/12/2025",
-  "centroid_easting": 532228,
+  "centroid_easting": 532230,
   "actual_commencement_date": null,
   "id": "Haringey-HGY_2025_2097",
   "lpa_name": "Haringey",
   "decision_target_date": null,
   "valid_date": "01/08/2025",
   "development_type": null,
-  "last_updated": "2026-01-09T22:04:10.035Z",
-  "subdivision_of_building": null,
+  "last_updated": "2026-06-26T21:04:40.701Z",
+  "subdivision_of_building": "Ground floor side extension.",
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
     "lat": 49.766807,
@@ -182,21 +167,24 @@
     "borough_cil_liability_notice_issued": false,
     "transport_impact_assessment": false,
     "circular_economy_statement": false,
-    "scheme_phasing": false,
-    "rain_water_harvesting": false,
+    "scheme_phasing": true,
+    "rain_water_harvesting": true,
     "commencement_notice_received": false,
     "grey_water_reuse": false,
-    "green_suds": false,
+    "green_suds": true,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "site_area": 0.032
+      "site_area": 0.032,
+      "total_gia_gained": 72,
+      "total_gia_existing": 111,
+      "total_gia_lost": 23
     },
-    "garden_land_lost": false,
+    "garden_land_lost": true,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_bedrooms": 0,
-      "total_no_proposed_residential_units": 0,
+      "total_no_proposed_bedrooms": 2,
+      "total_no_proposed_residential_units": 1,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
@@ -211,14 +199,14 @@
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "total_no_proposed_residential_units_market_for_sale": 0,
+      "total_no_proposed_residential_units_market_for_sale": 1,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": 0,
+      "habitable_rooms_density": 93.75,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 31.25,
       "site_area": 0.032,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
@@ -230,17 +218,79 @@
       "affordable_percentage": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "total_gia_gained": 73,
+      "residential_units": [
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": true,
+          "sheltered_accommodation": false,
+          "unit_type": "Terraced Home",
+          "no_habitable_rooms": 3,
+          "provider": "Private",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 73
+        }
+      ]
     },
     "infrastructure_details": {
-      "waste_provision": false,
+      "waste_provision": true,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": true,
+      "total_annual_pm_emissions": 0,
+      "no_active_slow_ev_charging_points": 1,
+      "no_resi_units_to_have_full_fibre": 1,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0.14,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 1,
+      "no_passive_slow_ev_charging_points": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "percentage_demolition_construction_material_recycling": 10,
+      "no_homes_to_have_electrical_heating": 0,
+      "no_new_gas_connections_required": 1,
+      "chp_heat_pumps_capacity": 0.01
     },
     "other_residential_accommodation_details": {
       "site_area": 0.032
-    }
+    },
+    "total_gia_existing": 111,
+    "projected_cost_of_works": "Up to £2m",
+    "internal_resi_water_usage": 125,
+    "phasing_details": [
+      {
+        "phase_detail": "Entire Development",
+        "intended_completion_date": "07/2026",
+        "intended_commencement_date": "11/2025"
+      }
+    ],
+    "total_gia_gained": 72,
+    "total_gia_lost": 23,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 111,
+        "gia_gained": 72,
+        "use_class": "C3",
+        "gia_lost": 23
+      }
+    ],
+    "occupation_status": "Occupied",
+    "building_details": [
+      {
+        "no_storeys": 2,
+        "max_height": 7.6,
+        "building_ref": "107 Rivulet Road"
+      }
+    ],
+    "surface_water_discharge_percentage_reduction": 0,
+    "ownership_status": "Private"
   },
   "epc_number": null,
   "uprn": "100021218652",

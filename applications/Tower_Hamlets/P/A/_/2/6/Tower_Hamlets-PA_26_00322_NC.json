@@ -9,16 +9,25 @@
   "last_updated_by": "CSV Data Import",
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": null,
-  "last_updated": "2026-05-13T20:02:25.832Z",
+  "last_updated": "2026-06-26T20:02:41.034Z",
   "url_planning_app": "https://development.towerhamlets.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR150096&activeTab=summary",
   "street_name": null,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 1,
+    "net_car": 0,
+    "no_proposed_car": 1
+  },
   "ward": "Stepney Green",
   "bo_system": "CSV Data Import",
   "site_name": "1 Newbold Cottages, Sidney Street, London, E1 3EW",
   "site_number": null,
   "application_details": {
-    "existing_uprns": null
+    "existing_uprns": null,
+    "total_gia_gained": 29,
+    "no_additional_bathrooms": 1,
+    "no_additional_bedrooms": 1,
+    "intended_commencement_date": "04/2026",
+    "intended_completion_date": "10/2026"
   },
   "uprn": "6031802",
   "locality": null,
@@ -32,10 +41,87 @@
     "lon": -0.054872
   },
   "centroid_easting": 535066,
-  "application_type_full": null,
+  "application_type_full": "Householder planning permission",
   "pp_id": "PP-14723139",
   "lpa_app_no": "PA/26/00322/NC",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                535052.6,
+                181393.7
+              ],
+              [
+                535056.25,
+                181393.65
+              ],
+              [
+                535060.476,
+                181394.512
+              ],
+              [
+                535067.444,
+                181394.259
+              ],
+              [
+                535070.45,
+                181394.15
+              ],
+              [
+                535070.8,
+                181394.2
+              ],
+              [
+                535071.15,
+                181394.4
+              ],
+              [
+                535071.65,
+                181395
+              ],
+              [
+                535071.95,
+                181395.95
+              ],
+              [
+                535072.75,
+                181401.55
+              ],
+              [
+                535069.4008100979,
+                181401.7689949901
+              ],
+              [
+                535069.3797789447,
+                181401.09592102258
+              ],
+              [
+                535058.8042804225,
+                181401.6667143244
+              ],
+              [
+                535058.8,
+                181402.3
+              ],
+              [
+                535053.1,
+                181402.5
+              ],
+              [
+                535052.6,
+                181393.7
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "id": "Tower_Hamlets-PA_26_00322_NC",
   "appeal_status": null,
   "appeal_start_date": null,
@@ -43,14 +129,88 @@
   "development_type": "Other house holder developments",
   "decision_conditions": null,
   "secondary_street_name": null,
-  "title_number": null,
+  "title_number": [
+    "EGL181372"
+  ],
   "last_date_consultation_comments": null,
   "decision_process": null,
   "centroid_northing": 181398,
   "borough": "Tower Hamlets",
   "decision": "Refused",
   "application_type": "Householder",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          [
+            -0.055067,
+            51.515331
+          ],
+          [
+            -0.055015,
+            51.51533
+          ],
+          [
+            -0.054953,
+            51.515337
+          ],
+          [
+            -0.054853,
+            51.515333
+          ],
+          [
+            -0.05481,
+            51.515331
+          ],
+          [
+            -0.054805,
+            51.515331
+          ],
+          [
+            -0.0548,
+            51.515333
+          ],
+          [
+            -0.054792,
+            51.515338
+          ],
+          [
+            -0.054788,
+            51.515347
+          ],
+          [
+            -0.054774,
+            51.515397
+          ],
+          [
+            -0.054822,
+            51.5154
+          ],
+          [
+            -0.054823,
+            51.515394
+          ],
+          [
+            -0.054975,
+            51.515401
+          ],
+          [
+            -0.054974,
+            51.515407
+          ],
+          [
+            -0.055057,
+            51.51541
+          ],
+          [
+            -0.055067,
+            51.515331
+          ]
+        ]
+      ]
+    ],
+    "type": "MultiPolygon"
+  },
   "decision_agency": null,
   "decision_target_date": "15/05/2026",
   "status": "Refused",

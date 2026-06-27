@@ -1,8 +1,8 @@
 {
-  "last_updated_by": "Northgate M3",
+  "last_updated_by": "Planning Portal ingest",
   "development_type": "Minor dwellings",
   "decision_target_date": "01/04/2026",
-  "site_number": "20",
+  "site_number": 20,
   "centroid_easting": 527293,
   "postcode": "NW3 4LL",
   "lpa_name": "Camden",
@@ -33,14 +33,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 65,
-        "use_class": "C3",
         "gia_gained": 65,
+        "use_class": "C3",
         "gia_lost": 65
       },
       {
         "gia_existing": 53,
-        "use_class": "C4",
         "gia_gained": 53,
+        "use_class": "C4",
         "gia_lost": 53
       }
     ],
@@ -97,31 +97,45 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 6,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "HMO",
           "no_bedrooms": 4,
+          "unit_type": "HMO",
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 53
         },
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 3,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 63
         },
         {
-          "provider": "Private",
-          "no_habitable_rooms": 6,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Terraced Home",
+          "no_habitable_rooms": 6,
+          "provider": "Private",
           "no_bedrooms": 3,
+          "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 142
         }
@@ -147,63 +161,58 @@
       "no_new_gas_connections_required": 0,
       "ghg_reduction_over_building_regulations": true
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "occupation_status": "Occupied"
   },
   "status": "Approved",
   "epc_number": null,
   "appeal_decision": null,
   "appeal_start_date": null,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.165578,
-          51.549498
-        ],
-        [
-          -0.16547,
-          51.549466
-        ],
-        [
-          -0.165326,
-          51.549425
-        ],
-        [
-          -0.165291,
-          51.549414
-        ],
-        [
-          -0.165337,
-          51.549352
-        ],
-        [
-          -0.165372,
-          51.549363
-        ],
-        [
-          -0.165565,
-          51.549418
-        ],
-        [
-          -0.165625,
-          51.549436
-        ],
-        [
-          -0.1656,
-          51.549468
-        ],
-        [
-          -0.165578,
-          51.549498
-        ],
-        [
-          -0.165578,
-          51.549498
-        ],
-        [
-          -0.165578,
-          51.549498
+          [
+            -0.165565,
+            51.549418
+          ],
+          [
+            -0.165372,
+            51.549363
+          ],
+          [
+            -0.165337,
+            51.549352
+          ],
+          [
+            -0.165291,
+            51.549414
+          ],
+          [
+            -0.165326,
+            51.549425
+          ],
+          [
+            -0.16547,
+            51.549466
+          ],
+          [
+            -0.165578,
+            51.549498
+          ],
+          [
+            -0.1656,
+            51.549468
+          ],
+          [
+            -0.165625,
+            51.549436
+          ],
+          [
+            -0.165565,
+            51.549418
+          ]
         ]
       ]
     ]
@@ -213,7 +222,7 @@
   "borough": "Camden",
   "pp_id": "14472817",
   "url_planning_app": "https://planningrecords.camden.gov.uk/Northgate/PlanningExplorer/DisplayAppDetails.aspx?AppNo=2025/5062/P",
-  "last_updated": "2026-04-08T11:01:19.711Z",
+  "last_updated": "2026-06-26T22:19:29.964Z",
   "site_name": null,
   "valid_date": "07/11/2025",
   "decision_process": "Delegated",
@@ -232,66 +241,60 @@
   "lpa_app_no": "2025/5062/P",
   "appeal_status": null,
   "street_name": "Howitt Road",
-  "uprn": "5063289",
+  "uprn": 5063289,
   "polygon": {
     "geometries": [
       {
         "coordinates": [
           [
             [
-              527289.7515443766,
-              184995.15527431614
-            ],
-            [
-              527297.3534907168,
-              184991.84622152062
-            ],
-            [
-              527307.4536905722,
-              184987.4974663371
-            ],
-            [
-              527309.9024737208,
-              184986.39778111782
-            ],
-            [
-              527306.9012714779,
-              184979.39978427248
-            ],
-            [
-              527304.4030179626,
-              184980.49946949154
-            ],
-            [
-              527290.8976078702,
-              184986.34779542824
-            ],
-            [
-              527286.7008717669,
-              184988.19726602244
-            ],
-            [
-              527288.3004136217,
-              184991.84622152097
-            ],
-            [
-              527289.7515443766,
-              184995.15527431614
-            ],
-            [
-              527289.7515443766,
-              184995.15527431614
-            ],
-            [
-              527289.7515443766,
-              184995.15527431614
+              [
+                527290.9,
+                184986.35
+              ],
+              [
+                527304.4,
+                184980.5
+              ],
+              [
+                527306.9,
+                184979.4
+              ],
+              [
+                527309.9,
+                184986.4
+              ],
+              [
+                527307.45,
+                184987.5
+              ],
+              [
+                527297.35,
+                184991.85
+              ],
+              [
+                527289.75,
+                184995.15
+              ],
+              [
+                527288.3,
+                184991.85
+              ],
+              [
+                527286.7,
+                184988.2
+              ],
+              [
+                527290.9,
+                184986.35
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
-    "type": "geometrycollection"
+    "type": "GeometryCollection"
   },
   "lapsed_date": "31/03/2029",
   "title_number": null,
@@ -299,7 +302,7 @@
   "decision": "Approved",
   "actual_commencement_date": null,
   "subdivision_of_building": null,
-  "description": "Change of use from a HMO (Class C4) and 2 bed flat into a single family dwelling; replacement of all existing windows with double glazed timber sash windows; demolition of existing rear extension and replace with a full width single storey rear extension; installation of two rooflights on front roofslope and two rooflights on rear roofslope; and associated external alterations.",
+  "description": "To change of use from a HMO (C4 use) and 2 bed flat to a single family dwelling; as the approval scheme - ref: 2022/2074/P \n\nTo restore the existing front elevation; including replacement of roof tiles, reinstate / repair / replacement / re-decoration of all carpentry works, replacement of all the windows with double glazed timber box sash windows, clean up and re-pointing all brickwork, remove the existing sand/cement rendering with breathable mineral paint\n\nTo demolish existing single storey rear extension; and to replace with a full width single storey rear extension, including new green roof and 2nos flat roof windows.\n\nTo replace the existing roof window at the front elevation with new conservation roof windows; and install 4nos new conservation roof windows; two at the front and two at the rear pitch roof.  \n\nTo restore the existing rear elevation; including replacement of roof tiles, reinstate / repair / replacement / re-decoration of all carpentry works, replace all windows with double glazed timber box sash windows, clean up and re-pointing all brickwork.\n\nInternal alterations; including using the existing loft space as habitable room.\n",
   "parking_details": null,
   "id": "Camden-2025_5062_P",
   "appeal_decision_date": null

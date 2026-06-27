@@ -4,64 +4,58 @@
     "coordinates": [
       [
         [
-          -0.0987497,
-          51.5780128
-        ],
-        [
-          -0.0987402,
-          51.5779627
-        ],
-        [
-          -0.0985868,
-          51.5779728
-        ],
-        [
-          -0.0985364,
-          51.5779762
-        ],
-        [
-          -0.0984487,
-          51.577982
-        ],
-        [
-          -0.0984408,
-          51.5779825
-        ],
-        [
-          -0.09835719999999999,
-          51.5779881
-        ],
-        [
-          -0.0983038,
-          51.5779916
-        ],
-        [
-          -0.098309,
-          51.5780245
-        ],
-        [
-          -0.09831179999999999,
-          51.5780421
-        ],
-        [
-          -0.09845079999999999,
-          51.5780331
-        ],
-        [
-          -0.09845659999999999,
-          51.5780319
-        ],
-        [
-          -0.09854629999999999,
-          51.5780261
-        ],
-        [
-          -0.0987497,
-          51.5780128
+          [
+            -0.098572,
+            51.578024
+          ],
+          [
+            -0.098579,
+            51.57806
+          ],
+          [
+            -0.098483,
+            51.578067
+          ],
+          [
+            -0.098476,
+            51.578031
+          ],
+          [
+            -0.098337,
+            51.57804
+          ],
+          [
+            -0.098347,
+            51.578089
+          ],
+          [
+            -0.098418,
+            51.578084
+          ],
+          [
+            -0.098426,
+            51.578119
+          ],
+          [
+            -0.098768,
+            51.578095
+          ],
+          [
+            -0.098787,
+            51.578074
+          ],
+          [
+            -0.098775,
+            51.57801
+          ],
+          [
+            -0.098572,
+            51.578024
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "last_updated_by": "Arcus",
   "url_planning_app": "https://publicregister.haringey.gov.uk/pr/s/detail/a0iTu0000000eAL",
@@ -69,15 +63,15 @@
   "status": "Completed",
   "parking_details": {
     "no_proposed_lgv": null,
-    "no_existing_cycle": null,
+    "no_existing_cycle": 0,
     "no_existing_other": null,
     "no_proposed_motorcycle": null,
     "net_bus": null,
-    "no_proposed_cycle": null,
+    "no_proposed_cycle": 5,
     "no_proposed_resi_offstreet": null,
     "no_existing_lgv": null,
     "no_proposed_other": null,
-    "net_cycle": null,
+    "net_cycle": 5,
     "net_resi_offstreet": null,
     "no_proposed_carclub": null,
     "no_existing_car": null,
@@ -243,12 +237,14 @@
       "total_no_existing_residential_units_self_build_and_custom_build": 0
     },
     "ownership_status": null,
-    "lead_developer_company_name": null
+    "lead_developer_company_name": null,
+    "no_additional_bathrooms": 0,
+    "no_additional_bedrooms": 0
   },
   "appeal_decision_date": null,
   "decision_date": "16/01/2024",
   "valid_date": "21/11/2023",
-  "site_number": null,
+  "site_number": 67,
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "ward": "Harringay",
@@ -260,7 +256,7 @@
   "pp_id": "PP-12614678",
   "uprn": "100021184965",
   "application_type": "All Other",
-  "locality": null,
+  "locality": "London",
   "date_building_work_started_under_previous_permission": null,
   "polygon": {
     "geometries": [
@@ -268,64 +264,58 @@
         "coordinates": [
           [
             [
-              531838.85,
-              188284.15
-            ],
-            [
-              531839.65,
-              188278.6
-            ],
-            [
-              531850.25,
-              188280
-            ],
-            [
-              531853.73,
-              188280.46
-            ],
-            [
-              531859.793,
-              188281.267
-            ],
-            [
-              531860.34,
-              188281.34
-            ],
-            [
-              531866.115,
-              188282.109
-            ],
-            [
-              531869.8,
-              188282.6
-            ],
-            [
-              531869.35,
-              188286.25
-            ],
-            [
-              531869.1,
-              188288.2
-            ],
-            [
-              531859.5,
-              188286.95
-            ],
-            [
-              531859.1,
-              188286.8
-            ],
-            [
-              531852.9,
-              188286
-            ],
-            [
-              531838.85,
-              188284.15
+              [
+                531852.9,
+                188286
+              ],
+              [
+                531852.3,
+                188290
+              ],
+              [
+                531858.9,
+                188290.95
+              ],
+              [
+                531859.5,
+                188286.95
+              ],
+              [
+                531869.1,
+                188288.2
+              ],
+              [
+                531868.3,
+                188293.7
+              ],
+              [
+                531863.4,
+                188293
+              ],
+              [
+                531862.75,
+                188296.9
+              ],
+              [
+                531839.1,
+                188293.6
+              ],
+              [
+                531837.85,
+                188291.25
+              ],
+              [
+                531838.85,
+                188284.15
+              ],
+              [
+                531852.9,
+                188286
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "type": "GeometryCollection"
@@ -335,10 +325,12 @@
   "site_name": "67 Grand Parade, Tottenham, London, N4 1EB",
   "decision_conditions": null,
   "application_type_full": "Lawful development: Existing use",
-  "centroid_northing": 188283,
+  "centroid_northing": 188281,
   "epc_number": null,
   "actual_completion_date": "16/01/2024",
-  "title_number": [],
+  "title_number": [
+    "AGL158668"
+  ],
   "appeal_status": null,
   "borough": "Out of Borough",
   "cil_liability": null,
@@ -346,10 +338,10 @@
   "id": "Haringey-HGY_2023_3134",
   "description": "Certificate of lawfullnes existing use: Upper two floors of the property historically used as a maisonette have been converted into 3 self-contained studio flats.",
   "appeal_start_date": null,
-  "last_updated": "2025-11-17T22:03:59.473Z",
+  "last_updated": "2026-06-26T21:04:22.746Z",
   "centroid": {
     "lon": -7.55716,
     "lat": 49.766807
   },
-  "centroid_easting": 531854
+  "centroid_easting": 531843
 }

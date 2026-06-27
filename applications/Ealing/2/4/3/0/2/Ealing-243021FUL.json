@@ -1,12 +1,115 @@
 {
   "date_building_work_completed_under_previous_permission": null,
-  "wgs84_polygon": null,
-  "last_updated_by": "Idox Uniform",
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          [
+            -0.281574,
+            51.516506
+          ],
+          [
+            -0.281497,
+            51.516462
+          ],
+          [
+            -0.281481,
+            51.516453
+          ],
+          [
+            -0.281437,
+            51.516428
+          ],
+          [
+            -0.281394,
+            51.516403
+          ],
+          [
+            -0.281389,
+            51.5164
+          ],
+          [
+            -0.281353,
+            51.516426
+          ],
+          [
+            -0.281315,
+            51.516451
+          ],
+          [
+            -0.281296,
+            51.516463
+          ],
+          [
+            -0.28139,
+            51.516516
+          ],
+          [
+            -0.281407,
+            51.516525
+          ],
+          [
+            -0.281422,
+            51.516515
+          ],
+          [
+            -0.281466,
+            51.51654
+          ],
+          [
+            -0.281451,
+            51.51655
+          ],
+          [
+            -0.281588,
+            51.516627
+          ],
+          [
+            -0.281643,
+            51.516629
+          ],
+          [
+            -0.281661,
+            51.516615
+          ],
+          [
+            -0.281681,
+            51.516602
+          ],
+          [
+            -0.281706,
+            51.516584
+          ],
+          [
+            -0.281667,
+            51.516561
+          ],
+          [
+            -0.281609,
+            51.516527
+          ],
+          [
+            -0.281574,
+            51.516506
+          ]
+        ]
+      ]
+    ],
+    "type": "MultiPolygon"
+  },
+  "last_updated_by": "Planning Portal ingest",
   "url_planning_app": null,
   "decision_target_date": "30/09/2024",
   "status": "Dismissed",
-  "parking_details": null,
-  "street_name": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 2,
+    "net_car": -1,
+    "no_proposed_cycle": 2,
+    "no_proposed_car": 1,
+    "net_cycle": 2
+  },
+  "street_name": "Churchill Gardens",
   "decision_agency": null,
   "appeal_decision": "Dismissed",
   "subdivision_of_building": null,
@@ -45,13 +148,19 @@
       "total_no_existing_residential_units_starter_homes": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 85,
-          "tenure": "Discount Market Sale"
+          "provision_for_older_persons": false,
+          "tenure": "Discount Market Sale",
+          "gia": 85
         }
       ],
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
@@ -100,7 +209,8 @@
       "no_homes_passive_cooling": 1,
       "no_new_water_connections_required": 0,
       "no_resi_units_to_have_full_fibre": 1,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "urban_greening_factor_score": 0
     },
     "total_gia_lost": 51.3,
     "ownership_status": "Private",
@@ -108,14 +218,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 51.3,
-        "use_class": "B8",
         "gia_gained": 0,
+        "use_class": "B8",
         "gia_lost": 51.3
       },
       {
         "gia_existing": 0,
-        "use_class": "C3",
         "gia_gained": 116.1,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -126,17 +236,18 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "11/2024",
-        "intended_completion_date": "04/2025"
+        "intended_completion_date": "04/2025",
+        "intended_commencement_date": "11/2024"
       }
     ],
     "projected_cost_of_works": "Up to £2m",
-    "total_gia_existing": 51.3
+    "total_gia_existing": 51.3,
+    "occupation_status": "Occupied"
   },
   "appeal_decision_date": "14/05/2025",
   "decision_date": "13/09/2024",
   "valid_date": "05/08/2024",
-  "site_number": null,
+  "site_number": 2,
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "ward": "NORACT",
@@ -144,13 +255,114 @@
   "last_date_consultation_comments": "04/09/2024",
   "bo_system": "Idox Uniform",
   "lpa_app_no": "243021FUL",
-  "postcode": null,
+  "postcode": "W3 0JN",
   "pp_id": "PP-12706619",
-  "uprn": "000012155006",
+  "uprn": 12155006,
   "application_type": "All Other",
-  "locality": null,
+  "locality": "Acton",
   "date_building_work_started_under_previous_permission": null,
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                519333.67,
+                181131.01
+              ],
+              [
+                519339.137,
+                181126.228
+              ],
+              [
+                519340.29,
+                181125.22
+              ],
+              [
+                519343.379,
+                181122.517
+              ],
+              [
+                519346.459,
+                181119.821
+              ],
+              [
+                519346.78,
+                181119.54
+              ],
+              [
+                519349.26,
+                181122.43
+              ],
+              [
+                519351.82,
+                181125.25
+              ],
+              [
+                519353.1,
+                181126.65
+              ],
+              [
+                519346.42,
+                181132.38
+              ],
+              [
+                519345.258,
+                181133.376
+              ],
+              [
+                519344.237,
+                181132.184
+              ],
+              [
+                519341.081,
+                181134.886
+              ],
+              [
+                519342.104,
+                181136.081
+              ],
+              [
+                519332.4,
+                181144.4
+              ],
+              [
+                519328.6,
+                181144.5
+              ],
+              [
+                519327.35,
+                181142.95
+              ],
+              [
+                519326,
+                181141.45
+              ],
+              [
+                519324.29,
+                181139.44
+              ],
+              [
+                519327.1,
+                181136.9
+              ],
+              [
+                519331.2,
+                181133.2
+              ],
+              [
+                519333.67,
+                181131.01
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "lpa_name": "Ealing",
   "actual_commencement_date": null,
   "site_name": "2A Churchill Gardens\rActon\rW3 0JN",
@@ -159,21 +371,21 @@
     ""
   ],
   "application_type_full": "Full planning permission",
-  "centroid_northing": null,
+  "centroid_northing": 181124,
   "epc_number": null,
   "actual_completion_date": null,
   "title_number": [],
   "appeal_status": null,
-  "borough": "London Borough of Ealing",
+  "borough": "Ealing",
   "cil_liability": true,
   "decision_process": null,
   "id": "Ealing-243021FUL",
-  "description": "Conversion of existing garage into two storey residential dwelling; facilitated by extension to ground floor and construction of first floor; associated internal and external alterations to all elevations  and works to front boundary and gates",
+  "description": "Conversion of existing garage into two storey residential dwelling; alterations to elevations and boundary, enlargement of ground floor, first floor extension.",
   "appeal_start_date": "27/11/2024",
-  "last_updated": "2026-06-20T04:01:39.337Z",
+  "last_updated": "2026-06-26T05:00:32.153Z",
   "centroid": {
-    "lon": -7.55716,
-    "lat": 49.766807
+    "lon": -0.281399,
+    "lat": 51.516441
   },
-  "centroid_easting": null
+  "centroid_easting": 519346
 }
