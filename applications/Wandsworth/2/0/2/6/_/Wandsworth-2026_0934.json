@@ -6,17 +6,17 @@
   "appeal_decision": null,
   "lapsed_date": "30/04/2029",
   "appeal_decision_date": null,
-  "last_updated_by": "Northgate M3",
+  "last_updated_by": "Planning Portal ingest",
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": "9075-2801-6099-0091-0365",
-  "last_updated": "2026-04-30T11:40:05.377Z",
+  "last_updated": "2026-06-28T00:08:22.958Z",
   "url_planning_app": "http://planning.wandsworth.gov.uk/Northgate/PlanningExplorer/DisplayAppDetails.aspx?AppNo=2026/0934",
   "street_name": "Barnard Road",
   "parking_details": null,
   "ward": "Lavender",
   "bo_system": "Northgate M3",
   "site_name": null,
-  "site_number": "10",
+  "site_number": 10,
   "application_details": {
     "site_area": 0.03,
     "total_gia_existing": 72.3,
@@ -24,8 +24,8 @@
     "phasing_details": [
       {
         "phase_detail": "construction",
-        "intended_commencement_date": "05/2026",
-        "intended_completion_date": "08/2026"
+        "intended_completion_date": "08/2026",
+        "intended_commencement_date": "05/2026"
       }
     ],
     "garden_land_lost": false,
@@ -33,8 +33,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 72.3,
-        "use_class": "C3",
         "gia_gained": 100.3,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -54,7 +54,8 @@
       "mobile_network_operators_consultation": false,
       "ghg_reduction_over_building_regulations": false,
       "fire_suppression_system_proposed": false,
-      "total_annual_nox_emissions": 0
+      "total_annual_nox_emissions": 0,
+      "urban_greening_factor_score": 0
     },
     "rain_water_harvesting": false,
     "projected_cost_of_works": "Up to £2m",
@@ -100,21 +101,31 @@
       "total_no_proposed_residential_units_affordable_rent": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 3,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 72.3
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 100.3
         }
@@ -130,9 +141,10 @@
     "affordable_housing_fast_track": false,
     "grey_water_reuse": false,
     "total_gia_lost": 0,
-    "surface_water_discharge_percentage_reduction": 0
+    "surface_water_discharge_percentage_reduction": 0,
+    "occupation_status": "Occupied"
   },
-  "uprn": "100022611739",
+  "uprn": 100022611739,
   "locality": "London",
   "date_building_work_started_under_previous_permission": null,
   "postcode": "SW11 1QS",
@@ -153,76 +165,74 @@
         "coordinates": [
           [
             [
-              527449.1900120269,
-              175291.49032852874
-            ],
-            [
-              527452.290012029,
-              175284.24032852688
-            ],
-            [
-              527454.5000120304,
-              175279.2003285255
-            ],
-            [
-              527460.0000120337,
-              175266.00032852113
-            ],
-            [
-              527461.0400120344,
-              175263.7003285209
-            ],
-            [
-              527455.7000120308,
-              175261.3903285205
-            ],
-            [
-              527454.6400120301,
-              175263.75032852165
-            ],
-            [
-              527453.6700120296,
-              175265.97032852122
-            ],
-            [
-              527452.7000120289,
-              175268.20032852184
-            ],
-            [
-              527451.3500120281,
-              175271.30032852187
-            ],
-            [
-              527451.1000120279,
-              175271.95032852265
-            ],
-            [
-              527443.6000120232,
-              175289.2903285288
-            ],
-            [
-              527446.8400120254,
-              175290.54032852844
-            ],
-            [
-              527449.1900120269,
-              175291.49032852874
-            ],
-            [
-              527449.1900120269,
-              175291.49032852874
+              [
+                527451.35,
+                175271.3
+              ],
+              [
+                527452.7,
+                175268.2
+              ],
+              [
+                527454.65,
+                175263.75
+              ],
+              [
+                527455.7,
+                175261.4
+              ],
+              [
+                527461.05,
+                175263.7
+              ],
+              [
+                527460,
+                175266
+              ],
+              [
+                527454.461,
+                175279.183
+              ],
+              [
+                527453.182,
+                175282.226
+              ],
+              [
+                527452.3,
+                175284.25
+              ],
+              [
+                527449.2,
+                175291.5
+              ],
+              [
+                527446.85,
+                175290.55
+              ],
+              [
+                527443.6,
+                175289.3
+              ],
+              [
+                527451.1,
+                175271.95
+              ],
+              [
+                527451.35,
+                175271.3
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
-    "type": "geometrycollection"
+    "type": "GeometryCollection"
   },
   "id": "Wandsworth-2026_0934",
   "appeal_status": null,
   "appeal_start_date": null,
-  "description": "Alterations including erection of a single storey side and rear extension.",
+  "description": "Construction of a single storey side and rear extension, including demolition of existing garden shed.",
   "development_type": "Minor dwellings",
   "decision_conditions": [
     "Condition : 1 - The development hereby permitted shall be begun within 3 years from the date of this permission.\r\nReason: To prevent the accumulation of unimplemented planning permissions and to comply with Section 91 of the Town and Country Planning Act 1990 (as amended) and to meet the requirements of Section 51 of the Planning and Compulsory Purchase Act 2004 and to meet the requirements of The Town and Country Planning (Development Management Procedure) (England) Order 2015.\r\n",
@@ -243,68 +253,66 @@
     "coordinates": [
       [
         [
-          -0.166783,
-          51.462256
-        ],
-        [
-          -0.166741,
-          51.462191
-        ],
-        [
-          -0.166711,
-          51.462145
-        ],
-        [
-          -0.166637,
-          51.462025
-        ],
-        [
-          -0.166623,
-          51.462004
-        ],
-        [
-          -0.1667,
-          51.461984
-        ],
-        [
-          -0.166715,
-          51.462006
-        ],
-        [
-          -0.166728,
-          51.462026
-        ],
-        [
-          -0.166741,
-          51.462046
-        ],
-        [
-          -0.166759,
-          51.462075
-        ],
-        [
-          -0.166763,
-          51.46208
-        ],
-        [
-          -0.166864,
-          51.462238
-        ],
-        [
-          -0.166817,
-          51.462248
-        ],
-        [
-          -0.166783,
-          51.462256
-        ],
-        [
-          -0.166783,
-          51.462256
+          [
+            -0.166759,
+            51.462075
+          ],
+          [
+            -0.166741,
+            51.462046
+          ],
+          [
+            -0.166715,
+            51.462006
+          ],
+          [
+            -0.1667,
+            51.461985
+          ],
+          [
+            -0.166623,
+            51.462004
+          ],
+          [
+            -0.166637,
+            51.462025
+          ],
+          [
+            -0.166712,
+            51.462145
+          ],
+          [
+            -0.166729,
+            51.462172
+          ],
+          [
+            -0.166741,
+            51.462191
+          ],
+          [
+            -0.166783,
+            51.462257
+          ],
+          [
+            -0.166817,
+            51.462249
+          ],
+          [
+            -0.166864,
+            51.462238
+          ],
+          [
+            -0.166763,
+            51.46208
+          ],
+          [
+            -0.166759,
+            51.462075
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "decision_agency": "Borough",
   "decision_target_date": "04/05/2026",

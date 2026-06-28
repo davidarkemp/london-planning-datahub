@@ -12,7 +12,7 @@
   "postcode": "N16 6EP",
   "borough": "Hackney",
   "decision_agency": "Borough",
-  "site_number": "27",
+  "site_number": 27,
   "valid_date": "29/05/2025",
   "appeal_start_date": null,
   "application_details": {
@@ -31,8 +31,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 297.97,
-        "use_class": "C3",
         "gia_gained": 163.32,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -65,12 +65,14 @@
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "urban_greening_factor_score": 0
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "occupation_status": "Occupied"
   },
-  "last_updated_by": "Portal",
-  "street_name": "DARENTH ROAD",
+  "last_updated_by": "Planning Portal ingest",
+  "street_name": "Darenth Road",
   "decision_target_date": "24/07/2025",
   "polygon": {
     "geometries": [
@@ -78,28 +80,90 @@
         "coordinates": [
           [
             [
-              533876.355468352,
-              187300.596397208
-            ],
-            [
-              533838.593775852,
-              187298.638651118
-            ],
-            [
-              533838.219871851,
-              187311.156342641
-            ],
-            [
-              533875.912413096,
-              187313.48842333
-            ],
-            [
-              533876.355468352,
-              187300.596397208
+              [
+                533838.35,
+                187305.1
+              ],
+              [
+                533838.39,
+                187304.07
+              ],
+              [
+                533838.6,
+                187298.45
+              ],
+              [
+                533840.104,
+                187298.548
+              ],
+              [
+                533842.355,
+                187298.694
+              ],
+              [
+                533848.134,
+                187299.069
+              ],
+              [
+                533848.798,
+                187299.112
+              ],
+              [
+                533854.03,
+                187299.452
+              ],
+              [
+                533857.851,
+                187299.665
+              ],
+              [
+                533871.95,
+                187300.45
+              ],
+              [
+                533876.25,
+                187300.55
+              ],
+              [
+                533876.05,
+                187306.35
+              ],
+              [
+                533876.05,
+                187307.05
+              ],
+              [
+                533875.8,
+                187313.4
+              ],
+              [
+                533871.55,
+                187313.15
+              ],
+              [
+                533857.446,
+                187312.352
+              ],
+              [
+                533853.03,
+                187312.102
+              ],
+              [
+                533846.291,
+                187311.556
+              ],
+              [
+                533838.15,
+                187311.05
+              ],
+              [
+                533838.35,
+                187305.1
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -108,21 +172,21 @@
       },
       "type": "name"
     },
-    "type": "geometrycollection"
+    "type": "GeometryCollection"
   },
   "date_building_work_completed_under_previous_permission": null,
-  "last_updated": "2026-04-15T11:36:11.202Z",
+  "last_updated": "2026-06-27T20:24:25.730Z",
   "centroid": {
     "lat": 51.568725,
     "lon": -0.069926
   },
   "decision_date": "21/08/2025",
-  "uprn": "100021036054",
+  "uprn": 100021036054,
   "epc_number": null,
   "centroid_northing": 187304,
   "application_type": "All Other",
   "actual_completion_date": null,
-  "locality": "HACKNEY",
+  "locality": "London",
   "ward": "Cazenove Ward",
   "reference_no_of_permission_being_relied_on": null,
   "last_date_consultation_comments": "19/08/2025",
@@ -149,30 +213,92 @@
     "coordinates": [
       [
         [
-          -0.069763,
-          51.568692
-        ],
-        [
-          -0.070309,
-          51.568684
-        ],
-        [
-          -0.070309,
-          51.568796
-        ],
-        [
-          -0.069765,
-          51.568808
-        ],
-        [
-          -0.069763,
-          51.568692
+          [
+            -0.07031,
+            51.568742
+          ],
+          [
+            -0.07031,
+            51.568732
+          ],
+          [
+            -0.070309,
+            51.568682
+          ],
+          [
+            -0.070287,
+            51.568682
+          ],
+          [
+            -0.070254,
+            51.568683
+          ],
+          [
+            -0.070171,
+            51.568685
+          ],
+          [
+            -0.070161,
+            51.568685
+          ],
+          [
+            -0.070086,
+            51.568687
+          ],
+          [
+            -0.070031,
+            51.568688
+          ],
+          [
+            -0.069827,
+            51.568692
+          ],
+          [
+            -0.069765,
+            51.568692
+          ],
+          [
+            -0.069766,
+            51.568744
+          ],
+          [
+            -0.069765,
+            51.56875
+          ],
+          [
+            -0.069767,
+            51.568807
+          ],
+          [
+            -0.069828,
+            51.568806
+          ],
+          [
+            -0.070032,
+            51.568802
+          ],
+          [
+            -0.070095,
+            51.568801
+          ],
+          [
+            -0.070193,
+            51.568798
+          ],
+          [
+            -0.07031,
+            51.568795
+          ],
+          [
+            -0.07031,
+            51.568742
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "date_building_work_started_under_previous_permission": null,
-  "description": "(No.27) Additional excavation to increase height and extension to existing basement; insertion of front lightwell with stairs; First floor rear extension to outrigger; erection of a gabled roof and rear dormer with insertion of rooflights. (No.27-29) Joint single storey rear extensions with sukkah roof.",
+  "description": "“(No.27) Additional excavation to increase height and extension to existing basement; insertion of front lightwell with stairs; First floor rear extension to outrigger; erection of a gabled roof and rear dormer with insertion of rooflights. (No.27-29) Joint single storey rear extensions with sukkah roof”",
   "application_type_full": "Full planning permission"
 }

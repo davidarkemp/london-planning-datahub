@@ -5,7 +5,7 @@
   "decision_conditions": [
     "&lt;p&gt;1 time limit&lt;/p&gt;&lt;p&gt;2 plans&lt;/p&gt;&lt;p&gt;3 materials&lt;/p&gt;&lt;p&gt;4 CLP&lt;/p&gt;&lt;p&gt;5 cycle and waste storage&lt;/p&gt;&lt;p&gt;6 boundary treatment&lt;/p&gt;&lt;p&gt;7 SUDS&lt;/p&gt;&lt;p&gt;8 hard/soft landscaping&lt;/p&gt;&lt;p&gt;9 flat roof use&lt;/p&gt;"
   ],
-  "centroid_northing": null,
+  "centroid_northing": 188232,
   "url_planning_app": "https://builtenvironment.walthamforest.gov.uk/planning/index.html?fa=getApplication&id=116876",
   "lpa_app_no": "250091",
   "site_number": "377",
@@ -13,7 +13,7 @@
   "locality": null,
   "last_date_consultation_comments": "18/09/2025",
   "date_building_work_started_under_previous_permission": null,
-  "description": "Creation of 2 additional residential units (Class C3) facilitated by construction of a part single storey, part first floor rear/side extension and rear dormer roof extensions. Installation of doors, windows and rooflights to all elevations, together with associated hard/soft landscaping and cycle storage to the rear (Amended description).",
+  "description": "Erection of extensions at ground, first and roof level (loft conversion with dormers), to create an 2x additional residental units, along with provision of cycle and refuse/recycling enclosures.",
   "parking_details": {
     "no_existing_cycle": 0,
     "no_proposed_cycle": 8,
@@ -25,7 +25,7 @@
   "date_building_work_completed_under_previous_permission": null,
   "pp_id": "13695976",
   "status": "Application Under Consideration",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "polygon": {
     "crs": {
       "type": "name",
@@ -72,28 +72,24 @@
     "coordinates": [
       [
         [
-          -0.014569,
-          51.576114
+          -0.014401,
+          51.576158
         ],
         [
-          -0.014562,
-          51.576099
+          -0.014402,
+          51.576131
         ],
         [
-          -0.014415,
-          51.576044
+          -0.014445,
+          51.576131
         ],
         [
-          -0.01426,
-          51.576218
+          -0.014444,
+          51.576158
         ],
         [
-          -0.014398,
-          51.576271
-        ],
-        [
-          -0.014569,
-          51.576114
+          -0.014401,
+          51.576158
         ]
       ]
     ],
@@ -104,19 +100,19 @@
   "lapsed_date": null,
   "bo_system": "Portal",
   "decision_date": null,
-  "centroid_easting": null,
+  "centroid_easting": 537689,
   "actual_commencement_date": null,
   "id": "Waltham_Forest-250091",
   "lpa_name": "Waltham Forest",
   "decision_target_date": "21/03/2025",
   "valid_date": "24/01/2025",
   "development_type": "Minor dwellings",
-  "last_updated": "2026-04-15T11:56:27.463Z",
+  "last_updated": "2026-06-27T19:23:51.785Z",
   "subdivision_of_building": null,
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
-    "lat": 49.766807,
-    "lon": -7.55716
+    "lat": 51.576144,
+    "lon": -0.014423
   },
   "decision_process": "Delegated",
   "application_type_full": "Full planning permission",
@@ -235,14 +231,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 207,
-        "use_class": "EA",
         "gia_gained": 0,
+        "use_class": "EA",
         "gia_lost": 110.3
       },
       {
         "gia_existing": 139.8,
-        "use_class": "C3",
         "gia_gained": 182.2,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -265,11 +261,17 @@
       "total_no_proposed_residential_units_starter_homes": 0,
       "residential_units": [
         {
-          "provider": "Private rented sector",
-          "no_habitable_rooms": 4,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 4,
+          "provider": "Private rented sector",
           "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 99
         }
@@ -328,9 +330,11 @@
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "no_non_resi_units_to_have_full_fibre": 0,
-      "total_annual_pm_emissions": 0
+      "total_annual_pm_emissions": 0,
+      "urban_greening_factor_score": 0
     },
-    "s106_agreement": true
+    "s106_agreement": true,
+    "occupation_status": "Occupied"
   },
   "epc_number": null,
   "uprn": "100022985336",

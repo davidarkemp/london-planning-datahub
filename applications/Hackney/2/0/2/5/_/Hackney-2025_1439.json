@@ -1,6 +1,6 @@
 {
   "decision_target_date": "12/09/2025",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Minor all other minor developments",
@@ -10,27 +10,80 @@
     "site_area": 0.03,
     "other_residential_accommodation_details": {
       "site_area": 0.03
-    }
+    },
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "1",
+        "intended_completion_date": "03/2026",
+        "intended_commencement_date": "08/2025"
+      }
+    ],
+    "total_gia_gained": 0,
+    "total_gia_lost": 0,
+    "total_gia_existing": 160,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 160,
+        "gia_gained": 0,
+        "use_class": "C3",
+        "gia_lost": 0
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied",
+    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "surface_water_discharge_percentage_reduction": 0,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 0,
+      "total_gia_lost": 0,
+      "total_gia_existing": 160
+    },
+    "garden_land_lost": false,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 0,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 0,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "internal_resi_water_usage": 0,
+    "ownership_status": "Private"
   },
   "decision_date": "10/09/2025",
   "url_planning_app": "https://developmentandhousing.hackney.gov.uk//planning/index.html?fa=getApplication&id=83135",
   "borough": "Hackney",
-  "locality": "HACKNEY",
+  "locality": "London",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
   "parking_details": null,
-  "site_name": null,
+  "site_name": "82-84",
   "epc_number": null,
   "pp_id": "14111668",
   "subdivision_of_building": null,
   "status": "Approved",
-  "description": "External alterations to existing maisonettes above 82-84 Kingsland High Street and alterations to the existing parapet. ",
+  "description": "External alterations to existing maisonettes above 82-84 Kingsland High Street including new windows and doors and alteration to the existing parapet. ",
   "decision_conditions": [
     "<p>The Development hereby permitted shall only be carried out and completed strictly in accordance with the submitted plans hereby approved and any subsequent approval of details.\r\n</p><p><br></p><p>\r\nREASON: To ensure that the development hereby permitted is carried out in full accordance with the plans hereby approved.\r\n</p>",
     "<p>The development hereby permitted must be begun not later than the expiration of three years beginning with the date of this permission.</p><p><br></p><p>\r\n</p><p>\r\nREASON: In order to comply with the provisions of the Town and Country Planning Act 1990 (as amended).</p><p>\r\n</p>"
   ],
   "site_number": "82 - 84",
-  "last_updated": "2026-04-15T11:44:13.641Z",
+  "last_updated": "2026-06-27T18:39:46.433Z",
   "last_date_consultation_comments": "18/08/2025",
   "valid_date": "18/07/2025",
   "actual_commencement_date": null,
@@ -42,125 +95,68 @@
   "decision": "Approved",
   "id": "Hackney-2025_1439",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
-              533584.947148658,
-              185062.209570247
-            ],
-            [
-              533582.003662276,
-              185062.399515927
-            ],
-            [
-              533578.474776177,
-              185062.579464398
-            ],
-            [
-              533578.153218739,
-              185062.599458423
-            ],
-            [
-              533571.903462005,
-              185062.89937273
-            ],
-            [
-              533554.201315962,
-              185063.599172281
-            ],
-            [
-              533553.698367486,
-              185053.951934216
-            ],
-            [
-              533586.101457676,
-              185052.302405906
-            ],
-            [
-              533589.003719062,
-              185052.202434741
-            ],
-            [
-              533589.003719244,
-              185055.85139043
-            ],
-            [
-              533589.152129822,
-              185062.059613091
-            ],
-            [
-              533585.103804923,
-              185062.199573103
-            ],
-            [
-              533584.947148658,
-              185062.209570247
+              [
+                533582,
+                185062.4
+              ],
+              [
+                533578.47,
+                185062.58
+              ],
+              [
+                533578.15,
+                185062.6
+              ],
+              [
+                533571.9,
+                185062.9
+              ],
+              [
+                533554.2,
+                185063.6
+              ],
+              [
+                533553.7,
+                185053.95
+              ],
+              [
+                533586.1,
+                185052.3
+              ],
+              [
+                533589,
+                185052.2
+              ],
+              [
+                533589,
+                185055.85
+              ],
+              [
+                533589.151,
+                185062.056
+              ],
+              [
+                533585.1,
+                185062.2
+              ],
+              [
+                533584.945,
+                185062.206
+              ],
+              [
+                533582,
+                185062.4
+              ]
             ]
           ]
-        ]
-      },
-      {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              533584.947148658,
-              185062.209570247
-            ],
-            [
-              533582.003662276,
-              185062.399515927
-            ],
-            [
-              533578.474776177,
-              185062.579464398
-            ],
-            [
-              533578.153218739,
-              185062.599458423
-            ],
-            [
-              533571.903462005,
-              185062.89937273
-            ],
-            [
-              533554.201315962,
-              185063.599172281
-            ],
-            [
-              533553.698367486,
-              185053.951934216
-            ],
-            [
-              533586.101457676,
-              185052.302405906
-            ],
-            [
-              533589.003719062,
-              185052.202434741
-            ],
-            [
-              533589.003719244,
-              185055.85139043
-            ],
-            [
-              533589.152129822,
-              185062.059613091
-            ],
-            [
-              533585.103804923,
-              185062.199573103
-            ],
-            [
-              533584.947148658,
-              185062.209570247
-            ]
-          ]
-        ]
+        ],
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -173,78 +169,80 @@
   "appeal_start_date": null,
   "decision_process": "Delegated",
   "ward": "Dalston Ward",
-  "street_name": "KINGSLAND HIGH STREET",
+  "street_name": "Kingsland High Street",
   "secondary_street_name": null,
   "lpa_name": "Hackney",
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": null,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.074815,
-          51.548646
-        ],
-        [
-          -0.074857,
-          51.548649
-        ],
-        [
-          -0.074908,
-          51.548651
-        ],
-        [
-          -0.074913,
-          51.548652
-        ],
-        [
-          -0.075003,
-          51.548656
-        ],
-        [
-          -0.075258,
-          51.548666
-        ],
-        [
-          -0.075269,
-          51.54858
-        ],
-        [
-          -0.074802,
-          51.548557
-        ],
-        [
-          -0.07476,
-          51.548556
-        ],
-        [
-          -0.074759,
-          51.548588
-        ],
-        [
-          -0.074755,
-          51.548644
-        ],
-        [
-          -0.074813,
-          51.548646
-        ],
-        [
-          -0.074815,
-          51.548646
+          [
+            -0.074857,
+            51.548649
+          ],
+          [
+            -0.074908,
+            51.548651
+          ],
+          [
+            -0.074913,
+            51.548652
+          ],
+          [
+            -0.075003,
+            51.548656
+          ],
+          [
+            -0.075258,
+            51.548666
+          ],
+          [
+            -0.075269,
+            51.54858
+          ],
+          [
+            -0.074802,
+            51.548557
+          ],
+          [
+            -0.07476,
+            51.548556
+          ],
+          [
+            -0.074759,
+            51.548588
+          ],
+          [
+            -0.074755,
+            51.548644
+          ],
+          [
+            -0.074813,
+            51.548646
+          ],
+          [
+            -0.074815,
+            51.548646
+          ],
+          [
+            -0.074857,
+            51.548649
+          ]
         ]
       ]
     ]
   },
-  "uprn": "100023015347",
+  "uprn": 100023015347,
   "application_type": "All Other",
   "centroid": {
     "lat": 51.548603,
     "lon": -0.075032
   },
   "lapsed_date": "10/09/2028",
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "centroid_easting": 533570,
   "actual_completion_date": null
 }

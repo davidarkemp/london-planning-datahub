@@ -1,36 +1,89 @@
 {
   "decision_target_date": "08/01/2026",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Minor all other minor developments",
   "postcode": "N16 5JE",
   "title_number": null,
   "application_details": {
-    "site_area": 235.8,
+    "site_area": 0.02358,
     "other_residential_accommodation_details": {
       "site_area": 235.8
-    }
+    },
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "construction",
+        "intended_completion_date": "01/2026",
+        "intended_commencement_date": "12/2025"
+      }
+    ],
+    "total_gia_gained": 197,
+    "total_gia_lost": 0,
+    "total_gia_existing": 275,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 275,
+        "gia_gained": 197,
+        "use_class": "F2",
+        "gia_lost": 0
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied",
+    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "surface_water_discharge_percentage_reduction": 0,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 197,
+      "total_gia_lost": 0,
+      "total_gia_existing": 275
+    },
+    "garden_land_lost": true,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 0,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 0,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "internal_resi_water_usage": 0,
+    "ownership_status": "Private"
   },
   "decision_date": "19/02/2026",
   "url_planning_app": "https://developmentandhousing.hackney.gov.uk//planning/index.html?fa=getApplication&id=84055",
   "borough": "Hackney",
-  "locality": "HACKNEY",
+  "locality": "London",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
   "parking_details": null,
   "site_name": null,
   "epc_number": null,
   "pp_id": "14448335",
-  "subdivision_of_building": null,
+  "subdivision_of_building": "basement, rear first floor and roof level.",
   "status": "Refused",
   "description": "Enlargement of the existing front basement to cover the footprint of the existing main building and extend to the rear garden, including infill first floor rear extension and a rear roof extension. ",
   "decision_conditions": [
     "&lt;p&gt;With the absence of any supporting evidence to suggest the works would not have a detrimental impact on trees of special amenity value, the proposal fails to comply with policy LP51 (Tree Management and Landscaping) of the Hackney Local Plan 2033, G7 (Trees and woodlands) of the London Plan &amp;amp; the NPPF.&lt;/p&gt;",
     "&lt;p&gt;﻿The application fails to provide adequate information to demonstrate how the proposed development would deliver measurable Biodiversity Net Gain (BNG) or be exempt from the requirements, contrary to the requirements set out in the Environment Act 2021. In the absence of this information, the Local Planning Authority cannot determine the impact on local biodiversity or ensure compliance with Policy LP47 of the Hackney Local Plan 2033 (LP33), and Paragraph 187 of the National Planning Policy Framework (NPPF).&lt;/p&gt;"
   ],
-  "site_number": "36",
-  "last_updated": "2026-04-15T11:24:27.294Z",
+  "site_number": 36,
+  "last_updated": "2026-06-27T10:56:38.500Z",
   "last_date_consultation_comments": "22/12/2025",
   "valid_date": "13/11/2025",
   "actual_commencement_date": null,
@@ -42,109 +95,60 @@
   "decision": "Refused",
   "id": "Hackney-2025_2485",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
-              533058.499998524,
-              187873.95471585
-            ],
-            [
-              533059.852188239,
-              187868.406304367
-            ],
-            [
-              533065.953533687,
-              187870.15580342
-            ],
-            [
-              533064.749754781,
-              187875.354315103
-            ],
-            [
-              533062.004149115,
-              187887.200924227
-            ],
-            [
-              533060.445832436,
-              187893.919001206
-            ],
-            [
-              533058.252646348,
-              187903.356299553
-            ],
-            [
-              533051.450470841,
-              187902.856442968
-            ],
-            [
-              533053.989949536,
-              187892.479413551
-            ],
-            [
-              533055.647207348,
-              187885.701353768
-            ],
-            [
-              533058.499998524,
-              187873.95471585
+              [
+                533053.992,
+                187892.471
+              ],
+              [
+                533055.65,
+                187885.7
+              ],
+              [
+                533058.5,
+                187873.95
+              ],
+              [
+                533059.85,
+                187868.4
+              ],
+              [
+                533065.95,
+                187870.15
+              ],
+              [
+                533064.75,
+                187875.35
+              ],
+              [
+                533062,
+                187887.2
+              ],
+              [
+                533060.441,
+                187893.915
+              ],
+              [
+                533058.25,
+                187903.35
+              ],
+              [
+                533051.45,
+                187902.85
+              ],
+              [
+                533053.992,
+                187892.471
+              ]
             ]
           ]
-        ]
-      },
-      {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              533058.499998524,
-              187873.95471585
-            ],
-            [
-              533059.852188239,
-              187868.406304367
-            ],
-            [
-              533065.953533687,
-              187870.15580342
-            ],
-            [
-              533064.749754781,
-              187875.354315103
-            ],
-            [
-              533062.004149115,
-              187887.200924227
-            ],
-            [
-              533060.445832436,
-              187893.919001206
-            ],
-            [
-              533058.252646348,
-              187903.356299553
-            ],
-            [
-              533051.450470841,
-              187902.856442968
-            ],
-            [
-              533053.989949536,
-              187892.479413551
-            ],
-            [
-              533055.647207348,
-              187885.701353768
-            ],
-            [
-              533058.499998524,
-              187873.95471585
-            ]
-          ]
-        ]
+        ],
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -157,70 +161,72 @@
   "appeal_start_date": null,
   "decision_process": "Delegated",
   "ward": "Woodberry Down Ward",
-  "street_name": "BERGHOLT CRESCENT",
+  "street_name": "Bergholt Crescent",
   "secondary_street_name": null,
   "lpa_name": "Hackney",
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": null,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.08134,
-          51.574038
-        ],
-        [
-          -0.081322,
-          51.573988
-        ],
-        [
-          -0.081234,
-          51.574002
-        ],
-        [
-          -0.081249,
-          51.574049
-        ],
-        [
-          -0.081284,
-          51.574156
-        ],
-        [
-          -0.081304,
-          51.574217
-        ],
-        [
-          -0.081332,
-          51.574302
-        ],
-        [
-          -0.08143,
-          51.574299
-        ],
-        [
-          -0.081398,
-          51.574205
-        ],
-        [
-          -0.081376,
-          51.574144
-        ],
-        [
-          -0.08134,
-          51.574038
+          [
+            -0.081398,
+            51.574205
+          ],
+          [
+            -0.081376,
+            51.574144
+          ],
+          [
+            -0.08134,
+            51.574038
+          ],
+          [
+            -0.081322,
+            51.573988
+          ],
+          [
+            -0.081234,
+            51.574002
+          ],
+          [
+            -0.081249,
+            51.574049
+          ],
+          [
+            -0.081284,
+            51.574156
+          ],
+          [
+            -0.081304,
+            51.574217
+          ],
+          [
+            -0.081332,
+            51.574302
+          ],
+          [
+            -0.08143,
+            51.574299
+          ],
+          [
+            -0.081398,
+            51.574205
+          ]
         ]
       ]
     ]
   },
-  "uprn": "100023156119",
+  "uprn": 100023156119,
   "application_type": "All Other",
   "centroid": {
     "lat": 51.574119,
     "lon": -0.081329
   },
   "lapsed_date": "19/02/2029",
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "centroid_easting": 533059,
   "actual_completion_date": null
 }

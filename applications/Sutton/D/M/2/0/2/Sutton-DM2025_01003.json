@@ -14,26 +14,26 @@
   "epc_number": "9218-3004-7275-7100-1240",
   "appeal_decision_date": null,
   "site_name": null,
-  "application_type_full": null,
-  "description": "Change of use from Class C3 (dwelling house) to Class C2 (Residential Institutions) and alteration to fenestrations.",
+  "application_type_full": "Full planning permission",
+  "description": "Conversion of Flat C3 to Supported Housing C2",
   "appeal_status": null,
   "application_type": "All Other",
   "ward": "Wallington South",
   "pp_id": "PP-14210407",
   "appeal_decision": null,
-  "uprn": "005870077361",
+  "uprn": 5870077361,
   "centroid": {
     "lat": 51.355444,
     "lon": -0.152856
   },
   "appeal_start_date": null,
   "date_building_work_started_under_previous_permission": null,
-  "locality": null,
+  "locality": "Wallington",
   "lapsed_date": null,
   "bo_system": "Idox Uniform",
   "secondary_street_name": null,
-  "subdivision_of_building": null,
-  "last_updated_by": "Idox Uniform",
+  "subdivision_of_building": "GROUND FLOOR",
+  "last_updated_by": "Planning Portal ingest",
   "status": "Withdrawn",
   "url_planning_app": "https://planningregister.sutton.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=T07MXPKCKFI00",
   "lpa_app_no": "DM2025/01003",
@@ -41,47 +41,38 @@
   "application_details": {
     "projected_cost_of_works": "Up to £2m",
     "internal_resi_water_usage": 60,
-    "site_area": 701,
+    "site_area": 0.0701,
     "ownership_status": "Private",
     "existing_uprns": [
       "005870077361"
     ],
-    "total_gia_existing": 0,
+    "total_gia_existing": 155,
     "constraints_details": [
       {
-        "result": null,
         "constraints_layer_description": "SMKCON Smoke Control Zone"
       },
       {
-        "result": null,
         "constraints_layer_description": "ART4 Article 4 Direction - Boroughwide HMO Restriction"
       },
       {
-        "result": null,
         "constraints_layer_description": "RADCON "
       },
       {
-        "result": null,
         "constraints_layer_description": "PLAHIS Planning Application Reference: DM2020/01810--- Address: 10A Park Hill Road\rWallington\rSM6 0SB--- Proposal: Conversion from 1 to 2 No Flats--- Status: APPRET--- Decision: --- Date Decision Issued: ---"
       },
       {
-        "result": null,
         "constraints_layer_description": "PLAHIS Planning Application Reference: DM2020/01890--- Address: 10A Park Hill Road\rWallington\rSM6 0SB--- Proposal: Conversion of the existing ground floor flat and basement into 2 self contained residential units including the provision of an external light well and escape stairs and alterations to the ground floor rear fenestration.--- Status: REF--- Decision: REF--- Date Decision Issued: 10-FEB-21---"
       },
       {
-        "result": null,
         "constraints_layer_description": "PLAHIS Planning Application Reference: DM2025/01003--- Address: 10A Park Hill Road\rWallington\rSM6 0SB\r--- Proposal: Change of use from Class C3(a) (Flat) to Class C3(b) (Supported Living)--- Status: REC--- Decision: --- Date Decision Issued: ---"
       },
       {
-        "result": null,
         "constraints_layer_description": "ASLC Area of Special Local Character: ASLC12 DD"
       },
       {
-        "result": null,
         "constraints_layer_description": "PINT "
       },
       {
-        "result": null,
         "constraints_layer_description": "TPOPOI Ref: 233 - Status: CONF"
       }
     ],
@@ -99,20 +90,17 @@
       "residential_units": [
         {
           "m43_2b_compliant": false,
+          "no_habitable_rooms": 3,
           "m43_2a_compliant": false,
-          "description": null,
-          "change_type": "Loss",
           "m42_compliant": false,
+          "change_type": "Loss",
           "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 3,
-          "phase_detail": null,
-          "unit_no": null,
           "no_bedrooms": 3,
+          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
-          "gia": 155,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 155
         }
       ],
       "total_no_existing_residential_units_affordable_rent": 0,
@@ -139,7 +127,7 @@
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_existing_residential_units": 1,
       "total_no_proposed_residential_units_discount_market_rent": 0,
-      "total_gia_lost": 0,
+      "total_gia_lost": 155,
       "total_no_existing_residential_units_starter_homes": 0,
       "total_gia_gained": 0,
       "total_no_proposed_residential_affordable_units": 0
@@ -151,8 +139,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 155,
-        "use_class": "C2",
         "gia_gained": 0,
+        "use_class": "C2",
         "gia_lost": 0
       }
     ],
@@ -203,8 +191,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development'",
-        "intended_commencement_date": "10/2025",
-        "intended_completion_date": "12/2025"
+        "intended_completion_date": "12/2025",
+        "intended_commencement_date": "10/2025"
       }
     ],
     "rain_water_harvesting": false,
@@ -218,7 +206,10 @@
     },
     "garden_land_lost": false,
     "surface_water_discharge_percentage_reduction": 5,
-    "s106_agreement": false
+    "s106_agreement": false,
+    "scheme_phasing": true,
+    "total_gia_gained": 0,
+    "occupation_status": "Occupied"
   },
   "decision_process": "Delegated",
   "lpa_name": "Sutton",
@@ -276,49 +267,29 @@
     ]
   },
   "cil_liability": false,
-  "last_updated": "2025-10-01T20:02:58.172Z",
+  "last_updated": "2026-06-27T07:12:11.942Z",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.153158,
-          51.35535
+          -0.152834,
+          51.355457
         ],
         [
-          -0.152567,
-          51.355439
+          -0.152835,
+          51.35543
         ],
         [
-          -0.152631,
-          51.35557
+          -0.152878,
+          51.355431
         ],
         [
-          -0.152634,
-          51.355576
+          -0.152877,
+          51.355458
         ],
         [
-          -0.152759,
-          51.355553
-        ],
-        [
-          -0.15282,
-          51.355542
-        ],
-        [
-          -0.153224,
-          51.355481
-        ],
-        [
-          -0.153271,
-          51.355475
-        ],
-        [
-          -0.153206,
-          51.355343
-        ],
-        [
-          -0.153158,
-          51.35535
+          -0.152834,
+          51.355457
         ]
       ]
     ],
@@ -332,7 +303,7 @@
   "actual_commencement_date": null,
   "borough": "Sutton",
   "centroid_northing": 163438,
-  "site_number": "10A",
+  "site_number": 10,
   "title_number": null,
   "development_type": "Minor all other minor developments"
 }

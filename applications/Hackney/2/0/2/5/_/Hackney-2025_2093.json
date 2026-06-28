@@ -1,55 +1,57 @@
 {
-  "uprn": "100023157840",
+  "uprn": 100023157840,
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.065046,
-          51.57385
-        ],
-        [
-          -0.065095,
-          51.573874
-        ],
-        [
-          -0.065109,
-          51.573864
-        ],
-        [
-          -0.065145,
-          51.573835
-        ],
-        [
-          -0.065097,
-          51.573811
-        ],
-        [
-          -0.065004,
-          51.573764
-        ],
-        [
-          -0.064844,
-          51.573683
-        ],
-        [
-          -0.064791,
-          51.573724
-        ],
-        [
-          -0.064832,
-          51.573745
-        ],
-        [
-          -0.064936,
-          51.573796
-        ],
-        [
-          -0.065046,
-          51.57385
+          [
+            -0.064936,
+            51.573796
+          ],
+          [
+            -0.065046,
+            51.57385
+          ],
+          [
+            -0.065095,
+            51.573874
+          ],
+          [
+            -0.065109,
+            51.573864
+          ],
+          [
+            -0.065145,
+            51.573835
+          ],
+          [
+            -0.065097,
+            51.573811
+          ],
+          [
+            -0.065003,
+            51.573764
+          ],
+          [
+            -0.064844,
+            51.573683
+          ],
+          [
+            -0.064791,
+            51.573724
+          ],
+          [
+            -0.064832,
+            51.573745
+          ],
+          [
+            -0.064936,
+            51.573796
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "subdivision_of_building": null,
   "centroid_easting": 534191,
@@ -62,12 +64,12 @@
     "lat": 51.573806,
     "lon": -0.065006
   },
-  "description": "Amalgamation of three self-contained flats into a single dwellinghouse; and erection of lower ground, upper ground and first floor rear extensions, and associated external alterations.",
+  "description": "Change of use from smaller flats to single dwelling house, construction of lower-ground, upper-ground and first floor rear extensions, together with associated alterations.\n",
   "application_details": {
     "other_residential_accommodation_details": {
       "site_area": 153.16
     },
-    "site_area": 153.16,
+    "site_area": 0.015316,
     "affordable_housing_fast_track": false,
     "phasing_details": [
       {
@@ -82,8 +84,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 157.28,
-        "use_class": "C3",
         "gia_gained": 60.25,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -140,31 +142,45 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 1,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 43.28
         },
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 1,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 43.5
         },
         {
-          "provider": "Private",
-          "no_habitable_rooms": 2,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Terraced Home",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
           "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 86.78
         }
@@ -187,18 +203,20 @@
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "urban_greening_factor_score": 0
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "occupation_status": "Occupied"
   },
   "valid_date": "23/09/2025",
   "decision_process": "Delegated",
   "appeal_start_date": null,
   "application_type_full": "Full planning permission",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "bo_system": "Portal",
   "decision_target_date": "18/11/2025",
-  "last_updated": "2026-04-15T11:24:45.635Z",
+  "last_updated": "2026-06-27T19:52:32.004Z",
   "site_name": null,
   "development_type": "Minor all other minor developments",
   "centroid_northing": 187878,
@@ -214,9 +232,9 @@
   "decision": "Approved",
   "id": "Hackney-2025_2093",
   "last_date_consultation_comments": "21/10/2025",
-  "locality": "HACKNEY",
+  "locality": "London",
   "appeal_decision": null,
-  "street_name": "CASTLEWOOD ROAD",
+  "street_name": "Castlewood Road",
   "postcode": "N16 6DW",
   "secondary_street_name": null,
   "date_building_work_completed_under_previous_permission": null,
@@ -235,106 +253,57 @@
         "coordinates": [
           [
             [
-              534188.098103915,
-              187882.80218346
-            ],
-            [
-              534184.618688028,
-              187885.411436688
-            ],
-            [
-              534183.703486627,
-              187884.251768632
-            ],
-            [
-              534181.2547033,
-              187881.002698547
-            ],
-            [
-              534184.65166869,
-              187878.403443033
-            ],
-            [
-              534191.297187574,
-              187873.304901965
-            ],
-            [
-              534202.601166477,
-              187864.657377615
-            ],
-            [
-              534206.154787928,
-              187869.306046685
-            ],
-            [
-              534203.227791127,
-              187871.485423035
-            ],
-            [
-              534195.89793188,
-              187876.953857963
-            ],
-            [
-              534188.098103915,
-              187882.80218346
+              [
+                534195.9,
+                187876.95
+              ],
+              [
+                534188.1,
+                187882.8
+              ],
+              [
+                534184.62,
+                187885.41
+              ],
+              [
+                534183.7,
+                187884.25
+              ],
+              [
+                534181.25,
+                187881
+              ],
+              [
+                534184.65,
+                187878.4
+              ],
+              [
+                534191.3,
+                187873.3
+              ],
+              [
+                534202.6,
+                187864.65
+              ],
+              [
+                534206.15,
+                187869.3
+              ],
+              [
+                534203.226,
+                187871.483
+              ],
+              [
+                534195.9,
+                187876.95
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
-      },
-      {
-        "coordinates": [
-          [
-            [
-              534188.098103915,
-              187882.80218346
-            ],
-            [
-              534184.618688028,
-              187885.411436688
-            ],
-            [
-              534183.703486627,
-              187884.251768632
-            ],
-            [
-              534181.2547033,
-              187881.002698547
-            ],
-            [
-              534184.65166869,
-              187878.403443033
-            ],
-            [
-              534191.297187574,
-              187873.304901965
-            ],
-            [
-              534202.601166477,
-              187864.657377615
-            ],
-            [
-              534206.154787928,
-              187869.306046685
-            ],
-            [
-              534203.227791127,
-              187871.485423035
-            ],
-            [
-              534195.89793188,
-              187876.953857963
-            ],
-            [
-              534188.098103915,
-              187882.80218346
-            ]
-          ]
-        ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "crs": {
       "type": "name",
       "properties": {
@@ -342,7 +311,7 @@
       }
     }
   },
-  "site_number": "36",
+  "site_number": 36,
   "ward": "Springfield Ward",
   "reference_no_of_permission_being_relied_on": null,
   "actual_completion_date": null

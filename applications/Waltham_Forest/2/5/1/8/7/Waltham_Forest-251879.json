@@ -1,16 +1,24 @@
 {
   "decision_target_date": "29/09/2025",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Other house holder developments",
   "postcode": "E17 5LQ",
-  "title_number": null,
-  "application_details": {},
+  "title_number": [
+    "Unregistered"
+  ],
+  "application_details": {
+    "total_gia_gained": 11,
+    "no_additional_bathrooms": 0,
+    "no_additional_bedrooms": 0,
+    "intended_completion_date": "07/2026",
+    "intended_commencement_date": "02/2026"
+  },
   "decision_date": "29/09/2025",
   "url_planning_app": "https://builtenvironment.walthamforest.gov.uk/planning/index.html?fa=getApplication&id=118581",
   "borough": "Waltham Forest",
-  "locality": null,
+  "locality": "Walthamstow",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
   "parking_details": null,
@@ -19,14 +27,14 @@
   "pp_id": "14214790",
   "subdivision_of_building": null,
   "status": "Refused",
-  "description": "Construction of a single storey rear infill extension and alterations to the fenestration involving the installation of bi-folding patio doors in place of an existing rear window and installation of replacement windows to the front and rear elevations.",
+  "description": "Ground floor extension\nAlteration of existing openings\nReplacement of windows",
   "decision_conditions": null,
-  "site_number": "56",
-  "last_updated": "2026-04-15T11:55:59.538Z",
+  "site_number": 56,
+  "last_updated": "2026-06-27T13:50:31.555Z",
   "last_date_consultation_comments": "11/09/2025",
   "valid_date": "04/08/2025",
   "actual_commencement_date": null,
-  "centroid_northing": null,
+  "centroid_northing": 189995,
   "appeal_decision": null,
   "decision_agency": "Borough",
   "lpa_app_no": "251879",
@@ -34,34 +42,75 @@
   "decision": "Refused",
   "id": "Waltham_Forest-251879",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
-              537046.107564108,
-              189991.088519102
-            ],
-            [
-              537073.724699681,
-              189998.031131643
-            ],
-            [
-              537072.617149219,
-              190002.524954629
-            ],
-            [
-              537044.904168015,
-              189995.481417278
-            ],
-            [
-              537046.107564108,
-              189991.088519102
+              [
+                537060.25,
+                189999.25
+              ],
+              [
+                537047.9,
+                189996.15
+              ],
+              [
+                537044.85,
+                189995.4
+              ],
+              [
+                537046.1,
+                189990.7
+              ],
+              [
+                537049.1,
+                189991.5
+              ],
+              [
+                537055.9,
+                189993.3
+              ],
+              [
+                537073.95,
+                189998.1
+              ],
+              [
+                537073.45,
+                190000
+              ],
+              [
+                537073.25,
+                190001.2
+              ],
+              [
+                537072.85,
+                190002.55
+              ],
+              [
+                537063.15,
+                190000
+              ],
+              [
+                537062.05,
+                189999.7
+              ],
+              [
+                537060.25,
+                189999.25
+              ]
             ]
           ]
-        ]
+        ],
+        "type": "MultiPolygon"
+      },
+      {
+        "coordinates": [
+          537042.1154388427,
+          189978.50354919434
+        ],
+        "type": "Point"
       }
     ],
     "crs": {
@@ -74,46 +123,80 @@
   "appeal_start_date": null,
   "decision_process": "Delegated",
   "ward": "William Morris",
-  "street_name": "BADLIS ROAD",
+  "street_name": "Badlis Road",
   "secondary_street_name": null,
   "lpa_name": "Waltham Forest",
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": null,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.023009,
-          51.592108
-        ],
-        [
-          -0.022607,
-          51.592164
-        ],
-        [
-          -0.022622,
-          51.592204
-        ],
-        [
-          -0.023024,
-          51.592148
-        ],
-        [
-          -0.023009,
-          51.592108
+          [
+            -0.022801,
+            51.592178
+          ],
+          [
+            -0.022981,
+            51.592153
+          ],
+          [
+            -0.023025,
+            51.592147
+          ],
+          [
+            -0.023009,
+            51.592105
+          ],
+          [
+            -0.022965,
+            51.592111
+          ],
+          [
+            -0.022866,
+            51.592126
+          ],
+          [
+            -0.022604,
+            51.592164
+          ],
+          [
+            -0.022611,
+            51.592182
+          ],
+          [
+            -0.022613,
+            51.592192
+          ],
+          [
+            -0.022618,
+            51.592205
+          ],
+          [
+            -0.022759,
+            51.592184
+          ],
+          [
+            -0.022775,
+            51.592182
+          ],
+          [
+            -0.022801,
+            51.592178
+          ]
         ]
       ]
     ]
   },
-  "uprn": "100022517255",
+  "uprn": 100022517255,
   "application_type": "Householder",
   "centroid": {
-    "lat": 49.766807,
-    "lon": -7.55716
+    "lat": 51.592142,
+    "lon": -0.022908
   },
   "lapsed_date": "29/09/2028",
-  "application_type_full": null,
-  "centroid_easting": null,
+  "application_type_full": "Householder planning permission",
+  "centroid_easting": 537053,
   "actual_completion_date": null
 }

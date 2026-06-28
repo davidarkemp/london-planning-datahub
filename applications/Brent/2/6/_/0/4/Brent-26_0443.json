@@ -1,22 +1,22 @@
 {
   "actual_commencement_date": null,
-  "date_building_work_completed_under_previous_permission": "01/04/2006",
+  "date_building_work_completed_under_previous_permission": "31/03/2006",
   "lpa_name": "Brent",
   "subdivision_of_building": null,
   "appeal_decision": null,
   "lapsed_date": "01/05/2029",
   "appeal_decision_date": null,
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Planning Portal ingest",
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": null,
-  "last_updated": "2026-05-02T08:01:20.664Z",
+  "last_updated": "2026-06-27T22:33:12.029Z",
   "url_planning_app": "https://pa.brent.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR_176579&activeTab=summary",
-  "street_name": null,
+  "street_name": "Gladstone Park Gardens",
   "parking_details": null,
   "ward": "Dollis Hill",
   "bo_system": "CSV Data Import",
   "site_name": "7 Gladstone Park Gardens, London, NW2 6LA",
-  "site_number": null,
+  "site_number": 7,
   "application_details": {
     "site_area": 0.01601,
     "total_gia_existing": 135.6,
@@ -25,8 +25,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire development",
-        "intended_commencement_date": "04/2026",
-        "intended_completion_date": "07/2026"
+        "intended_completion_date": "07/2026",
+        "intended_commencement_date": "04/2026"
       }
     ],
     "garden_land_lost": false,
@@ -34,8 +34,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 135.6,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -55,7 +55,8 @@
       "mobile_network_operators_consultation": false,
       "ghg_reduction_over_building_regulations": false,
       "fire_suppression_system_proposed": false,
-      "total_annual_nox_emissions": 0.96
+      "total_annual_nox_emissions": 0.96,
+      "urban_greening_factor_score": 0
     },
     "rain_water_harvesting": false,
     "projected_cost_of_works": "Up to £2m",
@@ -101,30 +102,46 @@
       "total_no_proposed_residential_units_affordable_rent": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 7,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Terraced Home",
           "no_bedrooms": 4,
+          "unit_type": "Terraced Home",
           "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 135.6
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 58.6
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 77
         }
@@ -140,12 +157,13 @@
     "affordable_housing_fast_track": false,
     "grey_water_reuse": false,
     "total_gia_lost": 0,
-    "surface_water_discharge_percentage_reduction": 0
+    "surface_water_discharge_percentage_reduction": 0,
+    "occupation_status": "Occupied"
   },
-  "uprn": "202095242",
-  "locality": null,
+  "uprn": 202095242,
+  "locality": "London",
   "date_building_work_started_under_previous_permission": "01/01/2006",
-  "postcode": null,
+  "postcode": "NW2 6LA",
   "valid_date": "06/03/2026",
   "cil_liability": false,
   "actual_completion_date": null,
@@ -161,7 +179,7 @@
   "id": "Brent-26_0443",
   "appeal_status": null,
   "appeal_start_date": null,
-  "description": "Proposed conversion of dwellinghouse into 2 self-contained flats",
+  "description": "Change of use from single dwellinghouse to two self-contained flats",
   "development_type": "Minor dwellings",
   "decision_conditions": null,
   "secondary_street_name": null,
@@ -172,7 +190,33 @@
   "borough": "Brent",
   "decision": "Refused",
   "application_type": "All Other",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.223985,
+          51.563501
+        ],
+        [
+          -0.223986,
+          51.563474
+        ],
+        [
+          -0.224029,
+          51.563475
+        ],
+        [
+          -0.224028,
+          51.563502
+        ],
+        [
+          -0.223985,
+          51.563501
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "decision_agency": null,
   "decision_target_date": "24/04/2026",
   "status": "Refused",

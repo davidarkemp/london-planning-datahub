@@ -1,20 +1,24 @@
 {
   "appeal_status": null,
-  "centroid_easting": "524851",
-  "centroid_northing": "187545",
-  "parking_details": null,
+  "centroid_easting": 524851,
+  "centroid_northing": 187544,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_proposed_cycle": 5,
+    "net_cycle": 5
+  },
   "appeal_start_date": null,
   "valid_date": "25/07/2025",
   "lapsed_date": null,
   "bo_system": "Idox Uniform",
   "ward": "CH22",
   "status": "Application Under Consideration",
-  "subdivision_of_building": null,
+  "subdivision_of_building": "Only the flat located on the second floor",
   "site_name": "",
   "development_type": null,
   "actual_commencement_date": null,
   "postcode": "NW11 8EN",
-  "borough": "London Borough of Barnet",
+  "borough": "Barnet",
   "decision": "",
   "polygon": {
     "geometries": [
@@ -22,69 +26,71 @@
         "coordinates": [
           [
             [
-              524862,
-              187550
-            ],
-            [
-              524862,
-              187551
-            ],
-            [
-              524856,
-              187557
-            ],
-            [
-              524850,
-              187550
-            ],
-            [
-              524844,
-              187543
-            ],
-            [
-              524845,
-              187542
-            ],
-            [
-              524844,
-              187541
-            ],
-            [
-              524843,
-              187541
-            ],
-            [
-              524840,
-              187538
-            ],
-            [
-              524846,
-              187533
-            ],
-            [
-              524862,
-              187550
+              [
+                524846.1,
+                187532.65
+              ],
+              [
+                524862.5,
+                187549.55
+              ],
+              [
+                524861.55,
+                187550.55
+              ],
+              [
+                524856.1,
+                187556.65
+              ],
+              [
+                524849.7,
+                187549.75
+              ],
+              [
+                524843.85,
+                187543.3
+              ],
+              [
+                524845.05,
+                187542.1
+              ],
+              [
+                524843.75,
+                187540.65
+              ],
+              [
+                524843.2,
+                187541.1
+              ],
+              [
+                524840.4,
+                187538.05
+              ],
+              [
+                524846.1,
+                187532.65
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
-    "type": "geometrycollection"
+    "type": "GeometryCollection"
   },
   "centroid": {
     "lon": -0.199827,
-    "lat": 51.572957
+    "lat": 51.572948
   },
   "appeal_decision": null,
-  "description": "Change of use of the property from a single family dwelling (Class C3) to a House in Multiple Occupation (HMO) (Class C4) for 5 people",
+  "description": "Change of use of the property from a single family dwelling (Class C3) to a House in Multiple Occupation (HMO) (Class C4) for 5 people. Associated rear cycle parking ",
   "title_number": [],
   "lpa_name": "Barnet",
-  "locality": "Golders Green",
+  "locality": "London",
   "appeal_decision_date": null,
   "decision_process": "Delegated",
-  "application_type_full": null,
-  "site_number": "103B",
+  "application_type_full": "Full planning permission",
+  "site_number": 103,
   "date_building_work_started_under_previous_permission": null,
   "decision_target_date": "19/09/2025",
   "decision_agency": null,
@@ -97,59 +103,61 @@
   "decision_date": null,
   "pp_id": "PP-14201819",
   "last_date_consultation_comments": "20/08/2025",
-  "last_updated_by": "Idox Uniform",
-  "uprn": "000200048613",
+  "last_updated_by": "Planning Portal ingest",
+  "uprn": 200048613,
   "actual_completion_date": null,
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated": "2026-02-17T21:02:38.485Z",
+  "last_updated": "2026-06-27T20:37:12.177Z",
   "cil_liability": false,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.199667,
-          51.573
-        ],
-        [
-          -0.199666,
-          51.573009
-        ],
-        [
-          -0.199751,
-          51.573064
-        ],
-        [
-          -0.19984,
-          51.573003
-        ],
-        [
-          -0.199929,
-          51.572941
-        ],
-        [
-          -0.199915,
-          51.572932
-        ],
-        [
-          -0.199929,
-          51.572923
-        ],
-        [
-          -0.199944,
-          51.572923
-        ],
-        [
-          -0.199988,
-          51.572897
-        ],
-        [
-          -0.199903,
-          51.572851
-        ],
-        [
-          -0.199667,
-          51.573
+          [
+            -0.199902,
+            51.572847
+          ],
+          [
+            -0.19966,
+            51.572996
+          ],
+          [
+            -0.199673,
+            51.573005
+          ],
+          [
+            -0.199749,
+            51.573061
+          ],
+          [
+            -0.199844,
+            51.573
+          ],
+          [
+            -0.199931,
+            51.572944
+          ],
+          [
+            -0.199914,
+            51.572933
+          ],
+          [
+            -0.199933,
+            51.57292
+          ],
+          [
+            -0.199941,
+            51.572924
+          ],
+          [
+            -0.199982,
+            51.572897
+          ],
+          [
+            -0.199902,
+            51.572847
+          ]
         ]
       ]
     ]
@@ -157,11 +165,70 @@
   "decision_conditions": [
     "C101 - Std Time Limit",
     "HMO Restriction",
-    "",
-    "",
     "Plans"
   ],
   "epc_number": null,
-  "application_details": {},
+  "application_details": {
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "1",
+        "intended_completion_date": "10/2025",
+        "intended_commencement_date": "09/2025"
+      }
+    ],
+    "total_gia_gained": 122.6,
+    "site_area": 0.0221,
+    "total_gia_lost": 122.6,
+    "total_gia_existing": 122.6,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 122.6,
+        "gia_gained": 0,
+        "use_class": "C3",
+        "gia_lost": 122.6
+      },
+      {
+        "gia_existing": 0,
+        "gia_gained": 122.6,
+        "use_class": "C4",
+        "gia_lost": 0
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied",
+    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "surface_water_discharge_percentage_reduction": 0,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 122.6,
+      "total_gia_lost": 122.6,
+      "total_gia_existing": 122.6
+    },
+    "garden_land_lost": false,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 1,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 0,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "internal_resi_water_usage": 0,
+    "ownership_status": "Private"
+  },
   "street_name": "Golders Green Road"
 }

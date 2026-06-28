@@ -1,6 +1,6 @@
 {
   "application_details": {
-    "site_area": 199,
+    "site_area": 0.0199,
     "other_residential_accommodation_details": {
       "site_area": 199
     },
@@ -19,8 +19,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 68,
-        "use_class": "C3",
         "gia_gained": 39,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -53,9 +53,11 @@
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "urban_greening_factor_score": 0
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "occupation_status": "Occupied"
   },
   "parking_details": {
     "no_proposed_cycle": 1,
@@ -66,10 +68,10 @@
   "appeal_start_date": null,
   "lapsed_date": "18/02/2029",
   "actual_commencement_date": null,
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "cil_liability": null,
-  "last_updated": "2026-04-15T11:35:38.392Z",
-  "street_name": "GLOUCESTER DRIVE",
+  "last_updated": "2026-06-27T18:54:19.821Z",
+  "street_name": "Gloucester Drive",
   "decision": "Approved",
   "epc_number": null,
   "decision_date": "18/02/2026",
@@ -87,75 +89,97 @@
   "lpa_app_no": "2025/1781",
   "postcode": "N4 2LN",
   "application_type_full": "Full planning permission",
-  "uprn": "100021043462",
+  "uprn": 100021043462,
   "title_number": null,
   "decision_agency": "Borough",
   "subdivision_of_building": "Proposal only relates to lower ground floor and first floor blacony.",
   "appeal_decision_date": null,
   "borough": "Hackney",
   "centroid_northing": 186977,
-  "description": "Erection of single storey lower ground floor extension;&nbsp; replace existing ground floor balcony and steps and new first floor balcony",
+  "description": "Lowering of existing lower ground floor slab level by 1.5m in rear section closest to the garden and 1.1m in front section closest to the street. This will include new foundations and underpinning. This is to create a new bedroom, dressing room and bathroom under existing maisonette which consists of raised ground floor and first floor levels as existing. New retaining walls will also be required for the garden where steps have been created for access from lower ground floor to garden level. Conversion of existing first floor flat roof into first floor balcony at rear of property with metal balustrade to match neighbouring properties. ",
   "appeal_decision": null,
   "id": "Hackney-2025_1781",
-  "site_name": "Flat A",
+  "site_name": "36 Flat A",
   "development_type": "Minor all other minor developments",
   "pp_id": "14186687",
   "lpa_name": "Hackney",
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.09708,
-          51.566191
-        ],
-        [
-          -0.097088,
-          51.566207
-        ],
-        [
-          -0.097137,
-          51.566302
-        ],
-        [
-          -0.097153,
-          51.566332
-        ],
-        [
-          -0.097281,
-          51.566308
-        ],
-        [
-          -0.097232,
-          51.566215
-        ],
-        [
-          -0.097189,
-          51.566131
-        ],
-        [
-          -0.097112,
-          51.56598
-        ],
-        [
-          -0.097092,
-          51.565941
-        ],
-        [
-          -0.097083,
-          51.565923
-        ],
-        [
-          -0.097042,
-          51.565931
-        ],
-        [
-          -0.096958,
-          51.565947
-        ],
-        [
-          -0.09708,
-          51.566191
+          [
+            -0.097083,
+            51.565923
+          ],
+          [
+            -0.097025,
+            51.565934
+          ],
+          [
+            -0.097123,
+            51.566145
+          ],
+          [
+            -0.097171,
+            51.566239
+          ],
+          [
+            -0.097222,
+            51.566228
+          ],
+          [
+            -0.09725,
+            51.566281
+          ],
+          [
+            -0.097242,
+            51.566282
+          ],
+          [
+            -0.097248,
+            51.566292
+          ],
+          [
+            -0.097212,
+            51.5663
+          ],
+          [
+            -0.097207,
+            51.566289
+          ],
+          [
+            -0.097195,
+            51.566292
+          ],
+          [
+            -0.09719,
+            51.566302
+          ],
+          [
+            -0.097159,
+            51.566308
+          ],
+          [
+            -0.097146,
+            51.566301
+          ],
+          [
+            -0.097137,
+            51.566302
+          ],
+          [
+            -0.097153,
+            51.566332
+          ],
+          [
+            -0.097281,
+            51.566308
+          ],
+          [
+            -0.097083,
+            51.565923
+          ]
         ]
       ]
     ]
@@ -173,10 +197,10 @@
   ],
   "bo_system": "Portal",
   "centroid_easting": 531986,
-  "locality": "HACKNEY",
+  "locality": "London",
   "ward": "Brownswood Ward",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "crs": {
       "type": "name",
       "properties": {
@@ -188,119 +212,82 @@
         "coordinates": [
           [
             [
-              531990.500743797,
-              186972.872647959
-            ],
-            [
-              531989.898854205,
-              186974.60215298
-            ],
-            [
-              531986.254537433,
-              186985.099147887
-            ],
-            [
-              531985.05075845,
-              186988.408201155
-            ],
-            [
-              531976.253278399,
-              186985.449048184
-            ],
-            [
-              531979.897595464,
-              186975.201981187
-            ],
-            [
-              531983.096679217,
-              186966.004613844
-            ],
-            [
-              531988.884711988,
-              186949.359378518
-            ],
-            [
-              531990.385313141,
-              186945.070606437
-            ],
-            [
-              531991.102633396,
-              186943.001198702
-            ],
-            [
-              531993.88121874,
-              186943.940929828
-            ],
-            [
-              531999.7022322,
-              186945.900368814
-            ],
-            [
-              531990.500743797,
-              186972.872647959
+              [
+                531991.1,
+                186943
+              ],
+              [
+                531995.0903912757,
+                186944.34762317876
+              ],
+              [
+                531987.682,
+                186967.594
+              ],
+              [
+                531984.0476918631,
+                186977.98614617356
+              ],
+              [
+                531980.5434400168,
+                186976.7033028093
+              ],
+              [
+                531978.5,
+                186982.5
+              ],
+              [
+                531978.994,
+                186982.678
+              ],
+              [
+                531978.589,
+                186983.805
+              ],
+              [
+                531981.022,
+                186984.681
+              ],
+              [
+                531981.428,
+                186983.554
+              ],
+              [
+                531982.25,
+                186983.85
+              ],
+              [
+                531982.55,
+                186984.95
+              ],
+              [
+                531984.7,
+                186985.7
+              ],
+              [
+                531985.6,
+                186984.9
+              ],
+              [
+                531986.25,
+                186985.1
+              ],
+              [
+                531985.05,
+                186988.4
+              ],
+              [
+                531976.25,
+                186985.45
+              ],
+              [
+                531991.1,
+                186943
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
-      },
-      {
-        "coordinates": [
-          [
-            [
-              531990.500743797,
-              186972.872647959
-            ],
-            [
-              531989.898854205,
-              186974.60215298
-            ],
-            [
-              531986.254537433,
-              186985.099147887
-            ],
-            [
-              531985.05075845,
-              186988.408201155
-            ],
-            [
-              531976.253278399,
-              186985.449048184
-            ],
-            [
-              531979.897595464,
-              186975.201981187
-            ],
-            [
-              531983.096679217,
-              186966.004613844
-            ],
-            [
-              531988.884711988,
-              186949.359378518
-            ],
-            [
-              531990.385313141,
-              186945.070606437
-            ],
-            [
-              531991.102633396,
-              186943.001198702
-            ],
-            [
-              531993.88121874,
-              186943.940929828
-            ],
-            [
-              531999.7022322,
-              186945.900368814
-            ],
-            [
-              531990.500743797,
-              186972.872647959
-            ]
-          ]
-        ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ]
   },

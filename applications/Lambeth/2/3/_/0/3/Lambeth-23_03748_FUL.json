@@ -5,40 +5,54 @@
   "postcode": "SW16 5LW",
   "borough": "Lambeth",
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.130336,
-          51.41701
-        ],
-        [
-          -0.130839,
-          51.416751
-        ],
-        [
-          -0.130927,
-          51.416821
-        ],
-        [
-          -0.130426,
-          51.417078
-        ],
-        [
-          -0.130336,
-          51.41701
+          [
+            -0.130677,
+            51.416823
+          ],
+          [
+            -0.130324,
+            51.417009
+          ],
+          [
+            -0.130384,
+            51.417052
+          ],
+          [
+            -0.130429,
+            51.417085
+          ],
+          [
+            -0.130939,
+            51.416819
+          ],
+          [
+            -0.130833,
+            51.416741
+          ],
+          [
+            -0.130753,
+            51.416783
+          ],
+          [
+            -0.130677,
+            51.416823
+          ]
         ]
       ]
     ]
   },
   "site_name": "",
-  "centroid_easting": 530089,
+  "centroid_easting": 530084,
   "pp_id": "PP-12620653",
   "cil_liability": false,
   "reference_no_of_permission_being_relied_on": null,
   "date_building_work_completed_under_previous_permission": null,
   "application_details": {
-    "site_area": 0.045000000000000005,
+    "site_area": 0.052,
     "3d_model": false,
     "affordable_housing_fast_track": false,
     "s106_agreement": false,
@@ -49,16 +63,14 @@
     "transport_impact_assessment": false,
     "existing_proposed_floorspace_details": [
       {
-        "gia_existing": 250,
-        "superseded_date": "01/04/2024",
-        "use_class": "C3",
+        "gia_existing": 210,
         "gia_gained": 0,
-        "superseded_by_lpa_app_no": "21/02501/FUL",
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
     "circular_economy_statement": false,
-    "scheme_phasing": false,
+    "scheme_phasing": true,
     "rain_water_harvesting": false,
     "commencement_notice_received": false,
     "grey_water_reuse": false,
@@ -66,45 +78,59 @@
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "site_area": 0.045000000000000005
+      "site_area": 0.045000000000000005,
+      "total_gia_gained": 0,
+      "total_gia_existing": 210,
+      "total_gia_lost": 0
     },
     "garden_land_lost": false,
     "infrastructure_details": {
-      "waste_provision": false,
+      "waste_provision": true,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 0,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "no_new_gas_connections_required": 0
     },
     "other_residential_accommodation_details": {
       "site_area": 0.045000000000000005
     },
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_bedrooms": 6,
-      "total_no_proposed_residential_units": 2,
+      "total_no_proposed_bedrooms": 3,
+      "total_no_proposed_residential_units": 1,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
-      "total_no_existing_residential_units": 1,
+      "total_no_existing_residential_units": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_living_rent": 0,
-      "total_no_existing_residential_units_market_for_sale": 1,
+      "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "total_no_proposed_residential_units_market_for_rent": 2,
+      "total_no_proposed_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
-      "habitable_rooms_density": 177.77777777777774,
+      "habitable_rooms_density": 66.66666666666666,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "site_area": 0.045000000000000005,
-      "dwelling_density": 44.444444444444436,
+      "dwelling_density": 22.222222222222218,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
@@ -116,64 +142,50 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "description": null,
-          "change_type": "Loss",
-          "unit_type": "House or Bungalow",
-          "unit_development_type": "Conversion",
-          "superseded_date": "01/04/2024",
-          "no_habitable_rooms": 12,
-          "phase_detail": null,
-          "unit_no": null,
-          "no_bedrooms": 10,
-          "superseded_by_lpa_app_no": "21/02501/FUL",
-          "provision_for_older_persons": false,
-          "gia": 250,
-          "tenure": "Market for sale"
-        },
-        {
-          "description": null,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
-          "unit_development_type": "Conversion",
-          "superseded_date": "01/04/2024",
-          "no_habitable_rooms": 4,
-          "phase_detail": null,
-          "unit_no": null,
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Semi Detached Home",
+          "no_habitable_rooms": 3,
+          "provider": "Private",
           "no_bedrooms": 3,
-          "superseded_by_lpa_app_no": "21/02501/FUL",
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
-          "gia": null
-        },
-        {
-          "description": null,
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
-          "unit_development_type": "Conversion",
-          "superseded_date": "01/04/2024",
-          "no_habitable_rooms": 4,
-          "phase_detail": null,
-          "unit_no": null,
-          "no_bedrooms": 3,
-          "superseded_by_lpa_app_no": "21/02501/FUL",
-          "provision_for_older_persons": false,
-          "tenure": "Market for rent",
-          "gia": null
+          "gia": 100
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
-    }
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "total_gia_gained": 100
+    },
+    "total_gia_existing": 210,
+    "projected_cost_of_works": "Up to £2m",
+    "internal_resi_water_usage": 0,
+    "phasing_details": [
+      {
+        "phase_detail": "1",
+        "intended_completion_date": "05/2024",
+        "intended_commencement_date": "02/2024"
+      }
+    ],
+    "total_gia_gained": 0,
+    "total_gia_lost": 0,
+    "occupation_status": "Occupied",
+    "surface_water_discharge_percentage_reduction": 0,
+    "ownership_status": "Private"
   },
   "lpa_name": "Lambeth",
   "decision": "Approved",
   "lpa_app_no": "23/03748/FUL",
   "decision_date": "18/04/2024",
-  "last_updated": "2025-08-12T11:28:24.685Z",
-  "centroid_northing": 170313,
+  "last_updated": "2026-06-27T02:17:55.641Z",
+  "centroid_northing": 170307,
   "centroid": {
-    "lon": -0.130633,
-    "lat": 51.416916
+    "lon": -0.130707,
+    "lat": 51.416863
   },
   "appeal_decision_date": null,
   "locality": null,
@@ -196,7 +208,7 @@
     ""
   ],
   "parking_details": null,
-  "site_number": "47",
+  "site_number": 47,
   "uprn": "100021898856",
   "decision_target_date": "17/01/2024",
   "application_type": "All Other",
@@ -207,28 +219,42 @@
         "coordinates": [
           [
             [
-              530109.360125,
-              170323.93425
-            ],
-            [
-              530075.1295,
-              170294.334
-            ],
-            [
-              530068.845625,
-              170301.94075
-            ],
-            [
-              530102.910875,
-              170331.37575
-            ],
-            [
-              530109.360125,
-              170323.93425
+              [
+                530086.2,
+                170302.6
+              ],
+              [
+                530110.2,
+                170323.85
+              ],
+              [
+                530105.9,
+                170328.6
+              ],
+              [
+                530102.7,
+                170332.2
+              ],
+              [
+                530068,
+                170301.7
+              ],
+              [
+                530075.55,
+                170293.2
+              ],
+              [
+                530081,
+                170298
+              ],
+              [
+                530086.2,
+                170302.6
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ]
   },
@@ -236,12 +262,12 @@
   "appeal_status": null,
   "status": "Superseded",
   "date_building_work_started_under_previous_permission": null,
-  "application_type_full": null,
-  "last_updated_by": "Portal",
+  "application_type_full": "Full planning permission",
+  "last_updated_by": "Planning Portal ingest",
   "actual_completion_date": null,
-  "street_name": "Tankerville Road",
+  "street_name": " Tankerville Road ",
   "secondary_street_name": null,
-  "description": "Conversion of the dwelling into two residential units.",
+  "description": "Conversion of existing dwelling into two self contained residential units",
   "id": "Lambeth-23_03748_FUL",
   "url_planning_app": null
 }

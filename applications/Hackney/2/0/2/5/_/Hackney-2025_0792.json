@@ -5,10 +5,10 @@
   "decision_process": "Delegated",
   "appeal_start_date": null,
   "lapsed_date": "09/07/2028",
-  "uprn": "10008287424",
-  "locality": "HACKNEY",
+  "uprn": 10008287424,
+  "locality": "London",
   "appeal_decision_date": null,
-  "centroid_easting": 533227,
+  "centroid_easting": 533221,
   "application_details": {
     "phasing_details": [
       {
@@ -32,7 +32,8 @@
       "no_new_gas_connections_required": 0,
       "total_annual_nox_emissions": 1,
       "ghg_reduction_over_building_regulations": false,
-      "fire_suppression_system_proposed": false
+      "fire_suppression_system_proposed": false,
+      "urban_greening_factor_score": 0
     },
     "constraints_details": [
       {
@@ -608,7 +609,7 @@
     "grey_water_reuse": false,
     "total_gia_lost": 0,
     "surface_water_discharge_percentage_reduction": 0,
-    "site_area": 250,
+    "site_area": 0.025,
     "ownership_status": "Private",
     "non_residential_details": {
       "total_gia_existing": 279,
@@ -621,15 +622,16 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 279,
-        "use_class": "EG1",
         "gia_gained": 0,
+        "use_class": "EG1",
         "gia_lost": 0
       }
     ],
-    "rain_water_harvesting": false
+    "rain_water_harvesting": false,
+    "occupation_status": "Occupied"
   },
   "date_building_work_completed_under_previous_permission": null,
-  "site_name": null,
+  "site_name": "55-59",
   "borough": "Hackney",
   "status": "Approved",
   "epc_number": null,
@@ -638,52 +640,114 @@
     "coordinates": [
       [
         [
-          -0.081072,
-          51.526407
-        ],
-        [
-          -0.080811,
-          51.52641
-        ],
-        [
-          -0.080778,
-          51.526148
-        ],
-        [
-          -0.080849,
-          51.526142
-        ],
-        [
-          -0.080866,
-          51.526204
-        ],
-        [
-          -0.080897,
-          51.526251
-        ],
-        [
-          -0.081048,
-          51.526252
-        ],
-        [
-          -0.081072,
-          51.526407
+          [
+            -0.081048,
+            51.526252
+          ],
+          [
+            -0.081034,
+            51.526241
+          ],
+          [
+            -0.080977,
+            51.526204
+          ],
+          [
+            -0.080981,
+            51.526218
+          ],
+          [
+            -0.080973,
+            51.526224
+          ],
+          [
+            -0.080951,
+            51.526226
+          ],
+          [
+            -0.080944,
+            51.52622
+          ],
+          [
+            -0.080938,
+            51.526197
+          ],
+          [
+            -0.080914,
+            51.5262
+          ],
+          [
+            -0.080898,
+            51.526136
+          ],
+          [
+            -0.080848,
+            51.526141
+          ],
+          [
+            -0.080777,
+            51.526148
+          ],
+          [
+            -0.080793,
+            51.526206
+          ],
+          [
+            -0.080796,
+            51.526231
+          ],
+          [
+            -0.080797,
+            51.52628
+          ],
+          [
+            -0.080802,
+            51.526345
+          ],
+          [
+            -0.080808,
+            51.526398
+          ],
+          [
+            -0.08081,
+            51.52641
+          ],
+          [
+            -0.080948,
+            51.526408
+          ],
+          [
+            -0.081074,
+            51.526406
+          ],
+          [
+            -0.081073,
+            51.526388
+          ],
+          [
+            -0.08107,
+            51.526353
+          ],
+          [
+            -0.081048,
+            51.526252
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "cil_liability": null,
   "title_number": null,
   "application_type": "All Other",
-  "street_name": "RIVINGTON STREET",
+  "street_name": "Rivington Street",
   "actual_commencement_date": null,
   "parking_details": null,
   "decision_target_date": "09/07/2025",
   "lpa_name": "Hackney",
   "secondary_street_name": null,
   "decision_date": "09/07/2025",
-  "last_updated": "2026-04-15T11:27:47.060Z",
+  "last_updated": "2026-06-27T18:46:14.821Z",
   "url_planning_app": "https://developmentandhousing.hackney.gov.uk//planning/index.html?fa=getApplication&id=82528",
   "ward": "Hoxton East and Shoreditch Ward",
   "valid_date": "14/05/2025",
@@ -691,14 +755,14 @@
   "development_type": "Minor all other minor developments",
   "appeal_decision": null,
   "postcode": "EC2A 3QB",
-  "centroid_northing": 182567,
-  "description": "Replacement of stairwell glazed panel with solid insulated wall",
+  "centroid_northing": 182551,
+  "description": "REPLACEMENT OF STAIRWELL GLAZED PANEL WITH SOLID INSULATED WALL",
   "subdivision_of_building": "FIRST FLOOR ENCLOSED STAIRWELL",
   "actual_completion_date": null,
   "lpa_app_no": "2025/0792",
   "decision": "Approved",
   "application_type_full": "Full planning permission",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_status": null,
   "id": "Hackney-2025_0792",
   "decision_conditions": [
@@ -713,82 +777,105 @@
         "coordinates": [
           [
             [
-              533216.041923674,
-              182577.755367978
-            ],
-            [
-              533234.135252387,
-              182578.564324167
-            ],
-            [
-              533237.129578575,
-              182549.3907248
-            ],
-            [
-              533232.271197232,
-              182548.634744258
-            ],
-            [
-              533230.921962424,
-              182555.48869164
-            ],
-            [
-              533228.624193742,
-              182560.657712255
-            ],
-            [
-              533218.148965165,
-              182560.529860777
-            ],
-            [
-              533216.041923674,
-              182577.755367978
+              [
+                533218.1,
+                182560.5
+              ],
+              [
+                533219.1,
+                182559.35
+              ],
+              [
+                533223.2,
+                182555.3
+              ],
+              [
+                533222.9,
+                182556.9
+              ],
+              [
+                533223.4,
+                182557.5
+              ],
+              [
+                533224.9,
+                182557.85
+              ],
+              [
+                533225.4,
+                182557.2
+              ],
+              [
+                533225.9,
+                182554.55
+              ],
+              [
+                533227.6,
+                182554.95
+              ],
+              [
+                533228.9,
+                182547.85
+              ],
+              [
+                533232.3,
+                182548.5
+              ],
+              [
+                533237.25,
+                182549.5
+              ],
+              [
+                533235.95,
+                182555.9
+              ],
+              [
+                533235.7,
+                182558.65
+              ],
+              [
+                533235.45,
+                182564.05
+              ],
+              [
+                533234.9,
+                182571.35
+              ],
+              [
+                533234.35,
+                182577.2
+              ],
+              [
+                533234.2,
+                182578.55
+              ],
+              [
+                533224.6,
+                182578.05
+              ],
+              [
+                533215.85,
+                182577.6
+              ],
+              [
+                533216,
+                182575.6
+              ],
+              [
+                533216.3,
+                182571.75
+              ],
+              [
+                533218.1,
+                182560.5
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
-      },
-      {
-        "coordinates": [
-          [
-            [
-              533216.041923674,
-              182577.755367978
-            ],
-            [
-              533234.135252387,
-              182578.564324167
-            ],
-            [
-              533237.129578575,
-              182549.3907248
-            ],
-            [
-              533232.271197232,
-              182548.634744258
-            ],
-            [
-              533230.921962424,
-              182555.48869164
-            ],
-            [
-              533228.624193742,
-              182560.657712255
-            ],
-            [
-              533218.148965165,
-              182560.529860777
-            ],
-            [
-              533216.041923674,
-              182577.755367978
-            ]
-          ]
-        ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "crs": {
       "type": "name",
       "properties": {
@@ -797,7 +884,7 @@
     }
   },
   "centroid": {
-    "lat": 51.526308,
-    "lon": -0.080918
+    "lat": 51.526166,
+    "lon": -0.08101
   }
 }

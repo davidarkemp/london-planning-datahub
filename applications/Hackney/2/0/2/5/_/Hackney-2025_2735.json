@@ -1,16 +1,21 @@
 {
   "decision_target_date": "05/02/2026",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Certificates of Lawful Development",
   "postcode": "N16 5PP",
-  "title_number": null,
-  "application_details": {},
+  "title_number": [
+    "unregistered"
+  ],
+  "application_details": {
+    "no_additional_bathrooms": 0,
+    "no_additional_bedrooms": 0
+  },
   "decision_date": "05/02/2026",
   "url_planning_app": "https://developmentandhousing.hackney.gov.uk//planning/index.html?fa=getApplication&id=84230",
   "borough": "Hackney",
-  "locality": "HACKNEY",
+  "locality": "London",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
   "parking_details": null,
@@ -19,14 +24,14 @@
   "pp_id": "14558416",
   "subdivision_of_building": null,
   "status": "Approved",
-  "description": "Certificate of Lawful Use (Existing) to confirm planning permission is extent by way of works having begun under application 2021/2675",
+  "description": "56 Dunsmure Road - extant scheme",
   "decision_conditions": null,
-  "site_number": "56",
-  "last_updated": "2026-04-15T11:28:40.833Z",
+  "site_number": 56,
+  "last_updated": "2026-06-27T19:06:54.630Z",
   "last_date_consultation_comments": null,
   "valid_date": "11/12/2025",
   "actual_commencement_date": null,
-  "centroid_northing": 187517,
+  "centroid_northing": 187513,
   "appeal_decision": null,
   "decision_agency": "Borough",
   "lpa_app_no": "2025/2735",
@@ -34,61 +39,68 @@
   "decision": "Approved",
   "id": "Hackney-2025_2735",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
-              533392.38817924,
-              187533.186247774
-            ],
-            [
-              533388.822965683,
-              187499.518059936
-            ],
-            [
-              533394.436334308,
-              187499.665706388
-            ],
-            [
-              533399.384241012,
-              187532.744057389
-            ],
-            [
-              533392.38817924,
-              187533.186247774
+              [
+                533395.9,
+                187503.75
+              ],
+              [
+                533397.45,
+                187516.3
+              ],
+              [
+                533397.7,
+                187518.5
+              ],
+              [
+                533397.859,
+                187519.85
+              ],
+              [
+                533399.35,
+                187532.65
+              ],
+              [
+                533392.95,
+                187533.3
+              ],
+              [
+                533391.05,
+                187515.8
+              ],
+              [
+                533390.65,
+                187512.3
+              ],
+              [
+                533389.8,
+                187504.5
+              ],
+              [
+                533389.35,
+                187500
+              ],
+              [
+                533395.45,
+                187499.4
+              ],
+              [
+                533395.45,
+                187500
+              ],
+              [
+                533395.9,
+                187503.75
+              ]
             ]
           ]
-        ]
-      },
-      {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              533392.38817924,
-              187533.186247774
-            ],
-            [
-              533388.822965683,
-              187499.518059936
-            ],
-            [
-              533394.436334308,
-              187499.665706388
-            ],
-            [
-              533399.384241012,
-              187532.744057389
-            ],
-            [
-              533392.38817924,
-              187533.186247774
-            ]
-          ]
-        ]
+        ],
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -101,46 +113,80 @@
   "appeal_start_date": null,
   "decision_process": "Delegated",
   "ward": "Stamford Hill West Ward",
-  "street_name": "DUNSMURE ROAD",
+  "street_name": "Dunsmure Road",
   "secondary_street_name": null,
   "lpa_name": "Hackney",
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": null,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.076654,
-          51.570897
-        ],
-        [
-          -0.076718,
-          51.570595
-        ],
-        [
-          -0.076637,
-          51.570595
-        ],
-        [
-          -0.076553,
-          51.570891
-        ],
-        [
-          -0.076654,
-          51.570897
+          [
+            -0.076614,
+            51.570632
+          ],
+          [
+            -0.076587,
+            51.570744
+          ],
+          [
+            -0.076583,
+            51.570764
+          ],
+          [
+            -0.07658,
+            51.570776
+          ],
+          [
+            -0.076554,
+            51.57089
+          ],
+          [
+            -0.076646,
+            51.570898
+          ],
+          [
+            -0.07668,
+            51.570741
+          ],
+          [
+            -0.076687,
+            51.57071
+          ],
+          [
+            -0.076702,
+            51.57064
+          ],
+          [
+            -0.07671,
+            51.570599
+          ],
+          [
+            -0.076622,
+            51.570593
+          ],
+          [
+            -0.076622,
+            51.570598
+          ],
+          [
+            -0.076614,
+            51.570632
+          ]
         ]
       ]
     ]
   },
-  "uprn": "100021037906",
+  "uprn": 100021037906,
   "application_type": "All Other",
   "centroid": {
-    "lat": 51.570751,
-    "lon": -0.076637
+    "lat": 51.570715,
+    "lon": -0.076624
   },
   "lapsed_date": "05/02/2029",
-  "application_type_full": null,
-  "centroid_easting": 533394,
+  "application_type_full": "Lawful development: Proposed use",
+  "centroid_easting": 533395,
   "actual_completion_date": null
 }

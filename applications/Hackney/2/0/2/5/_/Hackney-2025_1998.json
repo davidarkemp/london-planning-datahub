@@ -1,6 +1,6 @@
 {
   "decision_target_date": "05/11/2025",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Minor dwellings",
@@ -10,12 +10,65 @@
     "site_area": 0.02,
     "other_residential_accommodation_details": {
       "site_area": 0.02
-    }
+    },
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "entire development",
+        "intended_completion_date": "12/2025",
+        "intended_commencement_date": "11/2025"
+      }
+    ],
+    "total_gia_gained": 0,
+    "total_gia_lost": 0,
+    "total_gia_existing": 161,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 161,
+        "gia_gained": 0,
+        "use_class": "C3",
+        "gia_lost": 0
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied",
+    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "surface_water_discharge_percentage_reduction": 0,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 0,
+      "total_gia_lost": 0,
+      "total_gia_existing": 161
+    },
+    "garden_land_lost": false,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 0,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 0,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "internal_resi_water_usage": 0,
+    "ownership_status": "Private"
   },
   "decision_date": "13/11/2025",
   "url_planning_app": "https://developmentandhousing.hackney.gov.uk//planning/index.html?fa=getApplication&id=83601",
   "borough": "Hackney",
-  "locality": "HACKNEY",
+  "locality": "London",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
   "parking_details": null,
@@ -24,13 +77,13 @@
   "pp_id": "14313608",
   "subdivision_of_building": null,
   "status": "Approved",
-  "description": "Like-for-like window and door replacements and alterations to window opening at ground floor",
+  "description": "Proposed removal of the existing single glazed timber windows and door and replaced with new double glazed timber windows and doors to match the design of the existing. kitchen window cill height is to be raised accordingly to allow for minimum 150mm high internal splash back to the kitchen base units.",
   "decision_conditions": [
     "<p>The Development hereby permitted shall only be carried out and completed strictly in accordance with the submitted plans hereby approved and any subsequent approval of details.\r\n</p><p><br></p><p>\r\nREASON: To ensure that the development hereby permitted is carried out in full accordance with the plans hereby approved.\r\n</p>",
     "<p>The development hereby permitted must be begun not later than the expiration of three years beginning with the date of this permission.</p><p><br></p><p>\r\n</p><p>\r\nREASON: In order to comply with the provisions of the Town and Country Planning Act 1990 (as amended).</p><p>\r\n</p>"
   ],
-  "site_number": "59",
-  "last_updated": "2026-04-15T11:36:58.300Z",
+  "site_number": 59,
+  "last_updated": "2026-06-27T20:20:31.611Z",
   "last_date_consultation_comments": "27/10/2025",
   "valid_date": "10/09/2025",
   "actual_commencement_date": null,
@@ -42,141 +95,44 @@
   "decision": "Approved",
   "id": "Hackney-2025_1998",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
-              535740.148404468,
-              184520.554617666
-            ],
-            [
-              535751.848146046,
-              184509.407808674
-            ],
-            [
-              535754.148518203,
-              184506.458652723
-            ],
-            [
-              535756.7539577,
-              184500.000501084
-            ],
-            [
-              535757.199190621,
-              184498.700873625
-            ],
-            [
-              535758.402969912,
-              184495.351831764
-            ],
-            [
-              535763.803484788,
-              184497.701159687
-            ],
-            [
-              535762.904773088,
-              184500.000501428
-            ],
-            [
-              535762.500765284,
-              184500.900244108
-            ],
-            [
-              535757.850550465,
-              184512.007064702
-            ],
-            [
-              535757.149720562,
-              184513.6565923
-            ],
-            [
-              535748.904659545,
-              184521.80426001
-            ],
-            [
-              535747.453528833,
-              184523.253844936
-            ],
-            [
-              535746.299220045,
-              184524.403516217
-            ],
-            [
-              535740.148404468,
-              184520.554617666
+              [
+                535758.4,
+                184495.35
+              ],
+              [
+                535763.8,
+                184497.7
+              ],
+              [
+                535757.15,
+                184513.65
+              ],
+              [
+                535746.3,
+                184524.4
+              ],
+              [
+                535740.15,
+                184520.55
+              ],
+              [
+                535754.15,
+                184506.45
+              ],
+              [
+                535758.4,
+                184495.35
+              ]
             ]
           ]
-        ]
-      },
-      {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              535740.148404468,
-              184520.554617666
-            ],
-            [
-              535751.848146046,
-              184509.407808674
-            ],
-            [
-              535754.148518203,
-              184506.458652723
-            ],
-            [
-              535756.7539577,
-              184500.000501084
-            ],
-            [
-              535757.199190621,
-              184498.700873625
-            ],
-            [
-              535758.402969912,
-              184495.351831764
-            ],
-            [
-              535763.803484788,
-              184497.701159687
-            ],
-            [
-              535762.904773088,
-              184500.000501428
-            ],
-            [
-              535762.500765284,
-              184500.900244108
-            ],
-            [
-              535757.850550465,
-              184512.007064702
-            ],
-            [
-              535757.149720562,
-              184513.6565923
-            ],
-            [
-              535748.904659545,
-              184521.80426001
-            ],
-            [
-              535747.453528833,
-              184523.253844936
-            ],
-            [
-              535746.299220045,
-              184524.403516217
-            ],
-            [
-              535740.148404468,
-              184520.554617666
-            ]
-          ]
-        ]
+        ],
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -189,86 +145,56 @@
   "appeal_start_date": null,
   "decision_process": "Delegated",
   "ward": "Hackney Wick Ward",
-  "street_name": "CASSLAND ROAD",
+  "street_name": "Cassland Road",
   "secondary_street_name": null,
   "lpa_name": "Hackney",
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": null,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.043961,
-          51.543265
-        ],
-        [
-          -0.043796,
-          51.543162
-        ],
-        [
-          -0.043764,
-          51.543135
-        ],
-        [
-          -0.043729,
-          51.543076
-        ],
-        [
-          -0.043723,
-          51.543065
-        ],
-        [
-          -0.043707,
-          51.543034
-        ],
-        [
-          -0.043628,
-          51.543054
-        ],
-        [
-          -0.043641,
-          51.543075
-        ],
-        [
-          -0.043646,
-          51.543083
-        ],
-        [
-          -0.043709,
-          51.543184
-        ],
-        [
-          -0.043718,
-          51.543199
-        ],
-        [
-          -0.043834,
-          51.543274
-        ],
-        [
-          -0.043854,
-          51.543288
-        ],
-        [
-          -0.04387,
-          51.543298
-        ],
-        [
-          -0.043961,
-          51.543265
+          [
+            -0.043707,
+            51.543034
+          ],
+          [
+            -0.043629,
+            51.543054
+          ],
+          [
+            -0.043718,
+            51.543199
+          ],
+          [
+            -0.04387,
+            51.543298
+          ],
+          [
+            -0.043961,
+            51.543265
+          ],
+          [
+            -0.043764,
+            51.543135
+          ],
+          [
+            -0.043707,
+            51.543034
+          ]
         ]
       ]
     ]
   },
-  "uprn": "100021029974",
+  "uprn": 100021029974,
   "application_type": "All Other",
   "centroid": {
     "lat": 51.543139,
     "lon": -0.043723
   },
   "lapsed_date": "13/11/2028",
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "centroid_easting": 535757,
   "actual_completion_date": null
 }

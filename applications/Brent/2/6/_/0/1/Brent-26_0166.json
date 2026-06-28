@@ -6,17 +6,17 @@
   "appeal_decision": null,
   "lapsed_date": null,
   "appeal_decision_date": null,
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Planning Portal ingest",
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": "0171-3802-7665-2490-1271",
-  "last_updated": "2026-05-08T08:04:55.125Z",
+  "last_updated": "2026-06-27T22:30:11.639Z",
   "url_planning_app": "https://pa.brent.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR_176269&activeTab=summary",
-  "street_name": null,
+  "street_name": "Craven Park Road",
   "parking_details": null,
   "ward": "Harlesden & Kensal Green",
   "bo_system": "CSV Data Import",
   "site_name": "86B Craven Park Road, London, NW10 4AE",
-  "site_number": null,
+  "site_number": 86,
   "application_details": {
     "site_area": 0.0201,
     "total_gia_existing": 96,
@@ -25,8 +25,8 @@
     "phasing_details": [
       {
         "phase_detail": "All",
-        "intended_commencement_date": "03/2026",
-        "intended_completion_date": "05/2026"
+        "intended_completion_date": "05/2026",
+        "intended_commencement_date": "03/2026"
       }
     ],
     "garden_land_lost": false,
@@ -34,8 +34,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 96,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 9
       }
     ],
@@ -55,7 +55,8 @@
       "mobile_network_operators_consultation": false,
       "ghg_reduction_over_building_regulations": true,
       "fire_suppression_system_proposed": false,
-      "total_annual_nox_emissions": 0
+      "total_annual_nox_emissions": 0,
+      "urban_greening_factor_score": 0
     },
     "rain_water_harvesting": false,
     "projected_cost_of_works": "Up to £2m",
@@ -101,30 +102,46 @@
       "total_no_proposed_residential_units_affordable_rent": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 4,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
+          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 96
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 37
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 50
         }
@@ -140,39 +157,173 @@
     "affordable_housing_fast_track": false,
     "grey_water_reuse": false,
     "total_gia_lost": 9,
-    "surface_water_discharge_percentage_reduction": 0
+    "surface_water_discharge_percentage_reduction": 0,
+    "occupation_status": "Occupied"
   },
-  "uprn": "202110753",
-  "locality": null,
+  "uprn": 202229981,
+  "locality": "London",
   "date_building_work_started_under_previous_permission": null,
-  "postcode": null,
+  "postcode": "NW10 4AE",
   "valid_date": "10/04/2026",
   "cil_liability": true,
   "actual_completion_date": null,
   "centroid": {
-    "lat": 51.539502,
-    "lon": -0.251921
+    "lat": 51.539609,
+    "lon": -0.251874
   },
-  "centroid_easting": 521330,
+  "centroid_easting": 521333,
   "application_type_full": "Full planning permission",
   "pp_id": "PP-14578731",
   "lpa_app_no": "26/0166",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                521329.05,
+                183745.05
+              ],
+              [
+                521324.3,
+                183734.65
+              ],
+              [
+                521323.85,
+                183734.5
+              ],
+              [
+                521325.1,
+                183731.45
+              ],
+              [
+                521325.85,
+                183731.65
+              ],
+              [
+                521330.85,
+                183729.5
+              ],
+              [
+                521334.5,
+                183737.55
+              ],
+              [
+                521335.5,
+                183739.7
+              ],
+              [
+                521341,
+                183751.6
+              ],
+              [
+                521335.6,
+                183753.9
+              ],
+              [
+                521333.2,
+                183755.05
+              ],
+              [
+                521332.3,
+                183753.15
+              ],
+              [
+                521328.75,
+                183745.15
+              ],
+              [
+                521329.05,
+                183745.05
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "id": "Brent-26_0166",
   "appeal_status": null,
   "appeal_start_date": null,
-  "description": "Proposed conversion of second and third floor maisonette into 2x seperate self contained flats and replacement of third-floor rear door with aluminium powder-coated glazed door",
+  "description": "Conversion of 3-bedroom maisonette to 2no. 1-bedroom flats",
   "development_type": "Other change of use",
   "decision_conditions": null,
   "secondary_street_name": null,
   "title_number": null,
   "last_date_consultation_comments": "29/05/2026",
   "decision_process": null,
-  "centroid_northing": 183737,
+  "centroid_northing": 183749,
   "borough": "Brent",
   "decision": null,
   "application_type": "All Other",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          [
+            -0.251932,
+            51.539575
+          ],
+          [
+            -0.252004,
+            51.539482
+          ],
+          [
+            -0.25201,
+            51.539481
+          ],
+          [
+            -0.251993,
+            51.539453
+          ],
+          [
+            -0.251983,
+            51.539455
+          ],
+          [
+            -0.251911,
+            51.539435
+          ],
+          [
+            -0.251856,
+            51.539506
+          ],
+          [
+            -0.251841,
+            51.539525
+          ],
+          [
+            -0.251757,
+            51.539631
+          ],
+          [
+            -0.251834,
+            51.539653
+          ],
+          [
+            -0.251869,
+            51.539664
+          ],
+          [
+            -0.251882,
+            51.539647
+          ],
+          [
+            -0.251936,
+            51.539576
+          ],
+          [
+            -0.251932,
+            51.539575
+          ]
+        ]
+      ]
+    ],
+    "type": "MultiPolygon"
+  },
   "decision_agency": null,
   "decision_target_date": "29/05/2026",
   "status": "Application Under Consideration",

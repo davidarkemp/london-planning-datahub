@@ -2,104 +2,124 @@
   "decision": "Refused",
   "last_date_consultation_comments": "04/04/2026",
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.151445,
-          51.47568
-        ],
-        [
-          -0.151481,
-          51.475722
-        ],
-        [
-          -0.151427,
-          51.475739
-        ],
-        [
-          -0.151231,
-          51.475804
-        ],
-        [
-          -0.151199,
-          51.475814
-        ],
-        [
-          -0.151161,
-          51.475771
-        ],
-        [
-          -0.151194,
-          51.47576
-        ],
-        [
-          -0.151293,
-          51.475729
-        ],
-        [
-          -0.151445,
-          51.47568
-        ],
-        [
-          -0.151445,
-          51.47568
+          [
+            -0.151231,
+            51.475804
+          ],
+          [
+            -0.151413,
+            51.475744
+          ],
+          [
+            -0.151427,
+            51.475739
+          ],
+          [
+            -0.151481,
+            51.475722
+          ],
+          [
+            -0.151445,
+            51.47568
+          ],
+          [
+            -0.151377,
+            51.475702
+          ],
+          [
+            -0.151354,
+            51.475709
+          ],
+          [
+            -0.151293,
+            51.475729
+          ],
+          [
+            -0.151194,
+            51.47576
+          ],
+          [
+            -0.151161,
+            51.475771
+          ],
+          [
+            -0.151199,
+            51.475815
+          ],
+          [
+            -0.151231,
+            51.475804
+          ]
         ]
       ]
     ]
   },
   "date_building_work_started_under_previous_permission": null,
   "ward": "Battersea Park",
-  "site_number": "5",
+  "site_number": 5,
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              528476.9500127472,
-              176811.00032895326
-            ],
-            [
-              528474.3400127456,
-              176815.60032895458
-            ],
-            [
-              528478.0500127482,
-              176817.6503289551
-            ],
-            [
-              528491.4900127577,
-              176825.14032895677
-            ],
-            [
-              528493.7000127592,
-              176826.39032895747
-            ],
-            [
-              528496.430012761,
-              176821.61032895563
-            ],
-            [
-              528494.2000127594,
-              176820.3903289553
-            ],
-            [
-              528487.4000127547,
-              176816.70032895543
-            ],
-            [
-              528476.9500127472,
-              176811.00032895326
-            ],
-            [
-              528476.9500127472,
-              176811.00032895326
+              [
+                528491.5,
+                176825.15
+              ],
+              [
+                528478.976,
+                176818.166
+              ],
+              [
+                528478.05,
+                176817.65
+              ],
+              [
+                528474.35,
+                176815.6
+              ],
+              [
+                528476.95,
+                176811
+              ],
+              [
+                528481.649,
+                176813.563
+              ],
+              [
+                528483.194,
+                176814.406
+              ],
+              [
+                528487.4,
+                176816.7
+              ],
+              [
+                528494.2,
+                176820.4
+              ],
+              [
+                528496.44,
+                176821.62
+              ],
+              [
+                528493.7,
+                176826.4
+              ],
+              [
+                528491.5,
+                176825.15
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ]
   },
@@ -119,7 +139,7 @@
   "url_planning_app": "http://planning.wandsworth.gov.uk/Northgate/PlanningExplorer/DisplayAppDetails.aspx?AppNo=2026/0377",
   "application_details": {
     "surface_water_discharge_percentage_reduction": 0,
-    "site_area": 0.01161,
+    "site_area": 0.011609999999999999,
     "projected_cost_of_works": "Up to £2m",
     "garden_land_lost": false,
     "scheme_phasing": true,
@@ -137,7 +157,8 @@
       "no_new_water_connections_required": 0,
       "no_new_gas_connections_required": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
-      "mobile_network_operators_consultation": false
+      "mobile_network_operators_consultation": false,
+      "urban_greening_factor_score": 0
     },
     "internal_resi_water_usage": 105,
     "ownership_status": "Private",
@@ -151,8 +172,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 111,
-        "use_class": "C3",
         "gia_gained": 117.67,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -183,31 +204,45 @@
       "total_no_proposed_residential_units_social_rent": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 4,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 36.87
         },
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 8,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
+          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 74.13
         },
         {
-          "provider": "Private",
-          "no_habitable_rooms": 12,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Terraced Home",
+          "no_habitable_rooms": 12,
+          "provider": "Private",
           "no_bedrooms": 5,
+          "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 117.67
         }
@@ -240,7 +275,8 @@
       "total_no_existing_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_starter_homes": 0
     },
-    "rain_water_harvesting": false
+    "rain_water_harvesting": false,
+    "occupation_status": "Occupied"
   },
   "development_type": "Minor dwellings",
   "centroid_easting": 528484,
@@ -250,7 +286,7 @@
   "lpa_app_no": "2026/0377",
   "decision_process": null,
   "lapsed_date": "20/04/2029",
-  "uprn": "100023301920",
+  "uprn": 100023301920,
   "bo_system": "Northgate M3",
   "cil_liability": false,
   "street_name": "Cupar Road",
@@ -264,17 +300,17 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": 176819,
-  "last_updated": "2026-04-20T10:30:01.390Z",
+  "last_updated": "2026-06-27T22:06:21.204Z",
   "centroid": {
     "lon": -0.151341,
     "lat": 51.47575
   },
   "subdivision_of_building": null,
-  "last_updated_by": "Northgate M3",
+  "last_updated_by": "Planning Portal ingest",
   "title_number": null,
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "id": "Wandsworth-2026_0377",
   "parking_details": null,
-  "description": "Conversion of two flats into single dwelling house including installation of french door to rear ground floor elevation and removal of window to side elevation. "
+  "description": "Deconversion of two flats into one dwelling house, blocking up of the rear garden side elevation door and installation of a larger french door set to the rear elevation."
 }

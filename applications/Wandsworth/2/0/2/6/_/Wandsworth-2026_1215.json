@@ -1,12 +1,67 @@
 {
   "decision_target_date": "08/06/2026",
-  "last_updated_by": "Northgate M3",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Minor dwellings",
   "postcode": "SW12 8AZ",
   "title_number": null,
-  "application_details": {},
+  "application_details": {
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "All",
+        "intended_completion_date": "06/2026",
+        "intended_commencement_date": "04/2026"
+      }
+    ],
+    "total_gia_gained": 0,
+    "site_area": 0.01,
+    "total_gia_lost": 0,
+    "total_gia_existing": 75,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 75,
+        "gia_gained": 0,
+        "use_class": "C3",
+        "gia_lost": 0
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied",
+    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "surface_water_discharge_percentage_reduction": 0,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 0,
+      "total_gia_lost": 0,
+      "total_gia_existing": 75
+    },
+    "garden_land_lost": false,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 0,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": false,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 0,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "internal_resi_water_usage": 0,
+    "ownership_status": "Private"
+  },
   "decision_date": null,
   "url_planning_app": "http://planning.wandsworth.gov.uk/Northgate/PlanningExplorer/DisplayAppDetails.aspx?AppNo=2026/1215",
   "borough": "Wandsworth",
@@ -14,15 +69,15 @@
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Northgate M3",
   "parking_details": null,
-  "site_name": "Flat C",
+  "site_name": "17 Flat C",
   "epc_number": null,
   "pp_id": "14776223",
-  "subdivision_of_building": null,
+  "subdivision_of_building": "Flat 17C",
   "status": "Application Received",
-  "description": "Erection of roof terrace with 1.1m high balustrade at first floor level.",
+  "description": "New roof terrace",
   "decision_conditions": null,
   "site_number": null,
-  "last_updated": "2026-04-23T08:00:06.970Z",
+  "last_updated": "2026-06-27T22:06:16.069Z",
   "last_date_consultation_comments": "14/05/2026",
   "valid_date": "13/04/2026",
   "actual_commencement_date": null,
@@ -34,62 +89,72 @@
   "decision": null,
   "id": "Wandsworth-2026_1215",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              528509.600012714,
-              173593.85032802
-            ],
-            [
-              528511.6500127155,
-              173588.60032801918
-            ],
-            [
-              528507.3000127125,
-              173586.8003280192
-            ],
-            [
-              528498.5000127063,
-              173583.10032801848
-            ],
-            [
-              528488.8500126995,
-              173579.2003280169
-            ],
-            [
-              528482.0500126949,
-              173576.60032801592
-            ],
-            [
-              528481.7500126946,
-              173577.50032801577
-            ],
-            [
-              528480.3000126937,
-              173581.85032801772
-            ],
-            [
-              528496.3500127048,
-              173588.35032801935
-            ],
-            [
-              528505.3000127112,
-              173592.00032801979
-            ],
-            [
-              528509.600012714,
-              173593.85032802
-            ],
-            [
-              528509.600012714,
-              173593.85032802
+              [
+                528498.5,
+                173583.1
+              ],
+              [
+                528500,
+                173583.8
+              ],
+              [
+                528507.3,
+                173586.8
+              ],
+              [
+                528511.65,
+                173588.6
+              ],
+              [
+                528509.6,
+                173593.85
+              ],
+              [
+                528505.3,
+                173592
+              ],
+              [
+                528500,
+                173589.8
+              ],
+              [
+                528496.35,
+                173588.35
+              ],
+              [
+                528480.3,
+                173581.85
+              ],
+              [
+                528481.75,
+                173577.5
+              ],
+              [
+                528482.05,
+                173576.6
+              ],
+              [
+                528488.837,
+                173579.237
+              ],
+              [
+                528490.498,
+                173579.882
+              ],
+              [
+                528498.5,
+                173583.1
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ]
   },
@@ -102,68 +167,78 @@
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": false,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.152144,
-          51.44676
-        ],
-        [
-          -0.152116,
-          51.446713
-        ],
-        [
-          -0.152179,
-          51.446698
-        ],
-        [
-          -0.152307,
-          51.446666
-        ],
-        [
-          -0.152447,
-          51.446634
-        ],
-        [
-          -0.152546,
-          51.446612
-        ],
-        [
-          -0.15255,
-          51.44662
-        ],
-        [
-          -0.152569,
-          51.446659
-        ],
-        [
-          -0.152336,
-          51.446714
-        ],
-        [
-          -0.152206,
-          51.446745
-        ],
-        [
-          -0.152144,
-          51.44676
-        ],
-        [
-          -0.152144,
-          51.44676
+          [
+            -0.152307,
+            51.446666
+          ],
+          [
+            -0.152285,
+            51.446672
+          ],
+          [
+            -0.152179,
+            51.446698
+          ],
+          [
+            -0.152116,
+            51.446713
+          ],
+          [
+            -0.152144,
+            51.44676
+          ],
+          [
+            -0.152206,
+            51.446745
+          ],
+          [
+            -0.152283,
+            51.446726
+          ],
+          [
+            -0.152336,
+            51.446714
+          ],
+          [
+            -0.152569,
+            51.446659
+          ],
+          [
+            -0.15255,
+            51.44662
+          ],
+          [
+            -0.152546,
+            51.446612
+          ],
+          [
+            -0.152447,
+            51.446634
+          ],
+          [
+            -0.152423,
+            51.446639
+          ],
+          [
+            -0.152307,
+            51.446666
+          ]
         ]
       ]
     ]
   },
-  "uprn": "121052433",
+  "uprn": 121052433,
   "application_type": "All Other",
   "centroid": {
-    "lat": 51.446701,
-    "lon": -0.152255
+    "lat": 51.4467,
+    "lon": -0.152241
   },
   "lapsed_date": null,
-  "application_type_full": null,
-  "centroid_easting": 528502,
+  "application_type_full": "Full planning permission",
+  "centroid_easting": 528503,
   "actual_completion_date": null
 }

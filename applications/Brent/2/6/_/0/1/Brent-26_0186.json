@@ -6,12 +6,12 @@
   "appeal_decision": null,
   "lapsed_date": "01/05/2029",
   "appeal_decision_date": null,
-  "last_updated_by": "CSV Data Import",
-  "reference_no_of_permission_being_relied_on": null,
+  "last_updated_by": "Planning Portal ingest",
+  "reference_no_of_permission_being_relied_on": "21/1583",
   "epc_number": null,
-  "last_updated": "2026-05-02T08:01:12.311Z",
+  "last_updated": "2026-06-27T22:29:04.333Z",
   "url_planning_app": "https://pa.brent.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR_176291&activeTab=summary",
-  "street_name": null,
+  "street_name": "Ealing Road",
   "parking_details": {
     "no_proposed_car": 0,
     "no_existing_cycle": 0,
@@ -23,7 +23,7 @@
   "ward": "Wembley Central",
   "bo_system": "CSV Data Import",
   "site_name": "26 Ealing Road, Wembley, HA0 4TL",
-  "site_number": null,
+  "site_number": 26,
   "application_details": {
     "site_area": 0.0128,
     "total_gia_existing": 352,
@@ -32,8 +32,8 @@
     "phasing_details": [
       {
         "phase_detail": "Phase 2",
-        "intended_commencement_date": "10/2023",
-        "intended_completion_date": "08/2026"
+        "intended_completion_date": "08/2026",
+        "intended_commencement_date": "10/2023"
       }
     ],
     "superseding_details": [
@@ -49,14 +49,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 200,
-        "use_class": "EA",
         "gia_gained": 0,
+        "use_class": "EA",
         "gia_lost": 0
       },
       {
         "gia_existing": 152,
-        "use_class": "C2",
         "gia_gained": 52,
+        "use_class": "C2",
         "gia_lost": 0
       }
     ],
@@ -76,7 +76,8 @@
       "mobile_network_operators_consultation": true,
       "ghg_reduction_over_building_regulations": true,
       "fire_suppression_system_proposed": false,
-      "total_annual_nox_emissions": 0.30000000000000004
+      "total_annual_nox_emissions": 0.3,
+      "urban_greening_factor_score": 0
     },
     "rain_water_harvesting": false,
     "projected_cost_of_works": "Up to £2m",
@@ -90,7 +91,7 @@
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "affordable_percentage": 60,
+      "affordable_percentage": 100,
       "dwelling_density": 0,
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_intermediate": 0,
@@ -110,51 +111,59 @@
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_proposed_residential_units_market_for_rent": 0,
-      "total_gia_gained": 358,
+      "total_gia_gained": 158,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
-      "total_no_proposed_residential_units": 5,
+      "total_no_proposed_residential_units": 3,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_gia_lost": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Gain",
-          "unit_type": "Communal Space",
-          "gia": 100
-        },
-        {
-          "change_type": "Gain",
-          "unit_type": "Communal Space",
-          "gia": 100
-        },
-        {
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 2,
           "provider": "Private rented sector",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "tenure": "London Living Rent",
           "gia": 53
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 2,
           "provider": "Private rented sector",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "tenure": "London Living Rent",
           "gia": 53
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 2,
           "provider": "Private rented sector",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "tenure": "London Living Rent",
           "gia": 52
         }
@@ -170,12 +179,13 @@
     "affordable_housing_fast_track": false,
     "grey_water_reuse": false,
     "total_gia_lost": 0,
-    "surface_water_discharge_percentage_reduction": 10
+    "surface_water_discharge_percentage_reduction": 10,
+    "occupation_status": "Occupied"
   },
-  "uprn": "202102529",
-  "locality": null,
-  "date_building_work_started_under_previous_permission": "25/10/2023",
-  "postcode": null,
+  "uprn": 202102529,
+  "locality": "Wembley",
+  "date_building_work_started_under_previous_permission": "24/10/2023",
+  "postcode": "HA0 4TL",
   "valid_date": "09/03/2026",
   "cil_liability": null,
   "actual_completion_date": null,
@@ -187,11 +197,56 @@
   "application_type_full": "Full planning & display of advertisements",
   "pp_id": "PP-14648613",
   "lpa_app_no": "26/0186",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                518046.2,
+                184955.4
+              ],
+              [
+                518044.5,
+                184960.9
+              ],
+              [
+                518033.264,
+                184957.618
+              ],
+              [
+                518033.206,
+                184957.601
+              ],
+              [
+                518033.241,
+                184957.482
+              ],
+              [
+                518033.887,
+                184955.282
+              ],
+              [
+                518034.85,
+                184952
+              ],
+              [
+                518046.2,
+                184955.4
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "id": "Brent-26_0186",
   "appeal_status": null,
   "appeal_start_date": null,
-  "description": "Proposed internally illuminated fascia signage to front and rear of commercial premises",
+  "description": "The application site is known as 26 Ealing Road is a three storey mid-terraced commercial unit located along Ealing road which is within the Wembley area. \n\nCommercial accommodation is retained in the basement and ground, whilst the first floor contains two flats (front and rear), including a loft conversion. The property was granted Planning permission under Ref Nº: 21/1583 (a reapplication based on an older permission from 2013) but due to the Client's business needs to keep the investment viable retrospective planning is sort for Basement to upper floors and Planning permission is also sort for the new Mansard forming a one bed two person accommodation.\n\nThe current scheme proposes the principal access being from the rear. This is in keeping with properties within the vicinity at the rear of Wembley Road as can be seen from the photos.",
   "development_type": "Other advertisements",
   "decision_conditions": null,
   "secondary_street_name": null,
@@ -202,7 +257,47 @@
   "borough": "Brent",
   "decision": "Approved",
   "application_type": "All Other",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          [
+            -0.298839,
+            51.551148
+          ],
+          [
+            -0.298862,
+            51.551198
+          ],
+          [
+            -0.299025,
+            51.551171
+          ],
+          [
+            -0.299026,
+            51.551171
+          ],
+          [
+            -0.299025,
+            51.551169
+          ],
+          [
+            -0.299017,
+            51.55115
+          ],
+          [
+            -0.299004,
+            51.55112
+          ],
+          [
+            -0.298839,
+            51.551148
+          ]
+        ]
+      ]
+    ],
+    "type": "MultiPolygon"
+  },
   "decision_agency": null,
   "decision_target_date": "27/04/2026",
   "status": "Approved",

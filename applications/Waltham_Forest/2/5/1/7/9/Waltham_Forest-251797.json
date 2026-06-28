@@ -1,16 +1,71 @@
 {
   "decision_target_date": "24/09/2025",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Minor all other minor developments",
   "postcode": "E10 7BA",
   "title_number": null,
-  "application_details": {},
+  "application_details": {
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "Entire Development",
+        "intended_completion_date": "11/2025",
+        "intended_commencement_date": "09/2025"
+      }
+    ],
+    "total_gia_gained": 0,
+    "site_area": 0.0138,
+    "total_gia_lost": 0,
+    "total_gia_existing": 95,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 95,
+        "gia_gained": 0,
+        "use_class": "C3",
+        "gia_lost": 0
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied",
+    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "surface_water_discharge_percentage_reduction": 0,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 0,
+      "total_gia_lost": 0,
+      "total_gia_existing": 95
+    },
+    "garden_land_lost": false,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 1,
+      "no_resi_units_to_have_full_fibre": 0,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 100,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 0,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "internal_resi_water_usage": 200,
+    "ownership_status": "Private"
+  },
   "decision_date": "24/09/2025",
   "url_planning_app": "https://builtenvironment.walthamforest.gov.uk/planning/index.html?fa=getApplication&id=118533",
   "borough": "Waltham Forest",
-  "locality": null,
+  "locality": "Leyton",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
   "parking_details": null,
@@ -19,14 +74,14 @@
   "pp_id": "14187225",
   "subdivision_of_building": null,
   "status": "Approved",
-  "description": "Conversion of ground floor flat (No.2A Sunnyside Road) and first floor flat (No.337A Capworth Street) into a single dwelling (3-bed) (Use Class C3). Alterations to the&nbsp;rear and side&nbsp;fenestration and associated landscaping.",
+  "description": "Conversion of ground floor flat (No.2A Sunnyside Road) and first floor flat (No.337A Capworth Street) back to original single dwelling. Alterations to fenestration on rear and side walls.",
   "decision_conditions": null,
-  "site_number": "337",
-  "last_updated": "2026-04-15T11:58:42.240Z",
+  "site_number": 337,
+  "last_updated": "2026-06-27T19:57:38.309Z",
   "last_date_consultation_comments": "05/09/2025",
   "valid_date": "30/07/2025",
   "actual_commencement_date": null,
-  "centroid_northing": null,
+  "centroid_northing": 187354,
   "appeal_decision": null,
   "decision_agency": "Borough",
   "lpa_app_no": "251797",
@@ -34,34 +89,64 @@
   "decision": "Approved",
   "id": "Waltham_Forest-251797",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
-              537206.000416104,
-              187337.659494867
-            ],
-            [
-              537201.665385471,
-              187335.454952325
-            ],
-            [
-              537187.361688815,
-              187362.22739305
-            ],
-            [
-              537191.274708644,
-              187364.55964737
-            ],
-            [
-              537206.000416104,
-              187337.659494867
+              [
+                537197.05,
+                187353.95
+              ],
+              [
+                537193.2,
+                187360.75
+              ],
+              [
+                537191.3,
+                187364.4
+              ],
+              [
+                537187.5,
+                187362.25
+              ],
+              [
+                537189.4,
+                187358.6
+              ],
+              [
+                537195.85,
+                187346.45
+              ],
+              [
+                537198.1,
+                187342.2
+              ],
+              [
+                537200.45,
+                187337.85
+              ],
+              [
+                537201.6,
+                187335.55
+              ],
+              [
+                537202.23,
+                187335.896
+              ],
+              [
+                537205.7,
+                187337.8
+              ],
+              [
+                537197.05,
+                187353.95
+              ]
             ]
           ]
-        ]
+        ],
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -74,46 +159,76 @@
   "appeal_start_date": null,
   "decision_process": "Delegated",
   "ward": "Leyton",
-  "street_name": "CAPWORTH STREET",
+  "street_name": "Capworth Street",
   "secondary_street_name": null,
   "lpa_name": "Waltham Forest",
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": null,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.021738,
-          51.568226
-        ],
-        [
-          -0.021801,
-          51.568207
-        ],
-        [
-          -0.021997,
-          51.568451
-        ],
-        [
-          -0.02194,
-          51.568471
-        ],
-        [
-          -0.021738,
-          51.568226
+          [
+            -0.02186,
+            51.568374
+          ],
+          [
+            -0.021913,
+            51.568436
+          ],
+          [
+            -0.021939,
+            51.568469
+          ],
+          [
+            -0.021995,
+            51.568451
+          ],
+          [
+            -0.021969,
+            51.568418
+          ],
+          [
+            -0.021881,
+            51.568307
+          ],
+          [
+            -0.02185,
+            51.568268
+          ],
+          [
+            -0.021818,
+            51.568229
+          ],
+          [
+            -0.021802,
+            51.568208
+          ],
+          [
+            -0.021793,
+            51.568211
+          ],
+          [
+            -0.021742,
+            51.568227
+          ],
+          [
+            -0.02186,
+            51.568374
+          ]
         ]
       ]
     ]
   },
-  "uprn": "100022526908",
+  "uprn": 100022526908,
   "application_type": "All Other",
   "centroid": {
-    "lat": 49.766807,
-    "lon": -7.55716
+    "lat": 51.568375,
+    "lon": -0.021904
   },
   "lapsed_date": "24/09/2028",
-  "application_type_full": null,
-  "centroid_easting": null,
+  "application_type_full": "Full planning permission",
+  "centroid_easting": 537194,
   "actual_completion_date": null
 }

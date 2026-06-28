@@ -1,35 +1,76 @@
 {
   "appeal_status": null,
-  "centroid_easting": 511424,
-  "centroid_northing": 180809,
-  "parking_details": null,
+  "centroid_easting": 511417,
+  "centroid_northing": 180795,
+  "parking_details": {
+    "no_existing_car": 2,
+    "net_car": 0,
+    "no_proposed_car": 2
+  },
   "appeal_start_date": null,
   "valid_date": "18/07/2025",
   "lapsed_date": "04/09/2028",
   "bo_system": "CSV Data Import",
   "ward": "BELMORE 2022",
   "status": "Approved",
-  "subdivision_of_building": null,
+  "subdivision_of_building": "Ground Floor only",
   "site_name": "148 UXBRIDGE ROAD",
   "development_type": null,
   "actual_commencement_date": null,
   "postcode": "UB4 0JH",
   "borough": "Hillingdon",
   "decision": "Approved",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                511410.2,
+                180790.95
+              ],
+              [
+                511415.4,
+                180787.95
+              ],
+              [
+                511437.847,
+                180826.641
+              ],
+              [
+                511432.9632877049,
+                180830.13592728972
+              ],
+              [
+                511430.809,
+                180826.458
+              ],
+              [
+                511410.2,
+                180790.95
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "centroid": {
-    "lon": -0.395619,
-    "lat": 51.515226
+    "lon": -0.395724,
+    "lat": 51.515102
   },
   "appeal_decision": null,
   "description": "Proposed conversion of restaurant to office with storage (Class E)",
   "title_number": null,
   "lpa_name": "Hillingdon",
-  "locality": null,
+  "locality": "Hayes",
   "appeal_decision_date": null,
   "decision_process": "Delegated",
-  "application_type_full": null,
-  "site_number": null,
+  "application_type_full": "Full planning permission",
+  "site_number": 148,
   "date_building_work_started_under_previous_permission": null,
   "decision_target_date": "12/09/2025",
   "decision_agency": "Borough",
@@ -42,13 +83,45 @@
   "decision_date": "04/09/2025",
   "pp_id": "14187122",
   "last_date_consultation_comments": "26/08/2025",
-  "last_updated_by": "CSV Data Import",
-  "uprn": null,
+  "last_updated_by": "Planning Portal ingest",
+  "uprn": 100021437962,
   "actual_completion_date": null,
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated": "2025-09-17T21:59:09.795Z",
+  "last_updated": "2026-06-27T16:30:56.827Z",
   "cil_liability": false,
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          [
+            -0.395824,
+            51.515066
+          ],
+          [
+            -0.39575,
+            51.515038
+          ],
+          [
+            -0.395414,
+            51.515382
+          ],
+          [
+            -0.395483,
+            51.515414
+          ],
+          [
+            -0.395515,
+            51.515382
+          ],
+          [
+            -0.395824,
+            51.515066
+          ]
+        ]
+      ]
+    ],
+    "type": "MultiPolygon"
+  },
   "decision_conditions": [
     "The development hereby permitted shall be begun before the expiration of three years from the date of this permission.",
     "REASON",
@@ -64,7 +137,61 @@
   ],
   "epc_number": null,
   "application_details": {
-    "existing_uprns": null
+    "existing_uprns": null,
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "Conversion",
+        "intended_completion_date": "12/2025",
+        "intended_commencement_date": "09/2025"
+      }
+    ],
+    "total_gia_gained": 0,
+    "site_area": 0.025788,
+    "total_gia_lost": 0,
+    "total_gia_existing": 199,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 199,
+        "gia_gained": 0,
+        "use_class": "EB",
+        "gia_lost": 0
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied",
+    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "surface_water_discharge_percentage_reduction": 0,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 0,
+      "total_gia_lost": 0,
+      "total_gia_existing": 199
+    },
+    "garden_land_lost": false,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 0,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 0,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "internal_resi_water_usage": 0,
+    "ownership_status": "Private"
   },
-  "street_name": "HAYES"
+  "street_name": "Uxbridge Road"
 }

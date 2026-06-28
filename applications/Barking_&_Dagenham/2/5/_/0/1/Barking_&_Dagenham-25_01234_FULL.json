@@ -1,25 +1,32 @@
 {
-  "borough": "London Borough of Barking and Dagenham",
+  "borough": "Barking And Dagenham",
   "application_type": "All Other",
   "decision": "Refused",
   "decision_conditions": null,
-  "centroid_northing": 185277,
+  "centroid_northing": 185275,
   "url_planning_app": "https://online-befirst.lbbd.gov.uk/planning/index.html?fa=getApplication&id=36444",
   "lpa_app_no": "25/01234/FULL",
-  "site_number": "17",
+  "site_number": 17,
   "ward": "Mayesbrook",
-  "locality": null,
+  "locality": "Dagenham",
   "last_date_consultation_comments": "25/09/2025",
   "date_building_work_started_under_previous_permission": null,
-  "description": "Demolition of existing garage and construction of a two- storey side extension to create a new 1x bed dwelling with associated external amenity area, car parking, bicycle storage and waste storge at land adjacent to 17 Ivinghoe Road Dagenham RM8 2NB",
-  "parking_details": null,
+  "description": "Two-storey side extension to form one-bedroom dwelling with parking and access \nalterations. ",
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 2,
+    "net_car": -2,
+    "no_proposed_cycle": 2,
+    "no_proposed_car": 0,
+    "net_cycle": 2
+  },
   "postcode": "RM8 2NB",
   "appeal_status": null,
   "cil_liability": null,
   "date_building_work_completed_under_previous_permission": null,
   "pp_id": "14289867",
   "status": "Refused",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "polygon": {
     "crs": {
       "type": "name",
@@ -32,160 +39,277 @@
         "coordinates": [
           [
             [
-              546722.967630249,
-              185280.35010594
-            ],
-            [
-              546717.659901314,
-              185287.298930189
-            ],
-            [
-              546713.57450277,
-              185284.311210981
-            ],
-            [
-              546719.260219774,
-              185276.727643451
-            ],
-            [
-              546727.929450978,
-              185265.463955159
-            ],
-            [
-              546737.36174169,
-              185272.587893188
-            ],
-            [
-              546737.610592112,
-              185273.080922484
-            ],
-            [
-              546737.982921819,
-              185273.792977409
-            ],
-            [
-              546738.008156005,
-              185274.350612856
-            ],
-            [
-              546737.944783795,
-              185275.111947477
-            ],
-            [
-              546737.677761494,
-              185275.764263173
-            ],
-            [
-              546732.235452906,
-              185282.818988261
-            ],
-            [
-              546730.044979284,
-              185285.734814287
-            ],
-            [
-              546722.967630249,
-              185280.35010594
+              [
+                546719.85,
+                185275.95
+              ],
+              [
+                546721.05,
+                185274.35
+              ],
+              [
+                546724.25,
+                185270.25
+              ],
+              [
+                546727.95,
+                185265.5
+              ],
+              [
+                546728.2,
+                185265.65
+              ],
+              [
+                546733.829,
+                185269.947
+              ],
+              [
+                546736.65,
+                185272.1
+              ],
+              [
+                546737.15,
+                185272.5
+              ],
+              [
+                546737.55,
+                185272.95
+              ],
+              [
+                546737.75,
+                185273.35
+              ],
+              [
+                546737.95,
+                185273.9
+              ],
+              [
+                546738,
+                185274.4
+              ],
+              [
+                546738,
+                185274.8
+              ],
+              [
+                546737.95,
+                185275.1
+              ],
+              [
+                546737.75,
+                185275.6
+              ],
+              [
+                546737.4,
+                185276.05
+              ],
+              [
+                546729.95,
+                185285.75
+              ],
+              [
+                546722.95,
+                185280.35
+              ],
+              [
+                546717.65,
+                185287.35
+              ],
+              [
+                546713.5,
+                185284.3
+              ],
+              [
+                546719.85,
+                185275.95
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
-    "type": "geometrycollection"
+    "type": "GeometryCollection"
   },
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          0.114621,
-          51.547346
-        ],
-        [
-          0.114548,
-          51.54741
-        ],
-        [
-          0.114488,
-          51.547384
-        ],
-        [
-          0.114566,
-          51.547315
-        ],
-        [
-          0.114687,
-          51.547211
-        ],
-        [
-          0.114826,
-          51.547273
-        ],
-        [
-          0.114829,
-          51.547277
-        ],
-        [
-          0.114835,
-          51.547284
-        ],
-        [
-          0.114836,
-          51.547289
-        ],
-        [
-          0.114835,
-          51.547295
-        ],
-        [
-          0.114831,
-          51.547301
-        ],
-        [
-          0.114756,
-          51.547366
-        ],
-        [
-          0.114726,
-          51.547393
-        ],
-        [
-          0.114621,
-          51.547346
+          [
+            0.114575,
+            51.547308
+          ],
+          [
+            0.114591,
+            51.547293
+          ],
+          [
+            0.114636,
+            51.547255
+          ],
+          [
+            0.114687,
+            51.547212
+          ],
+          [
+            0.114691,
+            51.547213
+          ],
+          [
+            0.114774,
+            51.54725
+          ],
+          [
+            0.114815,
+            51.547269
+          ],
+          [
+            0.114823,
+            51.547272
+          ],
+          [
+            0.114828,
+            51.547276
+          ],
+          [
+            0.114832,
+            51.54728
+          ],
+          [
+            0.114835,
+            51.547285
+          ],
+          [
+            0.114836,
+            51.547289
+          ],
+          [
+            0.114836,
+            51.547293
+          ],
+          [
+            0.114835,
+            51.547295
+          ],
+          [
+            0.114832,
+            51.5473
+          ],
+          [
+            0.114828,
+            51.547304
+          ],
+          [
+            0.114724,
+            51.547393
+          ],
+          [
+            0.114621,
+            51.547346
+          ],
+          [
+            0.114548,
+            51.547411
+          ],
+          [
+            0.114487,
+            51.547384
+          ],
+          [
+            0.114575,
+            51.547308
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "appeal_decision_date": null,
   "secondary_street_name": null,
   "lapsed_date": "21/10/2028",
   "bo_system": "Portal",
   "decision_date": "21/10/2025",
-  "centroid_easting": 546727,
+  "centroid_easting": 546724,
   "actual_commencement_date": null,
   "id": "Barking_&_Dagenham-25_01234_FULL",
   "lpa_name": "Barking & Dagenham",
   "decision_target_date": "24/10/2025",
   "valid_date": "29/08/2025",
   "development_type": "Minor dwellings",
-  "last_updated": "2026-04-15T11:21:25.159Z",
-  "subdivision_of_building": null,
+  "last_updated": "2026-06-27T09:48:51.349Z",
+  "subdivision_of_building": "SIDE GROUND AND FIRST FLOOR",
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
-    "lat": 51.547315,
-    "lon": 0.114678
+    "lat": 51.547298,
+    "lon": 0.114634
   },
   "decision_process": null,
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "decision_agency": null,
-  "street_name": "IVINGHOE ROAD",
+  "street_name": "Ivinghoe Road",
   "appeal_decision": null,
   "title_number": null,
   "site_name": null,
   "appeal_start_date": null,
-  "application_details": {},
+  "application_details": {
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "SIDE EXTENSION",
+        "intended_completion_date": "04/2026",
+        "intended_commencement_date": "11/2025"
+      }
+    ],
+    "total_gia_gained": 171.82,
+    "site_area": 0.023512,
+    "total_gia_lost": 0,
+    "total_gia_existing": 132.79,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 132.79,
+        "gia_gained": 171.82,
+        "use_class": "C3",
+        "gia_lost": 0
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied",
+    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": true,
+    "surface_water_discharge_percentage_reduction": 15,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 171.82,
+      "total_gia_lost": 0,
+      "total_gia_existing": 132.79
+    },
+    "garden_land_lost": false,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0.1,
+      "no_active_slow_ev_charging_points": 1,
+      "no_resi_units_to_have_full_fibre": 1,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0.4,
+      "no_homes_passive_cooling": 1,
+      "no_new_water_connections_required": 1,
+      "no_passive_slow_ev_charging_points": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0.2,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 90,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 1,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "internal_resi_water_usage": 105,
+    "ownership_status": "Private"
+  },
   "epc_number": null,
-  "uprn": "100016191",
+  "uprn": 100016191,
   "actual_completion_date": null
 }

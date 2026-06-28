@@ -6,17 +6,17 @@
   "appeal_decision": null,
   "lapsed_date": "27/04/2029",
   "appeal_decision_date": null,
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Planning Portal ingest",
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": null,
-  "last_updated": "2026-04-28T08:05:03.448Z",
+  "last_updated": "2026-06-27T22:24:59.856Z",
   "url_planning_app": "https://pa.brent.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR_176636&activeTab=summary",
-  "street_name": null,
+  "street_name": "Deacon Road",
   "parking_details": null,
   "ward": "Willesden Green",
   "bo_system": "CSV Data Import",
   "site_name": "81 Deacon Road, London, NW2 5NN",
-  "site_number": null,
+  "site_number": 81,
   "application_details": {
     "site_area": 0.00689,
     "total_gia_existing": 186.08,
@@ -34,14 +34,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 93.04,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 0
       },
       {
         "gia_existing": 93.04,
-        "use_class": "C4",
         "gia_gained": 0,
+        "use_class": "C4",
         "gia_lost": 0
       }
     ],
@@ -61,7 +61,8 @@
       "mobile_network_operators_consultation": false,
       "ghg_reduction_over_building_regulations": false,
       "fire_suppression_system_proposed": false,
-      "total_annual_nox_emissions": 0
+      "total_annual_nox_emissions": 0,
+      "urban_greening_factor_score": 0
     },
     "rain_water_harvesting": false,
     "projected_cost_of_works": "Up to £2m",
@@ -107,21 +108,31 @@
       "total_no_proposed_residential_units_affordable_rent": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 5,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
+          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 93.04
         },
         {
-          "provider": "Private",
-          "no_habitable_rooms": 5,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "HMO",
+          "no_habitable_rooms": 5,
+          "provider": "Private",
           "no_bedrooms": 3,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 93.04
         }
@@ -137,12 +148,13 @@
     "affordable_housing_fast_track": false,
     "grey_water_reuse": false,
     "total_gia_lost": 0,
-    "surface_water_discharge_percentage_reduction": 0
+    "surface_water_discharge_percentage_reduction": 0,
+    "occupation_status": "Occupied"
   },
-  "uprn": "202106616",
-  "locality": null,
+  "uprn": 202106616,
+  "locality": "London",
   "date_building_work_started_under_previous_permission": null,
-  "postcode": null,
+  "postcode": "NW2 5NN",
   "valid_date": "05/03/2026",
   "cil_liability": false,
   "actual_completion_date": null,
@@ -158,7 +170,7 @@
   "id": "Brent-26_0494",
   "appeal_status": null,
   "appeal_start_date": null,
-  "description": "Proposed conversion of first floor flat into 3 bedroom 4 person house of multiple occupation (HMO) and addition of cycle & bin storage to the front garden.",
+  "description": "conversion of existing first floor to 3 bedroom 4 Person HMO",
   "development_type": "Minor dwellings",
   "decision_conditions": null,
   "secondary_street_name": null,
@@ -169,7 +181,33 @@
   "borough": "Brent",
   "decision": "Approved",
   "application_type": "All Other",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.237586,
+          51.550542
+        ],
+        [
+          -0.237587,
+          51.550515
+        ],
+        [
+          -0.23763,
+          51.550515
+        ],
+        [
+          -0.237629,
+          51.550542
+        ],
+        [
+          -0.237586,
+          51.550542
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "decision_agency": null,
   "decision_target_date": "23/04/2026",
   "status": "Approved",

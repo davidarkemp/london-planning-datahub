@@ -1,16 +1,24 @@
 {
   "decision_target_date": "24/11/2025",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Other house holder developments",
   "postcode": "E17 9DE",
-  "title_number": null,
-  "application_details": {},
+  "title_number": [
+    "EGL18583"
+  ],
+  "application_details": {
+    "total_gia_gained": 28,
+    "no_additional_bathrooms": 0,
+    "no_additional_bedrooms": 0,
+    "intended_completion_date": "03/2026",
+    "intended_commencement_date": "12/2025"
+  },
   "decision_date": "20/11/2025",
   "url_planning_app": "https://builtenvironment.walthamforest.gov.uk/planning/index.html?fa=getApplication&id=118928",
   "borough": "Waltham Forest",
-  "locality": null,
+  "locality": "Walthamstow",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
   "parking_details": null,
@@ -19,14 +27,14 @@
   "pp_id": "14276760",
   "subdivision_of_building": null,
   "status": "Approved",
-  "description": "Construction of a single storey rear wraparound extension at ground floor level and installation of&nbsp;Air Source Heat Pump unit at side wall elevation.",
+  "description": "Proposed Ground floor wraparound extension, floor plan redesign and all associated works at 37 Merton Road, E17 9DE",
   "decision_conditions": null,
-  "site_number": "37",
-  "last_updated": "2026-04-15T11:56:59.954Z",
+  "site_number": 37,
+  "last_updated": "2026-06-27T19:43:13.042Z",
   "last_date_consultation_comments": "31/10/2025",
   "valid_date": "29/09/2025",
   "actual_commencement_date": null,
-  "centroid_northing": null,
+  "centroid_northing": 188434,
   "appeal_decision": null,
   "decision_agency": "Borough",
   "lpa_app_no": "252190",
@@ -34,38 +42,80 @@
   "decision": "Approved",
   "id": "Waltham_Forest-252190",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
-              538061.821090158,
-              188435.768315472
-            ],
-            [
-              538079.89238625,
-              188441.362602984
-            ],
-            [
-              538096.803249268,
-              188450.433048595
-            ],
-            [
-              538099.178452891,
-              188445.395622546
-            ],
-            [
-              538063.957777736,
-              188427.748119887
-            ],
-            [
-              538061.821090158,
-              188435.768315472
+              [
+                538098.95,
+                188445.2
+              ],
+              [
+                538096.9,
+                188450.25
+              ],
+              [
+                538079.549,
+                188441.362
+              ],
+              [
+                538078.071,
+                188440.887
+              ],
+              [
+                538075.7,
+                188440.1
+              ],
+              [
+                538064.5,
+                188436.55
+              ],
+              [
+                538061.4,
+                188435.6
+              ],
+              [
+                538061.95,
+                188433.85
+              ],
+              [
+                538063.85,
+                188427.95
+              ],
+              [
+                538067.9,
+                188429.95
+              ],
+              [
+                538073.05,
+                188432.45
+              ],
+              [
+                538074.1,
+                188433
+              ],
+              [
+                538078.5,
+                188435.15
+              ],
+              [
+                538088.35,
+                188439.951
+              ],
+              [
+                538095.453,
+                188443.488
+              ],
+              [
+                538098.95,
+                188445.2
+              ]
             ]
           ]
-        ]
+        ],
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -78,50 +128,92 @@
   "appeal_start_date": null,
   "decision_process": "Delegated",
   "ward": "Hoe Street",
-  "street_name": "MERTON ROAD",
+  "street_name": "Merton Road",
   "secondary_street_name": null,
   "lpa_name": "Waltham Forest",
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": null,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.008966,
-          51.577884
-        ],
-        [
-          -0.008704,
-          51.57793
-        ],
-        [
-          -0.008456,
-          51.578008
-        ],
-        [
-          -0.008424,
-          51.577962
-        ],
-        [
-          -0.008939,
-          51.577812
-        ],
-        [
-          -0.008966,
-          51.577884
+          [
+            -0.008427,
+            51.57796
+          ],
+          [
+            -0.008455,
+            51.578006
+          ],
+          [
+            -0.008709,
+            51.57793
+          ],
+          [
+            -0.00873,
+            51.577926
+          ],
+          [
+            -0.008765,
+            51.57792
+          ],
+          [
+            -0.008927,
+            51.577891
+          ],
+          [
+            -0.008973,
+            51.577883
+          ],
+          [
+            -0.008965,
+            51.577867
+          ],
+          [
+            -0.00894,
+            51.577814
+          ],
+          [
+            -0.008881,
+            51.577831
+          ],
+          [
+            -0.008806,
+            51.577852
+          ],
+          [
+            -0.00879,
+            51.577857
+          ],
+          [
+            -0.008726,
+            51.577875
+          ],
+          [
+            -0.008582,
+            51.577916
+          ],
+          [
+            -0.008478,
+            51.577946
+          ],
+          [
+            -0.008427,
+            51.57796
+          ]
         ]
       ]
     ]
   },
-  "uprn": "100022569441",
+  "uprn": 100022569441,
   "application_type": "Householder",
   "centroid": {
-    "lat": 49.766807,
-    "lon": -7.55716
+    "lat": 51.577866,
+    "lon": -0.008835
   },
   "lapsed_date": "20/11/2028",
-  "application_type_full": null,
-  "centroid_easting": null,
+  "application_type_full": "Householder planning permission",
+  "centroid_easting": 538071,
   "actual_completion_date": null
 }

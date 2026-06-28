@@ -3,15 +3,15 @@
   "application_type": "All Other",
   "decision": "Refused",
   "decision_conditions": null,
-  "centroid_northing": 188151,
+  "centroid_northing": 188157,
   "url_planning_app": "https://builtenvironment.walthamforest.gov.uk/planning/index.html?fa=getApplication&id=118284",
   "lpa_app_no": "251575",
-  "site_number": "15",
+  "site_number": 15,
   "ward": "Forest",
-  "locality": null,
+  "locality": "Leyton",
   "last_date_consultation_comments": "01/08/2025",
-  "date_building_work_started_under_previous_permission": "05/09/2023",
-  "description": "Retention of use of the property as a small House in Multiple Occupation (HMO) (Use Class C4) for up to six persons.",
+  "date_building_work_started_under_previous_permission": "04/09/2023",
+  "description": "Retrospective planning application for the change of use from a C3 dwelling house to a C4 House in Multiple Occupation (HMO). The property was originally in C3 use but is currently operating as a C4 HMO for up to six people. This application seeks to regularise the current C4 use through planning permission.",
   "parking_details": null,
   "postcode": "E10 6ES",
   "appeal_status": null,
@@ -19,7 +19,7 @@
   "date_building_work_completed_under_previous_permission": null,
   "pp_id": "14123913",
   "status": "Dismissed",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "polygon": {
     "crs": {
       "type": "name",
@@ -62,24 +62,24 @@
     "coordinates": [
       [
         [
-          -0.006522,
-          51.57541
+          -0.006599,
+          51.575351
         ],
         [
-          -0.006478,
-          51.575365
+          -0.006601,
+          51.575324
         ],
         [
-          -0.006986,
-          51.575167
+          -0.006644,
+          51.575325
         ],
         [
-          -0.007015,
-          51.575222
+          -0.006643,
+          51.575352
         ],
         [
-          -0.006522,
-          51.57541
+          -0.006599,
+          51.575351
         ]
       ]
     ],
@@ -90,24 +90,24 @@
   "lapsed_date": "27/08/2028",
   "bo_system": "Portal",
   "decision_date": "27/08/2025",
-  "centroid_easting": 538223,
+  "centroid_easting": 538232,
   "actual_commencement_date": null,
   "id": "Waltham_Forest-251575",
   "lpa_name": "Waltham Forest",
   "decision_target_date": "27/08/2025",
   "valid_date": "02/07/2025",
   "development_type": "Other change of use",
-  "last_updated": "2026-04-15T11:55:26.325Z",
+  "last_updated": "2026-06-27T13:44:10.155Z",
   "subdivision_of_building": null,
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
-    "lat": 51.575286,
-    "lon": -0.006754
+    "lat": 51.575338,
+    "lon": -0.006622
   },
   "decision_process": "Delegated",
   "application_type_full": "Full planning permission",
   "decision_agency": "Borough",
-  "street_name": "EPSOM ROAD",
+  "street_name": "Epsom Road",
   "appeal_decision": "Dismissed",
   "title_number": null,
   "site_name": null,
@@ -127,14 +127,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 158.89,
-        "use_class": "SpecifiedOther",
         "gia_gained": 0,
+        "use_class": "Other",
         "gia_lost": 0
       },
       {
         "gia_existing": 0,
-        "use_class": "C4",
         "gia_gained": 158.89,
+        "use_class": "C4",
         "gia_lost": 158.89
       }
     ],
@@ -173,21 +173,31 @@
       "total_no_proposed_residential_units_starter_homes": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 2,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Terraced Home",
           "no_bedrooms": 4,
+          "unit_type": "Terraced Home",
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 158.89
         },
         {
-          "provider": "Private",
-          "no_habitable_rooms": 8,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "HMO",
+          "no_habitable_rooms": 8,
+          "provider": "Private",
           "no_bedrooms": 6,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 158.89
         }
@@ -237,10 +247,12 @@
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "no_non_resi_units_to_have_full_fibre": 0,
-      "total_annual_pm_emissions": 0
-    }
+      "total_annual_pm_emissions": 0,
+      "urban_greening_factor_score": 0
+    },
+    "occupation_status": "Occupied"
   },
   "epc_number": null,
-  "uprn": "100022539803",
+  "uprn": 100022539803,
   "actual_completion_date": null
 }

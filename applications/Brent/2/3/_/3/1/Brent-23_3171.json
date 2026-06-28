@@ -1,6 +1,6 @@
 {
   "site_name": "103 Rucklidge Avenue, London, NW10 4QB",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Planning Portal ingest",
   "centroid": {
     "lon": -0.241689,
     "lat": 51.534484
@@ -9,69 +9,63 @@
     "coordinates": [
       [
         [
-          -0.241839,
-          51.534412
-        ],
-        [
-          -0.2418236,
-          51.5344
-        ],
-        [
-          -0.2418119,
-          51.5344053
-        ],
-        [
-          -0.2417879,
-          51.5343905
-        ],
-        [
-          -0.2416833,
-          51.5344505
-        ],
-        [
-          -0.2416,
-          51.5344974
-        ],
-        [
-          -0.2415521,
-          51.534525
-        ],
-        [
-          -0.2415906,
-          51.534553
-        ],
-        [
-          -0.24163849999999998,
-          51.5345259
-        ],
-        [
-          -0.2417624,
-          51.5344558
-        ],
-        [
-          -0.2417875,
-          51.5344414
-        ],
-        [
-          -0.24179219999999998,
-          51.5344387
-        ],
-        [
-          -0.2418159,
-          51.5344252
-        ],
-        [
-          -0.241839,
-          51.534412
+          [
+            -0.241662,
+            51.534524
+          ],
+          [
+            -0.241786,
+            51.534454
+          ],
+          [
+            -0.241811,
+            51.53444
+          ],
+          [
+            -0.241863,
+            51.53441
+          ],
+          [
+            -0.241848,
+            51.534398
+          ],
+          [
+            -0.241836,
+            51.534403
+          ],
+          [
+            -0.241812,
+            51.534389
+          ],
+          [
+            -0.241707,
+            51.534449
+          ],
+          [
+            -0.241624,
+            51.534496
+          ],
+          [
+            -0.241576,
+            51.534523
+          ],
+          [
+            -0.241615,
+            51.534551
+          ],
+          [
+            -0.241662,
+            51.534524
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "appeal_decision_date": "22/01/2024",
   "url_planning_app": "https://pa.brent.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR_166461&activeTab=summary",
   "secondary_street_name": null,
-  "site_number": null,
+  "site_number": 103,
   "application_details": {
     "existing_uprns": null,
     "affordable_housing_fast_track": null,
@@ -191,7 +185,7 @@
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": null,
       "total_no_proposed_residential_units_social_rent": 0,
@@ -213,11 +207,13 @@
       "total_no_existing_residential_units_self_build_and_custom_build": 0
     },
     "ownership_status": null,
-    "lead_developer_company_name": null
+    "lead_developer_company_name": null,
+    "no_additional_bathrooms": 0,
+    "no_additional_bedrooms": 0
   },
   "lapsed_date": "27/11/2026",
   "decision": "Refused",
-  "postcode": null,
+  "postcode": "NW10 4QB",
   "last_date_consultation_comments": null,
   "decision_process": "Delegated",
   "epc_number": null,
@@ -231,64 +227,58 @@
         "coordinates": [
           [
             [
-              522041.1,
-              183187.45
-            ],
-            [
-              522042.2,
-              183186.15
-            ],
-            [
-              522043,
-              183186.75
-            ],
-            [
-              522044.7,
-              183185.15
-            ],
-            [
-              522051.8,
-              183192
-            ],
-            [
-              522057.45,
-              183197.35
-            ],
-            [
-              522060.7,
-              183200.5
-            ],
-            [
-              522057.95,
-              183203.55
-            ],
-            [
-              522054.7,
-              183200.45
-            ],
-            [
-              522046.3,
-              183192.45
-            ],
-            [
-              522044.598,
-              183190.813
-            ],
-            [
-              522044.275,
-              183190.502
-            ],
-            [
-              522042.668,
-              183188.957
-            ],
-            [
-              522041.1,
-              183187.45
+              [
+                522054.7,
+                183200.45
+              ],
+              [
+                522046.3,
+                183192.45
+              ],
+              [
+                522044.598,
+                183190.813
+              ],
+              [
+                522041.1,
+                183187.45
+              ],
+              [
+                522042.2,
+                183186.15
+              ],
+              [
+                522043,
+                183186.75
+              ],
+              [
+                522044.7,
+                183185.15
+              ],
+              [
+                522051.8,
+                183192
+              ],
+              [
+                522057.45,
+                183197.35
+              ],
+              [
+                522060.7,
+                183200.5
+              ],
+              [
+                522057.95,
+                183203.55
+              ],
+              [
+                522054.7,
+                183200.45
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "type": "GeometryCollection"
@@ -330,21 +320,23 @@
   "centroid_northing": 183196,
   "id": "Brent-23_3171",
   "decision_target_date": "15/11/2023",
-  "description": "Certificate of lawfulness for proposed single storey rear extension to the dwellinghouse",
+  "description": "Rucklidge LC",
   "appeal_status": null,
   "decision_date": "27/11/2023",
   "ward": "Harlesden & Kensal Green",
   "appeal_decision": "Withdrawn",
-  "locality": null,
-  "street_name": null,
+  "locality": "London",
+  "street_name": "Rucklidge Avenue",
   "status": "Refused",
-  "application_type_full": null,
+  "application_type_full": "Lawful development: Proposed use",
   "decision_agency": null,
-  "uprn": "202050543",
+  "uprn": 202050543,
   "date_building_work_started_under_previous_permission": null,
   "lpa_app_no": "23/3171",
-  "title_number": [],
-  "last_updated": "2025-11-26T09:04:04.158Z",
+  "title_number": [
+    "unregistered"
+  ],
+  "last_updated": "2026-06-28T00:56:34.703Z",
   "cil_liability": false,
   "subdivision_of_building": null,
   "actual_completion_date": null,

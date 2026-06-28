@@ -9,32 +9,34 @@
         "coordinates": [
           [
             [
-              530012.628875,
-              175575.793625
-            ],
-            [
-              530025.6445,
-              175567.5905
-            ],
-            [
-              530025.753875,
-              175567.481125
-            ],
-            [
-              530019.5195,
-              175559.168625
-            ],
-            [
-              530006.3945,
-              175567.153
-            ],
-            [
-              530012.628875,
-              175575.793625
+              [
+                530020.85,
+                175560.8
+              ],
+              [
+                530028.9396807062,
+                175572.28129510264
+              ],
+              [
+                530019.575,
+                175578.25171875
+              ],
+              [
+                530010.0576100704,
+                175565.16414872213
+              ],
+              [
+                530019.8,
+                175559.1
+              ],
+              [
+                530020.85,
+                175560.8
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "type": "GeometryCollection"
@@ -42,51 +44,57 @@
   "cil_liability": false,
   "lapsed_date": "02/01/2027",
   "appeal_decision": null,
-  "street_name": "Development Control Pseudo Street",
+  "street_name": "Bedford Road",
   "decision_agency": null,
-  "last_updated_by": "Idox Uniform",
-  "description": "Infilling of front elevation of existing arch with London stock brickwork and installation of new metal rollers.",
+  "last_updated_by": "Planning Portal ingest",
+  "description": "Refurbishment of a vacant train arch to replace the front infill and form a rental demise.",
   "decision": "Approved",
-  "centroid_northing": 175567,
+  "centroid_northing": 175568,
   "bo_system": "Idox Uniform",
-  "last_updated": "2025-03-19T01:12:00.777+00:00",
+  "last_updated": "2026-06-27T11:10:41.636Z",
   "appeal_status": null,
   "date_building_work_started_under_previous_permission": null,
   "ward": "CLEAST",
-  "centroid_easting": 530016,
-  "site_name": "Arch 631 Bedford Road Clapham",
+  "centroid_easting": 530018,
+  "site_name": "Arch 631",
   "application_type": "All Other",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 1,
+    "net_car": 0,
+    "no_proposed_car": 1
+  },
   "subdivision_of_building": null,
   "appeal_start_date": null,
   "lpa_name": "Lambeth",
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.1297741,
-          51.4642297
-        ],
-        [
-          -0.1295898,
-          51.464153
-        ],
-        [
-          -0.1295883,
-          51.464152
-        ],
-        [
-          -0.129681,
-          51.4640787
-        ],
-        [
-          -0.1298669,
-          51.4641535
-        ],
-        [
-          -0.1297741,
-          51.4642297
+          [
+            -0.129687,
+            51.464092
+          ],
+          [
+            -0.129566,
+            51.464194
+          ],
+          [
+            -0.129699,
+            51.464249
+          ],
+          [
+            -0.12984,
+            51.464134
+          ],
+          [
+            -0.129702,
+            51.464077
+          ],
+          [
+            -0.129687,
+            51.464092
+          ]
         ]
       ]
     ]
@@ -94,8 +102,8 @@
   "postcode": "SW4 7HJ",
   "decision_date": "02/01/2024",
   "centroid": {
-    "lon": "-0.1297288",
-    "lat": "51.4641499"
+    "lon": -0.129725,
+    "lat": 51.464158
   },
   "decision_process": "Delegated",
   "epc_number": null,
@@ -106,8 +114,8 @@
   "actual_completion_date": null,
   "appeal_decision_date": null,
   "valid_date": "11/10/2023",
-  "application_type_full": null,
-  "locality": null,
+  "application_type_full": "Full planning permission",
+  "locality": "London",
   "last_date_consultation_comments": "27/12/2023",
   "pp_id": "PP-12503847",
   "development_type": null,
@@ -155,22 +163,18 @@
       "total_gia_existing": 71,
       "total_gia_lost": 0
     },
-    "total_gia_existing": 0,
+    "total_gia_existing": 71,
     "constraints_details": [
       {
-        "result": null,
         "constraints_layer_description": "LI_CPZ Clapham High Street: Special Licensing Policy Zone"
       },
       {
-        "result": null,
         "constraints_layer_description": "HELIPD CAA Helipad Safeguarding Zone"
       },
       {
-        "result": null,
         "constraints_layer_description": "CAZ Central Activities Zone"
       },
       {
-        "result": null,
         "constraints_layer_description": "SMOKE Smoke Control Area"
       }
     ],
@@ -193,7 +197,7 @@
     },
     "ownership_status": "Private",
     "surface_water_discharge_percentage_reduction": 0,
-    "site_area": 0.016,
+    "site_area": 0.0071,
     "grey_water_reuse": false,
     "garden_land_lost": false,
     "residential_details": {
@@ -246,8 +250,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 71,
-        "use_class": "General industrial",
         "gia_gained": 0,
+        "use_class": "b2",
         "gia_lost": 0
       }
     ],
@@ -259,7 +263,10 @@
       }
     ],
     "rain_water_harvesting": false,
-    "internal_resi_water_usage": 0
+    "internal_resi_water_usage": 0,
+    "scheme_phasing": true,
+    "total_gia_gained": 0,
+    "occupation_status": "Vacant"
   },
   "uprn": "010095612324"
 }

@@ -1,28 +1,82 @@
 {
   "decision_target_date": "12/09/2025",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Minor all other minor developments",
   "postcode": "E8 4DJ",
   "title_number": null,
   "application_details": {
-    "site_area": 125,
+    "site_area": 0.0125,
     "other_residential_accommodation_details": {
       "site_area": 125
-    }
+    },
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "Single Phase covers entire development. No building work will be done - date is not applicable",
+        "intended_completion_date": "05/2025",
+        "intended_commencement_date": "05/2025"
+      }
+    ],
+    "total_gia_gained": 125,
+    "total_gia_lost": 125,
+    "total_gia_existing": 125,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 125,
+        "gia_gained": 125,
+        "use_class": "Other",
+        "gia_lost": 125
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied",
+    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "surface_water_discharge_percentage_reduction": 0,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 125,
+      "total_gia_lost": 125,
+      "total_gia_existing": 125
+    },
+    "garden_land_lost": false,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 1,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 1,
+      "mobile_network_operators_consultation": true,
+      "fire_suppression_system_proposed": true,
+      "no_new_gas_connections_required": 0,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "internal_resi_water_usage": 142,
+    "ownership_status": "Private"
   },
   "decision_date": "11/09/2025",
   "url_planning_app": "https://developmentandhousing.hackney.gov.uk//planning/index.html?fa=getApplication&id=83181",
   "borough": "Hackney",
-  "locality": "HACKNEY",
+  "locality": "London",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
   "parking_details": {
     "no_proposed_car": 1,
-    "no_existing_car": 1
+    "no_existing_car": 1,
+    "net_car": 0
   },
-  "site_name": "Unit 2c, Quebec Wharf",
+  "site_name": "315 Quebec Wharf, Unit 2c",
   "epc_number": null,
   "pp_id": "14017718",
   "subdivision_of_building": null,
@@ -33,7 +87,7 @@
     "<p>The Development hereby permitted shall only be carried out and completed strictly in accordance with the submitted plans hereby approved and any subsequent approval of details.\r\n</p><p><br></p><p>\r\nREASON: To ensure that the development hereby permitted is carried out in full accordance with the plans hereby approved.\r\n</p>"
   ],
   "site_number": "315",
-  "last_updated": "2026-04-15T11:36:11.946Z",
+  "last_updated": "2026-06-27T20:07:53.689Z",
   "last_date_consultation_comments": "25/08/2025",
   "valid_date": "18/07/2025",
   "actual_commencement_date": null,
@@ -45,149 +99,64 @@
   "decision": "Approved",
   "id": "Hackney-2025_1637",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
-              533442.348817175,
-              183909.549515747
-            ],
-            [
-              533442.851765955,
-              183918.856851633
-            ],
-            [
-              533437.459495571,
-              183919.116777414
-            ],
-            [
-              533426.147272152,
-              183919.656623034
-            ],
-            [
-              533416.154257842,
-              183920.106493861
-            ],
-            [
-              533414.76084276,
-              183920.166477044
-            ],
-            [
-              533413.903356145,
-              183920.206465126
-            ],
-            [
-              533412.847988212,
-              183903.001390467
-            ],
-            [
-              533411.998747118,
-              183902.951404858
-            ],
-            [
-              533410.547616436,
-              183902.901418883
-            ],
-            [
-              533410.498145929,
-              183900.152205848
-            ],
-            [
-              533411.75139514,
-              183900.202191465
-            ],
-            [
-              533412.650107215,
-              183900.20219137
-            ],
-            [
-              533412.353284562,
-              183895.503536483
-            ],
-            [
-              533441.606761193,
-              183894.123931623
-            ],
-            [
-              533442.348817175,
-              183909.549515747
+              [
+                533442.35,
+                183909.55
+              ],
+              [
+                533442.85,
+                183918.85
+              ],
+              [
+                533437.462,
+                183919.108
+              ],
+              [
+                533426.15,
+                183919.65
+              ],
+              [
+                533416.155,
+                183920.098
+              ],
+              [
+                533414.756,
+                183920.162
+              ],
+              [
+                533413.9,
+                183920.2
+              ],
+              [
+                533412.85,
+                183903
+              ],
+              [
+                533412.65,
+                183900.2
+              ],
+              [
+                533412.35,
+                183895.5
+              ],
+              [
+                533441.61,
+                183894.12
+              ],
+              [
+                533442.35,
+                183909.55
+              ]
             ]
           ]
-        ]
-      },
-      {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              533442.348817175,
-              183909.549515747
-            ],
-            [
-              533442.851765955,
-              183918.856851633
-            ],
-            [
-              533437.459495571,
-              183919.116777414
-            ],
-            [
-              533426.147272152,
-              183919.656623034
-            ],
-            [
-              533416.154257842,
-              183920.106493861
-            ],
-            [
-              533414.76084276,
-              183920.166477044
-            ],
-            [
-              533413.903356145,
-              183920.206465126
-            ],
-            [
-              533412.847988212,
-              183903.001390467
-            ],
-            [
-              533411.998747118,
-              183902.951404858
-            ],
-            [
-              533410.547616436,
-              183902.901418883
-            ],
-            [
-              533410.498145929,
-              183900.152205848
-            ],
-            [
-              533411.75139514,
-              183900.202191465
-            ],
-            [
-              533412.650107215,
-              183900.20219137
-            ],
-            [
-              533412.353284562,
-              183895.503536483
-            ],
-            [
-              533441.606761193,
-              183894.123931623
-            ],
-            [
-              533442.348817175,
-              183909.549515747
-            ]
-          ]
-        ]
+        ],
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -200,90 +169,76 @@
   "appeal_start_date": null,
   "decision_process": "Delegated",
   "ward": "Haggerston Ward",
-  "street_name": "KINGSLAND ROAD",
+  "street_name": "Kingsland Road",
   "secondary_street_name": null,
   "lpa_name": "Hackney",
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": null,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.077307,
-          51.538322
-        ],
-        [
-          -0.077296,
-          51.538405
-        ],
-        [
-          -0.077374,
-          51.538409
-        ],
-        [
-          -0.077537,
-          51.538417
-        ],
-        [
-          -0.077681,
-          51.538423
-        ],
-        [
-          -0.077701,
-          51.538424
-        ],
-        [
-          -0.077713,
-          51.538424
-        ],
-        [
-          -0.077735,
-          51.53827
-        ],
-        [
-          -0.077747,
-          51.53827
-        ],
-        [
-          -0.077768,
-          51.53827
-        ],
-        [
-          -0.07777,
-          51.538245
-        ],
-        [
-          -0.077752,
-          51.538245
-        ],
-        [
-          -0.077739,
-          51.538245
-        ],
-        [
-          -0.077745,
-          51.538203
-        ],
-        [
-          -0.077324,
-          51.538184
-        ],
-        [
-          -0.077307,
-          51.538322
+          [
+            -0.077307,
+            51.538322
+          ],
+          [
+            -0.077296,
+            51.538405
+          ],
+          [
+            -0.077374,
+            51.538409
+          ],
+          [
+            -0.077537,
+            51.538417
+          ],
+          [
+            -0.077681,
+            51.538423
+          ],
+          [
+            -0.077701,
+            51.538424
+          ],
+          [
+            -0.077713,
+            51.538424
+          ],
+          [
+            -0.077735,
+            51.53827
+          ],
+          [
+            -0.077739,
+            51.538245
+          ],
+          [
+            -0.077745,
+            51.538203
+          ],
+          [
+            -0.077324,
+            51.538183
+          ],
+          [
+            -0.077307,
+            51.538322
+          ]
         ]
       ]
     ]
   },
-  "uprn": "10008239492",
+  "uprn": 10008239492,
   "application_type": "All Other",
   "centroid": {
     "lat": 51.538221,
     "lon": -0.077489
   },
   "lapsed_date": "11/09/2028",
-  "application_type_full": null,
+  "application_type_full": "Full planning & listed building consent",
   "centroid_easting": 533430,
   "actual_completion_date": null
 }

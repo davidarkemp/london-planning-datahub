@@ -3,15 +3,15 @@
   "application_type": "All Other",
   "decision": "Refused",
   "decision_conditions": null,
-  "centroid_northing": null,
+  "centroid_northing": 190876,
   "url_planning_app": "https://builtenvironment.walthamforest.gov.uk/planning/index.html?fa=getApplication&id=117895",
   "lpa_app_no": "251164",
   "site_number": "73",
   "ward": "Higham Hill",
-  "locality": null,
+  "locality": "London",
   "last_date_consultation_comments": "16/06/2025",
   "date_building_work_started_under_previous_permission": null,
-  "description": "Construction of a single storey building to create a one bedroom single-dwelling flat (Use Class C3) with associated soft and hard landscaping, refuse/recycle waste bin and bicycle storage.",
+  "description": "Derelict state to be proposed into a 1 bedroom, 2 person dwelling with a hipped roof and skylights.\n\n",
   "parking_details": {
     "no_existing_cycle": 0,
     "no_proposed_cycle": 2,
@@ -23,7 +23,7 @@
   "date_building_work_completed_under_previous_permission": null,
   "pp_id": "13950633",
   "status": "Appeal Received",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "polygon": {
     "crs": {
       "type": "name",
@@ -36,82 +36,126 @@
         "coordinates": [
           [
             [
-              536049.916307778,
-              190865.742274399
-            ],
-            [
-              536057.0878036,
-              190867.096205242
-            ],
-            [
-              536055.269309943,
-              190877.001582654
-            ],
-            [
-              536047.982565612,
-              190875.810464436
-            ],
-            [
-              536049.916307778,
-              190865.742274399
+              [
+                536056.05,
+                190871.9
+              ],
+              [
+                536055.25,
+                190876.95
+              ],
+              [
+                536052.9,
+                190876.55
+              ],
+              [
+                536050.5,
+                190876.15
+              ],
+              [
+                536048.1,
+                190875.75
+              ],
+              [
+                536048.95,
+                190870.7
+              ],
+              [
+                536049.9,
+                190865.9
+              ],
+              [
+                536057,
+                190867.26
+              ],
+              [
+                536056.998,
+                190867.272
+              ],
+              [
+                536056.05,
+                190871.9
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
-    "type": "geometrycollection"
+    "type": "GeometryCollection"
   },
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.037042,
-          51.600209
-        ],
-        [
-          -0.036938,
-          51.600219
-        ],
-        [
-          -0.03696,
-          51.600309
-        ],
-        [
-          -0.037066,
-          51.6003
-        ],
-        [
-          -0.037042,
-          51.600209
+          [
+            -0.036951,
+            51.600263
+          ],
+          [
+            -0.03696,
+            51.600308
+          ],
+          [
+            -0.036994,
+            51.600305
+          ],
+          [
+            -0.037029,
+            51.600302
+          ],
+          [
+            -0.037064,
+            51.600299
+          ],
+          [
+            -0.037054,
+            51.600254
+          ],
+          [
+            -0.037042,
+            51.60021
+          ],
+          [
+            -0.036939,
+            51.600221
+          ],
+          [
+            -0.036939,
+            51.600221
+          ],
+          [
+            -0.036951,
+            51.600263
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "appeal_decision_date": null,
   "secondary_street_name": null,
   "lapsed_date": "08/07/2028",
   "bo_system": "Portal",
   "decision_date": "08/07/2025",
-  "centroid_easting": null,
+  "centroid_easting": 536054,
   "actual_commencement_date": null,
   "id": "Waltham_Forest-251164",
   "lpa_name": "Waltham Forest",
   "decision_target_date": "08/07/2025",
   "valid_date": "13/05/2025",
   "development_type": "Minor dwellings",
-  "last_updated": "2026-04-15T12:21:12.026Z",
+  "last_updated": "2026-06-27T10:21:59.222Z",
   "subdivision_of_building": "There is no existing building.",
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
-    "lat": 49.766807,
-    "lon": -7.55716
+    "lat": 51.6003,
+    "lon": -0.036979
   },
   "decision_process": "Delegated",
   "application_type_full": "Full planning permission",
   "decision_agency": "Borough",
-  "street_name": "LAWRENCE AVENUE",
+  "street_name": "Garage Adjacent to 73 Lawrence Avenue",
   "appeal_decision": null,
   "title_number": null,
   "site_name": null,
@@ -205,8 +249,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 0,
-        "use_class": "C3",
         "gia_gained": 53.6,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -236,11 +280,17 @@
       "total_no_proposed_residential_units_starter_homes": 0,
       "residential_units": [
         {
-          "provider": "Private",
-          "no_habitable_rooms": 2,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "House or Bungalow",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
           "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 53.6
         }
@@ -299,8 +349,10 @@
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "no_non_resi_units_to_have_full_fibre": 0,
-      "total_annual_pm_emissions": 0
-    }
+      "total_annual_pm_emissions": 0,
+      "urban_greening_factor_score": 0
+    },
+    "occupation_status": "Vacant"
   },
   "epc_number": null,
   "uprn": "100022561376",

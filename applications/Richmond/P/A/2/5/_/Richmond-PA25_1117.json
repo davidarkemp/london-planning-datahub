@@ -3,8 +3,8 @@
   "decision_process": null,
   "actual_commencement_date": null,
   "centroid": {
-    "lat": 51.481513,
-    "lon": -0.286226
+    "lat": 51.481503,
+    "lon": -0.286183
   },
   "appeal_decision": null,
   "bo_system": "Agile APAS",
@@ -19,18 +19,25 @@
   ],
   "postcode": "TW9 3JA",
   "decision_date": "31/07/2025",
-  "last_updated_by": "Agile APAS",
-  "centroid_easting": 519102,
+  "last_updated_by": "Planning Portal ingest",
+  "centroid_easting": 519105,
   "secondary_street_name": null,
   "appeal_status": null,
   "description": "Demolition of existing house. Construction of new 3 bedroom house with garage and cycle storage",
   "ward": null,
-  "parking_details": {},
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 1,
+    "net_car": 0,
+    "no_proposed_cycle": 2,
+    "no_proposed_car": 1,
+    "net_cycle": 2
+  },
   "development_type": null,
-  "last_updated": "2025-09-18T00:01:52.572Z",
+  "last_updated": "2026-06-27T15:42:16.542Z",
   "last_date_consultation_comments": "24/07/2025",
   "uprn": "MAN000000000814731",
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "decision_agency": null,
   "subdivision_of_building": null,
   "title_number": null,
@@ -43,38 +50,48 @@
     "coordinates": [
       [
         [
-          -0.286204,
-          51.481526
-        ],
-        [
-          -0.286205,
-          51.481499
-        ],
-        [
-          -0.286248,
-          51.4815
-        ],
-        [
-          -0.286247,
-          51.481527
-        ],
-        [
-          -0.286204,
-          51.481526
+          [
+            -0.286154,
+            51.481512
+          ],
+          [
+            -0.286209,
+            51.481539
+          ],
+          [
+            -0.286251,
+            51.481508
+          ],
+          [
+            -0.286273,
+            51.48149
+          ],
+          [
+            -0.286218,
+            51.481463
+          ],
+          [
+            -0.286199,
+            51.481478
+          ],
+          [
+            -0.286154,
+            51.481512
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "pp_id": "PP-13930303",
   "decision": "Approved",
-  "centroid_northing": 177232,
-  "site_number": "7",
+  "centroid_northing": 177231,
+  "site_number": 7,
   "epc_number": null,
   "cil_liability": null,
   "application_type": "All Other",
   "borough": "Richmond",
-  "locality": null,
+  "locality": "Richmond",
   "polygon": {
     "coordinates": [
       [
@@ -124,14 +141,130 @@
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "GeometryCollection",
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                519107.05,
+                177232.05
+              ],
+              [
+                519103.1,
+                177234.95
+              ],
+              [
+                519100.3,
+                177231.35
+              ],
+              [
+                519098.85,
+                177229.4
+              ],
+              [
+                519102.7,
+                177226.45
+              ],
+              [
+                519103.991,
+                177228.112
+              ],
+              [
+                519107.05,
+                177232.05
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      },
+      {
+        "coordinates": [
+          519147.74999999994,
+          177259.75
+        ],
+        "type": "Point"
+      },
+      {
+        "coordinates": [
+          519047.99999999994,
+          177219.85
+        ],
+        "type": "Point"
+      }
+    ]
   },
   "valid_date": "13/06/2025",
   "application_details": {
     "lead_developer_company_name": "LBRuT Transport",
-    "site_area": 0.006
+    "site_area": 0.0111,
+    "superseding_details": [
+      {
+        "lpa_app_no": "24/2878/HOT",
+        "partial_supersedence": false
+      }
+    ],
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "main works",
+        "intended_completion_date": "02/2026",
+        "intended_commencement_date": "07/2025"
+      }
+    ],
+    "total_gia_gained": 88,
+    "total_gia_lost": 0,
+    "total_gia_existing": 51,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 51,
+        "gia_gained": 88,
+        "use_class": "C3",
+        "gia_lost": 0
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied",
+    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": true,
+    "surface_water_discharge_percentage_reduction": 0,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 88,
+      "total_gia_lost": 0,
+      "total_gia_existing": 51
+    },
+    "garden_land_lost": false,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0,
+      "no_passive_rapid_ev_charging_points": 0,
+      "no_resi_units_to_have_full_fibre": 0,
+      "green_roof_area": 30,
+      "urban_greening_factor_score": 0.4,
+      "solar_pv_capacity": 25,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_active_rapid_ev_charging_points": 1,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 20,
+      "no_homes_to_have_electrical_heating": 1,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 0,
+      "chp_heat_pumps_capacity": 45,
+      "ghg_reduction_over_building_regulations": true
+    },
+    "internal_resi_water_usage": 105,
+    "ownership_status": "Private"
   },
   "id": "Richmond-PA25_1117",
-  "reference_no_of_permission_being_relied_on": null,
+  "reference_no_of_permission_being_relied_on": "24/2878/HOT",
   "status": "Comment Issued"
 }

@@ -11,7 +11,7 @@
   "decision_target_date": "11/03/2026",
   "valid_date": "14/01/2026",
   "lpa_app_no": "260088",
-  "locality": null,
+  "locality": "Walthamstow",
   "appeal_decision_date": null,
   "parking_details": {
     "net_car": 0,
@@ -19,9 +19,9 @@
     "no_proposed_car": 2
   },
   "decision_process": "Delegated",
-  "street_name": "SUTHERLAND ROAD",
-  "site_number": "10",
-  "centroid_easting": null,
+  "street_name": "Sutherland Road",
+  "site_number": 10,
+  "centroid_easting": 536214,
   "polygon": {
     "crs": {
       "properties": {
@@ -34,36 +34,78 @@
         "coordinates": [
           [
             [
-              536215.796699404,
-              189815.875938693
-            ],
-            [
-              536203.757916114,
-              189838.492163511
-            ],
-            [
-              536212.625855558,
-              189841.615158356
-            ],
-            [
-              536223.668097024,
-              189820.20846073
-            ],
-            [
-              536215.796699404,
-              189815.875938693
+              [
+                536208.186,
+                189829.852
+              ],
+              [
+                536209.3,
+                189827.7
+              ],
+              [
+                536210.4,
+                189826
+              ],
+              [
+                536213.7,
+                189819.7
+              ],
+              [
+                536215.85,
+                189815.45
+              ],
+              [
+                536223.85,
+                189820.05
+              ],
+              [
+                536221.7,
+                189824.05
+              ],
+              [
+                536219.5,
+                189828.2
+              ],
+              [
+                536216.247,
+                189834.264
+              ],
+              [
+                536212.5,
+                189841.25
+              ],
+              [
+                536204.701,
+                189838.816
+              ],
+              [
+                536203.85,
+                189838.55
+              ],
+              [
+                536203.7,
+                189838.5
+              ],
+              [
+                536204.85,
+                189836.3
+              ],
+              [
+                536208.186,
+                189829.852
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
-    "type": "geometrycollection"
+    "type": "GeometryCollection"
   },
   "ward": "Higham Hill",
-  "centroid_northing": null,
+  "centroid_northing": 189825,
   "application_type": "All Other",
-  "uprn": "100022588499",
+  "uprn": 100022588499,
   "lapsed_date": "10/03/2029",
   "actual_completion_date": null,
   "decision": "Refused",
@@ -77,14 +119,14 @@
   "development_type": "Minor dwellings",
   "appeal_status": null,
   "date_building_work_completed_under_previous_permission": null,
-  "description": "Conversion of existing dwelling house (use class C3) into two self-contained residential units (1x3-bed &amp; 1x1-bed).&nbsp; (Amended description)",
+  "description": "Conversion of existing House in Multiple Occupation (HMO) to two independent dwellings (1x3bed and 1x1 bed).",
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
   "epc_number": "2180-1455-8070-9209-4209",
-  "last_updated": "2026-04-15T12:21:09.513Z",
+  "last_updated": "2026-06-27T10:22:35.132Z",
   "centroid": {
-    "lon": -7.55716,
-    "lat": 49.766807
+    "lon": -0.035078,
+    "lat": 51.590817
   },
   "lpa_name": "Waltham Forest",
   "secondary_street_name": null,
@@ -125,20 +167,32 @@
       "total_no_existing_residential_units": 0,
       "residential_units": [
         {
-          "provider": "Private",
-          "no_habitable_rooms": 2,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Terraced Home",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
           "no_bedrooms": 3,
+          "provision_for_older_persons": false,
           "tenure": "London Affordable Rent",
           "gia": 112
         },
         {
-          "provider": "Private",
-          "no_habitable_rooms": 1,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Terraced Home",
+          "no_habitable_rooms": 1,
+          "provider": "Private",
           "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "tenure": "London Affordable Rent",
           "gia": 62.5
         }
@@ -157,8 +211,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 174.5,
-        "use_class": "C4",
         "gia_gained": 0,
+        "use_class": "C4",
         "gia_lost": 0
       }
     ],
@@ -187,7 +241,8 @@
       "no_homes_passive_cooling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_pm_emissions": 0,
-      "percentage_demolition_construction_material_recycling": 0
+      "percentage_demolition_construction_material_recycling": 0,
+      "urban_greening_factor_score": 0
     },
     "affordable_housing_fast_track": false,
     "phasing_details": [
@@ -200,37 +255,80 @@
     "total_gia_gained": 0,
     "ownership_status": "Private",
     "rain_water_harvesting": false,
-    "site_area": 0.022
+    "site_area": 0.022,
+    "occupation_status": "Occupied"
   },
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.035055,
-          51.590735
-        ],
-        [
-          -0.03522,
-          51.590941
-        ],
-        [
-          -0.035091,
-          51.590967
-        ],
-        [
-          -0.03494,
-          51.590772
-        ],
-        [
-          -0.035055,
-          51.590735
+          [
+            -0.03516,
+            51.590862
+          ],
+          [
+            -0.035144,
+            51.590843
+          ],
+          [
+            -0.035129,
+            51.590827
+          ],
+          [
+            -0.035084,
+            51.59077
+          ],
+          [
+            -0.035055,
+            51.590731
+          ],
+          [
+            -0.034937,
+            51.59077
+          ],
+          [
+            -0.034967,
+            51.590807
+          ],
+          [
+            -0.034997,
+            51.590845
+          ],
+          [
+            -0.035042,
+            51.5909
+          ],
+          [
+            -0.035093,
+            51.590964
+          ],
+          [
+            -0.035206,
+            51.590944
+          ],
+          [
+            -0.035219,
+            51.590941
+          ],
+          [
+            -0.035221,
+            51.590941
+          ],
+          [
+            -0.035205,
+            51.590921
+          ],
+          [
+            -0.03516,
+            51.590862
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "id": "Waltham_Forest-260088",
   "reference_no_of_permission_being_relied_on": null,
   "title_number": null,
-  "last_updated_by": "Portal"
+  "last_updated_by": "Planning Portal ingest"
 }

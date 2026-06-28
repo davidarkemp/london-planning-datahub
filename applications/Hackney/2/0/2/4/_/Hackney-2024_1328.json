@@ -5,10 +5,10 @@
   "decision_process": "Delegated",
   "appeal_start_date": null,
   "lapsed_date": "17/06/2028",
-  "uprn": "10008238372",
-  "locality": "HACKNEY",
+  "uprn": 10008238372,
+  "locality": "London",
   "appeal_decision_date": null,
-  "centroid_easting": 534518,
+  "centroid_easting": 534522,
   "application_details": {
     "phasing_details": [
       {
@@ -32,7 +32,8 @@
       "no_new_gas_connections_required": 0,
       "total_annual_nox_emissions": 0,
       "ghg_reduction_over_building_regulations": false,
-      "fire_suppression_system_proposed": false
+      "fire_suppression_system_proposed": false,
+      "urban_greening_factor_score": 0
     },
     "constraints_details": [
       {
@@ -308,7 +309,7 @@
     "grey_water_reuse": false,
     "total_gia_lost": 0,
     "surface_water_discharge_percentage_reduction": 0,
-    "site_area": 154.4,
+    "site_area": 0.01544,
     "ownership_status": "Private",
     "non_residential_details": {
       "total_gia_existing": 256.2,
@@ -321,15 +322,16 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 256.2,
-        "use_class": "EA",
         "gia_gained": 0,
+        "use_class": "EA",
         "gia_lost": 0
       }
     ],
-    "rain_water_harvesting": false
+    "rain_water_harvesting": false,
+    "occupation_status": "Occupied"
   },
   "date_building_work_completed_under_previous_permission": null,
-  "site_name": null,
+  "site_name": "43-45",
   "borough": "Hackney",
   "status": "Approved",
   "epc_number": "9543-3029-0687-0400-7291",
@@ -338,40 +340,42 @@
     "coordinates": [
       [
         [
-          -0.061753,
-          51.536859
-        ],
-        [
-          -0.061971,
-          51.536925
-        ],
-        [
-          -0.061919,
-          51.537
-        ],
-        [
-          -0.061698,
-          51.536935
-        ],
-        [
-          -0.061753,
-          51.536859
+          [
+            -0.061699,
+            51.536935
+          ],
+          [
+            -0.061919,
+            51.537
+          ],
+          [
+            -0.061972,
+            51.536926
+          ],
+          [
+            -0.061753,
+            51.536861
+          ],
+          [
+            -0.061699,
+            51.536935
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "cil_liability": null,
   "title_number": null,
   "application_type": "All Other",
-  "street_name": "BROADWAY MARKET",
+  "street_name": "Broadway Market",
   "actual_commencement_date": null,
   "parking_details": null,
   "decision_target_date": "02/10/2024",
   "lpa_name": "Hackney",
   "secondary_street_name": null,
   "decision_date": "17/06/2025",
-  "last_updated": "2026-04-15T11:24:26.292Z",
+  "last_updated": "2026-06-27T18:10:45.070Z",
   "url_planning_app": "https://developmentandhousing.hackney.gov.uk//planning/index.html?fa=getApplication&id=80042",
   "ward": "London Fields Ward",
   "valid_date": "07/08/2024",
@@ -379,14 +383,14 @@
   "development_type": "Minor retail and service",
   "appeal_decision": null,
   "postcode": "E8 4PH",
-  "centroid_northing": 183783,
-  "description": "Installation of new shopfront and retractable canopy.",
+  "centroid_northing": 183779,
+  "description": "Installation of new shopfront and retractable canopy. Installation of new externally illuminated fascia sign.",
   "subdivision_of_building": "ground floor",
   "actual_completion_date": null,
   "lpa_app_no": "2024/1328",
   "decision": "Approved",
   "application_type_full": "Full planning & display of advertisements",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_status": null,
   "id": "Hackney-2024_1328",
   "decision_conditions": [
@@ -402,31 +406,40 @@
         "coordinates": [
           [
             [
-              534525.267578757,
-              183775.374883832
-            ],
-            [
-              534509.96544352,
-              183782.299946138
-            ],
-            [
-              534513.35598669,
-              183790.693242412
-            ],
-            [
-              534528.904212705,
-              183783.933677383
-            ],
-            [
-              534525.267578757,
-              183775.374883832
+              [
+                534528.85,
+                183783.85
+              ],
+              [
+                534513.3468454202,
+                183790.74263931374
+              ],
+              [
+                534509.9,
+                183782.35
+              ],
+              [
+                534525.3,
+                183775.5
+              ],
+              [
+                534528.85,
+                183783.85
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
+      },
+      {
+        "coordinates": [
+          534530.2950042724,
+          183771.36132152606
+        ],
+        "type": "Point"
       }
     ],
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "crs": {
       "type": "name",
       "properties": {
@@ -435,7 +448,7 @@
     }
   },
   "centroid": {
-    "lat": 51.53693,
-    "lon": -0.061855
+    "lat": 51.536893,
+    "lon": -0.061799
   }
 }

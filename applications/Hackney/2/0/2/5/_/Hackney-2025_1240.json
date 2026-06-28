@@ -1,11 +1,13 @@
 {
   "decision_target_date": "06/08/2025",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Certificates of Lawful Development",
   "postcode": "E5 0PP",
-  "title_number": null,
+  "title_number": [
+    "92"
+  ],
   "application_details": {
     "residential_details": {
       "total_no_existing_residential_units_shared_equity": 0,
@@ -47,32 +49,23 @@
       "residential_units": [
         {
           "change_type": "Gain",
-          "provider": null,
-          "phase_detail": null,
-          "garden_land": null,
-          "m43_2a_compliant": null,
-          "unit_no": null,
-          "no_bedrooms": 1,
-          "m42_compliant": null,
-          "tenure": null,
-          "no_habitable_rooms": null,
-          "description": null,
-          "m43_2b_compliant": null,
-          "provision_for_older_persons": false,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": null
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false
         }
       ]
     },
     "other_residential_accommodation_details": {
       "no_council_tax_rateable_units_lost": 1,
       "no_council_tax_rateable_units_gained": 1
-    }
+    },
+    "no_additional_bathrooms": 0,
+    "no_additional_bedrooms": 0
   },
   "decision_date": "03/09/2025",
   "url_planning_app": "https://developmentandhousing.hackney.gov.uk//planning/index.html?fa=getApplication&id=83282",
   "borough": "Hackney",
-  "locality": "HACKNEY",
+  "locality": "London",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
   "parking_details": null,
@@ -81,14 +74,14 @@
   "pp_id": "14050070",
   "subdivision_of_building": null,
   "status": "Approved",
-  "description": "Certificate of Lawful Use (Existing) for use of the property as 2no self contained flats within Use Class C3.",
+  "description": "92 Powerscroft Road, London, E5 0PP",
   "decision_conditions": null,
-  "site_number": "92",
-  "last_updated": "2026-04-15T11:37:57.213Z",
+  "site_number": 92,
+  "last_updated": "2026-06-27T19:27:28.465Z",
   "last_date_consultation_comments": "08/09/2025",
   "valid_date": "11/06/2025",
   "actual_commencement_date": null,
-  "centroid_northing": null,
+  "centroid_northing": 185807,
   "appeal_decision": null,
   "decision_agency": "Borough",
   "lpa_app_no": "2025/1240",
@@ -96,101 +89,56 @@
   "decision": "Approved",
   "id": "Hackney-2025_1240",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
-              535448.603044313,
-              185795.849568195
-            ],
-            [
-              535430.496890156,
-              185805.456818097
-            ],
-            [
-              535417.700555414,
-              185812.354843352
-            ],
-            [
-              535414.946704616,
-              185813.804428497
-            ],
-            [
-              535412.654578094,
-              185809.505659152
-            ],
-            [
-              535415.449653474,
-              185808.056073935
-            ],
-            [
-              535422.004477248,
-              185804.607061486
-            ],
-            [
-              535429.152945308,
-              185800.808149076
-            ],
-            [
-              535446.797376203,
-              185791.200898837
-            ],
-            [
-              535448.603044313,
-              185795.849568195
+              [
+                535415.45,
+                185808.05
+              ],
+              [
+                535422,
+                185804.6
+              ],
+              [
+                535429.15,
+                185800.8
+              ],
+              [
+                535446.8,
+                185791.2
+              ],
+              [
+                535448.6,
+                185795.85
+              ],
+              [
+                535430.5,
+                185805.45
+              ],
+              [
+                535417.7,
+                185812.35
+              ],
+              [
+                535414.95,
+                185813.8
+              ],
+              [
+                535412.65,
+                185809.5
+              ],
+              [
+                535415.45,
+                185808.05
+              ]
             ]
           ]
-        ]
-      },
-      {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              535448.603044313,
-              185795.849568195
-            ],
-            [
-              535430.496890156,
-              185805.456818097
-            ],
-            [
-              535417.700555414,
-              185812.354843352
-            ],
-            [
-              535414.946704616,
-              185813.804428497
-            ],
-            [
-              535412.654578094,
-              185809.505659152
-            ],
-            [
-              535415.449653474,
-              185808.056073935
-            ],
-            [
-              535422.004477248,
-              185804.607061486
-            ],
-            [
-              535429.152945308,
-              185800.808149076
-            ],
-            [
-              535446.797376203,
-              185791.200898837
-            ],
-            [
-              535448.603044313,
-              185795.849568195
-            ]
-          ]
-        ]
+        ],
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -203,66 +151,68 @@
   "appeal_start_date": null,
   "decision_process": "Delegated",
   "ward": "Lea Bridge Ward",
-  "street_name": "POWERSCROFT ROAD",
+  "street_name": "Powerscroft Road",
   "secondary_street_name": null,
   "lpa_name": "Hackney",
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": null,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.047672,
-          51.554795
-        ],
-        [
-          -0.047929,
-          51.554886
-        ],
-        [
-          -0.048111,
-          51.554951
-        ],
-        [
-          -0.04815,
-          51.554965
-        ],
-        [
-          -0.048185,
-          51.554927
-        ],
-        [
-          -0.048145,
-          51.554913
-        ],
-        [
-          -0.048052,
-          51.55488
-        ],
-        [
-          -0.04795,
-          51.554844
-        ],
-        [
-          -0.047699,
-          51.554754
-        ],
-        [
-          -0.047672,
-          51.554795
+          [
+            -0.048145,
+            51.554913
+          ],
+          [
+            -0.048052,
+            51.55488
+          ],
+          [
+            -0.04795,
+            51.554844
+          ],
+          [
+            -0.047699,
+            51.554754
+          ],
+          [
+            -0.047672,
+            51.554795
+          ],
+          [
+            -0.047929,
+            51.554886
+          ],
+          [
+            -0.048111,
+            51.554951
+          ],
+          [
+            -0.04815,
+            51.554965
+          ],
+          [
+            -0.048185,
+            51.554926
+          ],
+          [
+            -0.048145,
+            51.554913
+          ]
         ]
       ]
     ]
   },
-  "uprn": "100023002073",
+  "uprn": 100023002073,
   "application_type": "All Other",
   "centroid": {
-    "lat": 49.766807,
-    "lon": -7.55716
+    "lat": 51.554902,
+    "lon": -0.048051
   },
   "lapsed_date": "03/09/2028",
-  "application_type_full": null,
-  "centroid_easting": null,
+  "application_type_full": "Lawful development: Existing use",
+  "centroid_easting": 535422,
   "actual_completion_date": null
 }

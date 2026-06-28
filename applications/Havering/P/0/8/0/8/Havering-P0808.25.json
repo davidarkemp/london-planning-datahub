@@ -30,23 +30,29 @@
   ],
   "postcode": "RM11 2PP",
   "decision_date": "18/07/2025",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Planning Portal ingest",
   "centroid_easting": 554786,
   "secondary_street_name": null,
   "appeal_status": null,
-  "description": "Conversion of garage to habitable space",
+  "description": "Garage conversion into habitable space, removing garage door and adding a window, and internal reconfiguration",
   "ward": "Emerson Park",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 4,
+    "net_car": 0,
+    "no_proposed_car": 4
+  },
   "development_type": null,
-  "last_updated": "2025-09-13T03:59:09.038Z",
+  "last_updated": "2026-06-27T12:08:19.058Z",
   "last_date_consultation_comments": "14/07/2025",
-  "uprn": "100021336668",
-  "application_type_full": null,
+  "uprn": 100021336668,
+  "application_type_full": "Householder planning permission",
   "decision_agency": "Borough",
   "subdivision_of_building": null,
-  "title_number": null,
+  "title_number": [
+    "NGL132202"
+  ],
   "site_name": "87 Nelmes Crescent",
-  "street_name": "Hornchurch",
+  "street_name": "Nelmes Crescent",
   "appeal_decision_date": null,
   "date_building_work_completed_under_previous_permission": null,
   "lapsed_date": "18/07/2028",
@@ -54,122 +60,126 @@
     "coordinates": [
       [
         [
-          0.2321507,
-          51.5759524
-        ],
-        [
-          0.2321527,
-          51.5759501
-        ],
-        [
-          0.2322275,
-          51.57587
-        ],
-        [
-          0.23232019999999998,
-          51.5759037
-        ],
-        [
-          0.2324551,
-          51.5759528
-        ],
-        [
-          0.2326237,
-          51.5760142
-        ],
-        [
-          0.232683,
-          51.5760358
-        ],
-        [
-          0.23260689999999998,
-          51.5761168
-        ],
-        [
-          0.23256729999999998,
-          51.5761025
-        ],
-        [
-          0.2324116,
-          51.5760464
-        ],
-        [
-          0.2322406,
-          51.5759848
-        ],
-        [
-          0.2321507,
-          51.5759524
+          [
+            0.232541,
+            51.576101
+          ],
+          [
+            0.232385,
+            51.576045
+          ],
+          [
+            0.232215,
+            51.575983
+          ],
+          [
+            0.232125,
+            51.575951
+          ],
+          [
+            0.232127,
+            51.575948
+          ],
+          [
+            0.232201,
+            51.575868
+          ],
+          [
+            0.232294,
+            51.575902
+          ],
+          [
+            0.232429,
+            51.575951
+          ],
+          [
+            0.232598,
+            51.576012
+          ],
+          [
+            0.232657,
+            51.576034
+          ],
+          [
+            0.232581,
+            51.576115
+          ],
+          [
+            0.232541,
+            51.576101
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "pp_id": "14083645",
   "decision": "Approved",
   "centroid_northing": 188705,
-  "site_number": null,
-  "epc_number": null,
+  "site_number": 87,
+  "epc_number": "8400-6216-0322-5107-3723",
   "cil_liability": false,
-  "application_type": "All Other",
+  "application_type": "Householder",
   "borough": "Havering",
-  "locality": null,
+  "locality": "Hornchurch",
   "polygon": {
     "geometries": [
       {
         "coordinates": [
           [
             [
-              554772.55,
-              188703.2
-            ],
-            [
-              554772.7,
-              188702.95
-            ],
-            [
-              554778.15,
-              188694.2
-            ],
-            [
-              554784.459,
-              188698.148
-            ],
-            [
-              554793.643,
-              188703.895
-            ],
-            [
-              554805.113,
-              188711.074
-            ],
-            [
-              554809.15,
-              188713.6
-            ],
-            [
-              554803.6,
-              188722.45
-            ],
-            [
-              554800.904,
-              188720.778
-            ],
-            [
-              554790.307,
-              188714.209
-            ],
-            [
-              554778.673,
-              188706.996
-            ],
-            [
-              554772.55,
-              188703.2
+              [
+                554800.904,
+                188720.778
+              ],
+              [
+                554790.307,
+                188714.209
+              ],
+              [
+                554778.673,
+                188706.996
+              ],
+              [
+                554772.55,
+                188703.2
+              ],
+              [
+                554772.7,
+                188702.95
+              ],
+              [
+                554778.15,
+                188694.2
+              ],
+              [
+                554784.459,
+                188698.148
+              ],
+              [
+                554793.643,
+                188703.895
+              ],
+              [
+                554805.113,
+                188711.074
+              ],
+              [
+                554809.15,
+                188713.6
+              ],
+              [
+                554803.6,
+                188722.45
+              ],
+              [
+                554800.904,
+                188720.778
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "type": "GeometryCollection"
@@ -177,7 +187,12 @@
   "valid_date": "19/06/2025",
   "application_details": {
     "existing_uprns": null,
-    "site_area": 0.038000000000000006
+    "site_area": 0.038000000000000006,
+    "total_gia_gained": 0,
+    "no_additional_bathrooms": 0,
+    "no_additional_bedrooms": 0,
+    "intended_commencement_date": "09/2025",
+    "intended_completion_date": "12/2025"
   },
   "id": "Havering-P0808.25",
   "reference_no_of_permission_being_relied_on": null,

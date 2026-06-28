@@ -5,31 +5,41 @@
   "last_date_consultation_comments": "26/11/2025",
   "centroid_easting": 518436,
   "decision_target_date": "02/10/2025",
-  "parking_details": null,
+  "parking_details": {
+    "no_proposed_bluebadge": 1,
+    "no_existing_car": 4,
+    "no_existing_other": 0,
+    "no_existing_bluebadge": 0,
+    "net_car": -2,
+    "no_proposed_car": 2,
+    "net_bluebadge": 1,
+    "no_proposed_other": 1,
+    "net_other": 1
+  },
   "actual_completion_date": null,
   "epc_number": "7888-4045-0407-4942-2705",
   "appeal_decision_date": null,
   "site_name": "Woodbury",
-  "application_type_full": null,
-  "description": "Demolition of detached garage, single storey rear and side extensions and erection of single storey rear extension, two storey side extension and erection of 2nos. rear dormer roof extensions to facilitate second floor extension. With associated external alterations.",
+  "application_type_full": "Full planning permission",
+  "description": "Single storey rear extension, two storey side extension and other external alterations to facilitate the provision of children's care",
   "appeal_status": null,
   "application_type": "All Other",
   "ward": "Surbiton Hill",
   "pp_id": "PP-14120566",
   "appeal_decision": null,
-  "uprn": "000128009655",
+  "uprn": 128009655,
   "centroid": {
     "lat": 51.386142,
     "lon": -0.299363
   },
   "appeal_start_date": null,
   "date_building_work_started_under_previous_permission": null,
-  "locality": null,
+  "locality": "Surbiton",
   "lapsed_date": "24/11/2028",
   "bo_system": "Idox Uniform",
   "secondary_street_name": null,
   "subdivision_of_building": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "status": "Approved",
   "url_planning_app": "https://publicaccess.kingston.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=SZUB60NHIEO00",
   "lpa_app_no": "25/01949/FUL",
@@ -40,60 +50,47 @@
     "existing_uprns": [
       "000128009655"
     ],
-    "site_area": 2389,
-    "total_gia_existing": 0,
+    "site_area": 0.2389,
+    "total_gia_existing": 489.5,
     "ownership_status": "Private",
     "constraints_details": [
       {
-        "result": null,
         "constraints_layer_description": "CONARA Name: Southborough Conservation Area"
       },
       {
-        "result": null,
         "constraints_layer_description": "LASC Name: St. Matthews Avenue"
       },
       {
-        "result": null,
         "constraints_layer_description": "NEIPOL Name: S1  Surbiton"
       },
       {
-        "result": null,
         "constraints_layer_description": "LGW Name: London Gatwick Safeguarding Zone (200m)"
       },
       {
-        "result": null,
         "constraints_layer_description": "SMKCON Name: Borough Wide Smoke Control Order"
       },
       {
-        "result": null,
         "constraints_layer_description": "NEIGH Name: Surbiton"
       },
       {
-        "result": null,
         "constraints_layer_description": "AIRCZ Type:: Gatwick Airport Wind Turbine Consultation Zone:\rContact: The Safeguarding Department, Gatwick Airport Limited, 7th Floor Destinations Place, London Gatwick Airport, West Sussex, RH06 0NP"
       },
       {
-        "result": null,
         "constraints_layer_description": "AIRCZ Type:: Heathrow Planning Consultation Zone: All buildings, structures, erections and works exceeding 90 metres in height (295.3 feet)\rContact: The Safeguarding Department, Heathrow Airport Limited, c/o Planning Services, First Point, Buckingham Gate, Gatwick Airport, West Sussex, RH6 0NT"
       },
       {
-        "result": null,
         "constraints_layer_description": "HWTERR Type: TERRIER\rDescription: HD"
       },
       {
-        "result": null,
         "constraints_layer_description": "HWTERR Type: TERRIER\rDescription: P"
       },
       {
-        "result": null,
         "constraints_layer_description": "LBCASE LB Address: Woodbury 8 Kingsdowne Road\rLB Grade: LOCAL\rLB Ref: 246"
       },
       {
-        "result": null,
         "constraints_layer_description": "VALUER Type: VALUERS\rDescription: Social Services"
       },
       {
-        "result": null,
         "constraints_layer_description": "VALUER Type: VALUERS\rDescription: Non-Ownership Interests"
       }
     ],
@@ -143,8 +140,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 489.5,
-        "use_class": "C2",
         "gia_gained": 199.4,
+        "use_class": "C2",
         "gia_lost": 54.2
       }
     ],
@@ -163,7 +160,7 @@
       "open_space_local_and_other_area_loss": 0,
       "open_space_green_belt_area_loss": 0
     },
-    "total_gia_lost": 0,
+    "total_gia_lost": 54.2,
     "infrastructure_details": {
       "no_active_slow_ev_charging_points": 0,
       "no_homes_passive_cooling": 0,
@@ -193,11 +190,8 @@
       "other_resi_accommodation_unit_details": [
         {
           "no_bedrooms_for_older_persons_c2": 0,
-          "no_bedrooms_for_older_persons_sg": 0
-        },
-        {
           "no_rooms_proposed": 0,
-          "unit_type": "Care Home Bedroom",
+          "unit_type": "ResidentialCareHomeRoom",
           "no_rooms_lost": 4
         }
       ],
@@ -206,8 +200,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "09/2025",
-        "intended_completion_date": "01/2026"
+        "intended_completion_date": "01/2026",
+        "intended_commencement_date": "09/2025"
       }
     ],
     "rain_water_harvesting": true,
@@ -222,207 +216,85 @@
     "garden_land_lost": false,
     "surface_water_discharge_percentage_reduction": 7,
     "s106_agreement": false,
-    "scheme_phasing": false
+    "scheme_phasing": true,
+    "total_gia_gained": 199.4,
+    "occupation_status": "Occupied"
   },
   "decision_process": "Delegated",
   "lpa_name": "Kingston",
   "id": "Kingston-25_01949_FUL",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              518429.4,
-              166564.65
-            ],
-            [
-              518440.8,
-              166567.8
-            ],
-            [
-              518442.7,
-              166568.3
-            ],
-            [
-              518453.55,
-              166593.1
-            ],
-            [
-              518453.825,
-              166593.712
-            ],
-            [
-              518456.2,
-              166599
-            ],
-            [
-              518457.602,
-              166602.473
-            ],
-            [
-              518460.6,
-              166609.9
-            ],
-            [
-              518428.22,
-              166623.55
-            ],
-            [
-              518423.6,
-              166625.5
-            ],
-            [
-              518419.6,
-              166616.95
-            ],
-            [
-              518417.4,
-              166612.1
-            ],
-            [
-              518407.074,
-              166589.14
-            ],
-            [
-              518405.37,
-              166585.351
-            ],
-            [
-              518403.355,
-              166580.87
-            ],
-            [
-              518401.3,
-              166576.3
-            ],
-            [
-              518401.55,
-              166575.25
-            ],
-            [
-              518401.68,
-              166574.63
-            ],
-            [
-              518401.82,
-              166573.92
-            ],
-            [
-              518403.52,
-              166565.41
-            ],
-            [
-              518405,
-              166558.05
-            ],
-            [
-              518429.4,
-              166564.65
+              [
+                518423.6,
+                166625.5
+              ],
+              [
+                518401.3,
+                166576.3
+              ],
+              [
+                518405,
+                166558.05
+              ],
+              [
+                518442.7,
+                166568.3
+              ],
+              [
+                518460.6,
+                166609.9
+              ],
+              [
+                518423.6,
+                166625.5
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ]
   },
   "cil_liability": true,
-  "last_updated": "2025-12-03T18:00:31.572Z",
+  "last_updated": "2026-06-27T08:42:04.153Z",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.299471,
-          51.38578
-        ],
-        [
-          -0.299307,
-          51.385806
-        ],
-        [
-          -0.299279,
-          51.38581
-        ],
-        [
-          -0.299115,
-          51.386031
-        ],
-        [
-          -0.299111,
-          51.386036
-        ],
-        [
-          -0.299075,
-          51.386083
-        ],
-        [
-          -0.299054,
-          51.386114
-        ],
-        [
-          -0.299008,
-          51.386181
-        ],
-        [
-          -0.299469,
-          51.38631
-        ],
-        [
-          -0.299534,
-          51.386328
-        ],
-        [
-          -0.299595,
-          51.386252
-        ],
-        [
-          -0.299628,
-          51.386209
-        ],
-        [
-          -0.299784,
-          51.386005
-        ],
-        [
-          -0.29981,
-          51.385971
-        ],
-        [
-          -0.29984,
-          51.385932
-        ],
-        [
-          -0.299871,
-          51.385891
-        ],
-        [
-          -0.299868,
-          51.385881
-        ],
-        [
-          -0.299866,
-          51.385876
-        ],
-        [
-          -0.299864,
-          51.385869
-        ],
-        [
-          -0.299843,
-          51.385793
-        ],
-        [
-          -0.299824,
-          51.385726
-        ],
-        [
-          -0.299471,
-          51.38578
+          [
+            -0.299534,
+            51.386328
+          ],
+          [
+            -0.299871,
+            51.385891
+          ],
+          [
+            -0.299824,
+            51.385726
+          ],
+          [
+            -0.299279,
+            51.38581
+          ],
+          [
+            -0.299008,
+            51.386181
+          ],
+          [
+            -0.299534,
+            51.386328
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "street_name": "Kingsdowne Road",
   "decision_date": "24/11/2025",
@@ -449,9 +321,9 @@
   ],
   "reference_no_of_permission_being_relied_on": null,
   "actual_commencement_date": null,
-  "borough": "Royal Borough of Kingston (LA Code)",
+  "borough": "Kingston Upon Thames",
   "centroid_northing": 166605,
-  "site_number": "8",
+  "site_number": 8,
   "title_number": null,
   "development_type": "Minor all other minor developments"
 }

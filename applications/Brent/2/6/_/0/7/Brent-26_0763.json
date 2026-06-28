@@ -8,14 +8,42 @@
   "street_name": null,
   "lpa_name": "Brent",
   "date_building_work_started_under_previous_permission": null,
-  "last_updated_by": "CSV Data Import",
-  "postcode": null,
+  "last_updated_by": "Planning Portal ingest",
+  "postcode": "NW10 3SH",
   "appeal_decision_date": null,
   "reference_no_of_permission_being_relied_on": null,
   "bo_system": "CSV Data Import",
   "decision_conditions": null,
-  "wgs84_polygon": null,
-  "centroid_easting": 522159,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          [
+            -0.238567,
+            51.541746
+          ],
+          [
+            -0.238578,
+            51.541634
+          ],
+          [
+            -0.238458,
+            51.541625
+          ],
+          [
+            -0.238445,
+            51.54174
+          ],
+          [
+            -0.238567,
+            51.541746
+          ]
+        ]
+      ]
+    ],
+    "type": "MultiPolygon"
+  },
+  "centroid_easting": 522259,
   "url_planning_app": "https://pa.brent.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR_176939&activeTab=summary",
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
@@ -27,8 +55,8 @@
   "appeal_start_date": null,
   "secondary_street_name": null,
   "centroid": {
-    "lat": 51.54033,
-    "lon": -0.239935
+    "lat": 51.54163,
+    "lon": -0.238442
   },
   "title_number": null,
   "decision_target_date": "12/05/2026",
@@ -36,22 +64,136 @@
   "uprn": "202090486",
   "application_type": "All Other",
   "appeal_status": null,
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                522250.0399999999,
+                184008.7948223556
+              ],
+              [
+                522249.5733361815,
+                183996.2801785605
+              ],
+              [
+                522257.92824994266,
+                183995.4984738355
+              ],
+              [
+                522258.4966261627,
+                184008.30522877618
+              ],
+              [
+                522250.0399999999,
+                184008.7948223556
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "decision_agency": null,
   "actual_completion_date": null,
   "pp_id": "PP-14662340",
   "lpa_app_no": "26/0763",
-  "centroid_northing": 183849,
+  "centroid_northing": 183996,
   "application_details": {
-    "existing_uprns": null
+    "existing_uprns": null,
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "Entire development - foundation, levelling, build of structure and install of dog wash",
+        "intended_completion_date": "05/2026",
+        "intended_commencement_date": "03/2026"
+      }
+    ],
+    "total_gia_gained": 6,
+    "open_and_protected_space_details": {
+      "protected_space_count": 0,
+      "open_space_local_and_other_area_gain": 0,
+      "open_spaces_details": [
+        {
+          "area": 0.00063,
+          "access": "Unrestricted",
+          "land_swap": false,
+          "open_space_designation": "Local Open Spaces",
+          "description": "Loss of 6.3m of green space to host the dog wash shelter, and the dog wash machine. The surrounding green space and trees will not be affected in any way.",
+          "open_space_type": "Parks and gardens"
+        }
+      ],
+      "open_space_mol_area_loss": 0,
+      "open_space_green_belt_area_gain": 0,
+      "open_space_local_and_other_area_loss": 0,
+      "open_space_mol_area_gain": 0,
+      "open_space_green_belt_area_loss": 0
+    },
+    "site_area": 0.00063,
+    "total_gia_existing": 0,
+    "total_gia_lost": 0,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 0,
+        "gia_gained": 6,
+        "use_class": "EC3",
+        "gia_lost": 0
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Vacant",
+    "rain_water_harvesting": false,
+    "scheme_phasing": true,
+    "building_details": [
+      {
+        "no_storeys": 1,
+        "max_height": 2.3,
+        "building_ref": "Shed structure"
+      }
+    ],
+    "grey_water_reuse": false,
+    "surface_water_discharge_percentage_reduction": 0,
+    "green_suds": false,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 6,
+      "total_gia_lost": 0,
+      "total_gia_existing": 0
+    },
+    "garden_land_lost": false,
+    "internal_resi_water_usage": 0,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 0,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0.1,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 1,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": false,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 0,
+      "ghg_reduction_over_building_regulations": true
+    },
+    "ownership_status": "Public",
+    "lead_developer_company_name": "Borna Surveys"
   },
   "status": "Application Under Consideration",
   "parking_details": null,
-  "description": "Installation of self-service dog wash facility next to existing public convenience in Roundwood Park",
+  "description": "1. Executive Summary\nMuddy Barkers proposes to install, operate and maintain a self‑service dog wash facility at Roundwood Park under Brent Council’s concession agreement. The service will enhance visitor experience, support responsible pet ownership and provide a convenient amenity for the park’s high number of dog‑walking visitors.\n\n2. Location & Integration\nThe dog wash will be positioned beside the existing toilet block, the location identified by Brent Council as appropriate due to its footfall, proximity to the café and access to utilities. This placement ensures minimal impact on open views within the Grade II listed Victorian park.\n\nTo respect the heritage setting, the wash unit will be housed within a modest timber enclosure using vertical timber cladding, heritage‑appropriate finishes and concealed fixings. The structure will measure approximately 3.5m x 1.74m x 2.3m and sit on a reinforced concrete slab. Landscaping around the installation will be reinstated to park standards.\n\n3. Construction & Materials\nThe enclosure will be timber‑framed with a breathable membrane, moisture‑resistant internal lining, anti‑slip flooring and a single lockable door. The roof will be a low‑profile mono‑pitch or flat design finished in matte, non‑reflective materials. All works will comply with UK building control standards, with water, drainage and electrical connections discreetly routed to reduce visual impact.\n\n4. Dog Wash Unit Features\nThe wash station will accommodate dogs of all sizes and include:\n- Secure entry gate\n- Non‑slip flooring and high‑capacity drainage\n- Lead/ restraint hook\n- Optional ramp for older or mobility‑restricted dogs\n- Touchless shampoo and conditioner dispensers using hypoallergenic, eco‑friendly products\n- Cashless payment system (card and mobile payments)\n- Visible countdown timer\n- Self‑cleaning or automatic sanitising function\n- Adequate ventilation and a high‑efficiency pet dryer\n\n5. Operation & Monitoring\nMuddy Barkers will operate the facility in line with park opening hours and provide monthly usage reports. Pricing will follow the council’s requirement for flexible, time‑based charging, with maximum fees agreed in advance. In accordance with the concession terms, Muddy Barkers will share 10% of turnover with Brent Council.\n\n6. Heritage & Community Benefit\nThe proposal aligns with Brent Council’s guidance for low‑impact additions within a historic park. The modest scale, natural materials and heritage‑sensitive finishes ensure the structure blends into its surroundings. The facility offers a practical, well‑managed amenity that supports responsible dog ownership while preserving the character of Roundwood Park.",
   "lapsed_date": null,
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "borough": "Brent",
-  "last_updated": "2026-05-06T08:04:51.377Z",
+  "last_updated": "2026-06-28T01:36:41.559Z",
   "development_type": "Other change of use",
   "id": "Brent-26_0763",
   "valid_date": "24/03/2026"

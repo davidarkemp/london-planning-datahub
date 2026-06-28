@@ -1,73 +1,51 @@
 {
   "site_name": "32 Hercules Road\nLondon\nLambeth\nSE1 7EA",
-  "last_updated_by": "FME Excel Import",
+  "last_updated_by": "Planning Portal ingest",
   "centroid": {
-    "lon": -0.113815,
-    "lat": 51.497706
+    "lon": -0.113801,
+    "lat": 51.497697
   },
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.11364969999999999,
-          51.4976707
-        ],
-        [
-          -0.11369879999999999,
-          51.4976333
-        ],
-        [
-          -0.1137511,
-          51.4976571
-        ],
-        [
-          -0.1138423,
-          51.4977003
-        ],
-        [
-          -0.1138472,
-          51.4977022
-        ],
-        [
-          -0.1138599,
-          51.4977092
-        ],
-        [
-          -0.113879,
-          51.497718
-        ],
-        [
-          -0.11391789999999999,
-          51.4977357
-        ],
-        [
-          -0.1139393,
-          51.4977455
-        ],
-        [
-          -0.1139192,
-          51.4977562
-        ],
-        [
-          -0.1138965,
-          51.4977785
-        ],
-        [
-          -0.1138824,
-          51.4977738
-        ],
-        [
-          -0.1138058,
-          51.497747
-        ],
-        [
-          -0.1137005,
-          51.4976958
-        ],
-        [
-          -0.11364969999999999,
-          51.4976707
+          [
+            -0.113726,
+            51.497695
+          ],
+          [
+            -0.113831,
+            51.497746
+          ],
+          [
+            -0.113846,
+            51.497734
+          ],
+          [
+            -0.11383,
+            51.497727
+          ],
+          [
+            -0.113867,
+            51.497699
+          ],
+          [
+            -0.113776,
+            51.497656
+          ],
+          [
+            -0.113724,
+            51.497632
+          ],
+          [
+            -0.113675,
+            51.497669
+          ],
+          [
+            -0.113726,
+            51.497695
+          ]
         ]
       ]
     ]
@@ -75,7 +53,7 @@
   "appeal_decision_date": null,
   "url_planning_app": null,
   "secondary_street_name": null,
-  "site_number": null,
+  "site_number": 32,
   "application_details": {
     "site_area": 0.011,
     "affordable_housing_fast_track": null,
@@ -84,7 +62,7 @@
     "air_quality_assessment": null,
     "other_contributions": null,
     "existing_uprns": [],
-    "intended_commencement_date": null,
+    "intended_commencement_date": "03/2024",
     "total_gia_existing": null,
     "no_affordable_housing_units_provided_offsite": null,
     "scheme_phasing": null,
@@ -123,7 +101,7 @@
     "overseas_company_registration_no": null,
     "mayoral_cil_liability_notice_issued": null,
     "non_permanent_dwellings_details": [],
-    "intended_completion_date": null,
+    "intended_completion_date": "06/2024",
     "projected_cost_of_works": null,
     "infrastructure_details": {
       "total_annual_pm_emissions": null,
@@ -165,7 +143,7 @@
     "3d_model": null,
     "transport_contributions": null,
     "no_affordable_housing_units_acquired_offsite": null,
-    "total_gia_gained": null,
+    "total_gia_gained": 0,
     "borough_cil_liability_notice_issued": null,
     "total_gia_lost": null,
     "transport_impact_assessment": null,
@@ -195,7 +173,7 @@
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": null,
       "total_no_proposed_residential_units_social_rent": 0,
@@ -217,7 +195,9 @@
       "total_no_existing_residential_units_self_build_and_custom_build": 0
     },
     "ownership_status": null,
-    "lead_developer_company_name": null
+    "lead_developer_company_name": null,
+    "no_additional_bathrooms": 0,
+    "no_additional_bedrooms": 0
   },
   "lapsed_date": "03/04/2027",
   "decision": "Withdrawn",
@@ -235,68 +215,46 @@
         "coordinates": [
           [
             [
-              531036.85,
-              179323.2
-            ],
-            [
-              531033.55,
-              179318.95
-            ],
-            [
-              531029.85,
-              179321.5
-            ],
-            [
-              531023.4,
-              179326.15
-            ],
-            [
-              531023.05,
-              179326.35
-            ],
-            [
-              531022.15,
-              179327.1
-            ],
-            [
-              531020.8,
-              179328.05
-            ],
-            [
-              531018.05,
-              179329.95
-            ],
-            [
-              531016.533,
-              179330.998
-            ],
-            [
-              531017.898,
-              179332.229
-            ],
-            [
-              531019.412,
-              179334.744
-            ],
-            [
-              531020.4,
-              179334.25
-            ],
-            [
-              531025.8,
-              179331.4
-            ],
-            [
-              531033.25,
-              179325.9
-            ],
-            [
-              531036.85,
-              179323.2
+              [
+                531033.25,
+                179325.9
+              ],
+              [
+                531025.8,
+                179331.4
+              ],
+              [
+                531024.8,
+                179330.1
+              ],
+              [
+                531025.9,
+                179329.35
+              ],
+              [
+                531023.4,
+                179326.15
+              ],
+              [
+                531029.85,
+                179321.5
+              ],
+              [
+                531033.55,
+                179318.95
+              ],
+              [
+                531036.85,
+                179323.2
+              ],
+              [
+                531033.25,
+                179325.9
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "type": "GeometryCollection"
@@ -332,31 +290,33 @@
     "net_bluebadge": null
   },
   "reference_no_of_permission_being_relied_on": null,
-  "application_type": "All Other",
+  "application_type": "Householder",
   "lpa_name": "Lambeth",
-  "borough": "London Borough of Lambeth",
-  "centroid_northing": "179327",
+  "borough": "Lambeth",
+  "centroid_northing": 179326,
   "id": "Lambeth-23_03737_FUL",
   "decision_target_date": "20/03/2024",
-  "description": "Replacement of all single glazed windows to front and rear elevations with double glazed units.\n(Please note: The reference number for this application for Full Planning Permission is 23/03737/FUL, but there is also an associated Listed Building Consent application related to these works with reference number: 23/03738/LB)",
+  "description": "Proposal to improve heat efficiency and economy by installing double-glazing, replacing existing single glazing, on the front main floor and two bedroom windows, but continuing to use the existing window boxes, frames and glazing bars, so that the appearance and aesthetics are unchanged.  ",
   "appeal_status": null,
   "decision_date": "03/04/2024",
   "ward": "WATERL",
   "appeal_decision": null,
-  "locality": null,
-  "street_name": null,
+  "locality": "London",
+  "street_name": "Hercules Road",
   "status": "Withdrawn",
-  "application_type_full": null,
+  "application_type_full": "Householder planning & listed building consent",
   "decision_agency": null,
-  "uprn": "100021850937",
+  "uprn": 100021850937,
   "date_building_work_started_under_previous_permission": null,
   "lpa_app_no": "23/03737/FUL",
-  "title_number": [],
-  "last_updated": "2025-05-12T10:47:16.668Z",
+  "title_number": [
+    "SGL372164"
+  ],
+  "last_updated": "2026-06-27T15:18:06.261Z",
   "cil_liability": false,
   "subdivision_of_building": null,
   "actual_completion_date": null,
-  "centroid_easting": "531027",
+  "centroid_easting": 531028,
   "appeal_start_date": null,
   "decision_conditions": null,
   "date_building_work_completed_under_previous_permission": null

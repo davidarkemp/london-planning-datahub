@@ -5,8 +5,8 @@
   "decision_process": "Delegated",
   "appeal_start_date": null,
   "lapsed_date": "26/03/2029",
-  "uprn": "10008348182",
-  "locality": "HACKNEY",
+  "uprn": 10008348182,
+  "locality": "London",
   "appeal_decision_date": null,
   "centroid_easting": 533181,
   "application_details": {
@@ -42,21 +42,31 @@
       "dwelling_density": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 3,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 115
         },
         {
-          "provider": "Private",
-          "no_habitable_rooms": 6,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "HMO",
+          "no_habitable_rooms": 6,
+          "provider": "Private",
           "no_bedrooms": 5,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 97
         }
@@ -93,7 +103,8 @@
       "no_new_gas_connections_required": 0,
       "total_annual_nox_emissions": 0,
       "ghg_reduction_over_building_regulations": false,
-      "fire_suppression_system_proposed": false
+      "fire_suppression_system_proposed": false,
+      "urban_greening_factor_score": 0
     },
     "superseding_details": [
       {
@@ -112,7 +123,7 @@
     "grey_water_reuse": false,
     "total_gia_lost": 141.5,
     "surface_water_discharge_percentage_reduction": 0,
-    "site_area": 65,
+    "site_area": 0.0065,
     "internal_resi_water_usage": 0,
     "ownership_status": "Private",
     "non_residential_details": {
@@ -126,21 +137,22 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 141.5,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 141.5
       },
       {
         "gia_existing": 0,
-        "use_class": "C4",
         "gia_gained": 141.5,
+        "use_class": "C4",
         "gia_lost": 0
       }
     ],
-    "rain_water_harvesting": false
+    "rain_water_harvesting": false,
+    "occupation_status": "Vacant"
   },
   "date_building_work_completed_under_previous_permission": null,
-  "site_name": "Flat 1",
+  "site_name": "119 Flat 1",
   "borough": "Hackney",
   "status": "Withdrawn",
   "epc_number": null,
@@ -149,55 +161,65 @@
     "coordinates": [
       [
         [
-          -0.080057,
-          51.561999
-        ],
-        [
-          -0.080059,
-          51.561972
-        ],
-        [
-          -0.080102,
-          51.561973
-        ],
-        [
-          -0.080101,
-          51.562
-        ],
-        [
-          -0.080057,
-          51.561999
+          [
+            -0.080064,
+            51.561941
+          ],
+          [
+            -0.080063,
+            51.561968
+          ],
+          [
+            -0.080059,
+            51.56204
+          ],
+          [
+            -0.080124,
+            51.562042
+          ],
+          [
+            -0.080143,
+            51.562028
+          ],
+          [
+            -0.080132,
+            51.56194
+          ],
+          [
+            -0.080064,
+            51.561941
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "cil_liability": null,
   "title_number": null,
   "application_type": "All Other",
-  "street_name": "STOKE NEWINGTON CHURCH STREET",
+  "street_name": "Stoke Newington Church Street",
   "actual_commencement_date": null,
   "parking_details": null,
   "decision_target_date": "26/05/2025",
   "lpa_name": "Hackney",
   "secondary_street_name": null,
   "decision_date": "26/03/2026",
-  "last_updated": "2026-04-15T11:36:35.559Z",
+  "last_updated": "2026-06-27T21:05:20.664Z",
   "url_planning_app": "https://developmentandhousing.hackney.gov.uk//planning/index.html?fa=getApplication&id=81974",
   "ward": "Hoxton East and Shoreditch Ward",
   "valid_date": "31/03/2025",
-  "reference_no_of_permission_being_relied_on": null,
+  "reference_no_of_permission_being_relied_on": "2016/1152",
   "development_type": "Minor all other minor developments",
   "appeal_decision": null,
   "postcode": "N16 0UD",
   "centroid_northing": 186536,
-  "description": "Change of use of 1 x self contained flat (Class C3) into 4 bedroom 5 occupant HMO (Class C4)&nbsp;",
+  "description": "Conversion of flats to HMO",
   "subdivision_of_building": null,
   "actual_completion_date": null,
   "lpa_app_no": "2025/0331",
   "decision": "Withdrawn",
   "application_type_full": "Full planning permission",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_status": null,
   "id": "Hackney-2025_0331",
   "decision_conditions": [
@@ -206,7 +228,137 @@
   ],
   "pp_id": "13619914",
   "last_date_consultation_comments": "27/03/2026",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                533182.211,
+                186531.011
+              ],
+              [
+                533182.235,
+                186534.005
+              ],
+              [
+                533182.3,
+                186542.1
+              ],
+              [
+                533177.75,
+                186542.15
+              ],
+              [
+                533176.5,
+                186540.6
+              ],
+              [
+                533177.5,
+                186530.85
+              ],
+              [
+                533182.211,
+                186531.011
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      },
+      {
+        "coordinates": [
+          [
+            [
+              [
+                533177.95,
+                186526.4
+              ],
+              [
+                533178.25,
+                186523.3
+              ],
+              [
+                533182.55,
+                186523.55
+              ],
+              [
+                533182.3,
+                186526.7
+              ],
+              [
+                533185.45,
+                186526.83
+              ],
+              [
+                533186,
+                186526.85
+              ],
+              [
+                533186.024,
+                186527.977
+              ],
+              [
+                533186.1,
+                186529.6
+              ],
+              [
+                533186.203,
+                186531.147
+              ],
+              [
+                533186.25,
+                186531.85
+              ],
+              [
+                533185.8,
+                186531.85
+              ],
+              [
+                533186.027,
+                186535.122
+              ],
+              [
+                533186.1,
+                186536.15
+              ],
+              [
+                533186.65,
+                186544.1
+              ],
+              [
+                533182.3,
+                186544
+              ],
+              [
+                533182.3,
+                186542.1
+              ],
+              [
+                533182.235,
+                186534.005
+              ],
+              [
+                533182.211,
+                186531.011
+              ],
+              [
+                533177.5,
+                186530.85
+              ],
+              [
+                533177.95,
+                186526.4
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "centroid": {
     "lat": 51.561986,
     "lon": -0.08008

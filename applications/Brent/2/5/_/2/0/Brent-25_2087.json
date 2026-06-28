@@ -2,7 +2,11 @@
   "appeal_status": null,
   "centroid_easting": 522810,
   "centroid_northing": 184240,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 3,
+    "net_car": 0,
+    "no_proposed_car": 3
+  },
   "appeal_start_date": null,
   "valid_date": "15/07/2025",
   "lapsed_date": "08/09/2028",
@@ -13,7 +17,7 @@
   "site_name": "21 Rowdon Avenue, London, NW10 2AJ",
   "development_type": "Other house holder developments",
   "actual_commencement_date": null,
-  "postcode": null,
+  "postcode": "NW10 2AJ",
   "borough": "Brent",
   "decision": "Approved",
   "polygon": {
@@ -22,32 +26,34 @@
         "coordinates": [
           [
             [
-              522805.65,
-              184253.95
-            ],
-            [
-              522804.3,
-              184215.4
-            ],
-            [
-              522808.9,
-              184214.4
-            ],
-            [
-              522820,
-              184211.9
-            ],
-            [
-              522817.45,
-              184253.55
-            ],
-            [
-              522805.65,
-              184253.95
+              [
+                522817.45,
+                184253.55
+              ],
+              [
+                522805.65,
+                184253.95
+              ],
+              [
+                522804.3,
+                184215.4
+              ],
+              [
+                522808.9,
+                184214.4
+              ],
+              [
+                522820,
+                184211.9
+              ],
+              [
+                522817.45,
+                184253.55
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "type": "GeometryCollection"
@@ -57,14 +63,16 @@
     "lat": 51.543703
   },
   "appeal_decision": null,
-  "description": "Erection of a two-storey front extension, single and two-storey rear and side extension and outbuilding to dwellinghouse",
-  "title_number": null,
+  "description": "Erection of a two storey front, side and rear extension. Rear outbuilding. ",
+  "title_number": [
+    "MX395775"
+  ],
   "lpa_name": "Brent",
-  "locality": null,
+  "locality": "London",
   "appeal_decision_date": null,
   "decision_process": "Delegated",
-  "application_type_full": null,
-  "site_number": null,
+  "application_type_full": "Householder planning permission",
+  "site_number": 21,
   "date_building_work_started_under_previous_permission": null,
   "decision_target_date": "26/08/2025",
   "decision_agency": null,
@@ -77,48 +85,55 @@
   "decision_date": "08/09/2025",
   "pp_id": "PP-14161792",
   "last_date_consultation_comments": "11/08/2025",
-  "last_updated_by": "CSV Data Import",
-  "uprn": "202050707",
+  "last_updated_by": "Planning Portal ingest",
+  "uprn": 202050707,
   "actual_completion_date": null,
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated": "2025-09-21T08:02:08.739Z",
+  "last_updated": "2026-06-27T22:35:10.030Z",
   "cil_liability": false,
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.23044959999999998,
-          51.5438313
-        ],
-        [
-          -0.23048249999999998,
-          51.5434852
-        ],
-        [
-          -0.2304165,
-          51.5434752
-        ],
-        [
-          -0.2302574,
-          51.5434503
-        ],
-        [
-          -0.2302796,
-          51.5438252
-        ],
-        [
-          -0.23044959999999998,
-          51.5438313
+          [
+            -0.230304,
+            51.543823
+          ],
+          [
+            -0.230474,
+            51.543829
+          ],
+          [
+            -0.230507,
+            51.543483
+          ],
+          [
+            -0.230441,
+            51.543473
+          ],
+          [
+            -0.230282,
+            51.543448
+          ],
+          [
+            -0.230304,
+            51.543823
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "decision_conditions": null,
   "epc_number": null,
   "application_details": {
     "existing_uprns": null,
-    "site_area": 0.055
+    "site_area": 0.055,
+    "total_gia_gained": 70,
+    "no_additional_bathrooms": 0,
+    "no_additional_bedrooms": 0,
+    "intended_commencement_date": "11/2025",
+    "intended_completion_date": "05/2026"
   },
-  "street_name": null
+  "street_name": "Rowdon Avenue"
 }

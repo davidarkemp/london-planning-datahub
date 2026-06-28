@@ -2,7 +2,11 @@
   "appeal_status": null,
   "centroid_easting": 549705,
   "centroid_northing": 190648,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_proposed_cycle": 2,
+    "net_cycle": 2
+  },
   "appeal_start_date": "22/10/2025",
   "valid_date": "21/07/2025",
   "lapsed_date": null,
@@ -22,60 +26,78 @@
         "coordinates": [
           [
             [
-              549687.55,
-              190657.6
-            ],
-            [
-              549683.2,
-              190644.25
-            ],
-            [
-              549687.6,
-              190642.75
-            ],
-            [
-              549702.8,
-              190637.7
-            ],
-            [
-              549711.35,
-              190640.6
-            ],
-            [
-              549712.5,
-              190642.1
-            ],
-            [
-              549714.65,
-              190649.4
-            ],
-            [
-              549708.7,
-              190651.1
-            ],
-            [
-              549703.5,
-              190652.65
-            ],
-            [
-              549691.696,
-              190656.308
-            ],
-            [
-              549691.4,
-              190656.4
-            ],
-            [
-              549688.55,
-              190657.3
-            ],
-            [
-              549687.55,
-              190657.6
+              [
+                549688.55,
+                190657.3
+              ],
+              [
+                549687.55,
+                190657.6
+              ],
+              [
+                549683.2,
+                190644.25
+              ],
+              [
+                549687.6,
+                190642.75
+              ],
+              [
+                549702.8,
+                190637.7
+              ],
+              [
+                549711.35,
+                190640.6
+              ],
+              [
+                549712.5,
+                190642.1
+              ],
+              [
+                549714.65,
+                190649.4
+              ],
+              [
+                549708.7,
+                190651.1
+              ],
+              [
+                549706.6,
+                190644
+              ],
+              [
+                549701.35,
+                190645.55
+              ],
+              [
+                549703.5,
+                190652.65
+              ],
+              [
+                549691.696,
+                190656.308
+              ],
+              [
+                549691.4,
+                190656.4
+              ],
+              [
+                549689.75,
+                190651.4
+              ],
+              [
+                549686.9,
+                190652.35
+              ],
+              [
+                549688.55,
+                190657.3
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "type": "GeometryCollection"
@@ -85,13 +107,13 @@
     "lat": 51.594792
   },
   "appeal_decision": "Dismissed",
-  "description": "Construction of a two-storey, 2-bed end-of-terrace dwelling with amenities and landscaping",
+  "description": "The proposal is for a two-storey, 2-bedroom end-of-terrace dwelling.",
   "title_number": null,
   "lpa_name": "Havering",
-  "locality": null,
+  "locality": "Essex",
   "appeal_decision_date": "10/02/2026",
   "decision_process": "Delegated",
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "site_number": null,
   "date_building_work_started_under_previous_permission": null,
   "decision_target_date": "01/10/2025",
@@ -105,70 +127,88 @@
   "decision_date": "09/10/2025",
   "pp_id": "14106543",
   "last_date_consultation_comments": "19/08/2025",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Planning Portal ingest",
   "uprn": "100021380007",
   "actual_completion_date": null,
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated": "2026-02-11T04:59:07.161Z",
+  "last_updated": "2026-06-27T22:20:08.812Z",
   "cil_liability": false,
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          0.1596597,
-          51.5948851
-        ],
-        [
-          0.1595913,
-          51.5947663
-        ],
-        [
-          0.1596541,
-          51.5947517
-        ],
-        [
-          0.1598712,
-          51.5947023
-        ],
-        [
-          0.1599958,
-          51.5947261
-        ],
-        [
-          0.160013,
-          51.5947393
-        ],
-        [
-          0.1600472,
-          51.5948043
-        ],
-        [
-          0.1599621,
-          51.5948211
-        ],
-        [
-          0.1598877,
-          51.5948364
-        ],
-        [
-          0.159719,
-          51.5948724
-        ],
-        [
-          0.1597147,
-          51.5948733
-        ],
-        [
-          0.15967399999999998,
-          51.5948822
-        ],
-        [
-          0.1596597,
-          51.5948851
+          [
+            0.159647,
+            51.59488
+          ],
+          [
+            0.159633,
+            51.594883
+          ],
+          [
+            0.159564,
+            51.594764
+          ],
+          [
+            0.159627,
+            51.594749
+          ],
+          [
+            0.159844,
+            51.5947
+          ],
+          [
+            0.159969,
+            51.594724
+          ],
+          [
+            0.159986,
+            51.594737
+          ],
+          [
+            0.16002,
+            51.594802
+          ],
+          [
+            0.159935,
+            51.594819
+          ],
+          [
+            0.159902,
+            51.594756
+          ],
+          [
+            0.159827,
+            51.594771
+          ],
+          [
+            0.159861,
+            51.594834
+          ],
+          [
+            0.159692,
+            51.59487
+          ],
+          [
+            0.159688,
+            51.594871
+          ],
+          [
+            0.159662,
+            51.594827
+          ],
+          [
+            0.159621,
+            51.594836
+          ],
+          [
+            0.159647,
+            51.59488
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "decision_conditions": [
     "The proposed dwelling, by reason of its design, built form, overall width, proximity to the southern boundary of the application site and projection beyond the front building line of premises along Lynton Avenue, would give rise to a cramped form of development on an uncharacteristically small plot that would appear as a visually intrusive feature in the streetscene and is harmful to the established pattern of housing within the terraced row and also result in the loss of the existing spacious character around the junction of this and neighbouring properties with Lynton Avenue. The proposal would therefore be contrary to Local Plan Policies 7 and 26 as well as Paragraph 135(d) of the NPPF which requires fundamentally that development add to the overall quality of the area whilst also establishing or maintaining a strong sense of place.",
@@ -181,7 +221,123 @@
   "epc_number": null,
   "application_details": {
     "existing_uprns": null,
-    "site_area": 0.039
+    "site_area": 0.012,
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "Entire Development",
+        "intended_completion_date": "03/2026",
+        "intended_commencement_date": "08/2025"
+      }
+    ],
+    "total_gia_gained": 76,
+    "total_gia_existing": 0,
+    "total_gia_lost": 0,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 0,
+        "gia_gained": 76,
+        "use_class": "C3",
+        "gia_lost": 0
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Vacant",
+    "rain_water_harvesting": false,
+    "scheme_phasing": true,
+    "building_details": [
+      {
+        "no_storeys": 2,
+        "max_height": 7.5,
+        "building_ref": "New Dwelling"
+      }
+    ],
+    "grey_water_reuse": false,
+    "surface_water_discharge_percentage_reduction": 0,
+    "green_suds": false,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 76,
+      "total_gia_lost": 0,
+      "total_gia_existing": 0
+    },
+    "garden_land_lost": false,
+    "residential_details": {
+      "total_no_proposed_residential_units_shared_equity": 0,
+      "total_no_proposed_bedrooms": 2,
+      "total_no_proposed_residential_units": 1,
+      "total_no_proposed_residential_units_london_living_rent": 0,
+      "total_no_proposed_residential_affordable_units": 0,
+      "total_no_existing_residential_units": 0,
+      "total_no_proposed_residential_units_affordable_rent": 0,
+      "total_no_proposed_residential_units_discount_market_sale": 0,
+      "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_london_living_rent": 0,
+      "total_no_existing_residential_units_shared_equity": 0,
+      "total_no_existing_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_units_intermediate": 0,
+      "total_no_proposed_residential_units_market_for_rent": 1,
+      "total_no_existing_residential_units_social_rent": 0,
+      "total_no_proposed_residential_units_self_build_and_custom_build": 0,
+      "total_no_existing_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_affordable_units": 0,
+      "total_no_existing_residential_units_affordable_rent": 0,
+      "habitable_rooms_density": null,
+      "total_no_existing_residential_units_london_shared_ownership": 0,
+      "total_gia_gained": 76,
+      "total_no_proposed_residential_units_social_rent": 0,
+      "total_no_existing_residential_units_london_affordable_rent": 0,
+      "dwelling_density": 0,
+      "total_no_proposed_residential_units_london_affordable_rent": 0,
+      "total_no_existing_residential_units_discount_market_sale": 0,
+      "total_no_proposed_residential_units_starter_homes": 0,
+      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_starter_homes": 0,
+      "total_no_proposed_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_intermediate": 0,
+      "affordable_percentage": 0,
+      "total_no_proposed_residential_units_london_shared_ownership": 0,
+      "residential_units": [
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Semi Detached Home",
+          "no_habitable_rooms": 3,
+          "provider": "Private",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 76
+        }
+      ],
+      "total_no_existing_residential_units_market_for_rent": 0,
+      "total_no_existing_residential_units_self_build_and_custom_build": 0
+    },
+    "internal_resi_water_usage": 0,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 0,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 0,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "ownership_status": "Private"
   },
-  "street_name": "Romford"
+  "street_name": "Land adjacent to 1 Hood Walk"
 }

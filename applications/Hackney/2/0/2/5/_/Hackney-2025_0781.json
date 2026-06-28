@@ -6,9 +6,9 @@
   "appeal_start_date": "18/09/2025",
   "lapsed_date": "13/08/2028",
   "uprn": "100021072778",
-  "locality": "HACKNEY",
+  "locality": "London",
   "appeal_decision_date": null,
-  "centroid_easting": 535365,
+  "centroid_easting": 535358,
   "application_details": {
     "constraints_details": [
       {
@@ -62,13 +62,13 @@
       }
     ],
     "total_gia_lost": 0,
-    "site_area": 223,
+    "site_area": 0.0223,
     "total_gia_existing": 0,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 0,
-        "use_class": "C3",
         "gia_gained": 107.74,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -105,11 +105,17 @@
       "dwelling_density": 0,
       "residential_units": [
         {
-          "provider": "Self-Build",
-          "no_habitable_rooms": 3,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Semi Detached Home",
+          "no_habitable_rooms": 3,
+          "provider": "Self-Build",
           "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "tenure": "Self-Build and Custom Build",
           "gia": 107.74
         }
@@ -169,7 +175,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 107.74
-    }
+    },
+    "occupation_status": "Occupied"
   },
   "date_building_work_completed_under_previous_permission": null,
   "site_name": null,
@@ -181,49 +188,95 @@
     "coordinates": [
       [
         [
-          -0.04991,
-          51.537309
-        ],
-        [
-          -0.049889,
-          51.537274
-        ],
-        [
-          -0.049468,
-          51.53735
-        ],
-        [
-          -0.049418,
-          51.537394
-        ],
-        [
-          -0.049411,
-          51.537431
-        ],
-        [
-          -0.049436,
-          51.537475
-        ],
-        [
-          -0.049481,
-          51.537468
-        ],
-        [
-          -0.04946,
-          51.53741
-        ],
-        [
-          -0.04991,
-          51.537309
+          [
+            -0.049931,
+            51.537314
+          ],
+          [
+            -0.049911,
+            51.537271
+          ],
+          [
+            -0.049893,
+            51.537272
+          ],
+          [
+            -0.049683,
+            51.537313
+          ],
+          [
+            -0.049469,
+            51.537354
+          ],
+          [
+            -0.049458,
+            51.53736
+          ],
+          [
+            -0.049442,
+            51.53737
+          ],
+          [
+            -0.049427,
+            51.537383
+          ],
+          [
+            -0.04942,
+            51.537393
+          ],
+          [
+            -0.049415,
+            51.537403
+          ],
+          [
+            -0.049411,
+            51.537412
+          ],
+          [
+            -0.04941,
+            51.537423
+          ],
+          [
+            -0.049411,
+            51.537436
+          ],
+          [
+            -0.049437,
+            51.537479
+          ],
+          [
+            -0.049488,
+            51.537468
+          ],
+          [
+            -0.04946,
+            51.537409
+          ],
+          [
+            -0.049665,
+            51.537368
+          ],
+          [
+            -0.049704,
+            51.537355
+          ],
+          [
+            -0.049822,
+            51.537332
+          ],
+          [
+            -0.049931,
+            51.537314
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "cil_liability": null,
   "title_number": null,
   "application_type": "All Other",
-  "street_name": "SKIPWORTH ROAD",
+  "street_name": "Land Adj. 19 Skipworth Road",
   "actual_commencement_date": null,
   "parking_details": {
     "no_proposed_car": 1,
@@ -237,7 +290,7 @@
   "lpa_name": "Hackney",
   "secondary_street_name": null,
   "decision_date": "13/08/2025",
-  "last_updated": "2026-04-15T11:25:33.584Z",
+  "last_updated": "2026-06-27T11:29:50.969Z",
   "url_planning_app": "https://developmentandhousing.hackney.gov.uk//planning/index.html?fa=getApplication&id=82035",
   "ward": "Victoria Ward",
   "valid_date": "01/04/2025",
@@ -245,14 +298,14 @@
   "development_type": "Minor all other minor developments",
   "appeal_decision": null,
   "postcode": "E9 7JH",
-  "centroid_northing": 183853,
-  "description": "Erection of an end-of-terrace, single storey above basement level dwelling with associated bin store, bike store, photovoltaic panels, air source heat pumps, landscaping works and the creation of an on-site parking space.",
+  "centroid_northing": 183849,
+  "description": "Erection of a self build, end of terrace, single storey, plus basement, two bed, four person house, with associated bin store, bike store, photovoltaic panels, air source heat pumps and landscaping works encompassing the creation of a new parking space. ",
   "subdivision_of_building": null,
   "actual_completion_date": null,
   "lpa_app_no": "2025/0781",
   "decision": "Refused",
   "application_type_full": "Full planning permission",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_status": null,
   "id": "Hackney-2025_0781",
   "decision_conditions": [
@@ -268,90 +321,154 @@
         "coordinates": [
           [
             [
-              535345.303799993,
-              183847.238563116
-            ],
-            [
-              535346.803894634,
-              183843.341310626
-            ],
-            [
-              535375.812644631,
-              183852.533181198
-            ],
-            [
-              535379.106576944,
-              183857.576086564
-            ],
-            [
-              535379.5439335,
-              183861.691314566
-            ],
-            [
-              535377.630922235,
-              183866.552707872
-            ],
-            [
-              535374.581741742,
-              183865.723064862
-            ],
-            [
-              535376.207892094,
-              183859.225944485
-            ],
-            [
-              535345.303799993,
-              183847.238563116
+              [
+                535343.7833976626,
+                183847.66956439792
+              ],
+              [
+                535345.3,
+                183843
+              ],
+              [
+                535346.55,
+                183843.15
+              ],
+              [
+                535361,
+                183848.05
+              ],
+              [
+                535375.7,
+                183853
+              ],
+              [
+                535376.45,
+                183853.65
+              ],
+              [
+                535377.55,
+                183854.8
+              ],
+              [
+                535378.55,
+                183856.35
+              ],
+              [
+                535379,
+                183857.45
+              ],
+              [
+                535379.35,
+                183858.6
+              ],
+              [
+                535379.55,
+                183859.6
+              ],
+              [
+                535379.6,
+                183860.81629105643
+              ],
+              [
+                535379.5,
+                183862.2
+              ],
+              [
+                535377.6,
+                183867
+              ],
+              [
+                535374.1,
+                183865.65
+              ],
+              [
+                535376.2,
+                183859.2
+              ],
+              [
+                535362.1,
+                183854.25
+              ],
+              [
+                535359.45,
+                183852.7
+              ],
+              [
+                535351.3,
+                183849.95
+              ],
+              [
+                535343.7833976626,
+                183847.66956439792
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       },
       {
         "coordinates": [
           [
             [
-              535345.303799993,
-              183847.238563116
-            ],
-            [
-              535346.803894634,
-              183843.341310626
-            ],
-            [
-              535375.812644631,
-              183852.533181198
-            ],
-            [
-              535379.106576944,
-              183857.576086564
-            ],
-            [
-              535379.5439335,
-              183861.691314566
-            ],
-            [
-              535377.630922235,
-              183866.552707872
-            ],
-            [
-              535374.581741742,
-              183865.723064862
-            ],
-            [
-              535376.207892094,
-              183859.225944485
-            ],
-            [
-              535345.303799993,
-              183847.238563116
+              [
+                535343.7833976626,
+                183847.66956439792
+              ],
+              [
+                535351.3,
+                183849.95
+              ],
+              [
+                535359.45,
+                183852.7
+              ],
+              [
+                535362.1,
+                183854.25
+              ],
+              [
+                535368.8749385055,
+                183856.62843585832
+              ],
+              [
+                535368.0984911426,
+                183858.4008125659
+              ],
+              [
+                535361.5296888849,
+                183855.99043219615
+              ],
+              [
+                535360.6241862052,
+                183858.7537765805
+              ],
+              [
+                535358.251,
+                183857.844
+              ],
+              [
+                535349.646,
+                183854.962
+              ],
+              [
+                535343.1,
+                183852.8
+              ],
+              [
+                535342.2260864272,
+                183852.4644700374
+              ],
+              [
+                535343.7833976626,
+                183847.66956439792
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "crs": {
       "type": "name",
       "properties": {
@@ -360,7 +477,7 @@
     }
   },
   "centroid": {
-    "lat": 51.537356,
-    "lon": -0.049623
+    "lat": 51.537322,
+    "lon": -0.049726
   }
 }

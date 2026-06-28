@@ -17,13 +17,13 @@
   "decision_target_date": "19/03/2026",
   "valid_date": "22/01/2026",
   "lpa_app_no": "26/0225/PNE",
-  "locality": "Mill Hill",
+  "locality": "London",
   "appeal_decision_date": null,
   "parking_details": null,
   "decision_process": "Delegated",
   "street_name": "Watford Way",
-  "site_number": "530A",
-  "centroid_easting": "521731",
+  "site_number": 530,
+  "centroid_easting": 521731,
   "polygon": {
     "geometries": [
       {
@@ -77,14 +77,14 @@
     "type": "geometrycollection"
   },
   "ward": "MH22",
-  "centroid_northing": "192281",
-  "application_type": "All Other",
-  "uprn": "000200122420",
+  "centroid_northing": 192281,
+  "application_type": "Prior Approval",
+  "uprn": 200122420,
   "lapsed_date": "26/03/2031",
   "actual_completion_date": null,
   "decision": "Approved",
   "site_name": "",
-  "borough": "London Borough of Barnet",
+  "borough": "Barnet",
   "last_date_consultation_comments": "13/02/2026",
   "application_type_full": "Prior Approval: Change of use from Commercial, Business and Service (Use Class E) to Dwellinghouses (Use Class C3)",
   "url_planning_app": null,
@@ -93,11 +93,11 @@
   "development_type": null,
   "appeal_status": null,
   "date_building_work_completed_under_previous_permission": null,
-  "description": "Change of use of ground floor office (Class E) into 2no. self-contained dwellings (Class C3)",
+  "description": "Change of use of ground floor Class E into residential Class C3 to create two dwelling units.",
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
   "epc_number": null,
-  "last_updated": "2026-03-26T21:02:21.666Z",
+  "last_updated": "2026-06-27T22:17:51.453Z",
   "centroid": {
     "lon": -0.243183,
     "lat": 51.616202
@@ -167,22 +167,34 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 1,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "gia": 37,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 37
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "gia": 51.7,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 51.7
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -202,7 +214,8 @@
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "urban_greening_factor_score": 0
     },
     "intended_commencement_date": "04/2026",
     "total_gia_existing": 88.7,
@@ -213,44 +226,24 @@
     "coordinates": [
       [
         [
-          -0.243145,
-          51.616435
+          -0.243161,
+          51.616215
         ],
         [
-          -0.243257,
-          51.616167
+          -0.243162,
+          51.616188
         ],
         [
-          -0.243242,
-          51.616167
+          -0.243205,
+          51.616189
         ],
         [
-          -0.243171,
-          51.616148
+          -0.243204,
+          51.616216
         ],
         [
-          -0.243076,
-          51.616371
-        ],
-        [
-          -0.243074,
-          51.616407
-        ],
-        [
-          -0.243059,
-          51.616425
-        ],
-        [
-          -0.243102,
-          51.616434
-        ],
-        [
-          -0.243102,
-          51.616425
-        ],
-        [
-          -0.243145,
-          51.616435
+          -0.243161,
+          51.616215
         ]
       ]
     ],
@@ -258,6 +251,8 @@
   },
   "id": "Barnet-26_0225_PNE",
   "reference_no_of_permission_being_relied_on": null,
-  "title_number": [],
-  "last_updated_by": "Idox Uniform"
+  "title_number": [
+    "Unregistered"
+  ],
+  "last_updated_by": "Planning Portal ingest"
 }

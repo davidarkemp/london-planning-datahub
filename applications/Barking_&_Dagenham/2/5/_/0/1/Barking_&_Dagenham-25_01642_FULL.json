@@ -11,7 +11,7 @@
   "decision_target_date": "28/01/2026",
   "valid_date": "03/12/2025",
   "lpa_app_no": "25/01642/FULL",
-  "locality": null,
+  "locality": "Barking",
   "appeal_decision_date": null,
   "parking_details": {
     "net_car": 2,
@@ -22,9 +22,9 @@
     "no_existing_car": 0
   },
   "decision_process": null,
-  "street_name": "LONGBRIDGE ROAD",
-  "site_number": "142",
-  "centroid_easting": 544842,
+  "street_name": "Longbridge Road",
+  "site_number": 142,
+  "centroid_easting": 544839,
   "polygon": {
     "crs": {
       "properties": {
@@ -80,14 +80,14 @@
     "type": "geometrycollection"
   },
   "ward": "Longbridge",
-  "centroid_northing": 184721,
+  "centroid_northing": 184725,
   "application_type": "All Other",
-  "uprn": "100019317",
+  "uprn": 100019317,
   "lapsed_date": null,
   "actual_completion_date": null,
   "decision": null,
   "site_name": null,
-  "borough": "London Borough of Barking and Dagenham",
+  "borough": "Barking And Dagenham",
   "last_date_consultation_comments": "15/01/2026",
   "application_type_full": "Full planning permission",
   "url_planning_app": "https://online-befirst.lbbd.gov.uk/planning/index.html?fa=getApplication&id=36925",
@@ -96,14 +96,14 @@
   "development_type": "Other change of use",
   "appeal_status": null,
   "date_building_work_completed_under_previous_permission": null,
-  "description": "Change of use of the dwelling (Use Class C3) to a multi-purpose community facility (Use Class F2(b)) and a place of worship (Use Class F1(f)) with associated cycle parking and refuse storage and addition of an entrance door to the side elevation",
+  "description": "Change of use from residential dwelling (Use Class C3) to a multi-purpose community facility (Use Class F2(b)) incorporating a place of worship (Use Class F1(f)). Insertion of side door to provide dedicated women’s entrance. Associated internal reconfiguration and fit out works. Associated cycle parking and disabled car parking.",
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
   "epc_number": null,
-  "last_updated": "2026-04-15T11:21:24.915Z",
+  "last_updated": "2026-06-27T09:48:41.098Z",
   "centroid": {
-    "lon": 0.087284,
-    "lat": 51.542806
+    "lon": 0.087242,
+    "lat": 51.542843
   },
   "lpa_name": "Barking & Dagenham",
   "secondary_street_name": null,
@@ -123,14 +123,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 448.19,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 448.19
       },
       {
         "gia_existing": 0,
-        "use_class": "SpecifiedOther",
         "gia_gained": 448.19,
+        "use_class": "Other",
         "gia_lost": 0
       }
     ],
@@ -194,11 +194,15 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 8,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "House or Bungalow",
           "no_bedrooms": 6,
+          "unit_type": "House or Bungalow",
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 448.19
@@ -222,48 +226,34 @@
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "urban_greening_factor_score": 0
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "occupation_status": "Occupied"
   },
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          0.087267,
-          51.542987
+          0.087264,
+          51.542856
         ],
         [
-          0.087184,
-          51.542992
+          0.087263,
+          51.542829
         ],
         [
-          0.086946,
-          51.542894
+          0.08722,
+          51.542829
         ],
         [
-          0.087117,
-          51.542742
+          0.087221,
+          51.542856
         ],
         [
-          0.087121,
-          51.542744
-        ],
-        [
-          0.08723,
-          51.542647
-        ],
-        [
-          0.087331,
-          51.542588
-        ],
-        [
-          0.087622,
-          51.542788
-        ],
-        [
-          0.087267,
-          51.542987
+          0.087264,
+          51.542856
         ]
       ]
     ],
@@ -272,5 +262,5 @@
   "id": "Barking_&_Dagenham-25_01642_FULL",
   "reference_no_of_permission_being_relied_on": null,
   "title_number": null,
-  "last_updated_by": "Portal"
+  "last_updated_by": "Planning Portal ingest"
 }

@@ -1,16 +1,23 @@
 {
   "decision_target_date": "05/05/2026",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Prior approvals (householder, schools, office)",
   "postcode": "RM10 7NU",
-  "title_number": null,
-  "application_details": {},
+  "title_number": [
+    "unregistered"
+  ],
+  "application_details": {
+    "no_additional_bathrooms": 0,
+    "no_additional_bedrooms": 0,
+    "intended_completion_date": "11/2027",
+    "intended_commencement_date": "09/2026"
+  },
   "decision_date": null,
   "url_planning_app": "https://online-befirst.lbbd.gov.uk/planning/index.html?fa=getApplication&id=37380",
-  "borough": "London Borough of Barking and Dagenham",
-  "locality": null,
+  "borough": "Barking And Dagenham",
+  "locality": "Dagenham",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
   "parking_details": null,
@@ -19,10 +26,10 @@
   "pp_id": "14804209",
   "subdivision_of_building": null,
   "status": "Application Under Consideration",
-  "description": "Prior notification application for the construction of a single storey rear extension. The proposed extension will extend beyond the \r\nrear wall by 4.00 metres. The maximum height of the proposed extension from the natural ground level is 2.90 metres. The height at \r\neaves level of the proposed extension measured from the natural ground level is 2.70 metres",
+  "description": "Erection of single storey extension not exceeding 4.0m in depth with flat roof ",
   "decision_conditions": null,
-  "site_number": "88",
-  "last_updated": "2026-04-15T11:21:58.372Z",
+  "site_number": 88,
+  "last_updated": "2026-06-27T18:45:02.056Z",
   "last_date_consultation_comments": "18/04/2026",
   "valid_date": "24/03/2026",
   "actual_commencement_date": null,
@@ -34,50 +41,64 @@
   "decision": null,
   "id": "Barking_&_Dagenham-26_00365_PRIEXT",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
-              549458.772892037,
-              186214.255518219
-            ],
-            [
-              549465.326753725,
-              186214.125162592
-            ],
-            [
-              549477.965812185,
-              186213.876034928
-            ],
-            [
-              549489.550892053,
-              186213.649518228
-            ],
-            [
-              549489.521801717,
-              186208.340504002
-            ],
-            [
-              549489.500892052,
-              186205.099518218
-            ],
-            [
-              549465.470917567,
-              186205.443987257
-            ],
-            [
-              549459.090892036,
-              186205.544518215
-            ],
-            [
-              549458.772892037,
-              186214.255518219
+              [
+                549467.975,
+                186205.405
+              ],
+              [
+                549468.95,
+                186205.39
+              ],
+              [
+                549471.5,
+                186205.35
+              ],
+              [
+                549489.5,
+                186205.1
+              ],
+              [
+                549489.55,
+                186212.85
+              ],
+              [
+                549489.55,
+                186213.65
+              ],
+              [
+                549471.65,
+                186214
+              ],
+              [
+                549464.1,
+                186214.15
+              ],
+              [
+                549458.772,
+                186214.256
+              ],
+              [
+                549458.95,
+                186210.1
+              ],
+              [
+                549459.09,
+                186205.545
+              ],
+              [
+                549467.975,
+                186205.405
+              ]
             ]
           ]
-        ]
+        ],
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -90,62 +111,76 @@
   "appeal_start_date": null,
   "decision_process": null,
   "ward": "Heath",
-  "street_name": "BOSWORTH ROAD",
+  "street_name": "Bosworth Road",
   "secondary_street_name": null,
   "lpa_name": "Barking & Dagenham",
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": null,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          0.154443,
-          51.55502
-        ],
-        [
-          0.154538,
-          51.555017
-        ],
-        [
-          0.15472,
-          51.555012
-        ],
-        [
-          0.154887,
-          51.555007
-        ],
-        [
-          0.154884,
-          51.554959
-        ],
-        [
-          0.154882,
-          51.55493
-        ],
-        [
-          0.154536,
-          51.554939
-        ],
-        [
-          0.154444,
-          51.554942
-        ],
-        [
-          0.154443,
-          51.55502
+          [
+            0.154572,
+            51.554938
+          ],
+          [
+            0.154586,
+            51.554938
+          ],
+          [
+            0.154623,
+            51.554937
+          ],
+          [
+            0.154882,
+            51.55493
+          ],
+          [
+            0.154886,
+            51.554999
+          ],
+          [
+            0.154887,
+            51.555007
+          ],
+          [
+            0.154629,
+            51.555014
+          ],
+          [
+            0.15452,
+            51.555018
+          ],
+          [
+            0.154443,
+            51.55502
+          ],
+          [
+            0.154444,
+            51.554983
+          ],
+          [
+            0.154444,
+            51.554942
+          ],
+          [
+            0.154572,
+            51.554938
+          ]
         ]
       ]
     ]
   },
-  "uprn": "100003215",
-  "application_type": "Householder",
+  "uprn": 100003215,
+  "application_type": "Prior Approval",
   "centroid": {
     "lat": 51.554998,
     "lon": 0.154561
   },
   "lapsed_date": null,
-  "application_type_full": null,
+  "application_type_full": "Prior Approval: Larger Home Extension",
   "centroid_easting": 549467,
   "actual_completion_date": null
 }

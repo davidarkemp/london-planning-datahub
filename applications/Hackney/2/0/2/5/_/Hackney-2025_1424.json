@@ -11,11 +11,11 @@
   "postcode": "E8 3QN",
   "borough": "Hackney",
   "decision_agency": "Borough",
-  "site_number": "222",
+  "site_number": 222,
   "valid_date": "23/06/2025",
   "appeal_start_date": null,
   "application_details": {
-    "site_area": 240,
+    "site_area": 0.024,
     "other_residential_accommodation_details": {
       "site_area": 240
     },
@@ -41,8 +41,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 200,
-        "use_class": "SpecifiedOther",
         "gia_gained": 2,
+        "use_class": "Other",
         "gia_lost": 0
       }
     ],
@@ -76,12 +76,14 @@
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
       "chp_heat_pumps_capacity": 3,
-      "ghg_reduction_over_building_regulations": true
+      "ghg_reduction_over_building_regulations": true,
+      "urban_greening_factor_score": 0
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "occupation_status": "Vacant"
   },
-  "last_updated_by": "Portal",
-  "street_name": "RICHMOND ROAD",
+  "last_updated_by": "Planning Portal ingest",
+  "street_name": "Richmond Road",
   "decision_target_date": "18/08/2025",
   "polygon": {
     "geometries": [
@@ -89,127 +91,74 @@
         "coordinates": [
           [
             [
-              534522.006587978,
-              184487.25414968
-            ],
-            [
-              534521.750991092,
-              184488.503791932
-            ],
-            [
-              534519.904097212,
-              184497.651173728
-            ],
-            [
-              534519.450618716,
-              184500.000501358
-            ],
-            [
-              534519.054855941,
-              184501.999929058
-            ],
-            [
-              534516.251535043,
-              184501.400100689
-            ],
-            [
-              534510.628403144,
-              184500.080478297
-            ],
-            [
-              534510.653138585,
-              184500.00050134
-            ],
-            [
-              534511.774466834,
-              184494.222155152
-            ],
-            [
-              534513.30804845,
-              184487.973943799
-            ],
-            [
-              534514.553052435,
-              184480.85598134
-            ],
-            [
-              534518.354025417,
-              184461.451535776
-            ],
-            [
-              534526.302264704,
-              184463.350991714
-            ],
-            [
-              534522.006587978,
-              184487.25414968
+              [
+                534513.25,
+                184496.1
+              ],
+              [
+                534519.9,
+                184497.65
+              ],
+              [
+                534519.45,
+                184500
+              ],
+              [
+                534519.05,
+                184502
+              ],
+              [
+                534516.25,
+                184501.4
+              ],
+              [
+                534510.63,
+                184500.08
+              ],
+              [
+                534510.65,
+                184500
+              ],
+              [
+                534511.777,
+                184494.222
+              ],
+              [
+                534513.309,
+                184487.975
+              ],
+              [
+                534514.55,
+                184480.85
+              ],
+              [
+                534518.35,
+                184461.45
+              ],
+              [
+                534526.3,
+                184463.35
+              ],
+              [
+                534522.003,
+                184487.25
+              ],
+              [
+                534521.977,
+                184487.244
+              ],
+              [
+                534515.655,
+                184485.854
+              ],
+              [
+                534513.25,
+                184496.1
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
-      },
-      {
-        "coordinates": [
-          [
-            [
-              534522.006587978,
-              184487.25414968
-            ],
-            [
-              534521.750991092,
-              184488.503791932
-            ],
-            [
-              534519.904097212,
-              184497.651173728
-            ],
-            [
-              534519.450618716,
-              184500.000501358
-            ],
-            [
-              534519.054855941,
-              184501.999929058
-            ],
-            [
-              534516.251535043,
-              184501.400100689
-            ],
-            [
-              534510.628403144,
-              184500.080478297
-            ],
-            [
-              534510.653138585,
-              184500.00050134
-            ],
-            [
-              534511.774466834,
-              184494.222155152
-            ],
-            [
-              534513.30804845,
-              184487.973943799
-            ],
-            [
-              534514.553052435,
-              184480.85598134
-            ],
-            [
-              534518.354025417,
-              184461.451535776
-            ],
-            [
-              534526.302264704,
-              184463.350991714
-            ],
-            [
-              534522.006587978,
-              184487.25414968
-            ]
-          ]
-        ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -218,23 +167,23 @@
       },
       "type": "name"
     },
-    "type": "geometrycollection"
+    "type": "GeometryCollection"
   },
   "date_building_work_completed_under_previous_permission": null,
-  "last_updated": "2026-04-15T11:23:50.597Z",
+  "last_updated": "2026-06-27T18:08:38.276Z",
   "centroid": {
     "lat": 51.543292,
     "lon": -0.061585
   },
   "decision_date": "28/08/2025",
-  "uprn": "100021069255",
+  "uprn": 100021069255,
   "epc_number": "2315-9129-6002-0005-2506",
   "centroid_northing": 184491,
   "application_type": "All Other",
   "actual_completion_date": null,
-  "locality": "HACKNEY",
+  "locality": "London",
   "ward": "London Fields Ward",
-  "reference_no_of_permission_being_relied_on": null,
+  "reference_no_of_permission_being_relied_on": "2023/0256",
   "last_date_consultation_comments": "21/07/2025",
   "bo_system": "Portal",
   "appeal_status": null,
@@ -259,66 +208,76 @@
     "coordinates": [
       [
         [
-          -0.061529,
-          51.543257
-        ],
-        [
-          -0.061532,
-          51.543269
-        ],
-        [
-          -0.061555,
-          51.543351
-        ],
-        [
-          -0.061561,
-          51.543372
-        ],
-        [
-          -0.061565,
-          51.543391
-        ],
-        [
-          -0.061606,
-          51.543386
-        ],
-        [
-          -0.061688,
-          51.543375
-        ],
-        [
-          -0.061687,
-          51.543375
-        ],
-        [
-          -0.061673,
-          51.543322
-        ],
-        [
-          -0.061654,
-          51.543266
-        ],
-        [
-          -0.061638,
-          51.543202
-        ],
-        [
-          -0.061591,
-          51.543026
-        ],
-        [
-          -0.061476,
-          51.543042
-        ],
-        [
-          -0.061529,
-          51.543257
+          [
+            -0.061651,
+            51.543339
+          ],
+          [
+            -0.061555,
+            51.543351
+          ],
+          [
+            -0.061561,
+            51.543372
+          ],
+          [
+            -0.061566,
+            51.543391
+          ],
+          [
+            -0.061606,
+            51.543386
+          ],
+          [
+            -0.061688,
+            51.543375
+          ],
+          [
+            -0.061687,
+            51.543375
+          ],
+          [
+            -0.061673,
+            51.543322
+          ],
+          [
+            -0.061654,
+            51.543266
+          ],
+          [
+            -0.061638,
+            51.543202
+          ],
+          [
+            -0.061591,
+            51.543026
+          ],
+          [
+            -0.061476,
+            51.543041
+          ],
+          [
+            -0.061529,
+            51.543257
+          ],
+          [
+            -0.061529,
+            51.543257
+          ],
+          [
+            -0.061621,
+            51.543246
+          ],
+          [
+            -0.061651,
+            51.543339
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "date_building_work_started_under_previous_permission": "10/01/2025",
-  "description": "Erection of rear extension at LOWER ground floor level; replacement of windows and doors on the lower ground floor rear elevation with lift; other associated elevational alterations and erection of outbuilding.",
+  "description": "The renovation of 222 Richmond Road is currently underway in accordance with approved planning consent (2023/0256). \n\nSince consent was granted in 2023 the home owner has been diagnosed with Parkinsons’ disease and now requires disabled access between the lower ground, garden and ground level. We therefore wish to apply for ammendments to the approved planning consent that concern wheel chair access at the rear elevation of the property. \n\nKEY DESIGN PRINCIPLES\n\nThe aim of this application is to demonstrate that the proposed works will not have a detrimental impact on the existing historic character whilst improving the disabled access to the property for the homeowner.\n\nWHEELCHAIR PLATFORM LIFT\n\nWe would like to install an external platform lift at the rear of the property to facilitate wheel chair access. Having consulted with a lift engineer we propose locating the lift in a discrete position at the rear of the property, where it can service the lower ground, garden and ground floor levels.\n\nAMMENDED DESIGN OF GARDEN DOOR\n\nThe current approved planning allows for a garden door on the rear facade at ground level. The door is flanked on each side by fixed windows. We’d like to keep the scale and fenestartion of the door exactly the same as the approved permision, but lose the fixed windows on each side of the door. Wheel chair access will be improved by creating a straight pathway between the rear door and the garden.\n\nPRE-APPLICATON ADVICE (2025/0067/PA) \n\nThe proposals here were shared with our Hackney planning officer, Zarreen Hadadi and the design team, for a pre-application consultation (2025/0067/PA). This application has been adjusted in response to the advice provided.",
   "application_type_full": "Full planning permission"
 }

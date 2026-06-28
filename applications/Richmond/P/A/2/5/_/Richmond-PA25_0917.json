@@ -4,12 +4,16 @@
   "appeal_start_date": null,
   "date_building_work_completed_under_previous_permission": null,
   "url_planning_app": null,
-  "borough": "Richmond",
-  "application_type_full": null,
+  "borough": "Richmond Upon Thames",
+  "application_type_full": "Full planning permission",
   "actual_commencement_date": null,
   "ward": "",
   "decision_date": "08/07/2025",
-  "parking_details": {},
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_proposed_cycle": 16,
+    "net_cycle": 16
+  },
   "polygon": {
     "geometries": [
       {
@@ -104,26 +108,26 @@
   },
   "pp_id": "PP-13833823",
   "development_type": null,
-  "description": "Change of use of first, second, and third floors (Class E), part-infill of basement and ground floors, part-one and part-three storey rear extensions including external terraces to create eight residential units (Class C3); together with provision of internal bicycle parking and refuse storage, extension of lift overrun at roof level, external alterations to front elevation to provide new ground floor entrance and replacement windows.",
-  "site_name": null,
+  "description": "Change of use of first, second, and third floors (Class E), part-infill of basement and ground floors, part-one and part-three storey rear extensions including external terraces to create eight residential units (Class C3); together with provision of internal bicycle parking and refuse storage, extension of lift overrun at roof level, external alterations to front elevation to provide new ground floor entrance and replacement windows",
+  "site_name": "7-8",
   "decision_conditions": [
     "Details of the final specification of acoustic glazing for the affected facades of habitable rooms shall be submitted to and approved in writing by the Local Planning Authority prior to the commencement of relevant works and shall be installed prior to occupation of the relevant part of the development and be so maintained.\nREASON:  To protect the amenity of future occupiers and of residents of nearby properties."
   ],
   "lpa_app_no": "PA25/0917",
   "subdivision_of_building": null,
-  "centroid_easting": 517799,
-  "epc_number": null,
+  "centroid_easting": 517795,
+  "epc_number": "6069-9145-2849-3863-2468",
   "secondary_street_name": null,
   "lpa_name": "Richmond",
   "appeal_decision": null,
   "decision_agency": null,
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "cil_liability": false,
-  "postcode": "TW9 1JU",
+  "postcode": "TW9 1JY",
   "decision_process": null,
   "application_details": {
     "lead_developer_company_name": "LBRuT Transport",
-    "site_area": 0.038000000000000006,
+    "site_area": 0.0478,
     "3d_model": false,
     "affordable_housing_fast_track": false,
     "s106_agreement": false,
@@ -135,28 +139,44 @@
     "transport_impact_assessment": false,
     "circular_economy_statement": false,
     "commencement_notice_received": false,
-    "scheme_phasing": false,
+    "scheme_phasing": true,
     "rain_water_harvesting": false,
     "grey_water_reuse": false,
     "green_suds": false,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "site_area": 0.038000000000000006
+      "site_area": 0.038000000000000006,
+      "total_gia_gained": 726.81,
+      "total_gia_existing": 947.73,
+      "total_gia_lost": 522.89
     },
     "garden_land_lost": false,
     "infrastructure_details": {
-      "waste_provision": false,
+      "waste_provision": true,
       "mobile_network_operators_consultation": false,
-      "fire_suppression_system_proposed": false,
-      "ghg_reduction_over_building_regulations": false
+      "fire_suppression_system_proposed": true,
+      "ghg_reduction_over_building_regulations": true,
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 8,
+      "green_roof_area": 53.6,
+      "urban_greening_factor_score": 0,
+      "solar_pv_capacity": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 1,
+      "total_annual_nox_emissions": 0,
+      "percentage_demolition_construction_material_recycling": 95,
+      "no_homes_to_have_electrical_heating": 0,
+      "no_new_gas_connections_required": 0,
+      "chp_heat_pumps_capacity": 0
     },
     "other_residential_accommodation_details": {
       "site_area": 0.038000000000000006
     },
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_bedrooms": 0,
+      "total_no_proposed_bedrooms": 11,
       "total_no_proposed_residential_units": 8,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_affordable_units": 0,
@@ -172,10 +192,10 @@
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "total_no_proposed_residential_units_market_for_sale": 0,
+      "total_no_proposed_residential_units_market_for_sale": 8,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": 0,
+      "habitable_rooms_density": 499.99999999999994,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
@@ -192,91 +212,161 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 3,
+          "provider": "Private",
+          "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "gia": null,
-          "unit_development_type": "Change of Use"
+          "tenure": "Market for sale",
+          "gia": 61
         },
         {
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "gia": null,
-          "unit_development_type": "Change of Use"
+          "tenure": "Market for sale",
+          "gia": 51
         },
         {
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "gia": null,
-          "unit_development_type": "Change of Use"
+          "tenure": "Market for sale",
+          "gia": 50
         },
         {
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "gia": null,
-          "unit_development_type": "Change of Use"
+          "tenure": "Market for sale",
+          "gia": 51
         },
         {
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 3,
+          "provider": "Private",
+          "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "gia": null,
-          "unit_development_type": "Change of Use"
+          "tenure": "Market for sale",
+          "gia": 71
         },
         {
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "gia": null,
-          "unit_development_type": "Change of Use"
+          "tenure": "Market for sale",
+          "gia": 50
         },
         {
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 3,
+          "provider": "Private",
+          "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "gia": null,
-          "unit_development_type": "Change of Use"
+          "tenure": "Market for sale",
+          "gia": 70
         },
         {
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "gia": null,
-          "unit_development_type": "Change of Use"
+          "tenure": "Market for sale",
+          "gia": 50
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
-    }
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "total_gia_gained": 454
+    },
+    "total_gia_existing": 947.73,
+    "projected_cost_of_works": "Between £2m and £100m",
+    "internal_resi_water_usage": 105,
+    "phasing_details": [
+      {
+        "phase_detail": "Entire development",
+        "intended_completion_date": "06/2026",
+        "intended_commencement_date": "07/2025"
+      }
+    ],
+    "total_gia_gained": 726.81,
+    "total_gia_lost": 522.89,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 0,
+        "gia_gained": 634.65,
+        "use_class": "C3",
+        "gia_lost": 0
+      },
+      {
+        "gia_existing": 947.73,
+        "gia_gained": 92.16,
+        "use_class": "EC1",
+        "gia_lost": 522.89
+      }
+    ],
+    "occupation_status": "Occupied",
+    "surface_water_discharge_percentage_reduction": 0,
+    "ownership_status": "Private"
   },
-  "uprn": "10002250062",
+  "uprn": 10002250062,
   "street_name": "George Street",
   "decision": "Approved",
   "wgs84_polygon": {
@@ -284,84 +374,24 @@
     "coordinates": [
       [
         [
-          -0.305685,
-          51.459723
+          -0.305828,
+          51.459906
         ],
         [
-          -0.305671,
-          51.459731
+          -0.305829,
+          51.459879
         ],
         [
-          -0.305588,
-          51.459775
+          -0.305873,
+          51.45988
         ],
         [
-          -0.305647,
-          51.45982
-        ],
-        [
-          -0.305669,
-          51.459837
-        ],
-        [
-          -0.305681,
-          51.459846
-        ],
-        [
-          -0.305705,
-          51.459865
-        ],
-        [
-          -0.305708,
-          51.459867
-        ],
-        [
-          -0.305875,
-          51.459993
-        ],
-        [
-          -0.30598,
-          51.459938
-        ],
-        [
-          -0.305937,
-          51.459903
-        ],
-        [
-          -0.305964,
-          51.459889
-        ],
-        [
-          -0.305881,
-          51.459825
-        ],
-        [
-          -0.305859,
-          51.459808
-        ],
-        [
-          -0.305845,
-          51.459796
+          -0.305872,
+          51.459907
         ],
         [
           -0.305828,
-          51.459784
-        ],
-        [
-          -0.305837,
-          51.459778
-        ],
-        [
-          -0.305824,
-          51.459769
-        ],
-        [
-          -0.305735,
-          51.459698
-        ],
-        [
-          -0.305685,
-          51.459723
+          51.459906
         ]
       ]
     ]
@@ -369,15 +399,15 @@
   "appeal_decision_date": null,
   "site_number": "7 8",
   "date_building_work_started_under_previous_permission": null,
-  "centroid_northing": 174791,
+  "centroid_northing": 174796,
   "centroid": {
-    "lon": -0.305795,
-    "lat": 51.459847
+    "lon": -0.30585,
+    "lat": 51.459893
   },
   "valid_date": "26/03/2025",
   "id": "Richmond-PA25_0917",
-  "last_updated": "2025-12-24T13:15:05.521Z",
-  "locality": null,
+  "last_updated": "2026-06-27T03:28:11.058Z",
+  "locality": "Richmond",
   "status": "Approved",
   "last_date_consultation_comments": "16/05/2025",
   "decision_target_date": "20/05/2025",

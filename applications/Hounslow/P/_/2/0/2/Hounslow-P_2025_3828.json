@@ -20,7 +20,7 @@
   "parking_details": null,
   "decision_process": null,
   "street_name": "Arlington Gardens",
-  "site_number": "41",
+  "site_number": 41,
   "centroid_easting": 520183,
   "polygon": {
     "geometries": [
@@ -28,60 +28,62 @@
         "coordinates": [
           [
             [
-              520185.9173570245,
-              178429.17663914477
-            ],
-            [
-              520185.8679607046,
-              178424.97638484844
-            ],
-            [
-              520178.01750954904,
-              178425.22712547367
-            ],
-            [
-              520177.7680732567,
-              178445.9262984632
-            ],
-            [
-              520177.4679184442,
-              178458.12607450224
-            ],
-            [
-              520179.71817796596,
-              178457.92664923036
-            ],
-            [
-              520186.26784901344,
-              178457.2268289337
-            ],
-            [
-              520186.0575711273,
-              178445.4066488789
-            ],
-            [
-              520186.0176805805,
-              178443.12701163214
-            ],
-            [
-              520186.0177362581,
-              178440.12623404444
-            ],
-            [
-              520185.9173570245,
-              178429.17663914477
+              [
+                520185.95,
+                178429.25
+              ],
+              [
+                520186.05,
+                178440.2
+              ],
+              [
+                520186.05,
+                178443.2
+              ],
+              [
+                520186.09,
+                178445.48
+              ],
+              [
+                520186.3,
+                178457.3
+              ],
+              [
+                520179.75,
+                178458
+              ],
+              [
+                520177.5,
+                178458.2
+              ],
+              [
+                520177.8,
+                178446
+              ],
+              [
+                520178.05,
+                178425.3
+              ],
+              [
+                520185.9,
+                178425.05
+              ],
+              [
+                520185.95,
+                178429.25
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
-    "type": "geometrycollection"
+    "type": "GeometryCollection"
   },
   "ward": "Chiswick Gunnersbury",
   "centroid_northing": 178435,
   "application_type": "All Other",
-  "uprn": "100021578797",
+  "uprn": 100021578797,
   "lapsed_date": "08/04/2029",
   "actual_completion_date": null,
   "decision": "Approved",
@@ -95,11 +97,11 @@
   "development_type": "Minor dwellings",
   "appeal_status": null,
   "date_building_work_completed_under_previous_permission": null,
-  "description": "Conversion from a large House in Multiple Occupation into a dwellinghouse and the erection of a single storey rear extension, part first and second floor rear extension.",
+  "description": "Change of use of HMO (C4) to a dwelling house (C3). Single storey rear extension, part first floor and second floor rear extension, with internal alterations",
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
   "epc_number": "8620-6824-6180-4039-0206",
-  "last_updated": "2026-04-13T09:10:10.251Z",
+  "last_updated": "2026-06-27T10:35:42.622Z",
   "centroid": {
     "lon": -0.270258,
     "lat": 51.492096
@@ -143,21 +145,31 @@
       "total_no_existing_residential_units": 1,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 11,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "HMO",
           "no_bedrooms": 11,
+          "unit_type": "HMO",
           "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 248.1
         },
         {
-          "provider": "Private",
-          "no_habitable_rooms": 6,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Semi Detached Home",
+          "no_habitable_rooms": 6,
+          "provider": "Private",
           "no_bedrooms": 3,
+          "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 279.7
         }
@@ -176,8 +188,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 248.1,
-        "use_class": "C4",
         "gia_gained": 279.7,
+        "use_class": "C4",
         "gia_lost": 248.1
       }
     ],
@@ -206,7 +218,8 @@
       "no_homes_passive_cooling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_pm_emissions": 0,
-      "percentage_demolition_construction_material_recycling": 0
+      "percentage_demolition_construction_material_recycling": 0,
+      "urban_greening_factor_score": 0
     },
     "affordable_housing_fast_track": false,
     "phasing_details": [
@@ -219,61 +232,64 @@
     "total_gia_gained": 279.7,
     "ownership_status": "Private",
     "rain_water_harvesting": false,
-    "site_area": 0.027260000000000003
+    "site_area": 0.027260000000000003,
+    "occupation_status": "Occupied"
   },
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.270218,
-          51.492043
-        ],
-        [
-          -0.27022,
-          51.492006
-        ],
-        [
-          -0.270333,
-          51.49201
-        ],
-        [
-          -0.270329,
-          51.492196
-        ],
-        [
-          -0.270329,
-          51.492305
-        ],
-        [
-          -0.270297,
-          51.492303
-        ],
-        [
-          -0.270203,
-          51.492296
-        ],
-        [
-          -0.27021,
-          51.492189
-        ],
-        [
-          -0.270211,
-          51.492169
-        ],
-        [
-          -0.270212,
-          51.492142
-        ],
-        [
-          -0.270218,
-          51.492043
+          [
+            -0.270217,
+            51.492044
+          ],
+          [
+            -0.270212,
+            51.492143
+          ],
+          [
+            -0.270211,
+            51.492169
+          ],
+          [
+            -0.270209,
+            51.49219
+          ],
+          [
+            -0.270202,
+            51.492296
+          ],
+          [
+            -0.270297,
+            51.492304
+          ],
+          [
+            -0.270329,
+            51.492306
+          ],
+          [
+            -0.270329,
+            51.492196
+          ],
+          [
+            -0.270332,
+            51.49201
+          ],
+          [
+            -0.270219,
+            51.492006
+          ],
+          [
+            -0.270217,
+            51.492044
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "id": "Hounslow-P_2025_3828",
   "reference_no_of_permission_being_relied_on": null,
   "title_number": null,
-  "last_updated_by": "Northgate M3"
+  "last_updated_by": "Planning Portal ingest"
 }

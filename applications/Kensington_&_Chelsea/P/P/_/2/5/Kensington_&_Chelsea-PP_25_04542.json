@@ -1,5 +1,5 @@
 {
-  "borough": "Kensington & Chelsea",
+  "borough": "Kensington And Chelsea",
   "application_type": "All Other",
   "decision": "Approved",
   "decision_conditions": null,
@@ -8,18 +8,18 @@
   "lpa_app_no": "PP/25/04542",
   "site_number": null,
   "ward": "Stanley",
-  "locality": null,
+  "locality": "London",
   "last_date_consultation_comments": "31/10/2025",
-  "date_building_work_started_under_previous_permission": null,
-  "description": "Change of use on the first and second floor levels from Sui Generis (dog day care and dog consultation/therapy facilities) to Sui Generis (dog day care, dog grooming and dog grooming teaching facilities).",
+  "date_building_work_started_under_previous_permission": "29/06/2025",
+  "description": "The change of use on the first and second floor levels from Sui Generis (dog day care and dog consultation/therapy facilities) to Sui Generis (dog day care, dog grooming and dog grooming teaching facilities) at 330 King’s Road, SW3 5UR.\n",
   "parking_details": null,
-  "postcode": null,
+  "postcode": "SW3 5UR",
   "appeal_status": null,
   "cil_liability": false,
   "date_building_work_completed_under_previous_permission": null,
   "pp_id": "PP-13811070",
   "status": "Approved",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Planning Portal ingest",
   "polygon": {
     "coordinates": [
       [
@@ -53,9 +53,84 @@
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "GeometryCollection",
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                526866.75,
+                177846.8
+              ],
+              [
+                526870.85,
+                177850.35
+              ],
+              [
+                526860.25,
+                177862.9
+              ],
+              [
+                526856.7,
+                177859.9
+              ],
+              [
+                526855.9,
+                177860.85
+              ],
+              [
+                526855.15,
+                177860.2
+              ],
+              [
+                526866.75,
+                177846.8
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ]
   },
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          [
+            -0.174246,
+            51.485352
+          ],
+          [
+            -0.174186,
+            51.485383
+          ],
+          [
+            -0.174334,
+            51.485498
+          ],
+          [
+            -0.174386,
+            51.485472
+          ],
+          [
+            -0.174397,
+            51.48548
+          ],
+          [
+            -0.174408,
+            51.485475
+          ],
+          [
+            -0.174246,
+            51.485352
+          ]
+        ]
+      ]
+    ],
+    "type": "MultiPolygon"
+  },
   "appeal_decision_date": null,
   "secondary_street_name": null,
   "lapsed_date": "05/11/2028",
@@ -68,26 +143,80 @@
   "decision_target_date": "05/11/2025",
   "valid_date": "11/08/2025",
   "development_type": "Other change of use",
-  "last_updated": "2025-11-17T10:02:35.881Z",
-  "subdivision_of_building": null,
+  "last_updated": "2026-06-27T04:24:46.937Z",
+  "subdivision_of_building": "Applies to the first and second floor only.",
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
     "lat": 51.485463,
     "lon": -0.174339
   },
   "decision_process": "Delegated",
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "decision_agency": null,
-  "street_name": null,
+  "street_name": "King's Road",
   "appeal_decision": null,
   "title_number": null,
-  "site_name": "330 King's Road, LONDON, SW3 5UR",
+  "site_name": "330 First And Second Floor",
   "appeal_start_date": null,
   "application_details": {
     "existing_uprns": null,
-    "site_area": 0.01
+    "site_area": 0.0046,
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "1",
+        "intended_completion_date": "07/2025",
+        "intended_commencement_date": "06/2025"
+      }
+    ],
+    "total_gia_gained": 47.5,
+    "total_gia_lost": 46,
+    "total_gia_existing": 46,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 46,
+        "gia_gained": 47.5,
+        "use_class": "SG",
+        "gia_lost": 46
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied",
+    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "surface_water_discharge_percentage_reduction": 0,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 47.5,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 46,
+      "total_gia_gained": 47.5,
+      "total_gia_lost": 46,
+      "total_gia_existing": 46
+    },
+    "garden_land_lost": false,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 0,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 100,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 0,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "internal_resi_water_usage": 0,
+    "ownership_status": "Private",
+    "lead_developer_company_name": "Kaizen Projects"
   },
-  "epc_number": null,
-  "uprn": "217109778",
+  "epc_number": "0597-2512-2230-6300-8403",
+  "uprn": 217047182,
   "actual_completion_date": null
 }

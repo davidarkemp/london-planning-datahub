@@ -1,32 +1,44 @@
 {
   "decision_target_date": "13/10/2025",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Other house holder developments",
   "postcode": "E17 5QG",
-  "title_number": null,
-  "application_details": {},
+  "title_number": [
+    "EGL453772"
+  ],
+  "application_details": {
+    "total_gia_gained": 27.8,
+    "no_additional_bathrooms": 0,
+    "no_additional_bedrooms": 0,
+    "intended_completion_date": "12/2025",
+    "intended_commencement_date": "08/2025"
+  },
   "decision_date": "10/10/2025",
   "url_planning_app": "https://builtenvironment.walthamforest.gov.uk/planning/index.html?fa=getApplication&id=118667",
   "borough": "Waltham Forest",
-  "locality": null,
+  "locality": "Walthamstow",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 2,
+    "net_car": 0,
+    "no_proposed_car": 2
+  },
   "site_name": null,
-  "epc_number": null,
+  "epc_number": "2131-6611-8418-7094-1920",
   "pp_id": "14201450",
   "subdivision_of_building": null,
   "status": "Refused",
-  "description": "Construction of a single storey rear extension with raised deck area to rear.",
+  "description": "Proposed rear extension and accompanying decking to an existing 2-storey terraced house.",
   "decision_conditions": null,
-  "site_number": "25",
-  "last_updated": "2026-04-15T11:55:27.936Z",
+  "site_number": 25,
+  "last_updated": "2026-06-27T13:47:00.468Z",
   "last_date_consultation_comments": "25/09/2025",
   "valid_date": "18/08/2025",
   "actual_commencement_date": null,
-  "centroid_northing": 190481,
+  "centroid_northing": 190486,
   "appeal_decision": null,
   "decision_agency": "Borough",
   "lpa_app_no": "251967",
@@ -34,46 +46,60 @@
   "decision": "Refused",
   "id": "Waltham_Forest-251967",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
-              535697.702564815,
-              190492.976122448
-            ],
-            [
-              535691.924052577,
-              190468.739110936
-            ],
-            [
-              535676.753404873,
-              190472.113665991
-            ],
-            [
-              535678.724092403,
-              190475.45412689
-            ],
-            [
-              535685.620189679,
-              190479.50183117
-            ],
-            [
-              535689.214290555,
-              190492.995360661
-            ],
-            [
-              535692.934031905,
-              190495.642929778
-            ],
-            [
-              535697.702564815,
-              190492.976122448
+              [
+                535676.62,
+                190472.35
+              ],
+              [
+                535691.91,
+                190468.62
+              ],
+              [
+                535695.35,
+                190482.29
+              ],
+              [
+                535697.8,
+                190493.05
+              ],
+              [
+                535696.11,
+                190493.65
+              ],
+              [
+                535694.75,
+                190494.45
+              ],
+              [
+                535693.15,
+                190495.9
+              ],
+              [
+                535689.15,
+                190492.85
+              ],
+              [
+                535685.95,
+                190479.55
+              ],
+              [
+                535678.75,
+                190475.8
+              ],
+              [
+                535676.62,
+                190472.35
+              ]
             ]
           ]
-        ]
+        ],
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -86,58 +112,72 @@
   "appeal_start_date": null,
   "decision_process": "Delegated",
   "ward": "Higham Hill",
-  "street_name": "LEE CLOSE",
+  "street_name": "Lee Close",
   "secondary_street_name": null,
   "lpa_name": "Waltham Forest",
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": null,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.042268,
-          51.596944
-        ],
-        [
-          -0.042361,
-          51.596728
-        ],
-        [
-          -0.042578,
-          51.596762
-        ],
-        [
-          -0.042548,
-          51.596791
-        ],
-        [
-          -0.042447,
-          51.596826
-        ],
-        [
-          -0.04239,
-          51.596946
-        ],
-        [
-          -0.042336,
-          51.596969
-        ],
-        [
-          -0.042268,
-          51.596944
+          [
+            -0.04258,
+            51.596764
+          ],
+          [
+            -0.042361,
+            51.596727
+          ],
+          [
+            -0.042306,
+            51.596849
+          ],
+          [
+            -0.042266,
+            51.596945
+          ],
+          [
+            -0.042291,
+            51.596951
+          ],
+          [
+            -0.04231,
+            51.596958
+          ],
+          [
+            -0.042332,
+            51.596972
+          ],
+          [
+            -0.042391,
+            51.596945
+          ],
+          [
+            -0.042443,
+            51.596826
+          ],
+          [
+            -0.042548,
+            51.596794
+          ],
+          [
+            -0.04258,
+            51.596764
+          ]
         ]
       ]
     ]
   },
-  "uprn": "100022562424",
+  "uprn": 100022562424,
   "application_type": "Householder",
   "centroid": {
-    "lat": 51.596839,
-    "lon": -0.042398
+    "lat": 51.596883,
+    "lon": -0.042338
   },
   "lapsed_date": "10/10/2025",
-  "application_type_full": null,
-  "centroid_easting": 535689,
+  "application_type_full": "Householder planning permission",
+  "centroid_easting": 535693,
   "actual_completion_date": null
 }

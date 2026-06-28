@@ -1,16 +1,21 @@
 {
   "decision_target_date": "16/04/2026",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Certificates of Lawful Development",
   "postcode": "SW19 8DS",
-  "title_number": null,
-  "application_details": {},
+  "title_number": [
+    "0000000000000"
+  ],
+  "application_details": {
+    "no_additional_bathrooms": 2,
+    "no_additional_bedrooms": 2
+  },
   "decision_date": null,
   "url_planning_app": "https://rspandlp.merton.gov.uk//planning/index.html?fa=getApplication&id=272704",
   "borough": "Merton",
-  "locality": null,
+  "locality": "London",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
   "parking_details": null,
@@ -19,14 +24,14 @@
   "pp_id": "14716496",
   "subdivision_of_building": null,
   "status": "Application Under Consideration",
-  "description": "LAWFUL DEVELOPMENT CERTIFICATE IN RESPECT TO CHANGE OF USE\r\nFROM DWELLINGHOUSE (CLASS C3) TO A 5 PERSON HMO (CLASS 4)",
+  "description": "256 Durnsford Road - Existing HMO",
   "decision_conditions": null,
-  "site_number": "256",
-  "last_updated": "2026-04-22T11:37:21.681Z",
+  "site_number": 256,
+  "last_updated": "2026-06-27T22:02:14.254Z",
   "last_date_consultation_comments": "08/05/2026",
   "valid_date": "19/02/2026",
   "actual_commencement_date": null,
-  "centroid_northing": null,
+  "centroid_northing": 172343,
   "appeal_decision": null,
   "decision_agency": "Borough",
   "lpa_app_no": "26/LDCE/0263",
@@ -34,46 +39,76 @@
   "decision": null,
   "id": "Merton-26_LDCE_0263",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
-              525393.197998355,
-              172338.950073666
-            ],
-            [
-              525406.539998365,
-              172343.77707369
-            ],
-            [
-              525416.997998372,
-              172347.500073702
-            ],
-            [
-              525420.047998375,
-              172348.550073707
-            ],
-            [
-              525421.74799838,
-              172343.400073705
-            ],
-            [
-              525407.79899837,
-              172338.297073687
-            ],
-            [
-              525395.647998361,
-              172333.800073674
-            ],
-            [
-              525393.197998355,
-              172338.950073666
+              [
+                525417,
+                172347.5
+              ],
+              [
+                525407.852,
+                172344.243
+              ],
+              [
+                525406.542,
+                172343.777
+              ],
+              [
+                525405.982,
+                172343.518
+              ],
+              [
+                525393.2,
+                172338.95
+              ],
+              [
+                525394.25,
+                172336.7
+              ],
+              [
+                525395.65,
+                172333.8
+              ],
+              [
+                525407.801,
+                172338.297
+              ],
+              [
+                525408.393,
+                172338.516
+              ],
+              [
+                525409.703,
+                172338.992
+              ],
+              [
+                525418.8,
+                172342.3
+              ],
+              [
+                525421.75,
+                172343.4
+              ],
+              [
+                525420.4,
+                172347.5
+              ],
+              [
+                525420.05,
+                172348.55
+              ],
+              [
+                525417,
+                172347.5
+              ]
             ]
           ]
-        ]
+        ],
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -86,58 +121,88 @@
   "appeal_start_date": null,
   "decision_process": "Delegated",
   "ward": "Wimbledon Park",
-  "street_name": "DURNSFORD ROAD",
+  "street_name": "Durnsford Road",
   "secondary_street_name": null,
   "lpa_name": "Merton",
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": null,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.197408,
-          51.436181
-        ],
-        [
-          -0.197215,
-          51.436221
-        ],
-        [
-          -0.197063,
-          51.436252
-        ],
-        [
-          -0.197019,
-          51.436261
-        ],
-        [
-          -0.196996,
-          51.436214
-        ],
-        [
-          -0.197199,
-          51.436171
-        ],
-        [
-          -0.197375,
-          51.436134
-        ],
-        [
-          -0.197408,
-          51.436181
+          [
+            -0.197063,
+            51.436252
+          ],
+          [
+            -0.197196,
+            51.436225
+          ],
+          [
+            -0.197215,
+            51.436221
+          ],
+          [
+            -0.197223,
+            51.436219
+          ],
+          [
+            -0.197408,
+            51.436181
+          ],
+          [
+            -0.197394,
+            51.43616
+          ],
+          [
+            -0.197375,
+            51.436134
+          ],
+          [
+            -0.197199,
+            51.436171
+          ],
+          [
+            -0.19719,
+            51.436173
+          ],
+          [
+            -0.197171,
+            51.436177
+          ],
+          [
+            -0.197039,
+            51.436205
+          ],
+          [
+            -0.196996,
+            51.436214
+          ],
+          [
+            -0.197014,
+            51.436251
+          ],
+          [
+            -0.197019,
+            51.436261
+          ],
+          [
+            -0.197063,
+            51.436252
+          ]
         ]
       ]
     ]
   },
-  "uprn": "48023660",
-  "application_type": "Householder",
+  "uprn": 48023660,
+  "application_type": "All Other",
   "centroid": {
-    "lat": 49.766807,
-    "lon": -7.55716
+    "lat": 51.436213,
+    "lon": -0.197122
   },
   "lapsed_date": null,
-  "application_type_full": null,
-  "centroid_easting": null,
+  "application_type_full": "Lawful development: Existing use",
+  "centroid_easting": 525413,
   "actual_completion_date": null
 }

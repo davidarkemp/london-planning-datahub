@@ -1,16 +1,21 @@
 {
   "decision_target_date": "21/01/2026",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Certificates of Lawful Development",
   "postcode": "E5 8NB",
-  "title_number": null,
-  "application_details": {},
+  "title_number": [
+    "unknown"
+  ],
+  "application_details": {
+    "no_additional_bathrooms": 0,
+    "no_additional_bedrooms": 0
+  },
   "decision_date": "21/01/2026",
   "url_planning_app": "https://developmentandhousing.hackney.gov.uk//planning/index.html?fa=getApplication&id=84125",
   "borough": "Hackney",
-  "locality": "HACKNEY",
+  "locality": "London",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
   "parking_details": null,
@@ -19,16 +24,16 @@
   "pp_id": "14519254",
   "subdivision_of_building": null,
   "status": "Refused",
-  "description": "Certificate of Lawfulness (Proposed) for a ground floor rear extension&nbsp;",
+  "description": "PD_80 Nightingale_Rear Extension",
   "decision_conditions": [
     "&lt;p&gt;The proposed works are not considered permitted development as they fail to meet the criteria of the Town and Country Planning (General Permitted Development) (England) Order 2015 (as amended) Schedule 2, Part 1, Class A,&amp;nbsp; A.1 (f)(i) being in excess of 3m in depth.&amp;nbsp;&lt;/p&gt;"
   ],
-  "site_number": "80",
-  "last_updated": "2026-04-15T11:36:13.010Z",
+  "site_number": 80,
+  "last_updated": "2026-06-27T10:49:46.923Z",
   "last_date_consultation_comments": null,
   "valid_date": "26/11/2025",
   "actual_commencement_date": null,
-  "centroid_northing": null,
+  "centroid_northing": 186227,
   "appeal_decision": null,
   "decision_agency": "Borough",
   "lpa_app_no": "2025/2600",
@@ -36,141 +41,76 @@
   "decision": "Refused",
   "id": "Hackney-2025_2600",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
-              534610.302947269,
-              186223.30720956
-            ],
-            [
-              534610.954307147,
-              186223.357194878
-            ],
-            [
-              534625.647006168,
-              186225.006723288
-            ],
-            [
-              534631.303118161,
-              186225.636542653
-            ],
-            [
-              534636.901514617,
-              186226.256365061
-            ],
-            [
-              534641.898021646,
-              186226.80620782
-            ],
-            [
-              534641.502258793,
-              186231.504862947
-            ],
-            [
-              534641.353847345,
-              186233.204376665
-            ],
-            [
-              534637.453933704,
-              186232.754504976
-            ],
-            [
-              534636.142968725,
-              186232.604547943
-            ],
-            [
-              534620.897851018,
-              186230.805063324
-            ],
-            [
-              534609.602117362,
-              186229.505435212
-            ],
-            [
-              534604.102661202,
-              186228.855620951
-            ],
-            [
-              534604.803491852,
-              186222.657395478
-            ],
-            [
-              534610.302947269,
-              186223.30720956
+              [
+                534636.141,
+                186232.596
+              ],
+              [
+                534620.9,
+                186230.8
+              ],
+              [
+                534609.6,
+                186229.5
+              ],
+              [
+                534604.1,
+                186228.85
+              ],
+              [
+                534604.8,
+                186222.65
+              ],
+              [
+                534610.3,
+                186223.3
+              ],
+              [
+                534610.95,
+                186223.35
+              ],
+              [
+                534625.65,
+                186225
+              ],
+              [
+                534631.305,
+                186225.635
+              ],
+              [
+                534636.9,
+                186226.25
+              ],
+              [
+                534641.9,
+                186226.8
+              ],
+              [
+                534641.5,
+                186231.5
+              ],
+              [
+                534641.35,
+                186233.2
+              ],
+              [
+                534637.45,
+                186232.75
+              ],
+              [
+                534636.141,
+                186232.596
+              ]
             ]
           ]
-        ]
-      },
-      {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              534610.302947269,
-              186223.30720956
-            ],
-            [
-              534610.954307147,
-              186223.357194878
-            ],
-            [
-              534625.647006168,
-              186225.006723288
-            ],
-            [
-              534631.303118161,
-              186225.636542653
-            ],
-            [
-              534636.901514617,
-              186226.256365061
-            ],
-            [
-              534641.898021646,
-              186226.80620782
-            ],
-            [
-              534641.502258793,
-              186231.504862947
-            ],
-            [
-              534641.353847345,
-              186233.204376665
-            ],
-            [
-              534637.453933704,
-              186232.754504976
-            ],
-            [
-              534636.142968725,
-              186232.604547943
-            ],
-            [
-              534620.897851018,
-              186230.805063324
-            ],
-            [
-              534609.602117362,
-              186229.505435212
-            ],
-            [
-              534604.102661202,
-              186228.855620951
-            ],
-            [
-              534604.803491852,
-              186222.657395478
-            ],
-            [
-              534610.302947269,
-              186223.30720956
-            ]
-          ]
-        ]
+        ],
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -183,86 +123,88 @@
   "appeal_start_date": null,
   "decision_process": "Delegated",
   "ward": "Hackney Downs Ward",
-  "street_name": "NIGHTINGALE ROAD",
+  "street_name": "Nightingale Road",
   "secondary_street_name": null,
   "lpa_name": "Hackney",
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": null,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.059592,
-          51.558837
-        ],
-        [
-          -0.059583,
-          51.558837
-        ],
-        [
-          -0.05937,
-          51.558848
-        ],
-        [
-          -0.059289,
-          51.558853
-        ],
-        [
-          -0.059208,
-          51.558857
-        ],
-        [
-          -0.059136,
-          51.558861
-        ],
-        [
-          -0.059139,
-          51.558903
-        ],
-        [
-          -0.059141,
-          51.558918
-        ],
-        [
-          -0.059197,
-          51.558915
-        ],
-        [
-          -0.059216,
-          51.558914
-        ],
-        [
-          -0.059437,
-          51.558902
-        ],
-        [
-          -0.0596,
-          51.558893
-        ],
-        [
-          -0.05968,
-          51.558888
-        ],
-        [
-          -0.059672,
-          51.558832
-        ],
-        [
-          -0.059592,
-          51.558837
+          [
+            -0.059216,
+            51.558914
+          ],
+          [
+            -0.059437,
+            51.558902
+          ],
+          [
+            -0.0596,
+            51.558893
+          ],
+          [
+            -0.05968,
+            51.558888
+          ],
+          [
+            -0.059672,
+            51.558832
+          ],
+          [
+            -0.059592,
+            51.558837
+          ],
+          [
+            -0.059583,
+            51.558837
+          ],
+          [
+            -0.05937,
+            51.558848
+          ],
+          [
+            -0.059289,
+            51.558853
+          ],
+          [
+            -0.059208,
+            51.558857
+          ],
+          [
+            -0.059135,
+            51.558861
+          ],
+          [
+            -0.059139,
+            51.558903
+          ],
+          [
+            -0.059141,
+            51.558918
+          ],
+          [
+            -0.059197,
+            51.558915
+          ],
+          [
+            -0.059216,
+            51.558914
+          ]
         ]
       ]
     ]
   },
-  "uprn": "100021061979",
+  "uprn": 100021061979,
   "application_type": "All Other",
   "centroid": {
-    "lat": 49.766807,
-    "lon": -7.55716
+    "lat": 51.558868,
+    "lon": -0.059466
   },
   "lapsed_date": "21/01/2029",
-  "application_type_full": null,
-  "centroid_easting": null,
+  "application_type_full": "Lawful development: Proposed use",
+  "centroid_easting": 534619,
   "actual_completion_date": null
 }

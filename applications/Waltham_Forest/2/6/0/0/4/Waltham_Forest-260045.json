@@ -1,12 +1,74 @@
 {
   "decision_target_date": "09/03/2026",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Minor dwellings",
   "postcode": "E17 5PQ",
   "title_number": null,
-  "application_details": {},
+  "application_details": {
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "Entire Development",
+        "intended_completion_date": "05/2026",
+        "intended_commencement_date": "02/2026"
+      }
+    ],
+    "total_gia_gained": 38.5,
+    "site_area": 0.0086,
+    "total_gia_lost": 12.5,
+    "total_gia_existing": 12.5,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 12.5,
+        "gia_gained": 38.5,
+        "use_class": "SG",
+        "gia_lost": 12.5
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied",
+    "scheme_phasing": true,
+    "rain_water_harvesting": true,
+    "building_details": [
+      {
+        "no_storeys": 1,
+        "max_height": 3.07,
+        "building_ref": "Dwelling"
+      }
+    ],
+    "grey_water_reuse": false,
+    "green_suds": true,
+    "surface_water_discharge_percentage_reduction": 20,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 38.5,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 12.5,
+      "total_gia_gained": 38.5,
+      "total_gia_lost": 12.5,
+      "total_gia_existing": 12.5
+    },
+    "garden_land_lost": false,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 10,
+      "no_resi_units_to_have_full_fibre": 1,
+      "green_roof_area": 44,
+      "urban_greening_factor_score": 0.45,
+      "no_homes_passive_cooling": 1,
+      "no_new_water_connections_required": 1,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 10,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 5,
+      "no_homes_to_have_electrical_heating": 1,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 1,
+      "ghg_reduction_over_building_regulations": true
+    },
+    "internal_resi_water_usage": 0,
+    "ownership_status": "Private"
+  },
   "decision_date": "09/03/2026",
   "url_planning_app": "https://builtenvironment.walthamforest.gov.uk/planning/index.html?fa=getApplication&id=119701",
   "borough": "Waltham Forest",
@@ -15,21 +77,22 @@
   "bo_system": "Portal",
   "parking_details": {
     "no_proposed_cycle": 2,
-    "net_cycle": 2
+    "net_cycle": 2,
+    "no_existing_cycle": 0
   },
   "site_name": null,
   "epc_number": null,
   "pp_id": "14605725",
   "subdivision_of_building": null,
   "status": "Refused",
-  "description": "Removal of the existing garage and construction of a single\r\nstorey building (with lower ground floor level) to provide a&nbsp;self-contained\r\ndwelling studio house (1-bed) (Use Class C3) including the creation of a rear\r\nopen air courtyard area, new front boundary wall, waste storage facilities and\r\nassociated landscaping at Land Adjacent to 26 Lawrence Avenue.",
+  "description": "Single storey studio dwelling",
   "decision_conditions": null,
   "site_number": "26",
-  "last_updated": "2026-04-15T12:01:33.023Z",
+  "last_updated": "2026-06-27T10:19:34.380Z",
   "last_date_consultation_comments": "20/02/2026",
   "valid_date": "12/01/2026",
   "actual_commencement_date": null,
-  "centroid_northing": null,
+  "centroid_northing": 190838,
   "appeal_decision": null,
   "decision_agency": "Borough",
   "lpa_app_no": "260045",
@@ -37,38 +100,48 @@
   "decision": "Refused",
   "id": "Waltham_Forest-260045",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
-              536001.098056046,
-              190843.411523918
-            ],
-            [
-              536004.982062452,
-              190830.930131975
-            ],
-            [
-              536007.638207642,
-              190816.44922819
-            ],
-            [
-              535996.480246259,
-              190828.145423899
-            ],
-            [
-              535992.598896859,
-              190840.528573745
-            ],
-            [
-              536001.098056046,
-              190843.411523918
+              [
+                535995.9,
+                190841.6
+              ],
+              [
+                535992.55,
+                190840.45
+              ],
+              [
+                535988.6,
+                190838.8
+              ],
+              [
+                535987.65,
+                190838
+              ],
+              [
+                535996.965,
+                190828.044
+              ],
+              [
+                535998.1904430862,
+                190826.73416890553
+              ],
+              [
+                535999.6524539766,
+                190827.76794322208
+              ],
+              [
+                535995.9,
+                190841.6
+              ]
             ]
           ]
-        ]
+        ],
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -87,32 +160,42 @@
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": null,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.037755,
-          51.60002
-        ],
-        [
-          -0.037703,
-          51.599907
-        ],
-        [
-          -0.037671,
-          51.599776
-        ],
-        [
-          -0.037827,
-          51.599884
-        ],
-        [
-          -0.037878,
-          51.599996
-        ],
-        [
-          -0.037755,
-          51.60002
+          [
+            -0.03783,
+            51.600005
+          ],
+          [
+            -0.037879,
+            51.599996
+          ],
+          [
+            -0.037937,
+            51.599982
+          ],
+          [
+            -0.037951,
+            51.599975
+          ],
+          [
+            -0.03782,
+            51.599883
+          ],
+          [
+            -0.037803,
+            51.599871
+          ],
+          [
+            -0.037782,
+            51.59988
+          ],
+          [
+            -0.03783,
+            51.600005
+          ]
         ]
       ]
     ]
@@ -120,11 +203,11 @@
   "uprn": "100022561328",
   "application_type": "All Other",
   "centroid": {
-    "lat": 49.766807,
-    "lon": -7.55716
+    "lat": 51.599973,
+    "lon": -0.03783
   },
   "lapsed_date": "09/03/2029",
-  "application_type_full": null,
-  "centroid_easting": null,
+  "application_type_full": "Full planning permission",
+  "centroid_easting": 535996,
   "actual_completion_date": null
 }

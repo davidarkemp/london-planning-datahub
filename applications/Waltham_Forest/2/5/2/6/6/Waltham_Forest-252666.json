@@ -15,14 +15,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 306.8,
-        "use_class": "EC3",
         "gia_gained": 0,
+        "use_class": "EC3",
         "gia_lost": 65.3
       },
       {
         "gia_existing": 0,
-        "use_class": "C3",
         "gia_gained": 65.3,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -79,11 +79,17 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "provider": "Private rented sector",
-          "no_habitable_rooms": 4,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 4,
+          "provider": "Private rented sector",
           "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 65.3
         }
@@ -106,9 +112,11 @@
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "urban_greening_factor_score": 0
     },
-    "ownership_status": "Mixed"
+    "ownership_status": "Mixed",
+    "occupation_status": "Vacant"
   },
   "parking_details": {
     "no_proposed_cycle": 2,
@@ -119,10 +127,10 @@
   "appeal_start_date": null,
   "lapsed_date": "09/04/2029",
   "actual_commencement_date": null,
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "cil_liability": null,
-  "last_updated": "2026-04-22T11:35:28.626Z",
-  "street_name": "HIGH ROAD LEYTONSTONE",
+  "last_updated": "2026-06-27T23:09:13.539Z",
+  "street_name": "High Road Leytonstone",
   "decision": "Approved",
   "epc_number": null,
   "decision_date": "09/04/2026",
@@ -132,22 +140,22 @@
   "date_building_work_started_under_previous_permission": null,
   "status": "Approved",
   "centroid": {
-    "lon": -7.55716,
-    "lat": 49.766807
+    "lon": 0.00883,
+    "lat": 51.562467
   },
   "appeal_status": null,
   "decision_target_date": "07/01/2026",
   "lpa_app_no": "252666",
   "postcode": "E11 4PA",
   "application_type_full": "Full planning permission",
-  "uprn": "10009143756",
+  "uprn": 10009143756,
   "title_number": null,
   "decision_agency": "Borough",
   "subdivision_of_building": null,
   "appeal_decision_date": null,
   "borough": "Waltham Forest",
-  "centroid_northing": null,
-  "description": "Change of use of part of the ground floor (Class E) to facilitate creation of a residential flat (Class C3) and associated cycle parking and landscaping (amended description).",
+  "centroid_northing": 186755,
+  "description": "Change of use of the rear portion of the ground floor of the existing property from commercial (Use Class E) to residential use, forming 1no. 2 bedroom, self-contained residential flat, whilst retaining the front commercial unit (Use Class E).",
   "appeal_decision": null,
   "id": "Waltham_Forest-252666",
   "site_name": null,
@@ -155,33 +163,71 @@
   "pp_id": "14467671",
   "lpa_name": "Waltham Forest",
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          0.008655,
-          51.562523
-        ],
-        [
-          0.00907,
-          51.562453
-        ],
-        [
-          0.009049,
-          51.562408
-        ],
-        [
-          0.008631,
-          51.56248
-        ],
-        [
-          0.008655,
-          51.562523
+          [
+            0.008832,
+            51.562446
+          ],
+          [
+            0.009046,
+            51.562409
+          ],
+          [
+            0.009066,
+            51.562454
+          ],
+          [
+            0.009059,
+            51.562455
+          ],
+          [
+            0.008743,
+            51.562509
+          ],
+          [
+            0.008726,
+            51.562512
+          ],
+          [
+            0.008681,
+            51.562519
+          ],
+          [
+            0.00865,
+            51.562525
+          ],
+          [
+            0.008636,
+            51.562492
+          ],
+          [
+            0.00863,
+            51.562479
+          ],
+          [
+            0.008696,
+            51.562469
+          ],
+          [
+            0.00875,
+            51.562459
+          ],
+          [
+            0.008821,
+            51.562448
+          ],
+          [
+            0.008832,
+            51.562446
+          ]
         ]
       ]
     ]
   },
-  "site_number": "629",
+  "site_number": 629,
   "last_date_consultation_comments": "10/12/2025",
   "valid_date": "12/11/2025",
   "application_type": "All Other",
@@ -191,11 +237,11 @@
     "&lt;p&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Prior to the first occupation of the development hereby permitted&lt;/span&gt;, full details relating to the proposed cycle parking shall be submitted to and approved in writing by the Local Planning Authority. The details shall include the proposed design, materials and capacity of the cycle store. The development shall be carried out fully in accordance with the approved details and shall be thereafter maintained as such for the lifetime of the development.&lt;/p&gt;"
   ],
   "bo_system": "Portal",
-  "centroid_easting": null,
-  "locality": null,
+  "centroid_easting": 539342,
+  "locality": "Leytonstone",
   "ward": "Cathall",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "crs": {
       "type": "name",
       "properties": {
@@ -207,28 +253,66 @@
         "coordinates": [
           [
             [
-              539329.687840465,
-              186760.937735732
-            ],
-            [
-              539358.623997173,
-              186753.939048823
-            ],
-            [
-              539357.367253856,
-              186748.894358656
-            ],
-            [
-              539328.144574581,
-              186756.163533627
-            ],
-            [
-              539329.687840465,
-              186760.937735732
+              [
+                539342.2,
+                186752.75
+              ],
+              [
+                539357.1,
+                186749.05
+              ],
+              [
+                539358.35,
+                186754.1
+              ],
+              [
+                539357.9,
+                186754.2
+              ],
+              [
+                539335.83,
+                186759.526
+              ],
+              [
+                539334.61,
+                186759.821
+              ],
+              [
+                539331.519,
+                186760.568
+              ],
+              [
+                539329.32,
+                186761.1
+              ],
+              [
+                539328.436,
+                186757.441
+              ],
+              [
+                539328.1,
+                186756.05
+              ],
+              [
+                539332.672,
+                186754.967
+              ],
+              [
+                539336.491,
+                186753.99
+              ],
+              [
+                539341.4,
+                186752.9
+              ],
+              [
+                539342.2,
+                186752.75
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ]
   },

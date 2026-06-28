@@ -1,11 +1,13 @@
 {
   "decision_target_date": "04/09/2025",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Certificates of Lawful Development",
   "postcode": "HA2 9NH",
-  "title_number": [],
+  "title_number": [
+    "unregistered"
+  ],
   "application_details": {
     "3d_model": false,
     "affordable_housing_fast_track": false,
@@ -19,8 +21,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 92,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 92
       }
     ],
@@ -79,20 +81,13 @@
       "residential_units": [
         {
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
           "change_type": "Loss",
           "unit_type": "House or Bungalow",
           "provision_for_older_persons": false,
-          "unit_development_type": "Change of Use",
-          "gia": null
+          "unit_development_type": "Change of Use"
         },
         {
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
           "change_type": "Gain",
           "unit_type": "HMO",
           "no_bedrooms": 3,
@@ -103,12 +98,14 @@
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0
-    }
+    },
+    "no_additional_bathrooms": 2,
+    "no_additional_bedrooms": 0
   },
   "decision_date": "04/09/2025",
   "url_planning_app": "https://planningsearch.harrow.gov.uk//planning/index.html?fa=getApplication&id=230720",
   "borough": "Harrow",
-  "locality": null,
+  "locality": "Rayners Lane",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
   "parking_details": null,
@@ -117,13 +114,13 @@
   "pp_id": "14165162",
   "subdivision_of_building": null,
   "status": "Lapsed",
-  "description": "Certificate of Lawful Development Proposed: Change of use from single dwellinghouse (Use Class: C3) to 4 person HMO (Use Class: C4)\n",
+  "description": "Lynton Road 173 HA2 9NH",
   "decision_conditions": [
     "The\nproposal is therefore a lawful development.",
     "The\nproposed use of the dwellinghouse as a House of Multiple Occupancy for up to 4\npersons (Use Class C4) is within the tolerances of Class L of Part 3 of\nSchedule 2 of The Town and Country Planning (General Permitted Development)\n(England) Order 2015 (as amended)."
   ],
-  "site_number": "173",
-  "last_updated": "2026-05-11T10:11:45.585Z",
+  "site_number": 173,
+  "last_updated": "2026-06-27T22:51:41.082Z",
   "last_date_consultation_comments": "06/08/2025",
   "valid_date": "10/07/2025",
   "actual_commencement_date": null,
@@ -135,34 +132,76 @@
   "decision": "Approved",
   "id": "Harrow-PL_1822_25",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              512445.696385366,
-              186863.101951009
-            ],
-            [
-              512413.261284719,
-              186885.034888976
-            ],
-            [
-              512415.484678898,
-              186888.923430367
-            ],
-            [
-              512448.578174203,
-              186867.676993619
-            ],
-            [
-              512445.696385366,
-              186863.101951009
+              [
+                512417.857,
+                186881.652
+              ],
+              [
+                512430.021,
+                186873.307
+              ],
+              [
+                512432.8,
+                186871.4
+              ],
+              [
+                512440.2,
+                186866.7
+              ],
+              [
+                512445.55,
+                186863.25
+              ],
+              [
+                512448.5,
+                186867.9
+              ],
+              [
+                512443.15,
+                186871.4
+              ],
+              [
+                512437.8,
+                186874.9
+              ],
+              [
+                512435.701,
+                186876.252
+              ],
+              [
+                512435.059,
+                186876.665
+              ],
+              [
+                512417.3,
+                186888.1
+              ],
+              [
+                512415.7,
+                186889.1
+              ],
+              [
+                512414.73,
+                186887.581
+              ],
+              [
+                512413.05,
+                186884.95
+              ],
+              [
+                512417.857,
+                186881.652
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -175,46 +214,88 @@
   "appeal_start_date": null,
   "decision_process": "Delegated",
   "ward": "Rayners Lane",
-  "street_name": "LYNTON ROAD",
+  "street_name": "Lynton Road",
   "secondary_street_name": null,
   "lpa_name": "Harrow",
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": false,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.378969,
-          51.569437
-        ],
-        [
-          -0.37943,
-          51.56964
-        ],
-        [
-          -0.379396,
-          51.569675
-        ],
-        [
-          -0.378926,
-          51.569477
-        ],
-        [
-          -0.378969,
-          51.569437
+          [
+            -0.379365,
+            51.569609
+          ],
+          [
+            -0.379192,
+            51.569532
+          ],
+          [
+            -0.379152,
+            51.569514
+          ],
+          [
+            -0.379047,
+            51.56947
+          ],
+          [
+            -0.378971,
+            51.569438
+          ],
+          [
+            -0.378927,
+            51.569479
+          ],
+          [
+            -0.379003,
+            51.569512
+          ],
+          [
+            -0.379079,
+            51.569544
+          ],
+          [
+            -0.379109,
+            51.569557
+          ],
+          [
+            -0.379118,
+            51.569561
+          ],
+          [
+            -0.379371,
+            51.569667
+          ],
+          [
+            -0.379393,
+            51.569676
+          ],
+          [
+            -0.379408,
+            51.569663
+          ],
+          [
+            -0.379433,
+            51.56964
+          ],
+          [
+            -0.379365,
+            51.569609
+          ]
         ]
       ]
     ]
   },
-  "uprn": "100021276323",
+  "uprn": 100021276323,
   "application_type": "All Other",
   "centroid": {
     "lat": 51.56951,
     "lon": -0.379092
   },
   "lapsed_date": "04/09/2025",
-  "application_type_full": null,
+  "application_type_full": "Lawful development: Proposed use",
   "centroid_easting": 512437,
   "actual_completion_date": null
 }

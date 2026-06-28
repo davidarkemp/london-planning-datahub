@@ -1,20 +1,24 @@
 {
   "decision_target_date": "19/08/2025",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Certificates of Lawful Development",
   "postcode": "HA2 9TR",
-  "title_number": null,
+  "title_number": [
+    "unregistered"
+  ],
   "application_details": {
     "other_residential_accommodation_details": {
       "no_council_tax_rateable_units_lost": 1
-    }
+    },
+    "no_additional_bathrooms": 0,
+    "no_additional_bedrooms": 0
   },
   "decision_date": "04/09/2025",
   "url_planning_app": "https://planningsearch.harrow.gov.uk//planning/index.html?fa=getApplication&id=230612",
   "borough": "Harrow",
-  "locality": null,
+  "locality": "Rayners Lane",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
   "parking_details": null,
@@ -23,13 +27,13 @@
   "pp_id": "14114932",
   "subdivision_of_building": null,
   "status": "Approved",
-  "description": "Certificate of Lawful Development Existing: Change of use from retail-use class E(a) into a mixed-use including restaurant-use class E(b), E(c(i)), E(c(ii)), E(c(iii)",
+  "description": "408, Alexandra Avenue, Rayners Lane, HA2 9TR",
   "decision_conditions": [
     "The documents/information submitted, in the absence of any substantive conflicting evidence, is satisfactory to prove, on the balance of probabilities, that the property at Tsk Mall, 408 Alexandra Avenue HA2 9TR has been in use as mixed-use including restaurant-use class E(b), E(c(i)), E(c(ii)), E(c(iii) for a continuous period of at least 4 years prior to the date of this application and was in use before 24 April 2024.&nbsp;&nbsp;",
     "The existing development is therefore considered to be lawful."
   ],
-  "site_number": "408",
-  "last_updated": "2026-04-15T11:51:58.220Z",
+  "site_number": 408,
+  "last_updated": "2026-06-27T18:48:12.818Z",
   "last_date_consultation_comments": "22/07/2025",
   "valid_date": "24/06/2025",
   "actual_commencement_date": null,
@@ -41,38 +45,84 @@
   "decision": "Approved",
   "id": "Harrow-PL_1639_25",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
-              512986.488417072,
-              187248.836368103
-            ],
-            [
-              512986.701731432,
-              187242.823668412
-            ],
-            [
-              513017.63346818,
-              187244.066998205
-            ],
-            [
-              513022.395858473,
-              187244.093933443
-            ],
-            [
-              513022.117264657,
-              187249.471762382
-            ],
-            [
-              512986.488417072,
-              187248.836368103
+              [
+                513015.3,
+                187244.05
+              ],
+              [
+                513017.9,
+                187244.1
+              ],
+              [
+                513017.9,
+                187243.95
+              ],
+              [
+                513022.5,
+                187244.15
+              ],
+              [
+                513022.33,
+                187249.43
+              ],
+              [
+                513013.111,
+                187249.335
+              ],
+              [
+                513005.558,
+                187249.257
+              ],
+              [
+                513004.85,
+                187249.25
+              ],
+              [
+                513004.201,
+                187249.243
+              ],
+              [
+                513000,
+                187249.2
+              ],
+              [
+                512986.4,
+                187248.85
+              ],
+              [
+                512986.65,
+                187242.95
+              ],
+              [
+                512996.7,
+                187243.5
+              ],
+              [
+                513000,
+                187243.65
+              ],
+              [
+                513003.15,
+                187243.7
+              ],
+              [
+                513007.75,
+                187243.85
+              ],
+              [
+                513015.3,
+                187244.05
+              ]
             ]
           ]
-        ]
+        ],
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -85,50 +135,96 @@
   "appeal_start_date": null,
   "decision_process": "Delegated",
   "ward": "Rayners Lane",
-  "street_name": "ALEXANDRA AVENUE",
+  "street_name": "Alexandra Avenue",
   "secondary_street_name": null,
   "lpa_name": "Harrow",
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": null,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.371046,
-          51.572796
-        ],
-        [
-          -0.371045,
-          51.572742
-        ],
-        [
-          -0.370598,
-          51.572747
-        ],
-        [
-          -0.370529,
-          51.572746
-        ],
-        [
-          -0.370532,
-          51.572794
-        ],
-        [
-          -0.371046,
-          51.572796
+          [
+            -0.370632,
+            51.572747
+          ],
+          [
+            -0.370594,
+            51.572747
+          ],
+          [
+            -0.370594,
+            51.572746
+          ],
+          [
+            -0.370528,
+            51.572746
+          ],
+          [
+            -0.370529,
+            51.572794
+          ],
+          [
+            -0.370662,
+            51.572795
+          ],
+          [
+            -0.37077,
+            51.572796
+          ],
+          [
+            -0.370781,
+            51.572796
+          ],
+          [
+            -0.37079,
+            51.572796
+          ],
+          [
+            -0.370851,
+            51.572796
+          ],
+          [
+            -0.371047,
+            51.572796
+          ],
+          [
+            -0.371045,
+            51.572743
+          ],
+          [
+            -0.3709,
+            51.572746
+          ],
+          [
+            -0.370852,
+            51.572746
+          ],
+          [
+            -0.370807,
+            51.572746
+          ],
+          [
+            -0.370741,
+            51.572747
+          ],
+          [
+            -0.370632,
+            51.572747
+          ]
         ]
       ]
     ]
   },
-  "uprn": "200000315369",
+  "uprn": 200000315369,
   "application_type": "All Other",
   "centroid": {
-    "lat": 51.572767,
-    "lon": -0.370794
+    "lat": 51.572769,
+    "lon": -0.370953
   },
   "lapsed_date": "04/09/2025",
-  "application_type_full": null,
-  "centroid_easting": 513004,
+  "application_type_full": "Lawful development: Existing use",
+  "centroid_easting": 512993,
   "actual_completion_date": null
 }

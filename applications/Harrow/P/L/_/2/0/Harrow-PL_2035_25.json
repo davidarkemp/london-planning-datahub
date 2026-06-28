@@ -1,16 +1,24 @@
 {
   "decision_target_date": "26/09/2025",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Other house holder developments",
   "postcode": "HA5 3PF",
-  "title_number": null,
-  "application_details": {},
+  "title_number": [
+    "XXX"
+  ],
+  "application_details": {
+    "total_gia_gained": 54,
+    "no_additional_bathrooms": 1,
+    "no_additional_bedrooms": 1,
+    "intended_completion_date": "03/2026",
+    "intended_commencement_date": "11/2025"
+  },
   "decision_date": "26/09/2025",
   "url_planning_app": "https://planningsearch.harrow.gov.uk//planning/index.html?fa=getApplication&id=230933",
   "borough": "Harrow",
-  "locality": null,
+  "locality": "Pinner",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
   "parking_details": null,
@@ -19,7 +27,7 @@
   "pp_id": "14224238",
   "subdivision_of_building": null,
   "status": "Approved",
-  "description": "Single and two storey rear extension; conversion of garage to habitable room; external alterations",
+  "description": "Part Single and Part Double Storey Rear Extension, Garage Conversion",
   "decision_conditions": [
     "Notwithstanding the provisions of the Town and Country Planning (General Permitted Development) (England) Order 2015 (or any order revoking and re-enacting that order with or without modification), no windows/doors, other than those shown on the approved plans shall be installed in the flank elevations of the development hereby permitted without the prior permission in writing of the local planning authority.",
     "The materials to be used in the construction of the external surfaces of the extension hereby permitted shall match those used in the existing building.",
@@ -28,12 +36,12 @@
     "The windows in the flank elevation of the proposed development shall:\r\n(a) be of purpose-made obscure glass,\r\n(b) be permanently fixed closed below a height of 1.7m above finished floor level,\r\nand shall thereafter be retained in that form.",
     "The development hereby permitted shall be begun before the expiration of three years from the date of this permission."
   ],
-  "site_number": "14",
-  "last_updated": "2026-04-15T11:53:16.857Z",
+  "site_number": 14,
+  "last_updated": "2026-06-27T19:09:29.857Z",
   "last_date_consultation_comments": "02/09/2025",
   "valid_date": "01/08/2025",
   "actual_commencement_date": null,
-  "centroid_northing": null,
+  "centroid_northing": 189711,
   "appeal_decision": null,
   "decision_agency": "Borough",
   "lpa_app_no": "PL/2035/25",
@@ -41,34 +49,60 @@
   "decision": "Approved",
   "id": "Harrow-PL_2035_25",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
-              511412.149797679,
-              189711.565271718
-            ],
-            [
-              511453.131763361,
-              189734.085942834
-            ],
-            [
-              511460.430651037,
-              189721.858979068
-            ],
-            [
-              511420.107627953,
-              189701.339363858
-            ],
-            [
-              511412.149797679,
-              189711.565271718
+              [
+                511460.15,
+                189721.95
+              ],
+              [
+                511453.25,
+                189734.1
+              ],
+              [
+                511426.9,
+                189719.4
+              ],
+              [
+                511412.05,
+                189711.25
+              ],
+              [
+                511413.5,
+                189709.45
+              ],
+              [
+                511415.05,
+                189707.5
+              ],
+              [
+                511415.3,
+                189707.2
+              ],
+              [
+                511419.6,
+                189701.8
+              ],
+              [
+                511420.15,
+                189701.2
+              ],
+              [
+                511436.45,
+                189709.7
+              ],
+              [
+                511460.15,
+                189721.95
+              ]
             ]
           ]
-        ]
+        ],
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -81,46 +115,72 @@
   "appeal_start_date": null,
   "decision_process": "Delegated",
   "ward": "Pinner South",
-  "street_name": "CUCKOO HILL DRIVE",
+  "street_name": "Cuckoo Hill Drive",
   "secondary_street_name": null,
   "lpa_name": "Harrow",
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": null,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.392972,
-          51.595243
-        ],
-        [
-          -0.392374,
-          51.595438
-        ],
-        [
-          -0.392272,
-          51.595326
-        ],
-        [
-          -0.392861,
-          51.59515
-        ],
-        [
-          -0.392972,
-          51.595243
+          [
+            -0.392276,
+            51.595327
+          ],
+          [
+            -0.392372,
+            51.595438
+          ],
+          [
+            -0.392757,
+            51.595311
+          ],
+          [
+            -0.392974,
+            51.59524
+          ],
+          [
+            -0.392954,
+            51.595224
+          ],
+          [
+            -0.392932,
+            51.595206
+          ],
+          [
+            -0.392928,
+            51.595203
+          ],
+          [
+            -0.392868,
+            51.595154
+          ],
+          [
+            -0.39286,
+            51.595148
+          ],
+          [
+            -0.392622,
+            51.595222
+          ],
+          [
+            -0.392276,
+            51.595327
+          ]
         ]
       ]
     ]
   },
-  "uprn": "100021300076",
+  "uprn": 100021300076,
   "application_type": "Householder",
   "centroid": {
-    "lat": 49.766807,
-    "lon": -7.55716
+    "lat": 51.595235,
+    "lon": -0.392715
   },
   "lapsed_date": "26/09/2025",
-  "application_type_full": null,
-  "centroid_easting": null,
+  "application_type_full": "Householder planning permission",
+  "centroid_easting": 511430,
   "actual_completion_date": null
 }

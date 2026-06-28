@@ -4,43 +4,97 @@
     "coordinates": [
       [
         [
-          0.20726819999999999,
-          51.5230815
-        ],
-        [
-          0.2073166,
-          51.5230976
-        ],
-        [
-          0.20769659999999998,
-          51.5231497
-        ],
-        [
-          0.2077232,
-          51.5230786
-        ],
-        [
-          0.2070784,
-          51.5229908
-        ],
-        [
-          0.2070533,
-          51.523053
-        ],
-        [
-          0.20726819999999999,
-          51.5230815
+          [
+            0.207121,
+            51.523
+          ],
+          [
+            0.207226,
+            51.523015
+          ],
+          [
+            0.207236,
+            51.523016
+          ],
+          [
+            0.207259,
+            51.523019
+          ],
+          [
+            0.207334,
+            51.523029
+          ],
+          [
+            0.207389,
+            51.523037
+          ],
+          [
+            0.207433,
+            51.523043
+          ],
+          [
+            0.207482,
+            51.523049
+          ],
+          [
+            0.207634,
+            51.52307
+          ],
+          [
+            0.207661,
+            51.523073
+          ],
+          [
+            0.20765,
+            51.523106
+          ],
+          [
+            0.207682,
+            51.523111
+          ],
+          [
+            0.207669,
+            51.523149
+          ],
+          [
+            0.207504,
+            51.523128
+          ],
+          [
+            0.207273,
+            51.523096
+          ],
+          [
+            0.207237,
+            51.523083
+          ],
+          [
+            0.207099,
+            51.523064
+          ],
+          [
+            0.207026,
+            51.523053
+          ],
+          [
+            0.207049,
+            51.52299
+          ],
+          [
+            0.207121,
+            51.523
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Planning Portal ingest",
   "url_planning_app": "http://development.havering.gov.uk/OcellaWeb/planningDetails?reference=P0892.24",
   "decision_target_date": null,
   "status": "Withdrawn",
   "parking_details": null,
-  "street_name": "Rainham",
+  "street_name": "Parsonage Road",
   "decision_agency": "Borough",
   "appeal_decision": null,
   "subdivision_of_building": null,
@@ -48,12 +102,17 @@
   "decision": "Withdrawn",
   "application_details": {
     "existing_uprns": null,
-    "site_area": 0.035
+    "site_area": 0.035,
+    "total_gia_gained": 127.83,
+    "no_additional_bathrooms": 2,
+    "no_additional_bedrooms": 2,
+    "intended_commencement_date": "08/2024",
+    "intended_completion_date": "11/2024"
   },
   "appeal_decision_date": null,
   "decision_date": "08/08/2024",
   "valid_date": null,
-  "site_number": null,
+  "site_number": 44,
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "ward": "Rainham & Wennington",
@@ -63,9 +122,9 @@
   "lpa_app_no": "P0892.24",
   "postcode": "RM13 9LN",
   "pp_id": "13185873",
-  "uprn": "100021354212",
-  "application_type": "All Other",
-  "locality": null,
+  "uprn": 100021354212,
+  "application_type": "Householder",
+  "locality": "Rainham",
   "date_building_work_started_under_previous_permission": null,
   "polygon": {
     "geometries": [
@@ -73,36 +132,90 @@
         "coordinates": [
           [
             [
-              553225.78,
-              182771.71
-            ],
-            [
-              553229.08,
-              182773.6
-            ],
-            [
-              553255.27,
-              182780.19
-            ],
-            [
-              553257.35,
-              182772.34
-            ],
-            [
-              553212.92,
-              182761.23
-            ],
-            [
-              553210.97,
-              182768.09
-            ],
-            [
-              553225.78,
-              182771.71
+              [
+                553217.8,
+                182762.55
+              ],
+              [
+                553225.05,
+                182764.45
+              ],
+              [
+                553225.75,
+                182764.55
+              ],
+              [
+                553227.326,
+                182764.947
+              ],
+              [
+                553232.5,
+                182766.25
+              ],
+              [
+                553236.3,
+                182767.2
+              ],
+              [
+                553239.33,
+                182767.958
+              ],
+              [
+                553242.7,
+                182768.8
+              ],
+              [
+                553253.15,
+                182771.359
+              ],
+              [
+                553255.03,
+                182771.819
+              ],
+              [
+                553254.149,
+                182775.486
+              ],
+              [
+                553256.32,
+                182776.007
+              ],
+              [
+                553255.3,
+                182780.25
+              ],
+              [
+                553243.95,
+                182777.55
+              ],
+              [
+                553228,
+                182773.55
+              ],
+              [
+                553225.55,
+                182772.05
+              ],
+              [
+                553216.05,
+                182769.6
+              ],
+              [
+                553211.05,
+                182768.25
+              ],
+              [
+                553212.85,
+                182761.3
+              ],
+              [
+                553217.8,
+                182762.55
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "type": "GeometryCollection"
@@ -111,22 +224,24 @@
   "actual_commencement_date": null,
   "site_name": "44 Parsonage Road",
   "decision_conditions": null,
-  "application_type_full": null,
-  "centroid_northing": 182771,
+  "application_type_full": "Householder planning permission",
+  "centroid_northing": 182767,
   "epc_number": null,
   "actual_completion_date": null,
-  "title_number": null,
+  "title_number": [
+    "Unregistered"
+  ],
   "appeal_status": null,
   "borough": "Havering",
   "cil_liability": false,
   "decision_process": null,
   "id": "Havering-P0892.24",
-  "description": "Single storey rear extension, creation of first floor to include fenestration changes to front elevation",
+  "description": "4 Metre Single Storey Rear and 1st Floor Roof Extension Scheme",
   "appeal_start_date": null,
-  "last_updated": "2025-03-19T20:49:39.835+00:00",
+  "last_updated": "2026-06-27T05:53:25.697Z",
   "centroid": {
-    "lon": "0.2074007",
-    "lat": "51.5230726"
+    "lon": 0.207169,
+    "lat": 51.523039
   },
-  "centroid_easting": 553235
+  "centroid_easting": 553221
 }

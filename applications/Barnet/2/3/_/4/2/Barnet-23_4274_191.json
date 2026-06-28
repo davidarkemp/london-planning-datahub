@@ -1,17 +1,45 @@
 {
   "lpa_app_no": "23/4274/191",
-  "uprn": "000200092703",
+  "uprn": 200092703,
   "lapsed_date": "26/01/2027",
-  "centroid_northing": "191017",
+  "centroid_northing": 191013,
   "site_number": null,
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Idox Uniform",
-  "site_name": "Flat A, 114 Pembroke Road\nLondon\nN10 2JD",
+  "site_name": "114 Flat A",
   "appeal_decision_date": null,
   "valid_date": "01/12/2023",
   "decision_date": "26/01/2024",
-  "wgs84_polygon": null,
-  "last_updated_by": "FME Excel Import",
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          [
+            -0.146032,
+            51.60326
+          ],
+          [
+            -0.14597,
+            51.603325
+          ],
+          [
+            -0.146292,
+            51.603405
+          ],
+          [
+            -0.146322,
+            51.603365
+          ],
+          [
+            -0.146032,
+            51.60326
+          ]
+        ]
+      ]
+    ],
+    "type": "MultiPolygon"
+  },
+  "last_updated_by": "Planning Portal ingest",
   "appeal_start_date": null,
   "reference_no_of_permission_being_relied_on": null,
   "application_type": "All Other",
@@ -135,7 +163,7 @@
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": null,
       "total_no_proposed_residential_units_social_rent": 0,
@@ -157,35 +185,39 @@
       "total_no_existing_residential_units_self_build_and_custom_build": 0
     },
     "ownership_status": null,
-    "lead_developer_company_name": null
+    "lead_developer_company_name": null,
+    "no_additional_bathrooms": 0,
+    "no_additional_bedrooms": 0
   },
   "appeal_decision": null,
   "postcode": "N10 2JD",
   "development_type": null,
-  "title_number": [],
-  "centroid_easting": "528484",
+  "title_number": [
+    "NGL8952"
+  ],
+  "centroid_easting": 528489,
   "actual_commencement_date": null,
-  "description": "Sub-division of existing flat into 2no. self-contained flats",
+  "description": "114 Pembroke Road N10 2JD- Resubmission",
   "decision": "Approved",
   "actual_completion_date": null,
-  "borough": "London Borough of Barnet",
-  "epc_number": null,
+  "borough": "Barnet",
+  "epc_number": "8668-7233-5070-7963-6996",
   "subdivision_of_building": null,
   "centroid": {
-    "lon": -0.146163,
-    "lat": 51.603343
+    "lon": -0.146092,
+    "lat": 51.603306
   },
   "url_planning_app": null,
   "pp_id": "PP-12506264",
   "id": "Barnet-23_4274_191",
-  "application_type_full": null,
+  "application_type_full": "Lawful development: Existing use",
   "cil_liability": true,
   "status": "Approved",
   "date_building_work_completed_under_previous_permission": null,
   "secondary_street_name": null,
   "decision_agency": null,
   "decision_target_date": "26/01/2024",
-  "locality": null,
+  "locality": "London",
   "lpa_name": "Barnet",
   "last_date_consultation_comments": null,
   "decision_conditions": null,
@@ -218,9 +250,9 @@
     "net_carclub": null,
     "net_bluebadge": null
   },
-  "last_updated": "2025-04-28T14:49:27.132Z",
+  "last_updated": "2026-06-27T15:21:50.441Z",
   "appeal_status": null,
-  "street_name": null,
+  "street_name": "Pembroke Road",
   "ward": "FB22",
   "polygon": {
     "coordinates": [
@@ -251,6 +283,37 @@
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "GeometryCollection",
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                528493.3,
+                191008
+              ],
+              [
+                528497.41,
+                191015.31
+              ],
+              [
+                528474.87,
+                191023.659
+              ],
+              [
+                528472.95,
+                191019.15
+              ],
+              [
+                528493.3,
+                191008
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ]
   }
 }

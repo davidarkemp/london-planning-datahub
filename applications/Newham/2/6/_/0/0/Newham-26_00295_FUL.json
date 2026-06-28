@@ -6,17 +6,17 @@
   "appeal_decision": null,
   "lapsed_date": "07/04/2029",
   "appeal_decision_date": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": null,
-  "last_updated": "2026-04-08T04:01:06.033Z",
+  "last_updated": "2026-06-27T20:55:31.121Z",
   "url_planning_app": null,
   "street_name": "High Street South",
   "parking_details": null,
   "ward": "EHSTH",
   "bo_system": "Idox Uniform",
   "site_name": "",
-  "site_number": "206",
+  "site_number": 206,
   "application_details": {
     "site_area": 0.0076,
     "total_gia_existing": 49,
@@ -33,8 +33,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 49,
-        "use_class": "EC3",
         "gia_gained": 39,
+        "use_class": "EC3",
         "gia_lost": 49
       }
     ],
@@ -54,7 +54,8 @@
       "mobile_network_operators_consultation": false,
       "ghg_reduction_over_building_regulations": false,
       "fire_suppression_system_proposed": false,
-      "total_annual_nox_emissions": 0
+      "total_annual_nox_emissions": 0,
+      "urban_greening_factor_score": 0
     },
     "rain_water_harvesting": false,
     "projected_cost_of_works": "Up to £2m",
@@ -100,11 +101,17 @@
       "total_no_proposed_residential_units_affordable_rent": 0,
       "residential_units": [
         {
-          "provider": "Private",
-          "no_habitable_rooms": 4,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "House or Bungalow",
+          "no_habitable_rooms": 4,
+          "provider": "Private",
           "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 88
         }
@@ -120,10 +127,11 @@
     "affordable_housing_fast_track": false,
     "grey_water_reuse": false,
     "total_gia_lost": 49,
-    "surface_water_discharge_percentage_reduction": 0
+    "surface_water_discharge_percentage_reduction": 0,
+    "occupation_status": "Occupied"
   },
-  "uprn": "000046037547",
-  "locality": "East Ham",
+  "uprn": 46037547,
+  "locality": "London",
   "date_building_work_started_under_previous_permission": null,
   "postcode": "E6 3RR",
   "valid_date": "09/02/2026",
@@ -133,7 +141,7 @@
     "lat": 51.523931,
     "lon": 0.057185
   },
-  "centroid_easting": "542814",
+  "centroid_easting": 542814,
   "application_type_full": "Full planning permission",
   "pp_id": "PP-14687791",
   "lpa_app_no": "26/00295/FUL",
@@ -143,136 +151,92 @@
         "coordinates": [
           [
             [
-              542806,
-              182551
-            ],
-            [
-              542810,
-              182552
-            ],
-            [
-              542809,
-              182558
-            ],
-            [
-              542809,
-              182558
-            ],
-            [
-              542809,
-              182558
-            ],
-            [
-              542807,
-              182564
-            ],
-            [
-              542800,
-              182562
-            ],
-            [
-              542800,
-              182561
-            ],
-            [
-              542801,
-              182556
-            ],
-            [
-              542802,
-              182553
-            ],
-            [
-              542802,
-              182552
-            ],
-            [
-              542803,
-              182550
-            ],
-            [
-              542806,
-              182551
+              [
+                542808.6140884107,
+                182551.91820449283
+              ],
+              [
+                542807.0276614976,
+                182557.76024530077
+              ],
+              [
+                542804.8960524738,
+                182557.23488128252
+              ],
+              [
+                542803.4842682241,
+                182563.04943387109
+              ],
+              [
+                542799.6,
+                182562
+              ],
+              [
+                542802.65,
+                182550.25
+              ],
+              [
+                542808.6140884107,
+                182551.91820449283
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
-    "type": "geometrycollection"
+    "type": "GeometryCollection"
   },
   "id": "Newham-26_00295_FUL",
   "appeal_status": null,
   "appeal_start_date": null,
-  "description": "Change of use of the existing single storey office and storage building to a two bedroom residential dwelling, including reconfiguration and the creation of a basement level, at the rear of 206-208 High Street South, E6. (AMENDED DESCRIPTION)",
+  "description": "Change of use from office/storge unit to residential use at \nrear of 206-208 High Street South, East Ham, E6 3RR",
   "development_type": null,
   "decision_conditions": null,
   "secondary_street_name": null,
   "title_number": [],
   "last_date_consultation_comments": "14/04/2026",
   "decision_process": "Delegated",
-  "centroid_northing": "182563",
-  "borough": "London Borough of Newham",
+  "centroid_northing": 182563,
+  "borough": "Newham",
   "decision": "Refused",
   "application_type": "All Other",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          0.057065,
-          51.523825
-        ],
-        [
-          0.057123,
-          51.523833
-        ],
-        [
-          0.057111,
-          51.523888
-        ],
-        [
-          0.057111,
-          51.523888
-        ],
-        [
-          0.057111,
-          51.523888
-        ],
-        [
-          0.057085,
-          51.523942
-        ],
-        [
-          0.056983,
-          51.523926
-        ],
-        [
-          0.056983,
-          51.523917
-        ],
-        [
-          0.056995,
-          51.523872
-        ],
-        [
-          0.057008,
-          51.523844
-        ],
-        [
-          0.057008,
-          51.523835
-        ],
-        [
-          0.057022,
-          51.523817
-        ],
-        [
-          0.057065,
-          51.523825
+          [
+            0.057103,
+            51.523833
+          ],
+          [
+            0.057083,
+            51.523886
+          ],
+          [
+            0.057052,
+            51.523882
+          ],
+          [
+            0.057034,
+            51.523934
+          ],
+          [
+            0.056977,
+            51.523926
+          ],
+          [
+            0.057017,
+            51.52382
+          ],
+          [
+            0.057103,
+            51.523833
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "decision_agency": null,
   "decision_target_date": "06/04/2026",

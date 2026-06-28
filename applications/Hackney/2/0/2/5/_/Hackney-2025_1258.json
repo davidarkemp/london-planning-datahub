@@ -10,7 +10,7 @@
   "postcode": "N1 4JP",
   "borough": "Hackney",
   "decision_agency": "Borough",
-  "site_number": "41",
+  "site_number": 41,
   "valid_date": "30/05/2025",
   "appeal_start_date": null,
   "application_details": {
@@ -30,8 +30,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 180,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -63,16 +63,18 @@
       "total_annual_nox_emissions": 0,
       "waste_provision": true,
       "mobile_network_operators_consultation": false,
-      "total_annual_pm_emissions": 0
+      "total_annual_pm_emissions": 0,
+      "urban_greening_factor_score": 0
     },
     "ownership_status": "Private",
     "grey_water_reuse": false,
     "lead_developer_company_name": "Wates",
-    "site_area": 105,
-    "garden_land_lost": false
+    "site_area": 0.0105,
+    "garden_land_lost": false,
+    "occupation_status": "Occupied"
   },
-  "last_updated_by": "Portal",
-  "street_name": "STAMFORD ROAD",
+  "last_updated_by": "Planning Portal ingest",
+  "street_name": "Stamford Road",
   "decision_target_date": "25/07/2025",
   "polygon": {
     "geometries": [
@@ -80,119 +82,62 @@
         "coordinates": [
           [
             [
-              533395.953858621,
-              184562.902495386
-            ],
-            [
-              533395.277763179,
-              184563.652280851
-            ],
-            [
-              533389.803042603,
-              184569.8205154
-            ],
-            [
-              533388.739429568,
-              184571.030169075
-            ],
-            [
-              533385.804188229,
-              184574.399204543
-            ],
-            [
-              533384.625144193,
-              184574.089293052
-            ],
-            [
-              533379.496716126,
-              184572.699690977
-            ],
-            [
-              533384.699350121,
-              184566.701408103
-            ],
-            [
-              533386.298891732,
-              184564.801951633
-            ],
-            [
-              533391.600466258,
-              184558.953625966
-            ],
-            [
-              533394.502727585,
-              184555.704555549
-            ],
-            [
-              533398.897345044,
-              184559.603439503
-            ],
-            [
-              533395.953858621,
-              184562.902495386
+              [
+                533395.95,
+                184562.9
+              ],
+              [
+                533395.28,
+                184563.65
+              ],
+              [
+                533389.8,
+                184569.82
+              ],
+              [
+                533388.736,
+                184571.028
+              ],
+              [
+                533385.8,
+                184574.4
+              ],
+              [
+                533384.625,
+                184574.083
+              ],
+              [
+                533379.5,
+                184572.7
+              ],
+              [
+                533384.7,
+                184566.7
+              ],
+              [
+                533386.3,
+                184564.8
+              ],
+              [
+                533391.6,
+                184558.95
+              ],
+              [
+                533394.5,
+                184555.7
+              ],
+              [
+                533398.9,
+                184559.6
+              ],
+              [
+                533395.95,
+                184562.9
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
-      },
-      {
-        "coordinates": [
-          [
-            [
-              533395.953858621,
-              184562.902495386
-            ],
-            [
-              533395.277763179,
-              184563.652280851
-            ],
-            [
-              533389.803042603,
-              184569.8205154
-            ],
-            [
-              533388.739429568,
-              184571.030169075
-            ],
-            [
-              533385.804188229,
-              184574.399204543
-            ],
-            [
-              533384.625144193,
-              184574.089293052
-            ],
-            [
-              533379.496716126,
-              184572.699690977
-            ],
-            [
-              533384.699350121,
-              184566.701408103
-            ],
-            [
-              533386.298891732,
-              184564.801951633
-            ],
-            [
-              533391.600466258,
-              184558.953625966
-            ],
-            [
-              533394.502727585,
-              184555.704555549
-            ],
-            [
-              533398.897345044,
-              184559.603439503
-            ],
-            [
-              533395.953858621,
-              184562.902495386
-            ]
-          ]
-        ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -201,10 +146,10 @@
       },
       "type": "name"
     },
-    "type": "geometrycollection"
+    "type": "GeometryCollection"
   },
   "date_building_work_completed_under_previous_permission": null,
-  "last_updated": "2026-04-15T11:44:39.844Z",
+  "last_updated": "2026-06-27T18:47:36.892Z",
   "centroid": {
     "lat": 51.544233,
     "lon": -0.077813
@@ -215,7 +160,7 @@
   "centroid_northing": 184566,
   "application_type": "All Other",
   "actual_completion_date": null,
-  "locality": "HACKNEY",
+  "locality": "London",
   "ward": "De Beauvoir Ward",
   "reference_no_of_permission_being_relied_on": null,
   "last_date_consultation_comments": "25/06/2025",
@@ -242,62 +187,64 @@
     "coordinates": [
       [
         [
-          -0.077728,
-          51.544204
-        ],
-        [
-          -0.077738,
-          51.544211
-        ],
-        [
-          -0.077814,
-          51.544268
-        ],
-        [
-          -0.077829,
-          51.544279
-        ],
-        [
-          -0.07787,
-          51.54431
-        ],
-        [
-          -0.077887,
-          51.544307
-        ],
-        [
-          -0.077962,
-          51.544296
-        ],
-        [
-          -0.077889,
-          51.544241
-        ],
-        [
-          -0.077867,
-          51.544224
-        ],
-        [
-          -0.077792,
-          51.54417
-        ],
-        [
-          -0.077752,
-          51.54414
-        ],
-        [
-          -0.077687,
-          51.544174
-        ],
-        [
-          -0.077728,
-          51.544204
+          [
+            -0.077728,
+            51.544204
+          ],
+          [
+            -0.077738,
+            51.544211
+          ],
+          [
+            -0.077814,
+            51.544268
+          ],
+          [
+            -0.077829,
+            51.544279
+          ],
+          [
+            -0.07787,
+            51.54431
+          ],
+          [
+            -0.077887,
+            51.544307
+          ],
+          [
+            -0.077962,
+            51.544296
+          ],
+          [
+            -0.077889,
+            51.544241
+          ],
+          [
+            -0.077867,
+            51.544223
+          ],
+          [
+            -0.077792,
+            51.54417
+          ],
+          [
+            -0.077752,
+            51.54414
+          ],
+          [
+            -0.077687,
+            51.544174
+          ],
+          [
+            -0.077728,
+            51.544204
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "date_building_work_started_under_previous_permission": null,
-  "description": "Demolition of existing boundary wall and replacement with brick stock to match existing, timber fence posts, panels and concrete fence posts and gravel boards ",
+  "description": "Demolition of existing boundary wall and replacement with new concrete fence posts and timber fence panels",
   "application_type_full": "Full planning & demolition in a conservation area"
 }

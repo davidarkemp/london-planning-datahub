@@ -3,15 +3,22 @@
   "postcode": "KT1 2JP",
   "decision_agency": null,
   "last_date_consultation_comments": "10/10/2025",
-  "centroid_easting": 518027,
+  "centroid_easting": 518031,
   "decision_target_date": "09/10/2025",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 0,
+    "net_car": 1,
+    "no_proposed_cycle": 2,
+    "no_proposed_car": 1,
+    "net_cycle": 2
+  },
   "actual_completion_date": null,
   "epc_number": null,
   "appeal_decision_date": null,
   "site_name": null,
-  "application_type_full": null,
-  "description": "Erection of three storey side extension to provide two dwellings",
+  "application_type_full": "Full planning permission",
+  "description": "Three storey building as an extension to the existing building, to provide two dwellings",
   "appeal_status": null,
   "application_type": "All Other",
   "ward": "Kingston Town",
@@ -19,17 +26,17 @@
   "appeal_decision": null,
   "uprn": "000128031918",
   "centroid": {
-    "lat": 51.400796,
-    "lon": -0.3047
+    "lat": 51.400903,
+    "lon": -0.304638
   },
   "appeal_start_date": null,
   "date_building_work_started_under_previous_permission": null,
   "locality": null,
-  "lapsed_date": null,
+  "lapsed_date": "09/10/2028",
   "bo_system": "Idox Uniform",
   "secondary_street_name": null,
   "subdivision_of_building": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "status": "Refused",
   "url_planning_app": "https://publicaccess.kingston.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=SZFHPMNHI6R00",
   "lpa_app_no": "25/01853/FUL",
@@ -40,52 +47,41 @@
     "existing_uprns": [
       "000128031918"
     ],
-    "site_area": 300,
+    "site_area": 0.03,
     "total_gia_existing": 0,
     "ownership_status": "Private",
     "constraints_details": [
       {
-        "result": null,
         "constraints_layer_description": "NEIPOL Name: KT1  Kingston Town"
       },
       {
-        "result": null,
         "constraints_layer_description": "AAS Name: Settlement - Surbiton (1st recorded 1179)"
       },
       {
-        "result": null,
         "constraints_layer_description": "LGW Name: London Gatwick Safeguarding Zone (200m)"
       },
       {
-        "result": null,
         "constraints_layer_description": "SMKCON Name: Borough Wide Smoke Control Order"
       },
       {
-        "result": null,
         "constraints_layer_description": "NEIGH Name: Kingston Town"
       },
       {
-        "result": null,
         "constraints_layer_description": "AIRCZ Type:: Gatwick Airport Wind Turbine Consultation Zone:\rContact: The Safeguarding Department, Gatwick Airport Limited, 7th Floor Destinations Place, London Gatwick Airport, West Sussex, RH06 0NP"
       },
       {
-        "result": null,
         "constraints_layer_description": "AIRCZ Type:: Heathrow Planning Consultation Zone: All buildings, structures, erections and works exceeding 90 metres in height (295.3 feet)\rContact: The Safeguarding Department, Heathrow Airport Limited, c/o Planning Services, First Point, Buckingham Gate, Gatwick Airport, West Sussex, RH6 0NT"
       },
       {
-        "result": null,
         "constraints_layer_description": "HWTERR Type: TERRIER\rDescription: HD"
       },
       {
-        "result": null,
         "constraints_layer_description": "SWGV Date Built: \rGradient:"
       },
       {
-        "result": null,
         "constraints_layer_description": "SWMH Diameter: 0\rReference: TQ1868021B"
       },
       {
-        "result": null,
         "constraints_layer_description": "DESCRI "
       }
     ],
@@ -104,38 +100,32 @@
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
-          "description": null,
-          "change_type": "Gain",
           "m42_compliant": true,
+          "change_type": "Gain",
           "garden_land": false,
           "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "gia": 41.7,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 41.7
         },
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
-          "description": null,
-          "change_type": "Gain",
           "m42_compliant": false,
+          "change_type": "Gain",
           "garden_land": false,
           "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "gia": 83.2,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 83.2
         }
       ],
       "total_no_existing_residential_units_affordable_rent": 0,
@@ -173,8 +163,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 0,
-        "use_class": "C3",
         "gia_gained": 124.9,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -226,14 +216,14 @@
     "phasing_details": [
       {
         "phase_detail": "All",
-        "intended_commencement_date": "03/2026",
-        "intended_completion_date": "08/2026"
+        "intended_completion_date": "08/2026",
+        "intended_commencement_date": "03/2026"
       }
     ],
     "rain_water_harvesting": false,
     "building_details": [
       {
-        "no_storeys": null,
+        "no_storeys": 3,
         "max_height": 0,
         "building_ref": "New building"
       }
@@ -241,14 +231,17 @@
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "site_area": 0.03,
-      "total_gia_gained": 0,
+      "total_gia_gained": 124.9,
       "total_gia_lost": 0,
       "total_gia_existing": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0
     },
     "garden_land_lost": false,
     "surface_water_discharge_percentage_reduction": 0,
-    "s106_agreement": false
+    "s106_agreement": false,
+    "scheme_phasing": true,
+    "total_gia_gained": 124.9,
+    "occupation_status": "Vacant"
   },
   "decision_process": "Delegated",
   "lpa_name": "Kingston",
@@ -342,85 +335,29 @@
     ]
   },
   "cil_liability": true,
-  "last_updated": "2025-10-22T17:01:31.532Z",
+  "last_updated": "2026-06-27T07:11:19.561Z",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.304527,
-          51.400781
+          -0.304616,
+          51.400916
         ],
         [
-          -0.304517,
-          51.400784
+          -0.304617,
+          51.400889
         ],
         [
-          -0.304565,
-          51.400893
+          -0.30466,
+          51.40089
         ],
         [
-          -0.304722,
-          51.400926
+          -0.304659,
+          51.400917
         ],
         [
-          -0.304755,
-          51.40083
-        ],
-        [
-          -0.30463,
-          51.400813
-        ],
-        [
-          -0.304636,
-          51.400792
-        ],
-        [
-          -0.304624,
-          51.400791
-        ],
-        [
-          -0.304661,
-          51.400671
-        ],
-        [
-          -0.304606,
-          51.400662
-        ],
-        [
-          -0.304591,
-          51.400686
-        ],
-        [
-          -0.30445,
-          51.400609
-        ],
-        [
-          -0.30442,
-          51.40063
-        ],
-        [
-          -0.304392,
-          51.400645
-        ],
-        [
-          -0.304462,
-          51.400683
-        ],
-        [
-          -0.30445,
-          51.400692
-        ],
-        [
-          -0.304499,
-          51.400738
-        ],
-        [
-          -0.304516,
-          51.400735
-        ],
-        [
-          -0.304527,
-          51.400781
+          -0.304616,
+          51.400916
         ]
       ]
     ],
@@ -438,7 +375,7 @@
   "reference_no_of_permission_being_relied_on": null,
   "actual_commencement_date": null,
   "borough": "Royal Borough of Kingston (LA Code)",
-  "centroid_northing": 168226,
+  "centroid_northing": 168238,
   "site_number": "6",
   "title_number": null,
   "development_type": "Minor dwellings"

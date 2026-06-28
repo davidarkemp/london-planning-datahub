@@ -1,6 +1,6 @@
 {
   "decision_target_date": "30/10/2025",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Minor dwellings",
@@ -18,14 +18,13 @@
     "transport_impact_assessment": false,
     "existing_proposed_floorspace_details": [
       {
-        "gia_existing": null,
+        "gia_existing": 162,
+        "gia_gained": 224.75,
         "use_class": "C3",
-        "gia_gained": null,
-        "actual_commencement_date": "03/12/2025",
-        "gia_lost": null
+        "gia_lost": 162
       }
     ],
-    "scheme_phasing": false,
+    "scheme_phasing": true,
     "commencement_notice_received": false,
     "rain_water_harvesting": false,
     "circular_economy_statement": false,
@@ -33,21 +32,35 @@
     "green_suds": false,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 224.75,
+      "total_gia_lost": 162,
+      "total_gia_existing": 162
     },
     "garden_land_lost": false,
     "infrastructure_details": {
-      "waste_provision": false,
+      "waste_provision": true,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 2,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 1,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "no_new_gas_connections_required": 1
     },
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_bedrooms": 4,
+      "total_no_proposed_bedrooms": 6,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units": 2,
-      "total_no_existing_residential_units": 1,
+      "total_no_existing_residential_units": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
@@ -56,7 +69,7 @@
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_proposed_residential_units_market_for_rent": 2,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
@@ -79,62 +92,77 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Gain",
-          "actual_commencement_date": "03/12/2025",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 2,
+          "no_habitable_rooms": 4,
+          "provider": "Private",
+          "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "unit_development_type": "Conversion",
-          "gia": null
+          "tenure": "Market for rent",
+          "gia": 127
         },
         {
-          "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
-          "actual_commencement_date": "03/12/2025",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 2,
-          "provision_for_older_persons": false,
-          "unit_development_type": "Conversion",
-          "gia": null
-        },
-        {
-          "actual_completion_date": "03/12/2025",
+          "no_habitable_rooms": 4,
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
-          "change_type": "Loss",
-          "actual_commencement_date": "03/12/2025",
-          "unit_type": "House or Bungalow",
+          "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "unit_development_type": "Conversion",
-          "gia": null
+          "tenure": "Market for rent",
+          "gia": 97
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
-    }
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "total_gia_gained": 224
+    },
+    "total_gia_existing": 162,
+    "projected_cost_of_works": "Up to £2m",
+    "internal_resi_water_usage": 0,
+    "phasing_details": [
+      {
+        "phase_detail": "Construction & Conversion ",
+        "intended_completion_date": "04/2026",
+        "intended_commencement_date": "11/2025"
+      }
+    ],
+    "total_gia_gained": 224.75,
+    "site_area": 0.0565,
+    "total_gia_lost": 162,
+    "occupation_status": "Occupied",
+    "surface_water_discharge_percentage_reduction": 0,
+    "ownership_status": "Private"
   },
   "decision_date": "03/12/2025",
   "url_planning_app": "https://planningsearch.harrow.gov.uk//planning/index.html?fa=getApplication&id=231167",
   "borough": "Harrow",
-  "locality": null,
+  "locality": "Rayners Lane",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 2,
+    "no_existing_car": 2,
+    "net_car": 1,
+    "no_proposed_cycle": 4,
+    "no_proposed_car": 3,
+    "net_cycle": 2
+  },
   "site_name": null,
   "epc_number": null,
   "pp_id": "14305892",
   "subdivision_of_building": null,
   "status": "Commenced",
-  "description": "Conversion\nof dwelling into two flats (2 X 3 bed); single and two storey\nside to rear extension; alterations to form hipped roof and reduction of rear\ndormer; retention of canopy; external alterations; parking; separate amenity\nspace (demolition of attached garage and side extension)",
+  "description": "SINGLE AND TWO STOREY SIDE TO REAR EXTENSION, ALTERATIONS TO ROOF TO FORM HIPPED ROOF AND REDUCED REAR DORMER EXTERNAL ALTERATIONS (DEMOLITION OF ATTACHED GARAGE AND SIDE EXTENSION) AND CONVERSION OF SINGLE RESIDENTIAL DWELLING INTO 2 INDEPENDENT FLATS WITH ASSOCIATED PARKING AND AMENITY SPACE.",
   "decision_conditions": [
     "The development herby permitted shall be begin before the expiration of three years from the date of this permission.",
     "Notwithstanding the approved plans the development hereby permitted shall not be occupied until there has been submitted to, and approved in writing by, the local planning authority, a scheme of hard and soft landscape works for the whole site.  Soft landscaping plans shall include planting plans (at a scale not less than 1:100), schedule of plants, noting species, plant sizes, plant containers (all at time of plating) and proposed numbers/densities, a landscape implementation programme. Hard landscaping works shall include: material details, if permeable materials are used full construction details of permeable paving and their maintenance plan. If non permeable material is used, details regarding management of surface water run-off from the proposed hardstanding. The development shall be carried out in accordance with the details as so agreed prior to the first occupation of the development.",
@@ -146,8 +174,8 @@
     "The development herby permitted shall be carried out in accordance with the following approved plans and documents: Design and Access Statement; Reasonable Exceptions Statement, DRG NO :66YEADINGAVE-004 Rev C, DRG NO : 66YEADINGAVE-012, DRG NO : 66YEADINGAVE-010 Rev C Design & Access Statement, DRG NO: 66YEADINGAVE-009, DRG NO:66YEADINGAVE-007, DRG NO: 66YEADINGAVE-005 Rev B, DRG NO: 66YEADINGAVE-006 Rev B, DRG NO:66YEADINGAVE-001 Rev B, DRG ",
     "Prior to the first occupation of the units, the cycle storage facilities hereby approved shall be provided as per the submitted and approved Bike Store Specification.  The cycle storage facilities shall thereafter be maintained and retained.  "
   ],
-  "site_number": "66",
-  "last_updated": "2026-05-11T08:44:36.542Z",
+  "site_number": 66,
+  "last_updated": "2026-06-28T00:02:00.284Z",
   "last_date_consultation_comments": "01/10/2025",
   "valid_date": "04/09/2025",
   "actual_commencement_date": "03/12/2025",
@@ -159,42 +187,112 @@
   "decision": "Approved",
   "id": "Harrow-PL_2310_25",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              512133.309398401,
-              187042.527721392
-            ],
-            [
-              512164.589351626,
-              187018.993452345
-            ],
-            [
-              512153.163336977,
-              187001.343072398
-            ],
-            [
-              512130.602050049,
-              187033.488442428
-            ],
-            [
-              512129.61098473,
-              187035.898467269
-            ],
-            [
-              512130.040388378,
-              187037.685138928
-            ],
-            [
-              512133.309398401,
-              187042.527721392
+              [
+                512140.7,
+                187036.85
+              ],
+              [
+                512133.4,
+                187042.35
+              ],
+              [
+                512131.779,
+                187039.848
+              ],
+              [
+                512130,
+                187037.1
+              ],
+              [
+                512129.9,
+                187036.8
+              ],
+              [
+                512129.75,
+                187036.25
+              ],
+              [
+                512129.75,
+                187035.35
+              ],
+              [
+                512130.35,
+                187033.85
+              ],
+              [
+                512130.65,
+                187033.25
+              ],
+              [
+                512131.35,
+                187032.05
+              ],
+              [
+                512141.15,
+                187018.1
+              ],
+              [
+                512153.1,
+                187001.35
+              ],
+              [
+                512154.7,
+                187003.8
+              ],
+              [
+                512155.595,
+                187005.152
+              ],
+              [
+                512158.271,
+                187009.197
+              ],
+              [
+                512160.471,
+                187012.522
+              ],
+              [
+                512161.35,
+                187013.85
+              ],
+              [
+                512162.137,
+                187015.031
+              ],
+              [
+                512164.65,
+                187018.8
+              ],
+              [
+                512154.684,
+                187026.261
+              ],
+              [
+                512152.956,
+                187027.554
+              ],
+              [
+                512150.608,
+                187029.312
+              ],
+              [
+                512147.15,
+                187031.9
+              ],
+              [
+                512140.7,
+                187036.85
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -207,54 +305,124 @@
   "appeal_start_date": null,
   "decision_process": "Delegated",
   "ward": "Rayners Lane",
-  "street_name": "YEADING AVENUE",
+  "street_name": "Yeading Avenue",
   "secondary_street_name": null,
   "lpa_name": "Harrow",
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": false,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.383417,
-          51.571112
-        ],
-        [
-          -0.382974,
-          51.570894
-        ],
-        [
-          -0.383144,
-          51.570738
-        ],
-        [
-          -0.383459,
-          51.571031
-        ],
-        [
-          -0.383473,
-          51.571053
-        ],
-        [
-          -0.383466,
-          51.571069
-        ],
-        [
-          -0.383417,
-          51.571112
+          [
+            -0.383312,
+            51.571059
+          ],
+          [
+            -0.383416,
+            51.57111
+          ],
+          [
+            -0.38344,
+            51.571088
+          ],
+          [
+            -0.383467,
+            51.571063
+          ],
+          [
+            -0.383468,
+            51.571061
+          ],
+          [
+            -0.383471,
+            51.571056
+          ],
+          [
+            -0.383471,
+            51.571048
+          ],
+          [
+            -0.383463,
+            51.571034
+          ],
+          [
+            -0.383458,
+            51.571029
+          ],
+          [
+            -0.383449,
+            51.571018
+          ],
+          [
+            -0.383312,
+            51.570891
+          ],
+          [
+            -0.383145,
+            51.570738
+          ],
+          [
+            -0.383121,
+            51.570759
+          ],
+          [
+            -0.383108,
+            51.570771
+          ],
+          [
+            -0.383068,
+            51.570807
+          ],
+          [
+            -0.383035,
+            51.570837
+          ],
+          [
+            -0.383022,
+            51.570848
+          ],
+          [
+            -0.38301,
+            51.570859
+          ],
+          [
+            -0.382973,
+            51.570892
+          ],
+          [
+            -0.383114,
+            51.570961
+          ],
+          [
+            -0.383139,
+            51.570973
+          ],
+          [
+            -0.383172,
+            51.570989
+          ],
+          [
+            -0.383221,
+            51.571013
+          ],
+          [
+            -0.383312,
+            51.571059
+          ]
         ]
       ]
     ]
   },
-  "uprn": "100021296855",
+  "uprn": 100021296855,
   "application_type": "All Other",
   "centroid": {
     "lat": 51.570988,
     "lon": -0.383282
   },
   "lapsed_date": "03/12/2025",
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "centroid_easting": 512143,
   "actual_completion_date": null
 }

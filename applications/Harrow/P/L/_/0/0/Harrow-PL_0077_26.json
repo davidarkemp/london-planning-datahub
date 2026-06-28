@@ -1,35 +1,44 @@
 {
   "decision_target_date": "08/03/2026",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Certificates of Lawful Development",
   "postcode": "HA2 9HG",
-  "title_number": null,
-  "application_details": {},
+  "title_number": [
+    "MX135774"
+  ],
+  "application_details": {
+    "no_additional_bathrooms": 1,
+    "no_additional_bedrooms": 2
+  },
   "decision_date": "06/03/2026",
   "url_planning_app": "https://planningsearch.harrow.gov.uk//planning/index.html?fa=getApplication&id=232247",
   "borough": "Harrow",
-  "locality": null,
+  "locality": "South Harrow",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 2,
+    "net_car": 0,
+    "no_proposed_car": 2
+  },
   "site_name": null,
   "epc_number": null,
   "pp_id": "14569379",
   "subdivision_of_building": null,
   "status": "Approved",
-  "description": "Certificate of Lawful Development (Proposed): Alterations and extension to roof to form end gable; rear dormer; two rooflights in front roof slope; window in end gable",
+  "description": "199 Malvern Avenue - Permitted Development",
   "decision_conditions": [
     "&lt;p&gt;The proposal is therefore a lawful development.&lt;/p&gt;",
     "&lt;p&gt;The proposal would be within the tolerances of Schedule 2, Part 1 Classes B and C of The Town and Country Planning (General Permitted Development) (England) Order 2015 (as amended).&lt;/p&gt;"
   ],
-  "site_number": "199",
-  "last_updated": "2026-04-15T11:54:04.392Z",
+  "site_number": 199,
+  "last_updated": "2026-06-27T18:59:03.014Z",
   "last_date_consultation_comments": "16/02/2026",
   "valid_date": "11/01/2026",
   "actual_commencement_date": null,
-  "centroid_northing": null,
+  "centroid_northing": 186174,
   "appeal_decision": null,
   "decision_agency": "Borough",
   "lpa_app_no": "PL/0077/26",
@@ -37,38 +46,72 @@
   "decision": "Approved",
   "id": "Harrow-PL_0077_26",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
-              512398.754563144,
-              186186.981738087
-            ],
-            [
-              512393.457792983,
-              186182.773996927
-            ],
-            [
-              512405.99236227,
-              186167.040572012
-            ],
-            [
-              512418.297951224,
-              186151.06831244
-            ],
-            [
-              512423.826380866,
-              186155.398107243
-            ],
-            [
-              512398.754563144,
-              186186.981738087
+              [
+                512419.004,
+                186161.774
+              ],
+              [
+                512398.85,
+                186187.1
+              ],
+              [
+                512394.38,
+                186183.684
+              ],
+              [
+                512393.55,
+                186183.05
+              ],
+              [
+                512398.2,
+                186177.05
+              ],
+              [
+                512403.25,
+                186170.55
+              ],
+              [
+                512405.835,
+                186167.263
+              ],
+              [
+                512413.508,
+                186157.506
+              ],
+              [
+                512414.85,
+                186155.8
+              ],
+              [
+                512418.15,
+                186151.55
+              ],
+              [
+                512418.374,
+                186151.262
+              ],
+              [
+                512423.896,
+                186155.616
+              ],
+              [
+                512423.4,
+                186156.25
+              ],
+              [
+                512419.004,
+                186161.774
+              ]
             ]
           ]
-        ]
+        ],
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -81,50 +124,84 @@
   "appeal_start_date": null,
   "decision_process": "Delegated",
   "ward": "Roxbourne",
-  "street_name": "MALVERN AVENUE",
+  "street_name": "Malvern Avenue",
   "secondary_street_name": null,
   "lpa_name": "Harrow",
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": null,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.379862,
-          51.563369
-        ],
-        [
-          -0.37994,
-          51.563333
-        ],
-        [
-          -0.379764,
-          51.563189
-        ],
-        [
-          -0.379592,
-          51.563043
-        ],
-        [
-          -0.379511,
-          51.563081
-        ],
-        [
-          -0.379862,
-          51.563369
+          [
+            -0.379578,
+            51.563139
+          ],
+          [
+            -0.379861,
+            51.56337
+          ],
+          [
+            -0.379926,
+            51.563341
+          ],
+          [
+            -0.379938,
+            51.563335
+          ],
+          [
+            -0.379873,
+            51.56328
+          ],
+          [
+            -0.379802,
+            51.563221
+          ],
+          [
+            -0.379766,
+            51.563191
+          ],
+          [
+            -0.379659,
+            51.563102
+          ],
+          [
+            -0.37964,
+            51.563086
+          ],
+          [
+            -0.379594,
+            51.563047
+          ],
+          [
+            -0.379591,
+            51.563044
+          ],
+          [
+            -0.37951,
+            51.563082
+          ],
+          [
+            -0.379516,
+            51.563088
+          ],
+          [
+            -0.379578,
+            51.563139
+          ]
         ]
       ]
     ]
   },
-  "uprn": "100021276614",
+  "uprn": 100021276614,
   "application_type": "All Other",
   "centroid": {
-    "lat": 49.766807,
-    "lon": -7.55716
+    "lat": 51.563252,
+    "lon": -0.379791
   },
   "lapsed_date": "06/03/2026",
-  "application_type_full": null,
-  "centroid_easting": null,
+  "application_type_full": "Lawful development: Proposed use",
+  "centroid_easting": 512404,
   "actual_completion_date": null
 }

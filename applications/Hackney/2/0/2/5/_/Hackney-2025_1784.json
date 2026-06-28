@@ -1,35 +1,94 @@
 {
   "decision_target_date": "02/10/2025",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Minor all other minor developments",
   "postcode": "E9 6RQ",
   "title_number": null,
   "application_details": {
-    "site_area": 43,
+    "site_area": 0.0043,
     "other_residential_accommodation_details": {
       "site_area": 43
-    }
+    },
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "Entire Development",
+        "intended_completion_date": "06/2025",
+        "intended_commencement_date": "06/2025"
+      }
+    ],
+    "total_gia_gained": 43,
+    "total_gia_lost": 43,
+    "total_gia_existing": 43,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 43,
+        "gia_gained": 0,
+        "use_class": "SG",
+        "gia_lost": 43
+      },
+      {
+        "gia_existing": 0,
+        "gia_gained": 43,
+        "use_class": "Other",
+        "gia_lost": 0
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Vacant",
+    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "surface_water_discharge_percentage_reduction": 0,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 43,
+      "total_gia_gained": 43,
+      "total_gia_lost": 43,
+      "total_gia_existing": 43
+    },
+    "garden_land_lost": false,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 0,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 0,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "internal_resi_water_usage": 0,
+    "ownership_status": "Private"
   },
   "decision_date": "11/11/2025",
   "url_planning_app": "https://developmentandhousing.hackney.gov.uk//planning/index.html?fa=getApplication&id=83385",
   "borough": "Hackney",
-  "locality": "HACKNEY",
+  "locality": "London",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
   "parking_details": null,
   "site_name": null,
-  "epc_number": null,
+  "epc_number": "0060-1202-1304-2100-3300",
   "pp_id": "14020746",
   "subdivision_of_building": null,
   "status": "Refused",
-  "description": "Change of Use from Sui Generis to Class E (Commercial, Business and Service).",
+  "description": "Change of Use - from Sui Generis to Class E at 238 Morning Lane, E9 6RQ",
   "decision_conditions": [
     "&lt;p&gt;&lt;span style=&quot;font-family: Arial, sans-serif; white-space-collapse: preserve;&quot;&gt;By reason of the proposed development resulting in the loss of Social Infrastructure floorspace, which has failed to have been justified through the provision of adequate marketing evidence demonstrating that there is no demand for the floorspace, the proposed development would, therefore, conflict with the objectives of Policy LP8 of the Hackney Local Plan 2033 (2020) which seeks to protect social infrastructure.&lt;/span&gt;&lt;/p&gt;"
   ],
-  "site_number": "238",
-  "last_updated": "2026-04-15T11:28:09.259Z",
+  "site_number": 238,
+  "last_updated": "2026-06-27T10:05:04.063Z",
   "last_date_consultation_comments": "26/10/2025",
   "valid_date": "07/08/2025",
   "actual_commencement_date": null,
@@ -41,117 +100,169 @@
   "decision": "Refused",
   "id": "Hackney-2025_1784",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
-              535576.302550345,
-              184745.300284742
-            ],
-            [
-              535576.15413929,
-              184747.299712449
-            ],
-            [
-              535576.046953265,
-              184749.798997224
-            ],
-            [
-              535576.046953319,
-              184750.198882763
-            ],
-            [
-              535559.639281995,
-              184747.219735285
-            ],
-            [
-              535559.111597721,
-              184747.129761384
-            ],
-            [
-              535558.023249793,
-              184746.869835787
-            ],
-            [
-              535555.038538074,
-              184746.170036145
-            ],
-            [
-              535556.258807164,
-              184741.651329447
-            ],
-            [
-              535559.103352967,
-              184742.161183473
-            ],
-            [
-              535563.753567237,
-              184743.000943288
-            ],
-            [
-              535576.302550345,
-              184745.300284742
+              [
+                535576.15,
+                184747.3
+              ],
+              [
+                535576.05,
+                184749.8
+              ],
+              [
+                535576.05,
+                184750.2
+              ],
+              [
+                535559.64,
+                184747.219
+              ],
+              [
+                535559.108,
+                184747.122
+              ],
+              [
+                535559.25,
+                184745.75
+              ],
+              [
+                535560.2,
+                184745.85
+              ],
+              [
+                535560.4,
+                184744.15
+              ],
+              [
+                535563.6,
+                184744.5
+              ],
+              [
+                535563.75,
+                184743
+              ],
+              [
+                535576.3,
+                184745.3
+              ],
+              [
+                535576.15,
+                184747.3
+              ]
             ]
           ]
-        ]
+        ],
+        "type": "MultiPolygon"
       },
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
-              535576.302550345,
-              184745.300284742
-            ],
-            [
-              535576.15413929,
-              184747.299712449
-            ],
-            [
-              535576.046953265,
-              184749.798997224
-            ],
-            [
-              535576.046953319,
-              184750.198882763
-            ],
-            [
-              535559.639281995,
-              184747.219735285
-            ],
-            [
-              535559.111597721,
-              184747.129761384
-            ],
-            [
-              535558.023249793,
-              184746.869835787
-            ],
-            [
-              535555.038538074,
-              184746.170036145
-            ],
-            [
-              535556.258807164,
-              184741.651329447
-            ],
-            [
-              535559.103352967,
-              184742.161183473
-            ],
-            [
-              535563.753567237,
-              184743.000943288
-            ],
-            [
-              535576.302550345,
-              184745.300284742
+              [
+                535556.255,
+                184741.645
+              ],
+              [
+                535559.105,
+                184742.16
+              ],
+              [
+                535563.75,
+                184743
+              ],
+              [
+                535563.6,
+                184744.5
+              ],
+              [
+                535560.4,
+                184744.15
+              ],
+              [
+                535560.2,
+                184745.85
+              ],
+              [
+                535559.25,
+                184745.75
+              ],
+              [
+                535559.108,
+                184747.122
+              ],
+              [
+                535558.021,
+                184746.867
+              ],
+              [
+                535555.039,
+                184746.166
+              ],
+              [
+                535554.193,
+                184749.298
+              ],
+              [
+                535554.157,
+                184749.444
+              ],
+              [
+                535553.15,
+                184752.85
+              ],
+              [
+                535551.9,
+                184757.1
+              ],
+              [
+                535550.65,
+                184761.3
+              ],
+              [
+                535549.5,
+                184765.2
+              ],
+              [
+                535548.1,
+                184764.8
+              ],
+              [
+                535548.552,
+                184763.276
+              ],
+              [
+                535548.581,
+                184763.176
+              ],
+              [
+                535548.9,
+                184762.1
+              ],
+              [
+                535552.7,
+                184748.9
+              ],
+              [
+                535553.6,
+                184745.8
+              ],
+              [
+                535554.9,
+                184741.4
+              ],
+              [
+                535556.255,
+                184741.645
+              ]
             ]
           ]
-        ]
+        ],
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -164,74 +275,76 @@
   "appeal_start_date": null,
   "decision_process": "Delegated",
   "ward": "Homerton Ward",
-  "street_name": "MORNING LANE",
+  "street_name": "Morning Lane",
   "secondary_street_name": null,
   "lpa_name": "Hackney",
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": null,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.046235,
-          51.545324
-        ],
-        [
-          -0.046237,
-          51.545342
-        ],
-        [
-          -0.046237,
-          51.545365
-        ],
-        [
-          -0.046237,
-          51.545368
-        ],
-        [
-          -0.046475,
-          51.545345
-        ],
-        [
-          -0.046482,
-          51.545345
-        ],
-        [
-          -0.046498,
-          51.545343
-        ],
-        [
-          -0.046541,
-          51.545337
-        ],
-        [
-          -0.046526,
-          51.545296
-        ],
-        [
-          -0.046484,
-          51.5453
-        ],
-        [
-          -0.046417,
-          51.545306
-        ],
-        [
-          -0.046235,
-          51.545324
+          [
+            -0.046237,
+            51.545342
+          ],
+          [
+            -0.046237,
+            51.545365
+          ],
+          [
+            -0.046237,
+            51.545368
+          ],
+          [
+            -0.046475,
+            51.545345
+          ],
+          [
+            -0.046482,
+            51.545345
+          ],
+          [
+            -0.046481,
+            51.545332
+          ],
+          [
+            -0.046467,
+            51.545333
+          ],
+          [
+            -0.046465,
+            51.545318
+          ],
+          [
+            -0.046419,
+            51.54532
+          ],
+          [
+            -0.046417,
+            51.545306
+          ],
+          [
+            -0.046235,
+            51.545324
+          ],
+          [
+            -0.046237,
+            51.545342
+          ]
         ]
       ]
     ]
   },
-  "uprn": "100023021030",
+  "uprn": 100023021030,
   "application_type": "All Other",
   "centroid": {
     "lat": 51.545333,
     "lon": -0.046384
   },
   "lapsed_date": "11/11/2028",
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "centroid_easting": 535566,
   "actual_completion_date": null
 }

@@ -5,11 +5,18 @@
   "date_building_work_completed_under_previous_permission": null,
   "url_planning_app": "http://development.havering.gov.uk/OcellaWeb/planningDetails?reference=P0424.25",
   "borough": "Havering",
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "actual_commencement_date": null,
   "ward": "Mawneys",
   "decision_date": "13/06/2025",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 1,
+    "net_car": 0,
+    "no_proposed_cycle": 6,
+    "no_proposed_car": 1,
+    "net_cycle": 6
+  },
   "polygon": {
     "geometries": [
       {
@@ -76,7 +83,7 @@
   },
   "pp_id": "13891846",
   "development_type": null,
-  "description": "Conversion of the existing dwelling house into 2 flats with associated cycle pods, refuse and recycling following construction of a single storey rear extension at the ground floor, two storey side extension and first floor rear extension",
+  "description": "Conversion of the existing dwelling house into 2 flats (1 x 3 bedroom and 1 x 1 bedroom) with associated cycle pods, refuse and recycling bins following the grant of permission of \"singles storey rear extension, part two storey rear/side extension ref # P162.24\"",
   "site_name": "5 Percy Road",
   "decision_conditions": [
     "The original dwelling has a gross internal floor space of 85 square metres, which fails to meet the standard of 120 square metres contrary to Policy 9 of the Havering Local Plan. The proposal would therefore have an adverse impact on the supply of family housing within the Borough, the loss of which is not adequately justified and which could set an undesirable precedent for similar development in the locality.",
@@ -92,78 +99,185 @@
   "lpa_name": "Havering",
   "appeal_decision": "Dismissed",
   "decision_agency": "Borough",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Planning Portal ingest",
   "cil_liability": false,
   "postcode": "RM7 8QX",
   "decision_process": "Delegated",
   "application_details": {
     "existing_uprns": null,
-    "site_area": 0.019
+    "site_area": 0.01923,
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "PHASE-1",
+        "intended_completion_date": "12/2025",
+        "intended_commencement_date": "07/2025"
+      }
+    ],
+    "total_gia_gained": 157.3,
+    "total_gia_lost": 157.3,
+    "total_gia_existing": 157.3,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 157.3,
+        "gia_gained": 157.3,
+        "use_class": "C3",
+        "gia_lost": 157.3
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied",
+    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "surface_water_discharge_percentage_reduction": 70,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 157.3,
+      "total_gia_lost": 157.3,
+      "total_gia_existing": 157.3
+    },
+    "garden_land_lost": false,
+    "residential_details": {
+      "total_no_proposed_residential_units_shared_equity": 0,
+      "total_no_proposed_bedrooms": 4,
+      "total_no_proposed_residential_units": 2,
+      "total_no_proposed_residential_units_london_living_rent": 0,
+      "total_no_proposed_residential_affordable_units": 0,
+      "total_no_existing_residential_units": 1,
+      "total_no_proposed_residential_units_affordable_rent": 0,
+      "total_no_proposed_residential_units_discount_market_sale": 0,
+      "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_london_living_rent": 0,
+      "total_no_existing_residential_units_shared_equity": 0,
+      "total_no_existing_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_units_intermediate": 0,
+      "total_no_proposed_residential_units_market_for_rent": 2,
+      "total_no_existing_residential_units_social_rent": 0,
+      "total_no_proposed_residential_units_self_build_and_custom_build": 0,
+      "total_no_existing_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_affordable_units": 0,
+      "total_no_existing_residential_units_affordable_rent": 0,
+      "habitable_rooms_density": null,
+      "total_no_existing_residential_units_london_shared_ownership": 0,
+      "total_gia_gained": 157.3,
+      "total_no_proposed_residential_units_social_rent": 0,
+      "total_no_existing_residential_units_london_affordable_rent": 0,
+      "dwelling_density": 0,
+      "total_no_proposed_residential_units_london_affordable_rent": 0,
+      "total_no_existing_residential_units_discount_market_sale": 0,
+      "total_gia_lost": 157.3,
+      "total_no_proposed_residential_units_starter_homes": 0,
+      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_starter_homes": 0,
+      "total_no_proposed_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_intermediate": 0,
+      "affordable_percentage": 0,
+      "total_no_proposed_residential_units_london_shared_ownership": 0,
+      "residential_units": [
+        {
+          "m43_2b_compliant": false,
+          "no_habitable_rooms": 7,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Loss",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "no_bedrooms": 4,
+          "unit_type": "Terraced Home",
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 157.3
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 4,
+          "provider": "Private",
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 94.5
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 62.8
+        }
+      ],
+      "total_no_existing_residential_units_market_for_rent": 1,
+      "total_no_existing_residential_units_self_build_and_custom_build": 0
+    },
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 1,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 1,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 50,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 1,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "internal_resi_water_usage": 105,
+    "ownership_status": "Private"
   },
-  "uprn": "100021391109",
-  "street_name": "Romford",
+  "uprn": 100021391109,
+  "street_name": "Percy Road",
   "decision": "Refused",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          0.1654713,
-          51.588377
+          0.165518,
+          51.588407
         ],
         [
-          0.165469,
-          51.5883586
+          0.165517,
+          51.58838
         ],
         [
-          0.16547299999999998,
-          51.5882618
+          0.165473,
+          51.58838
         ],
         [
-          0.1654954,
-          51.5882623
+          0.165475,
+          51.588407
         ],
         [
-          0.165496,
-          51.5882736
-        ],
-        [
-          0.1655767,
-          51.5882869
-        ],
-        [
-          0.165581,
-          51.5883169
-        ],
-        [
-          0.1655912,
-          51.5883784
-        ],
-        [
-          0.1656002,
-          51.5884317
-        ],
-        [
-          0.1656086,
-          51.588486
-        ],
-        [
-          0.16548759999999998,
-          51.5884927
-        ],
-        [
-          0.1654801,
-          51.5884411
-        ],
-        [
-          0.1654713,
-          51.588377
+          0.165518,
+          51.588407
         ]
       ]
     ],
     "type": "Polygon"
   },
   "appeal_decision_date": "28/01/2026",
-  "site_number": null,
+  "site_number": 5,
   "date_building_work_started_under_previous_permission": null,
   "centroid_northing": 189948,
   "centroid": {
@@ -172,8 +286,8 @@
   },
   "valid_date": "07/04/2025",
   "id": "Havering-P0424.25",
-  "last_updated": "2026-01-31T04:59:06.445Z",
-  "locality": null,
+  "last_updated": "2026-06-27T20:30:27.522Z",
+  "locality": "Romford",
   "status": "Appeal Received",
   "last_date_consultation_comments": "03/05/2025",
   "decision_target_date": "13/06/2025",

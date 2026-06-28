@@ -1,10 +1,11 @@
 {
   "application_details": {
-    "site_area": 208,
+    "site_area": 0.0208,
     "other_residential_accommodation_details": {
       "site_area": 208,
       "other_resi_accommodation_unit_details": [
         {
+          "no_bedrooms_for_older_persons_c2": 0,
           "no_rooms_proposed": 3,
           "unit_type": "Secure Residential Room",
           "no_rooms_lost": 0
@@ -15,7 +16,7 @@
     "phasing_details": [
       {
         "phase_detail": "Completion",
-        "intended_completion_date": "11/2025",
+        "intended_completion_date": "02/2026",
         "intended_commencement_date": "07/2025"
       }
     ],
@@ -25,8 +26,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 205.32,
-        "use_class": "C4",
         "gia_gained": 205.32,
+        "use_class": "C4",
         "gia_lost": 205.32
       }
     ],
@@ -59,19 +60,21 @@
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "urban_greening_factor_score": 0
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "occupation_status": "Occupied"
   },
   "parking_details": null,
   "secondary_street_name": null,
   "appeal_start_date": null,
   "lapsed_date": "24/02/2029",
   "actual_commencement_date": null,
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "cil_liability": null,
-  "last_updated": "2026-04-15T11:26:02.941Z",
-  "street_name": "ELDERFIELD ROAD",
+  "last_updated": "2026-06-27T09:57:02.064Z",
+  "street_name": "Elderfield Road",
   "decision": "Refused",
   "epc_number": null,
   "decision_date": "24/02/2026",
@@ -89,14 +92,14 @@
   "lpa_app_no": "2025/0907",
   "postcode": "E5 0LE",
   "application_type_full": "Full planning permission",
-  "uprn": "100021039128",
+  "uprn": 100021039128,
   "title_number": null,
   "decision_agency": "Borough",
   "subdivision_of_building": null,
   "appeal_decision_date": null,
   "borough": "Hackney",
   "centroid_northing": 185886,
-  "description": "Change of use from 4 bed HMO (use class C4) to 9 bed HMO (Sui Generis).&nbsp;New bin and bike store.&nbsp;",
+  "description": "Change of use of existing HMO (4 bedrooms) to a 9-bedroom Sui Generis HMO",
   "appeal_decision": null,
   "id": "Hackney-2025_0907",
   "site_name": null,
@@ -104,81 +107,71 @@
   "pp_id": "13915017",
   "lpa_name": "Hackney",
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.046549,
-          51.555521
-        ],
-        [
-          -0.046577,
-          51.55554
-        ],
-        [
-          -0.046694,
-          51.555617
-        ],
-        [
-          -0.046711,
-          51.555628
-        ],
-        [
-          -0.046885,
-          51.555729
-        ],
-        [
-          -0.046902,
-          51.555713
-        ],
-        [
-          -0.046946,
-          51.55567
-        ],
-        [
-          -0.04695,
-          51.555666
-        ],
-        [
-          -0.046894,
-          51.55564
-        ],
-        [
-          -0.046793,
-          51.555592
-        ],
-        [
-          -0.046759,
-          51.555576
-        ],
-        [
-          -0.046726,
-          51.555561
-        ],
-        [
-          -0.046712,
-          51.555555
-        ],
-        [
-          -0.046632,
-          51.555509
-        ],
-        [
-          -0.046601,
-          51.555491
-        ],
-        [
-          -0.046593,
-          51.555496
-        ],
-        [
-          -0.046549,
-          51.555521
+          [
+            -0.046726,
+            51.555561
+          ],
+          [
+            -0.046712,
+            51.555555
+          ],
+          [
+            -0.046632,
+            51.555509
+          ],
+          [
+            -0.046577,
+            51.55554
+          ],
+          [
+            -0.046694,
+            51.555617
+          ],
+          [
+            -0.046711,
+            51.555628
+          ],
+          [
+            -0.046885,
+            51.555729
+          ],
+          [
+            -0.046902,
+            51.555713
+          ],
+          [
+            -0.046946,
+            51.55567
+          ],
+          [
+            -0.04695,
+            51.555666
+          ],
+          [
+            -0.046894,
+            51.55564
+          ],
+          [
+            -0.046793,
+            51.555592
+          ],
+          [
+            -0.046759,
+            51.555576
+          ],
+          [
+            -0.046726,
+            51.555561
+          ]
         ]
       ]
     ]
   },
-  "site_number": "117",
+  "site_number": 117,
   "last_date_consultation_comments": "11/12/2025",
   "valid_date": "12/11/2025",
   "application_type": "All Other",
@@ -190,10 +183,10 @@
   ],
   "bo_system": "Portal",
   "centroid_easting": 535515,
-  "locality": "HACKNEY",
+  "locality": "London",
   "ward": "Lea Bridge Ward",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "crs": {
       "type": "name",
       "properties": {
@@ -205,151 +198,66 @@
         "coordinates": [
           [
             [
-              535524.251479953,
-              185878.65586497
-            ],
-            [
-              535522.297400193,
-              185880.655292859
-            ],
-            [
-              535513.903928105,
-              185889.052889224
-            ],
-            [
-              535512.749619719,
-              185890.202559783
-            ],
-            [
-              535500.324312761,
-              185901.179417511
-            ],
-            [
-              535499.260699505,
-              185899.309952786
-            ],
-            [
-              535496.325458194,
-              185894.451343666
-            ],
-            [
-              535496.053371006,
-              185894.021466568
-            ],
-            [
-              535500.00275496,
-              185891.202274024
-            ],
-            [
-              535507.142978021,
-              185886.123727622
-            ],
-            [
-              535509.55053617,
-              185884.404219398
-            ],
-            [
-              535511.88388834,
-              185882.804677534
-            ],
-            [
-              535512.898030714,
-              185882.104878009
-            ],
-            [
-              535518.554142645,
-              185877.156294488
-            ],
-            [
-              535520.747328864,
-              185875.256837915
-            ],
-            [
-              535521.299747884,
-              185875.756695244
-            ],
-            [
-              535524.251479953,
-              185878.65586497
+              [
+                535511.88,
+                185882.8
+              ],
+              [
+                535512.9,
+                185882.1
+              ],
+              [
+                535518.55,
+                185877.15
+              ],
+              [
+                535522.3,
+                185880.65
+              ],
+              [
+                535513.9,
+                185889.05
+              ],
+              [
+                535512.75,
+                185890.2
+              ],
+              [
+                535500.325,
+                185901.178
+              ],
+              [
+                535499.259,
+                185899.302
+              ],
+              [
+                535496.322,
+                185894.446
+              ],
+              [
+                535496.049,
+                185894.015
+              ],
+              [
+                535500,
+                185891.2
+              ],
+              [
+                535507.141,
+                185886.115
+              ],
+              [
+                535509.55,
+                185884.4
+              ],
+              [
+                535511.88,
+                185882.8
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
-      },
-      {
-        "coordinates": [
-          [
-            [
-              535524.251479953,
-              185878.65586497
-            ],
-            [
-              535522.297400193,
-              185880.655292859
-            ],
-            [
-              535513.903928105,
-              185889.052889224
-            ],
-            [
-              535512.749619719,
-              185890.202559783
-            ],
-            [
-              535500.324312761,
-              185901.179417511
-            ],
-            [
-              535499.260699505,
-              185899.309952786
-            ],
-            [
-              535496.325458194,
-              185894.451343666
-            ],
-            [
-              535496.053371006,
-              185894.021466568
-            ],
-            [
-              535500.00275496,
-              185891.202274024
-            ],
-            [
-              535507.142978021,
-              185886.123727622
-            ],
-            [
-              535509.55053617,
-              185884.404219398
-            ],
-            [
-              535511.88388834,
-              185882.804677534
-            ],
-            [
-              535512.898030714,
-              185882.104878009
-            ],
-            [
-              535518.554142645,
-              185877.156294488
-            ],
-            [
-              535520.747328864,
-              185875.256837915
-            ],
-            [
-              535521.299747884,
-              185875.756695244
-            ],
-            [
-              535524.251479953,
-              185878.65586497
-            ]
-          ]
-        ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ]
   },

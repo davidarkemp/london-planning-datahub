@@ -29,8 +29,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 48,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -62,7 +62,8 @@
       "total_annual_nox_emissions": 0,
       "waste_provision": true,
       "mobile_network_operators_consultation": false,
-      "total_annual_pm_emissions": 0
+      "total_annual_pm_emissions": 0,
+      "urban_greening_factor_score": 0
     },
     "building_details": [
       {
@@ -73,11 +74,12 @@
     ],
     "grey_water_reuse": false,
     "ownership_status": "Private",
-    "site_area": 48,
-    "garden_land_lost": false
+    "site_area": 0.0048,
+    "garden_land_lost": false,
+    "occupation_status": "Occupied"
   },
-  "last_updated_by": "Portal",
-  "street_name": "VICTORIA PARK ROAD",
+  "last_updated_by": "Planning Portal ingest",
+  "street_name": "Victoria Park Road",
   "decision_target_date": "31/07/2025",
   "polygon": {
     "geometries": [
@@ -85,55 +87,70 @@
         "coordinates": [
           [
             [
-              535270.860474598,
-              183854.409158344
-            ],
-            [
-              535281.995692184,
-              183821.477827561
-            ],
-            [
-              535294.667536591,
-              183825.603198291
-            ],
-            [
-              535283.605987313,
-              183858.475930964
-            ],
-            [
-              535270.860474598,
-              183854.409158344
+              [
+                535285.35,
+                183832.65
+              ],
+              [
+                535282,
+                183842.65
+              ],
+              [
+                535277.54,
+                183855.96
+              ],
+              [
+                535277.387,
+                183856.418
+              ],
+              [
+                535272.971,
+                183855.046
+              ],
+              [
+                535270.815,
+                183854.376
+              ],
+              [
+                535271.01,
+                183853.8
+              ],
+              [
+                535275,
+                183842
+              ],
+              [
+                535278.9,
+                183830.45
+              ],
+              [
+                535281.95,
+                183821.43
+              ],
+              [
+                535282.3,
+                183821.55
+              ],
+              [
+                535288.41,
+                183823.52
+              ],
+              [
+                535286.173,
+                183830.196
+              ],
+              [
+                535285.751,
+                183831.454
+              ],
+              [
+                535285.35,
+                183832.65
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
-      },
-      {
-        "coordinates": [
-          [
-            [
-              535270.860474598,
-              183854.409158344
-            ],
-            [
-              535281.995692184,
-              183821.477827561
-            ],
-            [
-              535294.667536591,
-              183825.603198291
-            ],
-            [
-              535283.605987313,
-              183858.475930964
-            ],
-            [
-              535270.860474598,
-              183854.409158344
-            ]
-          ]
-        ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -142,21 +159,21 @@
       },
       "type": "name"
     },
-    "type": "geometrycollection"
+    "type": "GeometryCollection"
   },
   "date_building_work_completed_under_previous_permission": null,
-  "last_updated": "2026-04-15T11:24:09.528Z",
+  "last_updated": "2026-06-27T19:20:17.702Z",
   "centroid": {
-    "lat": 51.537251,
-    "lon": -0.050854
+    "lat": 51.537215,
+    "lon": -0.050841
   },
   "decision_date": "01/09/2025",
-  "uprn": "100021079001",
+  "uprn": 100021079001,
   "epc_number": null,
-  "centroid_northing": 183839,
+  "centroid_northing": 183835,
   "application_type": "All Other",
   "actual_completion_date": null,
-  "locality": "HACKNEY",
+  "locality": "London",
   "ward": "Victoria Ward",
   "reference_no_of_permission_being_relied_on": null,
   "last_date_consultation_comments": "25/08/2025",
@@ -171,42 +188,84 @@
   "decision": "Approved",
   "lapsed_date": "01/09/2028",
   "status": "Approved",
-  "site_name": "Flat 10, 103-105",
+  "site_name": "105 Flat 10",
   "actual_commencement_date": null,
   "subdivision_of_building": null,
   "appeal_decision_date": null,
   "decision_process": "Delegated",
   "development_type": "Minor all other minor developments",
-  "centroid_easting": 535280,
+  "centroid_easting": 535281,
   "appeal_decision": null,
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.050979,
-          51.537392
-        ],
-        [
-          -0.050832,
-          51.537093
-        ],
-        [
-          -0.050647,
-          51.537127
-        ],
-        [
-          -0.050794,
-          51.537425
-        ],
-        [
-          -0.050979,
-          51.537392
+          [
+            -0.050779,
+            51.537193
+          ],
+          [
+            -0.050823,
+            51.537283
+          ],
+          [
+            -0.050883,
+            51.537404
+          ],
+          [
+            -0.050885,
+            51.537408
+          ],
+          [
+            -0.050949,
+            51.537397
+          ],
+          [
+            -0.05098,
+            51.537391
+          ],
+          [
+            -0.050978,
+            51.537386
+          ],
+          [
+            -0.050925,
+            51.537279
+          ],
+          [
+            -0.050873,
+            51.537174
+          ],
+          [
+            -0.050832,
+            51.537093
+          ],
+          [
+            -0.050827,
+            51.537094
+          ],
+          [
+            -0.050738,
+            51.53711
+          ],
+          [
+            -0.050768,
+            51.53717
+          ],
+          [
+            -0.050774,
+            51.537182
+          ],
+          [
+            -0.050779,
+            51.537193
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "date_building_work_started_under_previous_permission": null,
-  "description": "Replacement of 5 No. single glazed timber sash windows with double glaze timber sash windows",
+  "description": "Replace 5 single Glazed windows with double glaze windows",
   "application_type_full": "Full planning permission"
 }

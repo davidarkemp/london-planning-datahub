@@ -1,35 +1,97 @@
 {
   "decision_target_date": "17/11/2025",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Other change of use",
   "postcode": "E17 6SA",
   "title_number": null,
-  "application_details": {},
+  "application_details": {
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "Construction",
+        "intended_completion_date": "12/2023",
+        "intended_commencement_date": "12/2022"
+      }
+    ],
+    "total_gia_gained": 300,
+    "site_area": 0.0232,
+    "total_gia_lost": 300,
+    "total_gia_existing": 300,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 300,
+        "gia_gained": 0,
+        "use_class": "C3",
+        "gia_lost": 300
+      },
+      {
+        "gia_existing": 0,
+        "gia_gained": 300,
+        "use_class": "SG",
+        "gia_lost": 0
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied",
+    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "surface_water_discharge_percentage_reduction": 0,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 300,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 300,
+      "total_gia_lost": 300,
+      "total_gia_existing": 300
+    },
+    "garden_land_lost": false,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 0,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 0,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "internal_resi_water_usage": 105,
+    "ownership_status": "Private"
+  },
   "decision_date": null,
   "url_planning_app": "https://builtenvironment.walthamforest.gov.uk/planning/index.html?fa=getApplication&id=118921",
   "borough": "Waltham Forest",
-  "locality": null,
+  "locality": "Walthamstow",
   "date_building_work_started_under_previous_permission": "01/12/2022",
   "bo_system": "Portal",
   "parking_details": {
     "no_proposed_cycle": 10,
-    "net_cycle": 10
+    "net_cycle": 10,
+    "no_existing_cycle": 0
   },
   "site_name": null,
   "epc_number": null,
   "pp_id": "14284923",
   "subdivision_of_building": null,
   "status": "Application Under Consideration",
-  "description": "Change of use of property\r\nfrom a residential dwellinghouse (Use Class C3) to a large house in multiple\r\noccupation (HMO) (Sui Generis) (9-bed) together\r\nwith refuse/recycling storage facilities and bicycle parking provision [amended plans and description]",
+  "description": "Continuation of use of property as a large house in multiple occupation (HMO) (Sui Generis), with proposed internal alterations to ensure compliance.\n",
   "decision_conditions": null,
-  "site_number": "98",
-  "last_updated": "2026-04-15T12:20:56.797Z",
+  "site_number": 98,
+  "last_updated": "2026-06-27T19:59:47.121Z",
   "last_date_consultation_comments": "16/12/2025",
   "valid_date": "22/09/2025",
   "actual_commencement_date": null,
-  "centroid_northing": null,
+  "centroid_northing": 189409,
   "appeal_decision": null,
   "decision_agency": "Borough",
   "lpa_app_no": "252134",
@@ -37,34 +99,72 @@
   "decision": null,
   "id": "Waltham_Forest-252134",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
-              536837.770175766,
-              189404.31607125
-            ],
-            [
-              536863.601323104,
-              189411.74501185
-            ],
-            [
-              536861.585957277,
-              189420.070547037
-            ],
-            [
-              536835.345665872,
-              189412.493206491
-            ],
-            [
-              536837.770175766,
-              189404.31607125
+              [
+                536852.15,
+                189417.09
+              ],
+              [
+                536849.7,
+                189416.4
+              ],
+              [
+                536845.55,
+                189415.25
+              ],
+              [
+                536838.78,
+                189413.34
+              ],
+              [
+                536838.3,
+                189413.2
+              ],
+              [
+                536835.2,
+                189412.35
+              ],
+              [
+                536837.78,
+                189404.27
+              ],
+              [
+                536840.9,
+                189405.2
+              ],
+              [
+                536856.848,
+                189409.954
+              ],
+              [
+                536857.7,
+                189410.21
+              ],
+              [
+                536863.5,
+                189411.94
+              ],
+              [
+                536862.2,
+                189416.5
+              ],
+              [
+                536861.3,
+                189419.65
+              ],
+              [
+                536852.15,
+                189417.09
+              ]
             ]
           ]
-        ]
+        ],
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -77,46 +177,84 @@
   "appeal_start_date": null,
   "decision_process": "Delegated",
   "ward": "William Morris",
-  "street_name": "ERSKINE ROAD",
+  "street_name": "Erskine Road",
   "secondary_street_name": null,
   "lpa_name": "Waltham Forest",
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": null,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.026243,
-          51.586886
-        ],
-        [
-          -0.025867,
-          51.586946
-        ],
-        [
-          -0.025893,
-          51.587022
-        ],
-        [
-          -0.026275,
-          51.58696
-        ],
-        [
-          -0.026243,
-          51.586886
+          [
+            -0.02603,
+            51.586997
+          ],
+          [
+            -0.026066,
+            51.586992
+          ],
+          [
+            -0.026126,
+            51.586982
+          ],
+          [
+            -0.026225,
+            51.586967
+          ],
+          [
+            -0.026232,
+            51.586966
+          ],
+          [
+            -0.026277,
+            51.586959
+          ],
+          [
+            -0.026243,
+            51.586886
+          ],
+          [
+            -0.026197,
+            51.586893
+          ],
+          [
+            -0.025965,
+            51.586932
+          ],
+          [
+            -0.025953,
+            51.586934
+          ],
+          [
+            -0.025869,
+            51.586948
+          ],
+          [
+            -0.025886,
+            51.58699
+          ],
+          [
+            -0.025897,
+            51.587018
+          ],
+          [
+            -0.02603,
+            51.586997
+          ]
         ]
       ]
     ]
   },
-  "uprn": "100022539923",
+  "uprn": 100022539923,
   "application_type": "All Other",
   "centroid": {
-    "lat": 49.766807,
-    "lon": -7.55716
+    "lat": 51.586926,
+    "lon": -0.026137
   },
   "lapsed_date": null,
-  "application_type_full": null,
-  "centroid_easting": null,
+  "application_type_full": "Full planning permission",
+  "centroid_easting": 536845,
   "actual_completion_date": null
 }

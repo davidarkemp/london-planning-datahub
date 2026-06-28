@@ -1,6 +1,6 @@
 {
   "decision_target_date": "04/09/2025",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Minor dwellings",
@@ -18,13 +18,13 @@
     "transport_impact_assessment": false,
     "existing_proposed_floorspace_details": [
       {
-        "gia_existing": null,
+        "gia_existing": 192,
+        "gia_gained": 4,
         "use_class": "C3",
-        "gia_gained": null,
-        "gia_lost": null
+        "gia_lost": 0
       }
     ],
-    "scheme_phasing": false,
+    "scheme_phasing": true,
     "rain_water_harvesting": false,
     "circular_economy_statement": false,
     "commencement_notice_received": false,
@@ -32,16 +32,19 @@
     "green_suds": false,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 4,
+      "total_gia_lost": 0,
+      "total_gia_existing": 192
     },
     "garden_land_lost": false,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_bedrooms": 6,
-      "total_no_proposed_residential_units": 3,
+      "total_no_proposed_bedrooms": 2,
+      "total_no_proposed_residential_units": 1,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_affordable_units": 0,
-      "total_no_existing_residential_units": 2,
+      "total_no_existing_residential_units": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
@@ -49,7 +52,7 @@
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_proposed_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
@@ -72,82 +75,71 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
-          "change_type": "Loss",
-          "unit_type": "Flat Apartment Maisonette",
-          "provision_for_older_persons": false,
-          "unit_development_type": "Conversion",
-          "gia": null
-        },
-        {
-          "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
-          "change_type": "Loss",
-          "unit_type": "Flat Apartment Maisonette",
-          "provision_for_older_persons": false,
-          "unit_development_type": "Conversion",
-          "gia": null
-        },
-        {
-          "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 1,
+          "provider": "Private",
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "gia": null,
-          "unit_development_type": "Conversion"
-        },
-        {
-          "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 2,
-          "provision_for_older_persons": false,
-          "gia": null,
-          "unit_development_type": "Conversion"
-        },
-        {
-          "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 2,
-          "provision_for_older_persons": false,
-          "gia": null,
-          "unit_development_type": "Conversion"
+          "tenure": "Market for rent",
+          "gia": 65.8
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "total_gia_gained": 65.8
     },
     "infrastructure_details": {
-      "waste_provision": false,
+      "waste_provision": true,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
-      "ghg_reduction_over_building_regulations": false
-    }
+      "ghg_reduction_over_building_regulations": false,
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 0,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "no_new_gas_connections_required": 0
+    },
+    "total_gia_existing": 192,
+    "projected_cost_of_works": "Up to £2m",
+    "internal_resi_water_usage": 0,
+    "phasing_details": [
+      {
+        "phase_detail": "Entire Development",
+        "intended_completion_date": "12/2025",
+        "intended_commencement_date": "08/2025"
+      }
+    ],
+    "total_gia_gained": 4,
+    "site_area": 0.2144,
+    "total_gia_lost": 0,
+    "occupation_status": "Occupied",
+    "surface_water_discharge_percentage_reduction": 0,
+    "ownership_status": "Private"
   },
   "decision_date": "05/09/2025",
   "url_planning_app": "https://planningsearch.harrow.gov.uk//planning/index.html?fa=getApplication&id=230746",
   "borough": "Harrow",
-  "locality": null,
+  "locality": "Pinner",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
-  "parking_details": null,
-  "site_name": "51a, 51b & 51c",
+  "parking_details": {
+    "no_existing_car": 3,
+    "net_car": 0,
+    "no_proposed_car": 3
+  },
+  "site_name": "51A, 51B & 51C",
   "epc_number": null,
   "pp_id": "14167530",
   "subdivision_of_building": null,
@@ -165,7 +157,7 @@
     "10.\tHard and Soft LandscapingThe development hereby approved shall not be first occupied until there has been submitted to, and approved by, the local planning authority:a.\tA scheme of hard and soft landscaping works which shall include: planting plans (at a scale not less than 1:100), and schedules of plants, noting species, plant sizes and proposed numbers / densities, written specification of planting and cultivation works to be undertaken, and a landscape implementation programme;b.\tA scheme of hard landscaping works which shall include: material details, if permeable materials are used full construction details of permeable paving and their maintenance plan. If non permeable material is used, details regarding management of surface water run-oﬀ from the proposed hardstanding.c.\tDetails of the proposed boundary treatment for the rear garden; including details of their materials, colouring and height. This shall also include detail on proposed new access gates.The proposed details shall be implemented in accordance with the approved plans prior to the first occupation of the site and retained as such thereafter."
   ],
   "site_number": null,
-  "last_updated": "2026-04-29T10:21:02.726Z",
+  "last_updated": "2026-06-27T20:39:05.916Z",
   "last_date_consultation_comments": "07/08/2025",
   "valid_date": "10/07/2025",
   "actual_commencement_date": null,
@@ -177,46 +169,112 @@
   "decision": "Approved",
   "id": "Harrow-PL_1831_25",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              512428.623603592,
-              190348.06566765
-            ],
-            [
-              512481.594846698,
-              190364.186023472
-            ],
-            [
-              512511.132603141,
-              190369.019883804
-            ],
-            [
-              512512.831004592,
-              190350.577448391
-            ],
-            [
-              512514.608978361,
-              190343.064151238
-            ],
-            [
-              512514.333268645,
-              190340.968962179
-            ],
-            [
-              512428.915144483,
-              190327.66355909
-            ],
-            [
-              512428.623603592,
-              190348.06566765
+              [
+                512513.95,
+                190341.35
+              ],
+              [
+                512514.25,
+                190343.1
+              ],
+              [
+                512513.6,
+                190345.2
+              ],
+              [
+                512513.05,
+                190347.3
+              ],
+              [
+                512512.6,
+                190349.75
+              ],
+              [
+                512512.3,
+                190352.15
+              ],
+              [
+                512511.05,
+                190368.95
+              ],
+              [
+                512503.5,
+                190367.7
+              ],
+              [
+                512500,
+                190367.1
+              ],
+              [
+                512490.7,
+                190365.6
+              ],
+              [
+                512482.15,
+                190364.25
+              ],
+              [
+                512473.1,
+                190361.55
+              ],
+              [
+                512468.25,
+                190360.11
+              ],
+              [
+                512468.05,
+                190360.05
+              ],
+              [
+                512448.75,
+                190354.35
+              ],
+              [
+                512428.5,
+                190348.45
+              ],
+              [
+                512428.45,
+                190344.6
+              ],
+              [
+                512428.6,
+                190340.25
+              ],
+              [
+                512428.55,
+                190327.7
+              ],
+              [
+                512488.45,
+                190337.2
+              ],
+              [
+                512500,
+                190339.05
+              ],
+              [
+                512500.418,
+                190339.119
+              ],
+              [
+                512508.126,
+                190340.39
+              ],
+              [
+                512513.95,
+                190341.35
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -235,40 +293,106 @@
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": false,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.3781,
-          51.600762
-        ],
-        [
-          -0.377331,
-          51.600896
-        ],
-        [
-          -0.376903,
-          51.600934
-        ],
-        [
-          -0.376884,
-          51.600768
-        ],
-        [
-          -0.376861,
-          51.6007
-        ],
-        [
-          -0.376866,
-          51.600681
-        ],
-        [
-          -0.378103,
-          51.600579
-        ],
-        [
-          -0.3781,
-          51.600762
+          [
+            -0.376871,
+            51.600685
+          ],
+          [
+            -0.376866,
+            51.6007
+          ],
+          [
+            -0.376875,
+            51.600719
+          ],
+          [
+            -0.376882,
+            51.600738
+          ],
+          [
+            -0.376888,
+            51.600761
+          ],
+          [
+            -0.376891,
+            51.600782
+          ],
+          [
+            -0.376904,
+            51.600933
+          ],
+          [
+            -0.377013,
+            51.600924
+          ],
+          [
+            -0.377064,
+            51.600919
+          ],
+          [
+            -0.377199,
+            51.600907
+          ],
+          [
+            -0.377323,
+            51.600897
+          ],
+          [
+            -0.377454,
+            51.600874
+          ],
+          [
+            -0.377525,
+            51.600862
+          ],
+          [
+            -0.377528,
+            51.600862
+          ],
+          [
+            -0.377808,
+            51.600815
+          ],
+          [
+            -0.378102,
+            51.600766
+          ],
+          [
+            -0.378104,
+            51.600731
+          ],
+          [
+            -0.378103,
+            51.600692
+          ],
+          [
+            -0.378108,
+            51.600579
+          ],
+          [
+            -0.37724,
+            51.600653
+          ],
+          [
+            -0.377073,
+            51.600667
+          ],
+          [
+            -0.377067,
+            51.600667
+          ],
+          [
+            -0.376955,
+            51.600677
+          ],
+          [
+            -0.376871,
+            51.600685
+          ]
         ]
       ]
     ]
@@ -280,7 +404,7 @@
     "lon": -0.37786
   },
   "lapsed_date": "05/09/2025",
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "centroid_easting": 512447,
   "actual_completion_date": null
 }

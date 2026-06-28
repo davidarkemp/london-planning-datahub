@@ -1,23 +1,27 @@
 {
   "epc_number": null,
   "appeal_decision_date": null,
-  "parking_details": null,
+  "parking_details": {
+    "net_resi_offstreet": 0,
+    "no_existing_resi_offstreet": 2,
+    "no_proposed_resi_offstreet": 2
+  },
   "appeal_decision": null,
   "decision_agency": null,
   "application_type": "All Other",
   "lpa_app_no": "232099",
-  "application_type_full": null,
-  "uprn": null,
+  "application_type_full": "Full planning permission",
+  "uprn": 10009143271,
   "borough": "Waltham Forest",
-  "street_name": null,
-  "locality": null,
+  "street_name": "Hainault Road",
+  "locality": "Leytonstone",
   "ward": null,
   "actual_commencement_date": null,
   "lpa_name": "Waltham Forest",
   "bo_system": "CSV Data Import",
   "decision_conditions": null,
   "date_building_work_started_under_previous_permission": null,
-  "centroid_easting": 538557,
+  "centroid_easting": 538556,
   "status": "Withdrawn",
   "decision_date": "16/01/2024",
   "wgs84_polygon": {
@@ -25,57 +29,49 @@
     "coordinates": [
       [
         [
-          -0.0021966999999999998,
-          51.5696785
+          -0.002174,
+          51.569637
         ],
         [
-          -0.0020426999999999997,
-          51.5695735
+          -0.002175,
+          51.56961
         ],
         [
-          -0.0020815,
-          51.5695605
+          -0.002219,
+          51.569611
         ],
         [
-          -0.0021659,
-          51.5696118
+          -0.002217,
+          51.569638
         ],
         [
-          -0.0021858,
-          51.5696044
-        ],
-        [
-          -0.0022583,
-          51.569655
-        ],
-        [
-          -0.0021966999999999998,
-          51.5696785
+          -0.002174,
+          51.569637
         ]
       ]
     ]
   },
   "decision_target_date": null,
-  "subdivision_of_building": null,
+  "subdivision_of_building": "First floor flat only (Flat 2, 68 Hainault Road)",
   "last_date_consultation_comments": null,
   "development_type": null,
   "title_number": null,
   "appeal_status": null,
-  "last_updated": "2025-03-19T12:01:12.285+00:00",
-  "last_updated_by": "CSV Data Import",
-  "site_name": "First Floor Flat 2, 68 Hainault Road, Leytonstone, London, E11 1EQ",
+  "last_updated": "2026-06-27T02:33:16.262Z",
+  "last_updated_by": "Planning Portal ingest",
+  "site_name": "68 First Floor Flat 2",
   "id": "Waltham_Forest-232099",
   "decision": "Withdrawn",
   "cil_liability": null,
   "centroid_northing": 187530,
   "appeal_start_date": null,
-  "postcode": null,
+  "postcode": "E11 1EQ",
   "url_planning_app": null,
   "date_building_work_completed_under_previous_permission": null,
   "secondary_street_name": null,
   "site_number": "68",
   "reference_no_of_permission_being_relied_on": null,
-  "description": "Alterations to fenestration comprising replacement of four timber sash windows with uPVC double-glazed sash windows and two timber casement windows with uPVC casement windows. ",
+  "description": "We are the leaseholder and freeholder of Flat 2, 68 Hainault Road, Leytonstone, E11 1EQ. This is a first-floor flat, part of a house conversion.\n\nCurrently, we have four timber sash windows (two in the living room, one in the main bedroom and one in the second bedroom) and two standard timber casement windows in the kitchen and bathroom. The four sash windows are single-glazed, and the two casement windows are double-glazed. \n\nWe want to replace the four timber sash windows with uPVC double-glazed sash windows (same style) and the two timber casement windows also with uPVC casement windows (style). We are replacing like-for-like in terms of style and will also have a wood grain effect on the frame of the uPVC windows.",
   "valid_date": null,
   "polygon": {
     "type": "GeometryCollection",
@@ -166,11 +162,64 @@
       }
     ],
     "existing_uprns": null,
-    "site_area": 0.006
+    "site_area": 0,
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "One phase",
+        "intended_completion_date": "09/2023",
+        "intended_commencement_date": "09/2023"
+      }
+    ],
+    "total_gia_gained": 0,
+    "total_gia_lost": 0,
+    "total_gia_existing": 62,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 62,
+        "gia_gained": 0,
+        "use_class": "c3",
+        "gia_lost": 0
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied",
+    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "surface_water_discharge_percentage_reduction": 0,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 0,
+      "total_gia_lost": 0,
+      "total_gia_existing": 62
+    },
+    "garden_land_lost": false,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 0,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 0,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "internal_resi_water_usage": 0,
+    "ownership_status": "Private"
   },
   "centroid": {
-    "lon": "-0.0021544",
-    "lat": "51.5696258"
+    "lon": -0.002196,
+    "lat": 51.569624
   },
   "lapsed_date": "16/01/2027",
   "decision_process": null,

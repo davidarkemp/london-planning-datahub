@@ -13,7 +13,7 @@
   "postcode": "E5 0NF",
   "borough": "Hackney",
   "decision_agency": "Borough",
-  "site_number": "53",
+  "site_number": 53,
   "valid_date": "01/07/2025",
   "appeal_start_date": "18/11/2025",
   "application_details": {
@@ -33,8 +33,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 140,
-        "use_class": "C3",
         "gia_gained": 90,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -57,11 +57,17 @@
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "residential_units": [
         {
-          "provider": "Private",
-          "no_habitable_rooms": 1,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 1,
+          "provider": "Private",
           "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 50
         }
@@ -117,7 +123,8 @@
       "total_annual_nox_emissions": 0,
       "waste_provision": true,
       "mobile_network_operators_consultation": false,
-      "total_annual_pm_emissions": 0
+      "total_annual_pm_emissions": 0,
+      "urban_greening_factor_score": 0
     },
     "building_details": [
       {
@@ -128,11 +135,12 @@
     ],
     "grey_water_reuse": false,
     "ownership_status": "Private",
-    "site_area": 158,
-    "garden_land_lost": true
+    "site_area": 0.0158,
+    "garden_land_lost": true,
+    "occupation_status": "Occupied"
   },
-  "last_updated_by": "Portal",
-  "street_name": "DUNLACE ROAD",
+  "last_updated_by": "Planning Portal ingest",
+  "street_name": "Dunlace Road",
   "decision_target_date": "26/08/2025",
   "polygon": {
     "geometries": [
@@ -140,135 +148,74 @@
         "coordinates": [
           [
             [
-              535515.651881148,
-              185519.808583904
-            ],
-            [
-              535516.047644313,
-              185517.5992167
-            ],
-            [
-              535517.647186189,
-              185508.451835036
-            ],
-            [
-              535519.147786845,
-              185500.004252894
-            ],
-            [
-              535520.302095791,
-              185493.306170449
-            ],
-            [
-              535525.447013977,
-              185494.205912833
-            ],
-            [
-              535524.548301759,
-              185499.204482086
-            ],
-            [
-              535524.399890616,
-              185500.004253131
-            ],
-            [
-              535523.699060454,
-              185504.353008248
-            ],
-            [
-              535522.899289892,
-              185508.951692027
-            ],
-            [
-              535522.552997298,
-              185511.001105225
-            ],
-            [
-              535522.099518633,
-              185513.60036143
-            ],
-            [
-              535521.15133688,
-              185518.548944872
-            ],
-            [
-              535520.648388386,
-              185520.708326676
-            ],
-            [
-              535515.651881148,
-              185519.808583904
+              [
+                535516.05,
+                185517.6
+              ],
+              [
+                535517.65,
+                185508.45
+              ],
+              [
+                535519.15,
+                185500
+              ],
+              [
+                535519.613,
+                185497.17
+              ],
+              [
+                535520.3,
+                185493.3
+              ],
+              [
+                535525.45,
+                185494.2
+              ],
+              [
+                535524.55,
+                185499.2
+              ],
+              [
+                535524.4,
+                185500
+              ],
+              [
+                535523.7,
+                185504.35
+              ],
+              [
+                535522.9,
+                185508.95
+              ],
+              [
+                535522.55,
+                185511
+              ],
+              [
+                535522.1,
+                185513.6
+              ],
+              [
+                535521.15,
+                185518.55
+              ],
+              [
+                535520.65,
+                185520.7
+              ],
+              [
+                535515.65,
+                185519.8
+              ],
+              [
+                535516.05,
+                185517.6
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
-      },
-      {
-        "coordinates": [
-          [
-            [
-              535515.651881148,
-              185519.808583904
-            ],
-            [
-              535516.047644313,
-              185517.5992167
-            ],
-            [
-              535517.647186189,
-              185508.451835036
-            ],
-            [
-              535519.147786845,
-              185500.004252894
-            ],
-            [
-              535520.302095791,
-              185493.306170449
-            ],
-            [
-              535525.447013977,
-              185494.205912833
-            ],
-            [
-              535524.548301759,
-              185499.204482086
-            ],
-            [
-              535524.399890616,
-              185500.004253131
-            ],
-            [
-              535523.699060454,
-              185504.353008248
-            ],
-            [
-              535522.899289892,
-              185508.951692027
-            ],
-            [
-              535522.552997298,
-              185511.001105225
-            ],
-            [
-              535522.099518633,
-              185513.60036143
-            ],
-            [
-              535521.15133688,
-              185518.548944872
-            ],
-            [
-              535520.648388386,
-              185520.708326676
-            ],
-            [
-              535515.651881148,
-              185519.808583904
-            ]
-          ]
-        ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -277,10 +224,10 @@
       },
       "type": "name"
     },
-    "type": "geometrycollection"
+    "type": "GeometryCollection"
   },
   "date_building_work_completed_under_previous_permission": null,
-  "last_updated": "2026-04-15T11:44:25.821Z",
+  "last_updated": "2026-06-27T10:17:28.598Z",
   "centroid": {
     "lat": 51.552228,
     "lon": -0.046766
@@ -291,7 +238,7 @@
   "centroid_northing": 185512,
   "application_type": "All Other",
   "actual_completion_date": null,
-  "locality": "HACKNEY",
+  "locality": "London",
   "ward": "Lea Bridge Ward",
   "reference_no_of_permission_being_relied_on": null,
   "last_date_consultation_comments": "26/07/2025",
@@ -318,70 +265,76 @@
     "coordinates": [
       [
         [
-          -0.046811,
-          51.552299
-        ],
-        [
-          -0.046806,
-          51.552279
-        ],
-        [
-          -0.046787,
-          51.552196
-        ],
-        [
-          -0.046769,
-          51.55212
-        ],
-        [
-          -0.046755,
-          51.552059
-        ],
-        [
-          -0.04668,
-          51.552066
-        ],
-        [
-          -0.046691,
-          51.552111
-        ],
-        [
-          -0.046693,
-          51.552118
-        ],
-        [
-          -0.046701,
-          51.552158
-        ],
-        [
-          -0.046711,
-          51.552199
-        ],
-        [
-          -0.046715,
-          51.552218
-        ],
-        [
-          -0.046721,
-          51.552241
-        ],
-        [
-          -0.046733,
-          51.552286
-        ],
-        [
-          -0.046739,
-          51.552305
-        ],
-        [
-          -0.046811,
-          51.552299
+          [
+            -0.046806,
+            51.552279
+          ],
+          [
+            -0.046787,
+            51.552196
+          ],
+          [
+            -0.046769,
+            51.55212
+          ],
+          [
+            -0.046763,
+            51.552094
+          ],
+          [
+            -0.046755,
+            51.552059
+          ],
+          [
+            -0.04668,
+            51.552066
+          ],
+          [
+            -0.046691,
+            51.552111
+          ],
+          [
+            -0.046693,
+            51.552118
+          ],
+          [
+            -0.046701,
+            51.552158
+          ],
+          [
+            -0.046711,
+            51.552199
+          ],
+          [
+            -0.046715,
+            51.552218
+          ],
+          [
+            -0.046721,
+            51.552241
+          ],
+          [
+            -0.046733,
+            51.552286
+          ],
+          [
+            -0.046739,
+            51.552305
+          ],
+          [
+            -0.046811,
+            51.552298
+          ],
+          [
+            -0.046806,
+            51.552279
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "date_building_work_started_under_previous_permission": null,
-  "description": "Erection of a mansard roof, erection of a 3 storey rear extension (basement, ground and first floors) and creation of a front &amp; rear basement lightwell; to facilitate conversion of the property from two to three self contained residential units (1x1 bed, 1x1 bed, 1x3 bed)",
+  "description": "Erection of a mansard roof, erection of a 3 storey rear extension (basement, ground and first floors) and creation of a front & rear basement lightwell; all to facilitate the conversion of the property from two to three self contained residential units (1x1 bed, 1x2 bed, 1x3 bed)",
   "application_type_full": "Full planning permission"
 }

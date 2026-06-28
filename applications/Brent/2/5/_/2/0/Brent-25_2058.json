@@ -2,7 +2,14 @@
   "appeal_status": null,
   "centroid_easting": 521572,
   "centroid_northing": 185627,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 2,
+    "net_car": -1,
+    "no_proposed_cycle": 6,
+    "no_proposed_car": 1,
+    "net_cycle": 6
+  },
   "appeal_start_date": "12/12/2025",
   "valid_date": "04/08/2025",
   "lapsed_date": null,
@@ -13,7 +20,7 @@
   "site_name": "23 Prout Grove, London, NW10 1PU",
   "development_type": "Minor all other minor developments",
   "actual_commencement_date": null,
-  "postcode": null,
+  "postcode": "NW10 1PU",
   "borough": "Brent",
   "decision": "Refused",
   "polygon": {
@@ -133,14 +140,14 @@
     "lat": 51.556436
   },
   "appeal_decision": "Dismissed",
-  "description": "Proposed change of use from a single dwellinghouse to 6 bedroom/6 person HMO, refuse and cycle storage and soft and hard landscaping to front and rear garden",
+  "description": "Change of use from C3 residential to C4 HMO",
   "title_number": null,
   "lpa_name": "Brent",
-  "locality": null,
+  "locality": "London",
   "appeal_decision_date": "05/05/2026",
   "decision_process": "Delegated",
-  "application_type_full": null,
-  "site_number": null,
+  "application_type_full": "Full planning permission",
+  "site_number": 23,
   "date_building_work_started_under_previous_permission": null,
   "decision_target_date": "22/09/2025",
   "decision_agency": null,
@@ -153,114 +160,34 @@
   "decision_date": "01/10/2025",
   "pp_id": "PP-14158425",
   "last_date_consultation_comments": "27/08/2025",
-  "last_updated_by": "CSV Data Import",
-  "uprn": "202055945",
+  "last_updated_by": "Planning Portal ingest",
+  "uprn": 202055945,
   "actual_completion_date": null,
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated": "2026-05-12T08:04:50.198Z",
+  "last_updated": "2026-06-27T22:21:06.247Z",
   "cil_liability": false,
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.24786429999999998,
-          51.5565143
+          -0.247759,
+          51.556449
         ],
         [
-          -0.24786439999999998,
-          51.5565014
+          -0.24776,
+          51.556422
         ],
         [
-          -0.2478657,
-          51.5564119
+          -0.247803,
+          51.556423
         ],
         [
-          -0.2478664,
-          51.5563571
+          -0.247802,
+          51.55645
         ],
         [
-          -0.2478368,
-          51.5563571
-        ],
-        [
-          -0.2478051,
-          51.5563571
-        ],
-        [
-          -0.24779859999999998,
-          51.556357
-        ],
-        [
-          -0.24770409999999998,
-          51.5563569
-        ],
-        [
-          -0.2477028,
-          51.5564086
-        ],
-        [
-          -0.24770129999999999,
-          51.556485
-        ],
-        [
-          -0.2477018,
-          51.5565111
-        ],
-        [
-          -0.2477014,
-          51.5565214
-        ],
-        [
-          -0.2477014,
-          51.556548
-        ],
-        [
-          -0.2477017,
-          51.5566824
-        ],
-        [
-          -0.2477507,
-          51.5566822
-        ],
-        [
-          -0.24779099999999998,
-          51.5566822
-        ],
-        [
-          -0.24781199999999998,
-          51.5566823
-        ],
-        [
-          -0.24782939999999998,
-          51.5566821
-        ],
-        [
-          -0.24782949999999998,
-          51.5566546
-        ],
-        [
-          -0.2478299,
-          51.5565971
-        ],
-        [
-          -0.24783000000000002,
-          51.5565908
-        ],
-        [
-          -0.2478307,
-          51.5565733
-        ],
-        [
-          -0.2478307,
-          51.5565171
-        ],
-        [
-          -0.2478308,
-          51.5565144
-        ],
-        [
-          -0.24786429999999998,
-          51.5565143
+          -0.247759,
+          51.556449
         ]
       ]
     ],
@@ -270,7 +197,60 @@
   "epc_number": null,
   "application_details": {
     "existing_uprns": null,
-    "site_area": 0.036
+    "site_area": 0.0362,
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "Renting",
+        "intended_completion_date": "12/2025",
+        "intended_commencement_date": "09/2025"
+      }
+    ],
+    "total_gia_gained": 0,
+    "total_gia_lost": 0,
+    "total_gia_existing": 190,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 190,
+        "gia_gained": 0,
+        "use_class": "C3",
+        "gia_lost": 0
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied",
+    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "surface_water_discharge_percentage_reduction": 0,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 0,
+      "total_gia_lost": 0,
+      "total_gia_existing": 190
+    },
+    "garden_land_lost": false,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 0,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 0,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "internal_resi_water_usage": 160,
+    "ownership_status": "Private"
   },
-  "street_name": null
+  "street_name": "Prout Grove"
 }

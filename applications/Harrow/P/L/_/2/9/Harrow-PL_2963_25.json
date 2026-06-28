@@ -1,11 +1,13 @@
 {
   "decision_target_date": "12/01/2026",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Certificates of Lawful Development",
   "postcode": "HA3 9PD",
-  "title_number": [],
+  "title_number": [
+    "unknown"
+  ],
   "application_details": {
     "3d_model": false,
     "affordable_housing_fast_track": false,
@@ -20,8 +22,8 @@
       {
         "gia_existing": 181,
         "actual_completion_date": "31/03/2026",
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "actual_commencement_date": "03/02/2026",
         "gia_lost": 181
       }
@@ -82,9 +84,6 @@
         {
           "actual_completion_date": "31/03/2026",
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
           "change_type": "Loss",
           "actual_commencement_date": "03/02/2026",
           "unit_type": "House or Bungalow",
@@ -95,9 +94,6 @@
         {
           "actual_completion_date": "31/03/2026",
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
           "change_type": "Gain",
           "actual_commencement_date": "03/02/2026",
           "unit_type": "HMO",
@@ -109,12 +105,14 @@
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0
-    }
+    },
+    "no_additional_bathrooms": 3,
+    "no_additional_bedrooms": 0
   },
   "decision_date": "12/01/2026",
   "url_planning_app": "https://planningsearch.harrow.gov.uk//planning/index.html?fa=getApplication&id=232033",
   "borough": "Harrow",
-  "locality": null,
+  "locality": "Kenton",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
   "parking_details": null,
@@ -123,13 +121,13 @@
   "pp_id": "14480611",
   "subdivision_of_building": null,
   "status": "Completed",
-  "description": "Certificate of Lawful Development (Proposed): Change of use from single dwelling (Class C3) to House of Multiple Occupancy for up to 6 occupants (Class C4)",
+  "description": "79 WINCHESTER ROAD,  HARROW  HA3 9PD - HMO COL",
   "decision_conditions": [
     "The proposed change of use of residential dwelling (C3) to HMO for up to 6 persons (C4) falls within the parameters of permitted development as set out under Schedule 2, Part 3, Class L of the Town and Country Planning (General Permitted Development) England) Order 2015 (as amended).",
     "The proposal is therefore a lawful development."
   ],
-  "site_number": "79",
-  "last_updated": "2026-05-11T13:51:59.813Z",
+  "site_number": 79,
+  "last_updated": "2026-06-28T00:02:15.700Z",
   "last_date_consultation_comments": "26/01/2026",
   "valid_date": "17/11/2025",
   "actual_commencement_date": "03/02/2026",
@@ -141,42 +139,84 @@
   "decision": "Approved",
   "id": "Harrow-PL_2963_25",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              518476.70936493,
-              189320.194179113
-            ],
-            [
-              518474.853177347,
-              189312.589430037
-            ],
-            [
-              518486.99587476,
-              189309.922477838
-            ],
-            [
-              518504.589628547,
-              189306.092022095
-            ],
-            [
-              518508.062262267,
-              189305.189615274
-            ],
-            [
-              518509.657635454,
-              189313.403038263
-            ],
-            [
-              518476.70936493,
-              189320.194179113
+              [
+                518481.9,
+                189311
+              ],
+              [
+                518486.75,
+                189309.9
+              ],
+              [
+                518492.257,
+                189308.756
+              ],
+              [
+                518494.45,
+                189308.3
+              ],
+              [
+                518499.65,
+                189307.25
+              ],
+              [
+                518500,
+                189307.2
+              ],
+              [
+                518507.95,
+                189305.2
+              ],
+              [
+                518508.088,
+                189305.868
+              ],
+              [
+                518509.6,
+                189313.2
+              ],
+              [
+                518506.124,
+                189313.997
+              ],
+              [
+                518500,
+                189315.4
+              ],
+              [
+                518494.75,
+                189316.55
+              ],
+              [
+                518494.1,
+                189316.6
+              ],
+              [
+                518482.2,
+                189319.1
+              ],
+              [
+                518476.65,
+                189320.25
+              ],
+              [
+                518474.9,
+                189312.45
+              ],
+              [
+                518481.9,
+                189311
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -189,54 +229,96 @@
   "appeal_start_date": null,
   "decision_process": "Delegated",
   "ward": "Kenton East",
-  "street_name": "WINCHESTER ROAD",
+  "street_name": "Winchester Road",
   "secondary_street_name": null,
   "lpa_name": "Harrow",
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": false,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.291163,
-          51.590286
-        ],
-        [
-          -0.291192,
-          51.590218
-        ],
-        [
-          -0.291018,
-          51.590191
-        ],
-        [
-          -0.290765,
-          51.590153
-        ],
-        [
-          -0.290716,
-          51.590144
-        ],
-        [
-          -0.29069,
-          51.590218
-        ],
-        [
-          -0.291163,
-          51.590286
+          [
+            -0.291091,
+            51.590202
+          ],
+          [
+            -0.291021,
+            51.590191
+          ],
+          [
+            -0.290942,
+            51.59018
+          ],
+          [
+            -0.290911,
+            51.590175
+          ],
+          [
+            -0.290836,
+            51.590165
+          ],
+          [
+            -0.290831,
+            51.590164
+          ],
+          [
+            -0.290717,
+            51.590145
+          ],
+          [
+            -0.290715,
+            51.590151
+          ],
+          [
+            -0.290691,
+            51.590216
+          ],
+          [
+            -0.290741,
+            51.590224
+          ],
+          [
+            -0.290828,
+            51.590238
+          ],
+          [
+            -0.290904,
+            51.590249
+          ],
+          [
+            -0.290913,
+            51.59025
+          ],
+          [
+            -0.291084,
+            51.590275
+          ],
+          [
+            -0.291164,
+            51.590286
+          ],
+          [
+            -0.291192,
+            51.590217
+          ],
+          [
+            -0.291091,
+            51.590202
+          ]
         ]
       ]
     ]
   },
-  "uprn": "100021295695",
+  "uprn": 100021295695,
   "application_type": "All Other",
   "centroid": {
     "lat": 51.59022,
     "lon": -0.291075
   },
   "lapsed_date": "12/01/2026",
-  "application_type_full": null,
+  "application_type_full": "Lawful development: Proposed use",
   "centroid_easting": 518483,
   "actual_completion_date": "31/03/2026"
 }

@@ -8,12 +8,12 @@
   "postcode": "IG6 3AA",
   "borough": "Redbridge",
   "decision_agency": null,
-  "site_number": "199",
+  "site_number": 199,
   "valid_date": "25/06/2025",
   "appeal_start_date": null,
   "application_details": {
     "lead_developer_company_name": "Highways & Cleansing",
-    "site_area": 0.029,
+    "site_area": 0.035843,
     "3d_model": false,
     "affordable_housing_fast_track": false,
     "s106_agreement": false,
@@ -25,35 +25,36 @@
     "transport_impact_assessment": false,
     "existing_proposed_floorspace_details": [
       {
-        "gia_existing": null,
-        "actual_completion_date": "12/01/2025",
-        "gia_gained": null,
+        "gia_existing": 158.29,
+        "gia_gained": 0,
         "use_class": "C3",
-        "gia_lost": null
+        "gia_lost": 158.29
       },
       {
-        "gia_existing": null,
-        "actual_completion_date": "12/01/2025",
-        "gia_gained": null,
+        "gia_existing": 0,
+        "gia_gained": 168.16,
         "use_class": "C4",
-        "gia_lost": null
+        "gia_lost": 0
       }
     ],
     "rain_water_harvesting": false,
     "circular_economy_statement": false,
-    "scheme_phasing": false,
+    "scheme_phasing": true,
     "commencement_notice_received": false,
     "grey_water_reuse": false,
     "green_suds": false,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "site_area": 0.029
+      "site_area": 0.029,
+      "total_gia_gained": 168.16,
+      "total_gia_existing": 158.29,
+      "total_gia_lost": 158.29
     },
     "garden_land_lost": false,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_bedrooms": 0,
+      "total_no_proposed_bedrooms": 5,
       "total_no_proposed_residential_units": 1,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_affordable_units": 0,
@@ -65,14 +66,14 @@
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_proposed_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": 0,
+      "habitable_rooms_density": 275.8620689655172,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
@@ -89,40 +90,77 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "actual_completion_date": "12/01/2025",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
+          "m43_2b_compliant": false,
+          "no_habitable_rooms": 7,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Loss",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "no_bedrooms": 4,
           "unit_type": "House or Bungalow",
           "provision_for_older_persons": false,
-          "gia": null
+          "tenure": "Market for rent",
+          "gia": 158.29
         },
         {
-          "actual_completion_date": "12/01/2025",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "HMO",
+          "no_habitable_rooms": 8,
+          "provider": "Private",
+          "no_bedrooms": 5,
           "provision_for_older_persons": false,
-          "gia": null
+          "tenure": "Market for rent",
+          "gia": 168.16
         }
       ],
-      "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_market_for_rent": 1,
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "total_gia_gained": 168.16,
+      "total_gia_lost": 158.29
     },
     "other_residential_accommodation_details": {
       "site_area": 0.029
     },
     "infrastructure_details": {
-      "waste_provision": false,
+      "waste_provision": true,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
-      "ghg_reduction_over_building_regulations": false
-    }
+      "ghg_reduction_over_building_regulations": false,
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 0,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "no_new_gas_connections_required": 0
+    },
+    "total_gia_existing": 158.29,
+    "projected_cost_of_works": "Up to £2m",
+    "internal_resi_water_usage": 0,
+    "phasing_details": [
+      {
+        "phase_detail": "Entire Development",
+        "intended_completion_date": "09/2025",
+        "intended_commencement_date": "07/2025"
+      }
+    ],
+    "total_gia_gained": 168.16,
+    "total_gia_lost": 158.29,
+    "occupation_status": "Occupied",
+    "surface_water_discharge_percentage_reduction": 0,
+    "ownership_status": "Private"
   },
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "street_name": "New North Road",
   "decision_target_date": "19/08/2025",
   "polygon": {
@@ -254,18 +292,18 @@
     "type": "GeometryCollection"
   },
   "date_building_work_completed_under_previous_permission": null,
-  "last_updated": "2026-06-26T08:28:28.380Z",
+  "last_updated": "2026-06-27T17:52:28.647Z",
   "centroid": {
     "lat": 51.604524,
     "lon": 0.094807
   },
   "decision_date": "25/09/2025",
-  "uprn": "100022229023",
+  "uprn": 100022229023,
   "epc_number": null,
   "centroid_northing": 191599,
   "application_type": "All Other",
   "actual_completion_date": "12/01/2025",
-  "locality": null,
+  "locality": "Ilford",
   "ward": "",
   "reference_no_of_permission_being_relied_on": null,
   "last_date_consultation_comments": "21/07/2025",
@@ -274,12 +312,19 @@
   "id": "Redbridge-1827_25",
   "url_planning_app": null,
   "secondary_street_name": null,
-  "parking_details": {},
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 2,
+    "net_car": 0,
+    "no_proposed_cycle": 6,
+    "no_proposed_car": 2,
+    "net_cycle": 6
+  },
   "lpa_name": "Redbridge",
   "cil_liability": false,
   "decision": "Approved",
   "lapsed_date": "24/09/2028",
-  "status": "Completed",
+  "status": "Commenced",
   "site_name": null,
   "actual_commencement_date": "29/10/2025",
   "subdivision_of_building": null,
@@ -292,126 +337,30 @@
     "coordinates": [
       [
         [
-          0.09469,
-          51.604655
+          0.094829,
+          51.604537
         ],
         [
-          0.094672,
-          51.604651
+          0.094828,
+          51.60451
         ],
         [
-          0.094737,
-          51.604539
+          0.094785,
+          51.604511
         ],
         [
-          0.094792,
-          51.604445
+          0.094786,
+          51.604538
         ],
         [
-          0.094803,
-          51.604426
-        ],
-        [
-          0.094802,
-          51.604425
-        ],
-        [
-          0.094832,
-          51.604374
-        ],
-        [
-          0.094859,
-          51.60438
-        ],
-        [
-          0.094877,
-          51.604383
-        ],
-        [
-          0.094894,
-          51.604389
-        ],
-        [
-          0.094897,
-          51.604389
-        ],
-        [
-          0.094905,
-          51.604392
-        ],
-        [
-          0.094914,
-          51.604396
-        ],
-        [
-          0.094922,
-          51.604401
-        ],
-        [
-          0.094928,
-          51.604405
-        ],
-        [
-          0.094932,
-          51.60441
-        ],
-        [
-          0.094934,
-          51.604413
-        ],
-        [
-          0.094935,
-          51.604419
-        ],
-        [
-          0.094935,
-          51.604426
-        ],
-        [
-          0.094933,
-          51.604433
-        ],
-        [
-          0.094931,
-          51.60444
-        ],
-        [
-          0.094929,
-          51.604441
-        ],
-        [
-          0.094861,
-          51.604563
-        ],
-        [
-          0.094853,
-          51.604575
-        ],
-        [
-          0.094824,
-          51.604652
-        ],
-        [
-          0.094809,
-          51.604654
-        ],
-        [
-          0.094797,
-          51.604678
-        ],
-        [
-          0.094729,
-          51.604663
-        ],
-        [
-          0.09469,
-          51.604655
+          0.094829,
+          51.604537
         ]
       ]
     ],
     "type": "Polygon"
   },
   "date_building_work_started_under_previous_permission": null,
-  "description": "Part first floor rear extension. Alterations to fenestration. Metal side gate. Change of use from a single dwelling house into a small HMO for up to six people. Associated internal alterations and cycle parking. (Summary).",
-  "application_type_full": null
+  "description": "First floor rear extension. Alterations to fenestration. New metal side gate. Change of use from a single dwelling house into a small HMO for a maximum of six people. Associated internal alterations and cycle parking.",
+  "application_type_full": "Full planning permission"
 }

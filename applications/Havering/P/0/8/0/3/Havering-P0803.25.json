@@ -27,7 +27,7 @@
   ],
   "postcode": "RM13 7UA",
   "decision_date": "25/07/2025",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Planning Portal ingest",
   "centroid_easting": 551918,
   "secondary_street_name": null,
   "appeal_status": null,
@@ -35,28 +35,88 @@
   "ward": "South Hornchurch",
   "parking_details": null,
   "development_type": null,
-  "last_updated": "2025-09-13T03:59:09.010Z",
+  "last_updated": "2026-06-27T17:09:13.153Z",
   "last_date_consultation_comments": "08/07/2025",
-  "uprn": "100021351256",
-  "application_type_full": null,
+  "uprn": 100021351256,
+  "application_type_full": "Full planning permission",
   "decision_agency": "Borough",
-  "subdivision_of_building": null,
+  "subdivision_of_building": "Only flat 58 - side elevation",
   "title_number": null,
   "site_name": "58 Harlow Road",
-  "street_name": "Rainham",
+  "street_name": "Harlow Road",
   "appeal_decision_date": null,
   "date_building_work_completed_under_previous_permission": null,
   "lapsed_date": "25/07/2028",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          [
+            0.188902,
+            51.5339
+          ],
+          [
+            0.188801,
+            51.533946
+          ],
+          [
+            0.188784,
+            51.533932
+          ],
+          [
+            0.188737,
+            51.533892
+          ],
+          [
+            0.188697,
+            51.533857
+          ],
+          [
+            0.188911,
+            51.533757
+          ],
+          [
+            0.189152,
+            51.533645
+          ],
+          [
+            0.189189,
+            51.533627
+          ],
+          [
+            0.189218,
+            51.533649
+          ],
+          [
+            0.189247,
+            51.533672
+          ],
+          [
+            0.189299,
+            51.533714
+          ],
+          [
+            0.189,
+            51.533856
+          ],
+          [
+            0.188902,
+            51.5339
+          ]
+        ]
+      ]
+    ],
+    "type": "MultiPolygon"
+  },
   "pp_id": "14101118",
   "decision": "Approved",
   "centroid_northing": 183929,
-  "site_number": null,
-  "epc_number": null,
+  "site_number": 58,
+  "epc_number": "9150-2230-1020-2129-8281",
   "cil_liability": false,
   "application_type": "All Other",
   "borough": "Havering",
-  "locality": null,
+  "locality": "Rainham",
   "polygon": {
     "coordinates": [
       [
@@ -122,12 +182,129 @@
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "GeometryCollection",
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                551917.7,
+                183936.6
+              ],
+              [
+                551910.55,
+                183941.6
+              ],
+              [
+                551909.45,
+                183940
+              ],
+              [
+                551906.293,
+                183935.378
+              ],
+              [
+                551903.63,
+                183931.48
+              ],
+              [
+                551918.8,
+                183920.8
+              ],
+              [
+                551935.896,
+                183908.768
+              ],
+              [
+                551938.55,
+                183906.9
+              ],
+              [
+                551940.446,
+                183909.436
+              ],
+              [
+                551942.4,
+                183912.05
+              ],
+              [
+                551945.9,
+                183916.75
+              ],
+              [
+                551924.65,
+                183931.9
+              ],
+              [
+                551917.7,
+                183936.6
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ]
   },
   "valid_date": "16/06/2025",
   "application_details": {
     "existing_uprns": null,
-    "site_area": 0.053000000000000005
+    "site_area": 0.0081,
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "completed in a single phase",
+        "intended_completion_date": "09/2025",
+        "intended_commencement_date": "09/2025"
+      }
+    ],
+    "total_gia_gained": 0,
+    "total_gia_lost": 0,
+    "total_gia_existing": 81,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 81,
+        "gia_gained": 0,
+        "use_class": "C3",
+        "gia_lost": 0
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied",
+    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "surface_water_discharge_percentage_reduction": 0,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 0,
+      "total_gia_lost": 0,
+      "total_gia_existing": 81
+    },
+    "garden_land_lost": false,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 0,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 0,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "internal_resi_water_usage": 0,
+    "ownership_status": "Private",
+    "lead_developer_company_name": "First Home Improvements "
   },
   "id": "Havering-P0803.25",
   "reference_no_of_permission_being_relied_on": null,

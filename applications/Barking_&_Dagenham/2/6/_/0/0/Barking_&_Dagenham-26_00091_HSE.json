@@ -1,16 +1,24 @@
 {
   "decision_target_date": "21/03/2026",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Other house holder developments",
   "postcode": "RM8 1FJ",
-  "title_number": null,
-  "application_details": {},
+  "title_number": [
+    "Unregistered"
+  ],
+  "application_details": {
+    "total_gia_gained": 32,
+    "no_additional_bathrooms": 1,
+    "no_additional_bedrooms": 1,
+    "intended_completion_date": "05/2026",
+    "intended_commencement_date": "04/2026"
+  },
   "decision_date": "09/03/2026",
   "url_planning_app": "https://online-befirst.lbbd.gov.uk/planning/index.html?fa=getApplication&id=37126",
-  "borough": "London Borough of Barking and Dagenham",
-  "locality": null,
+  "borough": "Barking And Dagenham",
+  "locality": "Dagenham",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
   "parking_details": null,
@@ -19,18 +27,18 @@
   "pp_id": "14649320",
   "subdivision_of_building": null,
   "status": "Approved",
-  "description": "Construction of 3no front dormers",
+  "description": "Construction of 3no front dormers to facilitate to conversion of roof space into habitable accommodation (Planning application to reflect the approved rear dormer extension from 24/01610/CLUP dated 13/01/2025).",
   "decision_conditions": [
     "<p>The development hereby approved shall only be carried out in accordance with the following approved plans and documents:</p><p>- Site Location Plan 24 January 2026<br>- 17722 Proposed Elevations 18/12/2025<br>- 17723 Proposed Plans 18/12/2025</p><p>No other drawings or documents apply.</p>",
     "<p class=\"MsoNormal\">The materials to be used in the construction of the external surfaces of the development hereby permitted shall match those used in the existing dwellinghouse.<br></p>",
     "The development hereby permitted shall be commenced before the expiration of three years from the date of this permission.<br>"
   ],
-  "site_number": "23",
-  "last_updated": "2026-04-15T11:20:16.881Z",
+  "site_number": 23,
+  "last_updated": "2026-06-27T18:20:35.174Z",
   "last_date_consultation_comments": "21/02/2026",
   "valid_date": "24/01/2026",
   "actual_commencement_date": null,
-  "centroid_northing": 187352,
+  "centroid_northing": 187351,
   "appeal_decision": null,
   "decision_agency": null,
   "lpa_app_no": "26/00091/HSE",
@@ -38,38 +46,52 @@
   "decision": "Approved",
   "id": "Barking_&_Dagenham-26_00091_HSE",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
-              548408.448732558,
-              187344.173640836
-            ],
-            [
-              548398.344615221,
-              187343.280916508
-            ],
-            [
-              548397.32553405,
-              187354.503184308
-            ],
-            [
-              548407.683338987,
-              187355.380367653
-            ],
-            [
-              548408.240735174,
-              187348.920989953
-            ],
-            [
-              548408.448732558,
-              187344.173640836
+              [
+                548397.882,
+                187348.374
+              ],
+              [
+                548398.325,
+                187343.294
+              ],
+              [
+                548408.447,
+                187344.176
+              ],
+              [
+                548408.33,
+                187346.618
+              ],
+              [
+                548408.203,
+                187349.274
+              ],
+              [
+                548407.974,
+                187351.9
+              ],
+              [
+                548407.666,
+                187355.431
+              ],
+              [
+                548397.345,
+                187354.532
+              ],
+              [
+                548397.882,
+                187348.374
+              ]
             ]
           ]
-        ]
+        ],
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -82,50 +104,64 @@
   "appeal_start_date": null,
   "decision_process": null,
   "ward": "Whalebone",
-  "street_name": "DOWLETTS ROAD",
+  "street_name": "Dowletts Road",
   "secondary_street_name": null,
   "lpa_name": "Barking & Dagenham",
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": null,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          0.139781,
-          51.56545
-        ],
-        [
-          0.139635,
-          51.565444
-        ],
-        [
-          0.139625,
-          51.565545
-        ],
-        [
-          0.139775,
-          51.565551
-        ],
-        [
-          0.13978,
-          51.565492
-        ],
-        [
-          0.139781,
-          51.56545
+          [
+            0.139631,
+            51.56549
+          ],
+          [
+            0.139635,
+            51.565444
+          ],
+          [
+            0.139781,
+            51.56545
+          ],
+          [
+            0.139781,
+            51.565472
+          ],
+          [
+            0.13978,
+            51.565496
+          ],
+          [
+            0.139778,
+            51.565519
+          ],
+          [
+            0.139775,
+            51.565551
+          ],
+          [
+            0.139626,
+            51.565546
+          ],
+          [
+            0.139631,
+            51.56549
+          ]
         ]
       ]
     ]
   },
-  "uprn": "10091587243",
+  "uprn": 10091587243,
   "application_type": "Householder",
   "centroid": {
-    "lat": 51.565522,
-    "lon": 0.139692
+    "lat": 51.565513,
+    "lon": 0.139677
   },
   "lapsed_date": "09/03/2029",
-  "application_type_full": null,
-  "centroid_easting": 548402,
+  "application_type_full": "Householder planning permission",
+  "centroid_easting": 548401,
   "actual_completion_date": null
 }

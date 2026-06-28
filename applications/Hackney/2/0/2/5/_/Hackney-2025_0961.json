@@ -1,21 +1,81 @@
 {
   "decision_target_date": "12/08/2025",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Minor all other minor developments",
   "postcode": "E5 9RB",
   "title_number": null,
   "application_details": {
-    "site_area": 550,
+    "site_area": 0.055,
     "other_residential_accommodation_details": {
       "site_area": 550
-    }
+    },
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "Entire Development",
+        "intended_completion_date": "09/2025",
+        "intended_commencement_date": "08/2025"
+      }
+    ],
+    "total_gia_gained": 12,
+    "total_gia_lost": 0,
+    "total_gia_existing": 520,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 520,
+        "gia_gained": 12,
+        "use_class": "SG",
+        "gia_lost": 0
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied",
+    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "building_details": [
+      {
+        "no_storeys": 1,
+        "max_height": 2.7,
+        "building_ref": "Burger Shack"
+      }
+    ],
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "surface_water_discharge_percentage_reduction": 0,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 12,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 12,
+      "total_gia_lost": 0,
+      "total_gia_existing": 520
+    },
+    "garden_land_lost": false,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 0,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 0,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "internal_resi_water_usage": 0,
+    "ownership_status": "Private"
   },
   "decision_date": "14/01/2026",
   "url_planning_app": "https://developmentandhousing.hackney.gov.uk//planning/index.html?fa=getApplication&id=83023",
   "borough": "Hackney",
-  "locality": "HACKNEY",
+  "locality": "London",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
   "parking_details": null,
@@ -24,7 +84,7 @@
   "pp_id": "13947217",
   "subdivision_of_building": null,
   "status": "Approved",
-  "description": "Replacement of the Existing Burger Shack with a New Larger Burger Shack &amp; The Installation of 5 New Condenser Units to the Existing Flat Roof on the South-West Side of the Building",
+  "description": "Replacement of the Existing Burger Shack with a New Larger Burger Shack & The Installation of 5 New Condenser Units to the Existing Flat Roof on the South-West Side of the Building",
   "decision_conditions": [
     "<p>The Development hereby permitted shall only be carried out and completed strictly in accordance with the submitted plans hereby approved and any subsequent approval of details.\r\n</p><p><br></p><p>\r\nREASON: To ensure that the development hereby permitted is carried out in full accordance with the plans hereby approved.\r\n</p>",
     "<p>The development hereby permitted must be begun not later than the expiration of three years beginning with the date of this permission.</p><p><br></p><p>\r\n</p><p>\r\nREASON: In order to comply with the provisions of the Town and Country Planning Act 1990 (as amended).</p><p>\r\n</p>",
@@ -32,8 +92,8 @@
     "&lt;p&gt;The noise level from all plant and machinery included in the approved development shall at all times remain 5dB(A) below background levels when measured at any nearby residential window or other sensitive receptor if appropriate.&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;\r\nREASON: To ensure that occupiers of neighbouring premises do not suffer a loss of amenity by reason of noise nuisance and other excess noise.\r\n&lt;/p&gt;",
     "Prior to superstructure works, detailed specification, a drainage layout and a management &amp; maintenance plan (where applicable) of at least one suitable sustainable drainage system (i.e. water butt with overflow, raingarden, bioretention planter box, living roof (substrate depth of 80-150mm excluding the vegetative mat), permeable paving etc.) shall be submitted to, and approved by the LPA, in consultation with the LLFA. If soakaways i.e. plastic modules and soakaway rings are used, an infiltration test must be carried out to ensure that the capacity of the soil is suitable for infiltration. It must be demonstrated that there will be no increase in surface water flow being discharged offsite and an overall reduction in peak flow rate and volume.REASON: To ensure that the development will provide a sustainable drainage system. The condition is required to be discharged prior to the commencement of development to ensure that sustainable drainage is incorporated into the design of the development."
   ],
-  "site_number": "146",
-  "last_updated": "2026-04-15T11:35:44.241Z",
+  "site_number": 146,
+  "last_updated": "2026-06-27T19:41:19.146Z",
   "last_date_consultation_comments": "01/08/2025",
   "valid_date": "17/06/2025",
   "actual_commencement_date": null,
@@ -45,285 +105,148 @@
   "decision": "Approved",
   "id": "Hackney-2025_0961",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
-              535580.10352403,
-              186574.406708679
-            ],
-            [
-              535572.5015777,
-              186582.25446228
-            ],
-            [
-              535570.250676008,
-              186584.603789673
-            ],
-            [
-              535562.30243673,
-              186593.801156507
-            ],
-            [
-              535558.559179278,
-              186598.199897577
-            ],
-            [
-              535559.894879337,
-              186599.15962317
-            ],
-            [
-              535557.487321602,
-              186602.178758652
-            ],
-            [
-              535556.052680787,
-              186601.149053178
-            ],
-            [
-              535550.503754747,
-              186597.200183979
-            ],
-            [
-              535544.954828673,
-              186593.231319749
-            ],
-            [
-              535542.901808107,
-              186591.751743208
-            ],
-            [
-              535542.341143876,
-              186591.351857659
-            ],
-            [
-              535546.100892162,
-              186587.68290783
-            ],
-            [
-              535546.191587319,
-              186587.652916946
-            ],
-            [
-              535546.463674357,
-              186587.542948168
-            ],
-            [
-              535546.727516619,
-              186587.422982248
-            ],
-            [
-              535546.991358521,
-              186587.283022635
-            ],
-            [
-              535547.246955212,
-              186587.143062713
-            ],
-            [
-              535547.502552188,
-              186586.983108489
-            ],
-            [
-              535547.749903952,
-              186586.823153955
-            ],
-            [
-              535547.98901076,
-              186586.643205419
-            ],
-            [
-              535548.21987234,
-              186586.463257192
-            ],
-            [
-              535549.027888464,
-              186585.733466187
-            ],
-            [
-              535550.998458128,
-              186583.804018267
-            ],
-            [
-              535552.754656154,
-              186582.104504652
-            ],
-            [
-              535554.552079715,
-              186580.404991371
-            ],
-            [
-              535556.398973141,
-              186578.605506373
-            ],
-            [
-              535558.30358215,
-              186576.806021753
-            ],
-            [
-              535559.548586437,
-              186575.656350369
-            ],
-            [
-              535571.297798522,
-              186565.539246627
-            ],
-            [
-              535572.402636671,
-              186566.648929212
-            ],
-            [
-              535577.382653886,
-              186571.66749228
-            ],
-            [
-              535580.10352403,
-              186574.406708679
+              [
+                535572.5,
+                186582.25
+              ],
+              [
+                535570.25,
+                186584.6
+              ],
+              [
+                535562.3,
+                186593.8
+              ],
+              [
+                535558.562,
+                186598.195
+              ],
+              [
+                535559.892,
+                186599.16
+              ],
+              [
+                535557.49,
+                186602.175
+              ],
+              [
+                535556.05,
+                186601.15
+              ],
+              [
+                535550.5,
+                186597.2
+              ],
+              [
+                535544.958,
+                186593.227
+              ],
+              [
+                535542.899,
+                186591.751
+              ],
+              [
+                535542.342,
+                186591.352
+              ],
+              [
+                535546.098,
+                186587.683
+              ],
+              [
+                535546.19,
+                186587.65
+              ],
+              [
+                535546.46,
+                186587.54
+              ],
+              [
+                535546.73,
+                186587.42
+              ],
+              [
+                535546.99,
+                186587.28
+              ],
+              [
+                535547.25,
+                186587.14
+              ],
+              [
+                535547.5,
+                186586.98
+              ],
+              [
+                535547.75,
+                186586.82
+              ],
+              [
+                535547.99,
+                186586.64
+              ],
+              [
+                535548.22,
+                186586.46
+              ],
+              [
+                535549.03,
+                186585.73
+              ],
+              [
+                535551,
+                186583.8
+              ],
+              [
+                535552.75,
+                186582.1
+              ],
+              [
+                535554.55,
+                186580.4
+              ],
+              [
+                535556.4,
+                186578.6
+              ],
+              [
+                535558.3,
+                186576.8
+              ],
+              [
+                535559.55,
+                186575.65
+              ],
+              [
+                535571.294,
+                186565.537
+              ],
+              [
+                535572.4,
+                186566.65
+              ],
+              [
+                535577.38,
+                186571.662
+              ],
+              [
+                535580.1,
+                186574.4
+              ],
+              [
+                535572.5,
+                186582.25
+              ]
             ]
           ]
-        ]
-      },
-      {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              535580.10352403,
-              186574.406708679
-            ],
-            [
-              535572.5015777,
-              186582.25446228
-            ],
-            [
-              535570.250676008,
-              186584.603789673
-            ],
-            [
-              535562.30243673,
-              186593.801156507
-            ],
-            [
-              535558.559179278,
-              186598.199897577
-            ],
-            [
-              535559.894879337,
-              186599.15962317
-            ],
-            [
-              535557.487321602,
-              186602.178758652
-            ],
-            [
-              535556.052680787,
-              186601.149053178
-            ],
-            [
-              535550.503754747,
-              186597.200183979
-            ],
-            [
-              535544.954828673,
-              186593.231319749
-            ],
-            [
-              535542.901808107,
-              186591.751743208
-            ],
-            [
-              535542.341143876,
-              186591.351857659
-            ],
-            [
-              535546.100892162,
-              186587.68290783
-            ],
-            [
-              535546.191587319,
-              186587.652916946
-            ],
-            [
-              535546.463674357,
-              186587.542948168
-            ],
-            [
-              535546.727516619,
-              186587.422982248
-            ],
-            [
-              535546.991358521,
-              186587.283022635
-            ],
-            [
-              535547.246955212,
-              186587.143062713
-            ],
-            [
-              535547.502552188,
-              186586.983108489
-            ],
-            [
-              535547.749903952,
-              186586.823153955
-            ],
-            [
-              535547.98901076,
-              186586.643205419
-            ],
-            [
-              535548.21987234,
-              186586.463257192
-            ],
-            [
-              535549.027888464,
-              186585.733466187
-            ],
-            [
-              535550.998458128,
-              186583.804018267
-            ],
-            [
-              535552.754656154,
-              186582.104504652
-            ],
-            [
-              535554.552079715,
-              186580.404991371
-            ],
-            [
-              535556.398973141,
-              186578.605506373
-            ],
-            [
-              535558.30358215,
-              186576.806021753
-            ],
-            [
-              535559.548586437,
-              186575.656350369
-            ],
-            [
-              535571.297798522,
-              186565.539246627
-            ],
-            [
-              535572.402636671,
-              186566.648929212
-            ],
-            [
-              535577.382653886,
-              186571.66749228
-            ],
-            [
-              535580.10352403,
-              186574.406708679
-            ]
-          ]
-        ]
+        ],
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -336,158 +259,160 @@
   "appeal_start_date": null,
   "decision_process": "Delegated",
   "ward": "Lea Bridge Ward",
-  "street_name": "LEA BRIDGE ROAD",
+  "street_name": "Lea Bridge Road",
   "secondary_street_name": null,
   "lpa_name": "Hackney",
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": null,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.045476,
-          51.56176
-        ],
-        [
-          -0.045583,
-          51.561832
-        ],
-        [
-          -0.045614,
-          51.561854
-        ],
-        [
-          -0.045725,
-          51.561938
-        ],
-        [
-          -0.045778,
-          51.561979
-        ],
-        [
-          -0.045758,
-          51.561987
-        ],
-        [
-          -0.045791,
-          51.562015
-        ],
-        [
-          -0.045813,
-          51.562006
-        ],
-        [
-          -0.045894,
-          51.561972
-        ],
-        [
-          -0.045976,
-          51.561937
-        ],
-        [
-          -0.046006,
-          51.561925
-        ],
-        [
-          -0.046014,
-          51.561921
-        ],
-        [
-          -0.045961,
-          51.561887
-        ],
-        [
-          -0.04596,
-          51.561887
-        ],
-        [
-          -0.045956,
-          51.561886
-        ],
-        [
-          -0.045952,
-          51.561885
-        ],
-        [
-          -0.045948,
-          51.561883
-        ],
-        [
-          -0.045945,
-          51.561882
-        ],
-        [
-          -0.045941,
-          51.561881
-        ],
-        [
-          -0.045938,
-          51.561879
-        ],
-        [
-          -0.045934,
-          51.561878
-        ],
-        [
-          -0.045931,
-          51.561876
-        ],
-        [
-          -0.04592,
-          51.561869
-        ],
-        [
-          -0.045892,
-          51.561851
-        ],
-        [
-          -0.045867,
-          51.561836
-        ],
-        [
-          -0.045842,
-          51.56182
-        ],
-        [
-          -0.045816,
-          51.561803
-        ],
-        [
-          -0.045789,
-          51.561787
-        ],
-        [
-          -0.045772,
-          51.561776
-        ],
-        [
-          -0.045606,
-          51.561682
-        ],
-        [
-          -0.04559,
-          51.561692
-        ],
-        [
-          -0.045516,
-          51.561736
-        ],
-        [
-          -0.045476,
-          51.56176
+          [
+            -0.045583,
+            51.561832
+          ],
+          [
+            -0.045614,
+            51.561854
+          ],
+          [
+            -0.045725,
+            51.561938
+          ],
+          [
+            -0.045777,
+            51.561979
+          ],
+          [
+            -0.045758,
+            51.561987
+          ],
+          [
+            -0.045791,
+            51.562015
+          ],
+          [
+            -0.045813,
+            51.562006
+          ],
+          [
+            -0.045894,
+            51.561972
+          ],
+          [
+            -0.045976,
+            51.561937
+          ],
+          [
+            -0.046006,
+            51.561925
+          ],
+          [
+            -0.046014,
+            51.561921
+          ],
+          [
+            -0.045961,
+            51.561887
+          ],
+          [
+            -0.04596,
+            51.561887
+          ],
+          [
+            -0.045956,
+            51.561886
+          ],
+          [
+            -0.045952,
+            51.561885
+          ],
+          [
+            -0.045949,
+            51.561883
+          ],
+          [
+            -0.045945,
+            51.561882
+          ],
+          [
+            -0.045941,
+            51.561881
+          ],
+          [
+            -0.045938,
+            51.561879
+          ],
+          [
+            -0.045934,
+            51.561877
+          ],
+          [
+            -0.045931,
+            51.561876
+          ],
+          [
+            -0.04592,
+            51.561869
+          ],
+          [
+            -0.045892,
+            51.561851
+          ],
+          [
+            -0.045867,
+            51.561836
+          ],
+          [
+            -0.045842,
+            51.56182
+          ],
+          [
+            -0.045816,
+            51.561803
+          ],
+          [
+            -0.045789,
+            51.561787
+          ],
+          [
+            -0.045772,
+            51.561776
+          ],
+          [
+            -0.045606,
+            51.561682
+          ],
+          [
+            -0.04559,
+            51.561692
+          ],
+          [
+            -0.045516,
+            51.561736
+          ],
+          [
+            -0.045476,
+            51.56176
+          ],
+          [
+            -0.045583,
+            51.561832
+          ]
         ]
       ]
     ]
   },
-  "uprn": "100023007498",
+  "uprn": 100023007498,
   "application_type": "All Other",
   "centroid": {
     "lat": 51.561896,
     "lon": -0.045789
   },
   "lapsed_date": "14/01/2029",
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "centroid_easting": 535558,
   "actual_completion_date": null
 }

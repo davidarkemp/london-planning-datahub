@@ -6,12 +6,12 @@
   "appeal_decision": null,
   "lapsed_date": "28/04/2029",
   "appeal_decision_date": null,
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Planning Portal ingest",
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": "8705-9075-9929-8297-2213",
-  "last_updated": "2026-04-29T08:04:58.389Z",
+  "last_updated": "2026-06-27T22:34:23.920Z",
   "url_planning_app": "https://pa.brent.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR_176510&activeTab=summary",
-  "street_name": null,
+  "street_name": "Bridgewater Road",
   "parking_details": {
     "no_proposed_car": 1,
     "no_existing_cycle": 0,
@@ -23,7 +23,7 @@
   "ward": "Alperton",
   "bo_system": "CSV Data Import",
   "site_name": "127 Bridgewater Road, Wembley, HA0 1AH",
-  "site_number": null,
+  "site_number": 127,
   "application_details": {
     "site_area": 0.020645,
     "total_gia_existing": 138.1,
@@ -41,8 +41,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 138.1,
-        "use_class": "C3",
         "gia_gained": 138.1,
+        "use_class": "C3",
         "gia_lost": 138.1
       }
     ],
@@ -62,7 +62,10 @@
       "mobile_network_operators_consultation": false,
       "ghg_reduction_over_building_regulations": false,
       "fire_suppression_system_proposed": false,
-      "total_annual_nox_emissions": 0
+      "total_annual_nox_emissions": 0,
+      "urban_greening_factor_score": 0,
+      "no_passive_fast_ev_charging_points": 0,
+      "no_active_fast_ev_charging_points": 1
     },
     "rain_water_harvesting": false,
     "projected_cost_of_works": "Up to £2m",
@@ -108,30 +111,46 @@
       "total_no_proposed_residential_units_affordable_rent": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 6,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Terraced Home",
           "no_bedrooms": 4,
+          "unit_type": "Terraced Home",
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 138.12
         },
         {
-          "provider": "Private",
-          "no_habitable_rooms": 4,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 4,
+          "provider": "Private",
           "no_bedrooms": 3,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 84
         },
         {
-          "provider": "Private",
-          "no_habitable_rooms": 2,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
           "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 58.5
         }
@@ -147,12 +166,13 @@
     "affordable_housing_fast_track": false,
     "grey_water_reuse": false,
     "total_gia_lost": 138.1,
-    "surface_water_discharge_percentage_reduction": 0
+    "surface_water_discharge_percentage_reduction": 0,
+    "occupation_status": "Vacant"
   },
-  "uprn": "202126889",
-  "locality": null,
+  "uprn": 202126889,
+  "locality": "Wembley",
   "date_building_work_started_under_previous_permission": null,
-  "postcode": null,
+  "postcode": "HA0 1AH",
   "valid_date": "03/03/2026",
   "cil_liability": true,
   "actual_completion_date": null,
@@ -164,11 +184,56 @@
   "application_type_full": "Full planning permission",
   "pp_id": "PP-14693755",
   "lpa_app_no": "26/0381",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                517573.05,
+                184048.6
+              ],
+              [
+                517575.4,
+                184043.35
+              ],
+              [
+                517593.8,
+                184050.9
+              ],
+              [
+                517607.45,
+                184056.5
+              ],
+              [
+                517605.25,
+                184061.6
+              ],
+              [
+                517590.45,
+                184055.4
+              ],
+              [
+                517586.95,
+                184054.65
+              ],
+              [
+                517573.05,
+                184048.6
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "id": "Brent-26_0381",
   "appeal_status": null,
   "appeal_start_date": null,
-  "description": "Proposed conversion of dwellinghouse into 2x self-contained flats and erection of first-floor rear extension, recessed balcony to existing rear dormer, insertion of 1x ground-floor side window, associated cycle & refuse storage in forecourt",
+  "description": "Proposed second storey rear extention and converstion of a single family dwelling into two self-contained flats (1x3Bed/4P and 1x1Bed/2P) with associated internal and external altertaions and bin storage ",
   "development_type": "Other change of use",
   "decision_conditions": null,
   "secondary_street_name": null,
@@ -179,7 +244,47 @@
   "borough": "Brent",
   "decision": "Refused",
   "application_type": "All Other",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          [
+            -0.305963,
+            51.543097
+          ],
+          [
+            -0.305931,
+            51.543049
+          ],
+          [
+            -0.305663,
+            51.543113
+          ],
+          [
+            -0.305465,
+            51.543161
+          ],
+          [
+            -0.305495,
+            51.543207
+          ],
+          [
+            -0.30571,
+            51.543154
+          ],
+          [
+            -0.305761,
+            51.543148
+          ],
+          [
+            -0.305963,
+            51.543097
+          ]
+        ]
+      ]
+    ],
+    "type": "MultiPolygon"
+  },
   "decision_agency": null,
   "decision_target_date": "21/04/2026",
   "status": "Refused",

@@ -6,20 +6,27 @@
   "appeal_decision": null,
   "lapsed_date": "07/05/2026",
   "appeal_decision_date": null,
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": null,
-  "last_updated": "2026-05-12T08:38:41.518Z",
+  "last_updated": "2026-06-28T01:27:07.421Z",
   "url_planning_app": "https://builtenvironment.walthamforest.gov.uk/planning/index.html?fa=getApplication&id=120192",
-  "street_name": "FOREST GLADE",
-  "parking_details": null,
+  "street_name": "Forest Glade",
+  "parking_details": {
+    "no_existing_car": 2,
+    "net_car": 0,
+    "no_proposed_car": 2
+  },
   "ward": "Hatch Lane & Highams Park North",
   "bo_system": "Portal",
   "site_name": null,
-  "site_number": "12",
-  "application_details": {},
-  "uprn": "100022543082",
-  "locality": null,
+  "site_number": 12,
+  "application_details": {
+    "no_additional_bathrooms": 1,
+    "no_additional_bedrooms": 1
+  },
+  "uprn": 100022543082,
+  "locality": "Chingford",
   "date_building_work_started_under_previous_permission": null,
   "postcode": "E4 9RH",
   "valid_date": "17/03/2026",
@@ -30,7 +37,7 @@
     "lon": 0.007793
   },
   "centroid_easting": 539111,
-  "application_type_full": null,
+  "application_type_full": "Lawful development: Proposed use",
   "pp_id": "14786891",
   "lpa_app_no": "260701",
   "polygon": {
@@ -39,32 +46,98 @@
         "coordinates": [
           [
             [
-              539117.309823555,
-              192551.088059977
-            ],
-            [
-              539120.022768905,
-              192543.655917232
-            ],
-            [
-              539081.588377367,
-              192532.31303059
-            ],
-            [
-              539086.628756868,
-              192541.626344645
-            ],
-            [
-              539103.482178805,
-              192547.0938089
-            ],
-            [
-              539117.309823555,
-              192551.088059977
+              [
+                539114.65,
+                192541.7
+              ],
+              [
+                539115.2,
+                192541.85
+              ],
+              [
+                539120,
+                192543.2
+              ],
+              [
+                539117.05,
+                192551.05
+              ],
+              [
+                539112.6,
+                192549.85
+              ],
+              [
+                539112.35,
+                192549.8
+              ],
+              [
+                539107.55,
+                192548.4
+              ],
+              [
+                539106.5,
+                192548.05
+              ],
+              [
+                539104.3,
+                192547.4
+              ],
+              [
+                539103.105,
+                192547.006
+              ],
+              [
+                539093.671,
+                192543.897
+              ],
+              [
+                539090.653,
+                192542.903
+              ],
+              [
+                539086.7,
+                192541.6
+              ],
+              [
+                539083.35,
+                192535.95
+              ],
+              [
+                539081.2,
+                192532.4
+              ],
+              [
+                539102.1,
+                192538.2
+              ],
+              [
+                539104.046,
+                192538.737
+              ],
+              [
+                539105.307,
+                192539.085
+              ],
+              [
+                539106.449,
+                192539.405
+              ],
+              [
+                539107.4,
+                192539.65
+              ],
+              [
+                539109.31,
+                192540.206
+              ],
+              [
+                539114.65,
+                192541.7
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -73,16 +146,18 @@
       },
       "type": "name"
     },
-    "type": "geometrycollection"
+    "type": "GeometryCollection"
   },
   "id": "Waltham_Forest-260701",
   "appeal_status": null,
   "appeal_start_date": null,
-  "description": "Lawful development certificate (Proposed) for the construction of a hip to gable extension to the main roof, rear dormer roof extension and installation of three roof-lights to the front roof slope.",
+  "description": "12 Forest Glade",
   "development_type": "Certificates of Lawful Development",
   "decision_conditions": null,
   "secondary_street_name": null,
-  "title_number": null,
+  "title_number": [
+    "P126928"
+  ],
   "last_date_consultation_comments": null,
   "decision_process": "Delegated",
   "centroid_northing": 192546,
@@ -93,32 +168,98 @@
     "coordinates": [
       [
         [
-          0.007886,
-          51.614605
-        ],
-        [
-          0.007922,
-          51.614537
-        ],
-        [
-          0.007363,
-          51.614445
-        ],
-        [
-          0.00744,
-          51.614527
-        ],
-        [
-          0.007685,
-          51.614572
-        ],
-        [
-          0.007886,
-          51.614605
+          [
+            0.007844,
+            51.614521
+          ],
+          [
+            0.007852,
+            51.614522
+          ],
+          [
+            0.007922,
+            51.614533
+          ],
+          [
+            0.007882,
+            51.614604
+          ],
+          [
+            0.007818,
+            51.614595
+          ],
+          [
+            0.007814,
+            51.614594
+          ],
+          [
+            0.007744,
+            51.614583
+          ],
+          [
+            0.007729,
+            51.61458
+          ],
+          [
+            0.007697,
+            51.614575
+          ],
+          [
+            0.007679,
+            51.614571
+          ],
+          [
+            0.007542,
+            51.614546
+          ],
+          [
+            0.007498,
+            51.614538
+          ],
+          [
+            0.007441,
+            51.614527
+          ],
+          [
+            0.00739,
+            51.614477
+          ],
+          [
+            0.007358,
+            51.614446
+          ],
+          [
+            0.007661,
+            51.614493
+          ],
+          [
+            0.00769,
+            51.614497
+          ],
+          [
+            0.007708,
+            51.6145
+          ],
+          [
+            0.007725,
+            51.614502
+          ],
+          [
+            0.007739,
+            51.614504
+          ],
+          [
+            0.007766,
+            51.614509
+          ],
+          [
+            0.007844,
+            51.614521
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "decision_agency": "Borough",
   "decision_target_date": "12/05/2026",

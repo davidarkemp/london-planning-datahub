@@ -83,71 +83,104 @@
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "GeometryCollection",
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                543838.975,
+                185551.476
+              ],
+              [
+                543834.1159351242,
+                185549.50359410673
+              ],
+              [
+                543842.3,
+                185528.95
+              ],
+              [
+                543847.2,
+                185530.95
+              ],
+              [
+                543838.975,
+                185551.476
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ]
   },
   "secondary_street_name": null,
   "borough": "Redbridge",
   "decision": "Approved",
   "decision_process": null,
-  "site_number": null,
+  "site_number": 25,
   "decision_conditions": [
     "The development hereby permitted shall be begun no later than the  expiration of three years from the date of this permission.\n\nReason: In order to comply with the requirements of Section 91 of the Town and Country Planning Act 1990."
   ],
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "lpa_app_no": "1690/25",
   "bo_system": "Portal",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          0.073229,
-          51.550407
-        ],
-        [
-          0.073228,
-          51.55038
-        ],
-        [
-          0.073185,
-          51.55038
-        ],
-        [
-          0.073186,
-          51.550407
-        ],
-        [
-          0.073229,
-          51.550407
+          [
+            0.073169,
+            51.550524
+          ],
+          [
+            0.073098,
+            51.550508
+          ],
+          [
+            0.073208,
+            51.550321
+          ],
+          [
+            0.073279,
+            51.550338
+          ],
+          [
+            0.073169,
+            51.550524
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "actual_commencement_date": null,
   "lapsed_date": "10/09/2028",
   "reference_no_of_permission_being_relied_on": null,
-  "postcode": "",
+  "postcode": "IG1 2HH",
   "date_building_work_started_under_previous_permission": null,
   "uprn": "10096146977",
   "appeal_decision_date": null,
   "url_planning_app": null,
   "application_type": "All Other",
   "id": "Redbridge-1690_25",
-  "locality": null,
+  "locality": "Ilford",
   "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "centroid": {
-    "lat": 51.550394,
-    "lon": 0.073207
+    "lat": 51.550366,
+    "lon": 0.073263
   },
-  "last_updated": "2025-11-27T17:30:22.403Z",
+  "last_updated": "2026-06-27T04:50:46.145Z",
   "subdivision_of_building": null,
-  "site_name": "DEVELOPMENT SOUTH EAST SIDE OF AND REAR OF 25 JERSEY ROAD IN",
+  "site_name": "Rear of no 25",
   "development_type": null,
   "pp_id": "PP-13707810",
   "application_details": {
-    "site_area": 0.026000000000000002,
+    "site_area": 0.01095,
     "3d_model": false,
     "affordable_housing_fast_track": false,
     "s106_agreement": false,
@@ -159,14 +192,17 @@
     "transport_impact_assessment": false,
     "rain_water_harvesting": false,
     "circular_economy_statement": false,
-    "scheme_phasing": false,
+    "scheme_phasing": true,
     "commencement_notice_received": false,
     "grey_water_reuse": false,
     "green_suds": false,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "site_area": 0.026000000000000002
+      "site_area": 0.026000000000000002,
+      "total_gia_gained": 83.4,
+      "total_gia_existing": 0,
+      "total_gia_lost": 0
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -183,14 +219,14 @@
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_proposed_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "total_no_proposed_residential_units_market_for_sale": 1,
+      "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": 0,
+      "habitable_rooms_density": 115.38461538461537,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
@@ -207,46 +243,98 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
-          "m42_compliant": true,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "House or Bungalow",
+          "no_habitable_rooms": 3,
+          "provider": "Private",
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "gia": 83.4,
-          "unit_development_type": "New Build",
-          "tenure": "Market for sale"
+          "tenure": "Market for rent",
+          "gia": 83.4
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "total_gia_gained": 83.4
     },
     "infrastructure_details": {
-      "waste_provision": false,
+      "waste_provision": true,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 1,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 1,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "no_active_other_ev_charging_points": 1,
+      "no_passive_other_ev_charging_points": 0,
+      "no_new_gas_connections_required": 1
     },
     "other_residential_accommodation_details": {
       "site_area": 0.026000000000000002
-    }
+    },
+    "total_gia_existing": 0,
+    "projected_cost_of_works": "Up to £2m",
+    "internal_resi_water_usage": 0,
+    "phasing_details": [
+      {
+        "phase_detail": "Entire Development ",
+        "intended_completion_date": "03/2026",
+        "intended_commencement_date": "09/2025"
+      }
+    ],
+    "total_gia_gained": 83.4,
+    "total_gia_lost": 0,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 0,
+        "gia_gained": 83.4,
+        "use_class": "C3",
+        "gia_lost": 0
+      }
+    ],
+    "occupation_status": "Occupied",
+    "building_details": [
+      {
+        "no_storeys": 2,
+        "max_height": 7.59,
+        "building_ref": "New detached two storey building."
+      }
+    ],
+    "surface_water_discharge_percentage_reduction": 100,
+    "ownership_status": "Private"
   },
   "actual_completion_date": null,
   "decision_agency": null,
-  "description": "Erection of 1x two-bedroom house with associated car parking, amenity space, cycle and refuse storage.  (summary)",
-  "street_name": "Mayville Road",
-  "application_type_full": null,
+  "description": "Proposed construction of a detached two storey two bedroom dwelling including car parking, amenity/garden space, cycle storage and a refuse area.",
+  "street_name": "Jersey Road",
+  "application_type_full": "Full planning permission",
   "epc_number": null,
   "appeal_start_date": null,
   "status": "Approved",
-  "centroid_northing": 185537,
+  "centroid_northing": 185534,
   "decision_date": "11/09/2025",
   "valid_date": "11/06/2025",
-  "centroid_easting": 543842,
-  "parking_details": {},
+  "centroid_easting": 543846,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 0,
+    "net_car": 1,
+    "no_proposed_cycle": 2,
+    "no_proposed_car": 1,
+    "net_cycle": 2
+  },
   "cil_liability": false,
   "appeal_status": null,
   "decision_target_date": "05/08/2025"

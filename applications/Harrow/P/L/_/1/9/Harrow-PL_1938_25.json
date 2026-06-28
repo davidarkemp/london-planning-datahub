@@ -1,16 +1,24 @@
 {
   "decision_target_date": "16/09/2025",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Other house holder developments",
   "postcode": "HA2 7QG",
-  "title_number": null,
-  "application_details": {},
+  "title_number": [
+    "XXX"
+  ],
+  "application_details": {
+    "total_gia_gained": 50,
+    "no_additional_bathrooms": 1,
+    "no_additional_bedrooms": 0,
+    "intended_completion_date": "03/2026",
+    "intended_commencement_date": "11/2025"
+  },
   "decision_date": "16/09/2025",
   "url_planning_app": "https://planningsearch.harrow.gov.uk//planning/index.html?fa=getApplication&id=230851",
   "borough": "Harrow",
-  "locality": null,
+  "locality": "North Harrow",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
   "parking_details": null,
@@ -19,7 +27,7 @@
   "pp_id": "14193732",
   "subdivision_of_building": null,
   "status": "Approved",
-  "description": "Single storey side to rear extension; raised patio with ballustrade and steps to rear; external alterations (demolition of attached garage and rear extension)",
+  "description": "Single Storey Side and Rear Extension with Associated Raised Rear Patio",
   "decision_conditions": [
     "The development hereby permitted shall be begun before the expiration of three years from the date of this permission.",
     "The materials to be used in the construction of the external surfaces of the extension hereby permitted shall match those used in the existing building.",
@@ -27,12 +35,12 @@
     "The roof area of the extension hereby permitted shall not be used as a balcony, roof garden or similar amenity area without the grant of further specific permission from the local planning authority.",
     "The development hereby permitted shall be carried out in accordance with the following approved plans and documents:&amp;nbsp;Location Plan, SR74-01-1001 1&lt;font face=&quot;Arial, sans-serif&quot;&gt;st Rev, SR74-01-1002 1st Rev, SR74-01-1003 1st Rev, Flood Risk Assessment, PHOTOS 1st&lt;/font&gt; Rev, Reasonable Exception Statement"
   ],
-  "site_number": "74",
-  "last_updated": "2026-04-15T11:52:12.785Z",
+  "site_number": 74,
+  "last_updated": "2026-06-27T19:48:12.084Z",
   "last_date_consultation_comments": "21/08/2025",
   "valid_date": "22/07/2025",
   "actual_commencement_date": null,
-  "centroid_northing": 188545,
+  "centroid_northing": 188531,
   "appeal_decision": null,
   "decision_agency": "Borough",
   "lpa_app_no": "PL/1938/25",
@@ -40,34 +48,60 @@
   "decision": "Approved",
   "id": "Harrow-PL_1938_25",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
-              512933.417388769,
-              188570.762429977
-            ],
-            [
-              512948.320352379,
-              188516.891918449
-            ],
-            [
-              512957.396578021,
-              188519.547253193
-            ],
-            [
-              512942.607983798,
-              188573.537077834
-            ],
-            [
-              512933.417388769,
-              188570.762429977
+              [
+                512945.2,
+                188528.35
+              ],
+              [
+                512948.25,
+                188517
+              ],
+              [
+                512957.45,
+                188519.5
+              ],
+              [
+                512954.25,
+                188531.1
+              ],
+              [
+                512952.9,
+                188535.9
+              ],
+              [
+                512942.65,
+                188573.3
+              ],
+              [
+                512933.6,
+                188570.85
+              ],
+              [
+                512934.843,
+                188566.298
+              ],
+              [
+                512943.163,
+                188535.815
+              ],
+              [
+                512943.85,
+                188533.3
+              ],
+              [
+                512945.2,
+                188528.35
+              ]
             ]
           ]
-        ]
+        ],
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -80,46 +114,72 @@
   "appeal_start_date": null,
   "decision_process": "Delegated",
   "ward": "North Harrow",
-  "street_name": "SUFFOLK ROAD",
+  "street_name": "Suffolk Road",
   "secondary_street_name": null,
   "lpa_name": "Harrow",
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": null,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.371386,
-          51.584687
-        ],
-        [
-          -0.371189,
-          51.5842
-        ],
-        [
-          -0.371057,
-          51.584222
-        ],
-        [
-          -0.371253,
-          51.584711
-        ],
-        [
-          -0.371386,
-          51.584687
+          [
+            -0.37123,
+            51.584304
+          ],
+          [
+            -0.37119,
+            51.584201
+          ],
+          [
+            -0.371056,
+            51.584222
+          ],
+          [
+            -0.371099,
+            51.584327
+          ],
+          [
+            -0.371117,
+            51.58437
+          ],
+          [
+            -0.371252,
+            51.584708
+          ],
+          [
+            -0.371384,
+            51.584688
+          ],
+          [
+            -0.371367,
+            51.584647
+          ],
+          [
+            -0.371257,
+            51.584371
+          ],
+          [
+            -0.371248,
+            51.584349
+          ],
+          [
+            -0.37123,
+            51.584304
+          ]
         ]
       ]
     ]
   },
-  "uprn": "100021289121",
+  "uprn": 100021289121,
   "application_type": "Householder",
   "centroid": {
-    "lat": 51.584454,
-    "lon": -0.371228
+    "lat": 51.584328,
+    "lon": -0.371218
   },
   "lapsed_date": "16/09/2025",
-  "application_type_full": null,
-  "centroid_easting": 512945,
+  "application_type_full": "Householder planning permission",
+  "centroid_easting": 512946,
   "actual_completion_date": null
 }

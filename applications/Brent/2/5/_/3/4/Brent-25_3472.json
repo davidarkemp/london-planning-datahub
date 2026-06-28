@@ -1,16 +1,204 @@
 {
   "decision": "Approved",
   "last_date_consultation_comments": "20/02/2026",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          [
+            -0.297078,
+            51.547959
+          ],
+          [
+            -0.297097,
+            51.547958
+          ],
+          [
+            -0.297117,
+            51.547957
+          ],
+          [
+            -0.297147,
+            51.547956
+          ],
+          [
+            -0.297269,
+            51.547952
+          ],
+          [
+            -0.297284,
+            51.547951
+          ],
+          [
+            -0.297327,
+            51.547949
+          ],
+          [
+            -0.297463,
+            51.547943
+          ],
+          [
+            -0.297462,
+            51.54793
+          ],
+          [
+            -0.297461,
+            51.547848
+          ],
+          [
+            -0.297324,
+            51.54785
+          ],
+          [
+            -0.297192,
+            51.547853
+          ],
+          [
+            -0.296722,
+            51.547861
+          ],
+          [
+            -0.296721,
+            51.547896
+          ],
+          [
+            -0.296719,
+            51.547915
+          ],
+          [
+            -0.296718,
+            51.547945
+          ],
+          [
+            -0.296717,
+            51.547969
+          ],
+          [
+            -0.296778,
+            51.547967
+          ],
+          [
+            -0.29701,
+            51.54796
+          ],
+          [
+            -0.297078,
+            51.547959
+          ]
+        ]
+      ]
+    ],
+    "type": "MultiPolygon"
+  },
   "date_building_work_started_under_previous_permission": null,
   "ward": "Wembley Central",
-  "site_number": null,
-  "polygon": null,
+  "site_number": 65,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                518176.6,
+                184603.55
+              ],
+              [
+                518175.257,
+                184603.451
+              ],
+              [
+                518173.9,
+                184603.352
+              ],
+              [
+                518171.8,
+                184603.2
+              ],
+              [
+                518163.35,
+                184602.5
+              ],
+              [
+                518162.3,
+                184602.402
+              ],
+              [
+                518159.304,
+                184602.121
+              ],
+              [
+                518149.95,
+                184601.25
+              ],
+              [
+                518150,
+                184599.79
+              ],
+              [
+                518150.3,
+                184590.6
+              ],
+              [
+                518159.8,
+                184591.1
+              ],
+              [
+                518168.95,
+                184591.6
+              ],
+              [
+                518201.5,
+                184593.3
+              ],
+              [
+                518201.5,
+                184597.2
+              ],
+              [
+                518201.55,
+                184599.25
+              ],
+              [
+                518201.58,
+                184602.6
+              ],
+              [
+                518201.6,
+                184605.25
+              ],
+              [
+                518197.354,
+                184604.957
+              ],
+              [
+                518181.3,
+                184603.85
+              ],
+              [
+                518176.6,
+                184603.55
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      },
+      {
+        "coordinates": [
+          518134.2556732179,
+          184598.2765127182
+        ],
+        "type": "Point"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "appeal_status": null,
   "application_type_full": "Full planning permission",
   "borough": "Brent",
   "lpa_name": "Brent",
-  "postcode": null,
+  "postcode": "HA0 4BN",
   "appeal_start_date": null,
   "appeal_decision_date": null,
   "status": "Approved",
@@ -22,7 +210,7 @@
   "url_planning_app": "https://pa.brent.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR_175922&activeTab=summary",
   "application_details": {
     "surface_water_discharge_percentage_reduction": 0,
-    "site_area": 0.051000000000000004,
+    "site_area": 0.051,
     "existing_uprns": null,
     "projected_cost_of_works": "Up to £2m",
     "scheme_phasing": true,
@@ -41,7 +229,8 @@
       "no_new_water_connections_required": 1,
       "no_new_gas_connections_required": 1,
       "no_non_resi_units_to_have_full_fibre": 0,
-      "mobile_network_operators_consultation": false
+      "mobile_network_operators_consultation": false,
+      "urban_greening_factor_score": 0
     },
     "internal_resi_water_usage": 0,
     "ownership_status": "Private",
@@ -94,32 +283,48 @@
       "total_no_proposed_residential_units_social_rent": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 5,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Loss",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "no_bedrooms": 3,
+          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 85
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
           "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 3,
-          "provision_for_older_persons": false,
-          "gia": 85,
-          "tenure": "Market for rent"
-        },
-        {
           "no_habitable_rooms": 5,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "gia": 78,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 78
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "gia": 61,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 61
         }
       ],
       "total_no_existing_residential_units_london_shared_ownership": 0,
@@ -150,7 +355,8 @@
       "total_no_existing_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_starter_homes": 0
     },
-    "rain_water_harvesting": false
+    "rain_water_harvesting": false,
+    "occupation_status": "Occupied"
   },
   "development_type": "Minor dwellings",
   "centroid_easting": 518164,
@@ -160,28 +366,28 @@
   "lpa_app_no": "25/3472",
   "decision_process": "Delegated",
   "lapsed_date": "26/03/2029",
-  "uprn": "202102483",
+  "uprn": 202102483,
   "bo_system": "CSV Data Import",
   "cil_liability": true,
-  "street_name": null,
-  "locality": null,
+  "street_name": "Ealing Road",
+  "locality": "Wembley",
   "application_type": "All Other",
   "epc_number": null,
   "decision_conditions": null,
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": 184595,
-  "last_updated": "2026-03-27T09:01:39.307Z",
+  "last_updated": "2026-06-27T22:22:19.208Z",
   "centroid": {
     "lon": -0.297262,
     "lat": 51.547884
   },
   "subdivision_of_building": null,
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Planning Portal ingest",
   "title_number": null,
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "id": "Brent-25_3472",
   "parking_details": null,
-  "description": "Proposed conversion of loft into a self-contained flat with hip to gable-end roof extension, L-shaped dormer, 4x front rooflights, cycle & refuse storage and internal alterations to first-floor flat"
+  "description": "Conversion of first floor maisonette to two flats (1 X 3 beds & 1 x 1 bed); hip to gable end loft conversion with rear dormer and outrigger dormer roof extension; landscaping; bin / cycle storage"
 }

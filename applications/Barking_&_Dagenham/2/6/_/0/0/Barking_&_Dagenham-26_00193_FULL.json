@@ -6,17 +6,17 @@
   "appeal_decision": null,
   "lapsed_date": "14/04/2029",
   "appeal_decision_date": null,
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": null,
-  "last_updated": "2026-04-22T11:36:28.359Z",
+  "last_updated": "2026-06-27T22:01:53.472Z",
   "url_planning_app": "https://online-befirst.lbbd.gov.uk/planning/index.html?fa=getApplication&id=37222",
-  "street_name": null,
+  "street_name": "Wood Lane",
   "parking_details": null,
   "ward": "Valence",
   "bo_system": "Portal",
   "site_name": "307a Wood Lane",
-  "site_number": null,
+  "site_number": 307,
   "application_details": {
     "site_area": 0.012,
     "total_gia_existing": 87.55,
@@ -33,8 +33,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 87.55,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -54,7 +54,8 @@
       "mobile_network_operators_consultation": false,
       "ghg_reduction_over_building_regulations": false,
       "fire_suppression_system_proposed": false,
-      "total_annual_nox_emissions": 0
+      "total_annual_nox_emissions": 0,
+      "urban_greening_factor_score": 0
     },
     "rain_water_harvesting": false,
     "projected_cost_of_works": "Up to £2m",
@@ -100,11 +101,17 @@
       "total_no_proposed_residential_units_affordable_rent": 0,
       "residential_units": [
         {
-          "provider": "Private",
-          "no_habitable_rooms": 2,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
           "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 42.4
         }
@@ -120,20 +127,21 @@
     "affordable_housing_fast_track": false,
     "grey_water_reuse": false,
     "total_gia_lost": 0,
-    "surface_water_discharge_percentage_reduction": 0
+    "surface_water_discharge_percentage_reduction": 0,
+    "occupation_status": "Occupied"
   },
-  "uprn": null,
-  "locality": null,
+  "uprn": 100035638,
+  "locality": "Dagenham",
   "date_building_work_started_under_previous_permission": null,
   "postcode": "RM8 3NH",
   "valid_date": "17/02/2026",
   "cil_liability": null,
   "actual_completion_date": null,
   "centroid": {
-    "lat": 51.554661,
-    "lon": 0.143019
+    "lat": 51.554632,
+    "lon": 0.14309
   },
-  "centroid_easting": 548668,
+  "centroid_easting": 548673,
   "application_type_full": "Full planning permission",
   "pp_id": "14705836",
   "lpa_app_no": "26/00193/FULL",
@@ -143,84 +151,82 @@
         "coordinates": [
           [
             [
-              548657.55089162,
-              186160.699518031
-            ],
-            [
-              548661.25089162,
-              186153.949518024
-            ],
-            [
-              548663.985626338,
-              186148.941755848
-            ],
-            [
-              548664.950891621,
-              186148.49951802
-            ],
-            [
-              548667.592692412,
-              186147.070411338
-            ],
-            [
-              548673.945981852,
-              186143.657206975
-            ],
-            [
-              548676.100891625,
-              186142.499518019
-            ],
-            [
-              548676.873334224,
-              186144.39200165
-            ],
-            [
-              548678.100891627,
-              186147.399518021
-            ],
-            [
-              548675.085201141,
-              186148.78462971
-            ],
-            [
-              548670.89839977,
-              186150.707638107
-            ],
-            [
-              548668.665617452,
-              186151.738468813
-            ],
-            [
-              548666.783891623,
-              186152.614518026
-            ],
-            [
-              548665.850891622,
-              186153.049518026
-            ],
-            [
-              548663.054612214,
-              186158.165128569
-            ],
-            [
-              548661.835721881,
-              186160.363484216
-            ],
-            [
-              548660.900891622,
-              186162.049518031
-            ],
-            [
-              548659.395006276,
-              186161.453438259
-            ],
-            [
-              548657.55089162,
-              186160.699518031
+              [
+                548658.5,
+                186161.1
+              ],
+              [
+                548657.55,
+                186160.7
+              ],
+              [
+                548658.5,
+                186158.9
+              ],
+              [
+                548660.8,
+                186154.75
+              ],
+              [
+                548661.25,
+                186153.95
+              ],
+              [
+                548665.1,
+                186146.9
+              ],
+              [
+                548666.7,
+                186147.55
+              ],
+              [
+                548676.1,
+                186142.5
+              ],
+              [
+                548678.1,
+                186147.4
+              ],
+              [
+                548669.5,
+                186151.35
+              ],
+              [
+                548667.52,
+                186152.272
+              ],
+              [
+                548666.783,
+                186152.615
+              ],
+              [
+                548665.85,
+                186153.05
+              ],
+              [
+                548665.523,
+                186153.658
+              ],
+              [
+                548664.05,
+                186156.4
+              ],
+              [
+                548663.7,
+                186157
+              ],
+              [
+                548660.9,
+                186162.05
+              ],
+              [
+                548658.5,
+                186161.1
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -229,12 +235,12 @@
       },
       "type": "name"
     },
-    "type": "geometrycollection"
+    "type": "GeometryCollection"
   },
   "id": "Barking_&_Dagenham-26_00193_FULL",
   "appeal_status": null,
   "appeal_start_date": null,
-  "description": "\r\n\r\nConversion of existing dwelling into two flats (2x1 bed) and associated works",
+  "description": "Dividing up the existing duplex residential unit on first and second floor into two one bedroom apartments. New shared residential entrance door to these two units at street level.",
   "development_type": "Minor dwellings",
   "decision_conditions": [
     "<p class=\"MsoNormal\">The materials to be used in the construction of the external surfaces of the development hereby permitted shall match those used in the existing building.<br></p>",
@@ -248,92 +254,90 @@
   "title_number": null,
   "last_date_consultation_comments": "14/03/2026",
   "decision_process": null,
-  "centroid_northing": 186151,
-  "borough": "London Borough of Barking and Dagenham",
+  "centroid_northing": 186148,
+  "borough": "Barking And Dagenham",
   "decision": "Approved",
   "application_type": "All Other",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          0.142873,
-          51.554751
-        ],
-        [
-          0.142923,
-          51.554689
-        ],
-        [
-          0.14296,
-          51.554643
-        ],
-        [
-          0.142974,
-          51.554639
-        ],
-        [
-          0.143011,
-          51.554625
-        ],
-        [
-          0.143102,
-          51.554593
-        ],
-        [
-          0.143132,
-          51.554582
-        ],
-        [
-          0.143144,
-          51.554599
-        ],
-        [
-          0.143163,
-          51.554626
-        ],
-        [
-          0.14312,
-          51.554639
-        ],
-        [
-          0.143061,
-          51.554657
-        ],
-        [
-          0.143029,
-          51.554667
-        ],
-        [
-          0.143002,
-          51.554675
-        ],
-        [
-          0.142989,
-          51.55468
-        ],
-        [
-          0.142951,
-          51.554726
-        ],
-        [
-          0.142934,
-          51.554746
-        ],
-        [
-          0.142921,
-          51.554762
-        ],
-        [
-          0.142899,
-          51.554757
-        ],
-        [
-          0.142873,
-          51.554751
+          [
+            0.142886,
+            51.554754
+          ],
+          [
+            0.142873,
+            51.554751
+          ],
+          [
+            0.142885,
+            51.554734
+          ],
+          [
+            0.142917,
+            51.554696
+          ],
+          [
+            0.142923,
+            51.554689
+          ],
+          [
+            0.142975,
+            51.554625
+          ],
+          [
+            0.142999,
+            51.55463
+          ],
+          [
+            0.143132,
+            51.554582
+          ],
+          [
+            0.143163,
+            51.554626
+          ],
+          [
+            0.143041,
+            51.554663
+          ],
+          [
+            0.143013,
+            51.554672
+          ],
+          [
+            0.143002,
+            51.554675
+          ],
+          [
+            0.142989,
+            51.55468
+          ],
+          [
+            0.142984,
+            51.554685
+          ],
+          [
+            0.142964,
+            51.55471
+          ],
+          [
+            0.14296,
+            51.554716
+          ],
+          [
+            0.142921,
+            51.554762
+          ],
+          [
+            0.142886,
+            51.554754
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "decision_agency": null,
   "decision_target_date": "14/04/2026",

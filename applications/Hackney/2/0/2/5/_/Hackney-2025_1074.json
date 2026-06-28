@@ -5,8 +5,8 @@
   "decision_process": "Delegated",
   "appeal_start_date": null,
   "lapsed_date": "02/07/2028",
-  "uprn": "100021021734",
-  "locality": "HACKNEY",
+  "uprn": 100021021734,
+  "locality": "London",
   "appeal_decision_date": null,
   "centroid_easting": 531831,
   "application_details": {
@@ -32,7 +32,8 @@
       "no_new_gas_connections_required": 0,
       "total_annual_nox_emissions": 0,
       "ghg_reduction_over_building_regulations": false,
-      "fire_suppression_system_proposed": false
+      "fire_suppression_system_proposed": false,
+      "urban_greening_factor_score": 0
     },
     "constraints_details": [
       {
@@ -120,7 +121,7 @@
     "grey_water_reuse": false,
     "total_gia_lost": 0,
     "surface_water_discharge_percentage_reduction": 0,
-    "site_area": 111,
+    "site_area": 0.0111,
     "ownership_status": "Private",
     "non_residential_details": {
       "total_gia_existing": 66,
@@ -133,15 +134,16 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 66,
-        "use_class": "C3",
         "gia_gained": 17,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
-    "rain_water_harvesting": false
+    "rain_water_harvesting": false,
+    "occupation_status": "Occupied"
   },
   "date_building_work_completed_under_previous_permission": null,
-  "site_name": "Flat B",
+  "site_name": "31 Flat B",
   "borough": "Hackney",
   "status": "Approved",
   "epc_number": "0171-3036-9204-6154-6204",
@@ -150,80 +152,90 @@
     "coordinates": [
       [
         [
-          -0.099307,
-          51.566738
-        ],
-        [
-          -0.099222,
-          51.5668
-        ],
-        [
-          -0.099247,
-          51.566814
-        ],
-        [
-          -0.099346,
-          51.566865
-        ],
-        [
-          -0.099404,
-          51.566895
-        ],
-        [
-          -0.099504,
-          51.566948
-        ],
-        [
-          -0.099584,
-          51.56699
-        ],
-        [
-          -0.099611,
-          51.566969
-        ],
-        [
-          -0.09967,
-          51.566926
-        ],
-        [
-          -0.099591,
-          51.566885
-        ],
-        [
-          -0.099483,
-          51.566828
-        ],
-        [
-          -0.099482,
-          51.566828
-        ],
-        [
-          -0.099431,
-          51.566802
-        ],
-        [
-          -0.099404,
-          51.566789
-        ],
-        [
-          -0.099307,
-          51.566738
+          [
+            -0.099483,
+            51.566828
+          ],
+          [
+            -0.099482,
+            51.566828
+          ],
+          [
+            -0.099431,
+            51.566802
+          ],
+          [
+            -0.099404,
+            51.566789
+          ],
+          [
+            -0.099388,
+            51.566801
+          ],
+          [
+            -0.099314,
+            51.566765
+          ],
+          [
+            -0.099287,
+            51.566785
+          ],
+          [
+            -0.099269,
+            51.566784
+          ],
+          [
+            -0.09925,
+            51.566798
+          ],
+          [
+            -0.099253,
+            51.566809
+          ],
+          [
+            -0.099247,
+            51.566814
+          ],
+          [
+            -0.099346,
+            51.566865
+          ],
+          [
+            -0.099404,
+            51.566895
+          ],
+          [
+            -0.099504,
+            51.566948
+          ],
+          [
+            -0.099591,
+            51.566885
+          ],
+          [
+            -0.099483,
+            51.566828
+          ],
+          [
+            -0.099483,
+            51.566828
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "cil_liability": null,
   "title_number": null,
   "application_type": "All Other",
-  "street_name": "ADOLPHUS ROAD",
+  "street_name": "Adolphus Road",
   "actual_commencement_date": null,
   "parking_details": null,
   "decision_target_date": "03/07/2025",
   "lpa_name": "Hackney",
   "secondary_street_name": null,
   "decision_date": "02/07/2025",
-  "last_updated": "2026-04-15T11:24:28.669Z",
+  "last_updated": "2026-06-27T19:30:39.547Z",
   "url_planning_app": "https://developmentandhousing.hackney.gov.uk//planning/index.html?fa=getApplication&id=82312",
   "ward": "Brownswood Ward",
   "valid_date": "08/05/2025",
@@ -232,13 +244,13 @@
   "appeal_decision": null,
   "postcode": "N4 2AT",
   "centroid_northing": 187039,
-  "description": "Erection of ground floor and first floor rear extensions; conversion of second floor flat roof into terrace; installation of roof light to rear roofslope and alterations to existing fenestration. &nbsp;",
+  "description": "Proposed rear ground and first floor extensions with second floor roof terrace, external insulation, roof light and changes to fenestration",
   "subdivision_of_building": "Rear ground, first and second floors only",
   "actual_completion_date": null,
   "lpa_app_no": "2025/1074",
   "decision": "Approved",
   "application_type_full": "Full planning permission",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_status": null,
   "id": "Hackney-2025_1074",
   "decision_conditions": [
@@ -255,138 +267,81 @@
         "coordinates": [
           [
             [
-              531834.603128681,
-              187029.606408043
-            ],
-            [
-              531840.300465693,
-              187036.704376136
-            ],
-            [
-              531838.503042414,
-              187038.203946829
-            ],
-            [
-              531831.502985463,
-              187043.702373414
-            ],
-            [
-              531827.421680576,
-              187046.961439996
-            ],
-            [
-              531820.330928127,
-              187052.619820433
-            ],
-            [
-              531814.650080575,
-              187057.158521087
-            ],
-            [
-              531812.852657762,
-              187054.849182711
-            ],
-            [
-              531808.903273378,
-              187049.900599103
-            ],
-            [
-              531814.476934391,
-              187045.471866395
-            ],
-            [
-              531822.144841505,
-              187039.373612157
-            ],
-            [
-              531822.161331592,
-              187039.353617953
-            ],
-            [
-              531825.813893258,
-              187036.584410597
-            ],
-            [
-              531827.702012682,
-              187035.154819887
-            ],
-            [
-              531834.603128681,
-              187029.606408043
+              [
+                531822.156,
+                187039.358
+              ],
+              [
+                531822.163,
+                187039.353
+              ],
+              [
+                531825.815,
+                187036.581
+              ],
+              [
+                531827.7,
+                187035.15
+              ],
+              [
+                531828.8,
+                187036.5
+              ],
+              [
+                531834,
+                187032.6
+              ],
+              [
+                531835.8,
+                187034.95
+              ],
+              [
+                531837.1,
+                187034.85
+              ],
+              [
+                531838.35,
+                187036.4
+              ],
+              [
+                531838.1,
+                187037.65
+              ],
+              [
+                531838.5,
+                187038.2
+              ],
+              [
+                531831.5,
+                187043.7
+              ],
+              [
+                531827.418,
+                187046.958
+              ],
+              [
+                531820.329,
+                187052.617
+              ],
+              [
+                531814.477,
+                187045.465
+              ],
+              [
+                531822.147,
+                187039.365
+              ],
+              [
+                531822.156,
+                187039.358
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
-      },
-      {
-        "coordinates": [
-          [
-            [
-              531834.603128681,
-              187029.606408043
-            ],
-            [
-              531840.300465693,
-              187036.704376136
-            ],
-            [
-              531838.503042414,
-              187038.203946829
-            ],
-            [
-              531831.502985463,
-              187043.702373414
-            ],
-            [
-              531827.421680576,
-              187046.961439996
-            ],
-            [
-              531820.330928127,
-              187052.619820433
-            ],
-            [
-              531814.650080575,
-              187057.158521087
-            ],
-            [
-              531812.852657762,
-              187054.849182711
-            ],
-            [
-              531808.903273378,
-              187049.900599103
-            ],
-            [
-              531814.476934391,
-              187045.471866395
-            ],
-            [
-              531822.144841505,
-              187039.373612157
-            ],
-            [
-              531822.161331592,
-              187039.353617953
-            ],
-            [
-              531825.813893258,
-              187036.584410597
-            ],
-            [
-              531827.702012682,
-              187035.154819887
-            ],
-            [
-              531834.603128681,
-              187029.606408043
-            ]
-          ]
-        ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "crs": {
       "type": "name",
       "properties": {

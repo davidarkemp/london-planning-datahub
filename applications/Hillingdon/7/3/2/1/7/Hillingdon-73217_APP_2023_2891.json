@@ -1,9 +1,9 @@
 {
   "lpa_app_no": "73217/APP/2023/2891",
-  "uprn": null,
+  "uprn": 100021453037,
   "lapsed_date": "24/11/2026",
-  "centroid_northing": "189624",
-  "site_number": null,
+  "centroid_northing": 189624,
+  "site_number": 7,
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "CSV Data Import",
   "site_name": "7 THEODORA WAY",
@@ -14,34 +14,32 @@
     "coordinates": [
       [
         [
-          -0.4164595,
-          51.5949117
-        ],
-        [
-          -0.41640699999999997,
-          51.5948301
-        ],
-        [
-          -0.4166531,
-          51.5946716
-        ],
-        [
-          -0.41674869999999997,
-          51.5947241
-        ],
-        [
-          -0.4164635,
-          51.5949058
-        ],
-        [
-          -0.4164595,
-          51.5949117
+          [
+            -0.416765,
+            51.594718
+          ],
+          [
+            -0.416683,
+            51.594669
+          ],
+          [
+            -0.416426,
+            51.594827
+          ],
+          [
+            -0.416476,
+            51.594901
+          ],
+          [
+            -0.416765,
+            51.594718
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
-  "last_updated_by": "FME Excel Import",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_start_date": null,
   "reference_no_of_permission_being_relied_on": null,
   "application_type": "All Other",
@@ -165,7 +163,7 @@
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": null,
       "total_no_proposed_residential_units_social_rent": 0,
@@ -187,15 +185,19 @@
       "total_no_existing_residential_units_self_build_and_custom_build": 0
     },
     "ownership_status": null,
-    "lead_developer_company_name": null
+    "lead_developer_company_name": null,
+    "no_additional_bathrooms": 0,
+    "no_additional_bedrooms": 0
   },
   "appeal_decision": null,
-  "postcode": null,
+  "postcode": "HA5 2RA",
   "development_type": null,
-  "title_number": [],
-  "centroid_easting": "509779",
+  "title_number": [
+    "7TW"
+  ],
+  "centroid_easting": 509779,
   "actual_commencement_date": null,
-  "description": "Erection of outbuilding to rear garden (Application for a Certificate of Lawful Development for a Proposed Development)",
+  "description": "7 THEODORA WAY - OUTBUILDING",
   "decision": "Approved",
   "actual_completion_date": null,
   "borough": "Hillingdon",
@@ -215,7 +217,7 @@
   "secondary_street_name": null,
   "decision_agency": "Borough",
   "decision_target_date": "29/11/2023",
-  "locality": null,
+  "locality": "Eastcote",
   "lpa_name": "Hillingdon",
   "last_date_consultation_comments": null,
   "decision_conditions": [
@@ -262,9 +264,9 @@
     "net_bluebadge": null,
     "net_carclub": null
   },
-  "last_updated": "2025-03-19T22:33:50.372+00:00",
+  "last_updated": "2026-06-27T05:35:01.388Z",
   "appeal_status": null,
-  "street_name": "EASTCOTE",
+  "street_name": "Theodora Way",
   "ward": "NORTHWOOD HILLS 2022",
   "polygon": {
     "geometries": [
@@ -272,32 +274,30 @@
         "coordinates": [
           [
             [
-              509784.6886,
-              189638.8828
-            ],
-            [
-              509788.525,
-              189629.887
-            ],
-            [
-              509771.8562,
-              189611.8953
-            ],
-            [
-              509765.1093,
-              189617.5838
-            ],
-            [
-              509784.424,
-              189638.2214
-            ],
-            [
-              509784.6886,
-              189638.8828
+              [
+                509765.41,
+                189617.18
+              ],
+              [
+                509771.21,
+                189611.82
+              ],
+              [
+                509788.64,
+                189629.82
+              ],
+              [
+                509785.05,
+                189637.97
+              ],
+              [
+                509765.41,
+                189617.18
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "type": "GeometryCollection"
