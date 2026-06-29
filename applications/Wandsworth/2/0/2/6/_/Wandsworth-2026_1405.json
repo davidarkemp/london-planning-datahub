@@ -1,12 +1,20 @@
 {
   "decision_target_date": "09/06/2026",
-  "last_updated_by": "Northgate M3",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Other house holder developments",
   "postcode": "SW18 3QN",
-  "title_number": null,
-  "application_details": {},
+  "title_number": [
+    "SGL83974"
+  ],
+  "application_details": {
+    "total_gia_gained": 15,
+    "no_additional_bathrooms": 0,
+    "no_additional_bedrooms": 0,
+    "intended_completion_date": "02/2027",
+    "intended_commencement_date": "11/2026"
+  },
   "decision_date": "08/06/2026",
   "url_planning_app": "http://planning.wandsworth.gov.uk/Northgate/PlanningExplorer/DisplayAppDetails.aspx?AppNo=2026/1405",
   "borough": "Wandsworth",
@@ -19,7 +27,7 @@
   "pp_id": "14855829",
   "subdivision_of_building": null,
   "status": "Approved",
-  "description": "Alterations including erection of single storey rear and side infill extension.",
+  "description": "Erection of a single-storey rear extension, partially replacing the existing rear extension.",
   "decision_conditions": [
     "Condition : 1 - The development hereby permitted shall be begun within 3 years from the date of this permission.\r\nReason: To prevent the accumulation of unimplemented planning permissions and to comply with Section 91 of the Town and Country Planning Act 1990 (as amended) and to meet the requirements of Section 51 of the Planning and Compulsory Purchase Act 2004 and to meet the requirements of The Town and Country Planning (Development Management Procedure) (England) Order 2015.\r\n",
     "Condition : 2 - The development shall be carried out in accordance with the reports, specifications and drawings detailed P1000 Rev.00, P1001 Rev.00, P1100 Rev.00, P1101 Rev.00, P1200 Rev.00, P1201 Rev.00\r\nReason: To ensure a satisfactory standard of development and to allow the local planning authority to review any potential changes to the scheme. \r\n",
@@ -27,8 +35,8 @@
     "Condition : 4 - The roof area of the development hereby permitted shall not be used as a balcony, roof garden or similar amenity area and furthermore, no balustrades, railings or other means of enclosure or means of permanent access shall be erected on this area.\r\nReason: To control overlooking and safeguard the privacy of neighbours in accordance with Council policies LP1 and LP2 of the Local Plan coupled with the requirements of the National Planning Policy Framework.\r\n",
     "Condition : 5 - INFORMATIVE: In dealing with this application the Council has implemented the requirement in the National Planning Policy Framework to work with the applicant in a positive and proactive manner and the Council has, as far as practicable, sought solutions to problems arising in relation to dealing with the planning application. The Council has made available detailed advice in the form of its statutory policies in the Local Plan (2023) as well as offering a full pre-application advice service, in order to ensure that the applicant has been given every opportunity to submit an application which is likely to be considered favourably. In addition, where appropriate, further guidance was offered to the applicant during the processing of the application."
   ],
-  "site_number": "4",
-  "last_updated": "2026-06-08T14:00:05.374Z",
+  "site_number": 4,
+  "last_updated": "2026-06-28T12:21:47.679Z",
   "last_date_consultation_comments": "19/05/2026",
   "valid_date": "14/04/2026",
   "actual_commencement_date": null,
@@ -40,70 +48,80 @@
   "decision": "Approved",
   "id": "Wandsworth-2026_1405",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              526164.0900111656,
-              172691.0503277948
-            ],
-            [
-              526165.3000111664,
-              172689.15032779495
-            ],
-            [
-              526169.3000111687,
-              172682.9003277928
-            ],
-            [
-              526180.7500111755,
-              172664.99032778747
-            ],
-            [
-              526179.0900111744,
-              172663.89032778633
-            ],
-            [
-              526176.5900111729,
-              172662.25032778585
-            ],
-            [
-              526174.0000111713,
-              172666.19032778812
-            ],
-            [
-              526172.7900111707,
-              172668.04032778845
-            ],
-            [
-              526171.4600111698,
-              172670.130327789
-            ],
-            [
-              526169.1000111684,
-              172673.79032779078
-            ],
-            [
-              526161.0400111637,
-              172686.35032779328
-            ],
-            [
-              526159.8500111629,
-              172688.25032779452
-            ],
-            [
-              526164.0900111656,
-              172691.0503277948
-            ],
-            [
-              526164.0900111656,
-              172691.0503277948
+              [
+                526169.3,
+                172682.9
+              ],
+              [
+                526165.3,
+                172689.15
+              ],
+              [
+                526164.1,
+                172691.05
+              ],
+              [
+                526159.85,
+                172688.25
+              ],
+              [
+                526161.05,
+                172686.35
+              ],
+              [
+                526169.1,
+                172673.8
+              ],
+              [
+                526170.673,
+                172671.361
+              ],
+              [
+                526171.231,
+                172670.495
+              ],
+              [
+                526171.46,
+                172670.14
+              ],
+              [
+                526172.8,
+                172668.05
+              ],
+              [
+                526174.806,
+                172664.975
+              ],
+              [
+                526176.6,
+                172662.25
+              ],
+              [
+                526179.1,
+                172663.9
+              ],
+              [
+                526180.75,
+                172665
+              ],
+              [
+                526174.392,
+                172674.94
+              ],
+              [
+                526169.3,
+                172682.9
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ]
   },
@@ -116,76 +134,86 @@
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": false,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.186198,
-          51.439174
-        ],
-        [
-          -0.186182,
-          51.439157
-        ],
-        [
-          -0.186126,
-          51.439099
-        ],
-        [
-          -0.185968,
-          51.438936
-        ],
-        [
-          -0.185992,
-          51.438926
-        ],
-        [
-          -0.186029,
-          51.438912
-        ],
-        [
-          -0.186065,
-          51.438948
-        ],
-        [
-          -0.186082,
-          51.438965
-        ],
-        [
-          -0.1861,
-          51.438984
-        ],
-        [
-          -0.186133,
-          51.439018
-        ],
-        [
-          -0.186244,
-          51.439132
-        ],
-        [
-          -0.18626,
-          51.43915
-        ],
-        [
-          -0.186198,
-          51.439174
-        ],
-        [
-          -0.186198,
-          51.439174
+          [
+            -0.186126,
+            51.439099
+          ],
+          [
+            -0.186182,
+            51.439157
+          ],
+          [
+            -0.186198,
+            51.439174
+          ],
+          [
+            -0.18626,
+            51.43915
+          ],
+          [
+            -0.186244,
+            51.439132
+          ],
+          [
+            -0.186133,
+            51.439018
+          ],
+          [
+            -0.186111,
+            51.438995
+          ],
+          [
+            -0.186103,
+            51.438988
+          ],
+          [
+            -0.1861,
+            51.438984
+          ],
+          [
+            -0.186081,
+            51.438965
+          ],
+          [
+            -0.186054,
+            51.438937
+          ],
+          [
+            -0.186029,
+            51.438912
+          ],
+          [
+            -0.185992,
+            51.438927
+          ],
+          [
+            -0.185968,
+            51.438936
+          ],
+          [
+            -0.186056,
+            51.439027
+          ],
+          [
+            -0.186126,
+            51.439099
+          ]
         ]
       ]
     ]
   },
-  "uprn": "100022658273",
+  "uprn": 100022658273,
   "application_type": "Householder",
   "centroid": {
     "lat": 51.439092,
     "lon": -0.186174
   },
   "lapsed_date": "08/06/2029",
-  "application_type_full": null,
+  "application_type_full": "Householder planning permission",
   "centroid_easting": 526166,
   "actual_completion_date": null
 }

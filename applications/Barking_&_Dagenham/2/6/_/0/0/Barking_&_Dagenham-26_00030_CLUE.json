@@ -1,16 +1,21 @@
 {
   "decision_target_date": "18/06/2026",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Certificates of Lawful Development",
   "postcode": "RM8 1PU",
-  "title_number": null,
-  "application_details": {},
+  "title_number": [
+    "Unregistered"
+  ],
+  "application_details": {
+    "no_additional_bathrooms": 0,
+    "no_additional_bedrooms": 0
+  },
   "decision_date": null,
   "url_planning_app": "https://online-befirst.lbbd.gov.uk/planning/index.html?fa=getApplication&id=37522",
-  "borough": "London Borough of Barking and Dagenham",
-  "locality": null,
+  "borough": "Barking And Dagenham",
+  "locality": "Dagenham",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
   "parking_details": null,
@@ -19,16 +24,16 @@
   "pp_id": "14596492",
   "subdivision_of_building": null,
   "status": "Application Under Consideration",
-  "description": "Application for a lawful development certificate (existing) for the change of use from a dwelling house (Use Class C3) to a residential home for up to 6 residents living together as a single household receiving care (Use Class C3b)",
+  "description": "21 Ross Avenue, Barking",
   "decision_conditions": [
     "It has been demonstrated to the satisfaction of the Local Planning Authority that the use, operations or other matter described in the application would be lawful within the meaning of S192 of the Town and Country Planning Act 1990 (as amended) if instituted or begun at the time of the application. Specifically, the proposal does not constitute development as defined by Section 55 of the TCPA."
   ],
-  "site_number": "21",
-  "last_updated": "2026-06-02T15:56:38.013Z",
+  "site_number": 21,
+  "last_updated": "2026-06-28T08:49:22.355Z",
   "last_date_consultation_comments": "14/05/2026",
   "valid_date": "23/04/2026",
   "actual_commencement_date": null,
-  "centroid_northing": null,
+  "centroid_northing": 187044,
   "appeal_decision": null,
   "decision_agency": null,
   "lpa_app_no": "26/00030/CLUE",
@@ -36,46 +41,84 @@
   "decision": null,
   "id": "Barking_&_Dagenham-26_00030_CLUE",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              548632.371950086,
-              187040.66543287
-            ],
-            [
-              548632.491008689,
-              187045.931411786
-            ],
-            [
-              548615.704213304,
-              187046.91190489
-            ],
-            [
-              548614.635762688,
-              187046.98966402
-            ],
-            [
-              548598.034591166,
-              187048.166520373
-            ],
-            [
-              548597.757197883,
-              187042.705041663
-            ],
-            [
-              548613.121259331,
-              187041.764600461
-            ],
-            [
-              548632.371950086,
-              187040.66543287
+              [
+                548628.3,
+                187046.2
+              ],
+              [
+                548614.876,
+                187046.962
+              ],
+              [
+                548614.104,
+                187047.012
+              ],
+              [
+                548608.984,
+                187047.416
+              ],
+              [
+                548604,
+                187047.809
+              ],
+              [
+                548603.446,
+                187047.853
+              ],
+              [
+                548601.87,
+                187047.924
+              ],
+              [
+                548598.05,
+                187048.15
+              ],
+              [
+                548597.75,
+                187042.7
+              ],
+              [
+                548602.157,
+                187042.434
+              ],
+              [
+                548603.146,
+                187042.403
+              ],
+              [
+                548614.574,
+                187041.665
+              ],
+              [
+                548620.1,
+                187041.35
+              ],
+              [
+                548627.4,
+                187040.95
+              ],
+              [
+                548632.35,
+                187040.7
+              ],
+              [
+                548632.5,
+                187045.95
+              ],
+              [
+                548628.3,
+                187046.2
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -88,58 +131,96 @@
   "appeal_start_date": null,
   "decision_process": null,
   "ward": "Whalebone",
-  "street_name": "ROSS AVENUE",
+  "street_name": "Ross Avenue",
   "secondary_street_name": null,
   "lpa_name": "Barking & Dagenham",
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": null,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          0.142881,
-          51.562664
-        ],
-        [
-          0.142885,
-          51.562711
-        ],
-        [
-          0.142644,
-          51.562724
-        ],
-        [
-          0.142628,
-          51.562725
-        ],
-        [
-          0.142389,
-          51.56274
-        ],
-        [
-          0.142383,
-          51.562691
-        ],
-        [
-          0.142604,
-          51.562679
-        ],
-        [
-          0.142881,
-          51.562664
+          [
+            0.142825,
+            51.562714
+          ],
+          [
+            0.142632,
+            51.562725
+          ],
+          [
+            0.142621,
+            51.562726
+          ],
+          [
+            0.142547,
+            51.562731
+          ],
+          [
+            0.142475,
+            51.562735
+          ],
+          [
+            0.142467,
+            51.562736
+          ],
+          [
+            0.142445,
+            51.562737
+          ],
+          [
+            0.14239,
+            51.56274
+          ],
+          [
+            0.142383,
+            51.562691
+          ],
+          [
+            0.142446,
+            51.562688
+          ],
+          [
+            0.142461,
+            51.562687
+          ],
+          [
+            0.142625,
+            51.562677
+          ],
+          [
+            0.142705,
+            51.562673
+          ],
+          [
+            0.14281,
+            51.562668
+          ],
+          [
+            0.142881,
+            51.562664
+          ],
+          [
+            0.142885,
+            51.562711
+          ],
+          [
+            0.142825,
+            51.562714
+          ]
         ]
       ]
     ]
   },
-  "uprn": "100028016",
-  "application_type": "Householder",
+  "uprn": 100028016,
+  "application_type": "All Other",
   "centroid": {
-    "lat": 49.766807,
-    "lon": -7.55716
+    "lat": 51.562696,
+    "lon": 0.142762
   },
   "lapsed_date": null,
-  "application_type_full": null,
-  "centroid_easting": null,
+  "application_type_full": "Lawful development: Existing use",
+  "centroid_easting": 548624,
   "actual_completion_date": null
 }

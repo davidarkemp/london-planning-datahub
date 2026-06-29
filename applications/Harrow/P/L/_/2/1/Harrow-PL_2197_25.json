@@ -1,11 +1,13 @@
 {
   "decision_target_date": "21/10/2025",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Certificates of Lawful Development",
   "postcode": "HA2 6QB",
-  "title_number": [],
+  "title_number": [
+    "xxx"
+  ],
   "application_details": {
     "3d_model": false,
     "affordable_housing_fast_track": false,
@@ -19,14 +21,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 145,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 145
       },
       {
         "gia_existing": 0,
-        "use_class": "C4",
         "gia_gained": 145,
+        "use_class": "C4",
         "gia_lost": 0
       }
     ],
@@ -79,26 +81,18 @@
       "residential_units": [
         {
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
           "change_type": "Loss",
           "unit_type": "House or Bungalow",
           "provision_for_older_persons": false,
-          "gia": null,
           "unit_development_type": "Change of Use"
         },
         {
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 6,
           "unit_type": "HMO",
+          "no_bedrooms": 6,
           "provision_for_older_persons": false,
-          "unit_development_type": "Change of Use",
-          "gia": null
+          "unit_development_type": "Change of Use"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -109,12 +103,14 @@
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "ghg_reduction_over_building_regulations": false
-    }
+    },
+    "no_additional_bathrooms": 1,
+    "no_additional_bedrooms": 2
   },
   "decision_date": "14/10/2025",
   "url_planning_app": "https://planningsearch.harrow.gov.uk//planning/index.html?fa=getApplication&id=231124",
   "borough": "Harrow",
-  "locality": null,
+  "locality": "Harrow",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
   "parking_details": null,
@@ -123,13 +119,13 @@
   "pp_id": "14272319",
   "subdivision_of_building": null,
   "status": "Lapsed",
-  "description": "Certificate of Lawful Development Proposed: Conversion Of Existing House (C3) Into 6 Person H.M.O. (C4)",
+  "description": "24 EDWARD ROAD - HMO",
   "decision_conditions": [
     "The proposal is therefore a lawful development.",
     "The proposed use of the dwellinghouse as a House of Multiple Occupancy for up to 6 persons (Use Class C4) is within the tolerances of Class L of Part 3 of Schedule 2 of The Town and Country Planning (General Permitted Development) (England) Order 2015 (as amended)."
   ],
-  "site_number": "24",
-  "last_updated": "2026-06-16T09:29:48.750Z",
+  "site_number": 24,
+  "last_updated": "2026-06-28T16:07:37.104Z",
   "last_date_consultation_comments": "23/09/2025",
   "valid_date": "26/08/2025",
   "actual_commencement_date": null,
@@ -141,34 +137,56 @@
   "decision": "Approved",
   "id": "Harrow-PL_2197_25",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              514359.586566844,
-              189562.780754776
-            ],
-            [
-              514390.070971546,
-              189576.076219752
-            ],
-            [
-              514393.392598191,
-              189568.248836517
-            ],
-            [
-              514362.906790549,
-              189555.013621566
-            ],
-            [
-              514359.586566844,
-              189562.780754776
+              [
+                514385.75,
+                189574.2
+              ],
+              [
+                514378.25,
+                189570.85
+              ],
+              [
+                514359.5,
+                189562.8
+              ],
+              [
+                514362.95,
+                189555.05
+              ],
+              [
+                514367.445,
+                189556.993
+              ],
+              [
+                514383.8,
+                189564.25
+              ],
+              [
+                514388.55,
+                189566.3
+              ],
+              [
+                514393.4,
+                189568.4
+              ],
+              [
+                514390.1,
+                189576.1
+              ],
+              [
+                514385.75,
+                189574.2
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -181,46 +199,68 @@
   "appeal_start_date": null,
   "decision_process": "Delegated",
   "ward": "Headstone",
-  "street_name": "EDWARD ROAD",
+  "street_name": "Edward Road",
   "secondary_street_name": null,
   "lpa_name": "Harrow",
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": false,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.350488,
-          51.593316
-        ],
-        [
-          -0.350044,
-          51.593429
-        ],
-        [
-          -0.349999,
-          51.593358
-        ],
-        [
-          -0.350443,
-          51.593245
-        ],
-        [
-          -0.350488,
-          51.593316
+          [
+            -0.350107,
+            51.593413
+          ],
+          [
+            -0.350216,
+            51.593385
+          ],
+          [
+            -0.35049,
+            51.593316
+          ],
+          [
+            -0.350442,
+            51.593246
+          ],
+          [
+            -0.350377,
+            51.593262
+          ],
+          [
+            -0.350138,
+            51.593324
+          ],
+          [
+            -0.350069,
+            51.593342
+          ],
+          [
+            -0.349999,
+            51.59336
+          ],
+          [
+            -0.350044,
+            51.59343
+          ],
+          [
+            -0.350107,
+            51.593413
+          ]
         ]
       ]
     ]
   },
-  "uprn": "100021262793",
+  "uprn": 100021262793,
   "application_type": "All Other",
   "centroid": {
     "lat": 51.593367,
     "lon": -0.350148
   },
   "lapsed_date": "14/10/2025",
-  "application_type_full": null,
+  "application_type_full": "Lawful development: Proposed use",
   "centroid_easting": 514383,
   "actual_completion_date": null
 }

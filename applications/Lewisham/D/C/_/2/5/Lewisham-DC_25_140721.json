@@ -1,21 +1,61 @@
 {
-  "locality": null,
+  "locality": "London",
   "subdivision_of_building": null,
-  "last_updated_by": "CSV Data Import",
-  "date_building_work_started_under_previous_permission": null,
+  "last_updated_by": "Planning Portal ingest",
+  "date_building_work_started_under_previous_permission": "22/01/2024",
   "development_type": "Minor all other minor developments",
   "valid_date": "08/07/2025",
   "appeal_status": null,
   "centroid_easting": 535794,
   "ward": "Telegraph Hill",
-  "date_building_work_completed_under_previous_permission": null,
-  "last_updated": "2025-09-23T08:59:22.640Z",
+  "date_building_work_completed_under_previous_permission": "23/02/2024",
+  "last_updated": "2026-06-28T16:15:25.277Z",
   "epc_number": null,
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          [
+            -0.046138,
+            51.470962
+          ],
+          [
+            -0.045685,
+            51.471018
+          ],
+          [
+            -0.045691,
+            51.471039
+          ],
+          [
+            -0.045703,
+            51.471077
+          ],
+          [
+            -0.046443,
+            51.470985
+          ],
+          [
+            -0.046424,
+            51.470925
+          ],
+          [
+            -0.046362,
+            51.470933
+          ],
+          [
+            -0.046138,
+            51.470962
+          ]
+        ]
+      ]
+    ],
+    "type": "MultiPolygon"
+  },
   "application_type": "All Other",
   "lpa_name": "Lewisham",
   "actual_commencement_date": null,
-  "site_number": null,
+  "site_number": 85,
   "pp_id": "PP-14138736",
   "appeal_start_date": null,
   "centroid_northing": 176477,
@@ -58,9 +98,66 @@
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "GeometryCollection",
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                535803.85,
+                176476.2
+              ],
+              [
+                535835.1,
+                176483.35
+              ],
+              [
+                535834.6,
+                176485.65
+              ],
+              [
+                535833.7,
+                176489.85
+              ],
+              [
+                535782.6,
+                176478.25
+              ],
+              [
+                535784.05,
+                176471.65
+              ],
+              [
+                535788.35,
+                176472.65
+              ],
+              [
+                535803.85,
+                176476.2
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      },
+      {
+        "coordinates": [
+          535770.6999999997,
+          176487.57499999992
+        ],
+        "type": "Point"
+      },
+      {
+        "coordinates": [
+          535803.5999999996,
+          176399.72499999992
+        ],
+        "type": "Point"
+      }
+    ]
   },
-  "description": "Part-retrospective application for the replacement of existing roof tiles and installation of roof tiles at 85 Erlanger Road, SE14.",
+  "description": "Replacement of existing roof tiles with same profile, make and colour of tile.",
   "lpa_app_no": "DC/25/140721",
   "last_date_consultation_comments": "14/08/2025",
   "centroid": {
@@ -68,12 +165,12 @@
     "lon": -0.046279
   },
   "lapsed_date": "09/09/2028",
-  "postcode": null,
+  "postcode": "SE14 5TQ",
   "id": "Lewisham-DC_25_140721",
-  "street_name": null,
+  "street_name": "Erlanger Road",
   "decision_agency": null,
   "title_number": null,
-  "application_type_full": null,
+  "application_type_full": "Full planning & demolition in a conservation area",
   "url_planning_app": "https://planning.lewisham.gov.uk/online-applications/applicationDetails.do?keyVal=_LEWIS_DCAPR_128644&activeTab=summary",
   "status": "Approved",
   "reference_no_of_permission_being_relied_on": null,
@@ -87,9 +184,62 @@
   "cil_liability": false,
   "application_details": {
     "existing_uprns": null,
-    "site_area": 0.035
+    "site_area": 0.0322,
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "whole project",
+        "intended_completion_date": "02/2024",
+        "intended_commencement_date": "01/2024"
+      }
+    ],
+    "total_gia_gained": 0,
+    "total_gia_lost": 0,
+    "total_gia_existing": 162,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 162,
+        "gia_gained": 0,
+        "use_class": "C3",
+        "gia_lost": 0
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied",
+    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "surface_water_discharge_percentage_reduction": 0,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 0,
+      "total_gia_lost": 0,
+      "total_gia_existing": 162
+    },
+    "garden_land_lost": false,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 0,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 0,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "internal_resi_water_usage": 0,
+    "ownership_status": "Private"
   },
-  "uprn": "100021957224",
+  "uprn": 100021957224,
   "borough": "Lewisham",
   "site_name": "85 ERLANGER ROAD, LONDON, SE14 5TQ",
   "appeal_decision_date": null,

@@ -1,15 +1,19 @@
 {
   "decision_target_date": "20/05/2026",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Certificates of Lawful Development",
   "postcode": "HA1 4EE",
-  "title_number": null,
+  "title_number": [
+    "unregistered"
+  ],
   "application_details": {
     "other_residential_accommodation_details": {
       "no_council_tax_rateable_units_lost": 2
-    }
+    },
+    "no_additional_bathrooms": 0,
+    "no_additional_bedrooms": 0
   },
   "decision_date": "20/05/2026",
   "url_planning_app": "https://planningsearch.harrow.gov.uk//planning/index.html?fa=getApplication&id=232794",
@@ -23,17 +27,17 @@
   "pp_id": "14772345",
   "subdivision_of_building": null,
   "status": "Approved",
-  "description": "Certificate of Lawful Development (Existing):&nbsp;Evidence of commencement and validation of planning permission granted for: Redevelopment of car park to provide a four to eight storey\r\nbuilding\r\ncomprising 242sqm of workshop/commercial/community (Class A2/A3/B1/D1) space on the ground floor and 33 residential apartments (Class\r\nC3) on the upper floors; amenity areas; landscaping with associated surface parking; bin and cycle storage; substation; re-location of vehicle\r\naccess on Vaughan Road; and alterations to adjacent highway. At Vaughan Road Car Park, Vaughan Road, London",
+  "description": "Vaughan Road (Lawful Commencment)",
   "decision_conditions": [
     "&lt;p&gt;The evidence is considered sufficient to grant a Certificate of Existing Lawfulness as per Section 191(2) of the Town and Country Planning Act 1990 (as amended).&lt;/p&gt;",
     "&lt;p&gt;The submission of evidence confirming that development works, in the form of a foundation trench being dug and case law and other material considerations, it is considered that planning approval P/3468/17 has been materially implemented in accordance with S.56 of the Town and Country Planning Act (1990).&lt;/p&gt;"
   ],
   "site_number": null,
-  "last_updated": "2026-06-02T15:53:13.213Z",
+  "last_updated": "2026-06-28T09:22:21.022Z",
   "last_date_consultation_comments": "16/04/2026",
   "valid_date": "25/03/2026",
   "actual_commencement_date": null,
-  "centroid_northing": 188038,
+  "centroid_northing": 188032,
   "appeal_decision": null,
   "decision_agency": "Borough",
   "lpa_app_no": "PL/0806/26",
@@ -41,38 +45,84 @@
   "decision": "Approved",
   "id": "Harrow-PL_0806_26",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              514926.284561611,
-              188061.365233757
-            ],
-            [
-              514920.063733142,
-              188021.963549716
-            ],
-            [
-              514947.145361374,
-              188009.332697191
-            ],
-            [
-              514956.17253377,
-              188050.453710278
-            ],
-            [
-              514956.184470082,
-              188060.387388987
-            ],
-            [
-              514926.284561611,
-              188061.365233757
+              [
+                514925.31,
+                188061.03
+              ],
+              [
+                514922.36,
+                188034.75
+              ],
+              [
+                514922.18,
+                188033.77
+              ],
+              [
+                514920.03,
+                188022.19
+              ],
+              [
+                514921.22,
+                188021.66
+              ],
+              [
+                514930.2,
+                188017.65
+              ],
+              [
+                514934.28,
+                188015.78
+              ],
+              [
+                514941.71,
+                188012.38
+              ],
+              [
+                514942,
+                188012.25
+              ],
+              [
+                514945.42,
+                188010.82
+              ],
+              [
+                514946.33,
+                188010.44
+              ],
+              [
+                514951.88,
+                188041.74
+              ],
+              [
+                514954.66,
+                188050.59
+              ],
+              [
+                514954.98,
+                188060.49
+              ],
+              [
+                514938.65,
+                188061.45
+              ],
+              [
+                514925.41,
+                188062.01
+              ],
+              [
+                514925.31,
+                188061.03
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -91,32 +141,78 @@
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": null,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.342802,
-          51.579707
-        ],
-        [
-          -0.342905,
-          51.579354
-        ],
-        [
-          -0.342518,
-          51.579235
-        ],
-        [
-          -0.342375,
-          51.579603
-        ],
-        [
-          -0.342371,
-          51.579692
-        ],
-        [
-          -0.342802,
-          51.579707
+          [
+            -0.342816,
+            51.579704
+          ],
+          [
+            -0.342867,
+            51.579468
+          ],
+          [
+            -0.34287,
+            51.57946
+          ],
+          [
+            -0.342905,
+            51.579356
+          ],
+          [
+            -0.342888,
+            51.579351
+          ],
+          [
+            -0.34276,
+            51.579313
+          ],
+          [
+            -0.342702,
+            51.579295
+          ],
+          [
+            -0.342596,
+            51.579263
+          ],
+          [
+            -0.342591,
+            51.579262
+          ],
+          [
+            -0.342543,
+            51.579249
+          ],
+          [
+            -0.34253,
+            51.579245
+          ],
+          [
+            -0.342439,
+            51.579525
+          ],
+          [
+            -0.342396,
+            51.579604
+          ],
+          [
+            -0.342388,
+            51.579693
+          ],
+          [
+            -0.342624,
+            51.579705
+          ],
+          [
+            -0.342815,
+            51.579713
+          ],
+          [
+            -0.342816,
+            51.579704
+          ]
         ]
       ]
     ]
@@ -124,11 +220,11 @@
   "uprn": null,
   "application_type": "All Other",
   "centroid": {
-    "lat": 51.579494,
-    "lon": -0.342626
+    "lat": 51.579441,
+    "lon": -0.342672
   },
   "lapsed_date": "20/05/2029",
-  "application_type_full": null,
-  "centroid_easting": 514939,
+  "application_type_full": "Lawful development: Existing use",
+  "centroid_easting": 514936,
   "actual_completion_date": null
 }

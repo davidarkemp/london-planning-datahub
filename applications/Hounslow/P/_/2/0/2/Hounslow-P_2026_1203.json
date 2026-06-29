@@ -1,12 +1,67 @@
 {
   "decision_target_date": "12/06/2026",
-  "last_updated_by": "Northgate M3",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Other change of use",
   "postcode": "W4 1RR",
   "title_number": null,
-  "application_details": {},
+  "application_details": {
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "one phase",
+        "intended_completion_date": "09/2026",
+        "intended_commencement_date": "06/2026"
+      }
+    ],
+    "total_gia_gained": 147,
+    "site_area": 0.0147,
+    "total_gia_lost": 147,
+    "total_gia_existing": 147,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 147,
+        "gia_gained": 147,
+        "use_class": "B2",
+        "gia_lost": 147
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied",
+    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "surface_water_discharge_percentage_reduction": 0,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 147,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 147,
+      "total_gia_gained": 147,
+      "total_gia_lost": 147,
+      "total_gia_existing": 147
+    },
+    "garden_land_lost": false,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 0,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 1,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 10,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 0,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "internal_resi_water_usage": 50,
+    "ownership_status": "Private"
+  },
   "decision_date": null,
   "url_planning_app": "https://planningandbuilding.hounslow.gov.uk/NECSWS/ES/Presentation/Planning/OnlinePlanning/OnlinePlanningOverview?applicationNumber=P/2026/1203",
   "borough": "Hounslow",
@@ -17,16 +72,16 @@
   "site_name": null,
   "epc_number": null,
   "pp_id": "14861257",
-  "subdivision_of_building": null,
+  "subdivision_of_building": "The propsal affects only the ground floor .",
   "status": "Application Received",
-  "description": "Alterations to the shopfront to allow the change of use from a vehicle repair workshop Class B2 to Class E use.",
+  "description": "The proposed development includes :\n- Change of use from B2  to full Class E use \n- Installation of an exterior chainlink security shutter \n- New signage \n- Revised door entry arrangement with a central motion sensored sliding door \n- reinstatement of street kerb in front of the address",
   "decision_conditions": null,
-  "site_number": "1",
-  "last_updated": "2026-06-04T13:20:21.286Z",
+  "site_number": 1,
+  "last_updated": "2026-06-28T10:31:56.118Z",
   "last_date_consultation_comments": "25/06/2026",
   "valid_date": "17/04/2026",
   "actual_commencement_date": null,
-  "centroid_northing": 178710,
+  "centroid_northing": 178709,
   "appeal_decision": null,
   "decision_agency": "Borough",
   "lpa_app_no": "P/2026/1203",
@@ -34,46 +89,64 @@
   "decision": null,
   "id": "Hounslow-P_2026_1203",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              521190.6250000014,
-              178723.73651755764
-            ],
-            [
-              521190.73437500105,
-              178712.68163226172
-            ],
-            [
-              521191.28125000047,
-              178712.57217795317
-            ],
-            [
-              521191.1718749994,
-              178703.37801592378
-            ],
-            [
-              521199.0468750005,
-              178703.48747023236
-            ],
-            [
-              521198.60937500035,
-              178712.46272364387
-            ],
-            [
-              521198.0624999992,
-              178725.26887790003
-            ],
-            [
-              521190.6250000014,
-              178723.73651755764
+              [
+                521198.55,
+                178713.4
+              ],
+              [
+                521198.25,
+                178719.15
+              ],
+              [
+                521198.05,
+                178725.45
+              ],
+              [
+                521190.7,
+                178723.7
+              ],
+              [
+                521190.7,
+                178715.25
+              ],
+              [
+                521190.75,
+                178712.5
+              ],
+              [
+                521191.2,
+                178712.5
+              ],
+              [
+                521191.2,
+                178707.8
+              ],
+              [
+                521191.15,
+                178703.3
+              ],
+              [
+                521198.95,
+                178703.4
+              ],
+              [
+                521198.75,
+                178707.75
+              ],
+              [
+                521198.55,
+                178713.4
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ]
   },
@@ -86,52 +159,70 @@
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": false,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.255652,
-          51.494477
-        ],
-        [
-          -0.255654,
-          51.494377
-        ],
-        [
-          -0.255646,
-          51.494376
-        ],
-        [
-          -0.255651,
-          51.494293
-        ],
-        [
-          -0.255537,
-          51.494293
-        ],
-        [
-          -0.255541,
-          51.494374
-        ],
-        [
-          -0.255544,
-          51.494489
-        ],
-        [
-          -0.255652,
-          51.494477
+          [
+            -0.255541,
+            51.494382
+          ],
+          [
+            -0.255543,
+            51.494434
+          ],
+          [
+            -0.255544,
+            51.49449
+          ],
+          [
+            -0.255651,
+            51.494476
+          ],
+          [
+            -0.255654,
+            51.4944
+          ],
+          [
+            -0.255654,
+            51.494376
+          ],
+          [
+            -0.255647,
+            51.494375
+          ],
+          [
+            -0.255649,
+            51.494333
+          ],
+          [
+            -0.255651,
+            51.494293
+          ],
+          [
+            -0.255539,
+            51.494292
+          ],
+          [
+            -0.25554,
+            51.494331
+          ],
+          [
+            -0.255541,
+            51.494382
+          ]
         ]
       ]
     ]
   },
-  "uprn": "100023490195",
+  "uprn": 100023490195,
   "application_type": "All Other",
   "centroid": {
-    "lat": 51.494352,
-    "lon": -0.255565
+    "lat": 51.494343,
+    "lon": -0.255579
   },
   "lapsed_date": null,
-  "application_type_full": null,
-  "centroid_easting": 521197,
+  "application_type_full": "Full planning permission",
+  "centroid_easting": 521196,
   "actual_completion_date": null
 }

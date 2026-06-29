@@ -1,21 +1,170 @@
 {
   "decision": null,
   "last_date_consultation_comments": "10/03/2026",
-  "wgs84_polygon": null,
-  "date_building_work_started_under_previous_permission": "10/06/2025",
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          [
+            -0.479372,
+            51.604499
+          ],
+          [
+            -0.479349,
+            51.604494
+          ],
+          [
+            -0.479204,
+            51.604456
+          ],
+          [
+            -0.479204,
+            51.604469
+          ],
+          [
+            -0.479206,
+            51.604482
+          ],
+          [
+            -0.479211,
+            51.604493
+          ],
+          [
+            -0.479227,
+            51.604545
+          ],
+          [
+            -0.479197,
+            51.604581
+          ],
+          [
+            -0.479195,
+            51.604583
+          ],
+          [
+            -0.47927,
+            51.604611
+          ],
+          [
+            -0.479325,
+            51.604633
+          ],
+          [
+            -0.479359,
+            51.604646
+          ],
+          [
+            -0.479503,
+            51.604707
+          ],
+          [
+            -0.479593,
+            51.604558
+          ],
+          [
+            -0.479508,
+            51.604535
+          ],
+          [
+            -0.479372,
+            51.604499
+          ]
+        ]
+      ]
+    ],
+    "type": "MultiPolygon"
+  },
+  "date_building_work_started_under_previous_permission": "09/06/2025",
   "ward": "HARE/D VILLAGES 2022",
   "site_number": null,
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                505406.35,
+                190612.94
+              ],
+              [
+                505407.95,
+                190612.34
+              ],
+              [
+                505418.08,
+                190608.39
+              ],
+              [
+                505418.08,
+                190609.79
+              ],
+              [
+                505417.88,
+                190611.19
+              ],
+              [
+                505417.48,
+                190612.49
+              ],
+              [
+                505416.28,
+                190618.19
+              ],
+              [
+                505418.28,
+                190622.29
+              ],
+              [
+                505418.38,
+                190622.49
+              ],
+              [
+                505413.18,
+                190625.49
+              ],
+              [
+                505409.28,
+                190627.89
+              ],
+              [
+                505406.88,
+                190629.29
+              ],
+              [
+                505396.78,
+                190635.79
+              ],
+              [
+                505390.88,
+                190619.09
+              ],
+              [
+                505396.85,
+                190616.74
+              ],
+              [
+                505406.35,
+                190612.94
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "appeal_status": null,
   "application_type_full": "Full planning permission",
   "borough": "Hillingdon",
   "lpa_name": "Hillingdon",
-  "postcode": null,
+  "postcode": "UB9 6NP",
   "appeal_start_date": null,
   "appeal_decision_date": null,
   "status": "Application Under Consideration",
   "valid_date": "11/02/2026",
-  "site_name": "ASHLEIGH",
+  "site_name": "Ashleigh",
   "decision_date": null,
   "pp_id": "14693483",
   "actual_completion_date": null,
@@ -41,7 +190,8 @@
       "no_new_water_connections_required": 1,
       "no_new_gas_connections_required": 1,
       "no_non_resi_units_to_have_full_fibre": 0,
-      "mobile_network_operators_consultation": false
+      "mobile_network_operators_consultation": false,
+      "urban_greening_factor_score": 0
     },
     "internal_resi_water_usage": 140,
     "ownership_status": "Private",
@@ -87,32 +237,48 @@
       "total_no_proposed_residential_units_social_rent": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 8,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Semi Detached Home",
           "no_bedrooms": 5,
+          "unit_type": "Semi Detached Home",
           "provision_for_older_persons": false,
-          "gia": 190,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 190
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 74,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 74
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 1,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "gia": 116,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 116
         }
       ],
       "total_no_existing_residential_units_london_shared_ownership": 0,
@@ -143,34 +309,35 @@
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_starter_homes": 0
     },
-    "rain_water_harvesting": false
+    "rain_water_harvesting": false,
+    "occupation_status": "Occupied"
   },
   "development_type": null,
   "centroid_easting": 505404,
-  "decision_target_date": "08/04/2026",
+  "decision_target_date": "11/06/2026",
   "decision_agency": "Borough",
   "actual_commencement_date": null,
   "lpa_app_no": "795/APP/2026/358",
   "decision_process": null,
   "lapsed_date": null,
-  "uprn": null,
+  "uprn": 100021496334,
   "bo_system": "CSV Data Import",
   "cil_liability": false,
-  "street_name": "THE GREEN",
-  "locality": null,
+  "street_name": "The Green",
+  "locality": "Harefield",
   "application_type": "All Other",
   "epc_number": "0000-0000-0000-0000-0000",
   "decision_conditions": null,
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": "HAREFIELD",
-  "centroid_northing": 190621,
-  "last_updated": "2026-03-30T21:59:13.821Z",
+  "centroid_northing": 190618,
+  "last_updated": "2026-06-28T07:03:21.477Z",
   "centroid": {
-    "lon": -0.479403,
-    "lat": 51.604572
+    "lon": -0.479404,
+    "lat": 51.604545
   },
   "subdivision_of_building": null,
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Planning Portal ingest",
   "title_number": null,
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
@@ -180,5 +347,5 @@
     "no_existing_car": 3,
     "net_car": 0
   },
-  "description": "Proposed subdivision of existing dwelling house into two separate private units. Proposals to comprise of a ground floor two-bedroom unit with disabled access and a three-bedroom unit to first and second floors. Both with associated private amenity space and parking."
+  "description": "'Proposed subdivision of existing dwelling house into two separate private units. Proposals to comprise of a ground floor two bedroom unit with disabled access and a three bedroom unit to first and second floors. Both with associated private amenity space and parking.' "
 }

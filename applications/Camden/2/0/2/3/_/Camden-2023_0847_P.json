@@ -1,5 +1,5 @@
 {
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "application_type": "All Other",
   "decision_agency": "Borough",
   "centroid_northing": 184987,
@@ -17,10 +17,10 @@
   "appeal_status": null,
   "street_name": "Howitt Road",
   "centroid_easting": 527293,
-  "uprn": "5063289",
+  "uprn": 5063289,
   "borough": "Camden",
   "application_details": {
-    "scheme_phasing": false,
+    "scheme_phasing": true,
     "site_area": 0.01675,
     "total_gia_lost": 118,
     "projected_cost_of_works": "Up to £2m",
@@ -29,22 +29,22 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 65,
-        "use_class": "C3",
         "gia_gained": 65,
+        "use_class": "c3",
         "gia_lost": 65
       },
       {
         "gia_existing": 53,
-        "use_class": "C4",
         "gia_gained": 53,
+        "use_class": "c4",
         "gia_lost": 53
       }
     ],
     "phasing_details": [
       {
         "phase_detail": "1",
-        "intended_commencement_date": "06/2023",
-        "intended_completion_date": "06/2024"
+        "intended_completion_date": "06/2024",
+        "intended_commencement_date": "06/2023"
       }
     ],
     "total_gia_gained": 118,
@@ -58,12 +58,12 @@
       "no_resi_units_to_have_full_fibre": 1,
       "fire_suppression_system_proposed": false,
       "no_non_resi_units_to_have_full_fibre": 0,
-      "ghg_reduction_over_building_regulations": false,
+      "ghg_reduction_over_building_regulations": true,
       "urban_greening_factor_score": 0.1,
       "no_new_water_connections_required": 1,
       "no_homes_to_have_electrical_heating": 0,
       "total_annual_nox_emissions": 1,
-      "waste_provision": false,
+      "waste_provision": true,
       "solar_pv_capacity": 0.01,
       "percentage_demolition_construction_material_recycling": 20,
       "green_roof_area": 1.6
@@ -80,10 +80,10 @@
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_gia_lost": 116,
-      "total_no_proposed_residential_units_market_for_rent": 1,
+      "total_no_proposed_residential_units_market_for_rent": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_discount_market_rent": 0,
-      "total_no_existing_residential_units_market_for_rent": 1,
+      "total_no_existing_residential_units_market_for_rent": 2,
       "total_no_proposed_residential_units_market_for_sale": 1,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
@@ -97,14 +97,14 @@
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "dwelling_density": 119.40298507462686,
+      "dwelling_density": 59.70149253731343,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
-      "total_no_existing_residential_units": 1,
+      "total_no_existing_residential_units": 2,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "total_no_proposed_residential_units": 2,
+      "total_no_proposed_residential_units": 1,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
@@ -114,52 +114,56 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 6,
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "HMO",
           "no_bedrooms": 4,
+          "unit_type": "HMO",
           "provision_for_older_persons": false,
-          "gia": 53,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 53
         },
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 3,
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
-          "change_type": "Gain",
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
+          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "gia": 63,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 63
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Terraced Home",
           "no_habitable_rooms": 8,
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
-          "change_type": "Gain",
-          "unit_type": "Terraced Home",
-          "no_bedrooms": 3,
+          "no_bedrooms": 4,
           "provision_for_older_persons": false,
-          "gia": 258,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 258
         }
       ],
-      "habitable_rooms_density": 656.7164179104477,
+      "habitable_rooms_density": 477.6119402985074,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "site_area": 0.01675
     },
-    "green_suds": false,
-    "garden_land_lost": false,
+    "green_suds": true,
+    "garden_land_lost": true,
     "rain_water_harvesting": false,
     "grey_water_reuse": false,
     "ownership_status": "Private",
@@ -175,65 +179,38 @@
     },
     "3d_model": false,
     "borough_cil_liability_notice_issued": false,
-    "transport_impact_assessment": false
+    "transport_impact_assessment": false,
+    "occupation_status": "Occupied"
   },
   "reference_no_of_permission_being_relied_on": null,
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.165578,
-          51.549498
+          -0.165512,
+          51.549437
         ],
         [
-          -0.16547,
-          51.549466
+          -0.165513,
+          51.54941
         ],
         [
-          -0.165326,
-          51.549425
+          -0.165556,
+          51.549411
         ],
         [
-          -0.165291,
-          51.549414
+          -0.165555,
+          51.549438
         ],
         [
-          -0.165337,
-          51.549352
-        ],
-        [
-          -0.165372,
-          51.549363
-        ],
-        [
-          -0.165565,
-          51.549418
-        ],
-        [
-          -0.165625,
-          51.549436
-        ],
-        [
-          -0.1656,
-          51.549468
-        ],
-        [
-          -0.165578,
-          51.549498
-        ],
-        [
-          -0.165578,
-          51.549498
-        ],
-        [
-          -0.165578,
-          51.549498
+          -0.165512,
+          51.549437
         ]
       ]
     ],
     "type": "Polygon"
   },
-  "description": "Change of use from a HMO (Class C4) and 2 bed flat into a single family dwelling;  replacement of all existing windows with double glazed timber sash windows; extension to the existing basement to include a front lightwell; demolish the existing rear extension and replace with a full width single storey rear extension; installation of a rooflight within the front roofslope and two rooflights on the rear roofslope; and external alternations. \n",
+  "description": "To change of use from a HMO (C4 use) and 2 bed flat to a single family dwelling; as the approval scheme - ref: 2022/2074/P\n\nTo restore the existing front elevation; including replacement of roof tiles, reinstate / repair / replacement / re-decoration of all carpentry works, replacement of all the windows with double glazed timber box sash windows, clean up and re-pointing all brickwork, remove the existing sand/cement rendering with breathable mineral paint\n\nTo extend existing basement and form a new front lightwell.\n\nTo demolish existing single storey rear extension; and to replace with a full width single storey rear extension, including new green roof and 2nos flat roof windows.\n\nTo replace the existing roof window at the front elevation with new conservation roof windows; and install 3nos new conservation roof windows; one at the front and two at the rear pitch roof.\n\nTo restore the existing rear elevation; including replacement of roof tiles with new PV tiles, reinstate / repair / replacement / re-decoration of all carpentry works, replace all windows with double glazed timber box sash windows, clean up and re-pointing all brickwork.\n\nInternal alterations; including using the existing loft space as habitable room\n",
   "title_number": [],
   "actual_commencement_date": null,
   "application_type_full": "Full planning & demolition in a conservation area",
@@ -327,9 +304,9 @@
   "decision": "Approved",
   "secondary_street_name": null,
   "decision_target_date": "11/09/2024",
-  "last_updated": "2026-06-16T11:06:35.783Z",
+  "last_updated": "2026-06-28T16:09:31.534Z",
   "date_building_work_completed_under_previous_permission": null,
-  "site_number": "20",
+  "site_number": 20,
   "last_date_consultation_comments": "07/03/2024",
   "bo_system": "Portal"
 }

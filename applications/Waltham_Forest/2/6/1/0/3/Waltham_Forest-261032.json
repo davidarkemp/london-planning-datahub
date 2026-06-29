@@ -6,8 +6,10 @@
   "bo_system": "Portal",
   "lpa_app_no": "261032",
   "valid_date": "28/04/2026",
-  "title_number": null,
-  "epc_number": null,
+  "title_number": [
+    "NGL112015"
+  ],
+  "epc_number": "0053-2878-7970-9128-5445",
   "application_details": {
     "residential_details": {
       "total_no_proposed_residential_units_starter_homes": 0,
@@ -47,21 +49,10 @@
       "total_no_proposed_bedrooms": 1,
       "residential_units": [
         {
-          "m43_2a_compliant": null,
-          "description": null,
-          "provision_for_older_persons": false,
-          "garden_land": null,
-          "tenure": null,
-          "m42_compliant": null,
-          "no_habitable_rooms": null,
-          "provider": null,
-          "phase_detail": null,
-          "m43_2b_compliant": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
-          "unit_no": null,
           "no_bedrooms": 1,
-          "gia": null
+          "provision_for_older_persons": false
         }
       ],
       "total_no_existing_residential_units_london_living_rent": 0
@@ -69,33 +60,121 @@
     "other_residential_accommodation_details": {
       "no_council_tax_rateable_units_gained": 2,
       "no_council_tax_rateable_units_lost": 1
-    }
+    },
+    "no_additional_bathrooms": 1,
+    "no_additional_bedrooms": 1
   },
   "centroid_easting": 537504,
   "decision_process": "Delegated",
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.017629,
-          51.566542
-        ],
-        [
-          -0.017045,
-          51.566832
-        ],
-        [
-          -0.017103,
-          51.566878
-        ],
-        [
-          -0.017689,
-          51.566588
-        ],
-        [
-          -0.017629,
-          51.566542
+          [
+            -0.017189,
+            51.566762
+          ],
+          [
+            -0.017044,
+            51.566832
+          ],
+          [
+            -0.017047,
+            51.566834
+          ],
+          [
+            -0.017101,
+            51.566877
+          ],
+          [
+            -0.017343,
+            51.566759
+          ],
+          [
+            -0.017398,
+            51.566731
+          ],
+          [
+            -0.01743,
+            51.566715
+          ],
+          [
+            -0.017462,
+            51.566699
+          ],
+          [
+            -0.017487,
+            51.566685
+          ],
+          [
+            -0.017564,
+            51.566649
+          ],
+          [
+            -0.017638,
+            51.566614
+          ],
+          [
+            -0.017691,
+            51.566589
+          ],
+          [
+            -0.017672,
+            51.566573
+          ],
+          [
+            -0.017633,
+            51.566543
+          ],
+          [
+            -0.017581,
+            51.566568
+          ],
+          [
+            -0.017567,
+            51.566574
+          ],
+          [
+            -0.0175,
+            51.566607
+          ],
+          [
+            -0.017496,
+            51.566612
+          ],
+          [
+            -0.017488,
+            51.566616
+          ],
+          [
+            -0.017475,
+            51.566622
+          ],
+          [
+            -0.017461,
+            51.566629
+          ],
+          [
+            -0.017436,
+            51.566641
+          ],
+          [
+            -0.017339,
+            51.566689
+          ],
+          [
+            -0.017262,
+            51.566726
+          ],
+          [
+            -0.017243,
+            51.566736
+          ],
+          [
+            -0.017189,
+            51.566762
+          ]
         ]
       ]
     ]
@@ -104,20 +183,24 @@
   "appeal_start_date": null,
   "decision_target_date": "23/06/2026",
   "actual_commencement_date": null,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 2,
+    "net_car": 0,
+    "no_proposed_car": 2
+  },
   "last_date_consultation_comments": "20/05/2026",
   "url_planning_app": "https://builtenvironment.walthamforest.gov.uk/planning/index.html?fa=getApplication&id=120519",
-  "last_updated": "2026-05-12T08:34:57.697Z",
+  "last_updated": "2026-06-28T09:11:18.254Z",
   "application_type": "All Other",
-  "site_number": "119",
+  "site_number": 119,
   "lpa_name": "Waltham Forest",
-  "application_type_full": null,
+  "application_type_full": "Lawful development: Existing use",
   "centroid_northing": 187171,
   "actual_completion_date": null,
   "cil_liability": null,
   "subdivision_of_building": null,
   "decision_conditions": null,
-  "uprn": "100022546901",
+  "uprn": 100022546901,
   "centroid": {
     "lon": -0.017506,
     "lat": 51.566655
@@ -126,10 +209,10 @@
   "borough": "Waltham Forest",
   "postcode": "E10 5EX",
   "date_building_work_started_under_previous_permission": null,
-  "description": "Lawful development certificate (Existing) for use of the ground floor annex as a self contained dwelling (Use Class C3) and associated works.",
-  "last_updated_by": "Portal",
+  "description": "Annexe LDC",
+  "last_updated_by": "Planning Portal ingest",
   "ward": "Leyton",
-  "street_name": "GOLDSMITH ROAD",
+  "street_name": "Goldsmith Road",
   "development_type": "Certificates of Lawful Development",
   "decision_date": null,
   "appeal_status": null,
@@ -141,39 +224,125 @@
       },
       "type": "name"
     },
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
-              537495.836426496,
-              187158.115672496
-            ],
-            [
-              537535.420547308,
-              187191.496149386
-            ],
-            [
-              537531.235002423,
-              187196.535075115
-            ],
-            [
-              537491.511380694,
-              187163.150881276
-            ],
-            [
-              537495.836426496,
-              187158.115672496
+              [
+                537525.675,
+                187183.465
+              ],
+              [
+                537535.45,
+                187191.55
+              ],
+              [
+                537535.3,
+                187191.7
+              ],
+              [
+                537531.4,
+                187196.45
+              ],
+              [
+                537514.95,
+                187182.85
+              ],
+              [
+                537511.231,
+                187179.639
+              ],
+              [
+                537509.117,
+                187177.814
+              ],
+              [
+                537506.9,
+                187175.9
+              ],
+              [
+                537505.2,
+                187174.35
+              ],
+              [
+                537500,
+                187170.2
+              ],
+              [
+                537495,
+                187166.1
+              ],
+              [
+                537491.35,
+                187163.25
+              ],
+              [
+                537492.75,
+                187161.55
+              ],
+              [
+                537495.55,
+                187158.25
+              ],
+              [
+                537499.05,
+                187161.15
+              ],
+              [
+                537500,
+                187161.85
+              ],
+              [
+                537504.55,
+                187165.6
+              ],
+              [
+                537504.85,
+                187166.15
+              ],
+              [
+                537505.35,
+                187166.6
+              ],
+              [
+                537506.226,
+                187167.313
+              ],
+              [
+                537507.216,
+                187168.12
+              ],
+              [
+                537508.886,
+                187169.517
+              ],
+              [
+                537515.5,
+                187175.05
+              ],
+              [
+                537520.66,
+                187179.318
+              ],
+              [
+                537522.011,
+                187180.435
+              ],
+              [
+                537525.675,
+                187183.465
+              ]
             ]
           ]
-        ]
+        ],
+        "type": "MultiPolygon"
       }
     ]
   },
   "secondary_street_name": null,
-  "locality": null,
+  "locality": "Leyton",
   "id": "Waltham_Forest-261032",
   "pp_id": "14876630",
   "status": "Application Under Consideration",

@@ -1,42 +1,46 @@
 {
   "decision": "Approved",
-  "postcode": "",
+  "postcode": "UB10 0SD",
   "decision_agency": "Borough",
   "last_date_consultation_comments": "19/09/2025",
-  "centroid_easting": 507562,
+  "centroid_easting": 507578,
   "decision_target_date": "01/10/2025",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 10,
+    "net_car": 1,
+    "no_proposed_car": 11
+  },
   "actual_completion_date": null,
   "epc_number": null,
   "appeal_decision_date": null,
-  "site_name": "LANDMARK PLACE",
-  "application_type_full": null,
-  "description": "Conversion and extension of roof space to habitable use to include 2 front and 2 side dormers with roof lights to provide 1 x 1-bedroom flat with associated car parking space (amended description)",
+  "site_name": "Street Record",
+  "application_type_full": "Full planning permission",
+  "description": "conversion of roof space to include 2 front dormers, 3 side to and 1 rear rooflights to provide 1 x 1 bedroom flat with associated car parking space renewal of planning submission ref 62318/APP/2021/2806",
   "appeal_status": null,
   "application_type": "All Other",
   "ward": "HILLINGDON EAST 2022",
   "pp_id": "14221759",
   "appeal_decision": null,
-  "uprn": null,
+  "uprn": 10092980135,
   "centroid": {
-    "lat": 51.539487,
-    "lon": -0.450456
+    "lat": 51.539052,
+    "lon": -0.45024
   },
   "appeal_start_date": null,
   "date_building_work_started_under_previous_permission": null,
-  "locality": null,
+  "locality": "Uxbridge",
   "lapsed_date": "01/10/2028",
   "bo_system": "Portal",
   "secondary_street_name": "HILLINGDON",
   "subdivision_of_building": null,
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "status": "Approved",
   "url_planning_app": "http://planning.hillingdon.gov.uk/OcellaWeb/planningDetails?reference=62318/APP/2025/2064",
   "lpa_app_no": "62318/APP/2025/2064",
   "valid_date": "06/08/2025",
   "application_details": {
     "existing_uprns": [],
-    "site_area": 0.015000000000000001,
+    "site_area": 0.1764,
     "3d_model": false,
     "affordable_housing_fast_track": false,
     "s106_agreement": false,
@@ -46,7 +50,7 @@
     "borough_cil_liability_notice_issued": false,
     "transport_impact_assessment": false,
     "circular_economy_statement": false,
-    "scheme_phasing": false,
+    "scheme_phasing": true,
     "rain_water_harvesting": false,
     "commencement_notice_received": false,
     "grey_water_reuse": false,
@@ -54,7 +58,10 @@
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "site_area": 0.015000000000000001
+      "site_area": 0.015000000000000001,
+      "total_gia_gained": 62,
+      "total_gia_existing": 0,
+      "total_gia_lost": 0
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -97,7 +104,6 @@
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
-          "description": null,
           "m42_compliant": false,
           "change_type": "Gain",
           "garden_land": false,
@@ -105,26 +111,59 @@
           "unit_type": "Flat Apartment Maisonette",
           "unit_development_type": "Conversion",
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "gia": 62,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 62
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "total_gia_gained": 62
     },
     "infrastructure_details": {
       "waste_provision": false,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 1,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 1,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "no_new_gas_connections_required": 1
     },
     "other_residential_accommodation_details": {
       "site_area": 0.015000000000000001
-    }
+    },
+    "total_gia_existing": 0,
+    "projected_cost_of_works": "Up to £2m",
+    "internal_resi_water_usage": 100,
+    "phasing_details": [
+      {
+        "phase_detail": "1",
+        "intended_completion_date": "11/2025",
+        "intended_commencement_date": "09/2025"
+      }
+    ],
+    "total_gia_gained": 62,
+    "total_gia_lost": 0,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 0,
+        "gia_gained": 62,
+        "use_class": "C3",
+        "gia_lost": 0
+      }
+    ],
+    "occupation_status": "Occupied",
+    "surface_water_discharge_percentage_reduction": 2,
+    "ownership_status": "Private"
   },
   "decision_process": "Delegated",
   "lpa_name": "Hillingdon",
@@ -170,38 +209,407 @@
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "GeometryCollection",
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                507578.901,
+                183393.893
+              ],
+              [
+                507582.879,
+                183393.331
+              ],
+              [
+                507583.11,
+                183393.195
+              ],
+              [
+                507583.506,
+                183404.365
+              ],
+              [
+                507584.177,
+                183417.666
+              ],
+              [
+                507596.85,
+                183413.25
+              ],
+              [
+                507589.609,
+                183425.989
+              ],
+              [
+                507588.552,
+                183427.848
+              ],
+              [
+                507577.224,
+                183431.299
+              ],
+              [
+                507559.937,
+                183436.622
+              ],
+              [
+                507558.917,
+                183436.762
+              ],
+              [
+                507556.937,
+                183437.034
+              ],
+              [
+                507553.97,
+                183437.27
+              ],
+              [
+                507551.015,
+                183437.107
+              ],
+              [
+                507548.986,
+                183436.715
+              ],
+              [
+                507546.493,
+                183434.958
+              ],
+              [
+                507544.323,
+                183432.861
+              ],
+              [
+                507543.067,
+                183430.798
+              ],
+              [
+                507542.781,
+                183430.328
+              ],
+              [
+                507541.543,
+                183427.62
+              ],
+              [
+                507540.44,
+                183424.955
+              ],
+              [
+                507538.522,
+                183419.286
+              ],
+              [
+                507531.977,
+                183399.827
+              ],
+              [
+                507528.087,
+                183388.036
+              ],
+              [
+                507526.872,
+                183384.233
+              ],
+              [
+                507528.638,
+                183383.424
+              ],
+              [
+                507528.8,
+                183383.35
+              ],
+              [
+                507531.039,
+                183382.949
+              ],
+              [
+                507532.751,
+                183382.747
+              ],
+              [
+                507534.862,
+                183382.414
+              ],
+              [
+                507537.854,
+                183382.296
+              ],
+              [
+                507539.527,
+                183387.277
+              ],
+              [
+                507544.039,
+                183399.475
+              ],
+              [
+                507548.581,
+                183404.923
+              ],
+              [
+                507550.417,
+                183406.758
+              ],
+              [
+                507556.836,
+                183410.82
+              ],
+              [
+                507561.191,
+                183413.722
+              ],
+              [
+                507563.031,
+                183414.982
+              ],
+              [
+                507563.729,
+                183413.627
+              ],
+              [
+                507566.62,
+                183414.487
+              ],
+              [
+                507566.758,
+                183414.412
+              ],
+              [
+                507570.084,
+                183412.611
+              ],
+              [
+                507571.678,
+                183408.716
+              ],
+              [
+                507574.1,
+                183402.8
+              ],
+              [
+                507576.95,
+                183396.8
+              ],
+              [
+                507577.314,
+                183393.669
+              ],
+              [
+                507578.901,
+                183393.893
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ]
   },
   "cil_liability": false,
-  "last_updated": "2026-01-26T16:38:26.588Z",
+  "last_updated": "2026-06-28T03:52:06.990Z",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.450434,
-          51.5395
-        ],
-        [
-          -0.450434,
-          51.539473
-        ],
-        [
-          -0.450478,
-          51.539473
-        ],
-        [
-          -0.450477,
-          51.5395
-        ],
-        [
-          -0.450434,
-          51.5395
+          [
+            -0.450221,
+            51.539204
+          ],
+          [
+            -0.450164,
+            51.539198
+          ],
+          [
+            -0.450161,
+            51.539197
+          ],
+          [
+            -0.450152,
+            51.539297
+          ],
+          [
+            -0.450138,
+            51.539417
+          ],
+          [
+            -0.449957,
+            51.539374
+          ],
+          [
+            -0.450057,
+            51.53949
+          ],
+          [
+            -0.450072,
+            51.539507
+          ],
+          [
+            -0.450234,
+            51.53954
+          ],
+          [
+            -0.450482,
+            51.539592
+          ],
+          [
+            -0.450496,
+            51.539593
+          ],
+          [
+            -0.450525,
+            51.539596
+          ],
+          [
+            -0.450568,
+            51.539598
+          ],
+          [
+            -0.45061,
+            51.539598
+          ],
+          [
+            -0.45064,
+            51.539594
+          ],
+          [
+            -0.450676,
+            51.539579
+          ],
+          [
+            -0.450708,
+            51.539561
+          ],
+          [
+            -0.450727,
+            51.539542
+          ],
+          [
+            -0.450731,
+            51.539538
+          ],
+          [
+            -0.45075,
+            51.539514
+          ],
+          [
+            -0.450766,
+            51.53949
+          ],
+          [
+            -0.450796,
+            51.53944
+          ],
+          [
+            -0.450896,
+            51.539266
+          ],
+          [
+            -0.450956,
+            51.539161
+          ],
+          [
+            -0.450974,
+            51.539127
+          ],
+          [
+            -0.450949,
+            51.539119
+          ],
+          [
+            -0.450947,
+            51.539119
+          ],
+          [
+            -0.450915,
+            51.539115
+          ],
+          [
+            -0.45089,
+            51.539112
+          ],
+          [
+            -0.45086,
+            51.539109
+          ],
+          [
+            -0.450817,
+            51.539107
+          ],
+          [
+            -0.450791,
+            51.539152
+          ],
+          [
+            -0.450722,
+            51.539261
+          ],
+          [
+            -0.450655,
+            51.539309
+          ],
+          [
+            -0.450628,
+            51.539325
+          ],
+          [
+            -0.450534,
+            51.53936
+          ],
+          [
+            -0.450471,
+            51.539385
+          ],
+          [
+            -0.450444,
+            51.539396
+          ],
+          [
+            -0.450434,
+            51.539384
+          ],
+          [
+            -0.450392,
+            51.539391
+          ],
+          [
+            -0.45039,
+            51.539391
+          ],
+          [
+            -0.450343,
+            51.539374
+          ],
+          [
+            -0.450321,
+            51.539338
+          ],
+          [
+            -0.450288,
+            51.539285
+          ],
+          [
+            -0.450249,
+            51.53923
+          ],
+          [
+            -0.450244,
+            51.539202
+          ],
+          [
+            -0.450221,
+            51.539204
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
-  "street_name": "SNOWDEN AVENUE",
+  "street_name": "Landmark Place",
   "decision_date": "01/10/2025",
   "date_building_work_completed_under_previous_permission": null,
   "decision_conditions": [
@@ -242,7 +650,7 @@
   "reference_no_of_permission_being_relied_on": null,
   "actual_commencement_date": null,
   "borough": "Hillingdon",
-  "centroid_northing": 183425,
+  "centroid_northing": 183377,
   "site_number": null,
   "title_number": [],
   "development_type": null

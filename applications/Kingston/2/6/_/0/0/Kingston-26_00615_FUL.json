@@ -12,8 +12,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development ",
-        "intended_commencement_date": "05/2026",
-        "intended_completion_date": "06/2026"
+        "intended_completion_date": "06/2026",
+        "intended_commencement_date": "05/2026"
       }
     ],
     "internal_resi_water_usage": 0,
@@ -34,7 +34,7 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_lost": 0,
       "site_area": 0.02,
-      "total_gia_existing": 0,
+      "total_gia_existing": 168,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 0
     },
@@ -54,13 +54,13 @@
     },
     "total_gia_lost": 0,
     "rain_water_harvesting": false,
-    "site_area": 168,
+    "site_area": 0.0168,
     "green_suds": false,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 168,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -105,7 +105,6 @@
         {
           "m43_2b_compliant": true,
           "m43_2a_compliant": false,
-          "description": null,
           "m42_compliant": false,
           "change_type": "Gain",
           "garden_land": false,
@@ -113,8 +112,6 @@
           "unit_type": "Other",
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
           "tenure": "Self-Build and Custom Build",
@@ -122,44 +119,35 @@
         }
       ],
       "total_no_existing_residential_units_london_living_rent": 0,
-      "total_gia_gained": 0
+      "total_gia_gained": 55
     },
     "ownership_status": "Private",
     "constraints_details": [
       {
-        "result": null,
         "constraints_layer_description": "LGW Name: London Gatwick Safeguarding Zone (200m)"
       },
       {
-        "result": null,
         "constraints_layer_description": "SMKCON Name: Borough Wide Smoke Control Order"
       },
       {
-        "result": null,
         "constraints_layer_description": "KEYACH Name: Tolworth Key Area of Change"
       },
       {
-        "result": null,
         "constraints_layer_description": "NEIPOL Name: SB1  South of the Borough"
       },
       {
-        "result": null,
         "constraints_layer_description": "NEIGH Name: South of the Borough"
       },
       {
-        "result": null,
         "constraints_layer_description": "AIRCZ Type:: Gatwick Airport Wind Turbine Consultation Zone:\rContact: The Safeguarding Department, Gatwick Airport Limited, 7th Floor Destinations Place, London Gatwick Airport, West Sussex, RH06 0NP"
       },
       {
-        "result": null,
         "constraints_layer_description": "HWTERR Type: TERRIER\rDescription: RBK"
       },
       {
-        "result": null,
         "constraints_layer_description": "VALUER Type: VALUERS\rDescription: Housing Estates"
       },
       {
-        "result": null,
         "constraints_layer_description": "VALUER Type: VALUERS\rDescription: Highways and Transport"
       }
     ],
@@ -187,45 +175,42 @@
       "no_active_other_ev_charging_points": 0,
       "no_active_rapid_ev_charging_points": 0,
       "no_passive_other_ev_charging_points": 0
-    }
+    },
+    "scheme_phasing": true,
+    "total_gia_gained": 0,
+    "occupation_status": "Occupied"
   },
   "centroid_easting": 518703,
   "decision_process": null,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.295847,
-          51.377096
-        ],
-        [
-          -0.295826,
-          51.377114
-        ],
-        [
-          -0.295801,
-          51.377171
-        ],
-        [
-          -0.295781,
-          51.377215
-        ],
-        [
-          -0.295886,
-          51.377256
-        ],
-        [
-          -0.296122,
-          51.377025
-        ],
-        [
-          -0.295999,
-          51.376974
-        ],
-        [
-          -0.295847,
-          51.377096
+          [
+            -0.295999,
+            51.376974
+          ],
+          [
+            -0.295826,
+            51.377114
+          ],
+          [
+            -0.295781,
+            51.377215
+          ],
+          [
+            -0.295886,
+            51.377256
+          ],
+          [
+            -0.296122,
+            51.377025
+          ],
+          [
+            -0.295999,
+            51.376974
+          ]
         ]
       ]
     ]
@@ -234,30 +219,34 @@
   "appeal_start_date": null,
   "decision_target_date": "30/06/2026",
   "actual_commencement_date": null,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 1,
+    "net_car": 0,
+    "no_proposed_car": 1
+  },
   "last_date_consultation_comments": "04/06/2026",
   "url_planning_app": "https://publicaccess.kingston.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TCCGL2NHFQ200",
-  "last_updated": "2026-05-13T17:02:11.261Z",
+  "last_updated": "2026-06-28T08:17:22.290Z",
   "application_type": "All Other",
-  "site_number": "61",
+  "site_number": 61,
   "lpa_name": "Kingston",
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "centroid_northing": 165610,
   "actual_completion_date": null,
   "cil_liability": true,
   "subdivision_of_building": null,
   "decision_conditions": null,
-  "uprn": "100021789197",
+  "uprn": 100021789197,
   "centroid": {
     "lon": -0.29586,
     "lat": 51.377143
   },
   "date_building_work_completed_under_previous_permission": null,
-  "borough": "Royal Borough of Kingston (LA Code)",
+  "borough": "Kingston Upon Thames",
   "postcode": "KT6 7TD",
-  "date_building_work_started_under_previous_permission": "05/05/2025",
-  "description": "Conversion of an existing property to 2nos residential properties with private garden and driveway. (Part Retrospective)",
-  "last_updated_by": "Idox Uniform",
+  "date_building_work_started_under_previous_permission": "04/05/2025",
+  "description": "Approval of planning Conditions 7 (refuse and recycling facilities), \nAmendments to an the existing property to create a separate residential property with a new postal address (61a Fullers Avenue, KT6 7TD) consisting of a 2 bedroom property with private garden and driveway. As per the submitted plans.\nNew water supply, electrical supply and potentially gas supply to the proposed new property. \nTo regulation walls to be installed in between the two proposed properties. ",
+  "last_updated_by": "Planning Portal ingest",
   "ward": "Tolworth",
   "street_name": "Fullers Avenue",
   "development_type": "Minor dwellings",
@@ -270,46 +259,40 @@
         "coordinates": [
           [
             [
-              518704.01,
-              165604.833
-            ],
-            [
-              518705.47,
-              165606.81
-            ],
-            [
-              518707.06,
-              165613.21
-            ],
-            [
-              518708.3,
-              165618.15
-            ],
-            [
-              518700.93,
-              165622.56
-            ],
-            [
-              518685.06,
-              165596.43
-            ],
-            [
-              518693.8,
-              165591
-            ],
-            [
-              518704.01,
-              165604.833
+              [
+                518693.8,
+                165591
+              ],
+              [
+                518705.47,
+                165606.81
+              ],
+              [
+                518708.3,
+                165618.15
+              ],
+              [
+                518700.93,
+                165622.56
+              ],
+              [
+                518685.06,
+                165596.43
+              ],
+              [
+                518693.8,
+                165591
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
-    "type": "geometrycollection"
+    "type": "GeometryCollection"
   },
   "secondary_street_name": null,
-  "locality": null,
+  "locality": "Tolworth",
   "id": "Kingston-26_00615_FUL",
   "pp_id": "PP-14070441",
   "status": "Application Under Consideration",

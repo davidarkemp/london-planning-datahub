@@ -2,7 +2,11 @@
   "appeal_status": null,
   "centroid_easting": 536424,
   "centroid_northing": 172490,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 1,
+    "net_car": 0,
+    "no_proposed_car": 1
+  },
   "appeal_start_date": null,
   "valid_date": "14/07/2025",
   "lapsed_date": "22/08/2028",
@@ -13,7 +17,7 @@
   "site_name": "57 HOUSTON ROAD, LONDON, SE23 2RL",
   "development_type": null,
   "actual_commencement_date": null,
-  "postcode": null,
+  "postcode": "SE23 2RL",
   "borough": "Lewisham",
   "decision": "Not Required",
   "polygon": {
@@ -22,60 +26,94 @@
         "coordinates": [
           [
             [
-              536418.05,
-              172487.35
-            ],
-            [
-              536413.7,
-              172474.85
-            ],
-            [
-              536420.8,
-              172472.3
-            ],
-            [
-              536422.55,
-              172477.65
-            ],
-            [
-              536426.85,
-              172490.55
-            ],
-            [
-              536428.048,
-              172494.051
-            ],
-            [
-              536429.85,
-              172500
-            ],
-            [
-              536434.45,
-              172512.5
-            ],
-            [
-              536435,
-              172514.05
-            ],
-            [
-              536428.95,
-              172515.25
-            ],
-            [
-              536423.05,
-              172500
-            ],
-            [
-              536419.1,
-              172490.3
-            ],
-            [
-              536418.05,
-              172487.35
+              [
+                536429.85,
+                172500
+              ],
+              [
+                536434.45,
+                172512.5
+              ],
+              [
+                536435,
+                172514.05
+              ],
+              [
+                536428.95,
+                172515.25
+              ],
+              [
+                536423.05,
+                172500
+              ],
+              [
+                536419.1,
+                172490.3
+              ],
+              [
+                536418.05,
+                172487.35
+              ],
+              [
+                536413.7,
+                172474.85
+              ],
+              [
+                536420.8,
+                172472.3
+              ],
+              [
+                536422.55,
+                172477.65
+              ],
+              [
+                536416.75,
+                172479.6
+              ],
+              [
+                536419.15,
+                172486.75
+              ],
+              [
+                536420.7,
+                172486.2
+              ],
+              [
+                536423.4,
+                172494.2
+              ],
+              [
+                536424.668,
+                172495.197
+              ],
+              [
+                536426.278,
+                172494.661
+              ],
+              [
+                536426.53,
+                172493.157
+              ],
+              [
+                536425.78,
+                172490.907
+              ],
+              [
+                536426.85,
+                172490.55
+              ],
+              [
+                536428.048,
+                172494.051
+              ],
+              [
+                536429.85,
+                172500
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "type": "GeometryCollection"
@@ -85,14 +123,16 @@
     "lat": 51.434992
   },
   "appeal_decision": null,
-  "description": "Application for Prior Approval under Schedule 2, Part 1, Class A, Part (g) of the Town and Country Planning (General Permitted Development) Order 2015 (as amended) for the construction of a single storey rear extension at a depth of 4.00m, an eaves height of 3.00m and a maximum height of 3.00m to 57 Houston Road, SE23.",
-  "title_number": null,
+  "description": "Single Storey rear extension",
+  "title_number": [
+    "SGL114496"
+  ],
   "lpa_name": "Lewisham",
-  "locality": null,
+  "locality": "London",
   "appeal_decision_date": null,
   "decision_process": "Delegated",
-  "application_type_full": null,
-  "site_number": null,
+  "application_type_full": "Prior Approval: Larger Home Extension",
+  "site_number": 57,
   "date_building_work_started_under_previous_permission": null,
   "decision_target_date": null,
   "decision_agency": null,
@@ -105,76 +145,114 @@
   "decision_date": "22/08/2025",
   "pp_id": "PP-14169769",
   "last_date_consultation_comments": null,
-  "last_updated_by": "CSV Data Import",
-  "uprn": "100021970584",
+  "last_updated_by": "Planning Portal ingest",
+  "uprn": 100021970584,
   "actual_completion_date": null,
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated": "2025-09-13T09:01:02.080Z",
+  "last_updated": "2026-06-28T16:13:56.544Z",
   "cil_liability": false,
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.0388112,
-          51.4349686
-        ],
-        [
-          -0.038878499999999996,
-          51.4348573
-        ],
-        [
-          -0.0387774,
-          51.4348327
-        ],
-        [
-          -0.0387502,
-          51.4348804
-        ],
-        [
-          -0.0386834,
-          51.4349952
-        ],
-        [
-          -0.038664899999999995,
-          51.4350264
-        ],
-        [
-          -0.038636699999999996,
-          51.4350794
-        ],
-        [
-          -0.0385657,
-          51.4351907
-        ],
-        [
-          -0.0385572,
-          51.4352045
-        ],
-        [
-          -0.038643699999999996,
-          51.4352167
-        ],
-        [
-          -0.038734399999999995,
-          51.4350811
-        ],
-        [
-          -0.0387949,
-          51.4349949
-        ],
-        [
-          -0.0388112,
-          51.4349686
+          [
+            -0.038662,
+            51.43508
+          ],
+          [
+            -0.038591,
+            51.435191
+          ],
+          [
+            -0.038583,
+            51.435205
+          ],
+          [
+            -0.038669,
+            51.435217
+          ],
+          [
+            -0.03876,
+            51.435082
+          ],
+          [
+            -0.038821,
+            51.434995
+          ],
+          [
+            -0.038837,
+            51.434969
+          ],
+          [
+            -0.038904,
+            51.434858
+          ],
+          [
+            -0.038803,
+            51.434833
+          ],
+          [
+            -0.038776,
+            51.434881
+          ],
+          [
+            -0.038859,
+            51.4349
+          ],
+          [
+            -0.038821,
+            51.434963
+          ],
+          [
+            -0.038799,
+            51.434958
+          ],
+          [
+            -0.038757,
+            51.435029
+          ],
+          [
+            -0.038739,
+            51.435038
+          ],
+          [
+            -0.038716,
+            51.435033
+          ],
+          [
+            -0.038713,
+            51.435019
+          ],
+          [
+            -0.038724,
+            51.434999
+          ],
+          [
+            -0.038709,
+            51.434996
+          ],
+          [
+            -0.038691,
+            51.435027
+          ],
+          [
+            -0.038662,
+            51.43508
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "decision_conditions": null,
   "epc_number": null,
   "application_details": {
     "existing_uprns": null,
-    "site_area": 0.030000000000000002
+    "site_area": 0.030000000000000002,
+    "no_additional_bathrooms": 0,
+    "no_additional_bedrooms": 0,
+    "intended_commencement_date": "09/2025",
+    "intended_completion_date": "05/2026"
   },
-  "street_name": null
+  "street_name": "Houston Road"
 }

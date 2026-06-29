@@ -1,16 +1,24 @@
 {
   "decision_target_date": "20/05/2026",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Other house holder developments",
   "postcode": "HA1 1PQ",
-  "title_number": null,
-  "application_details": {},
+  "title_number": [
+    "Unregistered"
+  ],
+  "application_details": {
+    "total_gia_gained": 17,
+    "no_additional_bathrooms": 0,
+    "no_additional_bedrooms": 0,
+    "intended_completion_date": "11/2026",
+    "intended_commencement_date": "05/2026"
+  },
   "decision_date": "20/05/2026",
   "url_planning_app": "https://planningsearch.harrow.gov.uk//planning/index.html?fa=getApplication&id=232828",
   "borough": "Harrow",
-  "locality": null,
+  "locality": "Harrow",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
   "parking_details": null,
@@ -19,14 +27,14 @@
   "pp_id": "14806447",
   "subdivision_of_building": null,
   "status": "Withdrawn",
-  "description": "Single storey side to rear extension; External alterations (Demolition of ground floor side bay window and outbuildings to rear)",
+  "description": "Single storey side infill extension to match existing 6m rear extension which has been already approved.",
   "decision_conditions": null,
-  "site_number": "75",
-  "last_updated": "2026-06-02T15:53:29.891Z",
+  "site_number": 75,
+  "last_updated": "2026-06-28T09:07:30.835Z",
   "last_date_consultation_comments": "22/04/2026",
   "valid_date": "25/03/2026",
   "actual_commencement_date": null,
-  "centroid_northing": 188407,
+  "centroid_northing": 188405,
   "appeal_decision": null,
   "decision_agency": "Borough",
   "lpa_app_no": "PL/0833/26",
@@ -34,42 +42,88 @@
   "decision": "Withdrawn",
   "id": "Harrow-PL_0833_26",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              515052.71024764,
-              188400.486278851
-            ],
-            [
-              515084.787489772,
-              188407.222926052
-            ],
-            [
-              515083.777531842,
-              188411.906802748
-            ],
-            [
-              515081.184242393,
-              188411.146931006
-            ],
-            [
-              515080.851377156,
-              188412.541400935
-            ],
-            [
-              515051.684420222,
-              188405.870819372
-            ],
-            [
-              515052.71024764,
-              188400.486278851
+              [
+                515077.6,
+                188411.5
+              ],
+              [
+                515062.8,
+                188408.4
+              ],
+              [
+                515062.5,
+                188407.7
+              ],
+              [
+                515054.25,
+                188405.95
+              ],
+              [
+                515051.75,
+                188405.45
+              ],
+              [
+                515052.9,
+                188400.6
+              ],
+              [
+                515055.3,
+                188401.1
+              ],
+              [
+                515070.3,
+                188404.3
+              ],
+              [
+                515073.35,
+                188404.9
+              ],
+              [
+                515078.85,
+                188406.1
+              ],
+              [
+                515081.85,
+                188406.8
+              ],
+              [
+                515084.15,
+                188407.25
+              ],
+              [
+                515084.634,
+                188407.393
+              ],
+              [
+                515083.635,
+                188412.086
+              ],
+              [
+                515080.851,
+                188411.493
+              ],
+              [
+                515080.7,
+                188412.2
+              ],
+              [
+                515078.3,
+                188411.65
+              ],
+              [
+                515077.6,
+                188411.5
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -82,54 +136,100 @@
   "appeal_start_date": null,
   "decision_process": "Delegated",
   "ward": "Marlborough",
-  "street_name": "HEADSTONE ROAD",
+  "street_name": "Headstone Road",
   "secondary_street_name": null,
   "lpa_name": "Harrow",
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": null,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.340867,
-          51.582729
-        ],
-        [
-          -0.340402,
-          51.582783
-        ],
-        [
-          -0.340415,
-          51.582825
-        ],
-        [
-          -0.340453,
-          51.582819
-        ],
-        [
-          -0.340457,
-          51.582831
-        ],
-        [
-          -0.34088,
-          51.582777
-        ],
-        [
-          -0.340867,
-          51.582729
+          [
+            -0.340505,
+            51.582823
+          ],
+          [
+            -0.340719,
+            51.582798
+          ],
+          [
+            -0.340724,
+            51.582792
+          ],
+          [
+            -0.340843,
+            51.582778
+          ],
+          [
+            -0.34088,
+            51.582774
+          ],
+          [
+            -0.340865,
+            51.58273
+          ],
+          [
+            -0.34083,
+            51.582734
+          ],
+          [
+            -0.340612,
+            51.58276
+          ],
+          [
+            -0.340568,
+            51.582764
+          ],
+          [
+            -0.340488,
+            51.582774
+          ],
+          [
+            -0.340445,
+            51.58278
+          ],
+          [
+            -0.340412,
+            51.582783
+          ],
+          [
+            -0.340405,
+            51.582784
+          ],
+          [
+            -0.340417,
+            51.582827
+          ],
+          [
+            -0.340458,
+            51.582822
+          ],
+          [
+            -0.34046,
+            51.582828
+          ],
+          [
+            -0.340495,
+            51.582824
+          ],
+          [
+            -0.340505,
+            51.582823
+          ]
         ]
       ]
     ]
   },
-  "uprn": "100021268574",
+  "uprn": 100021268574,
   "application_type": "Householder",
   "centroid": {
-    "lat": 51.582784,
-    "lon": -0.340645
+    "lat": 51.582768,
+    "lon": -0.340746
   },
   "lapsed_date": "20/05/2026",
-  "application_type_full": null,
-  "centroid_easting": 515068,
+  "application_type_full": "Householder planning permission",
+  "centroid_easting": 515061,
   "actual_completion_date": null
 }

@@ -6,54 +6,45 @@
   "appeal_decision": null,
   "lapsed_date": "24/04/2029",
   "appeal_decision_date": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": null,
-  "last_updated": "2026-04-24T17:02:36.777Z",
+  "last_updated": "2026-06-28T03:04:19.906Z",
   "url_planning_app": "https://publicaccess.kingston.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TBTV76NHFJC00",
   "street_name": "Raleigh Drive",
   "parking_details": null,
   "ward": "King George's & Sunray",
   "bo_system": "Idox Uniform",
   "site_name": null,
-  "site_number": "22",
+  "site_number": 22,
   "application_details": {
     "commencement_notice_received": false,
     "constraints_details": [
       {
-        "result": null,
         "constraints_layer_description": "NEIPOL Name: S1  Surbiton"
       },
       {
-        "result": null,
         "constraints_layer_description": "LGW Name: London Gatwick Safeguarding Zone (200m)"
       },
       {
-        "result": null,
         "constraints_layer_description": "SMKCON Name: Borough Wide Smoke Control Order"
       },
       {
-        "result": null,
         "constraints_layer_description": "KEYACH Name: Tolworth Key Area of Change"
       },
       {
-        "result": null,
         "constraints_layer_description": "NEIGH Name: Surbiton"
       },
       {
-        "result": null,
         "constraints_layer_description": "AIRCZ Type:: Gatwick Airport Wind Turbine Consultation Zone:\rContact: The Safeguarding Department, Gatwick Airport Limited, 7th Floor Destinations Place, London Gatwick Airport, West Sussex, RH06 0NP"
       },
       {
-        "result": null,
         "constraints_layer_description": "HWTERR Type: TERRIER\rDescription: HD"
       },
       {
-        "result": null,
         "constraints_layer_description": "SWGV Date Built: \rGradient:"
       },
       {
-        "result": null,
         "constraints_layer_description": "SWGV Date Built: \rGradient:"
       }
     ],
@@ -61,10 +52,12 @@
     "existing_uprns": [
       "100021796487"
     ],
-    "s106_agreement": false
+    "s106_agreement": false,
+    "no_additional_bathrooms": 1,
+    "no_additional_bedrooms": 1
   },
-  "uprn": "100021796487",
-  "locality": null,
+  "uprn": 100021796487,
+  "locality": "Tolworth",
   "date_building_work_started_under_previous_permission": null,
   "postcode": "KT5 9PR",
   "valid_date": "13/03/2026",
@@ -75,7 +68,7 @@
     "lon": -0.272827
   },
   "centroid_easting": 520291,
-  "application_type_full": null,
+  "application_type_full": "Lawful development: Proposed use",
   "pp_id": "PP-14776672",
   "lpa_app_no": "26/00545/CPU",
   "polygon": {
@@ -84,226 +77,239 @@
         "coordinates": [
           [
             [
-              520299.644,
-              166270.142
-            ],
-            [
-              520332,
-              166250.7
-            ],
-            [
-              520332.4,
-              166251.1
-            ],
-            [
-              520333.65,
-              166252.4
-            ],
-            [
-              520334.4,
-              166253
-            ],
-            [
-              520335.1,
-              166253.55
-            ],
-            [
-              520335.6,
-              166253.95
-            ],
-            [
-              520336.8,
-              166254.65
-            ],
-            [
-              520337.2,
-              166254.9
-            ],
-            [
-              520337.75,
-              166255.15
-            ],
-            [
-              520338.2,
-              166255.35
-            ],
-            [
-              520338.6,
-              166255.45
-            ],
-            [
-              520338.95,
-              166255.55
-            ],
-            [
-              520339.3,
-              166255.7
-            ],
-            [
-              520302.04,
-              166277.97
-            ],
-            [
-              520294.2,
-              166282.65
-            ],
-            [
-              520286.55,
-              166287.35
-            ],
-            [
-              520280.3,
-              166291.2
-            ],
-            [
-              520275.5,
-              166284.55
-            ],
-            [
-              520282.04,
-              166280.645
-            ],
-            [
-              520285.905,
-              166278.337
-            ],
-            [
-              520292.75,
-              166274.25
-            ],
-            [
-              520297.05,
-              166271.7
-            ],
-            [
-              520299.644,
-              166270.142
+              [
+                520299.644,
+                166270.142
+              ],
+              [
+                520332,
+                166250.7
+              ],
+              [
+                520332.4,
+                166251.1
+              ],
+              [
+                520333.65,
+                166252.4
+              ],
+              [
+                520334.4,
+                166253
+              ],
+              [
+                520335.1,
+                166253.55
+              ],
+              [
+                520335.6,
+                166253.95
+              ],
+              [
+                520336.8,
+                166254.65
+              ],
+              [
+                520337.2,
+                166254.9
+              ],
+              [
+                520337.75,
+                166255.15
+              ],
+              [
+                520338.2,
+                166255.35
+              ],
+              [
+                520338.6,
+                166255.45
+              ],
+              [
+                520338.95,
+                166255.55
+              ],
+              [
+                520339.3,
+                166255.7
+              ],
+              [
+                520302.04,
+                166277.97
+              ],
+              [
+                520294.2,
+                166282.65
+              ],
+              [
+                520286.55,
+                166287.35
+              ],
+              [
+                520280.3,
+                166291.2
+              ],
+              [
+                520275.5,
+                166284.55
+              ],
+              [
+                520282.04,
+                166280.645
+              ],
+              [
+                520285.905,
+                166278.337
+              ],
+              [
+                520292.75,
+                166274.25
+              ],
+              [
+                520297.05,
+                166271.7
+              ],
+              [
+                520299.644,
+                166270.142
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
+      },
+      {
+        "coordinates": [
+          520369.9660390769,
+          166216.06752830208
+        ],
+        "type": "Point"
       }
     ],
-    "type": "geometrycollection"
+    "type": "GeometryCollection"
   },
   "id": "Kingston-26_00545_CPU",
   "appeal_status": null,
   "appeal_start_date": null,
-  "description": "Erection of hip to gable and rear dormer roof extension with installation of 3nos. front rooflights to facilitate loft conversion",
+  "description": "RALEIGH DRIVE LOFT",
   "development_type": "Certificates of Lawful Development",
   "decision_conditions": [
     "The proposed works are considered to fall within the parameters of  permitted development as set out under Schedule 2, Part 1, Classes B & C of the Town and Country Planning (General Permitted Development) (England) Order 2015 (as amended)."
   ],
   "secondary_street_name": null,
-  "title_number": null,
+  "title_number": [
+    "ML897"
+  ],
   "last_date_consultation_comments": null,
   "decision_process": "Delegated",
   "centroid_northing": 166282,
-  "borough": "Royal Borough of Kingston (LA Code)",
+  "borough": "Kingston Upon Thames",
   "decision": "Approved",
   "application_type": "All Other",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.272707,
-          51.38274
-        ],
-        [
-          -0.272249,
-          51.382559
-        ],
-        [
-          -0.272243,
-          51.382562
-        ],
-        [
-          -0.272225,
-          51.382574
-        ],
-        [
-          -0.272214,
-          51.382579
-        ],
-        [
-          -0.272204,
-          51.382584
-        ],
-        [
-          -0.272196,
-          51.382587
-        ],
-        [
-          -0.272179,
-          51.382593
-        ],
-        [
-          -0.272173,
-          51.382596
-        ],
-        [
-          -0.272165,
-          51.382598
-        ],
-        [
-          -0.272159,
-          51.382599
-        ],
-        [
-          -0.272153,
-          51.3826
-        ],
-        [
-          -0.272148,
-          51.382601
-        ],
-        [
-          -0.272143,
-          51.382602
-        ],
-        [
-          -0.27267,
-          51.38281
-        ],
-        [
-          -0.272781,
-          51.382854
-        ],
-        [
-          -0.27289,
-          51.382898
-        ],
-        [
-          -0.272978,
-          51.382934
-        ],
-        [
-          -0.273049,
-          51.382875
-        ],
-        [
-          -0.272957,
-          51.382839
-        ],
-        [
-          -0.272902,
-          51.382817
-        ],
-        [
-          -0.272805,
-          51.382779
-        ],
-        [
-          -0.272744,
-          51.382755
-        ],
-        [
-          -0.272707,
-          51.38274
+          [
+            -0.272707,
+            51.38274
+          ],
+          [
+            -0.272249,
+            51.382559
+          ],
+          [
+            -0.272243,
+            51.382562
+          ],
+          [
+            -0.272225,
+            51.382574
+          ],
+          [
+            -0.272214,
+            51.382579
+          ],
+          [
+            -0.272204,
+            51.382584
+          ],
+          [
+            -0.272196,
+            51.382587
+          ],
+          [
+            -0.272179,
+            51.382593
+          ],
+          [
+            -0.272173,
+            51.382596
+          ],
+          [
+            -0.272165,
+            51.382598
+          ],
+          [
+            -0.272159,
+            51.382599
+          ],
+          [
+            -0.272153,
+            51.3826
+          ],
+          [
+            -0.272148,
+            51.382601
+          ],
+          [
+            -0.272143,
+            51.382602
+          ],
+          [
+            -0.27267,
+            51.38281
+          ],
+          [
+            -0.272781,
+            51.382854
+          ],
+          [
+            -0.27289,
+            51.382898
+          ],
+          [
+            -0.272978,
+            51.382934
+          ],
+          [
+            -0.273049,
+            51.382875
+          ],
+          [
+            -0.272957,
+            51.382839
+          ],
+          [
+            -0.272902,
+            51.382817
+          ],
+          [
+            -0.272805,
+            51.382779
+          ],
+          [
+            -0.272744,
+            51.382755
+          ],
+          [
+            -0.272707,
+            51.38274
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "decision_agency": null,
   "decision_target_date": "08/05/2026",

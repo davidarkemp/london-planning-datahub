@@ -1,13 +1,13 @@
 {
   "decision_target_date": "07/08/2025",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Minor dwellings",
   "postcode": "HA2 7SJ",
   "title_number": [],
   "application_details": {
-    "site_area": 193.8,
+    "site_area": 0.01938,
     "other_residential_accommodation_details": {
       "site_area": 193.8
     },
@@ -22,22 +22,25 @@
     "transport_impact_assessment": false,
     "existing_proposed_floorspace_details": [
       {
-        "gia_existing": null,
+        "gia_existing": 104,
+        "gia_gained": 130.5,
         "use_class": "C3",
-        "gia_gained": null,
-        "gia_lost": null
+        "gia_lost": 0
       }
     ],
     "circular_economy_statement": false,
     "commencement_notice_received": false,
     "rain_water_harvesting": false,
-    "scheme_phasing": false,
+    "scheme_phasing": true,
     "grey_water_reuse": false,
     "green_suds": false,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "site_area": 193.8
+      "site_area": 193.8,
+      "total_gia_gained": 130.5,
+      "total_gia_existing": 104,
+      "total_gia_lost": 0
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -54,13 +57,13 @@
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_proposed_residential_units_market_for_rent": 2,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
-      "habitable_rooms_density": 0,
+      "habitable_rooms_density": 0.025799793601651185,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_social_rent": 0,
@@ -78,64 +81,101 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
+          "m43_2b_compliant": false,
+          "no_habitable_rooms": 5,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "no_bedrooms": 3,
           "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
-          "unit_development_type": "Conversion",
-          "gia": null
+          "tenure": "Market for rent",
+          "gia": 104
         },
         {
-          "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "unit_development_type": "Conversion",
-          "gia": null
+          "tenure": "Market for rent",
+          "gia": 50
         },
         {
-          "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 3,
+          "provider": "Private",
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "unit_development_type": "Conversion",
-          "gia": null
+          "tenure": "Market for rent",
+          "gia": 79
         }
       ],
-      "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_market_for_rent": 1,
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "total_gia_gained": 129,
+      "total_gia_lost": 104
     },
     "infrastructure_details": {
-      "waste_provision": false,
+      "waste_provision": true,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
-      "ghg_reduction_over_building_regulations": false
-    }
+      "ghg_reduction_over_building_regulations": false,
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 0,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "no_new_gas_connections_required": 0
+    },
+    "total_gia_existing": 104,
+    "projected_cost_of_works": "Up to £2m",
+    "internal_resi_water_usage": 0,
+    "phasing_details": [
+      {
+        "phase_detail": "Entire development",
+        "intended_completion_date": "11/2025",
+        "intended_commencement_date": "08/2025"
+      }
+    ],
+    "total_gia_gained": 130.5,
+    "total_gia_lost": 0,
+    "occupation_status": "Occupied",
+    "surface_water_discharge_percentage_reduction": 0,
+    "ownership_status": "Private"
   },
   "decision_date": "16/01/2026",
   "url_planning_app": "https://planningsearch.harrow.gov.uk//planning/index.html?fa=getApplication&id=230741",
   "borough": "Harrow",
-  "locality": null,
+  "locality": "North Harrow",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
   "parking_details": null,
   "site_name": null,
-  "epc_number": null,
+  "epc_number": "2315-9011-5111-0249-1511",
   "pp_id": "14052160",
-  "subdivision_of_building": null,
+  "subdivision_of_building": "1st-3rd floor",
   "status": "Approved",
-  "description": "Conversion of first floor flat into two flats (1 x 2 bed and 1 x 1 bed); rear dormer; two rooflights in front roofslope; external alterations&nbsp;",
+  "description": "Creation of a rear dormer; two rooflights in front roof slope to create a habitable roof space; and conversion of the existing flat into 2x residential flats",
   "decision_conditions": [
     "The development hereby permitted shall be carried out in accordance with the following approved plans: Existing & Proposed Side, Rear Elevation Plans entitled Drawing entitled: MKM/24/STA64A/PL21 Page 03/05;Existing & Proposed Side & Front Elevation entitled Drawing entitled: MKM/24/STA64A/PL20 Page 04/05;Existing & Proposed Section & Roof Plans entitled Drawing entitled: MKM/24/STA64A/PL20 Page 02/05;Existing & Proposed First Floor, Second Floor Plans. Proposed Loft Plan entitled Drawing entitled: MKM/24/STA64A/PL21 Page 01/05;Location Plan entitled Drawing entitled: MKM/24/STA64A/PL20 Page 05/05;Design and Access Statement received June 2nd, 2025;Fire Statement received June 2nd, 2025;CIL Document received June 2nd, 2025;",
     "The development\nhereby permitted shall be begun before the expiration of three years from the\ndate of this permission.",
@@ -143,8 +183,8 @@
     "Notwithstanding the approved details, the development hereby approved shall not be first occupied until details of secured and sheltered cycle storage for 2 bicycles per flat, have been submitted to, and agreed in writing by, the Local Planning Authority. Thereafter, the approved cycle storage shall be made available prior to the occupation of the development in accordance with the approved details and shall thereafter be retained.",
     "The refuse and waste bins shall be stored at all times, other than on collection days, within the designated refuse storage areas as shown on the approved plans."
   ],
-  "site_number": "64A",
-  "last_updated": "2026-06-15T10:58:32.821Z",
+  "site_number": 64,
+  "last_updated": "2026-06-28T14:52:34.728Z",
   "last_date_consultation_comments": "07/08/2025",
   "valid_date": "12/06/2025",
   "actual_commencement_date": null,
@@ -196,7 +236,7 @@
   "appeal_start_date": null,
   "decision_process": "Delegated",
   "ward": "North Harrow",
-  "street_name": "STATION ROAD",
+  "street_name": "Station Road",
   "secondary_street_name": null,
   "lpa_name": "Harrow",
   "reference_no_of_permission_being_relied_on": null,
@@ -206,36 +246,36 @@
     "coordinates": [
       [
         [
-          -0.36218,
-          51.58442
+          -0.362115,
+          51.584385
         ],
         [
-          -0.361815,
-          51.584293
+          -0.362116,
+          51.584358
         ],
         [
-          -0.361845,
-          51.584245
+          -0.362159,
+          51.584359
         ],
         [
-          -0.362209,
-          51.584377
+          -0.362158,
+          51.584386
         ],
         [
-          -0.36218,
-          51.58442
+          -0.362115,
+          51.584385
         ]
       ]
     ]
   },
-  "uprn": "100021287774",
+  "uprn": 100021287774,
   "application_type": "All Other",
   "centroid": {
     "lat": 51.584372,
     "lon": -0.362137
   },
   "lapsed_date": "16/01/2029",
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "centroid_easting": 513575,
   "actual_completion_date": null
 }

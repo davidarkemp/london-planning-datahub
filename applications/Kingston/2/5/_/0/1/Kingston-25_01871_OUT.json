@@ -5,31 +5,38 @@
   "last_date_consultation_comments": "29/10/2025",
   "centroid_easting": 520103,
   "decision_target_date": "06/10/2025",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 5,
+    "net_car": 0,
+    "no_proposed_cycle": 7,
+    "no_proposed_car": 5,
+    "net_cycle": 7
+  },
   "actual_completion_date": null,
   "epc_number": "9232-0080-0228-2277-3214",
   "appeal_decision_date": null,
   "site_name": "Warren Lodge House",
-  "application_type_full": null,
-  "description": "Outline planning application for demolition of existing detached house and garages, and erection of 3 storey self-build detached house with basement  and new outbuildings. (Landscape Matter Reserved)",
+  "application_type_full": "Outline planning permission: Some matters reserved",
+  "description": "Demolition of Existing Detached house and Garages, and erection of new Detached House with Basement & 3 Floors and new outbuildings",
   "appeal_status": null,
   "application_type": "All Other",
   "ward": "Coombe Hill",
   "pp_id": "PP-14179404",
   "appeal_decision": null,
-  "uprn": "000128037202",
+  "uprn": 128037202,
   "centroid": {
     "lat": 51.425346,
     "lon": -0.27393
   },
   "appeal_start_date": null,
   "date_building_work_started_under_previous_permission": null,
-  "locality": null,
+  "locality": "Kingston Upon Thames",
   "lapsed_date": "12/05/2029",
   "bo_system": "Idox Uniform",
   "secondary_street_name": null,
   "subdivision_of_building": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "status": "Approved",
   "url_planning_app": "https://publicaccess.kingston.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=SZHCJXNHI8600",
   "lpa_app_no": "25/01871/OUT",
@@ -40,60 +47,47 @@
     "existing_uprns": [
       "000128037202"
     ],
-    "site_area": 1490,
+    "site_area": 0.149,
     "total_gia_existing": 311,
     "ownership_status": "Private",
     "constraints_details": [
       {
-        "result": null,
         "constraints_layer_description": "SASC Name: Kingston Hill/Coombe Hill"
       },
       {
-        "result": null,
         "constraints_layer_description": "AAS Name: 2.5 Coombe Hill"
       },
       {
-        "result": null,
         "constraints_layer_description": "AAS Name: Kingston Hill - Designated in UDP 1998"
       },
       {
-        "result": null,
         "constraints_layer_description": "CONARA Name: Coombe Wood Conservation Area"
       },
       {
-        "result": null,
         "constraints_layer_description": "NEIPOL Name: MC1  Maldens and Coombe"
       },
       {
-        "result": null,
         "constraints_layer_description": "LGW Name: London Gatwick Safeguarding Zone (200m)"
       },
       {
-        "result": null,
         "constraints_layer_description": "SMKCON Name: Borough Wide Smoke Control Order"
       },
       {
-        "result": null,
         "constraints_layer_description": "TPAREA Ref: MAC.06.56\rTree ref: A4\rTree category: A\rDetails: M&C Order no: 06 Year: 1956"
       },
       {
-        "result": null,
         "constraints_layer_description": "NEIGH Name: Maldens and Coombe"
       },
       {
-        "result": null,
         "constraints_layer_description": "AIRCZ Type:: Heathrow Planning Consultation Zone: All buildings, structures, erections and works exceeding 90 metres in height (295.3 feet)\rContact: The Safeguarding Department, Heathrow Airport Limited, c/o Planning Services, First Point, Buckingham Gate, Gatwick Airport, West Sussex, RH6 0NT"
       },
       {
-        "result": null,
         "constraints_layer_description": "HWTERR Type: TERRIER\rDescription: CES"
       },
       {
-        "result": null,
         "constraints_layer_description": "HWTERR Type: TERRIER\rDescription: HD"
       },
       {
-        "result": null,
         "constraints_layer_description": "VALUER Type: VALUERS\rDescription: Highways and Transport"
       }
     ],
@@ -111,38 +105,32 @@
       "residential_units": [
         {
           "m43_2b_compliant": false,
+          "no_habitable_rooms": 3,
           "m43_2a_compliant": false,
-          "description": null,
+          "m42_compliant": false,
+          "change_type": "Loss",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "no_bedrooms": 4,
+          "unit_type": "House or Bungalow",
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 311
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
           "m42_compliant": false,
           "change_type": "Gain",
           "garden_land": false,
           "sheltered_accommodation": false,
           "unit_type": "House or Bungalow",
-          "provider": "Self-Build",
           "no_habitable_rooms": 5,
-          "phase_detail": null,
-          "unit_no": null,
+          "provider": "Self-Build",
           "no_bedrooms": 7,
           "provision_for_older_persons": false,
           "tenure": "Self-Build and Custom Build",
           "gia": 823
-        },
-        {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "description": null,
-          "m42_compliant": false,
-          "change_type": "Loss",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "House or Bungalow",
-          "no_habitable_rooms": 3,
-          "phase_detail": null,
-          "unit_no": null,
-          "no_bedrooms": 4,
-          "provision_for_older_persons": false,
-          "tenure": "Market for sale",
-          "gia": 311
         }
       ],
       "total_no_existing_residential_units_affordable_rent": 0,
@@ -166,12 +154,12 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
-      "total_gia_lost": 0,
+      "total_gia_lost": 311,
       "total_no_existing_residential_units": 1,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_existing_residential_units_starter_homes": 0,
-      "total_gia_gained": 523,
+      "total_gia_gained": 823,
       "total_no_proposed_residential_affordable_units": 1
     },
     "commencement_notice_received": false,
@@ -181,8 +169,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 311,
-        "use_class": "C3",
         "gia_gained": 523,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -241,7 +229,7 @@
     "rain_water_harvesting": true,
     "building_details": [
       {
-        "no_storeys": null,
+        "no_storeys": 4,
         "max_height": 10.2,
         "building_ref": "Detached House"
       }
@@ -249,326 +237,332 @@
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "site_area": 0.15,
-      "total_gia_gained": 0,
+      "total_gia_gained": 523,
       "total_gia_lost": 0,
-      "total_gia_existing": 0,
+      "total_gia_existing": 311,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0
     },
     "garden_land_lost": false,
     "surface_water_discharge_percentage_reduction": 0,
-    "scheme_phasing": false
+    "scheme_phasing": true,
+    "total_gia_gained": 523,
+    "occupation_status": "Occupied"
   },
   "decision_process": "Delegated",
   "lpa_name": "Kingston",
   "id": "Kingston-25_01871_OUT",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              520130.92,
-              170996.94
-            ],
-            [
-              520128.73,
-              170998.74
-            ],
-            [
-              520127.2,
-              171000
-            ],
-            [
-              520126.52,
-              171000.58
-            ],
-            [
-              520119.1,
-              171006.85
-            ],
-            [
-              520106.2,
-              171017.25
-            ],
-            [
-              520092.85,
-              171027.5
-            ],
-            [
-              520089.95,
-              171021.75
-            ],
-            [
-              520084.3,
-              171007.6
-            ],
-            [
-              520088.05,
-              171003.65
-            ],
-            [
-              520092.35,
-              171000
-            ],
-            [
-              520097.8,
-              170995.35
-            ],
-            [
-              520098.05,
-              170995.55
-            ],
-            [
-              520104.85,
-              170989.85
-            ],
-            [
-              520104.7,
-              170989.45
-            ],
-            [
-              520107.55,
-              170987.15
-            ],
-            [
-              520108.7,
-              170983.9
-            ],
-            [
-              520111.45,
-              170982.45
-            ],
-            [
-              520114.44,
-              170980.14
-            ],
-            [
-              520114.95,
-              170979.75
-            ],
-            [
-              520115.274,
-              170979.426
-            ],
-            [
-              520117.65,
-              170977.05
-            ],
-            [
-              520117.95,
-              170976.75
-            ],
-            [
-              520103.652,
-              170962.489
-            ],
-            [
-              520099.897,
-              170958.744
-            ],
-            [
-              520098.9,
-              170957.75
-            ],
-            [
-              520101,
-              170954.55
-            ],
-            [
-              520102.7,
-              170951.9
-            ],
-            [
-              520114.8,
-              170964
-            ],
-            [
-              520127.15,
-              170976.55
-            ],
-            [
-              520139.3,
-              170988.75
-            ],
-            [
-              520139.9,
-              170989.55
-            ],
-            [
-              520138.187,
-              170990.959
-            ],
-            [
-              520135.89,
-              170992.85
-            ],
-            [
-              520133.35,
-              170994.94
-            ],
-            [
-              520130.92,
-              170996.94
+              [
+                520108.885,
+                170988.1
+              ],
+              [
+                520106.236,
+                170984.541
+              ],
+              [
+                520110.438,
+                170982.143
+              ],
+              [
+                520111.25,
+                170983.3
+              ],
+              [
+                520114.79,
+                170980.57
+              ],
+              [
+                520115.65,
+                170979.9
+              ],
+              [
+                520115.274,
+                170979.426
+              ],
+              [
+                520117.65,
+                170977.05
+              ],
+              [
+                520117.95,
+                170976.75
+              ],
+              [
+                520103.652,
+                170962.489
+              ],
+              [
+                520099.897,
+                170958.744
+              ],
+              [
+                520098.9,
+                170957.75
+              ],
+              [
+                520101,
+                170954.55
+              ],
+              [
+                520102.7,
+                170951.9
+              ],
+              [
+                520114.8,
+                170964
+              ],
+              [
+                520127.15,
+                170976.55
+              ],
+              [
+                520139.3,
+                170988.75
+              ],
+              [
+                520139.9,
+                170989.55
+              ],
+              [
+                520138.187,
+                170990.959
+              ],
+              [
+                520135.89,
+                170992.85
+              ],
+              [
+                520133.35,
+                170994.94
+              ],
+              [
+                520130.92,
+                170996.94
+              ],
+              [
+                520128.73,
+                170998.74
+              ],
+              [
+                520127.2,
+                171000
+              ],
+              [
+                520126.52,
+                171000.58
+              ],
+              [
+                520119.1,
+                171006.85
+              ],
+              [
+                520106.2,
+                171017.25
+              ],
+              [
+                520092.85,
+                171027.5
+              ],
+              [
+                520089.95,
+                171021.75
+              ],
+              [
+                520084.3,
+                171007.6
+              ],
+              [
+                520088.05,
+                171003.65
+              ],
+              [
+                520092.35,
+                171000
+              ],
+              [
+                520097.8,
+                170995.35
+              ],
+              [
+                520098.05,
+                170995.55
+              ],
+              [
+                520103.382,
+                170992.035
+              ],
+              [
+                520108.885,
+                170988.1
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ]
   },
   "cil_liability": true,
-  "last_updated": "2026-06-03T17:00:39.580Z",
+  "last_updated": "2026-06-28T10:41:51.979Z",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.273532,
-          51.425258
-        ],
-        [
-          -0.273562,
-          51.425275
-        ],
-        [
-          -0.273584,
-          51.425287
-        ],
-        [
-          -0.273594,
-          51.425292
-        ],
-        [
-          -0.273698,
-          51.42535
-        ],
-        [
-          -0.27388,
-          51.425446
-        ],
-        [
-          -0.274069,
-          51.425541
-        ],
-        [
-          -0.274112,
-          51.42549
-        ],
-        [
-          -0.274198,
-          51.425364
-        ],
-        [
-          -0.274146,
-          51.425328
-        ],
-        [
-          -0.274085,
-          51.425294
-        ],
-        [
-          -0.274008,
-          51.425251
-        ],
-        [
-          -0.274005,
-          51.425253
-        ],
-        [
-          -0.273909,
-          51.4252
-        ],
-        [
-          -0.273911,
-          51.425197
-        ],
-        [
-          -0.273871,
-          51.425175
-        ],
-        [
-          -0.273855,
-          51.425146
-        ],
-        [
-          -0.273816,
-          51.425132
-        ],
-        [
-          -0.273774,
-          51.425111
-        ],
-        [
-          -0.273767,
-          51.425107
-        ],
-        [
-          -0.273762,
-          51.425104
-        ],
-        [
-          -0.273729,
-          51.425082
-        ],
-        [
-          -0.273725,
-          51.42508
-        ],
-        [
-          -0.273935,
-          51.424955
-        ],
-        [
-          -0.27399,
-          51.424922
-        ],
-        [
-          -0.274005,
-          51.424913
-        ],
-        [
-          -0.273976,
-          51.424884
-        ],
-        [
-          -0.273953,
-          51.42486
-        ],
-        [
-          -0.273774,
-          51.424966
-        ],
-        [
-          -0.273593,
-          51.425076
-        ],
-        [
-          -0.273414,
-          51.425183
-        ],
-        [
-          -0.273405,
-          51.42519
-        ],
-        [
-          -0.273429,
-          51.425203
-        ],
-        [
-          -0.273461,
-          51.425221
-        ],
-        [
-          -0.273497,
-          51.42524
-        ],
-        [
-          -0.273532,
-          51.425258
+          [
+            -0.273851,
+            51.425184
+          ],
+          [
+            -0.273891,
+            51.425152
+          ],
+          [
+            -0.273831,
+            51.42513
+          ],
+          [
+            -0.273819,
+            51.42514
+          ],
+          [
+            -0.273769,
+            51.425115
+          ],
+          [
+            -0.273757,
+            51.425108
+          ],
+          [
+            -0.273762,
+            51.425104
+          ],
+          [
+            -0.273729,
+            51.425082
+          ],
+          [
+            -0.273725,
+            51.42508
+          ],
+          [
+            -0.273935,
+            51.424955
+          ],
+          [
+            -0.27399,
+            51.424922
+          ],
+          [
+            -0.274005,
+            51.424913
+          ],
+          [
+            -0.273976,
+            51.424884
+          ],
+          [
+            -0.273953,
+            51.42486
+          ],
+          [
+            -0.273774,
+            51.424966
+          ],
+          [
+            -0.273593,
+            51.425076
+          ],
+          [
+            -0.273414,
+            51.425183
+          ],
+          [
+            -0.273405,
+            51.42519
+          ],
+          [
+            -0.273429,
+            51.425203
+          ],
+          [
+            -0.273461,
+            51.425221
+          ],
+          [
+            -0.273497,
+            51.42524
+          ],
+          [
+            -0.273532,
+            51.425258
+          ],
+          [
+            -0.273562,
+            51.425275
+          ],
+          [
+            -0.273584,
+            51.425287
+          ],
+          [
+            -0.273594,
+            51.425292
+          ],
+          [
+            -0.273698,
+            51.42535
+          ],
+          [
+            -0.27388,
+            51.425446
+          ],
+          [
+            -0.274069,
+            51.425541
+          ],
+          [
+            -0.274112,
+            51.42549
+          ],
+          [
+            -0.274198,
+            51.425364
+          ],
+          [
+            -0.274146,
+            51.425328
+          ],
+          [
+            -0.274085,
+            51.425294
+          ],
+          [
+            -0.274008,
+            51.425251
+          ],
+          [
+            -0.274005,
+            51.425253
+          ],
+          [
+            -0.273929,
+            51.42522
+          ],
+          [
+            -0.273851,
+            51.425184
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "street_name": "Warren Road",
   "decision_date": "12/05/2026",
@@ -592,7 +586,7 @@
   ],
   "reference_no_of_permission_being_relied_on": null,
   "actual_commencement_date": null,
-  "borough": "Kingston",
+  "borough": "Kingston Upon Thames",
   "centroid_northing": 171006,
   "site_number": null,
   "title_number": null,

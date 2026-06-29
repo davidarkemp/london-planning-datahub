@@ -1,6 +1,6 @@
 {
   "site_name": null,
-  "site_number": "4",
+  "site_number": 4,
   "decision_process": "Delegated",
   "subdivision_of_building": null,
   "decision_date": "19/05/2026",
@@ -8,7 +8,7 @@
   "street_name": "Manston Grove",
   "lpa_name": "Kingston",
   "date_building_work_started_under_previous_permission": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "postcode": "KT2 5GF",
   "appeal_decision_date": null,
   "reference_no_of_permission_being_relied_on": null,
@@ -19,32 +19,34 @@
     "It has not been demonstrated that the proposal would comply with C.1 (b) (the alteration would protrude more than 0.15 metres beyond the plane of the slope of the original roof when measured from the perpendicular with the external surface of the original roof of Class C , Part 1, Schedule 2 of the Town and Country Planning (General Permitted Development) (England) Order 2015 (as amended)."
   ],
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.309566,
-          51.428971
-        ],
-        [
-          -0.309481,
-          51.429094
-        ],
-        [
-          -0.309665,
-          51.429125
-        ],
-        [
-          -0.309767,
-          51.428846
-        ],
-        [
-          -0.309618,
-          51.428824
-        ],
-        [
-          -0.309566,
-          51.428971
+          [
+            -0.309769,
+            51.428845
+          ],
+          [
+            -0.309617,
+            51.428824
+          ],
+          [
+            -0.309565,
+            51.428971
+          ],
+          [
+            -0.309481,
+            51.429095
+          ],
+          [
+            -0.309665,
+            51.429126
+          ],
+          [
+            -0.309769,
+            51.428845
+          ]
         ]
       ]
     ]
@@ -56,7 +58,7 @@
   "actual_commencement_date": null,
   "cil_liability": false,
   "epc_number": "9555-3053-4208-2055-7200",
-  "locality": null,
+  "locality": "Kingston Upon Thames",
   "ward": "Tudor",
   "appeal_start_date": null,
   "secondary_street_name": null,
@@ -64,45 +66,49 @@
     "lat": 51.428933,
     "lon": -0.309657
   },
-  "title_number": null,
+  "title_number": [
+    "TGL117555"
+  ],
   "decision_target_date": "21/05/2026",
   "decision": "Refused",
-  "uprn": "100021764457",
+  "uprn": 100021764457,
   "application_type": "All Other",
   "appeal_status": null,
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              517616.201,
-              171351.382
-            ],
-            [
-              517621.824,
-              171365.19
-            ],
-            [
-              517608.961,
-              171368.336
-            ],
-            [
-              517602.559,
-              171337.161
-            ],
-            [
-              517612.977,
-              171335.011
-            ],
-            [
-              517616.201,
-              171351.382
+              [
+                517602.47,
+                171337.03
+              ],
+              [
+                517613.05,
+                171334.96
+              ],
+              [
+                517616.27,
+                171351.37
+              ],
+              [
+                517621.85,
+                171365.34
+              ],
+              [
+                517608.98,
+                171368.47
+              ],
+              [
+                517602.47,
+                171337.03
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ]
   },
@@ -119,54 +125,50 @@
     ],
     "constraints_details": [
       {
-        "result": null,
         "constraints_layer_description": "NEIPOL Name: KT1  Kingston Town"
       },
       {
-        "result": null,
         "constraints_layer_description": "LGW Name: London Gatwick Safeguarding Zone (200m)"
       },
       {
-        "result": null,
         "constraints_layer_description": "SMKCON Name: Borough Wide Smoke Control Order"
       },
       {
-        "result": null,
         "constraints_layer_description": "NEIGH Name: Kingston Town"
       },
       {
-        "result": null,
         "constraints_layer_description": "AIRCZ Type:: Heathrow Planning Consultation Zone: All buildings, structures, erections and works exceeding 90 metres in height (295.3 feet)\rContact: The Safeguarding Department, Heathrow Airport Limited, c/o Planning Services, First Point, Buckingham Gate, Gatwick Airport, West Sussex, RH6 0NT"
       },
       {
-        "result": null,
         "constraints_layer_description": "AIRCZ Type:: Heathrow Planning Consultation Zone: All applications for developments likely to attract birds or connected with an aviation use.\rContact: The Safeguarding Department, Heathrow Airport Limited, c/o Planning Services, First Point, Buckingham Gate, Gatwick Airport, West Sussex, RH6 0NT"
       },
       {
-        "result": null,
         "constraints_layer_description": "HWTERR Type: TERRIER\rDescription: A"
       },
       {
-        "result": null,
         "constraints_layer_description": "HWTERR Type: TERRIER\rDescription: P"
       },
       {
-        "result": null,
         "constraints_layer_description": "SWGV Date Built: \rGradient:"
       },
       {
-        "result": null,
         "constraints_layer_description": "SWFD Pipe Reference: GS\rPurpose: OTHERS"
       }
-    ]
+    ],
+    "no_additional_bathrooms": 1,
+    "no_additional_bedrooms": 1
   },
   "status": "Refused",
-  "parking_details": null,
-  "description": "Erection of rear dormer roof extension with installation of 3nos. front rooflights to facilitate loft conversion",
+  "parking_details": {
+    "no_existing_car": 2,
+    "net_car": 0,
+    "no_proposed_car": 2
+  },
+  "description": "4 Manston Grove - loft conversion",
   "lapsed_date": "19/05/2029",
-  "application_type_full": null,
-  "borough": "Kingston",
-  "last_updated": "2026-06-03T17:01:07.019Z",
+  "application_type_full": "Lawful development: Proposed use",
+  "borough": "Kingston Upon Thames",
+  "last_updated": "2026-06-28T11:13:05.173Z",
   "development_type": "Certificates of Lawful Development",
   "id": "Kingston-26_00561_CPU",
   "valid_date": "26/03/2026"

@@ -21,7 +21,7 @@
     "surface_water_discharge_percentage_reduction": 1,
     "building_details": [
       {
-        "no_storeys": null,
+        "no_storeys": 2,
         "max_height": 11,
         "building_ref": "1"
       }
@@ -41,9 +41,9 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_lost": 0,
       "site_area": 0.04,
-      "total_gia_existing": 0,
+      "total_gia_existing": 344,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_gained": 0
+      "total_gia_gained": 82
     },
     "open_and_protected_space_details": {
       "open_spaces_details": [
@@ -61,7 +61,7 @@
     },
     "total_gia_lost": 0,
     "rain_water_harvesting": false,
-    "site_area": 443,
+    "site_area": 0.0443,
     "green_suds": false,
     "existing_proposed_floorspace_details": [
       {
@@ -112,7 +112,6 @@
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
-          "description": null,
           "m42_compliant": false,
           "change_type": "Gain",
           "garden_land": false,
@@ -120,8 +119,6 @@
           "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
@@ -134,47 +131,36 @@
     "ownership_status": "Private",
     "constraints_details": [
       {
-        "result": null,
         "constraints_layer_description": "NEIPOL Name: KT1  Kingston Town"
       },
       {
-        "result": null,
         "constraints_layer_description": "LASC Name: Grove Lane"
       },
       {
-        "result": null,
         "constraints_layer_description": "LGW Name: London Gatwick Safeguarding Zone (200m)"
       },
       {
-        "result": null,
         "constraints_layer_description": "SMKCON Name: Borough Wide Smoke Control Order"
       },
       {
-        "result": null,
         "constraints_layer_description": "FLDZ Floodzone type: ZONE 2"
       },
       {
-        "result": null,
         "constraints_layer_description": "NEIGH Name: Kingston Town"
       },
       {
-        "result": null,
         "constraints_layer_description": "AIRCZ Type:: Gatwick Airport Wind Turbine Consultation Zone:\rContact: The Safeguarding Department, Gatwick Airport Limited, 7th Floor Destinations Place, London Gatwick Airport, West Sussex, RH06 0NP"
       },
       {
-        "result": null,
         "constraints_layer_description": "AIRCZ Type:: Heathrow Planning Consultation Zone: All buildings, structures, erections and works exceeding 90 metres in height (295.3 feet)\rContact: The Safeguarding Department, Heathrow Airport Limited, c/o Planning Services, First Point, Buckingham Gate, Gatwick Airport, West Sussex, RH6 0NT"
       },
       {
-        "result": null,
         "constraints_layer_description": "HWTERR Type: TERRIER\rDescription: HD"
       },
       {
-        "result": null,
         "constraints_layer_description": "HWTERR Type: TERRIER\rDescription: HD"
       },
       {
-        "result": null,
         "constraints_layer_description": "DESCRI "
       }
     ],
@@ -202,105 +188,36 @@
       "no_active_other_ev_charging_points": 0,
       "no_active_rapid_ev_charging_points": 0,
       "no_passive_other_ev_charging_points": 0
-    }
+    },
+    "scheme_phasing": true,
+    "total_gia_gained": 82,
+    "occupation_status": "Occupied"
   },
-  "centroid_easting": 518591,
+  "centroid_easting": 518587,
   "decision_process": "Delegated",
   "wgs84_polygon": {
     "type": "Polygon",
     "coordinates": [
       [
         [
-          -0.29661,
-          51.403266
+          -0.296538,
+          51.403191
         ],
         [
-          -0.29662,
-          51.403267
+          -0.296539,
+          51.403164
         ],
         [
-          -0.296653,
-          51.403267
+          -0.296582,
+          51.403164
         ],
         [
-          -0.296727,
-          51.403268
+          -0.296581,
+          51.403191
         ],
         [
-          -0.296735,
-          51.403202
-        ],
-        [
-          -0.296739,
-          51.40318
-        ],
-        [
-          -0.296744,
-          51.403144
-        ],
-        [
-          -0.296748,
-          51.403124
-        ],
-        [
-          -0.296526,
-          51.403112
-        ],
-        [
-          -0.296517,
-          51.403111
-        ],
-        [
-          -0.296454,
-          51.403109
-        ],
-        [
-          -0.296368,
-          51.403104
-        ],
-        [
-          -0.296363,
-          51.40313
-        ],
-        [
-          -0.296362,
-          51.403139
-        ],
-        [
-          -0.296359,
-          51.403154
-        ],
-        [
-          -0.296358,
-          51.403162
-        ],
-        [
-          -0.296357,
-          51.403172
-        ],
-        [
-          -0.296357,
-          51.403186
-        ],
-        [
-          -0.296355,
-          51.403219
-        ],
-        [
-          -0.296352,
-          51.403251
-        ],
-        [
-          -0.296363,
-          51.403263
-        ],
-        [
-          -0.296482,
-          51.403265
-        ],
-        [
-          -0.29661,
-          51.403266
+          -0.296538,
+          51.403191
         ]
       ]
     ]
@@ -309,14 +226,21 @@
   "appeal_start_date": null,
   "decision_target_date": "26/06/2026",
   "actual_commencement_date": null,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 7,
+    "no_existing_car": 0,
+    "net_car": 0,
+    "no_proposed_cycle": 9,
+    "no_proposed_car": 0,
+    "net_cycle": 2
+  },
   "last_date_consultation_comments": "05/06/2026",
   "url_planning_app": "https://publicaccess.kingston.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=T9L018NHMCW00",
-  "last_updated": "2026-06-26T17:00:43.225Z",
+  "last_updated": "2026-06-28T10:17:40.264Z",
   "application_type": "All Other",
-  "site_number": "2",
+  "site_number": 2,
   "lpa_name": "Kingston",
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "centroid_northing": 168504,
   "actual_completion_date": null,
   "cil_liability": true,
@@ -327,15 +251,15 @@
   ],
   "uprn": "100023057160",
   "centroid": {
-    "lon": -0.296503,
-    "lat": 51.403177
+    "lon": -0.29656,
+    "lat": 51.403178
   },
   "date_building_work_completed_under_previous_permission": null,
   "borough": "Kingston",
   "postcode": "KT1 2UB",
   "date_building_work_started_under_previous_permission": null,
   "description": "Conversion of existing basement to a flat, with associated works to enlarge existing light wells, replacement windows, flood prevention glazing, front boundary treatment and hard and soft landscaping.",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "ward": "Kingston Town",
   "street_name": "Glenthorne Road",
   "development_type": "Minor dwellings",
@@ -447,7 +371,7 @@
     "type": "geometrycollection"
   },
   "secondary_street_name": null,
-  "locality": null,
+  "locality": "Kingston Upon Thames",
   "id": "Kingston-26_00196_FUL",
   "pp_id": "PP-14623166",
   "status": "Refused",

@@ -1,17 +1,17 @@
 {
   "decision": "Approved",
-  "postcode": null,
+  "postcode": "HA4 9BH",
   "decision_agency": "Borough",
   "last_date_consultation_comments": "28/10/2025",
-  "centroid_easting": 510148,
+  "centroid_easting": 510143,
   "decision_target_date": "31/10/2025",
   "parking_details": null,
   "actual_completion_date": null,
   "epc_number": null,
   "appeal_decision_date": null,
   "site_name": "51 VICTORIA ROAD",
-  "application_type_full": null,
-  "description": "Erection of part single storey, part two storey side and rear extension to provide an additional commercial unit at ground floor (Use Class E(c)(i), E(c)(ii), E(c)(iii), E(e) and E(g)(i)) and a 1-person studio flat at first floor, involving amendment to fenestration and demolition of two outbuildings.",
+  "application_type_full": "Full planning permission",
+  "description": "Double and single storey side and rear extension to provide \nan additional commercial unit on the ground floor [ Class E(c)(i), E(c)(ii), E(c)(iii), E(e) and E(g)(i) ]\nand provide an additional 1 person studio flat at first floor including demolition of two outbuildings.",
   "appeal_status": null,
   "application_type": "All Other",
   "ward": "RUISLIP MANOR 2022",
@@ -19,23 +19,23 @@
   "appeal_decision": null,
   "uprn": null,
   "centroid": {
-    "lat": 51.572244,
-    "lon": -0.412026
+    "lat": 51.5722,
+    "lon": -0.412099
   },
   "appeal_start_date": null,
   "date_building_work_started_under_previous_permission": null,
-  "locality": null,
+  "locality": "Ruislip",
   "lapsed_date": "31/10/2028",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "secondary_street_name": null,
-  "subdivision_of_building": null,
-  "last_updated_by": "CSV Data Import",
+  "subdivision_of_building": "Rear and Side Ground Floor",
+  "last_updated_by": "Planning Portal ingest",
   "status": "Approved",
   "url_planning_app": "http://planning.hillingdon.gov.uk/OcellaWeb/planningDetails?reference=19843/APP/2025/1984",
   "lpa_app_no": "19843/APP/2025/1984",
   "valid_date": "23/07/2025",
   "application_details": {
-    "existing_uprns": null,
+    "existing_uprns": [],
     "3d_model": false,
     "affordable_housing_fast_track": false,
     "s106_agreement": false,
@@ -46,21 +46,30 @@
     "transport_impact_assessment": false,
     "existing_proposed_floorspace_details": [
       {
-        "gia_existing": 166.9,
-        "use_class": "E",
-        "gia_gained": 110.1,
+        "gia_existing": 98.9,
+        "gia_gained": 64.5,
+        "use_class": "EC2",
+        "gia_lost": 0
+      },
+      {
+        "gia_existing": 68,
+        "gia_gained": 45.6,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
     "circular_economy_statement": false,
-    "scheme_phasing": false,
+    "scheme_phasing": true,
     "rain_water_harvesting": false,
     "commencement_notice_received": false,
     "grey_water_reuse": false,
     "green_suds": false,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 110.1,
+      "total_gia_lost": 0,
+      "total_gia_existing": 166.9
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -102,68 +111,206 @@
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
-          "description": null,
+          "m42_compliant": false,
           "change_type": "Gain",
           "garden_land": false,
           "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
-          "unit_development_type": "Extension",
-          "no_habitable_rooms": 2,
+          "no_habitable_rooms": 1,
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "gia": 44.2,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 45.6
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "total_gia_gained": 45.6
     },
     "infrastructure_details": {
-      "waste_provision": false,
+      "waste_provision": true,
       "mobile_network_operators_consultation": false,
-      "fire_suppression_system_proposed": false,
-      "ghg_reduction_over_building_regulations": false
-    }
+      "fire_suppression_system_proposed": true,
+      "ghg_reduction_over_building_regulations": false,
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 1,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 1,
+      "no_non_resi_units_to_have_full_fibre": 1,
+      "total_annual_nox_emissions": 0,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 1,
+      "no_new_gas_connections_required": 0
+    },
+    "total_gia_existing": 166.9,
+    "projected_cost_of_works": "Up to £2m",
+    "internal_resi_water_usage": 0,
+    "phasing_details": [
+      {
+        "phase_detail": "Entire Development",
+        "intended_completion_date": "12/2025",
+        "intended_commencement_date": "09/2025"
+      }
+    ],
+    "total_gia_gained": 110.1,
+    "site_area": 0.0197,
+    "total_gia_lost": 0,
+    "occupation_status": "Occupied",
+    "surface_water_discharge_percentage_reduction": 0,
+    "ownership_status": "Private"
   },
   "decision_process": "Delegated",
   "lpa_name": "Hillingdon",
   "id": "Hillingdon-19843_APP_2025_1984",
   "polygon": {
-    "type": "geometrycollection"
+    "type": "GeometryCollection",
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                510155.7,
+                187133.95
+              ],
+              [
+                510155.05,
+                187135.25
+              ],
+              [
+                510151,
+                187133.1
+              ],
+              [
+                510147.6,
+                187131.35
+              ],
+              [
+                510143.2,
+                187128.95
+              ],
+              [
+                510145.3,
+                187125.05
+              ],
+              [
+                510138.1,
+                187121.75
+              ],
+              [
+                510137.4,
+                187119.9
+              ],
+              [
+                510139.65,
+                187115.45
+              ],
+              [
+                510155.673,
+                187123.365
+              ],
+              [
+                510155.398,
+                187123.916
+              ],
+              [
+                510155.95,
+                187124.2
+              ],
+              [
+                510159.55,
+                187126.05
+              ],
+              [
+                510157.1,
+                187131.1
+              ],
+              [
+                510155.7,
+                187133.95
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ]
   },
-  "cil_liability": true,
-  "last_updated": "2026-01-26T22:59:09.386Z",
+  "cil_liability": false,
+  "last_updated": "2026-06-28T03:19:28.601Z",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.412003,
-          51.572257
-        ],
-        [
-          -0.412004,
-          51.57223
-        ],
-        [
-          -0.412048,
-          51.572231
-        ],
-        [
-          -0.412047,
-          51.572258
-        ],
-        [
-          -0.412003,
-          51.572257
+          [
+            -0.411912,
+            51.572323
+          ],
+          [
+            -0.411921,
+            51.572335
+          ],
+          [
+            -0.41198,
+            51.572316
+          ],
+          [
+            -0.412029,
+            51.572301
+          ],
+          [
+            -0.412094,
+            51.57228
+          ],
+          [
+            -0.412064,
+            51.572245
+          ],
+          [
+            -0.412169,
+            51.572217
+          ],
+          [
+            -0.41218,
+            51.5722
+          ],
+          [
+            -0.412149,
+            51.57216
+          ],
+          [
+            -0.411915,
+            51.572228
+          ],
+          [
+            -0.411919,
+            51.572233
+          ],
+          [
+            -0.411911,
+            51.572235
+          ],
+          [
+            -0.411859,
+            51.572251
+          ],
+          [
+            -0.411892,
+            51.572297
+          ],
+          [
+            -0.411912,
+            51.572323
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
-  "street_name": "RUISLIP",
+  "street_name": " 51 Victoria Road",
   "decision_date": "31/10/2025",
   "date_building_work_completed_under_previous_permission": null,
   "decision_conditions": [
@@ -241,8 +388,8 @@
   "reference_no_of_permission_being_relied_on": null,
   "actual_commencement_date": null,
   "borough": "Hillingdon",
-  "centroid_northing": 187125,
-  "site_number": null,
+  "centroid_northing": 187120,
+  "site_number": 51,
   "title_number": [],
   "development_type": null
 }

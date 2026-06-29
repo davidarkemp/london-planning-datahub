@@ -1,11 +1,96 @@
 {
   "decision": "Approved",
   "last_date_consultation_comments": "12/03/2026",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          [
+            0.223463,
+            51.570772
+          ],
+          [
+            0.224113,
+            51.570712
+          ],
+          [
+            0.224165,
+            51.570876
+          ],
+          [
+            0.223415,
+            51.570945
+          ],
+          [
+            0.223429,
+            51.57077
+          ],
+          [
+            0.223442,
+            51.570769
+          ],
+          [
+            0.223462,
+            51.570768
+          ],
+          [
+            0.223463,
+            51.570772
+          ]
+        ]
+      ]
+    ],
+    "type": "MultiPolygon"
+  },
   "date_building_work_started_under_previous_permission": null,
   "ward": "Emerson Park",
-  "site_number": null,
-  "polygon": null,
+  "site_number": 16,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                554189.95,
+                188109.05
+              ],
+              [
+                554235.15,
+                188103.75
+              ],
+              [
+                554238.2,
+                188122.05
+              ],
+              [
+                554186,
+                188128.2
+              ],
+              [
+                554187.55,
+                188108.8
+              ],
+              [
+                554188.4756926389,
+                188108.70152205968
+              ],
+              [
+                554189.9,
+                188108.55
+              ],
+              [
+                554189.95,
+                188109.05
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "appeal_status": null,
   "application_type_full": "Full planning permission",
   "borough": "Havering",
@@ -51,23 +136,24 @@
       "no_new_water_connections_required": 1,
       "no_new_gas_connections_required": 1,
       "no_non_resi_units_to_have_full_fibre": 1,
-      "mobile_network_operators_consultation": false
+      "mobile_network_operators_consultation": false,
+      "urban_greening_factor_score": 0
     },
     "internal_resi_water_usage": 105,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_lost": 0,
-      "total_gia_gained": 317,
+      "total_gia_lost": 226,
+      "total_gia_gained": 543,
       "total_gia_existing": 226
     },
     "ownership_status": "Private",
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 226,
+        "gia_gained": 543,
         "use_class": "C3",
-        "gia_gained": 317,
-        "gia_lost": 0
+        "gia_lost": 226
       }
     ],
     "green_suds": false,
@@ -78,12 +164,84 @@
         "intended_commencement_date": "05/2026"
       }
     ],
-    "total_gia_gained": 317,
+    "total_gia_gained": 543,
     "total_gia_existing": 226,
     "affordable_housing_fast_track": false,
     "grey_water_reuse": false,
-    "total_gia_lost": 0,
-    "rain_water_harvesting": false
+    "total_gia_lost": 226,
+    "rain_water_harvesting": false,
+    "occupation_status": "Occupied",
+    "residential_details": {
+      "total_no_proposed_residential_units_shared_equity": 0,
+      "total_no_proposed_bedrooms": 5,
+      "total_no_proposed_residential_units": 1,
+      "total_no_proposed_residential_units_london_living_rent": 0,
+      "total_no_proposed_residential_affordable_units": 0,
+      "total_no_existing_residential_units": 1,
+      "total_no_proposed_residential_units_affordable_rent": 0,
+      "total_no_proposed_residential_units_discount_market_sale": 0,
+      "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_london_living_rent": 0,
+      "total_no_existing_residential_units_shared_equity": 0,
+      "total_no_existing_residential_units_market_for_sale": 1,
+      "total_no_existing_residential_units_intermediate": 0,
+      "total_no_proposed_residential_units_market_for_rent": 1,
+      "total_no_existing_residential_units_social_rent": 0,
+      "total_no_proposed_residential_units_self_build_and_custom_build": 0,
+      "total_no_existing_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_affordable_units": 0,
+      "total_no_existing_residential_units_affordable_rent": 0,
+      "habitable_rooms_density": null,
+      "total_no_existing_residential_units_london_shared_ownership": 0,
+      "total_gia_gained": 543,
+      "total_no_proposed_residential_units_social_rent": 0,
+      "total_no_existing_residential_units_london_affordable_rent": 0,
+      "dwelling_density": 0,
+      "total_no_proposed_residential_units_london_affordable_rent": 0,
+      "total_no_existing_residential_units_discount_market_sale": 0,
+      "total_gia_lost": 226,
+      "total_no_proposed_residential_units_starter_homes": 0,
+      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_starter_homes": 0,
+      "total_no_proposed_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_intermediate": 0,
+      "affordable_percentage": 0,
+      "total_no_proposed_residential_units_london_shared_ownership": 0,
+      "residential_units": [
+        {
+          "m43_2b_compliant": false,
+          "no_habitable_rooms": 6,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Loss",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "no_bedrooms": 3,
+          "unit_type": "House or Bungalow",
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 226
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "House or Bungalow",
+          "no_habitable_rooms": 10,
+          "provider": "Private",
+          "no_bedrooms": 5,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 543
+        }
+      ],
+      "total_no_existing_residential_units_market_for_rent": 0,
+      "total_no_existing_residential_units_self_build_and_custom_build": 0
+    }
   },
   "development_type": null,
   "centroid_easting": 554216,
@@ -93,11 +251,11 @@
   "lpa_app_no": "P1620.25",
   "decision_process": "Delegated",
   "lapsed_date": "27/04/2029",
-  "uprn": "100021336696",
+  "uprn": 100021336696,
   "bo_system": "CSV Data Import",
   "cil_liability": true,
-  "street_name": "Hornchurch",
-  "locality": null,
+  "street_name": "Nelmes Road",
+  "locality": "Hornchurch",
   "application_type": "All Other",
   "epc_number": null,
   "decision_conditions": [
@@ -156,20 +314,20 @@
     "There are statutory exemptions and transitional arrangements which mean that the biodiversity gain condition does not always apply. These are listed in paragraph 17 of Schedule 7A of the Town and Country Planning Act 1990 and the Biodiversity Gain Requirements (Exemptions) Regulations 2024.",
     "Based on the information available this permission is considered to"
   ],
-  "reference_no_of_permission_being_relied_on": null,
+  "reference_no_of_permission_being_relied_on": "P0262.25",
   "secondary_street_name": null,
   "centroid_northing": 188114,
-  "last_updated": "2026-06-02T04:00:12.672Z",
+  "last_updated": "2026-06-28T15:04:49.205Z",
   "centroid": {
     "lon": 0.223841,
     "lat": 51.570809
   },
   "subdivision_of_building": null,
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Planning Portal ingest",
   "title_number": null,
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "id": "Havering-P1620.25",
   "parking_details": null,
-  "description": "Construction of a 5-bed, detached dwelling with habitable roof space, associated parking and amenity space, following the demolition of existing dwelling."
+  "description": "Construction of two storey, 5-bed, detached dwelling with habitable roof space, associated parking and amenity space, following the demolition of existing dwelling.  "
 }

@@ -1,17 +1,17 @@
 {
-  "borough": "City of London",
+  "borough": "City Of London",
   "application_type": "All Other",
   "decision": null,
   "decision_conditions": null,
-  "centroid_northing": "181761",
+  "centroid_northing": 181761,
   "url_planning_app": null,
   "lpa_app_no": "25/01371/FULL",
   "site_number": "27, 28",
   "ward": "FN",
-  "locality": null,
+  "locality": "London",
   "last_date_consultation_comments": "04/02/2026",
   "date_building_work_started_under_previous_permission": null,
-  "description": "Erection of a roof extension and partial change of use from Office (Class E) to create a residential unit (Class C3) and associated works.",
+  "description": "Refurbishment of existing office space and residential roof extension. ",
   "parking_details": null,
   "postcode": "EC1A 7HU",
   "appeal_status": null,
@@ -19,56 +19,46 @@
   "date_building_work_completed_under_previous_permission": null,
   "pp_id": "PP-14375868",
   "status": "Application Under Consideration",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              532033,
-              181760
-            ],
-            [
-              532034,
-              181761
-            ],
-            [
-              532030,
-              181765
-            ],
-            [
-              532030,
-              181766
-            ],
-            [
-              532029,
-              181767
-            ],
-            [
-              532027,
-              181766
-            ],
-            [
-              532021,
-              181762
-            ],
-            [
-              532023,
-              181760
-            ],
-            [
-              532026,
-              181755
-            ],
-            [
-              532033,
-              181760
+              [
+                532026.1,
+                181755.25
+              ],
+              [
+                532033,
+                181759.95
+              ],
+              [
+                532033.5,
+                181760.65
+              ],
+              [
+                532030.35,
+                181765.35
+              ],
+              [
+                532029.2,
+                181767.2
+              ],
+              [
+                532021.6530708838,
+                181762.31922686455
+              ],
+              [
+                532026.1,
+                181755.25
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ]
   },
@@ -76,62 +66,52 @@
     "coordinates": [
       [
         [
-          -0.098421,
-          51.519336
-        ],
-        [
-          -0.098406,
-          51.519345
-        ],
-        [
-          -0.098463,
-          51.519382
-        ],
-        [
-          -0.098462,
-          51.519391
-        ],
-        [
-          -0.098476,
-          51.5194
-        ],
-        [
-          -0.098505,
-          51.519392
-        ],
-        [
-          -0.098593,
-          51.519357
-        ],
-        [
-          -0.098565,
-          51.519339
-        ],
-        [
-          -0.098524,
-          51.519293
-        ],
-        [
-          -0.098421,
-          51.519336
+          [
+            -0.098522,
+            51.519295
+          ],
+          [
+            -0.098421,
+            51.519336
+          ],
+          [
+            -0.098414,
+            51.519342
+          ],
+          [
+            -0.098457,
+            51.519385
+          ],
+          [
+            -0.098473,
+            51.519402
+          ],
+          [
+            -0.098584,
+            51.51936
+          ],
+          [
+            -0.098522,
+            51.519295
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "appeal_decision_date": null,
   "secondary_street_name": null,
   "lapsed_date": null,
   "bo_system": "Idox Uniform",
   "decision_date": null,
-  "centroid_easting": "532028",
+  "centroid_easting": 532028,
   "actual_commencement_date": null,
   "id": "City_of_London-25_01371_FULL",
   "lpa_name": "City of London",
   "decision_target_date": "03/12/2025",
   "valid_date": "08/10/2025",
   "development_type": null,
-  "last_updated": "2026-06-03T20:03:35.319Z",
+  "last_updated": "2026-06-28T13:05:24.824Z",
   "subdivision_of_building": null,
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
@@ -144,7 +124,7 @@
   "street_name": "Newbury Street",
   "appeal_decision": null,
   "title_number": [],
-  "site_name": "",
+  "site_name": "27-28",
   "appeal_start_date": null,
   "application_details": {
     "affordable_housing_fast_track": false,
@@ -156,14 +136,14 @@
       }
     ],
     "total_gia_gained": 59.7,
-    "site_area": 0.007500000000000001,
+    "site_area": 0.0075,
     "total_gia_existing": 224.3,
     "total_gia_lost": 41.7,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 224.3,
-        "use_class": "EC2",
         "gia_gained": 59.7,
+        "use_class": "EC2",
         "gia_lost": 41.7
       }
     ],
@@ -228,11 +208,18 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "provider": "Private",
-          "no_habitable_rooms": 1,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 1,
+          "provider": "Private",
           "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "tenure": "IntermediateOther",
           "gia": 59.7
         }
       ],
@@ -255,11 +242,13 @@
       "fire_suppression_system_proposed": true,
       "no_new_gas_connections_required": 0,
       "ghg_reduction_over_building_regulations": false,
-      "chp_heat_pumps_capacity": 0
+      "chp_heat_pumps_capacity": 0,
+      "urban_greening_factor_score": 0
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "occupation_status": "Occupied"
   },
   "epc_number": null,
-  "uprn": "100022924488",
+  "uprn": 100022924488,
   "actual_completion_date": null
 }

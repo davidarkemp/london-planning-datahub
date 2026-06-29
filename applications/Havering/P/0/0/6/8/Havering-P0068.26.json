@@ -6,17 +6,17 @@
   "appeal_decision": null,
   "lapsed_date": "19/05/2029",
   "appeal_decision_date": null,
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Planning Portal ingest",
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": null,
-  "last_updated": "2026-06-02T04:00:05.347Z",
+  "last_updated": "2026-06-28T16:36:41.275Z",
   "url_planning_app": "http://development.havering.gov.uk/OcellaWeb/planningDetails?reference=P0068.26",
-  "street_name": "Romford",
+  "street_name": "Collier Row Lane",
   "parking_details": null,
   "ward": "Mawneys",
   "bo_system": "CSV Data Import",
   "site_name": "52& 52A Collier Row Lane",
-  "site_number": null,
+  "site_number": 52,
   "application_details": {
     "total_gia_existing": 120,
     "ownership_status": "Private",
@@ -33,8 +33,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 120,
-        "use_class": "SpecifiedOther",
         "gia_gained": 60,
+        "use_class": "Other",
         "gia_lost": 120
       }
     ],
@@ -54,7 +54,8 @@
       "mobile_network_operators_consultation": false,
       "ghg_reduction_over_building_regulations": false,
       "fire_suppression_system_proposed": false,
-      "total_annual_nox_emissions": 0
+      "total_annual_nox_emissions": 0,
+      "urban_greening_factor_score": 0
     },
     "rain_water_harvesting": false,
     "projected_cost_of_works": "Up to £2m",
@@ -70,10 +71,11 @@
       "total_gia_lost": 120,
       "total_gia_gained": 60,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0
-    }
+    },
+    "occupation_status": "Occupied"
   },
-  "uprn": "100023217452",
-  "locality": null,
+  "uprn": 100023217451,
+  "locality": "Romford",
   "date_building_work_started_under_previous_permission": null,
   "postcode": "RM5 3BB",
   "valid_date": "05/03/2026",
@@ -87,11 +89,56 @@
   "application_type_full": "Full planning permission",
   "pp_id": "14636683",
   "lpa_app_no": "P0068.26",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                550284.5,
+                190140.65
+              ],
+              [
+                550282.75,
+                190111.8
+              ],
+              [
+                550282.355426475,
+                190105.28615902778
+              ],
+              [
+                550294.4749448419,
+                190104.63975190988
+              ],
+              [
+                550295.45,
+                190118.35
+              ],
+              [
+                550296.6,
+                190140.15
+              ],
+              [
+                550290.65,
+                190140.4
+              ],
+              [
+                550284.5,
+                190140.65
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "id": "Havering-P0068.26",
   "appeal_status": null,
   "appeal_start_date": null,
-  "description": "Two storey side extension with single storey rear extension, creation of first floor balcony & privacy screen",
+  "description": "Outline planning permission with all matters reserved for two storey side/rear extension including loft conversion with rear dormer",
   "development_type": null,
   "decision_conditions": [
     "The development to which this permission relates must be commenced not later than three years from the date of this permission.",
@@ -128,7 +175,47 @@
   "borough": "Havering",
   "decision": "Approved",
   "application_type": "All Other",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          [
+            0.168023,
+            51.590079
+          ],
+          [
+            0.167985,
+            51.589821
+          ],
+          [
+            0.167977,
+            51.589762
+          ],
+          [
+            0.168151,
+            51.589753
+          ],
+          [
+            0.168171,
+            51.589876
+          ],
+          [
+            0.168197,
+            51.590072
+          ],
+          [
+            0.168112,
+            51.590075
+          ],
+          [
+            0.168023,
+            51.590079
+          ]
+        ]
+      ]
+    ],
+    "type": "MultiPolygon"
+  },
   "decision_agency": "Borough",
   "decision_target_date": "19/05/2026",
   "status": "Approved",

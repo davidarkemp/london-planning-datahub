@@ -1,16 +1,24 @@
 {
   "decision_target_date": "25/05/2026",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Other house holder developments",
   "postcode": "E17 6AG",
-  "title_number": null,
-  "application_details": {},
+  "title_number": [
+    "NGL193236"
+  ],
+  "application_details": {
+    "total_gia_gained": 7.6,
+    "no_additional_bathrooms": 0,
+    "no_additional_bedrooms": 0,
+    "intended_completion_date": "09/2026",
+    "intended_commencement_date": "05/2026"
+  },
   "decision_date": "21/05/2026",
   "url_planning_app": "https://builtenvironment.walthamforest.gov.uk/planning/index.html?fa=getApplication&id=120355",
   "borough": "Waltham Forest",
-  "locality": null,
+  "locality": "Walthamstow",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
   "parking_details": null,
@@ -19,14 +27,14 @@
   "pp_id": "14768287",
   "subdivision_of_building": null,
   "status": "Approved",
-  "description": "Construction of a single storey rear side infill extension, installation of bi-fold doors at ground floor rear elevation and construction of new bay window extension at front elevation.",
+  "description": "Single storey rear side extension (to match development at 73 Clarence Road).\nDemolition of front monopitch roof / bay and construction of new front bay.",
   "decision_conditions": null,
-  "site_number": "71",
-  "last_updated": "2026-06-02T15:54:16.843Z",
+  "site_number": 71,
+  "last_updated": "2026-06-28T09:43:20.034Z",
   "last_date_consultation_comments": "02/05/2026",
   "valid_date": "30/03/2026",
   "actual_commencement_date": null,
-  "centroid_northing": null,
+  "centroid_northing": 190327,
   "appeal_decision": null,
   "decision_agency": "Borough",
   "lpa_app_no": "260753",
@@ -34,34 +42,72 @@
   "decision": "Approved",
   "id": "Waltham_Forest-260753",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              535995.045716903,
-              190320.699646276
-            ],
-            [
-              535987.514585686,
-              190349.890421276
-            ],
-            [
-              535992.178512004,
-              190350.565008273
-            ],
-            [
-              535998.887711544,
-              190321.214821959
-            ],
-            [
-              535995.045716903,
-              190320.699646276
+              [
+                535998.3,
+                190323.5
+              ],
+              [
+                535996.8,
+                190330.25
+              ],
+              [
+                535993.119,
+                190345.488
+              ],
+              [
+                535992.584,
+                190347.851
+              ],
+              [
+                535991.9,
+                190350.75
+              ],
+              [
+                535988.205,
+                190349.878
+              ],
+              [
+                535987.45,
+                190349.7
+              ],
+              [
+                535988.134,
+                190346.801
+              ],
+              [
+                535991,
+                190335.25
+              ],
+              [
+                535991.6,
+                190332.65
+              ],
+              [
+                535994.1,
+                190322.5
+              ],
+              [
+                535994.65,
+                190320.35
+              ],
+              [
+                535998.95,
+                190321.4
+              ],
+              [
+                535998.3,
+                190323.5
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -74,46 +120,84 @@
   "appeal_start_date": null,
   "decision_process": "Delegated",
   "ward": "Higham Hill",
-  "street_name": "CLARENCE ROAD",
+  "street_name": "Clarence Road",
   "secondary_street_name": null,
   "lpa_name": "Waltham Forest",
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": null,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.038044,
-          51.595324
-        ],
-        [
-          -0.038142,
-          51.595589
-        ],
-        [
-          -0.038074,
-          51.595594
-        ],
-        [
-          -0.037989,
-          51.595328
-        ],
-        [
-          -0.038044,
-          51.595324
+          [
+            -0.037996,
+            51.595349
+          ],
+          [
+            -0.038015,
+            51.59541
+          ],
+          [
+            -0.038063,
+            51.595548
+          ],
+          [
+            -0.038069,
+            51.595569
+          ],
+          [
+            -0.038078,
+            51.595595
+          ],
+          [
+            -0.038132,
+            51.595588
+          ],
+          [
+            -0.038143,
+            51.595587
+          ],
+          [
+            -0.038134,
+            51.595561
+          ],
+          [
+            -0.038097,
+            51.595456
+          ],
+          [
+            -0.038089,
+            51.595433
+          ],
+          [
+            -0.038057,
+            51.595341
+          ],
+          [
+            -0.03805,
+            51.595321
+          ],
+          [
+            -0.037988,
+            51.59533
+          ],
+          [
+            -0.037996,
+            51.595349
+          ]
         ]
       ]
     ]
   },
-  "uprn": "100022532166",
+  "uprn": 100022532166,
   "application_type": "Householder",
   "centroid": {
-    "lat": 49.766807,
-    "lon": -7.55716
+    "lat": 51.595381,
+    "lon": -0.038043
   },
   "lapsed_date": "21/05/2029",
-  "application_type_full": null,
-  "centroid_easting": null,
+  "application_type_full": "Householder planning permission",
+  "centroid_easting": 535995,
   "actual_completion_date": null
 }

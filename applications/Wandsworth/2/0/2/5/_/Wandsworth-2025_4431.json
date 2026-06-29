@@ -20,7 +20,7 @@
   },
   "decision_process": null,
   "street_name": "Elmbourne Road",
-  "site_number": "100",
+  "site_number": 100,
   "centroid_easting": 528436,
   "polygon": {
     "geometries": [
@@ -28,48 +28,46 @@
         "coordinates": [
           [
             [
-              528406.2208576484,
-              172076.59279306442
-            ],
-            [
-              528422.229951761,
-              172090.6010058311
-            ],
-            [
-              528426.7766598938,
-              172086.37209728814
-            ],
-            [
-              528427.029369779,
-              172086.13260790723
-            ],
-            [
-              528419.6948233403,
-              172077.01456841978
-            ],
-            [
-              528414.5522610231,
-              172082.0480004626
-            ],
-            [
-              528407.4084301997,
-              172075.14756167016
-            ],
-            [
-              528406.2208576484,
-              172076.59279306442
+              [
+                528406.2,
+                172076.4
+              ],
+              [
+                528407.3,
+                172075.2
+              ],
+              [
+                528414.8,
+                172081.8
+              ],
+              [
+                528419.8,
+                172077.1
+              ],
+              [
+                528427.8978827279,
+                172085.1963099004
+              ],
+              [
+                528422.1,
+                172090.55
+              ],
+              [
+                528406.2,
+                172076.4
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
-    "type": "geometrycollection"
+    "type": "GeometryCollection"
   },
   "ward": "South Balham",
   "centroid_northing": 172070,
   "application_type": "All Other",
-  "uprn": "100022637968",
+  "uprn": 100022637968,
   "lapsed_date": null,
   "actual_completion_date": null,
   "decision": null,
@@ -83,11 +81,11 @@
   "development_type": "Minor dwellings",
   "appeal_status": null,
   "date_building_work_completed_under_previous_permission": null,
-  "description": "Demolition of garage and erection of two storey 3-bedroom single family dwelling house with associated refuse and cycle storage. ",
+  "description": "Demolition of garage and erection of two storey 3-bedroom single family dwelling house with associated outside amenity space, refuse and cycle storage ",
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
   "epc_number": null,
-  "last_updated": "2026-06-24T08:00:05.161Z",
+  "last_updated": "2026-06-28T14:47:55.199Z",
   "centroid": {
     "lon": -0.153754,
     "lat": 51.433082
@@ -99,19 +97,19 @@
     "phasing_details": [
       {
         "phase_detail": "Build",
-        "intended_commencement_date": "09/2026",
-        "intended_completion_date": "02/2027"
+        "intended_completion_date": "02/2027",
+        "intended_commencement_date": "09/2026"
       }
     ],
     "total_gia_gained": 97.7,
-    "site_area": 0.009000000000000001,
+    "site_area": 0.009,
     "total_gia_existing": 12,
     "total_gia_lost": 12,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 12,
-        "use_class": "SpecifiedOther",
         "gia_gained": 97.7,
+        "use_class": "Other",
         "gia_lost": 12
       }
     ],
@@ -175,13 +173,19 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "House or Bungalow",
           "no_habitable_rooms": 5,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "House or Bungalow",
           "no_bedrooms": 3,
-          "gia": 97,
-          "tenure": "Self-Build and Custom Build"
+          "provision_for_older_persons": false,
+          "tenure": "Self-Build and Custom Build",
+          "gia": 97
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -205,49 +209,48 @@
       "no_new_gas_connections_required": 1,
       "ghg_reduction_over_building_regulations": false
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "occupation_status": "Vacant"
   },
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.15418,
-          51.433148
-        ],
-        [
-          -0.153945,
-          51.433271
-        ],
-        [
-          -0.153881,
-          51.433232
-        ],
-        [
-          -0.153877,
-          51.43323
-        ],
-        [
-          -0.153986,
-          51.433149
-        ],
-        [
-          -0.154058,
-          51.433196
-        ],
-        [
-          -0.154164,
-          51.433135
-        ],
-        [
-          -0.15418,
-          51.433148
+          [
+            -0.15418,
+            51.433147
+          ],
+          [
+            -0.154165,
+            51.433136
+          ],
+          [
+            -0.154055,
+            51.433193
+          ],
+          [
+            -0.153985,
+            51.43315
+          ],
+          [
+            -0.153865,
+            51.433221
+          ],
+          [
+            -0.153947,
+            51.43327
+          ],
+          [
+            -0.15418,
+            51.433147
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "id": "Wandsworth-2025_4431",
   "reference_no_of_permission_being_relied_on": null,
   "title_number": null,
-  "last_updated_by": "Northgate M3"
+  "last_updated_by": "Planning Portal ingest"
 }

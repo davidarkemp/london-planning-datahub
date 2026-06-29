@@ -6,22 +6,31 @@
   "appeal_decision": null,
   "lapsed_date": "05/05/2029",
   "appeal_decision_date": null,
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Planning Portal ingest",
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": null,
-  "last_updated": "2026-05-06T04:00:07.271Z",
+  "last_updated": "2026-06-28T15:01:38.114Z",
   "url_planning_app": "http://development.havering.gov.uk/OcellaWeb/planningDetails?reference=P0289.26",
-  "street_name": "Upminster",
-  "parking_details": null,
+  "street_name": "Sycamore Avenue",
+  "parking_details": {
+    "no_existing_car": 1,
+    "net_car": 0,
+    "no_proposed_car": 1
+  },
   "ward": "Upminster",
   "bo_system": "CSV Data Import",
   "site_name": "52 Sycamore Avenue",
-  "site_number": null,
+  "site_number": 52,
   "application_details": {
-    "existing_uprns": null
+    "existing_uprns": null,
+    "total_gia_gained": 23.5,
+    "no_additional_bathrooms": 0,
+    "no_additional_bedrooms": 0,
+    "intended_commencement_date": "05/2026",
+    "intended_completion_date": "08/2026"
   },
-  "uprn": "100021412673",
-  "locality": null,
+  "uprn": 100021412673,
+  "locality": "Upminster",
   "date_building_work_started_under_previous_permission": null,
   "postcode": "RM14 2HS",
   "valid_date": "13/03/2026",
@@ -32,10 +41,71 @@
     "lon": 0.240356
   },
   "centroid_easting": 555433,
-  "application_type_full": null,
+  "application_type_full": "Householder planning permission",
   "pp_id": "14771380",
   "lpa_app_no": "P0289.26",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                555429.43,
+                185774.621
+              ],
+              [
+                555433.9,
+                185775.1
+              ],
+              [
+                555434.4,
+                185775.15
+              ],
+              [
+                555439.65,
+                185775.7
+              ],
+              [
+                555447.15,
+                185776.45
+              ],
+              [
+                555446.2,
+                185785.8
+              ],
+              [
+                555436.35,
+                185784.75
+              ],
+              [
+                555428.3,
+                185783.9
+              ],
+              [
+                555403.5,
+                185781.3
+              ],
+              [
+                555404.5,
+                185771.95
+              ],
+              [
+                555424.401,
+                185774.082
+              ],
+              [
+                555429.43,
+                185774.621
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "id": "Havering-P0289.26",
   "appeal_status": null,
   "appeal_start_date": null,
@@ -68,14 +138,72 @@
     "You are reminded that this decision notice only addresses requirements under Planning Legislation.  You also need to check whether or not the development necessitates an agreement under the requirements of the Party Wall etc. Act 1996, as this is an entirely separate process.  Further guidance on the Party Wall etc. Act 1996 can be found at: https;//www.gov.uk/housing-local-and-community/party-walls."
   ],
   "secondary_street_name": null,
-  "title_number": null,
+  "title_number": [
+    "Unregistered"
+  ],
   "last_date_consultation_comments": "08/04/2026",
   "decision_process": "Delegated",
   "centroid_northing": 185779,
   "borough": "Havering",
   "decision": "Approved",
-  "application_type": "All Other",
-  "wgs84_polygon": null,
+  "application_type": "Householder",
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          [
+            0.240302,
+            51.549458
+          ],
+          [
+            0.240367,
+            51.549461
+          ],
+          [
+            0.240374,
+            51.549462
+          ],
+          [
+            0.24045,
+            51.549465
+          ],
+          [
+            0.240559,
+            51.54947
+          ],
+          [
+            0.240549,
+            51.549554
+          ],
+          [
+            0.240407,
+            51.549547
+          ],
+          [
+            0.24029,
+            51.549542
+          ],
+          [
+            0.239932,
+            51.549525
+          ],
+          [
+            0.239942,
+            51.549441
+          ],
+          [
+            0.24023,
+            51.549455
+          ],
+          [
+            0.240302,
+            51.549458
+          ]
+        ]
+      ]
+    ],
+    "type": "MultiPolygon"
+  },
   "decision_agency": "Borough",
   "decision_target_date": "08/05/2026",
   "status": "Approved",

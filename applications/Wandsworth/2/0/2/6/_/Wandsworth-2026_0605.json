@@ -6,10 +6,10 @@
   "appeal_decision": null,
   "lapsed_date": "28/05/2029",
   "appeal_decision_date": null,
-  "last_updated_by": "Northgate M3",
+  "last_updated_by": "Planning Portal ingest",
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": null,
-  "last_updated": "2026-06-12T11:40:04.142Z",
+  "last_updated": "2026-06-28T14:52:14.200Z",
   "url_planning_app": "http://planning.wandsworth.gov.uk/Northgate/PlanningExplorer/DisplayAppDetails.aspx?AppNo=2026/0605",
   "street_name": "Girdwood Road",
   "parking_details": {
@@ -20,9 +20,9 @@
   "ward": "West Hill",
   "bo_system": "Northgate M3",
   "site_name": "Flat Basement",
-  "site_number": null,
+  "site_number": 106,
   "application_details": {
-    "site_area": 0.030500000000000003,
+    "site_area": 0.0305,
     "total_gia_existing": 60,
     "ownership_status": "Private",
     "phasing_details": [
@@ -37,8 +37,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 60,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -58,7 +58,8 @@
       "mobile_network_operators_consultation": false,
       "ghg_reduction_over_building_regulations": false,
       "fire_suppression_system_proposed": false,
-      "total_annual_nox_emissions": 0
+      "total_annual_nox_emissions": 0,
+      "urban_greening_factor_score": 0
     },
     "rain_water_harvesting": false,
     "projected_cost_of_works": "Up to £2m",
@@ -104,11 +105,15 @@
       "total_no_proposed_residential_units_affordable_rent": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 4,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 87.77
@@ -125,9 +130,10 @@
     "affordable_housing_fast_track": false,
     "grey_water_reuse": false,
     "total_gia_lost": 0,
-    "surface_water_discharge_percentage_reduction": 0
+    "surface_water_discharge_percentage_reduction": 0,
+    "occupation_status": "Occupied"
   },
-  "uprn": "10091500897",
+  "uprn": 100022648815,
   "locality": "London",
   "date_building_work_started_under_previous_permission": null,
   "postcode": "SW18 5QT",
@@ -135,10 +141,10 @@
   "cil_liability": false,
   "actual_completion_date": null,
   "centroid": {
-    "lat": 51.448454,
-    "lon": -0.214356
+    "lat": 51.448427,
+    "lon": -0.214343
   },
-  "centroid_easting": 524182,
+  "centroid_easting": 524183,
   "application_type_full": "Full planning permission",
   "pp_id": "14629502",
   "lpa_app_no": "2026/0605",
@@ -148,124 +154,134 @@
         "coordinates": [
           [
             [
-              524180.59671655926,
-              173666.64801862586
-            ],
-            [
-              524177.142035956,
-              173671.99648764514
-            ],
-            [
-              524171.1478765322,
-              173680.9939121614
-            ],
-            [
-              524165.8463022414,
-              173689.3915083768
-            ],
-            [
-              524168.69909338397,
-              173689.6914225265
-            ],
-            [
-              524170.64492780494,
-              173689.8413796025
-            ],
-            [
-              524177.7933957835,
-              173682.39351153077
-            ],
-            [
-              524180.3988350929,
-              173681.34381200426
-            ],
-            [
-              524183.54844843526,
-              173679.9941983262
-            ],
-            [
-              524191.4966873412,
-              173676.69514266984
-            ],
-            [
-              524193.3435810288,
-              173675.69542883377
-            ],
-            [
-              524197.3424356651,
-              173673.39608701319
-            ],
-            [
-              524197.0456134653,
-              173672.69628732832
-            ],
-            [
-              524196.1963721714,
-              173671.1967165763
-            ],
-            [
-              524194.79471178335,
-              173669.09731752146
-            ],
-            [
-              524192.9478180957,
-              173666.39809016616
-            ],
-            [
-              524191.496687341,
-              173664.39866249618
-            ],
-            [
-              524191.3482762411,
-              173664.14873403736
-            ],
-            [
-              524190.54850531387,
-              173663.14902020246
-            ],
-            [
-              524190.09502695303,
-              173662.69914897607
-            ],
-            [
-              524189.4931374923,
-              173662.199292059
-            ],
-            [
-              524188.8994930927,
-              173661.749420834
-            ],
-            [
-              524186.69806177745,
-              173659.9999216232
-            ],
-            [
-              524186.34352414985,
-              173659.70000747143
-            ],
-            [
-              524185.54375322256,
-              173659.10017917072
-            ],
-            [
-              524180.59671655926,
-              173666.64801862586
-            ],
-            [
-              524180.59671655926,
-              173666.64801862586
+              [
+                524174.795,
+                173675.652
+              ],
+              [
+                524177.15,
+                173672
+              ],
+              [
+                524180.6,
+                173666.65
+              ],
+              [
+                524185.55,
+                173659.1
+              ],
+              [
+                524186.35,
+                173659.7
+              ],
+              [
+                524186.7,
+                173660
+              ],
+              [
+                524188.9,
+                173661.75
+              ],
+              [
+                524189.5,
+                173662.2
+              ],
+              [
+                524190.1,
+                173662.7
+              ],
+              [
+                524190.55,
+                173663.15
+              ],
+              [
+                524191.35,
+                173664.15
+              ],
+              [
+                524191.5,
+                173664.4
+              ],
+              [
+                524192.44,
+                173665.696
+              ],
+              [
+                524192.95,
+                173666.4
+              ],
+              [
+                524194.8,
+                173669.1
+              ],
+              [
+                524195.42,
+                173670.03
+              ],
+              [
+                524196.2,
+                173671.2
+              ],
+              [
+                524197.05,
+                173672.7
+              ],
+              [
+                524197.35,
+                173673.4
+              ],
+              [
+                524193.35,
+                173675.7
+              ],
+              [
+                524191.5,
+                173676.7
+              ],
+              [
+                524183.55,
+                173680
+              ],
+              [
+                524180.4,
+                173681.35
+              ],
+              [
+                524177.8,
+                173682.4
+              ],
+              [
+                524170.65,
+                173689.85
+              ],
+              [
+                524168.7,
+                173689.7
+              ],
+              [
+                524165.85,
+                173689.4
+              ],
+              [
+                524171.15,
+                173681
+              ],
+              [
+                524174.795,
+                173675.652
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
-    "type": "geometrycollection"
+    "type": "GeometryCollection"
   },
   "id": "Wandsworth-2026_0605",
   "appeal_status": null,
   "appeal_start_date": null,
-  "description": "Retention of rear raised patio, removal of upper portion of boundary wall adjacent to No. 76 Skeena Hill and replacement with timber fence and alterations to basement in connection with change of use from 2 x flats to a single dwellinghouse with ancillary habitable space at basement level. ",
+  "description": "Change of use of basement to gym/office/utility (in association with the host property) retention of rear raised patio, removal of upper portion of boundary wall adjacent to No. 76 Skeena Hill and replacement with timber fence together with associated alterations",
   "development_type": "Other change of use",
   "decision_conditions": [
     "Reason : 1 - The proposed amalgamated dwelling by way of its excessive size would fail to comply with Policy LP25, point 1. It would therefore represent the unacceptable loss of a self-contained dwelling.",
@@ -275,7 +291,7 @@
   "title_number": null,
   "last_date_consultation_comments": "12/05/2026",
   "decision_process": null,
-  "centroid_northing": 173675,
+  "centroid_northing": 173672,
   "borough": "Wandsworth",
   "decision": "Refused",
   "application_type": "All Other",
@@ -283,116 +299,126 @@
     "coordinates": [
       [
         [
-          -0.214379,
-          51.44838
-        ],
-        [
-          -0.214427,
-          51.448428
-        ],
-        [
-          -0.21451,
-          51.448511
-        ],
-        [
-          -0.214583,
-          51.448587
-        ],
-        [
-          -0.214542,
-          51.448589
-        ],
-        [
-          -0.214514,
-          51.44859
-        ],
-        [
-          -0.214414,
-          51.448522
-        ],
-        [
-          -0.214377,
-          51.448512
-        ],
-        [
-          -0.214332,
-          51.448499
-        ],
-        [
-          -0.214219,
-          51.448468
-        ],
-        [
-          -0.214193,
-          51.448458
-        ],
-        [
-          -0.214136,
-          51.448437
-        ],
-        [
-          -0.21414,
-          51.44843
-        ],
-        [
-          -0.214153,
-          51.448417
-        ],
-        [
-          -0.214174,
-          51.448399
-        ],
-        [
-          -0.214202,
-          51.448375
-        ],
-        [
-          -0.214223,
-          51.448357
-        ],
-        [
-          -0.214225,
-          51.448355
-        ],
-        [
-          -0.214237,
-          51.448346
-        ],
-        [
-          -0.214244,
-          51.448342
-        ],
-        [
-          -0.214253,
-          51.448338
-        ],
-        [
-          -0.214261,
-          51.448334
-        ],
-        [
-          -0.214294,
-          51.448319
-        ],
-        [
-          -0.214299,
-          51.448316
-        ],
-        [
-          -0.214311,
-          51.448311
-        ],
-        [
-          -0.214379,
-          51.44838
-        ],
-        [
-          -0.214379,
-          51.44838
+          [
+            -0.214459,
+            51.448462
+          ],
+          [
+            -0.214427,
+            51.448428
+          ],
+          [
+            -0.214379,
+            51.44838
+          ],
+          [
+            -0.21431,
+            51.448311
+          ],
+          [
+            -0.214299,
+            51.448316
+          ],
+          [
+            -0.214294,
+            51.448319
+          ],
+          [
+            -0.214261,
+            51.448334
+          ],
+          [
+            -0.214253,
+            51.448338
+          ],
+          [
+            -0.214244,
+            51.448342
+          ],
+          [
+            -0.214237,
+            51.448346
+          ],
+          [
+            -0.214225,
+            51.448355
+          ],
+          [
+            -0.214223,
+            51.448357
+          ],
+          [
+            -0.214209,
+            51.448368
+          ],
+          [
+            -0.214201,
+            51.448375
+          ],
+          [
+            -0.214174,
+            51.448399
+          ],
+          [
+            -0.214165,
+            51.448407
+          ],
+          [
+            -0.214153,
+            51.448417
+          ],
+          [
+            -0.21414,
+            51.44843
+          ],
+          [
+            -0.214136,
+            51.448437
+          ],
+          [
+            -0.214192,
+            51.448458
+          ],
+          [
+            -0.214219,
+            51.448468
+          ],
+          [
+            -0.214332,
+            51.448499
+          ],
+          [
+            -0.214377,
+            51.448512
+          ],
+          [
+            -0.214414,
+            51.448522
+          ],
+          [
+            -0.214514,
+            51.44859
+          ],
+          [
+            -0.214542,
+            51.448589
+          ],
+          [
+            -0.214583,
+            51.448587
+          ],
+          [
+            -0.21451,
+            51.448511
+          ],
+          [
+            -0.214459,
+            51.448462
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "decision_agency": "Borough",
   "decision_target_date": "28/04/2026",

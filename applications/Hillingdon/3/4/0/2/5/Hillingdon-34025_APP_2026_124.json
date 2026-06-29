@@ -5,41 +5,129 @@
     "coordinates": [
       [
         [
-          -0.416689,
-          51.505077
-        ],
-        [
-          -0.416689,
-          51.50505
-        ],
-        [
-          -0.416733,
-          51.50505
-        ],
-        [
-          -0.416732,
-          51.505077
-        ],
-        [
-          -0.416689,
-          51.505077
+          [
+            -0.416713,
+            51.50502
+          ],
+          [
+            -0.416561,
+            51.504975
+          ],
+          [
+            -0.416527,
+            51.505017
+          ],
+          [
+            -0.416495,
+            51.505058
+          ],
+          [
+            -0.416852,
+            51.505164
+          ],
+          [
+            -0.416853,
+            51.505163
+          ],
+          [
+            -0.416895,
+            51.505109
+          ],
+          [
+            -0.416917,
+            51.505081
+          ],
+          [
+            -0.416877,
+            51.505069
+          ],
+          [
+            -0.416773,
+            51.505038
+          ],
+          [
+            -0.416741,
+            51.505028
+          ],
+          [
+            -0.416713,
+            51.50502
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "date_building_work_started_under_previous_permission": "12/03/2024",
   "ward": "HAYES TOWN 2022",
-  "site_number": null,
+  "site_number": 3,
   "polygon": {
-    "geometries": [],
-    "type": "geometrycollection"
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                509984.952,
+                179642.125
+              ],
+              [
+                509995.6,
+                179637.35
+              ],
+              [
+                509997.85,
+                179642.05
+              ],
+              [
+                510000,
+                179646.65
+              ],
+              [
+                509974.95,
+                179658
+              ],
+              [
+                509974.85,
+                179657.8
+              ],
+              [
+                509972.104,
+                179651.819
+              ],
+              [
+                509970.65,
+                179648.65
+              ],
+              [
+                509973.45,
+                179647.4
+              ],
+              [
+                509980.7,
+                179644.1
+              ],
+              [
+                509983,
+                179643
+              ],
+              [
+                509984.952,
+                179642.125
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
   },
   "appeal_status": null,
   "application_type_full": "Full planning permission",
   "borough": "Hillingdon",
   "lpa_name": "Hillingdon",
-  "postcode": null,
+  "postcode": "UB3 3BT",
   "appeal_start_date": null,
   "appeal_decision_date": null,
   "status": "Approved",
@@ -51,13 +139,13 @@
   "url_planning_app": "http://planning.hillingdon.gov.uk/OcellaWeb/planningDetails?reference=34025/APP/2026/124",
   "application_details": {
     "surface_water_discharge_percentage_reduction": 0,
-    "site_area": 0.028300000000000002,
+    "site_area": 0.0283,
     "existing_uprns": [],
     "projected_cost_of_works": "Up to £2m",
-    "scheme_phasing": false,
+    "scheme_phasing": true,
     "garden_land_lost": false,
     "infrastructure_details": {
-      "fire_suppression_system_proposed": false,
+      "fire_suppression_system_proposed": true,
       "green_roof_area": 0,
       "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
@@ -70,7 +158,8 @@
       "no_new_water_connections_required": 1,
       "no_new_gas_connections_required": 1,
       "no_non_resi_units_to_have_full_fibre": 0,
-      "mobile_network_operators_consultation": false
+      "mobile_network_operators_consultation": false,
+      "urban_greening_factor_score": 0
     },
     "internal_resi_water_usage": 125,
     "ownership_status": "Private",
@@ -85,8 +174,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 146.21,
-        "use_class": "C3",
         "gia_gained": 165.28,
+        "use_class": "C3",
         "gia_lost": 146.21
       }
     ],
@@ -106,8 +195,8 @@
     "residential_details": {
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
-      "total_no_proposed_residential_units_market_for_sale": 0,
-      "total_no_proposed_residential_units": 0,
+      "total_no_proposed_residential_units_market_for_sale": 2,
+      "total_no_proposed_residential_units": 2,
       "affordable_percentage": 0,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
@@ -115,23 +204,68 @@
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_social_rent": 0,
-      "residential_units": [],
+      "residential_units": [
+        {
+          "m43_2b_compliant": false,
+          "no_habitable_rooms": 6,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Loss",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "no_bedrooms": 4,
+          "unit_type": "Semi Detached Home",
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 146.21
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 4,
+          "provider": "Private",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 87.22
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 4,
+          "provider": "Private",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 71.37
+        }
+      ],
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "total_no_existing_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_units_market_for_sale": 1,
       "total_no_existing_residential_units_intermediate": 0,
-      "total_no_proposed_bedrooms": 0,
+      "total_no_proposed_bedrooms": 4,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 70.67137809187278,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_shared_equity": 0,
-      "total_no_existing_residential_units": 0,
+      "total_no_existing_residential_units": 1,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_gia_gained": 158.59,
@@ -139,7 +273,7 @@
       "total_no_existing_residential_affordable_units": 0,
       "total_gia_lost": 146.21,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "habitable_rooms_density": 0,
+      "habitable_rooms_density": 282.6855123674911,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_starter_homes": 0,
@@ -157,21 +291,22 @@
     },
     "3d_model": false,
     "borough_cil_liability_notice_issued": false,
-    "transport_impact_assessment": false
+    "transport_impact_assessment": false,
+    "occupation_status": "Occupied"
   },
   "development_type": null,
-  "centroid_easting": 509985,
+  "centroid_easting": 509979,
   "decision_target_date": "03/04/2026",
   "decision_agency": "Borough",
   "actual_commencement_date": null,
   "lpa_app_no": "34025/APP/2026/124",
   "decision_process": "Delegated",
   "lapsed_date": "02/04/2029",
-  "uprn": null,
+  "uprn": 100021429688,
   "bo_system": "CSV Data Import",
   "cil_liability": false,
-  "street_name": "HAYES",
-  "locality": null,
+  "street_name": "Little Road",
+  "locality": "Hayes",
   "application_type": "All Other",
   "epc_number": "9628-3900-6200-6090-5204",
   "decision_conditions": [
@@ -210,18 +345,18 @@
   ],
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
-  "centroid_northing": 179647,
-  "last_updated": "2026-04-10T22:00:05.469Z",
+  "centroid_northing": 179648,
+  "last_updated": "2026-06-28T06:19:49.035Z",
   "centroid": {
-    "lon": -0.416711,
-    "lat": 51.505064
+    "lon": -0.416797,
+    "lat": 51.505074
   },
   "subdivision_of_building": null,
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Planning Portal ingest",
   "title_number": [],
   "appeal_decision": null,
-  "date_building_work_completed_under_previous_permission": "01/07/2024",
+  "date_building_work_completed_under_previous_permission": "30/06/2024",
   "id": "Hillingdon-34025_APP_2026_124",
   "parking_details": null,
-  "description": "Conversion of internal garage to habitable room, retention of windows to the side elevation, retention of an additional roof light, amendments to the previously approved rear dormer and the erection of a front porch (Retrospective application)."
+  "description": "Retention of two self-contained flats (Retrospective)."
 }

@@ -33,46 +33,44 @@
   "parking_details": null,
   "decision_process": null,
   "street_name": "Bolingbroke Grove",
-  "site_number": "94",
-  "centroid_easting": 527258,
+  "site_number": 94,
+  "centroid_easting": 527277,
   "polygon": {
     "geometries": [
       {
         "coordinates": [
           [
             [
-              527244.1975816488,
-              174736.1018909046
-            ],
-            [
-              527275.5040786704,
-              174748.74827092007
-            ],
-            [
-              527278.6289568297,
-              174740.99049155798
-            ],
-            [
-              527247.6027918857,
-              174728.3541086815
-            ],
-            [
-              527246.3495425975,
-              174729.10389405873
-            ],
-            [
-              527244.1975816488,
-              174736.1018909046
+              [
+                527268.3297111588,
+                174745.82576609327
+              ],
+              [
+                527271.5385511157,
+                174738.10593909695
+              ],
+              [
+                527278.631,
+                174740.994
+              ],
+              [
+                527275.5,
+                174748.75
+              ],
+              [
+                527268.3297111588,
+                174745.82576609327
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
-    "type": "geometrycollection"
+    "type": "GeometryCollection"
   },
   "ward": "Northcote",
-  "centroid_northing": 174737,
+  "centroid_northing": 174746,
   "application_type": "All Other",
   "uprn": "100023297492",
   "lapsed_date": "22/06/2029",
@@ -88,14 +86,14 @@
   "development_type": "Minor dwellings",
   "appeal_status": null,
   "date_building_work_completed_under_previous_permission": null,
-  "description": "Demolition of existing garage and erection of a 1-bedroom/1-person single-storey plus roof level accommodation dwellinghouse with associated outside amenity space and refuse and cycle storage.",
+  "description": "Demolition of existing garage and erection of a 1-bedroom/1-person single storey with roof accommodation property with associated outside amenity space and refuse and cycle storage.",
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
   "epc_number": null,
-  "last_updated": "2026-06-22T16:50:03.539Z",
+  "last_updated": "2026-06-28T07:47:11.041Z",
   "centroid": {
-    "lon": -0.169733,
-    "lat": 51.457316
+    "lon": -0.169457,
+    "lat": 51.457393
   },
   "lpa_name": "Wandsworth",
   "secondary_street_name": null,
@@ -104,19 +102,19 @@
     "phasing_details": [
       {
         "phase_detail": "Build",
-        "intended_commencement_date": "02/2026",
-        "intended_completion_date": "04/2026"
+        "intended_completion_date": "04/2026",
+        "intended_commencement_date": "02/2026"
       }
     ],
     "total_gia_gained": 45,
-    "site_area": 0.005620000000000001,
+    "site_area": 0.00562,
     "total_gia_existing": 23,
     "total_gia_lost": 23,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 23,
-        "use_class": "C3",
         "gia_gained": 45,
+        "use_class": "C3",
         "gia_lost": 23
       }
     ],
@@ -180,13 +178,19 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "House or Bungalow",
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "House or Bungalow",
           "no_bedrooms": 1,
-          "gia": 48,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 48
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -207,43 +211,43 @@
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": true,
       "no_new_gas_connections_required": 1,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "urban_greening_factor_score": 0
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "occupation_status": "Occupied"
   },
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.169932,
-          51.457311
-        ],
-        [
-          -0.169477,
-          51.457418
-        ],
-        [
-          -0.169435,
-          51.457348
-        ],
-        [
-          -0.169886,
-          51.457241
-        ],
-        [
-          -0.169904,
-          51.457248
-        ],
-        [
-          -0.169932,
-          51.457311
+          [
+            -0.169581,
+            51.457393
+          ],
+          [
+            -0.169538,
+            51.457323
+          ],
+          [
+            -0.169435,
+            51.457348
+          ],
+          [
+            -0.169477,
+            51.457418
+          ],
+          [
+            -0.169581,
+            51.457393
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "id": "Wandsworth-2025_4607",
   "reference_no_of_permission_being_relied_on": null,
   "title_number": null,
-  "last_updated_by": "Northgate M3"
+  "last_updated_by": "Planning Portal ingest"
 }

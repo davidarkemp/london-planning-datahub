@@ -1,16 +1,21 @@
 {
   "decision_target_date": "19/05/2026",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Certificates of Lawful Development",
   "postcode": "E17 3BG",
-  "title_number": null,
-  "application_details": {},
+  "title_number": [
+    "Unregistered"
+  ],
+  "application_details": {
+    "no_additional_bathrooms": 0,
+    "no_additional_bedrooms": 0
+  },
   "decision_date": "18/05/2026",
   "url_planning_app": "https://builtenvironment.walthamforest.gov.uk/planning/index.html?fa=getApplication&id=120234",
   "borough": "Waltham Forest",
-  "locality": null,
+  "locality": "Walthamstow",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
   "parking_details": null,
@@ -19,14 +24,14 @@
   "pp_id": "14801320",
   "subdivision_of_building": null,
   "status": "Approved",
-  "description": "Lawful Development Certificate (Proposed) - Construction of a single storey outbuilding within the rear garden.&nbsp;",
+  "description": "Rectory Road Garden Room",
   "decision_conditions": null,
-  "site_number": "27",
-  "last_updated": "2026-06-02T15:54:16.418Z",
+  "site_number": 27,
+  "last_updated": "2026-06-28T09:54:28.153Z",
   "last_date_consultation_comments": "15/04/2026",
   "valid_date": "24/03/2026",
   "actual_commencement_date": null,
-  "centroid_northing": 189421,
+  "centroid_northing": 189423,
   "appeal_decision": null,
   "decision_agency": "Borough",
   "lpa_app_no": "260766",
@@ -34,38 +39,84 @@
   "decision": "Approved",
   "id": "Waltham_Forest-260766",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              537609.107607718,
-              189419.34131456
-            ],
-            [
-              537611.1745109,
-              189419.930121976
-            ],
-            [
-              537648.43653603,
-              189428.39963469
-            ],
-            [
-              537649.805684048,
-              189423.216473729
-            ],
-            [
-              537610.365638769,
-              189414.314923824
-            ],
-            [
-              537609.107607718,
-              189419.34131456
+              [
+                537642.95,
+                189427.05
+              ],
+              [
+                537626.276,
+                189423.345
+              ],
+              [
+                537625.4,
+                189423.15
+              ],
+              [
+                537623.896,
+                189422.802
+              ],
+              [
+                537610.5,
+                189419.7
+              ],
+              [
+                537609.349,
+                189419.302
+              ],
+              [
+                537609.336,
+                189419.297
+              ],
+              [
+                537610.542,
+                189414.289
+              ],
+              [
+                537611.75,
+                189414.55
+              ],
+              [
+                537614.418,
+                189415.127
+              ],
+              [
+                537625.18,
+                189417.455
+              ],
+              [
+                537627.608,
+                189418.019
+              ],
+              [
+                537636.35,
+                189420.05
+              ],
+              [
+                537644.15,
+                189421.8
+              ],
+              [
+                537649.95,
+                189423.2
+              ],
+              [
+                537648.7,
+                189428.4
+              ],
+              [
+                537642.95,
+                189427.05
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -78,50 +129,96 @@
   "appeal_start_date": null,
   "decision_process": "Delegated",
   "ward": "Hoe Street",
-  "street_name": "RECTORY ROAD",
+  "street_name": "Rectory Road",
   "secondary_street_name": null,
   "lpa_name": "Waltham Forest",
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": null,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.01511,
-          51.586833
-        ],
-        [
-          -0.01508,
-          51.586838
-        ],
-        [
-          -0.01454,
-          51.586905
-        ],
-        [
-          -0.014522,
-          51.586858
-        ],
-        [
-          -0.015094,
-          51.586788
-        ],
-        [
-          -0.01511,
-          51.586833
+          [
+            -0.014619,
+            51.586894
+          ],
+          [
+            -0.014861,
+            51.586865
+          ],
+          [
+            -0.014874,
+            51.586864
+          ],
+          [
+            -0.014896,
+            51.586861
+          ],
+          [
+            -0.01509,
+            51.586836
+          ],
+          [
+            -0.015107,
+            51.586833
+          ],
+          [
+            -0.015107,
+            51.586833
+          ],
+          [
+            -0.015092,
+            51.586788
+          ],
+          [
+            -0.015074,
+            51.58679
+          ],
+          [
+            -0.015035,
+            51.586794
+          ],
+          [
+            -0.014879,
+            51.586812
+          ],
+          [
+            -0.014844,
+            51.586817
+          ],
+          [
+            -0.014717,
+            51.586833
+          ],
+          [
+            -0.014604,
+            51.586847
+          ],
+          [
+            -0.01452,
+            51.586858
+          ],
+          [
+            -0.014536,
+            51.586905
+          ],
+          [
+            -0.014619,
+            51.586894
+          ]
         ]
       ]
     ]
   },
-  "uprn": "100022579875",
+  "uprn": 100022579875,
   "application_type": "All Other",
   "centroid": {
-    "lat": 51.586843,
-    "lon": -0.014823
+    "lat": 51.586859,
+    "lon": -0.014707
   },
   "lapsed_date": "18/05/2026",
-  "application_type_full": null,
-  "centroid_easting": 537629,
+  "application_type_full": "Lawful development: Proposed use",
+  "centroid_easting": 537637,
   "actual_completion_date": null
 }

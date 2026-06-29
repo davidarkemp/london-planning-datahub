@@ -1,6 +1,6 @@
 {
   "decision_target_date": "10/06/2026",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Minor dwellings",
@@ -48,44 +48,36 @@
     "total_gia_existing": 164.2,
     "commencement_notice_received": false,
     "non_residential_details": {
-      "total_gia_gained": 0,
+      "total_gia_gained": 25.37,
       "site_area": 0.02,
-      "total_gia_existing": 0,
+      "total_gia_existing": 164.2,
       "total_gia_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0
     },
     "constraints_details": [
       {
-        "result": null,
         "constraints_layer_description": "LGW Name: London Gatwick Safeguarding Zone (200m)"
       },
       {
-        "result": null,
         "constraints_layer_description": "SMKCON Name: Borough Wide Smoke Control Order"
       },
       {
-        "result": null,
         "constraints_layer_description": "KEYACH Name: Tolworth Key Area of Change"
       },
       {
-        "result": null,
         "constraints_layer_description": "NEIPOL Name: SB1  South of the Borough"
       },
       {
-        "result": null,
         "constraints_layer_description": "NEIGH Name: South of the Borough"
       },
       {
-        "result": null,
         "constraints_layer_description": "AIRCZ Type:: Gatwick Airport Wind Turbine Consultation Zone:\rContact: The Safeguarding Department, Gatwick Airport Limited, 7th Floor Destinations Place, London Gatwick Airport, West Sussex, RH06 0NP"
       },
       {
-        "result": null,
         "constraints_layer_description": "HWTERR Type: TERRIER\rDescription: HD"
       },
       {
-        "result": null,
         "constraints_layer_description": "DESCRI "
       }
     ],
@@ -100,7 +92,7 @@
     "residential_details": {
       "total_no_existing_residential_units_shared_equity": 0,
       "dwelling_density": 0,
-      "total_gia_gained": 25.37,
+      "total_gia_gained": 180.62,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_market_for_rent": 2,
       "total_no_proposed_bedrooms": 5,
@@ -125,7 +117,7 @@
       "total_no_existing_residential_units_intermediate": 0,
       "affordable_percentage": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
-      "total_gia_lost": 0,
+      "total_gia_lost": 164.2,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_proposed_residential_affordable_units": 0,
@@ -139,17 +131,28 @@
       "residential_units": [
         {
           "m43_2b_compliant": false,
+          "no_habitable_rooms": 2,
           "m43_2a_compliant": false,
-          "description": null,
+          "m42_compliant": false,
+          "change_type": "Loss",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "no_bedrooms": 5,
+          "unit_type": "Semi Detached Home",
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 164.2
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
           "m42_compliant": false,
           "change_type": "Gain",
           "garden_land": false,
           "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
-          "provider": "Private",
           "no_habitable_rooms": 1,
-          "phase_detail": null,
-          "unit_no": null,
+          "provider": "Private",
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
@@ -158,37 +161,17 @@
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
-          "description": null,
           "m42_compliant": false,
           "change_type": "Gain",
           "garden_land": false,
           "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
-          "provider": "Private",
           "no_habitable_rooms": 1,
-          "phase_detail": null,
-          "unit_no": null,
+          "provider": "Private",
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 93.83
-        },
-        {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "description": null,
-          "m42_compliant": false,
-          "change_type": "Loss",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "Semi Detached Home",
-          "no_habitable_rooms": 2,
-          "phase_detail": null,
-          "unit_no": null,
-          "no_bedrooms": 5,
-          "provision_for_older_persons": false,
-          "tenure": "Market for rent",
-          "gia": 164.2
         }
       ]
     },
@@ -207,33 +190,40 @@
       "open_space_mol_area_loss": 0,
       "open_space_local_and_other_area_gain": 0
     },
-    "site_area": 200,
+    "site_area": 0.02,
     "ownership_status": "Private",
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 164.2,
-        "use_class": "C3",
         "gia_gained": 25.37,
+        "use_class": "C3",
         "gia_lost": 0
       }
-    ]
+    ],
+    "scheme_phasing": true,
+    "total_gia_gained": 25.37,
+    "occupation_status": "Occupied"
   },
   "decision_date": null,
   "url_planning_app": "https://publicaccess.kingston.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TC34HVNHFMV00",
-  "borough": "Kingston",
-  "locality": null,
+  "borough": "Kingston Upon Thames",
+  "locality": "Tolworth",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Idox Uniform",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 1,
+    "net_car": 0,
+    "no_proposed_car": 1
+  },
   "site_name": null,
   "epc_number": null,
   "pp_id": "PP-14788585",
   "subdivision_of_building": null,
   "status": "Application Under Consideration",
-  "description": "Demolition of an existing outbuilding garage, conversion of single dwellinghouse into two self-contained flats. Erection of rear dormer roof extension with 2nos front roof lights, subdivision of the rear garden to provide private amenity space, provision of refuse and cycle storage, and associated works",
+  "description": "Conversion of single dwellinghouse into two self-contained flats, including rear dormer extension with front roof lights, subdivision of the rear garden to provide private amenity space, provision of refuse and cycle storage, and associated works ",
   "decision_conditions": null,
-  "site_number": "65",
-  "last_updated": "2026-06-03T17:01:09.501Z",
+  "site_number": 65,
+  "last_updated": "2026-06-28T14:42:58.389Z",
   "last_date_consultation_comments": "22/05/2026",
   "valid_date": "15/04/2026",
   "actual_commencement_date": null,
@@ -245,118 +235,124 @@
   "decision": null,
   "id": "Kingston-26_00583_FUL",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              519354.4,
-              165755.5
-            ],
-            [
-              519356.05,
-              165758.25
-            ],
-            [
-              519358.65,
-              165762.55
-            ],
-            [
-              519359.4,
-              165763.85
-            ],
-            [
-              519359.973,
-              165764.817
-            ],
-            [
-              519360.2,
-              165765.2
-            ],
-            [
-              519355.95,
-              165774.8
-            ],
-            [
-              519354.511,
-              165774.357
-            ],
-            [
-              519352.7,
-              165773.8
-            ],
-            [
-              519352.051,
-              165773.616
-            ],
-            [
-              519347.75,
-              165772.4
-            ],
-            [
-              519347.106,
-              165772.193
-            ],
-            [
-              519341.5,
-              165770.45
-            ],
-            [
-              519342.5,
-              165766.45
-            ],
-            [
-              519345.55,
-              165754.3
-            ],
-            [
-              519346.05,
-              165752.25
-            ],
-            [
-              519346.2,
-              165751.65
-            ],
-            [
-              519346.4,
-              165751.1
-            ],
-            [
-              519346.6,
-              165750.5
-            ],
-            [
-              519346.95,
-              165749.6
-            ],
-            [
-              519347.3,
-              165748.75
-            ],
-            [
-              519347.75,
-              165747.95
-            ],
-            [
-              519348.05,
-              165747.35
-            ],
-            [
-              519348.5,
-              165746.75
-            ],
-            [
-              519348.85,
-              165746.4
-            ],
-            [
-              519354.4,
-              165755.5
+              [
+                519347.106,
+                165772.193
+              ],
+              [
+                519341.5,
+                165770.45
+              ],
+              [
+                519342.5,
+                165766.45
+              ],
+              [
+                519345.55,
+                165754.3
+              ],
+              [
+                519346.05,
+                165752.25
+              ],
+              [
+                519346.2,
+                165751.65
+              ],
+              [
+                519346.4,
+                165751.1
+              ],
+              [
+                519346.6,
+                165750.5
+              ],
+              [
+                519346.95,
+                165749.6
+              ],
+              [
+                519347.3,
+                165748.75
+              ],
+              [
+                519347.75,
+                165747.95
+              ],
+              [
+                519348.05,
+                165747.35
+              ],
+              [
+                519348.5,
+                165746.75
+              ],
+              [
+                519348.85,
+                165746.4
+              ],
+              [
+                519354.4,
+                165755.5
+              ],
+              [
+                519356.05,
+                165758.25
+              ],
+              [
+                519358.65,
+                165762.55
+              ],
+              [
+                519359.4,
+                165763.85
+              ],
+              [
+                519359.973,
+                165764.817
+              ],
+              [
+                519360.2,
+                165765.2
+              ],
+              [
+                519356.203,
+                165774.228
+              ],
+              [
+                519355.95,
+                165774.8
+              ],
+              [
+                519354.511,
+                165774.357
+              ],
+              [
+                519352.7,
+                165773.8
+              ],
+              [
+                519352.051,
+                165773.616
+              ],
+              [
+                519347.75,
+                165772.4
+              ],
+              [
+                519347.106,
+                165772.193
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ]
   },
@@ -369,124 +365,130 @@
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": true,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.286456,
-          51.378314
-        ],
-        [
-          -0.286432,
-          51.378339
-        ],
-        [
-          -0.286393,
-          51.378377
-        ],
-        [
-          -0.286382,
-          51.378388
-        ],
-        [
-          -0.286373,
-          51.378397
-        ],
-        [
-          -0.28637,
-          51.3784
-        ],
-        [
-          -0.286428,
-          51.378488
-        ],
-        [
-          -0.286449,
-          51.378484
-        ],
-        [
-          -0.286475,
-          51.378479
-        ],
-        [
-          -0.286484,
-          51.378478
-        ],
-        [
-          -0.286546,
-          51.378468
-        ],
-        [
-          -0.286556,
-          51.378466
-        ],
-        [
-          -0.286637,
-          51.378451
-        ],
-        [
-          -0.286624,
-          51.378415
-        ],
-        [
-          -0.286584,
-          51.378305
-        ],
-        [
-          -0.286577,
-          51.378287
-        ],
-        [
-          -0.286575,
-          51.378282
-        ],
-        [
-          -0.286573,
-          51.378277
-        ],
-        [
-          -0.28657,
-          51.378271
-        ],
-        [
-          -0.286565,
-          51.378263
-        ],
-        [
-          -0.286561,
-          51.378255
-        ],
-        [
-          -0.286554,
-          51.378248
-        ],
-        [
-          -0.28655,
-          51.378242
-        ],
-        [
-          -0.286544,
-          51.378237
-        ],
-        [
-          -0.286539,
-          51.378234
-        ],
-        [
-          -0.286456,
-          51.378314
+          [
+            -0.286556,
+            51.378466
+          ],
+          [
+            -0.286637,
+            51.378451
+          ],
+          [
+            -0.286624,
+            51.378415
+          ],
+          [
+            -0.286584,
+            51.378305
+          ],
+          [
+            -0.286577,
+            51.378287
+          ],
+          [
+            -0.286575,
+            51.378282
+          ],
+          [
+            -0.286573,
+            51.378277
+          ],
+          [
+            -0.28657,
+            51.378271
+          ],
+          [
+            -0.286565,
+            51.378263
+          ],
+          [
+            -0.286561,
+            51.378255
+          ],
+          [
+            -0.286554,
+            51.378248
+          ],
+          [
+            -0.28655,
+            51.378242
+          ],
+          [
+            -0.286544,
+            51.378237
+          ],
+          [
+            -0.286539,
+            51.378234
+          ],
+          [
+            -0.286456,
+            51.378314
+          ],
+          [
+            -0.286432,
+            51.378339
+          ],
+          [
+            -0.286393,
+            51.378377
+          ],
+          [
+            -0.286382,
+            51.378388
+          ],
+          [
+            -0.286373,
+            51.378397
+          ],
+          [
+            -0.28637,
+            51.3784
+          ],
+          [
+            -0.286424,
+            51.378482
+          ],
+          [
+            -0.286428,
+            51.378488
+          ],
+          [
+            -0.286449,
+            51.378484
+          ],
+          [
+            -0.286475,
+            51.378479
+          ],
+          [
+            -0.286484,
+            51.378478
+          ],
+          [
+            -0.286546,
+            51.378468
+          ],
+          [
+            -0.286556,
+            51.378466
+          ]
         ]
       ]
     ]
   },
-  "uprn": "100021792206",
+  "uprn": 100021792206,
   "application_type": "All Other",
   "centroid": {
     "lat": 51.378373,
     "lon": -0.286446
   },
   "lapsed_date": null,
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "centroid_easting": 519355,
   "actual_completion_date": null
 }

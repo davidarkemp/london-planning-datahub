@@ -1,14 +1,14 @@
 {
-  "site_number": null,
+  "site_number": 13,
   "decision_target_date": "23/12/2025",
-  "postcode": "",
+  "postcode": "UB8 1AP",
   "centroid": {
-    "lat": 51.549314,
-    "lon": -0.478564
+    "lat": 51.549303,
+    "lon": -0.47842
   },
   "application_type": "All Other",
   "polygon": {
-    "type": "Polygon",
+    "type": "GeometryCollection",
     "coordinates": [
       [
         [
@@ -48,41 +48,207 @@
           184472.542
         ]
       ]
+    ],
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                505609.1,
+                184478.3
+              ],
+              [
+                505601.5,
+                184488.85
+              ],
+              [
+                505596.057,
+                184496.39
+              ],
+              [
+                505587.522,
+                184489.124
+              ],
+              [
+                505584.094,
+                184486.206
+              ],
+              [
+                505575.039,
+                184476.916
+              ],
+              [
+                505572.90021809813,
+                184474.5770661668
+              ],
+              [
+                505576.659,
+                184469.6
+              ],
+              [
+                505585.309,
+                184458.95
+              ],
+              [
+                505597.9329196832,
+                184469.3322858015
+              ],
+              [
+                505609.1,
+                184478.3
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      },
+      {
+        "coordinates": [
+          [
+            [
+              [
+                505596.057,
+                184496.39
+              ],
+              [
+                505589.6,
+                184504.75
+              ],
+              [
+                505587.75,
+                184503.35
+              ],
+              [
+                505586.85,
+                184502.95
+              ],
+              [
+                505583.7,
+                184507.3
+              ],
+              [
+                505553.04,
+                184479.48
+              ],
+              [
+                505555.51,
+                184477.124
+              ],
+              [
+                505522.32,
+                184444.38
+              ],
+              [
+                505522.68,
+                184444.04
+              ],
+              [
+                505493.85,
+                184416.75
+              ],
+              [
+                505508.85,
+                184401.65
+              ],
+              [
+                505504.237,
+                184397.037
+              ],
+              [
+                505509.051,
+                184392.39
+              ],
+              [
+                505556.3,
+                184432.8
+              ],
+              [
+                505585.309,
+                184458.95
+              ],
+              [
+                505576.659,
+                184469.6
+              ],
+              [
+                505572.90021809813,
+                184474.5770661668
+              ],
+              [
+                505584.094,
+                184486.206
+              ],
+              [
+                505596.057,
+                184496.39
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
     ]
   },
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.478542,
-          51.549327
-        ],
-        [
-          -0.478542,
-          51.5493
-        ],
-        [
-          -0.478586,
-          51.549301
-        ],
-        [
-          -0.478585,
-          51.549328
-        ],
-        [
-          -0.478542,
-          51.549327
+          [
+            -0.478288,
+            51.549322
+          ],
+          [
+            -0.478394,
+            51.549419
+          ],
+          [
+            -0.478471,
+            51.549487
+          ],
+          [
+            -0.478596,
+            51.549424
+          ],
+          [
+            -0.478646,
+            51.549398
+          ],
+          [
+            -0.478779,
+            51.549316
+          ],
+          [
+            -0.478811,
+            51.549296
+          ],
+          [
+            -0.478758,
+            51.54925
+          ],
+          [
+            -0.478637,
+            51.549153
+          ],
+          [
+            -0.478452,
+            51.549244
+          ],
+          [
+            -0.478288,
+            51.549322
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "ward": "UXBRIDGE 2022",
   "secondary_street_name": "UXBRIDGE",
   "borough": "Hillingdon",
   "actual_completion_date": null,
   "application_details": {
-    "site_area": 0.018000000000000002,
+    "site_area": 0.0695,
     "existing_uprns": [],
     "3d_model": false,
     "affordable_housing_fast_track": false,
@@ -93,17 +259,20 @@
     "borough_cil_liability_notice_issued": false,
     "transport_impact_assessment": false,
     "circular_economy_statement": false,
-    "scheme_phasing": false,
-    "rain_water_harvesting": false,
+    "scheme_phasing": true,
+    "rain_water_harvesting": true,
     "commencement_notice_received": false,
     "grey_water_reuse": false,
-    "green_suds": false,
+    "green_suds": true,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "site_area": 0.018000000000000002
+      "site_area": 0.018000000000000002,
+      "total_gia_gained": 80,
+      "total_gia_existing": 180,
+      "total_gia_lost": 0
     },
-    "garden_land_lost": false,
+    "garden_land_lost": true,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_proposed_bedrooms": 4,
@@ -142,35 +311,36 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 4,
-          "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
-          "unit_type": "Semi Detached Home",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "no_bedrooms": 2,
-          "provision_for_older_persons": false,
-          "tenure": "Market for rent",
-          "gia": 90
-        },
-        {
-          "no_habitable_rooms": 4,
-          "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
-          "change_type": "Loss",
           "unit_type": "Semi Detached Home",
-          "no_bedrooms": 2,
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 90
         },
         {
           "m43_2b_compliant": false,
+          "no_habitable_rooms": 4,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Loss",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "no_bedrooms": 2,
+          "unit_type": "Semi Detached Home",
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 90
+        },
+        {
+          "m43_2b_compliant": false,
           "m43_2a_compliant": true,
-          "description": null,
           "m42_compliant": false,
           "change_type": "Gain",
           "garden_land": false,
@@ -178,8 +348,6 @@
           "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
@@ -188,7 +356,6 @@
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": true,
-          "description": null,
           "m42_compliant": false,
           "change_type": "Gain",
           "garden_land": false,
@@ -196,8 +363,6 @@
           "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
@@ -206,7 +371,6 @@
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": true,
-          "description": null,
           "m42_compliant": false,
           "change_type": "Gain",
           "garden_land": false,
@@ -214,8 +378,6 @@
           "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
@@ -224,7 +386,6 @@
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": true,
-          "description": null,
           "m42_compliant": false,
           "change_type": "Gain",
           "garden_land": false,
@@ -232,8 +393,6 @@
           "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
@@ -246,33 +405,70 @@
       "total_gia_lost": 180
     },
     "infrastructure_details": {
-      "waste_provision": false,
+      "waste_provision": true,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": true,
+      "total_annual_pm_emissions": 0,
+      "no_active_slow_ev_charging_points": 5,
+      "no_resi_units_to_have_full_fibre": 4,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "solar_pv_capacity": 0.01,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 2,
+      "no_passive_slow_ev_charging_points": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "no_new_gas_connections_required": 2
     },
     "other_residential_accommodation_details": {
       "site_area": 0.018000000000000002
-    }
+    },
+    "total_gia_existing": 180,
+    "projected_cost_of_works": "Up to £2m",
+    "internal_resi_water_usage": 105,
+    "phasing_details": [
+      {
+        "phase_detail": "Entire development",
+        "intended_completion_date": "12/2026",
+        "intended_commencement_date": "03/2026"
+      }
+    ],
+    "total_gia_gained": 80,
+    "total_gia_lost": 0,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 180,
+        "gia_gained": 80,
+        "use_class": "C3",
+        "gia_lost": 0
+      }
+    ],
+    "occupation_status": "Occupied",
+    "surface_water_discharge_percentage_reduction": 0,
+    "ownership_status": "Private"
   },
   "appeal_status": null,
   "site_name": "13 & 15",
   "date_building_work_completed_under_previous_permission": null,
   "actual_commencement_date": null,
-  "street_name": "LANCASTER ROAD",
+  "street_name": "Lancaster Road",
   "url_planning_app": "http://planning.hillingdon.gov.uk/OcellaWeb/planningDetails?reference=31596/APP/2025/2125",
-  "uprn": null,
+  "uprn": 100021486144,
   "appeal_start_date": null,
   "decision_date": "23/12/2025",
   "reference_no_of_permission_being_relied_on": null,
-  "description": "Demolition of two semi-detached dwellinghouses and erection of building to contain 4no. self-contained flats across at 13-15 Lancaster Road, to include landscaping, cycle storage, bin storage and parking. \n\nIncludes the change of use of a section of Penfield Estate (under the same title number) to provide parking serving the new flats.",
-  "epc_number": null,
+  "description": "Demolition of two semi-detached two storey dwellings, to provide 4no. 1-bedroom flats across two storeys, at 13-15 Lancaster Road.\nIncludes the change of use of a section of Penfield Estate (under the same title number) to provide parking serving the new flats.",
+  "epc_number": "2180-3149-6070-4104-9271",
   "title_number": [],
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "date_building_work_started_under_previous_permission": null,
   "decision_agency": "Borough",
-  "last_updated_by": "Portal",
-  "last_updated": "2026-05-12T11:27:50.534Z",
+  "last_updated_by": "Planning Portal ingest",
+  "last_updated": "2026-06-28T02:04:45.586Z",
   "subdivision_of_building": null,
   "valid_date": "03/09/2025",
   "lapsed_date": "23/12/2028",
@@ -280,11 +476,18 @@
   "decision_process": "Delegated",
   "lpa_app_no": "31596/APP/2025/2125",
   "decision": "Approved",
-  "centroid_easting": 505590,
+  "centroid_easting": 505600,
   "id": "Hillingdon-31596_APP_2025_2125",
-  "locality": "MIDDLESEX",
+  "locality": "Uxbridge",
   "development_type": null,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 0,
+    "net_car": 5,
+    "no_proposed_cycle": 8,
+    "no_proposed_car": 5,
+    "net_cycle": 8
+  },
   "last_date_consultation_comments": "02/10/2025",
   "cil_liability": false,
   "bo_system": "Portal",
@@ -391,5 +594,5 @@
   "lpa_name": "Hillingdon",
   "appeal_decision": null,
   "appeal_decision_date": null,
-  "centroid_northing": 184477
+  "centroid_northing": 184476
 }

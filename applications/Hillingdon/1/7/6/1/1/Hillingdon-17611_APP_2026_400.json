@@ -6,21 +6,22 @@
   "appeal_decision": null,
   "lapsed_date": null,
   "appeal_decision_date": null,
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Planning Portal ingest",
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": null,
-  "last_updated": "2026-04-28T22:00:03.811Z",
+  "last_updated": "2026-06-28T06:17:44.229Z",
   "url_planning_app": "http://planning.hillingdon.gov.uk/OcellaWeb/planningDetails?reference=17611/APP/2026/400",
-  "street_name": "HILLINGDON",
+  "street_name": "Pield Heath Road",
   "parking_details": null,
   "ward": "COLHAM & COWLEY",
   "bo_system": "CSV Data Import",
   "site_name": "42 PIELD HEATH ROAD",
-  "site_number": null,
+  "site_number": 42,
   "application_details": {
     "other_residential_accommodation_details": {
       "other_resi_accommodation_unit_details": [
         {
+          "no_bedrooms_for_older_persons_c2": 2,
           "no_rooms_proposed": 2,
           "unit_type": "Hotel Room",
           "no_rooms_lost": 1
@@ -43,8 +44,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 254,
-        "use_class": "C1",
         "gia_gained": 187,
+        "use_class": "C1",
         "gia_lost": 0
       }
     ],
@@ -66,7 +67,8 @@
       "no_passive_fast_ev_charging_points": 0,
       "fire_suppression_system_proposed": false,
       "total_annual_nox_emissions": 0,
-      "no_active_fast_ev_charging_points": 2
+      "no_active_fast_ev_charging_points": 2,
+      "urban_greening_factor_score": 0
     },
     "rain_water_harvesting": true,
     "projected_cost_of_works": "Up to £2m",
@@ -112,30 +114,46 @@
       "total_no_proposed_residential_units_affordable_rent": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 1,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Other",
           "no_bedrooms": 1,
+          "unit_type": "Other",
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 10
         },
         {
-          "provider": "Private",
-          "no_habitable_rooms": 1,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": true,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Other",
+          "no_habitable_rooms": 1,
+          "provider": "Private",
           "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 20
         },
         {
-          "provider": "Private",
-          "no_habitable_rooms": 2,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Other",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
           "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 42
         }
@@ -151,39 +169,293 @@
     "surface_water_discharge_percentage_reduction": 10,
     "site_area": 0.0862,
     "affordable_housing_fast_track": false,
-    "grey_water_reuse": false
+    "grey_water_reuse": false,
+    "occupation_status": "Occupied"
   },
-  "uprn": null,
-  "locality": null,
+  "uprn": 100021492075,
+  "locality": "Uxbridge",
   "date_building_work_started_under_previous_permission": null,
-  "postcode": null,
+  "postcode": "UB8 3NG",
   "valid_date": "16/02/2026",
   "cil_liability": false,
   "actual_completion_date": null,
   "centroid": {
-    "lat": 51.525896,
-    "lon": -0.454924
+    "lat": 51.525931,
+    "lon": -0.454909
   },
-  "centroid_easting": 507284,
+  "centroid_easting": 507285,
   "application_type_full": "Full planning permission",
   "pp_id": "14704364",
   "lpa_app_no": "17611/APP/2026/400",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                507276.252,
+                181906.023
+              ],
+              [
+                507275.88,
+                181902.02
+              ],
+              [
+                507275.7,
+                181900.1
+              ],
+              [
+                507274.6,
+                181888.3
+              ],
+              [
+                507273.45,
+                181878.9
+              ],
+              [
+                507277.25,
+                181878.3
+              ],
+              [
+                507280.7,
+                181877.85
+              ],
+              [
+                507287.3,
+                181876.9
+              ],
+              [
+                507286.9,
+                181891.35
+              ],
+              [
+                507287,
+                181893.4
+              ],
+              [
+                507288.35,
+                181900.45
+              ],
+              [
+                507292.2,
+                181900.2
+              ],
+              [
+                507293.75,
+                181902.6
+              ],
+              [
+                507295.15,
+                181911.5
+              ],
+              [
+                507295.04,
+                181918.73
+              ],
+              [
+                507295,
+                181921.75
+              ],
+              [
+                507295.05,
+                181933.3
+              ],
+              [
+                507294.6,
+                181933.45
+              ],
+              [
+                507279.3,
+                181934.1
+              ],
+              [
+                507279.1,
+                181934.1
+              ],
+              [
+                507278.45,
+                181927.65
+              ],
+              [
+                507278.018,
+                181923.334
+              ],
+              [
+                507278,
+                181923.15
+              ],
+              [
+                507277.65,
+                181920.5
+              ],
+              [
+                507277.35,
+                181917.6
+              ],
+              [
+                507276.527,
+                181908.985
+              ],
+              [
+                507276.5,
+                181908.7
+              ],
+              [
+                507276.46,
+                181908.27
+              ],
+              [
+                507276.252,
+                181906.023
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "id": "Hillingdon-17611_APP_2026_400",
   "appeal_status": null,
   "appeal_start_date": null,
-  "description": "Proposed first-floor rear extension to create additional rooms and a single-storey rear infill extension to create an accessible room (amended drawings)",
+  "description": "Proposed first-floor rear extension to create additional rooms and a single-storey rear infill extension to create an accessible room with associated internal alterations ",
   "development_type": null,
   "decision_conditions": null,
   "secondary_street_name": null,
   "title_number": null,
   "last_date_consultation_comments": "13/05/2026",
   "decision_process": null,
-  "centroid_northing": 181907,
+  "centroid_northing": 181911,
   "borough": "Hillingdon",
   "decision": null,
   "application_type": "All Other",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          [
+            -0.455036,
+            51.525888
+          ],
+          [
+            -0.455043,
+            51.525852
+          ],
+          [
+            -0.455046,
+            51.525835
+          ],
+          [
+            -0.455066,
+            51.525729
+          ],
+          [
+            -0.455085,
+            51.525645
+          ],
+          [
+            -0.45503,
+            51.525639
+          ],
+          [
+            -0.454981,
+            51.525634
+          ],
+          [
+            -0.454886,
+            51.525624
+          ],
+          [
+            -0.454887,
+            51.525754
+          ],
+          [
+            -0.454885,
+            51.525773
+          ],
+          [
+            -0.454864,
+            51.525836
+          ],
+          [
+            -0.454808,
+            51.525833
+          ],
+          [
+            -0.454785,
+            51.525854
+          ],
+          [
+            -0.454762,
+            51.525934
+          ],
+          [
+            -0.454762,
+            51.525999
+          ],
+          [
+            -0.454761,
+            51.526026
+          ],
+          [
+            -0.454757,
+            51.52613
+          ],
+          [
+            -0.454764,
+            51.526131
+          ],
+          [
+            -0.454984,
+            51.52614
+          ],
+          [
+            -0.454987,
+            51.52614
+          ],
+          [
+            -0.454998,
+            51.526082
+          ],
+          [
+            -0.455006,
+            51.526043
+          ],
+          [
+            -0.455006,
+            51.526042
+          ],
+          [
+            -0.455012,
+            51.526018
+          ],
+          [
+            -0.455017,
+            51.525992
+          ],
+          [
+            -0.455032,
+            51.525915
+          ],
+          [
+            -0.455032,
+            51.525912
+          ],
+          [
+            -0.455033,
+            51.525908
+          ],
+          [
+            -0.455036,
+            51.525888
+          ]
+        ]
+      ]
+    ],
+    "type": "MultiPolygon"
+  },
   "decision_agency": "Borough",
   "decision_target_date": "12/06/2026",
   "status": "Application Under Consideration",

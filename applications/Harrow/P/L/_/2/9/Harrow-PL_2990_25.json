@@ -1,11 +1,13 @@
 {
   "decision_target_date": "13/01/2026",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Certificates of Lawful Development",
   "postcode": "HA1 1NZ",
-  "title_number": [],
+  "title_number": [
+    "MX214281"
+  ],
   "application_details": {
     "3d_model": false,
     "affordable_housing_fast_track": false,
@@ -18,11 +20,8 @@
     "transport_impact_assessment": false,
     "existing_proposed_floorspace_details": [
       {
-        "gia_existing": null,
         "use_class": "C3",
-        "gia_gained": null,
-        "actual_commencement_date": "22/04/2026",
-        "gia_lost": null
+        "actual_commencement_date": "22/04/2026"
       }
     ],
     "commencement_notice_received": false,
@@ -74,28 +73,20 @@
       "residential_units": [
         {
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
           "change_type": "Loss",
           "actual_commencement_date": "13/01/2026",
           "unit_type": "House or Bungalow",
           "provision_for_older_persons": false,
-          "unit_development_type": "Change of Use",
-          "gia": null
+          "unit_development_type": "Change of Use"
         },
         {
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
           "change_type": "Gain",
           "actual_commencement_date": "13/01/2026",
           "unit_type": "Other",
           "no_bedrooms": 5,
           "provision_for_older_persons": false,
-          "unit_development_type": "Change of Use",
-          "gia": null
+          "unit_development_type": "Change of Use"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -115,30 +106,36 @@
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "ghg_reduction_over_building_regulations": false
-    }
+    },
+    "no_additional_bathrooms": 2,
+    "no_additional_bedrooms": 2
   },
   "decision_date": "13/01/2026",
   "url_planning_app": "https://planningsearch.harrow.gov.uk//planning/index.html?fa=getApplication&id=231730",
   "borough": "Harrow",
-  "locality": null,
+  "locality": "Harrow",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 2,
+    "net_car": 0,
+    "no_proposed_car": 2
+  },
   "site_name": null,
-  "epc_number": null,
+  "epc_number": "0650-2803-6612-9828-5001",
   "pp_id": "14494721",
   "subdivision_of_building": null,
   "status": "Commenced",
-  "description": "Certificate of Lawful Development (Proposed): Change of use\nfrom single dwellinghouse (Class C3(a)) for supported living for\nup to 6 people (Class C3(b))&nbsp;",
+  "description": "90 Salisbury Road Harrow HA1 1NZ",
   "decision_conditions": [
     "The proposed use of the dwellinghouse as a supported living accommodation facility for up to 5 persons (5 bed) (Use Class C3(b)) would not result in a material change of use from Class C3 (Dwellinghouses) and would therefore be within the tolerances of the Town and Country Planning (Use Class) Order 1987 (as amended).The proposal is therefore a lawful development."
   ],
-  "site_number": "90",
-  "last_updated": "2026-06-08T15:00:55.635Z",
+  "site_number": 90,
+  "last_updated": "2026-06-28T11:14:12.024Z",
   "last_date_consultation_comments": "15/12/2025",
   "valid_date": "18/11/2025",
   "actual_commencement_date": "13/01/2026",
-  "centroid_northing": 188586,
+  "centroid_northing": 188584,
   "appeal_decision": null,
   "decision_agency": "Borough",
   "lpa_app_no": "PL/2990/25",
@@ -146,34 +143,80 @@
   "decision": "Approved",
   "id": "Harrow-PL_2990_25",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              514889.998078799,
-              188586.053566898
-            ],
-            [
-              514891.644259301,
-              188579.044296632
-            ],
-            [
-              514922.827362173,
-              188585.406815956
-            ],
-            [
-              514921.373264271,
-              188592.142269828
-            ],
-            [
-              514889.998078799,
-              188586.053566898
+              [
+                514921.392,
+                188592.194
+              ],
+              [
+                514908.426,
+                188589.635
+              ],
+              [
+                514904.9,
+                188588.9
+              ],
+              [
+                514896.05,
+                188587.15
+              ],
+              [
+                514890.05,
+                188585.95
+              ],
+              [
+                514891.5,
+                188578.95
+              ],
+              [
+                514896.1,
+                188579.9
+              ],
+              [
+                514904.85,
+                188581.65
+              ],
+              [
+                514920.179,
+                188584.88
+              ],
+              [
+                514922.65,
+                188585.4
+              ],
+              [
+                514922.95,
+                188583.85
+              ],
+              [
+                514928.3,
+                188584.9
+              ],
+              [
+                514927.45,
+                188589.15
+              ],
+              [
+                514926.6,
+                188593.2
+              ],
+              [
+                514923.702,
+                188592.64
+              ],
+              [
+                514921.392,
+                188592.194
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -186,46 +229,92 @@
   "appeal_start_date": null,
   "decision_process": null,
   "ward": "Marlborough",
-  "street_name": "SALISBURY ROAD",
+  "street_name": "Salisbury Road",
   "secondary_street_name": null,
   "lpa_name": "Harrow",
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": false,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.343154,
-          51.58443
-        ],
-        [
-          -0.343133,
-          51.584366
-        ],
-        [
-          -0.342681,
-          51.584417
-        ],
-        [
-          -0.342699,
-          51.584478
-        ],
-        [
-          -0.343154,
-          51.58443
+          [
+            -0.342699,
+            51.584479
+          ],
+          [
+            -0.342887,
+            51.584458
+          ],
+          [
+            -0.342938,
+            51.584452
+          ],
+          [
+            -0.343066,
+            51.584438
+          ],
+          [
+            -0.343153,
+            51.584429
+          ],
+          [
+            -0.343135,
+            51.584366
+          ],
+          [
+            -0.343068,
+            51.584373
+          ],
+          [
+            -0.342941,
+            51.584387
+          ],
+          [
+            -0.342719,
+            51.584413
+          ],
+          [
+            -0.342683,
+            51.584417
+          ],
+          [
+            -0.342679,
+            51.584403
+          ],
+          [
+            -0.342602,
+            51.584412
+          ],
+          [
+            -0.342613,
+            51.58445
+          ],
+          [
+            -0.342624,
+            51.584487
+          ],
+          [
+            -0.342666,
+            51.584482
+          ],
+          [
+            -0.342699,
+            51.584479
+          ]
         ]
       ]
     ]
   },
-  "uprn": "100021284771",
+  "uprn": 100021284771,
   "application_type": "All Other",
   "centroid": {
-    "lat": 51.584426,
-    "lon": -0.342923
+    "lat": 51.584409,
+    "lon": -0.342996
   },
   "lapsed_date": "13/01/2026",
-  "application_type_full": null,
-  "centroid_easting": 514906,
+  "application_type_full": "Lawful development: Proposed use",
+  "centroid_easting": 514901,
   "actual_completion_date": null
 }

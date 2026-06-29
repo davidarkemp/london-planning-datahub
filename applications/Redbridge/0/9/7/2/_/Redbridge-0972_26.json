@@ -1,11 +1,13 @@
 {
   "decision_target_date": "08/06/2026",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": null,
   "postcode": "IG3 9QJ",
-  "title_number": [],
+  "title_number": [
+    "EGL364044"
+  ],
   "application_details": {
     "3d_model": false,
     "affordable_housing_fast_track": false,
@@ -61,14 +63,10 @@
       "residential_units": [
         {
           "actual_completion_date": "04/06/2026",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "provision_for_older_persons": false,
-          "gia": null
+          "provision_for_older_persons": false
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -79,12 +77,14 @@
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "ghg_reduction_over_building_regulations": false
-    }
+    },
+    "no_additional_bathrooms": 1,
+    "no_additional_bedrooms": 3
   },
   "decision_date": null,
   "url_planning_app": null,
   "borough": "Redbridge",
-  "locality": null,
+  "locality": "Ilford",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
   "parking_details": {},
@@ -93,10 +93,10 @@
   "pp_id": "PP-14850845",
   "subdivision_of_building": null,
   "status": "Application Under Consideration",
-  "description": "Use of rear outbuilding as a separate dwelling (summary)",
+  "description": "outbuilding",
   "decision_conditions": null,
-  "site_number": "133",
-  "last_updated": "2026-06-11T11:03:05.169Z",
+  "site_number": 133,
+  "last_updated": "2026-06-28T13:31:35.985Z",
   "last_date_consultation_comments": "05/05/2026",
   "valid_date": "14/04/2026",
   "actual_commencement_date": "07/02/2018",
@@ -108,7 +108,90 @@
   "decision": null,
   "id": "Redbridge-0972_26",
   "polygon": {
-    "type": "geometrycollection"
+    "type": "GeometryCollection",
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                546884.2,
+                187215.4
+              ],
+              [
+                546883.4,
+                187222.75
+              ],
+              [
+                546882.974,
+                187226.775
+              ],
+              [
+                546881.686,
+                187237.634
+              ],
+              [
+                546881.208,
+                187241.641
+              ],
+              [
+                546880.349,
+                187248.835
+              ],
+              [
+                546872.75,
+                187248.25
+              ],
+              [
+                546873.646,
+                187240.739
+              ],
+              [
+                546874.124,
+                187236.733
+              ],
+              [
+                546874.727,
+                187231.679
+              ],
+              [
+                546875.408,
+                187225.974
+              ],
+              [
+                546875.488,
+                187225.304
+              ],
+              [
+                546875.634,
+                187223.948
+              ],
+              [
+                546875.85,
+                187221.95
+              ],
+              [
+                546876.55,
+                187215.5
+              ],
+              [
+                546877.2,
+                187209.75
+              ],
+              [
+                546884.728,
+                187210.549
+              ],
+              [
+                546884.2,
+                187215.4
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ]
   },
   "appeal_start_date": null,
   "decision_process": null,
@@ -119,40 +202,94 @@
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": false,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          0.11773,
-          51.564738
-        ],
-        [
-          0.117729,
-          51.564711
-        ],
-        [
-          0.117686,
-          51.564711
-        ],
-        [
-          0.117687,
-          51.564738
-        ],
-        [
-          0.11773,
-          51.564738
+          [
+            0.117753,
+            51.564691
+          ],
+          [
+            0.117744,
+            51.564758
+          ],
+          [
+            0.11774,
+            51.564794
+          ],
+          [
+            0.117726,
+            51.564892
+          ],
+          [
+            0.11772,
+            51.564928
+          ],
+          [
+            0.117711,
+            51.564993
+          ],
+          [
+            0.117601,
+            51.564989
+          ],
+          [
+            0.117611,
+            51.564922
+          ],
+          [
+            0.117616,
+            51.564886
+          ],
+          [
+            0.117623,
+            51.56484
+          ],
+          [
+            0.11763,
+            51.564789
+          ],
+          [
+            0.117631,
+            51.564783
+          ],
+          [
+            0.117633,
+            51.56477
+          ],
+          [
+            0.117635,
+            51.564752
+          ],
+          [
+            0.117642,
+            51.564694
+          ],
+          [
+            0.117649,
+            51.564642
+          ],
+          [
+            0.117758,
+            51.564648
+          ],
+          [
+            0.117753,
+            51.564691
+          ]
         ]
       ]
     ]
   },
-  "uprn": "100022222107",
+  "uprn": 100022222107,
   "application_type": "All Other",
   "centroid": {
     "lat": 51.564725,
     "lon": 0.117708
   },
   "lapsed_date": null,
-  "application_type_full": null,
+  "application_type_full": "Lawful development: Existing use",
   "centroid_easting": 546881,
   "actual_completion_date": null
 }

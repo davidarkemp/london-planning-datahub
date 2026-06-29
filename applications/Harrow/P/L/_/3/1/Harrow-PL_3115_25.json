@@ -1,6 +1,6 @@
 {
   "decision_target_date": "27/01/2026",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Minor dwellings",
@@ -18,22 +18,24 @@
     "transport_impact_assessment": false,
     "existing_proposed_floorspace_details": [
       {
-        "gia_existing": null,
+        "gia_existing": 180,
+        "gia_gained": 0,
         "use_class": "C3",
-        "gia_gained": null,
-        "actual_commencement_date": "25/02/2026",
-        "gia_lost": null
+        "gia_lost": 0
       }
     ],
     "commencement_notice_received": false,
     "rain_water_harvesting": false,
-    "scheme_phasing": false,
+    "scheme_phasing": true,
     "circular_economy_statement": false,
     "grey_water_reuse": false,
     "green_suds": false,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 0,
+      "total_gia_lost": 0,
+      "total_gia_existing": 180
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -43,7 +45,7 @@
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units": 1,
-      "total_no_proposed_residential_affordable_units": 0,
+      "total_no_proposed_residential_affordable_units": 2,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_living_rent": 0,
@@ -55,14 +57,14 @@
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
-      "total_no_existing_residential_affordable_units": 0,
+      "total_no_existing_residential_affordable_units": 1,
       "total_no_existing_residential_units_affordable_rent": 0,
       "habitable_rooms_density": null,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_social_rent": 0,
-      "total_no_existing_residential_units_london_affordable_rent": 0,
+      "total_no_existing_residential_units_london_affordable_rent": 1,
       "dwelling_density": 0,
-      "total_no_proposed_residential_units_london_affordable_rent": 0,
+      "total_no_proposed_residential_units_london_affordable_rent": 2,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
@@ -70,62 +72,96 @@
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
-      "affordable_percentage": 0,
+      "affordable_percentage": 100,
       "residential_units": [
         {
-          "actual_completion_date": "25/02/2026",
-          "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
+          "m43_2b_compliant": false,
+          "no_habitable_rooms": 5,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Loss",
-          "actual_commencement_date": "25/02/2026",
-          "unit_type": "House or Bungalow",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "no_bedrooms": 4,
+          "unit_type": "Semi Detached Home",
           "provision_for_older_persons": false,
-          "unit_development_type": "Conversion",
-          "gia": null
+          "tenure": "London Affordable Rent",
+          "gia": 190
         },
         {
-          "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Gain",
-          "actual_commencement_date": "25/02/2026",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 2,
-          "provision_for_older_persons": false,
-          "unit_development_type": "Conversion",
-          "gia": null
-        },
-        {
+          "no_habitable_rooms": 4,
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
-          "change_type": "Gain",
-          "actual_commencement_date": "25/02/2026",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "unit_development_type": "Conversion",
-          "gia": null
+          "tenure": "London Affordable Rent",
+          "gia": 94
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 3,
+          "provider": "Private",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "London Affordable Rent",
+          "gia": 84
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "total_gia_gained": 178,
+      "total_gia_lost": 190
     },
     "infrastructure_details": {
-      "waste_provision": false,
+      "waste_provision": true,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
-      "ghg_reduction_over_building_regulations": false
-    }
+      "ghg_reduction_over_building_regulations": false,
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 0,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "no_new_gas_connections_required": 0
+    },
+    "total_gia_existing": 180,
+    "projected_cost_of_works": "Up to £2m",
+    "internal_resi_water_usage": 0,
+    "phasing_details": [
+      {
+        "phase_detail": "Completed Works",
+        "intended_completion_date": "04/2026",
+        "intended_commencement_date": "02/2024"
+      }
+    ],
+    "total_gia_gained": 0,
+    "site_area": 0.0281,
+    "total_gia_lost": 0,
+    "occupation_status": "Occupied",
+    "surface_water_discharge_percentage_reduction": 0,
+    "ownership_status": "Private"
   },
   "decision_date": "25/02/2026",
   "url_planning_app": "https://planningsearch.harrow.gov.uk//planning/index.html?fa=getApplication&id=232015",
   "borough": "Harrow",
-  "locality": null,
+  "locality": "Harrow Weald",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
   "parking_details": null,
@@ -134,7 +170,7 @@
   "pp_id": "14461943",
   "subdivision_of_building": null,
   "status": "Commenced",
-  "description": "Conversion of dwelling into two flats (1 x 3 bed and 1 x 2 bed); new access door to side elevation; separate amenity space; bin and cycle stores; external alterations",
+  "description": "\n CONVERSION OF SINGLE FAMILY DWELLING INTO 2 SELF CONTAINED \nUNITS(1 x 3b 5p unit) (1 x 2b 3p unit)",
   "decision_conditions": [
     "The development hereby permitted shall be begun before the expiration of three years from the date of this permission.",
     "The development hereby permitted shall be carried out in accordance with the following approved plans and documents: 2TMW/P02 rev C,\n2TMW/P01.",
@@ -149,8 +185,8 @@
     "Notwithstanding the approved details, the development hereby permitted shall not be occupied until there has been a scheme of hard and soft landscape works for the site submitted to, and approved by the Local Planning Authority.Soft landscape works shall include: planting plans (at a scale not less than 1:100), schedules of plants, noting species, plant sizes, plant container sizes (all at time of planting) and proposed numbers / densities.Hard landscape works shall include; details of boundary treatments (materials, scale of boundary, location) and details of hard surfacing materials to be used in the landscaping of the site, Written specification of planting and cultivation works to be undertaken. A landscape implementation programme with proposed timing / dates for the works. ",
     "Prior to the commencement of the development hereby approved, a Fire Safety Statement shall be submitted to and approved in writing by the Local Planning Authority, this statement shall include details of how the development will function in terms of the following:\n1) identify suitably positioned unobstructed outside space: a) for fire appliances to be positioned on b) appropriate for use as an evacuation assembly point \n2) is designed to incorporate appropriate features which reduce the risk to life and the risk of serious injury in the event of a fire; including appropriate fire alarm systems and passive and active fire safety measures \n3) is constructed in an appropriate way to minimise the risk of fire spread \n4) provide suitable and convenient means of escape, and associated evacuation strategy for all building users \n5) develop a robust management strategy for evacuation which is to be periodically updated and published (details of how often this management strategy is to be reviewed and published to be included), and which all building users can have confidence in\n6) provide suitable access and equipment for firefighting which is appropriate for the size and use of the development.\nThe development shall be operated in accordance with the approved details in perpetuity."
   ],
-  "site_number": "2",
-  "last_updated": "2026-06-09T10:22:19.473Z",
+  "site_number": 2,
+  "last_updated": "2026-06-28T12:10:53.309Z",
   "last_date_consultation_comments": "13/01/2026",
   "valid_date": "02/12/2025",
   "actual_commencement_date": "25/02/2026",
@@ -162,46 +198,132 @@
   "decision": "Approved",
   "id": "Harrow-PL_3115_25",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              515182.295329159,
-              190563.152100562
-            ],
-            [
-              515178.471810417,
-              190556.150348263
-            ],
-            [
-              515178.06628714,
-              190554.522762774
-            ],
-            [
-              515178.235266692,
-              190550.333558717
-            ],
-            [
-              515200.762449042,
-              190526.202271743
-            ],
-            [
-              515205.173692546,
-              190526.817504011
-            ],
-            [
-              515193.4221419,
-              190547.36849746
-            ],
-            [
-              515182.295329159,
-              190563.152100562
+              [
+                515193.88,
+                190546.376
+              ],
+              [
+                515193.15,
+                190547.65
+              ],
+              [
+                515192.8,
+                190548.25
+              ],
+              [
+                515191.45,
+                190550.2
+              ],
+              [
+                515185.8,
+                190558.15
+              ],
+              [
+                515182.4,
+                190562.95
+              ],
+              [
+                515181.75,
+                190562.1
+              ],
+              [
+                515181.1,
+                190561.3
+              ],
+              [
+                515180.1,
+                190559.6
+              ],
+              [
+                515179.25,
+                190557.85
+              ],
+              [
+                515179.15,
+                190557.55
+              ],
+              [
+                515178.6,
+                190556.05
+              ],
+              [
+                515178.3,
+                190554.5
+              ],
+              [
+                515178.3,
+                190553.65
+              ],
+              [
+                515178.4,
+                190552.8
+              ],
+              [
+                515178.5,
+                190551.65
+              ],
+              [
+                515178.6,
+                190550.4
+              ],
+              [
+                515184.374,
+                190544.197
+              ],
+              [
+                515186.53,
+                190541.88
+              ],
+              [
+                515188.012,
+                190540.289
+              ],
+              [
+                515188.822,
+                190539.418
+              ],
+              [
+                515200.8,
+                190526.55
+              ],
+              [
+                515202.919,
+                190526.696
+              ],
+              [
+                515205.15,
+                190526.85
+              ],
+              [
+                515202.373,
+                190531.6
+              ],
+              [
+                515201.35,
+                190533.35
+              ],
+              [
+                515195.282,
+                190543.933
+              ],
+              [
+                515194.953,
+                190544.507
+              ],
+              [
+                515193.88,
+                190546.376
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -214,58 +336,144 @@
   "appeal_start_date": null,
   "decision_process": "Delegated",
   "ward": "Wealdstone North",
-  "street_name": "THE MEADOW WAY",
+  "street_name": "The Meadow Way",
   "secondary_street_name": null,
   "lpa_name": "Harrow",
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": false,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.338289,
-          51.602139
-        ],
-        [
-          -0.338346,
-          51.602077
-        ],
-        [
-          -0.338353,
-          51.602063
-        ],
-        [
-          -0.338352,
-          51.602025
-        ],
-        [
-          -0.338034,
-          51.601804
-        ],
-        [
-          -0.337971,
-          51.601808
-        ],
-        [
-          -0.338133,
-          51.601995
-        ],
-        [
-          -0.338289,
-          51.602139
+          [
+            -0.338127,
+            51.601986
+          ],
+          [
+            -0.338137,
+            51.601998
+          ],
+          [
+            -0.338142,
+            51.602003
+          ],
+          [
+            -0.338161,
+            51.602021
+          ],
+          [
+            -0.33824,
+            51.602094
+          ],
+          [
+            -0.338287,
+            51.602138
+          ],
+          [
+            -0.338297,
+            51.60213
+          ],
+          [
+            -0.338307,
+            51.602123
+          ],
+          [
+            -0.338322,
+            51.602108
+          ],
+          [
+            -0.338335,
+            51.602092
+          ],
+          [
+            -0.338336,
+            51.60209
+          ],
+          [
+            -0.338344,
+            51.602076
+          ],
+          [
+            -0.338349,
+            51.602062
+          ],
+          [
+            -0.33835,
+            51.602055
+          ],
+          [
+            -0.338348,
+            51.602047
+          ],
+          [
+            -0.338347,
+            51.602037
+          ],
+          [
+            -0.338346,
+            51.602026
+          ],
+          [
+            -0.338265,
+            51.601969
+          ],
+          [
+            -0.338235,
+            51.601947
+          ],
+          [
+            -0.338214,
+            51.601933
+          ],
+          [
+            -0.338202,
+            51.601925
+          ],
+          [
+            -0.338034,
+            51.601807
+          ],
+          [
+            -0.338003,
+            51.601808
+          ],
+          [
+            -0.337971,
+            51.601808
+          ],
+          [
+            -0.338009,
+            51.601852
+          ],
+          [
+            -0.338024,
+            51.601868
+          ],
+          [
+            -0.338108,
+            51.601964
+          ],
+          [
+            -0.338112,
+            51.601969
+          ],
+          [
+            -0.338127,
+            51.601986
+          ]
         ]
       ]
     ]
   },
-  "uprn": "100021290052",
+  "uprn": 100021290052,
   "application_type": "All Other",
   "centroid": {
     "lat": 51.602011,
     "lon": -0.33824
   },
   "lapsed_date": "25/02/2026",
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "centroid_easting": 515186,
   "actual_completion_date": null
 }

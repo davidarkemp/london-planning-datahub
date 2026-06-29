@@ -6,10 +6,10 @@
   "appeal_decision": null,
   "lapsed_date": "12/05/2029",
   "appeal_decision_date": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": null,
-  "last_updated": "2026-05-13T17:01:12.410Z",
+  "last_updated": "2026-06-28T08:15:23.985Z",
   "url_planning_app": "https://publicaccess.kingston.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=T7NV9BNHLOF00",
   "street_name": "Lower Ham Road",
   "parking_details": {
@@ -20,15 +20,15 @@
   "ward": "Canbury Gardens",
   "bo_system": "Idox Uniform",
   "site_name": "Far End",
-  "site_number": "107",
+  "site_number": 107,
   "application_details": {
     "total_gia_existing": 197,
     "ownership_status": "Private",
     "phasing_details": [
       {
         "phase_detail": "Entire development",
-        "intended_commencement_date": "06/2026",
-        "intended_completion_date": "06/2027"
+        "intended_completion_date": "06/2027",
+        "intended_commencement_date": "06/2026"
       }
     ],
     "garden_land_lost": true,
@@ -36,10 +36,10 @@
     "rain_water_harvesting": true,
     "affordable_housing_fast_track": false,
     "non_residential_details": {
-      "total_gia_existing": 0,
-      "total_gia_lost": 0,
+      "total_gia_existing": 197,
+      "total_gia_lost": 197,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_gained": 0,
+      "total_gia_gained": 123,
       "site_area": 0.12,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0
     },
@@ -49,55 +49,42 @@
     "grey_water_reuse": false,
     "constraints_details": [
       {
-        "result": null,
         "constraints_layer_description": "AAS Name: 2.1 Stevens Eyots And Kingston Thames Riverside"
       },
       {
-        "result": null,
         "constraints_layer_description": "NEIPOL Name: KT1  Kingston Town"
       },
       {
-        "result": null,
         "constraints_layer_description": "SINC Name: The Natural and Green Environment*Green Belt, Metropolitan L"
       },
       {
-        "result": null,
         "constraints_layer_description": "THAMPA Name: Riverside Strategy"
       },
       {
-        "result": null,
         "constraints_layer_description": "SASC Name: Thames - Side"
       },
       {
-        "result": null,
         "constraints_layer_description": "CONARA Name: Riverside North Conservation Area"
       },
       {
-        "result": null,
         "constraints_layer_description": "LGW Name: London Gatwick Safeguarding Zone (200m)"
       },
       {
-        "result": null,
         "constraints_layer_description": "SMKCON Name: Borough Wide Smoke Control Order"
       },
       {
-        "result": null,
         "constraints_layer_description": "NEIGH Name: Kingston Town"
       },
       {
-        "result": null,
         "constraints_layer_description": "AIRCZ Type:: Heathrow Planning Consultation Zone: All buildings, structures, erections and works exceeding 90 metres in height (295.3 feet)\rContact: The Safeguarding Department, Heathrow Airport Limited, c/o Planning Services, First Point, Buckingham Gate, Gatwick Airport, West Sussex, RH6 0NT"
       },
       {
-        "result": null,
         "constraints_layer_description": "AIRCZ Type:: Heathrow Planning Consultation Zone: All applications for developments likely to attract birds or connected with an aviation use.\rContact: The Safeguarding Department, Heathrow Airport Limited, c/o Planning Services, First Point, Buckingham Gate, Gatwick Airport, West Sussex, RH6 0NT"
       },
       {
-        "result": null,
         "constraints_layer_description": "HWTERR Type: TERRIER\rDescription: HD"
       },
       {
-        "result": null,
         "constraints_layer_description": "VALUER Type: VALUERS\rDescription: Parks and Open Spaces"
       }
     ],
@@ -122,8 +109,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 197,
-        "use_class": "C3",
         "gia_gained": 123,
+        "use_class": "C3",
         "gia_lost": 197
       }
     ],
@@ -157,7 +144,7 @@
     },
     "building_details": [
       {
-        "no_storeys": null,
+        "no_storeys": 2,
         "max_height": 7.4,
         "building_ref": "New main dwelling"
       }
@@ -192,7 +179,7 @@
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_market_for_sale": 1,
-      "total_gia_gained": 123,
+      "total_gia_gained": 320,
       "total_no_proposed_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
@@ -206,8 +193,21 @@
       "residential_units": [
         {
           "m43_2b_compliant": false,
+          "no_habitable_rooms": 7,
           "m43_2a_compliant": false,
-          "description": null,
+          "m42_compliant": false,
+          "change_type": "Loss",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "no_bedrooms": 3,
+          "unit_type": "House or Bungalow",
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 197
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
           "m42_compliant": true,
           "change_type": "Gain",
           "garden_land": false,
@@ -215,38 +215,20 @@
           "unit_type": "House or Bungalow",
           "no_habitable_rooms": 7,
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 320
-        },
-        {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "description": null,
-          "m42_compliant": false,
-          "change_type": "Loss",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "House or Bungalow",
-          "no_habitable_rooms": 7,
-          "phase_detail": null,
-          "unit_no": null,
-          "no_bedrooms": 3,
-          "provision_for_older_persons": false,
-          "tenure": "Market for sale",
-          "gia": 197
         }
       ]
     },
     "total_gia_lost": 197,
     "surface_water_discharge_percentage_reduction": 93,
-    "site_area": 1200
+    "site_area": 0.12,
+    "occupation_status": "Occupied"
   },
-  "uprn": "000128012359",
-  "locality": null,
+  "uprn": 128012359,
+  "locality": "Kingston Upon Thames",
   "date_building_work_started_under_previous_permission": null,
   "postcode": "KT2 5BD",
   "valid_date": "17/02/2026",
@@ -379,7 +361,7 @@
   "id": "Kingston-25_03280_FUL",
   "appeal_status": null,
   "appeal_start_date": null,
-  "description": "Demolition of existing dwelling and erection of 1no. two storey detached dwelling",
+  "description": "Demolition of existing dwelling and erection of a new dwelling",
   "development_type": "Minor dwellings",
   "decision_conditions": [
     "The development hereby permitted shall begin before the expiration of three years from the date of this permission.\r\rReason: This is required by Section 91 of the Town and Country Planning Act 1990 (as amended).",
@@ -401,115 +383,31 @@
   "last_date_consultation_comments": "30/04/2026",
   "decision_process": "Delegated",
   "centroid_northing": 170949,
-  "borough": "Royal Borough of Kingston (LA Code)",
+  "borough": "Kingston Upon Thames",
   "decision": "Approved",
   "application_type": "All Other",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.307255,
-          51.425295
+          -0.307352,
+          51.425334
         ],
         [
-          -0.30712,
-          51.425375
+          -0.307353,
+          51.425307
         ],
         [
-          -0.306921,
-          51.425493
+          -0.307396,
+          51.425308
         ],
         [
-          -0.3069,
-          51.425506
-        ],
-        [
-          -0.3069,
-          51.425544
-        ],
-        [
-          -0.306901,
-          51.425628
-        ],
-        [
-          -0.306904,
-          51.425718
-        ],
-        [
-          -0.306904,
-          51.425726
-        ],
-        [
-          -0.306919,
-          51.425749
-        ],
-        [
-          -0.306913,
-          51.425767
-        ],
-        [
-          -0.306908,
-          51.425773
-        ],
-        [
-          -0.306907,
-          51.425797
-        ],
-        [
-          -0.306937,
-          51.425774
-        ],
-        [
-          -0.306938,
-          51.425773
-        ],
-        [
-          -0.306961,
-          51.425756
-        ],
-        [
-          -0.307104,
-          51.425644
-        ],
-        [
-          -0.307199,
-          51.425571
-        ],
-        [
-          -0.307254,
-          51.425529
-        ],
-        [
-          -0.307259,
-          51.425525
-        ],
-        [
-          -0.307403,
-          51.425414
-        ],
-        [
-          -0.307506,
+          -0.307395,
           51.425335
         ],
         [
-          -0.307597,
-          51.425265
-        ],
-        [
-          -0.307595,
-          51.425263
-        ],
-        [
-          -0.307493,
-          51.42516
-        ],
-        [
-          -0.307487,
-          51.425155
-        ],
-        [
-          -0.307255,
-          51.425295
+          -0.307352,
+          51.425334
         ]
       ]
     ],

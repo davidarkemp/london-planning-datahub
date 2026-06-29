@@ -6,26 +6,26 @@
   "appeal_decision": null,
   "lapsed_date": "30/04/2029",
   "appeal_decision_date": null,
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": null,
-  "last_updated": "2026-05-12T08:33:30.882Z",
+  "last_updated": "2026-06-28T02:01:09.785Z",
   "url_planning_app": "https://developmentandhousing.hackney.gov.uk//planning/index.html?fa=getApplication&id=84821",
-  "street_name": "DOWNS ROAD",
+  "street_name": "Downs Road",
   "parking_details": null,
   "ward": "Hackney Downs Ward",
   "bo_system": "Portal",
-  "site_name": "Flat 1",
+  "site_name": "1 Flat 1",
   "site_number": "1",
   "application_details": {
-    "site_area": 76,
+    "site_area": 0.0076,
     "total_gia_existing": 76,
     "ownership_status": "Private",
     "phasing_details": [
       {
         "phase_detail": "phase 1",
-        "intended_commencement_date": "06/2026",
-        "intended_completion_date": "07/2026"
+        "intended_completion_date": "07/2026",
+        "intended_commencement_date": "06/2026"
       }
     ],
     "garden_land_lost": false,
@@ -33,8 +33,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 76,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -54,7 +54,8 @@
       "mobile_network_operators_consultation": false,
       "ghg_reduction_over_building_regulations": false,
       "fire_suppression_system_proposed": false,
-      "total_annual_nox_emissions": 0
+      "total_annual_nox_emissions": 0,
+      "urban_greening_factor_score": 0
     },
     "rain_water_harvesting": false,
     "projected_cost_of_works": "Up to £2m",
@@ -72,10 +73,11 @@
     "total_gia_lost": 0,
     "other_residential_accommodation_details": {
       "site_area": 76
-    }
+    },
+    "occupation_status": "Occupied"
   },
-  "uprn": "100021037254",
-  "locality": "HACKNEY",
+  "uprn": 100021037254,
+  "locality": "London",
   "date_building_work_started_under_previous_permission": null,
   "postcode": "E5 8QJ",
   "valid_date": "11/03/2026",
@@ -95,128 +97,50 @@
         "coordinates": [
           [
             [
-              534172.75404511,
-              185844.805554523
-            ],
-            [
-              534172.902455777,
-              185851.003780276
-            ],
-            [
-              534172.902456122,
-              185852.20343662
-            ],
-            [
-              534173.199277957,
-              185861.70071815
-            ],
-            [
-              534173.199278384,
-              185861.900661106
-            ],
-            [
-              534173.265238585,
-              185863.050332103
-            ],
-            [
-              534173.454875058,
-              185866.599315719
-            ],
-            [
-              534173.66924641,
-              185870.808111438
-            ],
-            [
-              534173.751697191,
-              185872.207710551
-            ],
-            [
-              534173.817657652,
-              185877.256265747
-            ],
-            [
-              534173.801167543,
-              185877.856093629
-            ],
-            [
-              534172.498447828,
-              185878.20599382
-            ],
-            [
-              534171.401854803,
-              185878.505908089
-            ],
-            [
-              534169.851783559,
-              185876.356522881
-            ],
-            [
-              534169.200423723,
-              185875.50676617
-            ],
-            [
-              534167.69982237,
-              185874.107166658
-            ],
-            [
-              534163.898849321,
-              185870.858097212
-            ],
-            [
-              534159.248634588,
-              185866.74927292
-            ],
-            [
-              534157.154389202,
-              185865.389662112
-            ],
-            [
-              534156.280412862,
-              185864.81982543
-            ],
-            [
-              534155.851669514,
-              185862.900374841
-            ],
-            [
-              534155.703258538,
-              185861.550761191
-            ],
-            [
-              534154.952958067,
-              185854.702721277
-            ],
-            [
-              534154.697361294,
-              185852.953222475
-            ],
-            [
-              534154.548950261,
-              185851.853536934
-            ],
-            [
-              534154.647890493,
-              185850.953794395
-            ],
-            [
-              534155.150839642,
-              185844.505640002
-            ],
-            [
-              534155.447661567,
-              185844.505640165
-            ],
-            [
-              534163.296959724,
-              185844.605611949
-            ],
-            [
-              534172.75404511,
-              185844.805554523
+              [
+                534173.8,
+                185877.85
+              ],
+              [
+                534171.4,
+                185878.5
+              ],
+              [
+                534165.5609713756,
+                185872.27056762387
+              ],
+              [
+                534159.605384395,
+                185867.06334968162
+              ],
+              [
+                534157.15,
+                185865.39
+              ],
+              [
+                534156.28,
+                185864.82
+              ],
+              [
+                534154.55,
+                185851.85
+              ],
+              [
+                534155.15,
+                185844.5
+              ],
+              [
+                534172.75,
+                185844.8
+              ],
+              [
+                534173.8,
+                185877.85
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -225,12 +149,12 @@
       },
       "type": "name"
     },
-    "type": "geometrycollection"
+    "type": "GeometryCollection"
   },
   "id": "Hackney-2026_0506",
   "appeal_status": null,
   "appeal_start_date": null,
-  "description": "Conversion of&nbsp;existing window at lower ground floor level on the rear elevation with a set of double glazed doors",
+  "description": "change a window to a  double door",
   "development_type": "Minor all other minor developments",
   "decision_conditions": [
     "<p>The development hereby permitted must be begun not later than the expiration of three years beginning with the date of this permission.</p><p><br></p><p>\r\n</p><p>\r\nREASON: In order to comply with the provisions of the Town and Country Planning Act 1990 (as amended).</p><p>\r\n</p>",
@@ -248,128 +172,50 @@
     "coordinates": [
       [
         [
-          -0.066045,
-          51.55554
-        ],
-        [
-          -0.06604,
-          51.555595
-        ],
-        [
-          -0.06604,
-          51.555606
-        ],
-        [
-          -0.066032,
-          51.555691
-        ],
-        [
-          -0.066032,
-          51.555693
-        ],
-        [
-          -0.06603,
-          51.555704
-        ],
-        [
-          -0.066026,
-          51.555735
-        ],
-        [
-          -0.066021,
-          51.555773
-        ],
-        [
-          -0.06602,
-          51.555786
-        ],
-        [
-          -0.066017,
-          51.555831
-        ],
-        [
-          -0.066017,
-          51.555836
-        ],
-        [
-          -0.066036,
-          51.55584
-        ],
-        [
-          -0.066051,
-          51.555843
-        ],
-        [
-          -0.066074,
-          51.555824
-        ],
-        [
-          -0.066084,
-          51.555816
-        ],
-        [
-          -0.066106,
-          51.555804
-        ],
-        [
-          -0.066162,
-          51.555776
-        ],
-        [
-          -0.066231,
-          51.55574
-        ],
-        [
-          -0.066262,
-          51.555728
-        ],
-        [
-          -0.066274,
-          51.555723
-        ],
-        [
-          -0.066281,
-          51.555706
-        ],
-        [
-          -0.066284,
-          51.555694
-        ],
-        [
-          -0.066297,
-          51.555633
-        ],
-        [
-          -0.066302,
-          51.555617
-        ],
-        [
-          -0.066304,
-          51.555607
-        ],
-        [
-          -0.066303,
-          51.555599
-        ],
-        [
-          -0.066298,
-          51.555541
-        ],
-        [
-          -0.066294,
-          51.555541
-        ],
-        [
-          -0.066181,
-          51.55554
-        ],
-        [
-          -0.066045,
-          51.55554
+          [
+            -0.066017,
+            51.555836
+          ],
+          [
+            -0.066051,
+            51.555843
+          ],
+          [
+            -0.066138,
+            51.555788
+          ],
+          [
+            -0.066226,
+            51.555743
+          ],
+          [
+            -0.066262,
+            51.555728
+          ],
+          [
+            -0.066274,
+            51.555723
+          ],
+          [
+            -0.066304,
+            51.555607
+          ],
+          [
+            -0.066298,
+            51.555541
+          ],
+          [
+            -0.066045,
+            51.55554
+          ],
+          [
+            -0.066017,
+            51.555836
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "decision_agency": "Borough",
   "decision_target_date": "06/05/2026",

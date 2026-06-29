@@ -1,16 +1,21 @@
 {
   "decision_target_date": "15/05/2026",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Certificates of Lawful Development",
   "postcode": "E10 6RG",
-  "title_number": null,
-  "application_details": {},
-  "decision_date": null,
+  "title_number": [
+    "ABC12345"
+  ],
+  "application_details": {
+    "no_additional_bathrooms": 2,
+    "no_additional_bedrooms": 2
+  },
+  "decision_date": "13/05/2026",
   "url_planning_app": "https://builtenvironment.walthamforest.gov.uk/planning/index.html?fa=getApplication&id=120244",
   "borough": "Waltham Forest",
-  "locality": null,
+  "locality": "Leyton",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
   "parking_details": null,
@@ -18,11 +23,11 @@
   "epc_number": null,
   "pp_id": "14776240",
   "subdivision_of_building": null,
-  "status": "Application Under Consideration",
-  "description": "Lawful development certificate (Proposed) for the construction of a rear dormer roof extension to the main roof, extension above the two storey rear outrigger and installation of two roof- lights to the front roof slope.&nbsp;",
+  "status": "Approved",
+  "description": "27 BREWSTER ROAD - LOFT EXT",
   "decision_conditions": null,
-  "site_number": "27",
-  "last_updated": "2026-04-15T11:54:28.216Z",
+  "site_number": 27,
+  "last_updated": "2026-06-28T04:33:40.109Z",
   "last_date_consultation_comments": null,
   "valid_date": "20/03/2026",
   "actual_commencement_date": null,
@@ -31,37 +36,86 @@
   "decision_agency": "Borough",
   "lpa_app_no": "260742",
   "date_building_work_completed_under_previous_permission": null,
-  "decision": null,
+  "decision": "Approved",
   "id": "Waltham_Forest-260742",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
-              537928.753457825,
-              187370.176908574
-            ],
-            [
-              537932.200659956,
-              187374.009670445
-            ],
-            [
-              537910.522057602,
-              187394.870159148
-            ],
-            [
-              537906.491408243,
-              187390.72637874
-            ],
-            [
-              537928.753457825,
-              187370.176908574
+              [
+                537930.4,
+                187375.9
+              ],
+              [
+                537920.05,
+                187385.6
+              ],
+              [
+                537913.21,
+                187392.188
+              ],
+              [
+                537910.55,
+                187394.75
+              ],
+              [
+                537907.03,
+                187391.418
+              ],
+              [
+                537906.8,
+                187391.2
+              ],
+              [
+                537906.6,
+                187391.05
+              ],
+              [
+                537919.373,
+                187379.037
+              ],
+              [
+                537920.05,
+                187378.4
+              ],
+              [
+                537920.7,
+                187377.8
+              ],
+              [
+                537926.75,
+                187372
+              ],
+              [
+                537928.7,
+                187370.2
+              ],
+              [
+                537931.9,
+                187373.55
+              ],
+              [
+                537932.4,
+                187374.05
+              ],
+              [
+                537930.4,
+                187375.9
+              ]
             ]
           ]
-        ]
+        ],
+        "type": "MultiPolygon"
+      },
+      {
+        "coordinates": [
+          537928.8351635948,
+          187362.18578381374
+        ],
+        "type": "Point"
       }
     ],
     "crs": {
@@ -74,46 +128,88 @@
   "appeal_start_date": null,
   "decision_process": null,
   "ward": "Leyton",
-  "street_name": "BREWSTER ROAD",
+  "street_name": "Brewster Road",
   "secondary_street_name": null,
   "lpa_name": "Waltham Forest",
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": null,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.011304,
-          51.568342
-        ],
-        [
-          -0.011252,
-          51.568375
-        ],
-        [
-          -0.011557,
-          51.568568
-        ],
-        [
-          -0.011616,
-          51.568532
-        ],
-        [
-          -0.011304,
-          51.568342
+          [
+            -0.011278,
+            51.568393
+          ],
+          [
+            -0.011423,
+            51.568482
+          ],
+          [
+            -0.011519,
+            51.568543
+          ],
+          [
+            -0.011556,
+            51.568567
+          ],
+          [
+            -0.011608,
+            51.568538
+          ],
+          [
+            -0.011612,
+            51.568536
+          ],
+          [
+            -0.011615,
+            51.568535
+          ],
+          [
+            -0.011435,
+            51.568424
+          ],
+          [
+            -0.011426,
+            51.568418
+          ],
+          [
+            -0.011417,
+            51.568412
+          ],
+          [
+            -0.011332,
+            51.568359
+          ],
+          [
+            -0.011304,
+            51.568342
+          ],
+          [
+            -0.011257,
+            51.568371
+          ],
+          [
+            -0.011249,
+            51.568376
+          ],
+          [
+            -0.011278,
+            51.568393
+          ]
         ]
       ]
     ]
   },
-  "uprn": "100022522947",
+  "uprn": 100022522947,
   "application_type": "All Other",
   "centroid": {
     "lat": 51.568422,
     "lon": -0.011383
   },
-  "lapsed_date": null,
-  "application_type_full": null,
+  "lapsed_date": "13/05/2026",
+  "application_type_full": "Lawful development: Proposed use",
   "centroid_easting": 537923,
   "actual_completion_date": null
 }

@@ -8,32 +8,89 @@
   "valid_date": "05/05/2026",
   "title_number": [],
   "epc_number": null,
-  "application_details": {},
-  "centroid_easting": "526544",
+  "application_details": {
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "Occupation of existing property - works - to completion",
+        "intended_completion_date": "04/2026",
+        "intended_commencement_date": "01/2026"
+      }
+    ],
+    "total_gia_gained": 0,
+    "site_area": 0.0057,
+    "total_gia_lost": 0,
+    "total_gia_existing": 57,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 57,
+        "gia_gained": 0,
+        "use_class": "EA",
+        "gia_lost": 0
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied",
+    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "surface_water_discharge_percentage_reduction": 50,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 0,
+      "total_gia_lost": 0,
+      "total_gia_existing": 57
+    },
+    "garden_land_lost": false,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 1.15,
+      "no_resi_units_to_have_full_fibre": 0,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 2,
+      "total_annual_nox_emissions": 8,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 40,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 0,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "internal_resi_water_usage": 10,
+    "ownership_status": "Private"
+  },
+  "centroid_easting": 526544,
   "decision_process": "Delegated",
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.174137,
-          51.601849
-        ],
-        [
-          -0.174164,
-          51.601894
-        ],
-        [
-          -0.174309,
-          51.601869
-        ],
-        [
-          -0.174282,
-          51.601824
-        ],
-        [
-          -0.174137,
-          51.601849
+          [
+            -0.174306,
+            51.60187
+          ],
+          [
+            -0.174287,
+            51.601822
+          ],
+          [
+            -0.174139,
+            51.601846
+          ],
+          [
+            -0.174157,
+            51.601893
+          ],
+          [
+            -0.174306,
+            51.60187
+          ]
         ]
       ]
     ]
@@ -45,32 +102,32 @@
   "parking_details": null,
   "last_date_consultation_comments": "27/05/2026",
   "url_planning_app": null,
-  "last_updated": "2026-06-26T20:02:27.288Z",
+  "last_updated": "2026-06-28T08:57:39.436Z",
   "application_type": "All Other",
-  "site_number": "423",
+  "site_number": 423,
   "lpa_name": "Barnet",
-  "application_type_full": null,
-  "centroid_northing": "190802",
+  "application_type_full": "Full planning permission",
+  "centroid_northing": 190802,
   "actual_completion_date": null,
   "cil_liability": false,
-  "subdivision_of_building": null,
+  "subdivision_of_building": "Front ground floor commercial unit (class E)",
   "decision_conditions": [
     "Use Restriction",
     "C100 - *Approved Plans",
     "Materials to Match Existing",
     "C101 - Std Time Limit"
   ],
-  "uprn": "000200162335",
+  "uprn": 200162335,
   "centroid": {
     "lon": -0.174238,
     "lat": 51.60185
   },
-  "date_building_work_completed_under_previous_permission": null,
-  "borough": "London Borough of Barnet",
+  "date_building_work_completed_under_previous_permission": "01/04/2026",
+  "borough": "Barnet",
   "postcode": "N12 0AP",
-  "date_building_work_started_under_previous_permission": null,
-  "description": "Sub-division of the existing shop into two units with associated alterations to shopfront",
-  "last_updated_by": "Idox Uniform",
+  "date_building_work_started_under_previous_permission": "11/01/2026",
+  "description": "Proposed works involve dividing the existing shop unit into two units by adding in a fire partition, additional WC for the new space and a new door in the glazed shopfront ",
+  "last_updated_by": "Planning Portal ingest",
   "ward": "WF22",
   "street_name": "High Road",
   "development_type": null,
@@ -83,34 +140,36 @@
         "coordinates": [
           [
             [
-              526551,
-              190802
-            ],
-            [
-              526549,
-              190807
-            ],
-            [
-              526539,
-              190804
-            ],
-            [
-              526541,
-              190799
-            ],
-            [
-              526551,
-              190802
+              [
+                526539.196,
+                190804.045
+              ],
+              [
+                526540.6652274268,
+                190798.74965948277
+              ],
+              [
+                526550.877365197,
+                190801.75609900654
+              ],
+              [
+                526549.45,
+                190806.9
+              ],
+              [
+                526539.196,
+                190804.045
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
-    "type": "geometrycollection"
+    "type": "GeometryCollection"
   },
   "secondary_street_name": null,
-  "locality": "North Finchley",
+  "locality": "London",
   "id": "Barnet-26_1554_FUL",
   "pp_id": "PP-14881523",
   "status": "Approved",

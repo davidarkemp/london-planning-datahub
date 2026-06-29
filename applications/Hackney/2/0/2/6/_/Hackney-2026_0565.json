@@ -1,21 +1,76 @@
 {
   "decision_target_date": "10/06/2026",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Minor all other minor developments",
   "postcode": "E8 1AQ",
   "title_number": null,
   "application_details": {
-    "site_area": 185,
+    "site_area": 0.0185,
     "other_residential_accommodation_details": {
       "site_area": 185
-    }
+    },
+    "lead_registered_social_landlord": "Clarion Housing",
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "Window & Door Replacement",
+        "intended_completion_date": "06/2026",
+        "intended_commencement_date": "06/2026"
+      }
+    ],
+    "total_gia_gained": 0,
+    "total_gia_existing": 127,
+    "total_gia_lost": 0,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 127,
+        "gia_gained": 0,
+        "use_class": "C3",
+        "gia_lost": 0
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied",
+    "rain_water_harvesting": false,
+    "scheme_phasing": true,
+    "grey_water_reuse": false,
+    "surface_water_discharge_percentage_reduction": 0,
+    "green_suds": false,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 0,
+      "total_gia_lost": 0,
+      "total_gia_existing": 127
+    },
+    "garden_land_lost": false,
+    "internal_resi_water_usage": 126,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 0,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 0,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "ownership_status": "Private",
+    "lead_developer_company_name": "Wates"
   },
   "decision_date": null,
   "url_planning_app": "https://developmentandhousing.hackney.gov.uk//planning/index.html?fa=getApplication&id=85078",
   "borough": "Hackney",
-  "locality": "HACKNEY",
+  "locality": "London",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
   "parking_details": null,
@@ -26,8 +81,8 @@
   "status": "Application Under Consideration",
   "description": "Replacement of the existing single-glazed windows and doors with new double-glazed timber windows with integral bars and doors to match the existing to all elevations.",
   "decision_conditions": null,
-  "site_number": "74",
-  "last_updated": "2026-06-02T15:52:46.225Z",
+  "site_number": 74,
+  "last_updated": "2026-06-28T08:44:35.408Z",
   "last_date_consultation_comments": "15/05/2026",
   "valid_date": "15/04/2026",
   "actual_commencement_date": null,
@@ -39,54 +94,64 @@
   "decision": null,
   "id": "Hackney-2026_0565",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              534390.596803807,
-              184928.807756501
-            ],
-            [
-              534394.100955159,
-              184921.449862367
-            ],
-            [
-              534397.448450041,
-              184914.451865657
-            ],
-            [
-              534403.046846429,
-              184916.901164747
-            ],
-            [
-              534409.55219946,
-              184919.850320112
-            ],
-            [
-              534409.700610346,
-              184919.900306249
-            ],
-            [
-              534414.598176974,
-              184922.099676445
-            ],
-            [
-              534420.748992608,
-              184924.848889708
-            ],
-            [
-              534419.949221596,
-              184927.158228229
-            ],
-            [
-              534390.596803807,
-              184928.807756501
+              [
+                534409.55,
+                184919.85
+              ],
+              [
+                534409.7,
+                184919.9
+              ],
+              [
+                534414.6,
+                184922.1
+              ],
+              [
+                534420.75,
+                184924.85
+              ],
+              [
+                534421.823,
+                184925.42
+              ],
+              [
+                534421.265,
+                184927.077
+              ],
+              [
+                534419.95,
+                184927.15
+              ],
+              [
+                534390.6,
+                184928.8
+              ],
+              [
+                534394.1,
+                184921.45
+              ],
+              [
+                534397.45,
+                184914.45
+              ],
+              [
+                534403.05,
+                184916.9
+              ],
+              [
+                534409.55,
+                184919.85
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -99,66 +164,76 @@
   "appeal_start_date": null,
   "decision_process": "Delegated",
   "ward": "Hackney Central Ward",
-  "street_name": "NAVARINO ROAD",
+  "street_name": "Navarino Road",
   "secondary_street_name": null,
   "lpa_name": "Hackney",
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": null,
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.063254,
-          51.547257
-        ],
-        [
-          -0.063206,
-          51.54719
-        ],
-        [
-          -0.063161,
-          51.547126
-        ],
-        [
-          -0.063079,
-          51.547147
-        ],
-        [
-          -0.062984,
-          51.547172
-        ],
-        [
-          -0.062982,
-          51.547172
-        ],
-        [
-          -0.062911,
-          51.547191
-        ],
-        [
-          -0.062821,
-          51.547214
-        ],
-        [
-          -0.062831,
-          51.547235
-        ],
-        [
-          -0.063254,
-          51.547257
+          [
+            -0.062984,
+            51.547172
+          ],
+          [
+            -0.062982,
+            51.547172
+          ],
+          [
+            -0.062911,
+            51.547191
+          ],
+          [
+            -0.062821,
+            51.547214
+          ],
+          [
+            -0.062805,
+            51.547219
+          ],
+          [
+            -0.062813,
+            51.547234
+          ],
+          [
+            -0.062831,
+            51.547235
+          ],
+          [
+            -0.063254,
+            51.547256
+          ],
+          [
+            -0.063206,
+            51.54719
+          ],
+          [
+            -0.063161,
+            51.547126
+          ],
+          [
+            -0.063079,
+            51.547147
+          ],
+          [
+            -0.062984,
+            51.547172
+          ]
         ]
       ]
     ]
   },
-  "uprn": "10008296156",
+  "uprn": 10008296156,
   "application_type": "All Other",
   "centroid": {
     "lat": 51.547182,
     "lon": -0.06302
   },
   "lapsed_date": null,
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "centroid_easting": 534407,
   "actual_completion_date": null
 }

@@ -12,8 +12,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "06/2026",
-        "intended_completion_date": "09/2026"
+        "intended_completion_date": "09/2026",
+        "intended_commencement_date": "06/2026"
       }
     ],
     "internal_resi_water_usage": 0,
@@ -36,7 +36,7 @@
       "site_area": 0.02,
       "total_gia_existing": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_gained": 0
+      "total_gia_gained": 18.11
     },
     "open_and_protected_space_details": {
       "open_spaces_details": [
@@ -54,13 +54,13 @@
     },
     "total_gia_lost": 0,
     "rain_water_harvesting": false,
-    "site_area": 186,
+    "site_area": 0.0186,
     "green_suds": false,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 0,
-        "use_class": "Other",
         "gia_gained": 18.11,
+        "use_class": "EC2",
         "gia_lost": 0
       }
     ],
@@ -107,39 +107,30 @@
     "ownership_status": "Private",
     "constraints_details": [
       {
-        "result": null,
         "constraints_layer_description": "LGW Name: London Gatwick Safeguarding Zone (200m)"
       },
       {
-        "result": null,
         "constraints_layer_description": "SMKCON Name: Borough Wide Smoke Control Order"
       },
       {
-        "result": null,
         "constraints_layer_description": "NEIPOL Name: SB1  South of the Borough"
       },
       {
-        "result": null,
         "constraints_layer_description": "NEIGH Name: South of the Borough"
       },
       {
-        "result": null,
         "constraints_layer_description": "AIRCZ Type:: Gatwick Airport Wind Turbine Consultation Zone:\rContact: The Safeguarding Department, Gatwick Airport Limited, 7th Floor Destinations Place, London Gatwick Airport, West Sussex, RH06 0NP"
       },
       {
-        "result": null,
         "constraints_layer_description": "HWTERR Type: TERRIER\rDescription: HD"
       },
       {
-        "result": null,
         "constraints_layer_description": "SWGV Date Built: \rGradient:"
       },
       {
-        "result": null,
         "constraints_layer_description": "SWGV Date Built: \rGradient:"
       },
       {
-        "result": null,
         "constraints_layer_description": "VALUER Type: VALUERS\rDescription: Housing Estates"
       }
     ],
@@ -167,77 +158,82 @@
       "no_active_other_ev_charging_points": 0,
       "no_active_rapid_ev_charging_points": 0,
       "no_passive_other_ev_charging_points": 0
-    }
+    },
+    "scheme_phasing": true,
+    "total_gia_gained": 18.11,
+    "occupation_status": "Occupied"
   },
   "centroid_easting": 518263,
   "decision_process": "Delegated",
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.30233,
-          51.372508
-        ],
-        [
-          -0.302304,
-          51.372568
-        ],
-        [
-          -0.302275,
-          51.372583
-        ],
-        [
-          -0.302269,
-          51.372596
-        ],
-        [
-          -0.302246,
-          51.372652
-        ],
-        [
-          -0.302227,
-          51.372693
-        ],
-        [
-          -0.302261,
-          51.372699
-        ],
-        [
-          -0.302319,
-          51.372708
-        ],
-        [
-          -0.302328,
-          51.372688
-        ],
-        [
-          -0.302368,
-          51.372599
-        ],
-        [
-          -0.302376,
-          51.37258
-        ],
-        [
-          -0.302396,
-          51.372533
-        ],
-        [
-          -0.302402,
-          51.37252
-        ],
-        [
-          -0.302434,
-          51.372447
-        ],
-        [
-          -0.302363,
-          51.372434
-        ],
-        [
-          -0.30233,
-          51.372508
+          [
+            -0.302368,
+            51.372599
+          ],
+          [
+            -0.302376,
+            51.37258
+          ],
+          [
+            -0.302396,
+            51.372533
+          ],
+          [
+            -0.302402,
+            51.37252
+          ],
+          [
+            -0.302434,
+            51.372447
+          ],
+          [
+            -0.302363,
+            51.372434
+          ],
+          [
+            -0.30233,
+            51.372508
+          ],
+          [
+            -0.302304,
+            51.372568
+          ],
+          [
+            -0.302275,
+            51.372583
+          ],
+          [
+            -0.302269,
+            51.372596
+          ],
+          [
+            -0.302246,
+            51.372652
+          ],
+          [
+            -0.302227,
+            51.372693
+          ],
+          [
+            -0.302261,
+            51.372699
+          ],
+          [
+            -0.302319,
+            51.372708
+          ],
+          [
+            -0.302328,
+            51.372688
+          ],
+          [
+            -0.302368,
+            51.372599
+          ]
         ]
       ]
     ]
@@ -246,30 +242,34 @@
   "appeal_start_date": null,
   "decision_target_date": "30/06/2026",
   "actual_commencement_date": null,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 2,
+    "net_car": 0,
+    "no_proposed_car": 2
+  },
   "last_date_consultation_comments": "05/06/2026",
   "url_planning_app": "https://publicaccess.kingston.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TDSUOXNHGBM00",
-  "last_updated": "2026-06-24T17:01:55.613Z",
+  "last_updated": "2026-06-28T10:05:50.315Z",
   "application_type": "All Other",
-  "site_number": "31",
+  "site_number": 31,
   "lpa_name": "Kingston",
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "centroid_northing": 165088,
   "actual_completion_date": null,
   "cil_liability": false,
   "subdivision_of_building": null,
   "decision_conditions": null,
-  "uprn": "100021750953",
+  "uprn": 100021750953,
   "centroid": {
     "lon": -0.302353,
     "lat": 51.372543
   },
   "date_building_work_completed_under_previous_permission": null,
-  "borough": "Kingston",
+  "borough": "Kingston Upon Thames",
   "postcode": "KT9 1EF",
   "date_building_work_started_under_previous_permission": null,
-  "description": "Demolition of an existing shed and erection of a single storey outbuilding for use as a home based nail salon.",
-  "last_updated_by": "Idox Uniform",
+  "description": "Demolition of shed and erection of an outbuilding for use as a home-based nail salon.",
+  "last_updated_by": "Planning Portal ingest",
   "ward": "Hook & Chessington North",
   "street_name": "Priory Road",
   "development_type": "Minor all other minor developments",
@@ -282,78 +282,80 @@
         "coordinates": [
           [
             [
-              518264.65,
-              165084.1
-            ],
-            [
-              518266.35,
-              165090.85
-            ],
-            [
-              518268.3,
-              165092.55
-            ],
-            [
-              518268.659,
-              165094.044
-            ],
-            [
-              518270.15,
-              165100.25
-            ],
-            [
-              518271.35,
-              165104.85
-            ],
-            [
-              518268.944,
-              165105.428
-            ],
-            [
-              518264.9,
-              165106.4
-            ],
-            [
-              518264.35,
-              165104.15
-            ],
-            [
-              518261.8,
-              165094.15
-            ],
-            [
-              518261.3,
-              165092.05
-            ],
-            [
-              518260,
-              165086.75
-            ],
-            [
-              518259.6,
-              165085.35
-            ],
-            [
-              518257.6,
-              165077.15
-            ],
-            [
-              518262.58,
-              165075.88
-            ],
-            [
-              518264.65,
-              165084.1
+              [
+                518261.8,
+                165094.15
+              ],
+              [
+                518261.3,
+                165092.05
+              ],
+              [
+                518260,
+                165086.75
+              ],
+              [
+                518259.6,
+                165085.35
+              ],
+              [
+                518257.6,
+                165077.15
+              ],
+              [
+                518262.58,
+                165075.88
+              ],
+              [
+                518264.65,
+                165084.1
+              ],
+              [
+                518266.35,
+                165090.85
+              ],
+              [
+                518268.3,
+                165092.55
+              ],
+              [
+                518268.659,
+                165094.044
+              ],
+              [
+                518270.15,
+                165100.25
+              ],
+              [
+                518271.35,
+                165104.85
+              ],
+              [
+                518268.944,
+                165105.428
+              ],
+              [
+                518264.9,
+                165106.4
+              ],
+              [
+                518264.35,
+                165104.15
+              ],
+              [
+                518261.8,
+                165094.15
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
-    "type": "geometrycollection"
+    "type": "GeometryCollection"
   },
   "secondary_street_name": null,
-  "locality": null,
+  "locality": "Chessington",
   "id": "Kingston-26_00847_FUL",
   "pp_id": "PP-14736306",
   "status": "Application Under Consideration",

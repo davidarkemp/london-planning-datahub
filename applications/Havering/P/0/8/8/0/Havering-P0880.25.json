@@ -1,7 +1,7 @@
 {
-  "locality": null,
+  "locality": "Hornchurch",
   "subdivision_of_building": null,
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Planning Portal ingest",
   "date_building_work_started_under_previous_permission": null,
   "development_type": null,
   "valid_date": "08/07/2025",
@@ -9,9 +9,65 @@
   "centroid_easting": 553519,
   "ward": "Harold Wood",
   "date_building_work_completed_under_previous_permission": null,
-  "last_updated": "2026-02-27T04:59:07.624Z",
+  "last_updated": "2026-06-28T14:56:27.670Z",
   "epc_number": null,
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          [
+            0.21481,
+            51.591706
+          ],
+          [
+            0.214897,
+            51.591753
+          ],
+          [
+            0.215047,
+            51.591844
+          ],
+          [
+            0.215175,
+            51.591912
+          ],
+          [
+            0.214845,
+            51.592101
+          ],
+          [
+            0.214741,
+            51.59204
+          ],
+          [
+            0.21459,
+            51.591948
+          ],
+          [
+            0.21451,
+            51.591899
+          ],
+          [
+            0.21449,
+            51.591883
+          ],
+          [
+            0.214605,
+            51.591809
+          ],
+          [
+            0.214787,
+            51.5917
+          ],
+          [
+            0.21481,
+            51.591706
+          ]
+        ]
+      ]
+    ],
+    "type": "MultiPolygon"
+  },
   "application_type": "All Other",
   "lpa_name": "Havering",
   "actual_commencement_date": null,
@@ -21,8 +77,69 @@
   "centroid_northing": 190439,
   "decision_process": null,
   "decision_target_date": "13/03/2026",
-  "polygon": null,
-  "description": "Demolition of existing building and replacement with a new commercial unit involving change of use from Sui Generis to Class E",
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                553519.8,
+                190418.75
+              ],
+              [
+                553525.65,
+                190424.15
+              ],
+              [
+                553535.75,
+                190434.55
+              ],
+              [
+                553544.37,
+                190442.34999999995
+              ],
+              [
+                553520.85,
+                190462.64999999997
+              ],
+              [
+                553513.9,
+                190455.7
+              ],
+              [
+                553503.7,
+                190445.15
+              ],
+              [
+                553498.351,
+                190439.512
+              ],
+              [
+                553497.0499999999,
+                190437.72999999995
+              ],
+              [
+                553505.2262225536,
+                190429.76404745845
+              ],
+              [
+                553518.19,
+                190417.98999999996
+              ],
+              [
+                553519.8,
+                190418.75
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
+  "description": "The redevelopment of 3-7 The Parade, Gallows Corner, Romford, RM3 0EX to demolish the existing building and replace with a new commercial unit and change of use from Sui Generis to Class E",
   "lpa_app_no": "P0880.25",
   "last_date_consultation_comments": "01/08/2025",
   "centroid": {
@@ -35,22 +152,96 @@
   "street_name": "Southend Arterial Road",
   "decision_agency": "Borough",
   "title_number": null,
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "url_planning_app": "http://development.havering.gov.uk/OcellaWeb/planningDetails?reference=P0880.25",
   "status": "Application Under Consideration",
   "reference_no_of_permission_being_relied_on": null,
   "decision_conditions": null,
   "actual_completion_date": null,
   "bo_system": "CSV Data Import",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 6,
+    "net_car": 0,
+    "no_proposed_car": 6
+  },
   "decision": null,
   "decision_date": null,
   "appeal_decision": null,
   "cil_liability": false,
   "application_details": {
-    "existing_uprns": null
+    "existing_uprns": null,
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "Entire Development ",
+        "intended_completion_date": "11/2027",
+        "intended_commencement_date": "05/2026"
+      }
+    ],
+    "total_gia_gained": 538,
+    "site_area": 0.1025,
+    "total_gia_lost": 663,
+    "total_gia_existing": 663,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 663,
+        "gia_gained": 0,
+        "use_class": "SG",
+        "gia_lost": 663
+      },
+      {
+        "gia_existing": 0,
+        "gia_gained": 538,
+        "use_class": "EA",
+        "gia_lost": 0
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied",
+    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "building_details": [
+      {
+        "no_storeys": 2,
+        "max_height": 8.7,
+        "building_ref": "New Commerical Building "
+      }
+    ],
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "surface_water_discharge_percentage_reduction": 0,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 663,
+      "total_gia_gained": 538,
+      "total_gia_lost": 663,
+      "total_gia_existing": 663
+    },
+    "garden_land_lost": false,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0,
+      "no_passive_rapid_ev_charging_points": 4,
+      "no_resi_units_to_have_full_fibre": 0,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_active_rapid_ev_charging_points": 2,
+      "no_non_resi_units_to_have_full_fibre": 1,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 0,
+      "chp_heat_pumps_capacity": 0,
+      "ghg_reduction_over_building_regulations": true
+    },
+    "internal_resi_water_usage": 0,
+    "ownership_status": "Private"
   },
-  "uprn": "10033420354",
+  "uprn": 10033420354,
   "borough": "Havering",
   "site_name": "3-7 The Parade",
   "appeal_decision_date": null,

@@ -6,26 +6,26 @@
   "appeal_decision": null,
   "lapsed_date": "28/04/2029",
   "appeal_decision_date": null,
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": "9345-3049-8204-8535-3200",
-  "last_updated": "2026-05-12T08:33:31.664Z",
+  "last_updated": "2026-06-28T02:01:25.202Z",
   "url_planning_app": "https://developmentandhousing.hackney.gov.uk//planning/index.html?fa=getApplication&id=84778",
-  "street_name": "GREENWOOD ROAD",
+  "street_name": "Greenwood Road",
   "parking_details": null,
   "ward": "Hackney Central Ward",
   "bo_system": "Portal",
   "site_name": null,
-  "site_number": "120",
+  "site_number": 120,
   "application_details": {
-    "site_area": 118,
+    "site_area": 0.0118,
     "total_gia_existing": 128,
     "ownership_status": "Private",
     "phasing_details": [
       {
         "phase_detail": "Extensions and Windows",
-        "intended_commencement_date": "06/2026",
-        "intended_completion_date": "11/2026"
+        "intended_completion_date": "11/2026",
+        "intended_commencement_date": "06/2026"
       }
     ],
     "garden_land_lost": false,
@@ -33,8 +33,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 128,
-        "use_class": "C3",
         "gia_gained": 18,
+        "use_class": "C3",
         "gia_lost": 8
       }
     ],
@@ -54,7 +54,8 @@
       "mobile_network_operators_consultation": false,
       "ghg_reduction_over_building_regulations": false,
       "fire_suppression_system_proposed": false,
-      "total_annual_nox_emissions": 0
+      "total_annual_nox_emissions": 0,
+      "urban_greening_factor_score": 0
     },
     "rain_water_harvesting": false,
     "projected_cost_of_works": "Up to £2m",
@@ -72,10 +73,11 @@
     "total_gia_lost": 8,
     "other_residential_accommodation_details": {
       "site_area": 118
-    }
+    },
+    "occupation_status": "Occupied"
   },
-  "uprn": "100023014201",
-  "locality": "HACKNEY",
+  "uprn": 100023014201,
+  "locality": "London",
   "date_building_work_started_under_previous_permission": null,
   "postcode": "E8 1NE",
   "valid_date": "17/02/2026",
@@ -95,119 +97,62 @@
         "coordinates": [
           [
             [
-              534320.299413104,
-              185002.106774351
-            ],
-            [
-              534312.903593346,
-              185000.757160984
-            ],
-            [
-              534309.201560869,
-              185000.007375773
-            ],
-            [
-              534307.948311508,
-              184999.757447376
-            ],
-            [
-              534301.047195161,
-              184998.407833399
-            ],
-            [
-              534300.503021599,
-              184998.307862209
-            ],
-            [
-              534297.452348969,
-              184997.708033488
-            ],
-            [
-              534298.450001066,
-              184992.699467297
-            ],
-            [
-              534302.102563341,
-              184993.399266954
-            ],
-            [
-              534311.650344296,
-              184995.208749285
-            ],
-            [
-              534321.849484428,
-              184997.658048195
-            ],
-            [
-              534321.049713749,
-              185000.00737579
-            ],
-            [
-              534320.299413104,
-              185002.106774351
+              [
+                534307.95,
+                184999.75
+              ],
+              [
+                534301.05,
+                184998.4
+              ],
+              [
+                534300.5,
+                184998.3
+              ],
+              [
+                534297.45,
+                184997.7
+              ],
+              [
+                534298.45,
+                184992.7
+              ],
+              [
+                534302.1,
+                184993.4
+              ],
+              [
+                534311.65,
+                184995.2
+              ],
+              [
+                534321.85,
+                184997.65
+              ],
+              [
+                534321.05,
+                185000
+              ],
+              [
+                534320.3,
+                185002.1
+              ],
+              [
+                534312.9,
+                185000.75
+              ],
+              [
+                534309.2,
+                185000
+              ],
+              [
+                534307.95,
+                184999.75
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
-      },
-      {
-        "coordinates": [
-          [
-            [
-              534320.299413104,
-              185002.106774351
-            ],
-            [
-              534312.903593346,
-              185000.757160984
-            ],
-            [
-              534309.201560869,
-              185000.007375773
-            ],
-            [
-              534307.948311508,
-              184999.757447376
-            ],
-            [
-              534301.047195161,
-              184998.407833399
-            ],
-            [
-              534300.503021599,
-              184998.307862209
-            ],
-            [
-              534297.452348969,
-              184997.708033488
-            ],
-            [
-              534298.450001066,
-              184992.699467297
-            ],
-            [
-              534302.102563341,
-              184993.399266954
-            ],
-            [
-              534311.650344296,
-              184995.208749285
-            ],
-            [
-              534321.849484428,
-              184997.658048195
-            ],
-            [
-              534321.049713749,
-              185000.00737579
-            ],
-            [
-              534320.299413104,
-              185002.106774351
-            ]
-          ]
-        ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "crs": {
@@ -216,12 +161,12 @@
       },
       "type": "name"
     },
-    "type": "geometrycollection"
+    "type": "GeometryCollection"
   },
   "id": "Hackney-2026_0341",
   "appeal_status": null,
   "appeal_start_date": null,
-  "description": "Erection of a part single storey, part two storey rear extension following demolition of existing single storey and two storey rear extensions, replacement of existing timber windows to the front and elevation of Flat B with timber double glazed units, replacement of front door, replacement of all rear existing uPVC and timber windows and doors with double glazed uPVC and timber windows.",
+  "description": "Demolition of existing single storey and two storey rear extensions, for replacement with new single and two storey rear extensions to match the depth of the neighbouring extension at number 118. Replacement of existing timber sash windows to the front elevation of Flat B with new Timber double glazed units and replacement of all rear existing uPVC and Timber units with new uPVC windows.",
   "development_type": "Minor all other minor developments",
   "decision_conditions": [
     "<p>The development hereby permitted must be begun not later than the expiration of three years beginning with the date of this permission.</p><p><br></p><p>\r\n</p><p>\r\nREASON: In order to comply with the provisions of the Town and Country Planning Act 1990 (as amended).</p><p>\r\n</p>",
@@ -242,60 +187,62 @@
     "coordinates": [
       [
         [
-          -0.064239,
-          51.547932
-        ],
-        [
-          -0.064346,
-          51.547922
-        ],
-        [
-          -0.0644,
-          51.547916
-        ],
-        [
-          -0.064418,
-          51.547914
-        ],
-        [
-          -0.064518,
-          51.547903
-        ],
-        [
-          -0.064526,
-          51.547902
-        ],
-        [
-          -0.06457,
-          51.547898
-        ],
-        [
-          -0.064558,
-          51.547853
-        ],
-        [
-          -0.064505,
-          51.547858
-        ],
-        [
-          -0.064366,
-          51.547872
-        ],
-        [
-          -0.064218,
-          51.547892
-        ],
-        [
-          -0.064229,
-          51.547913
-        ],
-        [
-          -0.064239,
-          51.547932
+          [
+            -0.064418,
+            51.547914
+          ],
+          [
+            -0.064518,
+            51.547903
+          ],
+          [
+            -0.064526,
+            51.547902
+          ],
+          [
+            -0.06457,
+            51.547898
+          ],
+          [
+            -0.064558,
+            51.547853
+          ],
+          [
+            -0.064505,
+            51.547858
+          ],
+          [
+            -0.064366,
+            51.547872
+          ],
+          [
+            -0.064218,
+            51.547892
+          ],
+          [
+            -0.064229,
+            51.547913
+          ],
+          [
+            -0.064239,
+            51.547932
+          ],
+          [
+            -0.064346,
+            51.547921
+          ],
+          [
+            -0.0644,
+            51.547916
+          ],
+          [
+            -0.064418,
+            51.547914
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "decision_agency": "Borough",
   "decision_target_date": "14/04/2026",

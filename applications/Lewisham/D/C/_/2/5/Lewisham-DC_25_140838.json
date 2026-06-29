@@ -2,7 +2,14 @@
   "appeal_status": null,
   "centroid_easting": 537178,
   "centroid_northing": 173661,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 1,
+    "net_car": -1,
+    "no_proposed_cycle": 12,
+    "no_proposed_car": 0,
+    "net_cycle": 12
+  },
   "appeal_start_date": null,
   "valid_date": "17/07/2025",
   "lapsed_date": "22/04/2029",
@@ -13,7 +20,7 @@
   "site_name": "6 WESTDOWN ROAD, LONDON, SE6 4RL",
   "development_type": "Minor dwellings",
   "actual_commencement_date": null,
-  "postcode": null,
+  "postcode": "SE6 4RL",
   "borough": "Lewisham",
   "decision": "Approved",
   "polygon": {
@@ -22,68 +29,70 @@
         "coordinates": [
           [
             [
-              537175.8,
-              173632.45
-            ],
-            [
-              537177.35,
-              173632.5
-            ],
-            [
-              537182.5,
-              173632.7
-            ],
-            [
-              537186.15,
-              173632.9
-            ],
-            [
-              537186.3,
-              173632.9
-            ],
-            [
-              537184.65,
-              173663.2
-            ],
-            [
-              537184.15,
-              173668.75
-            ],
-            [
-              537183.75,
-              173674
-            ],
-            [
-              537170.7,
-              173672.95
-            ],
-            [
-              537171.2,
-              173667.8
-            ],
-            [
-              537171.55,
-              173662.3
-            ],
-            [
-              537173.106,
-              173639.612
-            ],
-            [
-              537173.179,
-              173638.535
-            ],
-            [
-              537173.6,
-              173632.4
-            ],
-            [
-              537175.8,
-              173632.45
+              [
+                537171.55,
+                173662.3
+              ],
+              [
+                537173.106,
+                173639.612
+              ],
+              [
+                537173.179,
+                173638.535
+              ],
+              [
+                537173.6,
+                173632.4
+              ],
+              [
+                537175.8,
+                173632.45
+              ],
+              [
+                537177.35,
+                173632.5
+              ],
+              [
+                537182.5,
+                173632.7
+              ],
+              [
+                537186.15,
+                173632.9
+              ],
+              [
+                537186.3,
+                173632.9
+              ],
+              [
+                537184.65,
+                173663.2
+              ],
+              [
+                537184.15,
+                173668.75
+              ],
+              [
+                537183.75,
+                173674
+              ],
+              [
+                537170.7,
+                173672.95
+              ],
+              [
+                537171.2,
+                173667.8
+              ],
+              [
+                537171.55,
+                173662.3
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "type": "GeometryCollection"
@@ -93,14 +102,14 @@
     "lat": 51.445332
   },
   "appeal_decision": null,
-  "description": "Demolition of the existing building and the construction of a two-storey plus lower ground and roof space detached building with to provide 6 self-contained flats, together with the provision of lightwells at the front, refuse/recycling storage, associated landscaping works, removal of vehicular access and all associated works at 6 Westdown Road SE6.",
+  "description": "Demolition of the existing building and the erection of a two-storey detached residential building with accommodation on the lower ground floor and within the roof to deliver 6 dwellings with associated landscaping works, provision of refuse/recycling storage, and removal of vehicular access.",
   "title_number": null,
   "lpa_name": "Lewisham",
-  "locality": null,
+  "locality": "London",
   "appeal_decision_date": null,
   "decision_process": "Delegated",
-  "application_type_full": null,
-  "site_number": null,
+  "application_type_full": "Full planning permission",
+  "site_number": 6,
   "date_building_work_started_under_previous_permission": null,
   "decision_target_date": "22/04/2026",
   "decision_agency": null,
@@ -113,84 +122,292 @@
   "decision_date": "22/04/2026",
   "pp_id": "PP-14178679",
   "last_date_consultation_comments": null,
-  "last_updated_by": "CSV Data Import",
-  "uprn": "100022019380",
+  "last_updated_by": "Planning Portal ingest",
+  "uprn": 100022019380,
   "actual_completion_date": null,
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated": "2026-04-23T08:08:13.268Z",
+  "last_updated": "2026-06-28T15:59:55.450Z",
   "cil_liability": true,
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.027473599999999997,
-          51.4450761
-        ],
-        [
-          -0.027451299999999998,
-          51.4450761
-        ],
-        [
-          -0.027377199999999997,
-          51.4450767
-        ],
-        [
-          -0.027324599999999998,
-          51.4450776
-        ],
-        [
-          -0.0273225,
-          51.4450776
-        ],
-        [
-          -0.027334499999999998,
-          51.4453503
-        ],
-        [
-          -0.0273395,
-          51.4454003
-        ],
-        [
-          -0.027343199999999998,
-          51.4454475
-        ],
-        [
-          -0.027531299999999998,
-          51.4454413
-        ],
-        [
-          -0.027526099999999998,
-          51.4453949
-        ],
-        [
-          -0.027523199999999998,
-          51.4453453
-        ],
-        [
-          -0.0275096,
-          51.4451411
-        ],
-        [
-          -0.027509,
-          51.4451314
-        ],
-        [
-          -0.0275053,
-          51.4450762
-        ],
-        [
-          -0.027473599999999997,
-          51.4450761
+          [
+            -0.027549,
+            51.445346
+          ],
+          [
+            -0.027535,
+            51.445141
+          ],
+          [
+            -0.027535,
+            51.445132
+          ],
+          [
+            -0.027531,
+            51.445077
+          ],
+          [
+            -0.027499,
+            51.445076
+          ],
+          [
+            -0.027477,
+            51.445077
+          ],
+          [
+            -0.027403,
+            51.445077
+          ],
+          [
+            -0.02735,
+            51.445078
+          ],
+          [
+            -0.027348,
+            51.445078
+          ],
+          [
+            -0.02736,
+            51.445351
+          ],
+          [
+            -0.027365,
+            51.445401
+          ],
+          [
+            -0.027369,
+            51.445448
+          ],
+          [
+            -0.027557,
+            51.445442
+          ],
+          [
+            -0.027552,
+            51.445395
+          ],
+          [
+            -0.027549,
+            51.445346
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "decision_conditions": null,
   "epc_number": null,
   "application_details": {
     "existing_uprns": null,
-    "site_area": 0.053000000000000005
+    "site_area": 0.052,
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "1",
+        "intended_completion_date": "08/2026",
+        "intended_commencement_date": "11/2025"
+      }
+    ],
+    "total_gia_gained": 418,
+    "total_gia_existing": 388,
+    "total_gia_lost": 388,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 388,
+        "gia_gained": 418,
+        "use_class": "C3",
+        "gia_lost": 388
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Vacant",
+    "rain_water_harvesting": true,
+    "scheme_phasing": true,
+    "building_details": [
+      {
+        "no_storeys": 3,
+        "max_height": 9,
+        "building_ref": "Building 1"
+      }
+    ],
+    "grey_water_reuse": true,
+    "surface_water_discharge_percentage_reduction": 0,
+    "green_suds": true,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 418,
+      "total_gia_lost": 388,
+      "total_gia_existing": 388
+    },
+    "garden_land_lost": false,
+    "residential_details": {
+      "total_no_proposed_residential_units_shared_equity": 0,
+      "total_no_proposed_bedrooms": 10,
+      "total_no_proposed_residential_units": 6,
+      "total_no_proposed_residential_units_london_living_rent": 0,
+      "total_no_proposed_residential_affordable_units": 0,
+      "total_no_existing_residential_units": 1,
+      "total_no_proposed_residential_units_affordable_rent": 0,
+      "total_no_proposed_residential_units_discount_market_sale": 0,
+      "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_london_living_rent": 0,
+      "total_no_existing_residential_units_shared_equity": 0,
+      "total_no_existing_residential_units_market_for_sale": 1,
+      "total_no_existing_residential_units_intermediate": 0,
+      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_existing_residential_units_social_rent": 0,
+      "total_no_proposed_residential_units_self_build_and_custom_build": 0,
+      "total_no_existing_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_market_for_sale": 6,
+      "total_no_existing_residential_affordable_units": 0,
+      "total_no_existing_residential_units_affordable_rent": 0,
+      "habitable_rooms_density": null,
+      "total_no_existing_residential_units_london_shared_ownership": 0,
+      "total_gia_gained": 418,
+      "total_no_proposed_residential_units_social_rent": 0,
+      "total_no_existing_residential_units_london_affordable_rent": 0,
+      "dwelling_density": 0,
+      "total_no_proposed_residential_units_london_affordable_rent": 0,
+      "total_no_existing_residential_units_discount_market_sale": 0,
+      "total_gia_lost": 388,
+      "total_no_proposed_residential_units_starter_homes": 0,
+      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_starter_homes": 0,
+      "total_no_proposed_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_intermediate": 0,
+      "affordable_percentage": 0,
+      "total_no_proposed_residential_units_london_shared_ownership": 0,
+      "residential_units": [
+        {
+          "m43_2b_compliant": false,
+          "no_habitable_rooms": 7,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Loss",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "no_bedrooms": 4,
+          "unit_type": "House or Bungalow",
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 388
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 6,
+          "provider": "Private",
+          "no_bedrooms": 4,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 120
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 55.5
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 55.5
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 55.5
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 55.5
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 3,
+          "provider": "Private",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 76
+        }
+      ],
+      "total_no_existing_residential_units_market_for_rent": 0,
+      "total_no_existing_residential_units_self_build_and_custom_build": 0
+    },
+    "internal_resi_water_usage": 105,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 6,
+      "green_roof_area": 56,
+      "urban_greening_factor_score": 0.4,
+      "no_homes_passive_cooling": 6,
+      "no_new_water_connections_required": 6,
+      "no_non_resi_units_to_have_full_fibre": 6,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 25,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 6,
+      "ghg_reduction_over_building_regulations": true
+    },
+    "ownership_status": "Private"
   },
-  "street_name": null
+  "street_name": "Westdown Road"
 }

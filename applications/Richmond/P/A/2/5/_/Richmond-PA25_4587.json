@@ -13,23 +13,104 @@
   "decision_target_date": "12/06/2026",
   "valid_date": "29/12/2025",
   "lpa_app_no": "PA25/4587",
-  "locality": null,
+  "locality": "London",
   "appeal_decision_date": null,
   "parking_details": {},
   "decision_process": null,
   "street_name": "Palewell Park",
-  "site_number": "142",
-  "centroid_easting": 520533,
-  "polygon": null,
+  "site_number": 142,
+  "centroid_easting": 520539,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                520548.1,
+                174954.2
+              ],
+              [
+                520553.35,
+                174951.55
+              ],
+              [
+                520556.35,
+                174956.75
+              ],
+              [
+                520546.528,
+                174962.339
+              ],
+              [
+                520543.766,
+                174963.914
+              ],
+              [
+                520543.367,
+                174964.137
+              ],
+              [
+                520538.955,
+                174966.61
+              ],
+              [
+                520538.6,
+                174966.85
+              ],
+              [
+                520536.074,
+                174968.291
+              ],
+              [
+                520514.513,
+                174980.593
+              ],
+              [
+                520513.556,
+                174978.854
+              ],
+              [
+                520513.2,
+                174978.2
+              ],
+              [
+                520510.55,
+                174973.3
+              ],
+              [
+                520526.4,
+                174965.15
+              ],
+              [
+                520531.377,
+                174962.617
+              ],
+              [
+                520534.75,
+                174960.9
+              ],
+              [
+                520548.1,
+                174954.2
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "ward": null,
-  "centroid_northing": 174966,
+  "centroid_northing": 174961,
   "application_type": "All Other",
-  "uprn": "100022296837",
+  "uprn": 100022296837,
   "lapsed_date": null,
   "actual_completion_date": null,
   "decision": null,
   "site_name": null,
-  "borough": "Richmond",
+  "borough": "Richmond Upon Thames",
   "last_date_consultation_comments": null,
   "application_type_full": "Full planning permission",
   "url_planning_app": null,
@@ -38,14 +119,14 @@
   "development_type": null,
   "appeal_status": null,
   "date_building_work_completed_under_previous_permission": null,
-  "description": "Reversion of the two flats to a single-family dwelling house with associated works, and Air Source Heat Pump.",
+  "description": "Reversion of the two flats to a single-family dwelling house with associated works",
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
   "epc_number": null,
-  "last_updated": "2026-05-14T00:02:17.550Z",
+  "last_updated": "2026-06-28T01:53:59.704Z",
   "centroid": {
-    "lon": -0.266401,
-    "lat": 51.460845
+    "lon": -0.266316,
+    "lat": 51.460799
   },
   "lpa_name": "Richmond",
   "secondary_street_name": null,
@@ -55,8 +136,8 @@
     "phasing_details": [
       {
         "phase_detail": "One Phase",
-        "intended_commencement_date": "03/2026",
-        "intended_completion_date": "12/2026"
+        "intended_completion_date": "12/2026",
+        "intended_commencement_date": "03/2026"
       }
     ],
     "total_gia_gained": 0,
@@ -66,8 +147,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 264,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -124,31 +205,45 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 3,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Semi Detached Home",
           "no_bedrooms": 2,
+          "unit_type": "Semi Detached Home",
           "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 181
         },
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 2,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 83
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Semi Detached Home",
           "no_habitable_rooms": 7,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Semi Detached Home",
           "no_bedrooms": 5,
+          "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 264
         }
@@ -171,39 +266,91 @@
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "urban_greening_factor_score": 0
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "occupation_status": "Occupied"
   },
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.266379,
-          51.460858
-        ],
-        [
-          -0.26638,
-          51.460831
-        ],
-        [
-          -0.266423,
-          51.460832
-        ],
-        [
-          -0.266422,
-          51.460859
-        ],
-        [
-          -0.266379,
-          51.460858
+          [
+            -0.266188,
+            51.460736
+          ],
+          [
+            -0.266113,
+            51.460711
+          ],
+          [
+            -0.266068,
+            51.460757
+          ],
+          [
+            -0.266208,
+            51.460809
+          ],
+          [
+            -0.266247,
+            51.460824
+          ],
+          [
+            -0.266252,
+            51.460826
+          ],
+          [
+            -0.266315,
+            51.460849
+          ],
+          [
+            -0.26632,
+            51.460851
+          ],
+          [
+            -0.266356,
+            51.460865
+          ],
+          [
+            -0.266662,
+            51.46098
+          ],
+          [
+            -0.266676,
+            51.460964
+          ],
+          [
+            -0.266682,
+            51.460959
+          ],
+          [
+            -0.266721,
+            51.460915
+          ],
+          [
+            -0.266496,
+            51.460839
+          ],
+          [
+            -0.266425,
+            51.460815
+          ],
+          [
+            -0.266378,
+            51.460799
+          ],
+          [
+            -0.266188,
+            51.460736
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "id": "Richmond-PA25_4587",
   "reference_no_of_permission_being_relied_on": null,
   "title_number": null,
-  "last_updated_by": "Agile APAS"
+  "last_updated_by": "Planning Portal ingest"
 }

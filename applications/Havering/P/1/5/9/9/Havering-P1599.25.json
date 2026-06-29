@@ -1,11 +1,72 @@
 {
   "decision": "Refused",
   "last_date_consultation_comments": "24/02/2026",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          [
+            0.171549,
+            51.587084
+          ],
+          [
+            0.171844,
+            51.587202
+          ],
+          [
+            0.171777,
+            51.587269
+          ],
+          [
+            0.171483,
+            51.587147
+          ],
+          [
+            0.171549,
+            51.587084
+          ]
+        ]
+      ]
+    ],
+    "type": "MultiPolygon"
+  },
   "date_building_work_started_under_previous_permission": null,
   "ward": "Mawneys",
-  "site_number": null,
-  "polygon": null,
+  "site_number": 4,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                550538.64,
+                189814.86
+              ],
+              [
+                550558.7,
+                189828.55
+              ],
+              [
+                550553.8,
+                189835.85
+              ],
+              [
+                550533.85,
+                189821.65
+              ],
+              [
+                550538.64,
+                189814.86
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "appeal_status": null,
   "application_type_full": "Full planning permission",
   "borough": "Havering",
@@ -22,7 +83,7 @@
   "url_planning_app": "http://development.havering.gov.uk/OcellaWeb/planningDetails?reference=P1599.25",
   "application_details": {
     "surface_water_discharge_percentage_reduction": 9,
-    "site_area": 0.019200000000000002,
+    "site_area": 0.0192,
     "existing_uprns": null,
     "projected_cost_of_works": "Up to £2m",
     "scheme_phasing": true,
@@ -90,22 +151,34 @@
       "total_no_proposed_residential_units_social_rent": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Semi Detached Home",
           "no_habitable_rooms": 1,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Semi Detached Home",
           "no_bedrooms": 1,
-          "gia": 40,
-          "tenure": "Affordable Rent (not at LAR benchmark rents)"
+          "provision_for_older_persons": false,
+          "tenure": "Affordable Rent (not at LAR benchmark rents)",
+          "gia": 40
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Semi Detached Home",
           "no_habitable_rooms": 1,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Semi Detached Home",
           "no_bedrooms": 3,
-          "gia": 89.1,
-          "tenure": "Affordable Rent (not at LAR benchmark rents)"
+          "provision_for_older_persons": false,
+          "tenure": "Affordable Rent (not at LAR benchmark rents)",
+          "gia": 89.1
         }
       ],
       "total_no_existing_residential_units_london_shared_ownership": 0,
@@ -136,7 +209,8 @@
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_starter_homes": 0
     },
-    "rain_water_harvesting": false
+    "rain_water_harvesting": false,
+    "occupation_status": "Occupied"
   },
   "development_type": null,
   "centroid_easting": 550544,
@@ -146,11 +220,11 @@
   "lpa_app_no": "P1599.25",
   "decision_process": "Delegated",
   "lapsed_date": "30/03/2029",
-  "uprn": "100021394545",
+  "uprn": 100021394545,
   "bo_system": "CSV Data Import",
   "cil_liability": false,
-  "street_name": "Romford",
-  "locality": null,
+  "street_name": "Rosedale Road",
+  "locality": "Romford",
   "application_type": "All Other",
   "epc_number": null,
   "decision_conditions": [
@@ -162,13 +236,13 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": 189823,
-  "last_updated": "2026-03-31T03:59:09.589Z",
+  "last_updated": "2026-06-28T15:04:43.996Z",
   "centroid": {
     "lon": 0.17163,
     "lat": 51.587156
   },
   "subdivision_of_building": null,
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Planning Portal ingest",
   "title_number": null,
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
@@ -181,5 +255,5 @@
     "no_existing_car": 2,
     "net_car": 1
   },
-  "description": "Conversion of two storey dwelling into 2 separate dwellings. Single storey rear / side / front extensions. Extension of existing crossover including associated parking and amenity space"
+  "description": "Sub division of existing house internally to form two separate dwellings with extensions and amendments to front façade and parking areas"
 }

@@ -5,10 +5,54 @@
   "subdivision_of_building": "n/a - the site is currently vacant with no existing building. ",
   "url_planning_app": "http://planning.hillingdon.gov.uk/OcellaWeb/planningDetails?reference=39470/APP/2025/728",
   "epc_number": null,
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          [
+            -0.398972,
+            51.590572
+          ],
+          [
+            -0.398908,
+            51.590459
+          ],
+          [
+            -0.39887,
+            51.590393
+          ],
+          [
+            -0.39886,
+            51.590378
+          ],
+          [
+            -0.398525,
+            51.590488
+          ],
+          [
+            -0.398668,
+            51.590667
+          ],
+          [
+            -0.398756,
+            51.590638
+          ],
+          [
+            -0.398765,
+            51.590649
+          ],
+          [
+            -0.398972,
+            51.590572
+          ]
+        ]
+      ]
+    ],
+    "type": "MultiPolygon"
+  },
   "secondary_street_name": null,
-  "street_name": "Pinner",
-  "last_updated_by": "CSV Data Import",
+  "street_name": "Land at Rushmoor Close",
+  "last_updated_by": "Planning Portal ingest",
   "date_building_work_started_under_previous_permission": null,
   "application_details": {
     "non_residential_details": {
@@ -41,22 +85,32 @@
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "residential_units": [
         {
-          "provider": "Private",
-          "no_habitable_rooms": 7,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Gain",
           "garden_land": true,
+          "sheltered_accommodation": false,
           "unit_type": "Semi Detached Home",
+          "no_habitable_rooms": 7,
+          "provider": "Private",
           "no_bedrooms": 4,
+          "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 184.8
         },
         {
-          "provider": "Private",
-          "no_habitable_rooms": 7,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Gain",
           "garden_land": true,
+          "sheltered_accommodation": false,
           "unit_type": "Semi Detached Home",
+          "no_habitable_rooms": 7,
+          "provider": "Private",
           "no_bedrooms": 4,
+          "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 184.8
         }
@@ -117,8 +171,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 0,
-        "use_class": "C3",
         "gia_gained": 184.8,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -139,13 +193,14 @@
         "max_height": 7.5,
         "building_ref": "Semi-detached dwelling 2"
       }
-    ]
+    ],
+    "occupation_status": "Vacant"
   },
   "ward": "NORTHWOOD HILLS 2022",
   "cil_liability": false,
   "centroid": {
-    "lon": -0.398757,
-    "lat": 51.590524
+    "lon": -0.398812,
+    "lat": 51.590588
   },
   "uprn": null,
   "parking_details": {
@@ -153,7 +208,7 @@
     "net_car": 2,
     "no_proposed_car": 2
   },
-  "centroid_easting": 511023,
+  "centroid_easting": 511019,
   "development_type": null,
   "lpa_app_no": "39470/APP/2025/728",
   "date_building_work_completed_under_previous_permission": null,
@@ -161,10 +216,10 @@
   "locality": null,
   "application_type": "All Other",
   "id": "Hillingdon-39470_APP_2025_728",
-  "centroid_northing": 189178,
+  "centroid_northing": 189185,
   "appeal_status": null,
   "status": "Application Under Consideration",
-  "description": "Erection of 2no. two-storey detached dwellinghouses with associated parking, landscaping and ancillary works (revised plans 12.03.26)",
+  "description": "The site currently consists of a vacant plot of land, on which it is proposed to build two new, semi-detached dwellings, each consisting of two-storeys and four bedrooms, symmetrical in design. Each dwelling has triple-aspect outlooks, with front and rear gardens and a connecting side passage. The dwellings will have a shared access driveway for vehicular parking, with separate pedestrian pathways leading to the front doors. ",
   "site_name": "Land at Rushmoor Close",
   "appeal_start_date": null,
   "decision_date": null,
@@ -374,7 +429,54 @@
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "GeometryCollection",
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                511008,
+                189183
+              ],
+              [
+                511012.7,
+                189170.5
+              ],
+              [
+                511015.5,
+                189163.25
+              ],
+              [
+                511016.1729215025,
+                189161.6145452091
+              ],
+              [
+                511039.16356108023,
+                189174.28186104662
+              ],
+              [
+                511028.8,
+                189194.05
+              ],
+              [
+                511022.8,
+                189190.6
+              ],
+              [
+                511022.15,
+                189191.8
+              ],
+              [
+                511008,
+                189183
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ]
   },
   "appeal_decision": null,
   "title_number": null,
@@ -391,6 +493,6 @@
   "pp_id": "13845641",
   "reference_no_of_permission_being_relied_on": null,
   "borough": "Hillingdon",
-  "last_updated": "2026-04-28T22:00:07.155Z",
+  "last_updated": "2026-06-28T07:26:53.642Z",
   "actual_completion_date": null
 }

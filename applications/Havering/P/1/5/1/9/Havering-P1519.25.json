@@ -11,7 +11,7 @@
   "decision_target_date": "01/05/2026",
   "valid_date": "15/01/2026",
   "lpa_app_no": "P1519.25",
-  "locality": null,
+  "locality": "Romford",
   "appeal_decision_date": null,
   "parking_details": {
     "no_existing_cycle": 0,
@@ -22,14 +22,91 @@
     "net_cycle": 7
   },
   "decision_process": null,
-  "street_name": "Romford",
-  "site_number": null,
+  "street_name": "Balgores Lane",
+  "site_number": 220,
   "centroid_easting": 553009,
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                553002.751,
+                188985.527
+              ],
+              [
+                553001.543,
+                188984.944
+              ],
+              [
+                553000,
+                188984.2
+              ],
+              [
+                552996.09,
+                188982.23
+              ],
+              [
+                552962.95,
+                188965.5
+              ],
+              [
+                552967.05,
+                188956.7
+              ],
+              [
+                552972.258,
+                188959.332
+              ],
+              [
+                553000,
+                188973.35
+              ],
+              [
+                553011.2,
+                188978.8
+              ],
+              [
+                553019.2,
+                188982.9
+              ],
+              [
+                553024.831,
+                188985.679
+              ],
+              [
+                553026.9,
+                188986.7
+              ],
+              [
+                553021.95,
+                188995.1
+              ],
+              [
+                553013.9,
+                188991.05
+              ],
+              [
+                553005.6,
+                188986.9
+              ],
+              [
+                553002.751,
+                188985.527
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "ward": "Squirrels Heath",
   "centroid_northing": 188984,
   "application_type": "All Other",
-  "uprn": "100021360203",
+  "uprn": 100021360203,
   "lapsed_date": null,
   "actual_completion_date": null,
   "decision": "Withdrawn",
@@ -43,11 +120,11 @@
   "development_type": null,
   "appeal_status": null,
   "date_building_work_completed_under_previous_permission": "14/11/2025",
-  "description": "Retention of existing rear dormer with remedial works for tile hanging, pebble-dashing ground floor rear extension and provision of screening fencing with change of use of the dwelling house (Class C3) to 7-person house in multiple occupation (Sui Generis use class). (RETROSPECTIVE)",
+  "description": "Change of use from dwelling house (Class C3) to 7-person house in multiple occupation (Sui Generis use class). (PART-RETROSPECTIVE)",
   "appeal_decision": null,
-  "date_building_work_started_under_previous_permission": "01/06/2025",
+  "date_building_work_started_under_previous_permission": "31/05/2025",
   "epc_number": "2290-6186-0322-6000-1293",
-  "last_updated": "2026-05-02T04:00:11.491Z",
+  "last_updated": "2026-06-28T14:58:53.371Z",
   "centroid": {
     "lon": 0.206817,
     "lat": 51.578955
@@ -60,19 +137,19 @@
     "phasing_details": [
       {
         "phase_detail": "Phase 1",
-        "intended_commencement_date": "11/2025",
-        "intended_completion_date": "11/2025"
+        "intended_completion_date": "11/2025",
+        "intended_commencement_date": "11/2025"
       }
     ],
     "total_gia_gained": 225,
-    "site_area": 0.060500000000000005,
+    "site_area": 0.0605,
     "total_gia_existing": 225,
     "total_gia_lost": 225,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 225,
-        "use_class": "C3",
         "gia_gained": 225,
+        "use_class": "SG",
         "gia_lost": 225
       }
     ],
@@ -83,8 +160,8 @@
     "green_suds": false,
     "surface_water_discharge_percentage_reduction": 0,
     "non_residential_details": {
-      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 225,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 225,
       "total_gia_gained": 225,
       "total_gia_existing": 225,
       "total_gia_lost": 225
@@ -129,21 +206,31 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 9,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Semi Detached Home",
           "no_bedrooms": 5,
+          "unit_type": "Semi Detached Home",
           "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 225
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Semi Detached Home",
           "no_habitable_rooms": 9,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Semi Detached Home",
           "no_bedrooms": 7,
+          "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 225
         }
@@ -167,13 +254,87 @@
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
       "ghg_reduction_over_building_regulations": false,
-      "chp_heat_pumps_capacity": 7
+      "chp_heat_pumps_capacity": 7,
+      "urban_greening_factor_score": 0
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "occupation_status": "Occupied"
   },
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          [
+            0.206728,
+            51.57897
+          ],
+          [
+            0.20671,
+            51.578965
+          ],
+          [
+            0.206688,
+            51.578959
+          ],
+          [
+            0.206631,
+            51.578942
+          ],
+          [
+            0.206145,
+            51.578801
+          ],
+          [
+            0.206201,
+            51.578721
+          ],
+          [
+            0.206277,
+            51.578743
+          ],
+          [
+            0.206683,
+            51.578861
+          ],
+          [
+            0.206847,
+            51.578907
+          ],
+          [
+            0.206964,
+            51.578942
+          ],
+          [
+            0.207047,
+            51.578965
+          ],
+          [
+            0.207077,
+            51.578974
+          ],
+          [
+            0.207009,
+            51.579051
+          ],
+          [
+            0.206891,
+            51.579017
+          ],
+          [
+            0.20677,
+            51.578982
+          ],
+          [
+            0.206728,
+            51.57897
+          ]
+        ]
+      ]
+    ],
+    "type": "MultiPolygon"
+  },
   "id": "Havering-P1519.25",
   "reference_no_of_permission_being_relied_on": null,
   "title_number": null,
-  "last_updated_by": "CSV Data Import"
+  "last_updated_by": "Planning Portal ingest"
 }

@@ -23,7 +23,7 @@
   },
   "decision_process": null,
   "street_name": "Altenburg Gardens",
-  "site_number": "2",
+  "site_number": 2,
   "centroid_easting": 527791,
   "polygon": {
     "geometries": [
@@ -108,7 +108,7 @@
   "ward": "Lavender",
   "centroid_northing": 175235,
   "application_type": "All Other",
-  "uprn": "100023298271",
+  "uprn": 100023298271,
   "lapsed_date": null,
   "actual_completion_date": null,
   "decision": null,
@@ -122,11 +122,11 @@
   "development_type": "Minor dwellings",
   "appeal_status": null,
   "date_building_work_completed_under_previous_permission": null,
-  "description": "Demolition of existing office building (Class E) and erection of two storey (plus roof accommodation) residential building (Class C3) to provide 1 x 4-bedroom house with associated with associated amenity space, landscaping, boundary treatment, cycle and refuse storage (REVISION including overshadowing analysis).\r\n",
+  "description": "Demolition, alterations and change of use of 2 Altenburg Gardens. The site comprises of one building with office use which is to be demolished. Redevelopment of the site to provide 1no. residential dwellings (1no. 4-bedroom house) including associated private amenity, cycle storage and refuse and recycling storage facilities. Vehicle and pedestrian access to the rear of the site will be retained and the buildings at the rear will be unimpacted by the proposals.",
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
   "epc_number": null,
-  "last_updated": "2026-06-02T13:20:04.492Z",
+  "last_updated": "2026-06-28T14:50:16.116Z",
   "centroid": {
     "lon": -0.161886,
     "lat": 51.461672
@@ -149,14 +149,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 19.9,
-        "use_class": "EC3",
         "gia_gained": 0,
+        "use_class": "EC3",
         "gia_lost": 19.9
       },
       {
         "gia_existing": 0,
-        "use_class": "C3",
         "gia_gained": 139.5,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -220,11 +220,17 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "provider": "Private",
-          "no_habitable_rooms": 2,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Terraced Home",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
           "no_bedrooms": 4,
+          "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 139.5
         }
@@ -249,80 +255,34 @@
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
       "ghg_reduction_over_building_regulations": true,
-      "chp_heat_pumps_capacity": 5
+      "chp_heat_pumps_capacity": 5,
+      "urban_greening_factor_score": 0
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "occupation_status": "Vacant"
   },
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.162042,
-          51.461404
+          -0.161864,
+          51.461685
         ],
         [
-          -0.162035,
-          51.461403
+          -0.161865,
+          51.461658
         ],
         [
-          -0.16198,
-          51.461409
+          -0.161908,
+          51.461659
         ],
         [
-          -0.161958,
-          51.461411
+          -0.161907,
+          51.461686
         ],
         [
-          -0.161962,
-          51.461419
-        ],
-        [
-          -0.161945,
-          51.46142
-        ],
-        [
-          -0.161966,
-          51.461469
-        ],
-        [
-          -0.162034,
-          51.461461
-        ],
-        [
-          -0.162044,
-          51.461494
-        ],
-        [
-          -0.162144,
-          51.461476
-        ],
-        [
-          -0.162131,
-          51.461446
-        ],
-        [
-          -0.162204,
-          51.461437
-        ],
-        [
-          -0.162181,
-          51.461387
-        ],
-        [
-          -0.162112,
-          51.461395
-        ],
-        [
-          -0.162106,
-          51.461396
-        ],
-        [
-          -0.162042,
-          51.461404
-        ],
-        [
-          -0.162042,
-          51.461404
+          -0.161864,
+          51.461685
         ]
       ]
     ],
@@ -331,5 +291,5 @@
   "id": "Wandsworth-2025_4253",
   "reference_no_of_permission_being_relied_on": null,
   "title_number": null,
-  "last_updated_by": "Northgate M3"
+  "last_updated_by": "Planning Portal ingest"
 }

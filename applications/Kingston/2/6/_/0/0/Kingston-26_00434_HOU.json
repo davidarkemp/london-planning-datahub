@@ -1,6 +1,6 @@
 {
   "site_name": null,
-  "site_number": "24",
+  "site_number": 24,
   "decision_process": "Delegated",
   "subdivision_of_building": null,
   "decision_date": "22/05/2026",
@@ -8,7 +8,7 @@
   "street_name": "Leyfield",
   "lpa_name": "Kingston",
   "date_building_work_started_under_previous_permission": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "postcode": "KT4 7LS",
   "appeal_decision_date": null,
   "reference_no_of_permission_being_relied_on": null,
@@ -18,52 +18,54 @@
     "The proposed front extension, due to its excessive mass and bulk and height and the proposed roof design would appear as a dominant and disproportionate addition to the host dwelling and the surrounding area adversely affecting the character and appearance of the existing street scene and also resulting in loss of the characteristic cat-slide roof feature, in conflict with Paragraph 135 of the National Planning Policy Framework 2024, Policies D3 of the London Plan 2021, Policy DM10 of the Council's Core Strategy 2012 and Policy Guidance 37 and 38 of the Council's Residential Design Supplementary Planning Document 2013.\r"
   ],
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.25338,
-          51.380185
-        ],
-        [
-          -0.25349,
-          51.380591
-        ],
-        [
-          -0.253501,
-          51.380591
-        ],
-        [
-          -0.25355,
-          51.380589
-        ],
-        [
-          -0.2536,
-          51.380587
-        ],
-        [
-          -0.253612,
-          51.380586
-        ],
-        [
-          -0.25361,
-          51.380565
-        ],
-        [
-          -0.253559,
-          51.380328
-        ],
-        [
-          -0.253541,
-          51.380247
-        ],
-        [
-          -0.253524,
-          51.380175
-        ],
-        [
-          -0.25338,
-          51.380185
+          [
+            -0.25361,
+            51.380565
+          ],
+          [
+            -0.253559,
+            51.380328
+          ],
+          [
+            -0.253541,
+            51.380247
+          ],
+          [
+            -0.253524,
+            51.380175
+          ],
+          [
+            -0.25338,
+            51.380185
+          ],
+          [
+            -0.25349,
+            51.380591
+          ],
+          [
+            -0.253501,
+            51.380591
+          ],
+          [
+            -0.25355,
+            51.380589
+          ],
+          [
+            -0.2536,
+            51.380587
+          ],
+          [
+            -0.253612,
+            51.380586
+          ],
+          [
+            -0.25361,
+            51.380565
+          ]
         ]
       ]
     ]
@@ -75,7 +77,7 @@
   "actual_commencement_date": null,
   "cil_liability": null,
   "epc_number": null,
-  "locality": null,
+  "locality": "Worcester Park",
   "ward": "Old Malden",
   "appeal_start_date": null,
   "secondary_street_name": null,
@@ -83,65 +85,69 @@
     "lat": 51.380305,
     "lon": -0.253509
   },
-  "title_number": null,
+  "title_number": [
+    "Unregistered"
+  ],
   "decision_target_date": "22/05/2026",
   "decision": "Refused",
-  "uprn": "100021802992",
+  "uprn": 100021802992,
   "application_type": "Householder",
   "appeal_status": null,
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              521651.35,
-              166017.85
-            ],
-            [
-              521642.6,
-              166062.8
-            ],
-            [
-              521641.853,
-              166062.737
-            ],
-            [
-              521638.442,
-              166062.447
-            ],
-            [
-              521634.95,
-              166062.15
-            ],
-            [
-              521634.125,
-              166062.089
-            ],
-            [
-              521634.325,
-              166059.685
-            ],
-            [
-              521638.45,
-              166033.4
-            ],
-            [
-              521639.95,
-              166024.45
-            ],
-            [
-              521641.29,
-              166016.45
-            ],
-            [
-              521651.35,
-              166017.85
+              [
+                521634.325,
+                166059.685
+              ],
+              [
+                521638.45,
+                166033.4
+              ],
+              [
+                521639.95,
+                166024.45
+              ],
+              [
+                521641.29,
+                166016.45
+              ],
+              [
+                521651.35,
+                166017.85
+              ],
+              [
+                521642.6,
+                166062.8
+              ],
+              [
+                521641.853,
+                166062.737
+              ],
+              [
+                521638.442,
+                166062.447
+              ],
+              [
+                521634.95,
+                166062.15
+              ],
+              [
+                521634.125,
+                166062.089
+              ],
+              [
+                521634.325,
+                166059.685
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ]
   },
@@ -151,17 +157,23 @@
   "lpa_app_no": "26/00434/HOU",
   "centroid_northing": 166031,
   "application_details": {
-    "total_gia_gained": 118,
+    "total_gia_gained": 118.4,
     "no_additional_bathrooms": 3,
-    "no_additional_bedrooms": 2
+    "no_additional_bedrooms": 2,
+    "intended_completion_date": "10/2026",
+    "intended_commencement_date": "03/2026"
   },
   "status": "Refused",
-  "parking_details": null,
-  "description": "Two storey and single storey rear extension with rear dormer, first floor side extension, 3No. Roof lights to front, single storey front extension with porch, conversion of garage to habitable room with windows to side. Internal reconfigurations and rendering to front",
+  "parking_details": {
+    "no_existing_car": 3,
+    "net_car": -1,
+    "no_proposed_car": 2
+  },
+  "description": "Erection partial single storey extension and partial double storey extension to the rear with the rear dormer and rooflights to the front roof slope. Erection first floor side extension and front extension. Conversion the garage to the habitable room. ",
   "lapsed_date": "22/05/2029",
-  "application_type_full": null,
-  "borough": "Kingston",
-  "last_updated": "2026-06-03T17:01:01.781Z",
+  "application_type_full": "Householder planning permission",
+  "borough": "Kingston Upon Thames",
+  "last_updated": "2026-06-28T14:35:32.558Z",
   "development_type": "Other house holder developments",
   "id": "Kingston-26_00434_HOU",
   "valid_date": "27/03/2026"

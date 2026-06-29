@@ -1,10 +1,36 @@
 {
   "decision": "Refused",
   "last_date_consultation_comments": "15/04/2026",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          0.189368,
+          51.577326
+        ],
+        [
+          0.189367,
+          51.577299
+        ],
+        [
+          0.189324,
+          51.577299
+        ],
+        [
+          0.189325,
+          51.577326
+        ],
+        [
+          0.189368,
+          51.577326
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "date_building_work_started_under_previous_permission": null,
   "ward": "St Edwards",
-  "site_number": null,
+  "site_number": 88,
   "polygon": null,
   "appeal_status": null,
   "application_type_full": "Full planning permission",
@@ -22,7 +48,7 @@
   "url_planning_app": "http://development.havering.gov.uk/OcellaWeb/planningDetails?reference=P1622.25",
   "application_details": {
     "surface_water_discharge_percentage_reduction": 0,
-    "site_area": 0.09615000000000001,
+    "site_area": 0.09615,
     "existing_uprns": null,
     "projected_cost_of_works": "Up to £2m",
     "scheme_phasing": true,
@@ -41,23 +67,30 @@
       "no_new_water_connections_required": 0,
       "no_new_gas_connections_required": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
-      "mobile_network_operators_consultation": false
+      "mobile_network_operators_consultation": false,
+      "urban_greening_factor_score": 0
     },
     "internal_resi_water_usage": 110,
     "ownership_status": "Private",
     "non_residential_details": {
-      "total_non_resi_gross_internal_floor_area_to_be_gained": 85,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 28.8,
-      "total_gia_lost": 28.8,
-      "total_gia_gained": 85,
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 199.5,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_lost": 143.3,
+      "total_gia_gained": 199.5,
       "total_gia_existing": 143.3
     },
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 143.3,
+        "gia_gained": 0,
+        "use_class": "C3",
+        "gia_lost": 143.3
+      },
+      {
+        "gia_existing": 0,
+        "gia_gained": 199.5,
         "use_class": "SG",
-        "gia_gained": 85,
-        "gia_lost": 28.8
+        "gia_lost": 0
       }
     ],
     "green_suds": false,
@@ -68,11 +101,11 @@
         "intended_commencement_date": "08/2026"
       }
     ],
-    "total_gia_gained": 85,
+    "total_gia_gained": 199.5,
     "total_gia_existing": 143.3,
     "affordable_housing_fast_track": false,
     "grey_water_reuse": false,
-    "total_gia_lost": 28.8,
+    "total_gia_lost": 143.3,
     "residential_details": {
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
@@ -87,109 +120,168 @@
       "total_no_proposed_residential_units_social_rent": 0,
       "residential_units": [
         {
-          "change_type": "Loss",
-          "unit_type": "Communal Space",
-          "gia": 25.65
-        },
-        {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 7,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "House or Bungalow",
           "no_bedrooms": 4,
+          "unit_type": "House or Bungalow",
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 143.3
         },
         {
-          "provider": "Private rented sector",
-          "no_habitable_rooms": 12,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Other",
+          "no_habitable_rooms": 12,
+          "provider": "Private rented sector",
           "no_bedrooms": 11,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
-          "gia": 143.3
+          "gia": 199.5
         },
         {
-          "provider": "Private rented sector",
-          "no_habitable_rooms": 12,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Other",
+          "no_habitable_rooms": 12,
+          "provider": "Private rented sector",
           "no_bedrooms": 11,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
-          "gia": 143.3
+          "gia": 199.5
         },
         {
-          "provider": "Private rented sector",
-          "no_habitable_rooms": 12,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Other",
+          "no_habitable_rooms": 12,
+          "provider": "Private rented sector",
           "no_bedrooms": 11,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
-          "gia": 143.3
+          "gia": 199.5
         },
         {
-          "provider": "Private rented sector",
-          "no_habitable_rooms": 12,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Other",
+          "no_habitable_rooms": 12,
+          "provider": "Private rented sector",
           "no_bedrooms": 11,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
-          "gia": 143.3
+          "gia": 199.5
         },
         {
-          "provider": "Private rented sector",
-          "no_habitable_rooms": 12,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Other",
+          "no_habitable_rooms": 12,
+          "provider": "Private rented sector",
           "no_bedrooms": 11,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
-          "gia": 143.3
+          "gia": 199.5
         },
         {
-          "provider": "Private rented sector",
-          "no_habitable_rooms": 12,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Other",
+          "no_habitable_rooms": 12,
+          "provider": "Private rented sector",
           "no_bedrooms": 11,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
-          "gia": 143.3
+          "gia": 199.5
         },
         {
-          "provider": "Private rented sector",
-          "no_habitable_rooms": 12,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Other",
+          "no_habitable_rooms": 12,
+          "provider": "Private rented sector",
           "no_bedrooms": 11,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
-          "gia": 143.3
+          "gia": 199.5
         },
         {
-          "provider": "Private rented sector",
-          "no_habitable_rooms": 12,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Other",
+          "no_habitable_rooms": 12,
+          "provider": "Private rented sector",
           "no_bedrooms": 11,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
-          "gia": 143.3
+          "gia": 199.5
         },
         {
-          "provider": "Private rented sector",
-          "no_habitable_rooms": 12,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Other",
+          "no_habitable_rooms": 12,
+          "provider": "Private rented sector",
           "no_bedrooms": 11,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
-          "gia": 143.3
+          "gia": 199.5
         },
         {
-          "provider": "Private rented sector",
-          "no_habitable_rooms": 12,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Other",
+          "no_habitable_rooms": 12,
+          "provider": "Private rented sector",
           "no_bedrooms": 11,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
-          "gia": 143.3
+          "gia": 199.5
         }
       ],
       "total_no_existing_residential_units_london_shared_ownership": 0,
@@ -207,20 +299,21 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_shared_equity": 0,
-      "total_no_existing_residential_units": 2,
+      "total_no_existing_residential_units": 1,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
-      "total_gia_gained": 1433,
+      "total_gia_gained": 1995,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_existing_residential_affordable_units": 0,
-      "total_gia_lost": 168.95,
+      "total_gia_lost": 143.3,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "habitable_rooms_density": null,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_starter_homes": 0
     },
-    "rain_water_harvesting": false
+    "rain_water_harvesting": false,
+    "occupation_status": "Occupied"
   },
   "development_type": null,
   "centroid_easting": 551804,
@@ -230,11 +323,11 @@
   "lpa_app_no": "P1622.25",
   "decision_process": "Committee",
   "lapsed_date": null,
-  "uprn": "100021371875",
+  "uprn": 100021371875,
   "bo_system": "CSV Data Import",
   "cil_liability": false,
-  "street_name": "Romford",
-  "locality": null,
+  "street_name": "Eastern Road",
+  "locality": "Romford",
   "application_type": "All Other",
   "epc_number": "9380-2824-8300-2907-7035",
   "decision_conditions": [
@@ -244,13 +337,13 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": 188765,
-  "last_updated": "2026-06-02T04:00:12.691Z",
+  "last_updated": "2026-06-28T15:04:54.373Z",
   "centroid": {
     "lon": 0.189346,
     "lat": 51.577312
   },
   "subdivision_of_building": null,
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Planning Portal ingest",
   "title_number": null,
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
@@ -258,7 +351,10 @@
   "parking_details": {
     "no_proposed_car": 5,
     "no_existing_car": 10,
-    "net_car": -5
+    "net_car": -5,
+    "no_existing_cycle": 0,
+    "no_proposed_cycle": 10,
+    "net_cycle": 10
   },
-  "description": "Single storey rear extension to facilitate change of use from Use Class C3 (Residential Dwelling) to Use Class Sui Generis (HMO) for up to 10 people, including installation of security gate, fencing, bin/cycle stores and internal alterations, following the demolition of existing rear extension."
+  "description": "Single storey rear extension to facilitate change of Use from Dwelling (Use Class C3) to HMO (Sui Generis), including installation of security gate, new fences, bin/cycle stores and internal alterations, following the demolition of existing rear extension."
 }

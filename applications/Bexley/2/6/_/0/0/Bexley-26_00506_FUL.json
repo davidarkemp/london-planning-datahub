@@ -6,17 +6,21 @@
   "appeal_decision": null,
   "lapsed_date": "19/06/2029",
   "appeal_decision_date": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": null,
-  "last_updated": "2026-06-19T20:00:50.221Z",
+  "last_updated": "2026-06-28T10:23:18.255Z",
   "url_planning_app": null,
   "street_name": "Standard Road",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 4,
+    "net_car": 0,
+    "no_proposed_car": 4
+  },
   "ward": "CROOKL",
   "bo_system": "Idox Uniform",
   "site_name": "",
-  "site_number": "55",
+  "site_number": 55,
   "application_details": {
     "site_area": 0.04,
     "total_gia_existing": 115,
@@ -24,8 +28,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development ",
-        "intended_commencement_date": "05/2026",
-        "intended_completion_date": "07/2026"
+        "intended_completion_date": "07/2026",
+        "intended_commencement_date": "05/2026"
       }
     ],
     "garden_land_lost": false,
@@ -33,8 +37,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 115,
-        "use_class": "C3",
         "gia_gained": 115,
+        "use_class": "C3",
         "gia_lost": 115
       }
     ],
@@ -54,7 +58,8 @@
       "mobile_network_operators_consultation": false,
       "ghg_reduction_over_building_regulations": false,
       "fire_suppression_system_proposed": false,
-      "total_annual_nox_emissions": 0
+      "total_annual_nox_emissions": 0,
+      "urban_greening_factor_score": 0
     },
     "rain_water_harvesting": false,
     "projected_cost_of_works": "Up to £2m",
@@ -101,59 +106,93 @@
       "total_no_proposed_residential_units_affordable_rent": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 6,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "House or Bungalow",
           "no_bedrooms": 3,
+          "unit_type": "House or Bungalow",
           "provision_for_older_persons": false,
-          "gia": 115,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 115
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "HMO",
           "no_habitable_rooms": 1,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "HMO",
           "no_bedrooms": 1,
-          "gia": 115,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 115
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "HMO",
           "no_habitable_rooms": 1,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "HMO",
           "no_bedrooms": 1,
-          "gia": 115,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 115
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "HMO",
           "no_habitable_rooms": 1,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "HMO",
           "no_bedrooms": 1,
-          "gia": 115,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 115
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "HMO",
           "no_habitable_rooms": 1,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "HMO",
           "no_bedrooms": 1,
-          "gia": 115,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 115
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "HMO",
           "no_habitable_rooms": 1,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "HMO",
           "no_bedrooms": 1,
-          "gia": 115,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 115
         }
       ]
     },
@@ -167,10 +206,11 @@
     "affordable_housing_fast_track": false,
     "grey_water_reuse": false,
     "total_gia_lost": 115,
-    "surface_water_discharge_percentage_reduction": 0
+    "surface_water_discharge_percentage_reduction": 0,
+    "occupation_status": "Vacant"
   },
-  "uprn": "100020216819",
-  "locality": null,
+  "uprn": 100020216819,
+  "locality": "Bexleyheath",
   "date_building_work_started_under_previous_permission": null,
   "postcode": "DA6 8DR",
   "valid_date": "13/03/2026",
@@ -180,7 +220,7 @@
     "lat": 51.456746,
     "lon": 0.133665
   },
-  "centroid_easting": "548337",
+  "centroid_easting": 548337,
   "application_type_full": "Full planning permission",
   "pp_id": "PP-14770234",
   "lpa_app_no": "26/00506/FUL",
@@ -190,104 +230,90 @@
         "coordinates": [
           [
             [
-              548339,
-              175234
-            ],
-            [
-              548339,
-              175239
-            ],
-            [
-              548340,
-              175239
-            ],
-            [
-              548341,
-              175247
-            ],
-            [
-              548341,
-              175251
-            ],
-            [
-              548341,
-              175266
-            ],
-            [
-              548342,
-              175269
-            ],
-            [
-              548342,
-              175271
-            ],
-            [
-              548339,
-              175271
-            ],
-            [
-              548336,
-              175271
-            ],
-            [
-              548336,
-              175271
-            ],
-            [
-              548335,
-              175271
-            ],
-            [
-              548330,
-              175272
-            ],
-            [
-              548328,
-              175256
-            ],
-            [
-              548328,
-              175252
-            ],
-            [
-              548328,
-              175250
-            ],
-            [
-              548328,
-              175246
-            ],
-            [
-              548327,
-              175240
-            ],
-            [
-              548327,
-              175240
-            ],
-            [
-              548327,
-              175239
-            ],
-            [
-              548327,
-              175234
-            ],
-            [
-              548339,
-              175234
+              [
+                548335.84,
+                175271.17
+              ],
+              [
+                548329.75,
+                175271.6
+              ],
+              [
+                548328.4,
+                175255.55
+              ],
+              [
+                548328.15,
+                175252.5
+              ],
+              [
+                548327.984,
+                175250.359
+              ],
+              [
+                548327.612,
+                175245.561
+              ],
+              [
+                548327.16,
+                175239.74
+              ],
+              [
+                548327.15,
+                175239.65
+              ],
+              [
+                548327.1,
+                175239.07
+              ],
+              [
+                548326.85,
+                175234.4
+              ],
+              [
+                548339,
+                175233.6
+              ],
+              [
+                548339.4,
+                175238.85
+              ],
+              [
+                548340.1,
+                175238.8
+              ],
+              [
+                548340.6,
+                175247.15
+              ],
+              [
+                548340.768,
+                175250.793
+              ],
+              [
+                548341.479,
+                175266.197
+              ],
+              [
+                548341.8,
+                175270.75
+              ],
+              [
+                548335.84,
+                175271.17
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
-    "type": "geometrycollection"
+    "type": "GeometryCollection"
   },
   "id": "Bexley-26_00506_FUL",
   "appeal_status": null,
   "appeal_start_date": null,
-  "description": "Change of use from dwellinghouse (Class C3) to House of Multiple Occupation (Class C4) for up to 5 people.",
+  "description": "Change of use from dwelling class C3 to a five bed HMO Class C4",
   "development_type": null,
   "decision_conditions": [
     "Materials",
@@ -304,104 +330,90 @@
   "title_number": [],
   "last_date_consultation_comments": "11/06/2026",
   "decision_process": null,
-  "centroid_northing": "175244",
-  "borough": "London Borough of Bexley",
+  "centroid_northing": 175244,
+  "borough": "Bexley",
   "decision": "Approved",
   "application_type": "All Other",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          0.133689,
-          51.456656
-        ],
-        [
-          0.133691,
-          51.456701
-        ],
-        [
-          0.133706,
-          51.4567
-        ],
-        [
-          0.133723,
-          51.456772
-        ],
-        [
-          0.133725,
-          51.456808
-        ],
-        [
-          0.133731,
-          51.456943
-        ],
-        [
-          0.133747,
-          51.456969
-        ],
-        [
-          0.133748,
-          51.456987
-        ],
-        [
-          0.133705,
-          51.456988
-        ],
-        [
-          0.133662,
-          51.456989
-        ],
-        [
-          0.133662,
-          51.456989
-        ],
-        [
-          0.133647,
-          51.456989
-        ],
-        [
-          0.133576,
-          51.456999
-        ],
-        [
-          0.13354,
-          51.456856
-        ],
-        [
-          0.133539,
-          51.45682
-        ],
-        [
-          0.133538,
-          51.456802
-        ],
-        [
-          0.133536,
-          51.456766
-        ],
-        [
-          0.133519,
-          51.456713
-        ],
-        [
-          0.133519,
-          51.456713
-        ],
-        [
-          0.133519,
-          51.456704
-        ],
-        [
-          0.133517,
-          51.456659
-        ],
-        [
-          0.133689,
-          51.456656
+          [
+            0.133659,
+            51.45699
+          ],
+          [
+            0.133572,
+            51.456996
+          ],
+          [
+            0.133546,
+            51.456852
+          ],
+          [
+            0.133541,
+            51.456825
+          ],
+          [
+            0.133538,
+            51.456806
+          ],
+          [
+            0.13353,
+            51.456763
+          ],
+          [
+            0.133521,
+            51.45671
+          ],
+          [
+            0.133521,
+            51.45671
+          ],
+          [
+            0.13352,
+            51.456704
+          ],
+          [
+            0.133515,
+            51.456662
+          ],
+          [
+            0.133689,
+            51.456652
+          ],
+          [
+            0.133697,
+            51.456699
+          ],
+          [
+            0.133707,
+            51.456699
+          ],
+          [
+            0.133718,
+            51.456773
+          ],
+          [
+            0.133722,
+            51.456806
+          ],
+          [
+            0.133738,
+            51.456944
+          ],
+          [
+            0.133745,
+            51.456985
+          ],
+          [
+            0.133659,
+            51.45699
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "decision_agency": null,
   "decision_target_date": "08/05/2026",

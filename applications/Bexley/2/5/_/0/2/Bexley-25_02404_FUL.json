@@ -2,7 +2,7 @@
   "postcode": "DA14 5AP",
   "status": "Approved",
   "decision_agency": null,
-  "subdivision_of_building": null,
+  "subdivision_of_building": "No existing buildings are being altered.",
   "appeal_start_date": null,
   "cil_liability": true,
   "decision_conditions": [
@@ -30,122 +30,108 @@
   "decision_target_date": "28/01/2026",
   "valid_date": "03/12/2025",
   "lpa_app_no": "25/02404/FUL",
-  "locality": null,
+  "locality": "Sidcup",
   "appeal_decision_date": null,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 6,
+    "net_car": 0,
+    "no_proposed_car": 6
+  },
   "decision_process": null,
   "street_name": "Maidstone Road",
   "site_number": "",
-  "centroid_easting": "549346",
+  "centroid_easting": 549346,
   "polygon": {
     "geometries": [
       {
         "coordinates": [
           [
             [
-              549366,
-              170021
-            ],
-            [
-              549368,
-              170043
-            ],
-            [
-              549369,
-              170049
-            ],
-            [
-              549370,
-              170054
-            ],
-            [
-              549370,
-              170056
-            ],
-            [
-              549370,
-              170060
-            ],
-            [
-              549370,
-              170071
-            ],
-            [
-              549369,
-              170073
-            ],
-            [
-              549361,
-              170072
-            ],
-            [
-              549357,
-              170072
-            ],
-            [
-              549332,
-              170072
-            ],
-            [
-              549331,
-              170072
-            ],
-            [
-              549321,
-              170073
-            ],
-            [
-              549319,
-              170074
-            ],
-            [
-              549317,
-              170075
-            ],
-            [
-              549315,
-              170072
-            ],
-            [
-              549310,
-              170063
-            ],
-            [
-              549306,
-              170043
-            ],
-            [
-              549309,
-              170042
-            ],
-            [
-              549311,
-              170042
-            ],
-            [
-              549361,
-              170023
-            ],
-            [
-              549366,
-              170021
+              [
+                549317.402,
+                170074.84
+              ],
+              [
+                549310.3,
+                170063.1
+              ],
+              [
+                549306.66,
+                170047.48
+              ],
+              [
+                549305.8,
+                170043.1
+              ],
+              [
+                549311.4,
+                170041.63
+              ],
+              [
+                549365.8,
+                170020.8
+              ],
+              [
+                549369.127,
+                170048.906
+              ],
+              [
+                549369.765,
+                170054.348
+              ],
+              [
+                549370.4,
+                170059.8
+              ],
+              [
+                549370.2,
+                170071.4
+              ],
+              [
+                549369.3,
+                170072.6
+              ],
+              [
+                549360.8,
+                170072.5
+              ],
+              [
+                549356.91,
+                170072.01
+              ],
+              [
+                549330.75,
+                170071.722
+              ],
+              [
+                549320.595,
+                170073.056
+              ],
+              [
+                549318.942,
+                170073.75
+              ],
+              [
+                549317.402,
+                170074.84
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
-    "type": "geometrycollection"
+    "type": "GeometryCollection"
   },
   "ward": "STMARN",
-  "centroid_northing": "170048",
+  "centroid_northing": 170048,
   "application_type": "All Other",
-  "uprn": "010011846275",
+  "uprn": 10011846275,
   "lapsed_date": "22/06/2029",
   "actual_completion_date": null,
   "decision": "Approved",
   "site_name": "Wayside",
-  "borough": "London Borough of Bexley",
+  "borough": "Bexley",
   "last_date_consultation_comments": "16/06/2026",
   "application_type_full": "Full planning permission",
   "url_planning_app": null,
@@ -154,11 +140,11 @@
   "development_type": null,
   "appeal_status": null,
   "date_building_work_completed_under_previous_permission": null,
-  "description": "Erection of 2 detached dwellings with accommodation at roof level with formation of a vehicular access and parking.",
+  "description": "Erection of 2 dwellings and creation of new access",
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
   "epc_number": null,
-  "last_updated": "2026-06-22T20:00:41.157Z",
+  "last_updated": "2026-06-28T11:15:44.476Z",
   "centroid": {
     "lon": 0.145987,
     "lat": 51.409794
@@ -170,8 +156,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire development",
-        "intended_commencement_date": "03/2026",
-        "intended_completion_date": "12/2026"
+        "intended_completion_date": "12/2026",
+        "intended_commencement_date": "03/2026"
       }
     ],
     "total_gia_gained": 0,
@@ -181,8 +167,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 112,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -251,24 +237,34 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": true,
+          "sheltered_accommodation": false,
+          "unit_type": "House or Bungalow",
           "no_habitable_rooms": 7,
           "provider": "Private",
-          "change_type": "Gain",
-          "garden_land": true,
-          "unit_type": "House or Bungalow",
           "no_bedrooms": 4,
-          "gia": 132,
-          "tenure": "Self-Build and Custom Build"
+          "provision_for_older_persons": false,
+          "tenure": "Self-Build and Custom Build",
+          "gia": 132
         },
         {
-          "no_habitable_rooms": 4,
-          "provider": "Private",
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
           "garden_land": true,
+          "sheltered_accommodation": false,
           "unit_type": "House or Bungalow",
+          "no_habitable_rooms": 4,
+          "provider": "Private",
           "no_bedrooms": 2,
-          "gia": 91,
-          "tenure": "Self-Build and Custom Build"
+          "provision_for_older_persons": false,
+          "tenure": "Self-Build and Custom Build",
+          "gia": 91
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -291,107 +287,91 @@
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 2,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "urban_greening_factor_score": 0
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "occupation_status": "Occupied"
   },
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          0.146263,
-          51.409546
-        ],
-        [
-          0.146301,
-          51.409743
-        ],
-        [
-          0.146318,
-          51.409797
-        ],
-        [
-          0.146335,
-          51.409841
-        ],
-        [
-          0.146336,
-          51.409859
-        ],
-        [
-          0.146337,
-          51.409895
-        ],
-        [
-          0.146342,
-          51.409994
-        ],
-        [
-          0.146328,
-          51.410012
-        ],
-        [
-          0.146213,
-          51.410005
-        ],
-        [
-          0.146155,
-          51.410006
-        ],
-        [
-          0.145796,
-          51.410013
-        ],
-        [
-          0.145782,
-          51.410013
-        ],
-        [
-          0.145639,
-          51.410025
-        ],
-        [
-          0.14561,
-          51.410034
-        ],
-        [
-          0.145582,
-          51.410044
-        ],
-        [
-          0.145552,
-          51.410017
-        ],
-        [
-          0.145476,
-          51.409938
-        ],
-        [
-          0.145411,
-          51.409759
-        ],
-        [
-          0.145453,
-          51.409749
-        ],
-        [
-          0.145482,
-          51.409749
-        ],
-        [
-          0.146192,
-          51.409565
-        ],
-        [
-          0.146263,
-          51.409546
+          [
+            0.145588,
+            51.410042
+          ],
+          [
+            0.145481,
+            51.409939
+          ],
+          [
+            0.145422,
+            51.409799
+          ],
+          [
+            0.145408,
+            51.40976
+          ],
+          [
+            0.145488,
+            51.409746
+          ],
+          [
+            0.14626,
+            51.409544
+          ],
+          [
+            0.14632,
+            51.409796
+          ],
+          [
+            0.146331,
+            51.409844
+          ],
+          [
+            0.146343,
+            51.409893
+          ],
+          [
+            0.146345,
+            51.409998
+          ],
+          [
+            0.146332,
+            51.410009
+          ],
+          [
+            0.14621,
+            51.41001
+          ],
+          [
+            0.146154,
+            51.410007
+          ],
+          [
+            0.145778,
+            51.410011
+          ],
+          [
+            0.145633,
+            51.410025
+          ],
+          [
+            0.145609,
+            51.410032
+          ],
+          [
+            0.145588,
+            51.410042
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "id": "Bexley-25_02404_FUL",
   "reference_no_of_permission_being_relied_on": null,
   "title_number": [],
-  "last_updated_by": "Idox Uniform"
+  "last_updated_by": "Planning Portal ingest"
 }

@@ -3,40 +3,47 @@
   "postcode": "TW2 7DL",
   "decision_agency": null,
   "last_date_consultation_comments": null,
-  "centroid_easting": 514592,
+  "centroid_easting": 514585,
   "decision_target_date": "26/09/2025",
-  "parking_details": {},
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 1,
+    "net_car": 0,
+    "no_proposed_cycle": 5,
+    "no_proposed_car": 1,
+    "net_cycle": 5
+  },
   "actual_completion_date": null,
-  "epc_number": null,
+  "epc_number": "8221-7523-6700-4520-4996",
   "appeal_decision_date": null,
   "site_name": null,
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "description": "Two storey side side extension and ground floor rear extension to create a new 5 bed single dwelling, including car park, bicycle storage and amenity area at 38 Warren Road",
   "appeal_status": null,
   "application_type": "All Other",
   "ward": "",
   "pp_id": "PP-14206793",
   "appeal_decision": null,
-  "uprn": "100022349510",
+  "uprn": 100022349510,
   "centroid": {
-    "lat": 51.454006,
-    "lon": -0.352169
+    "lat": 51.453999,
+    "lon": -0.35227
   },
   "appeal_start_date": null,
   "date_building_work_started_under_previous_permission": null,
-  "locality": null,
+  "locality": "Twickenham",
   "lapsed_date": "11/03/2029",
   "bo_system": "Portal",
   "secondary_street_name": null,
   "subdivision_of_building": null,
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "status": "Approved",
   "url_planning_app": null,
   "lpa_app_no": "PA25/2580",
   "valid_date": "01/08/2025",
   "application_details": {
     "lead_developer_company_name": "LBRuT Ecology (North/West)",
-    "site_area": 0.048,
+    "site_area": 0.0484,
     "3d_model": false,
     "affordable_housing_fast_track": false,
     "s106_agreement": false,
@@ -49,15 +56,18 @@
     "circular_economy_statement": false,
     "commencement_notice_received": false,
     "rain_water_harvesting": false,
-    "scheme_phasing": false,
+    "scheme_phasing": true,
     "grey_water_reuse": false,
     "green_suds": false,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "site_area": 0.048
+      "site_area": 0.048,
+      "total_gia_gained": 132.5,
+      "total_gia_existing": 125,
+      "total_gia_lost": 0
     },
-    "garden_land_lost": false,
+    "garden_land_lost": true,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_proposed_bedrooms": 5,
@@ -65,7 +75,7 @@
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units": 0,
-      "total_no_proposed_residential_affordable_units": 0,
+      "total_no_proposed_residential_affordable_units": 1,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_living_rent": 0,
@@ -76,16 +86,16 @@
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "total_no_proposed_residential_units_market_for_sale": 1,
+      "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
-      "habitable_rooms_density": 0,
+      "habitable_rooms_density": 145.83333333333334,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "site_area": 0.048,
       "dwelling_density": 20.833333333333332,
-      "total_no_proposed_residential_units_london_affordable_rent": 0,
+      "total_no_proposed_residential_units_london_affordable_rent": 1,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
@@ -93,34 +103,80 @@
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
-      "affordable_percentage": 0,
+      "affordable_percentage": 100,
       "residential_units": [
         {
-          "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Gain",
-          "unit_type": "House or Bungalow",
+          "garden_land": true,
+          "sheltered_accommodation": false,
+          "unit_type": "Terraced Home",
+          "no_habitable_rooms": 7,
+          "provider": "Private",
           "no_bedrooms": 5,
           "provision_for_older_persons": false,
-          "unit_development_type": "Extension",
-          "tenure": "Market for sale",
-          "gia": null
+          "tenure": "London Affordable Rent",
+          "gia": 132.5
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "total_gia_gained": 132.5
     },
     "other_residential_accommodation_details": {
       "site_area": 0.048
     },
     "infrastructure_details": {
-      "waste_provision": false,
-      "mobile_network_operators_consultation": false,
+      "waste_provision": true,
+      "mobile_network_operators_consultation": true,
       "fire_suppression_system_proposed": false,
-      "ghg_reduction_over_building_regulations": false
-    }
+      "ghg_reduction_over_building_regulations": true,
+      "total_annual_pm_emissions": 0,
+      "no_passive_rapid_ev_charging_points": 1,
+      "no_resi_units_to_have_full_fibre": 1,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 1,
+      "no_active_rapid_ev_charging_points": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "percentage_demolition_construction_material_recycling": 50,
+      "no_homes_to_have_electrical_heating": 0,
+      "no_new_gas_connections_required": 1
+    },
+    "total_gia_existing": 125,
+    "projected_cost_of_works": "Up to £2m",
+    "internal_resi_water_usage": 110,
+    "phasing_details": [
+      {
+        "phase_detail": "Entire development",
+        "intended_completion_date": "08/2026",
+        "intended_commencement_date": "11/2025"
+      }
+    ],
+    "total_gia_gained": 132.5,
+    "total_gia_lost": 0,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 125,
+        "gia_gained": 132.5,
+        "use_class": "C3",
+        "gia_lost": 0
+      }
+    ],
+    "occupation_status": "Occupied",
+    "building_details": [
+      {
+        "no_storeys": 2,
+        "max_height": 6.75,
+        "building_ref": "38"
+      }
+    ],
+    "surface_water_discharge_percentage_reduction": 10,
+    "ownership_status": "Private"
   },
   "decision_process": null,
   "lpa_name": "Richmond",
@@ -131,260 +187,288 @@
         "coordinates": [
           [
             [
-              514582.25,
-              174063.2
-            ],
-            [
-              514582.2,
-              174056.1
-            ],
-            [
-              514604.9,
-              174055.3
-            ],
-            [
-              514606.2,
-              174057.1
-            ],
-            [
-              514603.7,
-              174062.4
-            ],
-            [
-              514601.35,
-              174066.8
-            ],
-            [
-              514599.15,
-              174070.6
-            ],
-            [
-              514596.5,
-              174072.4
-            ],
-            [
-              514596.25,
-              174074.9
-            ],
-            [
-              514595.35,
-              174077.05
-            ],
-            [
-              514591,
-              174084.05
-            ],
-            [
-              514590.6,
-              174084.9
-            ],
-            [
-              514590.2,
-              174085.8
-            ],
-            [
-              514590.003,
-              174086.149
-            ],
-            [
-              514589.75,
-              174086.6
-            ],
-            [
-              514589.2,
-              174087.4
-            ],
-            [
-              514588.7,
-              174088.2
-            ],
-            [
-              514588.15,
-              174088.8
-            ],
-            [
-              514587.35,
-              174089.65
-            ],
-            [
-              514586.55,
-              174090.4
-            ],
-            [
-              514586.2,
-              174090.7
-            ],
-            [
-              514585.75,
-              174091
-            ],
-            [
-              514585,
-              174091.3
-            ],
-            [
-              514584.35,
-              174091.5
-            ],
-            [
-              514584.268,
-              174088.544
-            ],
-            [
-              514584.206,
-              174086.314
-            ],
-            [
-              514583.893,
-              174075.031
-            ],
-            [
-              514583.8,
-              174071.7
-            ],
-            [
-              514583.3,
-              174068.85
-            ],
-            [
-              514582.25,
-              174063.2
+              [
+                514591.6,
+                174074.5
+              ],
+              [
+                514596.25,
+                174074.9
+              ],
+              [
+                514595.35,
+                174077.05
+              ],
+              [
+                514591,
+                174084.05
+              ],
+              [
+                514590.6,
+                174084.9
+              ],
+              [
+                514590.2,
+                174085.8
+              ],
+              [
+                514589.75,
+                174086.6
+              ],
+              [
+                514589.2,
+                174087.4
+              ],
+              [
+                514588.7,
+                174088.2
+              ],
+              [
+                514588.15,
+                174088.8
+              ],
+              [
+                514587.35,
+                174089.65
+              ],
+              [
+                514586.55,
+                174090.4
+              ],
+              [
+                514586.2,
+                174090.7
+              ],
+              [
+                514585.75,
+                174091
+              ],
+              [
+                514585,
+                174091.3
+              ],
+              [
+                514584.35,
+                174091.5
+              ],
+              [
+                514583.8,
+                174071.7
+              ],
+              [
+                514583.3,
+                174068.85
+              ],
+              [
+                514589.55,
+                174067.75
+              ],
+              [
+                514594.134,
+                174066.939
+              ],
+              [
+                514593.275,
+                174062.081
+              ],
+              [
+                514588.69,
+                174062.893
+              ],
+              [
+                514588.55,
+                174062.1
+              ],
+              [
+                514582.25,
+                174063.2
+              ],
+              [
+                514582.2,
+                174056.1
+              ],
+              [
+                514604.9,
+                174055.3
+              ],
+              [
+                514606.2,
+                174057.1
+              ],
+              [
+                514603.7,
+                174062.4
+              ],
+              [
+                514601.35,
+                174066.8
+              ],
+              [
+                514599.15,
+                174070.6
+              ],
+              [
+                514596.5,
+                174072.4
+              ],
+              [
+                514591.8,
+                174072
+              ],
+              [
+                514591.6,
+                174074.5
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "type": "GeometryCollection"
   },
   "cil_liability": false,
-  "last_updated": "2026-06-02T08:45:00.195Z",
+  "last_updated": "2026-06-28T08:21:03.925Z",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.352311,
-          51.453965
-        ],
-        [
-          -0.352314,
-          51.453901
-        ],
-        [
-          -0.351988,
-          51.45389
-        ],
-        [
-          -0.351969,
-          51.453906
-        ],
-        [
-          -0.352003,
-          51.453954
-        ],
-        [
-          -0.352035,
-          51.453994
-        ],
-        [
-          -0.352066,
-          51.454028
-        ],
-        [
-          -0.352103,
-          51.454045
-        ],
-        [
-          -0.352106,
-          51.454068
-        ],
-        [
-          -0.352118,
-          51.454087
-        ],
-        [
-          -0.352178,
-          51.454151
-        ],
-        [
-          -0.352184,
-          51.454159
-        ],
-        [
-          -0.352189,
-          51.454167
-        ],
-        [
-          -0.352192,
-          51.45417
-        ],
-        [
-          -0.352196,
-          51.454174
-        ],
-        [
-          -0.352203,
-          51.454181
-        ],
-        [
-          -0.35221,
-          51.454189
-        ],
-        [
-          -0.352218,
-          51.454194
-        ],
-        [
-          -0.352229,
-          51.454202
-        ],
-        [
-          -0.35224,
-          51.454209
-        ],
-        [
-          -0.352245,
-          51.454212
-        ],
-        [
-          -0.352252,
-          51.454214
-        ],
-        [
-          -0.352262,
-          51.454217
-        ],
-        [
-          -0.352272,
-          51.454219
-        ],
-        [
-          -0.352274,
-          51.454193
-        ],
-        [
-          -0.352275,
-          51.454173
-        ],
-        [
-          -0.352284,
-          51.454071
-        ],
-        [
-          -0.352286,
-          51.454041
-        ],
-        [
-          -0.352294,
-          51.454016
-        ],
-        [
-          -0.352311,
-          51.453965
+          [
+            -0.352173,
+            51.454065
+          ],
+          [
+            -0.352106,
+            51.454068
+          ],
+          [
+            -0.352118,
+            51.454087
+          ],
+          [
+            -0.352178,
+            51.454151
+          ],
+          [
+            -0.352184,
+            51.454159
+          ],
+          [
+            -0.352189,
+            51.454167
+          ],
+          [
+            -0.352196,
+            51.454174
+          ],
+          [
+            -0.352203,
+            51.454181
+          ],
+          [
+            -0.35221,
+            51.454189
+          ],
+          [
+            -0.352218,
+            51.454194
+          ],
+          [
+            -0.352229,
+            51.454202
+          ],
+          [
+            -0.35224,
+            51.454209
+          ],
+          [
+            -0.352245,
+            51.454212
+          ],
+          [
+            -0.352252,
+            51.454214
+          ],
+          [
+            -0.352262,
+            51.454217
+          ],
+          [
+            -0.352272,
+            51.454219
+          ],
+          [
+            -0.352286,
+            51.454041
+          ],
+          [
+            -0.352294,
+            51.454016
+          ],
+          [
+            -0.352205,
+            51.454005
+          ],
+          [
+            -0.352139,
+            51.453996
+          ],
+          [
+            -0.352153,
+            51.453953
+          ],
+          [
+            -0.352219,
+            51.453961
+          ],
+          [
+            -0.352221,
+            51.453954
+          ],
+          [
+            -0.352311,
+            51.453965
+          ],
+          [
+            -0.352314,
+            51.453901
+          ],
+          [
+            -0.351988,
+            51.45389
+          ],
+          [
+            -0.351969,
+            51.453906
+          ],
+          [
+            -0.352003,
+            51.453954
+          ],
+          [
+            -0.352035,
+            51.453994
+          ],
+          [
+            -0.352066,
+            51.454028
+          ],
+          [
+            -0.352103,
+            51.454045
+          ],
+          [
+            -0.352171,
+            51.454042
+          ],
+          [
+            -0.352173,
+            51.454065
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "street_name": "Warren Road",
   "decision_date": "12/03/2026",
@@ -394,9 +478,9 @@
   ],
   "reference_no_of_permission_being_relied_on": null,
   "actual_commencement_date": null,
-  "borough": "Richmond",
-  "centroid_northing": 174068,
-  "site_number": "38",
+  "borough": "Richmond Upon Thames",
+  "centroid_northing": 174067,
+  "site_number": 38,
   "title_number": [],
   "development_type": null
 }

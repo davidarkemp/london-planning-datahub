@@ -6,19 +6,23 @@
   "appeal_decision": null,
   "lapsed_date": "12/05/2029",
   "appeal_decision_date": null,
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "reference_no_of_permission_being_relied_on": null,
-  "epc_number": null,
-  "last_updated": "2026-06-22T15:19:34.779Z",
+  "epc_number": "0660-2897-7878-2400-1641",
+  "last_updated": "2026-06-28T03:09:14.105Z",
   "url_planning_app": null,
-  "street_name": "ST ALBANS CRESCENT",
-  "parking_details": {},
+  "street_name": "St Albans Crescent",
+  "parking_details": {
+    "no_existing_cycle": 2,
+    "no_proposed_cycle": 4,
+    "net_cycle": 2
+  },
   "ward": "",
   "bo_system": "Portal",
-  "site_name": null,
-  "site_number": "25",
+  "site_name": "25A and 25B",
+  "site_number": 25,
   "application_details": {
-    "total_gia_existing": 162,
+    "total_gia_existing": 161.7,
     "lead_developer_company_name": "Highways & Cleansing",
     "3d_model": false,
     "affordable_housing_fast_track": false,
@@ -29,8 +33,8 @@
     "mayoral_cil_liability_notice_issued": false,
     "existing_uprns": [],
     "transport_impact_assessment": false,
-    "scheme_phasing": false,
-    "rain_water_harvesting": false,
+    "scheme_phasing": true,
+    "rain_water_harvesting": true,
     "commencement_notice_received": false,
     "circular_economy_statement": false,
     "grey_water_reuse": false,
@@ -38,16 +42,18 @@
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_existing": 162
+      "total_gia_existing": 161.7,
+      "total_gia_gained": 0,
+      "total_gia_lost": 0
     },
     "garden_land_lost": false,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_bedrooms": 0,
+      "total_no_proposed_bedrooms": 6,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units": 2,
       "total_no_proposed_residential_units_affordable_rent": 0,
-      "total_no_existing_residential_units": 1,
+      "total_no_existing_residential_units": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
@@ -55,7 +61,7 @@
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_proposed_residential_units_market_for_rent": 2,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
@@ -78,68 +84,222 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "actual_completion_date": "13/05/2026",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
-          "change_type": "Loss",
-          "unit_type": "House or Bungalow",
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 4,
+          "provider": "Private",
+          "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "gia": null
+          "tenure": "Market for rent",
+          "gia": 79
         },
         {
-          "actual_completion_date": "13/05/2026",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 4,
+          "provider": "Private",
+          "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "gia": null
-        },
-        {
-          "actual_completion_date": "13/05/2026",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
-          "provision_for_older_persons": false,
-          "gia": null
+          "tenure": "Market for rent",
+          "gia": 82.7
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "total_gia_gained": 161.7
     },
     "infrastructure_details": {
-      "waste_provision": false,
+      "waste_provision": true,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
-      "ghg_reduction_over_building_regulations": false
-    }
+      "ghg_reduction_over_building_regulations": false,
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 2,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0.21,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "no_new_gas_connections_required": 0
+    },
+    "projected_cost_of_works": "Up to £2m",
+    "internal_resi_water_usage": 110,
+    "phasing_details": [
+      {
+        "phase_detail": "Ground and First Floor",
+        "intended_completion_date": "06/2026",
+        "intended_commencement_date": "04/2026"
+      }
+    ],
+    "total_gia_gained": 0,
+    "site_area": 0.0336,
+    "total_gia_lost": 0,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 161.7,
+        "gia_gained": 0,
+        "use_class": "C3",
+        "gia_lost": 0
+      }
+    ],
+    "occupation_status": "Vacant",
+    "surface_water_discharge_percentage_reduction": 0,
+    "ownership_status": "Private"
   },
   "uprn": "10097092458",
-  "locality": null,
-  "date_building_work_started_under_previous_permission": null,
-  "postcode": "",
+  "locality": "London",
+  "date_building_work_started_under_previous_permission": "31/03/1993",
+  "postcode": "IG8 9EH",
   "valid_date": "10/03/2026",
   "cil_liability": false,
   "actual_completion_date": "13/05/2026",
   "centroid": {
-    "lat": 51.599855,
-    "lon": 0.022075
+    "lat": 51.599836,
+    "lon": 0.022118
   },
-  "centroid_easting": 540145,
-  "application_type_full": null,
+  "centroid_easting": 540148,
+  "application_type_full": "Full planning permission",
   "pp_id": "PP-14761589",
   "lpa_app_no": "0639/26",
   "polygon": {
-    "type": "geometrycollection"
+    "type": "GeometryCollection",
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                540155.9,
+                190910.35
+              ],
+              [
+                540153.75,
+                190936.75
+              ],
+              [
+                540150.65,
+                190941
+              ],
+              [
+                540146.2,
+                190947
+              ],
+              [
+                540141.8,
+                190946.6
+              ],
+              [
+                540142.15,
+                190943.15
+              ],
+              [
+                540144,
+                190943.3
+              ],
+              [
+                540144.6,
+                190944.5
+              ],
+              [
+                540146.15,
+                190944.65
+              ],
+              [
+                540146.95,
+                190943.45
+              ],
+              [
+                540147.4,
+                190943.5
+              ],
+              [
+                540147.95,
+                190937.45
+              ],
+              [
+                540151.65,
+                190937.8
+              ],
+              [
+                540152.05,
+                190932.7
+              ],
+              [
+                540152.174,
+                190931.124
+              ],
+              [
+                540149.8,
+                190930.9
+              ],
+              [
+                540143.45,
+                190930.3
+              ],
+              [
+                540143.7,
+                190927.45
+              ],
+              [
+                540145.1,
+                190913
+              ],
+              [
+                540145.3,
+                190912.95
+              ],
+              [
+                540146.2,
+                190912.85
+              ],
+              [
+                540147.05,
+                190912.7
+              ],
+              [
+                540148.1,
+                190912.45
+              ],
+              [
+                540149.1,
+                190912.15
+              ],
+              [
+                540150.3,
+                190911.8
+              ],
+              [
+                540151.45,
+                190911.55
+              ],
+              [
+                540155.9,
+                190910.35
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ]
   },
   "id": "Redbridge-0639_26",
   "appeal_status": null,
   "appeal_start_date": null,
-  "description": "Conversion and continued use as two self-contained residential flats (two x 3-bedroom) with associated waste/refuse, cycle store and amenity space. Internal alterations. Alterations to fenestration (part retrospective) (summary)",
+  "description": "Conversion and continued use of 25A and 25B St Albans Crescent as two self-contained residential flats, including internal alterations and alterations to fenestration (part - retrospective)",
   "development_type": null,
   "decision_conditions": [
     "The development hereby permitted shall be begun no later than the expiration of three years from the date of this permission.\n\nReason: In order to comply with the requirements of Section 91 of the Town and Country Planning Act 1990."
@@ -148,7 +308,7 @@
   "title_number": [],
   "last_date_consultation_comments": "08/04/2026",
   "decision_process": null,
-  "centroid_northing": 190938,
+  "centroid_northing": 190936,
   "borough": "Redbridge",
   "decision": "Approved",
   "application_type": "All Other",
@@ -156,31 +316,121 @@
     "coordinates": [
       [
         [
-          0.022097,
-          51.599868
-        ],
-        [
-          0.022096,
-          51.599841
-        ],
-        [
-          0.022053,
-          51.599842
-        ],
-        [
-          0.022054,
-          51.599869
-        ],
-        [
-          0.022097,
-          51.599868
+          [
+            0.022221,
+            51.599604
+          ],
+          [
+            0.022201,
+            51.599842
+          ],
+          [
+            0.022158,
+            51.599881
+          ],
+          [
+            0.022096,
+            51.599936
+          ],
+          [
+            0.022032,
+            51.599933
+          ],
+          [
+            0.022036,
+            51.599902
+          ],
+          [
+            0.022063,
+            51.599903
+          ],
+          [
+            0.022072,
+            51.599914
+          ],
+          [
+            0.022094,
+            51.599915
+          ],
+          [
+            0.022105,
+            51.599904
+          ],
+          [
+            0.022112,
+            51.599904
+          ],
+          [
+            0.022117,
+            51.599849
+          ],
+          [
+            0.022171,
+            51.599852
+          ],
+          [
+            0.022175,
+            51.599806
+          ],
+          [
+            0.022176,
+            51.599792
+          ],
+          [
+            0.022141,
+            51.59979
+          ],
+          [
+            0.02205,
+            51.599786
+          ],
+          [
+            0.022052,
+            51.599761
+          ],
+          [
+            0.022066,
+            51.599631
+          ],
+          [
+            0.022069,
+            51.59963
+          ],
+          [
+            0.022082,
+            51.599629
+          ],
+          [
+            0.022094,
+            51.599627
+          ],
+          [
+            0.02211,
+            51.599625
+          ],
+          [
+            0.022124,
+            51.599622
+          ],
+          [
+            0.022141,
+            51.599618
+          ],
+          [
+            0.022158,
+            51.599616
+          ],
+          [
+            0.022221,
+            51.599604
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "decision_agency": null,
   "decision_target_date": "04/05/2026",
-  "status": "Completed",
+  "status": "Commenced",
   "decision_date": "13/05/2026"
 }

@@ -2,60 +2,58 @@
   "decision": "Approved",
   "last_date_consultation_comments": "03/06/2026",
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.162926,
-          51.45628
-        ],
-        [
-          -0.162957,
-          51.45633
-        ],
-        [
-          -0.162882,
-          51.456348
-        ],
-        [
-          -0.162874,
-          51.456335
-        ],
-        [
-          -0.16285,
-          51.456297
-        ],
-        [
-          -0.162846,
-          51.456291
-        ],
-        [
-          -0.16277,
-          51.456173
-        ],
-        [
-          -0.162759,
-          51.456156
-        ],
-        [
-          -0.162837,
-          51.456137
-        ],
-        [
-          -0.162848,
-          51.456155
-        ],
-        [
-          -0.162886,
-          51.456215
-        ],
-        [
-          -0.162926,
-          51.45628
-        ],
-        [
-          -0.162926,
-          51.45628
+          [
+            -0.16277,
+            51.456173
+          ],
+          [
+            -0.162846,
+            51.456291
+          ],
+          [
+            -0.16285,
+            51.456297
+          ],
+          [
+            -0.162874,
+            51.456335
+          ],
+          [
+            -0.162882,
+            51.456348
+          ],
+          [
+            -0.162957,
+            51.45633
+          ],
+          [
+            -0.162926,
+            51.45628
+          ],
+          [
+            -0.162886,
+            51.456215
+          ],
+          [
+            -0.162848,
+            51.456155
+          ],
+          [
+            -0.162837,
+            51.456137
+          ],
+          [
+            -0.162759,
+            51.456156
+          ],
+          [
+            -0.16277,
+            51.456173
+          ]
         ]
       ]
     ]
@@ -64,66 +62,64 @@
   "ward": "Northcote",
   "site_number": null,
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              527733.8160122049,
-              174633.54932833434
-            ],
-            [
-              527731.5000122035,
-              174639.1503283367
-            ],
-            [
-              527736.650012207,
-              174641.2503283355
-            ],
-            [
-              527737.2500122073,
-              174639.80032833654
-            ],
-            [
-              527739.0500122085,
-              174635.65032833413
-            ],
-            [
-              527739.3450122086,
-              174634.9673283344
-            ],
-            [
-              527744.9500122122,
-              174622.00032832933
-            ],
-            [
-              527745.7500122127,
-              174620.10032832995
-            ],
-            [
-              527740.350012209,
-              174617.90032832965
-            ],
-            [
-              527739.5500122085,
-              174619.80032832996
-            ],
-            [
-              527736.7500122067,
-              174626.45032833045
-            ],
-            [
-              527733.8160122049,
-              174633.54932833434
-            ],
-            [
-              527733.8160122049,
-              174633.54932833434
+              [
+                527744.95,
+                174622
+              ],
+              [
+                527739.345,
+                174634.967
+              ],
+              [
+                527739.05,
+                174635.65
+              ],
+              [
+                527737.25,
+                174639.8
+              ],
+              [
+                527736.65,
+                174641.25
+              ],
+              [
+                527731.5,
+                174639.15
+              ],
+              [
+                527733.816,
+                174633.549
+              ],
+              [
+                527736.75,
+                174626.45
+              ],
+              [
+                527739.55,
+                174619.8
+              ],
+              [
+                527740.35,
+                174617.9
+              ],
+              [
+                527745.75,
+                174620.1
+              ],
+              [
+                527744.95,
+                174622
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ]
   },
@@ -136,7 +132,7 @@
   "appeal_decision_date": null,
   "status": "Approved",
   "valid_date": "28/01/2026",
-  "site_name": "Flat First Floor",
+  "site_name": "113 Maisonette First And Second Floors",
   "decision_date": "19/06/2026",
   "pp_id": "14049082",
   "actual_completion_date": null,
@@ -161,7 +157,8 @@
       "no_new_water_connections_required": 0,
       "no_new_gas_connections_required": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
-      "mobile_network_operators_consultation": false
+      "mobile_network_operators_consultation": false,
+      "urban_greening_factor_score": 0
     },
     "internal_resi_water_usage": 0,
     "ownership_status": "Private",
@@ -175,8 +172,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 95.7,
-        "use_class": "C3",
         "gia_gained": 24.28,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -184,8 +181,8 @@
     "phasing_details": [
       {
         "phase_detail": "Proposed Works",
-        "intended_commencement_date": "11/2025",
-        "intended_completion_date": "11/2026"
+        "intended_completion_date": "11/2026",
+        "intended_commencement_date": "11/2025"
       }
     ],
     "total_gia_gained": 24.28,
@@ -193,17 +190,18 @@
     "affordable_housing_fast_track": false,
     "grey_water_reuse": false,
     "total_gia_lost": 0,
-    "rain_water_harvesting": false
+    "rain_water_harvesting": false,
+    "occupation_status": "Occupied"
   },
   "development_type": "Minor dwellings",
-  "centroid_easting": 527741,
+  "centroid_easting": 527740,
   "decision_target_date": "26/06/2026",
   "decision_agency": "Borough",
   "actual_commencement_date": null,
   "lpa_app_no": "2026/0198",
   "decision_process": null,
   "lapsed_date": "19/06/2029",
-  "uprn": "100022618119",
+  "uprn": 100022618119,
   "bo_system": "Northgate M3",
   "cil_liability": false,
   "street_name": "Bramfield Road",
@@ -221,17 +219,17 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": 174625,
-  "last_updated": "2026-06-19T09:10:02.834Z",
+  "last_updated": "2026-06-28T05:13:13.188Z",
   "centroid": {
-    "lon": -0.162826,
+    "lon": -0.16284,
     "lat": 51.456201
   },
   "subdivision_of_building": "First Floor Flat",
-  "last_updated_by": "Northgate M3",
+  "last_updated_by": "Planning Portal ingest",
   "title_number": null,
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "id": "Wandsworth-2026_0198",
   "parking_details": null,
-  "description": "Alterations including erection of an extension to the main rear roof; increasing ridge height by 0.3m, formation of a roof terrace with a 1.7m high glazed surround above part of the three-storey back addition with raised access dormer. "
+  "description": "Proposed loft extension with dormer, roof terrace, roof changes to outrigger, insertion of rooflight and all other associated works at 113 Bramfield Road"
 }

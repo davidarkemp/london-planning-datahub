@@ -1,84 +1,85 @@
 {
-  "uprn": "100022218616",
+  "uprn": 100022218616,
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          0.093739,
-          51.574914
-        ],
-        [
-          0.093742,
-          51.574872
-        ],
-        [
-          0.093748,
-          51.574796
-        ],
-        [
-          0.093748,
-          51.574768
-        ],
-        [
-          0.093749,
-          51.574655
-        ],
-        [
-          0.09375,
-          51.57461
-        ],
-        [
-          0.093863,
-          51.57461
-        ],
-        [
-          0.093863,
-          51.574623
-        ],
-        [
-          0.093862,
-          51.574672
-        ],
-        [
-          0.093863,
-          51.574776
-        ],
-        [
-          0.093863,
-          51.574808
-        ],
-        [
-          0.093863,
-          51.574875
-        ],
-        [
-          0.093864,
-          51.574918
-        ],
-        [
-          0.093739,
-          51.574914
+          [
+            0.093863,
+            51.574808
+          ],
+          [
+            0.093863,
+            51.574875
+          ],
+          [
+            0.093825,
+            51.574874
+          ],
+          [
+            0.093742,
+            51.574872
+          ],
+          [
+            0.093748,
+            51.574796
+          ],
+          [
+            0.093748,
+            51.574768
+          ],
+          [
+            0.09375,
+            51.57461
+          ],
+          [
+            0.093863,
+            51.57461
+          ],
+          [
+            0.093863,
+            51.574623
+          ],
+          [
+            0.093862,
+            51.574672
+          ],
+          [
+            0.093863,
+            51.574776
+          ],
+          [
+            0.093863,
+            51.574808
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "subdivision_of_building": null,
   "centroid_easting": 545191,
   "application_type": "All Other",
   "status": "Appeal in Progress",
-  "epc_number": null,
+  "epc_number": "6220-0221-0251-6008-1763",
   "cil_liability": false,
-  "parking_details": {},
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 3,
+    "net_car": 0,
+    "no_proposed_cycle": 4,
+    "no_proposed_car": 3,
+    "net_cycle": 4
+  },
   "centroid": {
     "lat": 51.574839,
     "lon": 0.093788
   },
-  "description": "Change of use from dwelling (C3) to small HMO (C4) for 4 people with associated waste/refuse, car parking, cycle store and amenity space (Retrospective) (summary)",
+  "description": "Retrospective application for conversion of house into 4 rooms and 4 person HMO",
   "application_details": {
     "lead_developer_company_name": "Highways & Cleansing",
     "total_gia_existing": 266,
-    "site_area": 0.027,
+    "site_area": 0.0251,
     "3d_model": false,
     "affordable_housing_fast_track": false,
     "s106_agreement": false,
@@ -91,14 +92,16 @@
     "circular_economy_statement": false,
     "commencement_notice_received": false,
     "rain_water_harvesting": false,
-    "scheme_phasing": false,
+    "scheme_phasing": true,
     "grey_water_reuse": false,
     "green_suds": false,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "site_area": 0.027,
-      "total_gia_existing": 266
+      "total_gia_existing": 266,
+      "total_gia_gained": 0,
+      "total_gia_lost": 0
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -140,23 +143,15 @@
       "residential_units": [
         {
           "actual_completion_date": "06/05/2026",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
           "change_type": "Loss",
           "unit_type": "House or Bungalow",
-          "provision_for_older_persons": false,
-          "gia": null
+          "provision_for_older_persons": false
         },
         {
           "actual_completion_date": "06/05/2026",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
           "change_type": "Gain",
           "unit_type": "HMO",
-          "provision_for_older_persons": false,
-          "gia": null
+          "provision_for_older_persons": false
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -166,20 +161,59 @@
       "site_area": 0.027
     },
     "infrastructure_details": {
-      "waste_provision": false,
+      "waste_provision": true,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
-      "ghg_reduction_over_building_regulations": false
-    }
+      "ghg_reduction_over_building_regulations": false,
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 0,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "no_new_gas_connections_required": 0
+    },
+    "projected_cost_of_works": "Up to £2m",
+    "internal_resi_water_usage": 0,
+    "phasing_details": [
+      {
+        "phase_detail": "conversion",
+        "intended_completion_date": "09/2025",
+        "intended_commencement_date": "08/2025"
+      }
+    ],
+    "total_gia_gained": 0,
+    "total_gia_lost": 0,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 133,
+        "gia_gained": 0,
+        "use_class": "C3",
+        "gia_lost": 0
+      },
+      {
+        "gia_existing": 133,
+        "gia_gained": 0,
+        "use_class": "C4",
+        "gia_lost": 0
+      }
+    ],
+    "occupation_status": "Occupied",
+    "surface_water_discharge_percentage_reduction": 0,
+    "ownership_status": "Private"
   },
   "valid_date": "18/09/2025",
   "decision_process": null,
   "appeal_start_date": "26/02/2026",
-  "application_type_full": null,
-  "last_updated_by": "Portal",
+  "application_type_full": "Full planning permission",
+  "last_updated_by": "Planning Portal ingest",
   "bo_system": "Portal",
   "decision_target_date": "12/11/2025",
-  "last_updated": "2026-06-11T09:56:41.228Z",
+  "last_updated": "2026-06-28T13:31:15.394Z",
   "site_name": null,
   "development_type": null,
   "centroid_northing": 188296,
@@ -191,16 +225,16 @@
   "appeal_decision_date": "06/05/2026",
   "lpa_name": "Redbridge",
   "decision_agency": null,
-  "date_building_work_started_under_previous_permission": null,
+  "date_building_work_started_under_previous_permission": "01/01/2025",
   "decision": "Refused",
   "id": "Redbridge-2249_25",
   "last_date_consultation_comments": "14/10/2025",
-  "locality": "NEWBURY PARK",
+  "locality": "Ilford",
   "appeal_decision": null,
   "street_name": "Hertford Road",
   "postcode": "IG2 7HF",
   "secondary_street_name": null,
-  "date_building_work_completed_under_previous_permission": null,
+  "date_building_work_completed_under_previous_permission": "18/02/2025",
   "url_planning_app": null,
   "appeal_status": null,
   "decision_date": "27/11/2025",
@@ -214,69 +248,63 @@
         "coordinates": [
           [
             [
-              545187.35,
-              188304.3
-            ],
-            [
-              545187.7,
-              188299.55
-            ],
-            [
-              545188.35,
-              188291.1
-            ],
-            [
-              545188.461,
-              188288.05
-            ],
-            [
-              545188.919,
-              188275.446
-            ],
-            [
-              545189.1,
-              188270.45
-            ],
-            [
-              545196.9,
-              188270.7
-            ],
-            [
-              545196.857,
-              188272.181
-            ],
-            [
-              545196.7,
-              188277.55
-            ],
-            [
-              545196.402,
-              188289.189
-            ],
-            [
-              545196.313,
-              188292.671
-            ],
-            [
-              545196.122,
-              188300.148
-            ],
-            [
-              545196,
-              188304.9
-            ],
-            [
-              545187.35,
-              188304.3
+              [
+                545196.313,
+                188292.671
+              ],
+              [
+                545196.122,
+                188300.148
+              ],
+              [
+                545193.45,
+                188299.95
+              ],
+              [
+                545187.7,
+                188299.55
+              ],
+              [
+                545188.35,
+                188291.1
+              ],
+              [
+                545188.461,
+                188288.05
+              ],
+              [
+                545189.1,
+                188270.45
+              ],
+              [
+                545196.9,
+                188270.7
+              ],
+              [
+                545196.857,
+                188272.181
+              ],
+              [
+                545196.7,
+                188277.55
+              ],
+              [
+                545196.402,
+                188289.189
+              ],
+              [
+                545196.313,
+                188292.671
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
     "type": "GeometryCollection"
   },
-  "site_number": "38",
+  "site_number": 38,
   "ward": "",
   "reference_no_of_permission_being_relied_on": null,
   "actual_completion_date": null

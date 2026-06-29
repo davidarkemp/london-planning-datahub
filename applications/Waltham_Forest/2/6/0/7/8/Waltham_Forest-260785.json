@@ -8,32 +8,115 @@
   "valid_date": "28/04/2026",
   "title_number": null,
   "epc_number": null,
-  "application_details": {},
-  "centroid_easting": null,
+  "application_details": {
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "ALL",
+        "intended_completion_date": "06/2026",
+        "intended_commencement_date": "04/2026"
+      }
+    ],
+    "total_gia_gained": 130.7,
+    "site_area": 0.026,
+    "total_gia_lost": 130.7,
+    "total_gia_existing": 130.7,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 130.7,
+        "gia_gained": 0,
+        "use_class": "C3",
+        "gia_lost": 130.7
+      },
+      {
+        "gia_existing": 0,
+        "gia_gained": 130.7,
+        "use_class": "C4",
+        "gia_lost": 0
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied",
+    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "surface_water_discharge_percentage_reduction": 0,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 130.7,
+      "total_gia_lost": 130.7,
+      "total_gia_existing": 130.7
+    },
+    "garden_land_lost": false,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 0,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 0,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "internal_resi_water_usage": 0,
+    "ownership_status": "Private"
+  },
+  "centroid_easting": 538104,
   "decision_process": "Delegated",
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.007386,
-          51.600754
-        ],
-        [
-          -0.007412,
-          51.601143
-        ],
-        [
-          -0.00732,
-          51.601146
-        ],
-        [
-          -0.007302,
-          51.600752
-        ],
-        [
-          -0.007386,
-          51.600754
+          [
+            -0.007388,
+            51.600749
+          ],
+          [
+            -0.007307,
+            51.60075
+          ],
+          [
+            -0.007309,
+            51.600817
+          ],
+          [
+            -0.007313,
+            51.600899
+          ],
+          [
+            -0.007325,
+            51.601131
+          ],
+          [
+            -0.007325,
+            51.601149
+          ],
+          [
+            -0.007408,
+            51.601149
+          ],
+          [
+            -0.007396,
+            51.600915
+          ],
+          [
+            -0.007391,
+            51.600816
+          ],
+          [
+            -0.007388,
+            51.600749
+          ]
         ]
       ]
     ]
@@ -44,33 +127,34 @@
   "actual_commencement_date": null,
   "parking_details": {
     "net_cycle": 6,
-    "no_proposed_cycle": 6
+    "no_proposed_cycle": 6,
+    "no_existing_cycle": 0
   },
   "last_date_consultation_comments": "04/06/2026",
   "url_planning_app": "https://builtenvironment.walthamforest.gov.uk/planning/index.html?fa=getApplication&id=120572",
-  "last_updated": "2026-05-12T08:38:41.089Z",
+  "last_updated": "2026-06-28T11:41:39.194Z",
   "application_type": "All Other",
-  "site_number": "167",
+  "site_number": 167,
   "lpa_name": "Waltham Forest",
-  "application_type_full": null,
-  "centroid_northing": null,
+  "application_type_full": "Full planning permission",
+  "centroid_northing": 190993,
   "actual_completion_date": null,
   "cil_liability": null,
   "subdivision_of_building": null,
   "decision_conditions": null,
-  "uprn": "200001429135",
+  "uprn": 200001429135,
   "centroid": {
-    "lon": -7.55716,
-    "lat": 49.766807
+    "lon": -0.007353,
+    "lat": 51.600853
   },
   "date_building_work_completed_under_previous_permission": null,
   "borough": "Waltham Forest",
   "postcode": "E17 4HU",
   "date_building_work_started_under_previous_permission": null,
   "description": "Change of use from a single-family dwellinghouse (Use Class C3) to a 5-bedroom, 5-person House in Multiple Occupation (Use Class C4).",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "ward": "Hale End and Highams Park South",
-  "street_name": "WADHAM ROAD",
+  "street_name": "Wadham Road",
   "development_type": "Other change of use",
   "decision_date": null,
   "appeal_status": null,
@@ -82,39 +166,61 @@
       },
       "type": "name"
     },
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
-              538102.022402494,
-              190981.95371226
-            ],
-            [
-              538099.055198571,
-              191025.133695078
-            ],
-            [
-              538105.376864728,
-              191025.580706616
-            ],
-            [
-              538107.808724811,
-              190981.836781618
-            ],
-            [
-              538102.022402494,
-              190981.95371226
+              [
+                538101.89,
+                190981.39
+              ],
+              [
+                538107.5,
+                190981.65
+              ],
+              [
+                538107.15,
+                190989.1
+              ],
+              [
+                538106.65,
+                190998.15
+              ],
+              [
+                538105.1,
+                191023.95
+              ],
+              [
+                538105.0142062142,
+                191025.9575745867
+              ],
+              [
+                538099.2793503134,
+                191025.760093524
+              ],
+              [
+                538100.797,
+                190999.83
+              ],
+              [
+                538101.45,
+                190988.8
+              ],
+              [
+                538101.89,
+                190981.39
+              ]
             ]
           ]
-        ]
+        ],
+        "type": "MultiPolygon"
       }
     ]
   },
   "secondary_street_name": null,
-  "locality": null,
+  "locality": "Walthamstow",
   "id": "Waltham_Forest-260785",
   "pp_id": "14808196",
   "status": "Application Under Consideration",

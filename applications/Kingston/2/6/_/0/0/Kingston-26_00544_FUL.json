@@ -6,25 +6,32 @@
   "appeal_decision": null,
   "lapsed_date": "08/05/2029",
   "appeal_decision_date": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": null,
-  "last_updated": "2026-05-13T17:02:01.205Z",
+  "last_updated": "2026-06-28T06:50:23.548Z",
   "url_planning_app": "https://publicaccess.kingston.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TBTV6HNHFJ900",
   "street_name": "Tolworth Rise South",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 2,
+    "net_car": 0,
+    "no_proposed_cycle": 8,
+    "no_proposed_car": 2,
+    "net_cycle": 8
+  },
   "ward": "King George's & Sunray",
   "bo_system": "Idox Uniform",
   "site_name": null,
-  "site_number": "190",
+  "site_number": 190,
   "application_details": {
     "total_gia_existing": 130.4,
     "ownership_status": "Private",
     "phasing_details": [
       {
         "phase_detail": "Entire development",
-        "intended_commencement_date": "07/2026",
-        "intended_completion_date": "11/2026"
+        "intended_completion_date": "11/2026",
+        "intended_commencement_date": "07/2026"
       }
     ],
     "garden_land_lost": false,
@@ -32,10 +39,10 @@
     "rain_water_harvesting": false,
     "affordable_housing_fast_track": false,
     "non_residential_details": {
-      "total_gia_existing": 0,
+      "total_gia_existing": 130.4,
       "total_gia_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_gained": 0,
+      "total_gia_gained": 58.31,
       "site_area": 0.02,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0
     },
@@ -45,35 +52,27 @@
     "grey_water_reuse": false,
     "constraints_details": [
       {
-        "result": null,
         "constraints_layer_description": "NEIPOL Name: S1  Surbiton"
       },
       {
-        "result": null,
         "constraints_layer_description": "LGW Name: London Gatwick Safeguarding Zone (200m)"
       },
       {
-        "result": null,
         "constraints_layer_description": "SMKCON Name: Borough Wide Smoke Control Order"
       },
       {
-        "result": null,
         "constraints_layer_description": "KEYACH Name: Tolworth Key Area of Change"
       },
       {
-        "result": null,
         "constraints_layer_description": "NEIGH Name: Surbiton"
       },
       {
-        "result": null,
         "constraints_layer_description": "AIRCZ Type:: Gatwick Airport Wind Turbine Consultation Zone:\rContact: The Safeguarding Department, Gatwick Airport Limited, 7th Floor Destinations Place, London Gatwick Airport, West Sussex, RH06 0NP"
       },
       {
-        "result": null,
         "constraints_layer_description": "HWTERR Type: TERRIER\rDescription: GLA"
       },
       {
-        "result": null,
         "constraints_layer_description": "SWGV Date Built: \rGradient:"
       }
     ],
@@ -97,8 +96,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 130.4,
-        "use_class": "C3",
         "gia_gained": 58.31,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -161,7 +160,7 @@
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
-      "total_gia_gained": 58.31,
+      "total_gia_gained": 178.12,
       "total_no_proposed_residential_units_market_for_rent": 2,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
@@ -169,14 +168,27 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units": 2,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "total_gia_lost": 0,
+      "total_gia_lost": 130.4,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
       "residential_units": [
         {
           "m43_2b_compliant": false,
+          "no_habitable_rooms": 3,
           "m43_2a_compliant": false,
-          "description": null,
+          "m42_compliant": false,
+          "change_type": "Loss",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "no_bedrooms": 3,
+          "unit_type": "Semi Detached Home",
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 130.4
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
           "m42_compliant": false,
           "change_type": "Gain",
           "garden_land": false,
@@ -184,8 +196,6 @@
           "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 1,
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
@@ -194,7 +204,6 @@
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
-          "description": null,
           "m42_compliant": false,
           "change_type": "Gain",
           "garden_land": false,
@@ -202,39 +211,22 @@
           "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 1,
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 89.57
-        },
-        {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "description": null,
-          "m42_compliant": false,
-          "change_type": "Loss",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "Semi Detached Home",
-          "no_habitable_rooms": 3,
-          "phase_detail": null,
-          "unit_no": null,
-          "no_bedrooms": 3,
-          "provision_for_older_persons": false,
-          "tenure": "Market for rent",
-          "gia": 130.4
         }
       ]
     },
     "total_gia_lost": 0,
     "surface_water_discharge_percentage_reduction": 0,
-    "site_area": 200,
-    "scheme_phasing": false
+    "site_area": 0.02,
+    "scheme_phasing": true,
+    "total_gia_gained": 58.31,
+    "occupation_status": "Occupied"
   },
-  "uprn": "100021800439",
-  "locality": null,
+  "uprn": 100021800439,
+  "locality": "Tolworth",
   "date_building_work_started_under_previous_permission": null,
   "postcode": "KT5 9NB",
   "valid_date": "13/03/2026",
@@ -245,7 +237,7 @@
     "lon": -0.273526
   },
   "centroid_easting": 520235,
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "pp_id": "PP-14738569",
   "lpa_app_no": "26/00544/FUL",
   "polygon": {
@@ -254,76 +246,98 @@
         "coordinates": [
           [
             [
-              520263.8,
-              166581.45
-            ],
-            [
-              520263.4,
-              166581.75
-            ],
-            [
-              520257.4,
-              166585.65
-            ],
-            [
-              520241.362,
-              166596.117
-            ],
-            [
-              520238.4,
-              166598.05
-            ],
-            [
-              520233.8,
-              166601.1
-            ],
-            [
-              520227.7,
-              166605.15
-            ],
-            [
-              520225.268,
-              166601.024
-            ],
-            [
-              520223.25,
-              166597.6
-            ],
-            [
-              520228.1,
-              166594.4
-            ],
-            [
-              520235.55,
-              166589.55
-            ],
-            [
-              520239.037,
-              166587.249
-            ],
-            [
-              520255.4,
-              166576.45
-            ],
-            [
-              520259,
-              166574.1
-            ],
-            [
-              520263.8,
-              166581.45
+              [
+                520228.1,
+                166594.4
+              ],
+              [
+                520235.55,
+                166589.55
+              ],
+              [
+                520239.032,
+                166587.241
+              ],
+              [
+                520239.437,
+                166586.972
+              ],
+              [
+                520251.085,
+                166579.266
+              ],
+              [
+                520254.093,
+                166577.303
+              ],
+              [
+                520254.952,
+                166576.743
+              ],
+              [
+                520255.4,
+                166576.45
+              ],
+              [
+                520259,
+                166574.1
+              ],
+              [
+                520262.704,
+                166579.772
+              ],
+              [
+                520263.8,
+                166581.45
+              ],
+              [
+                520263.4,
+                166581.75
+              ],
+              [
+                520257.4,
+                166585.65
+              ],
+              [
+                520241.362,
+                166596.117
+              ],
+              [
+                520238.4,
+                166598.05
+              ],
+              [
+                520233.8,
+                166601.1
+              ],
+              [
+                520227.7,
+                166605.15
+              ],
+              [
+                520225.268,
+                166601.024
+              ],
+              [
+                520223.25,
+                166597.6
+              ],
+              [
+                520228.1,
+                166594.4
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
-    "type": "geometrycollection"
+    "type": "GeometryCollection"
   },
   "id": "Kingston-26_00544_FUL",
   "appeal_status": null,
   "appeal_start_date": null,
-  "description": "Part demolition of existing side extension, erection of single storey rear extension, first floor side extension. Hip to gable roof extension with rear dormer and installation of 2nos front rooflights. Conversion of property to form 2 self contained flats comprising a 3 bedroom flat at ground floor and a 2 bedroom flat over upper floors, with associated garden subdivision to provide private amenity space for each unit.",
+  "description": "Part demolition of existing side extension, erection of single-storey rear extension. First-floor side extension. Hip to gable roof extension with rear dormer and installation of 2nos front rooflights. Conversion of property to form 2 self-contained flats comprising a 3-bedroom flat at ground floor and a 2-bedroom flat over upper floors, with associated garden subdivision to provide private amenity space for each unit.",
   "development_type": "Minor dwellings",
   "decision_conditions": [
     "The development hereby permitted shall begin before the expiration of three years from the date of this permission.\r\rReason: This is required by Section 91 of the Town and Country Planning Act 1990 (as amended).",
@@ -345,75 +359,97 @@
   "last_date_consultation_comments": null,
   "decision_process": "Delegated",
   "centroid_northing": 166595,
-  "borough": "Royal Borough of Kingston (LA Code)",
+  "borough": "Kingston Upon Thames",
   "decision": "Approved",
   "application_type": "All Other",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.273117,
-          51.385546
-        ],
-        [
-          -0.273122,
-          51.385549
-        ],
-        [
-          -0.273207,
-          51.385585
-        ],
-        [
-          -0.273434,
-          51.385683
-        ],
-        [
-          -0.273476,
-          51.385701
-        ],
-        [
-          -0.273541,
-          51.385729
-        ],
-        [
-          -0.273627,
-          51.385767
-        ],
-        [
-          -0.273664,
-          51.38573
-        ],
-        [
-          -0.273694,
-          51.3857
-        ],
-        [
-          -0.273625,
-          51.38567
-        ],
-        [
-          -0.27352,
-          51.385625
-        ],
-        [
-          -0.273471,
-          51.385603
-        ],
-        [
-          -0.273239,
-          51.385503
-        ],
-        [
-          -0.273188,
-          51.385481
-        ],
-        [
-          -0.273117,
-          51.385546
+          [
+            -0.273625,
+            51.38567
+          ],
+          [
+            -0.27352,
+            51.385625
+          ],
+          [
+            -0.273471,
+            51.385603
+          ],
+          [
+            -0.273465,
+            51.385601
+          ],
+          [
+            -0.2733,
+            51.385529
+          ],
+          [
+            -0.273258,
+            51.385511
+          ],
+          [
+            -0.273245,
+            51.385506
+          ],
+          [
+            -0.273239,
+            51.385503
+          ],
+          [
+            -0.273188,
+            51.385481
+          ],
+          [
+            -0.273133,
+            51.385531
+          ],
+          [
+            -0.273117,
+            51.385546
+          ],
+          [
+            -0.273122,
+            51.385549
+          ],
+          [
+            -0.273207,
+            51.385585
+          ],
+          [
+            -0.273434,
+            51.385683
+          ],
+          [
+            -0.273476,
+            51.385701
+          ],
+          [
+            -0.273541,
+            51.385729
+          ],
+          [
+            -0.273627,
+            51.385767
+          ],
+          [
+            -0.273664,
+            51.38573
+          ],
+          [
+            -0.273694,
+            51.3857
+          ],
+          [
+            -0.273625,
+            51.38567
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "decision_agency": null,
   "decision_target_date": "08/05/2026",

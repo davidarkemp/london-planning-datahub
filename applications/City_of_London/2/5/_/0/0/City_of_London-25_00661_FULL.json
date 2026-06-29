@@ -4,7 +4,7 @@
   "actual_commencement_date": null,
   "centroid": {
     "lat": 51.517803,
-    "lon": -0.088713
+    "lon": -0.088727
   },
   "appeal_decision": null,
   "bo_system": "Idox Uniform",
@@ -14,25 +14,28 @@
   "lpa_name": "City of London",
   "url_planning_app": null,
   "appeal_start_date": "03/05/2026",
-  "decision_conditions": null,
+  "decision_conditions": [
+    "",
+    ""
+  ],
   "postcode": "EC2M 6SA",
   "decision_date": null,
-  "last_updated_by": "Idox Uniform",
-  "centroid_easting": "532711",
+  "last_updated_by": "Planning Portal ingest",
+  "centroid_easting": 532710,
   "secondary_street_name": null,
   "appeal_status": null,
-  "description": "Conversion of first, second and third floor to one bedroom serviced accommodation apartments (Sui Generis)",
+  "description": "Conversion of first, second and third floor to 0ne bedroom serviced accomadation ",
   "ward": "CM",
   "parking_details": null,
   "development_type": null,
-  "last_updated": "2026-05-05T20:02:26.369Z",
+  "last_updated": "2026-06-28T06:45:08.835Z",
   "last_date_consultation_comments": "22/07/2025",
-  "uprn": "200000075376",
+  "uprn": 200000075376,
   "application_type_full": "Full planning permission",
   "decision_agency": null,
   "subdivision_of_building": null,
   "title_number": [],
-  "site_name": "Offices",
+  "site_name": "87 Offices",
   "street_name": "Moorgate",
   "appeal_decision_date": null,
   "date_building_work_completed_under_previous_permission": null,
@@ -41,91 +44,71 @@
     "coordinates": [
       [
         [
-          -0.08864,
-          51.517819
-        ],
-        [
-          -0.088911,
-          51.517878
-        ],
-        [
-          -0.08894,
-          51.517887
-        ],
-        [
-          -0.08894,
-          51.517887
-        ],
-        [
-          -0.088971,
-          51.517834
-        ],
-        [
-          -0.088814,
-          51.517804
-        ],
-        [
-          -0.088671,
-          51.517775
-        ],
-        [
-          -0.08864,
-          51.517819
+          [
+            -0.088644,
+            51.517823
+          ],
+          [
+            -0.088841,
+            51.517865
+          ],
+          [
+            -0.088874,
+            51.517815
+          ],
+          [
+            -0.088672,
+            51.517772
+          ],
+          [
+            -0.088644,
+            51.517823
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "pp_id": "PP-14021422",
-  "decision": null,
-  "centroid_northing": "181607",
+  "decision": "Refused",
+  "centroid_northing": 181607,
   "site_number": "87",
   "epc_number": null,
   "cil_liability": false,
   "application_type": "All Other",
-  "borough": "City of London",
-  "locality": null,
+  "borough": "City Of London",
+  "locality": "London",
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              532716,
-              181609
-            ],
-            [
-              532697,
-              181615
-            ],
-            [
-              532695,
-              181616
-            ],
-            [
-              532695,
-              181616
-            ],
-            [
-              532693,
-              181610
-            ],
-            [
-              532704,
-              181607
-            ],
-            [
-              532714,
-              181604
-            ],
-            [
-              532716,
-              181609
+              [
+                532715.7,
+                181609.45
+              ],
+              [
+                532701.9218083951,
+                181613.7259904981
+              ],
+              [
+                532699.7859901934,
+                181608.05967435415
+              ],
+              [
+                532713.9,
+                181603.7
+              ],
+              [
+                532715.7,
+                181609.45
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ]
   },
@@ -137,8 +120,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "07/2025",
-        "intended_completion_date": "12/2025"
+        "intended_completion_date": "12/2025",
+        "intended_commencement_date": "07/2025"
       }
     ],
     "total_gia_lost": 193.98,
@@ -148,8 +131,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 193.98,
-        "use_class": "EC2",
         "gia_gained": 0,
+        "use_class": "EC2",
         "gia_lost": 193.98
       }
     ],
@@ -167,7 +150,8 @@
       "no_new_water_connections_required": 3,
       "mobile_network_operators_consultation": false,
       "no_resi_units_to_have_full_fibre": 3,
-      "no_new_gas_connections_required": 3
+      "no_new_gas_connections_required": 3,
+      "urban_greening_factor_score": 0
     },
     "internal_resi_water_usage": 0,
     "green_suds": false,
@@ -177,29 +161,47 @@
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Other",
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 44
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Other",
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 44
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Other",
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 44
         }
@@ -251,7 +253,8 @@
       "total_gia_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "occupation_status": "Vacant"
   },
   "id": "City_of_London-25_00661_FULL",
   "reference_no_of_permission_being_relied_on": null,

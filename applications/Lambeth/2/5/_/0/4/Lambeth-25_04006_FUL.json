@@ -2,72 +2,76 @@
   "decision": null,
   "last_date_consultation_comments": "11/03/2026",
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.104305,
-          51.434865
-        ],
-        [
-          -0.104088,
-          51.434889
-        ],
-        [
-          -0.104101,
-          51.434934
-        ],
-        [
-          -0.104361,
-          51.434902
-        ],
-        [
-          -0.104349,
-          51.434857
-        ],
-        [
-          -0.104305,
-          51.434865
+          [
+            -0.104298,
+            51.434861
+          ],
+          [
+            -0.104084,
+            51.434888
+          ],
+          [
+            -0.104098,
+            51.434934
+          ],
+          [
+            -0.104359,
+            51.434904
+          ],
+          [
+            -0.104344,
+            51.434856
+          ],
+          [
+            -0.104298,
+            51.434861
+          ]
         ]
       ]
     ]
   },
   "date_building_work_started_under_previous_permission": null,
   "ward": "KNIGHT",
-  "site_number": "338",
+  "site_number": 338,
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              531868,
-              172356
-            ],
-            [
-              531883,
-              172359
-            ],
-            [
-              531882,
-              172364
-            ],
-            [
-              531864,
-              172360
-            ],
-            [
-              531865,
-              172355
-            ],
-            [
-              531868,
-              172356
+              [
+                531868.5,
+                172355.6
+              ],
+              [
+                531883.3,
+                172358.9
+              ],
+              [
+                531882.2,
+                172364
+              ],
+              [
+                531864.15,
+                172360.2
+              ],
+              [
+                531865.35,
+                172354.95
+              ],
+              [
+                531868.5,
+                172355.6
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ]
   },
@@ -87,7 +91,7 @@
   "url_planning_app": null,
   "application_details": {
     "surface_water_discharge_percentage_reduction": 10,
-    "site_area": 0.009000000000000001,
+    "site_area": 0.009,
     "projected_cost_of_works": "Up to £2m",
     "garden_land_lost": false,
     "scheme_phasing": true,
@@ -127,14 +131,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 76.5,
-        "use_class": "EA",
         "gia_gained": 0,
+        "use_class": "EA",
         "gia_lost": 15.85
       },
       {
         "gia_existing": 69.9,
-        "use_class": "C3",
         "gia_gained": 27,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -155,7 +159,7 @@
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
-      "total_no_proposed_residential_units": 2,
+      "total_no_proposed_residential_units": 1,
       "affordable_percentage": 0,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
@@ -165,26 +169,31 @@
       "total_no_proposed_residential_units_social_rent": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 3,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 69.9
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
           "change_type": "Gain",
-          "unit_type": "Communal Space",
-          "gia": 58.45
-        },
-        {
-          "provider": "Private",
-          "no_habitable_rooms": 2,
-          "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
           "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 38.75
         }
@@ -207,7 +216,7 @@
       "total_no_existing_residential_units": 1,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
-      "total_gia_gained": 97.2,
+      "total_gia_gained": 38.75,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_gia_lost": 69.9,
@@ -217,38 +226,39 @@
       "total_no_existing_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_starter_homes": 0
     },
-    "rain_water_harvesting": false
+    "rain_water_harvesting": false,
+    "occupation_status": "Occupied"
   },
   "development_type": null,
-  "centroid_easting": "531867",
+  "centroid_easting": 531867,
   "decision_target_date": "25/03/2026",
   "decision_agency": null,
   "actual_commencement_date": null,
   "lpa_app_no": "25/04006/FUL",
   "decision_process": null,
   "lapsed_date": null,
-  "uprn": "100023266808",
+  "uprn": 100023266808,
   "bo_system": "Idox Uniform",
   "cil_liability": false,
   "street_name": "Norwood Road",
-  "locality": null,
+  "locality": "London",
   "application_type": "All Other",
   "epc_number": null,
   "decision_conditions": null,
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
-  "centroid_northing": "172359",
-  "last_updated": "2026-06-02T20:00:46.426Z",
+  "centroid_northing": 172359,
+  "last_updated": "2026-06-28T10:44:27.405Z",
   "centroid": {
     "lon": -0.104318,
     "lat": 51.434892
   },
-  "subdivision_of_building": null,
-  "last_updated_by": "Idox Uniform",
+  "subdivision_of_building": "Part of ground floor and complete First and second floors as well as roof space.",
+  "last_updated_by": "Planning Portal ingest",
   "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "id": "Lambeth-25_04006_FUL",
   "parking_details": null,
-  "description": "Conversion of existing 2-bed flat into 2x 1-bed flats involving the erection of a 1st floor rear extension, and a 1-bed flat across the second floor and erection of mansard roof extension. Bicycle storage and refuse/recycling facilities are proposed at ground-floor level, along with altered access [REVISED PLANS]."
+  "description": "The proposal involves the conversion of the existing two-bedroom duplex flat above the ground-floor butcher shop at 338 Norwood Road into two self-contained one-bedroom flats. This includes a first-floor one-bedroom flat for one person with a small rear extension, and a one-bedroom flat for two persons across the second floor and a new mansard roof extension. Bicycle storage and refuse/recycling facilities are proposed at ground-floor level, along with altered access and a new internal staircase to serve the upper-floor flats. No change is proposed to the existing ground-floor commercial use."
 }

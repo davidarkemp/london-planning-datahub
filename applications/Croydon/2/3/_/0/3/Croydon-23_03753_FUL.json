@@ -1,9 +1,9 @@
 {
   "lpa_app_no": "23/03753/FUL",
-  "uprn": "100020683484",
+  "uprn": 100020683484,
   "lapsed_date": "16/04/2027",
-  "centroid_northing": "161246",
-  "site_number": "32",
+  "centroid_northing": 161246,
+  "site_number": 32,
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Idox Uniform",
   "site_name": "",
@@ -14,36 +14,38 @@
     "coordinates": [
       [
         [
-          -0.072725,
-          51.334629
-        ],
-        [
-          -0.072863,
-          51.334766
-        ],
-        [
-          -0.073623,
-          51.334428
-        ],
-        [
-          -0.073471,
-          51.334291
-        ],
-        [
-          -0.072725,
-          51.334629
+          [
+            -0.072863,
+            51.334765
+          ],
+          [
+            -0.07363,
+            51.334428
+          ],
+          [
+            -0.073472,
+            51.33429
+          ],
+          [
+            -0.072718,
+            51.334623
+          ],
+          [
+            -0.072863,
+            51.334765
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_start_date": null,
   "reference_no_of_permission_being_relied_on": null,
   "application_type": "All Other",
   "decision_process": "Delegated",
   "application_details": {
-    "site_area": 0.121,
+    "site_area": 0.1216,
     "3d_model": false,
     "affordable_housing_fast_track": false,
     "s106_agreement": false,
@@ -53,7 +55,7 @@
     "mayoral_cil_liability_notice_issued": false,
     "borough_cil_liability_notice_issued": false,
     "transport_impact_assessment": false,
-    "scheme_phasing": false,
+    "scheme_phasing": true,
     "rain_water_harvesting": false,
     "circular_economy_statement": false,
     "commencement_notice_received": false,
@@ -62,9 +64,12 @@
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "site_area": 0.121
+      "site_area": 0.121,
+      "total_gia_gained": 0,
+      "total_gia_existing": 250,
+      "total_gia_lost": 50
     },
-    "garden_land_lost": false,
+    "garden_land_lost": true,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_proposed_bedrooms": 2,
@@ -86,7 +91,7 @@
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": 0,
+      "habitable_rooms_density": 24.793388429752067,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
@@ -103,45 +108,92 @@
       "affordable_percentage": 100,
       "residential_units": [
         {
-          "provider": "Self-Build",
-          "phase_detail": null,
-          "unit_no": null,
-          "description": null,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
           "garden_land": true,
+          "sheltered_accommodation": false,
           "unit_type": "House or Bungalow",
+          "no_habitable_rooms": 3,
+          "provider": "Private",
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "unit_development_type": "New Build",
           "tenure": "Self-Build and Custom Build",
-          "gia": 50
+          "gia": 76
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "total_gia_gained": 76
     },
     "infrastructure_details": {
-      "waste_provision": false,
+      "waste_provision": true,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": true,
+      "total_annual_pm_emissions": 0,
+      "no_active_slow_ev_charging_points": 1,
+      "no_resi_units_to_have_full_fibre": 1,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "solar_pv_capacity": 1,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 1,
+      "no_passive_slow_ev_charging_points": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 1,
+      "no_new_gas_connections_required": 1,
+      "chp_heat_pumps_capacity": 0.01
     },
     "other_residential_accommodation_details": {
       "site_area": 0.121
-    }
+    },
+    "total_gia_existing": 250,
+    "projected_cost_of_works": "Up to £2m",
+    "internal_resi_water_usage": 110,
+    "phasing_details": [
+      {
+        "phase_detail": "Entire Development",
+        "intended_completion_date": "06/2024",
+        "intended_commencement_date": "09/2023"
+      }
+    ],
+    "total_gia_gained": 0,
+    "total_gia_lost": 50,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 250,
+        "gia_gained": 0,
+        "use_class": "c3",
+        "gia_lost": 50
+      }
+    ],
+    "occupation_status": "Occupied",
+    "building_details": [
+      {
+        "no_storeys": 1,
+        "max_height": 4.7,
+        "building_ref": "Neat Living Aurora A 72. "
+      }
+    ],
+    "surface_water_discharge_percentage_reduction": 0,
+    "ownership_status": "Private"
   },
   "appeal_decision": null,
   "postcode": "CR2 9AB",
   "development_type": null,
   "title_number": [],
-  "centroid_easting": "534314",
+  "centroid_easting": 534314,
   "actual_commencement_date": null,
-  "description": "Erection of a single storey detached dwellinghouse to the rear of 32 Onslow Gardens with associated amenity space, vehicle access and parking, cycle storage, and refuse storage. Demolition of existing side and rear additions to 32 Onslow Gardens.",
+  "description": "The main works include: \nThe erection of one number, single-storey, two-bedroom house within the rear garden of 32 Onslow Gardens. \n\nTo enable the project to proceed it is necessary to take down a small single-story extension that has been added previously to the side of the main property at 32 Onslow Gardens. In addition, an existing conservatory located at the rear of the house will also be taken down. These demolitions, which are of minimal architectural merit, will enable the side and rear facade of 32 Onslow Gardens to be returned to their original design. ",
   "decision": "Approved",
   "actual_completion_date": null,
-  "borough": "London Borough of Croydon",
+  "borough": "Croydon",
   "epc_number": null,
-  "subdivision_of_building": null,
+  "subdivision_of_building": "To enable the project to proceed and gain access to the rear of the property, it is necessary to, first of all, take down a small single-storey extension that has been added previously to the side of the main property at 32 Onslow Gardens. In addition, an existing conservatory located at the rear of the house will also be taken down. These demolitions, which are of minimal architectural merit, will enable the side and rear facade of 32 Onslow Gardens to be returned to their original design. \n\nPlease refer in particular to drawing Nos (15) 004_(CR)002 and 005.",
   "centroid": {
     "lon": -0.073335,
     "lat": 51.334451
@@ -149,14 +201,14 @@
   "url_planning_app": null,
   "pp_id": "PP-12232388",
   "id": "Croydon-23_03753_FUL",
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "cil_liability": true,
   "status": "Approved",
   "date_building_work_completed_under_previous_permission": null,
   "secondary_street_name": null,
   "decision_agency": null,
   "decision_target_date": "30/11/2023",
-  "locality": null,
+  "locality": "South Croydon",
   "lpa_name": "Croydon",
   "last_date_consultation_comments": "25/12/2023",
   "decision_conditions": [
@@ -171,14 +223,17 @@
     "water usage",
     "fire safety",
     "Biodiversity Enhancement Layout",
-    "",
     "M4(2) compliance",
     "materials",
     "landscaping",
     "PD rights"
   ],
-  "parking_details": null,
-  "last_updated": "2026-02-06T23:03:26.369Z",
+  "parking_details": {
+    "no_existing_car": 2,
+    "net_car": 2,
+    "no_proposed_car": 4
+  },
+  "last_updated": "2026-06-28T10:50:12.452Z",
   "appeal_status": null,
   "street_name": "Onslow Gardens",
   "ward": "SA18",
@@ -188,30 +243,32 @@
         "coordinates": [
           [
             [
-              534356,
-              161267
-            ],
-            [
-              534346,
-              161282
-            ],
-            [
-              534294,
-              161243
-            ],
-            [
-              534305,
-              161228
-            ],
-            [
-              534356,
-              161267
+              [
+                534345.96,
+                161281.87
+              ],
+              [
+                534293.54,
+                161242.95
+              ],
+              [
+                534304.96,
+                161227.88
+              ],
+              [
+                534356.47,
+                161266.31
+              ],
+              [
+                534345.96,
+                161281.87
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ],
-    "type": "geometrycollection"
+    "type": "GeometryCollection"
   }
 }

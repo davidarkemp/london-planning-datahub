@@ -3,39 +3,152 @@
   "decision_target_date": "16/01/2026",
   "postcode": "HA4 7AB",
   "centroid": {
-    "lat": 51.574467,
-    "lon": -0.425513
+    "lat": 51.574493,
+    "lon": -0.42544
   },
   "application_type": "All Other",
   "polygon": {
-    "type": "geometrycollection"
+    "type": "GeometryCollection",
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              [
+                509218.5,
+                187345
+              ],
+              [
+                509222.3,
+                187357.4
+              ],
+              [
+                509221.95,
+                187357.55
+              ],
+              [
+                509218.5,
+                187358.6
+              ],
+              [
+                509194.85,
+                187354.55
+              ],
+              [
+                509191.05,
+                187353.9
+              ],
+              [
+                509192.37,
+                187351.97
+              ],
+              [
+                509196.35,
+                187346.15
+              ],
+              [
+                509200.882,
+                187346.963
+              ],
+              [
+                509201.079,
+                187345.868
+              ],
+              [
+                509203.582,
+                187346.318
+              ],
+              [
+                509203.386,
+                187347.413
+              ],
+              [
+                509204.15,
+                187347.55
+              ],
+              [
+                509209.2,
+                187348.35
+              ],
+              [
+                509218.5,
+                187345
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      }
+    ]
   },
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.425491,
-          51.57448
-        ],
-        [
-          -0.425492,
-          51.574453
-        ],
-        [
-          -0.425535,
-          51.574454
-        ],
-        [
-          -0.425534,
-          51.574481
-        ],
-        [
-          -0.425491,
-          51.57448
+          [
+            -0.425364,
+            51.574402
+          ],
+          [
+            -0.425305,
+            51.574513
+          ],
+          [
+            -0.42531,
+            51.574514
+          ],
+          [
+            -0.42536,
+            51.574524
+          ],
+          [
+            -0.425702,
+            51.574492
+          ],
+          [
+            -0.425757,
+            51.574487
+          ],
+          [
+            -0.425739,
+            51.57447
+          ],
+          [
+            -0.425683,
+            51.574416
+          ],
+          [
+            -0.425617,
+            51.574423
+          ],
+          [
+            -0.425615,
+            51.574413
+          ],
+          [
+            -0.425579,
+            51.574417
+          ],
+          [
+            -0.425581,
+            51.574426
+          ],
+          [
+            -0.42557,
+            51.574427
+          ],
+          [
+            -0.425497,
+            51.574434
+          ],
+          [
+            -0.425364,
+            51.574402
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "ward": "RUISLIP 2022",
   "secondary_street_name": null,
@@ -51,7 +164,7 @@
     "borough_cil_liability_notice_issued": false,
     "mayoral_cil_liability_notice_issued": false,
     "transport_impact_assessment": false,
-    "scheme_phasing": false,
+    "scheme_phasing": true,
     "rain_water_harvesting": false,
     "circular_economy_statement": false,
     "commencement_notice_received": false,
@@ -60,8 +173,9 @@
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_existing": 437.4,
-      "total_gia_lost": 212
+      "total_gia_existing": 535.8,
+      "total_gia_lost": 212,
+      "total_gia_gained": 332
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -87,7 +201,7 @@
       "habitable_rooms_density": 333.33333333333337,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
-      "total_gia_gained": 332,
+      "total_gia_gained": 244.5,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "dwelling_density": 166.66666666666669,
@@ -105,18 +219,14 @@
       "residential_units": [
         {
           "m43_2b_compliant": false,
+          "no_habitable_rooms": 2,
           "m43_2a_compliant": false,
-          "description": null,
           "m42_compliant": false,
           "change_type": "Loss",
           "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 2,
-          "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
           "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 98.4
@@ -124,17 +234,13 @@
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
-          "description": null,
           "m42_compliant": false,
           "change_type": "Gain",
           "garden_land": false,
           "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
-          "unit_development_type": "Change of Use",
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
@@ -143,17 +249,13 @@
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
-          "description": null,
           "m42_compliant": false,
           "change_type": "Gain",
           "garden_land": false,
           "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
-          "unit_development_type": "Change of Use",
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
@@ -162,17 +264,13 @@
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
-          "description": null,
           "m42_compliant": false,
           "change_type": "Gain",
           "garden_land": false,
           "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
-          "unit_development_type": "Change of Use",
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
@@ -181,17 +279,13 @@
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
-          "description": null,
           "m42_compliant": false,
           "change_type": "Gain",
           "garden_land": false,
           "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
-          "unit_development_type": "Conversion",
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
@@ -200,17 +294,13 @@
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
-          "description": null,
           "m42_compliant": false,
           "change_type": "Gain",
           "garden_land": false,
           "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
-          "unit_development_type": "Conversion",
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
@@ -221,50 +311,78 @@
       "total_no_existing_residential_units_self_build_and_custom_build": 0
     },
     "infrastructure_details": {
-      "waste_provision": false,
+      "waste_provision": true,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 5,
+      "green_roof_area": 70.1,
+      "urban_greening_factor_score": 0.5,
+      "no_homes_passive_cooling": 0,
+      "no_new_water_connections_required": 0,
+      "no_non_resi_units_to_have_full_fibre": 5,
+      "total_annual_nox_emissions": 0,
+      "percentage_demolition_construction_material_recycling": 50,
+      "no_homes_to_have_electrical_heating": 5,
+      "no_new_gas_connections_required": 0
     },
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 276.4,
-        "use_class": "E(c)(i)",
         "gia_gained": 0,
+        "use_class": "EC1",
         "gia_lost": 51
       },
       {
         "gia_existing": 161,
-        "use_class": "E(g)(i)",
         "gia_gained": 0,
+        "use_class": "EG1",
         "gia_lost": 161
       },
       {
         "gia_existing": 98.4,
-        "use_class": "C3",
         "gia_gained": 332,
-        "gia_lost": null
+        "use_class": "C3",
+        "gia_lost": 0
       }
-    ]
+    ],
+    "total_gia_existing": 535.8,
+    "projected_cost_of_works": "Up to £2m",
+    "internal_resi_water_usage": 0,
+    "phasing_details": [
+      {
+        "phase_detail": "Entire Development",
+        "intended_completion_date": "06/2026",
+        "intended_commencement_date": "11/2025"
+      }
+    ],
+    "total_gia_gained": 332,
+    "site_area": 0.03,
+    "total_gia_lost": 212,
+    "occupation_status": "Vacant",
+    "surface_water_discharge_percentage_reduction": 0,
+    "ownership_status": "Private",
+    "lead_developer_company_name": "Bika Construction"
   },
   "appeal_status": null,
-  "site_name": "82-84 HIGH STREET",
+  "site_name": "82-84",
   "date_building_work_completed_under_previous_permission": null,
   "actual_commencement_date": null,
-  "street_name": "RUISLIP",
+  "street_name": "High Street",
   "url_planning_app": "http://planning.hillingdon.gov.uk/OcellaWeb/planningDetails?reference=78935/APP/2025/2287",
-  "uprn": null,
+  "uprn": 100023033975,
   "appeal_start_date": null,
   "decision_date": "16/01/2026",
   "reference_no_of_permission_being_relied_on": null,
-  "description": "Creation of 5no. self-contained flats with associated cycle and bin storage, following the change of use of first floor from office (Class E) to residential (Class C3), the erection of a two storey rear extension and alterations to rear building at first floor level and the retention and reconfiguration of the Class E unit at ground floor level with alterations to fenestration.",
-  "epc_number": null,
+  "description": "Extensions and alterations to ground, first and second floors with change of use of first floor from office (Class E) to residential (Class C3) to provide 5 x 1-bed flats with associated cycle and bin storage. Retention and reconfiguration of Class E unit at ground floor and alterations to fenestration.",
+  "epc_number": "2212-5781-1621-1472-0816",
   "title_number": [],
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "date_building_work_started_under_previous_permission": null,
   "decision_agency": "Borough",
-  "last_updated_by": "Portal",
-  "last_updated": "2026-05-12T09:58:46.098Z",
+  "last_updated_by": "Planning Portal ingest",
+  "last_updated": "2026-06-28T02:04:35.274Z",
   "subdivision_of_building": null,
   "valid_date": "28/08/2025",
   "lapsed_date": "16/01/2029",
@@ -272,9 +390,9 @@
   "decision_process": "Committee",
   "lpa_app_no": "78935/APP/2025/2287",
   "decision": "Approved",
-  "centroid_easting": 509208,
+  "centroid_easting": 509213,
   "id": "Hillingdon-78935_APP_2025_2287",
-  "locality": null,
+  "locality": "Ruislip",
   "development_type": null,
   "parking_details": null,
   "last_date_consultation_comments": "09/10/2025",
@@ -398,5 +516,5 @@
   "lpa_name": "Hillingdon",
   "appeal_decision": null,
   "appeal_decision_date": null,
-  "centroid_northing": 187352
+  "centroid_northing": 187355
 }

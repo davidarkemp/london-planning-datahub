@@ -16,7 +16,7 @@
   "parking_details": null,
   "decision_process": null,
   "street_name": "Grafton Way",
-  "site_number": "70",
+  "site_number": 70,
   "centroid_easting": 529228,
   "polygon": {
     "geometries": [
@@ -24,40 +24,45 @@
         "coordinates": [
           [
             [
-              529232.4528423132,
-              182118.59867921006
-            ],
-            [
-              529224.2490065119,
-              182130.65522806207
-            ],
-            [
-              529228.3468018821,
-              182133.70435526
-            ],
-            [
-              529236.7979895168,
-              182121.89773486537
-            ],
-            [
-              529232.4528423132,
-              182118.59867921006
-            ],
-            [
-              529232.4528423132,
-              182118.59867921006
+              [
+                529232.45,
+                182118.6
+              ],
+              [
+                529236.8,
+                182121.9
+              ],
+              [
+                529228.35,
+                182133.7
+              ],
+              [
+                529224.25,
+                182130.65
+              ],
+              [
+                529232.45,
+                182118.6
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
+      },
+      {
+        "coordinates": [
+          529200.7750000001,
+          182085.05689653472
+        ],
+        "type": "Point"
       }
     ],
-    "type": "geometrycollection"
+    "type": "GeometryCollection"
   },
   "ward": "Bloomsbury",
   "centroid_northing": 182129,
   "application_type": "All Other",
-  "uprn": "5055531",
+  "uprn": 5055531,
   "lapsed_date": null,
   "actual_completion_date": null,
   "decision": null,
@@ -71,11 +76,11 @@
   "development_type": "Minor dwellings",
   "appeal_status": null,
   "date_building_work_completed_under_previous_permission": null,
-  "description": "Change of use of existing commercial property (Class E) with ancillary residential use on the third and fourth floor, to a residential dwelling (Class C3), installation of rooflights. \r\n\r\n\r\n",
+  "description": "Change of use of existing commercial property (Use Class E) with ancillary residential use on the third and fourth floor, to a single residential dwelling (Use Class C3), along with the creation of private rooftop terrace and erection of balustrades",
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
   "epc_number": "5142-7430-0272-7940-7741",
-  "last_updated": "2026-06-05T09:31:26.670Z",
+  "last_updated": "2026-06-28T12:20:55.848Z",
   "centroid": {
     "lon": -0.138691,
     "lat": 51.5233
@@ -98,8 +103,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 352,
-        "use_class": "SpecifiedOther",
         "gia_gained": 352,
+        "use_class": "Other",
         "gia_lost": 352
       }
     ],
@@ -156,11 +161,17 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "provider": "Private",
-          "no_habitable_rooms": 7,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Terraced Home",
+          "no_habitable_rooms": 7,
+          "provider": "Private",
           "no_bedrooms": 5,
+          "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 352
         }
@@ -183,43 +194,43 @@
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
-      "ghg_reduction_over_building_regulations": false
+      "ghg_reduction_over_building_regulations": false,
+      "urban_greening_factor_score": 0
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "occupation_status": "Vacant"
   },
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.138631,
-          51.523206
-        ],
-        [
-          -0.138744,
-          51.523316
-        ],
-        [
-          -0.138684,
-          51.523343
-        ],
-        [
-          -0.138567,
-          51.523235
-        ],
-        [
-          -0.138631,
-          51.523206
-        ],
-        [
-          -0.138631,
-          51.523206
+          [
+            -0.138631,
+            51.523206
+          ],
+          [
+            -0.138567,
+            51.523235
+          ],
+          [
+            -0.138684,
+            51.523343
+          ],
+          [
+            -0.138744,
+            51.523316
+          ],
+          [
+            -0.138631,
+            51.523206
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "id": "Camden-2025_5342_P",
   "reference_no_of_permission_being_relied_on": null,
   "title_number": null,
-  "last_updated_by": "Northgate M3"
+  "last_updated_by": "Planning Portal ingest"
 }

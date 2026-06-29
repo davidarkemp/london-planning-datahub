@@ -1,6 +1,6 @@
 {
   "site_name": null,
-  "site_number": "75",
+  "site_number": 75,
   "decision_process": null,
   "subdivision_of_building": null,
   "decision_date": "11/05/2026",
@@ -8,7 +8,7 @@
   "street_name": "Leverson Street",
   "lpa_name": "Wandsworth",
   "date_building_work_started_under_previous_permission": null,
-  "last_updated_by": "Northgate M3",
+  "last_updated_by": "Planning Portal ingest",
   "postcode": "SW16 6DG",
   "appeal_decision_date": null,
   "reference_no_of_permission_being_relied_on": null,
@@ -17,60 +17,58 @@
     "Reason : 1 - The proposal constitutes development under the Town and Country Planning Act 1990, and the local planning authority is not satisfied that, based on the drawings submitted as part of the application, this proposal falls within any class of 'permitted development' specified within Schedule 2 to the Town and Country Planning (General Permitted Development) (England) Order 2015 (as amended). \r\n\r\nINFORMATIVE: The proposed works would not constitute permitted development, as the subject property is not a dwellinghouse as defined within the General Permitted Development Order 2015 (as amended). The property therefore does not benefit from permitted development rights for an enlargement under any part of the General Permitted Development Order 2015 (as amended).\r\n\r\n"
   ],
   "wgs84_polygon": {
-    "type": "Polygon",
+    "type": "MultiPolygon",
     "coordinates": [
       [
         [
-          -0.141611,
-          51.42016
-        ],
-        [
-          -0.141455,
-          51.420069
-        ],
-        [
-          -0.141376,
-          51.420024
-        ],
-        [
-          -0.14136,
-          51.420014
-        ],
-        [
-          -0.141414,
-          51.419978
-        ],
-        [
-          -0.14143,
-          51.419987
-        ],
-        [
-          -0.141587,
-          51.420078
-        ],
-        [
-          -0.141611,
-          51.420093
-        ],
-        [
-          -0.141664,
-          51.420124
-        ],
-        [
-          -0.141659,
-          51.420127
-        ],
-        [
-          -0.141626,
-          51.42015
-        ],
-        [
-          -0.141611,
-          51.42016
-        ],
-        [
-          -0.141611,
-          51.42016
+          [
+            -0.141376,
+            51.420024
+          ],
+          [
+            -0.141454,
+            51.420069
+          ],
+          [
+            -0.141611,
+            51.42016
+          ],
+          [
+            -0.141626,
+            51.42015
+          ],
+          [
+            -0.141659,
+            51.420127
+          ],
+          [
+            -0.141664,
+            51.420124
+          ],
+          [
+            -0.141611,
+            51.420093
+          ],
+          [
+            -0.141587,
+            51.420078
+          ],
+          [
+            -0.14143,
+            51.419987
+          ],
+          [
+            -0.141414,
+            51.419978
+          ],
+          [
+            -0.14136,
+            51.420014
+          ],
+          [
+            -0.141376,
+            51.420024
+          ]
         ]
       ]
     ]
@@ -90,73 +88,74 @@
     "lat": 51.420038,
     "lon": -0.141465
   },
-  "title_number": null,
+  "title_number": [
+    "SGL16057",
+    "SGL290436"
+  ],
   "decision_target_date": "12/05/2026",
   "decision": "Refused",
-  "uprn": "100022663973",
+  "uprn": 100022663973,
   "application_type": "All Other",
   "appeal_status": null,
   "polygon": {
-    "type": "geometrycollection",
+    "type": "GeometryCollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              529316.4900132292,
-              170654.35032715625
-            ],
-            [
-              529327.640013237,
-              170644.4903271544
-            ],
-            [
-              529333.2000132408,
-              170639.59032715322
-            ],
-            [
-              529334.3900132418,
-              170638.54032715235
-            ],
-            [
-              529330.7400132391,
-              170634.4003271514
-            ],
-            [
-              529329.6000132383,
-              170635.45032715134
-            ],
-            [
-              529318.4000132305,
-              170645.29032715491
-            ],
-            [
-              529316.6900132291,
-              170646.8403271545
-            ],
-            [
-              529312.9500132266,
-              170650.19032715558
-            ],
-            [
-              529313.2500132269,
-              170650.54032715503
-            ],
-            [
-              529315.5000132285,
-              170653.20032715582
-            ],
-            [
-              529316.4900132292,
-              170654.35032715625
-            ],
-            [
-              529316.4900132292,
-              170654.35032715625
+              [
+                529333.2,
+                170639.6
+              ],
+              [
+                529327.65,
+                170644.5
+              ],
+              [
+                529316.5,
+                170654.35
+              ],
+              [
+                529315.5,
+                170653.2
+              ],
+              [
+                529313.25,
+                170650.55
+              ],
+              [
+                529312.95,
+                170650.2
+              ],
+              [
+                529316.7,
+                170646.85
+              ],
+              [
+                529318.4,
+                170645.3
+              ],
+              [
+                529329.6,
+                170635.45
+              ],
+              [
+                529330.75,
+                170634.4
+              ],
+              [
+                529334.4,
+                170638.55
+              ],
+              [
+                529333.2,
+                170639.6
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
       }
     ]
   },
@@ -165,14 +164,17 @@
   "pp_id": "14789494",
   "lpa_app_no": "2026/1077",
   "centroid_northing": 170641,
-  "application_details": {},
+  "application_details": {
+    "no_additional_bathrooms": 0,
+    "no_additional_bedrooms": 0
+  },
   "status": "Refused",
   "parking_details": null,
-  "description": "Erection of single storey side extension.",
+  "description": "75 Leverson Street CLD side",
   "lapsed_date": "11/05/2029",
-  "application_type_full": null,
+  "application_type_full": "Lawful development: Proposed use",
   "borough": "Wandsworth",
-  "last_updated": "2026-05-11T16:20:02.317Z",
+  "last_updated": "2026-06-28T13:34:16.124Z",
   "development_type": "Certificates of Lawful Development",
   "id": "Wandsworth-2026_1077",
   "valid_date": "17/03/2026"

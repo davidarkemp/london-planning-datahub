@@ -6,17 +6,17 @@
   "appeal_decision": null,
   "lapsed_date": "28/05/2029",
   "appeal_decision_date": null,
-  "last_updated_by": "Northgate M3",
+  "last_updated_by": "Planning Portal ingest",
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": null,
-  "last_updated": "2026-06-03T08:30:16.552Z",
+  "last_updated": "2026-06-28T10:48:08.872Z",
   "url_planning_app": "https://planningandbuilding.hounslow.gov.uk/NECSWS/ES/Presentation/Planning/OnlinePlanning/OnlinePlanningOverview?applicationNumber=P/2026/0756",
   "street_name": "Lafone Avenue",
   "parking_details": null,
   "ward": "Hanworth Park",
   "bo_system": "Northgate M3",
   "site_name": null,
-  "site_number": "7",
+  "site_number": 7,
   "application_details": {
     "site_area": 0.0519,
     "total_gia_existing": 175,
@@ -33,8 +33,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 175,
-        "use_class": "C4",
         "gia_gained": 0,
+        "use_class": "C4",
         "gia_lost": 1.2
       }
     ],
@@ -54,7 +54,8 @@
       "mobile_network_operators_consultation": false,
       "ghg_reduction_over_building_regulations": false,
       "fire_suppression_system_proposed": false,
-      "total_annual_nox_emissions": 0
+      "total_annual_nox_emissions": 0,
+      "urban_greening_factor_score": 0
     },
     "rain_water_harvesting": false,
     "projected_cost_of_works": "Up to £2m",
@@ -100,30 +101,46 @@
       "total_no_proposed_residential_units_affordable_rent": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 7,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Loss",
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "unit_type": "HMO",
           "no_bedrooms": 4,
+          "unit_type": "HMO",
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 175
         },
         {
-          "provider": "Private",
-          "no_habitable_rooms": 4,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Terraced Home",
+          "no_habitable_rooms": 4,
+          "provider": "Private",
           "no_bedrooms": 3,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 103
         },
         {
-          "provider": "Private",
-          "no_habitable_rooms": 3,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Terraced Home",
+          "no_habitable_rooms": 3,
+          "provider": "Private",
           "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 70.2
         }
@@ -139,9 +156,10 @@
     "affordable_housing_fast_track": false,
     "grey_water_reuse": false,
     "total_gia_lost": 1.2,
-    "surface_water_discharge_percentage_reduction": 0
+    "surface_water_discharge_percentage_reduction": 0,
+    "occupation_status": "Occupied"
   },
-  "uprn": "100021527259",
+  "uprn": 100021527259,
   "locality": "Feltham",
   "date_building_work_started_under_previous_permission": null,
   "postcode": "TW13 5DH",
@@ -149,8 +167,8 @@
   "cil_liability": false,
   "actual_completion_date": null,
   "centroid": {
-    "lat": 51.445041,
-    "lon": -0.4009
+    "lat": 51.445032,
+    "lon": -0.400901
   },
   "centroid_easting": 511228,
   "application_type_full": "Full planning permission",
@@ -162,88 +180,79 @@
         "coordinates": [
           [
             [
-              511244.49945295777,
-              173006.9709475364
-            ],
-            [
-              511239.87029409443,
-              172999.9284277443
-            ],
-            [
-              511235.9203204517,
-              172994.4281649983
-            ],
-            [
-              511235.52027492464,
-              172994.72763316164
-            ],
-            [
-              511229.9702281175,
-              172986.62784297828
-            ],
-            [
-              511227.57061264344,
-              172982.9772316558
-            ],
-            [
-              511219.2701750056,
-              172988.2279674764
-            ],
-            [
-              511222.42062403215,
-              172993.02761654457
-            ],
-            [
-              511226.470160501,
-              172999.12752442248
-            ],
-            [
-              511226.9706715572,
-              172999.92730134015
-            ],
-            [
-              511227.620837293,
-              173000.8783238827
-            ],
-            [
-              511228.0234810453,
-              173001.5112959544
-            ],
-            [
-              511232.2706146073,
-              173008.17739830998
-            ],
-            [
-              511234.120366553,
-              173011.37763534512
-            ],
-            [
-              511234.3704600123,
-              173011.92828200356
-            ],
-            [
-              511234.720297118,
-              173012.52783587325
-            ],
-            [
-              511235.0207708257,
-              173013.12742512213
-            ],
-            [
-              511244.49945295777,
-              173006.9709475364
+              [
+                511219.3,
+                172988.3
+              ],
+              [
+                511227.6,
+                172983.05
+              ],
+              [
+                511235.55,
+                172994.8
+              ],
+              [
+                511243.29906250647,
+                173004.77773770067
+              ],
+              [
+                511234.15,
+                173011.45
+              ],
+              [
+                511228.053,
+                173001.583
+              ],
+              [
+                511219.3,
+                172988.3
+              ]
             ]
           ]
         ],
-        "type": "Polygon"
+        "type": "MultiPolygon"
+      },
+      {
+        "coordinates": [
+          [
+            [
+              [
+                511243,
+                173024.05
+              ],
+              [
+                511235.5,
+                173013.75
+              ],
+              [
+                511234.15,
+                173011.45
+              ],
+              [
+                511243.29906250647,
+                173004.77773770067
+              ],
+              [
+                511252.8,
+                173017.95
+              ],
+              [
+                511243,
+                173024.05
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
       }
     ],
-    "type": "geometrycollection"
+    "type": "GeometryCollection"
   },
   "id": "Hounslow-P_2026_0756",
   "appeal_status": null,
   "appeal_start_date": null,
-  "description": "Conversion of a six person House in Multiple Occupation (Class C4) to two dwellings (Class C3)",
+  "description": "Change of use from a 6-person HMO (Class C4) to one 3-bedroom 5-person house and one 2-bedroom 3-person house (Class C3).\n\n",
   "development_type": "Minor dwellings",
   "decision_conditions": [
     "Condition : 1 - The development hereby permitted shall begin not later than three years from the date of this decision.\r\nReason: In order to comply with Section 91 of the Town and Country Planning Act 1990, as amended by Section 51 of the Planning and Compulsory Purchase Act 2004.",
@@ -257,7 +266,7 @@
   "title_number": null,
   "last_date_consultation_comments": "31/03/2026",
   "decision_process": null,
-  "centroid_northing": 172996,
+  "centroid_northing": 172995,
   "borough": "Hounslow",
   "decision": "Approved",
   "application_type": "All Other",
@@ -265,80 +274,38 @@
     "coordinates": [
       [
         [
-          -0.40066,
-          51.445137
-        ],
-        [
-          -0.400728,
-          51.445074
-        ],
-        [
-          -0.400787,
-          51.445026
-        ],
-        [
-          -0.400793,
-          51.445029
-        ],
-        [
-          -0.400875,
-          51.444957
-        ],
-        [
-          -0.400911,
-          51.444924
-        ],
-        [
-          -0.401028,
-          51.444973
-        ],
-        [
-          -0.400982,
-          51.445016
-        ],
-        [
-          -0.400921,
-          51.44507
-        ],
-        [
-          -0.400914,
-          51.445077
-        ],
-        [
-          -0.400904,
-          51.445085
-        ],
-        [
-          -0.400898,
-          51.445091
-        ],
-        [
-          -0.400835,
-          51.44515
-        ],
-        [
-          -0.400808,
-          51.445178
-        ],
-        [
-          -0.400804,
-          51.445183
-        ],
-        [
-          -0.400799,
-          51.445189
-        ],
-        [
-          -0.400794,
-          51.445194
-        ],
-        [
-          -0.40066,
-          51.445137
+          [
+            -0.401028,
+            51.444974
+          ],
+          [
+            -0.40091,
+            51.444925
+          ],
+          [
+            -0.400792,
+            51.445029
+          ],
+          [
+            -0.400678,
+            51.445117
+          ],
+          [
+            -0.400807,
+            51.445179
+          ],
+          [
+            -0.400898,
+            51.445092
+          ],
+          [
+            -0.401028,
+            51.444974
+          ]
         ]
       ]
     ],
-    "type": "Polygon"
+    "type": "MultiPolygon"
   },
   "decision_agency": "Borough",
   "decision_target_date": "29/05/2026",
