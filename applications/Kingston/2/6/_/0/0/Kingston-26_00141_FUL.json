@@ -21,13 +21,13 @@
     "surface_water_discharge_percentage_reduction": 0,
     "building_details": [
       {
-        "no_storeys": 0,
+        "no_storeys": null,
         "max_height": 0.7,
         "building_ref": "132 Hook Road"
       }
     ],
     "grey_water_reuse": false,
-    "total_gia_existing": 160.9,
+    "total_gia_existing": 121.9,
     "other_residential_accommodation_details": {
       "site_area": 0.01
     },
@@ -41,9 +41,9 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_lost": 0,
       "site_area": 0.01,
-      "total_gia_existing": 160.9,
+      "total_gia_existing": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_gained": 7.2
+      "total_gia_gained": 0
     },
     "open_and_protected_space_details": {
       "open_spaces_details": [
@@ -61,13 +61,13 @@
     },
     "total_gia_lost": 0,
     "rain_water_harvesting": false,
-    "site_area": 0.0111,
+    "site_area": 111,
     "green_suds": false,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 39,
         "gia_gained": 0,
-        "use_class": "EB",
+        "use_class": "Other",
         "gia_lost": 0
       },
       {
@@ -82,14 +82,14 @@
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 2,
-      "total_no_proposed_residential_units": 2,
+      "total_no_proposed_residential_units": 4,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "habitable_rooms_density": null,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
-      "affordable_percentage": 100,
+      "affordable_percentage": 50,
       "total_no_existing_residential_units": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
@@ -116,15 +116,36 @@
       "total_no_proposed_bedrooms": 5,
       "residential_units": [
         {
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Communal Space",
+          "provision_for_older_persons": false,
+          "gia": 129.1
+        },
+        {
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Communal Space",
+          "provision_for_older_persons": false,
+          "gia": 129.1
+        },
+        {
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
-          "m42_compliant": true,
+          "description": null,
           "change_type": "Gain",
-          "garden_land": false,
+          "m42_compliant": true,
           "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 3,
           "provider": "Private",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
           "tenure": "Self-Build and Custom Build",
@@ -133,13 +154,16 @@
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
-          "m42_compliant": true,
+          "description": null,
           "change_type": "Gain",
-          "garden_land": false,
+          "m42_compliant": true,
           "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 8,
           "provider": "Private",
+          "no_habitable_rooms": 8,
+          "phase_detail": null,
+          "unit_no": null,
           "no_bedrooms": 4,
           "provision_for_older_persons": false,
           "tenure": "Self-Build and Custom Build",
@@ -147,38 +171,48 @@
         }
       ],
       "total_no_existing_residential_units_london_living_rent": 0,
-      "total_gia_gained": 129.1
+      "total_gia_gained": 7.2
     },
     "ownership_status": "Private",
     "constraints_details": [
       {
+        "result": null,
         "constraints_layer_description": "LOCCEN Name: Ace of Spades"
       },
       {
+        "result": null,
         "constraints_layer_description": "ART4 Name: Ace of Spades"
       },
       {
+        "result": null,
         "constraints_layer_description": "LGW Name: London Gatwick Safeguarding Zone (200m)"
       },
       {
+        "result": null,
         "constraints_layer_description": "SMKCON Name: Borough Wide Smoke Control Order"
       },
       {
+        "result": null,
         "constraints_layer_description": "KEYACH Name: Tolworth Key Area of Change"
       },
       {
+        "result": null,
         "constraints_layer_description": "NEIPOL Name: SB1  South of the Borough"
       },
       {
+        "result": null,
         "constraints_layer_description": "NEIGH Name: South of the Borough"
       },
       {
+        "result": null,
         "constraints_layer_description": "AIRCZ Type:: Gatwick Airport Wind Turbine Consultation Zone:\rContact: The Safeguarding Department, Gatwick Airport Limited, 7th Floor Destinations Place, London Gatwick Airport, West Sussex, RH06 0NP"
       },
       {
+        "result": null,
         "constraints_layer_description": "HWTERR Type: TERRIER\rDescription: HD"
       },
       {
+        "result": null,
         "constraints_layer_description": "HWTERR Type: TERRIER\rDescription: HD"
       }
     ],
@@ -211,31 +245,59 @@
     "total_gia_gained": 7.2,
     "occupation_status": "Occupied"
   },
-  "centroid_easting": 518187,
+  "centroid_easting": 518188,
   "decision_process": "Delegated",
   "wgs84_polygon": {
     "type": "Polygon",
     "coordinates": [
       [
         [
-          -0.303258,
-          51.376994
+          -0.303188,
+          51.376989
         ],
         [
-          -0.303259,
-          51.376967
+          -0.3032,
+          51.377006
         ],
         [
-          -0.303303,
-          51.376968
+          -0.303323,
+          51.377024
         ],
         [
-          -0.303302,
-          51.376995
+          -0.303361,
+          51.377031
         ],
         [
-          -0.303258,
-          51.376994
+          -0.303421,
+          51.37704
+        ],
+        [
+          -0.303426,
+          51.377027
+        ],
+        [
+          -0.303444,
+          51.376982
+        ],
+        [
+          -0.303386,
+          51.376972
+        ],
+        [
+          -0.303348,
+          51.376966
+        ],
+        [
+          -0.303208,
+          51.376944
+        ],
+        [
+          -0.303205,
+          51.376943
+        ],
+        [
+          -0.303188,
+          51.376989
         ]
       ]
     ]
@@ -247,9 +309,9 @@
   "parking_details": null,
   "last_date_consultation_comments": "03/06/2026",
   "url_planning_app": "https://publicaccess.kingston.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=T99KXTNHM7Z00",
-  "last_updated": "2026-06-28T14:41:39.926Z",
+  "last_updated": "2026-06-29T17:01:14.984Z",
   "application_type": "All Other",
-  "site_number": 132,
+  "site_number": "132A",
   "lpa_name": "Kingston",
   "application_type_full": "Full planning permission",
   "centroid_northing": 165580,
@@ -257,17 +319,17 @@
   "cil_liability": false,
   "subdivision_of_building": null,
   "decision_conditions": null,
-  "uprn": 100023064923,
+  "uprn": "100023064923",
   "centroid": {
-    "lon": -0.30328,
+    "lon": -0.303266,
     "lat": 51.376981
   },
   "date_building_work_completed_under_previous_permission": null,
-  "borough": "Kingston Upon Thames",
+  "borough": "Kingston",
   "postcode": "KT6 5BZ",
   "date_building_work_started_under_previous_permission": null,
-  "description": "Raised ridge line 700mm to form a new roof without altering existing front and rear dormers, part single/two storey rear extension with internal alteration to subdivide ground floor space to form an one bedroom flat and more 2m head height floor space in second floor at 132 Hook Road, Surbiton, ",
-  "last_updated_by": "Planning Portal ingest",
+  "description": "Erection of part two storey/part single storey rear extension. Raising roof height to form new roof. Internal alteration to subdivide ground floor space to form 1 bedroom flat.",
+  "last_updated_by": "Idox Uniform",
   "ward": "Tolworth",
   "street_name": "Hook Road",
   "development_type": "Minor dwellings",
