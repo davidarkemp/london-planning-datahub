@@ -1,17 +1,17 @@
 {
   "street_name": "Stukeley Street",
-  "centroid_northing": "181388",
+  "centroid_northing": 181388,
   "lapsed_date": "18/01/2026",
-  "bo_system": "Northgate M3",
+  "bo_system": "Portal",
   "site_name": " ",
   "date_building_work_completed_under_previous_permission": null,
   "epc_number": null,
   "appeal_status": null,
   "secondary_street_name": null,
   "site_number": "18",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "01/04/2022",
   "decision": "Approved",
-  "cil_liability": true,
+  "cil_liability": false,
   "polygon": {
     "type": "GeometryCollection",
     "geometries": [
@@ -71,14 +71,16 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 413.5,
-        "use_class": "C3",
+        "actual_completion_date": "31/03/2026",
         "gia_gained": 508.2,
+        "use_class": "C3",
+        "actual_commencement_date": "01/04/2022",
         "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
-    "rain_water_harvesting": true,
-    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "scheme_phasing": false,
     "building_details": [
       {
         "no_storeys": 5,
@@ -92,14 +94,15 @@
       }
     ],
     "grey_water_reuse": false,
-    "green_suds": true,
+    "green_suds": false,
     "surface_water_discharge_percentage_reduction": 3,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 508.2,
       "total_gia_existing": 413.5,
-      "total_gia_lost": 0
+      "total_gia_lost": 0,
+      "site_area": 0.0105
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -123,12 +126,12 @@
       "total_no_proposed_residential_units_market_for_sale": 2,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 571.4285714285714,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 142,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 190.47619047619045,
       "total_gia_lost": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -141,28 +144,39 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 3,
-          "provider": "Private",
-          "unit_no": "Gain-1",
+          "actual_completion_date": "31/03/2026",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 71,
-          "tenure": "Market for sale"
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "01/04/2022",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 71
         },
         {
-          "no_habitable_rooms": 3,
-          "provider": "Private",
-          "unit_no": "Gain-2",
+          "actual_completion_date": "31/03/2026",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 71,
-          "tenure": "Market for sale"
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "01/04/2022",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 71
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.0105
     },
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
@@ -173,59 +187,72 @@
       "no_homes_passive_cooling": 7,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 100,
       "no_homes_to_have_electrical_heating": 8,
       "mobile_network_operators_consultation": false,
-      "fire_suppression_system_proposed": true,
+      "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
-      "ghg_reduction_over_building_regulations": true
+      "ghg_reduction_over_building_regulations": false
     },
     "internal_resi_water_usage": 0,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.0105
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "borough": "Camden",
-  "actual_completion_date": null,
+  "actual_completion_date": "31/03/2026",
   "pp_id": "10393246",
   "locality": "London",
   "application_type": "All Other",
   "decision_target_date": "26/01/2023",
-  "last_updated_by": "Northgate M3",
+  "last_updated_by": "Portal",
   "application_type_full": "Full planning permission",
   "lpa_name": "Camden",
   "url_planning_app": "https://planningrecords.camden.gov.uk/Northgate/PlanningExplorer/DisplayAppDetails.aspx?AppNo=2021/5761/P",
   "decision_conditions": [
-    "Condition : 1 - The development hereby permitted must be begun not later than the end of three years from the date of this permission.\r\n\r\nReason: In order to comply with the provisions of Section 91 of the Town and Country Planning Act 1990 (as amended).\r\n\r\n",
-    "Condition : 2 - The development hereby permitted shall be carried out in accordance with the following approved plans:\r\n\r\nExisting: 18STU-0010, 18STU-0011, 18STU-0100,18STU-0101, 18STU-0102, 18STU-0103, 18STU-0104,18STU-0105, 18STU-0106, 18STU-0150, 18STU-0151, 18STU-0170, 18STU-0171.\r\n\r\nProposed: 18STU-1100, 18STU-1101, 18STU-1102,18STU-1103, 18STU-1104 rev P2, 18STU-1105 rev P8, 18STU-1106 rev P10, 18STU-1107 rev P10, 18STU-1150 rev P9, 18STU-1151 rev P8, 18STU-1170 rev P9, 18STU-1171 rev P9.\r\n\r\nDocuments: Energy Statement by Taylor Project Services LLP dated November 2019, Planning Statement by JLL dated November 2021, Daylight and Sunlight report by Point 2 Surveyors dated March 2021 and addendum letter dated 19 November 2021, Air Quality Statement by Gem Air Quality Ltd dated November 2021, Design and Access Statement dated November 2021, Structural feasibility statement by Simpson TWS dated 18th March 2021. \r\n\r\nReason: For the avoidance of doubt and in the interest of proper planning.\r\n",
-    "Condition : 3 - All new external work shall be carried out in materials that resemble, as closely as possible, in colour and texture those of the existing building, unless otherwise specified in the approved application. \r\n\r\nReason: To safeguard the appearance of the premises and the character of the immediate area in accordance with the requirements of policies D1 and D2 of the London Borough of Camden Local Plan 2017. \r\n",
-    "Condition : 4 - Detailed drawings, or samples of materials as appropriate, in respect of the following, shall be submitted to and approved in writing by the local planning authority before the relevant part of the work is begun:  \r\n  \r\na) Details including plans, elevations and sections at 1:20 of all new windows (including jambs, head and cill), ventilation grills, screening, balustrades, parapets, planters and lighting fixtures;  \r\n    \r\nb) Manufacturer's specification details of all facing materials (to be submitted to the Local Planning Authority) and samples of those materials (to be provided on site). Samples of materials to be provided at a suitable size (eg. 1x1m) and alongside existing building.  \r\n\r\nThe relevant part of the works shall be carried out in accordance with the details thus approved and all approved samples shall be retained on site during the course of the works. \r\n  \r\nReason: To safeguard the appearance of the premises and the character of the immediate area in accordance with the requirements of policies D1 and D2 of the Camden Local Plan 2017.\r\n",
-    "Condition : 5 - No lights, meter boxes, flues, vents or pipes, and no telecommunications equipment, alarm boxes, television aerials, satellite dishes or rooftop 'mansafe' rails shall be fixed or installed on the external face of the buildings. \r\n\r\nReason: To safeguard the appearance of the premises and the character of the immediate area in accordance with the requirements of policies D1 and D2 of the Camden Local Plan 2017.\r\n",
-    "Condition : 6 - The lower panels of the fourth and fifth floor windows along the south-western (side) elevation shall be obscured glazing and shall be permanently retained and maintained thereafter.\r\n\r\nReason: In order to prevent unreasonable overlooking of neighbouring premises in accordance with the requirements of policy A1 of the Camden Local Plan 2017.\r\n",
-    "Condition : 7 - Details of a means of preventing overlooking between the rooftop terraces shall be submitted to and approved in writing by the local planning authority prior to commencement of use of the roof terraces and shall be permanently retained thereafter.\r\n\r\nReason: In order to prevent unreasonable overlooking of neighbouring premises in accordance with the requirements of policies A1 and D1 of the London Borough of Camden Local Plan 2017. \r\n",
-    "Condition : 8 - The green roof area as shown on the approved roof plan shall be accessible for maintenance purposes only. \r\n\r\nReason: In order to prevent unreasonable overlooking of neighbouring premises in accordance with the requirements of policy A1 of the Camden Local Plan 2017.",
-    "Condition : 9 - The internal noise levels in the dwellings hereby approved shall not exceed an indoor ambient noise levels in unoccupied rooms of 35dB(A) LAeq,16hour (07:00-23:00 hours) and 30dB(A) LAeq, 8hour (23:00-07:00 hours) and individual noise events shall not normally exceed 45dB LAmax during the night (23:00-07:00 hours). \r\n�\r\nReason: To safeguard the amenities of the adjoining premises and the area generally in accordance with the requirements of policies A1 and A4 of the London Borough of Camden Local Plan 2017. \r\n",
-    "Condition : 10 - Six folding bicycles and associated lockers shall be provided as shown on the approved plans prior to the first occupation of the development, and permanently retained thereafter.  \r\n \r\nReason: To ensure the development provides adequate cycle parking facilities in accordance with the requirements of policy T1 of the Camden Local Plan 2017 and table 6.3 of the London Plan 2016.\r\n",
-    "Condition : 11 - All non-Road mobile Machinery (any mobile machine, item of transportable industrial equipment, or vehicle - with or without bodywork) of net power between 37kW and 560kW used on the site for the entirety of the [demolition and/construction] phase of the development hereby approved shall be required to meet Stage IIIB of EU Directive 97/68/EC. The site shall be registered on the NRMM register for the [demolition and/construction] phase of the development. \r\n\r\nReason: To safeguard the amenities of the adjoining occupiers, the area generally and contribution of developments to the air quality of the borough in accordance with the requirements of policies G1, A1, CC1 and CC4 of the London Borough of Camden Local Plan 2017.\r\n",
-    "Condition : 12 - The development hereby approved shall achieve a maximum internal water use of 110litres/person/day. The dwelling/s shall not be occupied until the Building Regulation optional requirement has been complied with. \r\n\r\nReason: To ensure the development contributes to minimising the need for further water infrastructure in an area of water stress in accordance with Policies CC1, CC2, CC3 of the London Borough of Camden Local Plan 2017.\r\n",
-    "Condition : 13 - Prior to commencement of development (excluding demolition and site preparation works) on site, full details of the mechanical ventilation including air inlet locations and filters shall be submitted to and approved by the local planning authority in writing. Air inlet locations should be located away from busy roads and other relevant sources of emissions and as close to roof level as possible, to protect internal air quality. The development shall thereafter be constructed and maintained in accordance with the approved details. \r\n \r\nReason: To protect the amenity of residents in accordance with London Plan policy 7.14. To safeguard the amenities of the adjoining premises and the area generally in accordance with the requirements of  policies TC1, A1 and A4 of the Camden Local Plan 2017.\r\n",
-    "Condition : 14 - Prior to occupation, evidence that an appropriate NO2 filtration system on the mechanical ventilation intake has been installed and a detailed mechanism to secure maintenance of this system should be submitted to the Local Planning Authority and approved in writing. \r\n  \r\nReason: To safeguard the amenities of the prospective occupiers, adjoining premises and the area generally in accordance with the requirements of policies A1, CC1, CC2 and CC3 of the Camden Local Plan 2017.\r\n",
-    "Condition : 15 - Prior to commencement (excluding demolition and any site preparation works), full details in respect of the green roof in the area indicated on the approved roof plan shall be submitted to and approved in writing by the local planning authority. Details of the green roof provided shall include: species, planting density, substrate and a section at scale 1:20 showing that adequate depth is available in terms of the construction and long term viability of the green roof, as well as details of the maintenance programme for green roof. The buildings shall not be occupied until the approved details have been implemented and these works shall be permanently retained and maintained thereafter.\r\n\r\nReason: In order to ensure the development undertakes reasonable measures to take account of biodiversity and the water environment in accordance with policies A3, CC2 and CC3 of the London Borough of Camden Local Plan.\r\n",
-    "Condition : 16 - Prior to occupation of the development, the applicant will have constructed and implemented the measures contained in the Energy Statement by Taylor Project Services LLP dated November 2019 and such measures shall be permanently retained and maintained thereafter. \r\n\r\nReason: In order to secure the appropriate energy and resource efficiency measures in accordance with Policies CC1, CC2 and CC4 of the London Borough of Camden Local Plan 2017.\r\n",
-    "Condition : 17 - Prior to first occupation of the new flats, detailed plans showing the location and extent of photovoltaic cells to be installed on the building shall have been submitted to and approved by the Local Planning Authority in writing. The measures shall include the installation of a meter to monitor the energy output from the approved renewable energy systems. The cells shall be installed in full accordance with the details approved by the Local Planning Authority and permanently retained and maintained thereafter. \r\n\r\nReason:  To ensure the development provides adequate on-site renewable energy facilities in accordance with the requirements of Policy G1, CC1 and CC2 of the London Borough of Camden Local Plan 2017.\r\n"
+    "Condition : 1 - The development hereby permitted must be begun not later than the end of three years from the date of this permission.\n\nReason: In order to comply with the provisions of Section 91 of the Town and Country Planning Act 1990 (as amended).",
+    "Condition : 2 - The development hereby permitted shall be carried out in accordance with the following approved plans:\n\nExisting: 18STU-0010, 18STU-0011, 18STU-0100,18STU-0101, 18STU-0102, 18STU-0103, 18STU-0104,18STU-0105, 18STU-0106, 18STU-0150, 18STU-0151, 18STU-0170, 18STU-0171.\n\nProposed: 18STU-1100, 18STU-1101, 18STU-1102,18STU-1103, 18STU-1104 rev P2, 18STU-1105 rev P8, 18STU-1106 rev P10, 18STU-1107 rev P10, 18STU-1150 rev P9, 18STU-1151 rev P8, 18STU-1170 rev P9, 18STU-1171 rev P9.\n\nDocuments: Energy Statement by Taylor Project Services LLP dated November 2019, Planning Statement by JLL dated November 2021, Daylight and Sunlight report by Point 2 Surveyors dated March 2021 and addendum letter dated 19 November 2021, Air Quality Statement by Gem Air Quality Ltd dated November 2021, Design and Access Statement dated November 2021, Structural feasibility statement by Simpson TWS dated 18th March 2021. \n\nReason: For the avoidance of doubt and in the interest of proper planning.",
+    "Condition : 3 - All new external work shall be carried out in materials that resemble, as closely as possible, in colour and texture those of the existing building, unless otherwise specified in the approved application. \n\nReason: To safeguard the appearance of the premises and the character of the immediate area in accordance with the requirements of policies D1 and D2 of the London Borough of Camden Local Plan 2017.",
+    "Condition : 4 - Detailed drawings, or samples of materials as appropriate, in respect of the following, shall be submitted to and approved in writing by the local planning authority before the relevant part of the work is begun:  \n  \na) Details including plans, elevations and sections at 1:20 of all new windows (including jambs, head and cill), ventilation grills, screening, balustrades, parapets, planters and lighting fixtures;  \n    \nb) Manufacturer's specification details of all facing materials (to be submitted to the Local Planning Authority) and samples of those materials (to be provided on site). Samples of materials to be provided at a suitable size (eg. 1x1m) and alongside existing building.  \n\nThe relevant part of the works shall be carried out in accordance with the details thus approved and all approved samples shall be retained on site during the course of the works. \n  \nReason: To safeguard the appearance of the premises and the character of the immediate area in accordance with the requirements of policies D1 and D2 of the Camden Local Plan 2017.",
+    "Condition : 5 - No lights, meter boxes, flues, vents or pipes, and no telecommunications equipment, alarm boxes, television aerials, satellite dishes or rooftop 'mansafe' rails shall be fixed or installed on the external face of the buildings. \n\nReason: To safeguard the appearance of the premises and the character of the immediate area in accordance with the requirements of policies D1 and D2 of the Camden Local Plan 2017.",
+    "Condition : 6 - The lower panels of the fourth and fifth floor windows along the south-western (side) elevation shall be obscured glazing and shall be permanently retained and maintained thereafter.\n\nReason: In order to prevent unreasonable overlooking of neighbouring premises in accordance with the requirements of policy A1 of the Camden Local Plan 2017.",
+    "Condition : 7 - Details of a means of preventing overlooking between the rooftop terraces shall be submitted to and approved in writing by the local planning authority prior to commencement of use of the roof terraces and shall be permanently retained thereafter.\n\nReason: In order to prevent unreasonable overlooking of neighbouring premises in accordance with the requirements of policies A1 and D1 of the London Borough of Camden Local Plan 2017.",
+    "Condition : 8 - The green roof area as shown on the approved roof plan shall be accessible for maintenance purposes only. \n\nReason: In order to prevent unreasonable overlooking of neighbouring premises in accordance with the requirements of policy A1 of the Camden Local Plan 2017.",
+    "Condition : 9 - The internal noise levels in the dwellings hereby approved shall not exceed an indoor ambient noise levels in unoccupied rooms of 35dB(A) LAeq,16hour (07:00-23:00 hours) and 30dB(A) LAeq, 8hour (23:00-07:00 hours) and individual noise events shall not normally exceed 45dB LAmax during the night (23:00-07:00 hours). \n�\nReason: To safeguard the amenities of the adjoining premises and the area generally in accordance with the requirements of policies A1 and A4 of the London Borough of Camden Local Plan 2017.",
+    "Condition : 10 - Six folding bicycles and associated lockers shall be provided as shown on the approved plans prior to the first occupation of the development, and permanently retained thereafter.  \n \nReason: To ensure the development provides adequate cycle parking facilities in accordance with the requirements of policy T1 of the Camden Local Plan 2017 and table 6.3 of the London Plan 2016.",
+    "Condition : 11 - All non-Road mobile Machinery (any mobile machine, item of transportable industrial equipment, or vehicle - with or without bodywork) of net power between 37kW and 560kW used on the site for the entirety of the [demolition and/construction] phase of the development hereby approved shall be required to meet Stage IIIB of EU Directive 97/68/EC. The site shall be registered on the NRMM register for the [demolition and/construction] phase of the development. \n\nReason: To safeguard the amenities of the adjoining occupiers, the area generally and contribution of developments to the air quality of the borough in accordance with the requirements of policies G1, A1, CC1 and CC4 of the London Borough of Camden Local Plan 2017.",
+    "Condition : 12 - The development hereby approved shall achieve a maximum internal water use of 110litres/person/day. The dwelling/s shall not be occupied until the Building Regulation optional requirement has been complied with. \n\nReason: To ensure the development contributes to minimising the need for further water infrastructure in an area of water stress in accordance with Policies CC1, CC2, CC3 of the London Borough of Camden Local Plan 2017.",
+    "Condition : 13 - Prior to commencement of development (excluding demolition and site preparation works) on site, full details of the mechanical ventilation including air inlet locations and filters shall be submitted to and approved by the local planning authority in writing. Air inlet locations should be located away from busy roads and other relevant sources of emissions and as close to roof level as possible, to protect internal air quality. The development shall thereafter be constructed and maintained in accordance with the approved details. \n \nReason: To protect the amenity of residents in accordance with London Plan policy 7.14. To safeguard the amenities of the adjoining premises and the area generally in accordance with the requirements of  policies TC1, A1 and A4 of the Camden Local Plan 2017.",
+    "Condition : 14 - Prior to occupation, evidence that an appropriate NO2 filtration system on the mechanical ventilation intake has been installed and a detailed mechanism to secure maintenance of this system should be submitted to the Local Planning Authority and approved in writing. \n  \nReason: To safeguard the amenities of the prospective occupiers, adjoining premises and the area generally in accordance with the requirements of policies A1, CC1, CC2 and CC3 of the Camden Local Plan 2017.",
+    "Condition : 15 - Prior to commencement (excluding demolition and any site preparation works), full details in respect of the green roof in the area indicated on the approved roof plan shall be submitted to and approved in writing by the local planning authority. Details of the green roof provided shall include: species, planting density, substrate and a section at scale 1:20 showing that adequate depth is available in terms of the construction and long term viability of the green roof, as well as details of the maintenance programme for green roof. The buildings shall not be occupied until the approved details have been implemented and these works shall be permanently retained and maintained thereafter.\n\nReason: In order to ensure the development undertakes reasonable measures to take account of biodiversity and the water environment in accordance with policies A3, CC2 and CC3 of the London Borough of Camden Local Plan.",
+    "Condition : 16 - Prior to occupation of the development, the applicant will have constructed and implemented the measures contained in the Energy Statement by Taylor Project Services LLP dated November 2019 and such measures shall be permanently retained and maintained thereafter. \n\nReason: In order to secure the appropriate energy and resource efficiency measures in accordance with Policies CC1, CC2 and CC4 of the London Borough of Camden Local Plan 2017.",
+    "Condition : 17 - Prior to first occupation of the new flats, detailed plans showing the location and extent of photovoltaic cells to be installed on the building shall have been submitted to and approved by the Local Planning Authority in writing. The measures shall include the installation of a meter to monitor the energy output from the approved renewable energy systems. The cells shall be installed in full accordance with the details approved by the Local Planning Authority and permanently retained and maintained thereafter. \n\nReason:  To ensure the development provides adequate on-site renewable energy facilities in accordance with the requirements of Policy G1, CC1 and CC2 of the London Borough of Camden Local Plan 2017."
   ],
   "id": "Camden-2021_5761_P",
   "appeal_start_date": null,
   "subdivision_of_building": null,
   "decision_process": "Delegated",
-  "status": "Approved",
-  "centroid_easting": "530350",
+  "status": "Completed",
+  "centroid_easting": 530350,
   "description": "Demolition of existing 4th floor extension and erection of new 2 storey extension to create 2 additional residential units (Class C3), with a roof terrace",
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
-    "lon": "-0.122776",
-    "lat": "51.5163853"
+    "lon": -0.122801,
+    "lat": 51.516384
   },
-  "last_updated": "2025-03-20T15:40:17.220+00:00",
+  "last_updated": "2026-06-30T14:17:41.674Z",
   "decision_agency": "Borough",
   "ward": "Holborn & Covent Garden (Pre May 2022)",
   "parking_details": {
@@ -239,24 +266,24 @@
     "coordinates": [
       [
         [
-          -0.12289699999999999,
-          51.5163513
+          -0.122922,
+          51.51635
         ],
         [
-          -0.1227066,
-          51.5164602
+          -0.122732,
+          51.516459
         ],
         [
-          -0.1226506,
-          51.5164215
+          -0.122676,
+          51.51642
         ],
         [
-          -0.12283809999999999,
-          51.5163121
+          -0.122864,
+          51.516311
         ],
         [
-          -0.12289699999999999,
-          51.5163513
+          -0.122922,
+          51.51635
         ]
       ]
     ],
