@@ -1,28 +1,32 @@
 {
   "actual_completion_date": null,
   "appeal_start_date": null,
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "decision_conditions": null,
   "decision": null,
   "appeal_decision": null,
   "valid_date": "28/05/2026",
   "description": "Change of use from Use Class C3 (dwelling house) to Use Class C4 (HMO-house in multiple occupation) involving single storey rear extension and rear dormer, front rooflights, with associated amenity, cycle and refuse storage.\r",
   "status": "Application Under Consideration",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "site_number": "43",
   "cil_liability": null,
   "decision_process": null,
   "development_type": "Other change of use",
   "subdivision_of_building": null,
   "centroid_northing": 195606,
-  "last_updated": "2026-06-04T20:12:23.313Z",
+  "last_updated": "2026-07-01T07:15:29.813Z",
   "lapsed_date": null,
   "bo_system": "Idox Uniform",
   "centroid": {
     "lat": 51.643118,
     "lon": -0.053991
   },
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 2,
+    "net_car": 0,
+    "no_proposed_car": 2
+  },
   "url_planning_app": "<enter PA URL here>",
   "pp_id": "PP-14907171",
   "locality": null,
@@ -45,39 +49,23 @@
       "total_no_proposed_residential_units_market_for_rent": 1,
       "residential_units": [
         {
-          "m42_compliant": false,
-          "unit_type": "HMO",
-          "provider": "Private rented sector",
-          "m43_2a_compliant": false,
-          "phase_detail": null,
-          "garden_land": false,
-          "tenure": "Market for rent",
-          "no_habitable_rooms": 7,
-          "description": null,
-          "unit_no": null,
-          "no_bedrooms": 6,
-          "change_type": "Gain",
-          "sheltered_accommodation": false,
-          "gia": 144,
-          "provision_for_older_persons": false,
-          "m43_2b_compliant": false
-        },
-        {
-          "m42_compliant": false,
-          "unit_type": "Terraced Home",
-          "m43_2a_compliant": false,
-          "phase_detail": null,
-          "garden_land": false,
-          "tenure": "Market for rent",
           "no_habitable_rooms": 6,
-          "description": null,
-          "unit_no": null,
-          "no_bedrooms": 3,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "gia": 83,
+          "unit_type": "Terraced Home",
+          "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "m43_2b_compliant": false
+          "tenure": "Market for rent",
+          "gia": 83
+        },
+        {
+          "provider": "Private rented sector",
+          "no_habitable_rooms": 7,
+          "change_type": "Gain",
+          "unit_type": "HMO",
+          "no_bedrooms": 6,
+          "tenure": "Market for rent",
+          "gia": 144
         }
       ],
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
@@ -109,84 +97,72 @@
     },
     "phasing_details": [
       {
-        "intended_completion_date": "11/2026",
         "phase_detail": "Entire Development",
+        "intended_completion_date": "11/2026",
         "intended_commencement_date": "10/2026"
       }
     ],
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3",
-        "gia_lost": 83,
         "gia_existing": 83,
-        "gia_gained": 0
+        "gia_gained": 0,
+        "use_class": "C3",
+        "gia_lost": 83
       },
       {
-        "use_class": "C4",
-        "gia_lost": 0,
         "gia_existing": 0,
-        "gia_gained": 144
+        "gia_gained": 144,
+        "use_class": "C4",
+        "gia_lost": 0
       }
     ],
     "total_gia_existing": 83,
     "non_residential_details": {
-      "total_gia_gained": 0,
+      "total_gia_gained": 144,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_existing": 0,
-      "total_gia_lost": 0,
+      "total_gia_existing": 83,
+      "total_gia_lost": 83,
       "site_area": 0.02
     },
     "surface_water_discharge_percentage_reduction": 0,
     "affordable_housing_fast_track": false,
     "constraints_details": [
       {
-        "constraints_layer_description": "SURWAT Description: Idox.Spatial.Common.Desktop.DataAccess.Shape",
-        "result": null
+        "constraints_layer_description": "SURWAT Description: Idox.Spatial.Common.Desktop.DataAccess.Shape"
       },
       {
-        "constraints_layer_description": "LHA Maximum Height Level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet).",
-        "result": null
+        "constraints_layer_description": "LHA Maximum Height Level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet)."
       },
       {
-        "constraints_layer_description": "LLA Maximum height level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet)",
-        "result": null
+        "constraints_layer_description": "LLA Maximum height level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet)"
       },
       {
-        "constraints_layer_description": "CONLAN Site Description: CHEMICAL\rSite Name: JAPANOL ENAMELS LTD",
-        "result": null
+        "constraints_layer_description": "CONLAN Site Description: CHEMICAL\rSite Name: JAPANOL ENAMELS LTD"
       },
       {
-        "constraints_layer_description": "EAHMIP Code: EAHMIP5",
-        "result": null
+        "constraints_layer_description": "EAHMIP Code: EAHMIP5"
       },
       {
-        "constraints_layer_description": "DCAREA Area: NORTH\rCode: DCAREA_N",
-        "result": null
+        "constraints_layer_description": "DCAREA Area: NORTH\rCode: DCAREA_N"
       },
       {
-        "constraints_layer_description": "GAP35Z Description: Gas pipeline buffer - 35m",
-        "result": null
+        "constraints_layer_description": "GAP35Z Description: Gas pipeline buffer - 35m"
       },
       {
-        "constraints_layer_description": "WARDS Name: Jubilee",
-        "result": null
+        "constraints_layer_description": "WARDS Name: Jubilee"
       },
       {
-        "constraints_layer_description": "CILRES CIL ZONE: Lower Rate Eastern Zone - RATE: £40 per square metre",
-        "result": null
+        "constraints_layer_description": "CILRES CIL ZONE: Lower Rate Eastern Zone - RATE: £40 per square metre"
       },
       {
-        "constraints_layer_description": "DMDAAP Designation: Area Action Plan- Area: North East Enfield- Policy: Core policy 40",
-        "result": null
+        "constraints_layer_description": "DMDAAP Designation: Area Action Plan- Area: North East Enfield- Policy: Core policy 40"
       },
       {
-        "constraints_layer_description": "DMDPSP Designation: Place Shaping Priority Area- Area Name: Ponders End- Core Strategy: Core policy 41",
-        "result": null
+        "constraints_layer_description": "DMDPSP Designation: Place Shaping Priority Area- Area Name: Ponders End- Core Strategy: Core policy 41"
       },
       {
-        "constraints_layer_description": "EFCAZI Chargeable Zone Value: 6176",
-        "result": null
+        "constraints_layer_description": "EFCAZI Chargeable Zone Value: 6176"
       }
     ],
     "green_suds": false,
@@ -243,7 +219,9 @@
     "existing_uprns": [
       "000207122420"
     ],
-    "site_area": 200
+    "site_area": 0.02,
+    "total_gia_gained": 144,
+    "scheme_phasing": true
   },
   "street_name": "Suffolk Road",
   "decision_agency": null,

@@ -37,7 +37,7 @@
   "centroid_northing": 198968,
   "reference_no_of_permission_being_relied_on": null,
   "actual_commencement_date": null,
-  "last_updated": "2026-06-18T20:09:09.669Z",
+  "last_updated": "2026-07-01T20:11:27.155Z",
   "description": "Change of use from Use Class C3 (dwelling house) to Use Class C4 (HMO-house in multiple occupation) with associated amenity, cycle and refuse storage.",
   "subdivision_of_building": null,
   "epc_number": null,
@@ -52,7 +52,7 @@
   "last_date_consultation_comments": "09/07/2026",
   "title_number": null,
   "appeal_status": null,
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "development_type": "Other change of use",
   "decision_target_date": "07/08/2026",
   "lpa_name": "Enfield",
@@ -75,16 +75,23 @@
   "actual_completion_date": null,
   "pp_id": "PP-14978098",
   "decision_agency": null,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 2,
+    "net_car": 0,
+    "no_proposed_cycle": 6,
+    "no_proposed_car": 2,
+    "net_cycle": 6
+  },
   "locality": null,
   "id": "Enfield-26_02290_FUL",
   "application_details": {
     "existing_proposed_floorspace_details": [
       {
-        "gia_lost": 144,
-        "use_class": "C3",
+        "gia_existing": 144,
         "gia_gained": 144,
-        "gia_existing": 144
+        "use_class": "C3",
+        "gia_lost": 144
       }
     ],
     "open_and_protected_space_details": {
@@ -134,39 +141,39 @@
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "residential_units": [
         {
-          "unit_no": null,
-          "provision_for_older_persons": false,
-          "no_bedrooms": 5,
-          "no_habitable_rooms": 7,
-          "gia": 144,
-          "provider": "Private",
-          "m43_2a_compliant": false,
-          "tenure": "Market for rent",
-          "garden_land": false,
-          "description": null,
-          "sheltered_accommodation": false,
-          "m42_compliant": false,
           "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
           "change_type": "Gain",
+          "m42_compliant": false,
+          "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "HMO",
-          "phase_detail": null
+          "provider": "Private",
+          "no_habitable_rooms": 7,
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 5,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 144
         },
         {
-          "unit_no": null,
-          "provision_for_older_persons": false,
-          "no_bedrooms": 4,
-          "no_habitable_rooms": 7,
-          "gia": 144,
-          "m43_2a_compliant": false,
-          "tenure": "Market for sale",
-          "garden_land": false,
-          "description": null,
-          "sheltered_accommodation": false,
-          "m42_compliant": false,
           "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
           "change_type": "Loss",
+          "m42_compliant": false,
+          "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Terraced Home",
-          "phase_detail": null
+          "no_habitable_rooms": 7,
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 4,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 144
         }
       ],
       "total_no_existing_residential_units": 1,
@@ -256,9 +263,9 @@
     "grey_water_reuse": false,
     "phasing_details": [
       {
-        "intended_commencement_date": "12/2026",
+        "phase_detail": "1",
         "intended_completion_date": "12/2027",
-        "phase_detail": "1"
+        "intended_commencement_date": "12/2026"
       }
     ],
     "affordable_housing_fast_track": false,
@@ -286,6 +293,8 @@
       "ghg_reduction_over_building_regulations": false,
       "no_homes_to_have_electrical_heating": 0,
       "no_active_other_ev_charging_points": 0
-    }
+    },
+    "total_gia_gained": 144,
+    "scheme_phasing": true
   }
 }

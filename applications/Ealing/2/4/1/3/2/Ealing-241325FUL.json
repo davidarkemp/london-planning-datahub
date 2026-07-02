@@ -31,7 +31,11 @@
   "decision_process": null,
   "appeal_status": null,
   "status": "Approved",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_proposed_cycle": 5,
+    "net_cycle": 5
+  },
   "centroid_easting": "513193",
   "application_details": {
     "non_residential_details": {
@@ -79,7 +83,7 @@
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "dwelling_density": 0,
-      "total_gia_gained": 156.39999999999998,
+      "total_gia_gained": 166.4,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_existing_residential_units_intermediate": 0,
@@ -103,32 +107,25 @@
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "residential_units": [
         {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": true,
           "change_type": "Gain",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 3,
+          "unit_type": "Communal Space",
+          "gia": 10
+        },
+        {
           "provider": "Private",
+          "no_habitable_rooms": 3,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 80.1
         },
         {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": true,
-          "change_type": "Gain",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 4,
           "provider": "Private",
+          "no_habitable_rooms": 4,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 76.3
         }
@@ -137,7 +134,7 @@
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units": 0,
       "total_no_proposed_residential_units_social_rent": 0,
-      "total_no_proposed_residential_units": 2,
+      "total_no_proposed_residential_units": 3,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
@@ -193,11 +190,11 @@
   "decision_target_date": "29/05/2024",
   "valid_date": "03/04/2024",
   "street_name": "Mount Avenue",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "url_planning_app": null,
   "appeal_start_date": null,
   "last_date_consultation_comments": "29/04/2024",
-  "last_updated": "2026-06-27T04:00:24.758Z",
+  "last_updated": "2026-07-01T07:15:49.703Z",
   "appeal_decision": null,
   "description": "Conversion of single dwelling house to 2 x single dwelling flats; part single storey rear extension.",
   "decision_date": "28/06/2024",
@@ -209,7 +206,6 @@
     "Refuse - Compliance",
     "Standard Cond - Expiration Three Years",
     "Standard Cond - Materials",
-    "",
     "Sound insulation",
     "Approved Plans"
   ],

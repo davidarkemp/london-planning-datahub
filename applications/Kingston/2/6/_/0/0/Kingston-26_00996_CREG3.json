@@ -81,22 +81,22 @@
   "centroid_northing": 166777,
   "reference_no_of_permission_being_relied_on": null,
   "actual_commencement_date": null,
-  "last_updated": "2026-06-17T17:01:45.778Z",
+  "last_updated": "2026-07-02T01:30:12.455Z",
   "description": "Installation of football foundation playzone with painted porous asphalt surface, fencing and 4nos flood lighting.",
-  "subdivision_of_building": null,
+  "subdivision_of_building": "Not a building",
   "epc_number": null,
   "url_planning_app": "https://publicaccess.kingston.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TEVCVDNHGQ200",
   "borough": "Kingston",
   "street_name": "Malden Road",
   "decision_process": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "date_building_work_started_under_previous_permission": null,
   "application_type": "All Other",
   "lapsed_date": null,
-  "last_date_consultation_comments": null,
+  "last_date_consultation_comments": "21/07/2026",
   "title_number": null,
   "appeal_status": null,
-  "application_type_full": null,
+  "application_type_full": "Full planning & display of advertisements",
   "development_type": "Minor all other minor developments",
   "decision_target_date": "11/08/2026",
   "lpa_name": "Kingston",
@@ -115,7 +115,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -183,7 +182,8 @@
               166819.165
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -201,10 +201,10 @@
     "scheme_name": "Manor Park Recreation Ground Playzone",
     "existing_proposed_floorspace_details": [
       {
-        "gia_lost": 0,
-        "use_class": "Other",
+        "gia_existing": 0,
         "gia_gained": 0,
-        "gia_existing": 0
+        "use_class": "Other",
+        "gia_lost": 0
       }
     ],
     "open_and_protected_space_details": {
@@ -285,78 +285,60 @@
       "000128012641"
     ],
     "projected_cost_of_works": "Up to £2m",
-    "site_area": 1816,
+    "site_area": 0.1816,
     "constraints_details": [
       {
-        "result": null,
         "constraints_layer_description": "NEIPOL Name: MC1  Maldens and Coombe"
       },
       {
-        "result": null,
         "constraints_layer_description": "LOCSPC Name: Manor Park"
       },
       {
-        "result": null,
         "constraints_layer_description": "LGW Name: London Gatwick Safeguarding Zone (200m)"
       },
       {
-        "result": null,
         "constraints_layer_description": "SMKCON Name: Borough Wide Smoke Control Order"
       },
       {
-        "result": null,
         "constraints_layer_description": "NEIGH Name: Maldens and Coombe"
       },
       {
-        "result": null,
         "constraints_layer_description": "AIRCZ Type:: Gatwick Airport Wind Turbine Consultation Zone:\rContact: The Safeguarding Department, Gatwick Airport Limited, 7th Floor Destinations Place, London Gatwick Airport, West Sussex, RH06 0NP"
       },
       {
-        "result": null,
         "constraints_layer_description": "SWGV Date Built: \rGradient:"
       },
       {
-        "result": null,
         "constraints_layer_description": "SWGV Date Built: 31/12/1986 00:00:00\rGradient:"
       },
       {
-        "result": null,
         "constraints_layer_description": "SWGV Date Built: 31/12/1986 00:00:00\rGradient:"
       },
       {
-        "result": null,
         "constraints_layer_description": "SWGV Date Built: 31/12/1986 00:00:00\rGradient:"
       },
       {
-        "result": null,
         "constraints_layer_description": "SWGV Date Built: \rGradient:"
       },
       {
-        "result": null,
         "constraints_layer_description": "SWMH Diameter: 0\rReference: TQ21667801"
       },
       {
-        "result": null,
         "constraints_layer_description": "SWMH Diameter: 0\rReference: TQ21668702"
       },
       {
-        "result": null,
         "constraints_layer_description": "SWMH Diameter: 0\rReference: TQ21668703"
       },
       {
-        "result": null,
         "constraints_layer_description": "SWFD Pipe Reference: GS\rPurpose: SURFACE"
       },
       {
-        "result": null,
         "constraints_layer_description": "VALUER Type: VALUERS\rDescription: Parks and Open Spaces"
       },
       {
-        "result": null,
         "constraints_layer_description": "VALUER Type: VALUERS\rDescription: Corporate Property Portfolio"
       },
       {
-        "result": null,
         "constraints_layer_description": "MAHP "
       }
     ],
@@ -364,9 +346,9 @@
     "grey_water_reuse": false,
     "phasing_details": [
       {
-        "intended_commencement_date": "07/2026",
+        "phase_detail": "single phase",
         "intended_completion_date": "08/2026",
-        "phase_detail": "single phase"
+        "intended_commencement_date": "07/2026"
       }
     ],
     "affordable_housing_fast_track": false,
@@ -377,14 +359,14 @@
       "no_resi_units_to_have_full_fibre": 0,
       "waste_details": [
         {
-          "internal_food_waste": false,
-          "internal_dry_recycling": false,
-          "external_residual_waste": false,
-          "internal_residual_waste": false,
           "external_dry_recycling": false,
           "external_food_waste": false,
+          "unit_reference": "0",
+          "external_residual_waste": false,
           "reason_for_no_provision": "outdoor play area",
-          "unit_reference": "0 - Residential"
+          "internal_residual_waste": false,
+          "internal_food_waste": false,
+          "internal_dry_recycling": false
         }
       ],
       "urban_greening_factor_score": 0,
@@ -406,6 +388,8 @@
       "ghg_reduction_over_building_regulations": false,
       "no_homes_to_have_electrical_heating": 0,
       "no_active_other_ev_charging_points": 0
-    }
+    },
+    "scheme_phasing": true,
+    "total_gia_gained": 0
   }
 }

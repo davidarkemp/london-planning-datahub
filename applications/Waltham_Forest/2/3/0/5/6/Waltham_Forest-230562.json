@@ -13,64 +13,64 @@
   "application_type_full": "Full planning permission",
   "uprn": null,
   "borough": "Waltham Forest",
-  "street_name": null,
+  "street_name": "Vicarage Road",
   "locality": null,
-  "ward": null,
-  "actual_commencement_date": null,
+  "ward": "Leyton",
+  "actual_commencement_date": "03/04/2024",
   "lpa_name": "Waltham Forest",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "decision_conditions": null,
   "date_building_work_started_under_previous_permission": null,
   "centroid_easting": 537645,
-  "status": "Approved",
+  "status": "Completed",
   "decision_date": "02/04/2024",
   "wgs84_polygon": {
     "type": "Polygon",
     "coordinates": [
       [
         [
-          -0.014983499999999999,
-          51.5677077
+          -0.015011,
+          51.567706
         ],
         [
-          -0.0150537,
-          51.5676859
+          -0.015081,
+          51.567684
         ],
         [
-          -0.0153038,
-          51.5675645
+          -0.015331,
+          51.567563
         ],
         [
-          -0.015271499999999999,
-          51.567534
+          -0.015299,
+          51.567532
         ],
         [
-          -0.015373999999999999,
-          51.5674807
+          -0.015402,
+          51.567479
         ],
         [
-          -0.015338899999999999,
-          51.567444
+          -0.015367,
+          51.567442
         ],
         [
-          -0.0153066,
-          51.5674108
+          -0.015334,
+          51.567409
         ],
         [
-          -0.0155187,
-          51.5673121
+          -0.015546,
+          51.56731
         ],
         [
-          -0.0156508,
-          51.5674222
+          -0.015678,
+          51.56742
         ],
         [
-          -0.0150116,
-          51.5677304
+          -0.015039,
+          51.567728
         ],
         [
-          -0.014983499999999999,
-          51.5677077
+          -0.015011,
+          51.567706
         ]
       ]
     ]
@@ -79,17 +79,17 @@
   "subdivision_of_building": null,
   "last_date_consultation_comments": null,
   "development_type": null,
-  "title_number": null,
+  "title_number": [],
   "appeal_status": null,
-  "last_updated": "2025-03-19T11:59:52.135+00:00",
-  "last_updated_by": "CSV Data Import",
+  "last_updated": "2026-07-01T15:10:13.391Z",
+  "last_updated_by": "Portal",
   "site_name": "St James House, 126 Vicarage Road,",
   "id": "Waltham_Forest-230562",
   "decision": "Approved",
-  "cil_liability": null,
+  "cil_liability": false,
   "centroid_northing": 187265,
   "appeal_start_date": null,
-  "postcode": null,
+  "postcode": "E105DZ",
   "url_planning_app": null,
   "date_building_work_completed_under_previous_permission": null,
   "secondary_street_name": null,
@@ -155,7 +155,7 @@
   },
   "pp_id": "PP-11974783",
   "application_details": {
-    "green_suds": true,
+    "green_suds": false,
     "constraints_details": [
       {
         "result": "1367120",
@@ -293,7 +293,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 258.1,
       "total_gia_lost": 358,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "site_area": 0.042
     },
     "affordable_housing_fast_track": false,
     "garden_land_lost": false,
@@ -311,14 +312,18 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 358,
-        "use_class": "SpecifiedOther",
+        "actual_completion_date": "30/09/2025",
         "gia_gained": 0,
+        "use_class": "SpecifiedOther",
+        "actual_commencement_date": "03/04/2024",
         "gia_lost": 358
       },
       {
         "gia_existing": 0,
-        "use_class": "C3",
+        "actual_completion_date": "30/09/2025",
         "gia_gained": 258.1,
+        "use_class": "C3",
+        "actual_commencement_date": "03/04/2024",
         "gia_lost": 0
       }
     ],
@@ -333,9 +338,9 @@
     ],
     "total_gia_lost": 358,
     "infrastructure_details": {
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 50,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "no_homes_to_have_electrical_heating": 4,
       "mobile_network_operators_consultation": false,
       "total_annual_nox_emissions": 0,
@@ -348,10 +353,10 @@
       "fire_suppression_system_proposed": false,
       "total_annual_pm_emissions": 0
     },
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "total_gia_gained": 258.1,
     "ownership_status": "Private",
-    "existing_uprns": null,
+    "existing_uprns": [],
     "residential_details": {
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
@@ -360,50 +365,70 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 3,
-          "provider": "Private",
-          "unit_no": "Gain-1",
+          "actual_completion_date": "30/09/2025",
+          "description": "New residential building",
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 68.4,
-          "tenure": "Market for sale"
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "03/04/2024",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 68.4
         },
         {
+          "actual_completion_date": "30/09/2025",
+          "description": "New residential building",
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "provider": "Private",
           "no_habitable_rooms": 4,
-          "provider": "Private",
-          "unit_no": "Gain-2",
-          "change_type": "Gain",
-          "no_bedrooms": 3,
-          "unit_type": "Flat Apartment Maisonette",
-          "gia": 78,
-          "tenure": "Market for sale"
-        },
-        {
-          "no_habitable_rooms": 2,
-          "provider": "Private",
-          "unit_no": "Gain-3",
-          "change_type": "Gain",
-          "no_bedrooms": 1,
-          "unit_type": "Flat Apartment Maisonette",
-          "gia": 50.7,
-          "tenure": "Market for sale"
-        },
-        {
-          "no_habitable_rooms": 3,
-          "provider": "Private",
-          "unit_no": "Gain-4",
-          "change_type": "Gain",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "03/04/2024",
           "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 78
+        },
+        {
+          "actual_completion_date": "30/09/2025",
+          "description": "New residential building",
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 61,
-          "tenure": "Market for sale"
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "03/04/2024",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 50.7
+        },
+        {
+          "actual_completion_date": "30/09/2025",
+          "description": "New residential building",
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "03/04/2024",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 61
         }
       ],
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
-      "total_no_proposed_bedrooms": 8,
+      "total_no_proposed_bedrooms": 7,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units": 4,
       "affordable_percentage": 0,
@@ -423,24 +448,37 @@
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_gia_gained": 258.1,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 95.23809523809523,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 285.7142857142857,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_residential_units_market_for_sale": 4
+      "total_no_proposed_residential_units_market_for_sale": 4,
+      "site_area": 0.042
     },
-    "projected_cost_of_works": "Up to £2m"
+    "projected_cost_of_works": "Up to £2m",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.042
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "centroid": {
-    "lon": "-0.015408499999999999",
-    "lat": "51.5674677"
+    "lon": -0.015436,
+    "lat": 51.567466
   },
   "lapsed_date": "02/04/2027",
   "decision_process": null,
-  "actual_completion_date": null
+  "actual_completion_date": "30/09/2025"
 }

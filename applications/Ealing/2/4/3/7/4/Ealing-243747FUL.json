@@ -25,12 +25,19 @@
   "decision_process": null,
   "lapsed_date": "28/11/2027",
   "application_type_full": "Full planning permission",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 0,
+    "net_car": 1,
+    "no_proposed_cycle": 2,
+    "no_proposed_car": 1,
+    "net_cycle": 2
+  },
   "date_building_work_completed_under_previous_permission": null,
   "id": "Ealing-243747FUL",
   "actual_commencement_date": null,
   "lpa_name": "Ealing",
-  "last_updated": "2026-06-27T04:01:38.286Z",
+  "last_updated": "2026-07-01T07:15:32.617Z",
   "lpa_app_no": "243747FUL",
   "wgs84_polygon": {
     "coordinates": [
@@ -85,7 +92,7 @@
       }
     ],
     "total_gia_gained": 0,
-    "site_area": 0.0138,
+    "site_area": 0.013800000000000002,
     "total_gia_lost": 0,
     "total_gia_existing": 137,
     "existing_proposed_floorspace_details": [
@@ -156,17 +163,12 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": true,
+          "provider": "Private",
+          "no_habitable_rooms": 33,
           "change_type": "Gain",
           "garden_land": true,
-          "sheltered_accommodation": false,
           "unit_type": "Semi Detached Home",
-          "no_habitable_rooms": 33,
-          "provider": "Private",
           "no_bedrooms": 24,
-          "provision_for_older_persons": false,
           "tenure": "Self-Build and Custom Build",
           "gia": 70.4
         }
@@ -198,7 +200,7 @@
     "ownership_status": "Private",
     "occupation_status": "Vacant"
   },
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "postcode": "W3 7NF",
   "last_date_consultation_comments": "11/11/2024",
   "secondary_street_name": null,

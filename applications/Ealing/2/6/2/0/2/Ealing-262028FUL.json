@@ -37,7 +37,7 @@
   "centroid_northing": "182138",
   "reference_no_of_permission_being_relied_on": null,
   "actual_commencement_date": null,
-  "last_updated": "2026-06-27T04:05:27.193Z",
+  "last_updated": "2026-07-01T07:15:40.987Z",
   "description": "Conversion of dwellinghouse into 2x self-contained flats with provision of refuse storage; parking space, cycle storage; amenity spaces; single storey rear extension (following demolition of existing rear extension); rear roof extension; installation of two rooflights to front roofslope; installation of timber fence",
   "subdivision_of_building": null,
   "epc_number": null,
@@ -45,7 +45,7 @@
   "borough": "London Borough of Ealing",
   "street_name": "Mansell Road",
   "decision_process": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "date_building_work_started_under_previous_permission": null,
   "application_type": "All Other",
   "lapsed_date": null,
@@ -75,7 +75,14 @@
   "actual_completion_date": null,
   "pp_id": "PP-14940243",
   "decision_agency": null,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 1,
+    "net_car": -1,
+    "no_proposed_cycle": 2,
+    "no_proposed_car": 0,
+    "net_cycle": 2
+  },
   "locality": null,
   "id": "Ealing-262028FUL",
   "application_details": {
@@ -152,38 +159,27 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": false,
-          "change_type": "Gain",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 2,
           "provider": "Private",
+          "no_habitable_rooms": 2,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 61
         },
         {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": false,
-          "change_type": "Gain",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 2,
           "provider": "Private",
+          "no_habitable_rooms": 2,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 61
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "total_gia_lost": 0
     },
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,

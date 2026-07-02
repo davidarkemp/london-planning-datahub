@@ -141,10 +141,10 @@
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
           "description": null,
-          "m42_compliant": false,
           "change_type": "Gain",
-          "garden_land": false,
+          "m42_compliant": false,
           "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "HMO",
           "provider": "Private",
           "no_habitable_rooms": 1,
@@ -159,10 +159,10 @@
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
           "description": null,
-          "m42_compliant": false,
           "change_type": "Loss",
-          "garden_land": false,
+          "m42_compliant": false,
           "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Terraced Home",
           "no_habitable_rooms": 2,
           "phase_detail": null,
@@ -194,17 +194,19 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 102.11,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 102.11
       },
       {
         "gia_existing": 0,
-        "use_class": "C4",
         "gia_gained": 130.01,
+        "use_class": "C4",
         "gia_lost": 0
       }
-    ]
+    ],
+    "total_gia_gained": 130.01,
+    "scheme_phasing": true
   },
   "decision_date": "12/06/2026",
   "url_planning_app": "<enter PA URL here>",
@@ -212,7 +214,11 @@
   "locality": null,
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Idox Uniform",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 1,
+    "net_car": 0,
+    "no_proposed_car": 1
+  },
   "site_name": null,
   "epc_number": null,
   "pp_id": "PP-14819408",
@@ -228,7 +234,7 @@
     "No independent cooking or laundry facilities shall be installed in any of the respective bedrooms and the ground floor communal kitchen and dining room, shall be retained in perpetuity. \r\rReason: To accord with the stipulations of definition as a House of Multiple Occupation and to safeguard the residential character of the surrounding area.\r"
   ],
   "site_number": "447",
-  "last_updated": "2026-06-12T20:06:42.199Z",
+  "last_updated": "2026-07-01T20:04:29.673Z",
   "last_date_consultation_comments": "20/05/2026",
   "valid_date": "23/04/2026",
   "actual_commencement_date": null,
@@ -282,7 +288,7 @@
     "lon": -0.048557
   },
   "lapsed_date": "12/06/2029",
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "centroid_easting": 535137,
   "actual_completion_date": null
 }

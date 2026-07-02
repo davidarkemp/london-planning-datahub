@@ -1,6 +1,6 @@
 {
   "decision_target_date": "28/05/2026",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Other change of use",
@@ -14,8 +14,8 @@
     "phasing_details": [
       {
         "phase_detail": "phase 1",
-        "intended_commencement_date": "08/2026",
-        "intended_completion_date": "09/2026"
+        "intended_completion_date": "09/2026",
+        "intended_commencement_date": "08/2026"
       }
     ],
     "affordable_housing_fast_track": false,
@@ -50,66 +50,52 @@
     "non_residential_details": {
       "total_gia_gained": 0,
       "site_area": 0.02,
-      "total_gia_existing": 0,
+      "total_gia_existing": 113.4,
       "total_gia_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0
     },
     "constraints_details": [
       {
-        "result": null,
         "constraints_layer_description": "SURWAT Description: Idox.Spatial.Common.Desktop.DataAccess.Shape"
       },
       {
-        "result": null,
         "constraints_layer_description": "LHA Maximum Height Level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet)."
       },
       {
-        "result": null,
         "constraints_layer_description": "LGA Maximum Height Level: >300"
       },
       {
-        "result": null,
         "constraints_layer_description": "LLA Maximum height level: All buildings, structures, and works exceeding 300 metres in height (984.2 feet)"
       },
       {
-        "result": null,
         "constraints_layer_description": "EAFLZ2 Description: Flood Zone 2"
       },
       {
-        "result": null,
         "constraints_layer_description": "100Y Name: Southgate Model\rDescription: 100YRCC3542\rScenario: 1 in 100 year plus climate change allowance"
       },
       {
-        "result": null,
         "constraints_layer_description": "DCAREA Area: SOUTH\rCode: DCAREA_S"
       },
       {
-        "result": null,
         "constraints_layer_description": "CLAROA Road Classification code: CLAROA40"
       },
       {
-        "result": null,
         "constraints_layer_description": "GAP35Z Description: Gas pipeline buffer - 35m"
       },
       {
-        "result": null,
         "constraints_layer_description": "LAFISI Code: LFS"
       },
       {
-        "result": null,
         "constraints_layer_description": "WARDS Name: Lower Edmonton"
       },
       {
-        "result": null,
         "constraints_layer_description": "CILRES CIL ZONE: Lower Rate Eastern Zone - RATE: £40 per square metre"
       },
       {
-        "result": null,
         "constraints_layer_description": "EFCAZI Chargeable Zone Value: 6176"
       },
       {
-        "result": null,
         "constraints_layer_description": "FLUVIA "
       }
     ],
@@ -124,7 +110,7 @@
     "residential_details": {
       "total_no_existing_residential_units_shared_equity": 0,
       "dwelling_density": 0,
-      "total_gia_gained": 0,
+      "total_gia_gained": 113.4,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_market_for_rent": 0,
       "total_no_proposed_bedrooms": 3,
@@ -149,7 +135,7 @@
       "total_no_existing_residential_units_intermediate": 0,
       "affordable_percentage": 100,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
-      "total_gia_lost": 0,
+      "total_gia_lost": 114.4,
       "total_no_existing_residential_units_london_affordable_rent": 1,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_proposed_residential_affordable_units": 1,
@@ -162,39 +148,23 @@
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "residential_units": [
         {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "description": null,
-          "m42_compliant": false,
-          "change_type": "Gain",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "HMO",
-          "no_habitable_rooms": 5,
-          "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
-          "no_bedrooms": 3,
-          "provision_for_older_persons": false,
-          "tenure": "London Affordable Rent",
-          "gia": 113.4
-        },
-        {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "description": null,
-          "m42_compliant": false,
+          "no_habitable_rooms": 4,
           "change_type": "Loss",
-          "garden_land": false,
           "sheltered_accommodation": false,
           "unit_type": "Terraced Home",
-          "no_habitable_rooms": 4,
-          "phase_detail": null,
-          "unit_no": null,
           "no_bedrooms": 4,
           "provision_for_older_persons": false,
           "tenure": "London Affordable Rent",
           "gia": 114.4
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 5,
+          "change_type": "Gain",
+          "unit_type": "HMO",
+          "no_bedrooms": 3,
+          "tenure": "London Affordable Rent",
+          "gia": 113.4
         }
       ]
     },
@@ -213,16 +183,18 @@
       "open_space_mol_area_loss": 0,
       "open_space_local_and_other_area_gain": 0
     },
-    "site_area": 153,
+    "site_area": 0.015300000000000001,
     "ownership_status": "Public",
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 113.4,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 0
       }
-    ]
+    ],
+    "total_gia_gained": 0,
+    "scheme_phasing": true
   },
   "decision_date": "08/05/2026",
   "url_planning_app": "<enter PA URL here>",
@@ -245,7 +217,7 @@
     "The use of the property as a House in Multiple Occupation hereby approved shall be occupied by a maximum of 5 people at any one time and shall not be subdivided or occupied as self-contained units. \r\rReason: To accord with the stipulations of definition as a House of Multiple Occupation and to safeguard the residential character of the surrounding area.\r"
   ],
   "site_number": "282",
-  "last_updated": "2026-05-08T20:10:23.741Z",
+  "last_updated": "2026-07-01T07:15:22.558Z",
   "last_date_consultation_comments": "28/04/2026",
   "valid_date": "02/04/2026",
   "actual_commencement_date": null,
@@ -299,7 +271,7 @@
     "lon": -0.044046
   },
   "lapsed_date": "08/05/2029",
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "centroid_easting": 535475,
   "actual_completion_date": null
 }

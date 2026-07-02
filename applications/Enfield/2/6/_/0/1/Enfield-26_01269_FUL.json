@@ -1,6 +1,6 @@
 {
   "decision_target_date": "25/05/2026",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Minor dwellings",
@@ -50,80 +50,63 @@
     "total_gia_existing": 533,
     "commencement_notice_received": false,
     "non_residential_details": {
-      "total_gia_gained": 0,
+      "total_gia_gained": 1520,
       "site_area": 0.3,
-      "total_gia_existing": 0,
-      "total_gia_lost": 0,
+      "total_gia_existing": 533,
+      "total_gia_lost": 533,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0
     },
     "constraints_details": [
       {
-        "result": null,
         "constraints_layer_description": "SURWAT Description: Idox.Spatial.Common.Desktop.DataAccess.Shape"
       },
       {
-        "result": null,
         "constraints_layer_description": "LHA Maximum Height Level: All buildings, structures, and works exceeding 90 metres in height (295.3 feet)."
       },
       {
-        "result": null,
         "constraints_layer_description": "LLA Maximum height level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet)"
       },
       {
-        "result": null,
         "constraints_layer_description": "SIARIN Description: Archaeological priority area surrounding possible Iron Age enclosure earthworks and post-medieval fi\rName: Monken Hadley Common"
       },
       {
-        "result": null,
         "constraints_layer_description": "RIVBUF River Buffer: Bounds Green Brook\rCode: RIVBUF1"
       },
       {
-        "result": null,
         "constraints_layer_description": "EAFLZ2 Description: Flood Zone 2"
       },
       {
-        "result": null,
         "constraints_layer_description": "EAFLZ3 Description: Flood Zone 3"
       },
       {
-        "result": null,
         "constraints_layer_description": "FZ3B Description: FZ3B9"
       },
       {
-        "result": null,
         "constraints_layer_description": "100Y Name: Southgate Model\rDescription: 100YRCC2549\rScenario: 1 in 100 year plus climate change allowance"
       },
       {
-        "result": null,
         "constraints_layer_description": "TPO TPO Name: ENFIELD ORDER NO. 2\rDate of Order: 22/07/1957 00:00:00\rSpecies: WHATEVER SPECIES STANDING IN PARKLAND, Address: FISHPOND HADLEY WOOD GOLF CLUB BEECH HILL\rSchedule ID: A10"
       },
       {
-        "result": null,
         "constraints_layer_description": "DCAREA Area: NORTH\rCode: DCAREA_N"
       },
       {
-        "result": null,
         "constraints_layer_description": "DUOLAC Description: DUOLAC3"
       },
       {
-        "result": null,
         "constraints_layer_description": "PRIROA Name: COCKFOSTERS ROAD"
       },
       {
-        "result": null,
         "constraints_layer_description": "WATERC Name: Monken Mead Brook\rDescription: WATERC299"
       },
       {
-        "result": null,
         "constraints_layer_description": "WARDS Name: Cockfosters"
       },
       {
-        "result": null,
         "constraints_layer_description": "CILRES CIL ZONE: Higher Rate - RATE: £120 per square metre"
       },
       {
-        "result": null,
         "constraints_layer_description": "FLUVIA "
       }
     ],
@@ -176,39 +159,24 @@
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "residential_units": [
         {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": true,
-          "description": null,
-          "m42_compliant": false,
-          "change_type": "Gain",
-          "garden_land": true,
-          "sheltered_accommodation": false,
-          "unit_type": "House or Bungalow",
-          "provider": "Self-Build",
-          "no_habitable_rooms": 10,
-          "phase_detail": null,
-          "unit_no": null,
-          "no_bedrooms": 9,
-          "provision_for_older_persons": false,
-          "tenure": "Self-Build and Custom Build",
-          "gia": 1520
-        },
-        {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "description": null,
-          "m42_compliant": false,
-          "change_type": "Loss",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "House or Bungalow",
           "no_habitable_rooms": 7,
-          "phase_detail": null,
-          "unit_no": null,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
+          "unit_type": "House or Bungalow",
           "no_bedrooms": 5,
           "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 533
+        },
+        {
+          "provider": "Self-Build",
+          "no_habitable_rooms": 10,
+          "change_type": "Gain",
+          "garden_land": true,
+          "unit_type": "House or Bungalow",
+          "no_bedrooms": 9,
+          "tenure": "Self-Build and Custom Build",
+          "gia": 1520
         }
       ]
     },
@@ -227,11 +195,11 @@
       "open_space_mol_area_loss": 0,
       "open_space_local_and_other_area_gain": 0
     },
-    "site_area": 2990,
+    "site_area": 0.299,
     "ownership_status": "Private",
     "building_details": [
       {
-        "no_storeys": null,
+        "no_storeys": 3,
         "max_height": 11.58,
         "building_ref": "Dwelling"
       }
@@ -239,11 +207,13 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 533,
-        "use_class": "C3",
         "gia_gained": 1520,
+        "use_class": "C3",
         "gia_lost": 533
       }
-    ]
+    ],
+    "scheme_phasing": true,
+    "total_gia_gained": 1520
   },
   "decision_date": null,
   "url_planning_app": "<enter PA URL here>",
@@ -251,7 +221,11 @@
   "locality": null,
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Idox Uniform",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 3,
+    "net_car": 3,
+    "no_proposed_car": 6
+  },
   "site_name": null,
   "epc_number": "0755-2808-7376-9503-9081",
   "pp_id": "PP-14816437",
@@ -260,7 +234,7 @@
   "description": "Redevelopment of site by the erection of a detached 3-storey dwelling house with basement and solar PV roof with 6 dormers, together with rear outbuildings with enclosed swimming pool, associated landscaping including driveway car lift for vehicle.\r",
   "decision_conditions": null,
   "site_number": "411",
-  "last_updated": "2026-06-02T20:07:44.735Z",
+  "last_updated": "2026-07-01T07:15:24.736Z",
   "last_date_consultation_comments": "28/04/2026",
   "valid_date": "30/03/2026",
   "actual_commencement_date": null,
@@ -314,7 +288,7 @@
     "lon": -0.156883
   },
   "lapsed_date": null,
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "centroid_easting": 527567,
   "actual_completion_date": null
 }

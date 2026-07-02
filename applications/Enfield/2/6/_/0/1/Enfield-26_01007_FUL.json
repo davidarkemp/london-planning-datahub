@@ -1,6 +1,6 @@
 {
   "decision_target_date": "04/06/2026",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Other change of use",
@@ -48,44 +48,36 @@
     "total_gia_existing": 111.7,
     "commencement_notice_received": false,
     "non_residential_details": {
-      "total_gia_gained": 0,
+      "total_gia_gained": 111.7,
       "site_area": 0.02,
-      "total_gia_existing": 0,
-      "total_gia_lost": 0,
+      "total_gia_existing": 111.7,
+      "total_gia_lost": 111.7,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0
     },
     "constraints_details": [
       {
-        "result": null,
         "constraints_layer_description": "LHA Maximum Height Level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet)."
       },
       {
-        "result": null,
         "constraints_layer_description": "LLA Maximum height level: All buildings, structures, and works exceeding 300 metres in height (984.2 feet)"
       },
       {
-        "result": null,
         "constraints_layer_description": "DCAREA Area: NORTH\rCode: DCAREA_N"
       },
       {
-        "result": null,
         "constraints_layer_description": "WARDS Name: Ponders End"
       },
       {
-        "result": null,
         "constraints_layer_description": "CILRES CIL ZONE: Lower Rate Eastern Zone - RATE: £40 per square metre"
       },
       {
-        "result": null,
         "constraints_layer_description": "DMDAAP Designation: Area Action Plan- Area: North East Enfield- Policy: Core policy 40"
       },
       {
-        "result": null,
         "constraints_layer_description": "DMDPSP Designation: Place Shaping Priority Area- Area Name: Ponders End- Core Strategy: Core policy 41"
       },
       {
-        "result": null,
         "constraints_layer_description": "EFCAZI Chargeable Zone Value: 6176"
       }
     ],
@@ -138,37 +130,21 @@
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "residential_units": [
         {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "description": null,
-          "m42_compliant": false,
-          "change_type": "Gain",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "HMO",
-          "provider": "Private",
           "no_habitable_rooms": 7,
-          "phase_detail": null,
-          "unit_no": null,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
+          "unit_type": "Terraced Home",
           "no_bedrooms": 5,
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 111.7
         },
         {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "description": null,
-          "m42_compliant": false,
-          "change_type": "Loss",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "Terraced Home",
+          "provider": "Private",
           "no_habitable_rooms": 7,
-          "phase_detail": null,
-          "unit_no": null,
+          "change_type": "Gain",
+          "unit_type": "HMO",
           "no_bedrooms": 5,
-          "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 111.7
         }
@@ -189,22 +165,24 @@
       "open_space_mol_area_loss": 0,
       "open_space_local_and_other_area_gain": 0
     },
-    "site_area": 150,
+    "site_area": 0.015,
     "ownership_status": "Private",
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 111.7,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 111.7
       },
       {
         "gia_existing": 0,
-        "use_class": "C4",
         "gia_gained": 111.7,
+        "use_class": "C4",
         "gia_lost": 0
       }
-    ]
+    ],
+    "total_gia_gained": 111.7,
+    "scheme_phasing": true
   },
   "decision_date": "02/06/2026",
   "url_planning_app": "<enter PA URL here>",
@@ -212,7 +190,11 @@
   "locality": null,
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Idox Uniform",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_proposed_cycle": 6,
+    "net_cycle": 6
+  },
   "site_name": null,
   "epc_number": "9407-3039-1206-4054-1204",
   "pp_id": "PP-14775106",
@@ -223,7 +205,7 @@
     "The unauthorised development, by virtue of its inadequate floor areas, internal layouts, poor quality of outlook and insufficient natural light would result in substandard and inappropriate accommodation incapable of meeting the reasonable needs of occupiers, contrary  Section 12 of the National Planning Policy Framework (2024), Policies, D3, D4, D5 and D6 of the London Plan (2021), CP30 of the Enfield Core Strategy (2010), DMD6, DMD8, DMD9 and DMD37 of the Enfield Development Management Document (2014) and the London Housing Supplementary Planning Guidance (2016)."
   ],
   "site_number": "95",
-  "last_updated": "2026-06-02T20:05:28.100Z",
+  "last_updated": "2026-07-01T07:15:26.251Z",
   "last_date_consultation_comments": "18/06/2026",
   "valid_date": "09/04/2026",
   "actual_commencement_date": null,
@@ -277,7 +259,7 @@
     "lon": -0.038996
   },
   "lapsed_date": "02/06/2029",
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "centroid_easting": 535780,
   "actual_completion_date": null
 }

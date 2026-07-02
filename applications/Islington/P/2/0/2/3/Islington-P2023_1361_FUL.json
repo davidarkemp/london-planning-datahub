@@ -26,56 +26,56 @@
     "coordinates": [
       [
         [
-          -0.11180839999999999,
-          51.5419991
+          -0.111834,
+          51.541997
         ],
         [
-          -0.11194649999999999,
-          51.5419766
+          -0.111973,
+          51.541974
         ],
         [
-          -0.11196089999999999,
-          51.5419746
+          -0.111987,
+          51.541972
         ],
         [
-          -0.1120371,
-          51.5419624
+          -0.112063,
+          51.54196
         ],
         [
-          -0.1121133,
-          51.5419501
+          -0.112139,
+          51.541948
         ],
         [
-          -0.11212839999999999,
-          51.5419868
+          -0.112154,
+          51.541984
         ],
         [
-          -0.1120958,
-          51.5419921
+          -0.112122,
+          51.54199
         ],
         [
-          -0.1120997,
-          51.5420029
+          -0.112126,
+          51.542001
         ],
         [
-          -0.1120576,
-          51.5420085
+          -0.112084,
+          51.542006
         ],
         [
-          -0.1118484,
-          51.5420425
+          -0.111874,
+          51.54204
         ],
         [
-          -0.1117531,
-          51.5420333
+          -0.111779,
+          51.542031
         ],
         [
-          -0.11174239999999999,
-          51.5420102
+          -0.111768,
+          51.542008
         ],
         [
-          -0.11180839999999999,
-          51.5419991
+          -0.111834,
+          51.541997
         ]
       ]
     ],
@@ -85,9 +85,9 @@
   "subdivision_of_building": null,
   "last_date_consultation_comments": "18/06/2023",
   "development_type": null,
-  "title_number": null,
+  "title_number": [],
   "appeal_status": null,
-  "last_updated": "2025-03-19T18:49:26.932+00:00",
+  "last_updated": "2026-07-01T09:01:42.339Z",
   "last_updated_by": "Portal",
   "site_name": "",
   "id": "Islington-P2023_1361_FUL",
@@ -186,7 +186,7 @@
       "site_area": 0.015300000000000001
     },
     "affordable_housing_fast_track": false,
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "site_area": 0.013000000000000001,
     "total_gia_existing": 138,
     "rain_water_harvesting": false,
@@ -201,8 +201,9 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 138,
-        "use_class": "SpecifiedOther",
         "gia_gained": 165,
+        "use_class": "SpecifiedOther",
+        "actual_commencement_date": "18/12/2024",
         "gia_lost": 138
       }
     ],
@@ -217,7 +218,7 @@
     ],
     "total_gia_lost": 138,
     "infrastructure_details": {
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "ghg_reduction_over_building_regulations": false,
       "no_homes_to_have_electrical_heating": 0,
@@ -234,10 +235,10 @@
       "total_annual_pm_emissions": 0,
       "chp_heat_pumps_capacity": 0
     },
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "total_gia_gained": 165,
     "ownership_status": "Private",
-    "existing_uprns": null,
+    "existing_uprns": [],
     "residential_details": {
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
@@ -246,32 +247,33 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 6,
-          "phase_detail": null,
-          "unit_no": "Loss-1",
+          "actual_completion_date": "15/01/2024",
           "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
+          "unit_type": "HMO",
+          "no_habitable_rooms": 6,
+          "phase_detail": null,
+          "unit_no": null,
           "actual_commencement_date": "15/01/2024",
           "no_bedrooms": 3,
-          "unit_type": "HMO",
           "provision_for_older_persons": false,
-          "gia": 138,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 138
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 4,
           "phase_detail": null,
-          "unit_no": "Gain-1",
+          "unit_no": null,
           "description": null,
           "change_type": "Gain",
           "actual_commencement_date": "15/01/2024",
           "no_bedrooms": 3,
           "unit_type": "Semi Detached Home",
           "provision_for_older_persons": false,
-          "gia": 165,
-          "tenure": "Self-Build and Custom Build"
+          "tenure": "Self-Build and Custom Build",
+          "gia": 165
         }
       ],
       "total_no_existing_residential_units_intermediate": 0,
@@ -314,11 +316,19 @@
     "lead_developer_company_name": "Barnsbury Square Residents Association",
     "other_residential_accommodation_details": {
       "site_area": 0.015300000000000001
-    }
+    },
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "centroid": {
-    "lon": "-0.1119438",
-    "lat": "51.5420027"
+    "lon": -0.11197,
+    "lat": 51.542
   },
   "lapsed_date": "04/08/2026",
   "decision_process": "Delegated",

@@ -1,7 +1,7 @@
 {
   "actual_completion_date": null,
   "appeal_start_date": null,
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "decision_conditions": null,
   "decision": null,
   "appeal_decision": null,
@@ -15,14 +15,18 @@
   "development_type": "Other change of use",
   "subdivision_of_building": null,
   "centroid_northing": 199004,
-  "last_updated": "2026-06-15T20:11:12.373Z",
+  "last_updated": "2026-07-01T20:11:30.510Z",
   "lapsed_date": null,
   "bo_system": "Idox Uniform",
   "centroid": {
     "lat": 51.673273,
     "lon": -0.02992
   },
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 1,
+    "net_car": 0,
+    "no_proposed_car": 1
+  },
   "url_planning_app": "<enter PA URL here>",
   "pp_id": "PP-14982680",
   "locality": null,
@@ -45,39 +49,39 @@
       "total_no_proposed_residential_units_market_for_rent": 1,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "change_type": "Gain",
           "m42_compliant": false,
+          "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "HMO",
           "provider": "Private",
-          "m43_2a_compliant": false,
-          "phase_detail": null,
-          "garden_land": false,
-          "tenure": "Market for rent",
           "no_habitable_rooms": 1,
-          "description": null,
+          "phase_detail": null,
           "unit_no": null,
           "no_bedrooms": 7,
-          "change_type": "Gain",
-          "sheltered_accommodation": false,
-          "gia": 132.75,
           "provision_for_older_persons": false,
-          "m43_2b_compliant": false
+          "tenure": "Market for rent",
+          "gia": 132.75
         },
         {
-          "m42_compliant": false,
-          "unit_type": "Terraced Home",
+          "m43_2b_compliant": false,
           "m43_2a_compliant": false,
-          "phase_detail": null,
-          "garden_land": false,
-          "tenure": "Market for rent",
-          "no_habitable_rooms": 3,
           "description": null,
+          "change_type": "Loss",
+          "m42_compliant": false,
+          "sheltered_accommodation": false,
+          "garden_land": false,
+          "unit_type": "Terraced Home",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
           "unit_no": null,
           "no_bedrooms": 3,
-          "change_type": "Loss",
-          "sheltered_accommodation": false,
-          "gia": 89.83,
           "provision_for_older_persons": false,
-          "m43_2b_compliant": false
+          "tenure": "Market for rent",
+          "gia": 89.83
         }
       ],
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
@@ -109,23 +113,23 @@
     },
     "phasing_details": [
       {
-        "intended_completion_date": "03/2027",
         "phase_detail": "Entire development",
+        "intended_completion_date": "03/2027",
         "intended_commencement_date": "12/2026"
       }
     ],
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3",
-        "gia_lost": 89.83,
         "gia_existing": 89.83,
-        "gia_gained": 0
+        "gia_gained": 0,
+        "use_class": "C3",
+        "gia_lost": 89.83
       },
       {
-        "use_class": "SG",
-        "gia_lost": 0,
         "gia_existing": 0,
-        "gia_gained": 132.75
+        "gia_gained": 132.75,
+        "use_class": "SG",
+        "gia_lost": 0
       }
     ],
     "total_gia_existing": 89.83,
@@ -141,36 +145,36 @@
     "affordable_housing_fast_track": false,
     "constraints_details": [
       {
-        "constraints_layer_description": "LHA Maximum Height Level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet).",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "LHA Maximum Height Level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet)."
       },
       {
-        "constraints_layer_description": "LLA Maximum height level: All buildings, structures, and works exceeding 300 metres in height (984.2 feet)",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "LLA Maximum height level: All buildings, structures, and works exceeding 300 metres in height (984.2 feet)"
       },
       {
-        "constraints_layer_description": "100Y Name: North Enfield Model\rDescription: 100YRCC3378\rScenario: 1 in 100 year plus climate change allowance",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "100Y Name: North Enfield Model\rDescription: 100YRCC3378\rScenario: 1 in 100 year plus climate change allowance"
       },
       {
-        "constraints_layer_description": "DCAREA Area: NORTH\rCode: DCAREA_N",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "DCAREA Area: NORTH\rCode: DCAREA_N"
       },
       {
-        "constraints_layer_description": "WARDS Name: Enfield Lock",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "WARDS Name: Enfield Lock"
       },
       {
-        "constraints_layer_description": "CILRES CIL ZONE: Lower Rate Eastern Zone - RATE: £40 per square metre",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "CILRES CIL ZONE: Lower Rate Eastern Zone - RATE: £40 per square metre"
       },
       {
-        "constraints_layer_description": "DMDAAP Designation: Area Action Plan- Area: North East Enfield- Policy: Core policy 40",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "DMDAAP Designation: Area Action Plan- Area: North East Enfield- Policy: Core policy 40"
       },
       {
-        "constraints_layer_description": "EFCAZI Chargeable Zone Value: 6176",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "EFCAZI Chargeable Zone Value: 6176"
       }
     ],
     "green_suds": false,
@@ -231,7 +235,9 @@
     "existing_uprns": [
       "000207132785"
     ],
-    "site_area": 200
+    "site_area": 200,
+    "scheme_phasing": true,
+    "total_gia_gained": 132.75
   },
   "street_name": "Malvern Road",
   "decision_agency": null,

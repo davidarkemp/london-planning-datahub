@@ -60,14 +60,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 112,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 112
       },
       {
         "gia_existing": 0,
-        "use_class": "SG",
         "gia_gained": 144.8,
+        "use_class": "SG",
         "gia_lost": 0
       }
     ],
@@ -113,10 +113,10 @@
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
           "description": null,
-          "m42_compliant": false,
           "change_type": "Gain",
-          "garden_land": false,
+          "m42_compliant": false,
           "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "HMO",
           "provider": "Private rented sector",
           "no_habitable_rooms": 8,
@@ -131,10 +131,10 @@
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
           "description": null,
-          "m42_compliant": false,
           "change_type": "Loss",
-          "garden_land": false,
+          "m42_compliant": false,
           "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Terraced Home",
           "no_habitable_rooms": 7,
           "phase_detail": null,
@@ -207,7 +207,9 @@
       "no_active_other_ev_charging_points": 0,
       "no_active_rapid_ev_charging_points": 0,
       "no_passive_other_ev_charging_points": 0
-    }
+    },
+    "scheme_phasing": true,
+    "total_gia_gained": 144.8
   },
   "centroid_easting": 535279,
   "decision_process": null,
@@ -242,14 +244,18 @@
   "appeal_start_date": null,
   "decision_target_date": "11/06/2026",
   "actual_commencement_date": null,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 2,
+    "net_car": 0,
+    "no_proposed_car": 2
+  },
   "last_date_consultation_comments": "28/05/2026",
   "url_planning_app": "<enter PA URL here>",
-  "last_updated": "2026-06-11T20:04:57.937Z",
+  "last_updated": "2026-07-01T20:04:06.860Z",
   "application_type": "All Other",
   "site_number": "50",
   "lpa_name": "Enfield",
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "centroid_northing": 198658,
   "actual_completion_date": null,
   "cil_liability": true,

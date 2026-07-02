@@ -1,7 +1,7 @@
 {
   "actual_completion_date": null,
   "appeal_start_date": null,
-  "application_type_full": null,
+  "application_type_full": "Full planning & listed building consent",
   "decision_conditions": null,
   "decision": null,
   "appeal_decision": null,
@@ -15,14 +15,21 @@
   "development_type": "Other change of use",
   "subdivision_of_building": null,
   "centroid_northing": 198896,
-  "last_updated": "2026-06-08T20:12:44.276Z",
+  "last_updated": "2026-07-01T20:10:01.071Z",
   "lapsed_date": null,
   "bo_system": "Idox Uniform",
   "centroid": {
     "lat": 51.672456,
     "lon": -0.039168
   },
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 2,
+    "net_car": -1,
+    "no_proposed_cycle": 7,
+    "no_proposed_car": 1,
+    "net_cycle": 7
+  },
   "url_planning_app": "<enter PA URL here>",
   "pp_id": "PP-14908771",
   "locality": null,
@@ -72,23 +79,23 @@
     },
     "phasing_details": [
       {
-        "intended_completion_date": "03/2027",
         "phase_detail": "Enabling Works",
+        "intended_completion_date": "03/2027",
         "intended_commencement_date": "08/2026"
       }
     ],
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3",
-        "gia_lost": 0,
         "gia_existing": 200,
-        "gia_gained": 0
+        "gia_gained": 0,
+        "use_class": "C3",
+        "gia_lost": 0
       },
       {
-        "use_class": "C4",
-        "gia_lost": 200,
         "gia_existing": 0,
-        "gia_gained": 0
+        "gia_gained": 0,
+        "use_class": "C4",
+        "gia_lost": 200
       }
     ],
     "total_gia_existing": 200,
@@ -104,44 +111,44 @@
     "affordable_housing_fast_track": false,
     "constraints_details": [
       {
-        "constraints_layer_description": "LHA Maximum Height Level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet).",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "LHA Maximum Height Level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet)."
       },
       {
-        "constraints_layer_description": "LLA Maximum height level: All buildings, structures, and works exceeding 300 metres in height (984.2 feet)",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "LLA Maximum height level: All buildings, structures, and works exceeding 300 metres in height (984.2 feet)"
       },
       {
-        "constraints_layer_description": "LB LB Grade: II; Location: 651 Hertford Road",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "LB LB Grade: II; Location: 651 Hertford Road"
       },
       {
-        "constraints_layer_description": "100Y Name: North Enfield Model\rDescription: 100YRCC2402\rScenario: 1 in 100 year plus climate change allowance",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "100Y Name: North Enfield Model\rDescription: 100YRCC2402\rScenario: 1 in 100 year plus climate change allowance"
       },
       {
-        "constraints_layer_description": "DCAREA Area: NORTH\rCode: DCAREA_N",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "DCAREA Area: NORTH\rCode: DCAREA_N"
       },
       {
-        "constraints_layer_description": "PRIROA Name: HERTFORD ROAD",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "PRIROA Name: HERTFORD ROAD"
       },
       {
-        "constraints_layer_description": "WARDS Name: Enfield Lock",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "WARDS Name: Enfield Lock"
       },
       {
-        "constraints_layer_description": "CILRES CIL ZONE: Lower Rate Eastern Zone - RATE: £40 per square metre",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "CILRES CIL ZONE: Lower Rate Eastern Zone - RATE: £40 per square metre"
       },
       {
-        "constraints_layer_description": "DMDAAP Designation: Area Action Plan- Area: North East Enfield- Policy: Core policy 40",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "DMDAAP Designation: Area Action Plan- Area: North East Enfield- Policy: Core policy 40"
       },
       {
-        "constraints_layer_description": "EFCAZI Chargeable Zone Value: 6176",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "EFCAZI Chargeable Zone Value: 6176"
       }
     ],
     "green_suds": false,
@@ -198,7 +205,9 @@
     "existing_uprns": [
       "000207143740"
     ],
-    "site_area": 570
+    "site_area": 570,
+    "total_gia_gained": 0,
+    "scheme_phasing": true
   },
   "street_name": "Hertford Road",
   "decision_agency": null,

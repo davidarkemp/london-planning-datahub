@@ -8,7 +8,7 @@
   "street_name": "Morley Hill",
   "lpa_name": "Enfield",
   "date_building_work_started_under_previous_permission": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "postcode": "EN2 0BN",
   "appeal_decision_date": null,
   "reference_no_of_permission_being_relied_on": null,
@@ -96,7 +96,7 @@
       "no_homes_to_have_electrical_heating": 0,
       "waste_provision": true
     },
-    "site_area": 90,
+    "site_area": 0.009000000000000001,
     "garden_land_lost": false,
     "residential_details": {
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -111,45 +111,29 @@
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "residential_units": [
         {
-          "change_type": "Gain",
-          "unit_no": null,
-          "tenure": "Market for rent",
-          "m42_compliant": true,
-          "no_habitable_rooms": 6,
-          "description": null,
-          "sheltered_accommodation": false,
-          "garden_land": false,
-          "gia": 130,
-          "m43_2b_compliant": false,
-          "unit_type": "HMO",
-          "provider": "Private",
-          "no_bedrooms": 6,
-          "provision_for_older_persons": false,
-          "phase_detail": null,
-          "m43_2a_compliant": false
-        },
-        {
-          "change_type": "Loss",
-          "unit_no": null,
-          "tenure": "Market for rent",
-          "m42_compliant": false,
           "no_habitable_rooms": 3,
-          "description": null,
+          "change_type": "Loss",
           "sheltered_accommodation": false,
-          "garden_land": false,
-          "gia": 130,
-          "m43_2b_compliant": false,
           "unit_type": "Semi Detached Home",
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "phase_detail": null,
-          "m43_2a_compliant": false
+          "tenure": "Market for rent",
+          "gia": 130
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 6,
+          "change_type": "Gain",
+          "unit_type": "HMO",
+          "no_bedrooms": 6,
+          "tenure": "Market for rent",
+          "gia": 130
         }
       ],
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
       "habitable_rooms_density": null,
-      "total_gia_gained": 90,
+      "total_gia_gained": 130,
       "dwelling_density": 0,
       "total_no_proposed_residential_units": 1,
       "total_no_existing_residential_units_london_affordable_rent": 0,
@@ -172,7 +156,7 @@
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "total_gia_lost": 0,
+      "total_gia_lost": 130,
       "total_no_existing_residential_units_market_for_rent": 1
     },
     "affordable_housing_fast_track": false,
@@ -185,37 +169,31 @@
     ],
     "ownership_status": "Private",
     "non_residential_details": {
-      "total_gia_gained": 0,
+      "total_gia_gained": 90,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "site_area": 0.01,
       "total_gia_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_existing": 0
+      "total_gia_existing": 90
     },
     "constraints_details": [
       {
-        "constraints_layer_description": "LHA Maximum Height Level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet).",
-        "result": null
+        "constraints_layer_description": "LHA Maximum Height Level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet)."
       },
       {
-        "constraints_layer_description": "LLA Maximum height level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet)",
-        "result": null
+        "constraints_layer_description": "LLA Maximum height level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet)"
       },
       {
-        "constraints_layer_description": "DCAREA Area: NORTH\rCode: DCAREA_N",
-        "result": null
+        "constraints_layer_description": "DCAREA Area: NORTH\rCode: DCAREA_N"
       },
       {
-        "constraints_layer_description": "WARDS Name: Whitewebbs",
-        "result": null
+        "constraints_layer_description": "WARDS Name: Whitewebbs"
       },
       {
-        "constraints_layer_description": "CILRES CIL ZONE: Intermediate Zone - RATE: £60 per square metre",
-        "result": null
+        "constraints_layer_description": "CILRES CIL ZONE: Intermediate Zone - RATE: £60 per square metre"
       },
       {
-        "constraints_layer_description": "EFCAZI Chargeable Zone Value: 6176",
-        "result": null
+        "constraints_layer_description": "EFCAZI Chargeable Zone Value: 6176"
       }
     ],
     "surface_water_discharge_percentage_reduction": 0,
@@ -228,16 +206,16 @@
     "green_suds": false,
     "existing_proposed_floorspace_details": [
       {
-        "gia_lost": 0,
         "gia_existing": 90,
         "gia_gained": 0,
-        "use_class": "C3"
+        "use_class": "C3",
+        "gia_lost": 0
       },
       {
-        "gia_lost": 0,
         "gia_existing": 0,
         "gia_gained": 90,
-        "use_class": "C4"
+        "use_class": "C4",
+        "gia_lost": 0
       }
     ],
     "existing_uprns": [
@@ -258,15 +236,17 @@
       "protected_space_count": 0
     },
     "total_gia_lost": 0,
-    "total_gia_existing": 90
+    "total_gia_existing": 90,
+    "total_gia_gained": 90,
+    "scheme_phasing": true
   },
   "status": "Application Under Consideration",
   "parking_details": null,
   "description": "Change of use from Use Class C3 (dwelling house) to Use Class C4 (HMO-house in multiple occupation) for 6 persons.",
   "lapsed_date": null,
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "borough": "Enfield Council",
-  "last_updated": "2026-04-02T20:11:12.498Z",
+  "last_updated": "2026-07-01T07:15:21.906Z",
   "development_type": "Other change of use",
   "id": "Enfield-26_01105_FUL",
   "valid_date": "30/03/2026"

@@ -73,38 +73,38 @@
       "dwelling_density": 0,
       "residential_units": [
         {
-          "sheltered_accommodation": false,
-          "change_type": "Gain",
           "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "change_type": "Gain",
+          "m42_compliant": false,
+          "sheltered_accommodation": false,
+          "garden_land": false,
+          "unit_type": "HMO",
+          "provider": "Private",
+          "no_habitable_rooms": 1,
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 6,
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
-          "phase_detail": null,
-          "description": null,
-          "no_bedrooms": 6,
-          "garden_land": false,
-          "m42_compliant": false,
-          "provider": "Private",
-          "unit_no": null,
-          "unit_type": "HMO",
-          "m43_2a_compliant": false,
-          "no_habitable_rooms": 1,
           "gia": 138.82
         },
         {
-          "sheltered_accommodation": false,
-          "change_type": "Loss",
           "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "change_type": "Loss",
+          "m42_compliant": false,
+          "sheltered_accommodation": false,
+          "garden_land": false,
+          "unit_type": "Terraced Home",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 3,
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
-          "phase_detail": null,
-          "description": null,
-          "no_bedrooms": 3,
-          "garden_land": false,
-          "m42_compliant": false,
-          "unit_no": null,
-          "unit_type": "Terraced Home",
-          "m43_2a_compliant": false,
-          "no_habitable_rooms": 2,
           "gia": 88.86
         }
       ],
@@ -195,13 +195,15 @@
     },
     "phasing_details": [
       {
-        "intended_completion_date": "03/2027",
         "phase_detail": "Entire development",
+        "intended_completion_date": "03/2027",
         "intended_commencement_date": "12/2026"
       }
     ],
     "garden_land_lost": false,
-    "total_gia_lost": 88.86
+    "total_gia_lost": 88.86,
+    "total_gia_gained": 138.82,
+    "scheme_phasing": true
   },
   "site_name": null,
   "lpa_app_no": "26/02722/FUL",
@@ -231,7 +233,11 @@
   "centroid_northing": 197587,
   "url_planning_app": "<enter PA URL here>",
   "appeal_start_date": null,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 1,
+    "net_car": 0,
+    "no_proposed_car": 1
+  },
   "date_building_work_started_under_previous_permission": null,
   "ward": "Carterhatch",
   "decision_process": null,
@@ -270,7 +276,7 @@
     "type": "Polygon"
   },
   "actual_commencement_date": null,
-  "last_updated": "2026-06-30T20:14:24.239Z",
+  "last_updated": "2026-07-01T20:12:07.325Z",
   "polygon": null,
   "application_type": "All Other",
   "uprn": "000207146622",
@@ -279,7 +285,7 @@
   "appeal_status": null,
   "subdivision_of_building": null,
   "id": "Enfield-26_02722_FUL",
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "bo_system": "Idox Uniform",
   "lpa_name": "Enfield"
 }

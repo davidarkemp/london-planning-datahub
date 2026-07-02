@@ -12,8 +12,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "06/2026",
-        "intended_completion_date": "09/2026"
+        "intended_completion_date": "09/2026",
+        "intended_commencement_date": "06/2026"
       }
     ],
     "internal_resi_water_usage": 0,
@@ -21,8 +21,8 @@
     "surface_water_discharge_percentage_reduction": 0,
     "building_details": [
       {
+        "no_storeys": 2,
         "max_height": 11.7,
-        "no_storeys": null,
         "building_ref": "All buildings"
       }
     ],
@@ -64,14 +64,14 @@
     },
     "total_gia_lost": 0,
     "rain_water_harvesting": false,
-    "site_area": 6700,
+    "site_area": 0.67,
     "green_suds": true,
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "Other",
-        "gia_lost": 0,
+        "gia_existing": 0,
         "gia_gained": 4072,
-        "gia_existing": 0
+        "use_class": "SpecifiedOther",
+        "gia_lost": 0
       }
     ],
     "residential_details": {
@@ -117,48 +117,37 @@
     "ownership_status": "Private",
     "constraints_details": [
       {
-        "constraints_layer_description": "LHA Maximum Height Level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet).",
-        "result": null
+        "constraints_layer_description": "LHA Maximum Height Level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet)."
       },
       {
-        "constraints_layer_description": "LLA Maximum height level: All buildings, structures, and works exceeding 300 metres in height (984.2 feet)",
-        "result": null
+        "constraints_layer_description": "LLA Maximum height level: All buildings, structures, and works exceeding 300 metres in height (984.2 feet)"
       },
       {
-        "constraints_layer_description": "CONLAN Site Description: CHEMICAL\rSite Name: MUREX WORKS",
-        "result": null
+        "constraints_layer_description": "CONLAN Site Description: CHEMICAL\rSite Name: MUREX WORKS"
       },
       {
-        "constraints_layer_description": "100Y Name: North Enfield Model\rDescription: 100YRCC2941\rScenario: 1 in 100 year plus climate change allowance",
-        "result": null
+        "constraints_layer_description": "100Y Name: North Enfield Model\rDescription: 100YRCC2941\rScenario: 1 in 100 year plus climate change allowance"
       },
       {
-        "constraints_layer_description": "100Y Name: North Enfield Model\rDescription: 100YRCC3396\rScenario: 1 in 100 year plus climate change allowance",
-        "result": null
+        "constraints_layer_description": "100Y Name: North Enfield Model\rDescription: 100YRCC3396\rScenario: 1 in 100 year plus climate change allowance"
       },
       {
-        "constraints_layer_description": "DCAREA Area: NORTH\rCode: DCAREA_N",
-        "result": null
+        "constraints_layer_description": "DCAREA Area: NORTH\rCode: DCAREA_N"
       },
       {
-        "constraints_layer_description": "WARDS Name: Enfield Lock",
-        "result": null
+        "constraints_layer_description": "WARDS Name: Enfield Lock"
       },
       {
-        "constraints_layer_description": "CILRES CIL ZONE: Lower Rate Eastern Zone - RATE: £40 per square metre",
-        "result": null
+        "constraints_layer_description": "CILRES CIL ZONE: Lower Rate Eastern Zone - RATE: £40 per square metre"
       },
       {
-        "constraints_layer_description": "DMDAAP Designation: Area Action Plan- Area: North East Enfield- Policy: Core policy 40",
-        "result": null
+        "constraints_layer_description": "DMDAAP Designation: Area Action Plan- Area: North East Enfield- Policy: Core policy 40"
       },
       {
-        "constraints_layer_description": "DMDSIL Designation: Strategic Industrial Location- Industrial Area: Freezywater- Policy: DMD 19, 21, 23- Core Strategy: Core policy 14",
-        "result": null
+        "constraints_layer_description": "DMDSIL Designation: Strategic Industrial Location- Industrial Area: Freezywater- Policy: DMD 19, 21, 23- Core Strategy: Core policy 14"
       },
       {
-        "constraints_layer_description": "EFCAZI Chargeable Zone Value: 6176",
-        "result": null
+        "constraints_layer_description": "EFCAZI Chargeable Zone Value: 6176"
       }
     ],
     "infrastructure_details": {
@@ -187,7 +176,9 @@
       "no_active_other_ev_charging_points": 0,
       "no_active_rapid_ev_charging_points": 0,
       "no_passive_other_ev_charging_points": 0
-    }
+    },
+    "scheme_phasing": true,
+    "total_gia_gained": 4072
   },
   "centroid_easting": 536334,
   "decision_process": null,
@@ -222,18 +213,31 @@
   "appeal_start_date": null,
   "decision_target_date": "23/07/2026",
   "actual_commencement_date": null,
-  "parking_details": null,
+  "parking_details": {
+    "no_proposed_bluebadge": 3,
+    "no_existing_cycle": 0,
+    "no_existing_car": 33,
+    "no_existing_other": 3,
+    "no_existing_bluebadge": 6,
+    "net_car": -1,
+    "no_proposed_cycle": 14,
+    "no_proposed_car": 32,
+    "net_bluebadge": -3,
+    "no_proposed_other": 3,
+    "net_cycle": 14,
+    "net_other": 0
+  },
   "last_date_consultation_comments": "01/06/2026",
   "url_planning_app": "<enter PA URL here>",
-  "last_updated": "2026-05-11T20:14:20.073Z",
+  "last_updated": "2026-07-01T07:15:24.619Z",
   "application_type": "All Other",
   "site_number": "6",
   "lpa_name": "Enfield",
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "centroid_northing": 199726,
   "actual_completion_date": null,
   "cil_liability": null,
-  "subdivision_of_building": "Not applicable.\r\n",
+  "subdivision_of_building": "Not applicable.",
   "decision_conditions": null,
   "uprn": "000207009722",
   "centroid": {
@@ -245,7 +249,7 @@
   "postcode": "EN3 7XQ",
   "date_building_work_started_under_previous_permission": null,
   "description": "Erection of replacement, employment floorspace for a flexible range of uses (within Classes E(g)(iii) Light Industrial, B2 General Industrial and / or B8 Storage & Distribution) with ancillary offices, together with all other associated works.",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "ward": "Bullsmoor",
   "street_name": "Mollison Avenue",
   "development_type": "Major general industry-storage-warehousing",

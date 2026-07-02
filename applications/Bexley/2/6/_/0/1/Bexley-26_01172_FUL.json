@@ -57,7 +57,7 @@
   "centroid_northing": "175287",
   "reference_no_of_permission_being_relied_on": null,
   "actual_commencement_date": null,
-  "last_updated": "2026-06-26T20:00:46.306Z",
+  "last_updated": "2026-07-01T07:15:29.960Z",
   "description": "Erection of a first floor rear extension and conversion of existing ground floor rear extension from Commercial (Class Ea) to a Residential Dwelling (Class C3) to form a self-contained maisonette.",
   "subdivision_of_building": null,
   "epc_number": null,
@@ -65,7 +65,7 @@
   "borough": "London Borough of Bexley",
   "street_name": "Broadway",
   "decision_process": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "date_building_work_started_under_previous_permission": null,
   "application_type": "All Other",
   "lapsed_date": null,
@@ -146,7 +146,11 @@
   "actual_completion_date": null,
   "pp_id": "PP-15000208",
   "decision_agency": null,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 1,
+    "net_car": 0,
+    "no_proposed_car": 1
+  },
   "locality": null,
   "id": "Bexley-26_01172_FUL",
   "application_details": {
@@ -229,23 +233,18 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": true,
-          "change_type": "Gain",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 4,
           "provider": "Private",
+          "no_habitable_rooms": 4,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "provision_for_older_persons": false,
           "tenure": "London Affordable Rent",
           "gia": 71
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "total_gia_lost": 0
     },
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,

@@ -1,21 +1,21 @@
 {
   "actual_completion_date": null,
   "appeal_start_date": null,
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "decision_conditions": null,
   "decision": null,
   "appeal_decision": null,
   "valid_date": "13/05/2026",
   "description": "Change of use from Use Class C3 (dwelling house) to a Class Sui Generis (HMO - house in multiple occupation) and single storey rear extension involving demolition of existing extension, rear dormer, front rooflights, with associated amenity, cycle and refuse storage.\r",
   "status": "Application Under Consideration",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "site_number": "27",
   "cil_liability": null,
   "decision_process": null,
   "development_type": "Other change of use",
   "subdivision_of_building": null,
   "centroid_northing": 194734,
-  "last_updated": "2026-06-02T20:12:07.424Z",
+  "last_updated": "2026-07-01T07:15:24.380Z",
   "lapsed_date": null,
   "bo_system": "Idox Uniform",
   "centroid": {
@@ -45,39 +45,23 @@
       "total_no_proposed_residential_units_market_for_rent": 1,
       "residential_units": [
         {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "description": null,
-          "m42_compliant": false,
-          "change_type": "Gain",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "HMO",
-          "provider": "Private",
-          "no_habitable_rooms": 1,
-          "phase_detail": null,
-          "unit_no": null,
-          "no_bedrooms": 7,
-          "provision_for_older_persons": false,
-          "tenure": "Market for rent",
-          "gia": 128.25
-        },
-        {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "description": null,
-          "m42_compliant": false,
+          "no_habitable_rooms": 2,
           "change_type": "Loss",
-          "garden_land": false,
           "sheltered_accommodation": false,
           "unit_type": "Terraced Home",
-          "no_habitable_rooms": 2,
-          "phase_detail": null,
-          "unit_no": null,
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 98.9
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 1,
+          "change_type": "Gain",
+          "unit_type": "HMO",
+          "no_bedrooms": 7,
+          "tenure": "Market for rent",
+          "gia": 128.25
         }
       ],
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
@@ -86,7 +70,7 @@
       "dwelling_density": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units": 1,
-      "total_gia_gained": 0,
+      "total_gia_gained": 128.25,
       "affordable_percentage": 0,
       "total_no_proposed_residential_units": 1,
       "total_no_proposed_residential_affordable_units": 0,
@@ -117,14 +101,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 98.9,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 98.9
       },
       {
         "gia_existing": 0,
-        "use_class": "SG",
         "gia_gained": 128.25,
+        "use_class": "SG",
         "gia_lost": 0
       }
     ],
@@ -133,39 +117,32 @@
       "total_gia_gained": 128.25,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 128.25,
-      "total_gia_existing": 0,
-      "total_gia_lost": 0,
+      "total_gia_existing": 98.9,
+      "total_gia_lost": 98.9,
       "site_area": 0.01
     },
     "surface_water_discharge_percentage_reduction": 0,
     "affordable_housing_fast_track": false,
     "constraints_details": [
       {
-        "result": null,
         "constraints_layer_description": "LHA Maximum Height Level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet)."
       },
       {
-        "result": null,
         "constraints_layer_description": "LLA Maximum height level: All buildings, structures, and works exceeding 300 metres in height (984.2 feet)"
       },
       {
-        "result": null,
         "constraints_layer_description": "DCAREA Area: SOUTH\rCode: DCAREA_S"
       },
       {
-        "result": null,
         "constraints_layer_description": "GAP35Z Description: Gas pipeline buffer - 35m"
       },
       {
-        "result": null,
         "constraints_layer_description": "WARDS Name: Jubilee"
       },
       {
-        "result": null,
         "constraints_layer_description": "CILRES CIL ZONE: Lower Rate Eastern Zone - RATE: £40 per square metre"
       },
       {
-        "result": null,
         "constraints_layer_description": "EFCAZI Chargeable Zone Value: 6176"
       }
     ],
@@ -224,7 +201,9 @@
     "existing_uprns": [
       "000207097632"
     ],
-    "site_area": 100
+    "site_area": 0.01,
+    "scheme_phasing": true,
+    "total_gia_gained": 128.25
   },
   "street_name": "Bridlington Road",
   "decision_agency": null,

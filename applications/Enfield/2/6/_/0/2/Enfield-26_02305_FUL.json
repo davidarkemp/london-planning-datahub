@@ -1,7 +1,7 @@
 {
   "actual_completion_date": null,
   "appeal_start_date": null,
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "decision_conditions": null,
   "decision": null,
   "appeal_decision": null,
@@ -15,7 +15,7 @@
   "development_type": "Other change of use",
   "subdivision_of_building": null,
   "centroid_northing": 193024,
-  "last_updated": "2026-06-09T20:13:51.752Z",
+  "last_updated": "2026-07-01T20:11:28.914Z",
   "lapsed_date": null,
   "bo_system": "Idox Uniform",
   "centroid": {
@@ -45,39 +45,39 @@
       "total_no_proposed_residential_units_market_for_rent": 1,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "change_type": "Gain",
           "m42_compliant": true,
+          "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "HMO",
           "provider": "Private",
-          "m43_2a_compliant": false,
-          "phase_detail": null,
-          "garden_land": false,
-          "tenure": "Market for rent",
           "no_habitable_rooms": 6,
-          "description": null,
+          "phase_detail": null,
           "unit_no": null,
           "no_bedrooms": 6,
-          "change_type": "Gain",
-          "sheltered_accommodation": false,
-          "gia": 132.22,
           "provision_for_older_persons": false,
-          "m43_2b_compliant": false
+          "tenure": "Market for rent",
+          "gia": 132.22
         },
         {
-          "m42_compliant": true,
-          "unit_type": "Terraced Home",
+          "m43_2b_compliant": false,
           "m43_2a_compliant": false,
-          "phase_detail": null,
-          "garden_land": false,
-          "tenure": "Intermediate Other",
-          "no_habitable_rooms": 6,
           "description": null,
+          "change_type": "Loss",
+          "m42_compliant": true,
+          "sheltered_accommodation": false,
+          "garden_land": false,
+          "unit_type": "Terraced Home",
+          "no_habitable_rooms": 6,
+          "phase_detail": null,
           "unit_no": null,
           "no_bedrooms": 6,
-          "change_type": "Loss",
-          "sheltered_accommodation": false,
-          "gia": 132.22,
           "provision_for_older_persons": false,
-          "m43_2b_compliant": false
+          "tenure": "Intermediate Other",
+          "gia": 132.22
         }
       ],
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
@@ -109,23 +109,23 @@
     },
     "phasing_details": [
       {
-        "intended_completion_date": "08/2026",
         "phase_detail": "change of use",
+        "intended_completion_date": "08/2026",
         "intended_commencement_date": "08/2026"
       }
     ],
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3",
-        "gia_lost": 132.22,
         "gia_existing": 132.22,
-        "gia_gained": 0
+        "gia_gained": 0,
+        "use_class": "C3",
+        "gia_lost": 132.22
       },
       {
-        "use_class": "SG",
-        "gia_lost": 0,
         "gia_existing": 0,
-        "gia_gained": 132.22
+        "gia_gained": 132.22,
+        "use_class": "SG",
+        "gia_lost": 0
       }
     ],
     "total_gia_existing": 132.22,
@@ -141,44 +141,44 @@
     "affordable_housing_fast_track": false,
     "constraints_details": [
       {
-        "constraints_layer_description": "LHA Maximum Height Level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet).",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "LHA Maximum Height Level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet)."
       },
       {
-        "constraints_layer_description": "LGA Maximum Height Level: >300",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "LGA Maximum Height Level: >300"
       },
       {
-        "constraints_layer_description": "LLA Maximum height level: All buildings, structures, and works exceeding 300 metres in height (984.2 feet)",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "LLA Maximum height level: All buildings, structures, and works exceeding 300 metres in height (984.2 feet)"
       },
       {
-        "constraints_layer_description": "DCAREA Area: SOUTH\rCode: DCAREA_S",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "DCAREA Area: SOUTH\rCode: DCAREA_S"
       },
       {
-        "constraints_layer_description": "SECOAR Description: SECOAR4",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "SECOAR Description: SECOAR4"
       },
       {
-        "constraints_layer_description": "TRROCB Description: TRROCB3",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "TRROCB Description: TRROCB3"
       },
       {
-        "constraints_layer_description": "TRUROA Name: GREAT CAMBRIDGE ROAD",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "TRUROA Name: GREAT CAMBRIDGE ROAD"
       },
       {
-        "constraints_layer_description": "WARDS Name: Highfield",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "WARDS Name: Highfield"
       },
       {
-        "constraints_layer_description": "CILRES CIL ZONE: Higher Rate - RATE: £120 per square metre",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "CILRES CIL ZONE: Higher Rate - RATE: £120 per square metre"
       },
       {
-        "constraints_layer_description": "EFCAZI Chargeable Zone Value: 6176",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "EFCAZI Chargeable Zone Value: 6176"
       }
     ],
     "green_suds": false,
@@ -235,7 +235,9 @@
     "existing_uprns": [
       "000207058776"
     ],
-    "site_area": 165
+    "site_area": 165,
+    "total_gia_gained": 132.22,
+    "scheme_phasing": true
   },
   "street_name": "Great Cambridge Road",
   "decision_agency": null,

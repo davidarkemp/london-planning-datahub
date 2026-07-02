@@ -1,7 +1,7 @@
 {
   "actual_completion_date": null,
   "appeal_start_date": null,
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "decision_conditions": null,
   "decision": null,
   "appeal_decision": null,
@@ -15,14 +15,18 @@
   "development_type": "Other change of use",
   "subdivision_of_building": null,
   "centroid_northing": 192106,
-  "last_updated": "2026-06-09T20:13:22.001Z",
+  "last_updated": "2026-07-01T20:09:56.772Z",
   "lapsed_date": null,
   "bo_system": "Idox Uniform",
   "centroid": {
     "lat": 51.612238,
     "lon": -0.090121
   },
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 1,
+    "net_car": 0,
+    "no_proposed_car": 1
+  },
   "url_planning_app": "<enter PA URL here>",
   "pp_id": "PP-14918359",
   "locality": null,
@@ -48,10 +52,10 @@
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
           "description": null,
-          "m42_compliant": false,
           "change_type": "Gain",
-          "garden_land": false,
+          "m42_compliant": false,
           "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "HMO",
           "provider": "Private",
           "no_habitable_rooms": 2,
@@ -66,10 +70,10 @@
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
           "description": null,
-          "m42_compliant": false,
           "change_type": "Loss",
-          "garden_land": false,
+          "m42_compliant": false,
           "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Terraced Home",
           "no_habitable_rooms": 2,
           "phase_detail": null,
@@ -117,14 +121,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 160,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 160
       },
       {
         "gia_existing": 0,
-        "use_class": "SG",
         "gia_gained": 160,
+        "use_class": "SG",
         "gia_lost": 0
       }
     ],
@@ -231,7 +235,9 @@
     "existing_uprns": [
       "000207051174"
     ],
-    "site_area": 400
+    "site_area": 400,
+    "total_gia_gained": 160,
+    "scheme_phasing": true
   },
   "street_name": "Pasteur Gardens",
   "decision_agency": null,
