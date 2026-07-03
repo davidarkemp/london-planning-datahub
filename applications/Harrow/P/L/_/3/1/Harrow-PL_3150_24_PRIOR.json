@@ -3,7 +3,7 @@
   "application_type": "Prior Approval",
   "decision": "Approved",
   "decision_conditions": null,
-  "centroid_northing": null,
+  "centroid_northing": 189603,
   "url_planning_app": null,
   "lpa_app_no": "PL/3150/24/PRIOR",
   "site_number": null,
@@ -23,25 +23,51 @@
   "polygon": {
     "type": "geometrycollection"
   },
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.383001,
+          51.594144
+        ],
+        [
+          -0.383002,
+          51.594117
+        ],
+        [
+          -0.383045,
+          51.594117
+        ],
+        [
+          -0.383044,
+          51.594144
+        ],
+        [
+          -0.383001,
+          51.594144
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "appeal_decision_date": null,
   "secondary_street_name": null,
   "lapsed_date": "20/01/2028",
   "bo_system": "Portal",
   "decision_date": "20/01/2025",
-  "centroid_easting": null,
+  "centroid_easting": 512104,
   "actual_commencement_date": null,
   "id": "Harrow-PL_3150_24_PRIOR",
   "lpa_name": "Harrow",
   "decision_target_date": null,
   "valid_date": "26/11/2024",
   "development_type": null,
-  "last_updated": "2026-06-22T09:49:03.833Z",
+  "last_updated": "2026-07-02T16:29:26.103Z",
   "subdivision_of_building": null,
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
-    "lat": 49.766807,
-    "lon": -7.55716
+    "lat": 51.59413,
+    "lon": -0.383023
   },
   "decision_process": null,
   "application_type_full": null,
@@ -55,10 +81,16 @@
     "existing_uprns": null,
     "existing_proposed_floorspace_details": [
       {
-        "gia_existing": null,
+        "gia_existing": 124,
+        "gia_gained": 0,
         "use_class": "E",
-        "gia_gained": null,
-        "gia_lost": null
+        "gia_lost": 124
+      },
+      {
+        "gia_existing": 0,
+        "gia_gained": 124,
+        "use_class": "C3",
+        "gia_lost": 0
       }
     ],
     "non_residential_details": {
@@ -68,7 +100,7 @@
     "resi_extension_exempt": false,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_bedrooms": 0,
+      "total_no_proposed_bedrooms": 3,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units": 2,
       "total_no_proposed_residential_units_affordable_rent": 0,
@@ -103,24 +135,28 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
+          "provider": "Private",
           "phase_detail": null,
           "unit_no": null,
           "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "gia": null,
-          "unit_development_type": "Change of Use"
+          "unit_development_type": "Change of Use",
+          "gia": null
         },
         {
+          "provider": "Private",
           "phase_detail": null,
           "unit_no": null,
           "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "gia": null,
-          "unit_development_type": "Change of Use"
+          "unit_development_type": "Change of Use",
+          "gia": null
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
