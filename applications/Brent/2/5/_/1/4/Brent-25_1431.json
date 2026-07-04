@@ -7,26 +7,28 @@
   "epc_number": null,
   "appeal_decision_date": null,
   "decision_conditions": null,
-  "postcode": null,
+  "postcode": "",
   "appeal_decision": null,
-  "polygon": null,
-  "actual_completion_date": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
+  "actual_completion_date": "05/01/2026",
   "decision_process": "Delegated",
   "lapsed_date": "09/07/2028",
   "locality": null,
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "ward": "Kilburn",
   "lpa_name": "Brent",
   "centroid_northing": 184142,
   "lpa_app_no": "25/1431",
   "last_date_consultation_comments": "01/07/2025",
   "application_type": "All Other",
-  "title_number": null,
+  "title_number": [],
   "borough": "Brent",
   "parking_details": null,
   "pp_id": "PP-13997396",
   "cil_liability": false,
-  "status": "Approved",
+  "status": "Completed",
   "application_details": {
     "site_area": 0.02,
     "rain_water_harvesting": false,
@@ -34,7 +36,7 @@
       "total_annual_pm_emissions": 0,
       "no_resi_units_to_have_full_fibre": 0,
       "ghg_reduction_over_building_regulations": false,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_homes_passive_cooling": 0,
       "no_new_water_connections_required": 1,
       "no_non_resi_units_to_have_full_fibre": 0,
@@ -48,7 +50,7 @@
     },
     "total_gia_lost": 0,
     "surface_water_discharge_percentage_reduction": 88,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "garden_land_lost": false,
     "total_gia_gained": 0,
     "internal_resi_water_usage": 0,
@@ -60,7 +62,7 @@
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_market_for_sale": 1,
-      "dwelling_density": 0,
+      "dwelling_density": 100,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units": 1,
       "total_no_proposed_bedrooms": 4,
@@ -73,7 +75,7 @@
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 300,
       "total_no_existing_residential_units_london_living_rent": 0,
       "total_gia_lost": 140,
       "total_no_proposed_residential_units_intermediate": 0,
@@ -81,32 +83,49 @@
       "total_gia_gained": 124,
       "residential_units": [
         {
-          "no_habitable_rooms": 7,
+          "actual_completion_date": "05/01/2026",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 7,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "14/07/2025",
           "no_bedrooms": 4,
           "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 140
         },
         {
-          "no_habitable_rooms": 3,
-          "provider": "Private",
+          "actual_completion_date": "05/01/2026",
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 3,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "14/07/2025",
           "no_bedrooms": 2,
-          "gia": 62,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 62
         },
         {
-          "no_habitable_rooms": 3,
-          "provider": "Private",
+          "actual_completion_date": "05/01/2026",
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 3,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "14/07/2025",
           "no_bedrooms": 2,
-          "gia": 62,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 62
         }
       ],
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
@@ -120,14 +139,16 @@
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
-      "total_no_proposed_residential_units_market_for_rent": 0
+      "total_no_proposed_residential_units_market_for_rent": 0,
+      "site_area": 0.02
     },
     "non_residential_details": {
       "total_gia_gained": 0,
       "total_gia_existing": 140,
       "total_gia_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "site_area": 0.02
     },
     "phasing_details": [
       {
@@ -137,32 +158,72 @@
       }
     ],
     "projected_cost_of_works": "Up to £2m",
-    "existing_uprns": null,
+    "existing_uprns": [],
     "grey_water_reuse": false,
     "green_suds": false,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 140,
-        "use_class": "C3",
+        "actual_completion_date": "05/01/2026",
         "gia_gained": 0,
+        "use_class": "C3",
+        "actual_commencement_date": "14/07/2025",
         "gia_lost": 0
       }
     ],
     "ownership_status": "Private",
     "total_gia_existing": 140,
-    "affordable_housing_fast_track": false
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.02
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "valid_date": "14/05/2025",
   "url_planning_app": "https://pa.brent.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR_173430&activeTab=summary",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.198793,
+          51.542354
+        ],
+        [
+          -0.198794,
+          51.542327
+        ],
+        [
+          -0.198837,
+          51.542328
+        ],
+        [
+          -0.198836,
+          51.542355
+        ],
+        [
+          -0.198793,
+          51.542354
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated": "2025-11-26T09:05:33.074Z",
+  "last_updated": "2026-07-03T14:14:45.931Z",
   "appeal_status": null,
   "decision_target_date": "02/07/2025",
   "subdivision_of_building": "Residential property at second and third floor levels",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "14/07/2025",
   "uprn": "202079193",
-  "street_name": null,
+  "street_name": "",
   "decision": "Approved",
   "secondary_street_name": null,
   "centroid": {
@@ -173,7 +234,7 @@
   "application_type_full": "Full planning permission",
   "date_building_work_started_under_previous_permission": null,
   "site_number": null,
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "id": "Brent-25_1431",
   "description": "Proposed subdivision of second and third floor flat into 2 x self-contained flats.",
   "decision_agency": null

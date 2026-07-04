@@ -1,10 +1,10 @@
 {
   "lapsed_date": null,
   "title_number": null,
-  "uprn": 100021790071,
+  "uprn": "100021790071",
   "locality": "Surbiton",
   "application_type_full": "Outline planning permission: Some matters reserved",
-  "description": "OUTLINE PLANNING PERMISSION IS SOUGHT FOR DEMOLITION OF EXISTING HOUSE AND GARAGE AND ERECTION OF A NEW 3-STOREY BUILDING HOUSING 6 X 3 BEDROOM DWELLINGS WITH ASSOCIATED BINS & CYCLE PROVISION AND RE-SITING OF ACCESS WITH TWO PARKING BAYS (LANDSCAPING RESERVE MATTERS)",
+  "description": "Outline Planning Application for demolition of an existing house and garage, erection of 3 storey building with 6nos 3bed dwellings with associated bin and cycle provision and re-siting of access with 2 parking bays (Landscaping Matter Reserve)",
   "actual_completion_date": null,
   "pp_id": "PP-14277245",
   "valid_date": "10/09/2025",
@@ -37,34 +37,64 @@
     "net_cycle": 14
   },
   "wgs84_polygon": {
-    "type": "MultiPolygon",
+    "type": "Polygon",
     "coordinates": [
       [
         [
-          [
-            -0.294622,
-            51.398058
-          ],
-          [
-            -0.295127,
-            51.398177
-          ],
-          [
-            -0.295174,
-            51.398092
-          ],
-          [
-            -0.295207,
-            51.398017
-          ],
-          [
-            -0.294711,
-            51.397905
-          ],
-          [
-            -0.294622,
-            51.398058
-          ]
+          -0.294766,
+          51.398091
+        ],
+        [
+          -0.29484,
+          51.39811
+        ],
+        [
+          -0.295127,
+          51.398177
+        ],
+        [
+          -0.295174,
+          51.398092
+        ],
+        [
+          -0.295187,
+          51.398094
+        ],
+        [
+          -0.295193,
+          51.398082
+        ],
+        [
+          -0.295223,
+          51.398025
+        ],
+        [
+          -0.295241,
+          51.39799
+        ],
+        [
+          -0.295222,
+          51.397988
+        ],
+        [
+          -0.295207,
+          51.398017
+        ],
+        [
+          -0.294874,
+          51.397942
+        ],
+        [
+          -0.294711,
+          51.397905
+        ],
+        [
+          -0.294622,
+          51.398058
+        ],
+        [
+          -0.294766,
+          51.398091
         ]
       ]
     ]
@@ -72,7 +102,7 @@
   "decision": null,
   "status": "Application Under Consideration",
   "ward": "St Mark's & Seething Wells",
-  "last_updated": "2026-06-26T23:18:16.648Z",
+  "last_updated": "2026-07-03T17:00:15.273Z",
   "decision_date": null,
   "application_details": {
     "grey_water_reuse": false,
@@ -89,7 +119,7 @@
     "total_gia_lost": 160,
     "building_details": [
       {
-        "no_storeys": 3,
+        "no_storeys": null,
         "max_height": 9.4,
         "building_ref": "1"
       }
@@ -125,30 +155,37 @@
       "no_passive_other_ev_charging_points": 0,
       "no_active_fast_ev_charging_points": 0
     },
-    "site_area": 0.065,
+    "site_area": 650,
     "existing_uprns": [
       "100021790071"
     ],
     "constraints_details": [
       {
+        "result": null,
         "constraints_layer_description": "KEYACH Name: Hogsmill Valley Key Area of Change"
       },
       {
+        "result": null,
         "constraints_layer_description": "NEIPOL Name: S1  Surbiton"
       },
       {
+        "result": null,
         "constraints_layer_description": "LGW Name: London Gatwick Safeguarding Zone (200m)"
       },
       {
+        "result": null,
         "constraints_layer_description": "SMKCON Name: Borough Wide Smoke Control Order"
       },
       {
+        "result": null,
         "constraints_layer_description": "NEIGH Name: Surbiton"
       },
       {
+        "result": null,
         "constraints_layer_description": "AIRCZ Type:: Gatwick Airport Wind Turbine Consultation Zone:\rContact: The Safeguarding Department, Gatwick Airport Limited, 7th Floor Destinations Place, London Gatwick Airport, West Sussex, RH06 0NP"
       },
       {
+        "result": null,
         "constraints_layer_description": "AIRCZ Type:: Heathrow Planning Consultation Zone: All buildings, structures, erections and works exceeding 90 metres in height (295.3 feet)\rContact: The Safeguarding Department, Heathrow Airport Limited, c/o Planning Services, First Point, Buckingham Gate, Gatwick Airport, West Sussex, RH6 0NT"
       }
     ],
@@ -178,107 +215,128 @@
       "residential_units": [
         {
           "m43_2b_compliant": false,
-          "no_habitable_rooms": 6,
           "m43_2a_compliant": false,
+          "description": null,
+          "change_type": "Gain",
           "m42_compliant": false,
-          "change_type": "Loss",
           "garden_land": false,
           "sheltered_accommodation": false,
-          "no_bedrooms": 4,
+          "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 4,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 75
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "change_type": "Gain",
+          "m42_compliant": false,
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 4,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 75
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "change_type": "Gain",
+          "m42_compliant": false,
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 4,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 75
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "change_type": "Gain",
+          "m42_compliant": false,
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 4,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 75
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "change_type": "Gain",
+          "m42_compliant": false,
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 4,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 75
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "change_type": "Gain",
+          "m42_compliant": false,
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 4,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 75
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "change_type": "Loss",
+          "m42_compliant": false,
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "House or Bungalow",
+          "no_habitable_rooms": 6,
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 4,
           "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 160
-        },
-        {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": false,
-          "change_type": "Gain",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 4,
-          "provider": "Private",
-          "no_bedrooms": 3,
-          "provision_for_older_persons": false,
-          "tenure": "Market for sale",
-          "gia": 75
-        },
-        {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": false,
-          "change_type": "Gain",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 4,
-          "provider": "Private",
-          "no_bedrooms": 3,
-          "provision_for_older_persons": false,
-          "tenure": "Market for sale",
-          "gia": 75
-        },
-        {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": false,
-          "change_type": "Gain",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 4,
-          "provider": "Private",
-          "no_bedrooms": 3,
-          "provision_for_older_persons": false,
-          "tenure": "Market for sale",
-          "gia": 75
-        },
-        {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": false,
-          "change_type": "Gain",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 4,
-          "provider": "Private",
-          "no_bedrooms": 3,
-          "provision_for_older_persons": false,
-          "tenure": "Market for sale",
-          "gia": 75
-        },
-        {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": false,
-          "change_type": "Gain",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 4,
-          "provider": "Private",
-          "no_bedrooms": 3,
-          "provision_for_older_persons": false,
-          "tenure": "Market for sale",
-          "gia": 75
-        },
-        {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": false,
-          "change_type": "Gain",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 4,
-          "provider": "Private",
-          "no_bedrooms": 3,
-          "provision_for_older_persons": false,
-          "tenure": "Market for sale",
-          "gia": 75
         }
       ],
       "total_no_proposed_residential_units_intermediate": 0,
@@ -299,7 +357,7 @@
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
-      "total_gia_gained": 450,
+      "total_gia_gained": 513,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
@@ -318,17 +376,17 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 160,
-        "gia_gained": 513,
         "use_class": "C3",
+        "gia_gained": 513,
         "gia_lost": 160
       }
     ],
     "garden_land_lost": true,
     "non_residential_details": {
-      "total_gia_existing": 160,
-      "total_gia_lost": 160,
+      "total_gia_existing": 0,
+      "total_gia_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_gained": 513,
+      "total_gia_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "site_area": 0.06
     },
@@ -339,49 +397,79 @@
   "appeal_status": "Dismissed",
   "appeal_decision_date": "20/02/2026",
   "appeal_start_date": "06/11/2025",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "id": "Kingston-25_02225_OUT",
   "date_building_work_started_under_previous_permission": null,
   "lpa_app_no": "25/02225/OUT",
   "site_name": null,
-  "site_number": 42,
+  "site_number": "42",
   "lpa_name": "Kingston",
-  "borough": "Kingston Upon Thames",
+  "borough": "Kingston",
   "polygon": {
-    "type": "GeometryCollection",
+    "type": "geometrycollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              [
-                518735.05,
-                167937.8
-              ],
-              [
-                518699.65,
-                167950.2
-              ],
-              [
-                518696.55,
-                167940.7
-              ],
-              [
-                518694.5,
-                167932.3
-              ],
-              [
-                518729.3,
-                167920.7
-              ],
-              [
-                518735.05,
-                167937.8
-              ]
+              518724.95,
+              167941.3
+            ],
+            [
+              518719.75,
+              167943.2
+            ],
+            [
+              518699.65,
+              167950.2
+            ],
+            [
+              518696.55,
+              167940.7
+            ],
+            [
+              518695.7,
+              167940.9
+            ],
+            [
+              518695.297,
+              167939.565
+            ],
+            [
+              518693.378,
+              167933.205
+            ],
+            [
+              518692.2,
+              167929.3
+            ],
+            [
+              518693.5,
+              167929.1
+            ],
+            [
+              518694.5,
+              167932.3
+            ],
+            [
+              518717.82,
+              167924.53
+            ],
+            [
+              518729.3,
+              167920.7
+            ],
+            [
+              518735.05,
+              167937.8
+            ],
+            [
+              518724.95,
+              167941.3
             ]
           ]
         ],
-        "type": "MultiPolygon"
+        "type": "Polygon"
       }
     ]
   },
