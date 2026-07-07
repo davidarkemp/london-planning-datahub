@@ -22,8 +22,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 0,
-        "gia_gained": 405,
         "use_class": "C3",
+        "gia_gained": 405,
         "gia_lost": 0
       }
     ],
@@ -87,53 +87,36 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": false,
-          "change_type": "Gain",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "Terraced Home",
           "no_habitable_rooms": 5,
           "provider": "Private",
+          "change_type": "Gain",
+          "unit_type": "Terraced Home",
           "no_bedrooms": 4,
-          "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 135
         },
         {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": false,
-          "change_type": "Gain",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "Terraced Home",
           "no_habitable_rooms": 5,
           "provider": "Private",
+          "change_type": "Gain",
+          "unit_type": "Terraced Home",
           "no_bedrooms": 4,
-          "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 135
         },
         {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": false,
-          "change_type": "Gain",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "Terraced Home",
           "no_habitable_rooms": 5,
           "provider": "Private",
+          "change_type": "Gain",
+          "unit_type": "Terraced Home",
           "no_bedrooms": 4,
-          "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 135
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "total_gia_lost": 0
     },
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
@@ -161,7 +144,7 @@
   "decision_date": null,
   "url_planning_app": null,
   "borough": "Lambeth",
-  "locality": "London",
+  "locality": null,
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Idox Uniform",
   "parking_details": {
@@ -174,14 +157,14 @@
   "pp_id": "PP-14655540",
   "subdivision_of_building": null,
   "status": "Application Under Consideration",
-  "description": "Redevelopment of the land to the rear of Oakfield Court to accommodate the erection of three, three-storey, 5 bedroom mews-style houses with private gardens, off street parking, refuse and cycle provision and landscaping.  ",
+  "description": "Redevelopment of the land to the rear of Oakfield Court involving the erection of 3 x 3 storey 4 bedroom mews houses, including private gardens, 1 off car parking spaces, together with the provision of refuse/cycle stores and landscaping plus boundary treatment.",
   "decision_conditions": null,
   "site_number": "",
-  "last_updated": "2026-06-28T13:01:55.189Z",
+  "last_updated": "2026-07-07T01:22:59.670Z",
   "last_date_consultation_comments": "07/05/2026",
   "valid_date": "31/03/2026",
   "actual_commencement_date": null,
-  "centroid_northing": 174319,
+  "centroid_northing": "174319",
   "appeal_decision": null,
   "decision_agency": null,
   "lpa_app_no": "26/00903/FUL",
@@ -189,60 +172,74 @@
   "decision": null,
   "id": "Lambeth-26_00903_FUL",
   "polygon": {
-    "type": "GeometryCollection",
+    "type": "geometrycollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              [
-                530066.8,
-                174342.15
-              ],
-              [
-                530113.9400000001,
-                174333.27999999997
-              ],
-              [
-                530112.9600000001,
-                174326.97999999995
-              ],
-              [
-                530114.92,
-                174324.59999999995
-              ],
-              [
-                530112.0661771197,
-                174305.54476227195
-              ],
-              [
-                530132.4,
-                174301.65
-              ],
-              [
-                530137.3,
-                174332.5
-              ],
-              [
-                530045.2,
-                174348.7
-              ],
-              [
-                530044.2,
-                174343.2
-              ],
-              [
-                530054.86,
-                174340.69999999995
-              ],
-              [
-                530066.8,
-                174342.15
-              ]
+              530131,
+              174303
+            ],
+            [
+              530136,
+              174332
+            ],
+            [
+              530059,
+              174345
+            ],
+            [
+              530051,
+              174345
+            ],
+            [
+              530045,
+              174346
+            ],
+            [
+              530045,
+              174343
+            ],
+            [
+              530050,
+              174343
+            ],
+            [
+              530059,
+              174343
+            ],
+            [
+              530121,
+              174332
+            ],
+            [
+              530120,
+              174327
+            ],
+            [
+              530124,
+              174325
+            ],
+            [
+              530121,
+              174306
+            ],
+            [
+              530121,
+              174305
+            ],
+            [
+              530128,
+              174304
+            ],
+            [
+              530131,
+              174303
             ]
           ]
         ],
-        "type": "MultiPolygon"
+        "type": "Polygon"
       }
     ]
   },
@@ -253,61 +250,75 @@
   "secondary_street_name": null,
   "lpa_name": "Lambeth",
   "reference_no_of_permission_being_relied_on": null,
-  "cil_liability": false,
+  "cil_liability": true,
   "wgs84_polygon": {
-    "type": "MultiPolygon",
+    "type": "Polygon",
     "coordinates": [
       [
         [
-          [
-            -0.129473,
-            51.45313
-          ],
-          [
-            -0.128799,
-            51.45304
-          ],
-          [
-            -0.128815,
-            51.452983
-          ],
-          [
-            -0.128788,
-            51.452961
-          ],
-          [
-            -0.128836,
-            51.452791
-          ],
-          [
-            -0.128545,
-            51.452751
-          ],
-          [
-            -0.128463,
-            51.453027
-          ],
-          [
-            -0.129782,
-            51.453194
-          ],
-          [
-            -0.129798,
-            51.453145
-          ],
-          [
-            -0.129646,
-            51.45312
-          ],
-          [
-            -0.129473,
-            51.45313
-          ]
+          -0.128564,
+          51.452764
+        ],
+        [
+          -0.128482,
+          51.453023
+        ],
+        [
+          -0.129585,
+          51.453158
+        ],
+        [
+          -0.1297,
+          51.453159
+        ],
+        [
+          -0.129786,
+          51.45317
+        ],
+        [
+          -0.129787,
+          51.453143
+        ],
+        [
+          -0.129715,
+          51.453142
+        ],
+        [
+          -0.129585,
+          51.45314
+        ],
+        [
+          -0.128698,
+          51.453026
+        ],
+        [
+          -0.128714,
+          51.452982
+        ],
+        [
+          -0.128657,
+          51.452963
+        ],
+        [
+          -0.128707,
+          51.452793
+        ],
+        [
+          -0.128707,
+          51.452784
+        ],
+        [
+          -0.128607,
+          51.452773
+        ],
+        [
+          -0.128564,
+          51.452764
         ]
       ]
     ]
   },
-  "uprn": 100023675246,
+  "uprn": "100023675246",
   "application_type": "All Other",
   "centroid": {
     "lat": 51.452922,
@@ -315,6 +326,6 @@
   },
   "lapsed_date": null,
   "application_type_full": "Full planning permission",
-  "centroid_easting": 530069,
+  "centroid_easting": "530069",
   "actual_completion_date": null
 }

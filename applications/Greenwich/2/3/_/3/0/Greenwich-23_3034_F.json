@@ -19,85 +19,85 @@
   "street_name": null,
   "locality": null,
   "ward": "ELTHAM TOWN & AVERY HILL",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "27/05/2025",
   "lpa_name": "Greenwich",
   "bo_system": "CSV Data Import",
   "decision_conditions": null,
   "date_building_work_started_under_previous_permission": null,
   "centroid_easting": 543996,
-  "status": "Approved",
+  "status": "Commenced",
   "decision_date": "25/04/2024",
   "wgs84_polygon": {
     "type": "Polygon",
     "coordinates": [
       [
         [
-          0.0703042,
-          51.4386992
+          0.070278,
+          51.438699
         ],
         [
-          0.0703911,
-          51.4386954
+          0.070365,
+          51.438695
         ],
         [
-          0.07037979999999999,
-          51.4386206
+          0.070354,
+          51.43862
         ],
         [
-          0.0705444,
-          51.4384585
+          0.070518,
+          51.438458
         ],
         [
-          0.07046809999999999,
-          51.4384147
+          0.070442,
+          51.438415
         ],
         [
-          0.0704388,
-          51.4381883
+          0.070413,
+          51.438188
         ],
         [
-          0.0691426,
-          51.4383448
+          0.069116,
+          51.438345
         ],
         [
-          0.0692048,
-          51.4385689
+          0.069179,
+          51.438569
         ],
         [
-          0.069244,
-          51.4385763
+          0.069218,
+          51.438576
         ],
         [
-          0.0693493,
-          51.4384558
+          0.069323,
+          51.438456
         ],
         [
-          0.06938029999999999,
-          51.4384413
+          0.069354,
+          51.438441
         ],
         [
-          0.06943679999999999,
+          0.069411,
           51.438434
         ],
         [
-          0.0694786,
+          0.069452,
           51.438435
         ],
         [
-          0.0695949,
-          51.4384618
+          0.069569,
+          51.438462
         ],
         [
-          0.0698261,
-          51.4385463
+          0.0698,
+          51.438546
         ],
         [
-          0.0702219,
-          51.4384858
+          0.070196,
+          51.438486
         ],
         [
-          0.0703042,
-          51.4386992
+          0.070278,
+          51.438699
         ]
       ]
     ]
@@ -106,9 +106,9 @@
   "subdivision_of_building": "No existing buildings on site",
   "last_date_consultation_comments": "20/10/2023",
   "development_type": null,
-  "title_number": null,
+  "title_number": [],
   "appeal_status": null,
-  "last_updated": "2025-12-04T23:00:25.320Z",
+  "last_updated": "2026-07-06T22:02:17.567Z",
   "last_updated_by": "CSV Data Import",
   "site_name": "CAR PARK REAR OF, 370-380 FOOTSCRAY ROAD, ELTHAM",
   "id": "Greenwich-23_3034_F",
@@ -207,13 +207,14 @@
   "pp_id": "PP-12461590",
   "application_details": {
     "total_gia_gained": 990,
-    "green_suds": true,
+    "green_suds": false,
     "non_residential_details": {
       "total_gia_existing": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 990,
       "total_gia_lost": 0,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "site_area": 0.261
     },
     "affordable_housing_fast_track": false,
     "garden_land_lost": false,
@@ -228,7 +229,7 @@
       }
     ],
     "grey_water_reuse": false,
-    "existing_uprns": null,
+    "existing_uprns": [],
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 0,
@@ -241,18 +242,18 @@
     "phasing_details": [
       {
         "phase_detail": "Single phase",
-        "intended_commencement_date": "05/2024",
-        "intended_completion_date": "05/2025"
+        "intended_completion_date": "05/2025",
+        "intended_commencement_date": "05/2024"
       }
     ],
     "total_gia_lost": 0,
     "projected_cost_of_works": "Between £2m and £100m",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "infrastructure_details": {
-      "waste_provision": true,
+      "waste_provision": false,
       "no_active_other_ev_charging_points": 1,
       "percentage_demolition_construction_material_recycling": 50,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "no_homes_to_have_electrical_heating": 9,
       "mobile_network_operators_consultation": false,
       "total_annual_nox_emissions": 0,
@@ -264,7 +265,7 @@
       "no_passive_other_ev_charging_points": 9,
       "green_roof_area": 0,
       "urban_greening_factor_score": 0.4,
-      "fire_suppression_system_proposed": true,
+      "fire_suppression_system_proposed": false,
       "total_annual_pm_emissions": 0,
       "chp_heat_pumps_capacity": 0.05,
       "solar_pv_capacity": 0.05
@@ -277,85 +278,139 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Terraced Home",
+          "unit_development_type": "New Build",
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "change_type": "Gain",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "27/05/2025",
           "no_bedrooms": 3,
-          "unit_type": "Terraced Home",
-          "gia": 110,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 110
         },
         {
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Terraced Home",
+          "unit_development_type": "New Build",
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "change_type": "Gain",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "27/05/2025",
           "no_bedrooms": 3,
-          "unit_type": "Terraced Home",
-          "gia": 110,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 110
         },
         {
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Terraced Home",
+          "unit_development_type": "New Build",
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "change_type": "Gain",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "27/05/2025",
           "no_bedrooms": 3,
-          "unit_type": "Terraced Home",
-          "gia": 110,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 110
         },
         {
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Terraced Home",
+          "unit_development_type": "New Build",
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "change_type": "Gain",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "27/05/2025",
           "no_bedrooms": 3,
-          "unit_type": "Terraced Home",
-          "gia": 110,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 110
         },
         {
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Terraced Home",
+          "unit_development_type": "New Build",
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "change_type": "Gain",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "27/05/2025",
           "no_bedrooms": 3,
-          "unit_type": "Terraced Home",
-          "gia": 110,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 110
         },
         {
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Terraced Home",
+          "unit_development_type": "New Build",
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "change_type": "Gain",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "27/05/2025",
           "no_bedrooms": 3,
-          "unit_type": "Terraced Home",
-          "gia": 110,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 110
         },
         {
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Terraced Home",
+          "unit_development_type": "New Build",
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "change_type": "Gain",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "27/05/2025",
           "no_bedrooms": 3,
-          "unit_type": "Terraced Home",
-          "gia": 110,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 110
         },
         {
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Terraced Home",
+          "unit_development_type": "New Build",
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "change_type": "Gain",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "27/05/2025",
           "no_bedrooms": 3,
-          "unit_type": "Terraced Home",
-          "gia": 110,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 110
         },
         {
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Terraced Home",
+          "unit_development_type": "New Build",
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "change_type": "Gain",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "27/05/2025",
           "no_bedrooms": 3,
-          "unit_type": "Terraced Home",
-          "gia": 110,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 110
         }
       ],
       "total_no_existing_residential_units_intermediate": 0,
@@ -381,19 +436,32 @@
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_gia_gained": 990,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 34.48275862068965,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 137.93103448275863,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_residential_units_market_for_sale": 9
+      "total_no_proposed_residential_units_market_for_sale": 9,
+      "site_area": 0.261
     },
     "internal_resi_water_usage": 105,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.261
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "centroid": {
     "lon": 0.070346,
