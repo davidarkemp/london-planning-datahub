@@ -8,14 +8,14 @@
   "valid_date": "14/05/2026",
   "description": "Change of use from Use Class C3 (dwelling house) to Use Class C4 (HMO-house in multiple occupation) involving single storey rear extension, rear dormer, rear outrigger dormer, with front rooflights, associated amenity, cycle and refuse storage.\r",
   "status": "Application Under Consideration",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "site_number": "30",
-  "cil_liability": null,
-  "decision_process": null,
+  "cil_liability": false,
+  "decision_process": "Delegated",
   "development_type": "Other change of use",
   "subdivision_of_building": null,
   "centroid_northing": 193866,
-  "last_updated": "2026-07-01T07:15:31.775Z",
+  "last_updated": "2026-07-07T20:12:06.703Z",
   "lapsed_date": null,
   "bo_system": "Idox Uniform",
   "centroid": {
@@ -33,7 +33,7 @@
     "residential_details": {
       "habitable_rooms_density": null,
       "total_no_existing_residential_units_intermediate": 0,
-      "total_no_existing_residential_affordable_units": 0,
+      "total_no_existing_residential_affordable_units": 1,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
@@ -45,22 +45,39 @@
       "total_no_proposed_residential_units_market_for_rent": 1,
       "residential_units": [
         {
-          "no_habitable_rooms": 5,
-          "change_type": "Loss",
-          "sheltered_accommodation": false,
-          "unit_type": "Terraced Home",
-          "no_bedrooms": 4,
-          "provision_for_older_persons": false,
-          "gia": 82.85
-        },
-        {
-          "provider": "Private",
-          "no_habitable_rooms": 6,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
           "change_type": "Gain",
+          "m42_compliant": true,
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "HMO",
+          "no_habitable_rooms": 6,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
           "no_bedrooms": 6,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 113.68
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "change_type": "Loss",
+          "m42_compliant": true,
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Terraced Home",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 4,
+          "provision_for_older_persons": false,
+          "tenure": "Intermediate Other",
+          "gia": 82.85
         }
       ],
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
@@ -100,51 +117,59 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 82.85,
-        "gia_gained": 0,
         "use_class": "C3",
+        "gia_gained": 0,
         "gia_lost": 82.85
       },
       {
         "gia_existing": 0,
-        "gia_gained": 113.68,
         "use_class": "C4",
+        "gia_gained": 113.68,
         "gia_lost": 0
       }
     ],
     "total_gia_existing": 82.85,
     "non_residential_details": {
-      "total_gia_gained": 113.68,
+      "total_gia_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_existing": 82.85,
-      "total_gia_lost": 82.85,
+      "total_gia_existing": 0,
+      "total_gia_lost": 0,
       "site_area": 0.01
     },
     "surface_water_discharge_percentage_reduction": 0,
     "affordable_housing_fast_track": false,
     "constraints_details": [
       {
+        "result": null,
         "constraints_layer_description": "LHA Maximum Height Level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet)."
       },
       {
+        "result": null,
         "constraints_layer_description": "LGA Maximum Height Level: >300"
       },
       {
+        "result": null,
         "constraints_layer_description": "LLA Maximum height level: All buildings, structures, and works exceeding 300 metres in height (984.2 feet)"
       },
       {
+        "result": null,
         "constraints_layer_description": "RIVBUF River Buffer: Bounds Green Brook\rCode: RIVBUF1"
       },
       {
+        "result": null,
         "constraints_layer_description": "DCAREA Area: SOUTH\rCode: DCAREA_S"
       },
       {
+        "result": null,
         "constraints_layer_description": "WARDS Name: Lower Edmonton"
       },
       {
+        "result": null,
         "constraints_layer_description": "CILRES CIL ZONE: Lower Rate Eastern Zone - RATE: £40 per square metre"
       },
       {
+        "result": null,
         "constraints_layer_description": "EFCAZI Chargeable Zone Value: 6176"
       }
     ],
@@ -202,7 +227,7 @@
     "existing_uprns": [
       "000207098505"
     ],
-    "site_area": 0.013857,
+    "site_area": 139,
     "total_gia_gained": 113.68,
     "scheme_phasing": true
   },

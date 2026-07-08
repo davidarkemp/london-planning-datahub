@@ -25,8 +25,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 0,
+        "use_class": "SpecifiedOther",
         "gia_gained": 450,
-        "use_class": "Other",
         "gia_lost": 0
       }
     ],
@@ -90,23 +90,18 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": true,
-          "change_type": "Gain",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "House or Bungalow",
           "no_habitable_rooms": 4,
           "provider": "Private",
+          "change_type": "Gain",
+          "unit_type": "House or Bungalow",
           "no_bedrooms": 3,
-          "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 90
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "total_gia_lost": 0
     },
     "internal_resi_water_usage": 500,
     "infrastructure_details": {
@@ -140,16 +135,16 @@
   "pp_id": "14700140",
   "subdivision_of_building": null,
   "status": "Application Under Consideration",
-  "description": "Application for Outline Planning Consent (Access Reserved) for the erection of a 2 new detached single storey dwellings on the land adjoining the site at 147 Eastcote Lane. All matters reserved save for Scale, Layout, Appearance and Landscaping.",
+  "description": "Outline Application (appearance, landscaping, scale and layout only) for the erection of two detached single storey dwellings at 147 Eastcote Lane",
   "decision_conditions": [
     "&lt;p&gt;&lt;span style=&quot;font-variant: normal; text-align: justify; text-indent: -24px; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: justify; text-indent: -24px;&quot;&gt;The proposal fails to demonstrate how it would achieve the statutory minimum 10% Biodiversity Net Gain (BNG), as required by the Environment Act 2021. In the absence of this information, the Local Planning Authority cannot be satisfied that the development would not result in a net loss of biodiversity or that it would deliver the required net gain. The proposal is therefore contrary to the National Planning Policy Framework (2024),&amp;nbsp;Policy G6 of the London Plan (2021), and Policy G13 of the Harrow Local Plan (2021-2041).&lt;/span&gt;&lt;/p&gt;"
   ],
-  "site_number": 147,
-  "last_updated": "2026-06-27T22:08:20.316Z",
+  "site_number": "147",
+  "last_updated": "2026-07-08T01:56:55.656Z",
   "last_date_consultation_comments": "13/03/2026",
   "valid_date": "17/02/2026",
   "actual_commencement_date": null,
-  "centroid_northing": 186230,
+  "centroid_northing": null,
   "appeal_decision": null,
   "decision_agency": "Borough",
   "lpa_app_no": "PL/0427/26",
@@ -157,83 +152,50 @@
   "decision": null,
   "id": "Harrow-PL_0427_26",
   "polygon": {
-    "type": "GeometryCollection",
+    "type": "geometrycollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              [
-                513364.2,
-                186246.75
-              ],
-              [
-                513381.6,
-                186212.15
-              ],
-              [
-                513385.85,
-                186202.9
-              ],
-              [
-                513390.75,
-                186193.65
-              ],
-              [
-                513391.23909827264,
-                186192.72573945046
-              ],
-              [
-                513402.9,
-                186199
-              ],
-              [
-                513406.6,
-                186200.25
-              ],
-              [
-                513394.2669314452,
-                186224.8569488801
-              ],
-              [
-                513390.76822332636,
-                186231.87690781665
-              ],
-              [
-                513388.6151494776,
-                186235.97002323135
-              ],
-              [
-                513386.4,
-                186239.733
-              ],
-              [
-                513383.4950158678,
-                186244.15426095144
-              ],
-              [
-                513374.6227327812,
-                186246.0204437866
-              ],
-              [
-                513372.15,
-                186250.85
-              ],
-              [
-                513364.2,
-                186246.75
-              ]
+              513364.239633744,
+              186246.751570778
+            ],
+            [
+              513364.433846278,
+              186246.384838363
+            ],
+            [
+              513390.929888573,
+              186192.800141984
+            ],
+            [
+              513406.766354827,
+              186200.018956961
+            ],
+            [
+              513391.75782804,
+              186230.668209838
+            ],
+            [
+              513380.943981085,
+              186248.423558021
+            ],
+            [
+              513378.820063288,
+              186251.901276372
+            ],
+            [
+              513374.911474213,
+              186251.99947618
+            ],
+            [
+              513364.239633744,
+              186246.751570778
             ]
           ]
         ],
-        "type": "MultiPolygon"
-      },
-      {
-        "coordinates": [
-          513333.4587738037,
-          186244.69048202995
-        ],
-        "type": "Point"
+        "type": "Polygon"
       }
     ],
     "crs": {
@@ -246,88 +208,62 @@
   "appeal_start_date": null,
   "decision_process": "Delegated",
   "ward": "Roxeth",
-  "street_name": "Eastcote Lane",
+  "street_name": "EASTCOTE LANE",
   "secondary_street_name": null,
   "lpa_name": "Harrow",
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": null,
   "wgs84_polygon": {
-    "type": "MultiPolygon",
+    "type": "Polygon",
     "coordinates": [
       [
         [
-          [
-            -0.365921,
-            51.563714
-          ],
-          [
-            -0.365681,
-            51.563399
-          ],
-          [
-            -0.365623,
-            51.563315
-          ],
-          [
-            -0.365555,
-            51.563231
-          ],
-          [
-            -0.365548,
-            51.563223
-          ],
-          [
-            -0.365378,
-            51.563277
-          ],
-          [
-            -0.365324,
-            51.563287
-          ],
-          [
-            -0.365494,
-            51.563511
-          ],
-          [
-            -0.365542,
-            51.563575
-          ],
-          [
-            -0.365572,
-            51.563612
-          ],
-          [
-            -0.365603,
-            51.563646
-          ],
-          [
-            -0.365643,
-            51.563686
-          ],
-          [
-            -0.365771,
-            51.563705
-          ],
-          [
-            -0.365805,
-            51.563749
-          ],
-          [
-            -0.365921,
-            51.563714
-          ]
+          -0.36592,
+          51.563714
+        ],
+        [
+          -0.365917,
+          51.56371
+        ],
+        [
+          -0.365553,
+          51.563223
+        ],
+        [
+          -0.365322,
+          51.563285
+        ],
+        [
+          -0.365529,
+          51.563563
+        ],
+        [
+          -0.365679,
+          51.563725
+        ],
+        [
+          -0.365708,
+          51.563757
+        ],
+        [
+          -0.365765,
+          51.563759
+        ],
+        [
+          -0.36592,
+          51.563714
         ]
       ]
     ]
   },
-  "uprn": 100021262321,
+  "uprn": "100021262321",
   "application_type": "All Other",
   "centroid": {
-    "lat": 51.56356,
-    "lon": -0.365742
+    "lat": 49.766807,
+    "lon": -7.55716
   },
   "lapsed_date": null,
   "application_type_full": "Outline planning permission: Some matters reserved",
-  "centroid_easting": 513377,
+  "centroid_easting": null,
   "actual_completion_date": null
 }
