@@ -9,13 +9,13 @@
   "locality": null,
   "status": "Application Under Consideration",
   "date_building_work_started_under_previous_permission": null,
-  "application_type_full": null,
+  "application_type_full": "Householder planning permission",
   "lpa_name": "Waltham Forest",
   "decision_target_date": "24/08/2026",
   "lpa_app_no": "261606",
   "title_number": null,
   "decision": null,
-  "last_updated": "2026-07-07T13:37:50.433Z",
+  "last_updated": "2026-07-08T01:56:51.517Z",
   "appeal_start_date": null,
   "actual_commencement_date": null,
   "bo_system": "Portal",
@@ -78,16 +78,26 @@
   "id": "Waltham_Forest-261606",
   "application_type": "Householder",
   "pp_id": "15035932",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 1,
+    "net_car": 0,
+    "no_proposed_car": 1
+  },
   "url_planning_app": "https://builtenvironment.walthamforest.gov.uk/planning/index.html?fa=getApplication&id=121062",
   "appeal_status": null,
   "valid_date": "29/06/2026",
   "site_number": "36",
-  "application_details": {},
+  "application_details": {
+    "total_gia_gained": 98.4,
+    "no_additional_bathrooms": 2,
+    "no_additional_bedrooms": 2,
+    "intended_completion_date": "02/2027",
+    "intended_commencement_date": "08/2026"
+  },
   "site_name": null,
   "decision_process": "Delegated",
   "postcode": "IG8 9PD",
-  "last_updated_by": "Portal",
+  "last_updated_by": "Planning Portal ingest",
   "centroid": {
     "lat": 49.766807,
     "lon": -7.55716
@@ -101,7 +111,6 @@
     },
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -145,7 +154,8 @@
               191381.213936428
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"
