@@ -1,12 +1,14 @@
 {
   "decision_agency": null,
-  "status": "Approved",
+  "status": "Commenced",
   "decision": "Approved",
   "centroid": {
     "lon": -0.251015,
     "lat": 51.536809
   },
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "borough": "Brent",
   "application_type": "All Other",
   "date_building_work_started_under_previous_permission": null,
@@ -25,28 +27,54 @@
   "parking_details": null,
   "date_building_work_completed_under_previous_permission": null,
   "id": "Brent-24_3220",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "20/03/2026",
   "lpa_name": "Brent",
-  "last_updated": "2025-11-28T09:01:56.806Z",
+  "last_updated": "2026-07-09T13:21:34.457Z",
   "lpa_app_no": "24/3220",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.250993,
+          51.536822
+        ],
+        [
+          -0.250994,
+          51.536795
+        ],
+        [
+          -0.251037,
+          51.536796
+        ],
+        [
+          -0.251036,
+          51.536823
+        ],
+        [
+          -0.250993,
+          51.536822
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "appeal_status": null,
   "site_name": "Land rear of 22-24, Connaught Road, London",
-  "title_number": null,
+  "title_number": [],
   "decision_date": "19/05/2025",
   "appeal_start_date": null,
-  "cil_liability": true,
+  "cil_liability": false,
   "development_type": "Minor all other minor developments",
   "description": "Erection of single storey detached building to form 2 bedroom dwelling with associated landscaping, rear access gate, bin and cycle storage and 1x Air Source Heat Pump on land rear of 22-26 Connaught Road (amended)",
   "epc_number": null,
   "reference_no_of_permission_being_relied_on": null,
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "appeal_decision": null,
   "actual_completion_date": null,
   "centroid_easting": 521400,
   "url_planning_app": "https://pa.brent.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR_170928&activeTab=summary",
   "application_details": {
-    "existing_uprns": null,
+    "existing_uprns": [],
     "affordable_housing_fast_track": false,
     "phasing_details": [
       {
@@ -62,14 +90,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 0,
-        "gia_gained": 72,
         "use_class": "C3",
+        "gia_gained": 72,
         "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
-    "rain_water_harvesting": true,
-    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "scheme_phasing": false,
     "building_details": [
       {
         "no_storeys": 1,
@@ -78,14 +106,15 @@
       }
     ],
     "grey_water_reuse": false,
-    "green_suds": true,
+    "green_suds": false,
     "surface_water_discharge_percentage_reduction": 97,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 72,
       "total_gia_existing": 0,
-      "total_gia_lost": 0
+      "total_gia_lost": 0,
+      "site_area": 0.020300000000000002
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -108,13 +137,13 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 1,
       "total_no_existing_residential_affordable_units": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 147.7832512315271,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 71.4,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 49.26108374384236,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_gia_lost": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -127,17 +156,23 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "provider": "Private",
           "no_habitable_rooms": 3,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
+          "actual_commencement_date": "20/03/2026",
           "unit_type": "House or Bungalow",
           "no_bedrooms": 2,
-          "gia": 71.4,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 71.4
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.020300000000000002
     },
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
@@ -147,23 +182,35 @@
       "no_homes_passive_cooling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 5,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
-      "fire_suppression_system_proposed": true,
+      "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 1,
       "chp_heat_pumps_capacity": 0,
-      "ghg_reduction_over_building_regulations": true
+      "ghg_reduction_over_building_regulations": false
     },
     "internal_resi_water_usage": 110,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.020300000000000002
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
-  "last_updated_by": "CSV Data Import",
-  "postcode": null,
+  "last_updated_by": "Portal",
+  "postcode": "",
   "last_date_consultation_comments": "11/12/2024",
   "secondary_street_name": null,
   "site_number": null,
   "subdivision_of_building": "No existing building",
-  "street_name": null
+  "street_name": ""
 }

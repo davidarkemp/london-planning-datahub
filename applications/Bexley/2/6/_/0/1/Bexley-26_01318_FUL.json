@@ -15,13 +15,13 @@
   "lpa_app_no": "26/01318/FUL",
   "title_number": [],
   "decision": null,
-  "last_updated": "2026-07-09T01:21:22.254Z",
+  "last_updated": "2026-07-10T01:18:16.648Z",
   "appeal_start_date": null,
   "actual_commencement_date": null,
   "bo_system": "Idox Uniform",
   "secondary_street_name": null,
   "decision_agency": null,
-  "last_date_consultation_comments": null,
+  "last_date_consultation_comments": "23/07/2026",
   "appeal_decision_date": null,
   "actual_completion_date": null,
   "centroid_northing": "175167",
@@ -131,14 +131,14 @@
       "no_homes_passive_cooling": 0,
       "waste_details": [
         {
-          "reason_for_no_provision": "The son will continue to use the main dwellings waste and recycling bins. Separate bins are not required.",
-          "internal_dry_recycling": false,
           "external_dry_recycling": false,
+          "external_food_waste": false,
+          "unit_reference": "Annexe",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "The son will continue to use the main dwellings waste and recycling bins. Separate bins are not required.",
           "internal_residual_waste": false,
           "internal_food_waste": false,
-          "external_residual_waste": false,
-          "external_food_waste": false,
-          "unit_reference": "Annexe"
+          "internal_dry_recycling": false
         }
       ],
       "no_non_resi_units_to_have_full_fibre": 0,
@@ -157,8 +157,8 @@
     "scheme_phasing": true,
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3",
         "gia_existing": 109,
+        "use_class": "C3",
         "gia_gained": 56,
         "gia_lost": 0
       }
@@ -172,13 +172,13 @@
       "residential_units": [
         {
           "no_habitable_rooms": 2,
-          "tenure": "Self-Build and Custom Build",
-          "gia": 56,
+          "provider": "Private",
+          "change_type": "Gain",
           "garden_land": true,
           "no_bedrooms": 1,
           "unit_type": "Other",
-          "change_type": "Gain",
-          "provider": "Private"
+          "tenure": "Self-Build and Custom Build",
+          "gia": 56
         }
       ],
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
@@ -220,9 +220,9 @@
     "total_gia_gained": 56,
     "phasing_details": [
       {
+        "phase_detail": "Entire Development",
         "intended_completion_date": "03/2027",
-        "intended_commencement_date": "08/2026",
-        "phase_detail": "Entire Development"
+        "intended_commencement_date": "08/2026"
       }
     ],
     "affordable_housing_fast_track": false,
@@ -233,8 +233,8 @@
     "surface_water_discharge_percentage_reduction": 0,
     "building_details": [
       {
-        "max_height": 3.8,
         "no_storeys": 1,
+        "max_height": 3.8,
         "building_ref": "annexe"
       }
     ],
@@ -251,7 +251,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -323,7 +322,8 @@
               175140
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"

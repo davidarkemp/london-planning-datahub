@@ -15,7 +15,7 @@
   "lpa_app_no": "DM2026/00531",
   "title_number": null,
   "decision": null,
-  "last_updated": "2026-07-09T01:21:21.728Z",
+  "last_updated": "2026-07-09T20:03:20.314Z",
   "appeal_start_date": null,
   "actual_commencement_date": null,
   "bo_system": "Idox Uniform",
@@ -188,12 +188,12 @@
   "site_number": "1",
   "application_details": {
     "non_residential_details": {
-      "total_gia_gained": 168.62,
+      "total_gia_gained": 0,
       "total_gia_lost": 0,
       "site_area": 0.05,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_existing": 82.62
+      "total_gia_existing": 0
     },
     "garden_land_lost": false,
     "scheme_phasing": true,
@@ -206,13 +206,22 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 1,
-          "tenure": "Market for rent",
-          "gia": 86,
-          "unit_type": "Semi Detached Home",
-          "no_bedrooms": 3,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
           "change_type": "Gain",
-          "provider": "Private"
+          "m42_compliant": false,
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Semi Detached Home",
+          "no_habitable_rooms": 1,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 86
         }
       ],
       "total_no_proposed_residential_units_shared_equity": 0,
@@ -239,7 +248,7 @@
       "dwelling_density": 0,
       "total_no_proposed_bedrooms": 3,
       "total_no_existing_residential_affordable_units": 0,
-      "total_gia_gained": 86,
+      "total_gia_gained": 168.62,
       "total_no_existing_residential_units_affordable_rent": 0,
       "habitable_rooms_density": null,
       "total_no_existing_residential_units": 0,
@@ -255,12 +264,12 @@
     "total_gia_existing": 82.62,
     "phasing_details": [
       {
+        "phase_detail": "Construction and Completion",
         "intended_completion_date": "09/2026",
-        "intended_commencement_date": "06/2026",
-        "phase_detail": "Construction and Completion"
+        "intended_commencement_date": "06/2026"
       }
     ],
-    "site_area": 0.046848,
+    "site_area": 468,
     "commencement_notice_received": false,
     "ownership_status": "Private",
     "infrastructure_details": {
@@ -291,43 +300,54 @@
     "total_gia_lost": 0,
     "constraints_details": [
       {
+        "result": null,
         "constraints_layer_description": "SMKCON Smoke Control Zone"
       },
       {
+        "result": null,
         "constraints_layer_description": "ART4 Article 4 Direction - Boroughwide HMO Restriction"
       },
       {
+        "result": null,
         "constraints_layer_description": "RADCON "
       },
       {
+        "result": null,
         "constraints_layer_description": "PLAHIS Planning Application Reference: DM2026/00531--- Address: 1 Danescourt Crescent\rSutton\rSM1 3DZ\r--- Proposal: Demolition of existing outbuildings and erection of an attached two storey dwelling with associated landscaping including cycle and refuse storage to the rear and side. Provision of new vehicular access for original dwelling.--- Status: REC--- Decision: --- Date Decision Issued: ---"
       },
       {
+        "result": null,
         "constraints_layer_description": "PLAHIS Planning Application Reference: 80/20782--- Address: 1 Danescourt Crescent\rSutton\rSM1 3DZ--- Proposal: Erection of a detached garage at side 92-1-9--- Status: GTD--- Decision: GTD--- Date Decision Issued: 11-JUL-80---"
       },
       {
+        "result": null,
         "constraints_layer_description": "PLAHIS Planning Application Reference: SUT/22938--- Address: 63, 65 & Rear Part Of 67 All Saints Road & 3,5, 7, 9 & 11 Grennell Road--- Proposal: Erection of thirty-four semi-detached houses, thirty-four semi-detached bungalows, one detached bungalow and new road and sewers (numbered 59,59a,61,61a,63 & 63a All Saints Road, 2-24 and 30-50, 1-23 Longford Gardens, 7-41 Grennell Road, 1-15 Chudleigh Gardens)--- Status: GTD--- Decision: GTD--- Date Decision Issued: 17-DEC-58---"
       },
       {
+        "result": null,
         "constraints_layer_description": "SGNLP "
       },
       {
+        "result": null,
         "constraints_layer_description": "SGNLP "
       },
       {
+        "result": null,
         "constraints_layer_description": "SGNBUF "
       },
       {
+        "result": null,
         "constraints_layer_description": "SGNBUF "
       },
       {
+        "result": null,
         "constraints_layer_description": "SGNBUF "
       }
     ],
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3",
         "gia_existing": 82.62,
+        "use_class": "C3",
         "gia_gained": 168.62,
         "gia_lost": 0
       }
@@ -360,7 +380,7 @@
   "site_name": null,
   "decision_process": null,
   "postcode": "SM1 3DZ",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "centroid": {
     "lat": 51.375284,
     "lon": -0.184631
@@ -368,7 +388,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -508,7 +527,8 @@
               165600.75
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"
