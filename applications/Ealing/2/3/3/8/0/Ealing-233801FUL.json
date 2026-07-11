@@ -2,23 +2,101 @@
   "lpa_app_no": "233801FUL",
   "uprn": "12078447",
   "lapsed_date": "13/11/2026",
-  "centroid_northing": 184716,
+  "centroid_northing": 184723,
   "site_number": null,
   "date_building_work_started_under_previous_permission": null,
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "site_name": "52 Whitton Avenue East",
   "appeal_decision_date": null,
   "valid_date": "19/09/2023",
   "decision_date": "13/11/2023",
-  "wgs84_polygon": null,
-  "last_updated_by": "CSV Data Import",
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.315408,
+          51.549223
+        ],
+        [
+          -0.31546,
+          51.549161
+        ],
+        [
+          -0.315356,
+          51.549127
+        ],
+        [
+          -0.315306,
+          51.549187
+        ],
+        [
+          -0.315304,
+          51.549189
+        ],
+        [
+          -0.315269,
+          51.54923
+        ],
+        [
+          -0.315239,
+          51.549267
+        ],
+        [
+          -0.31523,
+          51.549279
+        ],
+        [
+          -0.315229,
+          51.54928
+        ],
+        [
+          -0.315211,
+          51.549301
+        ],
+        [
+          -0.315099,
+          51.549433
+        ],
+        [
+          -0.315181,
+          51.549464
+        ],
+        [
+          -0.315201,
+          51.549471
+        ],
+        [
+          -0.315314,
+          51.549335
+        ],
+        [
+          -0.315332,
+          51.549314
+        ],
+        [
+          -0.315333,
+          51.549312
+        ],
+        [
+          -0.315352,
+          51.549289
+        ],
+        [
+          -0.315408,
+          51.549223
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "last_updated_by": "Portal",
   "appeal_start_date": null,
   "reference_no_of_permission_being_relied_on": null,
   "application_type": "All Other",
   "decision_process": "Delegated",
   "application_details": {
     "total_gia_lost": 0,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "total_gia_existing": 123.37,
     "total_gia_gained": 85.76,
     "projected_cost_of_works": "Up to £2m",
@@ -30,46 +108,54 @@
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "total_no_proposed_residential_units": 3,
-      "dwelling_density": 0,
+      "total_no_proposed_residential_units": 2,
+      "dwelling_density": 62.5,
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 5,
-          "unit_no": "Loss-1",
+          "actual_completion_date": "24/02/2025",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 4,
           "unit_type": "Semi Detached Home",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "04/12/2023",
+          "no_bedrooms": 4,
           "provision_for_older_persons": false,
-          "gia": 123.37,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 123.37
         },
         {
-          "unit_no": "Gain-1",
+          "actual_completion_date": "24/02/2025",
+          "description": null,
           "change_type": "Gain",
-          "unit_type": "Communal Space",
-          "gia": 11.33
-        },
-        {
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "unit_no": "Gain-2",
-          "change_type": "Gain",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "04/12/2023",
           "no_bedrooms": 3,
-          "unit_type": "Flat Apartment Maisonette",
-          "gia": 91,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 91
         },
         {
+          "actual_completion_date": "24/02/2025",
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 5,
           "provider": "Private",
-          "unit_no": "Gain-3",
-          "change_type": "Gain",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "04/12/2023",
           "no_bedrooms": 4,
-          "unit_type": "Flat Apartment Maisonette",
-          "gia": 106.8,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 106.8
         }
       ],
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -78,7 +164,7 @@
       "total_no_existing_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 281.25,
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
@@ -100,12 +186,13 @@
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0
+      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "site_area": 0.032
     },
     "infrastructure_details": {
       "urban_greening_factor_score": 20,
       "no_new_water_connections_required": 1,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_non_resi_units_to_have_full_fibre": 0,
       "no_resi_units_to_have_full_fibre": 2,
       "percentage_demolition_construction_material_recycling": 30,
@@ -125,8 +212,10 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 123.37,
-        "use_class": "C3",
+        "actual_completion_date": "24/02/2025",
         "gia_gained": 85.76,
+        "use_class": "C3",
+        "actual_commencement_date": "04/12/2023",
         "gia_lost": 0
       }
     ],
@@ -135,7 +224,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_existing": 123.37
+      "total_gia_existing": 123.37,
+      "site_area": 0.032
     },
     "existing_uprns": [
       "12078447"
@@ -150,31 +240,43 @@
     "green_suds": false,
     "surface_water_discharge_percentage_reduction": 20,
     "affordable_housing_fast_track": false,
-    "site_area": 0.0318,
-    "garden_land_lost": false
+    "site_area": 0.032,
+    "garden_land_lost": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.032
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "appeal_decision": null,
   "postcode": "UB6 0PU",
   "development_type": "Minor dwellings",
-  "title_number": null,
-  "centroid_easting": 516908,
-  "actual_commencement_date": null,
+  "title_number": [],
+  "centroid_easting": 516911,
+  "actual_commencement_date": "04/12/2023",
   "description": "Conversion of single dwelling house into two self-contained flats; part two, part single storey side/rear extension; porch extension; raising of height of the rear roof extension; two additional roof lights to existing front roofslope; associated refuse and cycle storage and parking (Following demolition of existing garage)",
   "decision": "Approved",
-  "actual_completion_date": null,
+  "actual_completion_date": "24/02/2025",
   "borough": "Ealing",
   "epc_number": "8321-7725-6700-6487-2922",
   "subdivision_of_building": null,
   "centroid": {
-    "lon": -0.315327,
-    "lat": 51.549233
+    "lon": -0.315282,
+    "lat": 51.549295
   },
   "url_planning_app": "https://pam.ealing.gov.uk/online-applications/PLAN/233801FUL;",
   "pp_id": "PP-12469910",
   "id": "Ealing-233801FUL",
   "application_type_full": "Full planning permission",
-  "cil_liability": true,
-  "status": "Approved",
+  "cil_liability": false,
+  "status": "Completed",
   "date_building_work_completed_under_previous_permission": null,
   "secondary_street_name": null,
   "decision_agency": "Borough",
@@ -215,9 +317,92 @@
     "no_existing_car": 1,
     "no_proposed_car": 2
   },
-  "last_updated": "2025-03-19T01:26:54.333+00:00",
+  "last_updated": "2026-07-10T13:21:52.859Z",
   "appeal_status": null,
   "street_name": "Whitton Avenue East",
   "ward": "North Greenford",
-  "polygon": null
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              516902.4,
+              184714.7
+            ],
+            [
+              516898.95,
+              184707.8
+            ],
+            [
+              516906.3,
+              184704.2
+            ],
+            [
+              516909.597,
+              184710.94
+            ],
+            [
+              516909.7,
+              184711.15
+            ],
+            [
+              516912.05,
+              184715.75
+            ],
+            [
+              516914.05,
+              184719.95
+            ],
+            [
+              516914.651,
+              184721.203
+            ],
+            [
+              516914.702,
+              184721.309
+            ],
+            [
+              516915.85,
+              184723.7
+            ],
+            [
+              516923.3,
+              184738.6
+            ],
+            [
+              516917.55,
+              184741.9
+            ],
+            [
+              516916.15,
+              184742.7
+            ],
+            [
+              516908.641,
+              184727.382
+            ],
+            [
+              516907.448,
+              184724.949
+            ],
+            [
+              516907.377,
+              184724.804
+            ],
+            [
+              516906.1,
+              184722.2
+            ],
+            [
+              516902.4,
+              184714.7
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  }
 }
