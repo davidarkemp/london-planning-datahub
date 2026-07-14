@@ -15,13 +15,13 @@
   "lpa_app_no": "DM2026/00744",
   "title_number": null,
   "decision": null,
-  "last_updated": "2026-07-11T00:55:00.324Z",
+  "last_updated": "2026-07-14T01:01:24.666Z",
   "appeal_start_date": null,
   "actual_commencement_date": null,
   "bo_system": "Idox Uniform",
   "secondary_street_name": null,
   "decision_agency": null,
-  "last_date_consultation_comments": null,
+  "last_date_consultation_comments": "03/08/2026",
   "appeal_decision_date": null,
   "actual_completion_date": null,
   "centroid_northing": 163725,
@@ -129,13 +129,13 @@
       "residential_units": [
         {
           "no_habitable_rooms": 6,
-          "tenure": "Market for sale",
-          "gia": 125.96,
-          "unit_type": "Semi Detached Home",
-          "no_bedrooms": 4,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "provision_for_older_persons": false
+          "unit_type": "Semi Detached Home",
+          "no_bedrooms": 4,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 125.96
         }
       ],
       "total_no_proposed_residential_units_shared_equity": 0,
@@ -178,9 +178,9 @@
     "total_gia_existing": 125.96,
     "phasing_details": [
       {
+        "phase_detail": "Entire Development",
         "intended_completion_date": "09/2026",
-        "intended_commencement_date": "08/2026",
-        "phase_detail": "Entire Development"
+        "intended_commencement_date": "08/2026"
       }
     ],
     "site_area": 0.012596,
@@ -252,14 +252,14 @@
     ],
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3",
         "gia_existing": 125.96,
+        "use_class": "C3",
         "gia_gained": 0,
         "gia_lost": 125.96
       },
       {
-        "use_class": "C2",
         "gia_existing": 0,
+        "use_class": "C2",
         "gia_gained": 125.96,
         "gia_lost": 0
       }
@@ -300,7 +300,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -356,14 +355,15 @@
               163697.779999999
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"
   },
   "appeal_decision": null,
   "borough": "Sutton",
-  "cil_liability": null,
+  "cil_liability": false,
   "subdivision_of_building": null,
   "development_type": "Minor all other minor developments",
   "reference_no_of_permission_being_relied_on": null

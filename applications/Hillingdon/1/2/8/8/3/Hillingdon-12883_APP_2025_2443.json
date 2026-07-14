@@ -1,12 +1,38 @@
 {
   "uprn": null,
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.449882,
+          51.547657
+        ],
+        [
+          -0.449883,
+          51.54763
+        ],
+        [
+          -0.449927,
+          51.547631
+        ],
+        [
+          -0.449926,
+          51.547658
+        ],
+        [
+          -0.449882,
+          51.547657
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "subdivision_of_building": null,
   "centroid_easting": 507581,
   "application_type": "All Other",
   "status": "Approved",
   "epc_number": null,
-  "cil_liability": true,
+  "cil_liability": false,
   "parking_details": {
     "no_existing_cycle": 0,
     "no_existing_car": 5,
@@ -21,7 +47,7 @@
   },
   "description": "Demolition of existing dwelling and erection of a two storey building comprising 3no 3bed self-contained flats.",
   "application_details": {
-    "existing_uprns": null,
+    "existing_uprns": [],
     "affordable_housing_fast_track": false,
     "phasing_details": [
       {
@@ -43,7 +69,7 @@
       }
     ],
     "projected_cost_of_works": "Up to £2m",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "rain_water_harvesting": false,
     "building_details": [
       {
@@ -53,14 +79,15 @@
       }
     ],
     "grey_water_reuse": false,
-    "green_suds": true,
+    "green_suds": false,
     "surface_water_discharge_percentage_reduction": 100,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 437,
       "total_gia_existing": 154,
-      "total_gia_lost": 154
+      "total_gia_lost": 154,
+      "site_area": 0.10200000000000001
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -68,7 +95,7 @@
       "total_no_proposed_bedrooms": 9,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units": 3,
-      "total_no_proposed_residential_affordable_units": 3,
+      "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units": 1,
       "total_no_proposed_residential_units_discount_market_sale": 0,
@@ -79,17 +106,17 @@
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_social_rent": 0,
-      "total_no_proposed_residential_units_self_build_and_custom_build": 3,
+      "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "total_no_proposed_residential_units_market_for_sale": 0,
+      "total_no_proposed_residential_units_market_for_sale": 3,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 127.45098039215685,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 406,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 29.41176470588235,
       "total_gia_lost": 154,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
@@ -99,48 +126,69 @@
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
-      "affordable_percentage": 100,
+      "affordable_percentage": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 8,
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
           "unit_type": "House or Bungalow",
+          "unit_development_type": "New Build",
+          "no_habitable_rooms": 8,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 154
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 4,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "tenure": "Self-Build and Custom Build",
-          "gia": 117
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 117,
+          "unit_development_type": "New Build"
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 4,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "tenure": "Self-Build and Custom Build",
-          "gia": 117
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 117,
+          "unit_development_type": "New Build"
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 5,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "tenure": "Self-Build and Custom Build",
-          "gia": 172
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 172,
+          "unit_development_type": "New Build"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.10200000000000001
     },
     "internal_resi_water_usage": 110,
     "infrastructure_details": {
@@ -153,7 +201,7 @@
       "no_passive_fast_ev_charging_points": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_active_fast_ev_charging_points": 5,
       "no_homes_to_have_electrical_heating": 0,
@@ -162,20 +210,32 @@
       "no_new_gas_connections_required": 3,
       "ghg_reduction_over_building_regulations": false
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.10200000000000001
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "valid_date": "23/09/2025",
   "decision_process": "Delegated",
   "appeal_start_date": null,
   "application_type_full": "Full planning permission",
-  "last_updated_by": "CSV Data Import",
-  "bo_system": "CSV Data Import",
+  "last_updated_by": "Portal",
+  "bo_system": "Portal",
   "decision_target_date": "10/04/2026",
-  "last_updated": "2026-04-09T22:00:02.336Z",
+  "last_updated": "2026-07-13T15:29:01.671Z",
   "site_name": "261 LONG LANE",
   "development_type": null,
   "centroid_northing": 184333,
-  "title_number": null,
+  "title_number": [],
   "borough": "Hillingdon",
   "actual_commencement_date": null,
   "lpa_app_no": "12883/APP/2025/2443",
@@ -190,7 +250,7 @@
   "locality": null,
   "appeal_decision": null,
   "street_name": "HILLINGDON",
-  "postcode": null,
+  "postcode": "",
   "secondary_street_name": null,
   "date_building_work_completed_under_previous_permission": null,
   "url_planning_app": "http://planning.hillingdon.gov.uk/OcellaWeb/planningDetails?reference=12883/APP/2025/2443",

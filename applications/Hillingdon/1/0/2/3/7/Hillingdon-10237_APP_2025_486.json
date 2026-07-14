@@ -4,13 +4,13 @@
   "decision_agency": "Borough",
   "lpa_name": "Hillingdon",
   "decision_date": "07/03/2025",
-  "centroid_easting": 509479,
+  "centroid_easting": 509480,
   "url_planning_app": "http://planning.hillingdon.gov.uk/OcellaWeb/planningDetails?reference=10237/APP/2025/486",
   "bo_system": "Portal",
-  "title_number": null,
+  "title_number": [],
   "decision": "Approved",
   "valid_date": "24/02/2025",
-  "status": "Approved",
+  "status": "Commenced",
   "last_updated_by": "Portal",
   "lapsed_date": "07/03/2028",
   "pp_id": "13801273",
@@ -22,7 +22,7 @@
   "appeal_start_date": null,
   "centroid_northing": 179557,
   "actual_completion_date": null,
-  "actual_commencement_date": null,
+  "actual_commencement_date": "07/03/2025",
   "date_building_work_started_under_previous_permission": null,
   "appeal_decision": null,
   "borough": "Hillingdon",
@@ -31,7 +31,7 @@
     "total_gia_gained": 0,
     "no_additional_bathrooms": 0,
     "no_additional_bedrooms": 1,
-    "existing_uprns": null,
+    "existing_uprns": [],
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_proposed_bedrooms": 4,
@@ -52,12 +52,12 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 50,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
@@ -69,33 +69,38 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
+          "actual_completion_date": "07/03/2025",
           "phase_detail": null,
           "unit_no": null,
           "description": null,
           "change_type": "Loss",
+          "actual_commencement_date": "07/03/2025",
           "unit_type": "House or Bungalow",
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "gia": 93,
           "tenure": "Market for sale",
+          "gia": 93,
           "unit_development_type": "Conversion"
         },
         {
+          "actual_completion_date": "07/03/2025",
           "phase_detail": null,
           "unit_no": null,
           "description": null,
           "change_type": "Gain",
+          "actual_commencement_date": "07/03/2025",
           "unit_type": "HMO",
           "no_bedrooms": 4,
           "provision_for_older_persons": false,
-          "gia": 93,
           "tenure": "Market for rent",
+          "gia": 93,
           "unit_development_type": "Conversion"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
-      "total_gia_gained": 0
+      "total_gia_gained": 0,
+      "site_area": 0.02
     },
     "3d_model": false,
     "affordable_housing_fast_track": false,
@@ -128,7 +133,8 @@
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_gained": 0
+      "total_gia_gained": 0,
+      "site_area": 0.02
     },
     "garden_land_lost": false,
     "infrastructure_details": {
@@ -136,11 +142,15 @@
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "ghg_reduction_over_building_regulations": false
+    },
+    "site_area": 0.02,
+    "other_residential_accommodation_details": {
+      "site_area": 0.02
     }
   },
   "centroid": {
     "lat": 51.504353,
-    "lon": -0.424026
+    "lon": -0.424012
   },
   "reference_no_of_permission_being_relied_on": null,
   "last_date_consultation_comments": null,
@@ -152,23 +162,23 @@
     "coordinates": [
       [
         [
-          -0.424004,
+          -0.42399,
           51.504366
         ],
         [
-          -0.424005,
+          -0.42399,
           51.504339
         ],
         [
-          -0.424048,
-          51.50434
+          -0.424034,
+          51.504339
         ],
         [
-          -0.424047,
-          51.504367
+          -0.424033,
+          51.504366
         ],
         [
-          -0.424004,
+          -0.42399,
           51.504366
         ]
       ]
@@ -186,7 +196,7 @@
   "locality": null,
   "ward": "HAYES TOWN 2022",
   "cil_liability": false,
-  "last_updated": "2025-08-15T07:40:32.136Z",
+  "last_updated": "2026-07-13T12:35:16.135Z",
   "appeal_status": null,
   "decision_conditions": [
     "The proposed development constitutes permitted development by virtue of the provisions of Article 3, Schedule 2, Part 3, Class L of the Town and Country Planning (General Permitted Development) (England) Order 2015 (as amended).",
@@ -203,7 +213,91 @@
     "For Private Roads: Care should be taken during the building works hereby approved to ensure no damage occurs to the verge of footpaths on private roads during construction. Vehicles delivering materials to this development shall not override or cause damage to a private road and where possible alternative routes should be ta"
   ],
   "polygon": {
-    "type": "geometrycollection"
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          509469.6,
+          179540.75
+        ],
+        [
+          509468.09,
+          179537.48
+        ],
+        [
+          509472,
+          179535.58
+        ],
+        [
+          509473.55,
+          179538.85
+        ],
+        [
+          509478.3,
+          179548.85
+        ],
+        [
+          509478.4,
+          179549.1
+        ],
+        [
+          509479.95,
+          179552.35
+        ],
+        [
+          509489.081,
+          179571.373
+        ],
+        [
+          509490.871,
+          179575.137
+        ],
+        [
+          509491.35,
+          179576.1
+        ],
+        [
+          509490,
+          179576.6
+        ],
+        [
+          509487.05,
+          179577.75
+        ],
+        [
+          509486.741,
+          179577.101
+        ],
+        [
+          509484.951,
+          179573.337
+        ],
+        [
+          509479.7,
+          179562.3
+        ],
+        [
+          509475.8,
+          179554.15
+        ],
+        [
+          509475.25,
+          179553
+        ],
+        [
+          509474.85,
+          179552.2
+        ],
+        [
+          509472.9,
+          179547.9
+        ],
+        [
+          509469.6,
+          179540.75
+        ]
+      ]
+    ]
   },
   "development_type": null,
   "id": "Hillingdon-10237_APP_2025_486",

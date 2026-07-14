@@ -13,7 +13,7 @@
     "lat": 51.459901
   },
   "decision_process": "Delegated",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "31/03/2026",
   "site_number": "156",
   "uprn": "100023354230",
   "epc_number": null,
@@ -68,7 +68,7 @@
     "type": "Polygon"
   },
   "development_type": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Portal",
   "locality": null,
   "site_name": "",
   "appeal_decision_date": null,
@@ -91,7 +91,7 @@
     "no_proposed_cycle": 5,
     "net_cycle": 5
   },
-  "status": "Approved",
+  "status": "Commenced",
   "centroid_easting": 530317,
   "valid_date": "28/11/2022",
   "borough": "Lambeth",
@@ -102,7 +102,7 @@
   "bo_system": "Portal",
   "decision_agency": null,
   "date_building_work_started_under_previous_permission": null,
-  "last_updated": "2025-07-29T01:12:23.045Z",
+  "last_updated": "2026-07-13T13:13:38.367Z",
   "street_name": "Acre Lane",
   "decision": "Approved",
   "appeal_start_date": null,
@@ -123,8 +123,8 @@
     "phasing_details": [
       {
         "phase_detail": "CONSTRUCTION",
-        "intended_commencement_date": "06/2023",
-        "intended_completion_date": "02/2024"
+        "intended_completion_date": "02/2024",
+        "intended_commencement_date": "06/2023"
       }
     ],
     "site_area": 0.021990000000000003,
@@ -132,14 +132,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 44.4,
-        "gia_gained": 0,
         "use_class": "A1",
+        "gia_gained": 0,
         "gia_lost": 4.4
       },
       {
         "gia_existing": 184,
-        "gia_gained": 256.1,
         "use_class": "C3",
+        "gia_gained": 256.1,
         "gia_lost": 0
       }
     ],
@@ -153,14 +153,18 @@
       "dwelling_density": 45.45454545454545,
       "residential_units": [
         {
-          "provider": "Private",
           "no_habitable_rooms": 2,
-          "unit_no": "Gain-1",
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
+          "actual_commencement_date": "31/03/2026",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "gia": 37.5,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 37.5
         }
       ],
       "total_no_proposed_residential_units_intermediate": 0,
@@ -207,12 +211,12 @@
         "building_ref": "156 ACRE LANE"
       }
     ],
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "green_suds": false,
     "rain_water_harvesting": false,
     "infrastructure_details": {
       "no_homes_passive_cooling": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "total_annual_pm_emissions": 0,
       "no_new_water_connections_required": 1,
       "mobile_network_operators_consultation": false,
@@ -239,7 +243,8 @@
     },
     "3d_model": false,
     "borough_cil_liability_notice_issued": false,
-    "transport_impact_assessment": false
+    "transport_impact_assessment": false,
+    "existing_uprns": []
   },
   "appeal_decision": null,
   "polygon": {

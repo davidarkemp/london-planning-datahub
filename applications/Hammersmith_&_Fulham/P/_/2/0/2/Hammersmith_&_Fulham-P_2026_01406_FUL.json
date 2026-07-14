@@ -15,7 +15,7 @@
   "lpa_app_no": "P/2026/01406/FUL",
   "title_number": null,
   "decision": null,
-  "last_updated": "2026-07-11T00:54:59.578Z",
+  "last_updated": "2026-07-13T13:00:02.226Z",
   "appeal_start_date": null,
   "actual_commencement_date": null,
   "bo_system": "Northgate M3",
@@ -97,8 +97,8 @@
     "scheme_phasing": true,
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C4",
         "gia_existing": 207,
+        "use_class": "C4",
         "gia_gained": 87,
         "gia_lost": 7
       }
@@ -112,22 +112,22 @@
       "residential_units": [
         {
           "no_habitable_rooms": 8,
-          "tenure": "Market for sale",
-          "gia": 207,
-          "unit_type": "HMO",
-          "no_bedrooms": 6,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "provision_for_older_persons": false
+          "unit_type": "HMO",
+          "no_bedrooms": 6,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 207
         },
         {
           "no_habitable_rooms": 12,
-          "tenure": "Market for rent",
-          "gia": 287,
+          "provider": "Private rented sector",
+          "change_type": "Gain",
           "unit_type": "HMO",
           "no_bedrooms": 12,
-          "change_type": "Gain",
-          "provider": "Private rented sector"
+          "tenure": "Market for rent",
+          "gia": 287
         }
       ],
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
@@ -169,9 +169,9 @@
     "total_gia_gained": 87,
     "phasing_details": [
       {
+        "phase_detail": "Entire Development",
         "intended_completion_date": "02/2027",
-        "intended_commencement_date": "06/2026",
-        "phase_detail": "Entire Development"
+        "intended_commencement_date": "06/2026"
       }
     ],
     "affordable_housing_fast_track": false,
@@ -185,7 +185,7 @@
   "site_name": null,
   "decision_process": "Delegated",
   "postcode": "W14 9DB",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Northgate M3",
   "centroid": {
     "lat": 51.49031,
     "lon": -0.208774
@@ -193,7 +193,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -217,7 +216,8 @@
               178329.87655679602
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"

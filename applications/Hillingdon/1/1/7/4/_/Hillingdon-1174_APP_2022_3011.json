@@ -14,7 +14,7 @@
   "development_type": "Conversion",
   "centroid_easting": 510894,
   "url_planning_app": "http://planning.hillingdon.gov.uk/OcellaWeb/planningDetails?reference=1174/APP/2022/3011",
-  "last_updated": "2025-11-13T10:18:05.093+00:00",
+  "last_updated": "2026-07-13T13:32:35.738Z",
   "subdivision_of_building": null,
   "postcode": "HA4 0EF",
   "uprn": null,
@@ -152,8 +152,8 @@
     "phasing_details": [
       {
         "phase_detail": "1",
-        "intended_commencement_date": "03/2023",
-        "intended_completion_date": "07/2023"
+        "intended_completion_date": "07/2023",
+        "intended_commencement_date": "03/2023"
       }
     ],
     "building_details": [
@@ -168,8 +168,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 109,
-        "gia_gained": 53,
         "use_class": "C3",
+        "gia_gained": 53,
         "gia_lost": 0
       }
     ],
@@ -184,7 +184,7 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "total_no_proposed_residential_units_market_for_sale": 0,
+      "total_no_proposed_residential_units_market_for_sale": 1,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_bedrooms": 6,
@@ -193,10 +193,10 @@
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_proposed_residential_units": 2,
       "total_no_existing_residential_units_starter_homes": 0,
-      "total_no_proposed_residential_affordable_units": 2,
+      "total_no_proposed_residential_affordable_units": 1,
       "total_no_existing_residential_units_market_for_sale": 1,
       "total_gia_gained": 162,
-      "total_no_proposed_residential_units_london_living_rent": 2,
+      "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
@@ -211,62 +211,66 @@
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_residential_units_discount_market_sale": 0,
+      "total_no_proposed_residential_units_discount_market_sale": 1,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_existing_residential_units": 1,
-      "affordable_percentage": 100,
+      "affordable_percentage": 50,
       "residential_units": [
         {
-          "actual_completion_date": "23/03/2023",
+          "superseded_date": "24/11/2023",
           "phase_detail": null,
           "unit_no": null,
           "description": null,
           "change_type": "Loss",
-          "actual_commencement_date": "23/03/2023",
           "unit_type": "House or Bungalow",
           "no_bedrooms": 2,
+          "superseded_by_lpa_app_no": "1174/APP/2023/2859",
           "provision_for_older_persons": false,
-          "gia": null,
-          "unit_development_type": "Conversion",
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 109,
+          "unit_development_type": "Conversion"
         },
         {
           "m43_2b_compliant": true,
           "m43_2a_compliant": true,
           "description": null,
-          "m42_compliant": true,
           "change_type": "Gain",
+          "m42_compliant": true,
           "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
           "unit_development_type": "Conversion",
-          "provider": "Private",
+          "superseded_date": "24/11/2023",
           "no_habitable_rooms": 4,
+          "provider": "Private",
           "phase_detail": null,
-          "unit_no": "Gain-1",
+          "unit_no": null,
           "no_bedrooms": 3,
+          "superseded_by_lpa_app_no": "1174/APP/2023/2859",
           "provision_for_older_persons": false,
-          "gia": 85,
-          "tenure": "London Living Rent"
+          "tenure": "Market for sale",
+          "gia": 85
         },
         {
           "m43_2b_compliant": true,
           "m43_2a_compliant": true,
           "description": null,
-          "m42_compliant": true,
           "change_type": "Gain",
+          "m42_compliant": true,
           "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
           "unit_development_type": "Conversion",
-          "provider": "Private",
+          "superseded_date": "24/11/2023",
           "no_habitable_rooms": 4,
+          "provider": "Private",
           "phase_detail": null,
-          "unit_no": "Gain-2",
+          "unit_no": null,
           "no_bedrooms": 3,
+          "superseded_by_lpa_app_no": "1174/APP/2023/2859",
           "provision_for_older_persons": false,
-          "gia": 77,
-          "tenure": "London Living Rent"
+          "tenure": "Discount Market Sale",
+          "gia": 77
         }
       ],
       "site_area": 0.02
@@ -336,7 +340,13 @@
       "open_space_green_belt_area_loss": 0
     },
     "constraints_details": [],
-    "superseding_details": [],
+    "superseding_details": [
+      {
+        "lpa_name": "Hillingdon",
+        "lpa_app_no": "1174/APP/2023/2859",
+        "partial_supersedence": false
+      }
+    ],
     "lead_registered_social_landlord": null,
     "viability_assessment": false,
     "overseas_company_registration_no": null,

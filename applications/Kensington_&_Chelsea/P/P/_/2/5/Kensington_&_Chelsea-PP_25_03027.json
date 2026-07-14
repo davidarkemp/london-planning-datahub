@@ -13,13 +13,13 @@
   "date_building_work_started_under_previous_permission": "08/01/2024",
   "description": "Retrospective permission for the conversion of the upper storeys into a residential maisonette unit alongside changes to the rear and internal alterations including internal stair rearrangement, alterations to rear at 220 Portobello Road",
   "parking_details": null,
-  "postcode": null,
+  "postcode": "",
   "appeal_status": null,
-  "cil_liability": true,
+  "cil_liability": false,
   "date_building_work_completed_under_previous_permission": "21/06/2024",
   "pp_id": "PP-13999473",
   "status": "Approved",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "polygon": {
     "coordinates": [
       [
@@ -59,11 +59,37 @@
     ],
     "type": "Polygon"
   },
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.205673,
+          51.517011
+        ],
+        [
+          -0.205674,
+          51.516984
+        ],
+        [
+          -0.205717,
+          51.516985
+        ],
+        [
+          -0.205716,
+          51.517011
+        ],
+        [
+          -0.205673,
+          51.517011
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "appeal_decision_date": null,
   "secondary_street_name": null,
   "lapsed_date": "03/09/2028",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "decision_date": "03/09/2025",
   "centroid_easting": 524597,
   "actual_commencement_date": null,
@@ -72,7 +98,7 @@
   "decision_target_date": "16/09/2025",
   "valid_date": "14/05/2025",
   "development_type": "Other change of use",
-  "last_updated": "2025-11-17T10:02:30.780Z",
+  "last_updated": "2026-07-13T17:59:53.794Z",
   "subdivision_of_building": null,
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
@@ -82,13 +108,13 @@
   "decision_process": "Delegated",
   "application_type_full": "Full planning permission",
   "decision_agency": null,
-  "street_name": null,
+  "street_name": "",
   "appeal_decision": null,
-  "title_number": null,
+  "title_number": [],
   "site_name": "220 Portobello Road, LONDON, W11 1LJ",
   "appeal_start_date": null,
   "application_details": {
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "internal_resi_water_usage": 150,
     "total_gia_gained": 0,
     "non_residential_details": {
@@ -96,29 +122,30 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_lost": 0,
-      "total_gia_gained": 0
+      "total_gia_gained": 0,
+      "site_area": 0.008
     },
     "garden_land_lost": false,
     "existing_proposed_floorspace_details": [
       {
+        "gia_existing": 90,
+        "use_class": "E",
         "gia_gained": 0,
-        "use_class": "C3",
-        "gia_lost": 0,
-        "gia_existing": 90
+        "gia_lost": 90
       }
     ],
     "projected_cost_of_works": "Up to £2m",
     "superseding_details": [
       {
-        "partial_supersedence": true,
-        "lpa_app_no": "PP/17/06427",
         "unit_reference": "Ground Floor",
+        "lpa_app_no": "PP/17/06427",
+        "partial_supersedence": true,
         "component_description": "Part of shopfront and rear light well / stairs"
       },
       {
-        "partial_supersedence": true,
-        "lpa_app_no": "CA/17/05922",
         "unit_reference": "Ground floor",
+        "lpa_app_no": "CA/17/05922",
+        "partial_supersedence": true,
         "component_description": "Part of shopfront and rear light well / stairs"
       },
       {
@@ -126,7 +153,7 @@
         "partial_supersedence": false
       }
     ],
-    "existing_uprns": null,
+    "existing_uprns": [],
     "grey_water_reuse": false,
     "total_gia_existing": 90,
     "surface_water_discharge_percentage_reduction": 0,
@@ -138,9 +165,9 @@
     "green_suds": false,
     "phasing_details": [
       {
-        "intended_commencement_date": "01/2024",
+        "phase_detail": "Entire development - Already completed",
         "intended_completion_date": "06/2024",
-        "phase_detail": "Entire development - Already completed"
+        "intended_commencement_date": "01/2024"
       }
     ],
     "residential_details": {
@@ -150,18 +177,21 @@
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 375,
       "total_no_proposed_residential_units_starter_homes": 0,
       "residential_units": [
         {
-          "unit_no": "Gain-1",
-          "gia": 90,
-          "provider": "Private",
-          "no_bedrooms": 2,
-          "tenure": "Self-Build and Custom Build",
           "no_habitable_rooms": 3,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Gain",
           "unit_type": "Terraced Home",
-          "change_type": "Gain"
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Self-Build and Custom Build",
+          "gia": 90
         }
       ],
       "total_no_existing_residential_units_london_living_rent": 0,
@@ -180,7 +210,7 @@
       "total_no_proposed_residential_affordable_units": 1,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_shared_equity": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 125,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_proposed_residential_units_market_for_rent": 0,
@@ -193,7 +223,8 @@
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 1,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.008
     },
     "infrastructure_details": {
       "no_homes_to_have_electrical_heating": 1,
@@ -212,17 +243,29 @@
       "total_annual_pm_emissions": 0,
       "waste_details": [
         {
-          "internal_dry_recycling": true,
-          "reason_for_no_provision": "It is an existing terraced building in a Conservation Area",
-          "internal_residual_waste": true,
-          "unit_reference": "Maisonette",
           "external_dry_recycling": false,
           "external_food_waste": false,
+          "unit_reference": "Maisonette",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "It is an existing terraced building in a Conservation Area",
+          "internal_residual_waste": true,
           "internal_food_waste": false,
-          "external_residual_waste": false
+          "internal_dry_recycling": true
         }
       ]
-    }
+    },
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.008
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "epc_number": null,
   "uprn": "217113391",

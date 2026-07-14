@@ -1,8 +1,8 @@
 {
   "secondary_street_name": null,
-  "last_updated": "2025-11-17T10:02:29.145Z",
+  "last_updated": "2026-07-13T17:43:34.045Z",
   "appeal_start_date": null,
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "appeal_decision_date": null,
   "status": "Approved",
   "decision_date": "14/07/2025",
@@ -58,7 +58,33 @@
     "lat": 51.517211,
     "lon": -0.20965
   },
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.209628,
+          51.517224
+        ],
+        [
+          -0.209629,
+          51.517197
+        ],
+        [
+          -0.209673,
+          51.517198
+        ],
+        [
+          -0.209671,
+          51.517225
+        ],
+        [
+          -0.209628,
+          51.517224
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "appeal_decision": null,
   "lapsed_date": "14/07/2028",
   "decision_agency": null,
@@ -66,18 +92,18 @@
   "ward": "Colville",
   "application_details": {
     "total_gia_lost": 173.68,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 173.68,
+        "use_class": "E(e)",
         "gia_gained": 160.39,
-        "use_class": "EE",
         "gia_lost": 173.68
       }
     ],
     "garden_land_lost": false,
     "total_gia_gained": 160.39,
-    "existing_uprns": null,
+    "existing_uprns": [],
     "site_area": 0.01,
     "projected_cost_of_works": "Up to £2m",
     "ownership_status": "Private",
@@ -92,52 +118,38 @@
       "total_no_proposed_bedrooms": 0,
       "residential_units": [
         {
-          "unit_no": "Loss-1",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
-          "unit_type": "Communal Space",
-          "gia": 27.02
-        },
-        {
-          "unit_no": "Loss-2",
-          "change_type": "Loss",
-          "unit_type": "Communal Space",
-          "gia": 27.02
-        },
-        {
-          "unit_no": "Loss-3",
-          "change_type": "Loss",
-          "unit_type": "Communal Space",
-          "gia": 27.02
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "London Affordable Rent",
+          "gia": 80.19
         },
         {
           "no_habitable_rooms": 3,
-          "unit_no": "Loss-4",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "provision_for_older_persons": false,
-          "gia": 80.19,
-          "tenure": "London Affordable Rent"
-        },
-        {
-          "no_habitable_rooms": 3,
-          "unit_no": "Loss-5",
-          "change_type": "Loss",
-          "sheltered_accommodation": false,
           "no_bedrooms": 2,
-          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
-          "gia": 80.19,
-          "tenure": "London Affordable Rent"
+          "tenure": "London Affordable Rent",
+          "gia": 80.19
         }
       ],
       "total_no_existing_residential_units_london_affordable_rent": 2,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_discount_market_rent": 0,
-      "total_no_existing_residential_units": 5,
+      "total_no_existing_residential_units": 2,
       "dwelling_density": 0,
       "total_gia_lost": 241.44,
       "total_no_existing_residential_units_affordable_rent": 0,
@@ -162,16 +174,17 @@
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_shared_equity": 0,
-      "total_no_proposed_residential_units_starter_homes": 0
+      "total_no_proposed_residential_units_starter_homes": 0,
+      "site_area": 0.01
     },
     "rain_water_harvesting": false,
     "infrastructure_details": {
       "no_homes_passive_cooling": 0,
       "green_roof_area": 0,
-      "fire_suppression_system_proposed": true,
+      "fire_suppression_system_proposed": false,
       "total_annual_nox_emissions": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_new_gas_connections_required": 0,
       "ghg_reduction_over_building_regulations": false,
       "mobile_network_operators_consultation": false,
@@ -187,8 +200,8 @@
     "phasing_details": [
       {
         "phase_detail": "Phase 1",
-        "intended_commencement_date": "06/2025",
-        "intended_completion_date": "10/2025"
+        "intended_completion_date": "10/2025",
+        "intended_commencement_date": "06/2025"
       }
     ],
     "non_residential_details": {
@@ -196,17 +209,30 @@
       "total_gia_lost": 173.68,
       "total_gia_existing": 173.68,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_gained": 160.39
+      "total_gia_gained": 160.39,
+      "site_area": 0.01
     },
     "affordable_housing_fast_track": false,
-    "grey_water_reuse": false
+    "grey_water_reuse": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.01
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
-  "street_name": null,
+  "street_name": "",
   "date_building_work_completed_under_previous_permission": null,
   "centroid_northing": 181329,
   "centroid_easting": 524322,
   "uprn": "217116928",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "decision": "Approved",
   "cil_liability": false,
   "description": "Change of use of first, second and third floors from C3 (residential) to D1 (dental surgery) in connection with existing working dental practice at ground floor and basement levels.",
@@ -223,12 +249,12 @@
   "lpa_name": "Kensington & Chelsea",
   "application_type": "All Other",
   "locality": null,
-  "title_number": null,
+  "title_number": [],
   "pp_id": "PP-13756015",
   "decision_process": "Delegated",
   "site_name": "118 Ladbroke Grove, LONDON, W10 5NE",
   "valid_date": "28/02/2025",
   "parking_details": null,
-  "postcode": null,
+  "postcode": "",
   "epc_number": null
 }

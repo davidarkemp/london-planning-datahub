@@ -1,7 +1,7 @@
 {
   "uprn": "100023339324",
   "ward": "SJW_22",
-  "epc_number": "6671-5661-0805-6792-5401",
+  "epc_number": null,
   "description": "Notification for Prior Approval for the change of use of second and third floor levels from office accommodation (Class E) to one self-contained residential flat (Class C3) under Schedule 2, Part 3, Class G of the Town and Country Planning (General Permitted Development) (England) Order 2015 (as amended).",
   "centroid_easting": "529746",
   "decision_date": null,
@@ -15,7 +15,7 @@
   "lpa_app_no": "26/04616/PACU2F",
   "title_number": [],
   "decision": null,
-  "last_updated": "2026-07-11T00:55:00.812Z",
+  "last_updated": "2026-07-13T20:09:48.770Z",
   "appeal_start_date": null,
   "actual_commencement_date": null,
   "bo_system": "Idox Uniform",
@@ -106,8 +106,8 @@
     "intended_commencement_date": "09/2026",
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3",
         "gia_existing": 312,
+        "use_class": "C3",
         "gia_gained": 111.7,
         "gia_lost": 111.7
       }
@@ -121,12 +121,12 @@
       "residential_units": [
         {
           "no_habitable_rooms": 3,
-          "tenure": "Market for rent",
-          "gia": 111.7,
+          "provider": "Private",
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "change_type": "Gain",
-          "provider": "Private"
+          "tenure": "Market for rent",
+          "gia": 111.7
         }
       ],
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
@@ -168,7 +168,7 @@
   "site_name": "",
   "decision_process": null,
   "postcode": "SW1P 2EZ",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "centroid": {
     "lat": 51.496689,
     "lon": -0.132312
@@ -176,7 +176,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -212,7 +211,8 @@
               179187
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"

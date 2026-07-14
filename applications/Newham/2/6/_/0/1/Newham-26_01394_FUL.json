@@ -1,21 +1,21 @@
 {
   "uprn": "000046047878",
   "ward": "MARYLD",
-  "epc_number": "6580-5716-5812-9126-6206",
+  "epc_number": null,
   "description": "Retrospective application for the conversion of a single dwellinghouse (Use Class C3) to 2x 1bed and 1x 3bed self-contained flats including cycle and waste provision.",
   "centroid_easting": "539178",
   "decision_date": null,
   "street_name": "Manbey Grove",
   "locality": "Stratford",
   "status": "Application Under Consideration",
-  "date_building_work_started_under_previous_permission": "05/12/2025",
+  "date_building_work_started_under_previous_permission": null,
   "application_type_full": "Full planning permission",
   "lpa_name": "Newham",
   "decision_target_date": "24/08/2026",
   "lpa_app_no": "26/01394/FUL",
   "title_number": [],
   "decision": null,
-  "last_updated": "2026-07-11T00:54:59.552Z",
+  "last_updated": "2026-07-13T04:03:00.393Z",
   "appeal_start_date": null,
   "actual_commencement_date": null,
   "bo_system": "Idox Uniform",
@@ -80,17 +80,13 @@
       ]
     ]
   },
-  "date_building_work_completed_under_previous_permission": "30/05/2026",
+  "date_building_work_completed_under_previous_permission": null,
   "lapsed_date": null,
   "decision_conditions": null,
   "id": "Newham-26_01394_FUL",
   "application_type": "All Other",
   "pp_id": "PP-15021633",
-  "parking_details": {
-    "net_cycle": 8,
-    "no_proposed_cycle": 8,
-    "no_existing_cycle": 0
-  },
+  "parking_details": null,
   "url_planning_app": null,
   "appeal_status": null,
   "valid_date": "29/06/2026",
@@ -125,8 +121,8 @@
     "scheme_phasing": true,
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3",
         "gia_existing": 201.91,
+        "use_class": "C3",
         "gia_gained": 0,
         "gia_lost": 0
       }
@@ -140,40 +136,40 @@
       "residential_units": [
         {
           "no_habitable_rooms": 11,
-          "tenure": "Market for rent",
-          "gia": 201.91,
-          "unit_type": "Terraced Home",
-          "no_bedrooms": 7,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "provision_for_older_persons": false
+          "unit_type": "Terraced Home",
+          "no_bedrooms": 7,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 201.91
         },
         {
           "no_habitable_rooms": 3,
-          "tenure": "Market for rent",
-          "gia": 58.26,
+          "provider": "Private",
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "provider": "Private"
+          "tenure": "Market for rent",
+          "gia": 58.26
         },
         {
           "no_habitable_rooms": 3,
-          "tenure": "Market for rent",
-          "gia": 51.59,
+          "provider": "Private",
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "provider": "Private"
+          "tenure": "Market for rent",
+          "gia": 51.59
         },
         {
           "no_habitable_rooms": 5,
-          "tenure": "Market for sale",
-          "gia": 92.06,
+          "provider": "Private",
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "change_type": "Gain",
-          "provider": "Private"
+          "tenure": "Market for sale",
+          "gia": 92.06
         }
       ],
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
@@ -215,9 +211,9 @@
     "total_gia_gained": 0,
     "phasing_details": [
       {
+        "phase_detail": "Entire Development",
         "intended_completion_date": "05/2026",
-        "intended_commencement_date": "12/2025",
-        "phase_detail": "Entire Development"
+        "intended_commencement_date": "12/2025"
       }
     ],
     "affordable_housing_fast_track": false,
@@ -232,7 +228,7 @@
   "site_name": "",
   "decision_process": null,
   "postcode": "E15 1EX",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "centroid": {
     "lat": 51.545128,
     "lon": 0.005701
@@ -240,7 +236,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -292,7 +287,8 @@
               184810
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"

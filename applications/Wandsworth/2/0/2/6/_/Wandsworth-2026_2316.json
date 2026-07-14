@@ -15,7 +15,7 @@
   "lpa_app_no": "2026/2316",
   "title_number": null,
   "decision": null,
-  "last_updated": "2026-07-11T00:54:59.330Z",
+  "last_updated": "2026-07-13T13:00:04.153Z",
   "appeal_start_date": null,
   "actual_commencement_date": null,
   "bo_system": "Northgate M3",
@@ -127,14 +127,14 @@
       "no_homes_passive_cooling": 0,
       "waste_details": [
         {
-          "reason_for_no_provision": "N/A",
-          "internal_dry_recycling": false,
           "external_dry_recycling": false,
+          "external_food_waste": false,
+          "unit_reference": "1",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "N/A",
           "internal_residual_waste": false,
           "internal_food_waste": false,
-          "external_residual_waste": false,
-          "external_food_waste": false,
-          "unit_reference": "1"
+          "internal_dry_recycling": false
         }
       ],
       "no_non_resi_units_to_have_full_fibre": 0,
@@ -153,8 +153,8 @@
     "scheme_phasing": true,
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "F1",
         "gia_existing": 1,
+        "use_class": "F1",
         "gia_gained": 0,
         "gia_lost": 1
       }
@@ -164,9 +164,9 @@
     "total_gia_gained": 0,
     "phasing_details": [
       {
+        "phase_detail": "Entire development ",
         "intended_completion_date": "08/2026",
-        "intended_commencement_date": "07/2026",
-        "phase_detail": "Entire development "
+        "intended_commencement_date": "07/2026"
       }
     ],
     "affordable_housing_fast_track": false,
@@ -180,7 +180,7 @@
   "site_name": "Whitelands College",
   "decision_process": null,
   "postcode": "SW15 4JD",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Northgate M3",
   "centroid": {
     "lat": 51.448721,
     "lon": -0.243344
@@ -188,7 +188,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -260,7 +259,8 @@
               173630.86032812682
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"
