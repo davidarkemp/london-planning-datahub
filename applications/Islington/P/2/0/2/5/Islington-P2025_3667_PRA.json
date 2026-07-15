@@ -1,12 +1,12 @@
 {
-  "postcode": null,
+  "postcode": "",
   "status": "Approved",
   "decision_agency": null,
   "subdivision_of_building": null,
   "appeal_start_date": null,
-  "cil_liability": null,
+  "cil_liability": false,
   "decision_conditions": [
-    "CAR FREE DEVELOPMENT: All future occupiers of the residential units hereby approved shall not be eligible to obtain an on street residents parking permit except: i) In the case of disabled persons; ii) In the case of units designated in this planning permission as 'non car free'; or iii) In the case of the resident who is an existing holder of a residents parking permit issued by the London Borough of Islington and has held the permit for a period of at least one year. \r\n\r\nREASON: To ensure that the development remains car free in accordance with policy T6 of the London Plan 2021 and policy T3 of the Islington Local Plan: Strategic and Development Management Policies 2023."
+    "CAR FREE DEVELOPMENT: All future occupiers of the residential units hereby approved shall not be eligible to obtain an on street residents parking permit except: i) In the case of disabled persons; ii) In the case of units designated in this planning permission as 'non car free'; or iii) In the case of the resident who is an existing holder of a residents parking permit issued by the London Borough of Islington and has held the permit for a period of at least one year. \n\nREASON: To ensure that the development remains car free in accordance with policy T6 of the London Plan 2021 and policy T3 of the Islington Local Plan: Strategic and Development Management Policies 2023."
   ],
   "actual_commencement_date": null,
   "pp_id": "PP-14319771",
@@ -20,8 +20,10 @@
   "street_name": "Britannia Row",
   "site_number": "35 - 53",
   "centroid_easting": 532087,
-  "polygon": null,
-  "ward": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
+  "ward": "",
   "centroid_northing": 183786,
   "application_type": "All Other",
   "uprn": "5300011908",
@@ -34,7 +36,7 @@
   "application_type_full": "Prior Approval: Change of use from Commercial, Business and Service (Use Class E) to Dwellinghouses (Use Class C3)",
   "url_planning_app": null,
   "decision_date": "18/02/2026",
-  "bo_system": "Agile APAS",
+  "bo_system": "Portal",
   "development_type": null,
   "appeal_status": null,
   "date_building_work_completed_under_previous_permission": null,
@@ -42,7 +44,7 @@
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
   "epc_number": null,
-  "last_updated": "2026-02-19T00:00:43.298Z",
+  "last_updated": "2026-07-14T10:46:04.287Z",
   "centroid": {
     "lon": -0.096884,
     "lat": 51.53753
@@ -55,14 +57,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 2763,
+        "use_class": "E",
         "gia_gained": 0,
-        "use_class": "SpecifiedOther",
         "gia_lost": 2763
       },
       {
         "gia_existing": 0,
-        "gia_gained": 2739,
         "use_class": "C3",
+        "gia_gained": 2739,
         "gia_lost": 0
       }
     ],
@@ -114,234 +116,338 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Communal Space",
+          "provision_for_older_persons": false,
           "gia": 646
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 1,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "gia": 51,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 51
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 2,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "gia": 55,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 55
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 2,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "gia": 55,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 55
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 2,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "gia": 56,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 56
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 2,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "gia": 63,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 63
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 2,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "gia": 63,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 63
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 3,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 87,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 87
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 3,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 93,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 93
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 3,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 70,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 70
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 2,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "gia": 79,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 79
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 4,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "gia": 138,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 138
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 4,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 86,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 86
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 3,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 88,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 88
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 3,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 100,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 100
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 3,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 100,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 100
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 4,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "gia": 116,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 116
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 3,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 78,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 78
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 3,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 85,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 85
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 3,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 84,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 84
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 3,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 84,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 84
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 3,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 83,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 83
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 3,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 97,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 97
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 4,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "gia": 117,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 117
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 3,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 80,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 80
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 3,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 85,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 85
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -355,18 +461,34 @@
       "no_homes_passive_cooling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
-      "fire_suppression_system_proposed": true,
+      "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
-      "ghg_reduction_over_building_regulations": true
+      "ghg_reduction_over_building_regulations": false
     },
     "total_gia_existing": 2763,
     "intended_completion_date": "05/2028",
     "total_gia_lost": 2763,
-    "intended_commencement_date": "01/2027"
+    "intended_commencement_date": "01/2027",
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "scheme_phasing": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "garden_land_lost": false
   },
   "wgs84_polygon": {
     "coordinates": [
@@ -397,6 +519,6 @@
   },
   "id": "Islington-P2025_3667_PRA",
   "reference_no_of_permission_being_relied_on": null,
-  "title_number": null,
-  "last_updated_by": "Agile APAS"
+  "title_number": [],
+  "last_updated_by": "Portal"
 }

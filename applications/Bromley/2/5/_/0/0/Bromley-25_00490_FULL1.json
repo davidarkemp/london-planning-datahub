@@ -14,30 +14,70 @@
     "coordinates": [
       [
         [
-          -0.024756,
-          51.410705
+          -0.024885,
+          51.410726
         ],
         [
-          -0.024757,
-          51.410678
+          -0.024887,
+          51.410666
         ],
         [
-          -0.0248,
-          51.410679
+          -0.024854,
+          51.410664
         ],
         [
-          -0.024799,
-          51.410706
+          -0.024808,
+          51.410661
         ],
         [
-          -0.024756,
-          51.410705
+          -0.024598,
+          51.410649
+        ],
+        [
+          -0.024546,
+          51.410646
+        ],
+        [
+          -0.024463,
+          51.410642
+        ],
+        [
+          -0.024453,
+          51.410641
+        ],
+        [
+          -0.024438,
+          51.41064
+        ],
+        [
+          -0.024433,
+          51.410671
+        ],
+        [
+          -0.02443,
+          51.410691
+        ],
+        [
+          -0.024523,
+          51.410698
+        ],
+        [
+          -0.024583,
+          51.410702
+        ],
+        [
+          -0.024677,
+          51.410709
+        ],
+        [
+          -0.024885,
+          51.410726
         ]
       ]
     ]
   },
-  "last_updated": "2025-06-13T20:00:31.979Z",
-  "centroid_easting": "537468",
+  "last_updated": "2026-07-14T08:24:08.803Z",
+  "centroid_easting": 537476,
   "lpa_name": "Bromley",
   "decision_agency": null,
   "decision_conditions": [
@@ -52,12 +92,12 @@
     "Materials/repairs to match"
   ],
   "ward": "BECKCO",
-  "centroid_northing": "169814",
-  "status": "Approved",
+  "centroid_northing": 169813,
+  "status": "Commenced",
   "secondary_street_name": null,
   "appeal_start_date": null,
   "parking_details": null,
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "appeal_decision": null,
   "last_date_consultation_comments": "18/03/2025",
   "reference_no_of_permission_being_relied_on": null,
@@ -66,14 +106,14 @@
   "description": "Conversion of existing first and second floor flats into a 7 bedroom 7 person HMO (Use Class - Sui Generis) with associated refuse and cycle storage.",
   "decision_date": "17/04/2025",
   "centroid": {
-    "lat": 51.410692,
-    "lon": -0.024778
+    "lat": 51.410681,
+    "lon": -0.024663
   },
-  "cil_liability": true,
+  "cil_liability": false,
   "postcode": "BR3 1AZ",
   "actual_completion_date": null,
   "valid_date": "24/02/2025",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "id": "Bromley-25_00490_FULL1",
   "lapsed_date": "17/04/2028",
   "application_details": {
@@ -81,19 +121,19 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 133,
-        "gia_gained": 0,
         "use_class": "C3",
+        "gia_gained": 0,
         "gia_lost": 133
       },
       {
         "gia_existing": 0,
-        "gia_gained": 133,
         "use_class": "SG",
+        "gia_gained": 133,
         "gia_lost": 0
       }
     ],
     "total_gia_existing": 133,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "surface_water_discharge_percentage_reduction": 0,
     "total_gia_gained": 133,
     "total_gia_lost": 133,
@@ -102,7 +142,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 133,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_lost": 133,
-      "total_gia_existing": 133
+      "total_gia_existing": 133,
+      "site_area": 0.019
     },
     "rain_water_harvesting": false,
     "garden_land_lost": false,
@@ -115,7 +156,7 @@
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_existing_residential_units_market_for_rent": 1,
       "total_gia_lost": 133,
-      "dwelling_density": 0,
+      "dwelling_density": 52.631578947368425,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_proposed_residential_units_intermediate": 0,
       "affordable_percentage": 0,
@@ -135,25 +176,32 @@
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 7,
-          "unit_no": "Loss-1",
+          "actual_completion_date": "01/08/2025",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 7,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "01/08/2025",
           "no_bedrooms": 4,
           "provision_for_older_persons": false,
-          "gia": 133,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 133
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 7,
-          "unit_no": "Gain-1",
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "HMO",
           "no_bedrooms": 7,
-          "gia": 133,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 133
         }
       ],
       "total_no_proposed_residential_units_market_for_rent": 1,
@@ -162,12 +210,13 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 368.42105263157896,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "total_no_proposed_residential_units_social_rent": 0
+      "total_no_proposed_residential_units_social_rent": 0,
+      "site_area": 0.019
     },
     "ownership_status": "Private",
     "phasing_details": [
@@ -178,7 +227,7 @@
       }
     ],
     "internal_resi_water_usage": 0,
-    "site_area": 0.0194,
+    "site_area": 0.019,
     "projected_cost_of_works": "Up to £2m",
     "green_suds": false,
     "infrastructure_details": {
@@ -193,22 +242,106 @@
       "total_annual_nox_emissions": 0,
       "no_new_gas_connections_required": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "ghg_reduction_over_building_regulations": false
     },
-    "grey_water_reuse": false
+    "grey_water_reuse": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.019
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "decision_target_date": "21/04/2025",
   "uprn": "100022894240",
   "lpa_app_no": "25/00490/FULL1",
   "locality": null,
   "title_number": [],
-  "actual_commencement_date": null,
+  "actual_commencement_date": "01/08/2025",
   "decision": "Approved",
   "application_type": "All Other",
   "street_name": "High Street",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              537460.46,
+              169817.5
+            ],
+            [
+              537460.47,
+              169810.83
+            ],
+            [
+              537462.767,
+              169810.684
+            ],
+            [
+              537465.96,
+              169810.48
+            ],
+            [
+              537480.65,
+              169809.55
+            ],
+            [
+              537484.23,
+              169809.32
+            ],
+            [
+              537490.028,
+              169808.956
+            ],
+            [
+              537490.76,
+              169808.91
+            ],
+            [
+              537491.75,
+              169808.85
+            ],
+            [
+              537492.003,
+              169812.324
+            ],
+            [
+              537492.2,
+              169814.5
+            ],
+            [
+              537485.69,
+              169815.09
+            ],
+            [
+              537481.529,
+              169815.463
+            ],
+            [
+              537474.99,
+              169816.05
+            ],
+            [
+              537460.46,
+              169817.5
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "date_building_work_completed_under_previous_permission": null,
   "url_planning_app": null
 }
