@@ -40,7 +40,7 @@
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 1,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 76.92307692307692,
       "total_no_proposed_residential_units": 1,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_gia_lost": 0,
@@ -60,17 +60,21 @@
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 83.7,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 19.23076923076923,
       "residential_units": [
         {
-          "provider": "Private",
           "no_habitable_rooms": 4,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "garden_land": true,
           "unit_type": "House or Bungalow",
           "no_bedrooms": 3,
-          "gia": 83.7,
-          "tenure": "Self-Build and Custom Build"
+          "provision_for_older_persons": false,
+          "tenure": "Self-Build and Custom Build",
+          "gia": 83.7
         }
       ],
       "total_no_proposed_residential_units_social_rent": 0,
@@ -81,18 +85,19 @@
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
-      "total_no_proposed_residential_units_london_living_rent": 0
+      "total_no_proposed_residential_units_london_living_rent": 0,
+      "site_area": 0.052000000000000005
     },
     "phasing_details": [
       {
         "phase_detail": "new build",
-        "intended_commencement_date": "05/2028",
-        "intended_completion_date": "06/2029"
+        "intended_completion_date": "06/2029",
+        "intended_commencement_date": "05/2028"
       },
       {
         "phase_detail": "existing drakes",
-        "intended_commencement_date": "06/2028",
-        "intended_completion_date": "06/2029"
+        "intended_completion_date": "06/2029",
+        "intended_commencement_date": "06/2028"
       }
     ],
     "open_and_protected_space_details": {
@@ -120,7 +125,7 @@
       "green_roof_area": 0,
       "mobile_network_operators_consultation": false,
       "no_new_water_connections_required": 1,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_active_fast_ev_charging_points": 2,
       "total_annual_pm_emissions": 0,
       "no_resi_units_to_have_full_fibre": 1,
@@ -133,31 +138,70 @@
       "fire_suppression_system_proposed": false,
       "no_passive_fast_ev_charging_points": 0
     },
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "internal_resi_water_usage": 142,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "total_gia_gained": 94.2,
     "surface_water_discharge_percentage_reduction": 0,
     "grey_water_reuse": false,
     "ownership_status": "Private",
-    "existing_uprns": null,
+    "existing_uprns": [],
     "non_residential_details": {
       "total_gia_existing": 73.1,
       "total_gia_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_gained": 94.2
-    }
+      "total_gia_gained": 94.2,
+      "site_area": 0.052000000000000005
+    },
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.052000000000000005
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "date_building_work_completed_under_previous_permission": null,
   "site_name": "DRAKES COTTAGE",
   "borough": "Hillingdon",
   "status": "Approved",
   "epc_number": "8673-7329-4030-5917-0906",
-  "bo_system": "CSV Data Import",
-  "wgs84_polygon": null,
-  "cil_liability": true,
-  "title_number": null,
+  "bo_system": "Portal",
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.476296,
+          51.60228
+        ],
+        [
+          -0.476297,
+          51.602253
+        ],
+        [
+          -0.47634,
+          51.602253
+        ],
+        [
+          -0.476339,
+          51.60228
+        ],
+        [
+          -0.476296,
+          51.60228
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "cil_liability": false,
+  "title_number": [],
   "application_type": "All Other",
   "street_name": "BREAKSPEAR ROAD NORTH",
   "actual_commencement_date": null,
@@ -170,14 +214,14 @@
   "lpa_name": "Hillingdon",
   "secondary_street_name": "HAREFIELD",
   "decision_date": "08/10/2025",
-  "last_updated": "2025-12-04T22:59:08.770Z",
+  "last_updated": "2026-07-15T09:41:19.766Z",
   "url_planning_app": "http://planning.hillingdon.gov.uk/OcellaWeb/planningDetails?reference=14025/APP/2025/1556",
   "ward": "HARE/D VILLAGES 2022",
   "valid_date": "03/06/2025",
   "reference_no_of_permission_being_relied_on": null,
   "development_type": null,
   "appeal_decision": null,
-  "postcode": null,
+  "postcode": "",
   "centroid_northing": 190369,
   "description": "Erection of a part single-storey, part two-storey rear extension and erection of a two-storey three-bedroom dwelling with associated garage with electric vehicle charging points, landscaping, and cycle and bin stores",
   "subdivision_of_building": null,
@@ -185,7 +229,7 @@
   "lpa_app_no": "14025/APP/2025/1556",
   "decision": "Approved",
   "application_type_full": "Full planning permission",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "appeal_status": null,
   "id": "Hillingdon-14025_APP_2025_1556",
   "decision_conditions": [

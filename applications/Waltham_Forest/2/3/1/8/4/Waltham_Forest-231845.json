@@ -16,40 +16,40 @@
   "application_type_full": "Full planning & demolition in a conservation area",
   "uprn": null,
   "borough": "Waltham Forest",
-  "street_name": null,
+  "street_name": "",
   "locality": null,
-  "ward": null,
-  "actual_commencement_date": null,
+  "ward": "",
+  "actual_commencement_date": "02/06/2025",
   "lpa_name": "Waltham Forest",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "decision_conditions": null,
   "date_building_work_started_under_previous_permission": null,
   "centroid_easting": 538860,
-  "status": "Approved",
+  "status": "Commenced",
   "decision_date": "13/06/2024",
   "wgs84_polygon": {
     "type": "Polygon",
     "coordinates": [
       [
         [
-          0.0051524,
-          51.6319689
+          0.005126,
+          51.631968
         ],
         [
-          0.0050789,
-          51.6319453
+          0.005053,
+          51.631944
         ],
         [
-          0.0047798,
-          51.632282000000004
+          0.004754,
+          51.632281
         ],
         [
-          0.0048559,
-          51.6323072
+          0.00483,
+          51.632306
         ],
         [
-          0.0051524,
-          51.6319689
+          0.005126,
+          51.631968
         ]
       ]
     ]
@@ -58,17 +58,17 @@
   "subdivision_of_building": null,
   "last_date_consultation_comments": null,
   "development_type": null,
-  "title_number": null,
+  "title_number": [],
   "appeal_status": null,
-  "last_updated": "2025-03-19T11:47:31.443+00:00",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated": "2026-07-15T13:29:59.338Z",
+  "last_updated_by": "Portal",
   "site_name": "National Westminster Bank, 34 Station Road, Chingford, London, E4 7BE",
   "id": "Waltham_Forest-231845",
   "decision": "Approved",
-  "cil_liability": null,
+  "cil_liability": false,
   "centroid_northing": 194494,
   "appeal_start_date": null,
-  "postcode": null,
+  "postcode": "",
   "url_planning_app": null,
   "date_building_work_completed_under_previous_permission": null,
   "secondary_street_name": null,
@@ -185,7 +185,7 @@
       }
     ],
     "total_gia_gained": 298,
-    "existing_uprns": null,
+    "existing_uprns": [],
     "site_area": 0.024,
     "total_gia_existing": 183,
     "total_gia_lost": 61,
@@ -205,7 +205,7 @@
     ],
     "projected_cost_of_works": "Up to £2m",
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "building_details": [
       {
         "no_storeys": 2,
@@ -221,7 +221,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 298,
       "total_gia_existing": 183,
-      "total_gia_lost": 61
+      "total_gia_lost": 61,
+      "site_area": 0.024
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -245,12 +246,12 @@
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 250,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 109,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 83.33333333333333,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
@@ -265,26 +266,35 @@
         {
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "unit_no": "Gain-1",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
+          "actual_commencement_date": "02/06/2025",
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 70.5,
-          "tenure": "Market for rent"
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 70.5
         },
         {
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "unit_no": "Gain-2",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
+          "actual_commencement_date": "02/06/2025",
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 38.5,
-          "tenure": "Market for rent"
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 38.5
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.024
     },
     "internal_resi_water_usage": 105,
     "infrastructure_details": {
@@ -295,7 +305,7 @@
       "no_new_water_connections_required": 2,
       "no_non_resi_units_to_have_full_fibre": 3,
       "total_annual_nox_emissions": 40,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 10,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
@@ -303,11 +313,23 @@
       "no_new_gas_connections_required": 2,
       "ghg_reduction_over_building_regulations": false
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.024
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "centroid": {
-    "lon": "0.0049678",
-    "lat": "51.6321277"
+    "lon": 0.004942,
+    "lat": 51.632127
   },
   "lapsed_date": "13/06/2027",
   "decision_process": null,

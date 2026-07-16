@@ -1,7 +1,7 @@
 {
   "borough": "Richmond",
   "application_type": "All Other",
-  "decision": "Approved",
+  "decision": "Withdrawn",
   "decision_conditions": [
     "all documents now available to view online"
   ],
@@ -9,7 +9,7 @@
   "url_planning_app": null,
   "lpa_app_no": "PA25/3666",
   "site_number": "21",
-  "ward": null,
+  "ward": "",
   "locality": null,
   "last_date_consultation_comments": "28/11/2025",
   "date_building_work_started_under_previous_permission": null,
@@ -17,11 +17,11 @@
   "parking_details": {},
   "postcode": "TW1 3NJ",
   "appeal_status": null,
-  "cil_liability": null,
+  "cil_liability": false,
   "date_building_work_completed_under_previous_permission": null,
   "pp_id": "PP-14406749",
-  "status": "Comment Issued",
-  "last_updated_by": "Agile APAS",
+  "status": "Withdrawn",
+  "last_updated_by": "Portal",
   "polygon": {
     "geometries": [
       {
@@ -90,24 +90,56 @@
     "coordinates": [
       [
         [
-          -0.327409,
-          51.446844
+          -0.327579,
+          51.446917
         ],
         [
-          -0.32741,
-          51.446817
+          -0.327578,
+          51.446917
         ],
         [
-          -0.327453,
-          51.446818
+          -0.32756,
+          51.446906
         ],
         [
-          -0.327452,
-          51.446845
+          -0.327495,
+          51.446849
         ],
         [
-          -0.327409,
-          51.446844
+          -0.327467,
+          51.446834
+        ],
+        [
+          -0.327386,
+          51.446756
+        ],
+        [
+          -0.327325,
+          51.446779
+        ],
+        [
+          -0.327402,
+          51.446857
+        ],
+        [
+          -0.327476,
+          51.44692
+        ],
+        [
+          -0.327491,
+          51.446932
+        ],
+        [
+          -0.327507,
+          51.446945
+        ],
+        [
+          -0.327547,
+          51.44693
+        ],
+        [
+          -0.327579,
+          51.446917
         ]
       ]
     ],
@@ -116,7 +148,7 @@
   "appeal_decision_date": null,
   "secondary_street_name": null,
   "lapsed_date": null,
-  "bo_system": "Agile APAS",
+  "bo_system": "Portal",
   "decision_date": "19/01/2026",
   "centroid_easting": 516329,
   "actual_commencement_date": null,
@@ -125,8 +157,8 @@
   "decision_target_date": "12/02/2026",
   "valid_date": "18/12/2025",
   "development_type": null,
-  "last_updated": "2026-01-20T00:01:15.930Z",
-  "subdivision_of_building": "The works are proposed to the first and second floor flat only\n",
+  "last_updated": "2026-07-15T12:00:51.781Z",
+  "subdivision_of_building": "The works are proposed to the first and second floor flat only",
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
     "lat": 51.446831,
@@ -137,7 +169,7 @@
   "decision_agency": null,
   "street_name": "Church Street",
   "appeal_decision": null,
-  "title_number": null,
+  "title_number": [],
   "site_name": "Flat",
   "appeal_start_date": null,
   "application_details": {
@@ -145,8 +177,8 @@
     "phasing_details": [
       {
         "phase_detail": "the entire development",
-        "intended_commencement_date": "12/2025",
-        "intended_completion_date": "02/2026"
+        "intended_completion_date": "02/2026",
+        "intended_commencement_date": "12/2025"
       }
     ],
     "total_gia_gained": 0,
@@ -162,7 +194,7 @@
       }
     ],
     "projected_cost_of_works": "Up to £2m",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "rain_water_harvesting": false,
     "grey_water_reuse": false,
     "surface_water_discharge_percentage_reduction": 50,
@@ -172,7 +204,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 0,
       "total_gia_existing": 98,
-      "total_gia_lost": 0
+      "total_gia_lost": 0,
+      "site_area": 0.012
     },
     "garden_land_lost": false,
     "internal_resi_water_usage": 105,
@@ -197,12 +230,12 @@
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 250,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 93.5,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 166.66666666666666,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_gia_lost": 98,
@@ -216,35 +249,47 @@
       "residential_units": [
         {
           "no_habitable_rooms": 4,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "gia": 98,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 98
         },
         {
           "no_habitable_rooms": 2,
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 51,
-          "tenure": "Market for rent"
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 51
         },
         {
           "no_habitable_rooms": 1,
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Studio Bedsit",
-          "gia": 42.5,
-          "tenure": "Market for rent"
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 42.5
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 1,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.012
     },
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
@@ -254,16 +299,29 @@
       "no_new_water_connections_required": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
-      "ghg_reduction_over_building_regulations": true
+      "ghg_reduction_over_building_regulations": false
     },
     "ownership_status": "Private",
-    "lead_developer_company_name": "21D POL"
+    "lead_developer_company_name": "21D POL",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.012
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "epc_number": null,
   "uprn": "100022331830",

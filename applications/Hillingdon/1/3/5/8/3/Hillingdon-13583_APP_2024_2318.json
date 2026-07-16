@@ -7,23 +7,23 @@
   "development_type": null,
   "application_type": "All Other",
   "appeal_status": null,
-  "title_number": null,
-  "postcode": null,
+  "title_number": [],
+  "postcode": "",
   "locality": null,
   "appeal_decision": null,
-  "status": "Approved",
+  "status": "Superseded",
   "pp_id": "13365154",
   "street_name": "ICKENHAM",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "lpa_name": "Hillingdon",
   "centroid": {
-    "lon": "-0.46332219999999996",
-    "lat": "51.5644313"
+    "lon": -0.463343,
+    "lat": 51.564429
   },
   "lpa_app_no": "13583/APP/2024/2318",
   "borough": "Hillingdon",
   "application_details": {
-    "existing_uprns": null,
+    "existing_uprns": [],
     "affordable_housing_fast_track": false,
     "phasing_details": [
       {
@@ -39,16 +39,18 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 580,
-        "use_class": "C3",
+        "superseded_date": "03/06/2025",
         "gia_gained": 560,
+        "use_class": "C3",
+        "superseded_by_lpa_app_no": "13583/APP/2025/344",
         "gia_lost": 580
       }
     ],
     "projected_cost_of_works": "Up to £2m",
-    "rain_water_harvesting": true,
-    "scheme_phasing": true,
-    "grey_water_reuse": true,
-    "green_suds": true,
+    "rain_water_harvesting": false,
+    "scheme_phasing": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
     "surface_water_discharge_percentage_reduction": 70,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
@@ -70,7 +72,7 @@
       "no_passive_fast_ev_charging_points": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 60,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 90,
       "no_active_fast_ev_charging_points": 2,
       "no_homes_to_have_electrical_heating": 1,
@@ -78,7 +80,7 @@
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
       "chp_heat_pumps_capacity": 125,
-      "ghg_reduction_over_building_regulations": true
+      "ghg_reduction_over_building_regulations": false
     },
     "internal_resi_water_usage": 105,
     "ownership_status": "Private",
@@ -130,14 +132,15 @@
           "change_type": "Loss",
           "unit_type": "House or Bungalow",
           "unit_development_type": "",
+          "superseded_date": "03/06/2025",
           "provider": "Private",
           "phase_detail": "",
           "unit_no": "",
           "no_bedrooms": 5,
-          "superseded_by_lpa_app_no": "",
+          "superseded_by_lpa_app_no": "13583/APP/2025/344",
           "provision_for_older_persons": false,
-          "gia": null,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": null
         },
         {
           "uprn": "",
@@ -145,52 +148,62 @@
           "change_type": "Gain",
           "unit_type": "House or Bungalow",
           "unit_development_type": "",
+          "superseded_date": "03/06/2025",
           "provider": "Private",
           "phase_detail": "",
           "unit_no": "",
           "no_bedrooms": 5,
-          "superseded_by_lpa_app_no": "",
+          "superseded_by_lpa_app_no": "13583/APP/2025/344",
           "provision_for_older_persons": false,
-          "gia": null,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": null
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0
-    }
+    },
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "application_type_full": "Full planning permission",
-  "cil_liability": true,
+  "cil_liability": false,
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.4638922,
-          51.5645193
+          -0.463913,
+          51.564517
         ],
         [
-          -0.46338429999999997,
-          51.564791
+          -0.463405,
+          51.564789
         ],
         [
-          -0.4627324,
-          51.5643478
+          -0.462753,
+          51.564346
         ],
         [
-          -0.4632559,
-          51.56407
+          -0.463277,
+          51.564068
         ],
         [
-          -0.4638948,
-          51.5645177
+          -0.463916,
+          51.564516
         ],
         [
-          -0.46389349999999996,
-          51.5645177
+          -0.463914,
+          51.564516
         ],
         [
-          -0.4638922,
-          51.5645193
+          -0.463913,
+          51.564517
         ]
       ]
     ],
@@ -200,7 +213,7 @@
   "actual_commencement_date": null,
   "date_building_work_completed_under_previous_permission": null,
   "url_planning_app": "http://planning.hillingdon.gov.uk/OcellaWeb/planningDetails?reference=13583/APP/2024/2318",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "appeal_start_date": null,
   "secondary_street_name": null,
   "subdivision_of_building": null,
@@ -352,7 +365,7 @@
   "uprn": null,
   "reference_no_of_permission_being_relied_on": null,
   "decision_process": "Delegated",
-  "last_updated": "2025-03-19T18:49:35.594+00:00",
+  "last_updated": "2026-07-15T09:31:20.286Z",
   "decision_agency": "Borough",
   "parking_details": {
     "no_existing_car": 5,

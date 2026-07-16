@@ -44,14 +44,14 @@
       ]
     ]
   },
-  "last_updated": "2026-04-15T11:56:50.082Z",
+  "last_updated": "2026-07-15T13:41:39.261Z",
   "centroid_easting": null,
   "lpa_name": "Waltham Forest",
   "decision_agency": "Borough",
   "decision_conditions": null,
   "ward": "St James",
   "centroid_northing": null,
-  "status": "Approved",
+  "status": "Commenced",
   "secondary_street_name": null,
   "appeal_start_date": null,
   "parking_details": null,
@@ -67,7 +67,7 @@
     "lat": 49.766807,
     "lon": -7.55716
   },
-  "cil_liability": null,
+  "cil_liability": false,
   "postcode": "E17 6LU",
   "actual_completion_date": null,
   "valid_date": "11/04/2024",
@@ -85,7 +85,7 @@
       }
     ],
     "total_gia_existing": 128,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "surface_water_discharge_percentage_reduction": 5,
     "total_gia_gained": 224,
     "total_gia_lost": 128,
@@ -94,7 +94,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_lost": 128,
-      "total_gia_existing": 128
+      "total_gia_existing": 128,
+      "site_area": 0.07
     },
     "rain_water_harvesting": false,
     "garden_land_lost": false,
@@ -107,7 +108,7 @@
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_existing_residential_units_market_for_rent": 1,
       "total_gia_lost": 128,
-      "dwelling_density": 0,
+      "dwelling_density": 42.857142857142854,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_proposed_residential_units_intermediate": 0,
       "affordable_percentage": 0,
@@ -127,39 +128,59 @@
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 5,
+          "actual_completion_date": "03/09/2025",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
           "unit_type": "Terraced Home",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "03/09/2025",
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 128
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 4,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
+          "actual_commencement_date": "03/09/2025",
           "unit_type": "Terraced Home",
           "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 70
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 4,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
+          "actual_commencement_date": "03/09/2025",
           "unit_type": "Terraced Home",
           "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 70
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 4,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
+          "actual_commencement_date": "03/09/2025",
           "unit_type": "Terraced Home",
           "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 70
         }
@@ -170,12 +191,13 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 171.42857142857142,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "total_no_proposed_residential_units_social_rent": 0
+      "total_no_proposed_residential_units_social_rent": 0,
+      "site_area": 0.07
     },
     "ownership_status": "Private",
     "phasing_details": [
@@ -193,10 +215,10 @@
         "building_ref": "new houses"
       }
     ],
-    "existing_uprns": null,
+    "existing_uprns": [],
     "site_area": 0.07,
     "projected_cost_of_works": "Up to £2m",
-    "green_suds": true,
+    "green_suds": false,
     "infrastructure_details": {
       "no_new_water_connections_required": 2,
       "mobile_network_operators_consultation": false,
@@ -210,9 +232,9 @@
       "total_annual_nox_emissions": 0,
       "no_new_gas_connections_required": 2,
       "no_non_resi_units_to_have_full_fibre": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 15,
-      "ghg_reduction_over_building_regulations": true
+      "ghg_reduction_over_building_regulations": false
     },
     "grey_water_reuse": false,
     "constraints_details": [
@@ -276,14 +298,26 @@
         "result": "58a Edward Road, Walthamstow, London, E17 6LU",
         "constraints_layer_description": "Locations"
       }
-    ]
+    ],
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.07
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "decision_target_date": "06/06/2024",
   "uprn": "100022538695",
   "lpa_app_no": "240826",
   "locality": null,
-  "title_number": null,
-  "actual_commencement_date": null,
+  "title_number": [],
+  "actual_commencement_date": "03/09/2025",
   "decision": "Approved",
   "application_type": "All Other",
   "street_name": "EDWARD ROAD",
