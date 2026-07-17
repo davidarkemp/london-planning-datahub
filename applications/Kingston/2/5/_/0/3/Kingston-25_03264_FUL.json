@@ -233,7 +233,7 @@
     ],
     "garden_land_lost": false,
     "ownership_status": "Private",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "internal_resi_water_usage": 0,
     "constraints_details": [
       {
@@ -275,8 +275,8 @@
     ],
     "non_residential_details": {
       "site_area": 0.02,
-      "total_gia_gained": 33.07,
-      "total_gia_existing": 137.86,
+      "total_gia_gained": 0,
+      "total_gia_existing": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0
@@ -284,8 +284,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 137.86,
-        "gia_gained": 33.07,
         "use_class": "C3",
+        "gia_gained": 33.07,
         "gia_lost": 0
       }
     ],
@@ -313,23 +313,9 @@
       "residential_units": [
         {
           "m43_2b_compliant": false,
-          "no_habitable_rooms": 2,
           "m43_2a_compliant": false,
-          "m42_compliant": false,
-          "change_type": "Loss",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "no_bedrooms": 4,
-          "unit_type": "Semi Detached Home",
-          "provision_for_older_persons": false,
-          "tenure": "Market for rent",
-          "gia": 137.86
-        },
-        {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": false,
           "change_type": "Gain",
+          "m42_compliant": false,
           "garden_land": false,
           "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
@@ -343,8 +329,8 @@
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
-          "m42_compliant": false,
           "change_type": "Gain",
+          "m42_compliant": false,
           "garden_land": false,
           "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
@@ -354,6 +340,20 @@
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 79.54
+        },
+        {
+          "m43_2b_compliant": false,
+          "no_habitable_rooms": 2,
+          "m43_2a_compliant": false,
+          "change_type": "Loss",
+          "m42_compliant": false,
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Semi Detached Home",
+          "no_bedrooms": 4,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 137.86
         }
       ],
       "total_no_existing_residential_units_london_shared_ownership": 0,
@@ -374,10 +374,10 @@
       "total_no_existing_residential_units": 1,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
-      "total_gia_gained": 153.72000000000003,
+      "total_gia_gained": 33.07,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
-      "total_gia_lost": 137.86,
+      "total_gia_lost": 0,
       "habitable_rooms_density": null,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
@@ -463,13 +463,13 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": 166207,
-  "last_updated": "2026-06-27T21:15:12.458Z",
+  "last_updated": "2026-07-16T18:32:57.048Z",
   "centroid": {
     "lon": -0.278397,
     "lat": 51.382256
   },
   "subdivision_of_building": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "PP overwrite repair",
   "title_number": null,
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,

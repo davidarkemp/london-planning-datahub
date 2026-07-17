@@ -41,7 +41,7 @@
   "date_building_work_completed_under_previous_permission": null,
   "pp_id": "13779399",
   "status": "Commenced",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "PP overwrite repair",
   "polygon": {
     "crs": {
       "type": "name",
@@ -187,7 +187,7 @@
   "decision_target_date": "14/04/2025",
   "valid_date": "17/02/2025",
   "development_type": "Minor dwellings",
-  "last_updated": "2026-06-27T23:22:31.846Z",
+  "last_updated": "2026-07-16T18:41:45.927Z",
   "subdivision_of_building": null,
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
@@ -203,7 +203,7 @@
   "site_name": null,
   "appeal_start_date": null,
   "application_details": {
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "non_residential_details": {
       "total_gia_existing": 200,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
@@ -225,7 +225,7 @@
     "3d_model": false,
     "site_area": 0.0707,
     "total_gia_lost": 200,
-    "green_suds": true,
+    "green_suds": false,
     "phasing_details": [
       {
         "phase_detail": "Construction",
@@ -251,8 +251,8 @@
           "actual_commencement_date": "03/11/2025",
           "unit_type": "House or Bungalow",
           "provision_for_older_persons": false,
-          "unit_development_type": "New Build",
-          "gia": 200
+          "gia": 200,
+          "unit_development_type": "New Build"
         },
         {
           "provider": "Private",
@@ -261,8 +261,8 @@
           "unit_type": "House or Bungalow",
           "no_bedrooms": 7,
           "provision_for_older_persons": false,
-          "unit_development_type": "New Build",
-          "gia": 408
+          "gia": 408,
+          "unit_development_type": "New Build"
         }
       ],
       "total_no_existing_residential_units_london_living_rent": 0,
@@ -306,8 +306,9 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 200,
-        "gia_gained": 408,
         "use_class": "C3",
+        "gia_gained": 408,
+        "actual_commencement_date": "03/11/2025",
         "gia_lost": 200
       }
     ],
@@ -325,10 +326,10 @@
     "transport_impact_assessment": false,
     "infrastructure_details": {
       "no_homes_to_have_electrical_heating": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "urban_greening_factor_score": 0.4,
       "green_roof_area": 0,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "no_resi_units_to_have_full_fibre": 1,
       "no_homes_passive_cooling": 0,
       "no_new_water_connections_required": 0,

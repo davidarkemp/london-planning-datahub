@@ -19,7 +19,7 @@
   ],
   "postcode": "KT1 4DW",
   "decision_date": "25/07/2025",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "PP overwrite repair",
   "centroid_easting": 517320,
   "secondary_street_name": null,
   "appeal_status": null,
@@ -31,7 +31,7 @@
     "no_proposed_car": 0
   },
   "development_type": null,
-  "last_updated": "2026-06-28T13:24:57.595Z",
+  "last_updated": "2026-07-16T19:19:32.371Z",
   "last_date_consultation_comments": null,
   "uprn": 100023057465,
   "application_type_full": "Prior Approval: Change of use from Commercial, Business and Service (Use Class E) to Dwellinghouses (Use Class C3)",
@@ -182,7 +182,7 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 3,
       "total_no_existing_residential_affordable_units": 0,
-      "habitable_rooms_density": 260.8695652173913,
+      "habitable_rooms_density": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_social_rent": 0,
@@ -200,49 +200,31 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": true,
-          "change_type": "Gain",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 2,
           "provider": "Private",
+          "change_type": "Gain",
+          "unit_type": "Studio Bedsit",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
           "tenure": "Market for sale",
-          "gia": 40.8
+          "unit_development_type": "Change of Use"
         },
         {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": true,
-          "change_type": "Gain",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 1,
           "provider": "Private",
+          "change_type": "Gain",
+          "unit_type": "Studio Bedsit",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
           "tenure": "Market for sale",
-          "gia": 42.4
+          "unit_development_type": "Change of Use"
         },
         {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": false,
-          "change_type": "Gain",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 3,
           "provider": "Private",
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
           "tenure": "Market for sale",
-          "gia": 75.1
+          "unit_development_type": "Change of Use"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -250,10 +232,10 @@
       "total_gia_gained": 158.29999999999998
     },
     "infrastructure_details": {
-      "waste_provision": true,
+      "waste_provision": false,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "total_annual_pm_emissions": 0,
       "no_resi_units_to_have_full_fibre": 3,
       "green_roof_area": 0,
@@ -275,8 +257,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 186.4,
-        "gia_gained": 186.4,
         "use_class": "EC2",
+        "gia_gained": 186.4,
         "gia_lost": 186.4
       }
     ],

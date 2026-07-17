@@ -33,7 +33,7 @@
   "date_building_work_completed_under_previous_permission": null,
   "pp_id": "14116427",
   "status": "Approved",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "PP overwrite repair",
   "polygon": {
     "geometries": [
       {
@@ -449,7 +449,7 @@
   "decision_target_date": "01/09/2025",
   "valid_date": "07/07/2025",
   "development_type": "Notifications",
-  "last_updated": "2026-06-27T10:34:35.144Z",
+  "last_updated": "2026-07-16T19:57:31.330Z",
   "subdivision_of_building": null,
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
@@ -470,16 +470,9 @@
   "application_details": {
     "existing_proposed_floorspace_details": [
       {
-        "gia_existing": 238.7,
-        "gia_gained": 0,
-        "use_class": "EG1",
-        "gia_lost": 238.7
-      },
-      {
-        "gia_existing": 0,
-        "gia_gained": 238.7,
-        "use_class": "C3",
-        "gia_lost": 0
+        "gia_existing": 218,
+        "use_class": "E(g)(i)",
+        "gia_lost": 218
       }
     ],
     "resi_extension_exempt": false,
@@ -495,33 +488,29 @@
       "residential_units": [
         {
           "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": false,
-          "change_type": "Gain",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 4,
           "provider": "Private",
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
           "tenure": "Market for sale",
-          "gia": 91.1
+          "gia": 101.5,
+          "unit_development_type": "Change of Use"
         },
         {
           "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": false,
-          "change_type": "Gain",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 3,
           "provider": "Private",
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
           "tenure": "Market for sale",
-          "gia": 101.5
+          "gia": 91.1,
+          "unit_development_type": "Change of Use"
         }
       ],
       "total_no_existing_residential_units_london_living_rent": 0,
@@ -564,8 +553,8 @@
     "infrastructure_details": {
       "fire_suppression_system_proposed": false,
       "mobile_network_operators_consultation": false,
-      "waste_provision": true,
-      "ghg_reduction_over_building_regulations": true,
+      "waste_provision": false,
+      "ghg_reduction_over_building_regulations": false,
       "total_annual_pm_emissions": 0,
       "no_resi_units_to_have_full_fibre": 2,
       "green_roof_area": 0,

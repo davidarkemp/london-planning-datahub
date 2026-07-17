@@ -1,12 +1,14 @@
 {
   "decision_agency": null,
-  "status": "Approved",
+  "status": "Completed",
   "decision": "Approved",
   "centroid": {
     "lon": 0.075701,
     "lat": 51.390484
   },
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "borough": "Bromley Custodian Code",
   "application_type": "All Other",
   "date_building_work_started_under_previous_permission": null,
@@ -15,16 +17,14 @@
   "decision_target_date": "11/12/2024",
   "appeal_decision_date": null,
   "locality": "Petts Wood",
-  "centroid_northing": "167760",
+  "centroid_northing": 167760,
   "ward": "PETSWK",
   "decision_conditions": [
     "Refuse Storage Implementation",
     "Car Parking Details to be Implemented",
     "Obscure Glazed/Fixed Shut Windows",
     "Standard Time Limit",
-    "Standard Compliance with Plans",
-    "",
-    ""
+    "Standard Compliance with Plans"
   ],
   "pp_id": "PP-13478557",
   "decision_process": "Delegated",
@@ -33,9 +33,9 @@
   "parking_details": null,
   "date_building_work_completed_under_previous_permission": null,
   "id": "Bromley-24_03839_FULL1",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "06/03/2025",
   "lpa_name": "Bromley",
-  "last_updated": "2025-03-19T21:00:27.478Z",
+  "last_updated": "2026-07-16T11:56:01.121Z",
   "lpa_app_no": "24/03839/FULL1",
   "wgs84_polygon": {
     "coordinates": [
@@ -69,15 +69,15 @@
   "title_number": [],
   "decision_date": "06/03/2025",
   "appeal_start_date": null,
-  "cil_liability": true,
+  "cil_liability": false,
   "development_type": null,
   "description": "Change of use of self-contained first floor office to rear of site to 2 bedroom flat with 2m high screen fence between existing and proposed first floor flats",
   "epc_number": null,
   "reference_no_of_permission_being_relied_on": null,
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "appeal_decision": null,
-  "actual_completion_date": null,
-  "centroid_easting": "544519",
+  "actual_completion_date": "19/04/2025",
+  "centroid_easting": 544519,
   "url_planning_app": null,
   "application_details": {
     "affordable_housing_fast_track": false,
@@ -95,20 +95,24 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 64.6,
-        "use_class": "E(g)(i)",
+        "actual_completion_date": "06/03/2025",
         "gia_gained": 0,
+        "use_class": "E(g)(i)",
+        "actual_commencement_date": "06/03/2025",
         "gia_lost": 64.6
       },
       {
         "gia_existing": 0,
-        "use_class": "C3",
+        "actual_completion_date": "06/03/2025",
         "gia_gained": 64.6,
+        "use_class": "C3",
+        "actual_commencement_date": "06/03/2025",
         "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "grey_water_reuse": false,
     "green_suds": false,
     "surface_water_discharge_percentage_reduction": 0,
@@ -117,7 +121,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 64.6,
       "total_gia_existing": 64.6,
-      "total_gia_lost": 64.6
+      "total_gia_lost": 64.6,
+      "site_area": 0.03733
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -140,13 +145,13 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 80.36431824270024,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 64.6,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 26.78810608090008,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_gia_lost": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -159,18 +164,24 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
+          "actual_completion_date": "19/04/2025",
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "unit_no": "Gain-1",
-          "change_type": "Gain",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "06/03/2025",
           "no_bedrooms": 2,
-          "unit_type": "Flat Apartment Maisonette",
-          "gia": 64.6,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 64.6
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.03733
     },
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
@@ -180,18 +191,31 @@
       "no_homes_passive_cooling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_to_have_electrical_heating": 1,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
-      "ghg_reduction_over_building_regulations": true
+      "ghg_reduction_over_building_regulations": false
     },
     "internal_resi_water_usage": 0,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.03733
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "postcode": "BR5 1LG",
   "last_date_consultation_comments": "06/11/2024",
   "secondary_street_name": null,

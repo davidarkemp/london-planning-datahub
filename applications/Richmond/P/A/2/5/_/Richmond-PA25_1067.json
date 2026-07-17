@@ -60,11 +60,11 @@
   },
   "secondary_street_name": null,
   "street_name": "",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "PP overwrite repair",
   "date_building_work_started_under_previous_permission": null,
   "application_details": {
     "lead_developer_company_name": "LBRuT Ecology (North/West)",
-    "site_area": 0.0259,
+    "site_area": 0.058,
     "s106_agreement": false,
     "3d_model": false,
     "affordable_housing_fast_track": false,
@@ -76,10 +76,10 @@
     "transport_impact_assessment": false,
     "circular_economy_statement": false,
     "commencement_notice_received": false,
-    "rain_water_harvesting": true,
-    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "scheme_phasing": false,
     "grey_water_reuse": false,
-    "green_suds": true,
+    "green_suds": false,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
@@ -88,7 +88,7 @@
       "total_gia_existing": 0,
       "total_gia_lost": 0
     },
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_proposed_bedrooms": 2,
@@ -96,7 +96,7 @@
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units": 0,
-      "total_no_proposed_residential_affordable_units": 1,
+      "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_living_rent": 0,
@@ -105,11 +105,11 @@
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_social_rent": 0,
-      "total_no_proposed_residential_units_self_build_and_custom_build": 1,
+      "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "total_no_proposed_residential_units_market_for_sale": 0,
+      "total_no_proposed_residential_units_market_for_sale": 1,
       "total_no_existing_residential_affordable_units": 0,
-      "habitable_rooms_density": 68.9655172413793,
+      "habitable_rooms_density": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_social_rent": 0,
@@ -124,22 +124,16 @@
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
-      "affordable_percentage": 100,
+      "affordable_percentage": 0,
       "residential_units": [
         {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": true,
+          "provider": "Private",
           "change_type": "Gain",
-          "garden_land": false,
-          "sheltered_accommodation": false,
           "unit_type": "House or Bungalow",
-          "no_habitable_rooms": 4,
-          "provider": "Self-Build",
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "tenure": "Self-Build and Custom Build",
-          "gia": 89.4
+          "tenure": "Market for sale",
+          "unit_development_type": "New Build"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -150,10 +144,10 @@
       "site_area": 0.058
     },
     "infrastructure_details": {
-      "waste_provision": true,
+      "waste_provision": false,
       "mobile_network_operators_consultation": false,
-      "fire_suppression_system_proposed": true,
-      "ghg_reduction_over_building_regulations": true,
+      "fire_suppression_system_proposed": false,
+      "ghg_reduction_over_building_regulations": false,
       "total_annual_pm_emissions": 0,
       "no_resi_units_to_have_full_fibre": 1,
       "green_roof_area": 0,
@@ -185,8 +179,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 0,
-        "gia_gained": 84.9,
         "use_class": "C3",
+        "gia_gained": 84.9,
         "gia_lost": 0
       }
     ],
@@ -383,6 +377,6 @@
   "pp_id": "PP-13879001",
   "reference_no_of_permission_being_relied_on": null,
   "borough": "Richmond",
-  "last_updated": "2026-06-28T08:22:47.742Z",
+  "last_updated": "2026-07-16T19:07:12.365Z",
   "actual_completion_date": null
 }

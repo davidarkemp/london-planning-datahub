@@ -1,7 +1,7 @@
 {
   "uprn": "010033525239",
   "ward": "SJW_22",
-  "epc_number": "0240-5990-0393-4011-8094",
+  "epc_number": null,
   "description": "Change of use of level 2, 3, and 4 from office (Class E) to three self-contained flats (Class C3) and elevated rear extension at levels 2 to 4 and installation of brick clad lift shaft to rear elevation.",
   "centroid_easting": "530408",
   "decision_date": null,
@@ -15,7 +15,7 @@
   "lpa_app_no": "26/04649/FULL",
   "title_number": [],
   "decision": null,
-  "last_updated": "2026-07-16T01:07:59.451Z",
+  "last_updated": "2026-07-16T20:08:34.646Z",
   "appeal_start_date": null,
   "actual_commencement_date": null,
   "bo_system": "Idox Uniform",
@@ -93,20 +93,20 @@
     "scheme_phasing": true,
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "SpecifiedOther",
         "gia_existing": 29.88,
+        "use_class": "SpecifiedOther",
         "gia_gained": 43.26,
         "gia_lost": 0
       },
       {
-        "use_class": "EG1",
         "gia_existing": 134.64,
+        "use_class": "EG1",
         "gia_gained": 0,
         "gia_lost": 134.64
       },
       {
-        "use_class": "C3",
         "gia_existing": 0,
+        "use_class": "C3",
         "gia_gained": 157.38,
         "gia_lost": 0
       }
@@ -120,30 +120,30 @@
       "residential_units": [
         {
           "no_habitable_rooms": 2,
-          "tenure": "Market for sale",
-          "gia": 52,
+          "provider": "Private",
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "provider": "Private"
+          "tenure": "Market for sale",
+          "gia": 52
         },
         {
           "no_habitable_rooms": 2,
-          "tenure": "Market for sale",
-          "gia": 52,
+          "provider": "Private",
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "provider": "Private"
+          "tenure": "Market for sale",
+          "gia": 52
         },
         {
           "no_habitable_rooms": 2,
-          "tenure": "Market for sale",
-          "gia": 52,
+          "provider": "Private",
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "provider": "Private"
+          "tenure": "Market for sale",
+          "gia": 52
         }
       ],
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
@@ -185,9 +185,9 @@
     "total_gia_gained": 200.64,
     "phasing_details": [
       {
+        "phase_detail": "One Phase",
         "intended_completion_date": "05/2027",
-        "intended_commencement_date": "09/2026",
-        "phase_detail": "One Phase"
+        "intended_commencement_date": "09/2026"
       }
     ],
     "affordable_housing_fast_track": false,
@@ -198,8 +198,8 @@
     "surface_water_discharge_percentage_reduction": 0,
     "superseding_details": [
       {
-        "partial_supersedence": false,
-        "lpa_app_no": "25/09015/PACU2F"
+        "lpa_app_no": "25/09015/PACU2F",
+        "partial_supersedence": false
       }
     ],
     "green_suds": false
@@ -207,7 +207,7 @@
   "site_name": "Second Floor To Fourth Floor",
   "decision_process": null,
   "postcode": "WC2E 7HE",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "centroid": {
     "lat": 51.510826,
     "lon": -0.122194
@@ -215,7 +215,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -239,7 +238,8 @@
               180765
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"
@@ -247,7 +247,7 @@
   "appeal_decision": null,
   "borough": "Westminster",
   "cil_liability": false,
-  "subdivision_of_building": "Lift shaft to rear extends to ground floor, but change of use and extensions are for Level 2 to Level 4 only. ",
+  "subdivision_of_building": null,
   "development_type": null,
   "reference_no_of_permission_being_relied_on": null
 }

@@ -6,10 +6,10 @@
   "appeal_decision": null,
   "lapsed_date": "30/04/2029",
   "appeal_decision_date": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "PP overwrite repair",
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": "0825-2598-6230-9600-8003",
-  "last_updated": "2026-06-28T05:11:29.940Z",
+  "last_updated": "2026-07-16T19:01:13.158Z",
   "url_planning_app": "https://publicaccess.kingston.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TACUUYNHMOJ00",
   "street_name": "Shalston Villas",
   "parking_details": {
@@ -22,7 +22,7 @@
   "site_name": "Fiddlers Green",
   "site_number": null,
   "application_details": {
-    "total_gia_existing": 349.78,
+    "total_gia_existing": 0,
     "ownership_status": "Private",
     "phasing_details": [
       {
@@ -47,12 +47,14 @@
       "other_resi_accommodation_unit_details": [
         {
           "no_bedrooms_for_older_persons_c2": 0,
+          "no_bedrooms_for_older_persons_sg": 0
+        },
+        {
           "no_rooms_proposed": 0,
-          "unit_type": "ResidentialCareHomeRoom",
+          "unit_type": "Care Home Bedroom",
           "no_rooms_lost": 10
         },
         {
-          "no_bedrooms_for_older_persons_c2": 0,
           "no_rooms_proposed": 10,
           "unit_type": "Secure Residential Room",
           "no_rooms_lost": 0
@@ -117,13 +119,13 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 349.78,
-        "gia_gained": 153.89,
         "use_class": "C2",
+        "gia_gained": 153.89,
         "gia_lost": 0
       }
     ],
     "green_suds": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "infrastructure_details": {
       "no_active_other_ev_charging_points": 0,
       "no_active_rapid_ev_charging_points": 0,

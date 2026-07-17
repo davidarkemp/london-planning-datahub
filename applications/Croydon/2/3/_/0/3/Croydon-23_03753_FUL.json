@@ -39,7 +39,7 @@
     ],
     "type": "MultiPolygon"
   },
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "PP overwrite repair",
   "appeal_start_date": null,
   "reference_no_of_permission_being_relied_on": null,
   "application_type": "All Other",
@@ -55,7 +55,7 @@
     "mayoral_cil_liability_notice_issued": false,
     "borough_cil_liability_notice_issued": false,
     "transport_impact_assessment": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "rain_water_harvesting": false,
     "circular_economy_statement": false,
     "commencement_notice_received": false,
@@ -69,7 +69,7 @@
       "total_gia_existing": 250,
       "total_gia_lost": 50
     },
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_proposed_bedrooms": 2,
@@ -91,7 +91,7 @@
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": 24.793388429752067,
+      "habitable_rooms_density": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
@@ -108,19 +108,15 @@
       "affordable_percentage": 100,
       "residential_units": [
         {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": false,
+          "provider": "Self-Build",
           "change_type": "Gain",
           "garden_land": true,
-          "sheltered_accommodation": false,
           "unit_type": "House or Bungalow",
-          "no_habitable_rooms": 3,
-          "provider": "Private",
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
           "tenure": "Self-Build and Custom Build",
-          "gia": 76
+          "gia": 50,
+          "unit_development_type": "New Build"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -128,10 +124,10 @@
       "total_gia_gained": 76
     },
     "infrastructure_details": {
-      "waste_provision": true,
+      "waste_provision": false,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "total_annual_pm_emissions": 0,
       "no_active_slow_ev_charging_points": 1,
       "no_resi_units_to_have_full_fibre": 1,
@@ -166,8 +162,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 250,
-        "gia_gained": 0,
         "use_class": "c3",
+        "gia_gained": 0,
         "gia_lost": 50
       }
     ],
@@ -233,7 +229,7 @@
     "net_car": 2,
     "no_proposed_car": 4
   },
-  "last_updated": "2026-06-28T10:50:12.452Z",
+  "last_updated": "2026-07-16T19:12:15.229Z",
   "appeal_status": null,
   "street_name": "Onslow Gardens",
   "ward": "SA18",

@@ -1,6 +1,6 @@
 {
   "decision_target_date": "04/09/2025",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "PP overwrite repair",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Minor dwellings",
@@ -18,13 +18,10 @@
     "transport_impact_assessment": false,
     "existing_proposed_floorspace_details": [
       {
-        "gia_existing": 192,
-        "gia_gained": 4,
-        "use_class": "C3",
-        "gia_lost": 0
+        "use_class": "C3"
       }
     ],
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "rain_water_harvesting": false,
     "circular_economy_statement": false,
     "commencement_notice_received": false,
@@ -40,11 +37,11 @@
     "garden_land_lost": false,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_bedrooms": 2,
-      "total_no_proposed_residential_units": 1,
+      "total_no_proposed_bedrooms": 6,
+      "total_no_proposed_residential_units": 3,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_affordable_units": 0,
-      "total_no_existing_residential_units": 0,
+      "total_no_existing_residential_units": 2,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
@@ -52,7 +49,7 @@
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "total_no_proposed_residential_units_market_for_rent": 1,
+      "total_no_proposed_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
@@ -75,19 +72,42 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": false,
-          "change_type": "Gain",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 1,
           "provider": "Private",
+          "change_type": "Loss",
+          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
+          "unit_development_type": "Conversion"
+        },
+        {
+          "provider": "Private",
+          "change_type": "Loss",
+          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
+          "unit_development_type": "Conversion"
+        },
+        {
+          "provider": "Private",
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "tenure": "Market for rent",
-          "gia": 65.8
+          "unit_development_type": "Conversion"
+        },
+        {
+          "provider": "Private",
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "unit_development_type": "Conversion"
+        },
+        {
+          "provider": "Private",
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "unit_development_type": "Conversion"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -95,7 +115,7 @@
       "total_gia_gained": 65.8
     },
     "infrastructure_details": {
-      "waste_provision": true,
+      "waste_provision": false,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "ghg_reduction_over_building_regulations": false,
@@ -157,7 +177,7 @@
     "10.\tHard and Soft LandscapingThe development hereby approved shall not be first occupied until there has been submitted to, and approved by, the local planning authority:a.\tA scheme of hard and soft landscaping works which shall include: planting plans (at a scale not less than 1:100), and schedules of plants, noting species, plant sizes and proposed numbers / densities, written specification of planting and cultivation works to be undertaken, and a landscape implementation programme;b.\tA scheme of hard landscaping works which shall include: material details, if permeable materials are used full construction details of permeable paving and their maintenance plan. If non permeable material is used, details regarding management of surface water run-oﬀ from the proposed hardstanding.c.\tDetails of the proposed boundary treatment for the rear garden; including details of their materials, colouring and height. This shall also include detail on proposed new access gates.The proposed details shall be implemented in accordance with the approved plans prior to the first occupation of the site and retained as such thereafter."
   ],
   "site_number": null,
-  "last_updated": "2026-06-27T20:39:05.916Z",
+  "last_updated": "2026-07-16T18:29:10.319Z",
   "last_date_consultation_comments": "07/08/2025",
   "valid_date": "10/07/2025",
   "actual_commencement_date": null,

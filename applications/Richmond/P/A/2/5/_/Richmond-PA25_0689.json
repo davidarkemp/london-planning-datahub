@@ -34,7 +34,7 @@
   },
   "secondary_street_name": null,
   "street_name": "Heath Road ",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "PP overwrite repair",
   "date_building_work_started_under_previous_permission": null,
   "application_details": {
     "lead_developer_company_name": "LBRuT Environmental Health Contaminated",
@@ -68,11 +68,11 @@
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_proposed_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "total_no_proposed_residential_units_market_for_sale": 1,
+      "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "habitable_rooms_density": null,
@@ -91,19 +91,13 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": false,
-          "change_type": "Gain",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 1,
           "provider": "Private",
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "tenure": "Market for sale",
-          "gia": 45
+          "tenure": "Market for rent",
+          "unit_development_type": "Extension"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -111,7 +105,7 @@
       "total_gia_gained": 45
     },
     "infrastructure_details": {
-      "waste_provision": true,
+      "waste_provision": false,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "ghg_reduction_over_building_regulations": false,
@@ -142,14 +136,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 134.3,
-        "gia_gained": 0,
         "use_class": "EC2",
+        "gia_gained": 0,
         "gia_lost": 0
       },
       {
         "gia_existing": 47,
-        "gia_gained": 2,
         "use_class": "C3",
+        "gia_gained": 2,
         "gia_lost": 0
       }
     ]
@@ -200,6 +194,6 @@
   "pp_id": "PP-13851181",
   "reference_no_of_permission_being_relied_on": null,
   "borough": "Richmond",
-  "last_updated": "2026-06-28T09:19:57.116Z",
+  "last_updated": "2026-07-16T19:09:25.768Z",
   "actual_completion_date": null
 }

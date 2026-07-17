@@ -118,7 +118,7 @@
     "type": "GeometryCollection"
   },
   "actual_completion_date": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "PP overwrite repair",
   "status": "Dismissed",
   "wgs84_polygon": {
     "coordinates": [
@@ -256,8 +256,8 @@
           "change_type": "Loss",
           "garden_land": false,
           "sheltered_accommodation": false,
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 32.8
@@ -273,14 +273,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 32.8,
-        "gia_gained": 0,
         "use_class": "C3",
+        "gia_gained": 0,
         "gia_lost": 32.8
       },
       {
         "gia_existing": 0,
-        "gia_gained": 32.8,
         "use_class": "SG",
+        "gia_gained": 32.8,
         "gia_lost": 0
       }
     ],
@@ -302,10 +302,10 @@
     },
     "non_residential_details": {
       "total_gia_gained": 32.8,
-      "total_gia_lost": 32.8,
+      "total_gia_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "site_area": 0.02,
-      "total_gia_existing": 32.8,
+      "total_gia_existing": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 32.8
     },
     "site_area": 0.015,
@@ -385,6 +385,9 @@
       "other_resi_accommodation_unit_details": [
         {
           "no_bedrooms_for_older_persons_c2": 0,
+          "no_bedrooms_for_older_persons_sg": 0
+        },
+        {
           "no_rooms_proposed": 1,
           "unit_type": "Apart-Hotel Room",
           "no_rooms_lost": 0
@@ -399,7 +402,7 @@
   "description": "Change of use of Flat 8 Hook Road from Class C3 (dwellinghouse) to sui generis short-term holiday accommodation (exceeding 90 days per calendar year)",
   "street_name": "Hook Road",
   "id": "Kingston-25_01813_FUL",
-  "last_updated": "2026-06-28T10:16:58.112Z",
+  "last_updated": "2026-07-16T19:10:47.988Z",
   "decision_process": "Delegated",
   "lpa_app_no": "25/01813/FUL",
   "date_building_work_started_under_previous_permission": null,

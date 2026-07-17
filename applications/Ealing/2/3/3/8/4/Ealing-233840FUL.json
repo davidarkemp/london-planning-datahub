@@ -2,20 +2,70 @@
   "lpa_app_no": "233840FUL",
   "uprn": "000012095283",
   "lapsed_date": "22/08/2027",
-  "centroid_northing": 180145,
+  "centroid_northing": null,
   "site_number": null,
   "date_building_work_started_under_previous_permission": null,
-  "bo_system": "CSV Data Import",
-  "site_name": "Six Bells ",
+  "bo_system": "Portal",
+  "site_name": "Six Bells \n211 High Street\nActon\nW3 9DD",
   "appeal_decision_date": null,
   "valid_date": "02/10/2023",
   "decision_date": "22/08/2024",
-  "wgs84_polygon": null,
-  "last_updated_by": "CSV Data Import",
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.27295739999999996,
+          51.5074063
+        ],
+        [
+          -0.27293449999999997,
+          51.507454
+        ],
+        [
+          -0.2728274,
+          51.5075621
+        ],
+        [
+          -0.27295959999999997,
+          51.5076099
+        ],
+        [
+          -0.27299,
+          51.507605
+        ],
+        [
+          -0.2731057,
+          51.5075199
+        ],
+        [
+          -0.2731175,
+          51.5075106
+        ],
+        [
+          -0.2731376,
+          51.5074956
+        ],
+        [
+          -0.2730146,
+          51.5074302
+        ],
+        [
+          -0.2729603,
+          51.5074013
+        ],
+        [
+          -0.27295739999999996,
+          51.5074063
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "last_updated_by": "Planning Portal ingest",
   "appeal_start_date": null,
   "reference_no_of_permission_being_relied_on": null,
   "application_type": "All Other",
-  "decision_process": "Delegated",
+  "decision_process": null,
   "application_details": {
     "total_gia_lost": 547,
     "scheme_phasing": true,
@@ -31,48 +81,44 @@
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units": 4,
-      "dwelling_density": 0,
+      "dwelling_density": 160,
       "affordable_percentage": 0,
       "residential_units": [
         {
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "unit_no": "Gain-1",
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 54,
-          "tenure": "Market for sale"
+          "no_bedrooms": 1,
+          "tenure": "Market for sale",
+          "gia": 54
         },
         {
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "unit_no": "Gain-2",
           "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "unit_type": "Flat Apartment Maisonette",
-          "gia": 54,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 54
         },
         {
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "unit_no": "Gain-3",
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 63,
-          "tenure": "Market for sale"
+          "no_bedrooms": 2,
+          "tenure": "Market for sale",
+          "gia": 63
         },
         {
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "unit_no": "Gain-4",
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 63,
-          "tenure": "Market for sale"
+          "no_bedrooms": 2,
+          "tenure": "Market for sale",
+          "gia": 63
         }
       ],
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -81,7 +127,7 @@
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 400,
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
@@ -103,7 +149,8 @@
       "total_no_proposed_residential_units_market_for_sale": 4,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0
+      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "site_area": 0.025
     },
     "infrastructure_details": {
       "no_new_water_connections_required": 4,
@@ -138,7 +185,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 547,
       "total_gia_lost": 547,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 247,
-      "total_gia_existing": 547
+      "total_gia_existing": 547,
+      "site_area": 0.025
     },
     "existing_uprns": [
       "000012095283"
@@ -154,58 +202,66 @@
     "surface_water_discharge_percentage_reduction": 0,
     "affordable_housing_fast_track": false,
     "site_area": 0.02,
-    "garden_land_lost": false
+    "garden_land_lost": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.025
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "appeal_decision": null,
-  "postcode": "W3 9DD",
-  "development_type": "Minor dwellings",
-  "title_number": null,
-  "centroid_easting": 519953,
-  "actual_commencement_date": null,
+  "postcode": "",
+  "development_type": null,
+  "title_number": [],
+  "centroid_easting": null,
+  "actual_commencement_date": "22/08/2024",
   "description": "Change of use of first and second floor to 4 flats residential; installation of PV panels; balustrade at rear elevation first floor level; key clamp at roof level; installation of roof cover on existing external staircase",
   "decision": "Approved",
-  "actual_completion_date": null,
-  "borough": "Ealing",
+  "actual_completion_date": "13/02/2026",
+  "borough": "London Borough of Ealing",
   "epc_number": "0880-0734-9329-7400-3096",
   "subdivision_of_building": "First and Second floors",
   "centroid": {
-    "lon": -0.272988,
-    "lat": 51.507514
+    "lon": -7.55716,
+    "lat": 49.766807
   },
-  "url_planning_app": "https://pam.ealing.gov.uk/online-applications/PLAN/233840FUL;",
+  "url_planning_app": null,
   "pp_id": "PP-12404750",
   "id": "Ealing-233840FUL",
   "application_type_full": "Full planning permission",
-  "cil_liability": true,
-  "status": "Approved",
+  "cil_liability": false,
+  "status": "Commenced",
   "date_building_work_completed_under_previous_permission": null,
   "secondary_street_name": null,
-  "decision_agency": "Borough",
-  "decision_target_date": "30/08/2024",
-  "locality": "London",
+  "decision_agency": null,
+  "decision_target_date": "27/11/2023",
+  "locality": null,
   "lpa_name": "Ealing",
-  "last_date_consultation_comments": null,
+  "last_date_consultation_comments": "25/10/2023",
   "decision_conditions": [
-    "The development to which this permission relates shall be begun not later than the expiration of three years from the date of this permission.",
-    "Reason: To comply with Section 91 of the Town & Country Planning Act 1990. | The development hereby approved shall be carried out in accordance with the following approved drawings and documents: SExisting Floor Plans 0180-KLA-00-ZZ-DR-19 001 rev P02, Proposed Floor Plans 0180-KLA-00-ZZ-DR-10 001 rev P13, Existing Elevations 0180-KLA-00-XX-DR-20 001 rev P02, Proposed Elevations 0180-KLA-00-XX-DR-20 002 rev P08, Existing Section AA 0180-KLA-00-XX-DR-30 001 rev P02, Proposed Section AA 0180-KLA-00-XX-DR-30 002 rev P03, Air Quality Assessment 26th June 2023, Noise Impact Assessment January 2024, Energy Statement 21 June 2023, Site Location Plan 0180-KLA-00-XX-DR-18 001 rev P01, Site Block Plan 0180-KLA-00-XX-DR-18 002 rev P01.",
-    "Reason: For the avoidance of doubt and in the interests of proper planning. | All external materials to be used in the development shall be consistent with those as listed within the provided details and carried out in accordance with the approved plans as listed in condition 2.",
-    "Reason: To ensure that the materials harmonise with the surroundings, in accordance with Policies D3 and D4 of the London Plan (2021), Policies 7.4, 7.6 and 7B of Adopted Ealing Development Management Plan Document (2013) and Polices 1.1 (k) and 1.2 (f) of the adopted Development (Core) Strategy (2012). | A minimum of four (4) cycle parking spaces shall be provided within the curtilage of the development in a secure compound. Such provision shall be brought into use prior to first occupation and retained permanently.",
-    "Reason: To provide adequate facilities for cyclists, in accordance with policy T5 of the London Plan (2021). | The development hereby approved shall not be occupied until refuse and recycling storage within a secure enclosure has been provided in accordance with the Local Planning Authority Standards and has been fully implemented and made available for use. These facilities shall permanently retained thereafter.",
-    "Reason: To ensure the provision of satisfactory facilities for the storage of refuse and recycling material, in accordance with policy SI 8 of the London Plan (2021).",
-    "| Details shall be submitted to the Council for approval in writing, of the sound insulation of the building envelope, including glazing specifications (laboratory tested including frames, seals and any integral ventilators, approved in accordance with BS EN ISO 10140-2:2010) and of acoustically attenuated mechanical ventilation and cooling as necessary (with air intake from the cleanest aspect of the building and details of self-noise), together with resulting internal noise levels. Details of best practicable mitigation measures for external amenity spaces shall also be provided and implemented, as necessary. Details shall confirm that noise limits specified in BS8233:2014 will not be exceeded. Approved details shall be implemented prior to occupation of the development and thereafter be permanently retained.",
-    "Reason: In the interests of the living conditions of the future occupiers of the site in accordance with policies 7A and policy 7B of Ealing's Development Management DPD (2013), policy D14 and SI1 of the London Plan (2021), policy 1.1 (j) of the Ealing Development (Core) Strategy (2012), Standard 30 London Housing SPG 2016 and National Planning Policy Framework (2023).",
-    "| Prior to the commencement of the development (excluding initial site clearance demolition and ground works), details shall be submitted to the Local Planning Authority for approval in writing, of plant/ machinery/ equipment/ducting/air in- and outlets/ mechanical installations associated with the development and their external rating noise level (LAr,Tr), together with mitigation measures as appropriate. The measures shall ensure that the emitted external rating noise level will not exceed a level of 10dBA below the existing representative background level LA90 at the most noise sensitive receiver locations at the development site and at surrounding premises. The assessment shall be made in accordance with BS4142:2014 +A1 2019, with all plant/equipment operating together at maximum capacity.",
-    "Approved details shall be implemented prior to occupation/ use of plant/ machinery/ equipment and thereafter be permanently retained.",
-    "Reason:   To ensure that the amenity of occupiers of the development site/ surrounding premises is not adversely affected by noise from mechanical installations/ equipment, in accordance with Policies 7A and policy 7B of Ealing's Development Management DPD (2013), policy D14 and SI1 of the London Plan (2021), policy 1.1 (j) of the Ealing Development (Core) Strategy (2012), Standard 30 London Housing SPG 2016 and National Planning Policy Framework (2023).",
-    "| Prior to use, machinery, plant and equipment/ extraction/ ventilation system and ducting at the development shall be mounted with proprietary anti-vibration isolators and fan motors shall be vibration isolated from the casing and adequately silenced and maintained as such.",
-    "Reason:  To ensure that the amenity of occupiers of the development site/ surrounding premises is not adversely affected by vibration noise from mechanical installations/ equipment, in accordance with Policies 7A and policy 7B of Ealing's Development Management DPD (2013), policy D14 and SI1 of the London Plan (2021), policy 1.1 (j) of the Ealing Development (Core) Strategy (2012), Standard 30 London Housing SPG 2016 and National Planning Policy Framework (2023).",
-    "| Prior to commencement of the development, details shall be submitted to the Council for approval in writing, of an enhanced sound insulation value of at least 10dB/ 15dB/ 20dB, as necessary, above the Building Regulations value for residential use, of the floor/ ceiling/ walls separating the communal staircase and separate flat entrances from bedrooms, and the commercial premises from dwellings.  Where commercial noise emissions include characteristic features, the Noise Rating level should not exceed NR20 Leq 5mins (octaves) inside habitable rooms. Details shall include the installation method and materials of separating structures and, where necessary, additional mitigation measures and the resulting sound insulation value and internal sound level. The assessment and mitigation measures shall be based on standards and noise limits of the Council's SPG10 and BS8233:2014. Approved details shall be implemented prior to occupation of the development and thereafter be permanently retained.",
-    "Reason: To ensure that the amenity of occupiers of the development site is not adversely affected by noise, in accordance with Policies 7A, E7.A.7 and policy 7B of Ealing's Development Management DPD (2013), policy D14 and SI1 of the London Plan (2021), policy 1.1 (j) of the Ealing Development (Core) Strategy (2012), Standard 30 London Housing SPG 2016 and National Planning Policy Framework (2023)."
+    "Standard Cond - Expiration Three Years",
+    "anti-vibration isolators",
+    "enhanced sound insulation",
+    "sound insulation",
+    "Approved Plans",
+    "Cycle storage",
+    "Refuse",
+    "mechanical installations",
+    "Approved materials"
   ],
   "parking_details": null,
-  "last_updated": "2025-03-19T21:39:38.487+00:00",
+  "last_updated": "2026-07-17T01:46:25.298Z",
   "appeal_status": null,
-  "street_name": "High Street",
-  "ward": "South Acton",
-  "polygon": null
+  "street_name": "",
+  "ward": "SOUACT",
+  "polygon": {
+    "type": "geometrycollection"
+  }
 }

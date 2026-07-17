@@ -33,14 +33,14 @@
   "bo_system": "Agile APAS",
   "secondary_street_name": null,
   "subdivision_of_building": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "PP overwrite repair",
   "status": "Approved",
   "url_planning_app": null,
   "lpa_app_no": "1779/25",
   "valid_date": "12/08/2025",
   "application_details": {
     "lead_developer_company_name": "Highways & Cleansing",
-    "site_area": 0.026779,
+    "site_area": 0.135,
     "3d_model": false,
     "affordable_housing_fast_track": false,
     "s106_agreement": false,
@@ -50,7 +50,7 @@
     "existing_uprns": [],
     "borough_cil_liability_notice_issued": false,
     "transport_impact_assessment": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "circular_economy_statement": false,
     "rain_water_harvesting": false,
     "commencement_notice_received": false,
@@ -79,14 +79,14 @@
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "total_no_proposed_residential_units_market_for_rent": 2,
+      "total_no_proposed_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "total_no_proposed_residential_units_market_for_sale": 0,
+      "total_no_proposed_residential_units_market_for_sale": 2,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": 59.25925925925925,
+      "habitable_rooms_density": 44.44444444444444,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
@@ -103,34 +103,30 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "m43_2b_compliant": false,
+          "no_habitable_rooms": 3,
+          "provider": "Private",
           "m43_2a_compliant": false,
-          "m42_compliant": false,
+          "m42_compliant": true,
           "change_type": "Gain",
           "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "Semi Detached Home",
-          "no_habitable_rooms": 4,
-          "provider": "Private",
+          "unit_type": "House or Bungalow",
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "tenure": "Market for rent",
-          "gia": 79
+          "tenure": "Market for sale",
+          "unit_development_type": "New Build"
         },
         {
-          "m43_2b_compliant": false,
+          "no_habitable_rooms": 3,
+          "provider": "Private",
           "m43_2a_compliant": false,
-          "m42_compliant": false,
+          "m42_compliant": true,
           "change_type": "Gain",
           "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "Semi Detached Home",
-          "no_habitable_rooms": 4,
-          "provider": "Private",
+          "unit_type": "House or Bungalow",
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "tenure": "Market for rent",
-          "gia": 86
+          "tenure": "Market for sale",
+          "unit_development_type": "New Build"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -141,9 +137,9 @@
       "site_area": 0.135
     },
     "infrastructure_details": {
-      "waste_provision": true,
+      "waste_provision": false,
       "mobile_network_operators_consultation": false,
-      "fire_suppression_system_proposed": true,
+      "fire_suppression_system_proposed": false,
       "ghg_reduction_over_building_regulations": false,
       "total_annual_pm_emissions": 0,
       "no_resi_units_to_have_full_fibre": 2,
@@ -172,8 +168,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 144.55,
-        "gia_gained": 165.24,
         "use_class": "C3",
+        "gia_gained": 165.24,
         "gia_lost": 0
       }
     ],
@@ -363,7 +359,7 @@
     "type": "Polygon"
   },
   "cil_liability": false,
-  "last_updated": "2026-06-26T23:06:36.882Z",
+  "last_updated": "2026-07-16T20:52:47.856Z",
   "wgs84_polygon": {
     "coordinates": [
       [

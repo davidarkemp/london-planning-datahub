@@ -36,7 +36,7 @@
   "bo_system": "Idox Uniform",
   "secondary_street_name": null,
   "subdivision_of_building": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "PP overwrite repair",
   "status": "Approved",
   "url_planning_app": "https://publicaccess.kingston.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=SZYEA6NHIHF00",
   "lpa_app_no": "25/01980/FUL",
@@ -99,20 +99,6 @@
       "residential_units": [
         {
           "m43_2b_compliant": false,
-          "no_habitable_rooms": 9,
-          "m43_2a_compliant": false,
-          "m42_compliant": true,
-          "change_type": "Loss",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "no_bedrooms": 5,
-          "unit_type": "Semi Detached Home",
-          "provision_for_older_persons": false,
-          "tenure": "Market for sale",
-          "gia": 179.44
-        },
-        {
-          "m43_2b_compliant": false,
           "m43_2a_compliant": false,
           "m42_compliant": true,
           "change_type": "Gain",
@@ -140,6 +126,20 @@
           "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 119
+        },
+        {
+          "m43_2b_compliant": false,
+          "no_habitable_rooms": 9,
+          "m43_2a_compliant": false,
+          "m42_compliant": true,
+          "change_type": "Loss",
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Semi Detached Home",
+          "no_bedrooms": 5,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 179.44
         }
       ],
       "total_no_existing_residential_units_affordable_rent": 0,
@@ -163,12 +163,12 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
-      "total_gia_lost": 179.44,
+      "total_gia_lost": 0,
       "total_no_existing_residential_units": 1,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_existing_residential_units_starter_homes": 0,
-      "total_gia_gained": 241,
+      "total_gia_gained": 61.56,
       "total_no_proposed_residential_affordable_units": 0
     },
     "commencement_notice_received": false,
@@ -177,8 +177,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 179.44,
-        "gia_gained": 61.56,
         "use_class": "C3",
+        "gia_gained": 61.56,
         "gia_lost": 0
       }
     ],
@@ -237,15 +237,15 @@
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "site_area": 0.03,
-      "total_gia_gained": 61.56,
+      "total_gia_gained": 0,
       "total_gia_lost": 0,
-      "total_gia_existing": 179.44,
+      "total_gia_existing": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0
     },
     "garden_land_lost": false,
     "surface_water_discharge_percentage_reduction": 0,
     "s106_agreement": true,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "total_gia_gained": 61.56,
     "occupation_status": "Occupied"
   },
@@ -303,7 +303,7 @@
     ]
   },
   "cil_liability": true,
-  "last_updated": "2026-06-27T22:50:23.192Z",
+  "last_updated": "2026-07-16T18:38:26.363Z",
   "wgs84_polygon": {
     "coordinates": [
       [
