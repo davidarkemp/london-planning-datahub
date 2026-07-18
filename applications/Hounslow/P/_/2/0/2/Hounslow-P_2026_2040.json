@@ -15,7 +15,7 @@
   "lpa_app_no": "P/2026/2040",
   "title_number": null,
   "decision": null,
-  "last_updated": "2026-07-16T01:07:58.276Z",
+  "last_updated": "2026-07-17T12:30:09.522Z",
   "appeal_start_date": null,
   "actual_commencement_date": null,
   "bo_system": "Northgate M3",
@@ -119,14 +119,14 @@
       "no_homes_passive_cooling": 0,
       "waste_details": [
         {
-          "reason_for_no_provision": "no external space",
-          "internal_dry_recycling": true,
           "external_dry_recycling": false,
+          "external_food_waste": false,
+          "unit_reference": "W4 2ED",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "no external space",
           "internal_residual_waste": true,
           "internal_food_waste": true,
-          "external_residual_waste": false,
-          "external_food_waste": false,
-          "unit_reference": "W4 2ED"
+          "internal_dry_recycling": true
         }
       ],
       "no_non_resi_units_to_have_full_fibre": 1,
@@ -145,8 +145,8 @@
     "scheme_phasing": true,
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "EE",
         "gia_existing": 104.3,
+        "use_class": "EE",
         "gia_gained": 0,
         "gia_lost": 0
       }
@@ -156,9 +156,9 @@
     "total_gia_gained": 0,
     "phasing_details": [
       {
+        "phase_detail": "N/A",
         "intended_completion_date": "07/2026",
-        "intended_commencement_date": "07/2026",
-        "phase_detail": "N/A"
+        "intended_commencement_date": "07/2026"
       }
     ],
     "affordable_housing_fast_track": false,
@@ -174,7 +174,7 @@
   "site_name": null,
   "decision_process": null,
   "postcode": "W4 2ED",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Northgate M3",
   "centroid": {
     "lat": 51.492686,
     "lon": -0.252978
@@ -182,7 +182,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -246,7 +245,8 @@
               178518.08274758008
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"

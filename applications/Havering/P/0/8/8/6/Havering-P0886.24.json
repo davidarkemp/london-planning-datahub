@@ -4,14 +4,14 @@
   "decision_agency": "Borough",
   "application_type_full": "Full planning permission",
   "application_details": {
-    "existing_uprns": null,
-    "scheme_phasing": true,
+    "existing_uprns": [],
+    "scheme_phasing": false,
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
       "urban_greening_factor_score": 0.26,
       "no_new_gas_connections_required": 2,
-      "waste_provision": true,
-      "ghg_reduction_over_building_regulations": true,
+      "waste_provision": false,
+      "ghg_reduction_over_building_regulations": false,
       "no_homes_passive_cooling": 0,
       "no_active_slow_ev_charging_points": 0,
       "no_homes_to_have_electrical_heating": 0,
@@ -34,13 +34,14 @@
       }
     ],
     "grey_water_reuse": false,
-    "green_suds": true,
+    "green_suds": false,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_lost": 0,
       "total_gia_existing": 0,
       "total_gia_gained": 312.4,
-      "total_non_resi_gross_internal_floor_area_to_be_gained": 0
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "site_area": 0.0531
     },
     "total_gia_existing": 0,
     "surface_water_discharge_percentage_reduction": 70,
@@ -97,39 +98,48 @@
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 225.98870056497174,
       "total_gia_lost": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 37.664783427495294,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
-          "provider": "Private rented sector",
-          "no_habitable_rooms": 6,
-          "unit_no": "Gain-1",
+          "description": null,
           "change_type": "Gain",
           "garden_land": true,
           "unit_type": "Semi Detached Home",
+          "no_habitable_rooms": 6,
+          "provider": "Private rented sector",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "15/07/2026",
           "no_bedrooms": 4,
-          "gia": 156.2,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 156.2
         },
         {
-          "provider": "Private rented sector",
-          "no_habitable_rooms": 6,
-          "unit_no": "Gain-2",
+          "description": null,
           "change_type": "Gain",
           "garden_land": true,
           "unit_type": "Semi Detached Home",
+          "no_habitable_rooms": 6,
+          "provider": "Private rented sector",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "15/07/2026",
           "no_bedrooms": 4,
-          "gia": 156.2,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 156.2
         }
       ],
-      "total_no_existing_residential_units_london_affordable_rent": 0
+      "total_no_existing_residential_units_london_affordable_rent": 0,
+      "site_area": 0.0531
     },
     "site_area": 0.0531,
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "building_details": [
       {
         "no_storeys": 2,
@@ -143,7 +153,7 @@
       }
     ],
     "total_gia_gained": 312.4,
-    "rain_water_harvesting": true,
+    "rain_water_harvesting": false,
     "total_gia_lost": 0,
     "projected_cost_of_works": "Up to £2m",
     "internal_resi_water_usage": 105,
@@ -151,105 +161,117 @@
     "phasing_details": [
       {
         "phase_detail": "Construction ",
-        "intended_commencement_date": "09/2024",
-        "intended_completion_date": "03/2025"
+        "intended_completion_date": "03/2025",
+        "intended_commencement_date": "09/2024"
       }
-    ]
+    ],
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.0531
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          0.253947,
-          51.543266
+          0.253919,
+          51.543265
         ],
         [
-          0.254104,
-          51.5432801
+          0.254076,
+          51.543279
         ],
         [
-          0.2542178,
-          51.54329
+          0.25419,
+          51.543289
         ],
         [
-          0.2544979,
-          51.5433456
+          0.25447,
+          51.543344
         ],
         [
-          0.2549798,
-          51.5434094
+          0.254952,
+          51.543408
         ],
         [
-          0.2550041,
-          51.543348
+          0.254976,
+          51.543347
         ],
         [
-          0.2549549,
-          51.5433417
+          0.254927,
+          51.54334
         ],
         [
-          0.2549565,
-          51.5433331
+          0.254929,
+          51.543332
         ],
         [
-          0.2548544,
-          51.5433241
+          0.254827,
+          51.543323
         ],
         [
-          0.2549867,
-          51.5429159
+          0.254959,
+          51.542915
         ],
         [
-          0.2549786,
-          51.5429099
+          0.254951,
+          51.542909
         ],
         [
-          0.2548968,
-          51.5429164
+          0.254869,
+          51.542915
         ],
         [
-          0.254755,
-          51.5429326
+          0.254727,
+          51.542931
         ],
         [
-          0.2546523,
-          51.5429504
+          0.254625,
+          51.542949
         ],
         [
-          0.2545595,
-          51.5429691
+          0.254532,
+          51.542968
         ],
         [
-          0.254453,
-          51.5429883
+          0.254425,
+          51.542987
         ],
         [
-          0.2543934,
-          51.5430077
+          0.254366,
+          51.543006
         ],
         [
-          0.254276,
-          51.5430453
+          0.254248,
+          51.543044
         ],
         [
-          0.25416659999999996,
-          51.5430851
+          0.254139,
+          51.543084
         ],
         [
-          0.2540462,
-          51.5431374
+          0.254019,
+          51.543136
         ],
         [
-          0.25396959999999996,
-          51.5431693
+          0.253942,
+          51.543168
         ],
         [
-          0.2539085,
-          51.5431973
+          0.253881,
+          51.543196
         ],
         [
-          0.253947,
-          51.543266
+          0.253919,
+          51.543265
         ]
       ]
     ],
@@ -262,7 +284,7 @@
   "decision_date": "20/06/2025",
   "appeal_start_date": null,
   "lapsed_date": "20/06/2028",
-  "status": "Approved",
+  "status": "Commenced",
   "decision_process": "Delegated",
   "epc_number": "2791-3906-4209-4387-8200",
   "appeal_status": null,
@@ -348,7 +370,7 @@
   "cil_liability": false,
   "valid_date": "04/07/2024",
   "postcode": "RM14 2DN",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "borough": "Havering",
   "id": "Havering-P0886.24",
   "application_type": "All Other",
@@ -359,13 +381,13 @@
   },
   "decision_target_date": "20/06/2025",
   "pp_id": "13146863",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "locality": null,
   "uprn": "10096017223",
   "last_date_consultation_comments": "10/06/2025",
-  "title_number": null,
+  "title_number": [],
   "decision": "Approved",
-  "last_updated": "2025-07-25T03:59:13.263Z",
+  "last_updated": "2026-07-17T08:04:14.008Z",
   "polygon": {
     "geometries": [
       {
@@ -471,7 +493,7 @@
     "type": "GeometryCollection"
   },
   "date_building_work_started_under_previous_permission": null,
-  "actual_commencement_date": null,
+  "actual_commencement_date": "15/07/2026",
   "ward": "Upminster",
   "appeal_decision": null,
   "lpa_app_no": "P0886.24",
