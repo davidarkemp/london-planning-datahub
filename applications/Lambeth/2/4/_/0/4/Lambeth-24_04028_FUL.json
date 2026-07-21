@@ -1,6 +1,6 @@
 {
   "lpa_app_no": "24/04028/FUL",
-  "centroid_northing": "171786",
+  "centroid_northing": 171786,
   "status": "Approved",
   "epc_number": "2173-3615-9905-6314-0955",
   "last_date_consultation_comments": "30/04/2025",
@@ -8,7 +8,7 @@
   "secondary_street_name": null,
   "subdivision_of_building": null,
   "date_building_work_started_under_previous_permission": null,
-  "last_updated": "2026-01-27T14:47:24.541Z",
+  "last_updated": "2026-07-20T09:00:01.825Z",
   "valid_date": "23/12/2024",
   "polygon": {
     "type": "geometrycollection",
@@ -78,10 +78,10 @@
       }
     ]
   },
-  "cil_liability": true,
+  "cil_liability": false,
   "title_number": [],
   "decision_process": "Delegated",
-  "centroid_easting": "530123",
+  "centroid_easting": 530123,
   "actual_commencement_date": null,
   "url_planning_app": null,
   "site_number": "103, 105",
@@ -105,8 +105,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "05/2025",
-        "intended_completion_date": "08/2026"
+        "intended_completion_date": "08/2026",
+        "intended_commencement_date": "05/2025"
       }
     ],
     "total_gia_gained": 601.7,
@@ -116,7 +116,7 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 256,
-        "use_class": "ED",
+        "use_class": "E(d)",
         "gia_gained": 0,
         "gia_lost": 256
       },
@@ -135,7 +135,7 @@
     ],
     "projected_cost_of_works": "Between £2m and £100m",
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "grey_water_reuse": false,
     "building_details": [
       {
@@ -151,7 +151,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 302,
       "total_gia_gained": 601.7,
       "total_gia_existing": 797,
-      "total_gia_lost": 558
+      "total_gia_lost": 558,
+      "site_area": 0.0502
     },
     "garden_land_lost": false,
     "internal_resi_water_usage": 105,
@@ -163,13 +164,13 @@
       "no_new_water_connections_required": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 90,
       "no_homes_to_have_electrical_heating": 9,
       "mobile_network_operators_consultation": false,
-      "fire_suppression_system_proposed": true,
+      "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "chp_heat_pumps_capacity": 0
     },
     "residential_details": {
@@ -193,12 +194,12 @@
       "total_no_proposed_residential_units_market_for_sale": 9,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 537.8486055776892,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 630.7,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 199.20318725099602,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
@@ -211,107 +212,161 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Communal Space",
+          "provision_for_older_persons": false,
           "gia": 29
         },
         {
           "no_habitable_rooms": 2,
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 37,
-          "tenure": "Market for sale"
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 37
         },
         {
           "no_habitable_rooms": 2,
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 37,
-          "tenure": "Market for sale"
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 37
         },
         {
           "no_habitable_rooms": 2,
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "unit_type": "Flat Apartment Maisonette",
-          "gia": 39.1,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 39.1
         },
         {
           "no_habitable_rooms": 4,
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "unit_type": "Flat Apartment Maisonette",
-          "gia": 86.5,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 86.5
         },
         {
           "no_habitable_rooms": 3,
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 74.5,
-          "tenure": "Market for sale"
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 74.5
         },
         {
           "no_habitable_rooms": 3,
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 70,
-          "tenure": "Market for sale"
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 70
         },
         {
           "no_habitable_rooms": 3,
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 75.7,
-          "tenure": "Market for sale"
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 75.7
         },
         {
           "no_habitable_rooms": 4,
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 3,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 93.8,
-          "tenure": "Market for sale"
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 93.8
         },
         {
           "no_habitable_rooms": 4,
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 3,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 88.1,
-          "tenure": "Market for sale"
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 88.1
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.0502
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.0502
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "uprn": "100023315952",
   "decision_date": "22/12/2025",
   "description": "Retention of ground floor public house use (Sui Generis). Change of use of the 1st and 2nd floors from Public House (Sui Generis) to Residential (Use Class C3); erection of additional storey for residential use; introduction of associated access, circulation, cycle storage and waste storage to ground floor; limited demolition to reinstate original windows, introduce new windows, and redevelop rear elevation; retention of existing ground floor commercial unit.",
   "site_name": "",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Portal",
   "decision_target_date": "17/02/2025",
-  "borough": "London Borough of Lambeth",
+  "borough": "Lambeth",
   "postcode": "SW16 1HJ",
   "street_name": "Streatham High Road",
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "development_type": null,
   "lapsed_date": "22/12/2028",
   "decision_conditions": [
