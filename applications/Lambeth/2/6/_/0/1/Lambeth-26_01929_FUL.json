@@ -15,7 +15,7 @@
   "lpa_app_no": "26/01929/FUL",
   "title_number": [],
   "decision": null,
-  "last_updated": "2026-07-21T01:10:47.946Z",
+  "last_updated": "2026-07-21T20:02:08.841Z",
   "appeal_start_date": null,
   "actual_commencement_date": null,
   "bo_system": "Idox Uniform",
@@ -79,14 +79,14 @@
       "no_homes_passive_cooling": 0,
       "waste_details": [
         {
-          "reason_for_no_provision": "The proposal is for a small garden room ancillary to ground floor flat. Recycling is already in place for the flat",
-          "internal_dry_recycling": false,
           "external_dry_recycling": false,
+          "external_food_waste": false,
+          "unit_reference": "Gardenroom",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "The proposal is for a small garden room ancillary to ground floor flat. Recycling is already in place for the flat",
           "internal_residual_waste": false,
           "internal_food_waste": false,
-          "external_residual_waste": false,
-          "external_food_waste": false,
-          "unit_reference": "Gardenroom"
+          "internal_dry_recycling": false
         }
       ],
       "no_non_resi_units_to_have_full_fibre": 0,
@@ -106,8 +106,8 @@
     "scheme_phasing": true,
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "SpecifiedOther",
         "gia_existing": 0,
+        "use_class": "SpecifiedOther",
         "gia_gained": 10.5,
         "gia_lost": 0
       }
@@ -117,9 +117,9 @@
     "total_gia_gained": 10.5,
     "phasing_details": [
       {
+        "phase_detail": "Entire Development",
         "intended_completion_date": "09/2026",
-        "intended_commencement_date": "09/2026",
-        "phase_detail": "Entire Development"
+        "intended_commencement_date": "09/2026"
       }
     ],
     "affordable_housing_fast_track": false,
@@ -130,8 +130,8 @@
     "surface_water_discharge_percentage_reduction": 1,
     "building_details": [
       {
-        "max_height": 2.5,
         "no_storeys": 0,
+        "max_height": 2.5,
         "building_ref": "Garden studio"
       }
     ],
@@ -141,7 +141,7 @@
   "site_name": "",
   "decision_process": null,
   "postcode": "SE24 0BX",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "centroid": {
     "lat": 51.459765,
     "lon": -0.097602
@@ -149,7 +149,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -173,7 +172,8 @@
               175146
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"
@@ -181,7 +181,7 @@
   "appeal_decision": null,
   "borough": "Lambeth",
   "cil_liability": false,
-  "subdivision_of_building": "Garden",
+  "subdivision_of_building": null,
   "development_type": null,
   "reference_no_of_permission_being_relied_on": null
 }

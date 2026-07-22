@@ -1,24 +1,24 @@
 {
   "last_date_consultation_comments": "08/11/2024",
   "site_number": "282 - 284",
-  "ward": null,
+  "ward": "",
   "decision_date": "03/12/2024",
   "description": "Notification of Prior Approval for the change of use from a ground-floor commercial shop (Class E) to two studio flats (Class C3).",
   "development_type": null,
   "application_type": "All Other",
   "appeal_status": null,
-  "title_number": null,
-  "postcode": null,
+  "title_number": [],
+  "postcode": "",
   "locality": "London",
   "appeal_decision": null,
   "status": "Appeal in Progress",
   "pp_id": "PP-13470267",
   "street_name": "St Paul's Road",
-  "last_updated_by": "Agile APAS",
+  "last_updated_by": "Portal",
   "lpa_name": "Islington",
   "centroid": {
-    "lon": "-0.10087389999999999",
-    "lat": "51.5463651"
+    "lon": -0.100857,
+    "lat": 51.546353
   },
   "lpa_app_no": "P2024/2970/PRA",
   "borough": "Islington",
@@ -27,14 +27,18 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 80,
-        "use_class": "E(a)",
+        "superseded_date": "11/09/2025",
         "gia_gained": 0,
+        "use_class": "E(a)",
+        "superseded_by_lpa_app_no": "P2024/3709/PRA",
         "gia_lost": 80
       },
       {
         "gia_existing": 0,
-        "use_class": "C3",
+        "superseded_date": "11/09/2025",
         "gia_gained": 80,
+        "use_class": "C3",
+        "superseded_by_lpa_app_no": "P2024/3709/PRA",
         "gia_lost": 0
       }
     ],
@@ -45,7 +49,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 80,
       "total_gia_existing": 80,
-      "total_gia_lost": 80
+      "total_gia_lost": 80,
+      "site_area": 0.012
     },
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
@@ -67,13 +72,13 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 166.66666666666666,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 80,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 166.66666666666666,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_gia_lost": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -86,28 +91,39 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Studio Bedsit",
+          "superseded_date": "11/09/2025",
           "no_habitable_rooms": 1,
           "provider": "Private",
-          "unit_no": "Gain-1",
-          "change_type": "Gain",
+          "phase_detail": null,
+          "unit_no": null,
           "no_bedrooms": 1,
-          "unit_type": "Studio Bedsit",
-          "gia": 40,
-          "tenure": "Market for rent"
+          "superseded_by_lpa_app_no": "P2024/3709/PRA",
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 40
         },
         {
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Studio Bedsit",
+          "superseded_date": "11/09/2025",
           "no_habitable_rooms": 1,
           "provider": "Private",
-          "unit_no": "Gain-2",
-          "change_type": "Gain",
+          "phase_detail": null,
+          "unit_no": null,
           "no_bedrooms": 1,
-          "unit_type": "Studio Bedsit",
-          "gia": 40,
-          "tenure": "Market for rent"
+          "superseded_by_lpa_app_no": "P2024/3709/PRA",
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 40
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.012
     },
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
@@ -117,7 +133,7 @@
       "no_homes_passive_cooling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
@@ -129,54 +145,73 @@
     "intended_completion_date": "03/2025",
     "intended_commencement_date": "02/2025",
     "total_gia_existing": 80,
-    "site_area": 0.012
+    "site_area": 0.012,
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "scheme_phasing": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.012
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "garden_land_lost": false
   },
   "application_type_full": "Prior Approval: Change of use from Commercial, Business and Service (Use Class E) to Dwellinghouses (Use Class C3)",
-  "cil_liability": null,
+  "cil_liability": false,
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.1009622,
-          51.5463974
+          -0.100989,
+          51.546395
         ],
         [
-          -0.10095849999999999,
-          51.5463996
+          -0.100985,
+          51.546397
         ],
         [
-          -0.1008119,
-          51.546429
+          -0.100838,
+          51.546427
         ],
         [
-          -0.10079779999999999,
-          51.5463902
+          -0.100824,
+          51.546388
         ],
         [
-          -0.1007835,
-          51.5463243
+          -0.10081,
+          51.546322
         ],
         [
-          -0.10093239999999999,
-          51.5462995
+          -0.100959,
+          51.546297
         ],
         [
-          -0.10095119999999999,
-          51.5463708
+          -0.100978,
+          51.546369
         ],
         [
-          -0.1009622,
-          51.5463974
+          -0.100989,
+          51.546395
         ]
       ]
     ],
     "type": "Polygon"
   },
-  "centroid_easting": 531783,
+  "centroid_easting": 531786,
   "actual_commencement_date": null,
   "date_building_work_completed_under_previous_permission": null,
   "url_planning_app": null,
-  "bo_system": "Agile APAS",
+  "bo_system": "Portal",
   "appeal_start_date": "27/01/2025",
   "secondary_street_name": null,
   "subdivision_of_building": null,
@@ -184,7 +219,7 @@
   "site_name": null,
   "id": "Islington-P2024_2970_PRA",
   "decision_target_date": "05/12/2024",
-  "centroid_northing": 184761,
+  "centroid_northing": 184760,
   "date_building_work_started_under_previous_permission": null,
   "polygon": {
     "geometries": [
@@ -234,11 +269,11 @@
   "decision_conditions": [
     "E00, P01REV A, P02REV A, Sunlight and Daylight_October 2024."
   ],
-  "appeal_decision_date": null,
+  "appeal_decision_date": "06/06/2025",
   "uprn": "5300086895",
   "reference_no_of_permission_being_relied_on": null,
   "decision_process": null,
-  "last_updated": "2025-03-19T19:33:29.233+00:00",
+  "last_updated": "2026-07-21T10:33:18.579Z",
   "decision_agency": null,
   "parking_details": {
     "no_proposed_car": 0,
