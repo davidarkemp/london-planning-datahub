@@ -15,7 +15,7 @@
   "lpa_app_no": "26/02935/FUL",
   "title_number": null,
   "decision": null,
-  "last_updated": "2026-07-22T01:10:29.574Z",
+  "last_updated": "2026-07-22T20:13:41.041Z",
   "appeal_start_date": null,
   "actual_commencement_date": null,
   "bo_system": "Idox Uniform",
@@ -69,12 +69,12 @@
   "site_number": "2",
   "application_details": {
     "non_residential_details": {
-      "total_gia_gained": 121.5,
-      "total_gia_lost": 100.98,
+      "total_gia_gained": 0,
+      "total_gia_lost": 0,
       "site_area": 0.02,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_existing": 100.98
+      "total_gia_existing": 0
     },
     "garden_land_lost": false,
     "scheme_phasing": true,
@@ -87,23 +87,39 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 2,
-          "tenure": "Market for rent",
-          "gia": 100.98,
-          "unit_type": "Terraced Home",
-          "no_bedrooms": 4,
-          "change_type": "Loss",
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "change_type": "Gain",
+          "m42_compliant": false,
+          "garden_land": false,
           "sheltered_accommodation": false,
-          "provision_for_older_persons": false
+          "unit_type": "HMO",
+          "no_habitable_rooms": 1,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 6,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 121.5
         },
         {
-          "no_habitable_rooms": 1,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "change_type": "Loss",
+          "m42_compliant": false,
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Terraced Home",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 4,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
-          "gia": 121.5,
-          "unit_type": "HMO",
-          "no_bedrooms": 6,
-          "change_type": "Gain",
-          "provider": "Private"
+          "gia": 100.98
         }
       ],
       "total_no_proposed_residential_units_shared_equity": 0,
@@ -146,12 +162,12 @@
     "total_gia_existing": 100.98,
     "phasing_details": [
       {
+        "phase_detail": "Entire development",
         "intended_completion_date": "03/2027",
-        "intended_commencement_date": "12/2026",
-        "phase_detail": "Entire development"
+        "intended_commencement_date": "12/2026"
       }
     ],
-    "site_area": 0.02,
+    "site_area": 200,
     "commencement_notice_received": false,
     "ownership_status": "Private",
     "infrastructure_details": {
@@ -182,40 +198,48 @@
     "total_gia_lost": 100.98,
     "constraints_details": [
       {
+        "result": null,
         "constraints_layer_description": "SURWAT Description: Idox.Spatial.Common.Desktop.DataAccess.Shape"
       },
       {
+        "result": null,
         "constraints_layer_description": "LHA Maximum Height Level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet)."
       },
       {
+        "result": null,
         "constraints_layer_description": "LLA Maximum height level: All buildings, structures, and works exceeding 300 metres in height (984.2 feet)"
       },
       {
+        "result": null,
         "constraints_layer_description": "100Y Name: Southgate Model\rDescription: 100YRCC3201\rScenario: 1 in 100 year plus climate change allowance"
       },
       {
+        "result": null,
         "constraints_layer_description": "DCAREA Area: SOUTH\rCode: DCAREA_S"
       },
       {
+        "result": null,
         "constraints_layer_description": "WARDS Name: Jubilee"
       },
       {
+        "result": null,
         "constraints_layer_description": "CILRES CIL ZONE: Lower Rate Eastern Zone - RATE: £40 per square metre"
       },
       {
+        "result": null,
         "constraints_layer_description": "EFCAZI Chargeable Zone Value: 6176"
       }
     ],
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3",
         "gia_existing": 100.98,
+        "use_class": "C3",
         "gia_gained": 0,
         "gia_lost": 100.98
       },
       {
-        "use_class": "C4",
         "gia_existing": 0,
+        "use_class": "C4",
         "gia_gained": 121.5,
         "gia_lost": 0
       }
@@ -248,7 +272,7 @@
   "site_name": null,
   "decision_process": null,
   "postcode": "N9 8DB",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "centroid": {
     "lat": 51.635029,
     "lon": -0.04613

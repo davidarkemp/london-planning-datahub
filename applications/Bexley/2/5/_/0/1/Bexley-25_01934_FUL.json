@@ -46,9 +46,9 @@
   "subdivision_of_building": null,
   "centroid_easting": null,
   "application_type": "All Other",
-  "status": "Approved",
+  "status": "Superseded",
   "epc_number": null,
-  "cil_liability": true,
+  "cil_liability": false,
   "parking_details": null,
   "centroid": {
     "lat": 49.766807,
@@ -56,7 +56,7 @@
   },
   "description": "Erection of a dormer roof extension and alterations to fenestration in order to facilitate the conversion of a garage to self-contained dwellinghouse.",
   "application_details": {
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "residential_details": {
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_affordable_units": 0,
@@ -88,25 +88,32 @@
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_proposed_bedrooms": 3,
       "total_no_proposed_residential_units_market_for_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 223.46368715083798,
       "affordable_percentage": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "residential_units": [
         {
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "House or Bungalow",
+          "superseded_date": "01/05/2026",
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "change_type": "Gain",
+          "phase_detail": null,
+          "unit_no": null,
           "no_bedrooms": 3,
-          "unit_type": "House or Bungalow",
-          "gia": 120,
-          "tenure": "Market for sale"
+          "superseded_by_lpa_app_no": "26/00367/FUL",
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 120
         }
       ],
-      "dwelling_density": 0,
+      "dwelling_density": 55.865921787709496,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units": 1,
       "total_no_proposed_residential_units_market_for_sale": 1,
-      "total_no_existing_residential_units_london_living_rent": 0
+      "total_no_existing_residential_units_london_living_rent": 0,
+      "site_area": 0.0179
     },
     "total_gia_gained": 66,
     "rain_water_harvesting": false,
@@ -124,7 +131,7 @@
       "green_roof_area": 0,
       "fire_suppression_system_proposed": false,
       "no_non_resi_units_to_have_full_fibre": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 10,
       "no_homes_to_have_electrical_heating": 0,
       "no_homes_passive_cooling": 0,
@@ -146,15 +153,17 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "11/2025",
-        "intended_completion_date": "05/2026"
+        "intended_completion_date": "05/2026",
+        "intended_commencement_date": "11/2025"
       }
     ],
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 54,
-        "use_class": "C3",
+        "superseded_date": "01/05/2026",
         "gia_gained": 66,
+        "use_class": "C3",
+        "superseded_by_lpa_app_no": "26/00367/FUL",
         "gia_lost": 0
       }
     ],
@@ -163,19 +172,33 @@
       "total_gia_existing": 54,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_lost": 0,
-      "total_non_resi_gross_internal_floor_area_to_be_gained": 0
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "site_area": 0.0179
     },
-    "total_gia_existing": 54
+    "total_gia_existing": 54,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.0179
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "valid_date": "24/09/2025",
   "decision_process": null,
   "appeal_start_date": null,
   "application_type_full": "Full planning permission",
-  "last_updated_by": "Idox Uniform",
-  "bo_system": "Idox Uniform",
+  "last_updated_by": "Portal",
+  "bo_system": "Portal",
   "decision_target_date": "19/11/2025",
-  "last_updated": "2026-01-14T21:00:39.325Z",
-  "site_name": "Garage Adjacent To 194 Erith Road\rBexleyheath\rKent\rDA7 6HT\r",
+  "last_updated": "2026-07-22T10:43:03.558Z",
+  "site_name": "Garage Adjacent To 194 Erith Road\nBexleyheath\nKent\nDA7 6HT\n",
   "development_type": null,
   "centroid_northing": null,
   "title_number": [],
@@ -192,8 +215,8 @@
   "last_date_consultation_comments": "14/10/2025",
   "locality": null,
   "appeal_decision": null,
-  "street_name": null,
-  "postcode": null,
+  "street_name": "",
+  "postcode": "",
   "secondary_street_name": null,
   "date_building_work_completed_under_previous_permission": null,
   "url_planning_app": null,
@@ -201,7 +224,7 @@
   "decision_date": "14/01/2026",
   "lapsed_date": "14/01/2029",
   "decision_conditions": [
-    " future development",
+    "future development",
     "cycle storage",
     "Sustainable Drainage System",
     "Materials",
