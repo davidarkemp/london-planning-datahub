@@ -17,7 +17,7 @@
   "ward": "Belsize",
   "pp_id": "14220533",
   "appeal_decision": null,
-  "uprn": 5159156,
+  "uprn": "5159156",
   "centroid": {
     "lat": 51.548126,
     "lon": -0.169957
@@ -26,11 +26,11 @@
   "date_building_work_started_under_previous_permission": null,
   "locality": "London",
   "lapsed_date": "22/09/2028",
-  "bo_system": "Northgate M3",
+  "bo_system": "Portal",
   "secondary_street_name": null,
   "subdivision_of_building": "2nd and 3rd floors",
-  "last_updated_by": "Planning Portal ingest",
-  "status": "Approved",
+  "last_updated_by": "Portal",
+  "status": "Commenced",
   "url_planning_app": "https://planningrecords.camden.gov.uk/Northgate/PlanningExplorer/DisplayAppDetails.aspx?AppNo=2025/3354/P",
   "lpa_app_no": "2025/3354/P",
   "valid_date": "01/08/2025",
@@ -50,14 +50,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 206,
-        "gia_gained": 0,
         "use_class": "C3",
+        "gia_gained": 0,
         "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
     "occupation_status": "Occupied",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "rain_water_harvesting": false,
     "grey_water_reuse": false,
     "green_suds": false,
@@ -67,7 +67,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 0,
       "total_gia_lost": 0,
-      "total_gia_existing": 206
+      "total_gia_existing": 206,
+      "site_area": 0.0152
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -91,12 +92,12 @@
       "total_no_proposed_residential_units_market_for_sale": 1,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 526.3157894736842,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 206,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 65.78947368421052,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_gia_lost": 206,
@@ -110,28 +111,36 @@
       "residential_units": [
         {
           "m43_2b_compliant": false,
-          "no_habitable_rooms": 5,
           "m43_2a_compliant": false,
-          "m42_compliant": false,
+          "description": null,
           "change_type": "Loss",
+          "m42_compliant": false,
           "garden_land": false,
           "sheltered_accommodation": false,
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "01/04/2025",
+          "no_bedrooms": 2,
           "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 135
         },
         {
           "m43_2b_compliant": false,
-          "no_habitable_rooms": 3,
           "m43_2a_compliant": false,
-          "m42_compliant": false,
+          "description": null,
           "change_type": "Loss",
+          "m42_compliant": false,
           "garden_land": false,
           "sheltered_accommodation": false,
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "01/04/2025",
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 71
@@ -139,13 +148,17 @@
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
-          "m42_compliant": false,
+          "description": null,
           "change_type": "Gain",
+          "m42_compliant": false,
           "garden_land": false,
           "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 8,
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "01/04/2025",
           "no_bedrooms": 4,
           "provision_for_older_persons": false,
           "tenure": "Market for sale",
@@ -153,7 +166,8 @@
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.0152
     },
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
@@ -164,16 +178,29 @@
       "no_new_water_connections_required": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
-      "fire_suppression_system_proposed": true,
+      "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
       "ghg_reduction_over_building_regulations": false
     },
     "internal_resi_water_usage": 125,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.0152
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "decision_process": "Delegated",
   "lpa_name": "Camden",
@@ -243,29 +270,61 @@
     ]
   },
   "cil_liability": false,
-  "last_updated": "2026-06-27T12:09:41.859Z",
+  "last_updated": "2026-07-23T09:39:02.550Z",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.169934,
-          51.548139
+          -0.170008,
+          51.547901
         ],
         [
-          -0.169936,
-          51.548112
+          -0.17003,
+          51.547906
         ],
         [
-          -0.169979,
-          51.548113
+          -0.17015,
+          51.547939
         ],
         [
-          -0.169978,
-          51.54814
+          -0.170044,
+          51.548077
         ],
         [
-          -0.169934,
-          51.548139
+          -0.170025,
+          51.548101
+        ],
+        [
+          -0.169914,
+          51.548245
+        ],
+        [
+          -0.169872,
+          51.5483
+        ],
+        [
+          -0.169806,
+          51.548282
+        ],
+        [
+          -0.169736,
+          51.54826
+        ],
+        [
+          -0.169811,
+          51.548161
+        ],
+        [
+          -0.170008,
+          51.547901
+        ],
+        [
+          -0.170008,
+          51.547901
+        ],
+        [
+          -0.170008,
+          51.547901
         ]
       ]
     ],
@@ -275,16 +334,16 @@
   "decision_date": "22/09/2025",
   "date_building_work_completed_under_previous_permission": null,
   "decision_conditions": [
-    "Condition : 1 - The development hereby permitted must be begun not later than the end of three years from the date of this permission.\r\n\r\nReason: In order to comply with the provisions of Section 91 of the Town and Country Planning Act 1990 (as amended).\r\n\r\n",
-    "Condition : 2 - The development hereby permitted shall be carried out in accordance with the following approved plans: \r\n\r\n1800-DDA-01-A-001; 1800-DDA-01-A-002; 1800-DDA-01-A-012; 1800-DDA-01-A-E012; 1800-DDA-01-A-E013; 1800-DDA-01-A-E014; 1800-DDA-01-A-E030; 1800-DDA-01-A-E031; 1800-DDA-01-A-E040; 1800-DDA-01-A-E041; 1800-DDA-01-A-041+042; 1800-DDA-01-A-031, A; 1926-DDA-01-A-013, A; 1926-DDA-01-A-014, A; 1926-DDA-01-A-030, B; 1926-DDA-01-A-040, A.\r\n\r\nReason: For the avoidance of doubt and in the interest of proper planning.\r\n",
-    "Condition : 3 - All new external work shall be carried out in materials that resemble, as closely as possible, in colour and texture those of the existing building, unless otherwise specified in the approved application. \r\n\r\nReason: To safeguard the appearance of the premises and the character of the immediate area in accordance with the requirements of policies D1 and D2 of the London Borough of Camden Local Plan 2017. \r\n",
-    "Condition : 4 - Notwithstanding the details shown on the approved pdrawings, before the relevant part of the work is begun, details including sections at 1:10 of all replacement windows and doors (including jambs, head and cill), shall be submitted to and approved in writing by the local planning authority. The relevant part of the works shall be carried out in accordance with the details approved and all approved samples shall be retained on site during the course of the works.  \r\n \r\nReason: To safeguard the appearance of the premises and the character of the immediate area in accordance with the requirements of policies D1 and D2 of the London Borough of Camden Local Plan 2017. "
+    "Condition : 1 - The development hereby permitted must be begun not later than the end of three years from the date of this permission.\n\nReason: In order to comply with the provisions of Section 91 of the Town and Country Planning Act 1990 (as amended).",
+    "Condition : 2 - The development hereby permitted shall be carried out in accordance with the following approved plans: \n\n1800-DDA-01-A-001; 1800-DDA-01-A-002; 1800-DDA-01-A-012; 1800-DDA-01-A-E012; 1800-DDA-01-A-E013; 1800-DDA-01-A-E014; 1800-DDA-01-A-E030; 1800-DDA-01-A-E031; 1800-DDA-01-A-E040; 1800-DDA-01-A-E041; 1800-DDA-01-A-041+042; 1800-DDA-01-A-031, A; 1926-DDA-01-A-013, A; 1926-DDA-01-A-014, A; 1926-DDA-01-A-030, B; 1926-DDA-01-A-040, A.\n\nReason: For the avoidance of doubt and in the interest of proper planning.",
+    "Condition : 3 - All new external work shall be carried out in materials that resemble, as closely as possible, in colour and texture those of the existing building, unless otherwise specified in the approved application. \n\nReason: To safeguard the appearance of the premises and the character of the immediate area in accordance with the requirements of policies D1 and D2 of the London Borough of Camden Local Plan 2017.",
+    "Condition : 4 - Notwithstanding the details shown on the approved pdrawings, before the relevant part of the work is begun, details including sections at 1:10 of all replacement windows and doors (including jambs, head and cill), shall be submitted to and approved in writing by the local planning authority. The relevant part of the works shall be carried out in accordance with the details approved and all approved samples shall be retained on site during the course of the works.  \n \nReason: To safeguard the appearance of the premises and the character of the immediate area in accordance with the requirements of policies D1 and D2 of the London Borough of Camden Local Plan 2017."
   ],
   "reference_no_of_permission_being_relied_on": null,
-  "actual_commencement_date": null,
+  "actual_commencement_date": "01/04/2025",
   "borough": "Camden",
   "centroid_northing": 184835,
   "site_number": "7",
-  "title_number": null,
+  "title_number": [],
   "development_type": "Minor all other minor developments"
 }

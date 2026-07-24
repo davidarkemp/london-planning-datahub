@@ -8,14 +8,14 @@
   "valid_date": "21/05/2026",
   "description": "Change of use from Use Class C3 (dwelling house) to a Class Sui Generis (HMO - house in multiple occupation) with associated cycle and refuse storage with single storey rear extension and rear dormer with front rooflights.\r",
   "status": "Application Under Consideration",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "site_number": "65",
-  "cil_liability": null,
+  "cil_liability": false,
   "decision_process": null,
   "development_type": "Other change of use",
   "subdivision_of_building": null,
   "centroid_northing": 194316,
-  "last_updated": "2026-07-01T07:15:26.716Z",
+  "last_updated": "2026-07-23T20:06:10.698Z",
   "lapsed_date": null,
   "bo_system": "Idox Uniform",
   "centroid": {
@@ -35,7 +35,7 @@
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
-      "total_no_existing_residential_affordable_units": 0,
+      "total_no_existing_residential_affordable_units": 1,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_london_living_rent": 0,
@@ -45,22 +45,39 @@
       "total_no_proposed_residential_units_market_for_rent": 1,
       "residential_units": [
         {
-          "no_habitable_rooms": 3,
-          "change_type": "Loss",
-          "sheltered_accommodation": false,
-          "unit_type": "Semi Detached Home",
-          "no_bedrooms": 2,
-          "provision_for_older_persons": false,
-          "gia": 79.69
-        },
-        {
-          "provider": "Private",
-          "no_habitable_rooms": 5,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
           "change_type": "Gain",
+          "m42_compliant": true,
+          "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "HMO",
+          "no_habitable_rooms": 5,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
           "no_bedrooms": 5,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 114.61
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "change_type": "Loss",
+          "m42_compliant": true,
+          "garden_land": false,
+          "sheltered_accommodation": false,
+          "unit_type": "Semi Detached Home",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Intermediate Other",
+          "gia": 79.69
         }
       ],
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
@@ -69,7 +86,7 @@
       "dwelling_density": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units": 1,
-      "total_gia_gained": 114.61,
+      "total_gia_gained": 0,
       "affordable_percentage": 0,
       "total_no_proposed_residential_units": 1,
       "total_no_proposed_residential_affordable_units": 0,
@@ -100,14 +117,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 79.69,
-        "gia_gained": 0,
         "use_class": "C3",
+        "gia_gained": 0,
         "gia_lost": 79.69
       },
       {
         "gia_existing": 0,
-        "gia_gained": 114.61,
         "use_class": "SG",
+        "gia_gained": 114.61,
         "gia_lost": 0
       }
     ],
@@ -116,38 +133,47 @@
       "total_gia_gained": 114.61,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 114.61,
-      "total_gia_existing": 79.69,
-      "total_gia_lost": 79.69,
+      "total_gia_existing": 0,
+      "total_gia_lost": 0,
       "site_area": 0.02
     },
     "surface_water_discharge_percentage_reduction": 0,
     "affordable_housing_fast_track": false,
     "constraints_details": [
       {
+        "result": null,
         "constraints_layer_description": "SURWAT Description: Idox.Spatial.Common.Desktop.DataAccess.Shape"
       },
       {
+        "result": null,
         "constraints_layer_description": "LHA Maximum Height Level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet)."
       },
       {
+        "result": null,
         "constraints_layer_description": "LGA Maximum Height Level: >300"
       },
       {
+        "result": null,
         "constraints_layer_description": "LLA Maximum height level: All buildings, structures, and works exceeding 300 metres in height (984.2 feet)"
       },
       {
+        "result": null,
         "constraints_layer_description": "DCAREA Area: SOUTH\rCode: DCAREA_S"
       },
       {
+        "result": null,
         "constraints_layer_description": "WARDS Name: Lower Edmonton"
       },
       {
+        "result": null,
         "constraints_layer_description": "CILRES CIL ZONE: Lower Rate Eastern Zone - RATE: £40 per square metre"
       },
       {
+        "result": null,
         "constraints_layer_description": "EFCAZI Chargeable Zone Value: 6176"
       },
       {
+        "result": null,
         "constraints_layer_description": "FLUVIA "
       }
     ],
@@ -205,7 +231,7 @@
     "existing_uprns": [
       "000207089087"
     ],
-    "site_area": 0.015066999999999999,
+    "site_area": 151,
     "total_gia_gained": 114.61,
     "scheme_phasing": true
   },

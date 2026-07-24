@@ -1,5 +1,5 @@
 {
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "date_building_work_completed_under_previous_permission": null,
   "ward": "Walpole",
   "postcode": "W13 9QR",
@@ -91,7 +91,7 @@
   "id": "Ealing-221777FUL",
   "locality": "London",
   "actual_completion_date": null,
-  "last_updated": "2025-03-19T20:39:00.642+00:00",
+  "last_updated": "2026-07-23T15:42:47.421Z",
   "appeal_status": null,
   "parking_details": {
     "no_existing_cycle": 0,
@@ -100,10 +100,10 @@
   },
   "decision": "Approved",
   "appeal_decision_date": null,
-  "cil_liability": true,
+  "cil_liability": false,
   "decision_process": "Delegated",
-  "status": "Approved",
-  "title_number": null,
+  "status": "Commenced",
+  "title_number": [],
   "subdivision_of_building": "Ground floor rear, First floor rear, part of first floor and new mansard level (existing residential units retained) ",
   "description": "Construction of mansard roof extension to provide two flats at third floor level; change of use of first floor ancillary office and staff facilities to create one self-contained flat; first floor rear extension over ground floor retail unit, to provide additional two flats; reconfiguration and internal alterations to existing four residential units; facilitated by single storey rear extension; alterations to existing shopfront; formation of new residential side entrance and adjoining bay projection; first floor rear terrace with associated timber screening and further associated external alterations",
   "secondary_street_name": null,
@@ -136,7 +136,7 @@
     "lat": 51.503672,
     "lon": -0.317426
   },
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "lpa_app_no": "221777FUL",
   "pp_id": "PP-11187949",
   "last_date_consultation_comments": null,
@@ -147,7 +147,7 @@
   "decision_target_date": "28/04/2023",
   "valid_date": "26/04/2022",
   "application_details": {
-    "existing_uprns": null,
+    "existing_uprns": [],
     "superseding_details": [
       {
         "lpa_app_no": "PP/2015/5766",
@@ -169,8 +169,9 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 540,
-        "use_class": "SpecifiedOther",
+        "use_class": "A1",
         "gia_gained": 12,
+        "actual_commencement_date": "05/09/2025",
         "gia_lost": 63
       },
       {
@@ -182,7 +183,7 @@
     ],
     "projected_cost_of_works": "Up to £2m",
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "building_details": [
       {
         "no_storeys": 4,
@@ -191,14 +192,15 @@
       }
     ],
     "grey_water_reuse": false,
-    "green_suds": true,
+    "green_suds": false,
     "surface_water_discharge_percentage_reduction": 0,
     "non_residential_details": {
-      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 12,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 63,
       "total_gia_gained": 297,
       "total_gia_existing": 812,
-      "total_gia_lost": 63
+      "total_gia_lost": 63,
+      "site_area": 0.056
     },
     "garden_land_lost": false,
     "infrastructure_details": {
@@ -211,13 +213,13 @@
       "no_homes_passive_cooling": 0,
       "no_non_resi_units_to_have_full_fibre": 1,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 1,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 5,
-      "ghg_reduction_over_building_regulations": true
+      "ghg_reduction_over_building_regulations": false
     },
     "internal_resi_water_usage": 105,
     "residential_details": {
@@ -241,12 +243,12 @@
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 196.42857142857142,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 283,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 89.28571428571428,
       "total_gia_lost": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -261,65 +263,93 @@
         {
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "unit_no": "Gain-1",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 55,
-          "tenure": "Market for rent"
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 55
         },
         {
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "unit_no": "Gain-2",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 55,
-          "tenure": "Market for rent"
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 55
         },
         {
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "unit_no": "Gain-3",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 55,
-          "tenure": "Market for rent"
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 55
         },
         {
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "unit_no": "Gain-4",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 55,
-          "tenure": "Market for rent"
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 55
         },
         {
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "unit_no": "Gain-5",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 63,
-          "tenure": "Market for rent"
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 63
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.056
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.056
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "reference_no_of_permission_being_relied_on": null,
   "centroid_northing": 179646,
   "epc_number": "0990-7978-0628-5350-3074",
   "development_type": null,
   "date_building_work_started_under_previous_permission": null,
-  "actual_commencement_date": null,
+  "actual_commencement_date": "05/09/2025",
   "borough": "Ealing",
   "url_planning_app": "https://pam.ealing.gov.uk/online-applications/PLAN/221777FUL;",
   "appeal_decision": null,
@@ -327,72 +357,72 @@
     "coordinates": [
       [
         [
-          -0.3172685,
-          51.5037668
+          -0.317291,
+          51.503766
         ],
         [
-          -0.3172277,
-          51.5037398
+          -0.31725,
+          51.503739
         ],
         [
-          -0.3172144,
-          51.5037481
+          -0.317236,
+          51.503747
         ],
         [
-          -0.31714929999999997,
-          51.5036972
+          -0.317171,
+          51.503697
         ],
         [
-          -0.31702949999999996,
-          51.5036038
+          -0.317052,
+          51.503603
         ],
         [
-          -0.3170742,
-          51.5035819
+          -0.317096,
+          51.503581
         ],
         [
-          -0.31706019999999996,
-          51.5035714
+          -0.317082,
+          51.503571
         ],
         [
-          -0.31724579999999997,
-          51.5034806
+          -0.317268,
+          51.50348
         ],
         [
-          -0.3172832,
-          51.5034838
+          -0.317305,
+          51.503483
         ],
         [
-          -0.3174478,
-          51.5036116
+          -0.31747,
+          51.503611
         ],
         [
-          -0.3174989,
-          51.503651
+          -0.317521,
+          51.50365
         ],
         [
-          -0.3174063,
-          51.5036991
+          -0.317428,
+          51.503698
         ],
         [
-          -0.3173844,
-          51.5037105
+          -0.317406,
+          51.50371
         ],
         [
-          -0.3173571,
-          51.5037249
+          -0.317379,
+          51.503724
         ],
         [
-          -0.31728819999999996,
-          51.5037614
+          -0.31731,
+          51.503761
         ],
         [
-          -0.31727259999999996,
-          51.5037696
+          -0.317295,
+          51.503769
         ],
         [
-          -0.3172685,
-          51.5037668
+          -0.317291,
+          51.503766
         ]
       ]
     ],

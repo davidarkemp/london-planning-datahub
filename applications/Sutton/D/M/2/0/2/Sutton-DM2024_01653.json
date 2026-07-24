@@ -2,7 +2,7 @@
   "valid_date": "28/11/2024",
   "epc_number": null,
   "site_name": "",
-  "cil_liability": true,
+  "cil_liability": false,
   "polygon": {
     "geometries": [
       {
@@ -55,7 +55,7 @@
     ],
     "type": "GeometryCollection"
   },
-  "actual_commencement_date": null,
+  "actual_commencement_date": "19/05/2025",
   "site_number": "196",
   "decision": "Approved",
   "parking_details": null,
@@ -72,7 +72,7 @@
   "decision_target_date": "23/01/2025",
   "street_name": "Cheam Common Road",
   "decision_process": "Delegated",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "centroid_northing": 165658,
   "application_type": "All Other",
   "title_number": [],
@@ -88,44 +88,44 @@
     "coordinates": [
       [
         [
-          -0.2364916,
-          51.3767839
+          -0.236516,
+          51.376785
         ],
         [
-          -0.2367181,
-          51.3765769
+          -0.236742,
+          51.376578
         ],
         [
-          -0.23675749999999998,
-          51.376605
+          -0.236782,
+          51.376606
         ],
         [
-          -0.23673799999999998,
-          51.3766166
+          -0.236762,
+          51.376618
         ],
         [
-          -0.23674959999999998,
-          51.3766235
+          -0.236774,
+          51.376625
         ],
         [
-          -0.2366374,
-          51.3767303
+          -0.236661,
+          51.376732
         ],
         [
-          -0.2366269,
-          51.3767257
+          -0.236651,
+          51.376727
         ],
         [
-          -0.2365997,
-          51.3767536
+          -0.236624,
+          51.376755
         ],
         [
-          -0.23654889999999998,
-          51.3768078
+          -0.236573,
+          51.376809
         ],
         [
-          -0.2364916,
-          51.3767839
+          -0.236516,
+          51.376785
         ]
       ]
     ],
@@ -137,16 +137,16 @@
   "pp_id": "PP-13592618",
   "url_planning_app": null,
   "lpa_name": "Sutton",
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "subdivision_of_building": null,
   "secondary_street_name": null,
   "date_building_work_started_under_previous_permission": null,
   "centroid": {
-    "lat": "51.3766973",
-    "lon": "-0.23662409999999998"
+    "lat": 51.376699,
+    "lon": -0.236648
   },
-  "status": "Approved",
-  "last_updated": "2025-03-19T11:33:04.403+00:00",
+  "status": "Commenced",
+  "last_updated": "2026-07-23T08:53:17.074Z",
   "actual_completion_date": null,
   "lapsed_date": "17/01/2030",
   "borough": "London Borough of Sutton",
@@ -158,7 +158,7 @@
     "occupation_status": "Vacant",
     "residential_details": {
       "total_no_proposed_residential_units_intermediate": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 153.84615384615384,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_market_for_rent": 0,
       "affordable_percentage": 0,
@@ -190,33 +190,42 @@
         {
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "unit_no": "Gain-1",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
+          "actual_commencement_date": "19/05/2025",
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 37,
-          "tenure": "Market for sale"
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 37
         },
         {
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "unit_no": "Gain-2",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
+          "actual_commencement_date": "19/05/2025",
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 70,
-          "tenure": "Market for sale"
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 70
         }
       ],
       "total_no_proposed_bedrooms": 3,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_proposed_residential_units": 2,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 384.6153846153846,
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
-      "total_no_proposed_residential_units_self_build_and_custom_build": 0
+      "total_no_proposed_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.013000000000000001
     },
     "intended_completion_date": "07/2025",
     "infrastructure_details": {
@@ -228,7 +237,7 @@
       "fire_suppression_system_proposed": false,
       "no_resi_units_to_have_full_fibre": 2,
       "green_roof_area": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "ghg_reduction_over_building_regulations": false,
       "mobile_network_operators_consultation": false,
       "no_new_gas_connections_required": 2,
@@ -243,7 +252,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_existing": 107,
       "total_gia_lost": 107,
-      "total_non_resi_gross_internal_floor_area_to_be_gained": 0
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "site_area": 0.013000000000000001
     },
     "total_gia_existing": 107,
     "existing_proposed_floorspace_details": [
@@ -251,9 +261,29 @@
         "gia_existing": 107,
         "use_class": "E(a)",
         "gia_gained": 0,
+        "actual_commencement_date": "19/05/2025",
         "gia_lost": 107
       }
     ],
-    "site_area": 0.013000000000000001
+    "site_area": 0.013000000000000001,
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "scheme_phasing": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.013000000000000001
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "garden_land_lost": false
   }
 }
