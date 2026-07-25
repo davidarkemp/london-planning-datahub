@@ -1,6 +1,6 @@
 {
   "borough": "Enfield Council",
-  "cil_liability": true,
+  "cil_liability": false,
   "decision_target_date": "11/08/2023",
   "lpa_app_no": "23/01895/FUL",
   "date_building_work_completed_under_previous_permission": null,
@@ -18,7 +18,7 @@
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 90.9090909090909,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "affordable_percentage": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
@@ -45,14 +45,19 @@
       "total_no_existing_residential_units_market_for_sale": 0,
       "residential_units": [
         {
+          "actual_completion_date": "31/03/2026",
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Terraced Home",
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "unit_no": "Gain-1",
-          "change_type": "Gain",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "01/04/2025",
           "no_bedrooms": 2,
-          "unit_type": "Terraced Home",
-          "gia": 86,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 86
         }
       ],
       "total_no_existing_residential_units_shared_equity": 0,
@@ -61,17 +66,20 @@
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "dwelling_density": 0,
-      "total_no_existing_residential_units_market_for_rent": 0
+      "dwelling_density": 30.3030303030303,
+      "total_no_existing_residential_units_market_for_rent": 0,
+      "site_area": 0.033
     },
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "green_suds": false,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 83,
-        "use_class": "C3",
+        "actual_completion_date": "31/03/2026",
         "gia_gained": 86,
+        "use_class": "C3",
+        "actual_commencement_date": "01/04/2025",
         "gia_lost": 0
       }
     ],
@@ -85,7 +93,7 @@
       "total_annual_nox_emissions": 0,
       "total_annual_pm_emissions": 0,
       "green_roof_area": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_new_gas_connections_required": 1,
       "no_homes_to_have_electrical_heating": 0,
       "no_homes_passive_cooling": 0,
@@ -102,15 +110,29 @@
         "intended_commencement_date": "10/2023"
       }
     ],
-    "site_area": 325.15,
+    "site_area": 0.033,
     "total_gia_gained": 86,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 86,
       "total_gia_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_existing": 83
-    }
+      "total_gia_existing": 83,
+      "site_area": 0.033
+    },
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.033
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "title_number": [],
   "wgs84_polygon": {
@@ -118,32 +140,132 @@
     "coordinates": [
       [
         [
-          -0.088344,
-          51.663623
+          -0.08826,
+          51.663492
         ],
         [
-          -0.088346,
+          -0.088249,
+          51.663582
+        ],
+        [
+          -0.088247,
           51.663596
         ],
         [
-          -0.088389,
-          51.663597
+          -0.088244,
+          51.663628
         ],
         [
-          -0.088388,
-          51.663624
+          -0.088242,
+          51.663645
+        ],
+        [
+          -0.088242,
+          51.663655
+        ],
+        [
+          -0.088243,
+          51.663664
+        ],
+        [
+          -0.088244,
+          51.663669
+        ],
+        [
+          -0.088246,
+          51.663688
+        ],
+        [
+          -0.088256,
+          51.663706
+        ],
+        [
+          -0.088256,
+          51.663707
+        ],
+        [
+          -0.088265,
+          51.663715
+        ],
+        [
+          -0.088274,
+          51.663722
+        ],
+        [
+          -0.088285,
+          51.663728
+        ],
+        [
+          -0.088297,
+          51.663734
+        ],
+        [
+          -0.088301,
+          51.663735
+        ],
+        [
+          -0.088314,
+          51.663739
+        ],
+        [
+          -0.088329,
+          51.663743
         ],
         [
           -0.088344,
-          51.663623
+          51.663745
+        ],
+        [
+          -0.088359,
+          51.663746
+        ],
+        [
+          -0.088386,
+          51.663747
+        ],
+        [
+          -0.088404,
+          51.663647
+        ],
+        [
+          -0.088408,
+          51.663626
+        ],
+        [
+          -0.088414,
+          51.663574
+        ],
+        [
+          -0.088417,
+          51.663557
+        ],
+        [
+          -0.088424,
+          51.663498
+        ],
+        [
+          -0.088427,
+          51.663474
+        ],
+        [
+          -0.088347,
+          51.66347
+        ],
+        [
+          -0.08826,
+          51.663466
+        ],
+        [
+          -0.08826,
+          51.663492
         ]
       ]
     ]
   },
   "valid_date": "16/06/2023",
   "centroid": {
-    "lat": 51.66361,
-    "lon": -0.088367
+    "lat": 51.6636,
+    "lon": -0.088338
   },
   "site_number": "30",
   "decision_conditions": [
@@ -164,40 +286,171 @@
     ""
   ],
   "decision": "Approved",
-  "centroid_easting": "532311",
+  "centroid_easting": 532313,
   "uprn": "000207145748",
   "decision_process": "Delegated",
   "application_type_full": "Full planning permission",
   "locality": null,
   "last_date_consultation_comments": "21/08/2023",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              532318.75,
+              197809.1
+            ],
+            [
+              532319.219,
+              197819.119
+            ],
+            [
+              532319.292,
+              197820.685
+            ],
+            [
+              532319.461,
+              197824.307
+            ],
+            [
+              532319.55,
+              197826.2
+            ],
+            [
+              532319.5,
+              197827.3
+            ],
+            [
+              532319.4,
+              197828.3
+            ],
+            [
+              532319.3,
+              197828.85
+            ],
+            [
+              532319.1,
+              197830.95
+            ],
+            [
+              532318.4,
+              197832.9
+            ],
+            [
+              532318.35,
+              197833.05
+            ],
+            [
+              532317.75,
+              197833.9
+            ],
+            [
+              532317.1,
+              197834.65
+            ],
+            [
+              532316.3,
+              197835.35
+            ],
+            [
+              532315.45,
+              197835.95
+            ],
+            [
+              532315.2,
+              197836.1
+            ],
+            [
+              532314.25,
+              197836.5
+            ],
+            [
+              532313.25,
+              197836.85
+            ],
+            [
+              532312.2,
+              197837.05
+            ],
+            [
+              532311.15,
+              197837.15
+            ],
+            [
+              532309.28,
+              197837.26
+            ],
+            [
+              532308.3,
+              197826.05
+            ],
+            [
+              532308.1,
+              197823.75
+            ],
+            [
+              532307.8,
+              197818
+            ],
+            [
+              532307.699,
+              197816.084
+            ],
+            [
+              532307.35,
+              197809.45
+            ],
+            [
+              532307.25,
+              197806.8
+            ],
+            [
+              532312.8,
+              197806.5
+            ],
+            [
+              532318.8,
+              197806.2
+            ],
+            [
+              532318.75,
+              197809.1
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "ward": "WW",
   "pp_id": "PP-12235277",
   "lapsed_date": "21/08/2026",
   "decision_agency": null,
-  "actual_completion_date": null,
+  "actual_completion_date": "31/03/2026",
   "description": "Sub-division of site and erection of end-of-terraced 2-storey, 2-bed dwelling house, widening of existing vehicular access and construction of associated hardstanding.",
-  "centroid_northing": "197822",
+  "centroid_northing": 197821,
   "street_name": "Lavender Hill",
   "epc_number": null,
   "appeal_status": null,
   "appeal_decision": null,
   "secondary_street_name": null,
   "appeal_start_date": null,
-  "status": "Approved",
+  "status": "Completed",
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated": "2025-03-19T03:45:01.307+00:00",
+  "last_updated": "2026-07-24T15:19:47.324Z",
   "site_name": "",
   "development_type": null,
   "appeal_decision_date": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "application_type": "All Other",
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "subdivision_of_building": null,
   "parking_details": null,
   "date_building_work_started_under_previous_permission": null,
   "url_planning_app": null,
   "id": "Enfield-23_01895_FUL",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "01/04/2025",
   "postcode": "EN2 0RQ"
 }

@@ -18,7 +18,9 @@
   "street_name": null,
   "site_number": null,
   "centroid_easting": 533705,
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "ward": "Weavers",
   "centroid_northing": 182665,
   "application_type": "All Other",
@@ -40,7 +42,7 @@
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
   "epc_number": null,
-  "last_updated": "2026-03-19T02:11:52.048+00:00",
+  "last_updated": "2026-07-24T20:02:54.014Z",
   "centroid": {
     "lon": -0.073994,
     "lat": 51.527076
@@ -48,16 +50,16 @@
   "lpa_name": "Tower Hamlets",
   "secondary_street_name": null,
   "application_details": {
-    "existing_uprns": null,
+    "existing_uprns": [],
     "total_gia_gained": 0,
     "no_additional_bathrooms": 0,
     "no_additional_bedrooms": 0,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_bedrooms": 1,
+      "total_no_proposed_bedrooms": 5,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units": 1,
-      "total_no_existing_residential_units": 0,
+      "total_no_existing_residential_units": 1,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
@@ -66,7 +68,7 @@
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_proposed_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
@@ -90,20 +92,94 @@
       "residential_units": [
         {
           "actual_completion_date": "16/03/2026",
+          "description": null,
           "change_type": "Gain",
-          "actual_commencement_date": "16/03/2026",
           "unit_type": "HMO",
-          "no_bedrooms": 1,
-          "unit_development_type": "Conversion"
+          "unit_development_type": "Conversion",
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "16/03/2026",
+          "no_bedrooms": 5,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": null
+        },
+        {
+          "actual_completion_date": "16/03/2026",
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Loss",
+          "actual_commencement_date": "16/03/2026",
+          "unit_type": "House or Bungalow",
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "unit_development_type": "Conversion",
+          "gia": null
         }
       ],
-      "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_market_for_rent": 1,
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "total_gia_gained": 0
+    },
+    "3d_model": false,
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "borough_cil_liability_notice_issued": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "scheme_phasing": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 0
+    },
+    "garden_land_lost": false,
+    "infrastructure_details": {
+      "waste_provision": false,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "ghg_reduction_over_building_regulations": false
     }
   },
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.073972,
+          51.527089
+        ],
+        [
+          -0.073973,
+          51.527062
+        ],
+        [
+          -0.074017,
+          51.527063
+        ],
+        [
+          -0.074015,
+          51.52709
+        ],
+        [
+          -0.073972,
+          51.527089
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "id": "Tower_Hamlets-PA_25_02095_NC",
   "reference_no_of_permission_being_relied_on": null,
-  "title_number": null,
+  "title_number": [],
   "last_updated_by": "CSV Data Import"
 }

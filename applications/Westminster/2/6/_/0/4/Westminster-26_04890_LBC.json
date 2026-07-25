@@ -15,7 +15,7 @@
   "lpa_app_no": "26/04890/LBC",
   "title_number": [],
   "decision": null,
-  "last_updated": "2026-07-24T01:11:29.960Z",
+  "last_updated": "2026-07-24T20:05:29.541Z",
   "appeal_start_date": null,
   "actual_commencement_date": null,
   "bo_system": "Idox Uniform",
@@ -79,14 +79,14 @@
       "no_homes_passive_cooling": 0,
       "waste_details": [
         {
-          "reason_for_no_provision": "There is no known external space for the storage of waste and recycling. Waste is only brought outside for designated collection times.",
-          "internal_dry_recycling": true,
           "external_dry_recycling": false,
+          "external_food_waste": false,
+          "unit_reference": "Flat 1",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "There is no known external space for the storage of waste and recycling. Waste is only brought outside for designated collection times.",
           "internal_residual_waste": true,
           "internal_food_waste": true,
-          "external_residual_waste": false,
-          "external_food_waste": false,
-          "unit_reference": "Flat 1"
+          "internal_dry_recycling": true
         }
       ],
       "no_non_resi_units_to_have_full_fibre": 0,
@@ -105,8 +105,8 @@
     "scheme_phasing": true,
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3",
         "gia_existing": 113,
+        "use_class": "C3",
         "gia_gained": 0,
         "gia_lost": 0
       }
@@ -116,9 +116,9 @@
     "total_gia_gained": 0,
     "phasing_details": [
       {
+        "phase_detail": "Entire development",
         "intended_completion_date": "11/2026",
-        "intended_commencement_date": "08/2026",
-        "phase_detail": "Entire development"
+        "intended_commencement_date": "08/2026"
       }
     ],
     "affordable_housing_fast_track": false,
@@ -133,7 +133,7 @@
   "site_name": "Flat 1",
   "decision_process": null,
   "postcode": "W1H 2PB",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "centroid": {
     "lat": 51.519184,
     "lon": -0.159889
@@ -141,7 +141,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -165,7 +164,8 @@
               181635
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"
@@ -173,7 +173,7 @@
   "appeal_decision": null,
   "borough": "Westminster",
   "cil_liability": false,
-  "subdivision_of_building": "Flat 1 only at ground and lower ground floor (windows and doors to courtyard and one bay window looking on to rear mews)",
+  "subdivision_of_building": null,
   "development_type": null,
   "reference_no_of_permission_being_relied_on": null
 }

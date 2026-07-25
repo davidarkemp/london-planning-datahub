@@ -1,25 +1,29 @@
 {
   "appeal_status": null,
-  "lapsed_date": null,
+  "lapsed_date": "13/11/2028",
   "appeal_start_date": null,
   "date_building_work_completed_under_previous_permission": null,
   "url_planning_app": null,
   "borough": "Islington",
   "application_type_full": "Full planning permission",
   "actual_commencement_date": null,
-  "ward": null,
-  "decision_date": null,
+  "ward": "",
+  "decision_date": "13/11/2025",
   "parking_details": {
     "no_existing_cycle": 0,
     "no_proposed_cycle": 4,
     "net_cycle": 4
   },
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "pp_id": "PP-13757782",
   "development_type": null,
   "description": "Proposed repair and restoration works and conversion of existing Class E (Commercial, Business and Service) former Coach House to form two residential units (Class C3) with associated refuse, cycle storage and landscaping works.",
   "site_name": "Street Record",
-  "decision_conditions": null,
+  "decision_conditions": [
+    "The development shall be implemented in accordance with the hereby approved scheme of restoration (reference: 87SUNNYSIDE/SOW/01/REV C dated 5th November 2025). The agreed scheme of restoration shall be completed prior to the first occupation of the coachhouse for the use hereby approved. \n\nREASON: To ensure the complete restoration and preservation of a heritage asset."
+  ],
   "lpa_app_no": "P2025/0594/FUL",
   "subdivision_of_building": null,
   "centroid_easting": 529702,
@@ -28,28 +32,34 @@
   "lpa_name": "Islington",
   "appeal_decision": null,
   "decision_agency": null,
-  "last_updated_by": "Planning Portal ingest",
-  "cil_liability": null,
-  "postcode": null,
+  "last_updated_by": "Portal",
+  "cil_liability": false,
+  "postcode": "",
   "decision_process": null,
   "application_details": {
     "affordable_housing_fast_track": false,
     "grey_water_reuse": false,
-    "lead_developer_company_name": "Designer London Developments Limited",
+    "lead_developer_company_name": "Councillor Marian Spall",
     "total_gia_existing": 148,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 148,
-        "use_class": "EC2",
-        "gia_gained": 148,
+        "use_class": "E(c)(ii)",
+        "gia_gained": 0,
         "gia_lost": 148
+      },
+      {
+        "gia_existing": 0,
+        "use_class": "C3",
+        "gia_gained": 148,
+        "gia_lost": 0
       }
     ],
     "site_area": 0.0183,
     "total_gia_gained": 148,
     "green_suds": false,
     "total_gia_lost": 148,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "rain_water_harvesting": false,
     "projected_cost_of_works": "Up to £2m",
     "surface_water_discharge_percentage_reduction": 0,
@@ -58,7 +68,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 148,
-      "total_gia_lost": 148
+      "total_gia_lost": 148,
+      "site_area": 0.0183
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -77,11 +88,11 @@
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_proposed_residential_units_social_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 327.8688524590164,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 109.2896174863388,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
@@ -98,36 +109,43 @@
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
-      "total_no_proposed_residential_units": 3,
+      "total_no_proposed_residential_units": 2,
       "total_no_existing_residential_affordable_units": 0,
       "residential_units": [
         {
-          "unit_no": "Gain-1",
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
           "change_type": "Gain",
-          "unit_type": "Communal Space",
-          "gia": 21.4
-        },
-        {
+          "m42_compliant": true,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "unit_no": "Gain-2",
-          "change_type": "Gain",
+          "phase_detail": null,
+          "unit_no": null,
           "no_bedrooms": 2,
-          "unit_type": "Flat Apartment Maisonette",
-          "gia": 63.7,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 63.7
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "change_type": "Gain",
+          "m42_compliant": true,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "unit_no": "Gain-3",
-          "change_type": "Gain",
+          "phase_detail": null,
+          "unit_no": null,
           "no_bedrooms": 2,
-          "unit_type": "Flat Apartment Maisonette",
-          "gia": 61.9,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 61.9
         }
-      ]
+      ],
+      "site_area": 0.0183
     },
     "infrastructure_details": {
       "total_annual_nox_emissions": 0,
@@ -135,7 +153,7 @@
       "percentage_demolition_construction_material_recycling": 50,
       "green_roof_area": 0,
       "no_resi_units_to_have_full_fibre": 2,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "no_new_water_connections_required": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "chp_heat_pumps_capacity": 0.01,
@@ -144,21 +162,34 @@
       "no_homes_passive_cooling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "total_annual_pm_emissions": 880,
-      "waste_provision": true
+      "waste_provision": false
     },
     "internal_resi_water_usage": 400,
     "phasing_details": [
       {
         "phase_detail": "1",
-        "intended_commencement_date": "06/2025",
-        "intended_completion_date": "12/2025"
+        "intended_completion_date": "12/2025",
+        "intended_commencement_date": "06/2025"
       }
     ],
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.0183
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "uprn": "10008980184",
   "street_name": "Sunnyside Road",
-  "decision": null,
+  "decision": "Approved",
   "wgs84_polygon": {
     "type": "Polygon",
     "coordinates": [
@@ -196,14 +227,14 @@
   },
   "valid_date": "21/03/2025",
   "id": "Islington-P2025_0594_FUL",
-  "last_updated": "2025-04-01T00:35:14.750Z",
+  "last_updated": "2026-07-24T14:37:21.198Z",
   "locality": "London",
-  "status": "Application Under Consideration",
+  "status": "Approved",
   "last_date_consultation_comments": "26/04/2025",
   "decision_target_date": "15/05/2025",
   "actual_completion_date": null,
-  "bo_system": "Agile APAS",
+  "bo_system": "Portal",
   "reference_no_of_permission_being_relied_on": null,
-  "title_number": null,
+  "title_number": [],
   "application_type": "All Other"
 }

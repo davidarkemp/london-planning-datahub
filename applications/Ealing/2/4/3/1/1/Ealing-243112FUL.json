@@ -27,11 +27,15 @@
     ],
     "type": "Polygon"
   },
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "url_planning_app": null,
   "decision_target_date": "08/10/2024",
-  "status": "Approved",
-  "parking_details": null,
+  "status": "Commenced",
+  "parking_details": {
+    "no_existing_car": 0,
+    "net_car": 0,
+    "no_proposed_car": 0
+  },
   "street_name": "Winchester Street",
   "decision_agency": null,
   "appeal_decision": null,
@@ -44,7 +48,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 50,
-      "total_gia_existing": 104
+      "total_gia_existing": 104,
+      "site_area": 0.015000000000000001
     },
     "affordable_housing_fast_track": false,
     "grey_water_reuse": false,
@@ -59,7 +64,7 @@
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_gia_lost": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 133.33333333333331,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_starter_homes": 0,
       "residential_units": [
@@ -94,7 +99,7 @@
       "total_no_proposed_residential_units": 2,
       "affordable_percentage": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 133.33333333333331,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
@@ -108,7 +113,8 @@
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "total_no_existing_residential_units_discount_market_rent": 0
+      "total_no_existing_residential_units_discount_market_rent": 0,
+      "site_area": 0.015000000000000001
     },
     "internal_resi_water_usage": 0,
     "scheme_phasing": true,
@@ -133,7 +139,7 @@
     },
     "total_gia_lost": 0,
     "ownership_status": "Private",
-    "site_area": 0.015000000000000001,
+    "site_area": 0.0145,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 104,
@@ -142,7 +148,7 @@
         "gia_lost": 0
       }
     ],
-    "existing_uprns": null,
+    "existing_uprns": [],
     "green_suds": false,
     "rain_water_harvesting": false,
     "total_gia_gained": 50,
@@ -155,7 +161,19 @@
     ],
     "projected_cost_of_works": "Up to £2m",
     "total_gia_existing": 104,
-    "occupation_status": "Occupied"
+    "occupation_status": "Occupied",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.015000000000000001
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "appeal_decision_date": null,
   "decision_date": "24/10/2024",
@@ -166,7 +184,7 @@
   "ward": "SOUACT",
   "lapsed_date": "24/10/2027",
   "last_date_consultation_comments": "04/09/2024",
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "lpa_app_no": "243112FUL",
   "postcode": "W3 8PA",
   "pp_id": "PP-13328124",
@@ -174,35 +192,34 @@
   "application_type": "All Other",
   "locality": null,
   "date_building_work_started_under_previous_permission": null,
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "lpa_name": "Ealing",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "29/10/2024",
   "site_name": "",
   "decision_conditions": [
     "Cycle Store - Compliance",
     "Refuse - Compliance",
     "Standard Cond - Expiration Three Years",
-    "Standard Cond - Materials",
-    "",
-    "",
-    ""
+    "Standard Cond - Materials"
   ],
   "application_type_full": "Full planning permission",
-  "centroid_northing": "180014",
+  "centroid_northing": 180014,
   "epc_number": null,
   "actual_completion_date": null,
   "title_number": [],
   "appeal_status": null,
   "borough": "London Borough of Ealing",
-  "cil_liability": true,
+  "cil_liability": false,
   "decision_process": null,
   "id": "Ealing-243112FUL",
-  "description": "Conversion of the single dwelling into two flats, with associated refuse storage and cycle storage, facilitated by a single storey rear/side extension, Roof extension to rear (main) roof slope; part rear roof extension to rear outrigger roof slope and installation of three roof lights to front roof slope.\r\r\r",
+  "description": "Conversion of the single dwelling into two flats, with associated refuse storage and cycle storage, facilitated by a single storey rear/side extension, Roof extension to rear (main) roof slope; part rear roof extension to rear outrigger roof slope and installation of three roof lights to front roof slope.\n\n\n",
   "appeal_start_date": null,
-  "last_updated": "2026-07-18T04:04:07.709Z",
+  "last_updated": "2026-07-25T01:08:30.132Z",
   "centroid": {
     "lon": -0.268323,
     "lat": 51.506267
   },
-  "centroid_easting": "520280"
+  "centroid_easting": 520280
 }
