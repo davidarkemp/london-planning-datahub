@@ -2,7 +2,7 @@
   "uprn": "000207003450",
   "ward": "Southbury",
   "epc_number": null,
-  "description": "Change of use from single dwelling house (Class C3) to residential Institution (Class C2). (RETROSPECTIVE).",
+  "description": "Change of use from single dwelling house (Use Class C3) to residential Institution (Use Class C2). (RETROSPECTIVE).",
   "centroid_easting": 534425,
   "decision_date": null,
   "street_name": "Great Cambridge Road",
@@ -15,7 +15,7 @@
   "lpa_app_no": "26/02253/FUL",
   "title_number": null,
   "decision": null,
-  "last_updated": "2026-07-23T20:08:15.803Z",
+  "last_updated": "2026-07-28T01:09:26.218Z",
   "appeal_start_date": null,
   "actual_commencement_date": null,
   "bo_system": "Idox Uniform",
@@ -70,7 +70,7 @@
       "site_area": 0.03,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 150,
-      "total_gia_existing": 0
+      "total_gia_existing": 150
     },
     "garden_land_lost": false,
     "scheme_phasing": true,
@@ -83,17 +83,10 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "residential_units": [
         {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "description": null,
+          "no_habitable_rooms": 8,
           "change_type": "Loss",
-          "m42_compliant": true,
-          "garden_land": false,
           "sheltered_accommodation": false,
           "unit_type": "Semi Detached Home",
-          "no_habitable_rooms": 8,
-          "phase_detail": null,
-          "unit_no": null,
           "no_bedrooms": 5,
           "provision_for_older_persons": false,
           "tenure": "London Affordable Rent",
@@ -116,7 +109,7 @@
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_london_living_rent": 0,
-      "total_gia_lost": 0,
+      "total_gia_lost": 150,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
@@ -145,7 +138,7 @@
         "intended_commencement_date": "06/2026"
       }
     ],
-    "site_area": 300,
+    "site_area": 0.03,
     "commencement_notice_received": false,
     "ownership_status": "Private",
     "infrastructure_details": {
@@ -176,51 +169,39 @@
     "total_gia_lost": 0,
     "constraints_details": [
       {
-        "result": null,
         "constraints_layer_description": "SURWAT Description: Idox.Spatial.Common.Desktop.DataAccess.Shape"
       },
       {
-        "result": null,
         "constraints_layer_description": "LHA Maximum Height Level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet)."
       },
       {
-        "result": null,
         "constraints_layer_description": "LLA Maximum height level: All buildings, structures, and works exceeding 300 metres in height (984.2 feet)"
       },
       {
-        "result": null,
         "constraints_layer_description": "100Y Name: North Enfield Model\rDescription: 100YRCC2953\rScenario: 1 in 100 year plus climate change allowance"
       },
       {
-        "result": null,
         "constraints_layer_description": "DCAREA Area: NORTH\rCode: DCAREA_N"
       },
       {
-        "result": null,
         "constraints_layer_description": "GAP35Z Description: Gas pipeline buffer - 35m"
       },
       {
-        "result": null,
         "constraints_layer_description": "LBECO Name: LINDEN GARDENS"
       },
       {
-        "result": null,
         "constraints_layer_description": "TRROCB Description: TRROCB3"
       },
       {
-        "result": null,
         "constraints_layer_description": "TRUROA Name: GREAT CAMBRIDGE ROAD"
       },
       {
-        "result": null,
         "constraints_layer_description": "WARDS Name: Southbury"
       },
       {
-        "result": null,
         "constraints_layer_description": "CILRES CIL ZONE: Lower Rate Eastern Zone - RATE: £40 per square metre"
       },
       {
-        "result": null,
         "constraints_layer_description": "EFCAZI Chargeable Zone Value: 6176"
       }
     ],
@@ -266,7 +247,7 @@
   "site_name": null,
   "decision_process": null,
   "postcode": "EN1 4BZ",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "centroid": {
     "lat": 51.664151,
     "lon": -0.057775

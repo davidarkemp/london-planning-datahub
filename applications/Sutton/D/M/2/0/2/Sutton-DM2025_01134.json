@@ -113,7 +113,7 @@
   "application_details": {
     "grey_water_reuse": false,
     "commencement_notice_received": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
       "ghg_reduction_over_building_regulations": false,
@@ -136,7 +136,7 @@
       "no_active_fast_ev_charging_points": 0,
       "no_passive_fast_ev_charging_points": 0,
       "no_active_other_ev_charging_points": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "total_annual_nox_emissions": 0
     },
     "garden_land_lost": false,
@@ -211,14 +211,14 @@
       "dwelling_density": 0,
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "total_no_proposed_residential_units": 1,
+      "total_no_proposed_residential_units": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units": 1,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
-      "total_no_proposed_residential_units_market_for_rent": 1,
-      "habitable_rooms_density": null,
+      "total_no_proposed_residential_units_market_for_rent": 0,
+      "habitable_rooms_density": 0,
       "total_no_existing_residential_units_market_for_sale": 1,
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_social_rent": 0,
@@ -231,44 +231,28 @@
       "residential_units": [
         {
           "m43_2b_compliant": false,
+          "actual_completion_date": "10/02/2026",
           "m43_2a_compliant": false,
           "description": null,
-          "m42_compliant": false,
-          "change_type": "Gain",
-          "sheltered_accommodation": false,
-          "garden_land": false,
-          "unit_type": "HMO",
-          "provider": "Private",
-          "no_habitable_rooms": 9,
-          "phase_detail": null,
-          "unit_no": null,
-          "no_bedrooms": 8,
-          "provision_for_older_persons": false,
-          "gia": 175,
-          "tenure": "Market for rent"
-        },
-        {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "description": null,
-          "m42_compliant": false,
           "change_type": "Loss",
-          "sheltered_accommodation": false,
+          "m42_compliant": false,
           "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "Terraced Home",
           "no_habitable_rooms": 8,
           "phase_detail": null,
           "unit_no": null,
+          "actual_commencement_date": "22/10/2025",
           "no_bedrooms": 6,
           "provision_for_older_persons": false,
-          "gia": 175,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 175
         }
       ],
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
-      "total_no_proposed_bedrooms": 8,
+      "total_no_proposed_bedrooms": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -282,35 +266,54 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "affordable_percentage": 0,
-      "total_gia_lost": 175
+      "total_gia_lost": 175,
+      "site_area": 221
     },
     "projected_cost_of_works": "Up to £2m",
     "other_residential_accommodation_details": {
-      "site_area": 0.02
+      "site_area": 0.02,
+      "other_resi_accommodation_unit_details": [
+        {
+          "no_rooms_proposed": 8,
+          "actual_completion_date": "10/02/2026",
+          "actual_commencement_date": "22/10/2025",
+          "unit_type": "Hostel Room",
+          "no_rooms_lost": 0
+        }
+      ]
     },
     "total_gia_existing": 175,
     "phasing_details": [
       {
         "phase_detail": "phase 1",
-        "intended_commencement_date": "12/2025",
-        "intended_completion_date": "04/2026"
+        "intended_completion_date": "04/2026",
+        "intended_commencement_date": "12/2025"
       }
     ],
     "total_gia_lost": 175,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 175,
+        "actual_completion_date": "10/02/2026",
         "gia_gained": 175,
         "use_class": "C3",
+        "actual_commencement_date": "22/10/2025",
         "gia_lost": 175
       }
     ],
-    "s106_agreement": false
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "appeal_status": null,
   "site_name": null,
   "date_building_work_completed_under_previous_permission": null,
-  "actual_commencement_date": null,
+  "actual_commencement_date": "22/10/2025",
   "street_name": "Middleton Road",
   "url_planning_app": "https://planningregister.sutton.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=T1YWPBKCKX100",
   "uprn": "005870068207",
@@ -319,16 +322,16 @@
   "reference_no_of_permission_being_relied_on": null,
   "description": "Change of use from Class C4 (Small HMO) to Class Sui generis (Larger HMO).",
   "epc_number": "7034-7521-1400-0437-1202",
-  "title_number": null,
+  "title_number": [],
   "application_type_full": "Full planning permission",
   "date_building_work_started_under_previous_permission": null,
   "decision_agency": null,
-  "last_updated_by": "Idox Uniform",
-  "last_updated": "2025-11-04T21:03:23.551Z",
+  "last_updated_by": "Portal",
+  "last_updated": "2026-07-27T13:23:18.635Z",
   "subdivision_of_building": null,
   "valid_date": "05/09/2025",
   "lapsed_date": "22/10/2028",
-  "status": "Approved",
+  "status": "Commenced",
   "decision_process": "Delegated",
   "lpa_app_no": "DM2025/01134",
   "decision": "Approved",
@@ -339,13 +342,13 @@
   "parking_details": null,
   "last_date_consultation_comments": "03/10/2025",
   "cil_liability": false,
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "decision_conditions": [
     "Occupier",
-    "The development must be begun not later than the expiration of three years beginning with the date hereof.\r\rReason: To comply with Section 91 of the Town and Country Planning Act 1990, as amended.",
-    "Prior to occupation of the development the cycle parking shall be laid out in accordance with drawing no. 30 A and shall be retained thereafter for the lifetime of the development.\r\rReason: To comply with policy 37 of the Sutton Local Plan 2018.",
-    "The development must be carried out in accordance with the provisions of the Planning Fire Safety Strategy (ref: 1167 dwg 28A Fire stratagy statement 290825).\r\rReason: To ensure that the development incorporates the necessary fire safety measures in accordance with the Mayor's London Plan Policy D12.",
-    "The larger HMO hereby approved, shall have no more than 8 bedrooms and be occupied by no more than 8 individuals at any one time.  \r\rReason: To protect the amenity of adjoining occupiers in accordance with policy 29 of the Sutton Local Plan."
+    "The development must be begun not later than the expiration of three years beginning with the date hereof.\n\nReason: To comply with Section 91 of the Town and Country Planning Act 1990, as amended.",
+    "Prior to occupation of the development the cycle parking shall be laid out in accordance with drawing no. 30 A and shall be retained thereafter for the lifetime of the development.\n\nReason: To comply with policy 37 of the Sutton Local Plan 2018.",
+    "The development must be carried out in accordance with the provisions of the Planning Fire Safety Strategy (ref: 1167 dwg 28A Fire stratagy statement 290825).\n\nReason: To ensure that the development incorporates the necessary fire safety measures in accordance with the Mayor's London Plan Policy D12.",
+    "The larger HMO hereby approved, shall have no more than 8 bedrooms and be occupied by no more than 8 individuals at any one time.  \n\nReason: To protect the amenity of adjoining occupiers in accordance with policy 29 of the Sutton Local Plan."
   ],
   "pp_id": "PP-14297498",
   "lpa_name": "Sutton",

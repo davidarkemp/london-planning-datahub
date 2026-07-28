@@ -15,13 +15,13 @@
   "lpa_app_no": "DM2026/00866",
   "title_number": null,
   "decision": null,
-  "last_updated": "2026-07-25T01:08:29.719Z",
+  "last_updated": "2026-07-28T01:09:27.520Z",
   "appeal_start_date": null,
   "actual_commencement_date": null,
   "bo_system": "Idox Uniform",
   "secondary_street_name": null,
   "decision_agency": null,
-  "last_date_consultation_comments": null,
+  "last_date_consultation_comments": "17/08/2026",
   "appeal_decision_date": null,
   "actual_completion_date": null,
   "centroid_northing": 165909,
@@ -309,9 +309,9 @@
     "total_gia_existing": 0,
     "phasing_details": [
       {
+        "phase_detail": "Entire development",
         "intended_completion_date": "04/2027",
-        "intended_commencement_date": "09/2026",
-        "phase_detail": "Entire development"
+        "intended_commencement_date": "09/2026"
       }
     ],
     "site_area": 0.509,
@@ -323,14 +323,14 @@
       "no_homes_passive_cooling": 0,
       "waste_details": [
         {
-          "reason_for_no_provision": "Application for floodlighting to existing tennis courts as such no internal or external storage applicable (N/A)",
-          "internal_dry_recycling": false,
           "external_dry_recycling": false,
+          "external_food_waste": false,
+          "unit_reference": "0",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "Application for floodlighting to existing tennis courts as such no internal or external storage applicable (N/A)",
           "internal_residual_waste": false,
           "internal_food_waste": false,
-          "external_residual_waste": false,
-          "external_food_waste": false,
-          "unit_reference": "0"
+          "internal_dry_recycling": false
         }
       ],
       "no_non_resi_units_to_have_full_fibre": 0,
@@ -527,8 +527,8 @@
     ],
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "Other",
         "gia_existing": 0,
+        "use_class": "Other",
         "gia_gained": 0,
         "gia_lost": 0
       }
@@ -569,7 +569,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -781,14 +780,15 @@
               166051.131124999
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"
   },
   "appeal_decision": null,
   "borough": "Sutton",
-  "cil_liability": null,
+  "cil_liability": false,
   "subdivision_of_building": "The proposals are for floodlighting to existing external tennis courts as such no buildings are affected by the proposals.",
   "development_type": "Minor all other minor developments",
   "reference_no_of_permission_being_relied_on": null

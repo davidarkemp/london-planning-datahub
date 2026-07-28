@@ -1,6 +1,32 @@
 {
-  "wgs84_polygon": null,
-  "status": "Commenced",
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.252147,
+          51.466006
+        ],
+        [
+          -0.252148,
+          51.465979
+        ],
+        [
+          -0.252191,
+          51.46598
+        ],
+        [
+          -0.25219,
+          51.466007
+        ],
+        [
+          -0.252147,
+          51.466006
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "status": "Completed",
   "polygon": {
     "coordinates": [
       [
@@ -174,11 +200,11 @@
   },
   "appeal_decision_date": null,
   "ward": "MRB",
-  "site_name": "26-28 Priests Bridge\rEast Sheen\rLondon\rSW14 8TA\r",
-  "last_updated": "2025-03-19T20:03:34.310+00:00",
+  "site_name": "26-28 Priests Bridge\nEast Sheen\nLondon\nSW14 8TA\n",
+  "last_updated": "2026-07-27T09:01:17.805Z",
   "decision_agency": null,
   "epc_number": null,
-  "street_name": null,
+  "street_name": "",
   "decision_date": "08/08/2023",
   "decision": "Approved",
   "application_type_full": "Full planning permission",
@@ -188,13 +214,13 @@
   "date_building_work_started_under_previous_permission": null,
   "date_building_work_completed_under_previous_permission": null,
   "valid_date": "28/07/2022",
-  "postcode": null,
-  "bo_system": "Idox Uniform",
+  "postcode": "",
+  "bo_system": "Portal",
   "locality": null,
   "actual_commencement_date": "08/08/2023",
-  "cil_liability": true,
+  "cil_liability": false,
   "parking_details": null,
-  "actual_completion_date": null,
+  "actual_completion_date": "20/01/2026",
   "pp_id": "PP-11310494",
   "decision_process": "Delegated",
   "decision_target_date": "27/10/2022",
@@ -214,7 +240,7 @@
     "affordable_housing_fast_track": false,
     "total_gia_existing": 698,
     "projected_cost_of_works": "Between £2m and £100m",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
@@ -235,15 +261,15 @@
       "no_passive_fast_ev_charging_points": 6,
       "no_non_resi_units_to_have_full_fibre": 2,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 100,
       "no_active_fast_ev_charging_points": 1,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
-      "fire_suppression_system_proposed": true,
+      "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
       "chp_heat_pumps_capacity": 0.07,
-      "ghg_reduction_over_building_regulations": true
+      "ghg_reduction_over_building_regulations": false
     },
     "internal_resi_water_usage": 105,
     "phasing_details": [
@@ -261,9 +287,11 @@
         {
           "area": 28,
           "access": "Restricted",
+          "actual_completion_date": "20/01/2026",
           "land_swap": false,
           "open_space_designation": "Not Designated",
           "description": "Hard paving on internal courtyard and part of the rear open space. ",
+          "actual_commencement_date": "08/08/2023",
           "open_space_type": "Amenity"
         }
       ],
@@ -279,24 +307,30 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 698,
-        "use_class": "SpecifiedOther",
+        "actual_completion_date": "20/01/2026",
         "gia_gained": 0,
+        "use_class": "SpecifiedOther",
+        "actual_commencement_date": "08/08/2023",
         "gia_lost": 698
       },
       {
         "gia_existing": 0,
-        "use_class": "C3",
+        "actual_completion_date": "20/01/2026",
         "gia_gained": 633,
+        "use_class": "C3",
+        "actual_commencement_date": "08/08/2023",
         "gia_lost": 0
       },
       {
         "gia_existing": 0,
-        "use_class": "SpecifiedOther",
+        "actual_completion_date": "20/01/2026",
         "gia_gained": 649,
+        "use_class": "SpecifiedOther",
+        "actual_commencement_date": "08/08/2023",
         "gia_lost": 0
       }
     ],
-    "rain_water_harvesting": true,
+    "rain_water_harvesting": false,
     "building_details": [
       {
         "no_storeys": 3,
@@ -310,7 +344,7 @@
       }
     ],
     "grey_water_reuse": false,
-    "green_suds": true,
+    "green_suds": false,
     "surface_water_discharge_percentage_reduction": 50,
     "garden_land_lost": false,
     "residential_details": {
@@ -352,130 +386,148 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "provider": "Private",
-          "no_habitable_rooms": 2,
-          "phase_detail": null,
-          "unit_no": "Gain-1",
+          "actual_completion_date": "20/01/2026",
           "description": null,
           "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "New Build",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
           "actual_commencement_date": "08/08/2023",
           "no_bedrooms": 1,
-          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
-          "gia": 50,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 50
         },
         {
-          "provider": "Private",
-          "no_habitable_rooms": 3,
-          "phase_detail": null,
-          "unit_no": "Gain-2",
+          "actual_completion_date": "20/01/2026",
           "description": null,
           "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "New Build",
+          "no_habitable_rooms": 3,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
           "actual_commencement_date": "08/08/2023",
           "no_bedrooms": 2,
-          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
-          "gia": 61.5,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 61.5
         },
         {
-          "provider": "Private",
-          "no_habitable_rooms": 2,
-          "phase_detail": null,
-          "unit_no": "Gain-3",
+          "actual_completion_date": "20/01/2026",
           "description": null,
           "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "New Build",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
           "actual_commencement_date": "08/08/2023",
           "no_bedrooms": 1,
-          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
-          "gia": 51.7,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 51.7
         },
         {
-          "provider": "Private",
-          "no_habitable_rooms": 2,
-          "phase_detail": null,
-          "unit_no": "Gain-4",
+          "actual_completion_date": "20/01/2026",
           "description": null,
           "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "New Build",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
           "actual_commencement_date": "08/08/2023",
           "no_bedrooms": 1,
-          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
-          "gia": 50.2,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 50.2
         },
         {
-          "provider": "Private",
-          "no_habitable_rooms": 3,
-          "phase_detail": null,
-          "unit_no": "Gain-5",
+          "actual_completion_date": "20/01/2026",
           "description": null,
           "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "New Build",
+          "no_habitable_rooms": 3,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
           "actual_commencement_date": "08/08/2023",
           "no_bedrooms": 2,
-          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
-          "gia": 64.2,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 64.2
         },
         {
-          "provider": "Private",
-          "no_habitable_rooms": 3,
-          "phase_detail": null,
-          "unit_no": "Gain-6",
+          "actual_completion_date": "20/01/2026",
           "description": null,
           "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "New Build",
+          "no_habitable_rooms": 3,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
           "actual_commencement_date": "08/08/2023",
           "no_bedrooms": 2,
-          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
-          "gia": 61,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 61
         },
         {
-          "provider": "Private",
-          "no_habitable_rooms": 3,
-          "phase_detail": null,
-          "unit_no": "Gain-7",
+          "actual_completion_date": "20/01/2026",
           "description": null,
           "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "New Build",
+          "no_habitable_rooms": 3,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
           "actual_commencement_date": "08/08/2023",
           "no_bedrooms": 2,
-          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
-          "gia": 70.1,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 70.1
         },
         {
-          "provider": "Private",
-          "no_habitable_rooms": 3,
-          "phase_detail": null,
-          "unit_no": "Gain-8",
+          "actual_completion_date": "20/01/2026",
           "description": null,
           "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "New Build",
+          "no_habitable_rooms": 3,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
           "actual_commencement_date": "08/08/2023",
           "no_bedrooms": 2,
-          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
-          "gia": 78.4,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 78.4
         },
         {
-          "provider": "Private",
-          "no_habitable_rooms": 3,
-          "phase_detail": null,
-          "unit_no": "Gain-9",
+          "actual_completion_date": "20/01/2026",
           "description": null,
           "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "New Build",
+          "no_habitable_rooms": 3,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
           "actual_commencement_date": "08/08/2023",
           "no_bedrooms": 2,
-          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
-          "gia": 76.2,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 76.2
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -486,7 +538,17 @@
     "lead_developer_company_name": "Priests Bridge Ltd",
     "other_residential_accommodation_details": {
       "site_area": 1011
-    }
+    },
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "secondary_street_name": null,
   "lpa_app_no": "22/2360/FUL",
@@ -495,8 +557,8 @@
   "development_type": null,
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
-    "lon": "-0.2521458",
-    "lat": "51.4659931"
+    "lon": -0.252169,
+    "lat": 51.465993
   },
   "description": "Demolition of the existing buildings. Erection of a three storey mixed-use building on Priests Bridge (comprising Use Class E and 7 x residential units on first and second floor (three 1-bedroom flats, four 2-bedrooms flats)).  Erection of a part-one, part-two storey mixed-use building to rear (comprising Use Class E and 2 x residential units (two-bedrooms flats) with associated parking, cycle and refuse stores, hard and soft landscaping.",
   "title_number": [],
@@ -547,5 +609,5 @@
     "EV charging"
   ],
   "subdivision_of_building": null,
-  "last_updated_by": "Idox Uniform"
+  "last_updated_by": "Portal"
 }
