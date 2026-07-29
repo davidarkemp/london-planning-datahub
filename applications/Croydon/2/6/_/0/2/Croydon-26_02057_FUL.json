@@ -1,7 +1,7 @@
 {
   "uprn": "100022904746",
   "ward": "WT18",
-  "epc_number": "2342-3047-7202-6725-2204",
+  "epc_number": null,
   "description": "Erection of single storey rear extension, roof extension comprising a rear dormer and 2 front rooflights, and change of use from a dwellinghouse (Use Class C3) to a small House in Multiple Occupation (HMO) for a maximum of 6 occupants (Use Class C4).",
   "centroid_easting": "530488",
   "decision_date": null,
@@ -15,7 +15,7 @@
   "lpa_app_no": "26/02057/FUL",
   "title_number": [],
   "decision": null,
-  "last_updated": "2026-07-28T01:09:27.911Z",
+  "last_updated": "2026-07-28T22:09:58.118Z",
   "appeal_start_date": null,
   "actual_commencement_date": null,
   "bo_system": "Idox Uniform",
@@ -101,8 +101,8 @@
     "scheme_phasing": true,
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3",
         "gia_existing": 85,
+        "use_class": "C3",
         "gia_gained": 27.6,
         "gia_lost": 0
       }
@@ -116,22 +116,22 @@
       "residential_units": [
         {
           "no_habitable_rooms": 58,
-          "tenure": "Market for rent",
-          "gia": 85,
-          "unit_type": "HMO",
-          "no_bedrooms": 4,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "provision_for_older_persons": false
+          "unit_type": "HMO",
+          "no_bedrooms": 4,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 85
         },
         {
           "no_habitable_rooms": 80,
-          "tenure": "Market for rent",
-          "gia": 112.6,
+          "provider": "Private",
+          "change_type": "Gain",
           "unit_type": "HMO",
           "no_bedrooms": 6,
-          "change_type": "Gain",
-          "provider": "Private"
+          "tenure": "Market for rent",
+          "gia": 112.6
         }
       ],
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
@@ -173,9 +173,9 @@
     "total_gia_gained": 27.6,
     "phasing_details": [
       {
+        "phase_detail": "Construction",
         "intended_completion_date": "12/2026",
-        "intended_commencement_date": "09/2026",
-        "phase_detail": "Construction"
+        "intended_commencement_date": "09/2026"
       }
     ],
     "affordable_housing_fast_track": false,
@@ -189,7 +189,7 @@
   "site_name": "Tankerton Terrace",
   "decision_process": null,
   "postcode": "CR0 3HL",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "centroid": {
     "lat": 51.38768,
     "lon": -0.12609
@@ -197,7 +197,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -229,7 +228,8 @@
               167083
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"

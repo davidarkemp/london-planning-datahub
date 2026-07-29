@@ -15,7 +15,7 @@
   "lpa_app_no": "P/2026/0992",
   "title_number": null,
   "decision": null,
-  "last_updated": "2026-07-24T01:11:22.368Z",
+  "last_updated": "2026-07-28T09:40:15.615Z",
   "appeal_start_date": null,
   "actual_commencement_date": null,
   "bo_system": "Northgate M3",
@@ -123,14 +123,14 @@
       "no_homes_passive_cooling": 0,
       "waste_details": [
         {
-          "reason_for_no_provision": "Not applicable as the development is non-residential and does not create residential units. Existing waste management arrangement for the restaurant remain unchanged",
-          "internal_dry_recycling": false,
           "external_dry_recycling": false,
+          "external_food_waste": false,
+          "unit_reference": "0",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "Not applicable as the development is non-residential and does not create residential units. Existing waste management arrangement for the restaurant remain unchanged",
           "internal_residual_waste": false,
           "internal_food_waste": false,
-          "external_residual_waste": false,
-          "external_food_waste": false,
-          "unit_reference": "0"
+          "internal_dry_recycling": false
         }
       ],
       "no_non_resi_units_to_have_full_fibre": 0,
@@ -149,8 +149,8 @@
     "scheme_phasing": true,
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "EB",
         "gia_existing": 80.5,
+        "use_class": "EB",
         "gia_gained": 0,
         "gia_lost": 4.5
       }
@@ -160,9 +160,9 @@
     "total_gia_gained": 0,
     "phasing_details": [
       {
+        "phase_detail": "Entire Development",
         "intended_completion_date": "04/2026",
-        "intended_commencement_date": "03/2026",
-        "phase_detail": "Entire Development"
+        "intended_commencement_date": "03/2026"
       }
     ],
     "affordable_housing_fast_track": false,
@@ -177,7 +177,7 @@
   "site_name": "Unit F",
   "decision_process": null,
   "postcode": "TW13 7LX",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Northgate M3",
   "centroid": {
     "lat": 51.443606,
     "lon": -0.406462
@@ -185,7 +185,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -253,7 +252,8 @@
               172838.4721276138
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"
