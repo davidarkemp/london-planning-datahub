@@ -2,21 +2,24 @@
   "actual_completion_date": null,
   "appeal_start_date": null,
   "application_type_full": "Full planning permission",
-  "decision_conditions": null,
-  "decision": null,
+  "decision_conditions": [
+    "Policies",
+    "Policies"
+  ],
+  "decision": "Refused",
   "appeal_decision": null,
   "valid_date": "04/06/2026",
-  "description": "Erection of single storey dwelling in side space",
-  "status": "Application Under Consideration",
+  "description": "Erection of single storey attached dwellinghouse with parking and cycle store.",
+  "status": "Refused",
   "last_updated_by": "Planning Portal ingest",
-  "site_number": 108,
+  "site_number": "108",
   "cil_liability": true,
   "decision_process": null,
   "development_type": null,
   "subdivision_of_building": null,
-  "centroid_northing": 175970,
-  "last_updated": "2026-06-28T16:23:48.134Z",
-  "lapsed_date": null,
+  "centroid_northing": "175970",
+  "last_updated": "2026-07-30T01:11:02.166Z",
+  "lapsed_date": "29/07/2029",
   "bo_system": "Idox Uniform",
   "centroid": {
     "lat": 51.463595,
@@ -29,9 +32,9 @@
   },
   "url_planning_app": null,
   "pp_id": "PP-14983431",
-  "locality": "Welling",
+  "locality": null,
   "reference_no_of_permission_being_relied_on": null,
-  "uprn": 100020276841,
+  "uprn": "100020276841",
   "ward": "FALCWE",
   "application_details": {
     "affordable_housing_fast_track": false,
@@ -49,8 +52,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 0,
-        "gia_gained": 50,
         "use_class": "C3",
+        "gia_gained": 50,
         "gia_lost": 0
       }
     ],
@@ -79,7 +82,7 @@
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_proposed_bedrooms": 1,
-      "total_no_proposed_residential_units": 1,
+      "total_no_proposed_residential_units": 2,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units": 0,
@@ -99,7 +102,7 @@
       "total_no_existing_residential_units_affordable_rent": 0,
       "habitable_rooms_density": null,
       "total_no_existing_residential_units_london_shared_ownership": 0,
-      "total_gia_gained": 50,
+      "total_gia_gained": 100,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "dwelling_density": 0,
@@ -114,23 +117,23 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": true,
           "change_type": "Gain",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "House or Bungalow",
+          "unit_type": "Communal Space",
+          "gia": 50
+        },
+        {
           "no_habitable_rooms": 2,
           "provider": "Private",
+          "change_type": "Gain",
+          "unit_type": "House or Bungalow",
           "no_bedrooms": 1,
-          "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 50
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "total_gia_lost": 0
     },
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
@@ -164,55 +167,69 @@
   "lpa_name": "Bexley",
   "title_number": [],
   "epc_number": null,
-  "decision_date": null,
+  "decision_date": "29/07/2026",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          [
-            0.116106,
-            51.463743
-          ],
-          [
-            0.116095,
-            51.463724
-          ],
-          [
-            0.115983,
-            51.463535
-          ],
-          [
-            0.115943,
-            51.463483
-          ],
-          [
-            0.115952,
-            51.463483
-          ],
-          [
-            0.115999,
-            51.463483
-          ],
-          [
-            0.116033,
-            51.463492
-          ],
-          [
-            0.116063,
-            51.463513
-          ],
-          [
-            0.116188,
-            51.463721
-          ],
-          [
-            0.116106,
-            51.463743
-          ]
+          0.115983,
+          51.463479
+        ],
+        [
+          0.115997,
+          51.463487
+        ],
+        [
+          0.116027,
+          51.463496
+        ],
+        [
+          0.116056,
+          51.463504
+        ],
+        [
+          0.116056,
+          51.463513
+        ],
+        [
+          0.116086,
+          51.46354
+        ],
+        [
+          0.116181,
+          51.463718
+        ],
+        [
+          0.116181,
+          51.463718
+        ],
+        [
+          0.116195,
+          51.463717
+        ],
+        [
+          0.116025,
+          51.463766
+        ],
+        [
+          0.115869,
+          51.463508
+        ],
+        [
+          0.115869,
+          51.463508
+        ],
+        [
+          0.11594,
+          51.463479
+        ],
+        [
+          0.115983,
+          51.463479
         ]
       ]
     ],
-    "type": "MultiPolygon"
+    "type": "Polygon"
   },
   "date_building_work_started_under_previous_permission": null,
   "decision_target_date": "30/07/2026",
@@ -224,57 +241,71 @@
         "coordinates": [
           [
             [
-              [
-                547094.750768278,
-                175986.66507691971
-              ],
-              [
-                547094.028186952,
-                175984.52817482754
-              ],
-              [
-                547086.85,
-                175963.3
-              ],
-              [
-                547084.226,
-                175957.424
-              ],
-              [
-                547084.8646048572,
-                175957.44383951937
-              ],
-              [
-                547088.153,
-                175957.546
-              ],
-              [
-                547090.474,
-                175958.568
-              ],
-              [
-                547092.45,
-                175960.95
-              ],
-              [
-                547100.5,
-                175984.4
-              ],
-              [
-                547094.750768278,
-                175986.66507691971
-              ]
+              547087,
+              175957
+            ],
+            [
+              547088,
+              175958
+            ],
+            [
+              547090,
+              175959
+            ],
+            [
+              547092,
+              175960
+            ],
+            [
+              547092,
+              175961
+            ],
+            [
+              547094,
+              175964
+            ],
+            [
+              547100,
+              175984
+            ],
+            [
+              547100,
+              175984
+            ],
+            [
+              547101,
+              175984
+            ],
+            [
+              547089,
+              175989
+            ],
+            [
+              547079,
+              175960
+            ],
+            [
+              547079,
+              175960
+            ],
+            [
+              547084,
+              175957
+            ],
+            [
+              547087,
+              175957
             ]
           ]
         ],
-        "type": "MultiPolygon"
+        "type": "Polygon"
       }
     ],
-    "type": "GeometryCollection"
+    "type": "geometrycollection"
   },
-  "centroid_easting": 547087,
+  "centroid_easting": "547087",
   "date_building_work_completed_under_previous_permission": null,
-  "borough": "Bexley",
+  "borough": "London Borough of Bexley",
   "id": "Bexley-26_01112_FUL",
   "application_type": "All Other",
   "lpa_app_no": "26/01112/FUL",
