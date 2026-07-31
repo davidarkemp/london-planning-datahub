@@ -9,10 +9,10 @@
   "decision_process": "Delegated",
   "lpa_name": "Hillingdon",
   "centroid_easting": 509515,
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "last_date_consultation_comments": "21/10/2022",
   "pp_id": "11169459",
-  "last_updated": "2025-03-19T03:29:09.551+00:00",
+  "last_updated": "2026-07-30T18:23:45.555Z",
   "actual_completion_date": null,
   "decision": "Approved",
   "valid_date": "04/04/2022",
@@ -74,8 +74,8 @@
   "decision_target_date": "01/11/2022",
   "date_building_work_started_under_previous_permission": null,
   "centroid": {
-    "lat": "51.5374319",
-    "lon": "-0.42234459999999996"
+    "lat": 51.537431,
+    "lon": -0.422365
   },
   "centroid_northing": 183238,
   "reference_no_of_permission_being_relied_on": null,
@@ -122,15 +122,15 @@
   "locality": null,
   "borough": "Hillingdon",
   "decision_agency": "Borough",
-  "status": "Approved",
+  "status": "Lapsed",
   "application_details": {
     "existing_uprns": [],
     "affordable_housing_fast_track": false,
     "phasing_details": [
       {
         "phase_detail": "Whole Development",
-        "intended_completion_date": "11/2022",
-        "intended_commencement_date": "08/2022"
+        "intended_commencement_date": "08/2022",
+        "intended_completion_date": "11/2022"
       }
     ],
     "total_gia_gained": 173.77,
@@ -140,18 +140,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 189.44,
-        "superseded_date": null,
-        "actual_completion_date": null,
         "use_class": "C3",
         "gia_gained": 173.77,
-        "actual_commencement_date": null,
-        "superseded_by_lpa_app_no": null,
         "gia_lost": 189.44
       }
     ],
     "projected_cost_of_works": "Up to £2m",
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "building_details": [
       {
         "no_storeys": 0,
@@ -169,7 +165,7 @@
       "total_gia_lost": 189.44,
       "total_gia_existing": 189.44,
       "development_type": null,
-      "site_area": null
+      "site_area": 0.034
     },
     "garden_land_lost": false,
     "internal_resi_water_usage": 140,
@@ -212,74 +208,44 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
-          "description": null,
-          "change_type": "Loss",
-          "m42_compliant": null,
-          "sheltered_accommodation": false,
-          "garden_land": null,
-          "unit_type": "Semi Detached Home",
-          "unit_development_type": "Conversion",
-          "superseded_date": null,
-          "provider": null,
           "no_habitable_rooms": 8,
           "phase_detail": null,
-          "unit_no": "Loss-1",
-          "actual_commencement_date": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
+          "unit_type": "Semi Detached Home",
           "no_bedrooms": 6,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
+          "unit_development_type": "Conversion",
           "tenure": "Market for sale",
           "gia": 189
         },
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
-          "description": null,
-          "change_type": "Gain",
-          "m42_compliant": null,
-          "sheltered_accommodation": null,
-          "garden_land": null,
-          "unit_type": "Flat Apartment Maisonette",
-          "unit_development_type": "Conversion",
-          "superseded_date": null,
           "provider": "Private",
           "no_habitable_rooms": 4,
           "phase_detail": null,
-          "unit_no": "Gain-1",
-          "actual_commencement_date": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
+          "unit_development_type": "Conversion",
           "tenure": "Market for rent",
           "gia": 81.55
         },
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
-          "description": null,
-          "change_type": "Gain",
-          "m42_compliant": null,
-          "sheltered_accommodation": null,
-          "garden_land": null,
-          "unit_type": "Flat Apartment Maisonette",
-          "unit_development_type": "Conversion",
-          "superseded_date": null,
           "provider": "Private",
           "no_habitable_rooms": 4,
           "phase_detail": null,
-          "unit_no": "Gain-2",
-          "actual_commencement_date": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
+          "unit_development_type": "Conversion",
           "tenure": "Market for sale",
           "gia": 84
         }
@@ -297,7 +263,7 @@
       "no_passive_fast_ev_charging_points": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_active_fast_ev_charging_points": 3,
       "no_homes_to_have_electrical_heating": 0,
@@ -318,14 +284,14 @@
       "waste_details": []
     },
     "ownership_status": "Private",
-    "s106_agreement": null,
+    "s106_agreement": false,
     "affordable_housing_inlieu_payment": null,
-    "air_quality_assessment": null,
+    "air_quality_assessment": false,
     "other_contributions": null,
     "intended_commencement_date": null,
     "no_affordable_housing_units_provided_offsite": null,
-    "commencement_notice_received": null,
-    "circular_economy_statement": null,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
     "qualifying_vacant_building_floorspace": null,
     "open_and_protected_space_details": {
       "protected_space_count": 0,
@@ -341,23 +307,23 @@
     "constraints_details": [],
     "superseding_details": [],
     "lead_registered_social_landlord": null,
-    "viability_assessment": null,
+    "viability_assessment": false,
     "overseas_company_registration_no": null,
-    "mayoral_cil_liability_notice_issued": null,
+    "mayoral_cil_liability_notice_issued": false,
     "non_permanent_dwellings_details": [],
     "intended_completion_date": null,
     "other_residential_accommodation_details": {
       "no_council_tax_rateable_units_gained": null,
       "no_council_tax_rateable_units_lost": null,
-      "site_area": null,
+      "site_area": 0.034,
       "other_resi_accommodation_unit_details": []
     },
     "uk_company_registration_no": null,
-    "3d_model": null,
+    "3d_model": false,
     "no_affordable_housing_units_acquired_offsite": null,
     "transport_contributions": null,
-    "borough_cil_liability_notice_issued": null,
-    "transport_impact_assessment": null,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
     "social_infrastructure_contributions": null,
     "scheme_name": "167 GROSVENOR AVENUE",
     "lead_developer_company_name": null
@@ -405,7 +371,7 @@
     "For Private Roads: Care should be taken during the building works hereby approved to ensure no damage occurs to the verge of footpaths on private roads during construction. Vehicles delivering materials to this development shall not override or cause damage to a private road and where possible alternative routes should be ta"
   ],
   "decision_date": "01/11/2022",
-  "last_updated_by": "FME Excel Import",
+  "last_updated_by": "Portal",
   "description": "Conversion of single dwelling into 2 x self-contained flats with associated bin storage, bicycle parking and private amenity space.",
   "uprn": null,
   "application_type": "All Other",
@@ -414,44 +380,44 @@
     "coordinates": [
       [
         [
-          -0.4224698,
-          51.5374157
+          -0.42249,
+          51.537415
         ],
         [
-          -0.4224073,
-          51.5375695
+          -0.422427,
+          51.537568
         ],
         [
-          -0.42236959999999996,
-          51.5375571
+          -0.42239,
+          51.537556
         ],
         [
-          -0.4222993,
-          51.5375205
+          -0.422319,
+          51.537519
         ],
         [
-          -0.4221472,
-          51.5373668
+          -0.422167,
+          51.537366
         ],
         [
-          -0.4222147,
-          51.5373468
+          -0.422235,
+          51.537346
         ],
         [
-          -0.4222472,
-          51.5373711
+          -0.422267,
+          51.53737
         ],
         [
-          -0.4224016,
-          51.537319600000004
+          -0.422422,
+          51.537319
         ],
         [
-          -0.4224845,
-          51.537404
+          -0.422505,
+          51.537403
         ],
         [
-          -0.4224698,
-          51.5374157
+          -0.42249,
+          51.537415
         ]
       ]
     ],

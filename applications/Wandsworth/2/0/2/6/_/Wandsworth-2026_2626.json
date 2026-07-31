@@ -2,7 +2,7 @@
   "uprn": "100022708260",
   "ward": null,
   "epc_number": null,
-  "description": "Erection of hip to gable side roof extension and rear roof extension (with French doors) and extension above part of two-storey back addition; formation of roof terrace above two-storey back addition with 1.7m high screen surround.",
+  "description": "Alterations including erection of hip to gable side roof extension and rear roof dormer  extension (with French doors) and extension above part of two-storey back addition; formation of roof terrace above two-storey back addition with 1.7m high screen surround.",
   "centroid_easting": 527830,
   "decision_date": null,
   "street_name": "Valnay Street",
@@ -15,7 +15,7 @@
   "lpa_app_no": "2026/2626",
   "title_number": null,
   "decision": null,
-  "last_updated": "2026-07-24T01:11:22.468Z",
+  "last_updated": "2026-07-31T01:11:20.610Z",
   "appeal_start_date": null,
   "actual_commencement_date": null,
   "bo_system": "Northgate M3",
@@ -119,14 +119,14 @@
       "no_homes_passive_cooling": 0,
       "waste_details": [
         {
-          "reason_for_no_provision": "Old Victorian House",
-          "internal_dry_recycling": false,
           "external_dry_recycling": false,
+          "external_food_waste": false,
+          "unit_reference": "82A",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "Old Victorian House",
           "internal_residual_waste": false,
           "internal_food_waste": false,
-          "external_residual_waste": false,
-          "external_food_waste": false,
-          "unit_reference": "82A"
+          "internal_dry_recycling": false
         }
       ],
       "no_non_resi_units_to_have_full_fibre": 0,
@@ -145,8 +145,8 @@
     "scheme_phasing": true,
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3",
         "gia_existing": 58,
+        "use_class": "C3",
         "gia_gained": 35,
         "gia_lost": 0
       }
@@ -156,9 +156,9 @@
     "total_gia_gained": 35,
     "phasing_details": [
       {
-        "intended_completion_date": "11/2026",
+        "phase_detail": "Build",
         "intended_commencement_date": "09/2026",
-        "phase_detail": "Build"
+        "intended_completion_date": "11/2026"
       }
     ],
     "affordable_housing_fast_track": false,
@@ -180,7 +180,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -244,7 +243,8 @@
               171399.30032739555
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"

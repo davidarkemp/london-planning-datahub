@@ -15,13 +15,13 @@
   "lpa_app_no": "2026/2672",
   "title_number": null,
   "decision": null,
-  "last_updated": "2026-07-30T01:11:02.513Z",
+  "last_updated": "2026-07-31T01:11:19.389Z",
   "appeal_start_date": null,
   "actual_commencement_date": null,
   "bo_system": "Northgate M3",
   "secondary_street_name": null,
   "decision_agency": "Borough",
-  "last_date_consultation_comments": null,
+  "last_date_consultation_comments": "20/08/2026",
   "appeal_decision_date": null,
   "actual_completion_date": null,
   "centroid_northing": 173739,
@@ -263,14 +263,14 @@
       "no_homes_passive_cooling": 0,
       "waste_details": [
         {
-          "reason_for_no_provision": "The proposal is for heat pump only",
-          "internal_dry_recycling": false,
           "external_dry_recycling": false,
+          "external_food_waste": false,
+          "unit_reference": "na",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "The proposal is for heat pump only",
           "internal_residual_waste": false,
           "internal_food_waste": false,
-          "external_residual_waste": false,
-          "external_food_waste": false,
-          "unit_reference": "na"
+          "internal_dry_recycling": false
         }
       ],
       "no_non_resi_units_to_have_full_fibre": 0,
@@ -290,8 +290,8 @@
     "scheme_phasing": true,
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "F2",
         "gia_existing": 218,
+        "use_class": "F2",
         "gia_gained": 0,
         "gia_lost": 0
       }
@@ -301,9 +301,9 @@
     "total_gia_gained": 0,
     "phasing_details": [
       {
-        "intended_completion_date": "11/2025",
+        "phase_detail": "Installation of air source heat pump",
         "intended_commencement_date": "11/2025",
-        "phase_detail": "Installation of air source heat pump"
+        "intended_completion_date": "11/2025"
       }
     ],
     "affordable_housing_fast_track": false,
@@ -325,7 +325,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -533,7 +532,8 @@
               173721.00032810122
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"

@@ -15,7 +15,7 @@
   "lpa_app_no": "26/02859/FUL",
   "title_number": null,
   "decision": null,
-  "last_updated": "2026-07-30T01:11:03.569Z",
+  "last_updated": "2026-07-30T20:12:02.644Z",
   "appeal_start_date": null,
   "actual_commencement_date": null,
   "bo_system": "Idox Uniform",
@@ -70,11 +70,11 @@
   "application_details": {
     "non_residential_details": {
       "total_gia_gained": 135.82,
-      "total_gia_lost": 75.38,
+      "total_gia_lost": 0,
       "site_area": 0.02,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 135.82,
-      "total_gia_existing": 75.38
+      "total_gia_existing": 0
     },
     "garden_land_lost": false,
     "scheme_phasing": true,
@@ -87,23 +87,39 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 2,
-          "tenure": "Market for sale",
-          "gia": 75.38,
-          "unit_type": "Semi Detached Home",
-          "no_bedrooms": 2,
-          "change_type": "Loss",
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": false,
+          "change_type": "Gain",
           "sheltered_accommodation": false,
-          "provision_for_older_persons": false
+          "garden_land": false,
+          "unit_type": "HMO",
+          "provider": "Private",
+          "no_habitable_rooms": 1,
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 7,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 135.82
         },
         {
-          "no_habitable_rooms": 1,
-          "tenure": "Market for rent",
-          "gia": 135.82,
-          "unit_type": "HMO",
-          "no_bedrooms": 7,
-          "change_type": "Gain",
-          "provider": "Private"
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "change_type": "Loss",
+          "m42_compliant": false,
+          "sheltered_accommodation": false,
+          "garden_land": false,
+          "unit_type": "Semi Detached Home",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 75.38
         }
       ],
       "total_no_proposed_residential_units_shared_equity": 0,
@@ -130,7 +146,7 @@
       "dwelling_density": 0,
       "total_no_proposed_bedrooms": 7,
       "total_no_existing_residential_affordable_units": 0,
-      "total_gia_gained": 135.82,
+      "total_gia_gained": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "habitable_rooms_density": null,
       "total_no_existing_residential_units": 1,
@@ -146,12 +162,12 @@
     "total_gia_existing": 75.38,
     "phasing_details": [
       {
-        "intended_completion_date": "03/2027",
+        "phase_detail": "Entire development",
         "intended_commencement_date": "12/2026",
-        "phase_detail": "Entire development"
+        "intended_completion_date": "03/2027"
       }
     ],
-    "site_area": 0.02,
+    "site_area": 200,
     "commencement_notice_received": false,
     "ownership_status": "Private",
     "infrastructure_details": {
@@ -182,49 +198,60 @@
     "total_gia_lost": 75.38,
     "constraints_details": [
       {
+        "result": null,
         "constraints_layer_description": "SURWAT Description: Idox.Spatial.Common.Desktop.DataAccess.Shape"
       },
       {
+        "result": null,
         "constraints_layer_description": "LHA Maximum Height Level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet)."
       },
       {
+        "result": null,
         "constraints_layer_description": "LLA Maximum height level: All buildings, structures, and works exceeding 300 metres in height (984.2 feet)"
       },
       {
+        "result": null,
         "constraints_layer_description": "100Y Name: North Enfield Model\rDescription: 100YRCC3378\rScenario: 1 in 100 year plus climate change allowance"
       },
       {
+        "result": null,
         "constraints_layer_description": "DCAREA Area: NORTH\rCode: DCAREA_N"
       },
       {
+        "result": null,
         "constraints_layer_description": "OHLZE2 Description: EEB 33KV"
       },
       {
+        "result": null,
         "constraints_layer_description": "OVPOLI Description: OVPOLI4"
       },
       {
+        "result": null,
         "constraints_layer_description": "WARDS Name: Enfield Lock"
       },
       {
+        "result": null,
         "constraints_layer_description": "CILRES CIL ZONE: Lower Rate Eastern Zone - RATE: £40 per square metre"
       },
       {
+        "result": null,
         "constraints_layer_description": "DMDAAP Designation: Area Action Plan- Area: North East Enfield- Policy: Core policy 40"
       },
       {
+        "result": null,
         "constraints_layer_description": "EFCAZI Chargeable Zone Value: 6176"
       }
     ],
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3",
         "gia_existing": 75.38,
+        "use_class": "C3",
         "gia_gained": 0,
         "gia_lost": 75.38
       },
       {
-        "use_class": "SG",
         "gia_existing": 0,
+        "use_class": "SG",
         "gia_gained": 135.82,
         "gia_lost": 0
       }
@@ -252,12 +279,13 @@
     "existing_uprns": [
       "000207129164"
     ],
-    "green_suds": false
+    "green_suds": false,
+    "s106_agreement": true
   },
   "site_name": null,
   "decision_process": null,
   "postcode": "EN3 6LF",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "centroid": {
     "lat": 51.677501,
     "lon": -0.028955

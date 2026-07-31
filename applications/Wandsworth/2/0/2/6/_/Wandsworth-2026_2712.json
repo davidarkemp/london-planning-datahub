@@ -2,7 +2,7 @@
   "uprn": "121025261",
   "ward": null,
   "epc_number": null,
-  "description": "Alterations including erection of front and rear mansard roof extension to main  roof  to provide 1 x 1-bedroom flat at second floor level.",
+  "description": "Alterations including erection of front and rear mansard roof extensions to provide an additional floor of accommodation in the form of 1 x 1-bedroom flat (Class C3) at second floor level.",
   "centroid_easting": 525314,
   "decision_date": null,
   "street_name": "Wandsworth High Street",
@@ -15,13 +15,13 @@
   "lpa_app_no": "2026/2712",
   "title_number": null,
   "decision": null,
-  "last_updated": "2026-07-30T01:11:02.269Z",
+  "last_updated": "2026-07-31T01:11:20.299Z",
   "appeal_start_date": null,
   "actual_commencement_date": null,
   "bo_system": "Northgate M3",
   "secondary_street_name": null,
   "decision_agency": "Borough",
-  "last_date_consultation_comments": null,
+  "last_date_consultation_comments": "20/08/2026",
   "appeal_decision_date": null,
   "actual_completion_date": null,
   "centroid_northing": 174645,
@@ -102,8 +102,8 @@
     "scheme_phasing": true,
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3",
         "gia_existing": 86,
+        "use_class": "C3",
         "gia_gained": 58,
         "gia_lost": 0
       }
@@ -117,12 +117,12 @@
       "residential_units": [
         {
           "no_habitable_rooms": 3,
-          "tenure": "Market for rent",
-          "gia": 58,
+          "provider": "Private",
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "provider": "Private"
+          "tenure": "Market for rent",
+          "gia": 58
         }
       ],
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
@@ -164,9 +164,9 @@
     "total_gia_gained": 58,
     "phasing_details": [
       {
-        "intended_completion_date": "03/2027",
+        "phase_detail": "Entire Devlopment",
         "intended_commencement_date": "08/2026",
-        "phase_detail": "Entire Devlopment"
+        "intended_completion_date": "03/2027"
       }
     ],
     "affordable_housing_fast_track": false,
@@ -177,14 +177,14 @@
     "surface_water_discharge_percentage_reduction": 0,
     "superseding_details": [
       {
-        "partial_supersedence": false,
-        "lpa_app_no": "London Borough of Wandsworth "
+        "lpa_app_no": "London Borough of Wandsworth ",
+        "partial_supersedence": false
       }
     ],
     "building_details": [
       {
-        "max_height": 10.5,
         "no_storeys": 3,
+        "max_height": 10.5,
         "building_ref": "existing building"
       }
     ],
@@ -201,7 +201,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -233,7 +232,8 @@
               174652.59579428157
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"
