@@ -12,9 +12,9 @@
   "street_name": "Arthur Road",
   "locality": null,
   "ward": "Finsbury Park",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "07/08/2024",
   "lpa_name": "Islington",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "decision_conditions": null,
   "date_building_work_started_under_previous_permission": null,
   "centroid_easting": 530826,
@@ -25,56 +25,56 @@
     "coordinates": [
       [
         [
-          -0.114233,
-          51.5579088
+          -0.114259,
+          51.557906
         ],
         [
-          -0.1141759,
-          51.5578432
+          -0.114202,
+          51.557841
         ],
         [
-          -0.11407959999999999,
-          51.5577336
+          -0.114106,
+          51.557731
         ],
         [
-          -0.1141021,
-          51.5577255
+          -0.114128,
+          51.557723
         ],
         [
-          -0.114116,
-          51.5577207
+          -0.114142,
+          51.557718
         ],
         [
-          -0.11414389999999999,
-          51.5577113
+          -0.11417,
+          51.557709
         ],
         [
-          -0.1141522,
-          51.5577213
+          -0.114178,
+          51.557719
         ],
         [
-          -0.11418719999999999,
-          51.5577592
+          -0.114213,
+          51.557757
         ],
         [
-          -0.1141977,
-          51.557771
+          -0.114224,
+          51.557769
         ],
         [
-          -0.11429829999999999,
-          51.5578869
+          -0.114324,
+          51.557884
         ],
         [
-          -0.1143271,
-          51.5579211
+          -0.114353,
+          51.557919
         ],
         [
-          -0.11426259999999999,
-          51.5579434
+          -0.114289,
+          51.557941
         ],
         [
-          -0.114233,
-          51.5579088
+          -0.114259,
+          51.557906
         ]
       ]
     ]
@@ -83,17 +83,17 @@
   "subdivision_of_building": null,
   "last_date_consultation_comments": null,
   "development_type": null,
-  "title_number": null,
+  "title_number": [],
   "appeal_status": null,
-  "last_updated": "2025-03-19T02:29:36.463+00:00",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated": "2026-07-31T15:35:31.804Z",
+  "last_updated_by": "Portal",
   "site_name": null,
   "id": "Islington-P2023_2288_FUL",
   "decision": null,
   "cil_liability": false,
   "centroid_northing": 186012,
   "appeal_start_date": null,
-  "postcode": null,
+  "postcode": "",
   "url_planning_app": null,
   "date_building_work_completed_under_previous_permission": null,
   "secondary_street_name": null,
@@ -174,7 +174,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 0,
       "total_gia_lost": 0,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "site_area": 0.014
     },
     "affordable_housing_fast_track": false,
     "garden_land_lost": false,
@@ -183,7 +184,7 @@
     "rain_water_harvesting": false,
     "grey_water_reuse": false,
     "internal_resi_water_usage": 0,
-    "existing_uprns": null,
+    "existing_uprns": [],
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 195.18,
@@ -196,15 +197,15 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development ",
-        "intended_completion_date": "02/2024",
-        "intended_commencement_date": "12/2023"
+        "intended_commencement_date": "12/2023",
+        "intended_completion_date": "02/2024"
       }
     ],
     "total_gia_lost": 0,
     "projected_cost_of_works": "Up to £2m",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "infrastructure_details": {
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "ghg_reduction_over_building_regulations": false,
       "no_homes_to_have_electrical_heating": 0,
@@ -227,35 +228,52 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 8,
-          "unit_no": "Loss-1",
+          "actual_completion_date": "08/08/2024",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
+          "unit_type": "HMO",
+          "unit_development_type": "Conversion",
+          "no_habitable_rooms": 8,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "07/08/2024",
           "no_bedrooms": 6,
-          "unit_type": "Terraced Home",
           "provision_for_older_persons": false,
-          "gia": 195.18,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 195.18
         },
         {
+          "actual_completion_date": "08/08/2024",
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
+          "provider": "Private",
           "no_habitable_rooms": 5,
-          "provider": "Private",
-          "unit_no": "Gain-1",
-          "change_type": "Gain",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "07/08/2024",
           "no_bedrooms": 3,
-          "unit_type": "Flat Apartment Maisonette",
-          "gia": 87.88,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 87.88
         },
         {
-          "no_habitable_rooms": 4,
-          "provider": "Private",
-          "unit_no": "Gain-2",
+          "actual_completion_date": "08/08/2024",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 107.63,
-          "tenure": "Market for sale"
+          "unit_development_type": "Conversion",
+          "provider": "Private",
+          "no_habitable_rooms": 4,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "07/08/2024",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 107.63
         }
       ],
       "total_no_existing_residential_units_intermediate": 0,
@@ -281,22 +299,35 @@
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_gia_gained": 195.51,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 142.85714285714286,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 642.8571428571429,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_residential_units_market_for_sale": 2
+      "total_no_proposed_residential_units_market_for_sale": 2,
+      "site_area": 0.014
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.014
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "centroid": {
-    "lon": "-0.1142024",
-    "lat": "51.5578301"
+    "lon": -0.114229,
+    "lat": 51.557828
   },
   "lapsed_date": null,
   "decision_process": null,
