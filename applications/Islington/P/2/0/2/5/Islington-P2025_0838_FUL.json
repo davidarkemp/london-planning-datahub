@@ -1,32 +1,105 @@
 {
   "appeal_status": null,
-  "lapsed_date": null,
+  "lapsed_date": "07/08/2028",
   "appeal_start_date": null,
   "date_building_work_completed_under_previous_permission": null,
   "url_planning_app": null,
   "borough": "Islington",
   "application_type_full": "Full planning & listed building consent",
-  "actual_commencement_date": null,
-  "ward": null,
-  "decision_date": null,
+  "actual_commencement_date": "31/01/2026",
+  "ward": "",
+  "decision_date": "07/08/2025",
   "parking_details": {},
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              531655.35,
+              184446.05
+            ],
+            [
+              531655.4,
+              184443.25
+            ],
+            [
+              531655.5,
+              184437.8
+            ],
+            [
+              531657.1,
+              184437.9
+            ],
+            [
+              531666,
+              184438
+            ],
+            [
+              531667.5,
+              184438.05
+            ],
+            [
+              531668.75,
+              184438.05
+            ],
+            [
+              531681.15,
+              184438.3
+            ],
+            [
+              531681.15,
+              184438.7
+            ],
+            [
+              531681.1,
+              184443.15
+            ],
+            [
+              531681.05,
+              184446.5
+            ],
+            [
+              531667.3,
+              184446.25
+            ],
+            [
+              531665.85,
+              184446.2
+            ],
+            [
+              531656.9,
+              184446.1
+            ],
+            [
+              531655.35,
+              184446.05
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "pp_id": "PP-13865848",
   "development_type": null,
-  "description": "Planning and Listed Building Consent:  Amalgamation of basement flat with No.4 to create a single family dwelling house, vacuum glass windows and doors  at lower ground and ground floor (front elevation) and replacement of third floor casement windows (front and rear elevation), new vents to rear elevation and  lower ground floor  front elevation, internal roof insulation , metal staircase to rear elevation  and landscaping works to the  rear. Internal alterations would include: stripping modern joinery revealing chimney breast, creations of opening in lower ground floor spine wall (lower ground floor), removal of joinery associated with kitchen (second floor) refurbishment of bathroom (third floor rear) and associated works. . [Listed Building Consent P2025/0839/LBC also submitted].",
+  "description": "Amalgamation of basement flat with No. 4 to create a single family dwellinghouse, installation of vacuum glazing to lower ground and ground floor front openings, installation of slimline double glazing to ground floor (front elevation), replacement of third floor casement windows, installation of new metal staircase to rear elevation with associated landscaping works and associated internal and external alterations.",
   "site_name": null,
-  "decision_conditions": null,
+  "decision_conditions": [
+    "PERMITTED DEVELOPMENT RIGHTS WITHDRAWN (COMPLIANCE): Notwithstanding the provisions of Schedule 2, Part 3, Class L of the Town and Country Planning (General Permitted Development ) Order 2015 (or any other order revoking and re-enacting that Order with or without modifications), no change of use from Class C3 (dwellinghouses) to Class C4 (Houses in Multiple Occupation) shall take place without the prior written consent of the Local Planning Authority. \n\nREASON: To protect residential amenity, and ensure there is no loss of larger family homes."
+  ],
   "lpa_app_no": "P2025/0838/FUL",
   "subdivision_of_building": null,
-  "centroid_easting": 531664,
+  "centroid_easting": 531668,
   "epc_number": "1600-7516-0022-2321-3743",
   "secondary_street_name": null,
   "lpa_name": "Islington",
   "appeal_decision": null,
   "decision_agency": null,
-  "last_updated_by": "Planning Portal ingest",
-  "cil_liability": null,
-  "postcode": null,
+  "last_updated_by": "Portal",
+  "cil_liability": false,
+  "postcode": "",
   "decision_process": null,
   "application_details": {
     "affordable_housing_fast_track": false,
@@ -41,11 +114,11 @@
         "gia_lost": 0
       }
     ],
-    "site_area": 0.0211,
+    "site_area": 0.021,
     "total_gia_gained": 310,
-    "green_suds": true,
+    "green_suds": false,
     "total_gia_lost": 0,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "rain_water_harvesting": false,
     "projected_cost_of_works": "Up to £2m",
     "surface_water_discharge_percentage_reduction": 0,
@@ -54,7 +127,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 310,
-      "total_gia_lost": 0
+      "total_gia_lost": 0,
+      "site_area": 0.021
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -73,7 +147,7 @@
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_proposed_residential_units_social_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
@@ -98,17 +172,22 @@
       "total_no_existing_residential_affordable_units": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 1,
-          "unit_no": "Loss-1",
+          "actual_completion_date": "31/01/2026",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 1,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "31/01/2026",
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "gia": 59.8,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 59.8
         }
-      ]
+      ],
+      "site_area": 0.021
     },
     "infrastructure_details": {
       "total_annual_nox_emissions": 0,
@@ -124,7 +203,7 @@
       "no_homes_passive_cooling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "total_annual_pm_emissions": 0,
-      "waste_provision": true
+      "waste_provision": false
     },
     "internal_resi_water_usage": 110,
     "phasing_details": [
@@ -134,34 +213,87 @@
         "intended_completion_date": "01/2026"
       }
     ],
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.021
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "uprn": "5300023027",
   "street_name": "Compton Terrace",
-  "decision": null,
+  "decision": "Approved",
   "wgs84_polygon": {
     "type": "Polygon",
     "coordinates": [
       [
         [
-          -0.102713,
-          51.543528
+          -0.102858,
+          51.543562
         ],
         [
-          -0.102714,
-          51.543501
+          -0.102858,
+          51.543537
         ],
         [
-          -0.102757,
-          51.543502
+          -0.102859,
+          51.543488
         ],
         [
-          -0.102756,
-          51.543529
+          -0.102836,
+          51.543489
         ],
         [
-          -0.102713,
-          51.543528
+          -0.102707,
+          51.543488
+        ],
+        [
+          -0.102686,
+          51.543488
+        ],
+        [
+          -0.102668,
+          51.543487
+        ],
+        [
+          -0.102489,
+          51.543487
+        ],
+        [
+          -0.102489,
+          51.54349
+        ],
+        [
+          -0.102488,
+          51.54353
+        ],
+        [
+          -0.102487,
+          51.54356
+        ],
+        [
+          -0.102685,
+          51.543561
+        ],
+        [
+          -0.102706,
+          51.543561
+        ],
+        [
+          -0.102835,
+          51.543563
+        ],
+        [
+          -0.102858,
+          51.543562
         ]
       ]
     ]
@@ -169,21 +301,21 @@
   "appeal_decision_date": null,
   "site_number": "4",
   "date_building_work_started_under_previous_permission": null,
-  "centroid_northing": 184441,
+  "centroid_northing": 184442,
   "centroid": {
-    "lon": -0.102735,
-    "lat": 51.543515
+    "lon": -0.102677,
+    "lat": 51.543523
   },
   "valid_date": "24/03/2025",
   "id": "Islington-P2025_0838_FUL",
-  "last_updated": "2025-04-04T00:37:40.737Z",
+  "last_updated": "2026-08-03T15:12:08.243Z",
   "locality": "London",
-  "status": "Application Under Consideration",
+  "status": "Commenced",
   "last_date_consultation_comments": "03/05/2025",
   "decision_target_date": "18/05/2025",
   "actual_completion_date": null,
-  "bo_system": "Agile APAS",
+  "bo_system": "Portal",
   "reference_no_of_permission_being_relied_on": null,
-  "title_number": null,
+  "title_number": [],
   "application_type": "All Other"
 }

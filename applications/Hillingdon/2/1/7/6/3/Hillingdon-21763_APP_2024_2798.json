@@ -1,6 +1,6 @@
 {
   "decision_agency": "Borough",
-  "status": "Approved",
+  "status": "Commenced",
   "decision": "Approved",
   "centroid": {
     "lon": -0.478871,
@@ -140,36 +140,36 @@
   },
   "date_building_work_completed_under_previous_permission": null,
   "id": "Hillingdon-21763_APP_2024_2798",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "27/05/2022",
   "lpa_name": "Hillingdon",
-  "last_updated": "2025-05-01T21:59:11.627Z",
+  "last_updated": "2026-08-03T10:32:20.584Z",
   "lpa_app_no": "21763/APP/2024/2798",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.4790948,
-          51.5516756
+          -0.479116,
+          51.551674
         ],
         [
-          -0.47879859999999996,
-          51.5519763
+          -0.478819,
+          51.551974
         ],
         [
-          -0.4785858,
-          51.551891499999996
+          -0.478607,
+          51.55189
         ],
         [
-          -0.4789052,
-          51.5515839
+          -0.478926,
+          51.551582
         ],
         [
-          -0.4790911,
-          51.5516732
+          -0.479112,
+          51.551671
         ],
         [
-          -0.4790948,
-          51.5516756
+          -0.479116,
+          51.551674
         ]
       ]
     ],
@@ -177,24 +177,25 @@
   },
   "appeal_status": null,
   "site_name": "47 FAIRFIELD ROAD",
-  "title_number": null,
+  "title_number": [],
   "decision_date": "31/01/2025",
   "appeal_start_date": null,
-  "cil_liability": true,
+  "cil_liability": false,
   "development_type": null,
   "description": "Demolition of existing dwellinghouse, and erection of 6 self-contained flats with associated parking, cycle storage, bin storage, landscaping, alterations to access and dropped kerb.",
   "epc_number": null,
   "reference_no_of_permission_being_relied_on": null,
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "appeal_decision": null,
   "actual_completion_date": null,
   "centroid_easting": 505563,
   "url_planning_app": "http://planning.hillingdon.gov.uk/OcellaWeb/planningDetails?reference=21763/APP/2024/2798",
   "application_details": {
-    "existing_uprns": null,
+    "existing_uprns": [],
     "superseding_details": [
       {
-        "lpa_app_no": "21763/APP/2021/2568 & APP/R5510/W/21/3285551",
+        "lpa_name": "Hillingdon",
+        "lpa_app_no": "21763/APP/2021/2568",
         "partial_supersedence": false
       }
     ],
@@ -213,14 +214,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 161,
-        "gia_gained": 424,
         "use_class": "C3",
+        "gia_gained": 424,
         "gia_lost": 161
       }
     ],
     "projected_cost_of_works": "Up to £2m",
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "building_details": [
       {
         "no_storeys": 3,
@@ -229,16 +230,17 @@
       }
     ],
     "grey_water_reuse": false,
-    "green_suds": true,
+    "green_suds": false,
     "surface_water_discharge_percentage_reduction": 2,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 424,
       "total_gia_existing": 161,
-      "total_gia_lost": 161
+      "total_gia_lost": 161,
+      "site_area": 0.06800000000000002
     },
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "infrastructure_details": {
       "total_annual_pm_emissions": 4,
       "no_resi_units_to_have_full_fibre": 6,
@@ -248,7 +250,7 @@
       "no_homes_passive_cooling": 4,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 4,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 5,
       "no_homes_to_have_electrical_heating": 6,
       "mobile_network_operators_consultation": false,
@@ -277,13 +279,13 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 5,
       "total_no_existing_residential_affordable_units": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 235.29411764705875,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 422,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 88.23529411764703,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_gia_lost": 161,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -297,9 +299,12 @@
       "residential_units": [
         {
           "no_habitable_rooms": 7,
-          "unit_no": "Loss-1",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
+          "actual_commencement_date": "27/05/2022",
           "unit_type": "House or Bungalow",
           "no_bedrooms": 4,
           "provision_for_older_persons": false,
@@ -309,71 +314,108 @@
         {
           "provider": "Private",
           "no_habitable_rooms": 4,
-          "unit_no": "Gain-1",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
+          "actual_commencement_date": "27/05/2022",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 106
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 3,
-          "unit_no": "Gain-2",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
+          "actual_commencement_date": "27/05/2022",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 101
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 3,
-          "unit_no": "Gain-3",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
+          "actual_commencement_date": "27/05/2022",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 64
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 3,
-          "unit_no": "Gain-4",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
+          "actual_commencement_date": "27/05/2022",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 64
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 2,
-          "unit_no": "Gain-5",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
+          "actual_commencement_date": "27/05/2022",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 50
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 1,
-          "unit_no": "Gain-6",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
+          "actual_commencement_date": "27/05/2022",
           "unit_type": "Studio Bedsit",
           "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 37
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.06800000000000002
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.06800000000000002
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
-  "last_updated_by": "CSV Data Import",
-  "postcode": null,
+  "last_updated_by": "Portal",
+  "postcode": "",
   "last_date_consultation_comments": "02/12/2024",
   "secondary_street_name": null,
   "site_number": null,
