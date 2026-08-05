@@ -15,7 +15,7 @@
   "lpa_app_no": "26/00939/FULL",
   "title_number": null,
   "decision": null,
-  "last_updated": "2026-07-15T01:13:34.550Z",
+  "last_updated": "2026-08-04T08:34:58.703Z",
   "appeal_start_date": null,
   "actual_commencement_date": null,
   "bo_system": "Portal",
@@ -176,8 +176,8 @@
     "scheme_phasing": true,
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3",
         "gia_existing": 78,
+        "use_class": "C3",
         "gia_gained": 106,
         "gia_lost": 0
       }
@@ -191,40 +191,40 @@
       "residential_units": [
         {
           "no_habitable_rooms": 5,
-          "tenure": "Market for sale",
-          "gia": 78,
-          "unit_type": "Semi Detached Home",
-          "no_bedrooms": 3,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "provision_for_older_persons": false
+          "no_bedrooms": 3,
+          "unit_type": "Semi Detached Home",
+          "provision_for_older_persons": false,
+          "gia": 78,
+          "tenure": "Market for sale"
         },
         {
           "no_habitable_rooms": 2,
-          "tenure": "Market for rent",
-          "gia": 45,
+          "provider": "Private",
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "provider": "Private"
+          "tenure": "Market for rent",
+          "gia": 45
         },
         {
           "no_habitable_rooms": 2,
-          "tenure": "Market for rent",
-          "gia": 51,
+          "provider": "Private",
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "provider": "Private"
+          "tenure": "Market for rent",
+          "gia": 51
         },
         {
           "no_habitable_rooms": 4,
-          "tenure": "Market for rent",
-          "gia": 86,
+          "provider": "Private",
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "change_type": "Gain",
-          "provider": "Private"
+          "tenure": "Market for rent",
+          "gia": 86
         }
       ],
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
@@ -266,9 +266,9 @@
     "total_gia_gained": 106,
     "phasing_details": [
       {
-        "intended_completion_date": "12/2026",
+        "phase_detail": "Single phase",
         "intended_commencement_date": "09/2026",
-        "phase_detail": "Single phase"
+        "intended_completion_date": "12/2026"
       }
     ],
     "affordable_housing_fast_track": false,
@@ -282,7 +282,7 @@
   "site_name": null,
   "decision_process": null,
   "postcode": "RM6 6XL",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Portal",
   "centroid": {
     "lat": 51.575383,
     "lon": 0.135955
@@ -296,7 +296,6 @@
     },
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -396,7 +395,8 @@
               188460.90542527
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"

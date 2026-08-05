@@ -15,7 +15,7 @@
   "lpa_app_no": "PL/1695/26",
   "title_number": null,
   "decision": null,
-  "last_updated": "2026-07-15T01:13:35.085Z",
+  "last_updated": "2026-08-04T08:36:06.949Z",
   "appeal_start_date": null,
   "actual_commencement_date": null,
   "bo_system": "Portal",
@@ -100,14 +100,14 @@
     "scheme_phasing": true,
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3",
         "gia_existing": 180.5,
+        "use_class": "C3",
         "gia_gained": 74.7,
         "gia_lost": 180.5
       },
       {
-        "use_class": "EC3",
         "gia_existing": 9.3,
+        "use_class": "EC3",
         "gia_gained": 15.3,
         "gia_lost": 9.3
       }
@@ -121,55 +121,55 @@
       "residential_units": [
         {
           "no_habitable_rooms": 1,
-          "tenure": "Market for rent",
-          "gia": 57.5,
-          "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 1,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "provision_for_older_persons": false
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
+          "gia": 57.5,
+          "tenure": "Market for rent"
         },
         {
           "no_habitable_rooms": 6,
-          "tenure": "Market for rent",
-          "gia": 123,
-          "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 5,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "provision_for_older_persons": false
+          "no_bedrooms": 5,
+          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
+          "gia": 123,
+          "tenure": "Market for rent"
         },
         {
-          "unit_type": "Communal Space",
           "change_type": "Gain",
+          "unit_type": "Communal Space",
           "gia": 21.8
         },
         {
           "no_habitable_rooms": 3,
-          "tenure": "Market for sale",
-          "gia": 67.7,
+          "provider": "Private",
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "change_type": "Gain",
-          "provider": "Private"
+          "tenure": "Market for sale",
+          "gia": 67.7
         },
         {
           "no_habitable_rooms": 2,
-          "tenure": "Market for sale",
-          "gia": 50.2,
+          "provider": "Private",
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "provider": "Private"
+          "tenure": "Market for sale",
+          "gia": 50.2
         },
         {
           "no_habitable_rooms": 4,
-          "tenure": "Market for sale",
-          "gia": 90.9,
+          "provider": "Private",
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "change_type": "Gain",
-          "provider": "Private"
+          "tenure": "Market for sale",
+          "gia": 90.9
         }
       ],
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
@@ -211,9 +211,9 @@
     "total_gia_gained": 90,
     "phasing_details": [
       {
-        "intended_completion_date": "10/2027",
+        "phase_detail": "Entire Development ",
         "intended_commencement_date": "10/2026",
-        "phase_detail": "Entire Development "
+        "intended_completion_date": "10/2027"
       }
     ],
     "affordable_housing_fast_track": false,
@@ -227,7 +227,7 @@
   "site_name": null,
   "decision_process": "Delegated",
   "postcode": "",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Portal",
   "centroid": {
     "lat": 51.585969,
     "lon": -0.360593
@@ -241,7 +241,6 @@
     },
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -265,7 +264,8 @@
               188725.917977435
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"

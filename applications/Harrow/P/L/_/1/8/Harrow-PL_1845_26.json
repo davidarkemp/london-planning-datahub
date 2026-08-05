@@ -15,7 +15,7 @@
   "lpa_app_no": "PL/1845/26",
   "title_number": null,
   "decision": null,
-  "last_updated": "2026-07-15T01:13:34.755Z",
+  "last_updated": "2026-08-04T08:36:18.204Z",
   "appeal_start_date": null,
   "actual_commencement_date": null,
   "bo_system": "Portal",
@@ -102,8 +102,8 @@
     "scheme_phasing": true,
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3",
         "gia_existing": 343,
+        "use_class": "C3",
         "gia_gained": 634,
         "gia_lost": 343
       }
@@ -117,22 +117,22 @@
       "residential_units": [
         {
           "no_habitable_rooms": 7,
-          "tenure": "Market for sale",
-          "gia": 343,
-          "unit_type": "House or Bungalow",
-          "no_bedrooms": 4,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "provision_for_older_persons": false
+          "no_bedrooms": 4,
+          "unit_type": "House or Bungalow",
+          "provision_for_older_persons": false,
+          "gia": 343,
+          "tenure": "Market for sale"
         },
         {
           "no_habitable_rooms": 10,
-          "tenure": "Market for sale",
-          "gia": 634,
+          "provider": "Private",
+          "change_type": "Gain",
           "unit_type": "House or Bungalow",
           "no_bedrooms": 4,
-          "change_type": "Gain",
-          "provider": "Private"
+          "tenure": "Market for sale",
+          "gia": 634
         }
       ],
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
@@ -174,9 +174,9 @@
     "total_gia_gained": 634,
     "phasing_details": [
       {
-        "intended_completion_date": "06/2028",
+        "phase_detail": "1",
         "intended_commencement_date": "06/2027",
-        "phase_detail": "1"
+        "intended_completion_date": "06/2028"
       }
     ],
     "affordable_housing_fast_track": false,
@@ -187,8 +187,8 @@
     "surface_water_discharge_percentage_reduction": 95,
     "building_details": [
       {
-        "max_height": 9,
         "no_storeys": 3,
+        "max_height": 9,
         "building_ref": "Replacement dwelling"
       }
     ],
@@ -197,7 +197,7 @@
   "site_name": "COMMONWOOD",
   "decision_process": "Delegated",
   "postcode": "HA7 3HP",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Portal",
   "centroid": {
     "lat": 51.628188,
     "lon": -0.328152
@@ -211,7 +211,6 @@
     },
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -235,7 +234,8 @@
               193440.189790789
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"

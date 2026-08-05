@@ -1,6 +1,6 @@
 {
   "site_name": null,
-  "lapsed_date": null,
+  "lapsed_date": "30/07/2029",
   "appeal_decision": null,
   "decision_agency": "Borough",
   "bo_system": "Portal",
@@ -13,19 +13,19 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_completion_date": "01/2027",
-        "intended_commencement_date": "08/2026"
+        "intended_commencement_date": "08/2026",
+        "intended_completion_date": "01/2027"
       }
     ],
     "total_gia_gained": 0,
-    "site_area": 0.0144,
+    "site_area": 0.014400000000000001,
     "total_gia_lost": 0,
     "total_gia_existing": 86.56,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 86.56,
-        "gia_gained": 0,
         "use_class": "C3",
+        "gia_gained": 0,
         "gia_lost": 0
       }
     ],
@@ -50,7 +50,7 @@
       "total_no_proposed_residential_units": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_affordable_units": 0,
-      "total_no_existing_residential_units": 1,
+      "total_no_existing_residential_units": 3,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
@@ -72,7 +72,7 @@
       "dwelling_density": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
-      "total_gia_lost": 86.56,
+      "total_gia_lost": 183.84,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_starter_homes": 0,
@@ -82,22 +82,29 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "m43_2b_compliant": false,
-          "no_habitable_rooms": 6,
-          "m43_2a_compliant": false,
-          "m42_compliant": false,
           "change_type": "Loss",
-          "garden_land": false,
+          "unit_type": "Communal Space",
+          "gia": 10.72
+        },
+        {
+          "change_type": "Loss",
+          "unit_type": "Communal Space",
+          "gia": 86.56
+        },
+        {
+          "no_habitable_rooms": 6,
+          "change_type": "Loss",
           "sheltered_accommodation": false,
           "no_bedrooms": 5,
           "unit_type": "House or Bungalow",
           "provision_for_older_persons": false,
-          "tenure": "Market for sale",
-          "gia": 86.56
+          "gia": 86.56,
+          "tenure": "Market for sale"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "total_gia_gained": 0
     },
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
@@ -120,69 +127,43 @@
     "ownership_status": "Private",
     "lead_developer_company_name": "S Salim"
   },
-  "centroid_easting": 537327,
+  "centroid_easting": null,
   "decision_process": "Delegated",
   "wgs84_polygon": {
-    "type": "MultiPolygon",
+    "type": "Polygon",
     "coordinates": [
       [
         [
-          [
-            -0.018092,
-            51.609065
-          ],
-          [
-            -0.018138,
-            51.609147
-          ],
-          [
-            -0.018147,
-            51.609163
-          ],
-          [
-            -0.018157,
-            51.609181
-          ],
-          [
-            -0.018205,
-            51.609273
-          ],
-          [
-            -0.018274,
-            51.609259
-          ],
-          [
-            -0.01824,
-            51.609198
-          ],
-          [
-            -0.018239,
-            51.609196
-          ],
-          [
-            -0.018213,
-            51.60915
-          ],
-          [
-            -0.018159,
-            51.609051
-          ],
-          [
-            -0.018129,
-            51.608998
-          ],
-          [
-            -0.018116,
-            51.609
-          ],
-          [
-            -0.018061,
-            51.609008
-          ],
-          [
-            -0.018092,
-            51.609065
-          ]
+          -0.018281,
+          51.609272
+        ],
+        [
+          -0.01821,
+          51.609287
+        ],
+        [
+          -0.018149,
+          51.609165
+        ],
+        [
+          -0.018081,
+          51.609047
+        ],
+        [
+          -0.01806,
+          51.609009
+        ],
+        [
+          -0.018128,
+          51.608998
+        ],
+        [
+          -0.018223,
+          51.609169
+        ],
+        [
+          -0.018281,
+          51.609272
         ]
       ]
     ]
@@ -194,33 +175,33 @@
   "parking_details": null,
   "last_date_consultation_comments": "01/06/2026",
   "url_planning_app": "https://builtenvironment.walthamforest.gov.uk/planning/index.html?fa=getApplication&id=120570",
-  "last_updated": "2026-06-28T11:40:06.322Z",
+  "last_updated": "2026-08-05T01:15:27.100Z",
   "application_type": "All Other",
-  "site_number": 4,
+  "site_number": "4",
   "lpa_name": "Waltham Forest",
   "application_type_full": "Full planning permission",
-  "centroid_northing": 191903,
+  "centroid_northing": null,
   "actual_completion_date": null,
   "cil_liability": null,
   "subdivision_of_building": null,
   "decision_conditions": [
     "&lt;p class=&quot;MsoNormal&quot;&gt;The principle of development it would fail to achieve a\r\nsustainable form of development in that it is insufficient in original size to\r\nbe converted and would result in the loss of a family-sized unit (Class C3) to\r\nwhich there is a shortfall of this mix of housing within the Borough therefore\r\nundermining the ability to meet the Borough&#x27;s housing need and demand both\r\ncurrently and in the future contrary to the NPPF (2024) and Policies 1, 15 and\r\n20 of the adopted Waltham Forest Local Plan LP1 (2024).&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;&lt;p&gt;\r\n\r\n&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;The application compromises insufficient information with\r\nregard to refuse and recycling, as without further information, if the bins are\r\nto be kept as existing, the bins being un-enclosed within a bin store and their\r\nlocation immediately outside the window of Bedroom 1, officers consider that\r\nthe proposed waste arrangements would result in an unacceptable living\r\nenvironment to the occupiers of bedroom 1 contrary to Policies 57 and 93 of the\r\nadopted Waltham Forest Local Plan LP1 (2024) and the Council’s Waste &amp;amp;\r\nRecycling Policy for Developers (September 2022).&amp;nbsp;&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;"
   ],
-  "uprn": 100022562637,
+  "uprn": "100022562637",
   "centroid": {
-    "lon": -0.018208,
-    "lat": 51.60922
+    "lon": -7.55716,
+    "lat": 49.766807
   },
   "date_building_work_completed_under_previous_permission": null,
   "borough": "Waltham Forest",
   "postcode": "E4 8NE",
   "date_building_work_started_under_previous_permission": "14/02/2025",
-  "description": "\nCONVERSION AND CHANGE OF USE OF A DWELLING (CLASS C3) TO A HOUSE IN MULTIPLE OCCUPATION AT 4 LEONARD ROAD, CHINGFORD, LONDON E4 8NE (Retrospective).\n",
+  "description": "Retrospective change of use from a single-family\r\ndwelling house (Use Class C3) to a House of Multiple Occupation (HMO) together with bicycle parking provision.&nbsp;",
   "last_updated_by": "Planning Portal ingest",
   "ward": "Valley",
-  "street_name": "Leonard Road",
+  "street_name": "LEONARD ROAD",
   "development_type": "Other change of use",
-  "decision_date": null,
+  "decision_date": "30/07/2026",
   "appeal_status": null,
   "appeal_decision_date": null,
   "polygon": {
@@ -230,72 +211,46 @@
       },
       "type": "name"
     },
-    "type": "GeometryCollection",
+    "type": "geometrycollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              [
-                537335.505,
-                191885.933
-              ],
-              [
-                537332.088,
-                191895.014
-              ],
-              [
-                537331.435,
-                191896.748
-              ],
-              [
-                537330.7,
-                191898.7
-              ],
-              [
-                537327.1,
-                191908.85
-              ],
-              [
-                537322.35,
-                191907.2
-              ],
-              [
-                537324.9,
-                191900.45
-              ],
-              [
-                537324.95,
-                191900.25
-              ],
-              [
-                537326.864,
-                191895.151
-              ],
-              [
-                537330.92,
-                191884.342
-              ],
-              [
-                537333.15,
-                191878.4
-              ],
-              [
-                537334.05,
-                191878.65
-              ],
-              [
-                537337.85,
-                191879.7
-              ],
-              [
-                537335.505,
-                191885.933
-              ]
+              537321.799751182,
+              191908.676469764
+            ],
+            [
+              537326.671961719,
+              191910.480675182
+            ],
+            [
+              537331.255312663,
+              191897.012517591
+            ],
+            [
+              537336.311879123,
+              191884.042605116
+            ],
+            [
+              537337.941905413,
+              191879.771726554
+            ],
+            [
+              537333.220094146,
+              191878.403089706
+            ],
+            [
+              537326.109929552,
+              191897.304493044
+            ],
+            [
+              537321.799751182,
+              191908.676469764
             ]
           ]
         ],
-        "type": "MultiPolygon"
+        "type": "Polygon"
       }
     ]
   },
@@ -303,6 +258,6 @@
   "locality": "Chingford",
   "id": "Waltham_Forest-260859",
   "pp_id": "14831366",
-  "status": "Application Under Consideration",
-  "decision": null
+  "status": "Refused",
+  "decision": "Refused"
 }

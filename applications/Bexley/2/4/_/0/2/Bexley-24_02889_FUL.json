@@ -1,21 +1,88 @@
 {
   "lpa_app_no": "24/02889/FUL",
-  "centroid_northing": "174253",
-  "status": "Approved",
+  "centroid_northing": 174261,
+  "status": "Commenced",
   "epc_number": null,
   "last_date_consultation_comments": "23/01/2025",
   "locality": null,
   "secondary_street_name": null,
   "subdivision_of_building": null,
   "date_building_work_started_under_previous_permission": null,
-  "last_updated": "2025-03-18T22:32:19.074+00:00",
+  "last_updated": "2026-08-04T14:20:39.694Z",
   "valid_date": "08/01/2025",
-  "polygon": null,
-  "cil_liability": true,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              547089.257,
+              174241.477
+            ],
+            [
+              547091.693,
+              174245.632
+            ],
+            [
+              547093.55,
+              174248.8
+            ],
+            [
+              547096.5,
+              174253.7
+            ],
+            [
+              547102.38,
+              174263.47
+            ],
+            [
+              547095.08,
+              174268.29
+            ],
+            [
+              547094,
+              174269
+            ],
+            [
+              547077.15,
+              174279.85
+            ],
+            [
+              547081.277,
+              174263.501
+            ],
+            [
+              547082.3,
+              174259.45
+            ],
+            [
+              547083.2,
+              174255.95
+            ],
+            [
+              547084.53,
+              174250.71
+            ],
+            [
+              547087.6,
+              174238.65
+            ],
+            [
+              547089.257,
+              174241.477
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
+  "cil_liability": false,
   "title_number": [],
   "decision_process": null,
-  "centroid_easting": "547092",
-  "actual_commencement_date": null,
+  "centroid_easting": 547089,
+  "actual_commencement_date": "31/07/2025",
   "url_planning_app": null,
   "site_number": "484",
   "decision": "Approved",
@@ -31,13 +98,13 @@
   "id": "Bexley-24_02889_FUL",
   "application_details": {
     "internal_resi_water_usage": 0,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "garden_land_lost": false,
     "phasing_details": [
       {
         "phase_detail": "1",
-        "intended_completion_date": "09/2025",
-        "intended_commencement_date": "03/2025"
+        "intended_commencement_date": "03/2025",
+        "intended_completion_date": "09/2025"
       }
     ],
     "existing_proposed_floorspace_details": [
@@ -60,9 +127,10 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 140,
       "total_gia_existing": 127,
-      "total_gia_lost": 127
+      "total_gia_lost": 127,
+      "site_area": 0.043000000000000003
     },
-    "site_area": 0.0436,
+    "site_area": 0.043000000000000003,
     "projected_cost_of_works": "Up to £2m",
     "total_gia_lost": 127,
     "total_gia_existing": 127,
@@ -84,28 +152,34 @@
       "residential_units": [
         {
           "no_habitable_rooms": 5,
-          "unit_no": "Loss-1",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 3,
           "unit_type": "Semi Detached Home",
+          "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "gia": 127,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 127
         },
         {
-          "no_habitable_rooms": 6,
           "provider": "Private",
-          "unit_no": "Gain-1",
+          "no_habitable_rooms": 6,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 5,
+          "actual_commencement_date": "31/07/2025",
           "unit_type": "HMO",
-          "gia": 140,
-          "tenure": "Market for rent"
+          "no_bedrooms": 5,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 140
         }
       ],
       "total_no_proposed_bedrooms": 5,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 139.53488372093022,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_gia_lost": 127,
       "total_no_existing_residential_units_starter_homes": 0,
@@ -121,7 +195,7 @@
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_social_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 23.25581395348837,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
@@ -130,7 +204,8 @@
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_market_for_rent": 1,
       "total_no_proposed_residential_units_discount_market_sale": 0,
-      "total_no_existing_residential_units_discount_market_rent": 0
+      "total_no_existing_residential_units_discount_market_rent": 0,
+      "site_area": 0.043000000000000003
     },
     "infrastructure_details": {
       "fire_suppression_system_proposed": false,
@@ -144,24 +219,37 @@
       "no_new_gas_connections_required": 0,
       "no_new_water_connections_required": 0,
       "mobile_network_operators_consultation": false,
-      "waste_provision": true,
+      "waste_provision": false,
       "ghg_reduction_over_building_regulations": false,
       "green_roof_area": 0
     },
     "affordable_housing_fast_track": false,
     "ownership_status": "Private",
-    "rain_water_harvesting": false
+    "rain_water_harvesting": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.043000000000000003
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "uprn": "100020246349",
   "decision_date": "05/03/2025",
   "description": "Change of use from Residential Dwelling (Class C3) to HMO (House of Multiple Occupation) (Class C4) for a maximum of five people, erection of a single storey rear extension following demolition of existing conservatory, alterations to existing roofline, erection of a single storey front extension, rooflights to front roofslope and alterations to front and rear fenestration.",
   "site_name": "",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "decision_target_date": "05/03/2025",
   "borough": "London Borough of Bexley",
   "postcode": "DA15 9NT",
   "street_name": "Blackfen Road",
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "development_type": null,
   "lapsed_date": "05/03/2028",
   "decision_conditions": [
@@ -179,24 +267,60 @@
     "coordinates": [
       [
         [
-          0.115369,
-          51.448179
+          0.115302,
+          51.448063
+        ],
+        [
+          0.115339,
+          51.4481
         ],
         [
           0.115367,
-          51.448152
+          51.448128
         ],
         [
-          0.115324,
-          51.448153
+          0.115412,
+          51.448171
         ],
         [
-          0.115326,
-          51.44818
+          0.1155,
+          51.448257
         ],
         [
-          0.115369,
-          51.448179
+          0.115397,
+          51.448303
+        ],
+        [
+          0.115382,
+          51.448309
+        ],
+        [
+          0.115144,
+          51.448411
+        ],
+        [
+          0.115197,
+          51.448263
+        ],
+        [
+          0.11521,
+          51.448227
+        ],
+        [
+          0.115221,
+          51.448195
+        ],
+        [
+          0.115238,
+          51.448147
+        ],
+        [
+          0.115277,
+          51.448038
+        ],
+        [
+          0.115302,
+          51.448063
         ]
       ]
     ]
@@ -204,8 +328,8 @@
   "appeal_decision_date": null,
   "pp_id": "PP-13595689",
   "centroid": {
-    "lon": 0.115347,
-    "lat": 51.448166
+    "lon": 0.115307,
+    "lat": 51.448239
   },
   "actual_completion_date": null,
   "reference_no_of_permission_being_relied_on": null,

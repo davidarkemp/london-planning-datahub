@@ -15,7 +15,7 @@
   "lpa_app_no": "26/00721/FULL",
   "title_number": null,
   "decision": null,
-  "last_updated": "2026-07-15T01:13:34.458Z",
+  "last_updated": "2026-08-04T08:34:57.029Z",
   "appeal_start_date": null,
   "actual_commencement_date": null,
   "bo_system": "Portal",
@@ -137,8 +137,8 @@
     "scheme_phasing": true,
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3",
         "gia_existing": 0,
+        "use_class": "C3",
         "gia_gained": 100,
         "gia_lost": 0
       }
@@ -152,13 +152,13 @@
       "residential_units": [
         {
           "no_habitable_rooms": 1,
-          "tenure": "Market for rent",
-          "gia": 100,
-          "unit_type": "Terraced Home",
-          "no_bedrooms": 2,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "provision_for_older_persons": false
+          "no_bedrooms": 2,
+          "unit_type": "Terraced Home",
+          "provision_for_older_persons": false,
+          "gia": 100,
+          "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
@@ -200,9 +200,9 @@
     "total_gia_gained": 100,
     "phasing_details": [
       {
-        "intended_completion_date": "09/2026",
+        "phase_detail": "Entire development",
         "intended_commencement_date": "08/2026",
-        "phase_detail": "Entire development"
+        "intended_completion_date": "09/2026"
       }
     ],
     "affordable_housing_fast_track": false,
@@ -216,7 +216,7 @@
   "site_name": null,
   "decision_process": null,
   "postcode": "RM10 9TT",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Portal",
   "centroid": {
     "lat": 51.537866,
     "lon": 0.162909
@@ -230,7 +230,6 @@
     },
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -294,7 +293,8 @@
               184313.799516909
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"

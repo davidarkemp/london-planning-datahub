@@ -15,7 +15,7 @@
   "lpa_app_no": "2026/1245",
   "title_number": null,
   "decision": null,
-  "last_updated": "2026-07-08T01:56:52.802Z",
+  "last_updated": "2026-08-04T08:35:13.331Z",
   "appeal_start_date": null,
   "actual_commencement_date": null,
   "bo_system": "Portal",
@@ -113,14 +113,14 @@
     "scheme_phasing": true,
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "EA",
         "gia_existing": 42.87,
+        "use_class": "EA",
         "gia_gained": 0,
         "gia_lost": 42.87
       },
       {
-        "use_class": "C3",
         "gia_existing": 0,
+        "use_class": "C3",
         "gia_gained": 42.87,
         "gia_lost": 0
       }
@@ -137,12 +137,12 @@
       "residential_units": [
         {
           "no_habitable_rooms": 1,
-          "tenure": "Market for rent",
-          "gia": 44.85,
+          "provider": "Private",
+          "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "change_type": "Gain",
-          "provider": "Private"
+          "tenure": "Market for rent",
+          "gia": 44.85
         }
       ],
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
@@ -184,9 +184,9 @@
     "total_gia_gained": 42.87,
     "phasing_details": [
       {
-        "intended_completion_date": "03/2027",
+        "phase_detail": "Entire development",
         "intended_commencement_date": "12/2026",
-        "phase_detail": "Entire development"
+        "intended_completion_date": "03/2027"
       }
     ],
     "affordable_housing_fast_track": false,
@@ -200,7 +200,7 @@
   "site_name": null,
   "decision_process": "Delegated",
   "postcode": "E9 6RG",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Portal",
   "centroid": {
     "lat": 51.544765,
     "lon": -0.046841
@@ -214,7 +214,6 @@
     },
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -258,10 +257,10 @@
               184677.399721431
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -305,7 +304,8 @@
               184677.399721431
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"

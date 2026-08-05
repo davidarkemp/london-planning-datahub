@@ -15,7 +15,7 @@
   "lpa_app_no": "2026/1096",
   "title_number": null,
   "decision": null,
-  "last_updated": "2026-07-15T01:13:36.322Z",
+  "last_updated": "2026-08-04T08:35:38.797Z",
   "appeal_start_date": null,
   "actual_commencement_date": null,
   "bo_system": "Portal",
@@ -117,14 +117,14 @@
     "scheme_phasing": true,
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3",
         "gia_existing": 251,
+        "use_class": "C3",
         "gia_gained": 0,
         "gia_lost": 251
       },
       {
-        "use_class": "EF",
         "gia_existing": 0,
+        "use_class": "EF",
         "gia_gained": 251,
         "gia_lost": 0
       }
@@ -141,13 +141,13 @@
       "residential_units": [
         {
           "no_habitable_rooms": 10,
-          "tenure": "Market for sale",
-          "gia": 251,
-          "unit_type": "Terraced Home",
-          "no_bedrooms": 5,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "provision_for_older_persons": false
+          "no_bedrooms": 5,
+          "unit_type": "Terraced Home",
+          "provision_for_older_persons": false,
+          "gia": 251,
+          "tenure": "Market for sale"
         }
       ],
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
@@ -189,9 +189,9 @@
     "total_gia_gained": 251,
     "phasing_details": [
       {
-        "intended_completion_date": "10/2026",
+        "phase_detail": "Entire Development ",
         "intended_commencement_date": "07/2026",
-        "phase_detail": "Entire Development "
+        "intended_completion_date": "10/2026"
       }
     ],
     "affordable_housing_fast_track": false,
@@ -205,7 +205,7 @@
   "site_name": null,
   "decision_process": "Delegated",
   "postcode": "N16 6ND",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Portal",
   "centroid": {
     "lat": 51.568752,
     "lon": -0.065004
@@ -219,7 +219,6 @@
     },
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -267,10 +266,10 @@
               187315.454585263
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -318,7 +317,8 @@
               187315.454585263
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"

@@ -5,7 +5,7 @@
   "centroid_northing": 184826,
   "site_number": null,
   "date_building_work_started_under_previous_permission": null,
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "site_name": "72 HAREFIELD ROAD",
   "appeal_decision_date": "01/08/2024",
   "valid_date": "25/09/2023",
@@ -14,30 +14,30 @@
     "coordinates": [
       [
         [
-          -0.478325,
-          51.5524658
+          -0.478346,
+          51.552464
         ],
         [
-          -0.47816919999999996,
-          51.552616
+          -0.47819,
+          51.552614
         ],
         [
-          -0.4775005,
-          51.5523004
+          -0.477521,
+          51.552299
         ],
         [
-          -0.4776456,
-          51.5521833
+          -0.477666,
+          51.552181
         ],
         [
-          -0.478325,
-          51.5524658
+          -0.478346,
+          51.552464
         ]
       ]
     ],
     "type": "Polygon"
   },
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "appeal_start_date": "03/04/2024",
   "reference_no_of_permission_being_relied_on": null,
   "application_type": "All Other",
@@ -53,7 +53,7 @@
     ],
     "infrastructure_details": {
       "no_new_water_connections_required": 2,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_non_resi_units_to_have_full_fibre": 0,
       "no_resi_units_to_have_full_fibre": 2,
       "no_passive_fast_ev_charging_points": 0,
@@ -75,8 +75,10 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 194.3,
+        "superseded_date": "07/04/2025",
         "use_class": "C3",
         "gia_gained": 855.5,
+        "superseded_by_lpa_app_no": "25767/APP/2024/2484",
         "gia_lost": 194.3
       }
     ],
@@ -85,14 +87,15 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_lost": 194.3,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_existing": 194.3
+      "total_gia_existing": 194.3,
+      "site_area": 0.10400000000000001
     },
-    "existing_uprns": null,
+    "existing_uprns": [],
     "green_suds": false,
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "affordable_housing_fast_track": false,
     "total_gia_lost": 194.3,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "residential_details": {
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_social_rent": 0,
@@ -101,39 +104,53 @@
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units": 2,
-      "dwelling_density": 0,
+      "dwelling_density": 19.23076923076923,
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 9,
-          "unit_no": "Loss-1",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 5,
           "unit_type": "House or Bungalow",
+          "superseded_date": "07/04/2025",
+          "no_habitable_rooms": 9,
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 5,
           "provision_for_older_persons": false,
-          "gia": 194,
-          "tenure": "Market for sale"
+          "superseded_by_lpa_app_no": "25767/APP/2024/2484",
+          "tenure": "Market for sale",
+          "gia": 194
         },
         {
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Semi Detached Home",
+          "superseded_date": "07/04/2025",
           "no_habitable_rooms": 9,
           "provider": "Private",
-          "unit_no": "Gain-1",
-          "change_type": "Gain",
+          "phase_detail": null,
+          "unit_no": null,
           "no_bedrooms": 5,
-          "unit_type": "Semi Detached Home",
-          "gia": 425,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "superseded_by_lpa_app_no": "25767/APP/2024/2484",
+          "tenure": "Market for sale",
+          "gia": 425
         },
         {
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Semi Detached Home",
+          "superseded_date": "07/04/2025",
           "no_habitable_rooms": 9,
           "provider": "Private",
-          "unit_no": "Gain-2",
-          "change_type": "Gain",
+          "phase_detail": null,
+          "unit_no": null,
           "no_bedrooms": 5,
-          "unit_type": "Semi Detached Home",
-          "gia": 409,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "superseded_by_lpa_app_no": "25767/APP/2024/2484",
+          "tenure": "Market for sale",
+          "gia": 409
         }
       ],
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -142,7 +159,7 @@
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 173.07692307692307,
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
@@ -164,7 +181,8 @@
       "total_no_proposed_residential_units_market_for_sale": 2,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0
+      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "site_area": 0.10400000000000001
     },
     "total_gia_gained": 855.5,
     "projected_cost_of_works": "Up to £2m",
@@ -173,18 +191,30 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_completion_date": "01/2025",
-        "intended_commencement_date": "01/2024"
+        "intended_commencement_date": "01/2024",
+        "intended_completion_date": "01/2025"
       }
     ],
     "lead_developer_company_name": "Twiglets Developments Limited",
     "surface_water_discharge_percentage_reduction": 40,
-    "site_area": 0.10400000000000001
+    "site_area": 0.10400000000000001,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.10400000000000001
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "appeal_decision": "Allowed",
-  "postcode": null,
+  "postcode": "",
   "development_type": null,
-  "title_number": null,
+  "title_number": [],
   "centroid_easting": 505617,
   "actual_commencement_date": null,
   "description": "Erection of two 5 bedroom semi-detached dwellings with associated parking and amenity space following demolition of existing dwelling.",
@@ -201,8 +231,8 @@
   "pp_id": "12479166",
   "id": "Hillingdon-25767_APP_2023_2805",
   "application_type_full": "Full planning permission",
-  "cil_liability": true,
-  "status": "Allowed",
+  "cil_liability": false,
+  "status": "Superseded",
   "date_building_work_completed_under_previous_permission": null,
   "secondary_street_name": null,
   "decision_agency": "Borough",
@@ -222,7 +252,7 @@
     "no_existing_car": 0,
     "no_proposed_car": 8
   },
-  "last_updated": "2025-03-19T20:53:43.289+00:00",
+  "last_updated": "2026-08-04T14:29:38.587Z",
   "appeal_status": null,
   "street_name": "UXBRIDGE",
   "ward": "UXBRIDGE 2022",

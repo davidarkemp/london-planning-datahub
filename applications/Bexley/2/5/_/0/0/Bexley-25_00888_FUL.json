@@ -3,8 +3,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 85,
-        "gia_gained": 81.43,
         "use_class": "C3",
+        "gia_gained": 81.43,
         "gia_lost": 85
       }
     ],
@@ -52,49 +52,61 @@
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_intermediate": 0,
-      "habitable_rooms_density": null,
-      "dwelling_density": 0,
+      "habitable_rooms_density": 400,
+      "dwelling_density": 400,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
           "no_habitable_rooms": 1,
-          "unit_no": "Loss-1",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
+          "actual_commencement_date": "01/03/2026",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
-          "gia": 50,
-          "tenure": "Affordable Rent (not at LAR benchmark rents)"
+          "tenure": "Affordable Rent (not at LAR benchmark rents)",
+          "gia": 50
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 1,
-          "unit_no": "Gain-1",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
+          "actual_commencement_date": "01/03/2026",
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 42.75,
-          "tenure": "Affordable Rent (not at LAR benchmark rents)"
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "tenure": "Affordable Rent (not at LAR benchmark rents)",
+          "gia": 42.75
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 1,
-          "unit_no": "Gain-2",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
+          "actual_commencement_date": "01/03/2026",
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 42.75,
-          "tenure": "Affordable Rent (not at LAR benchmark rents)"
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "tenure": "Affordable Rent (not at LAR benchmark rents)",
+          "gia": 42.75
         }
       ],
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_proposed_residential_affordable_units": 2,
       "total_no_existing_residential_units_london_shared_ownership": 0,
-      "total_no_proposed_residential_units_shared_equity": 0
+      "total_no_proposed_residential_units_shared_equity": 0,
+      "site_area": 0.005
     },
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "internal_resi_water_usage": 20,
     "ownership_status": "Private",
     "site_area": 0.005,
@@ -102,10 +114,10 @@
       "green_roof_area": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "no_homes_to_have_electrical_heating": 0,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "no_new_gas_connections_required": 0,
       "no_homes_passive_cooling": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "fire_suppression_system_proposed": false,
       "total_annual_pm_emissions": 15,
       "urban_greening_factor_score": 15,
@@ -123,12 +135,26 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_existing": 85,
       "total_gia_lost": 85,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "site_area": 0.005
     },
-    "projected_cost_of_works": "Up to £2m"
+    "projected_cost_of_works": "Up to £2m",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.005
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "title_number": [],
-  "status": "Application Under Consideration",
+  "status": "Commenced",
   "centroid": {
     "lon": 0.102417,
     "lat": 51.450863
@@ -188,11 +214,18 @@
   "development_type": null,
   "ward": "BLACKF",
   "date_building_work_started_under_previous_permission": null,
-  "last_updated_by": "Idox Uniform",
-  "decision_conditions": null,
+  "last_updated_by": "Portal",
+  "decision_conditions": [
+    "Plans",
+    "Cycle storage",
+    "Design measures",
+    "3 Years",
+    "Refuse storage",
+    "Fire safety"
+  ],
   "uprn": "100020246381",
   "decision_agency": null,
-  "decision": null,
+  "decision": "Approved",
   "application_type": "All Other",
   "valid_date": "01/05/2025",
   "description": "Conversion of existing flat into 2 self contained residential units.",
@@ -203,24 +236,24 @@
   "secondary_street_name": null,
   "appeal_start_date": null,
   "postcode": "DA15 8PS",
-  "lapsed_date": null,
+  "lapsed_date": "24/07/2028",
   "date_building_work_completed_under_previous_permission": null,
   "parking_details": null,
   "lpa_name": "Bexley",
-  "actual_commencement_date": null,
-  "last_updated": "2025-07-09T20:01:27.748Z",
+  "actual_commencement_date": "01/03/2026",
+  "last_updated": "2026-08-04T13:10:09.501Z",
   "url_planning_app": null,
-  "centroid_easting": "546185",
+  "centroid_easting": 546185,
   "appeal_decision": null,
   "pp_id": "PP-13969993",
   "application_type_full": "Full planning permission",
-  "cil_liability": true,
+  "cil_liability": false,
   "borough": "London Borough of Bexley",
   "locality": null,
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "id": "Bexley-25_00888_FUL",
   "subdivision_of_building": null,
-  "centroid_northing": "174527",
+  "centroid_northing": 174527,
   "wgs84_polygon": {
     "type": "Polygon",
     "coordinates": [
@@ -260,5 +293,5 @@
       ]
     ]
   },
-  "decision_date": null
+  "decision_date": "24/07/2025"
 }

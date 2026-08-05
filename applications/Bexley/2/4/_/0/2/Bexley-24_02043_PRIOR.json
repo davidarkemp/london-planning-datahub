@@ -18,7 +18,7 @@
       "no_non_resi_units_to_have_full_fibre": 1,
       "total_annual_pm_emissions": 0,
       "no_resi_units_to_have_full_fibre": 1,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
@@ -32,14 +32,18 @@
       "total_no_existing_residential_units_intermediate": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 2,
           "provider": "Private",
-          "unit_no": "Gain-1",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
+          "actual_commencement_date": "09/01/2025",
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 53,
-          "tenure": "Market for rent"
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 53
         }
       ],
       "total_no_proposed_residential_units": 1,
@@ -55,7 +59,7 @@
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_market_for_rent": 1,
-      "dwelling_density": 0,
+      "dwelling_density": 166.66666666666666,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
@@ -71,14 +75,15 @@
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 333.3333333333333,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_bedrooms": 1,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_discount_market_sale": 0
+      "total_no_existing_residential_units_discount_market_sale": 0,
+      "site_area": 0.006
     },
     "total_gia_existing": 53,
     "existing_proposed_floorspace_details": [
@@ -86,12 +91,14 @@
         "gia_existing": 53,
         "use_class": "E(c)(iii)",
         "gia_gained": 0,
+        "actual_commencement_date": "09/01/2025",
         "gia_lost": 53
       },
       {
         "gia_existing": 0,
         "use_class": "C3",
         "gia_gained": 53,
+        "actual_commencement_date": "09/01/2025",
         "gia_lost": 0
       }
     ],
@@ -103,15 +110,48 @@
       "total_gia_gained": 53
     },
     "total_gia_lost": 53,
-    "intended_commencement_date": "09/2024"
+    "intended_commencement_date": "09/2024",
+    "site_area": 0.006,
+    "resi_extension_exempt": false
   },
   "borough": "London Borough of Bexley",
   "application_type_full": "Prior Approval: Change of use from Commercial, Business and Service (Use Class E) to Dwellinghouses (Use Class C3)",
   "cil_liability": false,
   "date_building_work_started_under_previous_permission": null,
   "lapsed_date": "17/09/2029",
-  "bo_system": "Idox Uniform",
-  "polygon": null,
+  "bo_system": "Portal",
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              546207.4,
+              175920.15
+            ],
+            [
+              546204.9,
+              175908.1
+            ],
+            [
+              546209.95,
+              175907
+            ],
+            [
+              546212.55,
+              175919.05
+            ],
+            [
+              546207.4,
+              175920.15
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "appeal_status": null,
   "parking_details": null,
   "centroid": {
@@ -127,24 +167,24 @@
     "coordinates": [
       [
         [
-          0.103357,
-          51.463333
+          0.103314,
+          51.463375
         ],
         [
-          0.103356,
-          51.463306
+          0.103274,
+          51.463267
         ],
         [
-          0.103313,
-          51.463306
+          0.103346,
+          51.463256
+        ],
+        [
+          0.103388,
+          51.463364
         ],
         [
           0.103314,
-          51.463333
-        ],
-        [
-          0.103357,
-          51.463333
+          51.463375
         ]
       ]
     ]
@@ -156,21 +196,21 @@
   "decision": "Approved",
   "id": "Bexley-24_02043_PRIOR",
   "lpa_name": "Bexley",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "09/01/2025",
   "site_name": "",
   "url_planning_app": null,
   "pp_id": "PP-13247332",
   "decision_process": null,
-  "centroid_easting": "546209",
-  "last_updated": "2025-03-19T21:33:58.593+00:00",
+  "centroid_easting": 546209,
+  "last_updated": "2026-08-04T13:01:58.326Z",
   "appeal_decision_date": null,
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "site_number": "70",
-  "centroid_northing": "175914",
+  "centroid_northing": 175914,
   "development_type": null,
   "description": "Notification of prior approval for the conversion of the first floor commercial space (Class E) to provide 1 residential unit (Class C3).",
-  "status": "Approved",
+  "status": "Commenced",
   "actual_completion_date": null,
   "appeal_start_date": null,
   "street_name": "Bellegrove Road",
