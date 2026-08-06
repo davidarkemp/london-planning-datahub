@@ -1,11 +1,11 @@
 {
   "lpa_app_no": "P1419.23",
-  "uprn": 100021392656,
+  "uprn": "100021392656",
   "lapsed_date": "14/06/2027",
   "centroid_northing": 192876,
-  "site_number": 16,
+  "site_number": "16",
   "date_building_work_started_under_previous_permission": null,
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "site_name": "16 Priory Road",
   "appeal_decision_date": null,
   "valid_date": "21/09/2023",
@@ -37,19 +37,19 @@
     ],
     "type": "Polygon"
   },
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Portal",
   "appeal_start_date": null,
   "reference_no_of_permission_being_relied_on": null,
   "application_type": "All Other",
   "decision_process": "Delegated",
   "application_details": {
-    "existing_uprns": null,
+    "existing_uprns": [],
     "affordable_housing_fast_track": false,
     "phasing_details": [
       {
         "phase_detail": "1",
-        "intended_completion_date": "07/2024",
-        "intended_commencement_date": "01/2024"
+        "intended_commencement_date": "01/2024",
+        "intended_completion_date": "07/2024"
       }
     ],
     "total_gia_gained": 55.82,
@@ -59,15 +59,16 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 159.7,
-        "gia_gained": 55.82,
         "use_class": "c3",
+        "gia_gained": 55.82,
+        "actual_commencement_date": "25/12/2024",
         "gia_lost": 36.9
       }
     ],
     "projected_cost_of_works": "Up to £2m",
     "occupation_status": "Occupied",
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "building_details": [
       {
         "no_storeys": 2,
@@ -83,17 +84,18 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 55.82,
       "total_gia_lost": 36.9,
-      "total_gia_existing": 159.7
+      "total_gia_existing": 159.7,
+      "site_area": 0.099245
     },
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_proposed_bedrooms": 3,
       "total_no_proposed_residential_units": 1,
       "total_no_proposed_residential_units_london_living_rent": 0,
-      "total_no_proposed_residential_affordable_units": 1,
+      "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units": 0,
-      "total_no_proposed_residential_units_affordable_rent": 1,
+      "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_living_rent": 0,
@@ -104,15 +106,15 @@
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "total_no_proposed_residential_units_market_for_sale": 0,
+      "total_no_proposed_residential_units_market_for_sale": 1,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 40.30429744571515,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 92.7,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 10.076074361428788,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
@@ -120,27 +122,33 @@
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_intermediate": 0,
-      "affordable_percentage": 100,
+      "affordable_percentage": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
+          "description": null,
           "m42_compliant": true,
           "change_type": "Gain",
-          "garden_land": false,
           "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "House or Bungalow",
           "no_habitable_rooms": 4,
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "25/12/2024",
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "tenure": "Affordable Rent (not at LAR benchmark rents)",
+          "tenure": "Market for sale",
           "gia": 92.7
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.099245,
+      "total_gia_lost": 36.9
     },
     "internal_resi_water_usage": 0,
     "infrastructure_details": {
@@ -152,7 +160,7 @@
       "no_new_water_connections_required": 1,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
@@ -160,14 +168,26 @@
       "no_new_gas_connections_required": 1,
       "ghg_reduction_over_building_regulations": false
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.099245
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "appeal_decision": null,
   "postcode": "RM3 9AT",
   "development_type": null,
-  "title_number": null,
+  "title_number": [],
   "centroid_easting": 554285,
-  "actual_commencement_date": null,
+  "actual_commencement_date": "25/12/2024",
   "description": "Part demolition of the existing dwelling with ground & first floor rear extensions and change of entrance from Priory Road to Priory Grove. \nErection of a new double-storey three-bedroom, 4-person dwelling fronting Priory Grove.",
   "decision": "Approved",
   "actual_completion_date": null,
@@ -182,8 +202,8 @@
   "pp_id": "12453032",
   "id": "Havering-P1419.23",
   "application_type_full": "Full planning permission",
-  "cil_liability": true,
-  "status": "Approved",
+  "cil_liability": false,
+  "status": "Commenced",
   "date_building_work_completed_under_previous_permission": null,
   "secondary_street_name": null,
   "decision_agency": "Borough",
@@ -259,9 +279,11 @@
     "net_car": 1,
     "no_proposed_car": 2
   },
-  "last_updated": "2026-06-27T05:26:13.136Z",
+  "last_updated": "2026-08-05T14:24:37.348Z",
   "appeal_status": null,
   "street_name": "Priory Road",
   "ward": "Gooshays",
-  "polygon": null
+  "polygon": {
+    "type": "geometrycollection"
+  }
 }

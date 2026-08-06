@@ -7,22 +7,22 @@
   "appeal_decision": null,
   "lpa_app_no": "28727/APP/2022/2995",
   "centroid": {
-    "lon": "-0.4191773",
-    "lat": "51.5231366"
+    "lon": -0.419197,
+    "lat": 51.523136
   },
   "actual_completion_date": null,
   "development_type": "Conversion",
   "centroid_easting": 509769,
   "url_planning_app": "http://planning.hillingdon.gov.uk/OcellaWeb/planningDetails?reference=28727/APP/2022/2995",
-  "last_updated": "2025-03-19T03:28:54.765+00:00",
+  "last_updated": "2026-08-05T08:42:24.802Z",
   "subdivision_of_building": null,
   "postcode": "UB4 0AY",
   "uprn": null,
   "reference_no_of_permission_being_relied_on": null,
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "centroid_northing": 181653,
   "site_name": "16 KENILWORTH GARDENS",
-  "status": "Approved",
+  "status": "Lapsed",
   "appeal_start_date": null,
   "valid_date": "29/09/2022",
   "lapsed_date": "07/03/2026",
@@ -57,7 +57,7 @@
   },
   "date_building_work_completed_under_previous_permission": null,
   "actual_commencement_date": null,
-  "last_updated_by": "FME Excel Import",
+  "last_updated_by": "Portal",
   "cil_liability": false,
   "decision_target_date": "24/11/2022",
   "title_number": [],
@@ -164,8 +164,8 @@
     "phasing_details": [
       {
         "phase_detail": "one",
-        "intended_completion_date": "03/2023",
-        "intended_commencement_date": "11/2022"
+        "intended_commencement_date": "11/2022",
+        "intended_completion_date": "03/2023"
       }
     ],
     "building_details": [
@@ -180,12 +180,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 216,
-        "superseded_date": null,
-        "actual_completion_date": null,
         "use_class": "C3",
         "gia_gained": 116,
-        "actual_commencement_date": null,
-        "superseded_by_lpa_app_no": null,
         "gia_lost": 116
       }
     ],
@@ -235,82 +231,48 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
-          "description": null,
-          "change_type": "Loss",
-          "m42_compliant": null,
-          "sheltered_accommodation": null,
-          "garden_land": null,
-          "unit_type": "House or Bungalow",
-          "unit_development_type": "Conversion",
-          "superseded_date": null,
-          "provider": null,
-          "no_habitable_rooms": null,
           "phase_detail": null,
           "unit_no": null,
-          "actual_commencement_date": null,
+          "description": null,
+          "change_type": "Loss",
+          "unit_type": "House or Bungalow",
           "no_bedrooms": 10,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
-          "tenure": "Market for sale",
-          "gia": null
+          "unit_development_type": "Conversion",
+          "gia": null,
+          "tenure": "Market for sale"
         },
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
-          "description": null,
-          "change_type": "Gain",
-          "m42_compliant": null,
-          "sheltered_accommodation": null,
-          "garden_land": null,
-          "unit_type": "Flat Apartment Maisonette",
-          "unit_development_type": "Conversion",
-          "superseded_date": null,
           "provider": "Private",
           "no_habitable_rooms": 5,
           "phase_detail": null,
-          "unit_no": "Gain-1",
-          "actual_commencement_date": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
+          "unit_development_type": "Conversion",
           "tenure": "Market for rent",
           "gia": 116
         },
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
-          "description": null,
-          "change_type": "Gain",
-          "m42_compliant": null,
-          "sheltered_accommodation": null,
-          "garden_land": null,
-          "unit_type": "Flat Apartment Maisonette",
-          "unit_development_type": "Conversion",
-          "superseded_date": null,
-          "provider": null,
-          "no_habitable_rooms": null,
           "phase_detail": null,
           "unit_no": null,
-          "actual_commencement_date": null,
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
-          "tenure": "Market for rent",
-          "gia": null
+          "unit_development_type": "Conversion",
+          "gia": null,
+          "tenure": "Market for rent"
         }
       ],
       "site_area": 0.03
     },
     "total_gia_lost": 116,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "infrastructure_details": {
       "mobile_network_operators_consultation": false,
       "no_non_resi_units_to_have_full_fibre": 0,
@@ -323,7 +285,7 @@
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_passive_cooling": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "green_roof_area": 0,
       "ghg_reduction_over_building_regulations": false,
       "no_passive_rapid_ev_charging_points": null,
@@ -350,17 +312,17 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_existing": 216,
       "development_type": null,
-      "site_area": null
+      "site_area": 0.034
     },
     "grey_water_reuse": false,
-    "s106_agreement": null,
+    "s106_agreement": false,
     "affordable_housing_inlieu_payment": null,
-    "air_quality_assessment": null,
+    "air_quality_assessment": false,
     "other_contributions": null,
     "intended_commencement_date": null,
     "no_affordable_housing_units_provided_offsite": null,
-    "commencement_notice_received": null,
-    "circular_economy_statement": null,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
     "qualifying_vacant_building_floorspace": null,
     "open_and_protected_space_details": {
       "protected_space_count": 0,
@@ -376,23 +338,23 @@
     "constraints_details": [],
     "superseding_details": [],
     "lead_registered_social_landlord": null,
-    "viability_assessment": null,
+    "viability_assessment": false,
     "overseas_company_registration_no": null,
-    "mayoral_cil_liability_notice_issued": null,
+    "mayoral_cil_liability_notice_issued": false,
     "non_permanent_dwellings_details": [],
     "intended_completion_date": null,
     "other_residential_accommodation_details": {
       "no_council_tax_rateable_units_gained": null,
       "no_council_tax_rateable_units_lost": null,
-      "site_area": null,
+      "site_area": 0.034,
       "other_resi_accommodation_unit_details": []
     },
     "uk_company_registration_no": null,
-    "3d_model": null,
+    "3d_model": false,
     "no_affordable_housing_units_acquired_offsite": null,
     "transport_contributions": null,
-    "borough_cil_liability_notice_issued": null,
-    "transport_impact_assessment": null,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
     "social_infrastructure_contributions": null,
     "scheme_name": "16 KENILWORTH GARDENS",
     "lead_developer_company_name": null
@@ -402,48 +364,48 @@
     "coordinates": [
       [
         [
-          -0.4193403,
-          51.5232898
+          -0.41936,
+          51.523289
         ],
         [
-          -0.41931769999999996,
-          51.5232799
+          -0.419338,
+          51.523279
         ],
         [
-          -0.4193183,
-          51.5232645
+          -0.419338,
+          51.523263
         ],
         [
-          -0.41901059999999996,
-          51.5231723
+          -0.419031,
+          51.523171
         ],
         [
-          -0.41901069999999996,
-          51.5231711
+          -0.419031,
+          51.52317
         ],
         [
-          -0.41914799999999997,
-          51.523004
+          -0.419168,
+          51.523003
         ],
         [
-          -0.41919589999999995,
-          51.5229975
+          -0.419216,
+          51.522996
         ],
         [
-          -0.4193149,
-          51.5231966
+          -0.419335,
+          51.523196
         ],
         [
-          -0.4193202,
-          51.5232086
+          -0.41934,
+          51.523208
         ],
         [
-          -0.4193422,
-          51.5232886
+          -0.419362,
+          51.523288
         ],
         [
-          -0.4193403,
-          51.5232898
+          -0.41936,
+          51.523289
         ]
       ]
     ],
