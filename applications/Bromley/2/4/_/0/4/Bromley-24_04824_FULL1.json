@@ -10,7 +10,70 @@
   "ward": "MOTTNG",
   "decision_date": null,
   "parking_details": null,
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              542767.2,
+              172053.85
+            ],
+            [
+              542766.75,
+              172053
+            ],
+            [
+              542783.05,
+              172044.95
+            ],
+            [
+              542790.5,
+              172041.3
+            ],
+            [
+              542797.38,
+              172037.93
+            ],
+            [
+              542798.05,
+              172039.4
+            ],
+            [
+              542798.8,
+              172041.2
+            ],
+            [
+              542799.55,
+              172043.2
+            ],
+            [
+              542799.7,
+              172043.5
+            ],
+            [
+              542792.55,
+              172047.1
+            ],
+            [
+              542785.7,
+              172050.45
+            ],
+            [
+              542769.25,
+              172058.65
+            ],
+            [
+              542767.2,
+              172053.85
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "pp_id": "PP-13660244",
   "development_type": null,
   "description": "Single storey rear extension, loft conversion comprising rear dormer and change of use from a single dwellinghouse (class C3) to a 6-bed HMO (Class C4) with the provision of refuse and cycle storage. (Part Retrospective)",
@@ -18,13 +81,13 @@
   "decision_conditions": null,
   "lpa_app_no": "24/04824/FULL1",
   "subdivision_of_building": null,
-  "centroid_easting": "542786",
+  "centroid_easting": 542783,
   "epc_number": null,
   "secondary_street_name": null,
   "lpa_name": "Bromley",
   "appeal_decision": null,
   "decision_agency": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "cil_liability": false,
   "postcode": "SE9 4LP",
   "decision_process": null,
@@ -35,22 +98,24 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 82.29,
-        "gia_gained": 0,
         "use_class": "C3",
+        "gia_gained": 0,
+        "actual_commencement_date": "20/12/2024",
         "gia_lost": 82.29
       },
       {
         "gia_existing": 0,
-        "gia_gained": 139,
         "use_class": "C4",
+        "gia_gained": 139,
+        "actual_commencement_date": "20/12/2024",
         "gia_lost": 0
       }
     ],
-    "site_area": 0.02,
+    "site_area": 0.021,
     "total_gia_gained": 139,
     "surface_water_discharge_percentage_reduction": 0,
     "total_gia_lost": 82.29,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "rain_water_harvesting": false,
     "projected_cost_of_works": "Up to £2m",
     "green_suds": false,
@@ -59,7 +124,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 139,
-      "total_gia_lost": 82.29
+      "total_gia_lost": 82.29,
+      "site_area": 0.021
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -78,11 +144,11 @@
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_market_for_rent": 1,
       "total_no_proposed_residential_units_social_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 47.61904761904761,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 47.61904761904761,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
@@ -104,26 +170,32 @@
       "residential_units": [
         {
           "no_habitable_rooms": 2,
-          "unit_no": "Loss-1",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 3,
           "unit_type": "Terraced Home",
+          "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "gia": 82.29,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 82.29
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 1,
-          "unit_no": "Gain-1",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 6,
           "unit_type": "HMO",
-          "gia": 139,
-          "tenure": "Market for rent"
+          "no_bedrooms": 6,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 139
         }
-      ]
+      ],
+      "site_area": 0.021
     },
     "internal_resi_water_usage": 0,
     "infrastructure_details": {
@@ -140,7 +212,7 @@
       "no_homes_passive_cooling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "total_annual_pm_emissions": 0,
-      "waste_provision": true
+      "waste_provision": false
     },
     "phasing_details": [
       {
@@ -149,7 +221,20 @@
         "intended_completion_date": "05/2025"
       }
     ],
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.021
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "uprn": "100020435722",
   "street_name": "Dunkery Road",
@@ -159,24 +244,56 @@
     "coordinates": [
       [
         [
-          0.052557,
-          51.429449
+          0.052268,
+          51.429511
         ],
         [
-          0.052556,
-          51.429422
+          0.052261,
+          51.429503
         ],
         [
-          0.052513,
-          51.429423
+          0.052492,
+          51.429427
         ],
         [
-          0.052514,
-          51.429449
+          0.052598,
+          51.429392
         ],
         [
-          0.052557,
-          51.429449
+          0.052695,
+          51.42936
+        ],
+        [
+          0.052705,
+          51.429373
+        ],
+        [
+          0.052717,
+          51.429389
+        ],
+        [
+          0.052729,
+          51.429407
+        ],
+        [
+          0.052731,
+          51.42941
+        ],
+        [
+          0.052629,
+          51.429444
+        ],
+        [
+          0.052532,
+          51.429476
+        ],
+        [
+          0.052299,
+          51.429554
+        ],
+        [
+          0.052268,
+          51.429511
         ]
       ]
     ]
@@ -184,20 +301,20 @@
   "appeal_decision_date": null,
   "site_number": "333",
   "date_building_work_started_under_previous_permission": null,
-  "centroid_northing": "172046",
+  "centroid_northing": 172048,
   "centroid": {
-    "lon": 0.052535,
-    "lat": 51.429436
+    "lon": 0.052493,
+    "lat": 51.429454
   },
   "valid_date": "20/03/2025",
   "id": "Bromley-24_04824_FULL1",
-  "last_updated": "2025-07-07T20:00:29.036Z",
+  "last_updated": "2026-08-06T08:24:27.295Z",
   "locality": "Mottingham",
   "status": "Application Under Consideration",
   "last_date_consultation_comments": "30/05/2025",
   "decision_target_date": "15/05/2025",
   "actual_completion_date": null,
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "reference_no_of_permission_being_relied_on": null,
   "title_number": [],
   "application_type": "All Other"
