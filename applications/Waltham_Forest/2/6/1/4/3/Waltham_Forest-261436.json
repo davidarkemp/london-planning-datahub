@@ -15,7 +15,7 @@
   "lpa_app_no": "261436",
   "title_number": null,
   "decision": null,
-  "last_updated": "2026-07-15T01:13:36.712Z",
+  "last_updated": "2026-08-07T12:47:03.486Z",
   "appeal_start_date": null,
   "actual_commencement_date": null,
   "bo_system": "Portal",
@@ -91,16 +91,16 @@
     "total_gia_existing": 0,
     "phasing_details": [
       {
+        "phase_detail": "Entire Development",
         "intended_completion_date": "10/2026",
-        "intended_commencement_date": "08/2026",
-        "phase_detail": "Entire Development"
+        "intended_commencement_date": "08/2026"
       }
     ],
     "site_area": 0.001,
     "building_details": [
       {
-        "max_height": 3,
         "no_storeys": 1,
+        "max_height": 3,
         "building_ref": "New Building"
       }
     ],
@@ -112,14 +112,14 @@
       "no_homes_passive_cooling": 0,
       "waste_details": [
         {
-          "reason_for_no_provision": "This is an outbuilding on a farm with sufficient waste points.",
-          "internal_dry_recycling": false,
           "external_dry_recycling": false,
+          "external_food_waste": false,
+          "unit_reference": "Pavilion",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "This is an outbuilding on a farm with sufficient waste points.",
           "internal_residual_waste": false,
           "internal_food_waste": false,
-          "external_residual_waste": false,
-          "external_food_waste": false,
-          "unit_reference": "Pavilion"
+          "internal_dry_recycling": false
         }
       ],
       "no_non_resi_units_to_have_full_fibre": 0,
@@ -138,8 +138,8 @@
     "total_gia_lost": 0,
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "SG",
         "gia_existing": 0,
+        "use_class": "SG",
         "gia_gained": 10,
         "gia_lost": 0
       }
@@ -150,12 +150,12 @@
       "open_space_mol_area_gain": 0,
       "open_spaces_details": [
         {
+          "area": 0.001,
           "access": "Restricted",
           "land_swap": false,
-          "area": 0.001,
+          "open_space_designation": "Green Belt",
           "description": "From storage of agricultural equipment to a sheltered social space. ",
-          "open_space_type": "Non-residential institution grounds or garden",
-          "open_space_designation": "Green Belt"
+          "open_space_type": "Non-residential institution grounds or garden"
         }
       ],
       "open_space_green_belt_area_gain": 0,
@@ -175,7 +175,7 @@
   "site_name": "HAWKWOOD PLANT NURSERY",
   "decision_process": "Delegated",
   "postcode": "E4 7UH",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Portal",
   "centroid": {
     "lat": 49.766807,
     "lon": -7.55716
@@ -189,7 +189,6 @@
     },
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -217,7 +216,8 @@
               195443.800254569
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"

@@ -17,8 +17,8 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3",
         "gia_existing": 275,
+        "use_class": "C3",
         "gia_gained": 544,
         "gia_lost": 275
       }
@@ -31,9 +31,9 @@
     "grey_water_reuse": false,
     "building_details": [
       {
-        "building_ref": "New Dwelling",
+        "no_storeys": 3,
         "max_height": 10.24,
-        "no_storeys": 3
+        "building_ref": "New Dwelling"
       }
     ],
     "surface_water_discharge_percentage_reduction": 50,
@@ -91,23 +91,23 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "residential_units": [
         {
-          "no_bedrooms": 5,
-          "provision_for_older_persons": false,
-          "sheltered_accommodation": false,
-          "unit_type": "House or Bungalow",
-          "gia": 275,
-          "tenure": "Market for sale",
           "no_habitable_rooms": 7,
-          "change_type": "Loss"
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
+          "no_bedrooms": 5,
+          "unit_type": "House or Bungalow",
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 275
         },
         {
           "no_habitable_rooms": 10,
-          "tenure": "Self-Build and Custom Build",
-          "unit_type": "House or Bungalow",
-          "gia": 544,
           "provider": "Self-Build",
           "change_type": "Gain",
-          "no_bedrooms": 5
+          "no_bedrooms": 5,
+          "unit_type": "House or Bungalow",
+          "tenure": "Self-Build and Custom Build",
+          "gia": 544
         }
       ],
       "total_gia_gained": 544,
@@ -120,8 +120,8 @@
     },
     "phasing_details": [
       {
-        "intended_commencement_date": "01/2027",
         "phase_detail": "Construction",
+        "intended_commencement_date": "01/2027",
         "intended_completion_date": "12/2027"
       }
     ],
@@ -137,7 +137,7 @@
   "ward": "Cranham",
   "lapsed_date": null,
   "centroid_easting": 556195,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "CSV Data Import",
   "application_type": "All Other",
   "parking_details": {
     "no_existing_cycle": 0,
@@ -179,7 +179,7 @@
   "decision_agency": "Borough",
   "subdivision_of_building": null,
   "secondary_street_name": null,
-  "last_updated": "2026-08-07T01:10:22.850Z",
+  "last_updated": "2026-08-07T04:00:11.641Z",
   "id": "Havering-P0924.26",
   "cil_liability": false,
   "actual_commencement_date": null

@@ -7,10 +7,10 @@
   "decision_target_date": "24/05/2024",
   "lapsed_date": "24/05/2027",
   "appeal_start_date": null,
-  "last_updated": "2025-03-19T21:04:37.350+00:00",
+  "last_updated": "2026-08-07T08:40:13.977Z",
   "locality": null,
   "development_type": null,
-  "postcode": null,
+  "postcode": "",
   "ward": "RUISLIP 2022",
   "id": "Hillingdon-64510_APP_2023_550",
   "uprn": null,
@@ -21,78 +21,78 @@
     "coordinates": [
       [
         [
-          -0.44050599999999995,
-          51.5798075
+          -0.440527,
+          51.579806
         ],
         [
-          -0.4404766,
-          51.5798309
+          -0.440497,
+          51.579829
         ],
         [
-          -0.4404571,
-          51.5798425
+          -0.440478,
+          51.579841
         ],
         [
-          -0.4404519,
-          51.5798543
+          -0.440473,
+          51.579852
         ],
         [
-          -0.44043699999999997,
-          51.579872
+          -0.440458,
+          51.57987
         ],
         [
-          -0.44042709999999996,
-          51.5798837
+          -0.440448,
+          51.579882
         ],
         [
-          -0.4404296,
-          51.5799492
+          -0.44045,
+          51.579947
         ],
         [
-          -0.4404336,
-          51.5799731
+          -0.440454,
+          51.579971
         ],
         [
-          -0.4403118,
-          51.579903
+          -0.440333,
+          51.579901
         ],
         [
-          -0.44024389999999997,
-          51.5799348
+          -0.440265,
+          51.579933
         ],
         [
-          -0.4400709,
-          51.5798314
+          -0.440092,
+          51.579829
         ],
         [
-          -0.4399978,
-          51.5798751
+          -0.440019,
+          51.579873
         ],
         [
-          -0.43977819999999995,
-          51.5797353
+          -0.439799,
+          51.579733
         ],
         [
-          -0.43990009999999996,
-          51.5796596
+          -0.439921,
+          51.579658
         ],
         [
-          -0.4397835,
-          51.5795808
+          -0.439804,
+          51.579579
         ],
         [
-          -0.43992509999999996,
-          51.5794875
+          -0.439946,
+          51.579486
         ],
         [
-          -0.44050599999999995,
-          51.5798075
+          -0.440527,
+          51.579806
         ]
       ]
     ],
     "type": "Polygon"
   },
-  "actual_completion_date": null,
+  "actual_completion_date": "15/07/2025",
   "polygon": {
     "geometries": [
       {
@@ -175,7 +175,7 @@
   },
   "date_building_work_started_under_previous_permission": null,
   "application_type_full": "Full planning permission",
-  "title_number": null,
+  "title_number": [],
   "site_number": null,
   "lpa_name": "Hillingdon",
   "decision_process": "Delegated",
@@ -185,26 +185,27 @@
   "application_details": {
     "projected_cost_of_works": "Up to £2m",
     "total_gia_existing": 0,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "superseding_details": [
       {
+        "lpa_name": "Hillingdon",
         "unit_reference": "None",
-        "lpa_app_no": "64510/APP/2019/2019/1412",
-        "partial_supersedence": true,
-        "component_description": "Excludes ecological area to the rear"
+        "lpa_app_no": "64510/APP/2019/1412",
+        "partial_supersedence": false
       }
     ],
     "total_gia_gained": 0,
     "site_area": 0.127,
-    "rain_water_harvesting": true,
+    "rain_water_harvesting": false,
     "non_residential_details": {
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 100,
       "total_gia_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_existing": 0,
-      "total_gia_lost": 0
+      "total_gia_existing": 100,
+      "total_gia_lost": 100,
+      "site_area": 0
     },
-    "existing_uprns": null,
+    "existing_uprns": [],
     "garden_land_lost": false,
     "infrastructure_details": {
       "percentage_demolition_construction_material_recycling": 30,
@@ -214,7 +215,7 @@
       "no_new_water_connections_required": 2,
       "total_annual_nox_emissions": 0,
       "no_active_fast_ev_charging_points": 2,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "no_homes_passive_cooling": 0,
       "no_homes_to_have_electrical_heating": 2,
       "no_new_gas_connections_required": 2,
@@ -223,7 +224,7 @@
       "fire_suppression_system_proposed": false,
       "no_resi_units_to_have_full_fibre": 2,
       "green_roof_area": 0,
-      "waste_provision": true
+      "waste_provision": false
     },
     "ownership_status": "Private",
     "building_details": [
@@ -242,8 +243,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_completion_date": "12/2023",
-        "intended_commencement_date": "06/2023"
+        "intended_commencement_date": "06/2023",
+        "intended_completion_date": "12/2023"
       }
     ],
     "surface_water_discharge_percentage_reduction": 30,
@@ -256,24 +257,36 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 7,
-          "provider": "Private",
-          "unit_no": "Gain-1",
+          "actual_completion_date": "15/07/2025",
+          "description": null,
+          "m42_compliant": true,
           "change_type": "Gain",
-          "no_bedrooms": 4,
           "unit_type": "House or Bungalow",
-          "gia": 153,
-          "tenure": "Market for sale"
+          "provider": "Private",
+          "no_habitable_rooms": 7,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "18/07/2024",
+          "no_bedrooms": 4,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 153
         },
         {
-          "no_habitable_rooms": 7,
-          "provider": "Private",
-          "unit_no": "Gain-2",
+          "actual_completion_date": "15/07/2025",
+          "description": null,
+          "m42_compliant": true,
           "change_type": "Gain",
-          "no_bedrooms": 4,
           "unit_type": "House or Bungalow",
-          "gia": 153,
-          "tenure": "Market for sale"
+          "provider": "Private",
+          "no_habitable_rooms": 7,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "18/07/2024",
+          "no_bedrooms": 4,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 153
         }
       ],
       "total_no_proposed_residential_units_social_rent": 0,
@@ -288,7 +301,7 @@
       "total_no_proposed_residential_units_market_for_rent": 0,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 15.748031496062993,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_proposed_bedrooms": 8,
@@ -298,7 +311,7 @@
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 110.23622047244095,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units": 2,
@@ -309,10 +322,33 @@
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "affordable_percentage": 0
+      "affordable_percentage": 0,
+      "site_area": 0.127
     },
-    "green_suds": true,
-    "affordable_housing_fast_track": false
+    "green_suds": false,
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 100,
+        "actual_completion_date": "15/07/2025",
+        "use_class": "D1",
+        "gia_gained": 0,
+        "actual_commencement_date": "18/07/2024",
+        "gia_lost": 100
+      }
+    ]
   },
   "valid_date": "23/02/2023",
   "parking_details": {
@@ -323,7 +359,7 @@
     "no_existing_cycle": 0,
     "no_proposed_cycle": 4
   },
-  "actual_commencement_date": null,
+  "actual_commencement_date": "18/07/2024",
   "centroid_northing": 187914,
   "application_type": "All Other",
   "decision_conditions": [
@@ -414,19 +450,19 @@
   ],
   "url_planning_app": "http://planning.hillingdon.gov.uk/OcellaWeb/planningDetails?reference=64510/APP/2023/550",
   "pp_id": "11940003",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "centroid_easting": 508184,
   "borough": "Hillingdon",
   "epc_number": null,
   "lpa_app_no": "64510/APP/2023/550",
   "decision_agency": "Borough",
   "date_building_work_completed_under_previous_permission": null,
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "subdivision_of_building": "There are no buildings on the site",
   "description": "Erection of 2 x 4-bed dwellings with associated landscaping and car parking together with the erection of a close boarded timber fence with 300mm trellis over to the side of House A.",
   "appeal_decision": null,
   "appeal_decision_date": null,
-  "status": "Approved",
+  "status": "Completed",
   "decision_date": "24/05/2024",
-  "cil_liability": true
+  "cil_liability": false
 }

@@ -15,7 +15,7 @@
   "lpa_app_no": "26/00825/FULL",
   "title_number": null,
   "decision": null,
-  "last_updated": "2026-07-08T01:56:52.794Z",
+  "last_updated": "2026-08-07T12:45:45.052Z",
   "appeal_start_date": null,
   "actual_commencement_date": null,
   "bo_system": "Portal",
@@ -116,8 +116,8 @@
     "scheme_phasing": true,
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3",
         "gia_existing": 0,
+        "use_class": "C3",
         "gia_gained": 70.72,
         "gia_lost": 0
       }
@@ -131,12 +131,12 @@
       "residential_units": [
         {
           "no_habitable_rooms": 3,
-          "tenure": "Market for rent",
-          "gia": 70.72,
-          "unit_type": "Terraced Home",
-          "no_bedrooms": 2,
+          "provider": "Private",
           "change_type": "Gain",
-          "provider": "Private"
+          "no_bedrooms": 2,
+          "unit_type": "Terraced Home",
+          "tenure": "Market for rent",
+          "gia": 70.72
         }
       ],
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
@@ -178,9 +178,9 @@
     "total_gia_gained": 70.72,
     "phasing_details": [
       {
+        "phase_detail": "Entire Development ",
         "intended_completion_date": "03/2027",
-        "intended_commencement_date": "08/2026",
-        "phase_detail": "Entire Development "
+        "intended_commencement_date": "08/2026"
       }
     ],
     "affordable_housing_fast_track": false,
@@ -191,8 +191,8 @@
     "surface_water_discharge_percentage_reduction": 100,
     "building_details": [
       {
-        "max_height": 8.1,
         "no_storeys": 2,
+        "max_height": 8.1,
         "building_ref": "New dwelling"
       }
     ],
@@ -201,7 +201,7 @@
   "site_name": null,
   "decision_process": null,
   "postcode": "RM10 7HA",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Portal",
   "centroid": {
     "lat": 51.55721,
     "lon": 0.157508
@@ -215,7 +215,6 @@
     },
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -255,7 +254,8 @@
               186480.476580708
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"

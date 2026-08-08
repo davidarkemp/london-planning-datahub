@@ -15,8 +15,8 @@
     "phasing_details": [
       {
         "phase_detail": "Build out ",
-        "intended_completion_date": "08/2026",
-        "intended_commencement_date": "05/2026"
+        "intended_commencement_date": "05/2026",
+        "intended_completion_date": "08/2026"
       }
     ],
     "total_gia_gained": 24,
@@ -25,8 +25,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 363,
-        "gia_gained": 24,
         "use_class": "C3",
+        "gia_gained": 24,
         "gia_lost": 0
       }
     ],
@@ -83,12 +83,8 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "m43_2b_compliant": false,
           "no_habitable_rooms": 2,
-          "m43_2a_compliant": false,
-          "m42_compliant": false,
           "change_type": "Loss",
-          "garden_land": false,
           "sheltered_accommodation": false,
           "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
@@ -98,7 +94,8 @@
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "total_gia_gained": 0
     },
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
@@ -123,7 +120,7 @@
   "decision_date": null,
   "url_planning_app": "https://developmentandhousing.hackney.gov.uk//planning/index.html?fa=getApplication&id=85136",
   "borough": "Hackney",
-  "locality": "London",
+  "locality": "HACKNEY",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
   "parking_details": null,
@@ -132,10 +129,10 @@
   "pp_id": "14800367",
   "subdivision_of_building": null,
   "status": "Application Under Consideration",
-  "description": "Amalgamation of the flats within the building to create a single dwelling and the construction of a single storey rea extension. ",
+  "description": "Change of use of 2 flats into a single dwelling&nbsp; house and construction of a single storey&nbsp; ground floor rear extension. ",
   "decision_conditions": null,
-  "site_number": 4,
-  "last_updated": "2026-06-28T08:39:27.968Z",
+  "site_number": "4",
+  "last_updated": "2026-08-08T01:14:37.514Z",
   "last_date_consultation_comments": "17/05/2026",
   "valid_date": "13/04/2026",
   "actual_commencement_date": null,
@@ -147,64 +144,117 @@
   "decision": null,
   "id": "Hackney-2026_0794",
   "polygon": {
-    "type": "GeometryCollection",
+    "type": "geometrycollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              [
-                534176.55,
-                187087.8
-              ],
-              [
-                534167,
-                187087.95
-              ],
-              [
-                534163.95,
-                187088
-              ],
-              [
-                534163.9,
-                187080.7
-              ],
-              [
-                534166.9,
-                187080.7
-              ],
-              [
-                534176.45,
-                187081
-              ],
-              [
-                534194.1,
-                187081.55
-              ],
-              [
-                534194.15,
-                187084.4
-              ],
-              [
-                534194.2,
-                187084.95
-              ],
-              [
-                534194.3,
-                187087.4
-              ],
-              [
-                534179.352,
-                187087.638
-              ],
-              [
-                534176.55,
-                187087.8
-              ]
+              534166.900051472,
+              187080.701782413
+            ],
+            [
+              534176.447832426,
+              187081.001696557
+            ],
+            [
+              534194.100508025,
+              187081.551539416
+            ],
+            [
+              534194.149978787,
+              187084.40072374
+            ],
+            [
+              534194.199449233,
+              187084.950566348
+            ],
+            [
+              534194.298389793,
+              187087.399865131
+            ],
+            [
+              534179.350093954,
+              187087.639796345
+            ],
+            [
+              534176.54677335,
+              187087.799750814
+            ],
+            [
+              534166.998992142,
+              187087.949708016
+            ],
+            [
+              534163.948319724,
+              187087.999693586
+            ],
+            [
+              534163.898849259,
+              187080.701782409
+            ],
+            [
+              534166.900051472,
+              187080.701782413
             ]
           ]
         ],
-        "type": "MultiPolygon"
+        "type": "Polygon"
+      },
+      {
+        "coordinates": [
+          [
+            [
+              534166.900051472,
+              187080.701782413
+            ],
+            [
+              534176.447832426,
+              187081.001696557
+            ],
+            [
+              534194.100508025,
+              187081.551539416
+            ],
+            [
+              534194.149978787,
+              187084.40072374
+            ],
+            [
+              534194.199449233,
+              187084.950566348
+            ],
+            [
+              534194.298389793,
+              187087.399865131
+            ],
+            [
+              534179.350093954,
+              187087.639796345
+            ],
+            [
+              534176.54677335,
+              187087.799750814
+            ],
+            [
+              534166.998992142,
+              187087.949708016
+            ],
+            [
+              534163.948319724,
+              187087.999693586
+            ],
+            [
+              534163.898849259,
+              187080.701782409
+            ],
+            [
+              534166.900051472,
+              187080.701782413
+            ]
+          ]
+        ],
+        "type": "Polygon"
       }
     ],
     "crs": {
@@ -217,69 +267,67 @@
   "appeal_start_date": null,
   "decision_process": "Delegated",
   "ward": "Cazenove Ward",
-  "street_name": "Forburg Road",
+  "street_name": "FORBURG ROAD",
   "secondary_street_name": null,
   "lpa_name": "Hackney",
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": null,
   "wgs84_polygon": {
-    "type": "MultiPolygon",
+    "type": "Polygon",
     "coordinates": [
       [
         [
-          [
-            -0.065516,
-            51.566709
-          ],
-          [
-            -0.065654,
-            51.566712
-          ],
-          [
-            -0.065697,
-            51.566713
-          ],
-          [
-            -0.065701,
-            51.566648
-          ],
-          [
-            -0.065658,
-            51.566647
-          ],
-          [
-            -0.06552,
-            51.566648
-          ],
-          [
-            -0.065265,
-            51.566648
-          ],
-          [
-            -0.065263,
-            51.566674
-          ],
-          [
-            -0.065262,
-            51.566679
-          ],
-          [
-            -0.06526,
-            51.566701
-          ],
-          [
-            -0.065476,
-            51.566707
-          ],
-          [
-            -0.065516,
-            51.566709
-          ]
+          -0.065658,
+          51.566647
+        ],
+        [
+          -0.06552,
+          51.566648
+        ],
+        [
+          -0.065265,
+          51.566648
+        ],
+        [
+          -0.065263,
+          51.566674
+        ],
+        [
+          -0.065262,
+          51.566679
+        ],
+        [
+          -0.06526,
+          51.566701
+        ],
+        [
+          -0.065476,
+          51.566707
+        ],
+        [
+          -0.065516,
+          51.566709
+        ],
+        [
+          -0.065654,
+          51.566712
+        ],
+        [
+          -0.065697,
+          51.566713
+        ],
+        [
+          -0.065701,
+          51.566648
+        ],
+        [
+          -0.065658,
+          51.566647
         ]
       ]
     ]
   },
-  "uprn": 100021041224,
+  "uprn": "100021041224",
   "application_type": "All Other",
   "centroid": {
     "lat": 51.566676,

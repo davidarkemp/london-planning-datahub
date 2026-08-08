@@ -1,10 +1,36 @@
 {
   "uprn": null,
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.484385,
+          51.52365
+        ],
+        [
+          -0.484386,
+          51.523623
+        ],
+        [
+          -0.484429,
+          51.523623
+        ],
+        [
+          -0.484428,
+          51.52365
+        ],
+        [
+          -0.484385,
+          51.52365
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "subdivision_of_building": null,
   "centroid_easting": 505244,
   "application_type": "All Other",
-  "status": "Approved",
+  "status": "Completed",
   "epc_number": "8311-6229-5730-2754-0996",
   "cil_liability": false,
   "parking_details": {
@@ -21,17 +47,17 @@
   },
   "description": "Change of use of the existing residential property (Use Class C3) to a small House in Multiple Occupation (Use Class C4). Retrospective.",
   "application_details": {
-    "scheme_phasing": true,
-    "existing_uprns": null,
+    "scheme_phasing": false,
+    "existing_uprns": [],
     "total_gia_gained": 0,
     "rain_water_harvesting": false,
     "internal_resi_water_usage": 142,
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
       "green_roof_area": 0,
-      "fire_suppression_system_proposed": true,
+      "fire_suppression_system_proposed": false,
       "no_non_resi_units_to_have_full_fibre": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_to_have_electrical_heating": 1,
       "no_homes_passive_cooling": 0,
@@ -61,8 +87,10 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 113,
+        "actual_completion_date": "08/12/2025",
         "use_class": "C4",
         "gia_gained": 0,
+        "actual_commencement_date": "08/12/2025",
         "gia_lost": 0
       }
     ],
@@ -71,24 +99,110 @@
       "total_gia_existing": 113,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_lost": 0,
-      "total_non_resi_gross_internal_floor_area_to_be_gained": 0
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "site_area": 0.021
     },
-    "total_gia_existing": 113
+    "total_gia_existing": 113,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.021
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "residential_details": {
+      "total_no_proposed_residential_units_shared_equity": 0,
+      "total_no_proposed_bedrooms": 6,
+      "total_no_proposed_residential_units": 1,
+      "total_no_proposed_residential_units_london_living_rent": 0,
+      "total_no_proposed_residential_units_affordable_rent": 0,
+      "total_no_existing_residential_units": 1,
+      "total_no_proposed_residential_affordable_units": 0,
+      "total_no_proposed_residential_units_discount_market_sale": 0,
+      "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_london_living_rent": 0,
+      "total_no_existing_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_units_shared_equity": 0,
+      "total_no_existing_residential_units_intermediate": 0,
+      "total_no_proposed_residential_units_market_for_rent": 1,
+      "total_no_existing_residential_units_social_rent": 0,
+      "total_no_proposed_residential_units_self_build_and_custom_build": 0,
+      "total_no_existing_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_affordable_units": 0,
+      "habitable_rooms_density": 0,
+      "total_no_existing_residential_units_affordable_rent": 0,
+      "total_no_existing_residential_units_london_shared_ownership": 0,
+      "total_gia_gained": 0,
+      "total_no_proposed_residential_units_social_rent": 0,
+      "total_no_existing_residential_units_london_affordable_rent": 0,
+      "site_area": 0.021,
+      "dwelling_density": 47.61904761904761,
+      "total_gia_lost": 0,
+      "total_no_proposed_residential_units_london_affordable_rent": 0,
+      "total_no_proposed_residential_units_starter_homes": 0,
+      "total_no_existing_residential_units_discount_market_sale": 0,
+      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_starter_homes": 0,
+      "total_no_proposed_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_intermediate": 0,
+      "total_no_proposed_residential_units_london_shared_ownership": 0,
+      "affordable_percentage": 0,
+      "residential_units": [
+        {
+          "actual_completion_date": "08/12/2025",
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "HMO",
+          "unit_development_type": "Change of Use",
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "08/12/2025",
+          "no_bedrooms": 6,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 117
+        },
+        {
+          "actual_completion_date": "08/12/2025",
+          "description": null,
+          "change_type": "Loss",
+          "unit_type": "Terraced Home",
+          "unit_development_type": "Change of Use",
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "08/12/2025",
+          "no_bedrooms": 6,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 117
+        }
+      ],
+      "total_no_existing_residential_units_market_for_rent": 1,
+      "total_no_existing_residential_units_self_build_and_custom_build": 0
+    }
   },
   "valid_date": "10/10/2025",
   "decision_process": "Delegated",
   "appeal_start_date": null,
   "application_type_full": "Full planning permission",
-  "last_updated_by": "CSV Data Import",
-  "bo_system": "CSV Data Import",
+  "last_updated_by": "Portal",
+  "bo_system": "Portal",
   "decision_target_date": "09/12/2025",
-  "last_updated": "2025-12-08T22:59:13.093Z",
+  "last_updated": "2026-08-07T12:40:56.002Z",
   "site_name": "4 ROBINS CLOSE",
   "development_type": null,
   "centroid_northing": 181613,
-  "title_number": null,
+  "title_number": [],
   "borough": "Hillingdon",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "08/12/2025",
   "lpa_app_no": "67071/APP/2025/2621",
   "pp_id": "14396338",
   "appeal_decision_date": null,
@@ -182,5 +296,5 @@
   "site_number": null,
   "ward": "COLHAM & COWLEY",
   "reference_no_of_permission_being_relied_on": null,
-  "actual_completion_date": null
+  "actual_completion_date": "08/12/2025"
 }
