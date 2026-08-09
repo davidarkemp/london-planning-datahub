@@ -14,7 +14,7 @@
   "secondary_street_name": null,
   "date_building_work_completed_under_previous_permission": null,
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated": "2026-08-08T01:14:38.923Z",
+  "last_updated": "2026-08-08T22:03:56.414Z",
   "decision_target_date": null,
   "street_name": null,
   "postcode": null,
@@ -35,7 +35,7 @@
   "centroid_easting": 543375,
   "lpa_name": "Greenwich",
   "decision_agency": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "CSV Data Import",
   "lapsed_date": null,
   "description": "Change of use from a single dwelling house (Class C3) to an 8-person HMO (Sui-Generis) including the demolition of the existing rear extension and construction of a new single-storey rear extension, conversion of the garage into habitable room, hip-to-gable and rear dormer roof extensions with front roof lights and provision of refuse and cycle storage.",
   "last_date_consultation_comments": "28/08/2026",
@@ -62,22 +62,22 @@
       "total_no_proposed_residential_units_market_for_sale": 0,
       "residential_units": [
         {
-          "provision_for_older_persons": false,
           "no_habitable_rooms": 2,
-          "tenure": "Market for rent",
           "change_type": "Loss",
+          "sheltered_accommodation": false,
           "no_bedrooms": 3,
           "unit_type": "Semi Detached Home",
-          "sheltered_accommodation": false,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
           "gia": 158.16
         },
         {
           "no_habitable_rooms": 1,
-          "tenure": "Market for rent",
-          "change_type": "Gain",
           "provider": "Private",
+          "change_type": "Gain",
           "no_bedrooms": 8,
           "unit_type": "HMO",
+          "tenure": "Market for rent",
           "gia": 204.64
         }
       ],
@@ -123,16 +123,16 @@
     "ownership_status": "Private",
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3",
         "gia_existing": 158.16,
-        "gia_lost": 158.16,
-        "gia_gained": 0
+        "use_class": "C3",
+        "gia_gained": 0,
+        "gia_lost": 158.16
       },
       {
-        "use_class": "SG",
         "gia_existing": 0,
-        "gia_lost": 0,
-        "gia_gained": 204.64
+        "use_class": "SG",
+        "gia_gained": 204.64,
+        "gia_lost": 0
       }
     ],
     "total_gia_gained": 204.64,
@@ -142,9 +142,9 @@
     "surface_water_discharge_percentage_reduction": 0,
     "phasing_details": [
       {
+        "phase_detail": "Entire development",
         "intended_commencement_date": "01/2027",
-        "intended_completion_date": "03/2027",
-        "phase_detail": "Entire development"
+        "intended_completion_date": "03/2027"
       }
     ],
     "scheme_phasing": true,
