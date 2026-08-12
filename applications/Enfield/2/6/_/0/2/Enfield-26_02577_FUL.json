@@ -1,6 +1,6 @@
 {
   "date_building_work_completed_under_previous_permission": null,
-  "cil_liability": null,
+  "cil_liability": false,
   "wgs84_polygon": {
     "type": "Polygon",
     "coordinates": [
@@ -37,15 +37,15 @@
   "centroid_northing": 199526,
   "reference_no_of_permission_being_relied_on": null,
   "actual_commencement_date": null,
-  "last_updated": "2026-07-01T20:11:58.627Z",
-  "description": "Change of use from Use Class C3 (dwelling house) to Use Class C4 (HMO-house in multiple occupation), single storey rear infill extension, rear dormer involving hip to gable roof extension and front roof lights, with associated amenity, cycle and refuse storage.\r",
+  "last_updated": "2026-08-12T01:04:04.398Z",
+  "description": "Change of use from Use Class C3 (dwellinghouse) to Use Class C4 (House in Multiple Occupation), demolition of existing side garage, single-storey rear infill extension, rear dormer incorporating a hip-to-gable roof extension, installation of front roof lights, and associated amenity space, cycle storage and refuse storage.",
   "subdivision_of_building": null,
   "epc_number": null,
   "url_planning_app": "<enter PA URL here>",
   "borough": "Enfield Council",
   "street_name": "Vian Avenue",
-  "decision_process": null,
-  "last_updated_by": "Idox Uniform",
+  "decision_process": "Delegated",
+  "last_updated_by": "Planning Portal ingest",
   "date_building_work_started_under_previous_permission": null,
   "application_type": "All Other",
   "lapsed_date": null,
@@ -86,14 +86,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 77.02,
-        "gia_gained": 0,
         "use_class": "C3",
+        "gia_gained": 0,
         "gia_lost": 77.02
       },
       {
         "gia_existing": 0,
-        "gia_gained": 101.66,
         "use_class": "C4",
+        "gia_gained": 101.66,
         "gia_lost": 0
       }
     ],
@@ -122,11 +122,11 @@
     "ownership_status": "Private",
     "total_gia_lost": 77.02,
     "non_residential_details": {
-      "total_gia_existing": 0,
+      "total_gia_existing": 77.02,
       "site_area": 0.02,
-      "total_gia_gained": 0,
+      "total_gia_gained": 101.66,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_lost": 0,
+      "total_gia_lost": 77.02,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0
     },
     "internal_resi_water_usage": 0,
@@ -144,39 +144,23 @@
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "residential_units": [
         {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "description": null,
-          "change_type": "Gain",
-          "m42_compliant": false,
-          "sheltered_accommodation": false,
-          "garden_land": false,
-          "unit_type": "HMO",
-          "provider": "Private",
-          "no_habitable_rooms": 1,
-          "phase_detail": null,
-          "unit_no": null,
-          "no_bedrooms": 5,
-          "provision_for_older_persons": false,
-          "tenure": "Market for rent",
-          "gia": 101.66
-        },
-        {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "description": null,
-          "change_type": "Loss",
-          "m42_compliant": false,
-          "sheltered_accommodation": false,
-          "garden_land": false,
-          "unit_type": "Semi Detached Home",
           "no_habitable_rooms": 2,
-          "phase_detail": null,
-          "unit_no": null,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
           "no_bedrooms": 3,
+          "unit_type": "Semi Detached Home",
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 77.02
+        },
+        {
+          "no_habitable_rooms": 1,
+          "provider": "Private",
+          "change_type": "Gain",
+          "no_bedrooms": 5,
+          "unit_type": "HMO",
+          "tenure": "Market for rent",
+          "gia": 101.66
         }
       ],
       "total_no_existing_residential_units": 1,
@@ -211,46 +195,36 @@
       "000207128628"
     ],
     "projected_cost_of_works": "Up to £2m",
-    "site_area": 200,
+    "site_area": 0.02,
     "constraints_details": [
       {
-        "result": null,
         "constraints_layer_description": "LHA Maximum Height Level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet)."
       },
       {
-        "result": null,
         "constraints_layer_description": "LLA Maximum height level: All buildings, structures, and works exceeding 300 metres in height (984.2 feet)"
       },
       {
-        "result": null,
         "constraints_layer_description": "100Y Name: North Enfield Model\rDescription: 100YRCC3378\rScenario: 1 in 100 year plus climate change allowance"
       },
       {
-        "result": null,
         "constraints_layer_description": "DCAREA Area: NORTH\rCode: DCAREA_N"
       },
       {
-        "result": null,
         "constraints_layer_description": "OHLZE2 Description: EEB 33KV"
       },
       {
-        "result": null,
         "constraints_layer_description": "OVPOLI Description: OVPOLI4"
       },
       {
-        "result": null,
         "constraints_layer_description": "WARDS Name: Enfield Lock"
       },
       {
-        "result": null,
         "constraints_layer_description": "CILRES CIL ZONE: Lower Rate Eastern Zone - RATE: £40 per square metre"
       },
       {
-        "result": null,
         "constraints_layer_description": "DMDAAP Designation: Area Action Plan- Area: North East Enfield- Policy: Core policy 40"
       },
       {
-        "result": null,
         "constraints_layer_description": "EFCAZI Chargeable Zone Value: 6176"
       }
     ],
@@ -259,8 +233,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire development",
-        "intended_completion_date": "03/2027",
-        "intended_commencement_date": "12/2026"
+        "intended_commencement_date": "12/2026",
+        "intended_completion_date": "03/2027"
       }
     ],
     "affordable_housing_fast_track": false,

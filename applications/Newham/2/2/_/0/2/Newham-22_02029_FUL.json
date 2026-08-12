@@ -1,13 +1,15 @@
 {
   "secondary_street_name": null,
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "cil_liability": false,
   "site_name": "",
-  "last_updated_by": "Idox Uniform",
-  "centroid_northing": "182514",
+  "last_updated_by": "Portal",
+  "centroid_northing": 182514,
   "date_building_work_started_under_previous_permission": null,
   "appeal_start_date": null,
-  "last_updated": "2025-03-19T10:52:17.055+00:00",
+  "last_updated": "2026-08-11T10:32:13.913Z",
   "centroid": {
     "lat": 51.523455,
     "lon": 0.059196
@@ -22,7 +24,7 @@
   "last_date_consultation_comments": "04/10/2022",
   "decision_process": "Delegated",
   "description": "Part retrospective planning application for the erection for a two storey, 4 bedroom dwelling house with a rear dormer loft conversion on the land to the south east of 36-36a Charlemont Road, including secure cycle storage for two cycles",
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "lpa_app_no": "22/02029/FUL",
   "decision_target_date": "13/10/2022",
   "appeal_decision_date": null,
@@ -79,26 +81,18 @@
       "total_no_existing_residential_affordable_units": 0,
       "residential_units": [
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
           "actual_completion_date": "31/03/2024",
-          "m43_2a_compliant": null,
           "description": null,
           "change_type": "Gain",
-          "m42_compliant": null,
-          "sheltered_accommodation": null,
           "garden_land": true,
           "unit_type": "House or Bungalow",
           "unit_development_type": "New Build",
-          "superseded_date": null,
           "provider": "Self-Build",
           "no_habitable_rooms": 5,
           "phase_detail": null,
-          "unit_no": "Gain-1",
-          "actual_commencement_date": null,
+          "unit_no": null,
           "no_bedrooms": 4,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
           "tenure": "Self-Build and Custom Build",
           "gia": 122
         }
@@ -112,14 +106,11 @@
     },
     "superseding_details": [
       {
-        "lpa_name": null,
-        "unit_reference": null,
         "lpa_app_no": "20/02636/FUL",
-        "partial_supersedence": false,
-        "component_description": null
+        "partial_supersedence": false
       }
     ],
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "total_gia_existing": 94,
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
@@ -127,7 +118,7 @@
       "no_homes_to_have_electrical_heating": 0,
       "no_new_gas_connections_required": 1,
       "no_new_water_connections_required": 1,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_non_resi_units_to_have_full_fibre": 0,
       "no_resi_units_to_have_full_fibre": 1,
       "green_roof_area": 0,
@@ -153,19 +144,16 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_completion_date": "03/2022",
-        "intended_commencement_date": "07/2021"
+        "intended_commencement_date": "07/2021",
+        "intended_completion_date": "03/2022"
       }
     ],
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 94,
-        "superseded_date": null,
-        "actual_completion_date": null,
+        "actual_completion_date": "31/03/2024",
         "use_class": "C3",
         "gia_gained": 94,
-        "actual_commencement_date": null,
-        "superseded_by_lpa_app_no": null,
         "gia_lost": 0
       }
     ],
@@ -180,20 +168,20 @@
       "site_area": 110
     },
     "projected_cost_of_works": "Up to £2m",
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "green_suds": false,
     "internal_resi_water_usage": 15,
     "ownership_status": "Private",
     "surface_water_discharge_percentage_reduction": 0,
-    "s106_agreement": null,
+    "s106_agreement": false,
     "affordable_housing_inlieu_payment": null,
-    "air_quality_assessment": null,
+    "air_quality_assessment": false,
     "other_contributions": null,
     "existing_uprns": [],
     "intended_commencement_date": null,
     "no_affordable_housing_units_provided_offsite": null,
-    "commencement_notice_received": null,
-    "circular_economy_statement": null,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
     "qualifying_vacant_building_floorspace": null,
     "open_and_protected_space_details": {
       "protected_space_count": 0,
@@ -208,9 +196,9 @@
     },
     "constraints_details": [],
     "lead_registered_social_landlord": null,
-    "viability_assessment": null,
+    "viability_assessment": false,
     "overseas_company_registration_no": null,
-    "mayoral_cil_liability_notice_issued": null,
+    "mayoral_cil_liability_notice_issued": false,
     "non_permanent_dwellings_details": [],
     "intended_completion_date": null,
     "other_residential_accommodation_details": {
@@ -220,11 +208,11 @@
       "other_resi_accommodation_unit_details": []
     },
     "uk_company_registration_no": null,
-    "3d_model": null,
+    "3d_model": false,
     "no_affordable_housing_units_acquired_offsite": null,
     "transport_contributions": null,
-    "borough_cil_liability_notice_issued": null,
-    "transport_impact_assessment": null,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
     "social_infrastructure_contributions": null,
     "scheme_name": null,
     "lead_developer_company_name": null
@@ -234,7 +222,7 @@
   "site_number": "36",
   "id": "Newham-22_02029_FUL",
   "development_type": null,
-  "centroid_easting": "542955",
+  "centroid_easting": 542955,
   "decision_agency": null,
   "wgs84_polygon": {
     "type": "Polygon",
@@ -263,13 +251,13 @@
       ]
     ]
   },
-  "actual_completion_date": null,
+  "actual_completion_date": "31/03/2024",
   "borough": "London Borough of Newham",
   "url_planning_app": null,
   "application_type_full": "Full planning permission",
   "lpa_name": "Newham",
   "actual_commencement_date": null,
-  "status": "Commenced",
+  "status": "Completed",
   "appeal_decision": null,
   "appeal_status": null,
   "application_type": "All Other",

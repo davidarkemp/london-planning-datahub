@@ -1,6 +1,6 @@
 {
   "street_name": "Roedean Crescent",
-  "centroid_northing": "174281",
+  "centroid_northing": 174281,
   "lapsed_date": "08/03/2025",
   "bo_system": "Portal",
   "site_name": null,
@@ -11,7 +11,7 @@
   "site_number": "46",
   "actual_commencement_date": "06/06/2023",
   "decision": "Approved",
-  "cil_liability": true,
+  "cil_liability": false,
   "polygon": {
     "type": "GeometryCollection",
     "geometries": [
@@ -144,8 +144,8 @@
     "phasing_details": [
       {
         "phase_detail": "1",
-        "intended_completion_date": "04/2023",
-        "intended_commencement_date": "04/2022"
+        "intended_commencement_date": "04/2022",
+        "intended_completion_date": "04/2023"
       }
     ],
     "total_gia_gained": 1069,
@@ -155,6 +155,7 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 401,
+        "actual_completion_date": "12/09/2025",
         "use_class": "C3",
         "gia_gained": 1069,
         "actual_commencement_date": "06/06/2023",
@@ -162,8 +163,8 @@
       }
     ],
     "projected_cost_of_works": "Between £2m and £100m",
-    "scheme_phasing": true,
-    "rain_water_harvesting": true,
+    "scheme_phasing": false,
+    "rain_water_harvesting": false,
     "grey_water_reuse": false,
     "building_details": [
       {
@@ -183,7 +184,7 @@
       "development_type": null,
       "site_area": 1164
     },
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
       "no_resi_units_to_have_full_fibre": 1,
@@ -193,14 +194,14 @@
       "no_homes_passive_cooling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
-      "fire_suppression_system_proposed": true,
+      "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
       "chp_heat_pumps_capacity": 0.01,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "no_passive_rapid_ev_charging_points": null,
       "no_active_rapid_ev_charging_points": null,
       "no_passive_fast_ev_charging_points": null,
@@ -256,44 +257,47 @@
       "site_area": 1164,
       "residential_units": [
         {
-          "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
+          "actual_completion_date": "06/06/2023",
           "description": null,
           "change_type": "Loss",
-          "actual_commencement_date": "06/06/2023",
           "unit_type": "House or Bungalow",
-          "provision_for_older_persons": false,
-          "gia": null,
-          "tenure": "Market for sale",
-          "unit_development_type": "New Build"
-        },
-        {
+          "unit_development_type": "New Build",
           "provider": "Private",
           "phase_detail": null,
           "unit_no": null,
-          "description": null,
-          "change_type": "Gain",
           "actual_commencement_date": "06/06/2023",
           "no_bedrooms": 6,
-          "unit_type": "House or Bungalow",
           "provision_for_older_persons": false,
-          "gia": null,
           "tenure": "Market for sale",
-          "unit_development_type": "New Build"
+          "gia": null
+        },
+        {
+          "actual_completion_date": "12/09/2025",
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "House or Bungalow",
+          "unit_development_type": "New Build",
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "06/06/2023",
+          "no_bedrooms": 6,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": null
         }
       ]
     },
     "ownership_status": "Private",
-    "s106_agreement": null,
+    "s106_agreement": false,
     "affordable_housing_inlieu_payment": null,
-    "air_quality_assessment": null,
+    "air_quality_assessment": false,
     "other_contributions": null,
     "existing_uprns": [],
     "intended_commencement_date": null,
     "no_affordable_housing_units_provided_offsite": null,
-    "circular_economy_statement": null,
-    "commencement_notice_received": null,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
     "qualifying_vacant_building_floorspace": null,
     "open_and_protected_space_details": {
       "open_space_local_and_other_area_gain": 0,
@@ -309,9 +313,9 @@
     "constraints_details": [],
     "superseding_details": [],
     "lead_registered_social_landlord": null,
-    "viability_assessment": null,
+    "viability_assessment": false,
     "overseas_company_registration_no": null,
-    "mayoral_cil_liability_notice_issued": null,
+    "mayoral_cil_liability_notice_issued": false,
     "intended_completion_date": null,
     "non_permanent_dwellings_details": [],
     "other_residential_accommodation_details": {
@@ -321,17 +325,17 @@
       "other_resi_accommodation_unit_details": []
     },
     "uk_company_registration_no": null,
-    "3d_model": null,
+    "3d_model": false,
     "no_affordable_housing_units_acquired_offsite": null,
     "transport_contributions": null,
-    "borough_cil_liability_notice_issued": null,
-    "transport_impact_assessment": null,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
     "scheme_name": null,
     "social_infrastructure_contributions": null,
     "lead_developer_company_name": null
   },
   "borough": "Wandsworth",
-  "actual_completion_date": null,
+  "actual_completion_date": "12/09/2025",
   "pp_id": "10501244",
   "locality": "London",
   "application_type": "All Other",
@@ -369,15 +373,15 @@
   "appeal_start_date": null,
   "subdivision_of_building": null,
   "decision_process": null,
-  "status": "Commenced",
-  "centroid_easting": "521167",
+  "status": "Completed",
+  "centroid_easting": 521167,
   "description": "Demolition of existing house, erection of a two-storey (plus basement) 6-bedroom detached house with a car lift to the front driveway adjacent to the house.",
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
-    "lon": "-0.25749069999999996",
-    "lat": "51.454553"
+    "lon": -0.257514,
+    "lat": 51.454553
   },
-  "last_updated": "2025-03-19T22:12:05.910+00:00",
+  "last_updated": "2026-08-11T12:48:26.504Z",
   "decision_agency": "Borough",
   "ward": "Roehampton and Putney Heath",
   "parking_details": {
@@ -415,108 +419,108 @@
     "coordinates": [
       [
         [
-          -0.2572815,
-          51.4547163
+          -0.257305,
+          51.454716
         ],
         [
-          -0.2572647,
-          51.4547066
+          -0.257288,
+          51.454707
         ],
         [
-          -0.2572414,
-          51.4546914
+          -0.257265,
+          51.454692
         ],
         [
-          -0.25722059999999997,
-          51.4546749
+          -0.257244,
+          51.454675
         ],
         [
-          -0.257201,
+          -0.257224,
           51.454658
         ],
         [
-          -0.2571961,
+          -0.257219,
           51.454653
         ],
         [
-          -0.2571837,
-          51.4546393
+          -0.257207,
+          51.454639
         ],
         [
-          -0.257181,
-          51.4546361
+          -0.257204,
+          51.454636
         ],
         [
-          -0.2571673,
-          51.4546188
+          -0.257191,
+          51.454619
         ],
         [
-          -0.2571619,
-          51.4546084
+          -0.257185,
+          51.454609
         ],
         [
-          -0.2571544,
-          51.4545948
+          -0.257178,
+          51.454595
         ],
         [
-          -0.25713579999999997,
-          51.4545568
+          -0.257159,
+          51.454557
         ],
         [
-          -0.25713,
-          51.4545392
+          -0.257153,
+          51.454539
         ],
         [
-          -0.25714519999999996,
+          -0.257168,
           51.454534
         ],
         [
-          -0.2572698,
-          51.4544958
+          -0.257293,
+          51.454496
         ],
         [
-          -0.25733819999999996,
-          51.4544748
+          -0.257361,
+          51.454475
         ],
         [
-          -0.2573897,
-          51.4544591
+          -0.257413,
+          51.454459
         ],
         [
-          -0.2575342,
-          51.4544152
+          -0.257557,
+          51.454415
         ],
         [
-          -0.2577664,
-          51.4543436
+          -0.25779,
+          51.454344
         ],
         [
-          -0.257895,
-          51.4544079
+          -0.257918,
+          51.454408
         ],
         [
-          -0.2575705,
-          51.4546513
+          -0.257594,
+          51.454652
         ],
         [
-          -0.2573972,
-          51.4547792
+          -0.25742,
+          51.454779
         ],
         [
-          -0.257357,
-          51.4547579
+          -0.25738,
+          51.454758
         ],
         [
-          -0.2573295,
-          51.4547435
+          -0.257353,
+          51.454744
         ],
         [
-          -0.2573027,
-          51.4547283
+          -0.257326,
+          51.454728
         ],
         [
-          -0.2572815,
-          51.4547163
+          -0.257305,
+          51.454716
         ]
       ]
     ],
