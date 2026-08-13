@@ -17,8 +17,8 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3",
         "gia_existing": 187,
+        "use_class": "C3",
         "gia_gained": 433,
         "gia_lost": 187
       }
@@ -31,9 +31,9 @@
     "grey_water_reuse": false,
     "building_details": [
       {
-        "building_ref": "Dwelling",
+        "no_storeys": 3,
         "max_height": 8.2,
-        "no_storeys": 3
+        "building_ref": "Dwelling"
       }
     ],
     "surface_water_discharge_percentage_reduction": 86,
@@ -92,23 +92,23 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "residential_units": [
         {
-          "no_bedrooms": 3,
-          "provision_for_older_persons": false,
-          "sheltered_accommodation": false,
-          "unit_type": "House or Bungalow",
-          "gia": 187,
-          "tenure": "Market for sale",
           "no_habitable_rooms": 7,
-          "change_type": "Loss"
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
+          "no_bedrooms": 3,
+          "unit_type": "House or Bungalow",
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 187
         },
         {
           "no_habitable_rooms": 12,
-          "tenure": "Self-Build and Custom Build",
-          "unit_type": "House or Bungalow",
-          "gia": 433,
           "provider": "Private",
           "change_type": "Gain",
-          "no_bedrooms": 5
+          "no_bedrooms": 5,
+          "unit_type": "House or Bungalow",
+          "tenure": "Self-Build and Custom Build",
+          "gia": 433
         }
       ],
       "total_gia_gained": 433,
@@ -121,8 +121,8 @@
     },
     "phasing_details": [
       {
-        "intended_commencement_date": "01/2027",
         "phase_detail": "Entire Development",
+        "intended_commencement_date": "01/2027",
         "intended_completion_date": "02/2027"
       }
     ],
@@ -139,7 +139,7 @@
   "ward": null,
   "lapsed_date": null,
   "centroid_easting": 513196,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Agile APAS",
   "parking_details": {
     "net_car": 0,
     "no_existing_car": 2,
@@ -205,9 +205,9 @@
   "decision_date": null,
   "decision_agency": null,
   "secondary_street_name": null,
-  "last_updated": "2026-08-05T01:15:29.048Z",
+  "last_updated": "2026-08-13T00:01:21.468Z",
   "subdivision_of_building": null,
   "id": "Richmond-PA26_2597",
-  "cil_liability": null,
+  "cil_liability": true,
   "actual_commencement_date": null
 }

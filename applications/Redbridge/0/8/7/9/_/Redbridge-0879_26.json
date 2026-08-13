@@ -1,11 +1,11 @@
 {
   "decision_target_date": "22/06/2026",
-  "last_updated_by": "PP overwrite repair",
+  "last_updated_by": "Portal",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": null,
   "postcode": "IG3 9QS",
-  "title_number": null,
+  "title_number": [],
   "application_details": {
     "total_gia_existing": 702,
     "lead_developer_company_name": "Refuse and Cleansing",
@@ -13,8 +13,8 @@
     "phasing_details": [
       {
         "phase_detail": "refuse and cycle stores conversion",
-        "intended_completion_date": "09/2026",
-        "intended_commencement_date": "05/2026"
+        "intended_commencement_date": "05/2026",
+        "intended_completion_date": "09/2026"
       }
     ],
     "total_gia_gained": 46.67,
@@ -25,12 +25,12 @@
         "gia_existing": 702,
         "use_class": "C3",
         "gia_gained": 46.67,
-        "gia_lost": 46.67
+        "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
     "occupation_status": "Vacant",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "rain_water_harvesting": false,
     "grey_water_reuse": false,
     "green_suds": false,
@@ -40,7 +40,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 46.67,
       "total_gia_lost": 46.67,
-      "total_gia_existing": 702
+      "total_gia_existing": 702,
+      "site_area": 0.053485000000000005
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -64,12 +65,12 @@
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 37.393661774329246,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 41,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 18.696830887164623,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
@@ -83,13 +84,18 @@
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
+          "description": null,
           "m42_compliant": true,
           "change_type": "Gain",
-          "garden_land": false,
           "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Studio Bedsit",
-          "no_habitable_rooms": 2,
+          "unit_development_type": "Change of Use",
           "provider": "Private rented sector",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "27/07/2026",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
@@ -97,7 +103,9 @@
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.053485000000000005,
+      "total_gia_lost": 46.67
     },
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
@@ -111,23 +119,36 @@
       "no_active_rapid_ev_charging_points": 2,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 30,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 1,
-      "ghg_reduction_over_building_regulations": true
+      "ghg_reduction_over_building_regulations": false
     },
     "internal_resi_water_usage": 100,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.053485000000000005
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "decision_date": null,
   "url_planning_app": null,
   "borough": "Redbridge",
   "locality": "Ilford",
   "date_building_work_started_under_previous_permission": null,
-  "bo_system": "Agile APAS",
+  "bo_system": "Portal",
   "parking_details": {
     "no_existing_cycle": 15,
     "no_existing_car": 2,
@@ -143,8 +164,8 @@
   "status": "Application Under Consideration",
   "description": "Conversion of the new-built refuse store and cycle store provided for the newly built 8 flats, into an additional ground floor studio flat.",
   "decision_conditions": null,
-  "site_number": 64,
-  "last_updated": "2026-07-16T18:38:16.104Z",
+  "site_number": "64",
+  "last_updated": "2026-08-12T08:21:29.131Z",
   "last_date_consultation_comments": "24/05/2026",
   "valid_date": "28/04/2026",
   "actual_commencement_date": null,
@@ -161,152 +182,148 @@
         "coordinates": [
           [
             [
-              [
-                546790.191,
-                187068.995
-              ],
-              [
-                546799.81,
-                187069.541
-              ],
-              [
-                546799.5,
-                187074.1
-              ],
-              [
-                546799.187,
-                187078.96
-              ],
-              [
-                546798.595,
-                187088.16
-              ],
-              [
-                546797.723,
-                187101.701
-              ],
-              [
-                546797.35,
-                187107.5
-              ],
-              [
-                546783.4,
-                187106.65
-              ],
-              [
-                546783.775,
-                187100.68
-              ],
-              [
-                546783.78,
-                187100.604
-              ],
-              [
-                546784.3,
-                187091.957
-              ],
-              [
-                546785.087,
-                187078.863
-              ],
-              [
-                546785.351,
-                187074.188
-              ],
-              [
-                546785.66,
-                187068.738
-              ],
-              [
-                546790.191,
-                187068.995
-              ]
+              546790.191,
+              187068.995
+            ],
+            [
+              546799.81,
+              187069.541
+            ],
+            [
+              546799.5,
+              187074.1
+            ],
+            [
+              546799.187,
+              187078.96
+            ],
+            [
+              546798.595,
+              187088.16
+            ],
+            [
+              546797.723,
+              187101.701
+            ],
+            [
+              546797.35,
+              187107.5
+            ],
+            [
+              546783.4,
+              187106.65
+            ],
+            [
+              546783.775,
+              187100.68
+            ],
+            [
+              546783.78,
+              187100.604
+            ],
+            [
+              546784.3,
+              187091.957
+            ],
+            [
+              546785.087,
+              187078.863
+            ],
+            [
+              546785.351,
+              187074.188
+            ],
+            [
+              546785.66,
+              187068.738
+            ],
+            [
+              546790.191,
+              187068.995
             ]
           ]
         ],
-        "type": "MultiPolygon"
+        "type": "Polygon"
       }
     ],
     "type": "GeometryCollection"
   },
   "appeal_start_date": null,
   "decision_process": null,
-  "ward": null,
+  "ward": "",
   "street_name": "Castleton Road",
   "secondary_street_name": null,
   "lpa_name": "Redbridge",
   "reference_no_of_permission_being_relied_on": null,
-  "cil_liability": null,
+  "cil_liability": false,
   "wgs84_polygon": {
-    "type": "MultiPolygon",
+    "type": "Polygon",
     "coordinates": [
       [
         [
-          [
-            0.116336,
-            51.5634
-          ],
-          [
-            0.116475,
-            51.563403
-          ],
-          [
-            0.116472,
-            51.563444
-          ],
-          [
-            0.11647,
-            51.563488
-          ],
-          [
-            0.116465,
-            51.56357
-          ],
-          [
-            0.116458,
-            51.563692
-          ],
-          [
-            0.116455,
-            51.563744
-          ],
-          [
-            0.116254,
-            51.56374
-          ],
-          [
-            0.116257,
-            51.563687
-          ],
-          [
-            0.116257,
-            51.563686
-          ],
-          [
-            0.116261,
-            51.563608
-          ],
-          [
-            0.116267,
-            51.56349
-          ],
-          [
-            0.116269,
-            51.563448
-          ],
-          [
-            0.116271,
-            51.563399
-          ],
-          [
-            0.116336,
-            51.5634
-          ]
+          0.116336,
+          51.5634
+        ],
+        [
+          0.116475,
+          51.563403
+        ],
+        [
+          0.116472,
+          51.563444
+        ],
+        [
+          0.11647,
+          51.563488
+        ],
+        [
+          0.116465,
+          51.56357
+        ],
+        [
+          0.116458,
+          51.563692
+        ],
+        [
+          0.116455,
+          51.563744
+        ],
+        [
+          0.116254,
+          51.56374
+        ],
+        [
+          0.116257,
+          51.563687
+        ],
+        [
+          0.116257,
+          51.563686
+        ],
+        [
+          0.116261,
+          51.563608
+        ],
+        [
+          0.116267,
+          51.56349
+        ],
+        [
+          0.116269,
+          51.563448
+        ],
+        [
+          0.116271,
+          51.563399
+        ],
+        [
+          0.116336,
+          51.5634
         ]
       ]
     ]
   },
-  "uprn": 100022201265,
+  "uprn": "100022201265",
   "application_type": "All Other",
   "centroid": {
     "lat": 51.563642,
