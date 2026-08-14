@@ -17,7 +17,7 @@
   "ward": "Furzedown",
   "pp_id": "14181638",
   "appeal_decision": null,
-  "uprn": 100022701624,
+  "uprn": "100022701624",
   "centroid": {
     "lat": 51.427552,
     "lon": -0.14467
@@ -26,11 +26,11 @@
   "date_building_work_started_under_previous_permission": null,
   "locality": "London",
   "lapsed_date": "23/09/2028",
-  "bo_system": "Northgate M3",
+  "bo_system": "Portal",
   "secondary_street_name": null,
   "subdivision_of_building": null,
-  "last_updated_by": "Planning Portal ingest",
-  "status": "Approved",
+  "last_updated_by": "Portal",
+  "status": "Commenced",
   "url_planning_app": "http://planning.wandsworth.gov.uk/Northgate/PlanningExplorer/DisplayAppDetails.aspx?AppNo=2025/2566",
   "lpa_app_no": "2025/2566",
   "valid_date": "29/07/2025",
@@ -39,8 +39,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire development",
-        "intended_completion_date": "02/2026",
-        "intended_commencement_date": "12/2025"
+        "intended_commencement_date": "12/2025",
+        "intended_completion_date": "02/2026"
       }
     ],
     "total_gia_gained": 14.12,
@@ -50,14 +50,15 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 246.47,
-        "gia_gained": 14.12,
         "use_class": "C3",
+        "gia_gained": 14.12,
+        "actual_commencement_date": "09/01/2026",
         "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
     "occupation_status": "Occupied",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "rain_water_harvesting": false,
     "grey_water_reuse": false,
     "green_suds": false,
@@ -67,7 +68,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 14.12,
       "total_gia_lost": 0,
-      "total_gia_existing": 246.47
+      "total_gia_existing": 246.47,
+      "site_area": 0.03
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -91,12 +93,12 @@
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 100,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 256.21,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 66.66666666666667,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_gia_lost": 246.47,
@@ -110,14 +112,19 @@
       "residential_units": [
         {
           "m43_2b_compliant": false,
-          "no_habitable_rooms": 3,
+          "actual_completion_date": "09/01/2026",
           "m43_2a_compliant": false,
+          "description": null,
           "m42_compliant": false,
           "change_type": "Loss",
-          "garden_land": false,
           "sheltered_accommodation": false,
-          "no_bedrooms": 5,
+          "garden_land": false,
           "unit_type": "Semi Detached Home",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "09/01/2026",
+          "no_bedrooms": 5,
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 246.47
@@ -125,13 +132,17 @@
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
+          "description": null,
           "m42_compliant": false,
           "change_type": "Gain",
-          "garden_land": false,
           "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 1,
           "provider": "Private",
+          "no_habitable_rooms": 1,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "09/01/2026",
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
@@ -140,13 +151,17 @@
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
+          "description": null,
           "m42_compliant": false,
           "change_type": "Gain",
-          "garden_land": false,
           "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 2,
           "provider": "Private",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "09/01/2026",
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
@@ -154,7 +169,8 @@
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 1,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.03
     },
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
@@ -165,7 +181,7 @@
       "no_new_water_connections_required": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
@@ -174,7 +190,20 @@
       "ghg_reduction_over_building_regulations": false
     },
     "internal_resi_water_usage": 0,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.03
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "decision_process": null,
   "lpa_name": "Wandsworth",
@@ -186,147 +215,143 @@
         "coordinates": [
           [
             [
-              [
-                529077.9,
-                171464.3
-              ],
-              [
-                529092.15,
-                171471.85
-              ],
-              [
-                529098.7,
-                171475.3
-              ],
-              [
-                529095.5,
-                171481.5
-              ],
-              [
-                529088.9,
-                171477.95
-              ],
-              [
-                529080.6,
-                171473.5
-              ],
-              [
-                529080.15,
-                171473.75
-              ],
-              [
-                529062.35,
-                171464.25
-              ],
-              [
-                529064.35,
-                171459.7
-              ],
-              [
-                529065,
-                171458.35
-              ],
-              [
-                529065.35,
-                171457.55
-              ],
-              [
-                529076.3,
-                171463.5
-              ],
-              [
-                529077.9,
-                171464.3
-              ]
+              529077.9,
+              171464.3
+            ],
+            [
+              529092.15,
+              171471.85
+            ],
+            [
+              529098.7,
+              171475.3
+            ],
+            [
+              529095.5,
+              171481.5
+            ],
+            [
+              529088.9,
+              171477.95
+            ],
+            [
+              529080.6,
+              171473.5
+            ],
+            [
+              529080.15,
+              171473.75
+            ],
+            [
+              529062.35,
+              171464.25
+            ],
+            [
+              529064.35,
+              171459.7
+            ],
+            [
+              529065,
+              171458.35
+            ],
+            [
+              529065.35,
+              171457.55
+            ],
+            [
+              529076.3,
+              171463.5
+            ],
+            [
+              529077.9,
+              171464.3
             ]
           ]
         ],
-        "type": "MultiPolygon"
+        "type": "Polygon"
       }
     ]
   },
-  "cil_liability": true,
-  "last_updated": "2026-06-27T17:56:15.709Z",
+  "cil_liability": false,
+  "last_updated": "2026-08-13T15:45:59.679Z",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          [
-            -0.144746,
-            51.427493
-          ],
-          [
-            -0.144538,
-            51.427558
-          ],
-          [
-            -0.144443,
-            51.427588
-          ],
-          [
-            -0.144487,
-            51.427644
-          ],
-          [
-            -0.144583,
-            51.427614
-          ],
-          [
-            -0.144704,
-            51.427575
-          ],
-          [
-            -0.14471,
-            51.427578
-          ],
-          [
-            -0.144969,
-            51.427497
-          ],
-          [
-            -0.144942,
-            51.427455
-          ],
-          [
-            -0.144934,
-            51.427443
-          ],
-          [
-            -0.144929,
-            51.427436
-          ],
-          [
-            -0.144769,
-            51.427487
-          ],
-          [
-            -0.144746,
-            51.427493
-          ]
+          -0.144746,
+          51.427493
+        ],
+        [
+          -0.144538,
+          51.427558
+        ],
+        [
+          -0.144443,
+          51.427588
+        ],
+        [
+          -0.144487,
+          51.427644
+        ],
+        [
+          -0.144583,
+          51.427614
+        ],
+        [
+          -0.144704,
+          51.427575
+        ],
+        [
+          -0.14471,
+          51.427578
+        ],
+        [
+          -0.144969,
+          51.427497
+        ],
+        [
+          -0.144942,
+          51.427455
+        ],
+        [
+          -0.144934,
+          51.427443
+        ],
+        [
+          -0.144929,
+          51.427436
+        ],
+        [
+          -0.144769,
+          51.427487
+        ],
+        [
+          -0.144746,
+          51.427493
         ]
       ]
     ],
-    "type": "MultiPolygon"
+    "type": "Polygon"
   },
   "street_name": "Thrale Road",
   "decision_date": "23/09/2025",
   "date_building_work_completed_under_previous_permission": null,
   "decision_conditions": [
-    "Condition : 1 - The development hereby permitted shall be begun within 3 years from the date of this permission.\r\nReason: To prevent the accumulation of unimplemented planning permissions and to comply with Section 91 of the Town and Country Planning Act 1990 (as amended) and to meet the requirements of Section 51 of the Planning and Compulsory Purchase Act 2004 and to meet the requirements of The Town and Country Planning (Development Management Procedure) (England) Order 2015.\r\n",
-    "Condition : 2 - The development shall be carried out in accordance with the reports, specifications and drawings detailed E00, P01, P02, P03, P04, P05, P06, , P08, FIRE STATEMENT 17/07/25\r\nReason: To ensure a satisfactory standard of development and to allow the local planning authority to review any potential changes to the scheme. \r\n",
-    "Condition : 3 - All external materials used in the construction of the development hereby approved shall match the type, texture, tone, colour, size and profile of those used on the existing building and shall be retained permanently. \r\nReason: In the interest of the appearance of the development and to safeguard visual amenity, in accordance with Council policies LP1 and LP2  of the Local Plan coupled with the requirements of the National Planning Policy Framework.\r\n",
-    "Condition : 4 - Prior to the commencement of above ground works (excluding demolition), details of the siting, design and materials of refuse and recycling storage to serve the development shall be submitted to and approved in writing by the local planning authority. The refuse storage facilities shall be provided in accordance with the approved details prior to occupation of the development, and shall be retained thereafter.\r\nReason: In the interests of amenity and hygiene, in accordance with Council policy LP1 and LP2 of the Local Plan coupled with the requirements of the National Planning Policy Framework.\r\n",
-    "Condition : 5 - The development shall achieve a maximum water use of 110 litres per person per day for homes (including an allowance of five litres or less per person per day for\r\nexternal water consumption) in line with the Water Efficiency Calculator for new dwellings from the Department of Communities and Local Government. Prior to first occupation, evidence to demonstrate that that the internal water consumption of the development will not exceed 105l/p/day must be submitted to the local planning authority and approved in writing, unless otherwise agreed in writing by the local planning authority. Measures integrated shall be retained for the lifetime of the development.\r\nReason: In the interest of sustainable development and to accord with Council policy LP1, LP2, LP10 of the Local Plan coupled with the requirements of the National Planning Policy Framework.",
-    "Condition : 6 - Prior to the first occupation of the development the cycle parking shown on the approved drawing shall be provided, and be retained for cycle parking purposes for the users of the development and for no other purpose.\r\nPrior to the first occupation of the development the cycle parking shown on the approved drawing shall be provided, and be retained for cycle parking purposes for the users of the development and for no other purpose.\r\nReason: To ensure adequate provision is made for cycle parking in accordance with Council policies LP2 and LP51, of the Wandsworth Local Plan coupled with the requirements of the National Planning Policy Framework.\r\n\r\n",
-    "Condition : 7 - Prior to occupation of the development the windows in the north western elevation at second floor level of the development shall be obscure-glazed and non-opening (unless the parts of the window which can be opened are more than 1.7 metres above the floor of the room in which the window is installed).  The windows shall so be maintained and retained as such. \r\nReason: To control overlooking and safeguard the privacy of neighbours in accordance with Council policy LP2 of the Wandsworth Local Plan (adopted August 2023) coupled with the requirements of the National Planning Policy Framework.\r\n",
-    "Condition : 8 - The roof area of the development hereby permitted shall not be used as a balcony, roof garden or similar amenity area and furthermore, no balustrades, railings or other means of enclosure or means of permanent access shall be erected on this area.\r\nReason: To control overlooking and safeguard the privacy of neighbours in accordance with Council policies LP1 and LP2 of the Local Plan coupled with the requirements of the National Planning Policy Framework.\r\n",
+    "Condition : 1 - The development hereby permitted shall be begun within 3 years from the date of this permission.\nReason: To prevent the accumulation of unimplemented planning permissions and to comply with Section 91 of the Town and Country Planning Act 1990 (as amended) and to meet the requirements of Section 51 of the Planning and Compulsory Purchase Act 2004 and to meet the requirements of The Town and Country Planning (Development Management Procedure) (England) Order 2015.",
+    "Condition : 2 - The development shall be carried out in accordance with the reports, specifications and drawings detailed E00, P01, P02, P03, P04, P05, P06, , P08, FIRE STATEMENT 17/07/25\nReason: To ensure a satisfactory standard of development and to allow the local planning authority to review any potential changes to the scheme.",
+    "Condition : 3 - All external materials used in the construction of the development hereby approved shall match the type, texture, tone, colour, size and profile of those used on the existing building and shall be retained permanently. \nReason: In the interest of the appearance of the development and to safeguard visual amenity, in accordance with Council policies LP1 and LP2  of the Local Plan coupled with the requirements of the National Planning Policy Framework.",
+    "Condition : 4 - Prior to the commencement of above ground works (excluding demolition), details of the siting, design and materials of refuse and recycling storage to serve the development shall be submitted to and approved in writing by the local planning authority. The refuse storage facilities shall be provided in accordance with the approved details prior to occupation of the development, and shall be retained thereafter.\nReason: In the interests of amenity and hygiene, in accordance with Council policy LP1 and LP2 of the Local Plan coupled with the requirements of the National Planning Policy Framework.",
+    "Condition : 5 - The development shall achieve a maximum water use of 110 litres per person per day for homes (including an allowance of five litres or less per person per day for\nexternal water consumption) in line with the Water Efficiency Calculator for new dwellings from the Department of Communities and Local Government. Prior to first occupation, evidence to demonstrate that that the internal water consumption of the development will not exceed 105l/p/day must be submitted to the local planning authority and approved in writing, unless otherwise agreed in writing by the local planning authority. Measures integrated shall be retained for the lifetime of the development.\nReason: In the interest of sustainable development and to accord with Council policy LP1, LP2, LP10 of the Local Plan coupled with the requirements of the National Planning Policy Framework.",
+    "Condition : 6 - Prior to the first occupation of the development the cycle parking shown on the approved drawing shall be provided, and be retained for cycle parking purposes for the users of the development and for no other purpose.\nPrior to the first occupation of the development the cycle parking shown on the approved drawing shall be provided, and be retained for cycle parking purposes for the users of the development and for no other purpose.\nReason: To ensure adequate provision is made for cycle parking in accordance with Council policies LP2 and LP51, of the Wandsworth Local Plan coupled with the requirements of the National Planning Policy Framework.",
+    "Condition : 7 - Prior to occupation of the development the windows in the north western elevation at second floor level of the development shall be obscure-glazed and non-opening (unless the parts of the window which can be opened are more than 1.7 metres above the floor of the room in which the window is installed).  The windows shall so be maintained and retained as such. \nReason: To control overlooking and safeguard the privacy of neighbours in accordance with Council policy LP2 of the Wandsworth Local Plan (adopted August 2023) coupled with the requirements of the National Planning Policy Framework.",
+    "Condition : 8 - The roof area of the development hereby permitted shall not be used as a balcony, roof garden or similar amenity area and furthermore, no balustrades, railings or other means of enclosure or means of permanent access shall be erected on this area.\nReason: To control overlooking and safeguard the privacy of neighbours in accordance with Council policies LP1 and LP2 of the Local Plan coupled with the requirements of the National Planning Policy Framework.",
     "Condition : 9 - INFORMATIVE: In dealing with this application the Council has implemented the requirement in the National Planning Policy Framework to work with the applicant in a positive and proactive manner and the Council has, as far as practicable, sought solutions to problems arising in relation to dealing with the planning application. The Council has made available detailed advice in the form of its statutory policies in the Local Plan (2023) as well as offering a full pre-application advice service, in order to ensure that the applicant has been given every opportunity to submit an application which is likely to be considered favourably. In addition, where appropriate, further guidance was offered to the applicant during the processing of the application."
   ],
   "reference_no_of_permission_being_relied_on": null,
-  "actual_commencement_date": null,
+  "actual_commencement_date": "09/01/2026",
   "borough": "Wandsworth",
   "centroid_northing": 171471,
-  "site_number": 93,
-  "title_number": null,
+  "site_number": "93",
+  "title_number": [],
   "development_type": "Minor dwellings"
 }
