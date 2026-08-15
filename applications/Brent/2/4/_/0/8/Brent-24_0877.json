@@ -6,7 +6,7 @@
   "application_details": {
     "total_gia_gained": 0,
     "no_additional_bathrooms": 0,
-    "existing_uprns": null,
+    "existing_uprns": [],
     "no_additional_bedrooms": 0,
     "affordable_housing_fast_track": false,
     "s106_agreement": false,
@@ -24,7 +24,7 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 0,
-      "site_area": null,
+      "site_area": 0.015000000000000001,
       "total_gia_lost": null,
       "total_gia_existing": null
     },
@@ -88,7 +88,7 @@
     "other_residential_accommodation_details": {
       "no_council_tax_rateable_units_gained": null,
       "no_council_tax_rateable_units_lost": null,
-      "site_area": null,
+      "site_area": 0.015000000000000001,
       "other_resi_accommodation_unit_details": []
     },
     "uk_company_registration_no": null,
@@ -124,13 +124,13 @@
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "site_area": null,
-      "dwelling_density": 0,
+      "site_area": 0.015000000000000001,
+      "dwelling_density": 133.33333333333331,
       "total_gia_lost": null,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -152,9 +152,9 @@
           "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
-          "gia": null,
+          "tenure": "Market for rent",
           "unit_development_type": "Conversion",
-          "tenure": "Market for rent"
+          "gia": null
         },
         {
           "actual_completion_date": "05/07/2024",
@@ -166,21 +166,23 @@
           "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
-          "gia": null,
+          "tenure": "Market for rent",
           "unit_development_type": "Conversion",
-          "tenure": "Market for rent"
+          "gia": null
         },
         {
+          "actual_completion_date": "05/07/2024",
           "phase_detail": null,
           "unit_no": null,
           "description": null,
           "change_type": "Loss",
+          "actual_commencement_date": "05/07/2024",
           "no_bedrooms": 1,
           "unit_type": "House or Bungalow",
           "provision_for_older_persons": false,
-          "gia": null,
           "tenure": "Market for rent",
-          "unit_development_type": "Conversion"
+          "unit_development_type": "Conversion",
+          "gia": null
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 1,
@@ -202,7 +204,7 @@
   "centroid_easting": 521510,
   "centroid_northing": 184045,
   "uprn": "202138444",
-  "last_updated": "2025-09-08T13:10:24.215Z",
+  "last_updated": "2026-08-14T09:37:46.729Z",
   "description": "Certificate of lawfulness for existing use as 2x self-contained flats.",
   "subdivision_of_building": null,
   "decision_agency": null,
@@ -212,7 +214,7 @@
     "lat": 51.542232
   },
   "title_number": [],
-  "status": "Commenced",
+  "status": "Completed",
   "application_type_full": "Lawful development: Existing use",
   "decision_process": "Delegated",
   "application_type": "All Other",
@@ -246,10 +248,10 @@
     "net_carclub": null,
     "net_bluebadge": null
   },
-  "street_name": null,
+  "street_name": "",
   "borough": "Brent",
   "epc_number": "8638-7925-5890-5748-1906",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "date_building_work_started_under_previous_permission": null,
   "pp_id": "PP-12932364",
   "decision": "Approved",
@@ -257,10 +259,36 @@
   "decision_date": "05/07/2024",
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.249198,
+          51.542245
+        ],
+        [
+          -0.249199,
+          51.542218
+        ],
+        [
+          -0.249243,
+          51.542218
+        ],
+        [
+          -0.249242,
+          51.542245
+        ],
+        [
+          -0.249198,
+          51.542245
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "development_type": "Certificates of Lawful Development",
   "url_planning_app": "https://pa.brent.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR_168383&activeTab=summary",
-  "actual_completion_date": null,
+  "actual_completion_date": "05/07/2024",
   "polygon": {
     "type": "Polygon",
     "coordinates": [
@@ -317,7 +345,7 @@
     ]
   },
   "id": "Brent-24_0877",
-  "bo_system": "CSV Data Import",
-  "postcode": null,
+  "bo_system": "Portal",
+  "postcode": "",
   "decision_conditions": null
 }

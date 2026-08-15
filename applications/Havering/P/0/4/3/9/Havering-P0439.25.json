@@ -6,7 +6,7 @@
   "url_planning_app": "http://development.havering.gov.uk/OcellaWeb/planningDetails?reference=P0439.25",
   "borough": "Havering",
   "application_type_full": "Full planning permission",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "01/07/2025",
   "ward": "St Albans",
   "decision_date": "02/09/2025",
   "parking_details": {
@@ -14,7 +14,9 @@
     "no_proposed_cycle": 11,
     "net_cycle": 11
   },
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "pp_id": "13868355",
   "development_type": null,
   "description": "Single storey extension to create additional Use Class C3 (residential) self-contained apartments",
@@ -66,12 +68,12 @@
   "lpa_name": "Havering",
   "appeal_decision": null,
   "decision_agency": "Borough",
-  "last_updated_by": "Planning Portal ingest",
-  "cil_liability": true,
+  "last_updated_by": "Portal",
+  "cil_liability": false,
   "postcode": "RM1 2NX",
   "decision_process": "Delegated",
   "application_details": {
-    "existing_uprns": null,
+    "existing_uprns": [],
     "superseding_details": [
       {
         "lpa_app_no": "P1894.21",
@@ -82,8 +84,8 @@
     "phasing_details": [
       {
         "phase_detail": "Single phase",
-        "intended_completion_date": "12/2026",
-        "intended_commencement_date": "08/2025"
+        "intended_commencement_date": "08/2025",
+        "intended_completion_date": "12/2026"
       }
     ],
     "total_gia_gained": 368,
@@ -93,15 +95,15 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 0,
-        "gia_gained": 368,
         "use_class": "C3",
+        "gia_gained": 368,
         "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Between £2m and £100m",
     "occupation_status": "Occupied",
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "building_details": [
       {
         "no_storeys": 3,
@@ -117,7 +119,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 368,
       "total_gia_lost": 0,
-      "total_gia_existing": 0
+      "total_gia_existing": 0,
+      "site_area": 0.099
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -141,12 +144,12 @@
       "total_no_proposed_residential_units_market_for_sale": 5,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 131.3131313131313,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 301.1,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 50.505050505050505,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
@@ -160,13 +163,17 @@
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
+          "description": null,
           "m42_compliant": true,
           "change_type": "Gain",
-          "garden_land": false,
           "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 2,
           "provider": "Private",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "01/07/2025",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
           "tenure": "Market for sale",
@@ -175,13 +182,17 @@
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
+          "description": null,
           "m42_compliant": true,
           "change_type": "Gain",
-          "garden_land": false,
           "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 3,
           "provider": "Private",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "01/07/2025",
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
           "tenure": "Market for sale",
@@ -190,13 +201,17 @@
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
+          "description": null,
           "m42_compliant": true,
           "change_type": "Gain",
-          "garden_land": false,
           "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 3,
           "provider": "Private",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "01/07/2025",
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
           "tenure": "Market for sale",
@@ -205,13 +220,17 @@
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
+          "description": null,
           "m42_compliant": true,
           "change_type": "Gain",
-          "garden_land": false,
           "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 2,
           "provider": "Private",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "01/07/2025",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
           "tenure": "Market for sale",
@@ -220,13 +239,17 @@
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
+          "description": null,
           "m42_compliant": true,
           "change_type": "Gain",
-          "garden_land": false,
           "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 3,
           "provider": "Private",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "01/07/2025",
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
           "tenure": "Market for sale",
@@ -234,7 +257,9 @@
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.099,
+      "total_gia_lost": 0
     },
     "internal_resi_water_usage": 0,
     "infrastructure_details": {
@@ -246,7 +271,7 @@
       "no_new_water_connections_required": 1,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
@@ -254,9 +279,21 @@
       "no_new_gas_connections_required": 1,
       "ghg_reduction_over_building_regulations": false
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.099
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
-  "uprn": 10096015339,
+  "uprn": "10096015339",
   "street_name": "Victoria Road",
   "decision": "Approved",
   "wgs84_polygon": {
@@ -287,7 +324,7 @@
     "type": "Polygon"
   },
   "appeal_decision_date": null,
-  "site_number": 198,
+  "site_number": "198",
   "date_building_work_started_under_previous_permission": null,
   "centroid_northing": 188643,
   "centroid": {
@@ -296,14 +333,14 @@
   },
   "valid_date": "01/04/2025",
   "id": "Havering-P0439.25",
-  "last_updated": "2026-06-27T03:02:19.243Z",
+  "last_updated": "2026-08-14T12:16:41.090Z",
   "locality": "Romford",
-  "status": "Approved",
+  "status": "Commenced",
   "last_date_consultation_comments": "30/04/2025",
   "decision_target_date": "02/09/2025",
   "actual_completion_date": null,
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "reference_no_of_permission_being_relied_on": "P1894.21",
-  "title_number": null,
+  "title_number": [],
   "application_type": "All Other"
 }
