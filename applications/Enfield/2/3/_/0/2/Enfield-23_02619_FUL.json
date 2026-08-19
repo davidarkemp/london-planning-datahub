@@ -30,13 +30,13 @@
   "appeal_decision_date": null,
   "date_building_work_started_under_previous_permission": null,
   "application_details": {
-    "green_suds": true,
+    "green_suds": false,
     "affordable_housing_fast_track": false,
     "phasing_details": [
       {
         "phase_detail": "1",
-        "intended_completion_date": "08/2024",
-        "intended_commencement_date": "12/2023"
+        "intended_commencement_date": "12/2023",
+        "intended_completion_date": "08/2024"
       }
     ],
     "total_gia_gained": 160,
@@ -45,7 +45,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_lost": 0,
       "total_gia_gained": 160,
-      "total_non_resi_gross_internal_floor_area_to_be_gained": 0
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "site_area": 100
     },
     "garden_land_lost": false,
     "total_gia_existing": 74,
@@ -54,8 +55,10 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 74,
+        "actual_completion_date": "31/03/2026",
         "use_class": "C3",
         "gia_gained": 160,
+        "actual_commencement_date": "01/01/2025",
         "gia_lost": 0
       }
     ],
@@ -71,7 +74,7 @@
       "total_no_existing_residential_affordable_units": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
       "affordable_percentage": 100,
-      "dwelling_density": 0,
+      "dwelling_density": 0.02,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units": 1,
       "total_no_proposed_residential_affordable_units": 2,
@@ -85,41 +88,55 @@
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0.08,
       "total_gia_gained": 232,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 4,
-          "unit_no": "Loss-1",
+          "actual_completion_date": "31/03/2026",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 3,
           "unit_type": "Semi Detached Home",
+          "no_habitable_rooms": 4,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "01/01/2025",
+          "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "gia": 74,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 74
         },
         {
-          "no_habitable_rooms": 4,
-          "provider": "Self-Build",
-          "unit_no": "Gain-1",
+          "actual_completion_date": "31/03/2026",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 3,
           "unit_type": "Semi Detached Home",
-          "gia": 116,
-          "tenure": "Self-Build and Custom Build"
+          "provider": "Self-Build",
+          "no_habitable_rooms": 4,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "01/01/2025",
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "tenure": "Self-Build and Custom Build",
+          "gia": 116
         },
         {
-          "no_habitable_rooms": 4,
-          "provider": "Self-Build",
-          "unit_no": "Gain-2",
+          "actual_completion_date": "31/03/2026",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 3,
           "unit_type": "Semi Detached Home",
-          "gia": 116,
-          "tenure": "Self-Build and Custom Build"
+          "provider": "Self-Build",
+          "no_habitable_rooms": 4,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "01/01/2025",
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "tenure": "Self-Build and Custom Build",
+          "gia": 116
         }
       ],
       "total_no_proposed_residential_units_self_build_and_custom_build": 2,
@@ -138,11 +155,12 @@
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_market_for_sale": 1,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 100
     },
     "site_area": 100,
     "infrastructure_details": {
-      "waste_provision": true,
+      "waste_provision": false,
       "total_annual_pm_emissions": 0,
       "no_new_water_connections_required": 1,
       "no_homes_passive_cooling": 0,
@@ -158,10 +176,23 @@
       "ghg_reduction_over_building_regulations": false
     },
     "grey_water_reuse": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "surface_water_discharge_percentage_reduction": 0,
     "total_gia_lost": 0,
-    "rain_water_harvesting": false
+    "rain_water_harvesting": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 100
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "title_number": [],
   "decision_date": "17/11/2023",
@@ -170,15 +201,17 @@
   "parking_details": null,
   "decision": "Approved",
   "decision_agency": null,
-  "last_updated": "2025-03-19T02:11:51.968+00:00",
+  "last_updated": "2026-08-18T15:52:03.504Z",
   "ward": "WW",
-  "cil_liability": true,
-  "actual_completion_date": null,
+  "cil_liability": false,
+  "actual_completion_date": "31/03/2026",
   "application_type_full": "Full planning permission",
   "site_number": "45",
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "decision_process": "Delegated",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "01/01/2025",
   "lpa_name": "Enfield",
   "subdivision_of_building": null,
   "development_type": null,
@@ -201,15 +234,15 @@
     "lon": -0.081678
   },
   "pp_id": "PP-12374695",
-  "centroid_northing": "198123",
+  "centroid_northing": 198123,
   "uprn": "000207116546",
   "appeal_start_date": null,
   "reference_no_of_permission_being_relied_on": null,
   "date_building_work_completed_under_previous_permission": null,
   "appeal_decision": null,
-  "centroid_easting": "532766",
-  "bo_system": "Idox Uniform",
-  "last_updated_by": "Idox Uniform",
+  "centroid_easting": 532766,
+  "bo_system": "Portal",
+  "last_updated_by": "Portal",
   "last_date_consultation_comments": "05/09/2023",
   "borough": "Enfield Council",
   "secondary_street_name": null,
@@ -220,7 +253,7 @@
   "street_name": "Morley Hill",
   "valid_date": "15/08/2023",
   "lpa_app_no": "23/02619/FUL",
-  "status": "Approved",
+  "status": "Completed",
   "decision_target_date": "10/10/2023",
   "id": "Enfield-23_02619_FUL",
   "epc_number": null,

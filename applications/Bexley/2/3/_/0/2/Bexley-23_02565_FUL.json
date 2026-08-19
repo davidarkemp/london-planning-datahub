@@ -2,10 +2,10 @@
   "lpa_app_no": "23/02565/FUL",
   "uprn": "100022922169",
   "lapsed_date": "20/11/2026",
-  "centroid_northing": "172868",
+  "centroid_northing": 172867,
   "site_number": "3",
   "date_building_work_started_under_previous_permission": null,
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "site_name": null,
   "appeal_decision_date": null,
   "valid_date": "20/09/2023",
@@ -14,37 +14,57 @@
     "coordinates": [
       [
         [
-          0.166489,
-          51.43479
+          0.166401,
+          51.434765
         ],
         [
-          0.166488,
-          51.434763
+          0.166349,
+          51.434711
         ],
         [
-          0.166444,
-          51.434764
+          0.166443,
+          51.434686
         ],
         [
-          0.166446,
-          51.434791
+          0.166469,
+          51.434737
         ],
         [
-          0.166489,
-          51.43479
+          0.166481,
+          51.434751
+        ],
+        [
+          0.166552,
+          51.434825
+        ],
+        [
+          0.16648,
+          51.434851
+        ],
+        [
+          0.166422,
+          51.434788
+        ],
+        [
+          0.166404,
+          51.434769
+        ],
+        [
+          0.166401,
+          51.434765
         ]
       ]
     ],
     "type": "Polygon"
   },
-  "last_updated_by": "FME Excel Import",
+  "last_updated_by": "Portal",
   "appeal_start_date": null,
   "reference_no_of_permission_being_relied_on": null,
   "application_type": "All Other",
   "decision_process": null,
   "application_details": {
     "total_gia_lost": 49,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "total_gia_existing": 90,
     "total_gia_gained": 49,
     "projected_cost_of_works": "Up to £2m",
@@ -57,30 +77,21 @@
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units": 1,
-      "dwelling_density": 0,
+      "dwelling_density": 100,
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
+          "actual_completion_date": "31/03/2026",
           "description": null,
           "change_type": "Gain",
-          "m42_compliant": null,
-          "sheltered_accommodation": null,
-          "garden_land": null,
           "unit_type": "Flat Apartment Maisonette",
-          "unit_development_type": null,
-          "superseded_date": null,
           "provider": "Private",
           "no_habitable_rooms": 2,
           "phase_detail": null,
-          "unit_no": "Gain-1",
-          "actual_commencement_date": null,
+          "unit_no": null,
+          "actual_commencement_date": "20/12/2023",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
           "tenure": "Market for rent",
           "gia": 49
         }
@@ -91,7 +102,7 @@
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 200,
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
@@ -114,11 +125,11 @@
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
-      "site_area": null
+      "site_area": 0.01
     },
     "infrastructure_details": {
       "no_new_water_connections_required": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_non_resi_units_to_have_full_fibre": 0,
       "no_resi_units_to_have_full_fibre": 1,
       "percentage_demolition_construction_material_recycling": 0,
@@ -128,7 +139,7 @@
       "total_annual_pm_emissions": 0,
       "total_annual_nox_emissions": 0,
       "fire_suppression_system_proposed": false,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "green_roof_area": 0,
       "no_homes_passive_cooling": 0,
       "no_passive_rapid_ev_charging_points": null,
@@ -151,22 +162,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 90,
-        "superseded_date": null,
-        "actual_completion_date": null,
         "use_class": "E",
         "gia_gained": 0,
-        "actual_commencement_date": null,
-        "superseded_by_lpa_app_no": null,
         "gia_lost": 49
       },
       {
         "gia_existing": 0,
-        "superseded_date": null,
-        "actual_completion_date": null,
         "use_class": "C3",
         "gia_gained": 49,
-        "actual_commencement_date": null,
-        "superseded_by_lpa_app_no": null,
         "gia_lost": 0
       }
     ],
@@ -177,29 +180,29 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_existing": 90,
       "development_type": null,
-      "site_area": null
+      "site_area": 0.01
     },
     "phasing_details": [
       {
         "phase_detail": "entire development",
-        "intended_completion_date": "03/2024",
-        "intended_commencement_date": "11/2023"
+        "intended_commencement_date": "11/2023",
+        "intended_completion_date": "03/2024"
       }
     ],
     "green_suds": false,
     "surface_water_discharge_percentage_reduction": 0,
     "affordable_housing_fast_track": false,
-    "site_area": 0.0103,
+    "site_area": 0.01,
     "garden_land_lost": false,
-    "s106_agreement": null,
+    "s106_agreement": false,
     "affordable_housing_inlieu_payment": null,
-    "air_quality_assessment": null,
+    "air_quality_assessment": false,
     "other_contributions": null,
     "existing_uprns": [],
     "intended_commencement_date": null,
     "no_affordable_housing_units_provided_offsite": null,
-    "circular_economy_statement": null,
-    "commencement_notice_received": null,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
     "qualifying_vacant_building_floorspace": null,
     "open_and_protected_space_details": {
       "protected_space_count": 0,
@@ -216,23 +219,23 @@
     "building_details": [],
     "superseding_details": [],
     "lead_registered_social_landlord": null,
-    "viability_assessment": null,
+    "viability_assessment": false,
     "overseas_company_registration_no": null,
-    "mayoral_cil_liability_notice_issued": null,
+    "mayoral_cil_liability_notice_issued": false,
     "intended_completion_date": null,
     "non_permanent_dwellings_details": [],
     "other_residential_accommodation_details": {
       "no_council_tax_rateable_units_gained": null,
       "no_council_tax_rateable_units_lost": null,
-      "site_area": null,
+      "site_area": 0.01,
       "other_resi_accommodation_unit_details": []
     },
     "uk_company_registration_no": null,
-    "3d_model": null,
+    "3d_model": false,
     "no_affordable_housing_units_acquired_offsite": null,
     "transport_contributions": null,
-    "borough_cil_liability_notice_issued": null,
-    "transport_impact_assessment": null,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
     "scheme_name": null,
     "social_infrastructure_contributions": null,
     "lead_developer_company_name": null
@@ -241,8 +244,8 @@
   "postcode": "DA5 2BH",
   "development_type": null,
   "title_number": [],
-  "centroid_easting": "550688",
-  "actual_commencement_date": null,
+  "centroid_easting": 550687,
+  "actual_commencement_date": "20/12/2023",
   "description": "Change of use of existing first floor from Commercial, Business and Service (Class E) to Residential (Class C3) including rear fenestration alterations to provide access.",
   "decision": "Approved",
   "actual_completion_date": null,
@@ -250,15 +253,15 @@
   "epc_number": null,
   "subdivision_of_building": null,
   "centroid": {
-    "lon": 0.166467,
-    "lat": 51.434777
+    "lon": 0.166452,
+    "lat": 51.434768
   },
   "url_planning_app": null,
   "pp_id": "PP-12397675",
   "id": "Bexley-23_02565_FUL",
   "application_type_full": "Full planning permission",
   "cil_liability": false,
-  "status": "Approved",
+  "status": "Commenced",
   "date_building_work_completed_under_previous_permission": null,
   "secondary_street_name": null,
   "decision_agency": null,
@@ -303,9 +306,60 @@
     "net_bluebadge": null,
     "net_carclub": null
   },
-  "last_updated": "2025-03-19T22:25:34.873+00:00",
+  "last_updated": "2026-08-18T14:24:58.058Z",
   "appeal_status": null,
   "street_name": "Dartford Road",
   "ward": "STMARN",
-  "polygon": null
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              550683.45,
+              172866.55
+            ],
+            [
+              550680.05,
+              172860.45
+            ],
+            [
+              550686.65,
+              172857.85
+            ],
+            [
+              550688.3,
+              172863.55
+            ],
+            [
+              550689.1,
+              172865.15
+            ],
+            [
+              550693.75,
+              172873.55
+            ],
+            [
+              550688.7,
+              172876.3
+            ],
+            [
+              550684.858,
+              172869.116
+            ],
+            [
+              550683.7,
+              172866.95
+            ],
+            [
+              550683.45,
+              172866.55
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  }
 }

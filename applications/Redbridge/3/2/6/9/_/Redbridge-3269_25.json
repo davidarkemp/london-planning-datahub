@@ -1,14 +1,14 @@
 {
-  "postcode": null,
-  "status": "Approved",
+  "postcode": "",
+  "status": "Commenced",
   "decision_agency": null,
   "subdivision_of_building": null,
   "appeal_start_date": null,
-  "cil_liability": null,
+  "cil_liability": false,
   "decision_conditions": [
-    "Notwithstanding the  details submitted with the proposal hereby approved, prior to commencement of development details (samples / plans as appropriate) of all facing materials, that shall be consistent with the red hue of the approved cladding to the main building, shall be submitted to and approved in writing by the Local Planning Authority. The details shall also include:\r\n\r\na) Brickwork and roof coverings;\r\nb) Cladding;\r\nc) Windows and doors (including reveals and frames);\r\nd) balconies and privacy screens;\r\ne) Canopies;\r\nf) External guttering;\r\ng) Details of all rooftop structures including flues, satellite dishes, plant, lift overruns, \r\ncleaning cradles;\r\nh) Noticeboards;\r\ni) Signage (not otherwise requiring Advertisement Consent);\r\nj) Plant enclosures;\r\n\r\nThe development shall not be carried out otherwise than in accordance with the approved details.\r\n\r\nReason: To ensure that the external appearance of the building is satisfactory in accordance with the requirements of policy LP26 of the Council’s Local Plan.\r\n\r\nThe objectives and purposes of this condition are such that it is required to be complied with before commencement. As such, those objectives and purposes would not be met if expressed other than as a pre-commencement condition."
+    "Notwithstanding the  details submitted with the proposal hereby approved, prior to commencement of development details (samples / plans as appropriate) of all facing materials, that shall be consistent with the red hue of the approved cladding to the main building, shall be submitted to and approved in writing by the Local Planning Authority. The details shall also include:\n\na) Brickwork and roof coverings;\nb) Cladding;\nc) Windows and doors (including reveals and frames);\nd) balconies and privacy screens;\ne) Canopies;\nf) External guttering;\ng) Details of all rooftop structures including flues, satellite dishes, plant, lift overruns, \ncleaning cradles;\nh) Noticeboards;\ni) Signage (not otherwise requiring Advertisement Consent);\nj) Plant enclosures;\n\nThe development shall not be carried out otherwise than in accordance with the approved details.\n\nReason: To ensure that the external appearance of the building is satisfactory in accordance with the requirements of policy LP26 of the Council’s Local Plan.\n\nThe objectives and purposes of this condition are such that it is required to be complied with before commencement. As such, those objectives and purposes would not be met if expressed other than as a pre-commencement condition."
   ],
-  "actual_commencement_date": null,
+  "actual_commencement_date": "22/04/2026",
   "pp_id": "PP-14500689",
   "decision_target_date": "12/02/2026",
   "valid_date": "19/12/2025",
@@ -24,8 +24,10 @@
   "street_name": "Cranbrook Road",
   "site_number": null,
   "centroid_easting": 543440,
-  "polygon": null,
-  "ward": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
+  "ward": "",
   "centroid_northing": 188505,
   "application_type": "All Other",
   "uprn": "10096145507",
@@ -38,7 +40,7 @@
   "application_type_full": "Prior Approval: Change of use from Commercial, Business and Service (Use Class E) to Dwellinghouses (Use Class C3)",
   "url_planning_app": null,
   "decision_date": "05/02/2026",
-  "bo_system": "Agile APAS",
+  "bo_system": "Portal",
   "development_type": null,
   "appeal_status": null,
   "date_building_work_completed_under_previous_permission": null,
@@ -46,7 +48,7 @@
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
   "epc_number": "8932-4020-2516-9899-4881",
-  "last_updated": "2026-02-06T00:00:44.644Z",
+  "last_updated": "2026-08-18T11:45:59.747Z",
   "centroid": {
     "lon": 0.068623,
     "lat": 51.577165
@@ -58,9 +60,17 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 407,
+        "use_class": "E(g)(i)",
         "gia_gained": 0,
-        "use_class": "EG1",
+        "actual_commencement_date": "22/04/2026",
         "gia_lost": 407
+      },
+      {
+        "gia_existing": 0,
+        "use_class": "C3",
+        "gia_gained": 407,
+        "actual_commencement_date": "22/04/2026",
+        "gia_lost": 0
       }
     ],
     "occupation_status": "Occupied",
@@ -113,101 +123,156 @@
         {
           "provider": "Private",
           "no_habitable_rooms": 1,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "unit_type": "Studio Bedsit",
+          "actual_commencement_date": "22/04/2026",
           "no_bedrooms": 1,
-          "gia": 37,
-          "tenure": "Market for rent"
+          "unit_type": "Studio Bedsit",
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 37
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 1,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
+          "actual_commencement_date": "22/04/2026",
+          "no_bedrooms": 1,
           "unit_type": "Studio Bedsit",
-          "no_bedrooms": 1,
-          "gia": 37,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 37
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
+          "actual_commencement_date": "22/04/2026",
           "no_bedrooms": 1,
-          "gia": 37,
-          "tenure": "Market for rent"
+          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 37
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
+          "actual_commencement_date": "22/04/2026",
           "no_bedrooms": 1,
-          "gia": 37,
-          "tenure": "Market for rent"
+          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 37
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
+          "actual_commencement_date": "22/04/2026",
           "no_bedrooms": 1,
-          "gia": 37,
-          "tenure": "Market for rent"
+          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 37
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
+          "actual_commencement_date": "22/04/2026",
           "no_bedrooms": 1,
-          "gia": 37,
-          "tenure": "Market for rent"
+          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 37
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
+          "actual_commencement_date": "22/04/2026",
           "no_bedrooms": 1,
-          "gia": 37,
-          "tenure": "Market for rent"
+          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 37
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
+          "actual_commencement_date": "22/04/2026",
           "no_bedrooms": 1,
-          "gia": 37,
-          "tenure": "Market for rent"
+          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 37
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
+          "actual_commencement_date": "22/04/2026",
           "no_bedrooms": 1,
-          "gia": 37,
-          "tenure": "Market for rent"
+          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 37
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
+          "actual_commencement_date": "22/04/2026",
           "no_bedrooms": 1,
-          "gia": 37,
-          "tenure": "Market for rent"
+          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 37
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
+          "actual_commencement_date": "22/04/2026",
           "no_bedrooms": 1,
-          "gia": 37,
-          "tenure": "Market for rent"
+          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 37
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -221,7 +286,7 @@
       "no_homes_passive_cooling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_to_have_electrical_heating": 11,
       "mobile_network_operators_consultation": false,
@@ -231,7 +296,23 @@
     },
     "intended_commencement_date": "03/2026",
     "intended_completion_date": "02/2027",
-    "total_gia_lost": 407
+    "total_gia_lost": 407,
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "circular_economy_statement": false,
+    "scheme_phasing": false,
+    "commencement_notice_received": false,
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "garden_land_lost": false
   },
   "wgs84_polygon": {
     "coordinates": [
@@ -262,6 +343,6 @@
   },
   "id": "Redbridge-3269_25",
   "reference_no_of_permission_being_relied_on": null,
-  "title_number": null,
-  "last_updated_by": "Agile APAS"
+  "title_number": [],
+  "last_updated_by": "Portal"
 }
