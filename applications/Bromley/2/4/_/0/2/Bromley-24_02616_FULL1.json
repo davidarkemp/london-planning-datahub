@@ -11,7 +11,7 @@
   "application_details": {
     "rain_water_harvesting": false,
     "affordable_housing_fast_track": false,
-    "site_area": 0.0415,
+    "site_area": 0.046000000000000006,
     "total_gia_existing": 201,
     "total_gia_lost": 0,
     "scheme_phasing": false,
@@ -47,14 +47,15 @@
           "sheltered_accommodation": false,
           "unit_type": "House or Bungalow",
           "unit_development_type": "Conversion",
+          "provider": "Private",
           "no_habitable_rooms": 9,
           "phase_detail": null,
-          "unit_no": "Loss-1",
+          "unit_no": null,
           "actual_commencement_date": "24/10/2024",
           "no_bedrooms": 4,
           "provision_for_older_persons": false,
-          "gia": 201,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 201
         },
         {
           "actual_completion_date": "19/06/2025",
@@ -62,15 +63,15 @@
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "unit_development_type": "Conversion",
+          "provider": "Private",
           "no_habitable_rooms": 2,
-          "provider": "Private",
           "phase_detail": null,
-          "unit_no": "Gain-1",
+          "unit_no": null,
           "actual_commencement_date": "24/10/2024",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "gia": 41.8,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 41.8
         },
         {
           "actual_completion_date": "19/06/2025",
@@ -78,15 +79,15 @@
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "unit_development_type": "Conversion",
-          "no_habitable_rooms": 3,
           "provider": "Private",
+          "no_habitable_rooms": 3,
           "phase_detail": null,
-          "unit_no": "Gain-2",
+          "unit_no": null,
           "actual_commencement_date": "24/10/2024",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "gia": 83.7,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 83.7
         },
         {
           "actual_completion_date": "19/06/2025",
@@ -94,15 +95,15 @@
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "unit_development_type": "Conversion",
-          "no_habitable_rooms": 3,
           "provider": "Private",
+          "no_habitable_rooms": 3,
           "phase_detail": null,
-          "unit_no": "Gain-3",
+          "unit_no": null,
           "actual_commencement_date": "24/10/2024",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "gia": 68.5,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 68.5
         }
       ],
       "total_no_proposed_residential_units": 3,
@@ -166,8 +167,8 @@
     "phasing_details": [
       {
         "phase_detail": "Conversion",
-        "intended_completion_date": "11/2024",
-        "intended_commencement_date": "09/2024"
+        "intended_commencement_date": "09/2024",
+        "intended_completion_date": "11/2024"
       }
     ],
     "internal_resi_water_usage": 105,
@@ -182,7 +183,8 @@
     },
     "3d_model": false,
     "borough_cil_liability_notice_issued": false,
-    "transport_impact_assessment": false
+    "transport_impact_assessment": false,
+    "existing_uprns": []
   },
   "borough": "Bromley Custodian Code",
   "application_type_full": "Full planning permission",
@@ -191,13 +193,58 @@
   "lapsed_date": "19/09/2027",
   "bo_system": "Portal",
   "polygon": {
-    "type": "geometrycollection"
+    "type": "GeometryCollection",
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              547107.15,
+              169027.55
+            ],
+            [
+              547107.5,
+              169015.4
+            ],
+            [
+              547118.6,
+              169014.1
+            ],
+            [
+              547127.438,
+              169013.003
+            ],
+            [
+              547139.55,
+              169011.5
+            ],
+            [
+              547142.1,
+              169011.2
+            ],
+            [
+              547143.1,
+              169011.05
+            ],
+            [
+              547145.15,
+              169023.7
+            ],
+            [
+              547107.15,
+              169027.55
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ]
   },
   "appeal_status": null,
   "parking_details": null,
   "centroid": {
-    "lon": 0.113607,
-    "lat": 51.401137
+    "lon": 0.113664,
+    "lat": 51.401127
   },
   "locality": null,
   "secondary_street_name": null,
@@ -210,24 +257,40 @@
     "coordinates": [
       [
         [
-          0.113629,
-          51.401151
+          0.113397,
+          51.401209
         ],
         [
-          0.113628,
-          51.401124
+          0.113397,
+          51.4011
         ],
         [
-          0.113585,
-          51.401124
+          0.113556,
+          51.401085
         ],
         [
-          0.113586,
-          51.401151
+          0.113682,
+          51.401073
         ],
         [
-          0.113629,
-          51.401151
+          0.113856,
+          51.401057
+        ],
+        [
+          0.113892,
+          51.401053
+        ],
+        [
+          0.113906,
+          51.401052
+        ],
+        [
+          0.113941,
+          51.401165
+        ],
+        [
+          0.113397,
+          51.401209
         ]
       ]
     ]
@@ -239,18 +302,18 @@
   "decision": "Approved",
   "id": "Bromley-24_02616_FULL1",
   "lpa_name": "Bromley",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "24/10/2024",
   "site_name": "",
   "url_planning_app": null,
   "pp_id": "PP-13214832",
   "decision_process": "Delegated",
-  "centroid_easting": 547122,
-  "last_updated": "2025-08-19T10:05:21.272Z",
+  "centroid_easting": 547126,
+  "last_updated": "2026-08-19T10:40:14.787Z",
   "appeal_decision_date": null,
   "reference_no_of_permission_being_relied_on": null,
   "last_updated_by": "Portal",
   "site_number": "141",
-  "centroid_northing": 169020,
+  "centroid_northing": 169019,
   "development_type": null,
   "description": "Conversion of dwellinghouse into 3 flats with associated elevational/fenestration alterations.",
   "status": "Completed",

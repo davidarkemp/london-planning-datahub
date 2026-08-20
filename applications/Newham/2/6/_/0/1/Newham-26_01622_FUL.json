@@ -36,7 +36,7 @@
   "ward": "PSOUTH",
   "appeal_decision": null,
   "appeal_start_date": null,
-  "epc_number": "5294-4179-6765-5056-7391",
+  "epc_number": null,
   "borough": "London Borough of Newham",
   "title_number": [],
   "valid_date": "13/08/2026",
@@ -45,7 +45,7 @@
   "secondary_street_name": null,
   "date_building_work_completed_under_previous_permission": null,
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated": "2026-08-19T01:10:32.756Z",
+  "last_updated": "2026-08-19T04:01:04.642Z",
   "decision_target_date": "08/10/2026",
   "street_name": "Prince Regent Lane",
   "postcode": "E13 8SD",
@@ -92,7 +92,7 @@
   "centroid_easting": "541111",
   "lpa_name": "Newham",
   "decision_agency": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "lapsed_date": null,
   "description": "Erection of single storey wrap-around extension to existing ground floor commercial unit (shop), and change of use of first and second floor from ancillary commercial to residential to provide 1 X 2 bedroom flat (Use Class C3) with installation of privacy fencing and associated cycle/refuse storage.",
   "last_date_consultation_comments": "07/09/2026",
@@ -120,11 +120,11 @@
       "residential_units": [
         {
           "no_habitable_rooms": 3,
-          "tenure": "Market for rent",
-          "change_type": "Gain",
           "provider": "Private",
+          "change_type": "Gain",
           "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "tenure": "Market for rent",
           "gia": 82.86
         }
       ],
@@ -170,16 +170,16 @@
     "ownership_status": "Private",
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "SpecifiedOther",
         "gia_existing": 174.75,
-        "gia_lost": 82.86,
-        "gia_gained": 0
+        "use_class": "SpecifiedOther",
+        "gia_gained": 0,
+        "gia_lost": 82.86
       },
       {
-        "use_class": "C3",
         "gia_existing": 0,
-        "gia_lost": 0,
-        "gia_gained": 82.26
+        "use_class": "C3",
+        "gia_gained": 82.26,
+        "gia_lost": 0
       }
     ],
     "total_gia_gained": 82.26,
@@ -189,9 +189,9 @@
     "surface_water_discharge_percentage_reduction": 0,
     "phasing_details": [
       {
+        "phase_detail": "Ground floor wraparound extension & Change of use first and second floor",
         "intended_commencement_date": "09/2026",
-        "intended_completion_date": "09/2026",
-        "phase_detail": "Ground floor wraparound extension & Change of use first and second floor"
+        "intended_completion_date": "09/2026"
       }
     ],
     "open_and_protected_space_details": {
@@ -204,12 +204,12 @@
       "open_space_mol_area_gain": 0,
       "open_spaces_details": [
         {
-          "access": "Restricted",
           "area": 0.0018369999999999999,
-          "open_space_type": "Non-residential institution grounds or garden",
-          "description": "Rear Garden",
+          "access": "Restricted",
           "land_swap": false,
-          "open_space_designation": "Other"
+          "open_space_designation": "Other",
+          "description": "Rear Garden",
+          "open_space_type": "Non-residential institution grounds or garden"
         }
       ]
     },
@@ -230,16 +230,12 @@
   "actual_commencement_date": null,
   "uprn": "000046059116",
   "centroid_northing": "181872",
-  "subdivision_of_building": "Ground floor side and rear and first and second floor",
+  "subdivision_of_building": null,
   "centroid": {
     "lat": 51.51815,
     "lon": 0.032378
   },
-  "parking_details": {
-    "net_cycle": 2,
-    "no_proposed_cycle": 2,
-    "no_existing_cycle": 0
-  },
+  "parking_details": null,
   "id": "Newham-26_01622_FUL",
   "cil_liability": false,
   "decision_conditions": null
