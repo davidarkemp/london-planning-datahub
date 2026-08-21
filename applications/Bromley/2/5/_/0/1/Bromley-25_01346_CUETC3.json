@@ -10,26 +10,27 @@
   "ward": "PLAIST",
   "decision_date": "23/05/2025",
   "parking_details": null,
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "pp_id": "PP-13918546",
   "development_type": null,
   "description": "Change of use of lower ground floor from Use Class E (Commercial, Business and Service) to Use Class C3 (Dwellinghouses) to form 1 residential unit, under Class MA, Part 3, Schedule 2 of the Town and Country Planning (General Permitted Development) Order 2015 (as amended) (56 day application for prior approval in respect of transport and highways impacts, contamination risks, flood risk, noise impacts, character or sustainability of a conservation area, provision of natural light to habitable rooms, impact on an area of general or heavy industry, impact of loss of services provided by a registered nursery or a health centre, fire safety impacts).",
   "site_name": "",
   "decision_conditions": [
     "Refuse and Cycle storage compliance",
-    "CEMP compliance",
-    ""
+    "CEMP compliance"
   ],
   "lpa_app_no": "25/01346/CUETC3",
   "subdivision_of_building": null,
-  "centroid_easting": "540156",
+  "centroid_easting": 540156,
   "epc_number": null,
   "secondary_street_name": null,
   "lpa_name": "Bromley",
   "appeal_decision": null,
   "decision_agency": null,
-  "last_updated_by": "Idox Uniform",
-  "cil_liability": true,
+  "last_updated_by": "Portal",
+  "cil_liability": false,
   "postcode": "BR1 3PU",
   "decision_process": "Delegated",
   "application_details": {
@@ -38,8 +39,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 48,
+        "use_class": "E(g)(i)",
         "gia_gained": 48,
-        "use_class": "EG1",
         "gia_lost": 48
       }
     ],
@@ -61,11 +62,11 @@
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_proposed_residential_units_social_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 100,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 100,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
@@ -88,14 +89,18 @@
         {
           "provider": "Private",
           "no_habitable_rooms": 1,
-          "unit_no": "Gain-1",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "unit_type": "Studio Bedsit",
           "no_bedrooms": 1,
-          "gia": 48,
-          "tenure": "Market for rent"
+          "unit_type": "Studio Bedsit",
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 48
         }
-      ]
+      ],
+      "site_area": 0.01
     },
     "total_gia_lost": 48,
     "non_residential_details": {
@@ -113,7 +118,7 @@
       "percentage_demolition_construction_material_recycling": 10,
       "green_roof_area": 0,
       "no_resi_units_to_have_full_fibre": 1,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "no_new_water_connections_required": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "mobile_network_operators_consultation": false,
@@ -121,8 +126,25 @@
       "no_homes_passive_cooling": 1,
       "no_homes_to_have_electrical_heating": 1,
       "total_annual_pm_emissions": 0,
-      "waste_provision": true
-    }
+      "waste_provision": false
+    },
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "circular_economy_statement": false,
+    "scheme_phasing": false,
+    "commencement_notice_received": false,
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "site_area": 0.01,
+    "transport_impact_assessment": false,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "garden_land_lost": false
   },
   "uprn": "100022887970",
   "street_name": "College Road",
@@ -157,20 +179,20 @@
   "appeal_decision_date": null,
   "site_number": "37",
   "date_building_work_started_under_previous_permission": null,
-  "centroid_northing": "170002",
+  "centroid_northing": 170002,
   "centroid": {
     "lon": 0.013921,
     "lat": 51.411724
   },
   "valid_date": "04/04/2025",
   "id": "Bromley-25_01346_CUETC3",
-  "last_updated": "2025-06-05T20:00:44.059Z",
+  "last_updated": "2026-08-20T11:59:33.145Z",
   "locality": null,
   "status": "Approved",
   "last_date_consultation_comments": "30/04/2025",
   "decision_target_date": "30/05/2025",
   "actual_completion_date": null,
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "reference_no_of_permission_being_relied_on": null,
   "title_number": [],
   "application_type": "All Other"
