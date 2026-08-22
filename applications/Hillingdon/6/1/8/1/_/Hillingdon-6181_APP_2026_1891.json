@@ -14,7 +14,7 @@
   "secondary_street_name": null,
   "date_building_work_completed_under_previous_permission": null,
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated": "2026-08-21T01:08:19.853Z",
+  "last_updated": "2026-08-21T22:00:08.983Z",
   "decision_target_date": "24/09/2026",
   "street_name": "HAYES",
   "postcode": null,
@@ -35,7 +35,7 @@
   "centroid_easting": 508659,
   "lpa_name": "Hillingdon",
   "decision_agency": "Borough",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "CSV Data Import",
   "lapsed_date": null,
   "description": "Change of use from a Dwellinghouse (Use Class C3) to a four-bedroom, six person HMO (Use Class C4)",
   "last_date_consultation_comments": "11/09/2026",
@@ -62,22 +62,22 @@
       "total_no_proposed_residential_units_market_for_sale": 0,
       "residential_units": [
         {
-          "provision_for_older_persons": false,
           "no_habitable_rooms": 6,
-          "tenure": "Market for rent",
           "change_type": "Loss",
+          "sheltered_accommodation": false,
           "no_bedrooms": 5,
           "unit_type": "Semi Detached Home",
-          "sheltered_accommodation": false,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
           "gia": 96.08
         },
         {
           "no_habitable_rooms": 6,
-          "tenure": "Market for rent",
-          "change_type": "Gain",
           "provider": "Private",
+          "change_type": "Gain",
           "no_bedrooms": 4,
           "unit_type": "HMO",
+          "tenure": "Market for rent",
           "gia": 96.08
         }
       ],
@@ -123,16 +123,16 @@
     "ownership_status": "Private",
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3",
         "gia_existing": 96.08,
-        "gia_lost": 96.08,
-        "gia_gained": 0
+        "use_class": "C3",
+        "gia_gained": 0,
+        "gia_lost": 96.08
       },
       {
-        "use_class": "C4",
         "gia_existing": 0,
-        "gia_lost": 0,
-        "gia_gained": 96.08
+        "use_class": "C4",
+        "gia_gained": 96.08,
+        "gia_lost": 0
       }
     ],
     "total_gia_gained": 96.08,
@@ -142,9 +142,9 @@
     "surface_water_discharge_percentage_reduction": 0,
     "phasing_details": [
       {
+        "phase_detail": "Entire Development",
         "intended_commencement_date": "10/2026",
-        "intended_completion_date": "11/2026",
-        "phase_detail": "Entire Development"
+        "intended_completion_date": "11/2026"
       }
     ],
     "scheme_phasing": true,

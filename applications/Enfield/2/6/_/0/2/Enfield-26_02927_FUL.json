@@ -14,7 +14,7 @@
   "secondary_street_name": null,
   "date_building_work_completed_under_previous_permission": null,
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated": "2026-08-21T01:08:19.604Z",
+  "last_updated": "2026-08-21T20:09:29.051Z",
   "decision_target_date": "08/10/2026",
   "street_name": "Alma Road",
   "postcode": "EN3 7BA",
@@ -61,7 +61,7 @@
   "centroid_easting": 536116,
   "lpa_name": "Enfield",
   "decision_agency": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "lapsed_date": null,
   "description": "Change of use from Use Class C3 (dwelling house) to Use Class C4 (HMO-house in multiple occupation) involving single storey wraparound extension involving demolition of existing extension, rear dormer to outrigger, front roof lights, with associated amenity, cycle and refuse storage.\r",
   "last_date_consultation_comments": "10/09/2026",
@@ -93,43 +93,55 @@
     },
     "ownership_status": "Private",
     "projected_cost_of_works": "Up to £2m",
-    "site_area": 0.01,
+    "site_area": 100,
     "surface_water_discharge_percentage_reduction": 0,
     "constraints_details": [
       {
+        "result": null,
         "constraints_layer_description": "LHA Maximum Height Level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet)."
       },
       {
+        "result": null,
         "constraints_layer_description": "LLA Maximum height level: All buildings, structures, and works exceeding 300 metres in height (984.2 feet)"
       },
       {
+        "result": null,
         "constraints_layer_description": "EAHMIP Code: EAHMIP4"
       },
       {
+        "result": null,
         "constraints_layer_description": "100Y Name: North Enfield Model\rDescription: 100YRCC2932\rScenario: 1 in 100 year plus climate change allowance"
       },
       {
+        "result": null,
         "constraints_layer_description": "DCAREA Area: NORTH\rCode: DCAREA_N"
       },
       {
+        "result": null,
         "constraints_layer_description": "WARDS Name: Brimsdown"
       },
       {
+        "result": null,
         "constraints_layer_description": "CILRES CIL ZONE: Lower Rate Eastern Zone - RATE: £40 per square metre"
       },
       {
+        "result": null,
         "constraints_layer_description": "DMDAAP Designation: Area Action Plan- Area: North East Enfield- Policy: Core policy 40"
       },
       {
+        "result": null,
         "constraints_layer_description": "DMDLOS Designation: Local Open Space- Type: Allotment- Name: Alma Road (leased) Allotments- Land Type: Allotments, Community Gardens and Urban Farms- Policy: DMD 71-74- Core Strategy: Core policy 34, 36"
       },
       {
+        "result": null,
         "constraints_layer_description": "DMDMOL Designation: Metropolitan Open Land- Name: Durants Park- Policy: DMD 71-74- Core Strategy: Core policy 34"
       },
       {
+        "result": null,
         "constraints_layer_description": "DMDPSP Designation: Place Shaping Priority Area- Area Name: Ponders End- Core Strategy: Core policy 41"
       },
       {
+        "result": null,
         "constraints_layer_description": "EFCAZI Chargeable Zone Value: 6176"
       }
     ],
@@ -139,9 +151,9 @@
     "scheme_phasing": true,
     "total_gia_lost": 72.69,
     "non_residential_details": {
-      "total_gia_existing": 72.69,
-      "total_gia_lost": 72.69,
-      "total_gia_gained": 110.28,
+      "total_gia_existing": 0,
+      "total_gia_lost": 0,
+      "total_gia_gained": 0,
       "site_area": 0.01,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0
@@ -151,23 +163,39 @@
       "total_no_proposed_residential_units_shared_equity": 0,
       "residential_units": [
         {
-          "provision_for_older_persons": false,
-          "no_habitable_rooms": 1,
-          "tenure": "Market for rent",
-          "change_type": "Loss",
-          "no_bedrooms": 2,
-          "unit_type": "Terraced Home",
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": false,
+          "change_type": "Gain",
           "sheltered_accommodation": false,
-          "gia": 72.69
+          "garden_land": false,
+          "unit_type": "HMO",
+          "provider": "Private",
+          "no_habitable_rooms": 1,
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 6,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 110.28
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": false,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
+          "garden_land": false,
+          "unit_type": "Terraced Home",
           "no_habitable_rooms": 1,
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
-          "change_type": "Gain",
-          "provider": "Private",
-          "no_bedrooms": 6,
-          "unit_type": "HMO",
-          "gia": 110.28
+          "gia": 72.69
         }
       ],
       "total_no_proposed_residential_units_market_for_sale": 0,
@@ -212,16 +240,16 @@
     "green_suds": false,
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3",
         "gia_existing": 72.69,
-        "gia_lost": 72.69,
-        "gia_gained": 0
+        "use_class": "C3",
+        "gia_gained": 0,
+        "gia_lost": 72.69
       },
       {
-        "use_class": "C4",
         "gia_existing": 0,
-        "gia_lost": 0,
-        "gia_gained": 110.28
+        "use_class": "C4",
+        "gia_gained": 110.28,
+        "gia_lost": 0
       }
     ],
     "total_gia_gained": 110.28,
@@ -232,9 +260,9 @@
     "commencement_notice_received": false,
     "phasing_details": [
       {
+        "phase_detail": "Entire development",
         "intended_commencement_date": "12/2026",
-        "intended_completion_date": "03/2027",
-        "phase_detail": "Entire development"
+        "intended_completion_date": "03/2027"
       }
     ],
     "open_and_protected_space_details": {

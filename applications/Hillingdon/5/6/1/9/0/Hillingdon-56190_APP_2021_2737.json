@@ -84,7 +84,7 @@
   ],
   "locality": null,
   "uprn": null,
-  "status": "Lapsed",
+  "status": "Commenced",
   "pp_id": "09867124",
   "title_number": [],
   "parking_details": {
@@ -116,21 +116,21 @@
     "net_carclub": null,
     "net_bluebadge": null
   },
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "centroid": {
-    "lon": "-0.4694425",
-    "lat": "51.5690704"
+    "lon": -0.469463,
+    "lat": 51.569068
   },
   "decision_agency": "Borough",
   "application_type": "All Other",
   "decision_date": "04/03/2022",
-  "last_updated_by": "FME Excel Import",
+  "last_updated_by": "Portal",
   "decision_process": "Committee",
   "date_building_work_started_under_previous_permission": null,
   "centroid_northing": 186687,
   "secondary_street_name": "ICKENHAM",
   "epc_number": null,
-  "cil_liability": true,
+  "cil_liability": false,
   "actual_completion_date": null,
   "url_planning_app": "http://planning.hillingdon.gov.uk/OcellaWeb/planningDetails?reference=56190/APP/2021/2737",
   "lpa_app_no": "56190/APP/2021/2737",
@@ -209,7 +209,7 @@
     "type": "GeometryCollection"
   },
   "date_building_work_completed_under_previous_permission": null,
-  "last_updated": "2025-03-19T03:28:52.703+00:00",
+  "last_updated": "2026-08-21T13:22:09.245Z",
   "appeal_start_date": null,
   "decision_target_date": "07/03/2022",
   "reference_no_of_permission_being_relied_on": null,
@@ -223,23 +223,23 @@
   "valid_date": "12/07/2021",
   "application_details": {
     "existing_uprns": [],
-    "affordable_housing_fast_track": null,
-    "s106_agreement": null,
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
     "affordable_housing_inlieu_payment": null,
-    "air_quality_assessment": null,
+    "air_quality_assessment": false,
     "other_contributions": null,
     "total_gia_existing": null,
     "intended_commencement_date": null,
     "no_affordable_housing_units_provided_offsite": null,
-    "scheme_phasing": null,
-    "commencement_notice_received": null,
-    "circular_economy_statement": null,
+    "scheme_phasing": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
     "non_residential_details": {
       "development_type": null,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": null,
-      "site_area": null,
+      "site_area": 0.216,
       "total_gia_lost": null,
       "total_gia_existing": null
     },
@@ -259,14 +259,14 @@
     "site_area": 0.216,
     "existing_proposed_floorspace_details": [],
     "constraints_details": [],
-    "grey_water_reuse": null,
+    "grey_water_reuse": false,
     "building_details": [],
     "surface_water_discharge_percentage_reduction": null,
     "superseding_details": [],
     "lead_registered_social_landlord": null,
-    "viability_assessment": null,
+    "viability_assessment": false,
     "overseas_company_registration_no": null,
-    "mayoral_cil_liability_notice_issued": null,
+    "mayoral_cil_liability_notice_issued": false,
     "non_permanent_dwellings_details": [],
     "intended_completion_date": null,
     "projected_cost_of_works": null,
@@ -275,7 +275,7 @@
     "other_residential_accommodation_details": {
       "no_council_tax_rateable_units_gained": null,
       "no_council_tax_rateable_units_lost": null,
-      "site_area": null,
+      "site_area": 0.216,
       "other_resi_accommodation_unit_details": []
     },
     "infrastructure_details": {
@@ -289,9 +289,9 @@
       "no_active_fast_ev_charging_points": null,
       "no_active_other_ev_charging_points": null,
       "no_passive_other_ev_charging_points": null,
-      "mobile_network_operators_consultation": null,
-      "fire_suppression_system_proposed": null,
-      "ghg_reduction_over_building_regulations": null,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "ghg_reduction_over_building_regulations": false,
       "chp_heat_pumps_capacity": null,
       "no_active_slow_ev_charging_points": null,
       "no_resi_units_to_have_full_fibre": null,
@@ -300,25 +300,25 @@
       "solar_pv_capacity": null,
       "no_passive_slow_ev_charging_points": null,
       "total_annual_nox_emissions": null,
-      "waste_provision": null,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": null,
       "no_homes_to_have_electrical_heating": null,
       "community_energy_capacity": null,
       "no_new_gas_connections_required": null,
       "waste_details": []
     },
-    "3d_model": null,
+    "3d_model": false,
     "no_affordable_housing_units_acquired_offsite": null,
     "transport_contributions": null,
     "total_gia_gained": null,
-    "borough_cil_liability_notice_issued": null,
-    "transport_impact_assessment": null,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
     "total_gia_lost": null,
     "scheme_name": "WOODLANDS 5 THE COTTAGES",
     "social_infrastructure_contributions": null,
-    "rain_water_harvesting": null,
-    "green_suds": null,
-    "garden_land_lost": null,
+    "rain_water_harvesting": false,
+    "green_suds": false,
+    "garden_land_lost": false,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_proposed_bedrooms": 4,
@@ -359,51 +359,32 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
+          "actual_completion_date": "01/11/2022",
           "description": null,
           "change_type": "Loss",
-          "m42_compliant": null,
-          "sheltered_accommodation": null,
-          "garden_land": null,
           "unit_type": "House or Bungalow",
           "unit_development_type": "New Build",
-          "superseded_date": null,
           "provider": "Private",
-          "no_habitable_rooms": null,
           "phase_detail": null,
           "unit_no": null,
-          "actual_commencement_date": null,
+          "actual_commencement_date": "01/11/2022",
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
           "tenure": "Market for sale",
           "gia": null
         },
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
-          "description": null,
-          "change_type": "Gain",
-          "m42_compliant": null,
-          "sheltered_accommodation": null,
-          "garden_land": null,
-          "unit_type": "House or Bungalow",
-          "unit_development_type": "New Build",
-          "superseded_date": null,
           "provider": "Private",
-          "no_habitable_rooms": null,
           "phase_detail": null,
           "unit_no": null,
-          "actual_commencement_date": null,
+          "description": null,
+          "change_type": "Gain",
+          "actual_commencement_date": "01/11/2022",
           "no_bedrooms": 4,
+          "unit_type": "House or Bungalow",
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
           "tenure": "Market for sale",
+          "unit_development_type": "New Build",
           "gia": null
         }
       ],
@@ -415,65 +396,65 @@
   },
   "centroid_easting": 506175,
   "postcode": "UB10 8AQ",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "01/11/2022",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.4696377,
-          51.5691642
+          -0.469659,
+          51.569162
         ],
         [
-          -0.4696226,
-          51.5693306
+          -0.469643,
+          51.569329
         ],
         [
-          -0.4691815,
-          51.5692505
+          -0.469202,
+          51.569248
         ],
         [
-          -0.46912869999999995,
-          51.5692587
+          -0.46915,
+          51.569257
         ],
         [
-          -0.4691004,
-          51.5692494
+          -0.469121,
+          51.569247
         ],
         [
-          -0.46904009999999996,
-          51.5691981
+          -0.469061,
+          51.569196
         ],
         [
-          -0.4690435,
-          51.569097
+          -0.469064,
+          51.569095
         ],
         [
-          -0.4691448,
-          51.5689199
+          -0.469166,
+          51.568918
         ],
         [
-          -0.46931589999999995,
-          51.5689429
+          -0.469337,
+          51.568941
         ],
         [
-          -0.4693926,
-          51.5687893
+          -0.469413,
+          51.568787
         ],
         [
-          -0.46981389999999995,
-          51.56889
+          -0.469835,
+          51.568888
         ],
         [
-          -0.4697904,
-          51.5691662
+          -0.469811,
+          51.569164
         ],
         [
-          -0.46963299999999997,
-          51.569161199999996
+          -0.469654,
+          51.569159
         ],
         [
-          -0.4696377,
-          51.5691642
+          -0.469659,
+          51.569162
         ]
       ]
     ],
