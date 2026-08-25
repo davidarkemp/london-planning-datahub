@@ -20,7 +20,7 @@
   "parking_details": null,
   "decision_process": "Delegated",
   "street_name": "Nibthwaite Road",
-  "site_number": 108,
+  "site_number": "108",
   "centroid_easting": 515202,
   "polygon": {
     "crs": {
@@ -34,82 +34,80 @@
         "coordinates": [
           [
             [
-              [
-                515206.1,
-                188809.85
-              ],
-              [
-                515206.25,
-                188814.5
-              ],
-              [
-                515206.05,
-                188814.5
-              ],
-              [
-                515203.35,
-                188814.6
-              ],
-              [
-                515198.45,
-                188814.95
-              ],
-              [
-                515197.7,
-                188787.4
-              ],
-              [
-                515197.2,
-                188771.25
-              ],
-              [
-                515198.5,
-                188771.45
-              ],
-              [
-                515204.55,
-                188772.45
-              ],
-              [
-                515205.05,
-                188772.5
-              ],
-              [
-                515205.35,
-                188782.95
-              ],
-              [
-                515205.7,
-                188795.626
-              ],
-              [
-                515205.775,
-                188798.383
-              ],
-              [
-                515205.8,
-                188799.25
-              ],
-              [
-                515205.801,
-                188799.449
-              ],
-              [
-                515205.802,
-                188799.522
-              ],
-              [
-                515206.1,
-                188809.65
-              ],
-              [
-                515206.1,
-                188809.85
-              ]
+              515206.1,
+              188809.85
+            ],
+            [
+              515206.25,
+              188814.5
+            ],
+            [
+              515206.05,
+              188814.5
+            ],
+            [
+              515203.35,
+              188814.6
+            ],
+            [
+              515198.45,
+              188814.95
+            ],
+            [
+              515197.7,
+              188787.4
+            ],
+            [
+              515197.2,
+              188771.25
+            ],
+            [
+              515198.5,
+              188771.45
+            ],
+            [
+              515204.55,
+              188772.45
+            ],
+            [
+              515205.05,
+              188772.5
+            ],
+            [
+              515205.35,
+              188782.95
+            ],
+            [
+              515205.7,
+              188795.626
+            ],
+            [
+              515205.775,
+              188798.383
+            ],
+            [
+              515205.8,
+              188799.25
+            ],
+            [
+              515205.801,
+              188799.449
+            ],
+            [
+              515205.802,
+              188799.522
+            ],
+            [
+              515206.1,
+              188809.65
+            ],
+            [
+              515206.1,
+              188809.85
             ]
           ]
         ],
-        "type": "MultiPolygon"
+        "type": "Polygon"
       }
     ],
     "type": "GeometryCollection"
@@ -117,7 +115,7 @@
   "ward": "Marlborough",
   "centroid_northing": 188802,
   "application_type": "All Other",
-  "uprn": 100021278935,
+  "uprn": "100021278935",
   "lapsed_date": "20/01/2026",
   "actual_completion_date": "31/03/2026",
   "decision": "Approved",
@@ -135,7 +133,7 @@
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
   "epc_number": null,
-  "last_updated": "2026-06-28T11:10:35.649Z",
+  "last_updated": "2026-08-24T13:38:40.502Z",
   "centroid": {
     "lon": -0.338582,
     "lat": 51.586307
@@ -160,7 +158,7 @@
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_proposed_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
@@ -184,23 +182,35 @@
       "residential_units": [
         {
           "actual_completion_date": "31/03/2026",
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
           "actual_commencement_date": "10/10/2025",
           "unit_type": "House or Bungalow",
           "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 214,
           "unit_development_type": "Conversion"
         },
         {
           "actual_completion_date": "31/03/2026",
+          "description": null,
           "change_type": "Gain",
-          "actual_commencement_date": "10/10/2025",
           "unit_type": "HMO",
+          "unit_development_type": "Conversion",
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "10/10/2025",
           "no_bedrooms": 5,
           "provision_for_older_persons": false,
-          "unit_development_type": "Conversion"
+          "tenure": "Market for rent",
+          "gia": 214
         }
       ],
-      "total_no_existing_residential_units_market_for_rent": 0,
+      "total_no_existing_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_gia_gained": 0
     },
@@ -215,9 +225,20 @@
     "transport_impact_assessment": false,
     "existing_proposed_floorspace_details": [
       {
+        "gia_existing": 214,
         "actual_completion_date": "31/03/2026",
         "use_class": "C3",
-        "actual_commencement_date": "10/10/2025"
+        "gia_gained": 0,
+        "actual_commencement_date": "10/10/2025",
+        "gia_lost": 214
+      },
+      {
+        "gia_existing": 0,
+        "actual_completion_date": "31/03/2026",
+        "use_class": "C4",
+        "gia_gained": 214,
+        "actual_commencement_date": "10/10/2025",
+        "gia_lost": 0
       }
     ],
     "circular_economy_statement": false,
@@ -243,87 +264,85 @@
     "coordinates": [
       [
         [
-          [
-            -0.33852,
-            51.586377
-          ],
-          [
-            -0.338517,
-            51.586418
-          ],
-          [
-            -0.33852,
-            51.586418
-          ],
-          [
-            -0.338558,
-            51.58642
-          ],
-          [
-            -0.338629,
-            51.586424
-          ],
-          [
-            -0.338649,
-            51.586177
-          ],
-          [
-            -0.338661,
-            51.586032
-          ],
-          [
-            -0.338643,
-            51.586033
-          ],
-          [
-            -0.338555,
-            51.586041
-          ],
-          [
-            -0.338548,
-            51.586041
-          ],
-          [
-            -0.33854,
-            51.586135
-          ],
-          [
-            -0.338531,
-            51.586249
-          ],
-          [
-            -0.338529,
-            51.586274
-          ],
-          [
-            -0.338528,
-            51.586281
-          ],
-          [
-            -0.338528,
-            51.586283
-          ],
-          [
-            -0.338528,
-            51.586284
-          ],
-          [
-            -0.33852,
-            51.586375
-          ],
-          [
-            -0.33852,
-            51.586377
-          ]
+          -0.33852,
+          51.586377
+        ],
+        [
+          -0.338517,
+          51.586418
+        ],
+        [
+          -0.33852,
+          51.586418
+        ],
+        [
+          -0.338558,
+          51.58642
+        ],
+        [
+          -0.338629,
+          51.586424
+        ],
+        [
+          -0.338649,
+          51.586177
+        ],
+        [
+          -0.338661,
+          51.586032
+        ],
+        [
+          -0.338643,
+          51.586033
+        ],
+        [
+          -0.338555,
+          51.586041
+        ],
+        [
+          -0.338548,
+          51.586041
+        ],
+        [
+          -0.33854,
+          51.586135
+        ],
+        [
+          -0.338531,
+          51.586249
+        ],
+        [
+          -0.338529,
+          51.586274
+        ],
+        [
+          -0.338528,
+          51.586281
+        ],
+        [
+          -0.338528,
+          51.586283
+        ],
+        [
+          -0.338528,
+          51.586284
+        ],
+        [
+          -0.33852,
+          51.586375
+        ],
+        [
+          -0.33852,
+          51.586377
         ]
       ]
     ],
-    "type": "MultiPolygon"
+    "type": "Polygon"
   },
   "id": "Harrow-PL_3044_25",
   "reference_no_of_permission_being_relied_on": null,
   "title_number": [
     "108NR"
   ],
-  "last_updated_by": "Planning Portal ingest"
+  "last_updated_by": "Portal"
 }

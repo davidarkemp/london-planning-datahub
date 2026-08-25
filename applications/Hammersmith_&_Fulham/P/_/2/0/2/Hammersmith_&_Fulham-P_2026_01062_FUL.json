@@ -15,7 +15,7 @@
   "lpa_app_no": "P/2026/01062/FUL",
   "title_number": null,
   "decision": null,
-  "last_updated": "2026-07-16T01:07:57.867Z",
+  "last_updated": "2026-08-24T11:20:01.978Z",
   "appeal_start_date": null,
   "actual_commencement_date": null,
   "bo_system": "Northgate M3",
@@ -112,8 +112,8 @@
     "scheme_phasing": true,
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3",
         "gia_existing": 83.41,
+        "use_class": "C3",
         "gia_gained": 89.9,
         "gia_lost": 83.41
       }
@@ -127,31 +127,31 @@
       "residential_units": [
         {
           "no_habitable_rooms": 5,
-          "tenure": "Market for rent",
-          "gia": 83.41,
-          "unit_type": "Terraced Home",
-          "no_bedrooms": 3,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "provision_for_older_persons": false
+          "no_bedrooms": 3,
+          "unit_type": "Terraced Home",
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 83.41
         },
         {
           "no_habitable_rooms": 1,
-          "tenure": "Market for rent",
-          "gia": 43.72,
-          "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 1,
+          "provider": "Private",
           "change_type": "Gain",
-          "provider": "Private"
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "tenure": "Market for rent",
+          "gia": 43.72
         },
         {
           "no_habitable_rooms": 1,
-          "tenure": "Market for rent",
-          "gia": 39.05,
-          "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 1,
+          "provider": "Private",
           "change_type": "Gain",
-          "provider": "Private"
+          "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "tenure": "Market for rent",
+          "gia": 39.05
         }
       ],
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
@@ -193,9 +193,9 @@
     "total_gia_gained": 89.9,
     "phasing_details": [
       {
+        "phase_detail": "Phase 1",
         "intended_completion_date": "07/2026",
-        "intended_commencement_date": "06/2026",
-        "phase_detail": "Phase 1"
+        "intended_commencement_date": "06/2026"
       }
     ],
     "affordable_housing_fast_track": false,
@@ -209,7 +209,7 @@
   "site_name": null,
   "decision_process": "Delegated",
   "postcode": "W12 0RA",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Northgate M3",
   "centroid": {
     "lat": 51.514814,
     "lon": -0.236652
@@ -217,7 +217,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -253,7 +252,8 @@
               181012.24023558584
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"

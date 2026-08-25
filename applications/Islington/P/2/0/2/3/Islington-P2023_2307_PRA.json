@@ -12,7 +12,7 @@
   "street_name": "John Horner Mews",
   "locality": "London",
   "ward": "St Peter's & Canalside",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "01/01/2026",
   "lpa_name": "Islington",
   "bo_system": "Portal",
   "decision_conditions": [
@@ -20,59 +20,59 @@
   ],
   "date_building_work_started_under_previous_permission": null,
   "centroid_easting": 532062,
-  "status": "Approved",
+  "status": "Completed",
   "decision_date": "20/10/2023",
   "wgs84_polygon": {
     "type": "Polygon",
     "coordinates": [
       [
         [
-          -0.097299,
-          51.5342443
+          -0.097325,
+          51.534242
         ],
         [
-          -0.09730789999999999,
-          51.5342316
+          -0.097334,
+          51.53423
         ],
         [
-          -0.09733109999999999,
-          51.5342234
+          -0.097357,
+          51.534221
         ],
         [
-          -0.09736109999999999,
-          51.534222
+          -0.097387,
+          51.53422
         ],
         [
-          -0.0973883,
-          51.5342279
+          -0.097414,
+          51.534226
         ],
         [
-          -0.0974041,
-          51.5342393
+          -0.09743,
+          51.534237
         ],
         [
-          -0.09740359999999999,
-          51.5342526
+          -0.09743,
+          51.534251
         ],
         [
-          -0.0973868,
-          51.5342635
+          -0.097413,
+          51.534261
         ],
         [
-          -0.09735919999999999,
-          51.5342685
+          -0.097385,
+          51.534267
         ],
         [
-          -0.0973293,
-          51.5342662
+          -0.097355,
+          51.534264
         ],
         [
-          -0.0973069,
-          51.5342571
+          -0.097333,
+          51.534255
         ],
         [
-          -0.097299,
-          51.5342443
+          -0.097325,
+          51.534242
         ]
       ]
     ]
@@ -81,9 +81,9 @@
   "subdivision_of_building": null,
   "last_date_consultation_comments": null,
   "development_type": null,
-  "title_number": null,
+  "title_number": [],
   "appeal_status": null,
-  "last_updated": "2025-03-19T23:11:58.829+00:00",
+  "last_updated": "2026-08-24T10:32:29.497Z",
   "last_updated_by": "Portal",
   "site_name": "Street Record",
   "id": "Islington-P2023_2307_PRA",
@@ -168,21 +168,26 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 147,
       "total_gia_lost": 147,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "site_area": 0.003
     },
     "total_gia_existing": 147,
-    "existing_uprns": null,
+    "existing_uprns": [],
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 147,
+        "actual_completion_date": "01/01/2026",
         "use_class": "E(g)(i)",
         "gia_gained": 0,
+        "actual_commencement_date": "01/01/2026",
         "gia_lost": 147
       },
       {
         "gia_existing": 0,
+        "actual_completion_date": "01/01/2026",
         "use_class": "C3",
         "gia_gained": 147,
+        "actual_commencement_date": "01/01/2026",
         "gia_lost": 0
       }
     ],
@@ -195,19 +200,21 @@
       "residential_units": [
         {
           "m43_2b_compliant": false,
+          "actual_completion_date": "01/01/2026",
           "m43_2a_compliant": false,
           "description": null,
-          "change_type": "Gain",
           "m42_compliant": true,
+          "change_type": "Gain",
           "unit_type": "House or Bungalow",
           "provider": "Private",
           "no_habitable_rooms": 3,
           "phase_detail": null,
-          "unit_no": "Gain-1",
+          "unit_no": null,
+          "actual_commencement_date": "01/01/2026",
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "gia": 147,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 147
         }
       ],
       "total_no_existing_residential_units_intermediate": 0,
@@ -233,19 +240,20 @@
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_gia_gained": 147,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 333.3333333333333,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 1000,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_residential_units_market_for_sale": 1
+      "total_no_proposed_residential_units_market_for_sale": 1,
+      "site_area": 0.003
     },
     "infrastructure_details": {
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "ghg_reduction_over_building_regulations": false,
       "no_homes_to_have_electrical_heating": 0,
@@ -257,7 +265,7 @@
       "no_new_water_connections_required": 0,
       "no_homes_passive_cooling": 0,
       "green_roof_area": 0,
-      "fire_suppression_system_proposed": true,
+      "fire_suppression_system_proposed": false,
       "total_annual_pm_emissions": 0
     },
     "total_gia_lost": 147,
@@ -265,13 +273,30 @@
     "intended_completion_date": "05/2024",
     "s106_agreement": false,
     "lead_developer_company_name": "Highways",
-    "site_area": 0.003
+    "site_area": 0.003,
+    "affordable_housing_fast_track": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "scheme_phasing": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.003
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "garden_land_lost": false
   },
   "centroid": {
-    "lon": "-0.0973556",
-    "lat": "51.534249"
+    "lon": -0.097382,
+    "lat": 51.534247
   },
   "lapsed_date": "20/10/2026",
   "decision_process": "Delegated",
-  "actual_completion_date": null
+  "actual_completion_date": "01/01/2026"
 }
