@@ -2,95 +2,95 @@
   "development_type": null,
   "appeal_decision": "Allowed",
   "decision_agency": null,
-  "postcode": null,
+  "postcode": "",
   "borough": "London Borough of Sutton",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.2028533,
-          51.3639821
+          -0.202878,
+          51.363983
         ],
         [
-          -0.2029231,
-          51.363964
+          -0.202948,
+          51.363965
         ],
         [
-          -0.2029359,
-          51.3639844
+          -0.202961,
+          51.363986
         ],
         [
-          -0.2029617,
-          51.3640297
+          -0.202987,
+          51.364031
         ],
         [
-          -0.20297769999999998,
-          51.3640578
+          -0.203003,
+          51.364059
         ],
         [
-          -0.2029782,
-          51.3640586
+          -0.203003,
+          51.36406
         ],
         [
-          -0.2029819,
-          51.364065
+          -0.203007,
+          51.364066
         ],
         [
-          -0.2029765,
-          51.3640669
+          -0.203001,
+          51.364068
         ],
         [
-          -0.2029378,
-          51.3640762
+          -0.202963,
+          51.364077
         ],
         [
-          -0.2029199,
-          51.3640804
+          -0.202945,
+          51.364082
         ],
         [
-          -0.20283579999999998,
-          51.3641016
+          -0.202861,
+          51.364103
         ],
         [
-          -0.20276619999999998,
-          51.3641192
+          -0.202791,
+          51.36412
         ],
         [
-          -0.2025389,
-          51.3641741
+          -0.202564,
+          51.364175
         ],
         [
-          -0.20246039999999998,
-          51.364193
+          -0.202485,
+          51.364194
         ],
         [
-          -0.20240129999999998,
-          51.3640994
+          -0.202426,
+          51.364101
         ],
         [
-          -0.20243329999999998,
-          51.3640911
+          -0.202458,
+          51.364092
         ],
         [
-          -0.2026048,
-          51.3640466
+          -0.20263,
+          51.364048
         ],
         [
-          -0.20285029999999998,
-          51.3639829
+          -0.202875,
+          51.363984
         ],
         [
-          -0.2028533,
-          51.3639821
+          -0.202878,
+          51.363983
         ]
       ]
     ],
     "type": "Polygon"
   },
-  "site_name": "R/O 83 St James' Road\rSutton\rSM1 2TJ\r",
+  "site_name": "R/O 83 St James' Road\nSutton\nSM1 2TJ\n",
   "centroid_easting": 525221,
   "pp_id": "PP-12564115",
-  "cil_liability": true,
+  "cil_liability": false,
   "reference_no_of_permission_being_relied_on": null,
   "date_building_work_completed_under_previous_permission": null,
   "application_details": {
@@ -114,14 +114,19 @@
       "total_no_existing_residential_affordable_units": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 3,
-          "provider": "Private",
-          "unit_no": "Gain-1",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "House or Bungalow",
-          "gia": 51.5,
-          "tenure": "Market for rent"
+          "unit_development_type": "Change of Use",
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "23/05/2025",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 51.5
         }
       ],
       "total_no_proposed_residential_units_discount_market_sale": 0,
@@ -131,27 +136,28 @@
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_discount_market_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 21.739130434782606,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 65.21739130434781,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_gia_lost": 0,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
-      "total_no_existing_residential_units_affordable_rent": 0
+      "total_no_existing_residential_units_affordable_rent": 0,
+      "site_area": 0.046000000000000006
     },
     "surface_water_discharge_percentage_reduction": 80,
     "phasing_details": [
       {
         "phase_detail": "CONVERSION / EXTENSION",
-        "intended_completion_date": "12/2024",
-        "intended_commencement_date": "06/2024"
+        "intended_commencement_date": "06/2024",
+        "intended_completion_date": "12/2024"
       }
     ],
     "site_area": 0.046000000000000006,
@@ -162,7 +168,8 @@
       "total_gia_lost": 41.5,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_existing": 41.5,
-      "total_non_resi_gross_internal_floor_area_to_be_gained": 0
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "site_area": 0.046000000000000006
     },
     "internal_resi_water_usage": 110,
     "infrastructure_details": {
@@ -177,23 +184,31 @@
       "no_new_gas_connections_required": 0,
       "urban_greening_factor_score": 0.4,
       "no_homes_to_have_electrical_heating": 0,
-      "fire_suppression_system_proposed": true,
+      "fire_suppression_system_proposed": false,
       "mobile_network_operators_consultation": false,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "no_resi_units_to_have_full_fibre": 1,
       "total_annual_nox_emissions": 0,
       "no_homes_passive_cooling": 1,
-      "waste_provision": true
+      "waste_provision": false
     },
-    "rain_water_harvesting": true,
-    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "scheme_phasing": false,
     "garden_land_lost": false,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 41.5,
         "use_class": "SpecifiedOther",
-        "gia_gained": 51.5,
+        "gia_gained": 0,
+        "actual_commencement_date": "23/05/2025",
         "gia_lost": 41.5
+      },
+      {
+        "gia_existing": 0,
+        "use_class": "C3",
+        "gia_gained": 51.5,
+        "actual_commencement_date": "23/05/2025",
+        "gia_lost": 0
       }
     ],
     "ownership_status": "Private",
@@ -201,22 +216,35 @@
     "total_gia_lost": 41.5,
     "grey_water_reuse": false,
     "total_gia_existing": 41.5,
-    "green_suds": true
+    "green_suds": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.046000000000000006
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "lpa_name": "Sutton",
   "decision": "Refused",
   "lpa_app_no": "DM2023/01632",
   "decision_date": "01/02/2024",
-  "last_updated": "2025-03-19T19:39:08.260+00:00",
+  "last_updated": "2026-08-25T09:37:26.632Z",
   "centroid_northing": 164312,
   "centroid": {
-    "lat": "51.3640777",
-    "lon": "-0.2026895"
+    "lat": 51.364079,
+    "lon": -0.202714
   },
   "appeal_decision_date": "10/12/2024",
   "locality": null,
   "ward": "W08",
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "lapsed_date": "01/02/2027",
   "decision_process": "Delegated",
   "last_date_consultation_comments": "01/01/2024",
@@ -224,7 +252,7 @@
   "appeal_start_date": "27/06/2024",
   "epc_number": null,
   "valid_date": "07/12/2023",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "23/05/2025",
   "decision_conditions": [
     "Design",
     "Principle"
@@ -324,12 +352,12 @@
   },
   "title_number": [],
   "appeal_status": null,
-  "status": "Allowed",
+  "status": "Commenced",
   "date_building_work_started_under_previous_permission": null,
   "application_type_full": "Full planning permission",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "actual_completion_date": null,
-  "street_name": null,
+  "street_name": "",
   "secondary_street_name": null,
   "description": "Erection of detached single storey dwelling with refuse storage, parking, cycle storage and landscaping.",
   "id": "Sutton-DM2023_01632",

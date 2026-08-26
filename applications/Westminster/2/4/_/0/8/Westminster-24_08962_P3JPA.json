@@ -3,15 +3,46 @@
   "epc_number": null,
   "site_name": "",
   "cil_liability": false,
-  "polygon": null,
-  "actual_commencement_date": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              529732.25,
+              179546.7
+            ],
+            [
+              529731.6,
+              179541
+            ],
+            [
+              529740.4,
+              179538.45
+            ],
+            [
+              529742.05,
+              179544
+            ],
+            [
+              529732.25,
+              179546.7
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
+  "actual_commencement_date": "01/04/2024",
   "site_number": "18",
   "decision": "Approved",
   "parking_details": null,
   "application_type_full": "Prior Approval: Change of use from Commercial, Business and Service (Use Class E) to Dwellinghouses (Use Class C3)",
   "ward": "SJW_22",
   "last_date_consultation_comments": "31/01/2025",
-  "centroid_easting": "529733",
+  "centroid_easting": 529737,
   "appeal_decision_date": null,
   "appeal_status": null,
   "description": "Notification for prior approval application for conversion of offices to a single dwellinghouse under Class MA, Part 3, Schedule 2 of the Town and Country Planning (General Permitted Development) Order 2015 (as amended).",
@@ -21,8 +52,8 @@
   "decision_target_date": "13/02/2025",
   "street_name": "Dartmouth Street",
   "decision_process": "Delegated",
-  "last_updated_by": "Idox Uniform",
-  "centroid_northing": "179544",
+  "last_updated_by": "Portal",
+  "centroid_northing": 179543,
   "application_type": "Prior Approval",
   "title_number": [],
   "decision_conditions": [
@@ -35,11 +66,7 @@
     "Dvpmt in accordance with approvd plans",
     "For avoidance of doubt",
     "Proposed resi subject to external noise",
-    "",
-    "",
-    "Flood Risk",
-    "",
-    ""
+    "Flood Risk"
   ],
   "appeal_start_date": null,
   "development_type": null,
@@ -47,24 +74,24 @@
     "coordinates": [
       [
         [
-          -0.132344,
-          51.499967
-        ],
-        [
-          -0.132345,
-          51.49994
-        ],
-        [
-          -0.132388,
-          51.499941
+          -0.132376,
+          51.499979
         ],
         [
           -0.132387,
-          51.499968
+          51.499928
         ],
         [
-          -0.132344,
-          51.499967
+          -0.132262,
+          51.499903
+        ],
+        [
+          -0.132236,
+          51.499952
+        ],
+        [
+          -0.132376,
+          51.499979
         ]
       ]
     ],
@@ -76,16 +103,16 @@
   "pp_id": "PP-13538996",
   "url_planning_app": null,
   "lpa_name": "Westminster",
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "subdivision_of_building": null,
   "secondary_street_name": null,
   "date_building_work_started_under_previous_permission": null,
   "centroid": {
-    "lat": 51.499954,
-    "lon": -0.132366
+    "lat": 51.499944,
+    "lon": -0.132309
   },
-  "status": null,
-  "last_updated": "2025-04-21T20:03:12.409Z",
+  "status": "Commenced",
+  "last_updated": "2026-08-25T11:58:49.230Z",
   "actual_completion_date": null,
   "lapsed_date": "26/02/2030",
   "borough": "Westminster",
@@ -97,7 +124,7 @@
     "occupation_status": "Occupied",
     "residential_details": {
       "total_no_proposed_residential_units_intermediate": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 166.66666666666666,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_market_for_rent": 0,
       "affordable_percentage": 0,
@@ -127,12 +154,15 @@
       "total_no_proposed_residential_units_starter_homes": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 6,
           "provider": "Private",
-          "unit_no": "Gain-1",
+          "no_habitable_rooms": 6,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "no_bedrooms": 3,
           "unit_type": "Terraced Home",
+          "provision_for_older_persons": false,
           "tenure": "Market for sale",
           "gia": 220
         }
@@ -140,12 +170,13 @@
       "total_no_proposed_bedrooms": 3,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_proposed_residential_units": 1,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 1000,
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
-      "total_no_proposed_residential_units_self_build_and_custom_build": 0
+      "total_no_proposed_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.006
     },
     "intended_completion_date": "11/2024",
     "infrastructure_details": {
@@ -157,7 +188,7 @@
       "fire_suppression_system_proposed": false,
       "no_resi_units_to_have_full_fibre": 1,
       "green_roof_area": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "ghg_reduction_over_building_regulations": false,
       "mobile_network_operators_consultation": false,
       "no_new_gas_connections_required": 0,
@@ -180,9 +211,11 @@
         "gia_existing": 220,
         "use_class": "E(g)(i)",
         "gia_gained": 220,
+        "actual_commencement_date": "01/04/2024",
         "gia_lost": 220
       }
     ],
-    "site_area": 0.006
+    "site_area": 0.006,
+    "resi_extension_exempt": false
   }
 }

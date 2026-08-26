@@ -11,10 +11,10 @@
   "postcode": "W1K 3NU",
   "locality": null,
   "appeal_decision": null,
-  "status": "Approved",
+  "status": "Commenced",
   "pp_id": "PP-13365313",
   "street_name": "Mount Street",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "lpa_name": "Westminster",
   "centroid": {
     "lon": -0.14792,
@@ -25,7 +25,7 @@
   "application_details": {
     "total_gia_lost": 140,
     "internal_resi_water_usage": 0,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "surface_water_discharge_percentage_reduction": 0,
     "ownership_status": "Private",
     "garden_land_lost": false,
@@ -53,7 +53,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 140,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_existing": 234
+      "total_gia_existing": 234,
+      "site_area": 0.046000000000000006
     },
     "phasing_details": [
       {
@@ -70,7 +71,7 @@
       "affordable_percentage": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 86.95652173913042,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
@@ -81,13 +82,18 @@
       "total_no_proposed_residential_units_market_for_rent": 1,
       "residential_units": [
         {
-          "no_habitable_rooms": 4,
           "provider": "Private",
+          "no_habitable_rooms": 4,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
+          "actual_commencement_date": "07/01/2025",
           "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 143,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 143
         }
       ],
       "total_no_proposed_residential_units_london_shared_ownership": 0,
@@ -103,7 +109,7 @@
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_shared_equity": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 21.739130434782606,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
@@ -112,16 +118,17 @@
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_social_rent": 0,
-      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0
+      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "site_area": 0.046000000000000006
     },
     "rain_water_harvesting": false,
     "site_area": 0.046000000000000006,
     "infrastructure_details": {
       "no_homes_passive_cooling": 0,
-      "fire_suppression_system_proposed": true,
+      "fire_suppression_system_proposed": false,
       "total_annual_nox_emissions": 0,
       "percentage_demolition_construction_material_recycling": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_resi_units_to_have_full_fibre": 0,
       "total_annual_pm_emissions": 0,
       "green_roof_area": 0,
@@ -131,7 +138,20 @@
       "no_new_gas_connections_required": 0,
       "no_homes_to_have_electrical_heating": 0,
       "no_non_resi_units_to_have_full_fibre": 0
-    }
+    },
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.046000000000000006
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "application_type_full": "Full planning & listed building consent",
   "cil_liability": false,
@@ -162,11 +182,11 @@
     ],
     "type": "Polygon"
   },
-  "centroid_easting": "528625",
-  "actual_commencement_date": null,
+  "centroid_easting": 528625,
+  "actual_commencement_date": "07/01/2025",
   "date_building_work_completed_under_previous_permission": null,
   "url_planning_app": null,
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "appeal_start_date": null,
   "secondary_street_name": null,
   "subdivision_of_building": null,
@@ -174,7 +194,7 @@
   "site_name": "",
   "id": "Westminster-24_06686_FULL",
   "decision_target_date": "20/11/2024",
-  "centroid_northing": "180641",
+  "centroid_northing": 180641,
   "date_building_work_started_under_previous_permission": null,
   "polygon": {
     "geometries": [
@@ -231,7 +251,6 @@
     "DES External works to match existing",
     "Proposed resi subject to external noise",
     "Submit Details",
-    "",
     "Land Use Swap",
     "Plant enclosure"
   ],
@@ -239,7 +258,7 @@
   "uprn": "100023475867",
   "reference_no_of_permission_being_relied_on": null,
   "decision_process": "Delegated",
-  "last_updated": "2026-06-23T20:04:22.516Z",
+  "last_updated": "2026-08-25T14:46:49.435Z",
   "decision_agency": null,
   "parking_details": null,
   "lapsed_date": "07/01/2028",

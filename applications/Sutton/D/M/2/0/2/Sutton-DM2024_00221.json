@@ -1,7 +1,14 @@
 {
   "epc_number": null,
   "appeal_decision_date": null,
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 0,
+    "net_car": 2,
+    "no_proposed_cycle": 4,
+    "no_proposed_car": 2,
+    "net_cycle": 4
+  },
   "appeal_decision": null,
   "decision_agency": null,
   "application_type": "All Other",
@@ -12,9 +19,9 @@
   "street_name": "Epsom Road",
   "locality": null,
   "ward": "W04",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "15/12/2025",
   "lpa_name": "Sutton",
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "decision_conditions": [
     "Standard 3 years (CON/LBC)",
     "Materials Sample (review if LBC/CON)",
@@ -33,87 +40,87 @@
   ],
   "date_building_work_started_under_previous_permission": null,
   "centroid_easting": 524741,
-  "status": "Approved",
+  "status": "Commenced",
   "decision_date": "02/05/2024",
   "wgs84_polygon": {
     "type": "Polygon",
     "coordinates": [
       [
         [
-          -0.20887789999999998,
-          51.387709
+          -0.208902,
+          51.38771
         ],
         [
-          -0.2088137,
-          51.3876779
+          -0.208838,
+          51.387679
         ],
         [
-          -0.2087819,
-          51.3877022
+          -0.208806,
+          51.387703
         ],
         [
-          -0.2084655,
-          51.3876141
+          -0.20849,
+          51.387615
         ],
         [
-          -0.20842449999999998,
-          51.3875973
+          -0.208449,
+          51.387598
         ],
         [
-          -0.2084305,
-          51.3875903
+          -0.208455,
+          51.387591
         ],
         [
-          -0.20844849999999998,
-          51.3875721
+          -0.208473,
+          51.387573
         ],
         [
-          -0.20842159999999998,
-          51.3875622
+          -0.208446,
+          51.387563
         ],
         [
-          -0.20842639999999998,
-          51.3875304
+          -0.208451,
+          51.387531
         ],
         [
-          -0.20854509999999998,
-          51.3874355
+          -0.208569,
+          51.387437
         ],
         [
-          -0.20860209999999998,
-          51.3874633
+          -0.208626,
+          51.387464
         ],
         [
-          -0.20874,
-          51.3875307
+          -0.208764,
+          51.387532
         ],
         [
-          -0.2087405,
-          51.3875304
+          -0.208765,
+          51.387531
         ],
         [
-          -0.20874679999999998,
-          51.3875335
+          -0.208771,
+          51.387534
         ],
         [
-          -0.2088166,
-          51.3875678
+          -0.208841,
+          51.387569
         ],
         [
-          -0.20885499999999999,
-          51.3875867
+          -0.208879,
+          51.387588
         ],
         [
-          -0.2088707,
-          51.3875944
+          -0.208895,
+          51.387595
         ],
         [
-          -0.2089626,
-          51.3876397
+          -0.208987,
+          51.387641
         ],
         [
-          -0.20887789999999998,
-          51.387709
+          -0.208902,
+          51.38771
         ]
       ]
     ]
@@ -124,12 +131,12 @@
   "development_type": null,
   "title_number": [],
   "appeal_status": null,
-  "last_updated": "2025-03-19T23:14:58.037+00:00",
-  "last_updated_by": "Idox Uniform",
+  "last_updated": "2026-08-26T01:07:46.677Z",
+  "last_updated_by": "Planning Portal ingest",
   "site_name": "",
   "id": "Sutton-DM2024_00221",
   "decision": "Approved",
-  "cil_liability": true,
+  "cil_liability": false,
   "centroid_northing": 166916,
   "appeal_start_date": null,
   "postcode": "SM3 9EY",
@@ -138,7 +145,7 @@
   "secondary_street_name": null,
   "site_number": "93",
   "reference_no_of_permission_being_relied_on": null,
-  "description": "Erection of an attached two storey dwelling with accommodation in the roofspace, provision of refuse storage, cycle storage and parking to the front, flank and rear and new boundary treatments including two vehicular access gates to rear. Erection of a single storey side and rear extension, conversion of loft space involving alterations to existing roofline, a dormer extension at rear, rooflights to front and flank roofslope, removal of a rear chimney and alteration to the first floor flank fenestration to 93 Epsom Road. \r",
+  "description": "Erection of an attached two storey dwelling with accommodation in the roofspace, provision of refuse storage, cycle storage and parking to the front, flank and rear and new boundary treatments including two vehicular access gates to rear. Erection of a single storey side and rear extension, conversion of loft space involving alterations to existing roofline, a dormer extension at rear, rooflights to front and flank roofslope, removal of a rear chimney and alteration to the first floor flank fenestration to 93 Epsom Road. \n",
   "valid_date": "11/03/2024",
   "polygon": {
     "geometries": [
@@ -237,11 +244,12 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 212.5,
       "total_gia_lost": 0,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "site_area": 0.057
     },
     "affordable_housing_fast_track": false,
     "garden_land_lost": true,
-    "site_area": 0.057,
+    "site_area": 0.0562,
     "total_gia_existing": 130.5,
     "rain_water_harvesting": false,
     "building_details": [
@@ -265,8 +273,8 @@
     "phasing_details": [
       {
         "phase_detail": "Single phase",
-        "intended_completion_date": "06/2025",
-        "intended_commencement_date": "06/2024"
+        "intended_commencement_date": "06/2024",
+        "intended_completion_date": "06/2025"
       }
     ],
     "total_gia_lost": 0,
@@ -282,12 +290,11 @@
         {
           "no_habitable_rooms": 6,
           "provider": "Private",
-          "unit_no": "Gain-1",
           "change_type": "Gain",
           "no_bedrooms": 4,
           "unit_type": "Semi Detached Home",
-          "gia": 175,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 175
         }
       ],
       "total_no_existing_residential_units_intermediate": 0,
@@ -313,16 +320,17 @@
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_gia_gained": 175,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 17.543859649122805,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 105.26315789473684,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_residential_units_market_for_sale": 1
+      "total_no_proposed_residential_units_market_for_sale": 1,
+      "site_area": 0.057
     },
     "infrastructure_details": {
       "waste_provision": true,
@@ -342,11 +350,24 @@
       "chp_heat_pumps_capacity": 0.01,
       "solar_pv_capacity": 0.01
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.057
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "centroid": {
-    "lon": "-0.2086679",
-    "lat": "51.3875862"
+    "lon": -0.208692,
+    "lat": 51.387587
   },
   "lapsed_date": "02/05/2027",
   "decision_process": "Delegated",

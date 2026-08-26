@@ -1,13 +1,13 @@
 {
   "appeal_status": null,
   "centroid": {
-    "lon": "-0.1404631",
-    "lat": "51.5195177"
+    "lon": -0.140488,
+    "lat": 51.519516
   },
   "decision_target_date": "21/04/2023",
   "lapsed_date": "15/06/2026",
   "appeal_start_date": null,
-  "last_updated": "2025-03-20T12:26:18.982+00:00",
+  "last_updated": "2026-08-25T15:22:11.617Z",
   "locality": null,
   "development_type": null,
   "postcode": "W1W 6TE",
@@ -21,24 +21,24 @@
     "coordinates": [
       [
         [
-          -0.1403183,
-          51.5195223
+          -0.140343,
+          51.519521
         ],
         [
-          -0.1405824,
-          51.5194744
+          -0.140608,
+          51.519473
         ],
         [
-          -0.14060899999999998,
-          51.5195254
+          -0.140634,
+          51.519524
         ],
         [
-          -0.1403379,
-          51.5195672
+          -0.140363,
+          51.519566
         ],
         [
-          -0.1403183,
-          51.5195223
+          -0.140343,
+          51.519521
         ]
       ]
     ],
@@ -113,16 +113,17 @@
   "application_details": {
     "projected_cost_of_works": "Up to £2m",
     "total_gia_existing": 240,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "total_gia_gained": 160,
     "site_area": 0.011000000000000001,
-    "rain_water_harvesting": true,
+    "rain_water_harvesting": false,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 160,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_lost": 175,
-      "total_gia_existing": 240
+      "total_gia_existing": 240,
+      "site_area": 0.011000000000000001
     },
     "garden_land_lost": false,
     "infrastructure_details": {
@@ -137,10 +138,10 @@
       "no_new_gas_connections_required": 0,
       "total_annual_pm_emissions": 0.01,
       "urban_greening_factor_score": 0.1,
-      "fire_suppression_system_proposed": true,
+      "fire_suppression_system_proposed": false,
       "no_resi_units_to_have_full_fibre": 1,
       "green_roof_area": 20,
-      "waste_provision": true
+      "waste_provision": false
     },
     "ownership_status": "Private",
     "surface_water_discharge_percentage_reduction": 30,
@@ -148,8 +149,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_completion_date": "05/2025",
-        "intended_commencement_date": "05/2023"
+        "intended_commencement_date": "05/2023",
+        "intended_completion_date": "05/2025"
       }
     ],
     "internal_resi_water_usage": 100,
@@ -176,24 +177,31 @@
       "residential_units": [
         {
           "no_habitable_rooms": 3,
-          "unit_no": "Loss-1",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
+          "actual_commencement_date": "06/03/2025",
           "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
-          "gia": 65,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 65
         },
         {
-          "no_habitable_rooms": 8,
           "provider": "Private",
-          "unit_no": "Gain-1",
+          "no_habitable_rooms": 8,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
+          "actual_commencement_date": "06/03/2025",
           "no_bedrooms": 6,
           "unit_type": "Terraced Home",
-          "gia": 225,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 225
         }
       ],
       "total_no_proposed_residential_units_social_rent": 0,
@@ -208,7 +216,7 @@
       "total_no_proposed_residential_units_market_for_rent": 0,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 90.9090909090909,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_proposed_bedrooms": 6,
@@ -218,7 +226,7 @@
       "total_no_existing_residential_units_market_for_sale": 1,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 727.2727272727273,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units": 1,
@@ -229,14 +237,28 @@
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "affordable_percentage": 0
+      "affordable_percentage": 0,
+      "site_area": 0.011000000000000001
     },
     "green_suds": false,
-    "affordable_housing_fast_track": false
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.011000000000000001
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "valid_date": "24/02/2023",
   "parking_details": null,
-  "actual_commencement_date": null,
+  "actual_commencement_date": "06/03/2025",
   "centroid_northing": 181705,
   "application_type": "All Other",
   "decision_conditions": [
@@ -255,19 +277,19 @@
   ],
   "url_planning_app": null,
   "pp_id": "PP-11959493",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "centroid_easting": 529114,
   "borough": "Westminster",
   "epc_number": null,
   "lpa_app_no": "23/01220/FULL",
   "decision_agency": null,
   "date_building_work_completed_under_previous_permission": null,
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "subdivision_of_building": null,
   "description": "Use as a single dwellinghouse (Class C3), creation of rear ground floor courtyard with retractable louvered roof above, and associated external alterations.",
   "appeal_decision": null,
   "appeal_decision_date": null,
-  "status": "Approved",
+  "status": "Commenced",
   "decision_date": "15/06/2023",
   "cil_liability": false
 }

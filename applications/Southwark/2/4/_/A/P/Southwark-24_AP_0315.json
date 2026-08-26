@@ -1,12 +1,12 @@
 {
   "borough": "London Borough of Southwark",
   "application_details": {
-    "affordable_housing_fast_track": true,
+    "affordable_housing_fast_track": false,
     "phasing_details": [
       {
         "phase_detail": "Entire Development ",
-        "intended_completion_date": "12/2023",
-        "intended_commencement_date": "10/2023"
+        "intended_commencement_date": "10/2023",
+        "intended_completion_date": "12/2023"
       }
     ],
     "total_gia_gained": 0,
@@ -16,13 +16,15 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 78,
+        "actual_completion_date": "18/03/2026",
         "use_class": "E(g)(i)",
         "gia_gained": 0,
+        "actual_commencement_date": "09/02/2025",
         "gia_lost": 78
       }
     ],
     "projected_cost_of_works": "Up to £2m",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "rain_water_harvesting": false,
     "grey_water_reuse": false,
     "surface_water_discharge_percentage_reduction": 0,
@@ -32,7 +34,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 0,
       "total_gia_lost": 78,
-      "total_gia_existing": 78
+      "total_gia_existing": 78,
+      "site_area": 0.0045000000000000005
     },
     "garden_land_lost": false,
     "internal_resi_water_usage": 0,
@@ -56,13 +59,13 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 666.6666666666666,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 78,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 222.2222222222222,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_gia_lost": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -75,18 +78,24 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 3,
-          "provider": "Private",
-          "unit_no": "Gain-1",
+          "actual_completion_date": "18/03/2026",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 78,
-          "tenure": "Self-Build and Custom Build"
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "09/02/2025",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Self-Build and Custom Build",
+          "gia": 78
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.0045000000000000005
     },
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
@@ -97,31 +106,44 @@
       "no_new_water_connections_required": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 80,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
-      "ghg_reduction_over_building_regulations": true
+      "ghg_reduction_over_building_regulations": false
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.0045000000000000005
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "date_building_work_started_under_previous_permission": null,
   "lpa_app_no": "24/AP/0315",
   "decision_target_date": "07/04/2024",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "locality": null,
-  "street_name": null,
+  "street_name": "",
   "date_building_work_completed_under_previous_permission": null,
   "decision_process": "Delegated",
   "uprn": "010013524362",
   "ward": "SGEO",
   "decision_agency": null,
-  "actual_commencement_date": null,
-  "last_updated": "2025-03-19T18:50:08.966+00:00",
+  "actual_commencement_date": "09/02/2025",
+  "last_updated": "2026-08-25T09:50:00.197Z",
   "appeal_decision_date": null,
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "centroid_northing": null,
   "site_number": null,
   "decision": "Approved",
@@ -248,7 +270,7 @@
   },
   "lapsed_date": "06/08/2027",
   "decision_conditions": [
-    "Standard 3 year time limit ",
+    "Standard 3 year time limit",
     "horizontal noise transmittance",
     "internal noise compliance"
   ],
@@ -382,18 +404,18 @@
   "id": "Southwark-24_AP_0315",
   "description": "Change of use from office (Use Class E) to a self-contained two bed residential unit (Use Class C3) at first floor level.",
   "appeal_start_date": null,
-  "postcode": null,
-  "status": "Approved",
+  "postcode": "",
+  "status": "Completed",
   "pp_id": "PP-12133987",
   "last_date_consultation_comments": "07/03/2024",
   "development_type": null,
   "epc_number": null,
-  "site_name": "Unit 1E\rThe Chandlery\r50 Westminster Bridge Road\rLondon\rSouthwark\rSE1 7QY\r",
+  "site_name": "Unit 1E\nThe Chandlery\n50 Westminster Bridge Road\nLondon\nSouthwark\nSE1 7QY\n",
   "parking_details": null,
   "appeal_decision": null,
   "valid_date": "12/02/2024",
-  "actual_completion_date": null,
-  "cil_liability": true,
+  "actual_completion_date": "18/03/2026",
+  "cil_liability": false,
   "url_planning_app": null,
   "application_type_full": "Full planning permission"
 }

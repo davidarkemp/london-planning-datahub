@@ -50,7 +50,7 @@
   },
   "secondary_street_name": null,
   "street_name": "Westbourne Grove",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "date_building_work_started_under_previous_permission": null,
   "application_details": {
     "non_residential_details": {
@@ -58,11 +58,12 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 0,
       "total_gia_existing": 161,
-      "total_gia_lost": 144
+      "total_gia_lost": 144,
+      "site_area": 0.0161
     },
     "total_gia_gained": 0,
     "affordable_housing_fast_track": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "rain_water_harvesting": false,
     "projected_cost_of_works": "Up to £2m",
     "site_area": 0.0161,
@@ -70,8 +71,8 @@
     "phasing_details": [
       {
         "phase_detail": "Fit-out",
-        "intended_completion_date": "11/2025",
-        "intended_commencement_date": "06/2025"
+        "intended_commencement_date": "06/2025",
+        "intended_completion_date": "11/2025"
       }
     ],
     "residential_details": {
@@ -82,23 +83,33 @@
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "residential_units": [
         {
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
+          "actual_commencement_date": "01/04/2025",
           "unit_type": "Communal Space",
+          "provision_for_older_persons": false,
           "gia": 148
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
+          "actual_commencement_date": "01/04/2025",
           "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 144
         }
       ],
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 124.22360248447205,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_social_rent": 0,
@@ -113,7 +124,7 @@
       "total_gia_gained": 292,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units": 2,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 124.22360248447205,
       "total_no_proposed_bedrooms": 2,
       "total_no_proposed_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_intermediate": 0,
@@ -128,7 +139,8 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "total_no_existing_residential_units_starter_homes": 0
+      "total_no_existing_residential_units_starter_homes": 0,
+      "site_area": 0.0161
     },
     "infrastructure_details": {
       "no_resi_units_to_have_full_fibre": 1,
@@ -141,7 +153,7 @@
       "fire_suppression_system_proposed": false,
       "total_annual_nox_emissions": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_homes_to_have_electrical_heating": 1,
       "mobile_network_operators_consultation": false,
       "ghg_reduction_over_building_regulations": false
@@ -150,7 +162,7 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 161,
-        "use_class": "EC3",
+        "use_class": "E(c)(iii)",
         "gia_gained": 0,
         "gia_lost": 144
       }
@@ -160,7 +172,20 @@
     "total_gia_lost": 144,
     "total_gia_existing": 161,
     "green_suds": false,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.0161
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "ward": "BWW_22",
   "cil_liability": false,
@@ -170,7 +195,7 @@
   },
   "uprn": "100023614852",
   "parking_details": null,
-  "centroid_easting": "525620",
+  "centroid_easting": 525620,
   "development_type": null,
   "lpa_app_no": "25/01398/FULL",
   "date_building_work_completed_under_previous_permission": null,
@@ -178,9 +203,9 @@
   "locality": null,
   "application_type": "All Other",
   "id": "Westminster-25_01398_FULL",
-  "centroid_northing": "181188",
+  "centroid_northing": 181188,
   "appeal_status": null,
-  "status": "Approved",
+  "status": "Commenced",
   "description": "Use of part first and second floors as a residential unit (Class C3).",
   "site_name": "First Floor (Including Second Floor Of 38)",
   "appeal_start_date": null,
@@ -252,16 +277,15 @@
     "Waste storage",
     "Dvpmt in accordance with approvd plans",
     "For avoidance of doubt",
-    "Proposed resi subject to external noise",
-    ""
+    "Proposed resi subject to external noise"
   ],
   "decision_agency": null,
-  "bo_system": "Idox Uniform",
-  "actual_commencement_date": null,
+  "bo_system": "Portal",
+  "actual_commencement_date": "01/04/2025",
   "appeal_decision_date": null,
   "pp_id": "PP-13817927",
   "reference_no_of_permission_being_relied_on": null,
   "borough": "Westminster",
-  "last_updated": "2026-04-21T20:01:21.404Z",
+  "last_updated": "2026-08-25T14:37:13.852Z",
   "actual_completion_date": null
 }
