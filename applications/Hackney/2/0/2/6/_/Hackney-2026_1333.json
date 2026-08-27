@@ -15,13 +15,13 @@
   "lpa_app_no": "2026/1333",
   "title_number": null,
   "decision": null,
-  "last_updated": "2026-07-08T01:56:55.188Z",
+  "last_updated": "2026-08-27T01:20:43.292Z",
   "appeal_start_date": null,
   "actual_commencement_date": null,
   "bo_system": "Portal",
   "secondary_street_name": null,
   "decision_agency": "Borough",
-  "last_date_consultation_comments": "25/07/2026",
+  "last_date_consultation_comments": "01/09/2026",
   "appeal_decision_date": null,
   "actual_completion_date": null,
   "centroid_northing": 187857,
@@ -79,14 +79,14 @@
       "no_homes_passive_cooling": 0,
       "waste_details": [
         {
-          "reason_for_no_provision": "Electronic communications apparatus",
-          "internal_dry_recycling": false,
           "external_dry_recycling": false,
+          "external_food_waste": false,
+          "unit_reference": "Kiosk",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "Electronic communications apparatus",
           "internal_residual_waste": false,
           "internal_food_waste": false,
-          "external_residual_waste": false,
-          "external_food_waste": false,
-          "unit_reference": "Kiosk"
+          "internal_dry_recycling": false
         }
       ],
       "no_non_resi_units_to_have_full_fibre": 0,
@@ -105,8 +105,8 @@
     "scheme_phasing": true,
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "SpecifiedOther",
         "gia_existing": 0.42,
+        "use_class": "SpecifiedOther",
         "gia_gained": 0.42,
         "gia_lost": 0.42
       }
@@ -116,9 +116,9 @@
     "total_gia_gained": 0.42,
     "phasing_details": [
       {
-        "intended_completion_date": "12/2026",
+        "phase_detail": "Entire development",
         "intended_commencement_date": "08/2026",
-        "phase_detail": "Entire development"
+        "intended_completion_date": "12/2026"
       }
     ],
     "affordable_housing_fast_track": false,
@@ -129,8 +129,8 @@
     "surface_water_discharge_percentage_reduction": 0,
     "building_details": [
       {
-        "max_height": 2.45,
         "no_storeys": 1,
+        "max_height": 2.45,
         "building_ref": "Proposed New Communications Kiosk"
       }
     ],
@@ -153,7 +153,6 @@
     },
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -177,10 +176,10 @@
               187854.418543105
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -204,10 +203,10 @@
               187854.418543105
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -231,10 +230,10 @@
               187854.418543105
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -258,10 +257,10 @@
               187854.418543105
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -285,7 +284,8 @@
               187854.418543105
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"

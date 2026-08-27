@@ -15,7 +15,7 @@
   "lpa_app_no": "2026/1270",
   "title_number": null,
   "decision": null,
-  "last_updated": "2026-07-08T01:56:52.733Z",
+  "last_updated": "2026-08-26T07:50:13.758Z",
   "appeal_start_date": null,
   "actual_commencement_date": null,
   "bo_system": "Portal",
@@ -101,14 +101,14 @@
     "scheme_phasing": true,
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3",
         "gia_existing": 110,
+        "use_class": "C3",
         "gia_gained": 0,
         "gia_lost": 110
       },
       {
-        "use_class": "C4",
         "gia_existing": 0,
+        "use_class": "C4",
         "gia_gained": 110,
         "gia_lost": 0
       }
@@ -125,23 +125,23 @@
       "residential_units": [
         {
           "no_habitable_rooms": 3,
-          "tenure": "Market for rent",
-          "gia": 55,
-          "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 2,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "provision_for_older_persons": false
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 55
         },
         {
           "no_habitable_rooms": 3,
-          "tenure": "Market for rent",
-          "gia": 55,
-          "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 2,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "provision_for_older_persons": false
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 55
         }
       ],
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
@@ -183,13 +183,13 @@
     "total_gia_gained": 110,
     "phasing_details": [
       {
+        "phase_detail": "Phase 1",
         "intended_completion_date": "10/2026",
-        "intended_commencement_date": "09/2026",
-        "phase_detail": "Phase 1"
+        "intended_commencement_date": "09/2026"
       }
     ],
     "affordable_housing_fast_track": false,
-    "site_area": 0.012,
+    "site_area": 120,
     "projected_cost_of_works": "Up to £2m",
     "rain_water_harvesting": false,
     "internal_resi_water_usage": 0,
@@ -199,7 +199,7 @@
   "site_name": "First Floor And Second Floor Flat",
   "decision_process": "Delegated",
   "postcode": "N16 7UY",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Portal",
   "centroid": {
     "lat": 51.556234,
     "lon": -0.074249
@@ -213,7 +213,6 @@
     },
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -245,10 +244,10 @@
               185909.435421049
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -280,7 +279,8 @@
               185909.435421049
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"

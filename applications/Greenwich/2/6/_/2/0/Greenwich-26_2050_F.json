@@ -14,7 +14,7 @@
   "secondary_street_name": null,
   "date_building_work_completed_under_previous_permission": null,
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated": "2026-08-26T01:07:48.511Z",
+  "last_updated": "2026-08-26T22:04:18.267Z",
   "decision_target_date": null,
   "street_name": null,
   "postcode": null,
@@ -35,7 +35,7 @@
   "centroid_easting": 544358,
   "lpa_name": "Greenwich",
   "decision_agency": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "CSV Data Import",
   "lapsed_date": null,
   "description": "Change of use of first floor from ancillary hot food takeaway accommodation to 1 x 1-bedroom self-contained flat (Use Class C3); retention and refit of ground floor commercial unit (Use Class E); alterations to front elevation with replacement shopfront and ancillary accommodation access for self-contained flat at first floor level, internal reconfiguration, alterations to existing recessed terrace and all other associated alterations.",
   "last_date_consultation_comments": "23/09/2026",
@@ -63,11 +63,11 @@
       "residential_units": [
         {
           "no_habitable_rooms": 2,
-          "tenure": "Market for rent",
-          "change_type": "Gain",
           "provider": "Private",
+          "change_type": "Gain",
           "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
+          "tenure": "Market for rent",
           "gia": 42
         }
       ],
@@ -113,22 +113,22 @@
     "ownership_status": "Private",
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "SG",
         "gia_existing": 73,
-        "gia_lost": 73,
-        "gia_gained": 0
+        "use_class": "SG",
+        "gia_gained": 0,
+        "gia_lost": 73
       },
       {
+        "gia_existing": 0,
         "use_class": "EC2",
-        "gia_existing": 0,
-        "gia_lost": 0,
-        "gia_gained": 31
+        "gia_gained": 31,
+        "gia_lost": 0
       },
       {
-        "use_class": "C3",
         "gia_existing": 0,
-        "gia_lost": 0,
-        "gia_gained": 42
+        "use_class": "C3",
+        "gia_gained": 42,
+        "gia_lost": 0
       }
     ],
     "total_gia_gained": 73,
@@ -138,9 +138,9 @@
     "surface_water_discharge_percentage_reduction": 0,
     "phasing_details": [
       {
+        "phase_detail": "Entire Development",
         "intended_commencement_date": "10/2026",
-        "intended_completion_date": "04/2027",
-        "phase_detail": "Entire Development"
+        "intended_completion_date": "04/2027"
       }
     ],
     "scheme_phasing": true,

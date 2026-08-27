@@ -15,8 +15,8 @@
     "phasing_details": [
       {
         "phase_detail": "Roof Extension",
-        "intended_completion_date": "05/2027",
-        "intended_commencement_date": "07/2026"
+        "intended_commencement_date": "07/2026",
+        "intended_completion_date": "05/2027"
       }
     ],
     "total_gia_gained": 89.8,
@@ -25,14 +25,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 101,
+        "use_class": "SpecifiedOther",
         "gia_gained": 0,
-        "use_class": "Other",
         "gia_lost": 0
       },
       {
         "gia_existing": 112,
-        "gia_gained": 89.8,
         "use_class": "C3",
+        "gia_gained": 89.8,
         "gia_lost": 0
       }
     ],
@@ -96,23 +96,18 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "m43_2b_compliant": false,
-          "m43_2a_compliant": false,
-          "m42_compliant": true,
-          "change_type": "Gain",
-          "garden_land": false,
-          "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 3,
           "provider": "Private",
+          "change_type": "Gain",
           "no_bedrooms": 2,
-          "provision_for_older_persons": false,
+          "unit_type": "Flat Apartment Maisonette",
           "tenure": "Market for rent",
           "gia": 89
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "total_gia_lost": 0
     },
     "internal_resi_water_usage": 105,
     "infrastructure_details": {
@@ -139,7 +134,7 @@
   "decision_date": null,
   "url_planning_app": "https://developmentandhousing.hackney.gov.uk//planning/index.html?fa=getApplication&id=84941",
   "borough": "Hackney",
-  "locality": "London",
+  "locality": "HACKNEY",
   "date_building_work_started_under_previous_permission": null,
   "bo_system": "Portal",
   "parking_details": {
@@ -152,10 +147,10 @@
   "pp_id": "14742745",
   "subdivision_of_building": null,
   "status": "Application Under Consideration",
-  "description": "Proposed upward 2 storey roof extension to create 1x 2 bedroom maisonette at 71 Rivington Street, London EC2A 3AY",
+  "description": "Erection of 2 storey roof extension to create a 2 bedroom flat",
   "decision_conditions": null,
-  "site_number": 71,
-  "last_updated": "2026-06-27T22:10:40.844Z",
+  "site_number": "71",
+  "last_updated": "2026-08-27T01:20:45.199Z",
   "last_date_consultation_comments": "23/04/2026",
   "valid_date": "12/03/2026",
   "actual_commencement_date": null,
@@ -167,36 +162,61 @@
   "decision": null,
   "id": "Hackney-2026_0536",
   "polygon": {
-    "type": "GeometryCollection",
+    "type": "geometrycollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              [
-                533309.75,
-                182574.5
-              ],
-              [
-                533310.95,
-                182563.55
-              ],
-              [
-                533316.35,
-                182564.2
-              ],
-              [
-                533314.9309525078,
-                182575.16003259
-              ],
-              [
-                533309.75,
-                182574.5
-              ]
+              533309.841363434,
+              182574.633375079
+            ],
+            [
+              533314.916747319,
+              182575.112974831
+            ],
+            [
+              533316.463775025,
+              182564.060589192
+            ],
+            [
+              533310.939925364,
+              182563.348021722
+            ],
+            [
+              533309.841363434,
+              182574.633375079
             ]
           ]
         ],
-        "type": "MultiPolygon"
+        "type": "Polygon"
+      },
+      {
+        "coordinates": [
+          [
+            [
+              533309.841363434,
+              182574.633375079
+            ],
+            [
+              533314.916747319,
+              182575.112974831
+            ],
+            [
+              533316.463775025,
+              182564.060589192
+            ],
+            [
+              533310.939925364,
+              182563.348021722
+            ],
+            [
+              533309.841363434,
+              182574.633375079
+            ]
+          ]
+        ],
+        "type": "Polygon"
       }
     ],
     "crs": {
@@ -209,36 +229,34 @@
   "appeal_start_date": null,
   "decision_process": "Delegated",
   "ward": "Hoxton East and Shoreditch Ward",
-  "street_name": "Rivington Street",
+  "street_name": "RIVINGTON STREET",
   "secondary_street_name": null,
   "lpa_name": "Hackney",
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": null,
   "wgs84_polygon": {
-    "type": "MultiPolygon",
+    "type": "Polygon",
     "coordinates": [
       [
         [
-          [
-            -0.079723,
-            51.526356
-          ],
-          [
-            -0.07971,
-            51.526257
-          ],
-          [
-            -0.079632,
-            51.526262
-          ],
-          [
-            -0.079648,
-            51.526361
-          ],
-          [
-            -0.079723,
-            51.526356
-          ]
+          -0.079721,
+          51.526357
+        ],
+        [
+          -0.079648,
+          51.52636
+        ],
+        [
+          -0.07963,
+          51.526261
+        ],
+        [
+          -0.07971,
+          51.526256
+        ],
+        [
+          -0.079721,
+          51.526357
         ]
       ]
     ]
