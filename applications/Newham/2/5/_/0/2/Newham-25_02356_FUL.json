@@ -1,12 +1,12 @@
 {
   "postcode": "E13 8HR",
-  "status": "Approved",
+  "status": "Commenced",
   "decision_agency": null,
   "subdivision_of_building": null,
   "appeal_start_date": null,
   "cil_liability": false,
   "decision_conditions": null,
-  "actual_commencement_date": null,
+  "actual_commencement_date": "01/04/2025",
   "pp_id": "PP-14407644",
   "decision_target_date": "16/01/2026",
   "valid_date": "21/11/2025",
@@ -17,7 +17,7 @@
   "decision_process": "Delegated",
   "street_name": "Barking Road",
   "site_number": "250",
-  "centroid_easting": "540081",
+  "centroid_easting": 540081,
   "polygon": {
     "geometries": [
       {
@@ -51,7 +51,7 @@
     "type": "geometrycollection"
   },
   "ward": "PWCTE",
-  "centroid_northing": "182030",
+  "centroid_northing": 182030,
   "application_type": "All Other",
   "uprn": "010094884288",
   "lapsed_date": "01/06/2029",
@@ -63,7 +63,7 @@
   "application_type_full": "Full planning permission",
   "url_planning_app": null,
   "decision_date": "01/06/2026",
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "development_type": null,
   "appeal_status": null,
   "date_building_work_completed_under_previous_permission": null,
@@ -71,7 +71,7 @@
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
   "epc_number": null,
-  "last_updated": "2026-06-02T04:03:32.918Z",
+  "last_updated": "2026-08-27T17:26:48.367Z",
   "centroid": {
     "lon": 0.017606,
     "lat": 51.519826
@@ -94,13 +94,13 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 219.37,
-        "use_class": "EA",
         "gia_gained": 140.35,
+        "use_class": "E(a)",
         "gia_lost": 77.35
       }
     ],
     "projected_cost_of_works": "Up to £2m",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "rain_water_harvesting": false,
     "grey_water_reuse": false,
     "building_details": [
@@ -117,7 +117,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 140.35,
       "total_gia_existing": 219.37,
-      "total_gia_lost": 77.35
+      "total_gia_lost": 77.35,
+      "site_area": 0.01
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -141,12 +142,12 @@
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 500,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 198,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 300,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -161,33 +162,49 @@
         {
           "provider": "Private",
           "no_habitable_rooms": 1,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
+          "actual_commencement_date": "01/04/2025",
           "unit_type": "Studio Bedsit",
           "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "tenure": "Self-Build and Custom Build",
           "gia": 44.04
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 1,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
+          "actual_commencement_date": "01/04/2025",
           "unit_type": "Studio Bedsit",
           "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "tenure": "Self-Build and Custom Build",
           "gia": 44.6
         },
         {
           "provider": "Private",
           "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
+          "actual_commencement_date": "01/04/2025",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "tenure": "Self-Build and Custom Build",
           "gia": 109.36
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.01
     },
     "internal_resi_water_usage": 0,
     "infrastructure_details": {
@@ -198,7 +215,7 @@
       "no_homes_passive_cooling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
@@ -206,7 +223,20 @@
       "no_new_gas_connections_required": 0,
       "ghg_reduction_over_building_regulations": false
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.01
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "wgs84_polygon": {
     "coordinates": [
@@ -238,5 +268,5 @@
   "id": "Newham-25_02356_FUL",
   "reference_no_of_permission_being_relied_on": null,
   "title_number": [],
-  "last_updated_by": "Idox Uniform"
+  "last_updated_by": "Portal"
 }

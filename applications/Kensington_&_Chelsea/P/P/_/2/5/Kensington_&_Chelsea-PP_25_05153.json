@@ -6,7 +6,7 @@
   "centroid_northing": 181270,
   "url_planning_app": null,
   "lpa_app_no": "PP/25/05153",
-  "site_number": 123,
+  "site_number": "123",
   "ward": "Colville",
   "locality": "London",
   "last_date_consultation_comments": "26/09/2025",
@@ -18,54 +18,52 @@
   "cil_liability": false,
   "date_building_work_completed_under_previous_permission": null,
   "pp_id": "PP-14287986",
-  "status": "Approved",
-  "last_updated_by": "PP overwrite repair",
+  "status": "Commenced",
+  "last_updated_by": "Portal",
   "polygon": {
     "geometries": [
       {
         "coordinates": [
           [
             [
-              [
-                524992.5,
-                181275.1
-              ],
-              [
-                524982.2,
-                181272.6
-              ],
-              [
-                524980.4,
-                181272.15
-              ],
-              [
-                524981.3,
-                181268.6
-              ],
-              [
-                524981.65,
-                181267.05
-              ],
-              [
-                524993.75,
-                181270
-              ],
-              [
-                524997.072,
-                181270.81
-              ],
-              [
-                524995.956,
-                181275.939
-              ],
-              [
-                524992.5,
-                181275.1
-              ]
+              524992.5,
+              181275.1
+            ],
+            [
+              524982.2,
+              181272.6
+            ],
+            [
+              524980.4,
+              181272.15
+            ],
+            [
+              524981.3,
+              181268.6
+            ],
+            [
+              524981.65,
+              181267.05
+            ],
+            [
+              524993.75,
+              181270
+            ],
+            [
+              524997.072,
+              181270.81
+            ],
+            [
+              524995.956,
+              181275.939
+            ],
+            [
+              524992.5,
+              181275.1
             ]
           ]
         ],
-        "type": "MultiPolygon"
+        "type": "Polygon"
       }
     ],
     "type": "GeometryCollection"
@@ -74,60 +72,58 @@
     "coordinates": [
       [
         [
-          [
-            -0.200011,
-            51.516579
-          ],
-          [
-            -0.200161,
-            51.516559
-          ],
-          [
-            -0.200187,
-            51.516555
-          ],
-          [
-            -0.200175,
-            51.516523
-          ],
-          [
-            -0.20017,
-            51.516509
-          ],
-          [
-            -0.199995,
-            51.516533
-          ],
-          [
-            -0.199947,
-            51.516539
-          ],
-          [
-            -0.199961,
-            51.516586
-          ],
-          [
-            -0.200011,
-            51.516579
-          ]
+          -0.200011,
+          51.516579
+        ],
+        [
+          -0.200161,
+          51.516559
+        ],
+        [
+          -0.200187,
+          51.516555
+        ],
+        [
+          -0.200175,
+          51.516523
+        ],
+        [
+          -0.20017,
+          51.516509
+        ],
+        [
+          -0.199995,
+          51.516533
+        ],
+        [
+          -0.199947,
+          51.516539
+        ],
+        [
+          -0.199961,
+          51.516586
+        ],
+        [
+          -0.200011,
+          51.516579
         ]
       ]
     ],
-    "type": "MultiPolygon"
+    "type": "Polygon"
   },
   "appeal_decision_date": null,
   "secondary_street_name": null,
   "lapsed_date": "06/10/2028",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "decision_date": "06/10/2025",
   "centroid_easting": 524987,
-  "actual_commencement_date": null,
+  "actual_commencement_date": "01/03/2026",
   "id": "Kensington_&_Chelsea-PP_25_05153",
   "lpa_name": "Kensington & Chelsea",
   "decision_target_date": null,
   "valid_date": "02/09/2025",
   "development_type": "Other change of use",
-  "last_updated": "2026-07-16T19:37:11.707Z",
+  "last_updated": "2026-08-27T23:25:04.471Z",
   "subdivision_of_building": "lower ground floor and ground floor",
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
@@ -139,13 +135,13 @@
   "decision_agency": null,
   "street_name": "Ledbury Road",
   "appeal_decision": null,
-  "title_number": null,
+  "title_number": [],
   "site_name": "123 Ledbury Road, LONDON, W11 2AQ",
   "appeal_start_date": null,
   "application_details": {
-    "existing_uprns": null,
+    "existing_uprns": [],
     "site_area": 0.008,
-    "affordable_housing_fast_track": true,
+    "affordable_housing_fast_track": false,
     "phasing_details": [
       {
         "phase_detail": "Internal linings",
@@ -159,14 +155,22 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 248,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
+        "actual_commencement_date": "01/03/2026",
         "gia_lost": 118
+      },
+      {
+        "gia_existing": 0,
+        "gia_gained": 118,
+        "use_class": "E",
+        "actual_commencement_date": "01/03/2026",
+        "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
     "occupation_status": "Occupied",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "rain_water_harvesting": false,
     "grey_water_reuse": false,
     "green_suds": false,
@@ -176,7 +180,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 0,
       "total_gia_lost": 118,
-      "total_gia_existing": 248
+      "total_gia_existing": 248,
+      "site_area": 0.008
     },
     "garden_land_lost": false,
     "infrastructure_details": {
@@ -188,7 +193,7 @@
       "no_new_water_connections_required": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
@@ -198,9 +203,102 @@
     },
     "internal_resi_water_usage": 0,
     "ownership_status": "Private",
-    "lead_developer_company_name": "Pembridge Developments Ltd"
+    "lead_developer_company_name": "Pembridge Developments Ltd",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.008
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "residential_details": {
+      "total_no_proposed_residential_units_shared_equity": 0,
+      "total_no_proposed_bedrooms": 3,
+      "total_no_proposed_residential_units_london_living_rent": 0,
+      "total_no_proposed_residential_units": 1,
+      "total_no_proposed_residential_affordable_units": 0,
+      "total_no_proposed_residential_units_affordable_rent": 0,
+      "total_no_existing_residential_units": 1,
+      "total_no_proposed_residential_units_discount_market_sale": 0,
+      "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_london_living_rent": 0,
+      "total_no_existing_residential_units_shared_equity": 0,
+      "total_no_existing_residential_units_market_for_sale": 1,
+      "total_no_existing_residential_units_intermediate": 0,
+      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_existing_residential_units_social_rent": 0,
+      "total_no_proposed_residential_units_self_build_and_custom_build": 0,
+      "total_no_existing_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_market_for_sale": 1,
+      "total_no_existing_residential_affordable_units": 0,
+      "habitable_rooms_density": 0,
+      "total_no_existing_residential_units_affordable_rent": 0,
+      "total_no_existing_residential_units_london_shared_ownership": 0,
+      "total_gia_gained": 0,
+      "total_no_proposed_residential_units_social_rent": 0,
+      "total_no_existing_residential_units_london_affordable_rent": 0,
+      "dwelling_density": 125,
+      "site_area": 0.008,
+      "total_no_proposed_residential_units_london_affordable_rent": 0,
+      "total_no_proposed_residential_units_starter_homes": 0,
+      "total_no_existing_residential_units_discount_market_sale": 0,
+      "total_gia_lost": 118,
+      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_starter_homes": 0,
+      "total_no_proposed_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_intermediate": 0,
+      "total_no_proposed_residential_units_london_shared_ownership": 0,
+      "affordable_percentage": 0,
+      "residential_units": [
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": false,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
+          "garden_land": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Change of Use",
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "01/03/2026",
+          "no_bedrooms": 4,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 248.5
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "sheltered_accommodation": false,
+          "garden_land": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "01/03/2026",
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 130.3
+        }
+      ],
+      "total_no_existing_residential_units_market_for_rent": 0,
+      "total_no_existing_residential_units_self_build_and_custom_build": 0
+    }
   },
   "epc_number": null,
-  "uprn": 217052697,
+  "uprn": "217052697",
   "actual_completion_date": null
 }

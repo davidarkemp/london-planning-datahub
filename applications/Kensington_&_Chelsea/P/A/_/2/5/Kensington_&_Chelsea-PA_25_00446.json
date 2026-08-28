@@ -1,10 +1,10 @@
 {
   "decision_conditions": null,
-  "actual_commencement_date": null,
+  "actual_commencement_date": "01/03/2026",
   "decision_target_date": "31/03/2025",
   "lpa_name": "Kensington & Chelsea",
   "centroid_northing": 178854,
-  "last_updated": "2025-04-07T08:59:51.371Z",
+  "last_updated": "2026-08-27T22:38:31.054Z",
   "development_type": null,
   "ward": "Abingdon",
   "parking_details": null,
@@ -26,14 +26,24 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 2,
-          "provider": "Private",
-          "unit_no": "Gain-1",
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": false,
           "change_type": "Gain",
-          "no_bedrooms": 1,
+          "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 59,
-          "tenure": "Market for sale"
+          "unit_development_type": "Change of Use",
+          "provider": "Private",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "01/03/2026",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 59
         }
       ],
       "total_no_existing_residential_units_affordable_rent": 0,
@@ -83,7 +93,7 @@
       "total_annual_pm_emissions": 0,
       "green_roof_area": 0,
       "no_new_water_connections_required": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "ghg_reduction_over_building_regulations": false,
@@ -95,28 +105,58 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 59,
+        "actual_completion_date": "01/03/2026",
         "use_class": "E(g)(i)",
         "gia_gained": 0,
+        "actual_commencement_date": "01/03/2026",
         "gia_lost": 59
       },
       {
         "gia_existing": 0,
-        "use_class": "C3",
         "gia_gained": 59,
+        "use_class": "C3",
+        "actual_commencement_date": "01/03/2026",
         "gia_lost": 0
       }
-    ]
+    ],
+    "resi_extension_exempt": false
   },
   "last_date_consultation_comments": "25/02/2025",
   "decision": "Approved",
-  "bo_system": "CSV Data Import",
-  "postcode": null,
+  "bo_system": "Portal",
+  "postcode": "W8 6QN",
   "secondary_street_name": null,
   "appeal_decision_date": null,
   "application_type": "Prior Approval",
   "decision_date": "19/03/2025",
   "borough": "Kensington & Chelsea",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.197341,
+          51.49478
+        ],
+        [
+          -0.197342,
+          51.494753
+        ],
+        [
+          -0.197385,
+          51.494753
+        ],
+        [
+          -0.197384,
+          51.49478
+        ],
+        [
+          -0.197341,
+          51.49478
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "lpa_app_no": "PA/25/00446",
   "valid_date": "22/01/2025",
   "description": "Change of use from office (Class E) to 1 self-contained flat (Use Class C3).",
@@ -124,11 +164,11 @@
   "site_number": null,
   "lapsed_date": "19/03/2028",
   "date_building_work_started_under_previous_permission": null,
-  "title_number": null,
+  "title_number": [],
   "decision_process": "Delegated",
   "epc_number": "7600-2098-9875-9771-5035",
-  "street_name": null,
-  "last_updated_by": "CSV Data Import",
+  "street_name": "Logan Place",
+  "last_updated_by": "Portal",
   "appeal_start_date": null,
   "actual_completion_date": null,
   "locality": null,
@@ -143,11 +183,13 @@
   "cil_liability": false,
   "subdivision_of_building": null,
   "appeal_status": null,
-  "status": "Approved",
+  "status": "Commenced",
   "appeal_decision": null,
   "pp_id": "PP-13635917",
   "reference_no_of_permission_being_relied_on": null,
   "application_type_full": "Prior Approval: Change of use from Commercial, Business and Service (Use Class E) to Dwellinghouses (Use Class C3)",
   "id": "Kensington_&_Chelsea-PA_25_00446",
-  "polygon": null
+  "polygon": {
+    "type": "geometrycollection"
+  }
 }

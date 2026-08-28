@@ -62,26 +62,52 @@
   "appeal_status": null,
   "description": "Extension of loft structure to create additional first floor flat living space, including front roof terrace.",
   "appeal_decision": null,
-  "postcode": null,
+  "postcode": "SW5 0RP",
   "date_building_work_completed_under_previous_permission": null,
   "decision_target_date": "28/01/2025",
-  "street_name": null,
+  "street_name": "Kenway Road",
   "decision_process": "Delegated",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "centroid_northing": 178683,
   "application_type": "All Other",
-  "title_number": null,
+  "title_number": [],
   "decision_conditions": null,
   "appeal_start_date": null,
   "development_type": "Minor dwellings",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.193313,
+          51.49318
+        ],
+        [
+          -0.193314,
+          51.493153
+        ],
+        [
+          -0.193357,
+          51.493154
+        ],
+        [
+          -0.193356,
+          51.493181
+        ],
+        [
+          -0.193313,
+          51.49318
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "lpa_app_no": "PP/24/07929",
   "decision_agency": null,
   "decision_date": "28/01/2025",
   "pp_id": "PP-13573516",
   "url_planning_app": null,
   "lpa_name": "Kensington & Chelsea",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "subdivision_of_building": "First floor flat.",
   "secondary_street_name": null,
   "date_building_work_started_under_previous_permission": null,
@@ -90,7 +116,7 @@
     "lon": -0.193335
   },
   "status": "Approved",
-  "last_updated": "2025-11-17T10:02:24.474Z",
+  "last_updated": "2026-08-28T00:18:09.998Z",
   "actual_completion_date": null,
   "lapsed_date": "28/01/2028",
   "borough": "Kensington & Chelsea",
@@ -110,8 +136,8 @@
     "phasing_details": [
       {
         "phase_detail": "Construction phase 01",
-        "intended_commencement_date": "03/2025",
-        "intended_completion_date": "09/2025"
+        "intended_completion_date": "09/2025",
+        "intended_commencement_date": "03/2025"
       }
     ],
     "open_and_protected_space_details": {
@@ -154,7 +180,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_existing": 69.1,
       "total_gia_lost": 0,
-      "total_non_resi_gross_internal_floor_area_to_be_gained": 0
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "site_area": 0.008
     },
     "existing_proposed_floorspace_details": [
       {
@@ -166,13 +193,13 @@
     ],
     "internal_resi_water_usage": 0,
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "garden_land_lost": false,
     "site_area": 0.008,
     "projected_cost_of_works": "Up to £2m",
     "residential_details": {
       "total_no_proposed_residential_units_intermediate": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 125,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_market_for_rent": 0,
       "affordable_percentage": 0,
@@ -202,44 +229,74 @@
       "total_no_proposed_residential_units_starter_homes": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 4,
-          "unit_no": "Loss-1",
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": false,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 2,
+          "garden_land": false,
           "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
+          "provider": "Private",
+          "no_habitable_rooms": 4,
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "gia": 69.1,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 69.1
         },
         {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "sheltered_accommodation": false,
+          "garden_land": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Extension",
           "provider": "Private",
           "no_habitable_rooms": 5,
-          "unit_no": "Gain-1",
-          "change_type": "Gain",
+          "phase_detail": null,
+          "unit_no": null,
           "no_bedrooms": 3,
-          "unit_type": "Flat Apartment Maisonette",
-          "gia": 94.1,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 94.1
         }
       ],
       "total_no_proposed_bedrooms": 3,
       "total_no_existing_residential_units_market_for_sale": 1,
       "total_no_proposed_residential_units": 1,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 625,
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
-      "total_no_proposed_residential_units_self_build_and_custom_build": 0
+      "total_no_proposed_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.008
     },
     "total_gia_lost": 0,
     "green_suds": false,
     "total_gia_gained": 25,
-    "existing_uprns": null,
+    "existing_uprns": [],
     "grey_water_reuse": false,
     "surface_water_discharge_percentage_reduction": 0,
     "ownership_status": "Private",
-    "total_gia_existing": 69.1
+    "total_gia_existing": 69.1,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.008
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   }
 }

@@ -1,7 +1,7 @@
 {
   "ward": "PD",
   "borough": "Enfield",
-  "last_updated_by": "FME Excel Import",
+  "last_updated_by": "Portal",
   "application_type_full": "Full planning permission",
   "application_details": {
     "affordable_housing_fast_track": false,
@@ -19,18 +19,15 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 148,
-        "superseded_date": null,
-        "actual_completion_date": null,
-        "use_class": "C3",
         "gia_gained": 12,
+        "use_class": "C3",
         "actual_commencement_date": "09/01/2023",
-        "superseded_by_lpa_app_no": null,
         "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "building_details": [
       {
         "no_storeys": 0,
@@ -48,9 +45,9 @@
       "total_gia_lost": 0,
       "total_gia_existing": 148,
       "development_type": null,
-      "site_area": null
+      "site_area": 0.019
     },
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "internal_resi_water_usage": 0,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
@@ -73,12 +70,12 @@
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 105.26315789473685,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 164,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 105.26315789473685,
       "total_gia_lost": 148,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
@@ -91,81 +88,58 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
+          "actual_completion_date": "09/01/2023",
           "description": null,
           "change_type": "Loss",
-          "m42_compliant": null,
           "sheltered_accommodation": false,
-          "garden_land": null,
           "unit_type": "Semi Detached Home",
           "unit_development_type": "Conversion",
-          "superseded_date": null,
           "provider": "Private",
           "no_habitable_rooms": 2,
           "phase_detail": null,
-          "unit_no": "Loss-1",
+          "unit_no": null,
           "actual_commencement_date": "09/01/2023",
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
           "tenure": "Market for rent",
           "gia": 148
         },
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
+          "actual_completion_date": "31/03/2026",
           "description": null,
           "change_type": "Gain",
-          "m42_compliant": null,
-          "sheltered_accommodation": null,
-          "garden_land": null,
           "unit_type": "Flat Apartment Maisonette",
           "unit_development_type": "Conversion",
-          "superseded_date": null,
           "provider": "Private",
           "no_habitable_rooms": 1,
           "phase_detail": null,
-          "unit_no": "Gain-1",
+          "unit_no": null,
           "actual_commencement_date": "09/01/2023",
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
           "tenure": "Market for rent",
           "gia": 75
         },
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
+          "actual_completion_date": "31/03/2026",
           "description": null,
           "change_type": "Gain",
-          "m42_compliant": null,
-          "sheltered_accommodation": null,
-          "garden_land": null,
           "unit_type": "Flat Apartment Maisonette",
           "unit_development_type": "Conversion",
-          "superseded_date": null,
           "provider": "Private",
           "no_habitable_rooms": 1,
           "phase_detail": null,
-          "unit_no": "Gain-2",
+          "unit_no": null,
           "actual_commencement_date": "09/01/2023",
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
           "tenure": "Market for rent",
           "gia": 89
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
-      "site_area": null
+      "site_area": 0.019
     },
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
@@ -175,7 +149,7 @@
       "no_homes_passive_cooling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
@@ -197,15 +171,15 @@
       "waste_details": []
     },
     "ownership_status": "Private",
-    "s106_agreement": null,
+    "s106_agreement": false,
     "affordable_housing_inlieu_payment": null,
-    "air_quality_assessment": null,
+    "air_quality_assessment": false,
     "other_contributions": null,
     "existing_uprns": [],
     "intended_commencement_date": null,
     "no_affordable_housing_units_provided_offsite": null,
-    "commencement_notice_received": null,
-    "circular_economy_statement": null,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
     "qualifying_vacant_building_floorspace": null,
     "open_and_protected_space_details": {
       "open_space_local_and_other_area_gain": 0,
@@ -221,31 +195,31 @@
     "constraints_details": [],
     "superseding_details": [],
     "lead_registered_social_landlord": null,
-    "viability_assessment": null,
+    "viability_assessment": false,
     "overseas_company_registration_no": null,
-    "mayoral_cil_liability_notice_issued": null,
+    "mayoral_cil_liability_notice_issued": false,
     "intended_completion_date": null,
     "non_permanent_dwellings_details": [],
     "uk_company_registration_no": null,
     "other_residential_accommodation_details": {
       "no_council_tax_rateable_units_gained": null,
       "no_council_tax_rateable_units_lost": null,
-      "site_area": null,
+      "site_area": 0.019,
       "other_resi_accommodation_unit_details": []
     },
-    "3d_model": null,
+    "3d_model": false,
     "no_affordable_housing_units_acquired_offsite": null,
     "transport_contributions": null,
-    "borough_cil_liability_notice_issued": null,
-    "transport_impact_assessment": null,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
     "social_infrastructure_contributions": null,
     "scheme_name": null,
     "lead_developer_company_name": null
   },
   "decision_target_date": "04/08/2022",
-  "cil_liability": true,
+  "cil_liability": false,
   "appeal_status": null,
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "decision_process": "Delegated",
   "description": "Conversion of single family dwelling house into 2 self-contained flats involving single storey rear extension and conversion of loft space into habitable room with front rooflights, together with associated alterations to fenestrations.",
   "centroid": {
@@ -254,7 +228,7 @@
   },
   "pp_id": "PP-11294961",
   "application_type": "All Other",
-  "last_updated": "2025-03-19T21:36:21.528+00:00",
+  "last_updated": "2026-08-27T12:28:03.039Z",
   "decision": "Approved",
   "reference_no_of_permission_being_relied_on": null,
   "site_name": null,
@@ -271,14 +245,14 @@
     "BIKE STORAGE"
   ],
   "date_building_work_completed_under_previous_permission": null,
-  "centroid_easting": "535164",
+  "centroid_easting": 535164,
   "lpa_name": "Enfield",
   "postcode": "EN3 4AN",
   "lpa_app_no": "22/01994/FUL",
   "decision_agency": null,
   "status": "Commenced",
   "date_building_work_started_under_previous_permission": null,
-  "centroid_northing": "195726",
+  "centroid_northing": 195726,
   "url_planning_app": null,
   "site_number": "12",
   "locality": null,
@@ -384,44 +358,44 @@
     "coordinates": [
       [
         [
-          -0.047944799999999996,
-          51.6440229
+          -0.047971,
+          51.644021
         ],
         [
-          -0.048044699999999996,
-          51.6439242
+          -0.048071,
+          51.643922
         ],
         [
-          -0.048041999999999994,
-          51.6440271
+          -0.048068,
+          51.644025
         ],
         [
-          -0.0478615,
-          51.64421
+          -0.047888,
+          51.644208
         ],
         [
-          -0.0478477,
-          51.6442235
+          -0.047874,
+          51.644221
         ],
         [
-          -0.0478458,
-          51.6442261
+          -0.047872,
+          51.644224
         ],
         [
-          -0.0477622,
-          51.6442046
+          -0.047788,
+          51.644202
         ],
         [
-          -0.0478098,
-          51.6441572
+          -0.047836,
+          51.644155
         ],
         [
-          -0.0479248,
-          51.644042999999996
+          -0.047951,
+          51.644041
         ],
         [
-          -0.047944799999999996,
-          51.6440229
+          -0.047971,
+          51.644021
         ]
       ]
     ],

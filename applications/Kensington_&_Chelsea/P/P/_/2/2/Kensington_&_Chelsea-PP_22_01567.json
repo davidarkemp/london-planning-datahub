@@ -9,16 +9,16 @@
   "application_type_full": "Full planning & demolition in a conservation area",
   "uprn": "217079369",
   "borough": "Kensington & Chelsea",
-  "street_name": null,
+  "street_name": "St Alban's Grove",
   "locality": null,
   "ward": "Queen's Gate",
   "actual_commencement_date": "01/05/2024",
   "lpa_name": "Kensington & Chelsea",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "decision_conditions": null,
   "date_building_work_started_under_previous_permission": null,
   "centroid_easting": 525953,
-  "status": "Commenced",
+  "status": "Completed",
   "decision_date": "18/05/2023",
   "wgs84_polygon": {
     "type": "Polygon",
@@ -187,15 +187,15 @@
     "LN68044 LN435874"
   ],
   "appeal_status": null,
-  "last_updated": "2025-11-17T10:00:58.353Z",
-  "last_updated_by": "CSV Data Import",
+  "last_updated": "2026-08-27T15:34:08.437Z",
+  "last_updated_by": "Portal",
   "site_name": "Atlantic House, 1 St Alban's Grove, LONDON",
   "id": "Kensington_&_Chelsea-PP_22_01567",
   "decision": "Approved",
-  "cil_liability": true,
+  "cil_liability": false,
   "centroid_northing": 179402,
   "appeal_start_date": null,
-  "postcode": null,
+  "postcode": "W8 5PN",
   "url_planning_app": null,
   "date_building_work_completed_under_previous_permission": null,
   "secondary_street_name": null,
@@ -372,7 +372,7 @@
     "green_suds": false,
     "non_residential_details": {
       "total_gia_existing": 3122,
-      "total_non_resi_gross_internal_floor_area_to_be_gained": 3248,
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 3248,
       "total_gia_lost": 3122,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 3122,
@@ -395,10 +395,19 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 3122,
-        "gia_gained": 3248,
+        "actual_completion_date": "31/03/2026",
         "use_class": "C2",
+        "gia_gained": 0,
         "actual_commencement_date": "01/05/2024",
         "gia_lost": 3122
+      },
+      {
+        "gia_existing": 0,
+        "actual_completion_date": "31/03/2026",
+        "use_class": "F1",
+        "gia_gained": 3248,
+        "actual_commencement_date": "01/05/2024",
+        "gia_lost": 0
       }
     ],
     "internal_resi_water_usage": 105,
@@ -406,8 +415,8 @@
     "phasing_details": [
       {
         "phase_detail": "1",
-        "intended_commencement_date": "09/2022",
-        "intended_completion_date": "01/2024"
+        "intended_completion_date": "01/2024",
+        "intended_commencement_date": "09/2022"
       }
     ],
     "total_gia_lost": 3122,
@@ -433,27 +442,14 @@
     "scheme_phasing": false,
     "total_gia_gained": 3248,
     "ownership_status": "Private",
-    "existing_uprns": null,
+    "existing_uprns": [],
     "residential_details": {
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
-      "residential_units": [
-        {
-          "actual_completion_date": "01/05/2024",
-          "phase_detail": null,
-          "unit_no": "Loss-1",
-          "description": null,
-          "change_type": "Loss",
-          "actual_commencement_date": "01/05/2024",
-          "unit_type": "Communal Space",
-          "provision_for_older_persons": false,
-          "gia": 903,
-          "unit_development_type": "Change of Use"
-        }
-      ],
+      "residential_units": [],
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
@@ -471,7 +467,7 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_gia_lost": 1805.88,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
-      "total_no_existing_residential_units": 1,
+      "total_no_existing_residential_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
@@ -500,6 +496,7 @@
       "site_area": 0.221,
       "other_resi_accommodation_unit_details": [
         {
+          "actual_completion_date": "31/03/2026",
           "no_rooms_proposed": 0,
           "actual_commencement_date": "01/05/2024",
           "unit_type": "Student Accommodation",
@@ -517,5 +514,5 @@
   },
   "lapsed_date": "18/05/2026",
   "decision_process": "Committee",
-  "actual_completion_date": null
+  "actual_completion_date": "31/03/2026"
 }

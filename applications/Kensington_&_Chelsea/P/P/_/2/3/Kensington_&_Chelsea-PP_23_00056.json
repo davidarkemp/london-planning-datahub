@@ -13,16 +13,16 @@
   "application_type_full": "Full planning permission",
   "uprn": "217003600",
   "borough": "Kensington & Chelsea",
-  "street_name": null,
+  "street_name": "Bassett Road",
   "locality": null,
   "ward": "St Helen's",
   "actual_commencement_date": null,
   "lpa_name": "Kensington & Chelsea",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "decision_conditions": null,
   "date_building_work_started_under_previous_permission": null,
   "centroid_easting": 524116,
-  "status": "Approved",
+  "status": "Superseded",
   "decision_date": "24/02/2023",
   "wgs84_polygon": {
     "type": "Polygon",
@@ -87,17 +87,17 @@
   "subdivision_of_building": "part of the buildings, comprisisng Flats A, B and C(Lower, ground and first floors)",
   "last_date_consultation_comments": "27/01/2023",
   "development_type": "Other change of use",
-  "title_number": null,
+  "title_number": [],
   "appeal_status": null,
-  "last_updated": "2025-11-17T10:01:33.495Z",
-  "last_updated_by": "CSV Data Import",
+  "last_updated": "2026-08-27T19:22:01.768Z",
+  "last_updated_by": "Portal",
   "site_name": "9 Bassett Road, LONDON, W10 6LA",
   "id": "Kensington_&_Chelsea-PP_23_00056",
   "decision": "Approved",
   "cil_liability": false,
   "centroid_northing": 181528,
   "appeal_start_date": null,
-  "postcode": null,
+  "postcode": "W10 6LA",
   "url_planning_app": null,
   "date_building_work_completed_under_previous_permission": null,
   "secondary_street_name": null,
@@ -194,12 +194,14 @@
         "building_ref": "9BR"
       }
     ],
-    "existing_uprns": null,
+    "existing_uprns": [],
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 239,
-        "gia_gained": 17,
+        "superseded_date": "13/02/2023",
         "use_class": "C3",
+        "gia_gained": 17,
+        "superseded_by_lpa_app_no": "PP/23/00031",
         "gia_lost": 0
       }
     ],
@@ -207,8 +209,8 @@
     "phasing_details": [
       {
         "phase_detail": "1",
-        "intended_commencement_date": "04/2023",
-        "intended_completion_date": "08/2023"
+        "intended_completion_date": "08/2023",
+        "intended_commencement_date": "04/2023"
       }
     ],
     "total_gia_lost": 0,
@@ -239,39 +241,45 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 1,
-          "phase_detail": null,
-          "unit_no": "Loss-1",
           "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "superseded_date": "13/02/2023",
+          "no_habitable_rooms": 1,
+          "phase_detail": null,
+          "unit_no": null,
           "no_bedrooms": 2,
+          "superseded_by_lpa_app_no": "PP/23/00031",
           "provision_for_older_persons": false,
-          "gia": 62,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 62
         },
         {
+          "superseded_date": "13/02/2023",
           "phase_detail": null,
-          "unit_no": "Loss-2",
+          "unit_no": null,
           "description": null,
           "change_type": "Loss",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
+          "superseded_by_lpa_app_no": "PP/23/00031",
           "provision_for_older_persons": false,
-          "gia": 105,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 105
         },
         {
+          "superseded_date": "13/02/2023",
           "phase_detail": null,
-          "unit_no": "Gain-1",
+          "unit_no": null,
           "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
+          "superseded_by_lpa_app_no": "PP/23/00031",
           "provision_for_older_persons": false,
-          "gia": 167,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 167
         }
       ],
       "total_no_existing_residential_units_intermediate": 0,

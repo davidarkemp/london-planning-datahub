@@ -37,16 +37,16 @@
   "application_type_full": "Full planning permission",
   "uprn": "217080032",
   "borough": "Kensington & Chelsea",
-  "street_name": null,
+  "street_name": "",
   "locality": null,
   "ward": "St Helen's",
   "actual_commencement_date": "01/09/2024",
   "lpa_name": "Kensington & Chelsea",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "decision_conditions": null,
   "date_building_work_started_under_previous_permission": null,
   "centroid_easting": 524086,
-  "status": "Commenced",
+  "status": "Completed",
   "decision_date": "10/07/2023",
   "wgs84_polygon": {
     "type": "Polygon",
@@ -101,15 +101,15 @@
   "development_type": "Other change of use",
   "title_number": [],
   "appeal_status": null,
-  "last_updated": "2025-11-17T10:01:37.148Z",
-  "last_updated_by": "CSV Data Import",
+  "last_updated": "2026-08-27T10:03:06.845Z",
+  "last_updated_by": "Portal",
   "site_name": "11 St Charles Square, LONDON, W10 6EF",
   "id": "Kensington_&_Chelsea-PP_23_01815",
   "decision": "Approved",
-  "cil_liability": true,
+  "cil_liability": false,
   "centroid_northing": 181658,
   "appeal_start_date": null,
-  "postcode": null,
+  "postcode": "",
   "url_planning_app": null,
   "date_building_work_completed_under_previous_permission": null,
   "secondary_street_name": null,
@@ -203,8 +203,10 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 245.75,
-        "gia_gained": 67.82,
+        "actual_completion_date": "31/03/2026",
         "use_class": "C3",
+        "gia_gained": 67.82,
+        "actual_commencement_date": "01/09/2024",
         "gia_lost": 2
       }
     ],
@@ -213,8 +215,8 @@
     "phasing_details": [
       {
         "phase_detail": "Full phase",
-        "intended_commencement_date": "05/2023",
-        "intended_completion_date": "05/2024"
+        "intended_completion_date": "05/2024",
+        "intended_commencement_date": "05/2023"
       }
     ],
     "total_gia_lost": 2,
@@ -250,7 +252,7 @@
     "scheme_phasing": false,
     "total_gia_gained": 67.82,
     "ownership_status": "Private",
-    "existing_uprns": null,
+    "existing_uprns": [],
     "residential_details": {
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
@@ -259,8 +261,11 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "actual_completion_date": "01/09/2024",
+          "m43_2a_compliant": false,
           "description": null,
+          "m42_compliant": false,
           "change_type": "Loss",
           "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
@@ -272,11 +277,15 @@
           "actual_commencement_date": "01/09/2024",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "gia": 62.06,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 62.06
         },
         {
+          "m43_2b_compliant": false,
+          "actual_completion_date": "31/03/2026",
+          "m43_2a_compliant": false,
           "description": null,
+          "m42_compliant": false,
           "change_type": "Loss",
           "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
@@ -285,14 +294,20 @@
           "no_habitable_rooms": 2,
           "phase_detail": null,
           "unit_no": null,
+          "actual_commencement_date": "01/09/2024",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "gia": 48.6,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 48.6
         },
         {
+          "m43_2b_compliant": false,
+          "actual_completion_date": "31/03/2026",
+          "m43_2a_compliant": false,
           "description": null,
+          "m42_compliant": false,
           "change_type": "Gain",
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
           "unit_development_type": "Conversion",
           "provider": "Private",
@@ -302,8 +317,8 @@
           "actual_commencement_date": "01/09/2024",
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "gia": 126.37,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 126.37
         }
       ],
       "total_no_existing_residential_units_intermediate": 0,
@@ -391,5 +406,5 @@
   },
   "lapsed_date": "10/07/2026",
   "decision_process": "Delegated",
-  "actual_completion_date": null
+  "actual_completion_date": "31/03/2026"
 }

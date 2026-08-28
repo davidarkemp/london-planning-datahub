@@ -9,16 +9,16 @@
   "application_type_full": "Full planning permission",
   "uprn": "217052161",
   "borough": "Kensington & Chelsea",
-  "street_name": null,
+  "street_name": "Lansdowne Walk",
   "locality": null,
   "ward": "Norland",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "01/03/2026",
   "lpa_name": "Kensington & Chelsea",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "decision_conditions": null,
   "date_building_work_started_under_previous_permission": null,
   "centroid_easting": 524578,
-  "status": "Approved",
+  "status": "Commenced",
   "decision_date": "11/08/2023",
   "wgs84_polygon": {
     "type": "Polygon",
@@ -127,17 +127,17 @@
   "subdivision_of_building": "Flat No. 1, Lower Ground Floor",
   "last_date_consultation_comments": "04/08/2023",
   "development_type": "Minor dwellings",
-  "title_number": null,
+  "title_number": [],
   "appeal_status": null,
-  "last_updated": "2025-11-17T10:01:40.122Z",
-  "last_updated_by": "CSV Data Import",
+  "last_updated": "2026-08-28T00:15:05.412Z",
+  "last_updated_by": "Portal",
   "site_name": "Flat 1, 12-14 Lansdowne Walk, LONDON, W11 3LN",
   "id": "Kensington_&_Chelsea-PP_23_03704",
   "decision": "Approved",
   "cil_liability": false,
   "centroid_northing": 180418,
   "appeal_start_date": null,
-  "postcode": null,
+  "postcode": "W11 3LN",
   "url_planning_app": null,
   "date_building_work_completed_under_previous_permission": null,
   "secondary_street_name": null,
@@ -272,7 +272,7 @@
     "rain_water_harvesting": false,
     "grey_water_reuse": false,
     "internal_resi_water_usage": 0,
-    "existing_uprns": null,
+    "existing_uprns": [],
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 247.8,
@@ -285,8 +285,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development ",
-        "intended_commencement_date": "06/2025",
-        "intended_completion_date": "06/2025"
+        "intended_completion_date": "06/2025",
+        "intended_commencement_date": "06/2025"
       }
     ],
     "total_gia_lost": 0,
@@ -300,30 +300,37 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 1,
-          "phase_detail": null,
-          "unit_no": "Loss-1",
+          "actual_completion_date": "01/03/2026",
           "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 1,
-          "provision_for_older_persons": true,
-          "gia": 56.3,
-          "tenure": "Market for rent"
-        },
-        {
+          "unit_development_type": "Conversion",
           "provider": "Private",
           "no_habitable_rooms": 1,
           "phase_detail": null,
-          "unit_no": "Gain-1",
+          "unit_no": null,
+          "actual_commencement_date": "01/03/2026",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": true,
+          "tenure": "Market for rent",
+          "gia": 56.3
+        },
+        {
           "description": null,
           "change_type": "Gain",
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
+          "provider": "Private",
+          "no_habitable_rooms": 1,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "01/03/2026",
           "no_bedrooms": 4,
           "provision_for_older_persons": false,
-          "gia": 247.8,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 247.8
         }
       ],
       "total_no_existing_residential_units_intermediate": 0,
