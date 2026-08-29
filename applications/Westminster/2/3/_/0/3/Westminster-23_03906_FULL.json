@@ -63,40 +63,40 @@
     "coordinates": [
       [
         [
-          -0.12026519999999999,
-          51.5123092
+          -0.120291,
+          51.512308
         ],
         [
-          -0.1202872,
-          51.5122992
+          -0.120313,
+          51.512298
         ],
         [
-          -0.12041059999999999,
-          51.512401
+          -0.120436,
+          51.512399
         ],
         [
-          -0.1204025,
-          51.5124045
+          -0.120428,
+          51.512403
         ],
         [
-          -0.12037479999999999,
-          51.5124126
+          -0.1204,
+          51.512411
         ],
         [
-          -0.1203556,
-          51.512406
+          -0.120381,
+          51.512404
         ],
         [
-          -0.12028169999999999,
-          51.5123796
+          -0.120307,
+          51.512378
         ],
         [
-          -0.12022179999999999,
-          51.5123296
+          -0.120247,
+          51.512328
         ],
         [
-          -0.12026519999999999,
-          51.5123092
+          -0.120291,
+          51.512308
         ]
       ]
     ]
@@ -106,8 +106,8 @@
   "site_number": "17A",
   "development_type": null,
   "centroid": {
-    "lat": "51.5123622",
-    "lon": "-0.1203185"
+    "lat": 51.512361,
+    "lon": -0.120344
   },
   "last_date_consultation_comments": "14/07/2023",
   "reference_no_of_permission_being_relied_on": null,
@@ -117,7 +117,7 @@
   "decision_target_date": "07/08/2023",
   "secondary_street_name": null,
   "actual_completion_date": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "centroid_easting": 530532,
   "decision_conditions": [
     "Proposed resi subject to external noise",
@@ -133,11 +133,8 @@
     "Dvpmt in accordance with approvd plans",
     "For avoidance of doubt",
     "Proposed resi subject to external noise",
-    "",
     "Class E waste store",
     "Medical OMP",
-    "",
-    "",
     "cycle office",
     "Restrict Class E"
   ],
@@ -153,41 +150,50 @@
       }
     ],
     "residential_details": {
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 714.2857142857142,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_intermediate": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 1,
           "provider": "Private",
-          "unit_no": "Gain-1",
+          "no_habitable_rooms": 1,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Studio Bedsit",
-          "gia": 39.8,
-          "tenure": "Market for rent"
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 39.8
         },
         {
-          "no_habitable_rooms": 1,
           "provider": "Private",
-          "unit_no": "Gain-2",
+          "no_habitable_rooms": 1,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Studio Bedsit",
-          "gia": 39.8,
-          "tenure": "Market for rent"
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 39.8
         },
         {
+          "provider": "Private",
           "no_habitable_rooms": 3,
-          "provider": "Private",
-          "unit_no": "Gain-3",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 78,
-          "tenure": "Market for rent"
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 78
         }
       ],
       "total_no_existing_residential_units_discount_market_sale": 0,
@@ -197,7 +203,7 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 428.57142857142856,
       "total_gia_lost": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
@@ -222,14 +228,16 @@
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
-      "total_no_proposed_residential_units_london_affordable_rent": 0
+      "total_no_proposed_residential_units_london_affordable_rent": 0,
+      "site_area": 0.007
     },
     "non_residential_details": {
       "total_gia_existing": 158,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_gained": 158
+      "total_gia_gained": 158,
+      "site_area": 0.007
     },
     "site_area": 0.007,
     "total_gia_gained": 158,
@@ -244,7 +252,7 @@
       "ghg_reduction_over_building_regulations": false,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
@@ -252,19 +260,21 @@
       "no_new_gas_connections_required": 0,
       "total_annual_pm_emissions": 0
     },
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "surface_water_discharge_percentage_reduction": 0,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 158,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
+        "actual_commencement_date": "13/09/2023",
         "gia_lost": 0
       },
       {
         "gia_existing": 0,
-        "use_class": "E",
         "gia_gained": 158,
+        "use_class": "E",
+        "actual_commencement_date": "13/09/2023",
         "gia_lost": 0
       }
     ],
@@ -272,7 +282,20 @@
     "grey_water_reuse": false,
     "total_gia_lost": 0,
     "garden_land_lost": false,
-    "total_gia_existing": 158
+    "total_gia_existing": 158,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.007
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "centroid_northing": 180945,
   "ward": "SJW_22",
@@ -286,12 +309,12 @@
   "site_name": "",
   "appeal_status": null,
   "postcode": "WC2E 7PA",
-  "status": "Approved",
+  "status": "Commenced",
   "decision_agency": null,
   "decision_date": "13/09/2023",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "13/09/2023",
   "epc_number": null,
-  "last_updated": "2025-03-19T21:25:18.800+00:00",
+  "last_updated": "2026-08-28T14:03:27.485Z",
   "application_type": "All Other",
-  "bo_system": "Idox Uniform"
+  "bo_system": "Portal"
 }

@@ -4,15 +4,15 @@
   "decision_agency": null,
   "application_type_full": "Full planning permission",
   "application_details": {
-    "existing_uprns": null,
+    "existing_uprns": [],
     "lead_developer_company_name": "Circadian Limited",
     "scheme_name": "Lots Road Power Station",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
       "ghg_reduction_over_building_regulations": false,
       "no_new_gas_connections_required": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_homes_passive_cooling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "percentage_demolition_construction_material_recycling": 0,
@@ -20,7 +20,7 @@
       "green_roof_area": 0,
       "no_resi_units_to_have_full_fibre": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
-      "fire_suppression_system_proposed": true,
+      "fire_suppression_system_proposed": false,
       "mobile_network_operators_consultation": false,
       "total_annual_nox_emissions": 0,
       "no_passive_rapid_ev_charging_points": null,
@@ -40,28 +40,23 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 3499,
-        "superseded_date": null,
-        "actual_completion_date": null,
-        "gia_gained": 0,
+        "actual_completion_date": "31/03/2026",
         "use_class": "B2",
-        "actual_commencement_date": null,
-        "superseded_by_lpa_app_no": null,
+        "gia_gained": 0,
+        "actual_commencement_date": "01/05/2025",
         "gia_lost": 3499
       },
       {
         "gia_existing": 0,
-        "superseded_date": null,
-        "actual_completion_date": null,
+        "actual_completion_date": "31/03/2026",
+        "use_class": "E",
         "gia_gained": 3499,
-        "use_class": "SpecifiedOther",
-        "actual_commencement_date": null,
-        "superseded_by_lpa_app_no": null,
+        "actual_commencement_date": "01/05/2025",
         "gia_lost": 0
       }
     ],
     "superseding_details": [
       {
-        "lpa_name": null,
         "lpa_app_no": "PP/16/06360",
         "unit_reference": "B1 Office Use Class ",
         "partial_supersedence": true,
@@ -77,7 +72,7 @@
       "total_gia_gained": 3499,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "development_type": null,
-      "site_area": null
+      "site_area": 0.8
     },
     "total_gia_existing": 3499,
     "surface_water_discharge_percentage_reduction": 0,
@@ -93,18 +88,18 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "09/2024",
-        "intended_completion_date": "09/2025"
+        "intended_completion_date": "09/2025",
+        "intended_commencement_date": "09/2024"
       }
     ],
-    "s106_agreement": null,
+    "s106_agreement": false,
     "affordable_housing_inlieu_payment": null,
-    "air_quality_assessment": null,
+    "air_quality_assessment": false,
     "other_contributions": null,
     "intended_commencement_date": null,
     "no_affordable_housing_units_provided_offsite": null,
-    "circular_economy_statement": null,
-    "commencement_notice_received": null,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
     "qualifying_vacant_building_floorspace": null,
     "open_and_protected_space_details": {
       "open_space_local_and_other_area_gain": 0,
@@ -120,23 +115,23 @@
     "constraints_details": [],
     "building_details": [],
     "lead_registered_social_landlord": null,
-    "viability_assessment": null,
+    "viability_assessment": false,
     "overseas_company_registration_no": null,
-    "mayoral_cil_liability_notice_issued": null,
+    "mayoral_cil_liability_notice_issued": false,
     "intended_completion_date": null,
     "non_permanent_dwellings_details": [],
     "uk_company_registration_no": null,
     "other_residential_accommodation_details": {
       "no_council_tax_rateable_units_gained": null,
       "no_council_tax_rateable_units_lost": null,
-      "site_area": null,
+      "site_area": 0.8,
       "other_resi_accommodation_unit_details": []
     },
-    "3d_model": null,
+    "3d_model": false,
     "no_affordable_housing_units_acquired_offsite": null,
     "transport_contributions": null,
-    "borough_cil_liability_notice_issued": null,
-    "transport_impact_assessment": null,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
     "social_infrastructure_contributions": null,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
@@ -159,16 +154,16 @@
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
-      "total_gia_gained": null,
+      "total_gia_gained": 3499,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "site_area": null,
+      "site_area": 0.8,
       "dwelling_density": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "total_gia_lost": null,
+      "total_gia_lost": 3499,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_starter_homes": 0,
@@ -185,164 +180,164 @@
     "coordinates": [
       [
         [
-          -0.1826783,
-          51.477747
+          -0.182702,
+          51.477746
         ],
         [
-          -0.18263189999999999,
-          51.4777661
+          -0.182656,
+          51.477765
         ],
         [
-          -0.1826248,
-          51.4777629
+          -0.182649,
+          51.477762
         ],
         [
-          -0.1825743,
-          51.4777837
+          -0.182598,
+          51.477783
         ],
         [
-          -0.1825763,
-          51.4777882
+          -0.1826,
+          51.477787
         ],
         [
-          -0.1824402,
-          51.4778436
-        ],
-        [
-          -0.1824401,
-          51.4778436
-        ],
-        [
-          -0.1823868,
-          51.4778644
-        ],
-        [
-          -0.1821343,
-          51.4779644
-        ],
-        [
-          -0.18179789999999998,
-          51.4780976
-        ],
-        [
-          -0.18158000000000002,
-          51.4781859
-        ],
-        [
-          -0.18156809999999998,
-          51.4781907
-        ],
-        [
-          -0.18155359999999998,
-          51.4781965
-        ],
-        [
-          -0.18118979999999998,
-          51.4783422
-        ],
-        [
-          -0.1810486,
-          51.4783984
-        ],
-        [
-          -0.1809737,
-          51.478428
-        ],
-        [
-          -0.1809169,
-          51.4784504
-        ],
-        [
-          -0.1807676,
-          51.4785106
-        ],
-        [
-          -0.1807599,
-          51.4785136
-        ],
-        [
-          -0.1803826,
-          51.4781449
-        ],
-        [
-          -0.1803826,
-          51.4781449
-        ],
-        [
-          -0.1803714,
-          51.4781341
-        ],
-        [
-          -0.1803444,
-          51.4781079
-        ],
-        [
-          -0.18045719999999998,
-          51.4780619
-        ],
-        [
-          -0.1805654,
-          51.4780178
-        ],
-        [
-          -0.1808164,
-          51.477916
-        ],
-        [
-          -0.1808632,
-          51.4778979
-        ],
-        [
-          -0.18100439999999998,
+          -0.182464,
           51.477843
         ],
         [
-          -0.1815269,
-          51.4776336
+          -0.182464,
+          51.477843
         ],
         [
-          -0.18202000000000002,
-          51.4774361
+          -0.182411,
+          51.477864
         ],
         [
-          -0.18206229999999998,
-          51.4774772
+          -0.182158,
+          51.477964
         ],
         [
-          -0.1820992,
-          51.4775124
+          -0.181822,
+          51.478097
         ],
         [
-          -0.18217529999999998,
-          51.4775851
+          -0.181604,
+          51.478185
         ],
         [
-          -0.1821754,
-          51.477585
+          -0.181592,
+          51.47819
         ],
         [
-          -0.1822237,
-          51.477566
+          -0.181578,
+          51.478196
         ],
         [
-          -0.18254099999999998,
-          51.4776069
+          -0.181214,
+          51.478341
         ],
         [
-          -0.1826089,
-          51.477672
+          -0.181073,
+          51.478398
         ],
         [
-          -0.1826846,
-          51.4777444
+          -0.180998,
+          51.478427
         ],
         [
-          -0.1826846,
-          51.4777445
+          -0.180941,
+          51.47845
         ],
         [
-          -0.1826783,
-          51.477747
+          -0.180792,
+          51.47851
+        ],
+        [
+          -0.180784,
+          51.478513
+        ],
+        [
+          -0.180407,
+          51.478144
+        ],
+        [
+          -0.180407,
+          51.478144
+        ],
+        [
+          -0.180396,
+          51.478133
+        ],
+        [
+          -0.180369,
+          51.478107
+        ],
+        [
+          -0.180481,
+          51.478061
+        ],
+        [
+          -0.18059,
+          51.478017
+        ],
+        [
+          -0.180841,
+          51.477915
+        ],
+        [
+          -0.180887,
+          51.477897
+        ],
+        [
+          -0.181029,
+          51.477842
+        ],
+        [
+          -0.181551,
+          51.477633
+        ],
+        [
+          -0.182044,
+          51.477435
+        ],
+        [
+          -0.182086,
+          51.477476
+        ],
+        [
+          -0.182123,
+          51.477512
+        ],
+        [
+          -0.182199,
+          51.477584
+        ],
+        [
+          -0.182199,
+          51.477584
+        ],
+        [
+          -0.182248,
+          51.477565
+        ],
+        [
+          -0.182565,
+          51.477606
+        ],
+        [
+          -0.182633,
+          51.477671
+        ],
+        [
+          -0.182709,
+          51.477744
+        ],
+        [
+          -0.182709,
+          51.477744
+        ],
+        [
+          -0.182702,
+          51.477746
         ]
       ]
     ],
@@ -355,7 +350,7 @@
   "decision_date": "26/09/2024",
   "appeal_start_date": null,
   "lapsed_date": "26/09/2027",
-  "status": "Approved",
+  "status": "Completed",
   "decision_process": "Delegated",
   "epc_number": null,
   "appeal_status": null,
@@ -364,17 +359,17 @@
   "appeal_decision_date": null,
   "decision_conditions": null,
   "reference_no_of_permission_being_relied_on": null,
-  "street_name": null,
-  "actual_completion_date": null,
-  "subdivision_of_building": "Ground and first floor of Lots Road Power Station\nGround floor of KC2A building\nGround and basement of KC4 building",
+  "street_name": "Lots Road",
+  "actual_completion_date": "31/03/2026",
+  "subdivision_of_building": "Ground and first floor of Lots Road Power StationGround floor of KC2A buildingGround and basement of KC4 building",
   "centroid": {
     "lon": -0.181493,
     "lat": 51.477957
   },
   "cil_liability": false,
   "valid_date": "11/06/2024",
-  "postcode": null,
-  "bo_system": "CSV Data Import",
+  "postcode": "SW10 0QH",
+  "bo_system": "Portal",
   "borough": "Kensington & Chelsea",
   "id": "Kensington_&_Chelsea-PP_24_04040",
   "application_type": "All Other",
@@ -409,13 +404,13 @@
   },
   "decision_target_date": "27/09/2024",
   "pp_id": "PP-13140605",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "locality": null,
   "uprn": "217055659",
   "last_date_consultation_comments": "12/07/2024",
   "title_number": [],
   "decision": "Approved",
-  "last_updated": "2025-11-17T10:02:14.404Z",
+  "last_updated": "2026-08-28T10:24:23.421Z",
   "polygon": {
     "geometries": [
       {
@@ -589,7 +584,7 @@
     "type": "GeometryCollection"
   },
   "date_building_work_started_under_previous_permission": null,
-  "actual_commencement_date": null,
+  "actual_commencement_date": "01/05/2025",
   "ward": "Chelsea Riverside",
   "appeal_decision": null,
   "lpa_app_no": "PP/24/04040",

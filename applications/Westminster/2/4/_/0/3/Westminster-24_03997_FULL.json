@@ -7,14 +7,14 @@
     "affordable_housing_fast_track": false,
     "site_area": 0.195,
     "garden_land_lost": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "total_gia_gained": 5603.3,
     "rain_water_harvesting": false,
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
       "ghg_reduction_over_building_regulations": false,
       "no_new_gas_connections_required": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_homes_passive_cooling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "percentage_demolition_construction_material_recycling": 0,
@@ -29,8 +29,9 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 5591,
-        "use_class": "E(c)(iii)",
         "gia_gained": 5603.3,
+        "use_class": "E(c)(iii)",
+        "actual_commencement_date": "19/08/2024",
         "gia_lost": 0
       }
     ],
@@ -44,7 +45,8 @@
       "total_gia_lost": 0,
       "total_gia_existing": 5591,
       "total_gia_gained": 5603.3,
-      "total_non_resi_gross_internal_floor_area_to_be_gained": 0
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "site_area": 0.195
     },
     "total_gia_existing": 5591,
     "phasing_details": [
@@ -55,31 +57,85 @@
       }
     ],
     "surface_water_discharge_percentage_reduction": 0,
-    "ownership_status": "Public"
+    "ownership_status": "Public",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.195
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "residential_details": {
+      "total_no_proposed_residential_units_shared_equity": 0,
+      "total_no_proposed_bedrooms": 0,
+      "total_no_proposed_residential_units_london_living_rent": 0,
+      "total_no_proposed_residential_units": 0,
+      "total_no_proposed_residential_affordable_units": 0,
+      "total_no_proposed_residential_units_affordable_rent": 0,
+      "total_no_existing_residential_units": 0,
+      "total_no_proposed_residential_units_discount_market_sale": 0,
+      "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_london_living_rent": 0,
+      "total_no_existing_residential_units_shared_equity": 0,
+      "total_no_existing_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_units_intermediate": 0,
+      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_existing_residential_units_social_rent": 0,
+      "total_no_proposed_residential_units_self_build_and_custom_build": 0,
+      "total_no_existing_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_affordable_units": 0,
+      "habitable_rooms_density": 0,
+      "total_no_existing_residential_units_affordable_rent": 0,
+      "total_no_existing_residential_units_london_shared_ownership": 0,
+      "total_gia_gained": 5603.3,
+      "total_no_proposed_residential_units_social_rent": 0,
+      "total_no_existing_residential_units_london_affordable_rent": 0,
+      "dwelling_density": 0,
+      "site_area": 0.195,
+      "total_no_proposed_residential_units_london_affordable_rent": 0,
+      "total_no_proposed_residential_units_starter_homes": 0,
+      "total_no_existing_residential_units_discount_market_sale": 0,
+      "total_gia_lost": 0,
+      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_starter_homes": 0,
+      "total_no_proposed_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_intermediate": 0,
+      "total_no_proposed_residential_units_london_shared_ownership": 0,
+      "affordable_percentage": 0,
+      "total_no_existing_residential_units_market_for_rent": 0,
+      "total_no_existing_residential_units_self_build_and_custom_build": 0
+    }
   },
   "wgs84_polygon": {
     "type": "Polygon",
     "coordinates": [
       [
         [
-          -0.1485757,
-          51.4920247
+          -0.1486,
+          51.492024
         ],
         [
-          -0.1489796,
-          51.49164
+          -0.149004,
+          51.491639
         ],
         [
-          -0.1494481,
-          51.4918362
+          -0.149473,
+          51.491835
         ],
         [
-          -0.14906419999999998,
-          51.492199
+          -0.149089,
+          51.492198
         ],
         [
-          -0.1485757,
-          51.4920247
+          -0.1486,
+          51.492024
         ]
       ]
     ]
@@ -91,7 +147,7 @@
   "decision_date": "19/08/2024",
   "appeal_start_date": null,
   "lapsed_date": "19/08/2027",
-  "status": "Approved",
+  "status": "Commenced",
   "decision_process": "Delegated",
   "epc_number": null,
   "appeal_status": null,
@@ -123,26 +179,26 @@
   "actual_completion_date": null,
   "subdivision_of_building": null,
   "centroid": {
-    "lon": "-0.1490202",
-    "lat": "51.4919196"
+    "lon": -0.149045,
+    "lat": 51.491919
   },
   "cil_liability": false,
   "valid_date": "14/06/2024",
   "postcode": "SW1W 9TJ",
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "borough": "Westminster",
   "id": "Westminster-24_03997_FULL",
   "application_type": "All Other",
   "parking_details": null,
   "decision_target_date": "09/08/2024",
   "pp_id": "PP-13082095",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "locality": null,
   "uprn": "100023347011",
   "last_date_consultation_comments": "17/07/2024",
   "title_number": [],
   "decision": "Approved",
-  "last_updated": "2025-03-19T19:38:37.750+00:00",
+  "last_updated": "2026-08-28T13:47:47.624Z",
   "polygon": {
     "geometries": [
       {
@@ -176,7 +232,7 @@
     "type": "GeometryCollection"
   },
   "date_building_work_started_under_previous_permission": null,
-  "actual_commencement_date": null,
+  "actual_commencement_date": "19/08/2024",
   "ward": "KBW_22",
   "appeal_decision": null,
   "lpa_app_no": "24/03997/FULL",

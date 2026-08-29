@@ -12,15 +12,17 @@
   "status": "Approved",
   "application_details": {
     "affordable_housing_fast_track": null,
-    "s106_agreement": null,
+    "s106_agreement": false,
     "affordable_housing_inlieu_payment": null,
     "air_quality_assessment": null,
     "other_contributions": null,
-    "existing_uprns": [],
+    "existing_uprns": [
+      "005870063509"
+    ],
     "total_gia_existing": null,
     "intended_commencement_date": null,
     "no_affordable_housing_units_provided_offsite": null,
-    "commencement_notice_received": null,
+    "commencement_notice_received": false,
     "circular_economy_statement": null,
     "scheme_phasing": null,
     "non_residential_details": {
@@ -47,7 +49,32 @@
     },
     "site_area": 0.051000000000000004,
     "existing_proposed_floorspace_details": [],
-    "constraints_details": [],
+    "constraints_details": [
+      {
+        "result": null,
+        "constraints_layer_description": "SMKCON Smoke Control Zone"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: DM2020/01490--- Address: 16 Salisbury Road\rCarshalton\rSM5 3HD--- Proposal: This householder planning application is for a ground floor front porch and rear extension with internal and external alterations to include a new front-drive and vehicle crossover.--- Status: REC--- Decision: --- Date Decision Issued: ---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: DM2020/01494--- Address: 16 Salisbury Road\rCarshalton\rSM5 3HD--- Proposal: This Lawful Application is for the construction of an outbuilding, situated at the rear end of the back garden of No. 16 Salisbury Road, measuring approx. 5M X 8M with a max height of 2.5M.--- Status: REC--- Decision: --- Date Decision Issued: ---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: CAR/729--- Address: 16,18,20 Salisbury Road\rCarshalton\rSM5 3HD--- Proposal: Erection of one detached and  two semi-detached bungalows ( Numbered 16,18 & 20 Salisbury Road)--- Status:  --- Decision:  --- Date Decision Issued: 29-JUL-54---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "PLAHIS Planning Application Reference: DM2020/00671--- Address: 16 Salisbury Road\rCarshalton\rSM5 3HD--- Proposal: Demolition of existing outbuilding, removal of chimneys and a flank window, erection of a single storey rear extension, installation of flank windows and conversion of loft space involving alterations to existing roofline and a dormer extension at rear.--- Status: GTD--- Decision: GTD--- Date Decision Issued: 08-JUL-20---"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "ARCH "
+      }
+    ],
     "building_details": [],
     "grey_water_reuse": null,
     "surface_water_discharge_percentage_reduction": null,
@@ -156,16 +183,16 @@
   "appeal_decision_date": null,
   "lpa_app_no": "DM2020/01494",
   "date_building_work_started_under_previous_permission": null,
-  "centroid_easting": 527775,
+  "centroid_easting": 527784,
   "date_building_work_completed_under_previous_permission": null,
   "title_number": [],
   "application_type_full": null,
-  "last_updated": "2025-03-19T00:52:19.246+00:00",
+  "last_updated": "2026-08-28T20:01:05.543Z",
   "id": "Sutton-DM2020_01494",
   "application_type": "All Other",
   "street_name": "Salisbury Road",
   "borough": "Sutton",
-  "ward": "C13",
+  "ward": "Carshalton Central",
   "decision_date": "13/11/2020",
   "epc_number": null,
   "actual_commencement_date": null,
@@ -175,15 +202,15 @@
   "description": "Erection of outbuilding in rear garden.",
   "actual_completion_date": null,
   "last_date_consultation_comments": null,
-  "last_updated_by": "FME Excel Import",
-  "development_type": null,
-  "centroid_northing": 164048,
+  "last_updated_by": "Idox Uniform",
+  "development_type": "Certificates of Lawful Development",
+  "centroid_northing": 164047,
   "decision": "Approved",
   "appeal_decision": null,
   "uprn": "005870063509",
   "centroid": {
-    "lon": "-0.1661185",
-    "lat": "51.3611368"
+    "lon": -0.166015,
+    "lat": 51.361127
   },
   "polygon": {
     "coordinates": [
@@ -210,7 +237,7 @@
         ]
       ]
     ],
-    "type": "GeometryCollection",
+    "type": "geometrycollection",
     "geometries": [
       {
         "coordinates": [
@@ -220,36 +247,36 @@
               164051.85
             ],
             [
-              527800.59,
-              164041.95
-            ],
-            [
-              527784.75,
-              164042.45
-            ],
-            [
-              527748.49,
-              164043.6
-            ],
-            [
-              527748.78,
-              164049.1
-            ],
-            [
-              527749,
-              164053.1
-            ],
-            [
-              527785.2,
-              164052.26
+              527794.55,
+              164052
             ],
             [
               527790,
               164052.15
             ],
             [
-              527794.55,
-              164052
+              527785.2,
+              164052.26
+            ],
+            [
+              527749,
+              164053.1
+            ],
+            [
+              527748.78,
+              164049.1
+            ],
+            [
+              527748.49,
+              164043.6
+            ],
+            [
+              527784.75,
+              164042.449999999
+            ],
+            [
+              527800.59,
+              164041.949999999
             ],
             [
               527801.05,
@@ -292,17 +319,18 @@
   },
   "decision_agency": null,
   "decision_conditions": [
-    "Dwelling not by change of use",
-    "Less than 50% of curtilage",
-    "Not on land forward of principal elev.",
-    "Single storey only",
-    "Max height 4m/2.5m/3m",
-    "Max eaves 2.5m",
-    "Not within curtilage of LB",
-    "No veranda, balcony, platform",
-    "Not related to dwelling or microwave",
-    "Incidental Purpose",
-    "Class E"
+    "E1(a) permission to use the dwellinghouse as a dwellinghouse has not been granted only by virtue of Class M, N, P, PA or Q of Part 3 of this Schedule (changes of use);",
+    "E1(b) the total area of ground covered by buildings, enclosures and containers within the curtilage (other than the original dwellinghouse) would not exceed 50% of the total area of the curtilage (excluding the ground area of the original dwellinghouse)",
+    "E1(c) no part of the building, enclosure, pool or container would be situated on land forward of a wall forming the principal elevation of the original dwellinghouse;",
+    "E1(d) the building would not have more than one storey",
+    "E1(e) the height of the building, enclosure or container would not exceed - \r(i) 4 metres in height in the case of a building with a dual pitched roof\r(ii) 2.5 metres in the case of a building, enclosure or container within 2 metres of the boundary of the curtilage of the dwellinghouse, or\r(iii) 3 metres in any other case",
+    "E1(f) the height of the eaves of the building height would not exceed 2.5 metres",
+    "E1(g) the building, enclosure, pool or container would not be situated within the curtilage of a listed building",
+    "E1(h) it would not include the construction or provision of a veranda, balcony or raised platform",
+    "E1(i) it would not  relate to a dwelling or a microwave antenna",
+    "E4 For the purposes of Class E 'purpose incidental to the enjoyment of the dwellinghouse as such' including the keeping of poultry, bees, pet animals, birds or other livestock for the domestic needs or personal enjoyment of the occupants of the dwellinghouse.",
+    "The proposal meets the criteria as set out in Class E of Schedule 2 Part 1 of the Town and Country Planning (General Permitted Development Order) 2015 as amended as the proposed single storey outbuilding does not infringe on the dimensions and criteria set out in Class E.",
+    "Drawing AD/22/CHEE88/LOFT/LF 00 Page 1 of 4, existing rear elevation appears to show the window nearest number 90 to be sized differently when compared to drawing AD/22/CHEE88/LOFT/LF 00 Page 3 of 4, existing first floor plan."
   ],
   "reference_no_of_permission_being_relied_on": null,
   "valid_date": "24/09/2020",
@@ -313,44 +341,44 @@
     "coordinates": [
       [
         [
-          -0.1657431,
-          51.3611655
+          -0.165768,
+          51.361167
         ],
         [
-          -0.1657533,
-          51.3610767
+          -0.165861,
+          51.36117
         ],
         [
-          -0.1659805,
-          51.3610847
+          -0.165927,
+          51.361172
         ],
         [
-          -0.1665006,
-          51.3611032
+          -0.165996,
+          51.361174
         ],
         [
-          -0.1664945,
-          51.3611526
+          -0.166515,
+          51.36119
         ],
         [
-          -0.1664899,
-          51.3611885
+          -0.16652,
+          51.361154
         ],
         [
-          -0.1659705,
-          51.3611728
+          -0.166526,
+          51.361104
         ],
         [
-          -0.16590169999999999,
-          51.3611707
+          -0.166006,
+          51.361086
         ],
         [
-          -0.1658364,
-          51.3611684
+          -0.165778,
+          51.361078
         ],
         [
-          -0.1657431,
-          51.3611655
+          -0.165768,
+          51.361167
         ]
       ]
     ],
