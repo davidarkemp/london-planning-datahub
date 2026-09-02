@@ -40,7 +40,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -64,7 +63,8 @@
               182366
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -73,7 +73,7 @@
   "appeal_start_date": null,
   "parking_details": null,
   "lpa_name": "Newham",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "application_details": {
     "grey_water_reuse": false,
     "total_gia_lost": 103.28,
@@ -102,15 +102,15 @@
     "building_details": [
       {
         "no_storeys": 1,
-        "building_ref": "Bungalow",
-        "max_height": 5.5
+        "max_height": 5.5,
+        "building_ref": "Bungalow"
       }
     ],
     "existing_proposed_floorspace_details": [
       {
+        "gia_existing": 103.28,
         "gia_gained": 62.98,
         "use_class": "C3",
-        "gia_existing": 103.28,
         "gia_lost": 103.28
       }
     ],
@@ -125,8 +125,8 @@
     "affordable_housing_fast_track": false,
     "phasing_details": [
       {
-        "intended_completion_date": "05/2027",
         "phase_detail": "Commencement and Completion",
+        "intended_completion_date": "05/2027",
         "intended_commencement_date": "02/2027"
       }
     ],
@@ -152,11 +152,11 @@
       "residential_units": [
         {
           "provider": "Private",
-          "change_type": "Gain",
-          "tenure": "Market for sale",
-          "unit_type": "House or Bungalow",
           "no_habitable_rooms": 3,
+          "change_type": "Gain",
+          "unit_type": "House or Bungalow",
           "no_bedrooms": 2,
+          "tenure": "Market for sale",
           "gia": 62.98
         }
       ],
@@ -221,5 +221,5 @@
   "description": "Demolition of existing residential garage block and erection of single storey 2-bedroom dwelling (Use Class C3) with associated cycle/refuse storage.",
   "id": "Newham-26_01866_FUL",
   "epc_number": null,
-  "last_updated": "2026-09-01T01:00:56.525Z"
+  "last_updated": "2026-09-01T04:01:43.746Z"
 }

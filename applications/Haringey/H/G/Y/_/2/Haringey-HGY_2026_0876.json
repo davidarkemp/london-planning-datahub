@@ -1,6 +1,6 @@
 {
   "site_name": "17 Chester Road, Tottenham, London, N17 6EA",
-  "site_number": 17,
+  "site_number": "17",
   "decision_process": null,
   "subdivision_of_building": null,
   "decision_date": "20/05/2026",
@@ -74,7 +74,7 @@
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "actual_commencement_date": null,
-  "cil_liability": null,
+  "cil_liability": false,
   "epc_number": "9267-2882-7222-9001-6545",
   "locality": "London",
   "ward": "Tottenham Central",
@@ -84,7 +84,7 @@
     "lat": 49.766807,
     "lon": -7.55716
   },
-  "title_number": null,
+  "title_number": [],
   "decision_target_date": null,
   "decision": "Refused",
   "uprn": "100021163835",
@@ -160,8 +160,8 @@
     "phasing_details": [
       {
         "phase_detail": "8 weeks",
-        "intended_commencement_date": "06/2026",
-        "intended_completion_date": "08/2026"
+        "intended_completion_date": "08/2026",
+        "intended_commencement_date": "06/2026"
       }
     ],
     "total_gia_gained": 0,
@@ -171,14 +171,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 102,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
     "occupation_status": "Occupied",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "rain_water_harvesting": false,
     "grey_water_reuse": false,
     "green_suds": false,
@@ -188,7 +188,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 0,
       "total_gia_lost": 0,
-      "total_gia_existing": 102
+      "total_gia_existing": 102,
+      "site_area": 0.015
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -212,12 +213,12 @@
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 133.33333333333334,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 4.7,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 66.66666666666667,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
@@ -229,18 +230,24 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 2,
           "provider": "Private",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
+          "actual_commencement_date": "01/03/2026",
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 4.7
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
-      "total_gia_lost": 0
+      "total_gia_lost": 0,
+      "site_area": 0.015
     },
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
@@ -251,7 +258,7 @@
       "no_new_water_connections_required": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
@@ -260,7 +267,20 @@
       "ghg_reduction_over_building_regulations": false
     },
     "internal_resi_water_usage": 125,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.015
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "status": "Application Under Consideration",
   "parking_details": {
@@ -272,7 +292,7 @@
   "lapsed_date": null,
   "application_type_full": "Full planning permission",
   "borough": "Haringey",
-  "last_updated": "2026-08-07T21:04:31.200Z",
+  "last_updated": "2026-09-01T21:05:45.084Z",
   "development_type": null,
   "id": "Haringey-HGY_2026_0876",
   "valid_date": "26/03/2026"

@@ -40,7 +40,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -88,7 +87,8 @@
               173278.72838195198
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -104,7 +104,7 @@
     "no_proposed_car": 1
   },
   "lpa_name": "Hounslow",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Northgate M3",
   "application_details": {
     "grey_water_reuse": false,
     "total_gia_lost": 0,
@@ -134,15 +134,15 @@
     "building_details": [
       {
         "no_storeys": 2,
-        "building_ref": "New Dwelling",
-        "max_height": 5.5
+        "max_height": 5.5,
+        "building_ref": "New Dwelling"
       }
     ],
     "existing_proposed_floorspace_details": [
       {
+        "gia_existing": 0,
         "gia_gained": 85,
         "use_class": "C3",
-        "gia_existing": 0,
         "gia_lost": 0
       }
     ],
@@ -157,8 +157,8 @@
     "affordable_housing_fast_track": false,
     "phasing_details": [
       {
-        "intended_completion_date": "09/2029",
         "phase_detail": "Phase 1",
+        "intended_completion_date": "09/2029",
         "intended_commencement_date": "07/2028"
       }
     ],
@@ -184,11 +184,11 @@
       "residential_units": [
         {
           "provider": "Private",
-          "change_type": "Gain",
-          "tenure": "Market for sale",
-          "unit_type": "House or Bungalow",
           "no_habitable_rooms": 4,
+          "change_type": "Gain",
+          "unit_type": "House or Bungalow",
           "no_bedrooms": 3,
+          "tenure": "Market for sale",
           "gia": 85
         }
       ],
@@ -277,5 +277,5 @@
   "description": "Erection of a two storey detached house with solar panels to the roof and car and cycle parking, refuse and recycling storage.",
   "id": "Hounslow-P_2026_2431",
   "epc_number": null,
-  "last_updated": "2026-08-28T01:08:21.408Z"
+  "last_updated": "2026-09-01T15:50:20.813Z"
 }
