@@ -1,64 +1,62 @@
 {
-  "uprn": 100023157840,
+  "uprn": "100023157840",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          [
-            -0.064936,
-            51.573796
-          ],
-          [
-            -0.065046,
-            51.57385
-          ],
-          [
-            -0.065095,
-            51.573874
-          ],
-          [
-            -0.065109,
-            51.573864
-          ],
-          [
-            -0.065145,
-            51.573835
-          ],
-          [
-            -0.065097,
-            51.573811
-          ],
-          [
-            -0.065003,
-            51.573764
-          ],
-          [
-            -0.064844,
-            51.573683
-          ],
-          [
-            -0.064791,
-            51.573724
-          ],
-          [
-            -0.064832,
-            51.573745
-          ],
-          [
-            -0.064936,
-            51.573796
-          ]
+          -0.064936,
+          51.573796
+        ],
+        [
+          -0.065046,
+          51.57385
+        ],
+        [
+          -0.065095,
+          51.573874
+        ],
+        [
+          -0.065109,
+          51.573864
+        ],
+        [
+          -0.065145,
+          51.573835
+        ],
+        [
+          -0.065097,
+          51.573811
+        ],
+        [
+          -0.065003,
+          51.573764
+        ],
+        [
+          -0.064844,
+          51.573683
+        ],
+        [
+          -0.064791,
+          51.573724
+        ],
+        [
+          -0.064832,
+          51.573745
+        ],
+        [
+          -0.064936,
+          51.573796
         ]
       ]
     ],
-    "type": "MultiPolygon"
+    "type": "Polygon"
   },
   "subdivision_of_building": null,
   "centroid_easting": 534191,
   "application_type": "All Other",
-  "status": "Approved",
+  "status": "Completed",
   "epc_number": null,
-  "cil_liability": null,
+  "cil_liability": false,
   "parking_details": null,
   "centroid": {
     "lat": 51.573806,
@@ -84,13 +82,15 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 157.28,
-        "gia_gained": 60.25,
+        "actual_completion_date": "04/12/2025",
         "use_class": "C3",
+        "gia_gained": 60.25,
+        "actual_commencement_date": "04/12/2025",
         "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "rain_water_harvesting": false,
     "grey_water_reuse": false,
     "green_suds": false,
@@ -100,9 +100,10 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 60.25,
       "total_gia_existing": 157.28,
-      "total_gia_lost": 0
+      "total_gia_lost": 0,
+      "site_area": 0.015316
     },
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_proposed_bedrooms": 1,
@@ -124,12 +125,12 @@
       "total_no_proposed_residential_units_market_for_sale": 1,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 130.58239749281796,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 86.78,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 65.29119874640898,
       "total_gia_lost": 86.78,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
@@ -143,42 +144,57 @@
       "residential_units": [
         {
           "m43_2b_compliant": false,
-          "no_habitable_rooms": 1,
+          "actual_completion_date": "04/12/2025",
           "m43_2a_compliant": false,
+          "description": null,
           "m42_compliant": false,
           "change_type": "Loss",
-          "garden_land": false,
           "sheltered_accommodation": false,
-          "no_bedrooms": 1,
+          "garden_land": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 1,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "04/12/2025",
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 43.28
         },
         {
           "m43_2b_compliant": false,
-          "no_habitable_rooms": 1,
+          "actual_completion_date": "04/12/2025",
           "m43_2a_compliant": false,
+          "description": null,
           "m42_compliant": false,
           "change_type": "Loss",
-          "garden_land": false,
           "sheltered_accommodation": false,
-          "no_bedrooms": 1,
+          "garden_land": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 1,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "04/12/2025",
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "gia": 43.5
         },
         {
           "m43_2b_compliant": false,
+          "actual_completion_date": "04/12/2025",
           "m43_2a_compliant": false,
+          "description": null,
           "m42_compliant": false,
           "change_type": "Gain",
-          "garden_land": false,
           "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Terraced Home",
-          "no_habitable_rooms": 2,
           "provider": "Private",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "04/12/2025",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
           "tenure": "Market for sale",
@@ -186,7 +202,8 @@
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 2,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.015316
     },
     "internal_resi_water_usage": 0,
     "infrastructure_details": {
@@ -197,7 +214,7 @@
       "no_new_water_connections_required": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
@@ -207,22 +224,32 @@
       "urban_greening_factor_score": 0
     },
     "ownership_status": "Private",
-    "occupation_status": "Occupied"
+    "occupation_status": "Occupied",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "valid_date": "23/09/2025",
   "decision_process": "Delegated",
   "appeal_start_date": null,
   "application_type_full": "Full planning permission",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Portal",
   "bo_system": "Portal",
   "decision_target_date": "18/11/2025",
-  "last_updated": "2026-06-27T19:52:32.004Z",
+  "last_updated": "2026-09-02T14:27:35.311Z",
   "site_name": null,
   "development_type": "Minor all other minor developments",
   "centroid_northing": 187878,
-  "title_number": null,
+  "title_number": [],
   "borough": "Hackney",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "04/12/2025",
   "lpa_app_no": "2025/2093",
   "pp_id": "14340698",
   "appeal_decision_date": null,
@@ -243,9 +270,9 @@
   "decision_date": "04/12/2025",
   "lapsed_date": "04/12/2028",
   "decision_conditions": [
-    "<p>The Development hereby permitted shall only be carried out and completed strictly in accordance with the submitted plans hereby approved and any subsequent approval of details.\r\n</p><p><br></p><p>\r\nREASON: To ensure that the development hereby permitted is carried out in full accordance with the plans hereby approved.\r\n</p>",
-    "<p>The development hereby permitted must be begun not later than the expiration of three years beginning with the date of this permission.</p><p><br></p><p>\r\n</p><p>\r\nREASON: In order to comply with the provisions of the Town and Country Planning Act 1990 (as amended).</p><p>\r\n</p>",
-    "&lt;p data-path-to-node=&quot;3&quot; style=&quot;line-height: 1.15 !important;&quot;&gt;The&amp;nbsp;balustrading required to make the eastern corner of the upper ground floor external terrace inaccessible hereby approved shall be installed prior to the first use of the terrace and&amp;nbsp;retained in perpetuity.&lt;/p&gt;&lt;p data-path-to-node=&quot;4&quot; style=&quot;line-height: 1.15 !important;&quot;&gt;&lt;span style=&quot;line-height: 1.15 !important; margin-top: 0px !important;&quot;&gt;REASON:&lt;/span&gt;To safeguard the privacy and residential amenity of the occupiers of neighbouring properties.&lt;/p&gt;"
+    "The Development hereby permitted shall only be carried out and completed strictly in accordance with the submitted plans hereby approved and any subsequent approval of details.\n\nREASON: To ensure that the development hereby permitted is carried out in full accordance with the plans hereby approved.",
+    "The development hereby permitted must be begun not later than the expiration of three years beginning with the date of this permission.\n\nREASON: In order to comply with the provisions of the Town and Country Planning Act 1990 (as amended).",
+    "The balustrading required to make the eastern corner of the upper ground floor external terrace inaccessible hereby approved shall be installed prior to the first use of the terrace and retained in perpetuity.REASON:To safeguard the privacy and residential amenity of the occupiers of neighbouring properties."
   ],
   "polygon": {
     "geometries": [
@@ -253,54 +280,52 @@
         "coordinates": [
           [
             [
-              [
-                534195.9,
-                187876.95
-              ],
-              [
-                534188.1,
-                187882.8
-              ],
-              [
-                534184.62,
-                187885.41
-              ],
-              [
-                534183.7,
-                187884.25
-              ],
-              [
-                534181.25,
-                187881
-              ],
-              [
-                534184.65,
-                187878.4
-              ],
-              [
-                534191.3,
-                187873.3
-              ],
-              [
-                534202.6,
-                187864.65
-              ],
-              [
-                534206.15,
-                187869.3
-              ],
-              [
-                534203.226,
-                187871.483
-              ],
-              [
-                534195.9,
-                187876.95
-              ]
+              534195.9,
+              187876.95
+            ],
+            [
+              534188.1,
+              187882.8
+            ],
+            [
+              534184.62,
+              187885.41
+            ],
+            [
+              534183.7,
+              187884.25
+            ],
+            [
+              534181.25,
+              187881
+            ],
+            [
+              534184.65,
+              187878.4
+            ],
+            [
+              534191.3,
+              187873.3
+            ],
+            [
+              534202.6,
+              187864.65
+            ],
+            [
+              534206.15,
+              187869.3
+            ],
+            [
+              534203.226,
+              187871.483
+            ],
+            [
+              534195.9,
+              187876.95
             ]
           ]
         ],
-        "type": "MultiPolygon"
+        "type": "Polygon"
       }
     ],
     "type": "GeometryCollection",
@@ -311,8 +336,8 @@
       }
     }
   },
-  "site_number": 36,
+  "site_number": "36",
   "ward": "Springfield Ward",
   "reference_no_of_permission_being_relied_on": null,
-  "actual_completion_date": null
+  "actual_completion_date": "04/12/2025"
 }

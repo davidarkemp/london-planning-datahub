@@ -1,6 +1,6 @@
 {
   "borough": "Enfield Council",
-  "cil_liability": true,
+  "cil_liability": false,
   "decision_target_date": "18/08/2023",
   "lpa_app_no": "23/02026/FUL",
   "date_building_work_completed_under_previous_permission": null,
@@ -45,7 +45,7 @@
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0.022857142857142857,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "affordable_percentage": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
@@ -73,58 +73,53 @@
       "residential_units": [
         {
           "no_habitable_rooms": 11,
-          "unit_no": "Loss-1",
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 5,
           "unit_type": "House or Bungalow",
+          "no_bedrooms": 5,
           "provision_for_older_persons": false,
-          "gia": 305,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 305
         },
         {
-          "no_habitable_rooms": 8,
           "provider": "Private",
-          "unit_no": "Gain-1",
+          "no_habitable_rooms": 8,
           "change_type": "Gain",
           "garden_land": true,
-          "no_bedrooms": 5,
           "unit_type": "House or Bungalow",
-          "gia": 206,
-          "tenure": "Market for sale"
+          "no_bedrooms": 5,
+          "tenure": "Market for sale",
+          "gia": 206
         },
         {
-          "no_habitable_rooms": 8,
           "provider": "Private",
-          "unit_no": "Gain-2",
+          "no_habitable_rooms": 8,
           "change_type": "Gain",
           "garden_land": true,
-          "no_bedrooms": 5,
           "unit_type": "House or Bungalow",
-          "gia": 206,
-          "tenure": "Market for sale"
+          "no_bedrooms": 5,
+          "tenure": "Market for sale",
+          "gia": 206
         },
         {
-          "no_habitable_rooms": 8,
           "provider": "Private",
-          "unit_no": "Gain-3",
+          "no_habitable_rooms": 8,
           "change_type": "Gain",
           "garden_land": true,
-          "no_bedrooms": 5,
           "unit_type": "Semi Detached Home",
-          "gia": 213,
-          "tenure": "Market for sale"
+          "no_bedrooms": 5,
+          "tenure": "Market for sale",
+          "gia": 213
         },
         {
-          "no_habitable_rooms": 8,
           "provider": "Private",
-          "unit_no": "Gain-4",
+          "no_habitable_rooms": 8,
           "change_type": "Gain",
           "garden_land": true,
-          "no_bedrooms": 5,
           "unit_type": "Semi Detached Home",
-          "gia": 213,
-          "tenure": "Market for sale"
+          "no_bedrooms": 5,
+          "tenure": "Market for sale",
+          "gia": 213
         }
       ],
       "total_no_existing_residential_units_shared_equity": 0,
@@ -133,8 +128,9 @@
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "dwelling_density": 0,
-      "total_no_existing_residential_units_market_for_rent": 0
+      "dwelling_density": 0.002857142857142857,
+      "total_no_existing_residential_units_market_for_rent": 0,
+      "site_area": 1400
     },
     "rain_water_harvesting": true,
     "scheme_phasing": true,
@@ -142,8 +138,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 305,
-        "use_class": "C3",
         "gia_gained": 838,
+        "use_class": "C3",
         "gia_lost": 305
       }
     ],
@@ -179,15 +175,29 @@
         "intended_commencement_date": "11/2023"
       }
     ],
-    "site_area": 1400,
+    "site_area": 0.14,
     "total_gia_gained": 838,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 838,
       "total_gia_lost": 305,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_existing": 305
-    }
+      "total_gia_existing": 305,
+      "site_area": 1400
+    },
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 1400
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "title_number": [],
   "wgs84_polygon": {
@@ -239,35 +249,37 @@
     "NRMM"
   ],
   "decision": "Approved",
-  "centroid_easting": "531036",
+  "centroid_easting": 531036,
   "uprn": "000207164615",
   "decision_process": "Delegated",
   "application_type_full": "Full planning permission",
   "locality": null,
   "last_date_consultation_comments": null,
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "ward": "RW",
   "pp_id": "PP-12259627",
   "lapsed_date": "02/08/2026",
   "decision_agency": null,
   "actual_completion_date": null,
-  "description": "Redevelopment of site and construction of  4 x single dwelling houses with cycle and bin storage, associated landscape and parking.\r",
-  "centroid_northing": "198140",
+  "description": "Redevelopment of site and construction of  4 x single dwelling houses with cycle and bin storage, associated landscape and parking.\n",
+  "centroid_northing": 198140,
   "street_name": "Spring Court Road",
   "epc_number": null,
   "appeal_status": null,
   "appeal_decision": null,
   "secondary_street_name": null,
   "appeal_start_date": null,
-  "status": "Approved",
+  "status": "Lapsed",
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated": "2025-03-19T04:24:58.311+00:00",
+  "last_updated": "2026-09-03T01:13:03.664Z",
   "site_name": "",
   "development_type": null,
   "appeal_decision_date": null,
   "last_updated_by": "Planning Portal ingest",
   "application_type": "All Other",
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "subdivision_of_building": null,
   "parking_details": {
     "no_existing_cycle": 2,

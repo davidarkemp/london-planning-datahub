@@ -1,21 +1,21 @@
 {
   "lpa_app_no": "P/2023/0620",
   "centroid_northing": 178366,
-  "status": "Allowed",
+  "status": "Lapsed",
   "epc_number": null,
   "last_date_consultation_comments": null,
   "locality": "London",
   "secondary_street_name": null,
   "subdivision_of_building": "first floor",
   "date_building_work_started_under_previous_permission": null,
-  "last_updated": "2026-02-12T11:25:45.898Z",
+  "last_updated": "2026-09-02T15:27:44.000Z",
   "valid_date": "07/03/2023",
   "polygon": {
     "geometries": [],
     "type": "geometrycollection"
   },
   "cil_liability": false,
-  "title_number": null,
+  "title_number": [],
   "decision_process": "Delegated",
   "centroid_easting": 521213,
   "actual_commencement_date": null,
@@ -34,7 +34,7 @@
   "id": "Hounslow-P_2023_0620",
   "application_details": {
     "internal_resi_water_usage": 0,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "garden_land_lost": false,
     "phasing_details": [
       {
@@ -45,10 +45,16 @@
     ],
     "existing_proposed_floorspace_details": [
       {
-        "gia_existing": 40,
-        "gia_gained": 45,
+        "gia_existing": 45,
+        "gia_gained": null,
         "use_class": "C3",
         "gia_lost": 45
+      },
+      {
+        "gia_existing": null,
+        "gia_gained": 45,
+        "use_class": "E(b)",
+        "gia_lost": null
       }
     ],
     "total_gia_gained": 45,
@@ -57,7 +63,8 @@
       "total_gia_lost": 45,
       "total_gia_existing": 40,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_gained": 45
+      "total_gia_gained": 45,
+      "site_area": 0.007
     },
     "site_area": 0.007,
     "projected_cost_of_works": "Up to £2m",
@@ -78,7 +85,7 @@
       "no_new_gas_connections_required": 0,
       "no_new_water_connections_required": 0,
       "mobile_network_operators_consultation": false,
-      "waste_provision": true,
+      "waste_provision": false,
       "ghg_reduction_over_building_regulations": false,
       "green_roof_area": 0
     },
@@ -97,17 +104,20 @@
       "residential_units": [
         {
           "no_habitable_rooms": 1,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "gia": 40,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 40
         }
       ],
       "total_no_proposed_bedrooms": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_gia_lost": 40,
       "total_no_existing_residential_units_starter_homes": 0,
@@ -132,23 +142,36 @@
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_market_for_rent": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
-      "total_no_existing_residential_units_discount_market_rent": 0
+      "total_no_existing_residential_units_discount_market_rent": 0,
+      "site_area": 0.007
     },
     "affordable_housing_fast_track": false,
     "ownership_status": "Private",
-    "existing_uprns": null,
-    "rain_water_harvesting": false
+    "existing_uprns": [],
+    "rain_water_harvesting": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.007
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "uprn": "200002819085",
   "decision_date": "16/05/2023",
   "description": "Change of use of the first floor to a restaurant (Class E)",
   "site_name": null,
-  "last_updated_by": "Northgate M3",
+  "last_updated_by": "Portal",
   "decision_target_date": "02/05/2023",
   "borough": "Hounslow",
   "postcode": "W4 2HD",
   "street_name": "Devonshire Road",
-  "bo_system": "Northgate M3",
+  "bo_system": "Portal",
   "development_type": "Other change of use",
   "lapsed_date": "16/05/2026",
   "decision_conditions": [

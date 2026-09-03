@@ -40,7 +40,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -72,7 +71,8 @@
               159917
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -81,7 +81,7 @@
   "appeal_start_date": null,
   "parking_details": null,
   "lpa_name": "Croydon",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "application_details": {
     "grey_water_reuse": false,
     "total_gia_lost": 0,
@@ -109,15 +109,15 @@
     "building_details": [
       {
         "no_storeys": 3,
-        "building_ref": "Existing Building",
-        "max_height": 8.4
+        "max_height": 8.4,
+        "building_ref": "Existing Building"
       }
     ],
     "existing_proposed_floorspace_details": [
       {
+        "gia_existing": 133.35,
         "gia_gained": 127.83,
         "use_class": "C3",
-        "gia_existing": 133.35,
         "gia_lost": 0
       }
     ],
@@ -132,8 +132,8 @@
     "affordable_housing_fast_track": false,
     "phasing_details": [
       {
-        "intended_completion_date": "01/2028",
         "phase_detail": "Construction",
+        "intended_completion_date": "01/2028",
         "intended_commencement_date": "04/2027"
       }
     ],
@@ -158,31 +158,31 @@
       "total_no_proposed_residential_units_intermediate": 0,
       "residential_units": [
         {
-          "tenure": "Market for sale",
+          "no_habitable_rooms": 7,
           "change_type": "Loss",
           "sheltered_accommodation": false,
           "unit_type": "House or Bungalow",
-          "no_habitable_rooms": 7,
-          "provision_for_older_persons": false,
           "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
           "gia": 133.35
         },
         {
           "provider": "Private",
-          "change_type": "Gain",
-          "tenure": "Self-Build and Custom Build",
-          "unit_type": "Semi Detached Home",
           "no_habitable_rooms": 5,
+          "change_type": "Gain",
+          "unit_type": "Semi Detached Home",
           "no_bedrooms": 3,
+          "tenure": "Self-Build and Custom Build",
           "gia": 150.46
         },
         {
           "provider": "Private rented sector",
-          "change_type": "Gain",
-          "tenure": "Market for sale",
-          "unit_type": "Semi Detached Home",
           "no_habitable_rooms": 4,
+          "change_type": "Gain",
+          "unit_type": "Semi Detached Home",
           "no_bedrooms": 3,
+          "tenure": "Market for sale",
           "gia": 100.7
         }
       ],
@@ -254,6 +254,6 @@
   "actual_commencement_date": null,
   "description": "Alterations, conversion of existing dwellinghouse to 2x 3 bedroom semi-detached dwellinghouses, incorporating erection of an additional storey to create a two storey house with rear dormer, erection of front porch, single storey side extension and single storey side/rear extension. Provisions of 3x parking space, associated bike and cycle storage.\r",
   "id": "Croydon-26_02392_FUL",
-  "epc_number": "0045-2831-7776-9106-4621",
-  "last_updated": "2026-09-02T01:06:19.171Z"
+  "epc_number": null,
+  "last_updated": "2026-09-02T22:09:58.587Z"
 }

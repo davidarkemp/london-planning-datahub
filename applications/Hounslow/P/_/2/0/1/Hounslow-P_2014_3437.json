@@ -8,14 +8,78 @@
   "secondary_street_name": null,
   "subdivision_of_building": null,
   "date_building_work_started_under_previous_permission": null,
-  "last_updated": "2026-02-12T17:57:00.114Z",
+  "last_updated": "2026-09-02T14:50:46.472Z",
   "valid_date": "10/02/2015",
   "polygon": {
-    "type": "geometrycollection",
-    "geometries": []
+    "type": "GeometryCollection",
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              520994.167919,
+              178398.0769601
+            ],
+            [
+              520999.1175876,
+              178399.4764176
+            ],
+            [
+              520999.3177968,
+              178398.8269434
+            ],
+            [
+              520999.9681436,
+              178395.5767968
+            ],
+            [
+              521000.3180844,
+              178394.3267172
+            ],
+            [
+              520999.9678011,
+              178394.2772202
+            ],
+            [
+              520996.5175649,
+              178393.1771115
+            ],
+            [
+              520995.5677768,
+              178392.9264359
+            ],
+            [
+              520985.467794,
+              178389.9770068
+            ],
+            [
+              520982.4677531,
+              178389.076761
+            ],
+            [
+              520982.3181233,
+              178389.5271623
+            ],
+            [
+              520980.9681889,
+              178394.127005
+            ],
+            [
+              520983.9675327,
+              178395.0272336
+            ],
+            [
+              520994.167919,
+              178398.0769601
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ]
   },
   "cil_liability": false,
-  "title_number": null,
+  "title_number": [],
   "decision_process": "Delegated",
   "centroid_easting": 520991,
   "actual_commencement_date": "28/08/2016",
@@ -72,7 +136,8 @@
     "other_residential_accommodation_details": {
       "no_council_tax_rateable_units_gained": 0,
       "no_council_tax_rateable_units_lost": 0,
-      "other_resi_accommodation_unit_details": []
+      "other_resi_accommodation_unit_details": [],
+      "site_area": 0.01
     },
     "non_permanent_dwellings_details": [],
     "no_affordable_housing_units_provided_offsite": null,
@@ -82,15 +147,10 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 0,
       "development_type": null,
-      "site_area": null
+      "site_area": 0.01
     },
     "scheme_name": null,
-    "building_details": [
-      {
-        "no_storeys": 3,
-        "building_ref": null
-      }
-    ],
+    "building_details": null,
     "residential_details": {
       "affordable_percentage": 0,
       "total_no_existing_residential_units_intermediate": 0,
@@ -109,17 +169,14 @@
           "m42_compliant": false,
           "change_type": "Loss",
           "unit_type": "House or Bungalow",
-          "unit_development_type": null,
-          "superseded_date": null,
           "provider": "Private",
           "phase_detail": null,
           "unit_no": null,
           "actual_commencement_date": "28/08/2016",
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
           "tenure": "Market for sale",
-          "gia": null
+          "gia": 120
         },
         {
           "actual_completion_date": "08/06/2018",
@@ -129,16 +186,14 @@
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "unit_development_type": "Conversion",
-          "superseded_date": null,
           "provider": "Private",
           "phase_detail": null,
           "unit_no": null,
           "actual_commencement_date": "28/08/2016",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
           "tenure": "Market for sale",
-          "gia": null
+          "gia": 45
         },
         {
           "actual_completion_date": "08/06/2018",
@@ -148,16 +203,14 @@
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "unit_development_type": "New Build",
-          "superseded_date": null,
           "provider": "Private",
           "phase_detail": null,
           "unit_no": null,
           "actual_commencement_date": "28/08/2016",
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
           "tenure": "Market for sale",
-          "gia": null
+          "gia": 75
         }
       ],
       "total_no_existing_residential_units_discount_market_sale": 0,
@@ -187,23 +240,57 @@
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_market_for_rent": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
-      "total_no_existing_residential_units_discount_market_rent": 0
+      "total_no_existing_residential_units_discount_market_rent": 0,
+      "total_gia_gained": 120,
+      "total_gia_lost": 120
     },
     "superseding_details": [],
     "occupation_status": null,
     "building_type": null,
-    "site_area": 0.01
+    "site_area": 0.01,
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "scheme_phasing": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "infrastructure_details": {
+      "waste_provision": false,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 120,
+        "actual_completion_date": "08/06/2018",
+        "use_class": "C3",
+        "gia_gained": 120,
+        "actual_commencement_date": "28/06/2016",
+        "gia_lost": 120
+      }
+    ],
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "garden_land_lost": false
   },
   "uprn": "100021586792",
   "decision_date": "03/06/2015",
   "description": "Conversion of house into two separate self contained flats",
   "site_name": "59",
-  "last_updated_by": "Northgate M3",
+  "last_updated_by": "Portal",
   "decision_target_date": "07/04/2015",
   "borough": "Hounslow",
   "postcode": "W4 2EW",
   "street_name": "Linden Gardens",
-  "bo_system": "Northgate M3",
+  "bo_system": "Portal",
   "development_type": "Minor dwellings",
   "lapsed_date": "15/04/2019",
   "decision_conditions": [
@@ -214,24 +301,60 @@
     "coordinates": [
       [
         [
-          -0.258617,
-          51.491569
+          -0.258592,
+          51.491592
         ],
         [
-          -0.258618,
-          51.491542
+          -0.25852,
+          51.491603
         ],
         [
-          -0.258661,
-          51.491543
+          -0.258517,
+          51.491597
         ],
         [
-          -0.25866,
-          51.49157
+          -0.258509,
+          51.491568
         ],
         [
-          -0.258617,
-          51.491569
+          -0.258505,
+          51.491557
+        ],
+        [
+          -0.25851,
+          51.491556
+        ],
+        [
+          -0.25856,
+          51.491547
+        ],
+        [
+          -0.258573,
+          51.491545
+        ],
+        [
+          -0.25872,
+          51.491521
+        ],
+        [
+          -0.258763,
+          51.491513
+        ],
+        [
+          -0.258765,
+          51.491517
+        ],
+        [
+          -0.258783,
+          51.491559
+        ],
+        [
+          -0.25874,
+          51.491567
+        ],
+        [
+          -0.258592,
+          51.491592
         ]
       ]
     ]
