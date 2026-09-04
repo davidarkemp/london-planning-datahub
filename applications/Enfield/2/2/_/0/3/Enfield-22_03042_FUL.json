@@ -1,8 +1,8 @@
 {
-  "cil_liability": true,
-  "last_updated": "2025-03-20T12:31:21.426+00:00",
+  "cil_liability": false,
+  "last_updated": "2026-09-03T10:31:23.025Z",
   "application_details": {
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "building_details": [
       {
         "no_storeys": 0,
@@ -15,17 +15,17 @@
     "site_area": 0.049,
     "internal_resi_water_usage": 100,
     "total_gia_existing": 284,
-    "green_suds": true,
+    "green_suds": false,
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
       "no_passive_rapid_ev_charging_points": 4,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "no_homes_passive_cooling": 4,
       "no_active_rapid_ev_charging_points": 4,
       "no_non_resi_units_to_have_full_fibre": 4,
       "total_annual_nox_emissions": 0,
       "green_roof_area": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_new_water_connections_required": 1,
       "percentage_demolition_construction_material_recycling": 100,
       "fire_suppression_system_proposed": false,
@@ -37,16 +37,16 @@
       "no_resi_units_to_have_full_fibre": 4
     },
     "surface_water_discharge_percentage_reduction": 100,
-    "rain_water_harvesting": true,
+    "rain_water_harvesting": false,
     "ownership_status": "Private",
     "scheme_name": "Warwick Apartments",
     "total_gia_gained": 0,
-    "grey_water_reuse": true,
+    "grey_water_reuse": false,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 284,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -62,7 +62,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 0,
       "total_gia_existing": 284,
-      "total_gia_lost": 0
+      "total_gia_lost": 0,
+      "site_area": 0.049
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -96,87 +97,121 @@
       "residential_units": [
         {
           "no_habitable_rooms": 3,
-          "unit_no": "Loss-1",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 2,
           "unit_type": "Terraced Home",
+          "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "gia": 142,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 142
         },
         {
           "no_habitable_rooms": 3,
-          "unit_no": "Loss-2",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 2,
           "unit_type": "Terraced Home",
-          "provision_for_older_persons": false,
-          "gia": 142,
-          "tenure": "Market for sale"
-        },
-        {
-          "no_habitable_rooms": 4,
-          "provider": "Private",
-          "unit_no": "Gain-1",
-          "change_type": "Gain",
-          "no_bedrooms": 3,
-          "unit_type": "Flat Apartment Maisonette",
-          "gia": 74.5,
-          "tenure": "Market for rent"
-        },
-        {
-          "no_habitable_rooms": 4,
-          "provider": "Private",
-          "unit_no": "Gain-2",
-          "change_type": "Gain",
-          "no_bedrooms": 3,
-          "unit_type": "Flat Apartment Maisonette",
-          "gia": 88.6,
-          "tenure": "Market for rent"
-        },
-        {
-          "no_habitable_rooms": 3,
-          "provider": "Private",
-          "unit_no": "Gain-3",
-          "change_type": "Gain",
           "no_bedrooms": 2,
-          "unit_type": "Flat Apartment Maisonette",
-          "gia": 76.1,
-          "tenure": "Market for rent"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 142
         },
         {
+          "provider": "Private",
+          "no_habitable_rooms": 4,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Gain",
+          "actual_commencement_date": "01/01/2025",
+          "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 74.5
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 4,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Gain",
+          "actual_commencement_date": "01/01/2025",
+          "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 88.6
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Gain",
+          "actual_commencement_date": "01/01/2025",
+          "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 76.1
+        },
+        {
+          "provider": "Private",
           "no_habitable_rooms": 1,
-          "provider": "Private",
-          "unit_no": "Gain-4",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 1,
+          "actual_commencement_date": "01/01/2025",
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 41.5,
-          "tenure": "Market for rent"
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 41.5
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 244.89795918367346,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_gia_gained": 280.7,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "affordable_percentage": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 81.63265306122449,
       "total_no_existing_residential_units": 2,
-      "total_no_existing_residential_units_intermediate": 0
+      "total_no_existing_residential_units_intermediate": 0,
+      "site_area": 0.049
     },
-    "projected_cost_of_works": "Over £100m"
+    "projected_cost_of_works": "Over £100m",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.049
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "decision_target_date": "22/12/2022",
   "parking_details": null,
-  "postcode": null,
+  "postcode": "",
   "appeal_decision_date": null,
   "locality": null,
-  "status": "Approved",
+  "status": "Commenced",
   "centroid_easting": 529884,
   "lapsed_date": "13/07/2026",
   "reference_no_of_permission_being_relied_on": null,
@@ -276,14 +311,14 @@
   "ward": "NS",
   "lpa_app_no": "22/03042/FUL",
   "pp_id": "PP-11519056",
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "borough": "Enfield Council",
   "valid_date": "27/10/2022",
   "title_number": [],
   "decision_agency": null,
   "uprn": "000207107151",
   "appeal_start_date": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "appeal_decision": null,
   "last_date_consultation_comments": "23/11/2022",
   "actual_completion_date": null,
@@ -294,105 +329,105 @@
   "secondary_street_name": null,
   "subdivision_of_building": null,
   "date_building_work_started_under_previous_permission": null,
-  "actual_commencement_date": null,
-  "street_name": null,
+  "actual_commencement_date": "01/01/2025",
+  "street_name": "",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.1253177,
-          51.6119018
+          -0.125343,
+          51.611899
         ],
         [
-          -0.1253233,
-          51.6118879
+          -0.125348,
+          51.611885
         ],
         [
-          -0.1254316,
-          51.6119072
+          -0.125457,
+          51.611904
         ],
         [
-          -0.1256217,
-          51.6119381
+          -0.125647,
+          51.611935
         ],
         [
-          -0.125793,
-          51.6119679
+          -0.125818,
+          51.611965
         ],
         [
-          -0.1258312,
-          51.6119745
+          -0.125856,
+          51.611972
         ],
         [
-          -0.12586329999999998,
-          51.6119802
+          -0.125888,
+          51.611977
         ],
         [
-          -0.1258602,
-          51.6119855
+          -0.125885,
+          51.611983
         ],
         [
-          -0.12583919999999998,
-          51.6120216
+          -0.125864,
+          51.612019
         ],
         [
-          -0.12582759999999998,
-          51.6120403
+          -0.125853,
+          51.612038
         ],
         [
-          -0.1258183,
-          51.6120554
+          -0.125843,
+          51.612053
         ],
         [
-          -0.1258037,
-          51.6120781
+          -0.125829,
+          51.612075
         ],
         [
-          -0.1257974,
-          51.6120888
+          -0.125822,
+          51.612086
         ],
         [
-          -0.1256612,
-          51.6120655
+          -0.125686,
+          51.612063
         ],
         [
-          -0.125497,
-          51.6120368
+          -0.125522,
+          51.612034
         ],
         [
-          -0.1253829,
-          51.6120184
+          -0.125408,
+          51.612016
         ],
         [
-          -0.1252782,
-          51.6120005
+          -0.125303,
+          51.611998
         ],
         [
-          -0.1252984,
-          51.6119496
+          -0.125323,
+          51.611947
         ],
         [
-          -0.1253,
-          51.6119456
+          -0.125325,
+          51.611943
         ],
         [
-          -0.1253177,
-          51.6119018
+          -0.125343,
+          51.611899
         ]
       ]
     ],
     "type": "Polygon"
   },
   "centroid": {
-    "lat": "51.6119849",
-    "lon": "-0.1255656"
+    "lat": 51.611982,
+    "lon": -0.125591
   },
   "epc_number": null,
   "url_planning_app": null,
   "lpa_name": "Enfield",
   "date_building_work_completed_under_previous_permission": null,
   "decision_process": "Delegated",
-  "site_name": "75-77 Warwick Road\rLondon\rN11 2SP\r",
+  "site_name": "75-77 Warwick Road\nLondon\nN11 2SP\n",
   "decision": "Approved",
   "id": "Enfield-22_03042_FUL",
   "description": "Conversion of 2no x two-bedroom dwellinghouses into 4no. self-contained flats.",

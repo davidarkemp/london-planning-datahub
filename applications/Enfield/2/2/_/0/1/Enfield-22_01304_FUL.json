@@ -6,7 +6,7 @@
   "borough": "Enfield Council",
   "description": "Change of use of first and second floors from offices (Use Class E) to 2 self-contained flats (Use Class C3), with associated cycle parking and landscaping.",
   "appeal_start_date": null,
-  "cil_liability": true,
+  "cil_liability": false,
   "lpa_app_no": "22/01304/FUL",
   "reference_no_of_permission_being_relied_on": null,
   "title_number": [],
@@ -84,12 +84,12 @@
   "application_type_full": "Full planning permission",
   "locality": null,
   "application_type": "All Other",
-  "street_name": null,
+  "street_name": "",
   "decision": "Approved",
   "appeal_decision": null,
   "appeal_decision_date": null,
   "valid_date": "22/04/2022",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "11/09/2024",
   "development_type": null,
   "lapsed_date": "19/12/2026",
   "decision_target_date": "17/06/2022",
@@ -97,13 +97,13 @@
   "centroid_northing": 197031,
   "secondary_street_name": null,
   "appeal_status": null,
-  "site_name": "4 Chase Side \rEnfield \rEN2 6NF\r\r",
-  "postcode": null,
+  "site_name": "4 Chase Side \nEnfield \nEN2 6NF\n\n",
+  "postcode": "",
   "url_planning_app": null,
   "site_number": null,
   "ward": "TO",
   "centroid_easting": 532327,
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "lpa_name": "Enfield",
   "decision_agency": null,
   "application_details": {
@@ -122,14 +122,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 232,
-        "use_class": "B1a",
         "gia_gained": 153,
+        "use_class": "B1a",
         "gia_lost": 153
       }
     ],
     "projected_cost_of_works": "Up to £2m",
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "building_details": [
       {
         "no_storeys": 0,
@@ -145,7 +145,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 153,
       "total_gia_gained": 153,
       "total_gia_existing": 232,
-      "total_gia_lost": 153
+      "total_gia_lost": 153,
+      "site_area": 0.022000000000000002
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -169,12 +170,12 @@
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 90.9090909090909,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 153,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 90.9090909090909,
       "total_gia_lost": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -187,28 +188,37 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 1,
           "provider": "Private",
-          "unit_no": "Gain-1",
+          "no_habitable_rooms": 1,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
+          "actual_commencement_date": "11/09/2024",
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 82,
-          "tenure": "Market for rent"
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 82
         },
         {
-          "no_habitable_rooms": 1,
           "provider": "Private",
-          "unit_no": "Gain-2",
+          "no_habitable_rooms": 1,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
+          "actual_commencement_date": "11/09/2024",
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 71,
-          "tenure": "Market for rent"
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 71
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.022000000000000002
     },
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
@@ -218,7 +228,7 @@
       "no_homes_passive_cooling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 25,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
@@ -227,18 +237,31 @@
       "ghg_reduction_over_building_regulations": false
     },
     "internal_resi_water_usage": 150,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.022000000000000002
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
-  "last_updated": "2025-03-19T01:12:02.887+00:00",
-  "status": "Approved",
+  "last_updated": "2026-09-03T10:25:45.120Z",
+  "status": "Commenced",
   "last_date_consultation_comments": "27/09/2022",
   "centroid": {
-    "lat": "51.6565004",
-    "lon": "-0.08840809999999999"
+    "lat": 51.656498,
+    "lon": -0.088435
   },
   "pp_id": "PP-11197148",
   "parking_details": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "epc_number": null,
   "decision_conditions": [
     "Cycle parking",
@@ -251,60 +274,60 @@
     "coordinates": [
       [
         [
-          -0.0885188,
-          51.6564513
+          -0.088545,
+          51.656449
         ],
         [
-          -0.08858869999999999,
-          51.6564513
+          -0.088615,
+          51.656449
         ],
         [
-          -0.0885894,
-          51.6565205
+          -0.088616,
+          51.656518
         ],
         [
-          -0.08847809999999999,
-          51.6565209
+          -0.088505,
+          51.656518
         ],
         [
-          -0.08847769999999999,
-          51.656547
+          -0.088504,
+          51.656544
         ],
         [
-          -0.0883424,
-          51.6565488
+          -0.088369,
+          51.656546
         ],
         [
-          -0.0882396,
-          51.6565507
+          -0.088266,
+          51.656548
         ],
         [
-          -0.0882394,
-          51.6564882
+          -0.088266,
+          51.656486
         ],
         [
-          -0.0882654,
-          51.6564734
+          -0.088292,
+          51.656471
         ],
         [
-          -0.0883075,
-          51.6564724
+          -0.088334,
+          51.65647
         ],
         [
-          -0.0883077,
-          51.6564542
+          -0.088334,
+          51.656452
         ],
         [
-          -0.088364,
-          51.6564525
+          -0.088391,
+          51.65645
         ],
         [
-          -0.0884847,
-          51.6564519
+          -0.088511,
+          51.656449
         ],
         [
-          -0.0885188,
-          51.6564513
+          -0.088545,
+          51.656449
         ]
       ]
     ],

@@ -40,7 +40,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -172,7 +171,8 @@
               184291
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -181,7 +181,7 @@
   "appeal_start_date": null,
   "parking_details": null,
   "lpa_name": "Newham",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "application_details": {
     "grey_water_reuse": false,
     "total_gia_lost": 0,
@@ -197,11 +197,11 @@
       "no_homes_passive_cooling": 0,
       "waste_details": [
         {
-          "reason_for_no_provision": "Utilising existing provision available on campus",
+          "external_dry_recycling": false,
           "external_food_waste": false,
           "unit_reference": "Portakabin",
-          "external_dry_recycling": false,
           "external_residual_waste": false,
+          "reason_for_no_provision": "Utilising existing provision available on campus",
           "internal_residual_waste": false,
           "internal_food_waste": false,
           "internal_dry_recycling": false
@@ -222,15 +222,15 @@
     "building_details": [
       {
         "no_storeys": 1,
-        "building_ref": "Portakabin building ",
-        "max_height": 2.9
+        "max_height": 2.9,
+        "building_ref": "Portakabin building "
       }
     ],
     "existing_proposed_floorspace_details": [
       {
+        "gia_existing": 0,
         "gia_gained": 109.16,
         "use_class": "F1",
-        "gia_existing": 0,
         "gia_lost": 0
       }
     ],
@@ -245,8 +245,8 @@
     "affordable_housing_fast_track": false,
     "phasing_details": [
       {
-        "intended_completion_date": "09/2026",
         "phase_detail": "Entire Development ",
+        "intended_completion_date": "09/2026",
         "intended_commencement_date": "08/2026"
       }
     ],
@@ -398,5 +398,5 @@
   "description": "Removal of three existing single-storey portakabin classroom buildings and erection of two replacement single-storey modular classroom buildings (Use Class F1) for a temporary period of five years  (Application site is adjoining University Conservation Area and affects the setting of Listed Buildings).",
   "id": "Newham-26_01694_FUL",
   "epc_number": null,
-  "last_updated": "2026-09-03T01:12:57.729Z"
+  "last_updated": "2026-09-03T04:01:17.415Z"
 }

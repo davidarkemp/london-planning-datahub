@@ -40,7 +40,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -72,7 +71,8 @@
               175157.06250000012
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -85,7 +85,7 @@
     "no_existing_car": 2
   },
   "lpa_name": "Hounslow",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Northgate M3",
   "application_details": {
     "grey_water_reuse": false,
     "total_gia_lost": 0,
@@ -118,15 +118,15 @@
     "building_details": [
       {
         "no_storeys": 2,
-        "building_ref": "new house",
-        "max_height": 8.4
+        "max_height": 8.4,
+        "building_ref": "new house"
       }
     ],
     "existing_proposed_floorspace_details": [
       {
+        "gia_existing": 73,
         "gia_gained": 72,
         "use_class": "C3",
-        "gia_existing": 73,
         "gia_lost": 0
       }
     ],
@@ -141,8 +141,8 @@
     "affordable_housing_fast_track": false,
     "phasing_details": [
       {
-        "intended_completion_date": "12/2027",
         "phase_detail": "single phase",
+        "intended_completion_date": "12/2027",
         "intended_commencement_date": "03/2027"
       }
     ],
@@ -168,12 +168,12 @@
       "residential_units": [
         {
           "provider": "Private",
+          "no_habitable_rooms": 4,
           "change_type": "Gain",
-          "tenure": "Self-Build and Custom Build",
           "garden_land": true,
           "unit_type": "Terraced Home",
-          "no_habitable_rooms": 4,
           "no_bedrooms": 2,
+          "tenure": "Self-Build and Custom Build",
           "gia": 72
         }
       ],
@@ -246,5 +246,5 @@
   "description": "Erection of a two storey residential house with associated car parking, landscaping, solar panels, cycle and refuse storage.\r\n",
   "id": "Hounslow-P_2026_2426",
   "epc_number": "8507-6403-4129-7827-7953",
-  "last_updated": "2026-09-03T01:13:03.697Z"
+  "last_updated": "2026-09-03T12:20:11.730Z"
 }
