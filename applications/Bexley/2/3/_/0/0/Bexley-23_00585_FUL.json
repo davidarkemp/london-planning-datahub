@@ -4,29 +4,92 @@
     "coordinates": [
       [
         [
-          0.160866,
-          51.432115
+          0.16085,
+          51.432525
         ],
         [
-          0.160865,
-          51.432088
+          0.160614,
+          51.432412
         ],
         [
-          0.160822,
-          51.432089
+          0.160767,
+          51.432301
         ],
         [
-          0.160823,
-          51.432116
+          0.1609,
+          51.432362
         ],
         [
-          0.160866,
-          51.432115
+          0.161107,
+          51.432187
+        ],
+        [
+          0.161225,
+          51.432248
+        ],
+        [
+          0.161197,
+          51.432266
+        ],
+        [
+          0.161227,
+          51.432293
+        ],
+        [
+          0.16085,
+          51.432525
         ]
       ]
     ]
   },
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection",
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              550305,
+              172606
+            ],
+            [
+              550289,
+              172593
+            ],
+            [
+              550300,
+              172581
+            ],
+            [
+              550309,
+              172588
+            ],
+            [
+              550324,
+              172569
+            ],
+            [
+              550332,
+              172576
+            ],
+            [
+              550330,
+              172578
+            ],
+            [
+              550332,
+              172581
+            ],
+            [
+              550305,
+              172606
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ]
+  },
   "appeal_status": null,
   "last_updated_by": "Idox Uniform",
   "epc_number": null,
@@ -42,20 +105,22 @@
       }
     ],
     "total_gia_gained": 0,
-    "site_area": 0.061,
+    "site_area": 0.48100000000000004,
     "total_gia_lost": 0,
     "total_gia_existing": 96,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 96,
+        "actual_completion_date": "02/05/2024",
         "use_class": "C3",
         "gia_gained": 0,
+        "actual_commencement_date": "02/05/2024",
         "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "building_details": [
       {
         "no_storeys": 1,
@@ -71,14 +136,15 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 0,
       "total_gia_lost": 0,
-      "total_gia_existing": 96
+      "total_gia_existing": 96,
+      "site_area": 0.061
     },
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "internal_resi_water_usage": 0,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_bedrooms": 0,
-      "total_no_proposed_residential_units": 0,
+      "total_no_proposed_bedrooms": 2,
+      "total_no_proposed_residential_units": 1,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units": 0,
@@ -93,7 +159,7 @@
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "total_no_proposed_residential_units_market_for_sale": 0,
+      "total_no_proposed_residential_units_market_for_sale": 1,
       "total_no_existing_residential_affordable_units": 0,
       "habitable_rooms_density": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
@@ -101,7 +167,7 @@
       "total_gia_gained": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 16.39344262295082,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
@@ -113,7 +179,24 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "affordable_percentage": 0,
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.061,
+      "residential_units": [
+        {
+          "actual_completion_date": "02/05/2024",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Gain",
+          "actual_commencement_date": "02/05/2024",
+          "unit_type": "House or Bungalow",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "unit_development_type": "New Build",
+          "gia": null
+        }
+      ]
     },
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
@@ -124,7 +207,7 @@
       "no_passive_fast_ev_charging_points": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_active_fast_ev_charging_points": 2,
       "no_homes_to_have_electrical_heating": 0,
@@ -133,7 +216,19 @@
       "no_new_gas_connections_required": 1,
       "ghg_reduction_over_building_regulations": false
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.061
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "decision_agency": null,
   "decision_target_date": "04/07/2023",
@@ -146,8 +241,8 @@
   "cil_liability": true,
   "uprn": "100020198032",
   "development_type": null,
-  "actual_completion_date": null,
-  "actual_commencement_date": null,
+  "actual_completion_date": "02/05/2024",
+  "actual_commencement_date": "02/05/2024",
   "borough": "London Borough of Bexley",
   "ward": "STMARN",
   "last_date_consultation_comments": "01/06/2023",
@@ -185,8 +280,8 @@
   "title_number": [],
   "decision": "Approved",
   "application_type": "All Other",
-  "status": "Approved",
-  "last_updated": "2025-03-20T11:20:15.091+00:00",
+  "status": "Completed",
+  "last_updated": "2026-09-04T20:00:54.946Z",
   "date_building_work_started_under_previous_permission": null,
   "subdivision_of_building": null
 }

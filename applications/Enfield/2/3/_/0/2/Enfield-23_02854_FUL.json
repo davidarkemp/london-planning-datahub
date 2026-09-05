@@ -2,10 +2,10 @@
   "lpa_app_no": "23/02854/FUL",
   "uprn": "000207081008",
   "lapsed_date": "13/11/2026",
-  "centroid_northing": "193245",
+  "centroid_northing": 193238,
   "site_number": "32",
   "date_building_work_started_under_previous_permission": null,
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "site_name": "",
   "appeal_decision_date": null,
   "valid_date": "19/09/2023",
@@ -14,44 +14,96 @@
     "coordinates": [
       [
         [
-          -0.101464,
-          51.622678
+          -0.10162,
+          51.622528
         ],
         [
-          -0.101466,
-          51.622651
+          -0.101595,
+          51.622522
         ],
         [
-          -0.101509,
-          51.622651
+          -0.101609,
+          51.622499
         ],
         [
-          -0.101508,
-          51.622678
+          -0.101546,
+          51.622482
         ],
         [
-          -0.101464,
-          51.622678
+          -0.101499,
+          51.62247
+        ],
+        [
+          -0.101492,
+          51.622486
+        ],
+        [
+          -0.101421,
+          51.622636
+        ],
+        [
+          -0.101404,
+          51.622672
+        ],
+        [
+          -0.101404,
+          51.622673
+        ],
+        [
+          -0.101381,
+          51.622723
+        ],
+        [
+          -0.101456,
+          51.622742
+        ],
+        [
+          -0.10147,
+          51.622746
+        ],
+        [
+          -0.101492,
+          51.622713
+        ],
+        [
+          -0.101496,
+          51.622709
+        ],
+        [
+          -0.101543,
+          51.622638
+        ],
+        [
+          -0.10156,
+          51.622615
+        ],
+        [
+          -0.101577,
+          51.622589
+        ],
+        [
+          -0.10162,
+          51.622528
         ]
       ]
     ],
     "type": "Polygon"
   },
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "appeal_start_date": null,
   "reference_no_of_permission_being_relied_on": null,
   "application_type": "All Other",
   "decision_process": "Delegated",
   "application_details": {
     "total_gia_lost": 0,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "total_gia_existing": 151,
     "total_gia_gained": 3.9,
     "projected_cost_of_works": "Up to £2m",
-    "rain_water_harvesting": true,
+    "rain_water_harvesting": false,
     "infrastructure_details": {
       "no_new_water_connections_required": 2,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_non_resi_units_to_have_full_fibre": 0,
       "no_resi_units_to_have_full_fibre": 2,
       "no_passive_fast_ev_charging_points": 0,
@@ -75,28 +127,38 @@
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units": 2,
-      "dwelling_density": 0,
+      "dwelling_density": 83.33333333333333,
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 3,
-          "provider": "Private",
-          "unit_no": "Gain-1",
+          "actual_completion_date": "31/01/2026",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 81,
-          "tenure": "Market for rent"
+          "provider": "Private",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "01/02/2025",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 81
         },
         {
-          "no_habitable_rooms": 4,
-          "provider": "Private",
-          "unit_no": "Gain-2",
+          "actual_completion_date": "31/01/2026",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 3,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 103,
-          "tenure": "Market for rent"
+          "provider": "Private",
+          "no_habitable_rooms": 4,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "01/02/2025",
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 103
         }
       ],
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -105,7 +167,7 @@
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 291.6666666666667,
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
@@ -127,7 +189,8 @@
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0
+      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "site_area": 0.024
     },
     "grey_water_reuse": false,
     "internal_resi_water_usage": 105,
@@ -135,8 +198,10 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 151,
+        "actual_completion_date": "31/01/2026",
         "use_class": "C3",
         "gia_gained": 3.9,
+        "actual_commencement_date": "01/02/2025",
         "gia_lost": 0
       }
     ],
@@ -145,7 +210,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_lost": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
-      "total_gia_existing": 151
+      "total_gia_existing": 151,
+      "site_area": 0.024
     },
     "phasing_details": [
       {
@@ -154,34 +220,47 @@
         "intended_commencement_date": "12/2023"
       }
     ],
-    "green_suds": true,
+    "green_suds": false,
     "surface_water_discharge_percentage_reduction": 30,
     "affordable_housing_fast_track": false,
-    "site_area": 0.0241,
-    "garden_land_lost": false
+    "site_area": 0.024,
+    "garden_land_lost": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.024
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "appeal_decision": null,
   "postcode": "N13 5SH",
   "development_type": null,
   "title_number": [],
-  "centroid_easting": "531522",
-  "actual_commencement_date": null,
+  "centroid_easting": 531521,
+  "actual_commencement_date": "01/02/2025",
   "description": "Conversion of a single dwelling house into two self-contained units, including sub-division of rear amenity space, front porch and single storey side extension, extension to detached rear garage, skylights to existing single storey rear extension and 3 new side windows.",
   "decision": "Approved",
-  "actual_completion_date": null,
+  "actual_completion_date": "31/01/2026",
   "borough": "Enfield Council",
   "epc_number": null,
   "subdivision_of_building": null,
   "centroid": {
-    "lon": -0.101487,
-    "lat": 51.622664
+    "lon": -0.101504,
+    "lat": 51.622602
   },
   "url_planning_app": null,
   "pp_id": "PP-12363442",
   "id": "Enfield-23_02854_FUL",
   "application_type_full": "Full planning permission",
   "cil_liability": false,
-  "status": "Approved",
+  "status": "Completed",
   "date_building_work_completed_under_previous_permission": null,
   "secondary_street_name": null,
   "decision_agency": null,
@@ -201,9 +280,92 @@
     "Glazing"
   ],
   "parking_details": null,
-  "last_updated": "2025-03-19T02:16:31.707+00:00",
+  "last_updated": "2026-09-04T14:26:46.169Z",
   "appeal_status": null,
   "street_name": "Hedge Lane",
   "ward": "PN",
-  "polygon": null
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              531513.15,
+              193229.6
+            ],
+            [
+              531514.9,
+              193228.95
+            ],
+            [
+              531514,
+              193226.35
+            ],
+            [
+              531518.4,
+              193224.6
+            ],
+            [
+              531521.7,
+              193223.35
+            ],
+            [
+              531522.15,
+              193225.1
+            ],
+            [
+              531526.611,
+              193241.915
+            ],
+            [
+              531527.688,
+              193246.004
+            ],
+            [
+              531527.703,
+              193246.062
+            ],
+            [
+              531529.15,
+              193251.65
+            ],
+            [
+              531523.9,
+              193253.7
+            ],
+            [
+              531522.9,
+              193254.1
+            ],
+            [
+              531521.5,
+              193250.4
+            ],
+            [
+              531521.25,
+              193249.95
+            ],
+            [
+              531518.15,
+              193242
+            ],
+            [
+              531517.089,
+              193239.369
+            ],
+            [
+              531515.966,
+              193236.482
+            ],
+            [
+              531513.15,
+              193229.6
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  }
 }
