@@ -40,7 +40,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -112,7 +111,8 @@
               171101.7003273142
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -125,7 +125,7 @@
     "no_existing_cycle": 0
   },
   "lpa_name": "Wandsworth",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Northgate M3",
   "application_details": {
     "grey_water_reuse": false,
     "total_gia_lost": 97,
@@ -152,9 +152,9 @@
     "ownership_status": "Private",
     "existing_proposed_floorspace_details": [
       {
+        "gia_existing": 97,
         "gia_gained": 97,
         "use_class": "C3",
-        "gia_existing": 97,
         "gia_lost": 97
       }
     ],
@@ -169,8 +169,8 @@
     "affordable_housing_fast_track": false,
     "phasing_details": [
       {
-        "intended_completion_date": "01/2027",
         "phase_detail": "Subdivision and construction",
+        "intended_completion_date": "01/2027",
         "intended_commencement_date": "11/2026"
       }
     ],
@@ -195,31 +195,31 @@
       "total_no_proposed_residential_units_intermediate": 0,
       "residential_units": [
         {
-          "tenure": "Market for sale",
+          "no_habitable_rooms": 4,
           "change_type": "Loss",
           "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 4,
-          "provision_for_older_persons": false,
           "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
           "gia": 97
         },
         {
           "provider": "Private",
-          "change_type": "Gain",
-          "tenure": "Market for sale",
-          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 3,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
+          "tenure": "Market for sale",
           "gia": 58
         },
         {
           "provider": "Private",
-          "change_type": "Gain",
-          "tenure": "Market for sale",
-          "unit_type": "Studio Bedsit",
           "no_habitable_rooms": 1,
+          "change_type": "Gain",
+          "unit_type": "Studio Bedsit",
           "no_bedrooms": 1,
+          "tenure": "Market for sale",
           "gia": 39
         }
       ],
@@ -332,5 +332,5 @@
   "description": "Conversion of flat into 1x 1-bed first floor flat and 1x studio loft flat, with associated bin and cycle storage.",
   "id": "Wandsworth-2026_2740",
   "epc_number": null,
-  "last_updated": "2026-09-04T01:08:38.103Z"
+  "last_updated": "2026-09-06T16:50:01.300Z"
 }
