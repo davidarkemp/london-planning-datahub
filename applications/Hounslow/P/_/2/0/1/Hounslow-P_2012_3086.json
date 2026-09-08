@@ -1,6 +1,6 @@
 {
   "lpa_app_no": "P/2012/3086",
-  "centroid_northing": 176734,
+  "centroid_northing": 176877,
   "status": "Commenced",
   "epc_number": null,
   "last_date_consultation_comments": null,
@@ -8,16 +8,120 @@
   "secondary_street_name": null,
   "subdivision_of_building": null,
   "date_building_work_started_under_previous_permission": null,
-  "last_updated": "2026-02-12T13:56:55.919Z",
+  "last_updated": "2026-09-07T15:35:06.278Z",
   "valid_date": "25/10/2012",
   "polygon": {
-    "type": "geometrycollection",
-    "geometries": []
+    "type": "GeometryCollection",
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              514225.4522176,
+              176863.6525613
+            ],
+            [
+              514216.7042078,
+              176881.2675191
+            ],
+            [
+              514215.3025474,
+              176884.0967092
+            ],
+            [
+              514215.2118517,
+              176886.106134
+            ],
+            [
+              514216.6959627,
+              176884.4965948
+            ],
+            [
+              514218.1223583,
+              176884.8364975
+            ],
+            [
+              514240.5983948,
+              176890.2049608
+            ],
+            [
+              514240.8539917,
+              176890.2549465
+            ],
+            [
+              514242.799826,
+              176886.046147
+            ],
+            [
+              514243.7067829,
+              176884.6165604
+            ],
+            [
+              514245.743313,
+              176880.0378711
+            ],
+            [
+              514244.6961902,
+              176879.5480113
+            ],
+            [
+              514247.507756,
+              176873.5097397
+            ],
+            [
+              514245.6691074,
+              176872.659983
+            ],
+            [
+              514241.2250195,
+              176870.280664
+            ],
+            [
+              514231.504092,
+              176865.801942
+            ],
+            [
+              514231.84214,
+              176863.9624726
+            ],
+            [
+              514231.4133968,
+              176863.772527
+            ],
+            [
+              514232.85,
+              176860.935
+            ],
+            [
+              514229.7683895,
+              176863.0273024
+            ],
+            [
+              514227.661894,
+              176862.0730135
+            ],
+            [
+              514227.18368,
+              176860.163556
+            ],
+            [
+              514226.4910953,
+              176861.5431651
+            ],
+            [
+              514225.4522176,
+              176863.6525613
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ]
   },
   "cil_liability": false,
-  "title_number": null,
+  "title_number": [],
   "decision_process": "Delegated",
-  "centroid_easting": 514310,
+  "centroid_easting": 514232,
   "actual_commencement_date": "15/12/2013",
   "url_planning_app": "https://planningandbuilding.hounslow.gov.uk/NECSWS/ES/Presentation/Planning/OnlinePlanning/OnlinePlanningOverview?applicationNumber=P/2012/3086",
   "site_number": "21",
@@ -72,17 +176,14 @@
     "other_residential_accommodation_details": {
       "no_council_tax_rateable_units_gained": 0,
       "no_council_tax_rateable_units_lost": 0,
-      "other_resi_accommodation_unit_details": []
+      "other_resi_accommodation_unit_details": [],
+      "site_area": 0.054000000000000006
     },
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 0,
-        "superseded_date": null,
-        "actual_completion_date": null,
         "gia_gained": 231,
         "use_class": "D1",
-        "actual_commencement_date": "15/12/2013",
-        "superseded_by_lpa_app_no": null,
         "gia_lost": 0
       }
     ],
@@ -115,30 +216,24 @@
       "total_no_existing_residential_units_market_for_rent": 0,
       "residential_units": [
         {
-          "actual_completion_date": null,
+          "provider": "Private",
+          "phase_detail": null,
           "m43_2a_compliant": false,
+          "unit_no": null,
           "description": null,
           "m42_compliant": false,
           "change_type": "Loss",
           "unit_type": "House or Bungalow",
-          "unit_development_type": null,
-          "superseded_date": null,
-          "provider": "Private",
-          "phase_detail": null,
-          "unit_no": null,
-          "actual_commencement_date": null,
-          "no_bedrooms": null,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
           "tenure": "Market for sale",
           "gia": null
         }
       ],
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_bedrooms": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
-      "site_area": null,
+      "site_area": 0.054000000000000006,
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_proposed_residential_affordable_units": 0,
@@ -166,18 +261,40 @@
     "superseding_details": [],
     "occupation_status": null,
     "building_type": null,
-    "site_area": 0.027
+    "site_area": 0.054000000000000006,
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "scheme_phasing": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "infrastructure_details": {
+      "waste_provision": false,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "garden_land_lost": false
   },
   "uprn": "100021548986",
   "decision_date": "19/12/2012",
   "description": "Change of use from existing residential use to a children's nursery and construction of first floor side extensions, bin storage area and car parking.",
   "site_name": "21",
-  "last_updated_by": "Northgate M3",
+  "last_updated_by": "Portal",
   "decision_target_date": "20/12/2012",
   "borough": "Hounslow",
   "postcode": "TW3 4BX",
   "street_name": "Gresham Road",
-  "bo_system": "Northgate M3",
+  "bo_system": "Portal",
   "development_type": "Other change of use",
   "lapsed_date": "19/12/2015",
   "decision_conditions": [
@@ -185,7 +302,7 @@
     "Condition : 2 - The materials to be used in the construction of the external surfaces of the extension hereby permitted shall match those used in the existing building.",
     "Condition : 3 - The proposed development shall be carried out in all respects in accordance with the proposals contained in the application and the plans submitted (PL/VP/2085/GR/10, PL/VP/2085/GR/09, PL/VP/2085/GR/08, PL/VP/2085/GR/07, PL/VP/2085/GR/06, PL/VP/2085/GR/04, PL/VP/2085/GR/03, PL/VP/2085/GR/02, PL/VP/2085/GR/01, Design & Access Statement Received 25/10/2012 and PP/VP/2085/GR/13-A, Supporting Statement Received 06/12/2012) therewith and approved by the Local Planning Authority, or as shall have been otherwise agreed in writing by the Local Planning Authority before the building is used.",
     "Condition : 4 - No demolition or construction work shall take place on the site except between the hours of 8:00am  to 6:00pm on Mondays to Friday and 9 :00am to 1:00pm on Saturdays and none shall take place on Sundays and Public Holidays without the prior agreement of the Local Planning Authority.",
-    "Condition : 5 - No development shall take place until full details of both hard and soft landscape works have been submitted to and approved in writing by the local planning authority and these works shall be carried out as approved.  These details shall include (proposed finished levels or contours; means of enclosure; car parking layouts; other vehicle and pedestrian access and circulation areas; hard surfacing material; minor artefacts and structures (eg. furniture, play equipment, refuse or other storage units, signs, lighting etc); proposed and existing functional services above and below ground (eg drainage power, communications cables, pipelines etc. indicating lines, manholes, supports etc); retained historic landscape features and proposals for restoration, where relevant).\r\n\r\nSoft landscape works shall include (planting plans; written specifications (including cultivation and other operations associated with plant and grass establishment); schedules of plants, noting species, plant sizes and proposed numbers/densities where appropriate; implementation programme)\r\n",
+    "Condition : 5 - No development shall take place until full details of both hard and soft landscape works have been submitted to and approved in writing by the local planning authority and these works shall be carried out as approved.  These details shall include (proposed finished levels or contours; means of enclosure; car parking layouts; other vehicle and pedestrian access and circulation areas; hard surfacing material; minor artefacts and structures (eg. furniture, play equipment, refuse or other storage units, signs, lighting etc); proposed and existing functional services above and below ground (eg drainage power, communications cables, pipelines etc. indicating lines, manholes, supports etc); retained historic landscape features and proposals for restoration, where relevant).\n\nSoft landscape works shall include (planting plans; written specifications (including cultivation and other operations associated with plant and grass establishment); schedules of plants, noting species, plant sizes and proposed numbers/densities where appropriate; implementation programme)",
     "Condition : 6 - The use hereby permitted shall not be begun until details of the arrangements for storing of waste and recycled materials have been submitted to and approved by the Local Planning Authority.  The arrangements for storing waste and recycled materials shall not be carried out otherwise than in accordance with any approval given and shall be completed before any part of the accommodation hereby permitted is occupied.",
     "Condition : 7 - Before first occupation of the buildings the loading, unloading and turning space, and parking spaces (including spaces for people with disabilities) shall be provided within the curtilage of the site in accordance with the scheme shown on drawing No. PP/VP/2085/GR/13-A and such spaces shall be permanently available and not be used for any other purpose.",
     "Condition : 8 - The premises shall be used for a children's nursery and for no other purpose (including any other purpose in Class D1 of the Schedule to the Town and Country Planning (Use Classes) Order 1987, or in any provision equivalent to that Class in any statutory instrument revoking and re-enacting that Order with or without modification).",
@@ -196,24 +313,100 @@
     "coordinates": [
       [
         [
-          -0.355343,
-          51.478038
+          -0.35654,
+          51.479207
         ],
         [
-          -0.355344,
-          51.478011
+          -0.35666,
+          51.479367
         ],
         [
-          -0.355387,
-          51.478012
+          -0.356679,
+          51.479393
         ],
         [
-          -0.355386,
-          51.478039
+          -0.35668,
+          51.479411
         ],
         [
-          -0.355343,
-          51.478038
+          -0.356659,
+          51.479396
+        ],
+        [
+          -0.356638,
+          51.479399
+        ],
+        [
+          -0.356313,
+          51.479443
+        ],
+        [
+          -0.35631,
+          51.479443
+        ],
+        [
+          -0.356283,
+          51.479405
+        ],
+        [
+          -0.35627,
+          51.479392
+        ],
+        [
+          -0.356242,
+          51.47935
+        ],
+        [
+          -0.356258,
+          51.479346
+        ],
+        [
+          -0.356219,
+          51.479291
+        ],
+        [
+          -0.356246,
+          51.479284
+        ],
+        [
+          -0.356311,
+          51.479264
+        ],
+        [
+          -0.356452,
+          51.479225
+        ],
+        [
+          -0.356448,
+          51.479209
+        ],
+        [
+          -0.356454,
+          51.479207
+        ],
+        [
+          -0.356434,
+          51.479181
+        ],
+        [
+          -0.356478,
+          51.479201
+        ],
+        [
+          -0.356509,
+          51.479193
+        ],
+        [
+          -0.356516,
+          51.479176
+        ],
+        [
+          -0.356526,
+          51.479188
+        ],
+        [
+          -0.35654,
+          51.479207
         ]
       ]
     ]
@@ -221,8 +414,8 @@
   "appeal_decision_date": null,
   "pp_id": null,
   "centroid": {
-    "lon": -0.355365,
-    "lat": 51.478025
+    "lon": -0.356441,
+    "lat": 51.479326
   },
   "actual_completion_date": null,
   "reference_no_of_permission_being_relied_on": null,
