@@ -34,10 +34,10 @@
   "appeal_decision": null,
   "valid_date": "10/12/2024",
   "secondary_street_name": null,
-  "centroid_northing": "180338",
+  "centroid_northing": 180338,
   "reference_no_of_permission_being_relied_on": null,
   "actual_commencement_date": null,
-  "last_updated": "2026-07-02T04:02:17.249Z",
+  "last_updated": "2026-09-08T15:41:59.070Z",
   "description": "Details of the Overheating Risk Assessment pursuant to condition 19 of planning permission 224322FUL dated 24.04.2024 for 'Construction of a part 4, part 6, part 7, and Part 8 storey building storey comprising commercial space on the ground floor (Flexible Use Class E) and 13 self-contained residential flats (Class C3) on the upper floors; and associated refuse storage and cycle parking'",
   "subdivision_of_building": null,
   "epc_number": null,
@@ -45,7 +45,7 @@
   "borough": "London Borough of Ealing",
   "street_name": "Broadway",
   "decision_process": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "date_building_work_started_under_previous_permission": null,
   "application_type": "All Other",
   "lapsed_date": "17/02/2028",
@@ -59,15 +59,17 @@
   "uprn": "000012072265",
   "decision_date": "17/02/2025",
   "lpa_app_no": "244896CND",
-  "centroid_easting": "516272",
+  "centroid_easting": 516272,
   "appeal_decision_date": null,
   "decision_conditions": null,
   "site_number": "114",
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "status": "Approved",
   "site_name": "",
   "decision": "Approved",
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "centroid": {
     "lon": -0.325939,
     "lat": 51.510017
@@ -108,7 +110,7 @@
     ],
     "projected_cost_of_works": "Between £2m and £100m",
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "grey_water_reuse": false,
     "building_details": [
       {
@@ -118,13 +120,14 @@
       }
     ],
     "surface_water_discharge_percentage_reduction": 0,
-    "green_suds": true,
+    "green_suds": false,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 1167,
       "total_gia_existing": 411,
-      "total_gia_lost": 411
+      "total_gia_lost": 411,
+      "site_area": 0.027100000000000003
     },
     "garden_land_lost": false,
     "infrastructure_details": {
@@ -136,20 +139,20 @@
       "no_new_water_connections_required": 0,
       "no_non_resi_units_to_have_full_fibre": 1,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
-      "fire_suppression_system_proposed": true,
+      "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
       "chp_heat_pumps_capacity": 0,
-      "ghg_reduction_over_building_regulations": true
+      "ghg_reduction_over_building_regulations": false
     },
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_bedrooms": 20,
+      "total_no_proposed_bedrooms": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
-      "total_no_proposed_residential_units": 14,
+      "total_no_proposed_residential_units": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
@@ -163,9 +166,9 @@
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "total_no_proposed_residential_units_market_for_sale": 13,
+      "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 1044,
@@ -182,136 +185,27 @@
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "affordable_percentage": 0,
-      "residential_units": [
-        {
-          "change_type": "Gain",
-          "unit_type": "Communal Space",
-          "gia": 363
-        },
-        {
-          "provider": "Private",
-          "no_habitable_rooms": 3,
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 2,
-          "tenure": "Market for sale",
-          "gia": 77
-        },
-        {
-          "provider": "Private",
-          "no_habitable_rooms": 3,
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 2,
-          "tenure": "Market for sale",
-          "gia": 77
-        },
-        {
-          "provider": "Private rented sector",
-          "no_habitable_rooms": 1,
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 1,
-          "tenure": "Market for sale",
-          "gia": 37
-        },
-        {
-          "provider": "Private rented sector",
-          "no_habitable_rooms": 1,
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 1,
-          "tenure": "Market for sale",
-          "gia": 37
-        },
-        {
-          "provider": "Private rented sector",
-          "no_habitable_rooms": 1,
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 1,
-          "tenure": "Market for sale",
-          "gia": 37
-        },
-        {
-          "provider": "Private rented sector",
-          "no_habitable_rooms": 1,
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 1,
-          "tenure": "Market for sale",
-          "gia": 37
-        },
-        {
-          "provider": "Private rented sector",
-          "no_habitable_rooms": 1,
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 1,
-          "tenure": "Market for sale",
-          "gia": 37
-        },
-        {
-          "provider": "Private rented sector",
-          "no_habitable_rooms": 1,
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 1,
-          "tenure": "Market for sale",
-          "gia": 37
-        },
-        {
-          "provider": "Private",
-          "no_habitable_rooms": 3,
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 2,
-          "tenure": "Market for sale",
-          "gia": 61
-        },
-        {
-          "provider": "Private",
-          "no_habitable_rooms": 3,
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 2,
-          "tenure": "Market for sale",
-          "gia": 61
-        },
-        {
-          "provider": "Private",
-          "no_habitable_rooms": 3,
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 2,
-          "tenure": "Market for sale",
-          "gia": 61
-        },
-        {
-          "provider": "Private",
-          "no_habitable_rooms": 3,
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 2,
-          "tenure": "Market for sale",
-          "gia": 61
-        },
-        {
-          "provider": "Private",
-          "no_habitable_rooms": 3,
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 2,
-          "tenure": "Market for sale",
-          "gia": 61
-        }
-      ],
+      "residential_units": [],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.027100000000000003
     },
     "internal_resi_water_usage": 0,
     "uk_company_registration_no": "11106509",
     "ownership_status": "Private",
-    "lead_developer_company_name": "Luxgrove Capital Partners"
+    "lead_developer_company_name": "Luxgrove Capital Partners",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.027100000000000003
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   }
 }
