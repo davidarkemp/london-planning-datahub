@@ -3,7 +3,7 @@
     "NGL490653"
   ],
   "site_name": "ST JOHNS SCHOOL",
-  "cil_liability": true,
+  "cil_liability": false,
   "uprn": null,
   "decision_process": "Committee",
   "polygon": {
@@ -61,20 +61,20 @@
   "borough": "Hillingdon",
   "secondary_street_name": "NORTHWOOD",
   "url_planning_app": "http://planning.hillingdon.gov.uk/OcellaWeb/planningDetails?reference=10795/APP/2021/1036",
-  "last_updated_by": "FME Excel Import",
+  "last_updated_by": "Portal",
   "decision_date": "13/07/2021",
   "appeal_decision": null,
   "centroid_easting": 510438,
   "ward": "NORTHWOOD HILLS",
   "centroid": {
-    "lat": "51.6114136",
-    "lon": "-0.40644939999999996"
+    "lat": 51.61141,
+    "lon": -0.406471
   },
   "application_type_full": "Full planning permission",
   "appeal_status": null,
   "centroid_northing": 191489,
   "appeal_start_date": null,
-  "last_updated": "2025-03-19T03:29:33.035+00:00",
+  "last_updated": "2026-09-09T08:59:43.571Z",
   "description": "Subdivision of gatehouse to form two 1-bedroom maisonettes",
   "last_date_consultation_comments": "18/04/2021",
   "application_details": {
@@ -98,16 +98,12 @@
     "garden_land_lost": false,
     "affordable_housing_fast_track": false,
     "total_gia_existing": 204,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 204,
-        "superseded_date": null,
-        "actual_completion_date": null,
-        "use_class": "C3",
         "gia_gained": 0,
-        "actual_commencement_date": null,
-        "superseded_by_lpa_app_no": null,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -120,14 +116,8 @@
       "no_new_gas_connections_required": 0,
       "waste_details": [
         {
-          "external_dry_recycling": null,
-          "external_food_waste": null,
           "unit_reference": "Gatehouse",
-          "external_residual_waste": null,
-          "reason_for_no_provision": "Proposals are sub-division of an existing building",
-          "internal_residual_waste": null,
-          "internal_food_waste": null,
-          "internal_dry_recycling": null
+          "reason_for_no_provision": "Proposals are sub-division of an existing building"
         }
       ],
       "fire_suppression_system_proposed": false,
@@ -169,75 +159,45 @@
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
-          "description": null,
-          "change_type": "Loss",
-          "m42_compliant": null,
-          "sheltered_accommodation": null,
-          "garden_land": null,
-          "unit_type": "Semi Detached Home",
-          "unit_development_type": "Conversion",
-          "superseded_date": null,
           "provider": "Private",
           "no_habitable_rooms": 5,
           "phase_detail": null,
-          "unit_no": "Loss-1",
-          "actual_commencement_date": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Loss",
+          "unit_type": "Semi Detached Home",
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
           "tenure": "Market for sale",
+          "unit_development_type": "Conversion",
           "gia": 102
         },
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
-          "description": null,
-          "change_type": "Gain",
-          "m42_compliant": null,
-          "sheltered_accommodation": null,
-          "garden_land": null,
-          "unit_type": "Flat Apartment Maisonette",
-          "unit_development_type": "Conversion",
-          "superseded_date": null,
           "provider": "Private",
           "no_habitable_rooms": 2,
           "phase_detail": null,
-          "unit_no": "Gain-1",
-          "actual_commencement_date": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
           "tenure": "Market for sale",
+          "unit_development_type": "Conversion",
           "gia": 51
         },
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
-          "description": null,
-          "change_type": "Gain",
-          "m42_compliant": null,
-          "sheltered_accommodation": null,
-          "garden_land": null,
-          "unit_type": "Flat Apartment Maisonette",
-          "unit_development_type": "Conversion",
-          "superseded_date": null,
           "provider": "Private",
           "no_habitable_rooms": 2,
           "phase_detail": null,
-          "unit_no": "Gain-2",
-          "actual_commencement_date": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
           "tenure": "Market for sale",
+          "unit_development_type": "Conversion",
           "gia": 51
         }
       ],
@@ -281,16 +241,16 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 0,
       "development_type": null,
-      "site_area": null
+      "site_area": 0.161
     },
-    "s106_agreement": null,
+    "s106_agreement": false,
     "affordable_housing_inlieu_payment": null,
-    "air_quality_assessment": null,
+    "air_quality_assessment": false,
     "other_contributions": null,
     "intended_commencement_date": null,
     "no_affordable_housing_units_provided_offsite": null,
-    "commencement_notice_received": null,
-    "circular_economy_statement": null,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
     "qualifying_vacant_building_floorspace": null,
     "open_and_protected_space_details": {
       "protected_space_count": 0,
@@ -306,23 +266,23 @@
     "constraints_details": [],
     "superseding_details": [],
     "lead_registered_social_landlord": null,
-    "viability_assessment": null,
+    "viability_assessment": false,
     "overseas_company_registration_no": null,
-    "mayoral_cil_liability_notice_issued": null,
+    "mayoral_cil_liability_notice_issued": false,
     "non_permanent_dwellings_details": [],
     "intended_completion_date": null,
     "uk_company_registration_no": null,
     "other_residential_accommodation_details": {
       "no_council_tax_rateable_units_gained": null,
       "no_council_tax_rateable_units_lost": null,
-      "site_area": null,
+      "site_area": 0.161,
       "other_resi_accommodation_unit_details": []
     },
-    "3d_model": null,
+    "3d_model": false,
     "no_affordable_housing_units_acquired_offsite": null,
     "transport_contributions": null,
-    "borough_cil_liability_notice_issued": null,
-    "transport_impact_assessment": null,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
     "scheme_name": null,
     "social_infrastructure_contributions": null,
     "lead_developer_company_name": null
@@ -371,7 +331,7 @@
   ],
   "status": "Lapsed",
   "pp_id": "09618222",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "epc_number": null,
   "subdivision_of_building": null,
   "valid_date": "23/03/2021",
@@ -410,28 +370,28 @@
     "coordinates": [
       [
         [
-          -0.4071068,
-          51.6113191
+          -0.407128,
+          51.611316
         ],
         [
-          -0.4060109,
-          51.6116492
+          -0.406032,
+          51.611646
         ],
         [
-          -0.4059042,
-          51.6114217
+          -0.405926,
+          51.611418
         ],
         [
-          -0.40701479999999995,
-          51.6112167
+          -0.407036,
+          51.611213
         ],
         [
-          -0.4071023,
-          51.6113101
+          -0.407124,
+          51.611307
         ],
         [
-          -0.4071068,
-          51.6113191
+          -0.407128,
+          51.611316
         ]
       ]
     ],

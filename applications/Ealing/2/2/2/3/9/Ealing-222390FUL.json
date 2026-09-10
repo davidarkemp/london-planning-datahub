@@ -1,10 +1,10 @@
 {
   "ward": "Walpole",
   "borough": "Ealing",
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "application_type_full": "Full planning permission",
   "application_details": {
-    "existing_uprns": null,
+    "existing_uprns": [],
     "affordable_housing_fast_track": false,
     "phasing_details": [
       {
@@ -20,14 +20,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 50,
-        "use_class": "C3",
         "gia_gained": 157,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "building_details": [
       {
         "no_storeys": 2,
@@ -43,7 +43,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 157,
       "total_gia_existing": 50,
-      "total_gia_lost": 0
+      "total_gia_lost": 0,
+      "site_area": 0.01
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -67,12 +68,12 @@
       "total_no_proposed_residential_units_market_for_sale": 4,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 500,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 172,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 400,
       "total_gia_lost": 50,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -85,59 +86,84 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 3,
-          "unit_no": "Loss-1",
+          "actual_completion_date": "16/01/2025",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "16/01/2025",
           "no_bedrooms": 2,
-          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
-          "gia": 50,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 50
         },
         {
-          "no_habitable_rooms": 1,
-          "provider": "Private",
-          "unit_no": "Gain-1",
+          "actual_completion_date": "03/02/2026",
+          "description": "Altered unit at the first floor level (replacing existing 2-bed 'loss' unit).",
           "change_type": "Gain",
-          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
-          "gia": 38,
-          "tenure": "Market for sale"
-        },
-        {
-          "no_habitable_rooms": 1,
           "provider": "Private",
-          "unit_no": "Gain-2",
-          "change_type": "Gain",
-          "no_bedrooms": 1,
-          "unit_type": "Flat Apartment Maisonette",
-          "gia": 42,
-          "tenure": "Market for sale"
-        },
-        {
           "no_habitable_rooms": 1,
-          "provider": "Private",
-          "unit_no": "Gain-3",
-          "change_type": "Gain",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "16/01/2025",
           "no_bedrooms": 1,
-          "unit_type": "Flat Apartment Maisonette",
-          "gia": 39,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 38
         },
         {
+          "actual_completion_date": "03/02/2026",
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "provider": "Private",
+          "no_habitable_rooms": 1,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "16/01/2025",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 42
+        },
+        {
+          "actual_completion_date": "03/02/2026",
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "provider": "Private",
+          "no_habitable_rooms": 1,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "16/01/2025",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 39
+        },
+        {
+          "actual_completion_date": "03/02/2026",
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "provider": "Private",
           "no_habitable_rooms": 2,
-          "provider": "Private",
-          "unit_no": "Gain-4",
-          "change_type": "Gain",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "16/01/2025",
           "no_bedrooms": 1,
-          "unit_type": "Flat Apartment Maisonette",
-          "gia": 53,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 53
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.01
     },
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
@@ -147,21 +173,33 @@
       "no_homes_passive_cooling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 10,
       "no_homes_to_have_electrical_heating": 3,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
-      "ghg_reduction_over_building_regulations": true
+      "ghg_reduction_over_building_regulations": false
     },
     "internal_resi_water_usage": 105,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.01
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "decision_target_date": "02/10/2024",
-  "cil_liability": true,
+  "cil_liability": false,
   "appeal_status": null,
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "decision_process": "Delegated",
   "description": "Construction of a second floor and habitable loft space to accommodate 3no. self-contained residential units",
   "centroid": {
@@ -170,7 +208,7 @@
   },
   "pp_id": "PP-11279847",
   "application_type": "All Other",
-  "last_updated": "2025-03-19T20:39:01.530+00:00",
+  "last_updated": "2026-09-09T12:45:57.207Z",
   "decision": "Approved",
   "reference_no_of_permission_being_relied_on": null,
   "site_name": "141-143 Northfield Avenue",
@@ -211,7 +249,7 @@
   "postcode": "W13 9QT",
   "lpa_app_no": "222390FUL",
   "decision_agency": "Borough",
-  "status": "Approved",
+  "status": "Commenced",
   "date_building_work_started_under_previous_permission": null,
   "centroid_northing": 179545,
   "url_planning_app": "https://pam.ealing.gov.uk/online-applications/PLAN/222390FUL;",
@@ -223,7 +261,7 @@
   "lapsed_date": "02/10/2027",
   "uprn": "000012153185",
   "appeal_decision_date": null,
-  "title_number": null,
+  "title_number": [],
   "development_type": null,
   "decision_date": "02/10/2024",
   "epc_number": null,
@@ -283,7 +321,7 @@
   },
   "secondary_street_name": null,
   "street_name": "Northfield Avenue",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "16/01/2025",
   "last_date_consultation_comments": null,
   "appeal_start_date": null,
   "subdivision_of_building": "First floor",
@@ -291,44 +329,44 @@
     "coordinates": [
       [
         [
-          -0.316282,
-          51.5027928
+          -0.316304,
+          51.502792
         ],
         [
-          -0.316248,
-          51.5027568
+          -0.31627,
+          51.502756
         ],
         [
-          -0.31622249999999996,
-          51.5027262
+          -0.316245,
+          51.502726
         ],
         [
-          -0.3162408,
-          51.5027166
+          -0.316263,
+          51.502716
         ],
         [
-          -0.3163371,
-          51.5026676
+          -0.316359,
+          51.502667
         ],
         [
-          -0.3163646,
-          51.5026999
+          -0.316387,
+          51.502699
         ],
         [
-          -0.3164048,
-          51.5027454
+          -0.316427,
+          51.502745
         ],
         [
-          -0.3163088,
-          51.5027896
+          -0.316331,
+          51.502789
         ],
         [
-          -0.3163032,
-          51.5027841
+          -0.316325,
+          51.502783
         ],
         [
-          -0.316282,
-          51.5027928
+          -0.316304,
+          51.502792
         ]
       ]
     ],

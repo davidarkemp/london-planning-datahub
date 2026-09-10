@@ -40,7 +40,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -116,7 +115,8 @@
               166378.35
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -132,7 +132,7 @@
     "no_proposed_car": 4
   },
   "lpa_name": "Kingston",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "application_details": {
     "grey_water_reuse": false,
     "total_gia_existing": 131,
@@ -168,44 +168,54 @@
     "ownership_status": "Private",
     "commencement_notice_received": false,
     "projected_cost_of_works": "Up to £2m",
-    "site_area": 0.1,
+    "site_area": 1000,
     "phasing_details": [
       {
-        "intended_completion_date": "07/2028",
         "phase_detail": "1",
+        "intended_completion_date": "07/2028",
         "intended_commencement_date": "02/2027"
       }
     ],
     "total_gia_lost": 29,
     "constraints_details": [
       {
+        "result": null,
         "constraints_layer_description": "CONARA Name: Southborough Conservation Area"
       },
       {
+        "result": null,
         "constraints_layer_description": "NEIPOL Name: S1  Surbiton"
       },
       {
+        "result": null,
         "constraints_layer_description": "LGW Name: London Gatwick Safeguarding Zone (200m)"
       },
       {
+        "result": null,
         "constraints_layer_description": "SMKCON Name: Borough Wide Smoke Control Order"
       },
       {
+        "result": null,
         "constraints_layer_description": "TPAREA Ref: RBK.03.75\rTree ref: T44\rTree category: T\rDetails: RBK Order no: 03 Year: 1975"
       },
       {
+        "result": null,
         "constraints_layer_description": "NEIGH Name: Surbiton"
       },
       {
+        "result": null,
         "constraints_layer_description": "AIRCZ Type:: Gatwick Airport Wind Turbine Consultation Zone:\rContact: The Safeguarding Department, Gatwick Airport Limited, 7th Floor Destinations Place, London Gatwick Airport, West Sussex, RH06 0NP"
       },
       {
+        "result": null,
         "constraints_layer_description": "AIRCZ Type:: Heathrow Planning Consultation Zone: All buildings, structures, erections and works exceeding 90 metres in height (295.3 feet)\rContact: The Safeguarding Department, Heathrow Airport Limited, c/o Planning Services, First Point, Buckingham Gate, Gatwick Airport, West Sussex, RH6 0NT"
       },
       {
+        "result": null,
         "constraints_layer_description": "HWTERR Type: TERRIER\rDescription: HD"
       },
       {
+        "result": null,
         "constraints_layer_description": "HWTERR Type: TERRIER\rDescription: P"
       }
     ],
@@ -227,26 +237,26 @@
     },
     "building_details": [
       {
-        "no_storeys": 2,
-        "building_ref": "1",
-        "max_height": 8
+        "no_storeys": null,
+        "max_height": 8,
+        "building_ref": "1"
       }
     ],
     "existing_proposed_floorspace_details": [
       {
+        "gia_existing": 131,
         "gia_gained": 391,
         "use_class": "C3",
-        "gia_existing": 131,
         "gia_lost": 29
       }
     ],
     "non_residential_details": {
-      "total_gia_existing": 131,
+      "total_gia_existing": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "site_area": 0.1,
-      "total_gia_gained": 391,
-      "total_gia_lost": 29
+      "total_gia_gained": 0,
+      "total_gia_lost": 0
     },
     "other_residential_accommodation_details": {
       "site_area": 0.1
@@ -272,27 +282,43 @@
       "total_no_proposed_residential_units_intermediate": 0,
       "residential_units": [
         {
-          "provider": "Private",
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": false,
           "change_type": "Gain",
-          "tenure": "Market for sale",
+          "sheltered_accommodation": false,
           "garden_land": true,
           "unit_type": "House or Bungalow",
+          "provider": "Private",
           "no_habitable_rooms": 6,
+          "phase_detail": null,
+          "unit_no": null,
           "no_bedrooms": 4,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
           "gia": 208
         },
         {
-          "provider": "Private",
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": false,
           "change_type": "Gain",
-          "tenure": "Market for sale",
+          "sheltered_accommodation": false,
           "garden_land": true,
           "unit_type": "House or Bungalow",
+          "provider": "Private",
           "no_habitable_rooms": 6,
+          "phase_detail": null,
+          "unit_no": null,
           "no_bedrooms": 4,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
           "gia": 208
         }
       ],
-      "total_gia_lost": 0,
+      "total_gia_lost": 29,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_intermediate": 0,
       "habitable_rooms_density": null,
@@ -313,7 +339,7 @@
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
-      "total_gia_gained": 416,
+      "total_gia_gained": 391,
       "total_no_existing_residential_units": 0
     },
     "total_gia_gained": 391,
@@ -405,5 +431,5 @@
   "description": "Partial demolition of dwelling and erection of 2nos. new dwellings with associated access, bins and cycle provision.",
   "id": "Kingston-26_01858_FUL",
   "epc_number": null,
-  "last_updated": "2026-09-08T01:08:45.810Z"
+  "last_updated": "2026-09-09T17:04:20.939Z"
 }

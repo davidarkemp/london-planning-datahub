@@ -6,7 +6,9 @@
     "lon": -7.55716,
     "lat": 49.766807
   },
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "borough": "London Borough of Ealing",
   "application_type": "All Other",
   "date_building_work_started_under_previous_permission": null,
@@ -56,32 +58,32 @@
   "id": "Ealing-244156FUL",
   "actual_commencement_date": null,
   "lpa_name": "Ealing",
-  "last_updated": "2026-06-20T04:02:13.026Z",
+  "last_updated": "2026-09-09T11:56:14.039Z",
   "lpa_app_no": "244156FUL",
   "wgs84_polygon": null,
   "appeal_status": null,
-  "site_name": "Land To The Rear Of \rOverdale Road\rEaling\rW5 4TT\r",
+  "site_name": "Land To The Rear Of \nOverdale Road\nEaling\nW5 4TT\n",
   "title_number": [],
   "decision_date": "09/06/2025",
   "appeal_start_date": null,
-  "cil_liability": true,
+  "cil_liability": false,
   "development_type": null,
   "description": "Demolition of existing buildings and construction of 27no. two storey terraced dwellinghouses and 14no. flats within apartment building with accommodation at ground, first floor and within a mansard roof above (total of 41no. residential homes), with car parking, cycle storage, amenity space, landscaping and associated works",
   "epc_number": null,
   "reference_no_of_permission_being_relied_on": null,
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "appeal_decision": null,
   "actual_completion_date": null,
   "centroid_easting": null,
   "url_planning_app": null,
   "application_details": {
-    "existing_uprns": null,
-    "affordable_housing_fast_track": true,
+    "existing_uprns": [],
+    "affordable_housing_fast_track": false,
     "phasing_details": [
       {
         "phase_detail": "Entire Development ",
-        "intended_commencement_date": "11/2025",
-        "intended_completion_date": "04/2027"
+        "intended_completion_date": "04/2027",
+        "intended_commencement_date": "11/2025"
       }
     ],
     "total_gia_gained": 4710,
@@ -91,26 +93,26 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 1222,
-        "use_class": "EG3",
         "gia_gained": 0,
+        "use_class": "E(g)(iii)",
         "gia_lost": 1222
       },
       {
         "gia_existing": 771,
-        "use_class": "SpecifiedOther",
         "gia_gained": 0,
+        "use_class": "SpecifiedOther",
         "gia_lost": 771
       },
       {
         "gia_existing": 0,
-        "use_class": "C3",
         "gia_gained": 4710,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Between £2m and £100m",
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "building_details": [
       {
         "no_storeys": 3,
@@ -124,14 +126,15 @@
       }
     ],
     "grey_water_reuse": false,
-    "green_suds": true,
+    "green_suds": false,
     "surface_water_discharge_percentage_reduction": 35,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 4710,
       "total_gia_existing": 1993,
-      "total_gia_lost": 1993
+      "total_gia_lost": 1993,
+      "site_area": 0.52
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -154,13 +157,13 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 27,
       "total_no_existing_residential_affordable_units": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 359.6153846153846,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 3875,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 78.84615384615384,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_gia_lost": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 9,
@@ -173,377 +176,542 @@
       "total_no_proposed_residential_units_london_shared_ownership": 5,
       "residential_units": [
         {
-          "no_habitable_rooms": 5,
           "provider": "Private",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
-          "gia": 108,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 108
         },
         {
-          "no_habitable_rooms": 5,
           "provider": "Private",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
-          "gia": 108,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 108
         },
         {
-          "no_habitable_rooms": 5,
           "provider": "Private",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
-          "gia": 108,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 108
         },
         {
-          "no_habitable_rooms": 5,
           "provider": "Private",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
-          "gia": 108,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 108
         },
         {
-          "no_habitable_rooms": 5,
           "provider": "Private",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
-          "gia": 108,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 108
         },
         {
-          "no_habitable_rooms": 5,
           "provider": "Private",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
-          "gia": 108,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 108
         },
         {
-          "no_habitable_rooms": 5,
           "provider": "Private",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
-          "gia": 108,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 108
         },
         {
-          "no_habitable_rooms": 5,
           "provider": "Private",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
-          "gia": 108,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 108
         },
         {
-          "no_habitable_rooms": 5,
           "provider": "Private",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
-          "gia": 108,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 108
         },
         {
-          "no_habitable_rooms": 5,
           "provider": "Private",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
-          "gia": 108,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 108
         },
         {
-          "no_habitable_rooms": 5,
           "provider": "Private",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
-          "gia": 108,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 108
         },
         {
-          "no_habitable_rooms": 5,
           "provider": "Private",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
-          "gia": 108,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 108
         },
         {
-          "no_habitable_rooms": 5,
           "provider": "Private",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
-          "gia": 108,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 108
         },
         {
-          "no_habitable_rooms": 5,
           "provider": "Private",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
-          "gia": 108,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 108
         },
         {
-          "no_habitable_rooms": 5,
           "provider": "Private",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
-          "gia": 108,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 108
         },
         {
-          "no_habitable_rooms": 5,
           "provider": "Private",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
-          "gia": 108,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 108
         },
         {
-          "no_habitable_rooms": 5,
           "provider": "Private",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
-          "gia": 108,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 108
         },
         {
-          "no_habitable_rooms": 5,
           "provider": "Private",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
-          "gia": 108,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 108
         },
         {
-          "no_habitable_rooms": 5,
           "provider": "Private",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
-          "gia": 99,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 99
         },
         {
-          "no_habitable_rooms": 5,
           "provider": "Private",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
-          "gia": 99,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 99
         },
         {
-          "no_habitable_rooms": 5,
           "provider": "Private",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
-          "gia": 99,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 99
         },
         {
-          "no_habitable_rooms": 5,
           "provider": "Private",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
-          "gia": 99,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 99
         },
         {
-          "no_habitable_rooms": 5,
           "provider": "Private",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
-          "gia": 99,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 99
         },
         {
-          "no_habitable_rooms": 5,
           "provider": "Private",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
-          "gia": 99,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 99
         },
         {
-          "no_habitable_rooms": 5,
           "provider": "Private",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
-          "gia": 99,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 99
         },
         {
-          "no_habitable_rooms": 5,
           "provider": "Private",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
-          "gia": 99,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 99
         },
         {
-          "no_habitable_rooms": 5,
           "provider": "Private",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Terraced Home",
           "no_bedrooms": 3,
-          "gia": 99,
-          "tenure": "Market for sale"
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 99
         },
         {
-          "no_habitable_rooms": 2,
           "provider": "Other Affordable Housing Provider",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "gia": 50,
-          "tenure": "London Shared Ownership"
+          "provision_for_older_persons": false,
+          "tenure": "London Shared Ownership",
+          "gia": 50
         },
         {
-          "no_habitable_rooms": 2,
           "provider": "Other Affordable Housing Provider",
+          "no_habitable_rooms": 2,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "gia": 50,
-          "tenure": "London Shared Ownership"
+          "provision_for_older_persons": false,
+          "tenure": "London Shared Ownership",
+          "gia": 50
         },
         {
-          "no_habitable_rooms": 3,
           "provider": "Other Affordable Housing Provider",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 70,
-          "tenure": "London Shared Ownership"
+          "provision_for_older_persons": false,
+          "tenure": "London Shared Ownership",
+          "gia": 70
         },
         {
-          "no_habitable_rooms": 4,
           "provider": "Other Affordable Housing Provider",
+          "no_habitable_rooms": 4,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "gia": 74,
-          "tenure": "London Shared Ownership"
+          "provision_for_older_persons": false,
+          "tenure": "London Shared Ownership",
+          "gia": 74
         },
         {
-          "no_habitable_rooms": 4,
           "provider": "Other Affordable Housing Provider",
+          "no_habitable_rooms": 4,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "gia": 86,
-          "tenure": "London Shared Ownership"
+          "provision_for_older_persons": false,
+          "tenure": "London Shared Ownership",
+          "gia": 86
         },
         {
+          "provider": "Other Affordable Housing Provider",
           "no_habitable_rooms": 3,
-          "provider": "Other Affordable Housing Provider",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 61,
-          "tenure": "London Affordable Rent"
+          "provision_for_older_persons": false,
+          "tenure": "London Affordable Rent",
+          "gia": 61
         },
         {
-          "no_habitable_rooms": 3,
           "provider": "Other Affordable Housing Provider",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 61,
-          "tenure": "London Affordable Rent"
+          "provision_for_older_persons": false,
+          "tenure": "London Affordable Rent",
+          "gia": 61
         },
         {
-          "no_habitable_rooms": 3,
           "provider": "Other Affordable Housing Provider",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
-          "gia": 70,
-          "tenure": "London Affordable Rent"
+          "provision_for_older_persons": false,
+          "tenure": "London Affordable Rent",
+          "gia": 70
         },
         {
-          "no_habitable_rooms": 4,
           "provider": "Other Affordable Housing Provider",
+          "no_habitable_rooms": 4,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "gia": 74,
-          "tenure": "London Affordable Rent"
+          "provision_for_older_persons": false,
+          "tenure": "London Affordable Rent",
+          "gia": 74
         },
         {
-          "no_habitable_rooms": 4,
           "provider": "Other Affordable Housing Provider",
+          "no_habitable_rooms": 4,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "gia": 74,
-          "tenure": "London Affordable Rent"
+          "provision_for_older_persons": false,
+          "tenure": "London Affordable Rent",
+          "gia": 74
         },
         {
-          "no_habitable_rooms": 4,
           "provider": "Other Affordable Housing Provider",
+          "no_habitable_rooms": 4,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "gia": 86,
-          "tenure": "London Affordable Rent"
+          "provision_for_older_persons": false,
+          "tenure": "London Affordable Rent",
+          "gia": 86
         },
         {
-          "no_habitable_rooms": 4,
           "provider": "Other Affordable Housing Provider",
+          "no_habitable_rooms": 4,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
-          "gia": 86,
-          "tenure": "London Affordable Rent"
+          "provision_for_older_persons": false,
+          "tenure": "London Affordable Rent",
+          "gia": 86
         },
         {
+          "provider": "Other Affordable Housing Provider",
           "no_habitable_rooms": 6,
-          "provider": "Other Affordable Housing Provider",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 4,
-          "gia": 99,
-          "tenure": "London Affordable Rent"
+          "provision_for_older_persons": false,
+          "tenure": "London Affordable Rent",
+          "gia": 99
         },
         {
-          "no_habitable_rooms": 6,
           "provider": "Other Affordable Housing Provider",
+          "no_habitable_rooms": 6,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 4,
-          "gia": 99,
-          "tenure": "London Affordable Rent"
+          "provision_for_older_persons": false,
+          "tenure": "London Affordable Rent",
+          "gia": 99
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.52
     },
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
@@ -554,7 +722,7 @@
       "no_passive_fast_ev_charging_points": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 95,
       "no_active_fast_ev_charging_points": 2,
       "no_homes_to_have_electrical_heating": 41,
@@ -562,16 +730,28 @@
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
       "chp_heat_pumps_capacity": 0,
-      "ghg_reduction_over_building_regulations": true
+      "ghg_reduction_over_building_regulations": false
     },
     "internal_resi_water_usage": 105,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.52
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
-  "last_updated_by": "Idox Uniform",
-  "postcode": null,
+  "last_updated_by": "Portal",
+  "postcode": "",
   "last_date_consultation_comments": "05/12/2024",
   "secondary_street_name": null,
   "site_number": null,
   "subdivision_of_building": null,
-  "street_name": null
+  "street_name": ""
 }

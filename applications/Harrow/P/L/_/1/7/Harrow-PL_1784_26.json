@@ -15,7 +15,7 @@
   "lpa_app_no": "PL/1784/26",
   "title_number": null,
   "decision": null,
-  "last_updated": "2026-07-08T01:56:55.354Z",
+  "last_updated": "2026-09-09T06:58:00.233Z",
   "appeal_start_date": null,
   "actual_commencement_date": null,
   "bo_system": "Portal",
@@ -54,7 +54,12 @@
   },
   "date_building_work_completed_under_previous_permission": null,
   "lapsed_date": null,
-  "decision_conditions": null,
+  "decision_conditions": [
+    "&lt;p style=&quot;padding:0cm 5.4pt 0cm 5.4pt&quot;&gt;The development hereby permitted shall be begun before the expiration of three years from the date of this permission.&lt;/p&gt;",
+    "&lt;p style=&quot;padding: 0cm 5.4pt;&quot;&gt;Notwithstanding the existing on site refuse storage arrangement, within 6 months of this decision, full details of the approved refuse and cycle storage units and evidence of their approved location shall be submitted to, and agreed in writing by the local planning authority.&amp;nbsp; &amp;nbsp;&lt;/p&gt;",
+    "&lt;p style=&quot;padding: 0cm 5.4pt;&quot;&gt;The development hereby permitted shall be carried out in accordance with the following approved plans and documents: P-01 Rev A; P-02 Rev B; Location Plan; P-03 Rev A; Planning, Design &amp;amp; Access Statement (dated 23/06/2026); Reasonable Exception Statement.&lt;/p&gt;",
+    "&lt;p style=&quot;padding: 0cm 5.4pt;&quot;&gt;The Large House of Multiple Occupation (HMO) hereby permitted shall not be occupied by more than eight persons at any given time, unless otherwise agreed and approved in writing by the Local Planning Authority.&lt;/p&gt;"
+  ],
   "id": "Harrow-PL_1784_26",
   "application_type": "All Other",
   "pp_id": "14987995",
@@ -100,9 +105,9 @@
     "scheme_phasing": true,
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C4",
         "gia_existing": 204.95,
         "gia_gained": 0,
+        "use_class": "C4",
         "gia_lost": 0
       }
     ],
@@ -115,22 +120,22 @@
       "residential_units": [
         {
           "no_habitable_rooms": 2,
-          "tenure": "Market for rent",
-          "gia": 204.95,
-          "unit_type": "HMO",
-          "no_bedrooms": 6,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "provision_for_older_persons": false
+          "unit_type": "HMO",
+          "no_bedrooms": 6,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 204.95
         },
         {
+          "provider": "Private",
           "no_habitable_rooms": 2,
-          "tenure": "Market for rent",
-          "gia": 204.95,
+          "change_type": "Gain",
           "unit_type": "HMO",
           "no_bedrooms": 7,
-          "change_type": "Gain",
-          "provider": "Private"
+          "tenure": "Market for rent",
+          "gia": 204.95
         }
       ],
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
@@ -172,9 +177,9 @@
     "total_gia_gained": 0,
     "phasing_details": [
       {
+        "phase_detail": "Conversion and completion",
         "intended_completion_date": "11/2026",
-        "intended_commencement_date": "09/2026",
-        "phase_detail": "Conversion and completion"
+        "intended_commencement_date": "09/2026"
       }
     ],
     "affordable_housing_fast_track": false,
@@ -188,7 +193,7 @@
   "site_name": null,
   "decision_process": "Delegated",
   "postcode": "HA1 4AJ",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Portal",
   "centroid": {
     "lat": 51.576192,
     "lon": -0.348202
@@ -202,7 +207,6 @@
     },
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -226,7 +230,8 @@
               187687.610352586
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"

@@ -4,7 +4,7 @@
   "decision_date": "18/01/2021",
   "epc_number": null,
   "application_type_full": "Full planning permission",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "id": "Hillingdon-71368_APP_2020_3910",
   "secondary_street_name": null,
   "appeal_status": null,
@@ -13,7 +13,7 @@
   "application_details": {
     "projected_cost_of_works": "Up to £2m",
     "grey_water_reuse": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "affordable_housing_fast_track": false,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
@@ -22,27 +22,19 @@
       "total_gia_lost": 95.4,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "development_type": null,
-      "site_area": null
+      "site_area": 0.019
     },
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 95.4,
-        "superseded_date": null,
-        "actual_completion_date": null,
-        "use_class": "C3",
         "gia_gained": 0,
-        "actual_commencement_date": null,
-        "superseded_by_lpa_app_no": null,
+        "use_class": "C3",
         "gia_lost": 95.4
       },
       {
         "gia_existing": 0,
-        "superseded_date": null,
-        "actual_completion_date": null,
-        "use_class": "C4",
         "gia_gained": 95.4,
-        "actual_commencement_date": null,
-        "superseded_by_lpa_app_no": null,
+        "use_class": "C4",
         "gia_lost": 0
       }
     ],
@@ -56,7 +48,7 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
-      "total_gia_gained": null,
+      "total_gia_gained": 95.4,
       "total_no_existing_residential_units_market_for_sale": 1,
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
@@ -68,51 +60,29 @@
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "residential_units": [
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
           "description": null,
           "change_type": "Loss",
-          "m42_compliant": null,
-          "sheltered_accommodation": null,
-          "garden_land": null,
           "unit_type": "Semi Detached Home",
-          "unit_development_type": "Conversion",
-          "superseded_date": null,
-          "provider": "Private",
-          "no_habitable_rooms": null,
-          "phase_detail": null,
-          "unit_no": "Loss-1",
-          "actual_commencement_date": null,
           "no_bedrooms": 4,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
           "tenure": "Market for sale",
+          "unit_development_type": "Conversion",
           "gia": null
         },
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
-          "actual_completion_date": null,
-          "m43_2a_compliant": null,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
           "description": null,
           "change_type": "Gain",
-          "m42_compliant": null,
-          "sheltered_accommodation": null,
-          "garden_land": null,
           "unit_type": "HMO",
-          "unit_development_type": "Conversion",
-          "superseded_date": null,
-          "provider": "Private",
-          "no_habitable_rooms": null,
-          "phase_detail": null,
-          "unit_no": "Gain-1",
-          "actual_commencement_date": null,
           "no_bedrooms": 4,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
           "tenure": "Market for rent",
+          "unit_development_type": "Conversion",
           "gia": null
         }
       ],
@@ -126,7 +96,7 @@
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_london_living_rent": 0,
-      "total_gia_lost": null,
+      "total_gia_lost": 95.4,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
@@ -166,7 +136,7 @@
       "ghg_reduction_over_building_regulations": false,
       "no_resi_units_to_have_full_fibre": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "mobile_network_operators_consultation": false,
       "no_new_gas_connections_required": 1,
@@ -191,14 +161,14 @@
       "community_energy_capacity": null,
       "waste_details": []
     },
-    "s106_agreement": null,
+    "s106_agreement": false,
     "affordable_housing_inlieu_payment": null,
-    "air_quality_assessment": null,
+    "air_quality_assessment": false,
     "other_contributions": null,
     "intended_commencement_date": null,
     "no_affordable_housing_units_provided_offsite": null,
-    "circular_economy_statement": null,
-    "commencement_notice_received": null,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
     "qualifying_vacant_building_floorspace": null,
     "open_and_protected_space_details": {
       "open_space_local_and_other_area_gain": 0,
@@ -214,23 +184,23 @@
     "constraints_details": [],
     "superseding_details": [],
     "lead_registered_social_landlord": null,
-    "viability_assessment": null,
+    "viability_assessment": false,
     "overseas_company_registration_no": null,
-    "mayoral_cil_liability_notice_issued": null,
+    "mayoral_cil_liability_notice_issued": false,
     "intended_completion_date": null,
     "non_permanent_dwellings_details": [],
     "uk_company_registration_no": null,
     "other_residential_accommodation_details": {
       "no_council_tax_rateable_units_gained": null,
       "no_council_tax_rateable_units_lost": null,
-      "site_area": null,
+      "site_area": 0.019,
       "other_resi_accommodation_unit_details": []
     },
-    "3d_model": null,
+    "3d_model": false,
     "transport_contributions": null,
     "no_affordable_housing_units_acquired_offsite": null,
-    "borough_cil_liability_notice_issued": null,
-    "transport_impact_assessment": null,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
     "scheme_name": "45 DELLFIELD CRESCENT",
     "social_infrastructure_contributions": null,
     "lead_developer_company_name": null
@@ -280,7 +250,7 @@
     "For Private Roads: Care should be taken during the building works hereby approved to ensure no damage occurs to the verge of footpaths on private roads during construction. Vehicles delivering materials to this development shall not override or cause damage to a private road and where possible alternative routes should be ta"
   ],
   "date_building_work_started_under_previous_permission": null,
-  "last_updated": "2025-03-19T03:28:43.628+00:00",
+  "last_updated": "2026-09-09T09:05:07.022Z",
   "ward": "UXBRIDGE SOUTH",
   "parking_details": {
     "no_existing_car": 2,
@@ -314,8 +284,8 @@
   "lapsed_date": "18/01/2024",
   "decision_target_date": "21/01/2021",
   "centroid": {
-    "lat": "51.5281293",
-    "lon": "-0.479855"
+    "lat": 51.528128,
+    "lon": -0.479875
   },
   "lpa_app_no": "71368/APP/2020/3910",
   "status": "Lapsed",
@@ -376,7 +346,7 @@
   "decision_process": "Delegated",
   "decision_agency": "Borough",
   "date_building_work_completed_under_previous_permission": null,
-  "last_updated_by": "FME Excel Import",
+  "last_updated_by": "Portal",
   "site_number": "45 ",
   "application_type": "All Other",
   "actual_completion_date": null,
@@ -397,40 +367,40 @@
     "coordinates": [
       [
         [
-          -0.4798846,
-          51.5282484
+          -0.479905,
+          51.528247
         ],
         [
-          -0.47980839999999997,
-          51.5282451
+          -0.479829,
+          51.528244
         ],
         [
-          -0.47980849999999997,
-          51.5282427
+          -0.479829,
+          51.528241
         ],
         [
-          -0.47981229999999997,
-          51.5282415
+          -0.479833,
+          51.52824
         ],
         [
-          -0.4797496,
-          51.528236
+          -0.47977,
+          51.528234
         ],
         [
-          -0.4798744,
-          51.5279806
+          -0.479895,
+          51.527979
         ],
         [
-          -0.47993149999999996,
-          51.5279826
+          -0.479952,
+          51.527981
         ],
         [
-          -0.4799023,
-          51.5281178
+          -0.479923,
+          51.528116
         ],
         [
-          -0.4798846,
-          51.5282484
+          -0.479905,
+          51.528247
         ]
       ]
     ],
