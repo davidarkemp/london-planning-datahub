@@ -5,120 +5,116 @@
     "coordinates": [
       [
         [
-          [
-            -0.219145,
-            51.532932
-          ],
-          [
-            -0.219143,
-            51.532929
-          ],
-          [
-            -0.219108,
-            51.532883
-          ],
-          [
-            -0.219043,
-            51.53279
-          ],
-          [
-            -0.219025,
-            51.532795
-          ],
-          [
-            -0.218962,
-            51.532814
-          ],
-          [
-            -0.219028,
-            51.532906
-          ],
-          [
-            -0.219124,
-            51.533037
-          ],
-          [
-            -0.219139,
-            51.53306
-          ],
-          [
-            -0.219219,
-            51.533035
-          ],
-          [
-            -0.219204,
-            51.533014
-          ],
-          [
-            -0.219145,
-            51.532932
-          ]
+          -0.219145,
+          51.532932
+        ],
+        [
+          -0.219143,
+          51.532929
+        ],
+        [
+          -0.219108,
+          51.532883
+        ],
+        [
+          -0.219043,
+          51.53279
+        ],
+        [
+          -0.219025,
+          51.532795
+        ],
+        [
+          -0.218962,
+          51.532814
+        ],
+        [
+          -0.219028,
+          51.532906
+        ],
+        [
+          -0.219124,
+          51.533037
+        ],
+        [
+          -0.219139,
+          51.53306
+        ],
+        [
+          -0.219219,
+          51.533035
+        ],
+        [
+          -0.219204,
+          51.533014
+        ],
+        [
+          -0.219145,
+          51.532932
         ]
       ]
     ],
-    "type": "MultiPolygon"
+    "type": "Polygon"
   },
   "date_building_work_started_under_previous_permission": null,
   "ward": "Queens Park",
-  "site_number": 17,
+  "site_number": "17",
   "polygon": {
     "geometries": [
       {
         "coordinates": [
           [
             [
-              [
-                523620.695,
-                183061.145
-              ],
-              [
-                523620.833,
-                183060.869
-              ],
-              [
-                523623.374,
-                183055.787
-              ],
-              [
-                523628.15,
-                183045.55
-              ],
-              [
-                523629.4,
-                183046.2
-              ],
-              [
-                523633.75,
-                183048.35
-              ],
-              [
-                523628.9,
-                183058.5
-              ],
-              [
-                523621.9,
-                183072.95
-              ],
-              [
-                523620.75,
-                183075.4
-              ],
-              [
-                523615.3,
-                183072.5
-              ],
-              [
-                523616.4,
-                183070.15
-              ],
-              [
-                523620.695,
-                183061.145
-              ]
+              523620.695,
+              183061.145
+            ],
+            [
+              523620.833,
+              183060.869
+            ],
+            [
+              523623.374,
+              183055.787
+            ],
+            [
+              523628.15,
+              183045.55
+            ],
+            [
+              523629.4,
+              183046.2
+            ],
+            [
+              523633.75,
+              183048.35
+            ],
+            [
+              523628.9,
+              183058.5
+            ],
+            [
+              523621.9,
+              183072.95
+            ],
+            [
+              523620.75,
+              183075.4
+            ],
+            [
+              523615.3,
+              183072.5
+            ],
+            [
+              523616.4,
+              183070.15
+            ],
+            [
+              523620.695,
+              183061.145
             ]
           ]
         ],
-        "type": "MultiPolygon"
+        "type": "Polygon"
       }
     ],
     "type": "GeometryCollection"
@@ -140,7 +136,7 @@
   "application_details": {
     "surface_water_discharge_percentage_reduction": 0,
     "site_area": 0.0184,
-    "existing_uprns": null,
+    "existing_uprns": [],
     "superseding_details": [
       {
         "lpa_app_no": "25/0537",
@@ -148,12 +144,12 @@
       }
     ],
     "projected_cost_of_works": "Up to £2m",
-    "scheme_phasing": true,
-    "garden_land_lost": true,
+    "scheme_phasing": false,
+    "garden_land_lost": false,
     "infrastructure_details": {
       "fire_suppression_system_proposed": false,
       "green_roof_area": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 80,
       "ghg_reduction_over_building_regulations": false,
       "no_homes_to_have_electrical_heating": 1,
@@ -173,7 +169,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_lost": 0,
       "total_gia_gained": 12,
-      "total_gia_existing": 127
+      "total_gia_existing": 127,
+      "site_area": 0.0184
     },
     "ownership_status": "Private",
     "existing_proposed_floorspace_details": [
@@ -212,9 +209,25 @@
       "residential_units": [
         {
           "no_habitable_rooms": 4,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": null
+        },
+        {
+          "provider": "Private",
+          "no_habitable_rooms": 4,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Semi Detached Home",
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
@@ -222,12 +235,16 @@
         },
         {
           "no_habitable_rooms": 4,
-          "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Semi Detached Home",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Loss",
+          "sheltered_accommodation": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "tenure": "Market for rent",
-          "gia": 63.5
+          "gia": null
         }
       ],
       "total_no_existing_residential_units_london_shared_ownership": 0,
@@ -239,13 +256,13 @@
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 54.34782608695652,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_shared_equity": 0,
-      "total_no_existing_residential_units": 1,
+      "total_no_existing_residential_units": 2,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_gia_gained": 63.5,
@@ -253,13 +270,26 @@
       "total_no_existing_residential_affordable_units": 0,
       "total_gia_lost": 63.5,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 217.3913043478261,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
-      "total_no_existing_residential_units_market_for_rent": 1,
-      "total_no_existing_residential_units_starter_homes": 0
+      "total_no_existing_residential_units_market_for_rent": 2,
+      "total_no_existing_residential_units_starter_homes": 0,
+      "site_area": 0.0184
     },
     "rain_water_harvesting": false,
-    "occupation_status": "Vacant"
+    "occupation_status": "Vacant",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.0184
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "development_type": "Minor all other minor developments",
   "centroid_easting": 523621,
@@ -269,9 +299,9 @@
   "lpa_app_no": "26/0140",
   "decision_process": "Delegated",
   "lapsed_date": "15/04/2029",
-  "uprn": 202128798,
-  "bo_system": "CSV Data Import",
-  "cil_liability": true,
+  "uprn": "202128798",
+  "bo_system": "Portal",
+  "cil_liability": false,
   "street_name": "Bolton Gardens",
   "locality": "London",
   "application_type": "All Other",
@@ -280,14 +310,14 @@
   "reference_no_of_permission_being_relied_on": "25/0537",
   "secondary_street_name": null,
   "centroid_northing": 183069,
-  "last_updated": "2026-07-16T18:37:19.399Z",
+  "last_updated": "2026-09-10T15:13:40.487Z",
   "centroid": {
     "lon": -0.219138,
     "lat": 51.533002
   },
   "subdivision_of_building": null,
-  "last_updated_by": "PP overwrite repair",
-  "title_number": null,
+  "last_updated_by": "Portal",
+  "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "id": "Brent-26_0140",

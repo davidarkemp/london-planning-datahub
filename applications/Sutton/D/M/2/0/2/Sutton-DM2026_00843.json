@@ -40,7 +40,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -232,7 +231,8 @@
               163869.25
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -245,7 +245,7 @@
     "no_existing_car": 1
   },
   "lpa_name": "Sutton",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "application_details": {
     "grey_water_reuse": false,
     "total_gia_existing": 200,
@@ -282,53 +282,66 @@
     "ownership_status": "Public",
     "commencement_notice_received": false,
     "projected_cost_of_works": "Up to £2m",
-    "site_area": 0.18,
+    "site_area": 1800,
     "phasing_details": [
       {
-        "intended_completion_date": "01/2027",
         "phase_detail": "Entire development",
+        "intended_completion_date": "01/2027",
         "intended_commencement_date": "12/2026"
       }
     ],
     "total_gia_lost": 0,
     "constraints_details": [
       {
+        "result": null,
         "constraints_layer_description": "SMKCON Smoke Control Zone"
       },
       {
+        "result": null,
         "constraints_layer_description": "ART4 Article 4 Direction - Boroughwide HMO Restriction"
       },
       {
+        "result": null,
         "constraints_layer_description": "RADCON "
       },
       {
+        "result": null,
         "constraints_layer_description": "PLAHIS Planning Application Reference: DM2026/00843--- Address: 10 Hillcroome Road\rSutton\rSM2 5EL\r--- Proposal: Change of use from a single dwelling house to a six bed House of Multiple Occupation-style property with communal spaces. The property will be used as temporary accommodation for single parent families supported by LBS Children's Services. \r\rNo structural or external changes are proposed. The existing 6 large bedrooms and 4 bathrooms will be retained. The 'office' on the ground floor will be repurposed as a playroom. Additional units, countertop and cooking facilities will be installed to provide sufficient storage and space to prepare meals. Both the kitchen diner and lounge are very large, providing ample communal space. The property also benefits from a large rear garden. \r\rThe site benefits from off-road parking for one vehicle with bin storage at the end of the driveway, away from the pathway and road.\r\rWhilst the property will not be registered as an HMO as it will be operated by the Council, the plans have been approved by LBS Environmental Health as being fully compliant with HMO standards. Planned works to the property include upgrading fire safety measures throughout the property, as per LACORS Housing - Fire Safety Guidance and a boiler upgrade to improve energy performance from D to B.\r\rThe property will receive enhanced housing management by Sutton Housing Partnership and each family will receive support from their allocated Social Worker.\r\rThis proposal will bring a property back into use which has been vacant for a number of years and will provide much needed short term accommodation for vulnerable families receiving support from LBS Children's Services.\r\rPlease note the 'projected cost of works' in the next section is from a drop-down list. The projected cost of works is minimal.--- Status: REC--- Decision: --- Date Decision Issued: ---"
       },
       {
+        "result": null,
         "constraints_layer_description": "PLAHIS Planning Application Reference: 87/30968--- Address: 10 Hillcroome Road\rSutton\rSM2 5EL\r--- Proposal: Use of property comprising 250 sq m as a residential home for single mothers--- Status: GTD--- Decision: GTD--- Date Decision Issued: 27-JAN-88---"
       },
       {
+        "result": null,
         "constraints_layer_description": "PLAHIS Planning Application Reference: B2008/60453--- Address: 10 Hillcroome Road\rSutton\rSurrey\rSM2 5EL--- Proposal: Use of premises as a single dwelling house and installation of decking, guardrails and wheelchair lift to rear.--- Status: GTD--- Decision: GTD--- Date Decision Issued: 27-FEB-09---"
       },
       {
+        "result": null,
         "constraints_layer_description": "ASLC Area of Special Local Character: ASLC19 DD"
       },
       {
+        "result": null,
         "constraints_layer_description": "DECENE "
       },
       {
+        "result": null,
         "constraints_layer_description": "GREENC "
       },
       {
+        "result": null,
         "constraints_layer_description": "IMPNC "
       },
       {
+        "result": null,
         "constraints_layer_description": "PINT "
       },
       {
+        "result": null,
         "constraints_layer_description": "SINCBU "
       },
       {
+        "result": null,
         "constraints_layer_description": "SGNBUF "
       }
     ],
@@ -350,14 +363,14 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
-        "use_class": "C3",
         "gia_existing": 200,
+        "use_class": "C3",
+        "gia_gained": 0,
         "gia_lost": 0
       }
     ],
     "non_residential_details": {
-      "total_gia_existing": 200,
+      "total_gia_existing": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "site_area": 0.18,
@@ -367,8 +380,12 @@
     "other_residential_accommodation_details": {
       "other_resi_accommodation_unit_details": [
         {
-          "unit_type": "Hostel Room",
+          "no_bedrooms_for_older_persons_c2": 0,
+          "no_bedrooms_for_older_persons_sg": 0
+        },
+        {
           "no_rooms_proposed": 6,
+          "unit_type": "Hostel Room",
           "no_rooms_lost": 0
         }
       ],
@@ -622,5 +639,5 @@
   "description": "Change of use of from Class C3 (Residential) to Class C4 (Small HMO) to provide 6 rooms.",
   "id": "Sutton-DM2026_00843",
   "epc_number": "2735-2196-1311-1719-9712",
-  "last_updated": "2026-09-10T01:08:42.601Z"
+  "last_updated": "2026-09-10T20:04:36.523Z"
 }
