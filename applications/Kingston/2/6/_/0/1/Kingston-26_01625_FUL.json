@@ -40,7 +40,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -84,7 +83,8 @@
               167965.6
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },
@@ -93,7 +93,7 @@
   "appeal_start_date": null,
   "parking_details": null,
   "lpa_name": "Kingston",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "application_details": {
     "grey_water_reuse": false,
     "total_gia_existing": 296.71,
@@ -129,44 +129,54 @@
     "ownership_status": "Private",
     "commencement_notice_received": false,
     "projected_cost_of_works": "Up to £2m",
-    "site_area": 0.031076999999999997,
+    "site_area": 311,
     "phasing_details": [
       {
-        "intended_completion_date": "05/2027",
         "phase_detail": "Entire Development",
+        "intended_completion_date": "05/2027",
         "intended_commencement_date": "11/2026"
       }
     ],
     "total_gia_lost": 0,
     "constraints_details": [
       {
+        "result": null,
         "constraints_layer_description": "AAS Name: Settlement - Surbiton (1st recorded 1179)"
       },
       {
+        "result": null,
         "constraints_layer_description": "CONARA Name: Claremont Road Conservation Area"
       },
       {
+        "result": null,
         "constraints_layer_description": "NEIPOL Name: S1  Surbiton"
       },
       {
+        "result": null,
         "constraints_layer_description": "LGW Name: London Gatwick Safeguarding Zone (200m)"
       },
       {
+        "result": null,
         "constraints_layer_description": "SMKCON Name: Borough Wide Smoke Control Order"
       },
       {
+        "result": null,
         "constraints_layer_description": "NEIGH Name: Surbiton"
       },
       {
+        "result": null,
         "constraints_layer_description": "AIRCZ Type:: Gatwick Airport Wind Turbine Consultation Zone:\rContact: The Safeguarding Department, Gatwick Airport Limited, 7th Floor Destinations Place, London Gatwick Airport, West Sussex, RH06 0NP"
       },
       {
+        "result": null,
         "constraints_layer_description": "AIRCZ Type:: Heathrow Planning Consultation Zone: All buildings, structures, erections and works exceeding 90 metres in height (295.3 feet)\rContact: The Safeguarding Department, Heathrow Airport Limited, c/o Planning Services, First Point, Buckingham Gate, Gatwick Airport, West Sussex, RH6 0NT"
       },
       {
+        "result": null,
         "constraints_layer_description": "HWTERR Type: TERRIER\rDescription: HD"
       },
       {
+        "result": null,
         "constraints_layer_description": "HWTERR Type: TERRIER\rDescription: HD"
       }
     ],
@@ -188,18 +198,18 @@
     },
     "existing_proposed_floorspace_details": [
       {
+        "gia_existing": 296.71,
         "gia_gained": 43.65,
         "use_class": "C4",
-        "gia_existing": 296.71,
         "gia_lost": 0
       }
     ],
     "non_residential_details": {
-      "total_gia_existing": 296.71,
+      "total_gia_existing": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "site_area": 0.03,
-      "total_gia_gained": 43.65,
+      "total_gia_gained": 0,
       "total_gia_lost": 0
     },
     "other_residential_accommodation_details": {
@@ -226,31 +236,58 @@
       "total_no_proposed_residential_units_intermediate": 0,
       "residential_units": [
         {
-          "provider": "Private",
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": true,
           "change_type": "Gain",
-          "tenure": "Market for rent",
+          "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 5,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
           "no_bedrooms": 3,
-          "gia": 125.88
+          "provision_for_older_persons": false,
+          "gia": 125.88,
+          "tenure": "Market for rent"
         },
         {
-          "provider": "Private",
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": true,
           "change_type": "Gain",
-          "tenure": "Market for rent",
+          "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 4,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
           "no_bedrooms": 2,
-          "gia": 74.83
+          "provision_for_older_persons": false,
+          "gia": 74.83,
+          "tenure": "Market for rent"
         },
         {
-          "provider": "Private",
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": true,
           "change_type": "Gain",
-          "tenure": "Market for rent",
+          "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 4,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
           "no_bedrooms": 2,
-          "gia": 78.77
+          "provision_for_older_persons": false,
+          "gia": 78.77,
+          "tenure": "Market for rent"
         }
       ],
       "total_gia_lost": 0,
@@ -274,7 +311,7 @@
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
-      "total_gia_gained": 279.48,
+      "total_gia_gained": 43.65,
       "total_no_existing_residential_units": 0
     },
     "total_gia_gained": 43.65,
@@ -334,5 +371,5 @@
   "description": "Change of use from 11nos. bed-sitting units (Use Class C4) to 3nos. self-contained flats (Use Class C3), erection of single storey side infill extension and part first floor rear extension. Fenestration changes and internal alterations.",
   "id": "Kingston-26_01625_FUL",
   "epc_number": "8399-8250-1629-1097-7083",
-  "last_updated": "2026-09-10T01:08:42.955Z"
+  "last_updated": "2026-09-11T17:02:52.161Z"
 }

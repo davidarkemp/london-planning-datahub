@@ -2,7 +2,7 @@
   "development_type": null,
   "appeal_decision": null,
   "decision_agency": null,
-  "postcode": null,
+  "postcode": "",
   "borough": "London Borough of Ealing",
   "wgs84_polygon": {
     "coordinates": [
@@ -71,10 +71,10 @@
     ],
     "type": "Polygon"
   },
-  "site_name": "131 - 139 Broadway\rWest Ealing\rW13 9BE\r",
+  "site_name": "131 - 139 Broadway\nWest Ealing\nW13 9BE\n",
   "centroid_easting": null,
   "pp_id": "PP-12630070",
-  "cil_liability": true,
+  "cil_liability": false,
   "reference_no_of_permission_being_relied_on": null,
   "date_building_work_completed_under_previous_permission": null,
   "application_details": {
@@ -98,14 +98,19 @@
       "total_no_existing_residential_affordable_units": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 3,
+          "actual_completion_date": "11/09/2025",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "11/09/2025",
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "tenure": "Market for sale",
-          "gia": 111
+          "gia": 111,
+          "tenure": "Market for sale"
         }
       ],
       "total_no_proposed_residential_units_discount_market_sale": 0,
@@ -122,13 +127,14 @@
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_market_for_sale": 1,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_gia_lost": 111,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
-      "total_no_existing_residential_units_affordable_rent": 0
+      "total_no_existing_residential_units_affordable_rent": 0,
+      "site_area": 0.12
     },
     "lead_developer_company_name": "UK Lux One SPV 13 Ltd",
     "surface_water_discharge_percentage_reduction": 0,
@@ -137,16 +143,17 @@
       "total_gia_lost": 625,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 272,
       "total_gia_existing": 625,
-      "total_non_resi_gross_internal_floor_area_to_be_gained": 6434.7
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 6434.7,
+      "site_area": 0.12
     },
     "affordable_housing_fast_track": false,
     "scheme_name": "Scott’s House, Ealing",
     "rain_water_harvesting": false,
     "garden_land_lost": false,
-    "existing_uprns": null,
+    "existing_uprns": [],
     "ownership_status": "Private",
     "total_gia_gained": 6647.4,
-    "green_suds": true,
+    "green_suds": false,
     "building_details": [
       {
         "no_storeys": 9,
@@ -173,58 +180,70 @@
       "no_new_gas_connections_required": 0,
       "urban_greening_factor_score": 0.39,
       "no_homes_to_have_electrical_heating": 0,
-      "fire_suppression_system_proposed": true,
+      "fire_suppression_system_proposed": false,
       "mobile_network_operators_consultation": false,
       "chp_heat_pumps_capacity": 0,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "no_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
       "no_homes_passive_cooling": 0,
-      "waste_provision": true
+      "waste_provision": false
     },
     "internal_resi_water_usage": 0,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 272,
-        "use_class": "B2",
         "gia_gained": 0,
+        "use_class": "B2",
         "gia_lost": 272
       },
       {
         "gia_existing": 242,
-        "use_class": "EA",
         "gia_gained": 0,
+        "use_class": "E(a)",
         "gia_lost": 242
       },
       {
         "gia_existing": 111,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 111
       },
       {
         "gia_existing": 0,
-        "use_class": "SG",
         "gia_gained": 6434.7,
+        "use_class": "SG",
         "gia_lost": 0
       },
       {
         "gia_existing": 0,
-        "use_class": "SpecifiedOther",
         "gia_gained": 212.7,
+        "use_class": "SpecifiedOther",
         "gia_lost": 0
       }
     ],
     "total_gia_lost": 625,
     "grey_water_reuse": false,
-    "total_gia_existing": 625
+    "total_gia_existing": 625,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.12
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "lpa_name": "Ealing",
   "decision": "Approved",
   "lpa_app_no": "235015FUL",
   "decision_date": "03/04/2025",
-  "last_updated": "2026-07-18T04:02:37.202Z",
+  "last_updated": "2026-09-11T16:03:37.683Z",
   "centroid_northing": null,
   "centroid": {
     "lat": 49.766807,
@@ -233,7 +252,7 @@
   "appeal_decision_date": null,
   "locality": null,
   "ward": "WALPLE",
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "lapsed_date": "03/04/2028",
   "decision_process": null,
   "last_date_consultation_comments": "12/07/2024",
@@ -241,7 +260,7 @@
   "appeal_start_date": null,
   "epc_number": null,
   "valid_date": "12/12/2023",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "11/09/2025",
   "decision_conditions": [
     "Standard Cond - Expiration Three Years",
     "Co-living",
@@ -290,15 +309,17 @@
   "uprn": "000012113902",
   "decision_target_date": "12/03/2024",
   "application_type": "All Other",
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "title_number": [],
   "appeal_status": null,
-  "status": "Approved",
+  "status": "Commenced",
   "date_building_work_started_under_previous_permission": null,
   "application_type_full": "Full planning permission",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "actual_completion_date": null,
-  "street_name": null,
+  "street_name": "",
   "secondary_street_name": null,
   "description": "Construction of a building stepped from 4 to 9 storeys comprising co-living units (Sui Generis) and associated communal amenity facilities and ground floor commercial space (Use Classes E(a), E(b) and F2(b); and associated refuse storage and cycle parking (following demolition of the existing buildings and structures)",
   "id": "Ealing-235015FUL",

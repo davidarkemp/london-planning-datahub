@@ -5,11 +5,11 @@
   "actual_completion_date": null,
   "reference_no_of_permission_being_relied_on": null,
   "application_type_full": "Full planning permission",
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "valid_date": "20/09/2024",
   "lpa_name": "Bexley",
   "borough": "London Borough of Bexley",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "status": "Commenced",
   "appeal_start_date": null,
   "subdivision_of_building": null,
@@ -73,16 +73,20 @@
       }
     ]
   },
-  "description": "Change of use from supported living accommodation (Class C3b) to a children's care home (Class C2)\r",
+  "description": "Change of use from supported living accommodation (Class C3b) to a children's care home (Class C2)\n",
   "appeal_decision_date": null,
   "pp_id": "PP-13372740",
   "cil_liability": false,
   "last_date_consultation_comments": "05/02/2025",
   "decision_date": "13/02/2025",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 1,
+    "net_car": 0,
+    "no_proposed_car": 1
+  },
   "date_building_work_started_under_previous_permission": null,
   "date_building_work_completed_under_previous_permission": null,
-  "centroid_easting": "552178",
+  "centroid_easting": 552178,
   "postcode": "DA1 4NW",
   "centroid": {
     "lon": 0.188874,
@@ -90,10 +94,10 @@
   },
   "url_planning_app": null,
   "appeal_status": null,
-  "centroid_northing": "175168",
+  "centroid_northing": 175168,
   "site_name": "",
   "actual_commencement_date": "13/03/2025",
-  "last_updated": "2026-09-09T20:01:28.680Z",
+  "last_updated": "2026-09-12T01:05:39.439Z",
   "decision_conditions": [
     "Secure by design",
     "Parking spaces",
@@ -103,7 +107,7 @@
     "Plans",
     "Residential institution"
   ],
-  "epc_number": null,
+  "epc_number": "9110-2124-9090-2000-3251",
   "decision_agency": null,
   "wgs84_polygon": {
     "type": "Polygon",
@@ -229,8 +233,8 @@
       "site_area": 0.022600000000000002,
       "other_resi_accommodation_unit_details": [
         {
-          "actual_completion_date": "01/04/2025",
           "no_rooms_proposed": 3,
+          "actual_completion_date": "01/04/2025",
           "actual_commencement_date": "13/03/2025",
           "unit_type": "Care Home Bedroom",
           "no_rooms_lost": 0
@@ -282,9 +286,10 @@
         {
           "actual_completion_date": "01/04/2025",
           "change_type": "Loss",
+          "sheltered_accommodation": true,
           "actual_commencement_date": "01/04/2025",
-          "unit_type": "Other",
           "no_bedrooms": 3,
+          "unit_type": "House or Bungalow",
           "provision_for_older_persons": false,
           "tenure": "Market for rent",
           "unit_development_type": "Change of Use"
