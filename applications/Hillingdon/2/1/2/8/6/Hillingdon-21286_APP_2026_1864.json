@@ -11,7 +11,7 @@
   "date_building_work_completed_under_previous_permission": null,
   "cil_liability": false,
   "pp_id": "15108258",
-  "last_updated": "2026-09-12T01:05:39.129Z",
+  "last_updated": "2026-09-12T22:00:03.916Z",
   "parking_details": {
     "net_cycle": 2,
     "no_existing_cycle": 2,
@@ -52,7 +52,7 @@
   "polygon": null,
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "CSV Data Import",
   "borough": "Hillingdon",
   "application_details": {
     "projected_cost_of_works": "Up to £2m",
@@ -73,14 +73,14 @@
     "building_details": [
       {
         "no_storeys": 1,
-        "building_ref": "Rear Extension (Already approved but not built)",
-        "max_height": 2.85
+        "max_height": 2.85,
+        "building_ref": "Rear Extension (Already approved but not built)"
       }
     ],
     "phasing_details": [
       {
-        "intended_completion_date": "05/2027",
         "phase_detail": "Approved extension, building alterations and conversion into 2 flats, conversion of rear garden into 2 private gardens",
+        "intended_completion_date": "05/2027",
         "intended_commencement_date": "11/2026"
       }
     ],
@@ -128,13 +128,13 @@
       "residential_units": [
         {
           "no_habitable_rooms": 4,
+          "change_type": "Loss",
           "sheltered_accommodation": true,
           "no_bedrooms": 2,
           "unit_type": "Semi Detached Home",
           "provision_for_older_persons": false,
           "gia": 99.75,
-          "tenure": "Market for rent",
-          "change_type": "Loss"
+          "tenure": "Market for rent"
         },
         {
           "change_type": "Gain",
@@ -148,23 +148,23 @@
         },
         {
           "no_habitable_rooms": 3,
+          "provider": "Private",
+          "change_type": "Gain",
           "sheltered_accommodation": true,
           "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "provider": "Private",
           "gia": 66,
-          "tenure": "Market for rent",
-          "change_type": "Gain"
+          "tenure": "Market for rent"
         },
         {
           "no_habitable_rooms": 1,
+          "provider": "Private",
+          "change_type": "Gain",
           "sheltered_accommodation": true,
           "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
-          "provider": "Private",
           "gia": 45.3,
-          "tenure": "Market for rent",
-          "change_type": "Gain"
+          "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_affordable_rent": 0,
@@ -193,10 +193,10 @@
     "ownership_status": "Private",
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 24,
         "gia_existing": 99.75,
-        "gia_lost": 0,
-        "use_class": "C3"
+        "gia_gained": 24,
+        "use_class": "C3",
+        "gia_lost": 0
       }
     ]
   },
