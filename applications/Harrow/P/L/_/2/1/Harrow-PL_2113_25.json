@@ -1,11 +1,11 @@
 {
   "decision_target_date": "09/10/2025",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Portal",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Minor dwellings",
   "postcode": "HA2 8DH",
-  "title_number": null,
+  "title_number": [],
   "application_details": {
     "site_area": 0.028,
     "other_residential_accommodation_details": {
@@ -32,7 +32,7 @@
     ],
     "projected_cost_of_works": "Up to £2m",
     "occupation_status": "Occupied",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "rain_water_harvesting": false,
     "grey_water_reuse": false,
     "green_suds": false,
@@ -42,36 +42,37 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 40,
       "total_gia_lost": 0,
-      "total_gia_existing": 190
+      "total_gia_existing": 190,
+      "site_area": 0.028
     },
     "garden_land_lost": false,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_bedrooms": 3,
-      "total_no_proposed_residential_units": 1,
+      "total_no_proposed_bedrooms": 6,
+      "total_no_proposed_residential_units": 2,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_affordable_units": 0,
-      "total_no_existing_residential_units": 0,
+      "total_no_existing_residential_units": 1,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_shared_equity": 0,
-      "total_no_existing_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_units_market_for_sale": 1,
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "total_no_proposed_residential_units_market_for_sale": 1,
+      "total_no_proposed_residential_units_market_for_sale": 2,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 142.85714285714286,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 111,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 71.42857142857143,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
@@ -85,21 +86,58 @@
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
+          "description": null,
           "m42_compliant": true,
           "change_type": "Gain",
-          "garden_land": false,
           "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
           "no_habitable_rooms": 2,
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
+          "gia": 230,
+          "tenure": "Market for sale"
+        },
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "sheltered_accommodation": false,
+          "garden_land": false,
+          "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "gia": 230,
+          "tenure": "Market for sale"
+        },
+        {
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Loss",
+          "unit_type": "House or Bungalow",
+          "provision_for_older_persons": false,
+          "gia": 190,
           "tenure": "Market for sale",
-          "gia": 111
+          "unit_development_type": "Conversion"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.028,
+      "total_gia_lost": 0
     },
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
@@ -110,7 +148,7 @@
       "no_new_water_connections_required": 1,
       "no_non_resi_units_to_have_full_fibre": 1,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
@@ -119,7 +157,17 @@
       "ghg_reduction_over_building_regulations": false
     },
     "internal_resi_water_usage": 110,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "decision_date": "04/02/2026",
   "url_planning_app": "https://planningsearch.harrow.gov.uk//planning/index.html?fa=getApplication&id=231007",
@@ -135,25 +183,25 @@
   "status": "Lapsed",
   "description": "Conversion of existing house into 2 flats with single storey rear extension and roof extension to accommodate rear racing dormer",
   "decision_conditions": [
-    "The development hereby permitted shall be carried out in accordance with the following approved plans and documents:&amp;nbsp;Fire Strategy Report, SITE LOCATION PLAN, 01A, 02A, 03A, 04, 05.",
+    "The development hereby permitted shall be carried out in accordance with the following approved plans and documents: Fire Strategy Report, SITE LOCATION PLAN, 01A, 02A, 03A, 04, 05.",
     "The development hereby permitted shall be begun before the expiration of three years from the date of this permission.",
     "All planting, seeding or turfing comprised in the approved details of landscaping shall be carried out in the first planting and seeding seasons following the occupation of the building(s), or the completion of the development, whichever is the sooner.  Any existing or new trees or shrubs which, within a period of 5 years from the completion of the development, die, are removed, or become seriously damaged or diseased, shall be replaced in the next planting season, with others of a similar size and species, unless the local authority agrees any variation in writing.",
-    "The windows on the flank elevation to the ground floor bathroom and bedroom, and the first floor bathroom of the proposed development shall:\r\n(a) be of purpose-made obscure glass,\r\n(b) be permanently fixed closed below a height of 1.7m above finished floor level,\r\nand shall thereafter be retained in that form.",
+    "The windows on the flank elevation to the ground floor bathroom and bedroom, and the first floor bathroom of the proposed development shall:\n(a) be of purpose-made obscure glass,\n(b) be permanently fixed closed below a height of 1.7m above finished floor level,\nand shall thereafter be retained in that form.",
     "The materials to be used in the construction of the external surfaces of the extension hereby permitted shall match those used in the existing building.",
-    "&lt;p&gt;The development hereby approved shall not be occupied until a Car Parking Management Plan has been submitted to and approved in writing by the Local Planning Authority. The development shall be carried out in accordance with the plan approved and retained thereafter.&amp;nbsp;&lt;/p&gt;",
+    "The development hereby approved shall not be occupied until a Car Parking Management Plan has been submitted to and approved in writing by the Local Planning Authority. The development shall be carried out in accordance with the plan approved and retained thereafter. ",
     "The roof area of the single storey rear extension shall not be used as a balcony, roof garden or similar amenity area without the grant of further specific permission from the local planning authority.",
     "No site works or development shall commence until details of the levels of the building(s), road(s) and footpath(s) in relation to the adjoining land and highway(s), and any other changes proposed in the levels of the site, have been submitted to, and approved by, the local planning authority.",
-    "&lt;p&gt;Notwithstanding the approved plans, the development hereby by approved shall not be occupied until full details of boundary treatment including access gates, shall be submitted to and approved in writing by the Local Planning Authority. The development shall be carried out in accordance with the plan approved and retained thereafter.&lt;/p&gt;",
-    "&lt;p&gt;The rooflights of the existing single storey rear extension shall be of purpose-made obscure glass and shall be permanently fixed closed, and shall thereafter be retained in that form.&amp;nbsp;&lt;/p&gt;",
-    "&lt;p&gt;Notwithstanding the approved details, the development hereby permitted shall not be occupied until there has been a scheme of hard and soft landscape works for the site has been submitted to and approved by the Local Planning Authority. The details shall include the following:&lt;/p&gt;&lt;p&gt;a)&lt;span style=&quot;white-space:pre&quot;&gt;\t&lt;/span&gt;Soft landscape works shall include: planting plans (at a scale not less than 1:100), schedules of plants, noting species, plant sizes, plant container sizes (all at time of planting) and proposed numbers / densities.&lt;/p&gt;&lt;p&gt;b)&lt;span style=&quot;white-space:pre&quot;&gt;\t&lt;/span&gt;Hard landscape works shall include; details of boundary treatments (materials, scale of boundary, location) and details of hard surfacing materials to be used in the landscaping of the site.&lt;/p&gt;&lt;p&gt;c)&lt;span style=&quot;white-space:pre&quot;&gt;\t&lt;/span&gt;Written specification of planting and cultivation works to be undertaken.&lt;/p&gt;&lt;p&gt;d)&lt;span style=&quot;white-space:pre&quot;&gt;\t&lt;/span&gt;A landscape implementation programme with proposed timing / dates for the works.&lt;/p&gt;&lt;p&gt;The development shall be carried out in accordance with the plan approved and retained thereafter.&lt;/p&gt;",
-    "&lt;p&gt;Prior to the first occupation of the development hereby permitted details of authority the location of a secure and sheltered cycle store, including the dimensions and external finish of the store shall be submitted to and approved in writing by the Local Planning Authority. The cycle storage shall be made available prior to occupation of the development and shall be retained thereafter.&lt;/p&gt;",
-    "&lt;p&gt;Evidence of certification of Secure by Design Accreditation for the development shall be submitted to the Local Planning Authority in writing for approval before any part of the development is occupied or used. The development shall only be completed and operated in accordance with any approval.&amp;nbsp;&lt;/p&gt;",
-    "&lt;p&gt;Prior to commencement of the development, a Fire Safety Statement shall be submitted to be approved in writing and by the Local Planning Authority, this statement shall include details of how the development will function and in terms of the following:&amp;nbsp;&lt;/p&gt;&lt;p&gt;(a) identify suitably positioned unobstructed outside space:&amp;nbsp;&amp;nbsp;&lt;/p&gt;&lt;p&gt;i) for fire appliances to be positioned on&lt;/p&gt;&lt;p&gt;ii) appropriate for use as an evacuation assembly point&lt;/p&gt;&lt;p&gt;(b) is designed to incorporate appropriate features which reduce the risk to life and the risk of serious injury in the event of a fire; including appropriate fire alarm systems and passive and active fire safety measures&lt;/p&gt;&lt;p&gt;(c) is constructed in an appropriate way to minimise the risk of fire spread&lt;/p&gt;&lt;p&gt;(d) provide suitable and convenient means of escape, and associated evacuation strategy for all building users develop a robust management strategy for evacuation which is to be periodically updated and published (details of how often this management strategy is to be reviewed and published to be included), and which all building users can have confidence in.&lt;/p&gt;&lt;p&gt;(e)&amp;nbsp; provide suitable access and equipment for firefighting which is appropriate for the size and use of the development.&lt;/p&gt;&lt;p&gt;The development shall be operated in accordance with the approved details in perpetuity.&lt;/p&gt;",
-    "&lt;p&gt;Notwithstanding the provisions of the Town and Country Planning (General Permitted Development) (England) Order 2015 (or any order revoking and reenacting that order with or without modification), no development which would otherwise fall within Class L in Part 3 and of Schedule 2 to that Order shall be carried out without the prior written permission of the local planning authority.&amp;nbsp;&amp;nbsp;&lt;/p&gt;",
-    "&lt;p&gt;Notwithstanding the approved plans and prior to the first occupation of the development hereby permitted, full details of the external appearance of bin stores shall be submitted to and approved in writing by the local planning authority. The bin stores shall be made available prior to occupation and shall be retained thereafter. The refuse bins shall be stored at all times, other than on collection days, in the designated refuse storage area, as shown on the approved drawing.&amp;nbsp;&lt;/p&gt;"
+    "Notwithstanding the approved plans, the development hereby by approved shall not be occupied until full details of boundary treatment including access gates, shall be submitted to and approved in writing by the Local Planning Authority. The development shall be carried out in accordance with the plan approved and retained thereafter.",
+    "The rooflights of the existing single storey rear extension shall be of purpose-made obscure glass and shall be permanently fixed closed, and shall thereafter be retained in that form. ",
+    "Notwithstanding the approved details, the development hereby permitted shall not be occupied until there has been a scheme of hard and soft landscape works for the site has been submitted to and approved by the Local Planning Authority. The details shall include the following:a)\tSoft landscape works shall include: planting plans (at a scale not less than 1:100), schedules of plants, noting species, plant sizes, plant container sizes (all at time of planting) and proposed numbers / densities.b)\tHard landscape works shall include; details of boundary treatments (materials, scale of boundary, location) and details of hard surfacing materials to be used in the landscaping of the site.c)\tWritten specification of planting and cultivation works to be undertaken.d)\tA landscape implementation programme with proposed timing / dates for the works.The development shall be carried out in accordance with the plan approved and retained thereafter.",
+    "Prior to the first occupation of the development hereby permitted details of authority the location of a secure and sheltered cycle store, including the dimensions and external finish of the store shall be submitted to and approved in writing by the Local Planning Authority. The cycle storage shall be made available prior to occupation of the development and shall be retained thereafter.",
+    "Evidence of certification of Secure by Design Accreditation for the development shall be submitted to the Local Planning Authority in writing for approval before any part of the development is occupied or used. The development shall only be completed and operated in accordance with any approval. ",
+    "Prior to commencement of the development, a Fire Safety Statement shall be submitted to be approved in writing and by the Local Planning Authority, this statement shall include details of how the development will function and in terms of the following: (a) identify suitably positioned unobstructed outside space:  i) for fire appliances to be positioned onii) appropriate for use as an evacuation assembly point(b) is designed to incorporate appropriate features which reduce the risk to life and the risk of serious injury in the event of a fire; including appropriate fire alarm systems and passive and active fire safety measures(c) is constructed in an appropriate way to minimise the risk of fire spread(d) provide suitable and convenient means of escape, and associated evacuation strategy for all building users develop a robust management strategy for evacuation which is to be periodically updated and published (details of how often this management strategy is to be reviewed and published to be included), and which all building users can have confidence in.(e)  provide suitable access and equipment for firefighting which is appropriate for the size and use of the development.The development shall be operated in accordance with the approved details in perpetuity.",
+    "Notwithstanding the provisions of the Town and Country Planning (General Permitted Development) (England) Order 2015 (or any order revoking and reenacting that order with or without modification), no development which would otherwise fall within Class L in Part 3 and of Schedule 2 to that Order shall be carried out without the prior written permission of the local planning authority.  ",
+    "Notwithstanding the approved plans and prior to the first occupation of the development hereby permitted, full details of the external appearance of bin stores shall be submitted to and approved in writing by the local planning authority. The bin stores shall be made available prior to occupation and shall be retained thereafter. The refuse bins shall be stored at all times, other than on collection days, in the designated refuse storage area, as shown on the approved drawing. "
   ],
-  "site_number": 60,
-  "last_updated": "2026-06-27T19:08:33.035Z",
+  "site_number": "60",
+  "last_updated": "2026-09-14T09:11:41.667Z",
   "last_date_consultation_comments": "10/09/2025",
   "valid_date": "14/08/2025",
   "actual_commencement_date": null,
@@ -171,90 +219,88 @@
         "coordinates": [
           [
             [
-              [
-                513878.78,
-                186440.991
-              ],
-              [
-                513878.9,
-                186440.65
-              ],
-              [
-                513884.356,
-                186425.015
-              ],
-              [
-                513884.898,
-                186423.461
-              ],
-              [
-                513887.082,
-                186417.202
-              ],
-              [
-                513887.85,
-                186415
-              ],
-              [
-                513889.5,
-                186410.35
-              ],
-              [
-                513890.025,
-                186408.728
-              ],
-              [
-                513891.7,
-                186403.55
-              ],
-              [
-                513902,
-                186404.05
-              ],
-              [
-                513902.175,
-                186404.089
-              ],
-              [
-                513893.941,
-                186427.825
-              ],
-              [
-                513892.838,
-                186431.005
-              ],
-              [
-                513889.62,
-                186440.28
-              ],
-              [
-                513887.15,
-                186447.4
-              ],
-              [
-                513885.46,
-                186452.28
-              ],
-              [
-                513885.336,
-                186452.638
-              ],
-              [
-                513878.235,
-                186450.148
-              ],
-              [
-                513875.861,
-                186449.315
-              ],
-              [
-                513878.78,
-                186440.991
-              ]
+              513878.78,
+              186440.991
+            ],
+            [
+              513878.9,
+              186440.65
+            ],
+            [
+              513884.356,
+              186425.015
+            ],
+            [
+              513884.898,
+              186423.461
+            ],
+            [
+              513887.082,
+              186417.202
+            ],
+            [
+              513887.85,
+              186415
+            ],
+            [
+              513889.5,
+              186410.35
+            ],
+            [
+              513890.025,
+              186408.728
+            ],
+            [
+              513891.7,
+              186403.55
+            ],
+            [
+              513902,
+              186404.05
+            ],
+            [
+              513902.175,
+              186404.089
+            ],
+            [
+              513893.941,
+              186427.825
+            ],
+            [
+              513892.838,
+              186431.005
+            ],
+            [
+              513889.62,
+              186440.28
+            ],
+            [
+              513887.15,
+              186447.4
+            ],
+            [
+              513885.46,
+              186452.28
+            ],
+            [
+              513885.336,
+              186452.638
+            ],
+            [
+              513878.235,
+              186450.148
+            ],
+            [
+              513875.861,
+              186449.315
+            ],
+            [
+              513878.78,
+              186440.991
             ]
           ]
         ],
-        "type": "MultiPolygon"
+        "type": "Polygon"
       }
     ],
     "crs": {
@@ -271,97 +317,95 @@
   "secondary_street_name": null,
   "lpa_name": "Harrow",
   "reference_no_of_permission_being_relied_on": null,
-  "cil_liability": true,
+  "cil_liability": false,
   "wgs84_polygon": {
-    "type": "MultiPolygon",
+    "type": "Polygon",
     "coordinates": [
       [
         [
-          [
-            -0.358437,
-            51.565356
-          ],
-          [
-            -0.358436,
-            51.565353
-          ],
-          [
-            -0.358362,
-            51.565211
-          ],
-          [
-            -0.358355,
-            51.565197
-          ],
-          [
-            -0.358325,
-            51.56514
-          ],
-          [
-            -0.358315,
-            51.56512
-          ],
-          [
-            -0.358293,
-            51.565078
-          ],
-          [
-            -0.358286,
-            51.565063
-          ],
-          [
-            -0.358263,
-            51.565017
-          ],
-          [
-            -0.358115,
-            51.565019
-          ],
-          [
-            -0.358112,
-            51.565019
-          ],
-          [
-            -0.358223,
-            51.565234
-          ],
-          [
-            -0.358238,
-            51.565263
-          ],
-          [
-            -0.358281,
-            51.565347
-          ],
-          [
-            -0.358315,
-            51.565412
-          ],
-          [
-            -0.358337,
-            51.565456
-          ],
-          [
-            -0.358339,
-            51.565459
-          ],
-          [
-            -0.358442,
-            51.565438
-          ],
-          [
-            -0.358477,
-            51.565431
-          ],
-          [
-            -0.358437,
-            51.565356
-          ]
+          -0.358437,
+          51.565356
+        ],
+        [
+          -0.358436,
+          51.565353
+        ],
+        [
+          -0.358362,
+          51.565211
+        ],
+        [
+          -0.358355,
+          51.565197
+        ],
+        [
+          -0.358325,
+          51.56514
+        ],
+        [
+          -0.358315,
+          51.56512
+        ],
+        [
+          -0.358293,
+          51.565078
+        ],
+        [
+          -0.358286,
+          51.565063
+        ],
+        [
+          -0.358263,
+          51.565017
+        ],
+        [
+          -0.358115,
+          51.565019
+        ],
+        [
+          -0.358112,
+          51.565019
+        ],
+        [
+          -0.358223,
+          51.565234
+        ],
+        [
+          -0.358238,
+          51.565263
+        ],
+        [
+          -0.358281,
+          51.565347
+        ],
+        [
+          -0.358315,
+          51.565412
+        ],
+        [
+          -0.358337,
+          51.565456
+        ],
+        [
+          -0.358339,
+          51.565459
+        ],
+        [
+          -0.358442,
+          51.565438
+        ],
+        [
+          -0.358477,
+          51.565431
+        ],
+        [
+          -0.358437,
+          51.565356
         ]
       ]
     ]
   },
-  "uprn": 100021262232,
+  "uprn": "100021262232",
   "application_type": "All Other",
   "centroid": {
     "lat": 51.56511,
