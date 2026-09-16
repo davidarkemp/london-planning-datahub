@@ -1,16 +1,44 @@
 {
   "decision": "Approved",
   "last_date_consultation_comments": "30/03/2026",
-  "wgs84_polygon": null,
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.251151,
+          51.545097
+        ],
+        [
+          -0.251152,
+          51.54507
+        ],
+        [
+          -0.251196,
+          51.545071
+        ],
+        [
+          -0.251194,
+          51.545098
+        ],
+        [
+          -0.251151,
+          51.545097
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "date_building_work_started_under_previous_permission": null,
   "ward": "Roundwood",
   "site_number": null,
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "appeal_status": null,
   "application_type_full": "Full planning permission",
   "borough": "Brent",
   "lpa_name": "Brent",
-  "postcode": null,
+  "postcode": "",
   "appeal_start_date": null,
   "appeal_decision_date": null,
   "status": "Approved",
@@ -23,14 +51,14 @@
   "application_details": {
     "surface_water_discharge_percentage_reduction": 88,
     "site_area": 0.0184,
-    "existing_uprns": null,
+    "existing_uprns": [],
     "projected_cost_of_works": "Up to £2m",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "garden_land_lost": false,
     "infrastructure_details": {
       "fire_suppression_system_proposed": false,
       "green_roof_area": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "ghg_reduction_over_building_regulations": false,
       "no_homes_to_have_electrical_heating": 0,
@@ -50,7 +78,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_lost": 0,
       "total_gia_gained": 45,
-      "total_gia_existing": 132
+      "total_gia_existing": 132,
+      "site_area": 0.0184
     },
     "existing_proposed_floorspace_details": [
       {
@@ -77,7 +106,7 @@
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
-      "total_no_proposed_residential_units": 1,
+      "total_no_proposed_residential_units": 2,
       "affordable_percentage": 0,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
@@ -89,29 +118,59 @@
         {
           "no_habitable_rooms": 1,
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
+          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
           "gia": 65,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "unit_development_type": "Conversion"
+        },
+        {
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Loss",
+          "no_bedrooms": 2,
+          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": null,
+          "unit_development_type": "Conversion"
+        },
+        {
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Gain",
+          "no_bedrooms": 1,
+          "unit_type": "Studio Bedsit",
+          "provision_for_older_persons": false,
+          "gia": 43.4,
+          "tenure": "Market for rent",
+          "unit_development_type": "Conversion"
         }
       ],
       "total_no_existing_residential_units_london_shared_ownership": 0,
-      "total_no_proposed_residential_units_market_for_rent": 1,
+      "total_no_proposed_residential_units_market_for_rent": 2,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "total_no_proposed_bedrooms": 1,
+      "total_no_proposed_bedrooms": 2,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 108.69565217391305,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_shared_equity": 0,
-      "total_no_existing_residential_units": 0,
+      "total_no_existing_residential_units": 1,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_gia_gained": 65,
@@ -119,12 +178,25 @@
       "total_no_existing_residential_affordable_units": 0,
       "total_gia_lost": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 54.34782608695652,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
-      "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_starter_homes": 0
+      "total_no_existing_residential_units_market_for_rent": 1,
+      "total_no_existing_residential_units_starter_homes": 0,
+      "site_area": 0.0184
     },
-    "rain_water_harvesting": false
+    "rain_water_harvesting": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.0184
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "development_type": "Other change of use",
   "centroid_easting": 521367,
@@ -135,9 +207,9 @@
   "decision_process": "Delegated",
   "lapsed_date": "02/04/2029",
   "uprn": "202228369",
-  "bo_system": "CSV Data Import",
-  "cil_liability": true,
-  "street_name": null,
+  "bo_system": "Portal",
+  "cil_liability": false,
+  "street_name": "",
   "locality": null,
   "application_type": "All Other",
   "epc_number": null,
@@ -145,14 +217,14 @@
   "reference_no_of_permission_being_relied_on": null,
   "secondary_street_name": null,
   "centroid_northing": 184359,
-  "last_updated": "2026-04-03T08:01:37.027Z",
+  "last_updated": "2026-09-15T15:03:03.189Z",
   "centroid": {
     "lon": -0.251173,
     "lat": 51.545084
   },
   "subdivision_of_building": "TOP FLOOR MAISONETTE FLAT AT FIRST AND SECOND FLOOR TO BE IMPACTED BY CARRYING ROOF EXTENSION AS PART OF LOFT CONVERSION WITH INTERNAL RENOVATION TO CREATE LOFT AS A STUDIO FLAT AND FIRST FLOOR AS A SELF CONTAINED UNIT",
-  "last_updated_by": "CSV Data Import",
-  "title_number": null,
+  "last_updated_by": "Portal",
+  "title_number": [],
   "appeal_decision": null,
   "date_building_work_completed_under_previous_permission": null,
   "id": "Brent-26_0172",

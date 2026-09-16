@@ -6,10 +6,10 @@
   "appeal_decision": null,
   "lapsed_date": "07/05/2029",
   "appeal_decision_date": null,
-  "last_updated_by": "PP overwrite repair",
+  "last_updated_by": "Portal",
   "reference_no_of_permission_being_relied_on": "25/2789",
   "epc_number": "0998-0220-2809-5415-2100",
-  "last_updated": "2026-07-16T18:45:57.580Z",
+  "last_updated": "2026-09-15T15:33:45.439Z",
   "url_planning_app": "https://pa.brent.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR_176811&activeTab=summary",
   "street_name": "Chalkhill Road",
   "parking_details": {
@@ -21,9 +21,9 @@
     "no_proposed_cycle": 20
   },
   "ward": "Barnhill",
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "site_name": "Rila Lodge, 7 Chalkhill Road, Wembley, HA9 9HY",
-  "site_number": 7,
+  "site_number": "7",
   "application_details": {
     "total_gia_existing": 906,
     "existing_uprns": null,
@@ -37,8 +37,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 906,
-        "use_class": "C3",
         "gia_gained": 204.7,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -47,14 +47,14 @@
       "no_homes_to_have_electrical_heating": 2,
       "total_annual_pm_emissions": 0,
       "no_new_water_connections_required": 5,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_new_gas_connections_required": 5,
       "no_non_resi_units_to_have_full_fibre": 5,
       "no_resi_units_to_have_full_fibre": 5,
       "percentage_demolition_construction_material_recycling": 0,
       "green_roof_area": 0,
       "mobile_network_operators_consultation": false,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "fire_suppression_system_proposed": false,
       "total_annual_nox_emissions": 0,
       "urban_greening_factor_score": 0
@@ -102,47 +102,67 @@
         {
           "no_habitable_rooms": 2,
           "provider": "Private rented sector",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "tenure": "Market for rent",
-          "gia": 47
+          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
+          "gia": 47,
+          "tenure": "Market for rent"
         },
         {
           "no_habitable_rooms": 2,
           "provider": "Private rented sector",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "tenure": "Market for rent",
-          "gia": 41.7
+          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
+          "gia": 41.7,
+          "tenure": "Market for rent"
         },
         {
           "no_habitable_rooms": 2,
           "provider": "Private rented sector",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "tenure": "Market for rent",
-          "gia": 38
+          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
+          "gia": 38,
+          "tenure": "Market for rent"
         },
         {
           "no_habitable_rooms": 2,
           "provider": "Private rented sector",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "tenure": "Market for rent",
-          "gia": 39
+          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
+          "gia": 39,
+          "tenure": "Market for rent"
         },
         {
           "no_habitable_rooms": 2,
           "provider": "Private rented sector",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 1,
-          "tenure": "Market for rent",
-          "gia": 39
+          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
+          "gia": 39,
+          "tenure": "Market for rent"
         }
       ]
     },
@@ -155,9 +175,10 @@
     },
     "total_gia_lost": 0,
     "intended_commencement_date": "06/2026",
-    "intended_completion_date": "09/2026"
+    "intended_completion_date": "09/2026",
+    "resi_extension_exempt": false
   },
-  "uprn": 202197031,
+  "uprn": "202197031",
   "locality": "Wembley",
   "date_building_work_started_under_previous_permission": null,
   "postcode": "HA9 9HY",
@@ -172,7 +193,9 @@
   "application_type_full": "Prior Approval: New dwellinghouses on detached blocks of flats",
   "pp_id": "PP-14773384",
   "lpa_app_no": "26/0649",
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "id": "Brent-26_0649",
   "appeal_status": null,
   "appeal_start_date": null,

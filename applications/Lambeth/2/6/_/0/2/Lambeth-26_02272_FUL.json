@@ -11,12 +11,8 @@
   "date_building_work_completed_under_previous_permission": null,
   "cil_liability": false,
   "pp_id": "PP-15127411",
-  "last_updated": "2026-09-15T01:06:49.078Z",
-  "parking_details": {
-    "net_cycle": 5,
-    "no_existing_cycle": 0,
-    "no_proposed_cycle": 5
-  },
+  "last_updated": "2026-09-15T20:01:39.420Z",
+  "parking_details": null,
   "lapsed_date": null,
   "title_number": [],
   "locality": null,
@@ -68,14 +64,13 @@
   "decision_agency": null,
   "decision_process": null,
   "street_name": "Brixton Road",
-  "subdivision_of_building": "First and second floors only. New mansard level would be created following development. ",
+  "subdivision_of_building": null,
   "epc_number": null,
   "site_number": "260",
   "reference_no_of_permission_being_relied_on": null,
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -99,14 +94,15 @@
               176363
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"
   },
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "borough": "Lambeth",
   "application_details": {
     "projected_cost_of_works": "Up to £2m",
@@ -127,14 +123,14 @@
     "building_details": [
       {
         "no_storeys": 4,
-        "building_ref": "Application property with mansard level added",
-        "max_height": 14.8
+        "max_height": 14.8,
+        "building_ref": "Application property with mansard level added"
       }
     ],
     "phasing_details": [
       {
-        "intended_completion_date": "12/2026",
         "phase_detail": "Entire Development",
+        "intended_completion_date": "12/2026",
         "intended_commencement_date": "09/2026"
       }
     ],
@@ -179,31 +175,31 @@
       "residential_units": [
         {
           "no_habitable_rooms": 4,
+          "change_type": "Loss",
           "sheltered_accommodation": false,
           "no_bedrooms": 4,
           "unit_type": "HMO",
           "provision_for_older_persons": false,
           "gia": 95.67,
-          "tenure": "Market for rent",
-          "change_type": "Loss"
+          "tenure": "Market for rent"
         },
         {
           "no_habitable_rooms": 2,
+          "provider": "Private",
+          "change_type": "Gain",
           "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
           "gia": 48,
-          "provider": "Private",
-          "tenure": "Market for rent",
-          "change_type": "Gain"
+          "tenure": "Market for rent"
         },
         {
           "no_habitable_rooms": 2,
+          "provider": "Private",
+          "change_type": "Gain",
           "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
           "gia": 37,
-          "provider": "Private",
-          "tenure": "Market for rent",
-          "change_type": "Gain"
+          "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_affordable_rent": 0,
@@ -232,16 +228,16 @@
     "ownership_status": "Private",
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 41.58,
         "gia_existing": 166.32,
-        "gia_lost": 95.67,
-        "use_class": "C4"
+        "gia_gained": 41.58,
+        "use_class": "C4",
+        "gia_lost": 95.67
       },
       {
-        "gia_gained": 85,
         "gia_existing": 0,
-        "gia_lost": 0,
-        "use_class": "C3"
+        "gia_gained": 85,
+        "use_class": "C3",
+        "gia_lost": 0
       }
     ]
   },
