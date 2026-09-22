@@ -27,13 +27,13 @@
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "residential_units": [
         {
-          "tenure": "Market for rent",
+          "no_habitable_rooms": 1,
+          "provider": "Private rented sector",
           "change_type": "Gain",
           "no_bedrooms": 1,
-          "provider": "Private rented sector",
-          "gia": 49.5,
           "unit_type": "Studio Bedsit",
-          "no_habitable_rooms": 1
+          "tenure": "Market for rent",
+          "gia": 49.5
         }
       ],
       "total_no_existing_residential_units_shared_equity": 0,
@@ -98,10 +98,10 @@
     ],
     "existing_proposed_floorspace_details": [
       {
-        "gia_lost": 0,
         "gia_existing": 95,
+        "gia_gained": 5,
         "use_class": "EB",
-        "gia_gained": 5
+        "gia_lost": 0
       }
     ],
     "ownership_status": "Private",
@@ -110,10 +110,10 @@
     "green_suds": false
   },
   "lpa_app_no": "P/2026/01962/FUL",
-  "last_updated": "2026-09-11T01:05:24.105Z",
+  "last_updated": "2026-09-21T09:20:00.298Z",
   "decision": null,
   "secondary_street_name": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Northgate M3",
   "decision_conditions": null,
   "cil_liability": false,
   "development_type": "Minor dwellings",
@@ -129,7 +129,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -153,7 +152,8 @@
               177746.02651084482
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },

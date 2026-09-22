@@ -9,9 +9,9 @@
   "decision_conditions": null,
   "lpa_name": "Sutton",
   "date_building_work_completed_under_previous_permission": null,
-  "cil_liability": null,
+  "cil_liability": false,
   "pp_id": "PP-15208862",
-  "last_updated": "2026-09-15T20:04:33.494Z",
+  "last_updated": "2026-09-21T20:04:21.567Z",
   "parking_details": null,
   "lapsed_date": null,
   "title_number": null,
@@ -87,7 +87,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -127,7 +126,8 @@
               164175.4
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"
@@ -144,8 +144,8 @@
     "internal_resi_water_usage": 0,
     "phasing_details": [
       {
-        "intended_completion_date": "12/2026",
         "phase_detail": "Entire Development",
+        "intended_completion_date": "12/2026",
         "intended_commencement_date": "11/2026"
       }
     ],
@@ -168,10 +168,10 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
         "gia_existing": 475,
-        "gia_lost": 0,
-        "use_class": "Other"
+        "gia_gained": 0,
+        "use_class": "Other",
+        "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",

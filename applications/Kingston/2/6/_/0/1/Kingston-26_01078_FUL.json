@@ -11,13 +11,13 @@
   "date_building_work_completed_under_previous_permission": null,
   "cil_liability": true,
   "pp_id": "PP-14942232",
-  "last_updated": "2026-09-16T17:02:12.462Z",
+  "last_updated": "2026-09-21T17:02:08.675Z",
   "parking_details": null,
   "lapsed_date": null,
   "title_number": null,
   "locality": null,
   "url_planning_app": "https://publicaccess.kingston.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFDKDTNHGXM00",
-  "last_date_consultation_comments": null,
+  "last_date_consultation_comments": "12/10/2026",
   "wgs84_polygon": {
     "type": "Polygon",
     "coordinates": [
@@ -199,7 +199,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -351,7 +350,8 @@
               164868.15
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"
@@ -367,8 +367,8 @@
     "internal_resi_water_usage": 110,
     "phasing_details": [
       {
-        "intended_completion_date": "12/2026",
         "phase_detail": "Entire Development",
+        "intended_completion_date": "12/2026",
         "intended_commencement_date": "06/2026"
       }
     ],
@@ -391,28 +391,28 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
         "gia_existing": 140,
-        "gia_lost": 70,
-        "use_class": "SG"
-      },
-      {
-        "gia_gained": 150,
-        "gia_existing": 0,
-        "gia_lost": 0,
-        "use_class": "Other"
-      },
-      {
         "gia_gained": 0,
-        "gia_existing": 150,
-        "gia_lost": 150,
-        "use_class": "Other"
+        "use_class": "SG",
+        "gia_lost": 70
       },
       {
-        "gia_gained": 200,
         "gia_existing": 0,
-        "gia_lost": 0,
-        "use_class": "C3"
+        "gia_gained": 150,
+        "use_class": "Other",
+        "gia_lost": 0
+      },
+      {
+        "gia_existing": 150,
+        "gia_gained": 0,
+        "use_class": "Other",
+        "gia_lost": 150
+      },
+      {
+        "gia_existing": 0,
+        "gia_gained": 200,
+        "use_class": "C3",
+        "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
@@ -486,8 +486,8 @@
     "building_details": [
       {
         "no_storeys": null,
-        "building_ref": "1",
-        "max_height": 7.5
+        "max_height": 7.5,
+        "building_ref": "1"
       }
     ],
     "infrastructure_details": {
@@ -539,47 +539,47 @@
       "residential_units": [
         {
           "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Gain",
           "unit_type": "Communal Space",
           "provision_for_older_persons": false,
-          "gia": 68,
-          "unit_no": null,
-          "description": null,
-          "change_type": "Gain"
+          "gia": 68
         },
         {
-          "sheltered_accommodation": false,
-          "no_habitable_rooms": 2,
-          "phase_detail": null,
-          "m43_2a_compliant": false,
-          "gia": 56.5,
           "m43_2b_compliant": false,
-          "no_bedrooms": 1,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "sheltered_accommodation": false,
           "garden_land": false,
           "unit_type": "Flat Apartment Maisonette",
-          "m42_compliant": false,
+          "no_habitable_rooms": 2,
           "provider": "Private",
-          "description": null,
+          "phase_detail": null,
           "unit_no": null,
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "change_type": "Gain",
+          "gia": 56.5,
           "tenure": "Market for rent"
         },
         {
-          "sheltered_accommodation": false,
-          "no_habitable_rooms": 2,
-          "phase_detail": null,
-          "m43_2a_compliant": false,
-          "gia": 56.5,
           "m43_2b_compliant": false,
-          "no_bedrooms": 1,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "sheltered_accommodation": false,
           "garden_land": false,
           "unit_type": "Flat Apartment Maisonette",
-          "m42_compliant": false,
+          "no_habitable_rooms": 2,
           "provider": "Private",
-          "description": null,
+          "phase_detail": null,
           "unit_no": null,
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "change_type": "Gain",
+          "gia": 56.5,
           "tenure": "Market for rent"
         }
       ],

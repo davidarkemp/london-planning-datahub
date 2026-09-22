@@ -9,9 +9,9 @@
   "decision_conditions": null,
   "lpa_name": "Sutton",
   "date_building_work_completed_under_previous_permission": null,
-  "cil_liability": null,
+  "cil_liability": false,
   "pp_id": "PP-15197839",
-  "last_updated": "2026-09-16T20:03:25.571Z",
+  "last_updated": "2026-09-21T20:04:20.516Z",
   "parking_details": null,
   "lapsed_date": null,
   "title_number": null,
@@ -115,7 +115,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -183,7 +182,8 @@
               165621.046106501
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"
@@ -200,8 +200,8 @@
     "scheme_name": "Beddington lane - Vehicle Storage.",
     "phasing_details": [
       {
-        "intended_completion_date": "12/2026",
         "phase_detail": "Phase 1 (all development)",
+        "intended_completion_date": "12/2026",
         "intended_commencement_date": "12/2026"
       }
     ],
@@ -224,16 +224,16 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
         "gia_existing": 0,
-        "gia_lost": 0,
-        "use_class": "Other"
+        "gia_gained": 0,
+        "use_class": "Other",
+        "gia_lost": 0
       },
       {
-        "gia_gained": 475,
         "gia_existing": 0,
-        "gia_lost": 0,
-        "use_class": "B8"
+        "gia_gained": 475,
+        "use_class": "B8",
+        "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
@@ -354,14 +354,14 @@
       "total_annual_nox_emissions": 0,
       "waste_details": [
         {
-          "reason_for_no_provision": "N/A - no units proposed ",
-          "external_residual_waste": false,
-          "internal_residual_waste": false,
           "external_dry_recycling": false,
-          "internal_food_waste": false,
-          "internal_dry_recycling": false,
+          "external_food_waste": false,
           "unit_reference": "N/A - Residential",
-          "external_food_waste": false
+          "external_residual_waste": false,
+          "reason_for_no_provision": "N/A - no units proposed ",
+          "internal_residual_waste": false,
+          "internal_food_waste": false,
+          "internal_dry_recycling": false
         }
       ],
       "total_annual_pm_emissions": 0,
