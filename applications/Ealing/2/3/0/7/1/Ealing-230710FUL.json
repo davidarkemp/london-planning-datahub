@@ -7,15 +7,15 @@
   "decision_target_date": "16/04/2023",
   "lapsed_date": "17/10/2026",
   "appeal_start_date": null,
-  "last_updated": "2026-09-13T04:03:07.364Z",
+  "last_updated": "2026-09-23T16:24:47.213Z",
   "locality": null,
   "development_type": null,
-  "postcode": null,
+  "postcode": "",
   "ward": "EALCOM",
   "id": "Ealing-230710FUL",
   "uprn": "000012181025",
   "decision": "Approved",
-  "site_name": "Land R/o\r23 Kenilworth Road\rEaling\rW5 5PA\r",
+  "site_name": "Land R/o\n23 Kenilworth Road\nEaling\nW5 5PA\n",
   "last_date_consultation_comments": "16/03/2023",
   "wgs84_polygon": {
     "coordinates": [
@@ -88,8 +88,10 @@
     ],
     "type": "Polygon"
   },
-  "actual_completion_date": null,
-  "polygon": null,
+  "actual_completion_date": "15/06/2026",
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "date_building_work_started_under_previous_permission": null,
   "application_type_full": "Full planning & demolition in a conservation area",
   "title_number": [],
@@ -97,12 +99,12 @@
   "lpa_name": "Ealing",
   "decision_process": null,
   "secondary_street_name": null,
-  "street_name": null,
+  "street_name": "",
   "reference_no_of_permission_being_relied_on": null,
   "application_details": {
     "projected_cost_of_works": "Up to £2m",
     "total_gia_existing": 17,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "total_gia_gained": 55.4,
     "site_area": 0.0281,
     "rain_water_harvesting": false,
@@ -111,12 +113,13 @@
       "total_gia_gained": 55.4,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 55.4,
       "total_gia_existing": 17,
-      "total_gia_lost": 17
+      "total_gia_lost": 17,
+      "site_area": 0.0281
     },
     "existing_uprns": [
       "000012091047, 000012120449, 000012120450, 000012126322, 000012149717, 000012181024, 000012181025, 000012181026"
     ],
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "infrastructure_details": {
       "solar_pv_capacity": 0.1,
       "percentage_demolition_construction_material_recycling": 75,
@@ -124,7 +127,7 @@
       "mobile_network_operators_consultation": false,
       "no_new_water_connections_required": 1,
       "total_annual_nox_emissions": 0.74,
-      "ghg_reduction_over_building_regulations": true,
+      "ghg_reduction_over_building_regulations": false,
       "no_homes_passive_cooling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "no_new_gas_connections_required": 1,
@@ -133,7 +136,7 @@
       "fire_suppression_system_proposed": false,
       "no_resi_units_to_have_full_fibre": 1,
       "green_roof_area": 0,
-      "waste_provision": true
+      "waste_provision": false
     },
     "ownership_status": "Private",
     "building_details": [
@@ -156,8 +159,10 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 17,
+        "actual_completion_date": "15/06/2026",
         "gia_gained": 55.4,
         "use_class": "SG",
+        "actual_commencement_date": "19/12/2025",
         "gia_lost": 17
       }
     ],
@@ -179,7 +184,7 @@
       "total_no_proposed_residential_units_market_for_rent": 1,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 35.587188612099645,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_proposed_bedrooms": 1,
@@ -189,7 +194,7 @@
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 71.17437722419929,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units": 1,
@@ -203,34 +208,51 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 2,
-          "provider": "Private",
+          "actual_completion_date": "15/06/2026",
+          "description": null,
           "change_type": "Gain",
           "garden_land": true,
-          "no_bedrooms": 1,
           "unit_type": "Studio Bedsit",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "19/12/2025",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
           "gia": 55.4,
           "tenure": "Market for rent"
         }
-      ]
+      ],
+      "site_area": 0.0281
     },
-    "green_suds": true,
-    "affordable_housing_fast_track": false
+    "green_suds": false,
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.0281
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "valid_date": "20/02/2023",
   "parking_details": null,
-  "actual_commencement_date": null,
+  "actual_commencement_date": "19/12/2025",
   "centroid_northing": null,
   "application_type": "All Other",
   "decision_conditions": [
     "Standard Cond - Expiration Three Years",
     "Standard Cond - Materials",
-    "",
     "Tree Monitoring Program",
     "Trees",
     "Sustainable Drainage Strategy",
     "Bicycle storage",
-    "",
     "Refuse storage",
     "Landscaping and boundary treatment detai",
     "Restrict PD rights",
@@ -238,19 +260,19 @@
   ],
   "url_planning_app": null,
   "pp_id": "PP-11947451",
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "centroid_easting": null,
   "borough": "London Borough of Ealing",
   "epc_number": null,
   "lpa_app_no": "230710FUL",
   "decision_agency": null,
   "date_building_work_completed_under_previous_permission": null,
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "subdivision_of_building": null,
   "description": "Construction of a two-storey dwellinghouse containing one self-contained residential unit; provision of associated cycle/refuse storage facilities and amenity space (following demolition of existing garage)",
   "appeal_decision": null,
   "appeal_decision_date": null,
-  "status": "Approved",
+  "status": "Completed",
   "decision_date": "17/10/2023",
-  "cil_liability": true
+  "cil_liability": false
 }
