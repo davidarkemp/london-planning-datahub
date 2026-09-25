@@ -31,16 +31,16 @@
   "site_name": "",
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": null,
-  "last_updated": "2026-07-18T04:00:58.395Z",
+  "last_updated": "2026-09-24T12:34:46.186Z",
   "locality": null,
-  "centroid_easting": "514744",
+  "centroid_easting": 514744,
   "lpa_name": "Ealing",
   "date_building_work_completed_under_previous_permission": null,
   "street_name": "Wedmore Road",
   "site_number": "17",
   "lapsed_date": "04/07/2026",
   "secondary_street_name": null,
-  "cil_liability": true,
+  "cil_liability": false,
   "application_details": {
     "existing_uprns": [
       "12051189"
@@ -49,8 +49,10 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 186.13,
-        "use_class": "C3",
+        "actual_completion_date": "15/11/2023",
         "gia_gained": 6.12,
+        "use_class": "C3",
+        "actual_commencement_date": "09/05/2023",
         "gia_lost": 2.4
       }
     ],
@@ -74,15 +76,15 @@
     "phasing_details": [
       {
         "phase_detail": "All",
-        "intended_completion_date": "12/2023",
-        "intended_commencement_date": "09/2023"
+        "intended_commencement_date": "09/2023",
+        "intended_completion_date": "12/2023"
       }
     ],
     "infrastructure_details": {
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
       "total_annual_pm_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_new_water_connections_required": 0,
       "no_new_gas_connections_required": 0,
       "green_roof_area": 0,
@@ -97,7 +99,7 @@
     "internal_resi_water_usage": 0,
     "ownership_status": "Private",
     "total_gia_lost": 2.4,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "s106_agreement": false,
     "viability_assessment": false,
     "air_quality_assessment": false,
@@ -152,32 +154,44 @@
         {
           "actual_completion_date": "09/05/2023",
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
           "actual_commencement_date": "09/05/2023",
           "unit_type": "House or Bungalow",
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": null
         },
         {
           "actual_completion_date": "15/11/2023",
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "actual_commencement_date": "09/05/2023",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": null
         },
         {
           "actual_completion_date": "15/11/2023",
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "actual_commencement_date": "09/05/2023",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": null
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -195,7 +209,7 @@
   "postcode": "UB6 8SB",
   "pp_id": "PP-12138204",
   "appeal_decision_date": null,
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "decision_conditions": [
     "Balconies for Flat Roofs",
     "Cycle Store - Compliance",
@@ -209,15 +223,17 @@
   "appeal_decision": null,
   "valid_date": "12/05/2023",
   "decision_agency": null,
-  "polygon": null,
-  "last_updated_by": "Idox Uniform",
+  "polygon": {
+    "type": "geometrycollection"
+  },
+  "last_updated_by": "Portal",
   "date_building_work_started_under_previous_permission": null,
   "last_date_consultation_comments": "26/05/2023",
   "uprn": "000012051189",
   "decision_target_date": "06/07/2023",
-  "centroid_northing": "182490",
+  "centroid_northing": 182490,
   "application_type": "All Other",
-  "actual_completion_date": null,
+  "actual_completion_date": "15/11/2023",
   "title_number": [],
   "appeal_status": null,
   "description": "Conversion of a single dwellinghouse into two self-contained residential units; single storey rear extension; first floor rear extension; conversion of garage into a habitable space; rear roof extension; installation of two rooflights to front roofslope; associated internal and external alterations; and provision of cycle and refuse storage",
@@ -227,7 +243,7 @@
   "lpa_app_no": "231786FUL",
   "application_type_full": "Full planning permission",
   "id": "Ealing-231786FUL",
-  "status": "Commenced",
+  "status": "Completed",
   "appeal_start_date": null,
   "decision": "Approved"
 }
