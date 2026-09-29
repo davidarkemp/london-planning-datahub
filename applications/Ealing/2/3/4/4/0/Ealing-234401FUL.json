@@ -2,7 +2,7 @@
   "development_type": null,
   "appeal_decision": null,
   "decision_agency": null,
-  "postcode": null,
+  "postcode": "",
   "borough": "London Borough of Ealing",
   "wgs84_polygon": {
     "coordinates": [
@@ -55,10 +55,10 @@
     ],
     "type": "Polygon"
   },
-  "site_name": "80 Darwin Road\rEaling\rW5 4BH\r",
+  "site_name": "80 Darwin Road\nEaling\nW5 4BH\n",
   "centroid_easting": null,
   "pp_id": "PP-12577268",
-  "cil_liability": true,
+  "cil_liability": false,
   "reference_no_of_permission_being_relied_on": null,
   "date_building_work_completed_under_previous_permission": null,
   "application_details": {
@@ -82,43 +82,50 @@
       "total_no_existing_residential_affordable_units": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 4,
-          "phase_detail": null,
+          "actual_completion_date": "12/02/2024",
           "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "actual_commencement_date": "12/02/2024",
-          "no_bedrooms": 3,
           "unit_type": "Terraced Home",
-          "provision_for_older_persons": false,
-          "gia": 104,
-          "tenure": "Market for sale"
-        },
-        {
           "no_habitable_rooms": 4,
           "provider": "Private",
           "phase_detail": null,
-          "description": null,
-          "change_type": "Gain",
+          "unit_no": null,
           "actual_commencement_date": "12/02/2024",
-          "no_bedrooms": 2,
-          "unit_type": "Flat Apartment Maisonette",
+          "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "gia": 80.5,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 104
         },
         {
+          "actual_completion_date": "27/05/2025",
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 4,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "12/02/2024",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "tenure": "Market for sale",
+          "gia": 80.5
+        },
+        {
+          "actual_completion_date": "27/05/2025",
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 3,
           "provider": "Private",
           "phase_detail": null,
-          "description": null,
-          "change_type": "Gain",
+          "unit_no": null,
           "actual_commencement_date": "12/02/2024",
           "no_bedrooms": 2,
-          "unit_type": "Terraced Home",
           "provision_for_older_persons": false,
-          "gia": 63.9,
-          "tenure": "Market for sale"
+          "tenure": "Market for sale",
+          "gia": 63.9
         }
       ],
       "total_no_proposed_residential_units_discount_market_sale": 0,
@@ -148,8 +155,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire development ",
-        "intended_completion_date": "02/2024",
-        "intended_commencement_date": "01/2024"
+        "intended_commencement_date": "01/2024",
+        "intended_completion_date": "02/2024"
       }
     ],
     "site_area": 0.02,
@@ -178,14 +185,15 @@
       "no_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
       "no_homes_passive_cooling": 0,
-      "waste_provision": true
+      "waste_provision": false
     },
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
-    "existing_uprns": null,
+    "scheme_phasing": false,
+    "existing_uprns": [],
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 104,
+        "actual_completion_date": "27/05/2025",
         "gia_gained": 39,
         "use_class": "C3",
         "actual_commencement_date": "12/02/2024",
@@ -201,13 +209,22 @@
     "ownership_status": "Private",
     "other_residential_accommodation_details": {
       "site_area": 0.02
-    }
+    },
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "lpa_name": "Ealing",
   "decision": "Approved",
   "lpa_app_no": "234401FUL",
   "decision_date": "21/12/2023",
-  "last_updated": "2026-09-15T10:03:09.327127+00:00",
+  "last_updated": "2026-09-28T12:52:16.841Z",
   "centroid_northing": null,
   "centroid": {
     "lat": 49.766807,
@@ -216,7 +233,7 @@
   "appeal_decision_date": null,
   "locality": null,
   "ward": "NORFLD",
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "lapsed_date": "21/12/2026",
   "decision_process": null,
   "last_date_consultation_comments": "09/10/2024",
@@ -239,15 +256,17 @@
   "uprn": "000012079362",
   "decision_target_date": "28/12/2023",
   "application_type": "All Other",
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "title_number": [],
   "appeal_status": null,
-  "status": "Commenced",
+  "status": "Completed",
   "date_building_work_started_under_previous_permission": null,
   "application_type_full": "Full planning permission",
-  "last_updated_by": "PLD Ealing recovery 2026-09-15",
-  "actual_completion_date": null,
-  "street_name": null,
+  "last_updated_by": "Portal",
+  "actual_completion_date": "27/05/2025",
+  "street_name": "",
   "secondary_street_name": null,
   "description": "Conversion of single family dwellinghouse into 2 self-contained flats; single storey rear/side extension; rear roof extension to main roofslope; roof extension to rear outrigger; and installation of two rooflights to front roofslope",
   "id": "Ealing-234401FUL",

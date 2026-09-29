@@ -44,14 +44,14 @@
   "appeal_start_date": null,
   "epc_number": null,
   "borough": "Harrow",
-  "title_number": null,
+  "title_number": [],
   "valid_date": "07/07/2026",
   "status": "Completed",
   "decision_process": "Delegated",
   "secondary_street_name": null,
   "date_building_work_completed_under_previous_permission": null,
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated": "2026-09-03T02:01:00.001+01:00",
+  "last_updated": "2026-09-28T13:54:09.804Z",
   "decision_target_date": "01/09/2026",
   "street_name": "MONTROSE ROAD",
   "postcode": "HA3 7DY",
@@ -108,7 +108,7 @@
     "no_additional_bathrooms": 0,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_bedrooms": 1,
+      "total_no_proposed_bedrooms": 4,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units": 1,
       "total_no_proposed_residential_affordable_units": 0,
@@ -120,7 +120,7 @@
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_proposed_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
@@ -144,23 +144,83 @@
       "residential_units": [
         {
           "actual_completion_date": "25/08/2026",
+          "description": null,
           "change_type": "Loss",
-          "actual_commencement_date": "25/08/2026",
           "unit_type": "House or Bungalow",
+          "unit_development_type": "Conversion",
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "25/08/2026",
           "no_bedrooms": 1,
-          "unit_development_type": "Conversion"
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 132
         },
         {
           "actual_completion_date": "25/08/2026",
+          "description": null,
           "change_type": "Gain",
-          "actual_commencement_date": "25/08/2026",
           "unit_type": "HMO",
-          "no_bedrooms": 1,
-          "unit_development_type": "Conversion"
+          "unit_development_type": "Conversion",
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "25/08/2026",
+          "no_bedrooms": 4,
+          "provision_for_older_persons": false,
+          "tenure": "Market for rent",
+          "gia": 132
         }
       ],
-      "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_market_for_rent": 1,
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "total_gia_gained": 0
+    },
+    "3d_model": false,
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "borough_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "transport_impact_assessment": false,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 132,
+        "actual_completion_date": "25/08/2026",
+        "gia_gained": 0,
+        "use_class": "C3",
+        "actual_commencement_date": "25/08/2026",
+        "gia_lost": 132
+      },
+      {
+        "gia_existing": 0,
+        "actual_completion_date": "25/08/2026",
+        "gia_gained": 132,
+        "use_class": "C4",
+        "actual_commencement_date": "25/08/2026",
+        "gia_lost": 0
+      }
+    ],
+    "circular_economy_statement": false,
+    "rain_water_harvesting": false,
+    "commencement_notice_received": false,
+    "scheme_phasing": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 0
+    },
+    "garden_land_lost": false,
+    "infrastructure_details": {
+      "waste_provision": false,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "ghg_reduction_over_building_regulations": false
     }
   },
   "pp_id": "15005672",
@@ -174,9 +234,9 @@
   },
   "parking_details": null,
   "id": "Harrow-PL_1598_26",
-  "cil_liability": null,
+  "cil_liability": false,
   "decision_conditions": [
-    "&lt;p&gt;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;It has been demonstrated that the existing use of the dwellinghouse (Class C3) as a six (6) person occupancy House of Multiple Occupancy (HMO) (Use Class C4) falls within the tolerances of Class L of Part 3 of Schedule 2 of The Town and Country Planning (General Permitted Development) (England) Order 2015 (as amended) and&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;commenced prior to the Borough wide Article 4 direction removing permitted development rights, with the use&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;&amp;nbsp;coming into effect before 12 June 2026.&lt;/span&gt;&lt;/p&gt;",
-    "The\r\nuse is therefore a lawful development"
+    "It has been demonstrated that the existing use of the dwellinghouse (Class C3) as a six (6) person occupancy House of Multiple Occupancy (HMO) (Use Class C4) falls within the tolerances of Class L of Part 3 of Schedule 2 of The Town and Country Planning (General Permitted Development) (England) Order 2015 (as amended) and commenced prior to the Borough wide Article 4 direction removing permitted development rights, with the use coming into effect before 12 June 2026.",
+    "The\nuse is therefore a lawful development"
   ]
 }
