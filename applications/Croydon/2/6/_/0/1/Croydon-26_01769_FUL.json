@@ -18,14 +18,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 78,
-        "gia_gained": 9.5,
         "use_class": "C3",
+        "gia_gained": 9.5,
         "gia_lost": 0
       },
       {
         "gia_existing": 48,
-        "gia_gained": 7.8,
         "use_class": "EB",
+        "gia_gained": 7.8,
         "gia_lost": 0
       }
     ],
@@ -91,10 +91,10 @@
           "no_habitable_rooms": 1,
           "provider": "Private",
           "change_type": "Gain",
-          "unit_type": "Studio Bedsit",
           "no_bedrooms": 1,
-          "tenure": "Market for rent",
-          "gia": 39
+          "unit_type": "Studio Bedsit",
+          "gia": 39,
+          "tenure": "Market for rent"
         }
       ],
       "total_gia_gained": 39,
@@ -135,11 +135,19 @@
     "lon": -0.096281
   },
   "lpa_name": "Croydon",
-  "decision_conditions": null,
+  "decision_conditions": [
+    "Fire Safety",
+    "Compliance with Drawings",
+    "",
+    "Time Limit",
+    "Privacy screens",
+    "Cycle/refuse Storage",
+    "Materials"
+  ],
   "date_building_work_completed_under_previous_permission": null,
   "postcode": "CR2 6PW",
   "application_type_full": "Full planning permission",
-  "decision": null,
+  "decision": "Approved",
   "appeal_start_date": null,
   "actual_completion_date": null,
   "wgs84_polygon": {
@@ -225,7 +233,7 @@
   "decision_date": null,
   "decision_agency": null,
   "secondary_street_name": null,
-  "last_updated": "2026-09-24T22:10:32.121Z",
+  "last_updated": "2026-09-29T22:10:18.190Z",
   "subdivision_of_building": null,
   "id": "Croydon-26_01769_FUL",
   "cil_liability": true,

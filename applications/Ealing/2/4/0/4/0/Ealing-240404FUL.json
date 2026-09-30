@@ -12,9 +12,9 @@
   "street_name": "Lonsdale Road",
   "locality": null,
   "ward": "SOUGRE",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "09/05/2024",
   "lpa_name": "Ealing",
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "decision_conditions": [
     "Balconies for Flat Roofs",
     "Cycle Store - Compliance",
@@ -25,8 +25,8 @@
     "outbuilding"
   ],
   "date_building_work_started_under_previous_permission": null,
-  "centroid_easting": "511724",
-  "status": "Approved",
+  "centroid_easting": 511724,
+  "status": "Completed",
   "decision_date": "09/05/2024",
   "wgs84_polygon": {
     "coordinates": [
@@ -61,13 +61,13 @@
   "development_type": null,
   "title_number": [],
   "appeal_status": null,
-  "last_updated": "2026-07-18T04:02:53.238Z",
-  "last_updated_by": "Idox Uniform",
+  "last_updated": "2026-09-29T09:23:36.972Z",
+  "last_updated_by": "Portal",
   "site_name": "",
   "id": "Ealing-240404FUL",
   "decision": "Approved",
   "cil_liability": false,
-  "centroid_northing": "179286",
+  "centroid_northing": 179286,
   "appeal_start_date": null,
   "postcode": "UB2 5LS",
   "url_planning_app": null,
@@ -77,7 +77,9 @@
   "reference_no_of_permission_being_relied_on": null,
   "description": "Retention of conversion of dwellinghouse into two self-contained residential units in a modified form; and provision of associated amenity space, cycle parking and refuse storage",
   "valid_date": "01/03/2024",
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "pp_id": "PP-12762028",
   "application_details": {
     "total_gia_gained": 120.96,
@@ -87,7 +89,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_gained": 120.96,
       "total_gia_lost": 0,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "site_area": 0.032032
     },
     "affordable_housing_fast_track": false,
     "garden_land_lost": false,
@@ -102,8 +105,10 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 120.96,
+        "actual_completion_date": "09/05/2024",
         "use_class": "C3",
         "gia_gained": 120.96,
+        "actual_commencement_date": "09/05/2024",
         "gia_lost": 0
       }
     ],
@@ -117,7 +122,7 @@
     ],
     "total_gia_lost": 0,
     "projected_cost_of_works": "Up to £2m",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "residential_details": {
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
@@ -126,26 +131,52 @@
       "total_no_existing_residential_units_discount_market_sale": 0,
       "residential_units": [
         {
+          "actual_completion_date": "09/05/2024",
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 3,
           "provider": "Private",
-          "change_type": "Gain",
-          "unit_type": "Flat Apartment Maisonette",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "09/05/2024",
           "no_bedrooms": 2,
-          "tenure": "Market for sale",
-          "gia": 61
+          "provision_for_older_persons": false,
+          "gia": 61,
+          "tenure": "Market for sale"
         },
         {
-          "no_habitable_rooms": 2,
-          "provider": "Private",
+          "actual_completion_date": "09/05/2024",
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "09/05/2024",
           "no_bedrooms": 1,
-          "tenure": "Market for sale",
-          "gia": 59
+          "provision_for_older_persons": false,
+          "gia": 59,
+          "tenure": "Market for sale"
+        },
+        {
+          "actual_completion_date": "09/05/2024",
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Loss",
+          "actual_commencement_date": "09/05/2024",
+          "unit_type": "House or Bungalow",
+          "no_bedrooms": 4,
+          "provision_for_older_persons": false,
+          "gia": null,
+          "tenure": "Market for sale"
         }
       ],
       "total_no_existing_residential_units_intermediate": 0,
-      "total_no_existing_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_units_market_for_sale": 1,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_proposed_bedrooms": 3,
       "total_no_proposed_residential_units_discount_market_rent": 0,
@@ -161,25 +192,26 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_gia_lost": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
-      "total_no_existing_residential_units": 0,
+      "total_no_existing_residential_units": 1,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_starter_homes": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_gia_gained": 120,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 62.43756243756244,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 156.0939060939061,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_residential_units_market_for_sale": 2
+      "total_no_proposed_residential_units_market_for_sale": 2,
+      "site_area": 0.032032
     },
     "infrastructure_details": {
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "ghg_reduction_over_building_regulations": false,
       "no_homes_to_have_electrical_heating": 0,
@@ -194,7 +226,19 @@
       "fire_suppression_system_proposed": false,
       "total_annual_pm_emissions": 0
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.032032
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "centroid": {
     "lon": -0.39178,
@@ -202,5 +246,5 @@
   },
   "lapsed_date": "09/05/2027",
   "decision_process": null,
-  "actual_completion_date": null
+  "actual_completion_date": "09/05/2024"
 }

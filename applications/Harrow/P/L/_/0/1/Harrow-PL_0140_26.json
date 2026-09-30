@@ -1,6 +1,6 @@
 {
   "decision_target_date": "18/03/2026",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Portal",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Certificates of Lawful Development",
@@ -21,9 +21,15 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 167.1,
-        "gia_gained": 0,
         "use_class": "C4",
+        "gia_gained": 0,
         "gia_lost": 167.1
+      },
+      {
+        "gia_existing": 0,
+        "use_class": "SG",
+        "gia_gained": 167.1,
+        "gia_lost": 0
       }
     ],
     "scheme_phasing": false,
@@ -33,7 +39,7 @@
     "grey_water_reuse": false,
     "green_suds": false,
     "non_residential_details": {
-      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 167.1,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0
     },
     "garden_land_lost": false,
@@ -45,9 +51,9 @@
     },
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_bedrooms": 7,
+      "total_no_proposed_bedrooms": 0,
       "total_no_proposed_residential_units_london_living_rent": 0,
-      "total_no_proposed_residential_units": 1,
+      "total_no_proposed_residential_units": 0,
       "total_no_existing_residential_units": 1,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_proposed_residential_affordable_units": 0,
@@ -81,28 +87,30 @@
       "residential_units": [
         {
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
-          "unit_type": "HMO",
           "no_bedrooms": 6,
-          "provision_for_older_persons": false,
-          "unit_development_type": "Change of Use",
-          "gia": 167.1
-        },
-        {
-          "provider": "Private",
-          "change_type": "Gain",
           "unit_type": "HMO",
-          "no_bedrooms": 7,
           "provision_for_older_persons": false,
-          "unit_development_type": "Change of Use",
-          "gia": 167.1
+          "gia": 167.1,
+          "unit_development_type": "Change of Use"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0
     },
     "no_additional_bathrooms": 0,
-    "no_additional_bedrooms": 1
+    "no_additional_bedrooms": 1,
+    "other_residential_accommodation_details": {
+      "other_resi_accommodation_unit_details": [
+        {
+          "no_rooms_proposed": 7,
+          "unit_type": "Hostel Room"
+        }
+      ]
+    }
   },
   "decision_date": "18/03/2026",
   "url_planning_app": "https://planningsearch.harrow.gov.uk//planning/index.html?fa=getApplication&id=232275",
@@ -121,8 +129,8 @@
     "The proposal is therefore NOT a lawful development.",
     "The proposed use of the dwellinghouse as a House of Multiple Occupancy (HMO) up to 7 person exceeds the limitations of Use Class C4 which limits the number of occupants to 6 persons. Therefore, the proposed development would fail to be within the tolerances of Class L of Part 3 of Schedule 2 of The Town and Country Planning (General Permitted Development) (England) Order 2015 (as amended)."
   ],
-  "site_number": 1,
-  "last_updated": "2026-06-27T23:21:35.305Z",
+  "site_number": "1",
+  "last_updated": "2026-09-29T14:55:36.120Z",
   "last_date_consultation_comments": "19/02/2026",
   "valid_date": "21/01/2026",
   "actual_commencement_date": null,
@@ -140,118 +148,116 @@
         "coordinates": [
           [
             [
-              [
-                514419.4,
-                187695.55
-              ],
-              [
-                514420.75,
-                187698.4
-              ],
-              [
-                514421.7,
-                187700.45
-              ],
-              [
-                514421.8,
-                187700.85
-              ],
-              [
-                514422.25,
-                187702.1
-              ],
-              [
-                514422.7,
-                187703.8
-              ],
-              [
-                514424.1,
-                187708.9
-              ],
-              [
-                514416.51,
-                187707.88
-              ],
-              [
-                514415.9,
-                187707.8
-              ],
-              [
-                514410.75,
-                187707.1
-              ],
-              [
-                514411.2,
-                187703.5
-              ],
-              [
-                514412.3,
-                187694.6
-              ],
-              [
-                514412.95,
-                187682.85
-              ],
-              [
-                514414.95,
-                187683.2
-              ],
-              [
-                514415.25,
-                187684.4
-              ],
-              [
-                514415.25,
-                187684.55
-              ],
-              [
-                514415.5,
-                187685.35
-              ],
-              [
-                514415.6,
-                187685.7
-              ],
-              [
-                514416.05,
-                187686.65
-              ],
-              [
-                514417.1,
-                187688.6
-              ],
-              [
-                514417.45,
-                187689.4
-              ],
-              [
-                514417.7,
-                187690.05
-              ],
-              [
-                514417.85,
-                187690.55
-              ],
-              [
-                514418.58,
-                187692.96
-              ],
-              [
-                514419.1,
-                187694.65
-              ],
-              [
-                514419.15,
-                187694.9
-              ],
-              [
-                514419.4,
-                187695.55
-              ]
+              514419.4,
+              187695.55
+            ],
+            [
+              514420.75,
+              187698.4
+            ],
+            [
+              514421.7,
+              187700.45
+            ],
+            [
+              514421.8,
+              187700.85
+            ],
+            [
+              514422.25,
+              187702.1
+            ],
+            [
+              514422.7,
+              187703.8
+            ],
+            [
+              514424.1,
+              187708.9
+            ],
+            [
+              514416.51,
+              187707.88
+            ],
+            [
+              514415.9,
+              187707.8
+            ],
+            [
+              514410.75,
+              187707.1
+            ],
+            [
+              514411.2,
+              187703.5
+            ],
+            [
+              514412.3,
+              187694.6
+            ],
+            [
+              514412.95,
+              187682.85
+            ],
+            [
+              514414.95,
+              187683.2
+            ],
+            [
+              514415.25,
+              187684.4
+            ],
+            [
+              514415.25,
+              187684.55
+            ],
+            [
+              514415.5,
+              187685.35
+            ],
+            [
+              514415.6,
+              187685.7
+            ],
+            [
+              514416.05,
+              187686.65
+            ],
+            [
+              514417.1,
+              187688.6
+            ],
+            [
+              514417.45,
+              187689.4
+            ],
+            [
+              514417.7,
+              187690.05
+            ],
+            [
+              514417.85,
+              187690.55
+            ],
+            [
+              514418.58,
+              187692.96
+            ],
+            [
+              514419.1,
+              187694.65
+            ],
+            [
+              514419.15,
+              187694.9
+            ],
+            [
+              514419.4,
+              187695.55
             ]
           ]
         ],
-        "type": "MultiPolygon"
+        "type": "Polygon"
       }
     ],
     "crs": {
@@ -270,123 +276,121 @@
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": false,
   "wgs84_polygon": {
-    "type": "MultiPolygon",
+    "type": "Polygon",
     "coordinates": [
       [
         [
-          [
-            -0.350233,
-            51.576522
-          ],
-          [
-            -0.350213,
-            51.576547
-          ],
-          [
-            -0.350198,
-            51.576565
-          ],
-          [
-            -0.350197,
-            51.576569
-          ],
-          [
-            -0.35019,
-            51.57658
-          ],
-          [
-            -0.350183,
-            51.576595
-          ],
-          [
-            -0.350161,
-            51.576641
-          ],
-          [
-            -0.350271,
-            51.576633
-          ],
-          [
-            -0.35028,
-            51.576633
-          ],
-          [
-            -0.350354,
-            51.576627
-          ],
-          [
-            -0.350349,
-            51.576595
-          ],
-          [
-            -0.350336,
-            51.576515
-          ],
-          [
-            -0.35033,
-            51.576409
-          ],
-          [
-            -0.350301,
-            51.576412
-          ],
-          [
-            -0.350297,
-            51.576423
-          ],
-          [
-            -0.350297,
-            51.576424
-          ],
-          [
-            -0.350293,
-            51.576431
-          ],
-          [
-            -0.350291,
-            51.576434
-          ],
-          [
-            -0.350284,
-            51.576443
-          ],
-          [
-            -0.350269,
-            51.57646
-          ],
-          [
-            -0.350263,
-            51.576467
-          ],
-          [
-            -0.350259,
-            51.576473
-          ],
-          [
-            -0.350257,
-            51.576477
-          ],
-          [
-            -0.350246,
-            51.576499
-          ],
-          [
-            -0.350238,
-            51.576514
-          ],
-          [
-            -0.350237,
-            51.576516
-          ],
-          [
-            -0.350233,
-            51.576522
-          ]
+          -0.350233,
+          51.576522
+        ],
+        [
+          -0.350213,
+          51.576547
+        ],
+        [
+          -0.350198,
+          51.576565
+        ],
+        [
+          -0.350197,
+          51.576569
+        ],
+        [
+          -0.35019,
+          51.57658
+        ],
+        [
+          -0.350183,
+          51.576595
+        ],
+        [
+          -0.350161,
+          51.576641
+        ],
+        [
+          -0.350271,
+          51.576633
+        ],
+        [
+          -0.35028,
+          51.576633
+        ],
+        [
+          -0.350354,
+          51.576627
+        ],
+        [
+          -0.350349,
+          51.576595
+        ],
+        [
+          -0.350336,
+          51.576515
+        ],
+        [
+          -0.35033,
+          51.576409
+        ],
+        [
+          -0.350301,
+          51.576412
+        ],
+        [
+          -0.350297,
+          51.576423
+        ],
+        [
+          -0.350297,
+          51.576424
+        ],
+        [
+          -0.350293,
+          51.576431
+        ],
+        [
+          -0.350291,
+          51.576434
+        ],
+        [
+          -0.350284,
+          51.576443
+        ],
+        [
+          -0.350269,
+          51.57646
+        ],
+        [
+          -0.350263,
+          51.576467
+        ],
+        [
+          -0.350259,
+          51.576473
+        ],
+        [
+          -0.350257,
+          51.576477
+        ],
+        [
+          -0.350246,
+          51.576499
+        ],
+        [
+          -0.350238,
+          51.576514
+        ],
+        [
+          -0.350237,
+          51.576516
+        ],
+        [
+          -0.350233,
+          51.576522
         ]
       ]
     ]
   },
-  "uprn": 100021258920,
+  "uprn": "100021258920",
   "application_type": "All Other",
   "centroid": {
     "lat": 51.576554,

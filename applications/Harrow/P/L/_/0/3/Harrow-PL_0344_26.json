@@ -6,17 +6,17 @@
   "appeal_decision": null,
   "lapsed_date": "31/03/2026",
   "appeal_decision_date": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Portal",
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": "9165-3052-4203-5265-7204",
-  "last_updated": "2026-06-27T23:21:45.561Z",
+  "last_updated": "2026-09-29T15:21:27.553Z",
   "url_planning_app": "https://planningsearch.harrow.gov.uk//planning/index.html?fa=getApplication&id=232423",
   "street_name": "St David's Drive",
   "parking_details": null,
   "ward": "Edgware",
   "bo_system": "Portal",
   "site_name": null,
-  "site_number": 37,
+  "site_number": "37",
   "application_details": {
     "no_additional_bedrooms": 4,
     "total_gia_gained": 21.97,
@@ -35,7 +35,7 @@
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_proposed_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
@@ -59,23 +59,32 @@
       "residential_units": [
         {
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
           "unit_type": "House or Bungalow",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "unit_development_type": "Conversion"
+          "unit_development_type": "Conversion",
+          "gia": 110,
+          "tenure": "Market for rent"
         },
         {
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "HMO",
           "no_bedrooms": 6,
           "provision_for_older_persons": false,
           "unit_development_type": "Conversion",
-          "gia": 110
+          "gia": 110,
+          "tenure": "Market for rent"
         }
       ],
-      "total_no_existing_residential_units_market_for_rent": 0,
+      "total_no_existing_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_gia_gained": 21.97
     },
@@ -90,7 +99,16 @@
     "transport_impact_assessment": false,
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3"
+        "gia_existing": 110,
+        "use_class": "C3",
+        "gia_gained": null,
+        "gia_lost": 110
+      },
+      {
+        "gia_existing": 0,
+        "use_class": "C4",
+        "gia_gained": 110,
+        "gia_lost": 0
       }
     ],
     "scheme_phasing": false,
@@ -112,7 +130,7 @@
       "ghg_reduction_over_building_regulations": false
     }
   },
-  "uprn": 100021247376,
+  "uprn": "100021247376",
   "locality": "Edgware",
   "date_building_work_started_under_previous_permission": null,
   "postcode": "HA8 6JQ",
@@ -133,74 +151,72 @@
         "coordinates": [
           [
             [
-              [
-                518649.5,
-                190703.2
-              ],
-              [
-                518659.3,
-                190699.85
-              ],
-              [
-                518669.509,
-                190696.191
-              ],
-              [
-                518672.305,
-                190702.868
-              ],
-              [
-                518671.3,
-                190703.2
-              ],
-              [
-                518670.4,
-                190703.5
-              ],
-              [
-                518664.5,
-                190705.55
-              ],
-              [
-                518663.946,
-                190705.738
-              ],
-              [
-                518663.688,
-                190705.826
-              ],
-              [
-                518660.8,
-                190704.45
-              ],
-              [
-                518658.25,
-                190705.3
-              ],
-              [
-                518658.45,
-                190705.9
-              ],
-              [
-                518651.3,
-                190708.35
-              ],
-              [
-                518645.7,
-                190710.15
-              ],
-              [
-                518643.9,
-                190705.15
-              ],
-              [
-                518649.5,
-                190703.2
-              ]
+              518649.5,
+              190703.2
+            ],
+            [
+              518659.3,
+              190699.85
+            ],
+            [
+              518669.509,
+              190696.191
+            ],
+            [
+              518672.305,
+              190702.868
+            ],
+            [
+              518671.3,
+              190703.2
+            ],
+            [
+              518670.4,
+              190703.5
+            ],
+            [
+              518664.5,
+              190705.55
+            ],
+            [
+              518663.946,
+              190705.738
+            ],
+            [
+              518663.688,
+              190705.826
+            ],
+            [
+              518660.8,
+              190704.45
+            ],
+            [
+              518658.25,
+              190705.3
+            ],
+            [
+              518658.45,
+              190705.9
+            ],
+            [
+              518651.3,
+              190708.35
+            ],
+            [
+              518645.7,
+              190710.15
+            ],
+            [
+              518643.9,
+              190705.15
+            ],
+            [
+              518649.5,
+              190703.2
             ]
           ]
         ],
-        "type": "MultiPolygon"
+        "type": "Polygon"
       }
     ],
     "crs": {
@@ -218,7 +234,7 @@
   "development_type": "Certificates of Lawful Development",
   "decision_conditions": [
     "The proposal is therefore a lawful development",
-    "The proposal for the loft conversion to create habitable room in roof space with rear flat roof dormer falls within the parameters of permitted development as set out under Schedule 2, Part 1, Classes B and C of the Town and Country Planning (General Permitted Development) (England) Order 2015 (as amended). Additionally, the proposed change of use of the existing dwellinghouse to a small house in multiple occupation falls within the parameters of permitted development as set out under Schedule 2, Part 3, Class L of the Town and Country Planning (General Permitted Development) (England) Order 2015 (as amended). "
+    "The proposal for the loft conversion to create habitable room in roof space with rear flat roof dormer falls within the parameters of permitted development as set out under Schedule 2, Part 1, Classes B and C of the Town and Country Planning (General Permitted Development) (England) Order 2015 (as amended). Additionally, the proposed change of use of the existing dwellinghouse to a small house in multiple occupation falls within the parameters of permitted development as set out under Schedule 2, Part 3, Class L of the Town and Country Planning (General Permitted Development) (England) Order 2015 (as amended)."
   ],
   "secondary_street_name": null,
   "title_number": [
@@ -234,74 +250,72 @@
     "coordinates": [
       [
         [
-          [
-            -0.288203,
-            51.602679
-          ],
-          [
-            -0.288062,
-            51.602647
-          ],
-          [
-            -0.287916,
-            51.602612
-          ],
-          [
-            -0.287874,
-            51.602671
-          ],
-          [
-            -0.287888,
-            51.602674
-          ],
-          [
-            -0.287901,
-            51.602677
-          ],
-          [
-            -0.287985,
-            51.602697
-          ],
-          [
-            -0.287993,
-            51.602699
-          ],
-          [
-            -0.287997,
-            51.6027
-          ],
-          [
-            -0.288039,
-            51.602688
-          ],
-          [
-            -0.288076,
-            51.602696
-          ],
-          [
-            -0.288072,
-            51.602701
-          ],
-          [
-            -0.288175,
-            51.602725
-          ],
-          [
-            -0.288255,
-            51.602742
-          ],
-          [
-            -0.288283,
-            51.602698
-          ],
-          [
-            -0.288203,
-            51.602679
-          ]
+          -0.288203,
+          51.602679
+        ],
+        [
+          -0.288062,
+          51.602647
+        ],
+        [
+          -0.287916,
+          51.602612
+        ],
+        [
+          -0.287874,
+          51.602671
+        ],
+        [
+          -0.287888,
+          51.602674
+        ],
+        [
+          -0.287901,
+          51.602677
+        ],
+        [
+          -0.287985,
+          51.602697
+        ],
+        [
+          -0.287993,
+          51.602699
+        ],
+        [
+          -0.287997,
+          51.6027
+        ],
+        [
+          -0.288039,
+          51.602688
+        ],
+        [
+          -0.288076,
+          51.602696
+        ],
+        [
+          -0.288072,
+          51.602701
+        ],
+        [
+          -0.288175,
+          51.602725
+        ],
+        [
+          -0.288255,
+          51.602742
+        ],
+        [
+          -0.288283,
+          51.602698
+        ],
+        [
+          -0.288203,
+          51.602679
         ]
       ]
     ],
-    "type": "MultiPolygon"
+    "type": "Polygon"
   },
   "decision_agency": "Borough",
   "decision_target_date": "06/04/2026",
