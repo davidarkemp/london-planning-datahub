@@ -1,13 +1,13 @@
 {
-  "actual_completion_date": null,
+  "actual_completion_date": "03/10/2025",
   "decision_process": null,
-  "actual_commencement_date": null,
+  "actual_commencement_date": "01/03/2025",
   "centroid": {
     "lat": 51.533372,
     "lon": -0.286817
   },
   "appeal_decision": null,
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "date_building_work_started_under_previous_permission": null,
   "lpa_app_no": "244448FUL",
   "decision_target_date": "17/01/2025",
@@ -20,21 +20,19 @@
     "Standard Cond - Expiration Three Years",
     "Standard Cond - Materials",
     "Cycle compliance",
-    "",
-    "",
     "approved plans"
   ],
   "postcode": "NW10 7DT",
   "decision_date": "13/01/2025",
-  "last_updated_by": "Idox Uniform",
-  "centroid_easting": "518926",
+  "last_updated_by": "Portal",
+  "centroid_easting": 518926,
   "secondary_street_name": null,
   "appeal_status": null,
   "description": "Single storey side/rear extension, first-floor side extension, conversion of the garage into a habitable room and the conversion from a single dwelling house into two flats.",
   "ward": "HANHIL",
   "parking_details": null,
   "development_type": null,
-  "last_updated": "2026-06-20T04:02:20.843Z",
+  "last_updated": "2026-09-30T15:32:45.319Z",
   "last_date_consultation_comments": "30/12/2024",
   "uprn": "000012093066",
   "application_type_full": "Full planning permission",
@@ -75,24 +73,26 @@
   },
   "pp_id": "PP-13583636",
   "decision": "Approved",
-  "centroid_northing": "182998",
+  "centroid_northing": 182998,
   "site_number": "9",
   "epc_number": null,
-  "cil_liability": true,
+  "cil_liability": false,
   "application_type": "All Other",
   "borough": "London Borough of Ealing",
   "locality": null,
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "valid_date": "22/11/2024",
   "application_details": {
     "site_area": 0.026000000000000002,
     "projected_cost_of_works": "Up to £2m",
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_commencement_date": "03/2025",
-        "intended_completion_date": "03/2025"
+        "intended_completion_date": "03/2025",
+        "intended_commencement_date": "03/2025"
       }
     ],
     "total_gia_lost": 0,
@@ -102,14 +102,16 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 109.89,
+        "actual_completion_date": "03/10/2025",
         "use_class": "C3",
         "gia_gained": 45.42,
+        "actual_commencement_date": "01/03/2025",
         "gia_lost": 0
       }
     ],
     "infrastructure_details": {
       "green_roof_area": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "total_annual_pm_emissions": 0,
       "ghg_reduction_over_building_regulations": false,
       "no_homes_passive_cooling": 0,
@@ -131,35 +133,53 @@
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 2,
+          "actual_completion_date": "03/10/2025",
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
           "unit_type": "Semi Detached Home",
+          "no_habitable_rooms": 2,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "01/03/2025",
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
           "gia": 109.89,
           "tenure": "Market for rent"
         },
         {
-          "no_habitable_rooms": 1,
-          "provider": "Private",
+          "actual_completion_date": "03/10/2025",
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 1,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "01/03/2025",
           "no_bedrooms": 3,
-          "gia": 93.5,
+          "provision_for_older_persons": false,
+          "gia": 85.59,
           "tenure": "Market for rent"
         },
         {
-          "no_habitable_rooms": 1,
-          "provider": "Private",
+          "actual_completion_date": "03/10/2025",
+          "description": null,
           "change_type": "Gain",
           "unit_type": "Flat Apartment Maisonette",
-          "no_bedrooms": 2,
-          "gia": 61.81,
+          "no_habitable_rooms": 1,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "01/03/2025",
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "gia": 56.12,
           "tenure": "Market for rent"
         }
       ],
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 76.92307692307692,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
@@ -167,7 +187,7 @@
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
       "total_no_proposed_residential_units_social_rent": 0,
-      "total_no_proposed_bedrooms": 5,
+      "total_no_proposed_bedrooms": 4,
       "total_no_proposed_residential_units": 2,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_starter_homes": 0,
@@ -179,7 +199,7 @@
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units": 1,
       "total_no_existing_residential_units_london_living_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 76.92307692307692,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_gia_lost": 109.89,
       "total_no_proposed_residential_units_starter_homes": 0,
@@ -194,7 +214,8 @@
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_intermediate": 0,
-      "total_gia_gained": 155.31
+      "total_gia_gained": 155.31,
+      "site_area": 0.026000000000000002
     },
     "total_gia_gained": 45.42,
     "affordable_housing_fast_track": false,
@@ -204,11 +225,25 @@
       "total_gia_lost": 0,
       "total_gia_existing": 109.89,
       "total_gia_gained": 45.42,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "site_area": 0.026000000000000002
     },
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "mayoral_cil_liability_notice_issued": false,
+    "existing_uprns": [],
+    "commencement_notice_received": false,
+    "circular_economy_statement": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.026000000000000002
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "id": "Ealing-244448FUL",
   "reference_no_of_permission_being_relied_on": null,
-  "status": "Approved"
+  "status": "Completed"
 }

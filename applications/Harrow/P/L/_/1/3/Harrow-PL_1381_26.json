@@ -39,7 +39,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -63,7 +62,8 @@
               191236.690611164
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "crs": {
@@ -79,7 +79,7 @@
   "appeal_start_date": null,
   "parking_details": null,
   "lpa_name": "Harrow",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Portal",
   "application_details": {
     "grey_water_reuse": false,
     "total_gia_lost": 186,
@@ -107,15 +107,15 @@
     "building_details": [
       {
         "no_storeys": 3,
-        "building_ref": "Main house",
-        "max_height": 9
+        "max_height": 9,
+        "building_ref": "Main house"
       }
     ],
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 332,
-        "use_class": "C3",
         "gia_existing": 186,
+        "use_class": "C3",
+        "gia_gained": 332,
         "gia_lost": 186
       }
     ],
@@ -130,8 +130,8 @@
     "affordable_housing_fast_track": false,
     "phasing_details": [
       {
-        "intended_completion_date": "12/2026",
         "phase_detail": "Main phase",
+        "intended_completion_date": "12/2026",
         "intended_commencement_date": "08/2026"
       }
     ],
@@ -156,50 +156,50 @@
       "total_no_proposed_residential_units_intermediate": 0,
       "residential_units": [
         {
-          "tenure": "Market for sale",
+          "no_habitable_rooms": 7,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "unit_type": "House or Bungalow",
-          "no_habitable_rooms": 7,
-          "provision_for_older_persons": false,
           "no_bedrooms": 5,
-          "gia": 187
+          "unit_type": "House or Bungalow",
+          "provision_for_older_persons": false,
+          "gia": 187,
+          "tenure": "Market for sale"
         },
         {
-          "provider": "Private",
-          "change_type": "Gain",
-          "tenure": "Market for rent",
-          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 5,
+          "provider": "Private",
+          "change_type": "Gain",
           "no_bedrooms": 4,
-          "gia": 176
-        },
-        {
-          "provider": "Private",
-          "change_type": "Gain",
-          "tenure": "Market for rent",
           "unit_type": "Flat Apartment Maisonette",
+          "gia": 176,
+          "tenure": "Market for rent"
+        },
+        {
           "no_habitable_rooms": 3,
+          "provider": "Private",
+          "change_type": "Gain",
           "no_bedrooms": 2,
-          "gia": 72.85
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 72.85,
+          "tenure": "Market for rent"
         },
         {
+          "no_habitable_rooms": 1,
           "provider": "Private",
           "change_type": "Gain",
-          "tenure": "Market for rent",
-          "unit_type": "Studio Bedsit",
-          "no_habitable_rooms": 1,
           "no_bedrooms": 1,
-          "gia": 39.54
+          "unit_type": "Studio Bedsit",
+          "gia": 39.54,
+          "tenure": "Market for rent"
         },
         {
+          "no_habitable_rooms": 1,
           "provider": "Private",
           "change_type": "Gain",
-          "tenure": "Market for rent",
-          "unit_type": "Studio Bedsit",
-          "no_habitable_rooms": 1,
           "no_bedrooms": 1,
-          "gia": 45.61
+          "unit_type": "Studio Bedsit",
+          "gia": 45.61,
+          "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_intermediate": 0,
@@ -263,5 +263,5 @@
   "description": "Conversion of dwelling into four flats (2 x studio, 1 x 2 bed, 1 x 4 bed); single and two storey side to rear extension; loft conversion with rear dormer roof extension; front porch; external alterations; vehicle access; separate amenity space; bin and cycle stores (demolition of detached garage and rear stores)",
   "id": "Harrow-PL_1381_26",
   "epc_number": null,
-  "last_updated": "2026-09-03T01:13:00.785Z"
+  "last_updated": "2026-09-30T08:25:37.083Z"
 }

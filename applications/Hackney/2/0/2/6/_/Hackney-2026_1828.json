@@ -39,7 +39,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -63,10 +62,10 @@
               185031.061482313
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -90,7 +89,8 @@
               185031.061482313
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "crs": {
@@ -110,7 +110,7 @@
     "no_existing_cycle": 10
   },
   "lpa_name": "Hackney",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Portal",
   "application_details": {
     "grey_water_reuse": false,
     "total_gia_lost": 0,
@@ -138,9 +138,9 @@
     "lead_developer_company_name": "Cobalt Contruction Ltd",
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
-        "use_class": "C3",
         "gia_existing": 513,
+        "use_class": "C3",
+        "gia_gained": 0,
         "gia_lost": 0
       }
     ],
@@ -155,12 +155,12 @@
       "site_area": 711
     },
     "projected_cost_of_works": "Up to £2m",
-    "site_area": 0.0711,
+    "site_area": 711,
     "affordable_housing_fast_track": false,
     "phasing_details": [
       {
-        "intended_completion_date": "04/2027",
         "phase_detail": "Completion",
+        "intended_completion_date": "04/2027",
         "intended_commencement_date": "12/2026"
       }
     ],
@@ -184,13 +184,13 @@
       "total_no_proposed_residential_units_intermediate": 0,
       "residential_units": [
         {
+          "no_habitable_rooms": 3,
           "provider": "Private",
           "change_type": "Gain",
-          "tenure": "Market for rent",
-          "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 3,
           "no_bedrooms": 1,
-          "gia": 40
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 40,
+          "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_intermediate": 0,
@@ -254,5 +254,5 @@
   "description": "Conversion of ancillary store to provide an additional residential unit within the development granted planning permission under Ref. 2017/4042",
   "id": "Hackney-2026_1828",
   "epc_number": null,
-  "last_updated": "2026-09-10T01:08:41.355Z"
+  "last_updated": "2026-09-30T08:25:09.457Z"
 }

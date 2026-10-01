@@ -39,7 +39,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -63,10 +62,10 @@
               186650.258270113
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -90,7 +89,8 @@
               186650.258270113
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "crs": {
@@ -106,7 +106,7 @@
   "appeal_start_date": null,
   "parking_details": null,
   "lpa_name": "Hackney",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Portal",
   "application_details": {
     "grey_water_reuse": false,
     "total_gia_lost": 85.14,
@@ -122,11 +122,11 @@
       "no_homes_passive_cooling": 0,
       "waste_details": [
         {
-          "reason_for_no_provision": "No location within the site to store bins which can be accessed by waste collection operatives",
+          "external_dry_recycling": false,
           "external_food_waste": false,
           "unit_reference": "1",
-          "external_dry_recycling": false,
           "external_residual_waste": false,
+          "reason_for_no_provision": "No location within the site to store bins which can be accessed by waste collection operatives",
           "internal_residual_waste": true,
           "internal_food_waste": true,
           "internal_dry_recycling": true
@@ -145,15 +145,15 @@
     "ownership_status": "Private",
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
-        "use_class": "SG",
         "gia_existing": 85.14,
+        "use_class": "SG",
+        "gia_gained": 0,
         "gia_lost": 85.14
       },
       {
-        "gia_gained": 86,
-        "use_class": "C3",
         "gia_existing": 0,
+        "use_class": "C3",
+        "gia_gained": 86,
         "gia_lost": 0
       }
     ],
@@ -168,12 +168,12 @@
       "site_area": 84.09
     },
     "projected_cost_of_works": "Up to £2m",
-    "site_area": 0.008409,
+    "site_area": 84.09,
     "affordable_housing_fast_track": false,
     "phasing_details": [
       {
-        "intended_completion_date": "11/2026",
         "phase_detail": "1",
+        "intended_completion_date": "11/2026",
         "intended_commencement_date": "08/2026"
       }
     ],
@@ -197,13 +197,13 @@
       "total_no_proposed_residential_units_intermediate": 0,
       "residential_units": [
         {
+          "no_habitable_rooms": 4,
           "provider": "Private",
           "change_type": "Gain",
-          "tenure": "Market for rent",
-          "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 4,
           "no_bedrooms": 3,
-          "gia": 86
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 86,
+          "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_intermediate": 0,
@@ -267,5 +267,5 @@
   "description": "Change of use of ground floor and basement commercial unit to a 3 bedroom apartment (Use Class C3); associated elevational alterations ",
   "id": "Hackney-2026_1482",
   "epc_number": "4227-3109-5276-2244-3025",
-  "last_updated": "2026-09-03T01:13:00.593Z"
+  "last_updated": "2026-09-30T08:25:08.080Z"
 }

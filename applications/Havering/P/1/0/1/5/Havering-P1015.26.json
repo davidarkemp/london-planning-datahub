@@ -6,7 +6,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -62,7 +61,8 @@
               187745.45
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "GeometryCollection"
@@ -70,8 +70,8 @@
   "description": "Demolition of existing chalet bungalow and erection of 4 new dwellings",
   "epc_number": null,
   "ward": "Rush Grn & Crowlands",
-  "last_updated": "2026-09-29T12:13:37.946Z",
-  "street_name": "Crow Lane",
+  "last_updated": "2026-09-30T04:00:09.910Z",
+  "street_name": "Romford",
   "decision_conditions": null,
   "actual_completion_date": null,
   "bo_system": "CSV Data Import",
@@ -150,7 +150,7 @@
   "lpa_app_no": "P1015.26",
   "centroid_northing": 187742,
   "date_building_work_started_under_previous_permission": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "CSV Data Import",
   "application_details": {
     "total_gia_lost": 175,
     "total_gia_gained": 129,
@@ -167,18 +167,18 @@
     },
     "building_details": [
       {
+        "no_storeys": 3,
         "max_height": 6.89,
-        "building_ref": "new build",
-        "no_storeys": 3
+        "building_ref": "new build"
       }
     ],
     "total_gia_existing": 175,
     "existing_proposed_floorspace_details": [
       {
+        "gia_existing": 175,
         "use_class": "C3",
         "gia_gained": 129,
-        "gia_lost": 175,
-        "gia_existing": 175
+        "gia_lost": 175
       }
     ],
     "phasing_details": [
@@ -224,78 +224,78 @@
       "total_no_existing_residential_units_market_for_sale": 1,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 4,
           "m43_2a_compliant": false,
           "m42_compliant": false,
-          "sheltered_accommodation": false,
           "change_type": "Loss",
+          "sheltered_accommodation": false,
           "garden_land": false,
           "unit_type": "House or Bungalow",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
           "gia": 175,
-          "provision_for_older_persons": false,
-          "tenure": "Market for sale",
-          "no_bedrooms": 2,
-          "m43_2b_compliant": false
+          "tenure": "Market for sale"
         },
         {
-          "no_habitable_rooms": 3,
+          "m43_2b_compliant": false,
           "m43_2a_compliant": false,
           "m42_compliant": false,
-          "sheltered_accommodation": false,
-          "provider": "Private",
           "change_type": "Gain",
+          "sheltered_accommodation": false,
           "garden_land": true,
           "unit_type": "Terraced Home",
-          "gia": 76,
-          "provision_for_older_persons": false,
-          "tenure": "Market for sale",
+          "no_habitable_rooms": 3,
+          "provider": "Private",
           "no_bedrooms": 2,
-          "m43_2b_compliant": false
+          "provision_for_older_persons": false,
+          "gia": 76,
+          "tenure": "Market for sale"
         },
         {
-          "no_habitable_rooms": 3,
+          "m43_2b_compliant": false,
           "m43_2a_compliant": false,
           "m42_compliant": false,
-          "sheltered_accommodation": false,
-          "provider": "Private",
           "change_type": "Gain",
+          "sheltered_accommodation": false,
           "garden_land": true,
           "unit_type": "Terraced Home",
-          "gia": 76,
-          "provision_for_older_persons": false,
-          "tenure": "Market for sale",
+          "no_habitable_rooms": 3,
+          "provider": "Private",
           "no_bedrooms": 2,
-          "m43_2b_compliant": false
+          "provision_for_older_persons": false,
+          "gia": 76,
+          "tenure": "Market for sale"
         },
         {
-          "no_habitable_rooms": 3,
+          "m43_2b_compliant": false,
           "m43_2a_compliant": false,
           "m42_compliant": false,
-          "sheltered_accommodation": false,
-          "provider": "Private",
           "change_type": "Gain",
+          "sheltered_accommodation": false,
           "garden_land": true,
           "unit_type": "Terraced Home",
-          "gia": 76,
-          "provision_for_older_persons": false,
-          "tenure": "Market for sale",
+          "no_habitable_rooms": 3,
+          "provider": "Private",
           "no_bedrooms": 2,
-          "m43_2b_compliant": false
+          "provision_for_older_persons": false,
+          "gia": 76,
+          "tenure": "Market for sale"
         },
         {
-          "no_habitable_rooms": 3,
+          "m43_2b_compliant": false,
           "m43_2a_compliant": false,
           "m42_compliant": false,
-          "sheltered_accommodation": false,
-          "provider": "Private",
           "change_type": "Gain",
+          "sheltered_accommodation": false,
           "garden_land": true,
           "unit_type": "Terraced Home",
-          "gia": 76,
-          "provision_for_older_persons": false,
-          "tenure": "Market for sale",
+          "no_habitable_rooms": 3,
+          "provider": "Private",
           "no_bedrooms": 2,
-          "m43_2b_compliant": false
+          "provision_for_older_persons": false,
+          "gia": 76,
+          "tenure": "Market for sale"
         }
       ],
       "total_no_proposed_residential_units_london_living_rent": 0,
@@ -333,7 +333,7 @@
     "internal_resi_water_usage": 110,
     "affordable_housing_fast_track": false
   },
-  "locality": "Romford",
+  "locality": null,
   "centroid": {
     "lon": 0.156999,
     "lat": 51.568712
@@ -353,6 +353,6 @@
   "last_date_consultation_comments": "15/10/2026",
   "id": "Havering-P1015.26",
   "decision_agency": "Borough",
-  "uprn": 100021368902,
+  "uprn": "100021368902",
   "title_number": null
 }
