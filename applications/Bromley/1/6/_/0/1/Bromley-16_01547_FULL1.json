@@ -5,7 +5,7 @@
   "decision_target_date": "26/05/2016",
   "locality": null,
   "subdivision_of_building": null,
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "lpa_name": "Bromley",
   "postcode": "BR5 4LP",
   "site_name": null,
@@ -18,7 +18,7 @@
       "total_gia_lost": 0,
       "development_type": null,
       "total_gia_gained": 0,
-      "site_area": null,
+      "site_area": 0,
       "total_gia_existing": null
     },
     "constraints_details": [
@@ -42,12 +42,10 @@
     "building_details": [
       {
         "no_storeys": null,
-        "max_height": null,
         "building_ref": null
       },
       {
         "no_storeys": null,
-        "max_height": null,
         "building_ref": null
       }
     ],
@@ -60,52 +58,37 @@
       "affordable_percentage": 0,
       "residential_units": [
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
           "actual_completion_date": "28/06/2021",
           "m43_2a_compliant": false,
           "description": null,
-          "change_type": "Gain",
           "m42_compliant": false,
-          "sheltered_accommodation": null,
-          "garden_land": null,
+          "change_type": "Gain",
           "unit_type": "House or Bungalow",
           "unit_development_type": "New Build",
-          "superseded_date": null,
           "provider": "Private",
-          "no_habitable_rooms": null,
           "phase_detail": null,
           "unit_no": null,
           "actual_commencement_date": "01/09/2019",
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
-          "tenure": "Market for sale",
-          "gia": null
+          "gia": null,
+          "tenure": "Market for sale"
         },
         {
-          "uprn": null,
-          "m43_2b_compliant": null,
           "actual_completion_date": "28/06/2021",
           "m43_2a_compliant": false,
           "description": null,
-          "change_type": "Loss",
           "m42_compliant": false,
-          "sheltered_accommodation": null,
-          "garden_land": null,
+          "change_type": "Loss",
           "unit_type": "House or Bungalow",
-          "unit_development_type": null,
-          "superseded_date": null,
           "provider": "Private",
-          "no_habitable_rooms": null,
           "phase_detail": null,
           "unit_no": null,
           "actual_commencement_date": "01/09/2019",
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "superseded_by_lpa_app_no": null,
-          "tenure": "Market for sale",
-          "gia": null
+          "gia": null,
+          "tenure": "Market for sale"
         }
       ],
       "habitable_rooms_density": 0,
@@ -149,23 +132,23 @@
       "no_council_tax_rateable_units_lost": 0,
       "no_council_tax_rateable_units_gained": 0,
       "other_resi_accommodation_unit_details": [],
-      "site_area": null
+      "site_area": 0
     },
     "no_affordable_housing_units_acquired_offsite": null,
     "no_affordable_housing_units_provided_offsite": null,
     "non_permanent_dwellings_details": [],
     "occupation_status": null,
     "building_type": null,
-    "affordable_housing_fast_track": null,
-    "s106_agreement": null,
-    "air_quality_assessment": null,
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "air_quality_assessment": false,
     "other_contributions": null,
     "existing_uprns": [],
     "total_gia_existing": null,
     "intended_commencement_date": null,
-    "scheme_phasing": null,
-    "circular_economy_statement": null,
-    "commencement_notice_received": null,
+    "scheme_phasing": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
     "qualifying_vacant_building_floorspace": null,
     "phasing_details": [],
     "open_and_protected_space_details": {
@@ -179,14 +162,14 @@
       "open_space_mol_area_gain": 0,
       "open_space_green_belt_area_loss": 0
     },
-    "site_area": 0,
+    "site_area": 0.03,
     "existing_proposed_floorspace_details": [],
-    "grey_water_reuse": null,
+    "grey_water_reuse": false,
     "surface_water_discharge_percentage_reduction": null,
     "lead_registered_social_landlord": null,
-    "viability_assessment": null,
+    "viability_assessment": false,
     "overseas_company_registration_no": null,
-    "mayoral_cil_liability_notice_issued": null,
+    "mayoral_cil_liability_notice_issued": false,
     "intended_completion_date": null,
     "projected_cost_of_works": null,
     "uk_company_registration_no": null,
@@ -200,10 +183,10 @@
       "no_non_resi_units_to_have_full_fibre": null,
       "no_active_fast_ev_charging_points": null,
       "no_active_other_ev_charging_points": null,
-      "mobile_network_operators_consultation": null,
+      "mobile_network_operators_consultation": false,
       "no_passive_other_ev_charging_points": null,
-      "fire_suppression_system_proposed": null,
-      "ghg_reduction_over_building_regulations": null,
+      "fire_suppression_system_proposed": false,
+      "ghg_reduction_over_building_regulations": false,
       "chp_heat_pumps_capacity": null,
       "no_active_slow_ev_charging_points": null,
       "green_roof_area": null,
@@ -212,7 +195,7 @@
       "solar_pv_capacity": null,
       "no_passive_slow_ev_charging_points": null,
       "total_annual_nox_emissions": null,
-      "waste_provision": null,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": null,
       "no_homes_to_have_electrical_heating": null,
       "community_energy_capacity": null,
@@ -220,16 +203,16 @@
       "waste_details": []
     },
     "internal_resi_water_usage": null,
-    "3d_model": null,
+    "3d_model": false,
     "transport_contributions": null,
     "total_gia_gained": null,
-    "borough_cil_liability_notice_issued": null,
+    "borough_cil_liability_notice_issued": false,
     "total_gia_lost": null,
-    "transport_impact_assessment": null,
+    "transport_impact_assessment": false,
     "social_infrastructure_contributions": null,
-    "rain_water_harvesting": null,
-    "green_suds": null,
-    "garden_land_lost": null,
+    "rain_water_harvesting": false,
+    "green_suds": false,
+    "garden_land_lost": false,
     "ownership_status": null,
     "lead_developer_company_name": null
   },
@@ -240,7 +223,7 @@
   "date_building_work_completed_under_previous_permission": null,
   "title_number": [],
   "application_type_full": "Full planning permission",
-  "last_updated": "2025-03-20T16:53:23.460+00:00",
+  "last_updated": "2026-10-01T12:02:39.161Z",
   "id": "Bromley-16_01547_FULL1",
   "application_type": "All Other",
   "street_name": "Brow Crescent",
@@ -255,15 +238,15 @@
   "description": "Detached two storey 3 bedroom dwelling with 2 car parking spaces and vehicular access on land adjacent to 78 Brow Crescent, and elevational alterations to existing dwelling including removal of porch.",
   "actual_completion_date": "28/06/2021",
   "last_date_consultation_comments": "27/04/2016",
-  "last_updated_by": "FME Excel Import",
+  "last_updated_by": "Portal",
   "development_type": null,
   "centroid_northing": 166495,
   "decision": "Approved",
   "appeal_decision": null,
   "uprn": "100020451050",
   "centroid": {
-    "lon": "0.1198964",
-    "lat": "51.3783174"
+    "lon": 0.11987,
+    "lat": 51.378317
   },
   "polygon": {
     "coordinates": [
@@ -498,8 +481,6 @@
     "I13 reason (1 insert)",
     "Rest of \"pd\" Rights - Class A, B,C and E",
     "Highway Drainage",
-    "",
-    "",
     "A01 Reason 3 years",
     "Commencement of development within 3 yrs",
     "Landscaping Scheme - full app no details",
@@ -517,9 +498,7 @@
     "No windows (2 inserts)",
     "I13 reason (1 insert)",
     "Rest of \"pd\" Rights - Class A, B,C and E",
-    "Highway Drainage",
-    "",
-    ""
+    "Highway Drainage"
   ],
   "reference_no_of_permission_being_relied_on": null,
   "valid_date": "31/03/2016",
@@ -530,152 +509,152 @@
     "coordinates": [
       [
         [
-          0.1198968,
-          51.3783264
+          0.11987,
+          51.378326
         ],
         [
-          0.1198993,
-          51.3783262
+          0.119873,
+          51.378326
         ],
         [
-          0.1199017,
-          51.3783258
+          0.119875,
+          51.378325
         ],
         [
-          0.1199039,
-          51.3783251
+          0.119877,
+          51.378325
         ],
         [
-          0.1199059,
-          51.3783241
+          0.119879,
+          51.378324
         ],
         [
-          0.11990769999999999,
+          0.119881,
           51.378323
         ],
         [
-          0.11990899999999999,
-          51.3783217
+          0.119883,
+          51.378321
         ],
         [
-          0.11991000000000002,
-          51.3783202
+          0.119884,
+          51.37832
         ],
         [
-          0.11991059999999999,
-          51.3783187
+          0.119884,
+          51.378318
         ],
         [
-          0.1199107,
-          51.3783171
+          0.119884,
+          51.378317
         ],
         [
-          0.11991049999999999,
-          51.3783156
+          0.119884,
+          51.378315
         ],
         [
-          0.1199097,
-          51.3783141
+          0.119883,
+          51.378314
         ],
         [
-          0.11990859999999999,
-          51.3783127
+          0.119882,
+          51.378312
         ],
         [
-          0.11990709999999999,
-          51.3783114
+          0.119881,
+          51.378311
         ],
         [
-          0.11990529999999999,
-          51.3783104
+          0.119879,
+          51.37831
         ],
         [
-          0.1199032,
-          51.3783095
+          0.119877,
+          51.378309
         ],
         [
-          0.11990089999999999,
-          51.3783089
+          0.119874,
+          51.378308
         ],
         [
-          0.11989849999999999,
-          51.3783085
+          0.119872,
+          51.378308
         ],
         [
-          0.11989599999999999,
-          51.3783084
+          0.11987,
+          51.378308
         ],
         [
-          0.1198935,
-          51.3783086
+          0.119867,
+          51.378308
         ],
         [
-          0.1198911,
-          51.3783091
+          0.119865,
+          51.378309
         ],
         [
-          0.11988889999999999,
-          51.3783098
+          0.119862,
+          51.378309
         ],
         [
-          0.11988679999999999,
-          51.3783107
+          0.11986,
+          51.37831
         ],
         [
-          0.1198851,
-          51.3783118
+          0.119859,
+          51.378311
         ],
         [
-          0.1198837,
-          51.3783131
+          0.119857,
+          51.378313
         ],
         [
-          0.1198828,
-          51.3783146
+          0.119856,
+          51.378314
         ],
         [
-          0.1198822,
-          51.3783161
+          0.119856,
+          51.378316
         ],
         [
-          0.11988199999999999,
-          51.3783177
+          0.119856,
+          51.378317
         ],
         [
-          0.1198823,
-          51.3783192
+          0.119856,
+          51.378319
         ],
         [
-          0.11988299999999999,
-          51.3783207
+          0.119857,
+          51.37832
         ],
         [
-          0.1198842,
-          51.3783221
+          0.119858,
+          51.378322
         ],
         [
-          0.1198857,
-          51.3783234
+          0.119859,
+          51.378323
         ],
         [
-          0.1198875,
-          51.3783245
+          0.119861,
+          51.378324
         ],
         [
-          0.1198896,
-          51.3783253
+          0.119863,
+          51.378325
         ],
         [
-          0.1198919,
-          51.3783259
+          0.119865,
+          51.378326
         ],
         [
-          0.1198943,
-          51.3783263
+          0.119868,
+          51.378326
         ],
         [
-          0.1198968,
-          51.3783264
+          0.11987,
+          51.378326
         ]
       ]
     ],
