@@ -6,7 +6,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -86,7 +85,8 @@
               165472.117426309
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"
@@ -94,7 +94,7 @@
   "description": "Prior Approval for change of use from Use Class E to residential use providing 1 self contained unit.",
   "epc_number": null,
   "ward": "The Wrythe",
-  "last_updated": "2026-10-01T20:05:03.241Z",
+  "last_updated": "2026-10-05T20:04:34.949Z",
   "street_name": "Wrythe Lane",
   "decision_conditions": null,
   "actual_completion_date": null,
@@ -103,7 +103,7 @@
   "parking_details": null,
   "lapsed_date": null,
   "actual_commencement_date": null,
-  "cil_liability": null,
+  "cil_liability": false,
   "centroid_easting": 526991,
   "wgs84_polygon": {
     "type": "Polygon",
@@ -207,22 +207,22 @@
       "dwelling_density": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 1,
-          "unit_no": null,
+          "m43_2b_compliant": false,
           "m43_2a_compliant": false,
+          "description": null,
           "m42_compliant": false,
-          "sheltered_accommodation": false,
-          "provider": "Private",
           "change_type": "Gain",
+          "sheltered_accommodation": false,
           "garden_land": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 1,
+          "provider": "Private",
           "phase_detail": null,
-          "description": null,
+          "unit_no": null,
+          "no_bedrooms": 1,
           "provision_for_older_persons": false,
           "gia": 54.34,
-          "tenure": "Market for rent",
-          "no_bedrooms": 1,
-          "m43_2b_compliant": false
+          "tenure": "Market for rent"
         }
       ],
       "habitable_rooms_density": null,
@@ -267,10 +267,10 @@
     },
     "existing_proposed_floorspace_details": [
       {
+        "gia_existing": 53.34,
         "use_class": "Other",
         "gia_gained": 0,
-        "gia_lost": 53.34,
-        "gia_existing": 53.34
+        "gia_lost": 53.34
       }
     ],
     "occupation_status": "Occupied",
@@ -318,7 +318,7 @@
   "decision": null,
   "appeal_start_date": null,
   "postcode": "SM5 2RR",
-  "last_date_consultation_comments": null,
+  "last_date_consultation_comments": "26/10/2026",
   "id": "Sutton-DM2026_01115",
   "decision_agency": null,
   "uprn": "005870054063",
