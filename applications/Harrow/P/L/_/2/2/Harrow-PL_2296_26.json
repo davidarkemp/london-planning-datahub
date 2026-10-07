@@ -39,7 +39,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -63,7 +62,8 @@
               193424.728747676
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "crs": {
@@ -83,7 +83,7 @@
     "no_existing_car": 6
   },
   "lpa_name": "Harrow",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Portal",
   "application_details": {
     "grey_water_reuse": true,
     "total_gia_lost": 406.3,
@@ -115,15 +115,15 @@
     "building_details": [
       {
         "no_storeys": 2,
-        "building_ref": "1 new dwelling",
-        "max_height": 10.8
+        "max_height": 10.8,
+        "building_ref": "1 new dwelling"
       }
     ],
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 546.9,
-        "use_class": "C3",
         "gia_existing": 406.3,
+        "use_class": "C3",
+        "gia_gained": 546.9,
         "gia_lost": 406.3
       }
     ],
@@ -138,8 +138,8 @@
     "affordable_housing_fast_track": false,
     "phasing_details": [
       {
-        "intended_completion_date": "12/2027",
         "phase_detail": "Entire development",
+        "intended_completion_date": "12/2027",
         "intended_commencement_date": "10/2026"
       }
     ],
@@ -164,23 +164,23 @@
       "total_no_proposed_residential_units_intermediate": 0,
       "residential_units": [
         {
-          "tenure": "Self-Build and Custom Build",
+          "no_habitable_rooms": 10,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "unit_type": "House or Bungalow",
-          "no_habitable_rooms": 10,
-          "provision_for_older_persons": false,
           "no_bedrooms": 5,
-          "gia": 406.3
+          "unit_type": "House or Bungalow",
+          "provision_for_older_persons": false,
+          "gia": 406.3,
+          "tenure": "Self-Build and Custom Build"
         },
         {
+          "no_habitable_rooms": 10,
           "provider": "Self-Build",
           "change_type": "Gain",
-          "tenure": "Self-Build and Custom Build",
-          "unit_type": "House or Bungalow",
-          "no_habitable_rooms": 10,
           "no_bedrooms": 5,
-          "gia": 546.9
+          "unit_type": "House or Bungalow",
+          "gia": 546.9,
+          "tenure": "Self-Build and Custom Build"
         }
       ],
       "total_no_existing_residential_units_intermediate": 0,
@@ -244,5 +244,5 @@
   "description": "Demolition and redevelopment to provide new 2 storey dwelling with habitable roof space; Installation of solar panels to side roof slope; Raised patio to rear; Associated landscaping",
   "id": "Harrow-PL_2296_26",
   "epc_number": "0569-2815-6859-0401-4501",
-  "last_updated": "2026-09-10T01:08:41.172Z"
+  "last_updated": "2026-10-06T07:47:06.638Z"
 }

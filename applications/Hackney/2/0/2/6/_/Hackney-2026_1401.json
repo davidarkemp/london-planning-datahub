@@ -39,7 +39,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -203,10 +202,10 @@
               184869.504731289
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -370,7 +369,8 @@
               184869.504731289
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "crs": {
@@ -386,7 +386,7 @@
   "appeal_start_date": null,
   "parking_details": null,
   "lpa_name": "Hackney",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Portal",
   "application_details": {
     "grey_water_reuse": false,
     "total_gia_lost": 0,
@@ -413,9 +413,9 @@
     "ownership_status": "Private",
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
-        "use_class": "C3",
         "gia_existing": 197,
+        "use_class": "C3",
+        "gia_gained": 0,
         "gia_lost": 0
       }
     ],
@@ -430,12 +430,12 @@
       "site_area": 197
     },
     "projected_cost_of_works": "Up to £2m",
-    "site_area": 0.019700000000000002,
+    "site_area": 197,
     "affordable_housing_fast_track": false,
     "phasing_details": [
       {
-        "intended_completion_date": "11/2026",
         "phase_detail": "Entire Development",
+        "intended_completion_date": "11/2026",
         "intended_commencement_date": "08/2026"
       }
     ],
@@ -459,14 +459,14 @@
       "total_no_proposed_residential_units_intermediate": 0,
       "residential_units": [
         {
-          "tenure": "Market for sale",
+          "no_habitable_rooms": 3,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 3,
-          "provision_for_older_persons": false,
           "no_bedrooms": 2,
-          "gia": 89
+          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
+          "gia": 89,
+          "tenure": "Market for sale"
         }
       ],
       "total_no_existing_residential_units_intermediate": 0,
@@ -670,5 +670,5 @@
   "description": "The amalgamation of apartments 16 and 17 at Bruno Court.",
   "id": "Hackney-2026_1401",
   "epc_number": null,
-  "last_updated": "2026-09-03T01:13:00.764Z"
+  "last_updated": "2026-10-06T07:46:55.351Z"
 }

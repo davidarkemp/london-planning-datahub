@@ -39,7 +39,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -71,7 +70,8 @@
               187129.577728705
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "crs": {
@@ -91,7 +91,7 @@
     "no_existing_cycle": 0
   },
   "lpa_name": "Waltham Forest",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Portal",
   "application_details": {
     "grey_water_reuse": false,
     "total_gia_lost": 0,
@@ -118,9 +118,9 @@
     "ownership_status": "Private",
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 41,
-        "use_class": "C3",
         "gia_existing": 26,
+        "use_class": "C3",
+        "gia_gained": 41,
         "gia_lost": 0
       }
     ],
@@ -135,8 +135,8 @@
     "affordable_housing_fast_track": false,
     "phasing_details": [
       {
-        "intended_completion_date": "12/2026",
         "phase_detail": "Entire Development",
+        "intended_completion_date": "12/2026",
         "intended_commencement_date": "09/2026"
       }
     ],
@@ -161,13 +161,13 @@
       "total_no_proposed_residential_units_intermediate": 0,
       "residential_units": [
         {
+          "no_habitable_rooms": 41,
           "provider": "Private",
           "change_type": "Gain",
-          "tenure": "Market for rent",
-          "unit_type": "Flat Apartment Maisonette",
-          "no_habitable_rooms": 41,
           "no_bedrooms": 41,
-          "gia": 41
+          "unit_type": "Flat Apartment Maisonette",
+          "gia": 41,
+          "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_intermediate": 0,
@@ -239,5 +239,5 @@
   "description": "Construction of single storey wraparound rear extension and alterations to shopfront with the installation of two new doors",
   "id": "Waltham_Forest-262036",
   "epc_number": null,
-  "last_updated": "2026-09-10T01:08:41.485Z"
+  "last_updated": "2026-10-06T12:27:33.632Z"
 }

@@ -39,7 +39,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -71,7 +70,8 @@
               172052.300071676
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "crs": {
@@ -91,7 +91,7 @@
     "no_existing_car": 3
   },
   "lpa_name": "Merton",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Portal",
   "application_details": {
     "grey_water_reuse": false,
     "total_gia_existing": 686,
@@ -119,8 +119,8 @@
     "site_area": 0.19,
     "phasing_details": [
       {
-        "intended_completion_date": "10/2027",
         "phase_detail": "one",
+        "intended_completion_date": "10/2027",
         "intended_commencement_date": "03/2027"
       }
     ],
@@ -141,16 +141,88 @@
     "building_details": [
       {
         "no_storeys": 2,
-        "building_ref": "17 Somerset Road",
-        "max_height": 9.36
+        "max_height": 9.36,
+        "building_ref": "17 Somerset Road"
       }
     ],
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 615,
-        "use_class": "C3",
-        "gia_existing": 686,
-        "gia_lost": 686
+        "gia_existing": null,
+        "use_class": "A1",
+        "gia_gained": null,
+        "gia_lost": null
+      },
+      {
+        "gia_existing": null,
+        "use_class": "A1",
+        "gia_gained": null,
+        "gia_lost": null
+      },
+      {
+        "gia_existing": null,
+        "use_class": "A2",
+        "gia_gained": null,
+        "gia_lost": null
+      },
+      {
+        "gia_existing": null,
+        "use_class": "A3",
+        "gia_gained": null,
+        "gia_lost": null
+      },
+      {
+        "gia_existing": null,
+        "use_class": "B1a",
+        "gia_gained": null,
+        "gia_lost": null
+      },
+      {
+        "gia_existing": null,
+        "use_class": "B1b",
+        "gia_gained": null,
+        "gia_lost": null
+      },
+      {
+        "gia_existing": null,
+        "use_class": "B1c",
+        "gia_gained": null,
+        "gia_lost": null
+      },
+      {
+        "gia_existing": null,
+        "use_class": "B2",
+        "gia_gained": null,
+        "gia_lost": null
+      },
+      {
+        "gia_existing": null,
+        "use_class": "B8",
+        "gia_gained": null,
+        "gia_lost": null
+      },
+      {
+        "gia_existing": null,
+        "use_class": "C1",
+        "gia_gained": null,
+        "gia_lost": null
+      },
+      {
+        "gia_existing": null,
+        "use_class": "C2",
+        "gia_gained": null,
+        "gia_lost": null
+      },
+      {
+        "gia_existing": null,
+        "use_class": "D1",
+        "gia_gained": null,
+        "gia_lost": null
+      },
+      {
+        "gia_existing": null,
+        "use_class": "D2",
+        "gia_gained": null,
+        "gia_lost": null
       }
     ],
     "non_residential_details": {
@@ -198,23 +270,23 @@
       "total_no_proposed_residential_units_intermediate": 0,
       "residential_units": [
         {
-          "tenure": "Market for sale",
+          "no_habitable_rooms": 9,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "unit_type": "House or Bungalow",
-          "no_habitable_rooms": 9,
-          "provision_for_older_persons": false,
           "no_bedrooms": 4,
-          "gia": 686
+          "unit_type": "House or Bungalow",
+          "provision_for_older_persons": false,
+          "gia": 686,
+          "tenure": "Market for sale"
         },
         {
+          "no_habitable_rooms": 10,
           "provider": "Private",
           "change_type": "Gain",
-          "tenure": "Market for sale",
-          "unit_type": "House or Bungalow",
-          "no_habitable_rooms": 10,
           "no_bedrooms": 6,
-          "gia": 615
+          "unit_type": "House or Bungalow",
+          "gia": 615,
+          "tenure": "Market for sale"
         }
       ],
       "total_no_existing_residential_units_intermediate": 0,
@@ -286,5 +358,5 @@
   "description": "DEMOLITION OF THE EXISTING DWELLING AND REPLACEMENT WITH A\r\nDETACHED TWO STOREY DWELLING WITH ASSOCIATED WORKS.",
   "id": "Merton-26_FULL_1796",
   "epc_number": null,
-  "last_updated": "2026-09-10T01:08:41.669Z"
+  "last_updated": "2026-10-06T07:34:03.399Z"
 }

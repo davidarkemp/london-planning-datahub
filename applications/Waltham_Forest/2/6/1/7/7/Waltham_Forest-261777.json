@@ -39,7 +39,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -75,7 +74,8 @@
               193312.106164003
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "crs": {
@@ -95,7 +95,7 @@
     "no_existing_car": 1
   },
   "lpa_name": "Waltham Forest",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Portal",
   "application_details": {
     "grey_water_reuse": false,
     "total_gia_lost": 0,
@@ -111,11 +111,11 @@
       "no_homes_passive_cooling": 0,
       "waste_details": [
         {
-          "reason_for_no_provision": "There is no demand for any of these ",
+          "external_dry_recycling": false,
           "external_food_waste": false,
           "unit_reference": "Garage",
-          "external_dry_recycling": false,
           "external_residual_waste": false,
+          "reason_for_no_provision": "There is no demand for any of these ",
           "internal_residual_waste": false,
           "internal_food_waste": false,
           "internal_dry_recycling": false
@@ -136,15 +136,15 @@
     "building_details": [
       {
         "no_storeys": 1,
-        "building_ref": "Single storey garage",
-        "max_height": 3.35
+        "max_height": 3.35,
+        "building_ref": "Single storey garage"
       }
     ],
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 22.5,
-        "use_class": "SG",
         "gia_existing": 0,
+        "use_class": "SG",
+        "gia_gained": 22.5,
         "gia_lost": 0
       }
     ],
@@ -159,13 +159,13 @@
     "affordable_housing_fast_track": false,
     "phasing_details": [
       {
-        "intended_completion_date": "10/2017",
         "phase_detail": "Phase 1",
+        "intended_completion_date": "10/2017",
         "intended_commencement_date": "07/2017"
       },
       {
-        "intended_completion_date": "10/2025",
         "phase_detail": "Phase 2",
+        "intended_completion_date": "10/2025",
         "intended_commencement_date": "05/2025"
       }
     ],
@@ -221,5 +221,5 @@
   "description": "Retention of a single storey outbuilding.",
   "id": "Waltham_Forest-261777",
   "epc_number": null,
-  "last_updated": "2026-09-10T01:08:41.536Z"
+  "last_updated": "2026-10-06T07:49:55.651Z"
 }
