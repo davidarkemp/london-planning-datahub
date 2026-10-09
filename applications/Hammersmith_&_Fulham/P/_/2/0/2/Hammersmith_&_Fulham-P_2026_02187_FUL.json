@@ -26,14 +26,14 @@
     "infrastructure_details": {
       "waste_details": [
         {
-          "unit_reference": "STORAGE",
-          "reason_for_no_provision": "THIS IS A REAR GARDEN OUT BUILDING",
-          "external_residual_waste": false,
-          "internal_dry_recycling": false,
-          "external_food_waste": false,
           "external_dry_recycling": false,
+          "external_food_waste": false,
+          "unit_reference": "STORAGE",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "THIS IS A REAR GARDEN OUT BUILDING",
           "internal_residual_waste": false,
-          "internal_food_waste": false
+          "internal_food_waste": false,
+          "internal_dry_recycling": false
         }
       ],
       "total_annual_nox_emissions": 0,
@@ -60,10 +60,10 @@
     ],
     "existing_proposed_floorspace_details": [
       {
-        "gia_lost": 0,
         "gia_existing": 8.3,
         "use_class": "SpecifiedOther",
-        "gia_gained": 8.3
+        "gia_gained": 8.3,
+        "gia_lost": 0
       }
     ],
     "ownership_status": "Private",
@@ -72,10 +72,10 @@
     "green_suds": false
   },
   "lpa_app_no": "P/2026/02187/FUL",
-  "last_updated": "2026-09-11T01:05:20.756Z",
+  "last_updated": "2026-10-08T12:50:00.401Z",
   "decision": null,
   "secondary_street_name": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Northgate M3",
   "decision_conditions": null,
   "cil_liability": false,
   "development_type": "Minor all other minor developments",
@@ -91,7 +91,6 @@
     "type": "geometrycollection",
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -115,7 +114,8 @@
               179873.2753299001
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ]
   },

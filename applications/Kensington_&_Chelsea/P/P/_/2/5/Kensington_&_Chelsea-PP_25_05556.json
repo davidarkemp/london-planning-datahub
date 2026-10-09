@@ -20,8 +20,105 @@
   "pp_id": "PP-14323955",
   "status": "Approved",
   "last_updated_by": "CSV Data Import",
-  "polygon": null,
-  "wgs84_polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              524164.75,
+              181873.65
+            ],
+            [
+              524165.733,
+              181871.088
+            ],
+            [
+              524166.4,
+              181869.35
+            ],
+            [
+              524166.8,
+              181868.35
+            ],
+            [
+              524169.8,
+              181869.5
+            ],
+            [
+              524173.9,
+              181871.05
+            ],
+            [
+              524183.15,
+              181874.55
+            ],
+            [
+              524179.45,
+              181879.3
+            ],
+            [
+              524170.552,
+              181875.88
+            ],
+            [
+              524164.75,
+              181873.65
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.2116997,
+          51.522142
+        ],
+        [
+          -0.2116864,
+          51.5221187
+        ],
+        [
+          -0.2116774,
+          51.5221029
+        ],
+        [
+          -0.211672,
+          51.5220939
+        ],
+        [
+          -0.2116284,
+          51.5221035
+        ],
+        [
+          -0.2115688,
+          51.5221166
+        ],
+        [
+          -0.2114343,
+          51.522146
+        ],
+        [
+          -0.21148589999999998,
+          51.5221895
+        ],
+        [
+          -0.21161529999999998,
+          51.5221607
+        ],
+        [
+          -0.2116997,
+          51.522142
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "appeal_decision_date": null,
   "secondary_street_name": null,
   "lapsed_date": "21/10/2028",
@@ -34,7 +131,7 @@
   "decision_target_date": null,
   "valid_date": "12/09/2025",
   "development_type": "Minor dwellings",
-  "last_updated": "2025-11-17T10:02:39.091Z",
+  "last_updated": "2026-10-08T11:05:04.315Z",
   "subdivision_of_building": null,
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
@@ -63,16 +160,16 @@
     "garden_land_lost": false,
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 44,
+        "gia_existing": 169,
         "use_class": "C3",
-        "gia_lost": 0,
-        "gia_existing": 169
+        "gia_gained": 44,
+        "gia_lost": 0
       }
     ],
     "building_details": [
       {
-        "max_height": 12.8,
         "no_storeys": 4,
+        "max_height": 12.8,
         "building_ref": "house"
       }
     ],
@@ -84,14 +181,14 @@
     "affordable_housing_fast_track": false,
     "rain_water_harvesting": false,
     "ownership_status": "Private",
-    "site_area": 0.0098,
+    "site_area": 0.01,
     "total_gia_lost": 0,
     "green_suds": false,
     "phasing_details": [
       {
-        "intended_commencement_date": "10/2025",
+        "phase_detail": "single phase covers the 'Entire Development'",
         "intended_completion_date": "03/2026",
-        "phase_detail": "single phase covers the 'Entire Development'"
+        "intended_commencement_date": "10/2025"
       }
     ],
     "infrastructure_details": {
@@ -111,14 +208,14 @@
       "total_annual_pm_emissions": 0,
       "waste_details": [
         {
-          "internal_dry_recycling": true,
-          "reason_for_no_provision": "No External Space available  (other than Public pavement at front)",
-          "internal_residual_waste": true,
-          "unit_reference": "A & B",
           "external_dry_recycling": false,
           "external_food_waste": false,
+          "unit_reference": "A & B",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "No External Space available  (other than Public pavement at front)",
+          "internal_residual_waste": true,
           "internal_food_waste": true,
-          "external_residual_waste": false
+          "internal_dry_recycling": true
         }
       ]
     }

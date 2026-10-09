@@ -34,7 +34,7 @@
   "decision_target_date": null,
   "valid_date": "13/06/2025",
   "development_type": null,
-  "last_updated": "2025-11-17T10:01:23.415Z",
+  "last_updated": "2026-10-08T11:04:57.951Z",
   "subdivision_of_building": null,
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
@@ -62,16 +62,16 @@
     "intended_commencement_date": "08/2025",
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 40,
+        "gia_existing": 94,
         "use_class": "C3",
-        "gia_lost": 13,
-        "gia_existing": 94
+        "gia_gained": 40,
+        "gia_lost": 13
       },
       {
-        "gia_gained": 0,
+        "gia_existing": 87,
         "use_class": "EC3",
-        "gia_lost": 0,
-        "gia_existing": 87
+        "gia_gained": 0,
+        "gia_lost": 0
       }
     ],
     "total_gia_lost": 13,
@@ -86,14 +86,13 @@
       "total_no_proposed_residential_units_starter_homes": 0,
       "residential_units": [
         {
-          "unit_no": "Gain-1",
-          "gia": 40,
-          "provider": "Private",
-          "no_bedrooms": 1,
-          "tenure": "Market for rent",
           "no_habitable_rooms": 2,
+          "provider": "Private",
+          "change_type": "Gain",
+          "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
-          "change_type": "Gain"
+          "gia": 40,
+          "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_london_living_rent": 0,
@@ -146,44 +145,44 @@
       "total_annual_pm_emissions": 0,
       "waste_details": [
         {
-          "internal_dry_recycling": true,
-          "reason_for_no_provision": "Existing Scenario - Collection bags are provided, as there is no external space fronting the street to store.",
-          "internal_residual_waste": true,
+          "external_dry_recycling": false,
+          "external_food_waste": false,
           "unit_reference": "Flat 1- Ex",
-          "external_dry_recycling": false,
-          "external_food_waste": false,
-          "internal_food_waste": true,
-          "external_residual_waste": false
-        },
-        {
-          "internal_dry_recycling": true,
+          "external_residual_waste": false,
           "reason_for_no_provision": "Existing Scenario - Collection bags are provided, as there is no external space fronting the street to store.",
           "internal_residual_waste": true,
-          "unit_reference": "Flat 2- Ex",
-          "external_dry_recycling": false,
-          "external_food_waste": false,
           "internal_food_waste": true,
-          "external_residual_waste": false
+          "internal_dry_recycling": true
         },
         {
-          "internal_dry_recycling": true,
+          "external_dry_recycling": false,
+          "external_food_waste": false,
+          "unit_reference": "Flat 2- Ex",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "Existing Scenario - Collection bags are provided, as there is no external space fronting the street to store.",
+          "internal_residual_waste": true,
+          "internal_food_waste": true,
+          "internal_dry_recycling": true
+        },
+        {
+          "external_dry_recycling": false,
+          "external_food_waste": false,
+          "unit_reference": "Retail- Ex",
+          "external_residual_waste": false,
           "reason_for_no_provision": "Existing Scenario - Refuse stored internally, and put out on collection day.",
           "internal_residual_waste": true,
-          "unit_reference": "Retail- Ex",
-          "external_dry_recycling": false,
-          "external_food_waste": false,
           "internal_food_waste": true,
-          "external_residual_waste": false
+          "internal_dry_recycling": true
         },
         {
-          "internal_dry_recycling": true,
-          "reason_for_no_provision": "Matching existing Scenario - Collection bags are to be provided, as there is no external space fronting the street to store.",
-          "internal_residual_waste": true,
-          "unit_reference": "New Flat 3",
           "external_dry_recycling": false,
           "external_food_waste": false,
+          "unit_reference": "New Flat 3",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "Matching existing Scenario - Collection bags are to be provided, as there is no external space fronting the street to store.",
+          "internal_residual_waste": true,
           "internal_food_waste": true,
-          "external_residual_waste": false
+          "internal_dry_recycling": true
         }
       ]
     }

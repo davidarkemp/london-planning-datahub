@@ -1,7 +1,7 @@
 {
   "borough": "Kensington & Chelsea",
   "application_type": "All Other",
-  "decision": null,
+  "decision": "Approved",
   "decision_conditions": null,
   "centroid_northing": 181676,
   "url_planning_app": null,
@@ -15,33 +15,138 @@
   "parking_details": null,
   "postcode": null,
   "appeal_status": null,
-  "cil_liability": null,
+  "cil_liability": false,
   "date_building_work_completed_under_previous_permission": null,
   "pp_id": "PP-14102135",
-  "status": "Application Under Consideration",
+  "status": "Approved",
   "last_updated_by": "CSV Data Import",
-  "polygon": null,
-  "wgs84_polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              524178.2,
+              181677.4
+            ],
+            [
+              524176.15,
+              181676.6
+            ],
+            [
+              524178.35,
+              181671
+            ],
+            [
+              524180.2,
+              181671.65
+            ],
+            [
+              524180.4,
+              181671.7
+            ],
+            [
+              524189.65,
+              181675.4
+            ],
+            [
+              524198.1,
+              181678.6
+            ],
+            [
+              524195.9,
+              181684.3
+            ],
+            [
+              524189.25,
+              181681.65
+            ],
+            [
+              524187.45,
+              181681
+            ],
+            [
+              524178.2,
+              181677.4
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.21157499999999999,
+          51.5203753
+        ],
+        [
+          -0.21160489999999998,
+          51.520368500000004
+        ],
+        [
+          -0.2115751,
+          51.5203177
+        ],
+        [
+          -0.2115483,
+          51.5203231
+        ],
+        [
+          -0.2115454,
+          51.5203235
+        ],
+        [
+          -0.21141079999999998,
+          51.5203548
+        ],
+        [
+          -0.2112879,
+          51.5203817
+        ],
+        [
+          -0.2113176,
+          51.5204334
+        ],
+        [
+          -0.2114144,
+          51.520411
+        ],
+        [
+          -0.2114405,
+          51.5204056
+        ],
+        [
+          -0.21157499999999999,
+          51.5203753
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "appeal_decision_date": null,
   "secondary_street_name": null,
-  "lapsed_date": null,
+  "lapsed_date": "29/05/2029",
   "bo_system": "CSV Data Import",
-  "decision_date": null,
+  "decision_date": "29/05/2026",
   "centroid_easting": 524184,
   "actual_commencement_date": null,
   "id": "Kensington_&_Chelsea-PP_25_03810",
   "lpa_name": "Kensington & Chelsea",
-  "decision_target_date": null,
+  "decision_target_date": "29/05/2026",
   "valid_date": "21/10/2025",
   "development_type": "Minor dwellings",
-  "last_updated": "2025-11-17T10:00:13.663Z",
+  "last_updated": "2026-10-08T11:05:00.976Z",
   "subdivision_of_building": null,
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
     "lat": 51.52036,
     "lon": -0.211516
   },
-  "decision_process": null,
+  "decision_process": "Committee",
   "application_type_full": "Full planning permission",
   "decision_agency": null,
   "street_name": null,
@@ -63,10 +168,10 @@
     "garden_land_lost": false,
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
+        "gia_existing": 224,
         "use_class": "C3",
-        "gia_lost": 0,
-        "gia_existing": 224
+        "gia_gained": 0,
+        "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
@@ -78,14 +183,14 @@
     "scheme_name": "Lot 24",
     "rain_water_harvesting": false,
     "ownership_status": "Public",
-    "site_area": 0.0224,
+    "site_area": 0.013000000000000001,
     "total_gia_lost": 0,
     "green_suds": false,
     "phasing_details": [
       {
-        "intended_commencement_date": "01/2025",
+        "phase_detail": "All works",
         "intended_completion_date": "05/2025",
-        "phase_detail": "All works"
+        "intended_commencement_date": "01/2025"
       }
     ],
     "infrastructure_details": {
@@ -105,14 +210,14 @@
       "total_annual_pm_emissions": 0,
       "waste_details": [
         {
-          "internal_dry_recycling": false,
-          "reason_for_no_provision": "Current waste situation unclear on provisions available. ",
-          "internal_residual_waste": false,
-          "unit_reference": "210",
           "external_dry_recycling": false,
           "external_food_waste": false,
+          "unit_reference": "210",
+          "external_residual_waste": true,
+          "reason_for_no_provision": "Current waste situation unclear on provisions available. ",
+          "internal_residual_waste": false,
           "internal_food_waste": false,
-          "external_residual_waste": true
+          "internal_dry_recycling": false
         }
       ]
     }

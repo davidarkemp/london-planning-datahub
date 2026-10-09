@@ -1,7 +1,7 @@
 {
   "borough": "Kensington & Chelsea",
   "application_type": "All Other",
-  "decision": null,
+  "decision": "Approved",
   "decision_conditions": null,
   "centroid_northing": 181874,
   "url_planning_app": null,
@@ -15,26 +15,72 @@
   "parking_details": null,
   "postcode": null,
   "appeal_status": null,
-  "cil_liability": null,
+  "cil_liability": false,
   "date_building_work_completed_under_previous_permission": null,
   "pp_id": "PP-14336621",
-  "status": "Application Under Consideration",
+  "status": "Approved",
   "last_updated_by": "CSV Data Import",
-  "polygon": null,
+  "polygon": {
+    "coordinates": [
+      [
+        [
+          524164.75,
+          181873.65
+        ],
+        [
+          524165.733,
+          181871.088
+        ],
+        [
+          524166.4,
+          181869.35
+        ],
+        [
+          524166.8,
+          181868.35
+        ],
+        [
+          524169.8,
+          181869.5
+        ],
+        [
+          524173.9,
+          181871.05
+        ],
+        [
+          524183.15,
+          181874.55
+        ],
+        [
+          524179.45,
+          181879.3
+        ],
+        [
+          524170.552,
+          181875.88
+        ],
+        [
+          524164.75,
+          181873.65
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
   "wgs84_polygon": null,
   "appeal_decision_date": null,
   "secondary_street_name": null,
-  "lapsed_date": null,
+  "lapsed_date": "21/04/2029",
   "bo_system": "CSV Data Import",
-  "decision_date": null,
+  "decision_date": "21/04/2026",
   "centroid_easting": 524174,
   "actual_commencement_date": null,
   "id": "Kensington_&_Chelsea-PP_25_05663",
   "lpa_name": "Kensington & Chelsea",
-  "decision_target_date": null,
+  "decision_target_date": "24/04/2026",
   "valid_date": "17/09/2025",
   "development_type": "Minor dwellings",
-  "last_updated": "2025-11-17T10:00:35.036Z",
+  "last_updated": "2026-10-08T11:05:07.039Z",
   "subdivision_of_building": " Rear Outrigger Flat roof  at 2nd Floor level",
   "reference_no_of_permission_being_relied_on": null,
   "centroid": {
@@ -63,10 +109,10 @@
     "garden_land_lost": false,
     "existing_proposed_floorspace_details": [
       {
-        "gia_gained": 0,
+        "gia_existing": 113,
         "use_class": "C3",
-        "gia_lost": 0,
-        "gia_existing": 113
+        "gia_gained": 0,
+        "gia_lost": 0
       }
     ],
     "projected_cost_of_works": "Up to £2m",
@@ -77,14 +123,14 @@
     "affordable_housing_fast_track": false,
     "rain_water_harvesting": false,
     "ownership_status": "Private",
-    "site_area": 0.0074,
+    "site_area": 0.01,
     "total_gia_lost": 0,
     "green_suds": false,
     "phasing_details": [
       {
-        "intended_commencement_date": "02/2026",
+        "phase_detail": "single phase covers the 'Entire Development'",
         "intended_completion_date": "03/2026",
-        "phase_detail": "single phase covers the 'Entire Development'"
+        "intended_commencement_date": "02/2026"
       }
     ],
     "infrastructure_details": {
@@ -104,14 +150,14 @@
       "total_annual_pm_emissions": 0,
       "waste_details": [
         {
-          "internal_dry_recycling": true,
-          "reason_for_no_provision": "No External Space available (other than Public pavement at front)",
-          "internal_residual_waste": true,
-          "unit_reference": "Flat B",
           "external_dry_recycling": false,
           "external_food_waste": false,
+          "unit_reference": "Flat B",
+          "external_residual_waste": false,
+          "reason_for_no_provision": "No External Space available (other than Public pavement at front)",
+          "internal_residual_waste": true,
           "internal_food_waste": true,
-          "external_residual_waste": false
+          "internal_dry_recycling": true
         }
       ]
     }
