@@ -4,7 +4,7 @@
   "application_type_full": "Full planning permission",
   "lpa_app_no": "224756FUL",
   "url_planning_app": null,
-  "actual_completion_date": null,
+  "actual_completion_date": "21/11/2024",
   "pp_id": "PP-11682224",
   "lapsed_date": "16/01/2026",
   "secondary_street_name": null,
@@ -19,7 +19,7 @@
   "epc_number": null,
   "appeal_status": null,
   "last_date_consultation_comments": "15/12/2022",
-  "description": "Conversion of existing dwellinghouse into 2 self-contained residential units; single storey front porch extension; single storey side/rear (wrap around) extension; first floor side extension\r\r",
+  "description": "Conversion of existing dwellinghouse into 2 self-contained residential units; single storey front porch extension; single storey side/rear (wrap around) extension; first floor side extension\n\n",
   "wgs84_polygon": {
     "coordinates": [
       [
@@ -76,12 +76,12 @@
     "type": "Polygon"
   },
   "development_type": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Portal",
   "locality": null,
-  "site_name": "6 Conway Crescent\rPerivale\rMiddlesex\rUB6 8HX\r",
+  "site_name": "6 Conway Crescent\nPerivale\nMiddlesex\nUB6 8HX\n",
   "appeal_decision_date": null,
   "date_building_work_completed_under_previous_permission": null,
-  "cil_liability": true,
+  "cil_liability": false,
   "decision_conditions": [
     "Balconies for Flat Roofs",
     "Standard Cond - Expiration Three Years",
@@ -96,11 +96,11 @@
     "External noise from machinery/equipment/",
     "Transport and/or commercial/industrial/c"
   ],
-  "postcode": null,
+  "postcode": "",
   "application_type": "All Other",
   "decision_date": "16/01/2023",
   "parking_details": null,
-  "status": "Commenced",
+  "status": "Completed",
   "centroid_easting": null,
   "valid_date": "24/11/2022",
   "borough": "London Borough of Ealing",
@@ -108,11 +108,11 @@
   "decision_target_date": "18/01/2023",
   "id": "Ealing-224756FUL",
   "lpa_name": "Ealing",
-  "bo_system": "Idox Uniform",
+  "bo_system": "Portal",
   "decision_agency": null,
   "date_building_work_started_under_previous_permission": null,
-  "last_updated": "2026-09-13T04:02:22.705Z",
-  "street_name": null,
+  "last_updated": "2026-10-09T15:11:46.883Z",
+  "street_name": "",
   "decision": "Approved",
   "appeal_start_date": null,
   "centroid_northing": null,
@@ -144,12 +144,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 90,
-        "gia_gained": 53,
+        "actual_completion_date": "21/11/2024",
         "use_class": "C3",
+        "gia_gained": 53,
+        "actual_commencement_date": "13/05/2024",
         "gia_lost": 0
       }
     ],
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "projected_cost_of_works": "Up to £2m",
     "surface_water_discharge_percentage_reduction": 5,
     "affordable_housing_fast_track": false,
@@ -160,12 +162,12 @@
         "building_ref": "0"
       }
     ],
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "green_suds": false,
     "rain_water_harvesting": false,
     "infrastructure_details": {
       "no_homes_passive_cooling": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "total_annual_pm_emissions": 2.9,
       "no_new_water_connections_required": 1,
       "mobile_network_operators_consultation": false,
@@ -235,36 +237,46 @@
         {
           "actual_completion_date": "21/11/2024",
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
           "actual_commencement_date": "13/05/2024",
-          "no_bedrooms": 3,
           "unit_type": "House or Bungalow",
+          "no_bedrooms": 3,
           "provision_for_older_persons": false,
+          "gia": null,
           "tenure": "Market for sale"
         },
         {
           "actual_completion_date": "21/11/2024",
-          "provider": "Private",
+          "description": null,
           "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
           "actual_commencement_date": "13/05/2024",
           "no_bedrooms": 3,
-          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
           "gia": 79,
-          "tenure": "Market for sale",
-          "unit_development_type": "Conversion"
+          "tenure": "Market for sale"
         },
         {
           "actual_completion_date": "21/11/2024",
-          "provider": "Private",
+          "description": null,
           "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
           "actual_commencement_date": "13/05/2024",
           "no_bedrooms": 2,
-          "unit_type": "Flat Apartment Maisonette",
           "provision_for_older_persons": false,
           "gia": 62,
-          "tenure": "Market for sale",
-          "unit_development_type": "Conversion"
+          "tenure": "Market for sale"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -272,6 +284,8 @@
     }
   },
   "appeal_decision": null,
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "ward": "PERVAL"
 }
