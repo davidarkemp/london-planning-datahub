@@ -6,7 +6,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -66,16 +65,17 @@
               188693
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "GeometryCollection"
   },
-  "description": "The proposal seeks planning permission for the change of use of the existing detached dwellinghouse at 1 Princes Road, Romford, RM1 2SR, from a single dwellinghouse (Use Class C3) to a House in Multiple Occupation (HMO) for up to six unrelated occupants, together with internal alterations.",
+  "description": "Change of use from single residential dwellinghouse (Class C3) to House in Multiple Occupation (HMO) (Class C4) for up to six unrelated occupants, together with internal alterations to include garage conversion to habitable space",
   "epc_number": "0925-1202-2005-9834-1100",
   "ward": "St Albans",
-  "last_updated": "2026-10-12T11:05:48.965Z",
-  "street_name": "Princes Road",
+  "last_updated": "2026-10-21T04:00:10.359Z",
+  "street_name": "Romford",
   "decision_conditions": null,
   "actual_completion_date": null,
   "bo_system": "CSV Data Import",
@@ -162,7 +162,7 @@
   "lpa_app_no": "P1134.26",
   "centroid_northing": 188699,
   "date_building_work_started_under_previous_permission": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "CSV Data Import",
   "application_details": {
     "total_gia_lost": 184.19,
     "total_gia_gained": 184.19,
@@ -181,17 +181,17 @@
     "total_gia_existing": 184.19,
     "existing_proposed_floorspace_details": [
       {
+        "gia_existing": 184.19,
         "use_class": "C3",
         "gia_gained": 184.19,
-        "gia_lost": 184.19,
-        "gia_existing": 184.19
+        "gia_lost": 184.19
       }
     ],
     "phasing_details": [
       {
         "phase_detail": "Entire development",
-        "intended_completion_date": "01/2027",
-        "intended_commencement_date": "12/2026"
+        "intended_commencement_date": "12/2026",
+        "intended_completion_date": "01/2027"
       }
     ],
     "occupation_status": "Occupied",
@@ -226,33 +226,33 @@
       "total_no_existing_residential_units_market_for_sale": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": false,
           "no_habitable_rooms": 7,
           "m43_2a_compliant": false,
           "m42_compliant": false,
-          "sheltered_accommodation": false,
           "change_type": "Loss",
+          "sheltered_accommodation": false,
           "garden_land": false,
-          "unit_type": "House or Bungalow",
-          "gia": 184.19,
-          "provision_for_older_persons": false,
-          "tenure": "Market for rent",
           "no_bedrooms": 4,
-          "m43_2b_compliant": false
+          "unit_type": "House or Bungalow",
+          "provision_for_older_persons": false,
+          "gia": 184.19,
+          "tenure": "Market for rent"
         },
         {
-          "no_habitable_rooms": 9,
+          "m43_2b_compliant": false,
           "m43_2a_compliant": false,
           "m42_compliant": false,
-          "sheltered_accommodation": false,
-          "provider": "Private",
           "change_type": "Gain",
+          "sheltered_accommodation": false,
           "garden_land": false,
           "unit_type": "Other",
-          "gia": 200.17,
-          "provision_for_older_persons": false,
-          "tenure": "IntermediateOther",
+          "provider": "Private",
+          "no_habitable_rooms": 9,
           "no_bedrooms": 7,
-          "m43_2b_compliant": false
+          "provision_for_older_persons": false,
+          "gia": 200.17,
+          "tenure": "IntermediateOther"
         }
       ],
       "total_no_proposed_residential_units_london_living_rent": 0,
@@ -290,7 +290,7 @@
     "internal_resi_water_usage": 0,
     "affordable_housing_fast_track": false
   },
-  "locality": "Romford",
+  "locality": null,
   "centroid": {
     "lat": 51.576628,
     "lon": 0.194235
@@ -310,6 +310,6 @@
   "last_date_consultation_comments": "27/10/2026",
   "id": "Havering-P1134.26",
   "decision_agency": "Borough",
-  "uprn": 100021392514,
+  "uprn": "100021392514",
   "title_number": null
 }

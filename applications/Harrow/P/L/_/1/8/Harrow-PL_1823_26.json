@@ -52,14 +52,14 @@
   "appeal_start_date": null,
   "epc_number": null,
   "borough": "Harrow",
-  "title_number": null,
+  "title_number": [],
   "valid_date": "06/07/2026",
-  "status": "Application Under Consideration",
+  "status": "Approved",
   "decision_process": "Delegated",
   "secondary_street_name": null,
   "date_building_work_completed_under_previous_permission": null,
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated": "2026-08-26T07:34:33.056Z",
+  "last_updated": "2026-10-21T13:15:33.779Z",
   "decision_target_date": "31/08/2026",
   "street_name": "CULVER GROVE",
   "postcode": "HA7 2NP",
@@ -107,15 +107,15 @@
   "url_planning_app": "https://planningsearch.harrow.gov.uk//planning/index.html?fa=getApplication&id=233701",
   "actual_completion_date": null,
   "application_type": "All Other",
-  "decision": null,
-  "decision_date": null,
+  "decision": "Approved",
+  "decision_date": "09/10/2026",
   "date_building_work_started_under_previous_permission": null,
   "appeal_status": null,
   "centroid_easting": 517373,
   "lpa_name": "Harrow",
   "decision_agency": "Borough",
   "last_updated_by": "Portal",
-  "lapsed_date": null,
+  "lapsed_date": "09/10/2029",
   "description": "Demolition of existing house and garage; re-development to construct a two storey building for two semi-detached houses; parking; separate amenity space; landscaping; bin and cycle stores",
   "last_date_consultation_comments": "06/08/2026",
   "application_details": {
@@ -124,14 +124,14 @@
       "no_homes_passive_cooling": 0,
       "no_homes_to_have_electrical_heating": 2,
       "no_new_water_connections_required": 2,
-      "waste_provision": true,
+      "waste_provision": false,
       "total_annual_pm_emissions": 0,
       "mobile_network_operators_consultation": false,
       "no_resi_units_to_have_full_fibre": 2,
       "green_roof_area": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "fire_suppression_system_proposed": true,
+      "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 2,
       "percentage_demolition_construction_material_recycling": 0
     },
@@ -141,36 +141,60 @@
       "total_no_proposed_residential_units_market_for_sale": 2,
       "residential_units": [
         {
-          "no_habitable_rooms": 4,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": false,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "no_bedrooms": 2,
           "unit_type": "House or Bungalow",
+          "unit_development_type": "New Build",
+          "provider": "Private",
+          "no_habitable_rooms": 4,
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "tenure": "Market for sale",
-          "gia": 100
+          "gia": 100,
+          "tenure": "Market for sale"
         },
         {
-          "no_habitable_rooms": 5,
-          "provider": "Private",
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": false,
           "change_type": "Gain",
-          "no_bedrooms": 3,
           "unit_type": "Semi Detached Home",
-          "tenure": "Market for sale",
-          "gia": 110
+          "unit_development_type": "New Build",
+          "provider": "Private",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "gia": 110,
+          "tenure": "Market for sale"
         },
         {
-          "no_habitable_rooms": 5,
-          "provider": "Private",
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": false,
           "change_type": "Gain",
-          "no_bedrooms": 3,
           "unit_type": "Semi Detached Home",
-          "tenure": "Market for sale",
-          "gia": 110
+          "unit_development_type": "New Build",
+          "provider": "Private",
+          "no_habitable_rooms": 5,
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "gia": 110,
+          "tenure": "Market for sale"
         }
       ],
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 50.76142131979695,
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units": 2,
       "total_no_proposed_residential_affordable_units": 0,
@@ -184,7 +208,7 @@
       "total_gia_lost": 100,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 253.80710659898475,
       "total_no_existing_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_existing_residential_affordable_units": 0,
@@ -203,11 +227,12 @@
       "total_no_proposed_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units": 1,
       "total_no_proposed_residential_units_london_living_rent": 0,
-      "total_no_existing_residential_units_shared_equity": 0
+      "total_no_existing_residential_units_shared_equity": 0,
+      "site_area": 0.039400000000000004
     },
     "total_gia_existing": 100,
     "grey_water_reuse": false,
-    "green_suds": true,
+    "green_suds": false,
     "ownership_status": "Private",
     "existing_proposed_floorspace_details": [
       {
@@ -229,7 +254,7 @@
         "intended_completion_date": "08/2028"
       }
     ],
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "building_details": [
       {
         "no_storeys": 2,
@@ -238,7 +263,7 @@
       }
     ],
     "total_gia_lost": 100,
-    "garden_land_lost": true,
+    "garden_land_lost": false,
     "internal_resi_water_usage": 95,
     "affordable_housing_fast_track": false,
     "non_residential_details": {
@@ -246,8 +271,44 @@
       "total_gia_gained": 220,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_existing": 100
-    }
+      "total_gia_existing": 100,
+      "site_area": 0.039400000000000004
+    },
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.039400000000000004
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "constraints_details": [
+      {
+        "result": "Centenary",
+        "constraints_layer_description": "Wards"
+      },
+      {
+        "result": "P/2241/10",
+        "constraints_layer_description": "planningapplication"
+      },
+      {
+        "result": "P/2241/10",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "PL/2203/25",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "137 Culver Grove, Stanmore, Harrow, HA7 2NP",
+        "constraints_layer_description": "Locations"
+      }
+    ]
   },
   "pp_id": "15042413",
   "actual_commencement_date": null,
@@ -267,6 +328,22 @@
     "no_existing_car": 2
   },
   "id": "Harrow-PL_1823_26",
-  "cil_liability": null,
-  "decision_conditions": null
+  "cil_liability": false,
+  "decision_conditions": [
+    "The materials to be used in the construction of the external surfaces of the extension hereby permitted shall match those stated in supporting documents",
+    "The development hereby permitted shall be begun before the expiration of three years from the date of this permission.",
+    "The development hereby permitted shall be carried out in accordance with the following approved plans and documents: 1561 01 001 D, 1561 01 002 D, 1561 03 001 E, 1561 03 002 B, 1561 / EX / 001 B, 1561 EX 002 A, 1561 / LP / 001 A, Planning & Design Statement (June 2026), Planning Statement (2 July 2026)  Biodiversity Statement (25_BNG_07_76), Biodiversity Metric Calculator (02-06-2026), Bat Survey (J1153.001, 15/09/2026), Flood Risk Assessment (15/05/2026), Drainage Report (EF000227.01R1), Drainage Report (EF000227.01R1 – 15/05/2026), Drainage Report (C3 137 CULVER GROVE.PFD – 10/06/2026), Drainage Report (EF000227-500-001 P03), Landscape Design - 0011-SKB-001 May 2026), 011-PL-GA-101 Rev 01, 25-818-TR01 Rev A, CIL Form 1, 1561 06 001, reasonable Exemptions Statement (July 2026). ",
+    "Notwithstanding the provisions of the Town and Country Planning (General Permitted Development) (England)  Order 2015 (or any order revoking and re-enacting that order with or without modification), no development which would otherwise fall within Classes A, B, D, E and F in Part 1 of Schedule 2 to that Order shall be carried out without the prior written permission of the local planning authority. ",
+    "None of the existing trees on the site shall be lopped, topped, felled or uprooted without the prior written permission of the local planning authority.  Any topping or lopping which is approved shall be carried out in accordance with British Standard 3998 (Tree Work).",
+    "Landscaping Scheme, including a Landscape Masterplan and detailed hard and soft landscape proposals, including green roof for bin and bike store.• Soft landscaping details, including:- Planting plans (minimum scale 1:100);- Plant schedules specifying species, sizes, container sizes at the time of planting, and planting densities; - Written specification for planting and cultivation works; and - A landscape implementation and phasing programme.• Details and samples of all hard surfacing materials.• Boundary treatment details.• Details of secure and screened bin and cycle storage.• Existing and proposed site levels.• Landscaping implementation, including replacement of any trees or plants that fail, die or become seriously damaged within five years of planting.  ",
+    "Arboricultural Method Statement and Tree Protection Plan ConditionPrior to the commencement of any development, including demolition, site clearance, excavation, delivery of materials or other preparatory works, an Arboricultural Method Statement (AMS) and Tree Protection Plan (TPP) prepared by a suitably qualified arboriculturist shall be submitted to and approved in writing by the Local Planning Authority. The approved details shall include:a) The location and specification of all tree protection fencing in accordance with BS 5837:2012 Trees in Relation to Design, Demolition and Construction;b) Measures for the protection of retained trees, hedgerows and their root protection areas throughout the construction period;c) Details of any special engineering or construction methods required within or adjacent to root protection areas;d) Arrangements for site access, storage of materials, parking of construction vehicles, mixing of concrete and siting of plant and machinery;e) A programme of arboricultural supervision and monitoring, including key stages requiring inspection by the project arboriculturist.The development shall thereafter be carried out in full accordance with the approved AMS and TPP. The approved tree protection measures shall be installed before any works commence on site and shall be retained for the duration of the construction period. No materials, spoil, equipment, machinery, fires, chemicals or excavations shall be placed or undertaken within the protected areas. ",
+    "Biodiversity Enhancement PlanPrior to the commencement of construction, a scale, colour plan of biodiversity enhancements on the site, to include the number, specification, and location of enhancements such as bat and bird boxes, shall be submitted to and approved in writing by the Local Planning Authority. Thereafter, the biodiversity enhancement measures shall be carried out and retained in accordance with the approved details. ",
+    "Precautionary Working Method StatementNo development shall take place (including vegetation/site clearance) until a Precautionary Working Method Statement (PWMS) for bats and nesting birds has been submitted to and approved in writing by the local planning authority. The PWMS should include, but may not be limited to;i.\tA toolbox talk covering the ecology of and legislation which protects species which may be present on site, to be delivered to construction personnel by the ECoW;ii.\tA plan showing areas of sensitivity and exclusion zones;iii.\tDetails of where and how waste and/or construction materials will be stored;iv.\tDetails of mitigation measures required for protected species;v.\tDetails of which construction tasks pose a risk to protected species, and will therefore be supervised by the ECoW;vi.\tMeasures for supervised vegetation clearance (e.g., phased, directional cut);vii.\tGuidance on sensitive roof strip techniques; andviii.\tProcedures to be followed if a protected species is discovered.The approved PWMS shall be implemented in full according to the specified timescales, unless otherwise agreed in writing by the local planning authority.",
+    "Construction Management Plan ConditionPrior to the commencement of development, a Construction Management Plan (CMP) shall be submitted to and approved in writing by the Local Planning Authority. The CMP shall include details of construction vehicle routing, site access arrangements, contractor parking, loading and unloading of materials, site compound locations, dust suppression measures, noise and vibration control, hours of construction, and wheel washing facilities.The development shall thereafter be carried out in accordance with the approved Construction Management Plan for the duration of the construction works. ",
+    "Evidence of certification of Secure by Design Accreditation for the development shall be submitted to the Local Planning Authority in writing for approval before any part of the development is occupied or used. The development shall only be completed and operated in accordance with any approval.",
+    "Biodiversity Gain PlanNotwithstanding the approved details, the development hereby approved shall not commence unless a Biodiversity Gain Plan [link] has been submitted to and approved in writing by the local planning authority. The Biodiversity Gain Plan must include the following (where relevant):(a) information about the steps taken or to be taken to minimise the adverse effect of the development on the biodiversity of the onsite habitat and any other habitat;(b) the pre-development biodiversity value of the onsite habitat;(c) the post-development biodiversity value of the onsite habitat;(d) any registered offsite biodiversity gain allocated to the development and the biodiversity value of that gain in relation to the development;(e) any biodiversity credits purchased for the development; and(f) any such other matters as the Secretary of State may by regulations specify.The development shall be carried out strictly in accordance with the approved Biodiversity Gain Plan. ",
+    "Development of any buildings hereby permitted shall not be commenced until surface water drainage works have been carried out in accordance with details to submitted to and approved in writing by the Local Planning Authority.  Prior to submission of those details, an assessment shall be carried out into the potential for disposing of surface water by means of a sustainable drainage system (SuDs) in accordance with the principles of sustainable drainage systems set out in Appendix E of PPG25, and the results of the assessment shall be provided to the Local Planning Authority with the details.  Where a SuDs scheme is to be implemented, the submitted details shall:\na) provide information about the design storm period and intensity, the method employed to delay and control the surface water discharged from the site and the measures taken to prevent pollution of the receiving groundwater and / or surface waters; and\nb) specify the responsibilities of each party for the implementation of the SuDs scheme, together with a timetable for that implementation; and\nc) provide a management and maintenance plan for the lifetime of the development which shall include the arrangements for adoption by any public authority or statutory undertaker or any other arrangements to secure the operation of the scheme throughout its lifetime.\nThe scheme shall be implemented, maintained and managed in accordance with the approved details.",
+    "The plans and particulars submitted in accordance with the approval of landscaping condition shall include:-\n(i)    a plan showing the location of, and allocating a reference number to, each existing tree on the site which has a stem with a diameter, measured over the bark at a point of 1.5 metres above ground level, exceeding 75mm, showing which trees are to be retained and the crown spread of each retained tree;\n(ii)   details of the species, diameter (measured in accordance with para (i) above), and the approximate height, and an assessment of the general state of health and stability, of each retained tree and of each tree which is on land adjacent to the site and to which paragraphs (iii) and (iv) below apply;\n(iii)  details of any proposed topping or lopping of any retained tree, or of any tree on land adjacent to the site;\n(iv)   details of any proposed alterations in existing ground levels, and of the position of any proposed excavation within the crown spread of any retained tree or of any tree on land adjacent to the site;\n(v)    details of the specification and position of fencing, and of any other measures to be taken for the protection of any retained tree from damage before or during the course of development.",
+    "Flood Risk, Drainage and Evacuation Plan Prior to the commencement of development (excluding demolition and site clearance), a detailed surface water drainage scheme, foul drainage scheme, and Flood Evacuation Plan shall be submitted to and approved in writing by the Local Planning Authority. The submitted details shall include:a) Confirmation of the required surface water attenuation volume and details demonstrating that sufficient on-site storage capacity is provided to accommodate all surface water runoff generated by the development;b) Detailed design drawings, calculations and specifications for all Sustainable Drainage Systems (SuDS), attenuation features and discharge arrangements;c) Full details of the proposed separate foul water drainage system;d) A Flood Evacuation Plan, including emergency planning measures, safe access and egress arrangements, and details of a safe evacuation route away from the source of flooding. The evacuation route shall be clearly identified on an appropriately scaled plan;e) Details of the future management, maintenance and operation of all drainage infrastructure for the lifetime of the development.The approved measures shall be implemented in full prior to the first occupation of the development and shall thereafter be retained and maintained in accordance with the approved details. "
+  ]
 }

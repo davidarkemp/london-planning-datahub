@@ -6,7 +6,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -130,7 +129,8 @@
               170396.8
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"
@@ -138,13 +138,17 @@
   "description": "Erection of a single storey rear garden outbuilding.",
   "epc_number": "8612-3129-6000-0770-2222",
   "ward": "Kingston Gate",
-  "last_updated": "2026-10-05T17:04:03.667Z",
+  "last_updated": "2026-10-21T17:03:28.268Z",
   "street_name": "Liverpool Road",
   "decision_conditions": null,
   "actual_completion_date": null,
   "bo_system": "Idox Uniform",
   "borough": "Kingston",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 1,
+    "net_car": 0,
+    "no_proposed_car": 1
+  },
   "lapsed_date": null,
   "actual_commencement_date": null,
   "cil_liability": false,
@@ -282,7 +286,7 @@
   "appeal_decision": null,
   "appeal_status": null,
   "secondary_street_name": null,
-  "application_type_full": null,
+  "application_type_full": "Lawful development: Proposed use",
   "lpa_app_no": "26/02044/CPU",
   "centroid_northing": 170425,
   "date_building_work_started_under_previous_permission": null,
@@ -362,9 +366,11 @@
     "commencement_notice_received": false,
     "existing_uprns": [
       "100021763819"
-    ]
+    ],
+    "no_additional_bathrooms": 0,
+    "no_additional_bedrooms": 0
   },
-  "locality": null,
+  "locality": "Kingston Upon Thames",
   "centroid": {
     "lat": 51.420243,
     "lon": -0.282205
@@ -385,5 +391,7 @@
   "id": "Kingston-26_02044_CPU",
   "decision_agency": null,
   "uprn": "100021763819",
-  "title_number": null
+  "title_number": [
+    "SY247403"
+  ]
 }

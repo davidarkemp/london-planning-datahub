@@ -7,17 +7,17 @@
   "decision_date": "21/08/2026",
   "street_name": "MALLARDS ROAD",
   "locality": null,
-  "status": "Approved",
+  "status": "Commenced",
   "date_building_work_started_under_previous_permission": null,
   "application_type_full": "Prior Approval: Change of use from Commercial, Business and Service (Use Class E) to Dwellinghouses (Use Class C3)",
   "lpa_name": "Redbridge",
   "decision_target_date": "27/08/2026",
   "lpa_app_no": "1753/26",
-  "title_number": null,
+  "title_number": [],
   "decision": "Approved",
-  "last_updated": "2026-08-22T00:00:46.357Z",
+  "last_updated": "2026-10-21T00:01:10.499Z",
   "appeal_start_date": null,
-  "actual_commencement_date": null,
+  "actual_commencement_date": "01/10/2026",
   "bo_system": "Agile APAS",
   "secondary_street_name": null,
   "decision_agency": null,
@@ -94,14 +94,16 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 80,
-        "use_class": "EF",
+        "use_class": "E(f)",
         "gia_gained": 0,
+        "actual_commencement_date": "01/10/2026",
         "gia_lost": 80
       },
       {
         "gia_existing": 0,
         "use_class": "C3",
         "gia_gained": 80,
+        "actual_commencement_date": "01/10/2026",
         "gia_lost": 0
       }
     ],
@@ -113,22 +115,32 @@
       "total_no_existing_residential_units_intermediate": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 1,
           "provider": "Private",
+          "no_habitable_rooms": 1,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
+          "actual_commencement_date": "01/10/2026",
           "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
-          "tenure": "Market for sale",
-          "gia": 39
+          "provision_for_older_persons": false,
+          "gia": 39,
+          "tenure": "Market for sale"
         },
         {
-          "no_habitable_rooms": 1,
           "provider": "Private",
+          "no_habitable_rooms": 1,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
+          "actual_commencement_date": "01/10/2026",
           "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
-          "tenure": "Market for sale",
-          "gia": 39
+          "provision_for_older_persons": false,
+          "gia": 39,
+          "tenure": "Market for sale"
         }
       ],
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
@@ -169,7 +181,23 @@
     "total_gia_gained": 80,
     "intended_completion_date": "12/2026",
     "intended_commencement_date": "08/2026",
-    "lead_developer_company_name": "Highways & Cleansing"
+    "lead_developer_company_name": "Highways & Cleansing",
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "scheme_phasing": false,
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "garden_land_lost": false
   },
   "site_name": "DEVELOPMENT REAR OF 157 AND 159 ST BARNABAS ROAD AT 30",
   "decision_process": null,
@@ -179,10 +207,12 @@
     "lat": 51.602347,
     "lon": 0.033984
   },
-  "polygon": null,
+  "polygon": {
+    "type": "geometrycollection"
+  },
   "appeal_decision": null,
   "borough": "Redbridge",
-  "cil_liability": null,
+  "cil_liability": false,
   "subdivision_of_building": null,
   "development_type": null,
   "reference_no_of_permission_being_relied_on": null

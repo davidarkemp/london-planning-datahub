@@ -6,7 +6,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -30,7 +29,8 @@
               177811.22638261784
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"
@@ -38,13 +38,20 @@
   "description": "Demolition of existing garage and erection of a new two storey plus basement single family dwellinghouse; including erection of a bike and bin store and installation of an external air source heat pump at ground floor level; alterations to the boundary walls and associated works.",
   "epc_number": null,
   "ward": "Lillie",
-  "last_updated": "2026-10-05T16:10:01.063Z",
+  "last_updated": "2026-10-21T14:40:00.299Z",
   "street_name": "Sedlescombe Road",
   "decision_conditions": null,
   "actual_completion_date": null,
   "bo_system": "Northgate M3",
   "borough": "Hammersmith & Fulham",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 1,
+    "net_car": -1,
+    "no_proposed_cycle": 4,
+    "no_proposed_car": 0,
+    "net_cycle": 4
+  },
   "lapsed_date": null,
   "actual_commencement_date": null,
   "cil_liability": false,
@@ -82,12 +89,68 @@
   "appeal_decision": null,
   "appeal_status": null,
   "secondary_street_name": null,
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "lpa_app_no": "P/2026/02217/FUL",
   "centroid_northing": 177806,
   "date_building_work_started_under_previous_permission": null,
   "last_updated_by": "Northgate M3",
-  "application_details": {},
+  "application_details": {
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "Phase 1",
+        "intended_commencement_date": "04/2027",
+        "intended_completion_date": "04/2028"
+      }
+    ],
+    "total_gia_gained": 69,
+    "site_area": 0.0075,
+    "total_gia_existing": 20,
+    "total_gia_lost": 0,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 20,
+        "use_class": "C3",
+        "gia_gained": 69,
+        "gia_lost": 0
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied",
+    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": true,
+    "surface_water_discharge_percentage_reduction": 50,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 69,
+      "total_gia_existing": 20,
+      "total_gia_lost": 0
+    },
+    "garden_land_lost": false,
+    "internal_resi_water_usage": 50,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 1,
+      "green_roof_area": 2,
+      "urban_greening_factor_score": 0.05,
+      "no_new_water_connections_required": 1,
+      "no_homes_passive_cooling": 1,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 100,
+      "no_homes_to_have_electrical_heating": 1,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 0,
+      "chp_heat_pumps_capacity": 0,
+      "ghg_reduction_over_building_regulations": true
+    },
+    "ownership_status": "Private"
+  },
   "locality": "London",
   "centroid": {
     "lat": 51.48535,

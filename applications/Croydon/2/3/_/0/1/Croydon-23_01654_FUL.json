@@ -31,7 +31,7 @@
   "site_name": "",
   "reference_no_of_permission_being_relied_on": null,
   "epc_number": null,
-  "last_updated": "2026-08-10T22:01:33.531Z",
+  "last_updated": "2026-10-21T22:01:27.660Z",
   "locality": null,
   "centroid_easting": "534402",
   "lpa_name": "Croydon",
@@ -42,14 +42,24 @@
   "secondary_street_name": null,
   "cil_liability": true,
   "application_details": {
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "garden_land_lost": false,
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 146,
-        "use_class": "E",
-        "gia_gained": 72.5,
+        "actual_completion_date": "31/03/2026",
+        "use_class": "E(a)",
+        "gia_gained": 0,
+        "actual_commencement_date": "01/04/2025",
         "gia_lost": 72
+      },
+      {
+        "gia_existing": 0,
+        "actual_completion_date": "31/03/2026",
+        "use_class": "C3",
+        "gia_gained": 72.5,
+        "actual_commencement_date": "01/04/2025",
+        "gia_lost": 0
       }
     ],
     "total_gia_gained": 72.5,
@@ -64,7 +74,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_gia_existing": 146,
       "total_gia_gained": 72.5,
-      "total_gia_lost": 72
+      "total_gia_lost": 72,
+      "site_area": 0.014
     },
     "green_suds": false,
     "grey_water_reuse": false,
@@ -79,7 +90,7 @@
       "no_non_resi_units_to_have_full_fibre": 1,
       "total_annual_nox_emissions": 0,
       "total_annual_pm_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "no_new_water_connections_required": 1,
       "no_new_gas_connections_required": 1,
       "green_roof_area": 0,
@@ -90,7 +101,7 @@
       "mobile_network_operators_consultation": false,
       "percentage_demolition_construction_material_recycling": 25,
       "no_resi_units_to_have_full_fibre": 1,
-      "ghg_reduction_over_building_regulations": true
+      "ghg_reduction_over_building_regulations": false
     },
     "residential_details": {
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -119,19 +130,26 @@
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 214.28571428571428,
       "total_gia_gained": 72.5,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 3,
-          "provider": "Private rented sector",
+          "actual_completion_date": "31/03/2026",
+          "description": null,
           "change_type": "Gain",
-          "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
-          "tenure": "Market for rent",
-          "gia": 72.5
+          "unit_development_type": "Change of Use",
+          "provider": "Private rented sector",
+          "no_habitable_rooms": 3,
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "01/04/2025",
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "gia": 72.5,
+          "tenure": "Market for rent"
         }
       ],
       "total_no_proposed_residential_units": 1,
@@ -140,15 +158,29 @@
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units_discount_market_sale": 0,
-      "dwelling_density": 0,
-      "total_gia_lost": 0
+      "dwelling_density": 71.42857142857143,
+      "total_gia_lost": 0,
+      "site_area": 0.014
     },
     "internal_resi_water_usage": 110,
     "total_gia_lost": 72,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.014
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "url_planning_app": null,
-  "actual_commencement_date": null,
+  "actual_commencement_date": "01/04/2025",
   "centroid": {
     "lon": -0.070079,
     "lat": 51.381906
@@ -233,7 +265,7 @@
   "decision_target_date": "26/07/2023",
   "centroid_northing": "166529",
   "application_type": "All Other",
-  "actual_completion_date": null,
+  "actual_completion_date": "31/03/2026",
   "title_number": [],
   "appeal_status": null,
   "description": "Alterations, conversion of first floor storage associated with ground floor shop (class E(a)) to form 1x 2-bedroom flat (class C3), erection of single storey side/rear extension, alterations to shopfront, provision of first-floor balcony and associated parking and cycle storage",
@@ -243,7 +275,7 @@
   "lpa_app_no": "23/01654/FUL",
   "application_type_full": "Full planning permission",
   "id": "Croydon-23_01654_FUL",
-  "status": "Lapsed",
+  "status": "Completed",
   "appeal_start_date": null,
   "decision": "Approved"
 }
