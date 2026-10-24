@@ -6,7 +6,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -38,7 +37,8 @@
               181578.67056960257
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "GeometryCollection"
@@ -46,7 +46,7 @@
   "description": "Demolition of the existing single-storey structure and the erection of a two-storey dwelling, together with associated landscaping, private amenity space, car parking, cycle and refuse storage and associated external works.",
   "epc_number": null,
   "ward": "COLHAM & COWLEY",
-  "last_updated": "2026-09-29T22:00:11.622Z",
+  "last_updated": "2026-10-23T22:00:11.743Z",
   "street_name": "COWLEY",
   "decision_conditions": null,
   "actual_completion_date": null,
@@ -126,25 +126,25 @@
     },
     "building_details": [
       {
+        "no_storeys": 2,
         "max_height": 8.19,
-        "building_ref": "Entire Development",
-        "no_storeys": 2
+        "building_ref": "Entire Development"
       }
     ],
     "total_gia_existing": 19.54,
     "existing_proposed_floorspace_details": [
       {
+        "gia_existing": 19.54,
         "use_class": "C3",
         "gia_gained": 65.46,
-        "gia_lost": 0,
-        "gia_existing": 19.54
+        "gia_lost": 0
       }
     ],
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_completion_date": "07/2028",
-        "intended_commencement_date": "07/2027"
+        "intended_commencement_date": "07/2027",
+        "intended_completion_date": "07/2028"
       }
     ],
     "occupation_status": "Vacant",
@@ -182,19 +182,19 @@
       "total_no_existing_residential_units_market_for_sale": 0,
       "residential_units": [
         {
-          "no_habitable_rooms": 4,
+          "m43_2b_compliant": false,
           "m43_2a_compliant": false,
           "m42_compliant": false,
-          "sheltered_accommodation": false,
-          "provider": "Private",
           "change_type": "Gain",
+          "sheltered_accommodation": false,
           "garden_land": false,
           "unit_type": "Semi Detached Home",
-          "gia": 85,
-          "provision_for_older_persons": false,
-          "tenure": "Market for sale",
+          "provider": "Private",
+          "no_habitable_rooms": 4,
           "no_bedrooms": 3,
-          "m43_2b_compliant": false
+          "provision_for_older_persons": false,
+          "gia": 85,
+          "tenure": "Market for sale"
         }
       ],
       "total_no_proposed_residential_units_london_living_rent": 0,
@@ -243,7 +243,7 @@
   "application_type": "All Other",
   "valid_date": "27/08/2026",
   "pp_id": "15156470",
-  "decision_target_date": "22/10/2026",
+  "decision_target_date": "12/11/2026",
   "site_name": "77 ST PETER'S ROAD",
   "decision": null,
   "appeal_start_date": null,
