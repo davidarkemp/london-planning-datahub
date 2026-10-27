@@ -1,6 +1,6 @@
 {
   "decision_agency": null,
-  "status": "Approved",
+  "status": "Commenced",
   "decision": "Approved",
   "centroid": {
     "lon": -0.075814,
@@ -63,9 +63,9 @@
   "parking_details": null,
   "date_building_work_completed_under_previous_permission": null,
   "id": "Croydon-24_03660_GPDO",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "31/12/2025",
   "lpa_name": "Croydon",
-  "last_updated": "2025-12-30T23:01:04.832Z",
+  "last_updated": "2026-10-26T23:03:52.925Z",
   "lpa_app_no": "24/03660/GPDO",
   "wgs84_polygon": {
     "coordinates": [
@@ -114,8 +114,16 @@
       {
         "gia_existing": 143.6,
         "use_class": "E(f)",
-        "gia_gained": 143.6,
+        "gia_gained": 0,
+        "actual_commencement_date": "31/12/2025",
         "gia_lost": 143.6
+      },
+      {
+        "gia_existing": 0,
+        "use_class": "C3",
+        "gia_gained": 143.6,
+        "actual_commencement_date": "31/12/2025",
+        "gia_lost": 0
       }
     ],
     "occupation_status": "Vacant",
@@ -125,7 +133,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 143.6,
       "total_gia_existing": 143.6,
-      "total_gia_lost": 143.6
+      "total_gia_lost": 143.6,
+      "site_area": 0.01
     },
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
@@ -147,13 +156,13 @@
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 400,
       "total_no_existing_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 170.4,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 500,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_gia_lost": 0,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
@@ -166,45 +175,74 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
+          "actual_commencement_date": "31/12/2025",
           "unit_type": "Communal Space",
+          "provision_for_older_persons": false,
           "gia": 15
         },
         {
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
+          "actual_commencement_date": "31/12/2025",
           "unit_type": "Communal Space",
+          "provision_for_older_persons": false,
           "gia": 9.1
         },
         {
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Change of Use",
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "change_type": "Gain",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "31/12/2025",
           "no_bedrooms": 1,
-          "unit_type": "Flat Apartment Maisonette",
+          "provision_for_older_persons": false,
           "gia": 55.8,
           "tenure": "Market for rent"
         },
         {
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Studio Bedsit",
+          "unit_development_type": "Change of Use",
           "no_habitable_rooms": 1,
           "provider": "Private",
-          "change_type": "Gain",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "31/12/2025",
           "no_bedrooms": 1,
-          "unit_type": "Studio Bedsit",
+          "provision_for_older_persons": false,
           "gia": 48.5,
           "tenure": "Market for rent"
         },
         {
+          "description": null,
+          "change_type": "Gain",
+          "unit_type": "Studio Bedsit",
+          "unit_development_type": "Change of Use",
           "no_habitable_rooms": 1,
           "provider": "Private",
-          "change_type": "Gain",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "31/12/2025",
           "no_bedrooms": 1,
-          "unit_type": "Studio Bedsit",
+          "provision_for_older_persons": false,
           "gia": 42,
           "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.01
     },
     "infrastructure_details": {
       "total_annual_pm_emissions": 0,
@@ -214,21 +252,40 @@
       "no_homes_passive_cooling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 50,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
       "fire_suppression_system_proposed": false,
       "no_new_gas_connections_required": 0,
       "chp_heat_pumps_capacity": 7.5,
-      "ghg_reduction_over_building_regulations": true
+      "ghg_reduction_over_building_regulations": false
     },
     "total_gia_lost": 143.6,
     "intended_completion_date": "04/2024",
     "intended_commencement_date": "12/2023",
     "total_gia_existing": 143.6,
     "lead_developer_company_name": "Gracewood Construction Ltd.",
-    "site_area": 0.01
+    "site_area": 0.01,
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "scheme_phasing": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.01
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "garden_land_lost": false
   },
   "last_updated_by": "Idox Uniform",
   "postcode": "SE25 5AD",
