@@ -6,9 +6,9 @@
   "appeal_start_date": null,
   "cil_liability": false,
   "decision_conditions": [
-    "&lt;p&gt;The proposed change of use of residential dwelling (C3) to HMO for up to 6 persons (C4) falls within the parameters of permitted development as set out under Schedule 2, Part 3, Class L of the Town and Country Planning (General Permitted Development) England) Order 2015 (as amended).&lt;/p&gt;",
-    "&lt;p&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;The proposal is therefore a lawful development.&lt;/span&gt;&lt;/p&gt;",
-    "&lt;span style=&quot;text-align: justify;&quot;&gt;The proposal would be within the tolerances of Schedule 2, Part 1 Classes A, B and C of The Town and Country Planning (General Permitted Development) (England) Order 2015 (as amended).&lt;/span&gt;"
+    "The proposed change of use of residential dwelling (C3) to HMO for up to 6 persons (C4) falls within the parameters of permitted development as set out under Schedule 2, Part 3, Class L of the Town and Country Planning (General Permitted Development) England) Order 2015 (as amended).",
+    "The proposal is therefore a lawful development.",
+    "The proposal would be within the tolerances of Schedule 2, Part 1 Classes A, B and C of The Town and Country Planning (General Permitted Development) (England) Order 2015 (as amended)."
   ],
   "actual_commencement_date": null,
   "pp_id": "14452445",
@@ -101,11 +101,11 @@
   "development_type": "Certificates of Lawful Development",
   "appeal_status": null,
   "date_building_work_completed_under_previous_permission": null,
-  "description": "Certificate of Lawful Proposed Development: Change of use from C3 (Dwelling houses) to C4 (HMO for up to 6 persons), Front porch, Alterations to roof to form end gable and rear dormer, Two roof\r\nlights in front roof slope, Single-storey rear extension (Following established prior approval ref: PL/2111/25), Alterations to roof of rear extension, External alterations",
+  "description": "Certificate of Lawful Proposed Development: Change of use from C3 (Dwelling houses) to C4 (HMO for up to 6 persons), Front porch, Alterations to roof to form end gable and rear dormer, Two roof\nlights in front roof slope, Single-storey rear extension (Following established prior approval ref: PL/2111/25), Alterations to roof of rear extension, External alterations",
   "appeal_decision": null,
   "date_building_work_started_under_previous_permission": null,
   "epc_number": null,
-  "last_updated": "2026-10-06T07:48:16.987Z",
+  "last_updated": "2026-10-27T16:20:41.367Z",
   "centroid": {
     "lon": -0.308428,
     "lat": 51.587846
@@ -130,7 +130,7 @@
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_proposed_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
@@ -153,21 +153,33 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
           "unit_type": "House or Bungalow",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "unit_development_type": "Conversion"
+          "unit_development_type": "Conversion",
+          "gia": 112.3,
+          "tenure": "Market for rent"
         },
         {
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "unit_type": "HMO",
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "unit_development_type": "Conversion"
+          "unit_development_type": "Conversion",
+          "gia": 142.3,
+          "tenure": "Market for rent"
         }
       ],
-      "total_no_existing_residential_units_market_for_rent": 0,
+      "total_no_existing_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_gia_gained": 30
     },
@@ -182,7 +194,16 @@
     "transport_impact_assessment": false,
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3"
+        "gia_existing": 112.3,
+        "use_class": "C3",
+        "gia_gained": 0,
+        "gia_lost": 112.3
+      },
+      {
+        "gia_existing": 0,
+        "use_class": "C4",
+        "gia_gained": 142.3,
+        "gia_lost": 0
       }
     ],
     "scheme_phasing": false,

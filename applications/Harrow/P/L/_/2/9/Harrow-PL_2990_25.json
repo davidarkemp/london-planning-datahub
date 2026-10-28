@@ -1,6 +1,6 @@
 {
   "decision_target_date": "13/01/2026",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Portal",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Certificates of Lawful Development",
@@ -20,8 +20,11 @@
     "transport_impact_assessment": false,
     "existing_proposed_floorspace_details": [
       {
+        "gia_existing": 173.2,
         "use_class": "C3",
-        "actual_commencement_date": "22/04/2026"
+        "gia_gained": null,
+        "actual_commencement_date": "22/04/2026",
+        "gia_lost": 0
       }
     ],
     "commencement_notice_received": false,
@@ -42,7 +45,7 @@
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units": 1,
-      "total_no_proposed_residential_affordable_units": 0,
+      "total_no_proposed_residential_affordable_units": 1,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_living_rent": 0,
@@ -54,14 +57,14 @@
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_market_for_sale": 0,
-      "total_no_existing_residential_affordable_units": 0,
+      "total_no_existing_residential_affordable_units": 1,
       "total_no_existing_residential_units_affordable_rent": 0,
       "habitable_rooms_density": null,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_social_rent": 0,
-      "total_no_existing_residential_units_london_affordable_rent": 0,
+      "total_no_existing_residential_units_london_affordable_rent": 1,
       "dwelling_density": 0,
-      "total_no_proposed_residential_units_london_affordable_rent": 0,
+      "total_no_proposed_residential_units_london_affordable_rent": 1,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
@@ -69,24 +72,36 @@
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
-      "affordable_percentage": 0,
+      "affordable_percentage": 100,
       "residential_units": [
         {
-          "provider": "Private",
+          "actual_completion_date": "13/01/2026",
+          "description": null,
           "change_type": "Loss",
-          "actual_commencement_date": "13/01/2026",
           "unit_type": "House or Bungalow",
+          "unit_development_type": "Change of Use",
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "13/01/2026",
+          "no_bedrooms": 4,
           "provision_for_older_persons": false,
-          "unit_development_type": "Change of Use"
+          "gia": 173.2,
+          "tenure": "London Affordable Rent"
         },
         {
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "actual_commencement_date": "13/01/2026",
           "unit_type": "Other",
           "no_bedrooms": 5,
           "provision_for_older_persons": false,
-          "unit_development_type": "Change of Use"
+          "unit_development_type": "Change of Use",
+          "gia": 173.2,
+          "tenure": "London Affordable Rent"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -130,8 +145,8 @@
   "decision_conditions": [
     "The proposed use of the dwellinghouse as a supported living accommodation facility for up to 5 persons (5 bed) (Use Class C3(b)) would not result in a material change of use from Class C3 (Dwellinghouses) and would therefore be within the tolerances of the Town and Country Planning (Use Class) Order 1987 (as amended).The proposal is therefore a lawful development."
   ],
-  "site_number": 90,
-  "last_updated": "2026-06-28T11:14:12.024Z",
+  "site_number": "90",
+  "last_updated": "2026-10-27T16:14:37.248Z",
   "last_date_consultation_comments": "15/12/2025",
   "valid_date": "18/11/2025",
   "actual_commencement_date": "13/01/2026",
@@ -149,74 +164,72 @@
         "coordinates": [
           [
             [
-              [
-                514921.392,
-                188592.194
-              ],
-              [
-                514908.426,
-                188589.635
-              ],
-              [
-                514904.9,
-                188588.9
-              ],
-              [
-                514896.05,
-                188587.15
-              ],
-              [
-                514890.05,
-                188585.95
-              ],
-              [
-                514891.5,
-                188578.95
-              ],
-              [
-                514896.1,
-                188579.9
-              ],
-              [
-                514904.85,
-                188581.65
-              ],
-              [
-                514920.179,
-                188584.88
-              ],
-              [
-                514922.65,
-                188585.4
-              ],
-              [
-                514922.95,
-                188583.85
-              ],
-              [
-                514928.3,
-                188584.9
-              ],
-              [
-                514927.45,
-                188589.15
-              ],
-              [
-                514926.6,
-                188593.2
-              ],
-              [
-                514923.702,
-                188592.64
-              ],
-              [
-                514921.392,
-                188592.194
-              ]
+              514921.392,
+              188592.194
+            ],
+            [
+              514908.426,
+              188589.635
+            ],
+            [
+              514904.9,
+              188588.9
+            ],
+            [
+              514896.05,
+              188587.15
+            ],
+            [
+              514890.05,
+              188585.95
+            ],
+            [
+              514891.5,
+              188578.95
+            ],
+            [
+              514896.1,
+              188579.9
+            ],
+            [
+              514904.85,
+              188581.65
+            ],
+            [
+              514920.179,
+              188584.88
+            ],
+            [
+              514922.65,
+              188585.4
+            ],
+            [
+              514922.95,
+              188583.85
+            ],
+            [
+              514928.3,
+              188584.9
+            ],
+            [
+              514927.45,
+              188589.15
+            ],
+            [
+              514926.6,
+              188593.2
+            ],
+            [
+              514923.702,
+              188592.64
+            ],
+            [
+              514921.392,
+              188592.194
             ]
           ]
         ],
-        "type": "MultiPolygon"
+        "type": "Polygon"
       }
     ],
     "crs": {
@@ -235,79 +248,77 @@
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": false,
   "wgs84_polygon": {
-    "type": "MultiPolygon",
+    "type": "Polygon",
     "coordinates": [
       [
         [
-          [
-            -0.342699,
-            51.584479
-          ],
-          [
-            -0.342887,
-            51.584458
-          ],
-          [
-            -0.342938,
-            51.584452
-          ],
-          [
-            -0.343066,
-            51.584438
-          ],
-          [
-            -0.343153,
-            51.584429
-          ],
-          [
-            -0.343135,
-            51.584366
-          ],
-          [
-            -0.343068,
-            51.584373
-          ],
-          [
-            -0.342941,
-            51.584387
-          ],
-          [
-            -0.342719,
-            51.584413
-          ],
-          [
-            -0.342683,
-            51.584417
-          ],
-          [
-            -0.342679,
-            51.584403
-          ],
-          [
-            -0.342602,
-            51.584412
-          ],
-          [
-            -0.342613,
-            51.58445
-          ],
-          [
-            -0.342624,
-            51.584487
-          ],
-          [
-            -0.342666,
-            51.584482
-          ],
-          [
-            -0.342699,
-            51.584479
-          ]
+          -0.342699,
+          51.584479
+        ],
+        [
+          -0.342887,
+          51.584458
+        ],
+        [
+          -0.342938,
+          51.584452
+        ],
+        [
+          -0.343066,
+          51.584438
+        ],
+        [
+          -0.343153,
+          51.584429
+        ],
+        [
+          -0.343135,
+          51.584366
+        ],
+        [
+          -0.343068,
+          51.584373
+        ],
+        [
+          -0.342941,
+          51.584387
+        ],
+        [
+          -0.342719,
+          51.584413
+        ],
+        [
+          -0.342683,
+          51.584417
+        ],
+        [
+          -0.342679,
+          51.584403
+        ],
+        [
+          -0.342602,
+          51.584412
+        ],
+        [
+          -0.342613,
+          51.58445
+        ],
+        [
+          -0.342624,
+          51.584487
+        ],
+        [
+          -0.342666,
+          51.584482
+        ],
+        [
+          -0.342699,
+          51.584479
         ]
       ]
     ]
   },
-  "uprn": 100021284771,
+  "uprn": "100021284771",
   "application_type": "All Other",
   "centroid": {
     "lat": 51.584409,

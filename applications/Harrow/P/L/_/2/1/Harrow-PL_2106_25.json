@@ -1,6 +1,6 @@
 {
   "decision_target_date": "06/10/2025",
-  "last_updated_by": "PP overwrite repair",
+  "last_updated_by": "Portal",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Minor dwellings",
@@ -22,8 +22,11 @@
     "transport_impact_assessment": false,
     "existing_proposed_floorspace_details": [
       {
+        "gia_existing": 119,
         "use_class": "C3",
-        "actual_commencement_date": "24/02/2026"
+        "gia_gained": 26,
+        "actual_commencement_date": "24/02/2026",
+        "gia_lost": null
       }
     ],
     "circular_economy_statement": false,
@@ -55,7 +58,7 @@
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_proposed_residential_units_market_for_rent": 2,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
@@ -80,33 +83,49 @@
       "residential_units": [
         {
           "actual_completion_date": "24/02/2026",
-          "provider": "Private",
+          "description": null,
           "change_type": "Loss",
-          "actual_commencement_date": "24/02/2026",
           "unit_type": "Flat Apartment Maisonette",
+          "unit_development_type": "Conversion",
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "24/02/2026",
+          "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "unit_development_type": "Conversion"
+          "gia": 119,
+          "tenure": "Market for rent"
         },
         {
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "actual_commencement_date": "24/02/2026",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "unit_development_type": "Conversion"
+          "unit_development_type": "Conversion",
+          "gia": 84,
+          "tenure": "Market for rent"
         },
         {
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "actual_commencement_date": "24/02/2026",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "unit_development_type": "Conversion"
+          "unit_development_type": "Conversion",
+          "gia": 61,
+          "tenure": "Market for rent"
         }
       ],
-      "total_no_existing_residential_units_market_for_rent": 0,
+      "total_no_existing_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_gia_gained": 145,
       "total_gia_lost": 120.4
@@ -165,8 +184,8 @@
     "The cycle and refuse storage shall be made available prior to the first occupation in accordance with the approved plans and shall thereafter be retained in perpetuity.",
     "The boundary treatment shall be installed prior to the first occupation of the development hereby permitted in accordance with the approved plans and shall thereafter be retained in perpetuity."
   ],
-  "site_number": 340,
-  "last_updated": "2026-07-16T18:55:44.533Z",
+  "site_number": "340",
+  "last_updated": "2026-10-27T15:38:20.384Z",
   "last_date_consultation_comments": "04/09/2025",
   "valid_date": "11/08/2025",
   "actual_commencement_date": "24/02/2026",
@@ -184,70 +203,68 @@
         "coordinates": [
           [
             [
-              [
-                513697.839,
-                188722.804
-              ],
-              [
-                513696.9,
-                188724.15
-              ],
-              [
-                513696.1,
-                188725.25
-              ],
-              [
-                513688.9,
-                188720.25
-              ],
-              [
-                513675.2,
-                188710.8
-              ],
-              [
-                513678.7,
-                188705.55
-              ],
-              [
-                513686.7,
-                188710.95
-              ],
-              [
-                513688.05,
-                188711.85
-              ],
-              [
-                513688.747,
-                188712.314
-              ],
-              [
-                513689.7,
-                188712.95
-              ],
-              [
-                513699.9,
-                188719.85
-              ],
-              [
-                513703.9,
-                188722.55
-              ],
-              [
-                513703.1,
-                188723.75
-              ],
-              [
-                513701.879,
-                188725.624
-              ],
-              [
-                513697.839,
-                188722.804
-              ]
+              513697.839,
+              188722.804
+            ],
+            [
+              513696.9,
+              188724.15
+            ],
+            [
+              513696.1,
+              188725.25
+            ],
+            [
+              513688.9,
+              188720.25
+            ],
+            [
+              513675.2,
+              188710.8
+            ],
+            [
+              513678.7,
+              188705.55
+            ],
+            [
+              513686.7,
+              188710.95
+            ],
+            [
+              513688.05,
+              188711.85
+            ],
+            [
+              513688.747,
+              188712.314
+            ],
+            [
+              513689.7,
+              188712.95
+            ],
+            [
+              513699.9,
+              188719.85
+            ],
+            [
+              513703.9,
+              188722.55
+            ],
+            [
+              513703.1,
+              188723.75
+            ],
+            [
+              513701.879,
+              188725.624
+            ],
+            [
+              513697.839,
+              188722.804
             ]
           ]
         ],
-        "type": "MultiPolygon"
+        "type": "Polygon"
       }
     ],
     "crs": {
@@ -266,75 +283,73 @@
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": false,
   "wgs84_polygon": {
-    "type": "MultiPolygon",
+    "type": "Polygon",
     "coordinates": [
       [
         [
-          [
-            -0.360309,
-            51.5859
-          ],
-          [
-            -0.360322,
-            51.585913
-          ],
-          [
-            -0.360333,
-            51.585923
-          ],
-          [
-            -0.360439,
-            51.585879
-          ],
-          [
-            -0.360639,
-            51.585797
-          ],
-          [
-            -0.360591,
-            51.585749
-          ],
-          [
-            -0.360473,
-            51.585796
-          ],
-          [
-            -0.360454,
-            51.585804
-          ],
-          [
-            -0.360444,
-            51.585808
-          ],
-          [
-            -0.36043,
-            51.585813
-          ],
-          [
-            -0.36028,
-            51.585873
-          ],
-          [
-            -0.360222,
-            51.585897
-          ],
-          [
-            -0.360233,
-            51.585908
-          ],
-          [
-            -0.36025,
-            51.585925
-          ],
-          [
-            -0.360309,
-            51.5859
-          ]
+          -0.360309,
+          51.5859
+        ],
+        [
+          -0.360322,
+          51.585913
+        ],
+        [
+          -0.360333,
+          51.585923
+        ],
+        [
+          -0.360439,
+          51.585879
+        ],
+        [
+          -0.360639,
+          51.585797
+        ],
+        [
+          -0.360591,
+          51.585749
+        ],
+        [
+          -0.360473,
+          51.585796
+        ],
+        [
+          -0.360454,
+          51.585804
+        ],
+        [
+          -0.360444,
+          51.585808
+        ],
+        [
+          -0.36043,
+          51.585813
+        ],
+        [
+          -0.36028,
+          51.585873
+        ],
+        [
+          -0.360222,
+          51.585897
+        ],
+        [
+          -0.360233,
+          51.585908
+        ],
+        [
+          -0.36025,
+          51.585925
+        ],
+        [
+          -0.360309,
+          51.5859
         ]
       ]
     ]
   },
-  "uprn": 100023029094,
+  "uprn": "100023029094",
   "application_type": "All Other",
   "centroid": {
     "lat": 51.585797,

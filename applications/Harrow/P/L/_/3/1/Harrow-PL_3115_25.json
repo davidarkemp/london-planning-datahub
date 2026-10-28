@@ -1,6 +1,6 @@
 {
   "decision_target_date": "27/01/2026",
-  "last_updated_by": "PP overwrite repair",
+  "last_updated_by": "Portal",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Minor dwellings",
@@ -18,8 +18,11 @@
     "transport_impact_assessment": false,
     "existing_proposed_floorspace_details": [
       {
+        "gia_existing": 190,
         "use_class": "C3",
-        "actual_commencement_date": "25/02/2026"
+        "gia_gained": null,
+        "actual_commencement_date": "25/02/2026",
+        "gia_lost": 12
       }
     ],
     "commencement_notice_received": false,
@@ -33,7 +36,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 0,
       "total_gia_lost": 0,
-      "total_gia_existing": 180
+      "total_gia_existing": 180,
+      "site_area": 0.0281
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -43,11 +47,11 @@
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_residential_units_affordable_rent": 0,
       "total_no_existing_residential_units": 1,
-      "total_no_proposed_residential_affordable_units": 0,
+      "total_no_proposed_residential_affordable_units": 2,
       "total_no_proposed_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_london_living_rent": 0,
-      "total_no_existing_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_units_market_for_sale": 1,
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_market_for_rent": 0,
@@ -57,12 +61,12 @@
       "total_no_proposed_residential_units_market_for_sale": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
-      "total_no_proposed_residential_units_london_affordable_rent": 0,
+      "dwelling_density": 71.17437722419929,
+      "total_no_proposed_residential_units_london_affordable_rent": 2,
       "total_no_proposed_residential_units_starter_homes": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
@@ -70,40 +74,57 @@
       "total_no_proposed_residential_units_discount_market_rent": 0,
       "total_no_proposed_residential_units_intermediate": 0,
       "total_no_proposed_residential_units_london_shared_ownership": 0,
-      "affordable_percentage": 0,
+      "affordable_percentage": 100,
       "residential_units": [
         {
           "actual_completion_date": "25/02/2026",
-          "provider": "Private",
+          "description": null,
           "change_type": "Loss",
-          "actual_commencement_date": "25/02/2026",
           "unit_type": "House or Bungalow",
+          "unit_development_type": "Conversion",
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "25/02/2026",
+          "no_bedrooms": 4,
           "provision_for_older_persons": false,
-          "unit_development_type": "Conversion"
+          "gia": 190,
+          "tenure": "Market for sale"
         },
         {
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "actual_commencement_date": "25/02/2026",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "unit_development_type": "Conversion"
+          "unit_development_type": "Conversion",
+          "gia": null,
+          "tenure": "London Affordable Rent"
         },
         {
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
           "actual_commencement_date": "25/02/2026",
           "unit_type": "Flat Apartment Maisonette",
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "unit_development_type": "Conversion"
+          "unit_development_type": "Conversion",
+          "gia": null,
+          "tenure": "London Affordable Rent"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "total_gia_gained": 178,
-      "total_gia_lost": 190
+      "total_gia_lost": 190,
+      "site_area": 0.0281
     },
     "infrastructure_details": {
       "waste_provision": false,
@@ -137,7 +158,10 @@
     "total_gia_lost": 0,
     "occupation_status": "Occupied",
     "surface_water_discharge_percentage_reduction": 0,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "other_residential_accommodation_details": {
+      "site_area": 0.0281
+    }
   },
   "decision_date": "25/02/2026",
   "url_planning_app": "https://planningsearch.harrow.gov.uk//planning/index.html?fa=getApplication&id=232015",
@@ -159,15 +183,15 @@
     "All planting, seeding or turfing comprised in the approved scheme of  landscaping shall be carried out in the first planting and seeding seasons following the first occupation of the building(s), or the completion of the development, whichever is the sooner.  Any existing or new trees or shrubs which, within a period of 5 years from the completion of the 5 development, die, are removed, or become seriously damaged or diseased, shall be replaced in the next planting season, with others of a similar size and species, unless the local authority agrees any variation in writing.",
     "Notwithstanding the approved plans, the development hereby by approved shall not be occupied until full details of boundary treatment including access gates, shall be submitted to and approved in writing by the Local Planning Authority. The development shall be carried out in accordance with the plan approved and retained thereafter.",
     "Prior to the first occupation of the development hereby permitted details shall be shall be submitted to the Local authority of the location of a secure and sheltered cycle store, including the dimensions and external finish of the store and shall be submitted to and approved in writing by the Local Planning Authority. The cycle storage shall be made available prior to occupation of the development and shall be retained thereafter.",
-    "Notwithstanding the provisions of the Town and Country Planning (General Permitted Development) (England) Order 2015 (or any order revoking and reenacting that order with or without modification), no development which would otherwise fall within Class L in Part 3 and of Schedule 2 to that Order shall be carried out without the prior written permission of the local planning authority.  ",
+    "Notwithstanding the provisions of the Town and Country Planning (General Permitted Development) (England) Order 2015 (or any order revoking and reenacting that order with or without modification), no development which would otherwise fall within Class L in Part 3 and of Schedule 2 to that Order shall be carried out without the prior written permission of the local planning authority.",
     "The window(s) and openings in the side elevation(s) of the proposed development shall: (a) be of purpose-made obscure glass, (b) be permanently fixed closed below a height of 1.7m above finished floor level, and shall thereafter be retained in that form.",
-    "Notwithstanding the approved plans and prior to the first occupation of the development hereby permitted, full details of the external appearance and location of bin stores shall be submitted to and approved in writing by the local planning authority. The bin stores shall be made available prior to occupation and shall be retained thereafter. The refuse bins shall be stored at all times, other than on collection days, in the designated refuse storage area, as shown on the approved drawing. ",
-    "Prior to the commencement of the development hereby approved a Construction Logistics Plan shall be submitted to, and approved in writing by the local planning authority. The Construction Logistics Plan shall provide for: Duration of construction, Type of vehicles to be used, Peak construction period.The development shall be carried out in accordance with the approved Construction Logistics Plan, or any amendment or variation to it as may be agreed in writing by the local planning authority. ",
-    "Notwithstanding the approved details, the development hereby permitted shall not be occupied until there has been a scheme of hard and soft landscape works for the site submitted to, and approved by the Local Planning Authority.Soft landscape works shall include: planting plans (at a scale not less than 1:100), schedules of plants, noting species, plant sizes, plant container sizes (all at time of planting) and proposed numbers / densities.Hard landscape works shall include; details of boundary treatments (materials, scale of boundary, location) and details of hard surfacing materials to be used in the landscaping of the site, Written specification of planting and cultivation works to be undertaken. A landscape implementation programme with proposed timing / dates for the works. ",
+    "Notwithstanding the approved plans and prior to the first occupation of the development hereby permitted, full details of the external appearance and location of bin stores shall be submitted to and approved in writing by the local planning authority. The bin stores shall be made available prior to occupation and shall be retained thereafter. The refuse bins shall be stored at all times, other than on collection days, in the designated refuse storage area, as shown on the approved drawing.",
+    "Prior to the commencement of the development hereby approved a Construction Logistics Plan shall be submitted to, and approved in writing by the local planning authority. The Construction Logistics Plan shall provide for: Duration of construction, Type of vehicles to be used, Peak construction period.The development shall be carried out in accordance with the approved Construction Logistics Plan, or any amendment or variation to it as may be agreed in writing by the local planning authority.",
+    "Notwithstanding the approved details, the development hereby permitted shall not be occupied until there has been a scheme of hard and soft landscape works for the site submitted to, and approved by the Local Planning Authority.Soft landscape works shall include: planting plans (at a scale not less than 1:100), schedules of plants, noting species, plant sizes, plant container sizes (all at time of planting) and proposed numbers / densities.Hard landscape works shall include; details of boundary treatments (materials, scale of boundary, location) and details of hard surfacing materials to be used in the landscaping of the site, Written specification of planting and cultivation works to be undertaken. A landscape implementation programme with proposed timing / dates for the works.",
     "Prior to the commencement of the development hereby approved, a Fire Safety Statement shall be submitted to and approved in writing by the Local Planning Authority, this statement shall include details of how the development will function in terms of the following:\n1) identify suitably positioned unobstructed outside space: a) for fire appliances to be positioned on b) appropriate for use as an evacuation assembly point \n2) is designed to incorporate appropriate features which reduce the risk to life and the risk of serious injury in the event of a fire; including appropriate fire alarm systems and passive and active fire safety measures \n3) is constructed in an appropriate way to minimise the risk of fire spread \n4) provide suitable and convenient means of escape, and associated evacuation strategy for all building users \n5) develop a robust management strategy for evacuation which is to be periodically updated and published (details of how often this management strategy is to be reviewed and published to be included), and which all building users can have confidence in\n6) provide suitable access and equipment for firefighting which is appropriate for the size and use of the development.\nThe development shall be operated in accordance with the approved details in perpetuity."
   ],
-  "site_number": 2,
-  "last_updated": "2026-07-16T19:16:37.092Z",
+  "site_number": "2",
+  "last_updated": "2026-10-27T14:31:39.152Z",
   "last_date_consultation_comments": "13/01/2026",
   "valid_date": "02/12/2025",
   "actual_commencement_date": "25/02/2026",
@@ -185,126 +209,124 @@
         "coordinates": [
           [
             [
-              [
-                515193.88,
-                190546.376
-              ],
-              [
-                515193.15,
-                190547.65
-              ],
-              [
-                515192.8,
-                190548.25
-              ],
-              [
-                515191.45,
-                190550.2
-              ],
-              [
-                515185.8,
-                190558.15
-              ],
-              [
-                515182.4,
-                190562.95
-              ],
-              [
-                515181.75,
-                190562.1
-              ],
-              [
-                515181.1,
-                190561.3
-              ],
-              [
-                515180.1,
-                190559.6
-              ],
-              [
-                515179.25,
-                190557.85
-              ],
-              [
-                515179.15,
-                190557.55
-              ],
-              [
-                515178.6,
-                190556.05
-              ],
-              [
-                515178.3,
-                190554.5
-              ],
-              [
-                515178.3,
-                190553.65
-              ],
-              [
-                515178.4,
-                190552.8
-              ],
-              [
-                515178.5,
-                190551.65
-              ],
-              [
-                515178.6,
-                190550.4
-              ],
-              [
-                515184.374,
-                190544.197
-              ],
-              [
-                515186.53,
-                190541.88
-              ],
-              [
-                515188.012,
-                190540.289
-              ],
-              [
-                515188.822,
-                190539.418
-              ],
-              [
-                515200.8,
-                190526.55
-              ],
-              [
-                515202.919,
-                190526.696
-              ],
-              [
-                515205.15,
-                190526.85
-              ],
-              [
-                515202.373,
-                190531.6
-              ],
-              [
-                515201.35,
-                190533.35
-              ],
-              [
-                515195.282,
-                190543.933
-              ],
-              [
-                515194.953,
-                190544.507
-              ],
-              [
-                515193.88,
-                190546.376
-              ]
+              515193.88,
+              190546.376
+            ],
+            [
+              515193.15,
+              190547.65
+            ],
+            [
+              515192.8,
+              190548.25
+            ],
+            [
+              515191.45,
+              190550.2
+            ],
+            [
+              515185.8,
+              190558.15
+            ],
+            [
+              515182.4,
+              190562.95
+            ],
+            [
+              515181.75,
+              190562.1
+            ],
+            [
+              515181.1,
+              190561.3
+            ],
+            [
+              515180.1,
+              190559.6
+            ],
+            [
+              515179.25,
+              190557.85
+            ],
+            [
+              515179.15,
+              190557.55
+            ],
+            [
+              515178.6,
+              190556.05
+            ],
+            [
+              515178.3,
+              190554.5
+            ],
+            [
+              515178.3,
+              190553.65
+            ],
+            [
+              515178.4,
+              190552.8
+            ],
+            [
+              515178.5,
+              190551.65
+            ],
+            [
+              515178.6,
+              190550.4
+            ],
+            [
+              515184.374,
+              190544.197
+            ],
+            [
+              515186.53,
+              190541.88
+            ],
+            [
+              515188.012,
+              190540.289
+            ],
+            [
+              515188.822,
+              190539.418
+            ],
+            [
+              515200.8,
+              190526.55
+            ],
+            [
+              515202.919,
+              190526.696
+            ],
+            [
+              515205.15,
+              190526.85
+            ],
+            [
+              515202.373,
+              190531.6
+            ],
+            [
+              515201.35,
+              190533.35
+            ],
+            [
+              515195.282,
+              190543.933
+            ],
+            [
+              515194.953,
+              190544.507
+            ],
+            [
+              515193.88,
+              190546.376
             ]
           ]
         ],
-        "type": "MultiPolygon"
+        "type": "Polygon"
       }
     ],
     "crs": {
@@ -323,131 +345,129 @@
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": false,
   "wgs84_polygon": {
-    "type": "MultiPolygon",
+    "type": "Polygon",
     "coordinates": [
       [
         [
-          [
-            -0.338127,
-            51.601986
-          ],
-          [
-            -0.338137,
-            51.601998
-          ],
-          [
-            -0.338142,
-            51.602003
-          ],
-          [
-            -0.338161,
-            51.602021
-          ],
-          [
-            -0.33824,
-            51.602094
-          ],
-          [
-            -0.338287,
-            51.602138
-          ],
-          [
-            -0.338297,
-            51.60213
-          ],
-          [
-            -0.338307,
-            51.602123
-          ],
-          [
-            -0.338322,
-            51.602108
-          ],
-          [
-            -0.338335,
-            51.602092
-          ],
-          [
-            -0.338336,
-            51.60209
-          ],
-          [
-            -0.338344,
-            51.602076
-          ],
-          [
-            -0.338349,
-            51.602062
-          ],
-          [
-            -0.33835,
-            51.602055
-          ],
-          [
-            -0.338348,
-            51.602047
-          ],
-          [
-            -0.338347,
-            51.602037
-          ],
-          [
-            -0.338346,
-            51.602026
-          ],
-          [
-            -0.338265,
-            51.601969
-          ],
-          [
-            -0.338235,
-            51.601947
-          ],
-          [
-            -0.338214,
-            51.601933
-          ],
-          [
-            -0.338202,
-            51.601925
-          ],
-          [
-            -0.338034,
-            51.601807
-          ],
-          [
-            -0.338003,
-            51.601808
-          ],
-          [
-            -0.337971,
-            51.601808
-          ],
-          [
-            -0.338009,
-            51.601852
-          ],
-          [
-            -0.338024,
-            51.601868
-          ],
-          [
-            -0.338108,
-            51.601964
-          ],
-          [
-            -0.338112,
-            51.601969
-          ],
-          [
-            -0.338127,
-            51.601986
-          ]
+          -0.338127,
+          51.601986
+        ],
+        [
+          -0.338137,
+          51.601998
+        ],
+        [
+          -0.338142,
+          51.602003
+        ],
+        [
+          -0.338161,
+          51.602021
+        ],
+        [
+          -0.33824,
+          51.602094
+        ],
+        [
+          -0.338287,
+          51.602138
+        ],
+        [
+          -0.338297,
+          51.60213
+        ],
+        [
+          -0.338307,
+          51.602123
+        ],
+        [
+          -0.338322,
+          51.602108
+        ],
+        [
+          -0.338335,
+          51.602092
+        ],
+        [
+          -0.338336,
+          51.60209
+        ],
+        [
+          -0.338344,
+          51.602076
+        ],
+        [
+          -0.338349,
+          51.602062
+        ],
+        [
+          -0.33835,
+          51.602055
+        ],
+        [
+          -0.338348,
+          51.602047
+        ],
+        [
+          -0.338347,
+          51.602037
+        ],
+        [
+          -0.338346,
+          51.602026
+        ],
+        [
+          -0.338265,
+          51.601969
+        ],
+        [
+          -0.338235,
+          51.601947
+        ],
+        [
+          -0.338214,
+          51.601933
+        ],
+        [
+          -0.338202,
+          51.601925
+        ],
+        [
+          -0.338034,
+          51.601807
+        ],
+        [
+          -0.338003,
+          51.601808
+        ],
+        [
+          -0.337971,
+          51.601808
+        ],
+        [
+          -0.338009,
+          51.601852
+        ],
+        [
+          -0.338024,
+          51.601868
+        ],
+        [
+          -0.338108,
+          51.601964
+        ],
+        [
+          -0.338112,
+          51.601969
+        ],
+        [
+          -0.338127,
+          51.601986
         ]
       ]
     ]
   },
-  "uprn": 100021290052,
+  "uprn": "100021290052",
   "application_type": "All Other",
   "centroid": {
     "lat": 51.602011,

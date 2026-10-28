@@ -3,17 +3,118 @@
   "decision_process": null,
   "site_number": "53",
   "url_planning_app": null,
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              543049.2,
+              188631.4
+            ],
+            [
+              543049.5,
+              188620
+            ],
+            [
+              543062.55,
+              188620.4
+            ],
+            [
+              543063.4,
+              188620.75
+            ],
+            [
+              543070.1042680719,
+              188627.3501150751
+            ],
+            [
+              543062.3757271599,
+              188634.55728207735
+            ],
+            [
+              543055.1,
+              188627.25
+            ],
+            [
+              543052,
+              188626.05
+            ],
+            [
+              543051.85,
+              188631.45
+            ],
+            [
+              543049.2,
+              188631.4
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      {
+        "coordinates": [
+          [
+            [
+              543062.3757271599,
+              188634.55728207735
+            ],
+            [
+              543070.1042680719,
+              188627.3501150751
+            ],
+            [
+              543083.15,
+              188640.15
+            ],
+            [
+              543083.75,
+              188640.9
+            ],
+            [
+              543084.05,
+              188641.85
+            ],
+            [
+              543083.9,
+              188642.95
+            ],
+            [
+              543083.55,
+              188643.8
+            ],
+            [
+              543077.75,
+              188649.95
+            ],
+            [
+              543062.3757271599,
+              188634.55728207735
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "description": "Erection of one (one x 3-bedroom) detached single dwelling house with associated cycle storage, waste / refuse storage, landscaping works and amenity space. (Summary).",
   "epc_number": null,
   "ward": null,
-  "last_updated": "2026-10-10T00:00:48.260Z",
+  "last_updated": "2026-10-28T00:01:15.714Z",
   "street_name": "Woodford Avenue",
   "decision_conditions": null,
   "actual_completion_date": null,
   "bo_system": "Agile APAS",
   "borough": "Redbridge",
-  "parking_details": {},
+  "parking_details": {
+    "no_existing_cycle": 0,
+    "no_existing_car": 1,
+    "net_car": 0,
+    "no_proposed_cycle": 2,
+    "no_proposed_car": 1,
+    "net_cycle": 2
+  },
   "lapsed_date": null,
   "actual_commencement_date": null,
   "cil_liability": null,
@@ -43,6 +144,98 @@
           51.578476
         ]
       ]
+    ],
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              0.063039,
+              51.5784
+            ],
+            [
+              0.063039,
+              51.578297
+            ],
+            [
+              0.063227,
+              51.578298
+            ],
+            [
+              0.063239,
+              51.5783
+            ],
+            [
+              0.063339,
+              51.578358
+            ],
+            [
+              0.06323,
+              51.578425
+            ],
+            [
+              0.063122,
+              51.578361
+            ],
+            [
+              0.063077,
+              51.578351
+            ],
+            [
+              0.063077,
+              51.5784
+            ],
+            [
+              0.063039,
+              51.5784
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      {
+        "coordinates": [
+          [
+            [
+              0.06323,
+              51.578425
+            ],
+            [
+              0.063339,
+              51.578358
+            ],
+            [
+              0.063532,
+              51.57847
+            ],
+            [
+              0.063541,
+              51.578476
+            ],
+            [
+              0.063546,
+              51.578485
+            ],
+            [
+              0.063544,
+              51.578495
+            ],
+            [
+              0.063539,
+              51.578503
+            ],
+            [
+              0.063458,
+              51.578559
+            ],
+            [
+              0.06323,
+              51.578425
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
     ]
   },
   "decision_date": null,
@@ -51,20 +244,154 @@
   "appeal_decision": null,
   "appeal_status": null,
   "secondary_street_name": null,
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "lpa_app_no": "2440/26",
   "centroid_northing": 188639,
   "date_building_work_started_under_previous_permission": null,
   "last_updated_by": "Agile APAS",
   "application_details": {
-    "lead_developer_company_name": "Network Management"
+    "lead_developer_company_name": "Network Management",
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "Site clearance and ground works",
+        "intended_completion_date": "02/2027",
+        "intended_commencement_date": "11/2026"
+      },
+      {
+        "phase_detail": "Construction of dwelling (to watertight) ",
+        "intended_completion_date": "03/2027",
+        "intended_commencement_date": "03/2027"
+      },
+      {
+        "phase_detail": "Internal insulation and fit out ",
+        "intended_completion_date": "06/2027",
+        "intended_commencement_date": "04/2027"
+      },
+      {
+        "phase_detail": "Snagging, commissioning, landscaping & decorating",
+        "intended_completion_date": "08/2027",
+        "intended_commencement_date": "07/2027"
+      }
+    ],
+    "total_gia_gained": 108.5,
+    "site_area": 0.01832,
+    "total_gia_existing": 0,
+    "total_gia_lost": 0,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 0,
+        "use_class": "C3",
+        "gia_gained": 108.5,
+        "gia_lost": 0
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied",
+    "rain_water_harvesting": false,
+    "scheme_phasing": true,
+    "building_details": [
+      {
+        "no_storeys": 2,
+        "max_height": 6.79,
+        "building_ref": "New detached dwelling"
+      }
+    ],
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "surface_water_discharge_percentage_reduction": 0,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 108.5,
+      "total_gia_existing": 0,
+      "total_gia_lost": 0
+    },
+    "garden_land_lost": true,
+    "internal_resi_water_usage": 140,
+    "residential_details": {
+      "total_no_proposed_residential_units_shared_equity": 0,
+      "total_no_proposed_bedrooms": 3,
+      "total_no_proposed_residential_units_london_living_rent": 0,
+      "total_no_proposed_residential_units": 1,
+      "total_no_existing_residential_units": 0,
+      "total_no_proposed_residential_units_affordable_rent": 0,
+      "total_no_proposed_residential_affordable_units": 0,
+      "total_no_proposed_residential_units_discount_market_sale": 0,
+      "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_london_living_rent": 0,
+      "total_no_existing_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_units_shared_equity": 0,
+      "total_no_existing_residential_units_intermediate": 0,
+      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_existing_residential_units_social_rent": 0,
+      "total_no_proposed_residential_units_self_build_and_custom_build": 0,
+      "total_no_existing_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_market_for_sale": 1,
+      "total_no_existing_residential_affordable_units": 0,
+      "total_no_existing_residential_units_affordable_rent": 0,
+      "habitable_rooms_density": null,
+      "total_no_existing_residential_units_london_shared_ownership": 0,
+      "total_gia_gained": 108.5,
+      "total_no_proposed_residential_units_social_rent": 0,
+      "total_no_existing_residential_units_london_affordable_rent": 0,
+      "dwelling_density": 0,
+      "total_no_existing_residential_units_discount_market_sale": 0,
+      "total_no_proposed_residential_units_london_affordable_rent": 0,
+      "total_no_proposed_residential_units_starter_homes": 0,
+      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_starter_homes": 0,
+      "total_no_proposed_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_intermediate": 0,
+      "total_no_proposed_residential_units_london_shared_ownership": 0,
+      "affordable_percentage": 0,
+      "residential_units": [
+        {
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
+          "change_type": "Gain",
+          "m42_compliant": false,
+          "sheltered_accommodation": false,
+          "garden_land": true,
+          "unit_type": "House or Bungalow",
+          "no_habitable_rooms": 5,
+          "provider": "Private",
+          "no_bedrooms": 3,
+          "provision_for_older_persons": false,
+          "gia": 108.5,
+          "tenure": "Market for sale"
+        }
+      ],
+      "total_no_existing_residential_units_market_for_rent": 0,
+      "total_no_existing_residential_units_self_build_and_custom_build": 0
+    },
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0,
+      "no_active_slow_ev_charging_points": 0,
+      "no_resi_units_to_have_full_fibre": 1,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_new_water_connections_required": 1,
+      "no_homes_passive_cooling": 0,
+      "no_passive_slow_ev_charging_points": 1,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": true,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 1,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 0,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "ownership_status": "Private"
   },
-  "locality": null,
+  "locality": "Ilford",
   "centroid": {
     "lat": 51.578463,
     "lon": 0.063342
   },
-  "subdivision_of_building": null,
+  "subdivision_of_building": "Proposal is to develop (by construction a new detached residential dwelling) a portion of the garden of the existing property at 53 Woodford Avenue.  ",
   "appeal_decision_date": null,
   "development_type": null,
   "reference_no_of_permission_being_relied_on": null,
