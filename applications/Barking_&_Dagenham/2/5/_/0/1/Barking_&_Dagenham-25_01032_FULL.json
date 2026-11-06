@@ -1,18 +1,18 @@
 {
   "decision_target_date": "09/09/2025",
-  "last_updated_by": "PP overwrite repair",
+  "last_updated_by": "Portal",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": "Minor dwellings",
   "postcode": "RM8 1NS",
-  "title_number": null,
+  "title_number": [],
   "application_details": {
     "affordable_housing_fast_track": false,
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_completion_date": "01/2027",
-        "intended_commencement_date": "01/2026"
+        "intended_commencement_date": "01/2026",
+        "intended_completion_date": "01/2027"
       }
     ],
     "total_gia_gained": 460.8,
@@ -36,7 +36,7 @@
     "projected_cost_of_works": "Up to £2m",
     "occupation_status": "Occupied",
     "rain_water_harvesting": false,
-    "scheme_phasing": true,
+    "scheme_phasing": false,
     "building_details": [
       {
         "no_storeys": 2,
@@ -52,7 +52,8 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 275.2,
       "total_gia_gained": 460.8,
       "total_gia_lost": 275.2,
-      "total_gia_existing": 275.2
+      "total_gia_existing": 275.2,
+      "site_area": 0.05
     },
     "garden_land_lost": false,
     "residential_details": {
@@ -76,12 +77,12 @@
       "total_no_proposed_residential_units_market_for_sale": 4,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units_affordable_rent": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 400,
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_gia_gained": 460.8,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_existing_residential_units_london_affordable_rent": 0,
-      "dwelling_density": 0,
+      "dwelling_density": 80,
       "total_no_proposed_residential_units_london_affordable_rent": 0,
       "total_no_existing_residential_units_discount_market_sale": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
@@ -95,66 +96,84 @@
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
+          "description": null,
           "m42_compliant": true,
           "change_type": "Gain",
-          "garden_land": false,
           "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Terraced Home",
           "no_habitable_rooms": 5,
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "28/09/2026",
           "no_bedrooms": 4,
           "provision_for_older_persons": false,
-          "tenure": "Market for sale",
-          "gia": 115.2
+          "gia": 115.2,
+          "tenure": "Market for sale"
         },
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
+          "description": null,
           "m42_compliant": true,
           "change_type": "Gain",
-          "garden_land": false,
           "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Terraced Home",
           "no_habitable_rooms": 5,
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "28/09/2026",
           "no_bedrooms": 4,
           "provision_for_older_persons": false,
-          "tenure": "Market for sale",
-          "gia": 115.2
+          "gia": 115.2,
+          "tenure": "Market for sale"
         },
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
+          "description": null,
           "m42_compliant": true,
           "change_type": "Gain",
-          "garden_land": false,
           "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Terraced Home",
           "no_habitable_rooms": 5,
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "28/09/2026",
           "no_bedrooms": 4,
           "provision_for_older_persons": false,
-          "tenure": "Market for sale",
-          "gia": 115.2
+          "gia": 115.2,
+          "tenure": "Market for sale"
         },
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
+          "description": null,
           "m42_compliant": true,
           "change_type": "Gain",
-          "garden_land": false,
           "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Terraced Home",
           "no_habitable_rooms": 5,
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "actual_commencement_date": "28/09/2026",
           "no_bedrooms": 4,
           "provision_for_older_persons": false,
-          "tenure": "Market for sale",
-          "gia": 115.2
+          "gia": 115.2,
+          "tenure": "Market for sale"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
-      "total_no_existing_residential_units_self_build_and_custom_build": 0
+      "total_no_existing_residential_units_self_build_and_custom_build": 0,
+      "site_area": 0.05,
+      "total_gia_lost": 275.2
     },
     "internal_resi_water_usage": 0,
     "infrastructure_details": {
@@ -166,7 +185,7 @@
       "no_new_water_connections_required": 4,
       "no_non_resi_units_to_have_full_fibre": 0,
       "total_annual_nox_emissions": 0,
-      "waste_provision": true,
+      "waste_provision": false,
       "percentage_demolition_construction_material_recycling": 0,
       "no_homes_to_have_electrical_heating": 0,
       "mobile_network_operators_consultation": false,
@@ -175,7 +194,20 @@
       "ghg_reduction_over_building_regulations": false
     },
     "ownership_status": "Public",
-    "lead_developer_company_name": "Urban Partnership Fambridge Limited"
+    "lead_developer_company_name": "Urban Partnership Fambridge Limited",
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.05
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false
   },
   "decision_date": "13/10/2025",
   "url_planning_app": "https://online-befirst.lbbd.gov.uk/planning/index.html?fa=getApplication&id=36266",
@@ -192,14 +224,14 @@
   "epc_number": null,
   "pp_id": "14144157",
   "subdivision_of_building": null,
-  "status": "Approved",
+  "status": "Commenced",
   "description": "Erection of 4 x two storey terraced dwellings, provision of associated parking and amenity space",
   "decision_conditions": null,
   "site_number": null,
-  "last_updated": "2026-07-16T18:26:46.112Z",
+  "last_updated": "2026-11-05T15:40:21.581Z",
   "last_date_consultation_comments": "17/08/2025",
   "valid_date": "15/07/2025",
-  "actual_commencement_date": null,
+  "actual_commencement_date": "28/09/2026",
   "centroid_northing": 187364,
   "appeal_decision": null,
   "decision_agency": null,
@@ -214,138 +246,136 @@
         "coordinates": [
           [
             [
-              [
-                549198.75,
-                187402.55
-              ],
-              [
-                549198.05,
-                187405.2
-              ],
-              [
-                549197.35,
-                187407.65
-              ],
-              [
-                549196.7,
-                187410.05
-              ],
-              [
-                549196,
-                187412.6
-              ],
-              [
-                549195.3,
-                187415
-              ],
-              [
-                549194.65,
-                187417.55
-              ],
-              [
-                549193.9,
-                187420.3
-              ],
-              [
-                549193.2,
-                187422.8
-              ],
-              [
-                549193.1,
-                187423.1
-              ],
-              [
-                549192.582,
-                187425.022
-              ],
-              [
-                549191.69,
-                187428.33
-              ],
-              [
-                549173.95,
-                187424
-              ],
-              [
-                549173.95,
-                187423.55
-              ],
-              [
-                549175.26,
-                187419.433
-              ],
-              [
-                549175.7,
-                187418.05
-              ],
-              [
-                549176.4,
-                187415.45
-              ],
-              [
-                549177.15,
-                187412.75
-              ],
-              [
-                549177.9,
-                187410
-              ],
-              [
-                549178.55,
-                187407.6
-              ],
-              [
-                549178.686,
-                187407.146
-              ],
-              [
-                549179.3,
-                187405.1
-              ],
-              [
-                549179.95,
-                187402.6
-              ],
-              [
-                549180.6,
-                187400.2
-              ],
-              [
-                549181.4,
-                187397.4
-              ],
-              [
-                549182.1,
-                187394.8
-              ],
-              [
-                549182.75,
-                187392.45
-              ],
-              [
-                549187.7,
-                187393.7
-              ],
-              [
-                549195.35,
-                187395.7
-              ],
-              [
-                549200.35,
-                187396.95
-              ],
-              [
-                549199.55,
-                187399.6
-              ],
-              [
-                549198.75,
-                187402.55
-              ]
+              549198.75,
+              187402.55
+            ],
+            [
+              549198.05,
+              187405.2
+            ],
+            [
+              549197.35,
+              187407.65
+            ],
+            [
+              549196.7,
+              187410.05
+            ],
+            [
+              549196,
+              187412.6
+            ],
+            [
+              549195.3,
+              187415
+            ],
+            [
+              549194.65,
+              187417.55
+            ],
+            [
+              549193.9,
+              187420.3
+            ],
+            [
+              549193.2,
+              187422.8
+            ],
+            [
+              549193.1,
+              187423.1
+            ],
+            [
+              549192.582,
+              187425.022
+            ],
+            [
+              549191.69,
+              187428.33
+            ],
+            [
+              549173.95,
+              187424
+            ],
+            [
+              549173.95,
+              187423.55
+            ],
+            [
+              549175.26,
+              187419.433
+            ],
+            [
+              549175.7,
+              187418.05
+            ],
+            [
+              549176.4,
+              187415.45
+            ],
+            [
+              549177.15,
+              187412.75
+            ],
+            [
+              549177.9,
+              187410
+            ],
+            [
+              549178.55,
+              187407.6
+            ],
+            [
+              549178.686,
+              187407.146
+            ],
+            [
+              549179.3,
+              187405.1
+            ],
+            [
+              549179.95,
+              187402.6
+            ],
+            [
+              549180.6,
+              187400.2
+            ],
+            [
+              549181.4,
+              187397.4
+            ],
+            [
+              549182.1,
+              187394.8
+            ],
+            [
+              549182.75,
+              187392.45
+            ],
+            [
+              549187.7,
+              187393.7
+            ],
+            [
+              549195.35,
+              187395.7
+            ],
+            [
+              549200.35,
+              187396.95
+            ],
+            [
+              549199.55,
+              187399.6
+            ],
+            [
+              549198.75,
+              187402.55
             ]
           ]
         ],
-        "type": "MultiPolygon"
+        "type": "Polygon"
       }
     ],
     "crs": {
@@ -362,145 +392,143 @@
   "secondary_street_name": null,
   "lpa_name": "Barking & Dagenham",
   "reference_no_of_permission_being_relied_on": null,
-  "cil_liability": null,
+  "cil_liability": false,
   "wgs84_polygon": {
-    "type": "MultiPolygon",
+    "type": "Polygon",
     "coordinates": [
       [
         [
-          [
-            0.1512,
-            51.565766
-          ],
-          [
-            0.151191,
-            51.56579
-          ],
-          [
-            0.151182,
-            51.565812
-          ],
-          [
-            0.151173,
-            51.565834
-          ],
-          [
-            0.151164,
-            51.565857
-          ],
-          [
-            0.151155,
-            51.565879
-          ],
-          [
-            0.151147,
-            51.565902
-          ],
-          [
-            0.151137,
-            51.565927
-          ],
-          [
-            0.151128,
-            51.565949
-          ],
-          [
-            0.151127,
-            51.565952
-          ],
-          [
-            0.15112,
-            51.565969
-          ],
-          [
-            0.151109,
-            51.565999
-          ],
-          [
-            0.150851,
-            51.565965
-          ],
-          [
-            0.150851,
-            51.565961
-          ],
-          [
-            0.150868,
-            51.565924
-          ],
-          [
-            0.150874,
-            51.565911
-          ],
-          [
-            0.150883,
-            51.565888
-          ],
-          [
-            0.150892,
-            51.565863
-          ],
-          [
-            0.150902,
-            51.565838
-          ],
-          [
-            0.15091,
-            51.565817
-          ],
-          [
-            0.150912,
-            51.565812
-          ],
-          [
-            0.15092,
-            51.565794
-          ],
-          [
-            0.150929,
-            51.565771
-          ],
-          [
-            0.150937,
-            51.56575
-          ],
-          [
-            0.150947,
-            51.565724
-          ],
-          [
-            0.150956,
-            51.565701
-          ],
-          [
-            0.150965,
-            51.565679
-          ],
-          [
-            0.151036,
-            51.565689
-          ],
-          [
-            0.151148,
-            51.565705
-          ],
-          [
-            0.15122,
-            51.565715
-          ],
-          [
-            0.15121,
-            51.565739
-          ],
-          [
-            0.1512,
-            51.565766
-          ]
+          0.1512,
+          51.565766
+        ],
+        [
+          0.151191,
+          51.56579
+        ],
+        [
+          0.151182,
+          51.565812
+        ],
+        [
+          0.151173,
+          51.565834
+        ],
+        [
+          0.151164,
+          51.565857
+        ],
+        [
+          0.151155,
+          51.565879
+        ],
+        [
+          0.151147,
+          51.565902
+        ],
+        [
+          0.151137,
+          51.565927
+        ],
+        [
+          0.151128,
+          51.565949
+        ],
+        [
+          0.151127,
+          51.565952
+        ],
+        [
+          0.15112,
+          51.565969
+        ],
+        [
+          0.151109,
+          51.565999
+        ],
+        [
+          0.150851,
+          51.565965
+        ],
+        [
+          0.150851,
+          51.565961
+        ],
+        [
+          0.150868,
+          51.565924
+        ],
+        [
+          0.150874,
+          51.565911
+        ],
+        [
+          0.150883,
+          51.565888
+        ],
+        [
+          0.150892,
+          51.565863
+        ],
+        [
+          0.150902,
+          51.565838
+        ],
+        [
+          0.15091,
+          51.565817
+        ],
+        [
+          0.150912,
+          51.565812
+        ],
+        [
+          0.15092,
+          51.565794
+        ],
+        [
+          0.150929,
+          51.565771
+        ],
+        [
+          0.150937,
+          51.56575
+        ],
+        [
+          0.150947,
+          51.565724
+        ],
+        [
+          0.150956,
+          51.565701
+        ],
+        [
+          0.150965,
+          51.565679
+        ],
+        [
+          0.151036,
+          51.565689
+        ],
+        [
+          0.151148,
+          51.565705
+        ],
+        [
+          0.15122,
+          51.565715
+        ],
+        [
+          0.15121,
+          51.565739
+        ],
+        [
+          0.1512,
+          51.565766
         ]
       ]
     ]
   },
-  "uprn": 100105017,
+  "uprn": "100105017",
   "application_type": "All Other",
   "centroid": {
     "lat": 51.565435,
