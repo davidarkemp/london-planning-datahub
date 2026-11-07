@@ -1,19 +1,46 @@
 {
-  "wgs84_polygon": null,
-  "ward": "WW",
+  "wgs84_polygon": {
+    "coordinates": [
+      [
+        [
+          -0.052598,
+          51.681874
+        ],
+        [
+          -0.052599,
+          51.681848
+        ],
+        [
+          -0.052642,
+          51.681848
+        ],
+        [
+          -0.052641,
+          51.681875
+        ],
+        [
+          -0.052598,
+          51.681874
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "ward": "Whitewebbs",
   "decision": "Approved",
   "decision_process": null,
   "appeal_status": null,
   "status": "Approved",
   "parking_details": null,
-  "centroid_easting": null,
+  "centroid_easting": 534729,
   "application_details": {
     "non_residential_details": {
       "total_gia_lost": 0,
       "total_gia_existing": 0,
       "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_gained": 0
+      "total_gia_gained": 0,
+      "site_area": 0.27
     },
     "grey_water_reuse": false,
     "total_gia_gained": 0,
@@ -28,7 +55,7 @@
         {
           "external_dry_recycling": false,
           "external_food_waste": false,
-          "unit_reference": "no units",
+          "unit_reference": "no units - Residential",
           "external_residual_waste": false,
           "reason_for_no_provision": "no units",
           "internal_residual_waste": false,
@@ -43,7 +70,16 @@
       "total_annual_nox_emissions": 0,
       "no_homes_to_have_electrical_heating": 0,
       "no_new_gas_connections_required": 0,
-      "mobile_network_operators_consultation": false
+      "mobile_network_operators_consultation": false,
+      "no_active_slow_ev_charging_points": 0,
+      "no_passive_rapid_ev_charging_points": 0,
+      "urban_greening_factor_score": 0,
+      "no_active_rapid_ev_charging_points": 0,
+      "no_passive_slow_ev_charging_points": 0,
+      "no_passive_fast_ev_charging_points": 0,
+      "no_active_fast_ev_charging_points": 0,
+      "no_active_other_ev_charging_points": 0,
+      "no_passive_other_ev_charging_points": 0
     },
     "internal_resi_water_usage": 0,
     "surface_water_discharge_percentage_reduction": 0,
@@ -54,25 +90,193 @@
     "phasing_details": [
       {
         "phase_detail": "Entire works",
-        "intended_completion_date": "01/2025",
-        "intended_commencement_date": "11/2024"
+        "intended_commencement_date": "11/2024",
+        "intended_completion_date": "01/2025"
       }
     ],
     "total_gia_lost": 0,
     "ownership_status": "Mixed",
     "rain_water_harvesting": false,
     "total_gia_existing": 0,
-    "site_area": 0.2743,
+    "site_area": 2743,
     "scheme_name": "Enfield Town to Broxbourne Walking and Cycling Route",
-    "projected_cost_of_works": "Up to £2m"
+    "projected_cost_of_works": "Up to £2m",
+    "existing_uprns": [
+      "000207001168",
+      "000207185396"
+    ],
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.27
+    },
+    "open_and_protected_space_details": {
+      "protected_space_count": 0,
+      "open_space_local_and_other_area_gain": 0,
+      "open_spaces_details": [
+        {
+          "land_swap": false
+        }
+      ],
+      "open_space_mol_area_loss": 0,
+      "open_space_green_belt_area_gain": 0,
+      "open_space_local_and_other_area_loss": 0,
+      "open_space_mol_area_gain": 0,
+      "open_space_green_belt_area_loss": 0
+    },
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 0,
+        "use_class": "Other",
+        "gia_gained": 0,
+        "gia_lost": 0
+      }
+    ],
+    "constraints_details": [
+      {
+        "result": null,
+        "constraints_layer_description": "CONARA Conservation Area: FORTY HILL"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "SIARIN Description: Multi-period site including Ermine Street, medieval manors, post medieval Elsynge Palace and Flash R\rName: Whitewebbs Hill, Bulls Cross and Forty Hill"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "SINAC2 Grade: Metropolitan\rCode: New River\rSite Number: SINC36"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "100Y Name: North Enfield Model\rDescription: 100YRCC3077\rScenario: 1 in 100 year plus climate change allowance"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "100Y Name: North Enfield Model\rDescription: 100YRCC3540\rScenario: 1 in 100 year plus climate change allowance"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "DCAREA Area: NORTH\rCode: DCAREA_N"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "OHLZE2 Description: EEB 33KV"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "NEWRIV Description: NEWRIV1"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "OVPOLI Description: OVPOLI4"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "TRROCB Description: TRROCB2"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "WATERC Name: New River\rDescription: WATERC625"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "WARDS Name: Chase"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "CILRES CIL ZONE: Higher Rate - RATE: £120 per square metre"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "CILRES CIL ZONE: Lower Rate Eastern Zone - RATE: £40 per square metre"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "DMDASC Designation: Area of Special Character- Core Strategy: Core policy 33- DMD Policy: DMD 84"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "DMDASA Designation: Area of Special Advert Control- Core Strategy: Core policy 33- DMD Policy: DMD 41"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "DMDCA Designation: Conservation Area- Name: FORTY HILL- Policy: DMD 37-44- Core Strategy: Core policy 30-31"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "DMDGB Designation: Green Belt- Policy: DMD 82-88- Core Strategy: Core policy 33"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "DMDLOS Designation: Local Open Space- Type:  - Name: The New River- Land Type: Linear Open Space/ Green Corridors- Policy: DMD 71-74- Core Strategy: Core policy 34, 36"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "DMDSME Site Name: New River- Site No: M096- Grade: Metropolitan- Policy: DMD 78- Core Strategy: Core policy 36"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "DMDWCO Designation: Wildlife Corridor- Policy: DMD 76- Core Strategy: Core policy 36"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "M25JUN M25 Junction improvement: M25 junction improvement 200m consultation zone"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "SUWAFL Surface water flooding zone: Surface Water 100 ye\rSource: Environment Agency"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "EFCAZI Chargeable Zone Value: 6176"
+      }
+    ],
+    "residential_details": {
+      "total_no_proposed_residential_units_shared_equity": 0,
+      "total_no_proposed_bedrooms": 0,
+      "total_no_proposed_residential_units_london_living_rent": 0,
+      "total_no_proposed_residential_units": 0,
+      "total_no_proposed_residential_affordable_units": 0,
+      "total_no_existing_residential_units": 0,
+      "total_no_proposed_residential_units_affordable_rent": 0,
+      "total_no_proposed_residential_units_discount_market_sale": 0,
+      "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_london_living_rent": 0,
+      "total_no_existing_residential_units_shared_equity": 0,
+      "total_no_existing_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_units_intermediate": 0,
+      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_existing_residential_units_social_rent": 0,
+      "total_no_proposed_residential_units_self_build_and_custom_build": 0,
+      "total_no_existing_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_affordable_units": 0,
+      "total_no_existing_residential_units_affordable_rent": 0,
+      "habitable_rooms_density": 0,
+      "total_no_existing_residential_units_london_shared_ownership": 0,
+      "total_gia_gained": 0,
+      "total_no_proposed_residential_units_social_rent": 0,
+      "total_no_existing_residential_units_london_affordable_rent": 0,
+      "dwelling_density": 0,
+      "total_no_proposed_residential_units_starter_homes": 0,
+      "total_no_proposed_residential_units_london_affordable_rent": 0,
+      "total_gia_lost": 0,
+      "total_no_existing_residential_units_discount_market_sale": 0,
+      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_starter_homes": 0,
+      "total_no_proposed_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_intermediate": 0,
+      "affordable_percentage": 0,
+      "total_no_proposed_residential_units_london_shared_ownership": 0,
+      "total_no_existing_residential_units_market_for_rent": 0,
+      "total_no_existing_residential_units_self_build_and_custom_build": 0
+    }
   },
   "actual_completion_date": null,
   "application_type_full": "Full planning permission",
   "locality": null,
   "actual_commencement_date": null,
-  "development_type": null,
+  "development_type": "Minor all other minor developments",
   "appeal_decision_date": null,
-  "centroid_northing": null,
+  "centroid_northing": 199917,
   "date_building_work_started_under_previous_permission": null,
   "title_number": [],
   "reference_no_of_permission_being_relied_on": null,
@@ -83,23 +287,23 @@
   "epc_number": null,
   "decision_agency": null,
   "centroid": {
-    "lat": 49.766807,
-    "lon": -7.55716
+    "lat": 51.681861,
+    "lon": -0.05262
   },
   "application_type": "All Other",
   "borough": "Enfield Council",
-  "postcode": null,
-  "site_name": "Land Adjacent To The New River Extending From Bullsmoor Lane To M25",
+  "postcode": "EN8 8EX",
+  "site_name": "New River North Of",
   "bo_system": "Idox Uniform",
   "site_number": null,
   "decision_target_date": "22/05/2024",
   "valid_date": "27/03/2024",
-  "street_name": null,
+  "street_name": "Bullsmoor Lane",
   "last_updated_by": "Idox Uniform",
-  "url_planning_app": null,
+  "url_planning_app": "<enter PA URL here>",
   "appeal_start_date": null,
   "last_date_consultation_comments": "17/05/2024",
-  "last_updated": "2025-03-19T22:38:24.691+00:00",
+  "last_updated": "2026-11-06T21:01:38.053Z",
   "appeal_decision": null,
   "description": "Provision of a new shared pedestrian and cycle path alongside the New River and associated hard and soft landscaping.",
   "decision_date": "26/06/2024",
@@ -107,20 +311,20 @@
   "subdivision_of_building": null,
   "date_building_work_completed_under_previous_permission": null,
   "decision_conditions": [
-    "Time Limited Permission",
-    "Bat monitoring",
-    "Landscape management and monitoring plan",
-    "Light monitoring",
-    "Arboricultural Method Statement",
-    "Details of street furniture, cycle s",
-    "Lighting",
-    "Construction Management Plan compliance",
-    "Construction Environmental Management Pl",
-    "Vegetation clearance outside of nesting",
-    "Details of CCTV",
-    "Bird and bat box installation",
-    "Planting plans compliance",
-    "Approved drawings/reports compliance"
+    "The development to which this permission relates must be begun not later than the expiration of three years beginning with the date of the decision notice. \rReason: To comply with the provisions of S.51 of the Planning & Compulsory Purchase Act 2004.\r",
+    "Approved drawings/reports compliance \r\rThe development hereby approved shall be carried out in accordance with the following approved drawings: \r\r19119-MET-BND-DR-HE-002B\r19119-MET-BND-DR-HE-002A\r19119-MET-0100-DR-HE-001-01\r19119-MET-0100-DR-HE-002-01\r19119-MET-0100-DR-HE-003-01\r19119-MET-0600-DE-CH-070-02\r19119-MET-0600-DE-CH-071-02\r19119-MET-0600-DE-CH-072-02\r19119-MET-0600-DE-CH-073-02\r19119-MET-0600-DE-CH-074-02\r19119-MET-0110-DR-CH-001-01\r19119-MET-0110-DR-CH-002-01\r19119-MET-0110-DR-CH-003-01\r19119-MET-1300-HLG-DR-EO-001-B\rLighting Asset Schedule ref. 19119-MET-HEL-DR-001 B\rProposed terminations and pillars ref. 19119-MET-HEL-DR-002 B\rGeneral Electrical details ref. 19119-MET-HEL-DR-003 B\rProposed Schematics ref. 19119-MET-HEL-DR-004 B\r19119-MET-3000-DR-LE-001-01\r19119-MET-3000-DR-LE-002-01\r19119-MET-3000-DR-LE-003-01\r8778-LDA-00-XX-DR-L-3513-PL07\r8778-LDA-00-XX-DR-L-3514-PL07\rPlanting Schedule ref. 8778-LDA-00-XX-DR-L-3515-PL10\r19119-MET-0400-DR-CH-001-01\r19119-MET-0400-DR-CH-002-01\r19119-MET-0400-DR-CH-003-01\r19119-MET-0400-DE-CH-001-00\r19119-MET-1100-DE-CH-001\r19119-MET-1100-DR-CH-001-01\r19119-MET-1100-DR-CH-002-01\r19119-MET-1100-DR-CH-003-01\r19119-MET-0200-DR-CE-001-01\r19119-MET-0200-DR-CE-002 01\r19119-MET-0200-DR-CE-003 01\r\rConstruction Management Plan Rev 2.0, prepared by TKJV\rBuilt Heritage Statement rev. 3.0, prepared by RPS Group\rLighting Design Report Version 4.0 and Sample Lighting Analysis Rev 0, prepared by Metis;\rArchaeological Desk-Based Assessment rev 3.0, prepared by RPS Group;\rFlood Risk Assessment and Sustainable Drainage Strategy, prepared by Metis;\rTransport Impact Assessment Rev 3.0, prepared by NRP ;\rHealthy Streets Assessment, prepared by NRP;\rEcological Impact Assessment, prepared by GS Ecology;\rKingfisher, Otter and Water Vole Survey, prepared by GS Ecology;\rEquality Impact Assessment (EqIA) and EqIA Annex, prepared by Enfield Council;\rArboricultural Report, prepared by Arb Consultancy;\rPlacemaking Strategy and Drawings, prepared by NRP\rContamination Plan, 15 May 2024, prepared by Kenson Highways Ltd\r\rSupporting information:\rPlanning Statement, prepared by Turley\rDesign and Access Statement Version 8 March 2024\rBiodiversity Net Gain Calculation (for whole route), prepared by GS Ecology;\r\rReason: For the avoidance of doubt and in the interests of proper planning.\r",
+    "Construction Management Plan compliance\r\rDevelopment shall be undertaken in accordance with the approved Construction Management Plan [Construction Management Plan Rev 2.0, prepared by TKJV], as approved by the Local Planning Authority.\r\rReason: In order to ensure that the impact of the development on the surrounding transport network is sufficiently assessed and where necessary appropriately mitigated in accordance with policy DMD48 of the Enfield Development Management Document (2014).\r",
+    "Planting plans compliance\r\rThe site shall be landscaped strictly in accordance with the approved details in drawings [8778-LDA-00-XX-DR-L-3513-PL07, 8778-LDA-00-XX-DR-L-3514-PL07, 8778-LDA-00- XX-DR-L-3515-PL10] in the first planting season after completion, or earlier. \r\rReason: In order to ensure landscaping is delivered in accordance with green infrastructure and biodiversity objectives.\r",
+    "Construction Environmental Management Plan\r\rPrior to commencement of development (including demolition, ground works, vegetation clearance) a construction environmental management plan (CEMP: Biodiversity) shall be submitted to and approved in writing by the local planning authority. The CEMP (Biodiversity) shall include the results, and any resulting mitigation, of surveys for otters, water voles, badgers, nesting kingfisher, and invasive non-native species. It shall also include the following: \ra) Risk assessment of potentially damaging construction activities. \rb) Identification of \"biodiversity protection zones\". \rc) Practical measures (both physical measures and sensitive working practices) to avoid or reduce impacts during construction (may be provided as a set of method statements). This shall include the maintenance of grass as short cut to deter reptiles from the development site. \rd) The location and timing of sensitive works to avoid harm to biodiversity features \re) Measures to ensure that nesting birds are not disturbed \rf) The times during construction when specialist ecologists need to be present on site to oversee works. \rg) Responsible persons and lines of communication. \rh) The role and responsibilities on site of an ecological clerk of works (ECoW) or similarly competent person. \ri) Use of protective fences, exclusion barriers and warning signs. \r\rThe approved CEMP (Biodiversity) shall be adhered to and implemented throughout the construction period strictly in accordance with the approved details, unless otherwise agreed in writing by the local planning authority. \r\rReason: In the interest of protecting biodiversity during construction having regard to Core Policy 36 of the Core Strategy and Paragraphs 179 and 180 of the NPPF",
+    "Landscape management and monitoring plan\r\rA landscape management plan, including long term design objectives, management responsibilities, monitoring methodologies and maintenance schedules for all landscape areas as identified within the hereby approved [8778-LDA-00-XX-DR-L-3513-PL07, 8778-LDA-00-XX-DR-L-3514-PL07, 8778-LDA-00- XX-DR-L-3515-PL10] shall be submitted to and approved in writing by the Local Planning Authority prior to the delivery of all permanent landscaping. The plan shall include an Invasive Species Control Plan, and management and monitoring of enhanced and newly created habitats will be required to ensure they establish as intended and in line with the SINC citation. The site shall be managed and monitored strictly in accordance with the approved details beginning in the first planting season after completion of the development (or earlier). \r\rReason: To ensure that the ecological value of the site is enhanced post development, and to comply with Policies CP30 and CP36 of the Core Strategy, Policies DMD37, DMD80 and DMD81 of the Development Management Document and Policies D4, D8, G4 and G5 of the London Plan.\r",
+    "Lighting\r\rPrior to the first use of the development, lighting shall be installed in accordance with the hereby approved drawings [19119-MET-1300-HLG-DR-EO-001-B] and indicative specifications in [Lighting Asset Schedule ref. 19119-MET-HEL-DR-001 B, Proposed terminations and pillars ref. 19119-MET-HEL-DR-002 B, General Electrical details ref. 19119-MET-HEL-DR-003 B, Proposed Schematics ref. 19119-MET-HEL-DR-004 B]. The lighting shall operate in accordance with these details, unless otherwise approved by the Local Planning Authority. \r\rReason: To ensure lighting is installed and operates in a manner that minimises biodiversity impacts.\r",
+    "For the first two years following completion of the development, light levels and frequency of light triggers will be monitored. Based on the results of the monitoring, light level and sensitivity settings will be adjusted to seek to ensure that, to the degree possible, only movement by humans triggers lights to illuminate. \r\rReason: In the interest of neighbour amenity.\r",
+    "Bat monitoring\r\rFollowing the first use of the lights, a bat monitoring programme is to be implemented. The monitoring should use, as a baseline, the spring 2023 survey that the applicant has already undertaken. The programme shall comprise: \r\rA) three walked bat transects - one in spring (April/May), one in summer (June/July/August) and one in autumn (September/October) \r\rB) the installation of three static bat detectors per survey for a minimum of 5 consecutive nights per transect for the first four years with a final survey 7 years after first use of the lights. \r\rIf during the monitoring programme period the surveys reveal an adverse impact on bat activity or populations, the lighting scheme will be adjusted to seek to minimise impacts to bat habitats, while also accounting for the safety of path users. \r\rA report is to be submitted to and approved in writing by the Local Planning Authority after each summer of monitoring in years as set out below, in accordance with paragraph B in this condition, detailing the results of the monitoring programme and any remedial measures that have been taken: \ri)\tYear 1 \rii)\tYear 2 \riii)\tYear 3 \riv)\tYear 4 \rv)\tYear 7 \r\rReason: To minimise impacts on biodiversity in accordance with Paragraphs 179 and 180 of the NPPF\r",
+    "Bird and bat box installation\r\rPrior to the first use of development, the commensurate number of 30 bird and 30 bat boxes that are to be located in the development area are to be installed under the supervision of a suitably qualified ecologist. A report confirming that the boxes have been installed, including a map showing their locations, and photos of the boxes in situ, is to be submitted to the Council prior to the first use of the cycleway. Any boxes which are damaged or removed within the first five years shall be replaced. \r\rReason: To incorporate biodiversity in and around developments in accordance with paragraph 179 and 180 of the NPPF.\r",
+    "Vegetation clearance outside of nesting season\r\rAll areas of hedges, scrub or similar vegetation where birds may nest which are to be removed as part of the development, are to be cleared outside the bird-nesting season (March - August inclusive) or if clearance during the bird-nesting season cannot reasonably be avoided, a suitably qualified ecologist will check the areas to be removed immediately prior to clearance and advise whether nesting birds are present. If active nests are recorded, no vegetation clearance or other works that may disturb active nests shall proceed until all young have fledged the nest. \r\rReason: To ensure that wildlife is not adversely impacted by the proposed development in accordance with national wildlife legislation and in line with CP36 of the Core Strategy. Nesting birds are protected under the Wildlife and Countryside Act, 1981 (as amended)",
+    "Arboricultural Method Statement compliance\r\rDevelopment shall be undertaken strictly in accordance with the approved details in the Arboricultural Report [Arboricultural Report, Arb Consultancy]. \r\rReason: To ensure that the retained trees, shrubs and hedgerows on the site or in adjacent sites are not adversely affected by any aspect of the development, and to screen, preserve and enhance the development and ensure adequate landscape treatment in the interest of amenity, having regard to adopted Policy.\r",
+    "Details of street furniture, cycle stands, benches, lighting, bollards, signage and information posts\r\rPrior to their installation, details shall be submitted to and approved in writing by the Local Planning Authority of all street furniture, cycle stands, benches, lighting, bollards, signage and information posts. The detailed specifications and design should be in line with the information included in the indicative Placemaking Strategy [Placemaking Strategy Feb 2023, Appendix A and Appendix B v2]. These features shall be installed and maintained in accordance with the approved details. \r\rReason: To comply with Policies CP30 of the Core Strategy, Policies DMD37 and DMD81 of the Development Management Document and Policies D4, D5, D8, G4 and G5 of the London Plan.\r",
+    "Details of CCTV locations\r\rPrior to completion of the development, details shall be submitted to and approved in writing by the Local Planning Authority of the locations of CCTV. The development thereafter shall be implemented in strict accordance with the approved details. \r\rReason: In the interest of public safety and security.\r"
   ],
   "uprn": "000207185396",
   "id": "Enfield-24_01011_RE3",
