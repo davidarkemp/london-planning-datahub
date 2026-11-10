@@ -6,7 +6,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -66,7 +65,8 @@
               175359.2394529811
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"
@@ -74,13 +74,17 @@
   "description": "Certificate of lawfulness for the existing use of unit 20 as B2 (General Industrial use).",
   "epc_number": null,
   "ward": "Hounslow South",
-  "last_updated": "2026-09-29T14:30:15.551Z",
+  "last_updated": "2026-11-09T10:10:19.071Z",
   "street_name": "Worton Road",
   "decision_conditions": null,
   "actual_completion_date": null,
   "bo_system": "Northgate M3",
   "borough": "Hounslow",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 4,
+    "net_car": 0,
+    "no_proposed_car": 4
+  },
   "lapsed_date": null,
   "actual_commencement_date": null,
   "cil_liability": false,
@@ -154,12 +158,15 @@
   "appeal_decision": null,
   "appeal_status": null,
   "secondary_street_name": null,
-  "application_type_full": null,
+  "application_type_full": "Lawful development: Existing use",
   "lpa_app_no": "P/2026/2717",
   "centroid_northing": 175363,
   "date_building_work_started_under_previous_permission": null,
   "last_updated_by": "Northgate M3",
-  "application_details": {},
+  "application_details": {
+    "no_additional_bathrooms": 0,
+    "no_additional_bedrooms": 0
+  },
   "locality": "Isleworth",
   "centroid": {
     "lat": 51.465538,
@@ -181,5 +188,7 @@
   "id": "Hounslow-P_2026_2717",
   "decision_agency": "Borough",
   "uprn": "200003975825",
-  "title_number": null
+  "title_number": [
+    "Unregistered"
+  ]
 }
