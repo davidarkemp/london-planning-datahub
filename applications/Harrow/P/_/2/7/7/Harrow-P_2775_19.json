@@ -4,7 +4,7 @@
   "decision_date": "20/06/2019",
   "epc_number": null,
   "application_type_full": "Full planning permission",
-  "bo_system": "FME Legacy Data Import",
+  "bo_system": "Portal",
   "id": "Harrow-P_2775_19",
   "secondary_street_name": null,
   "appeal_status": null,
@@ -15,16 +15,15 @@
       "no_council_tax_rateable_units_lost": 0,
       "other_resi_accommodation_unit_details": [
         {
-          "superseded_date": null,
+          "no_rooms_proposed": 3,
           "actual_completion_date": "20/06/2019",
-          "no_rooms_proposed": 125,
           "actual_commencement_date": "20/06/2019",
           "unit_type": "Care Home Bedroom",
-          "superseded_by_lpa_app_no": null,
           "no_rooms_lost": 0
         }
       ],
-      "no_council_tax_rateable_units_gained": 1
+      "no_council_tax_rateable_units_gained": 1,
+      "site_area": 0.013000000000000001
     },
     "affordable_housing_inlieu_payment": null,
     "residential_details": {
@@ -43,27 +42,25 @@
       "total_no_existing_residential_units_self_build_and_custom_build": 0,
       "residential_units": [
         {
-          "actual_completion_date": null,
+          "actual_completion_date": "20/06/2019",
           "m43_2a_compliant": false,
           "description": null,
-          "change_type": "Loss",
           "m42_compliant": false,
+          "change_type": "Loss",
           "unit_type": "House or Bungalow",
-          "unit_development_type": null,
-          "superseded_date": null,
+          "unit_development_type": "Conversion",
           "provider": "Private",
           "phase_detail": null,
           "unit_no": null,
-          "actual_commencement_date": null,
+          "actual_commencement_date": "20/06/2019",
           "no_bedrooms": 3,
-          "superseded_by_lpa_app_no": null,
           "provision_for_older_persons": false,
           "gia": null,
           "tenure": "Market for sale"
         }
       ],
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
-      "habitable_rooms_density": null,
+      "habitable_rooms_density": 0,
       "total_no_existing_residential_affordable_units": 0,
       "total_no_existing_residential_units": 1,
       "total_no_proposed_residential_units_discount_market_sale": 0,
@@ -79,7 +76,7 @@
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
       "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
-      "site_area": null,
+      "site_area": 0.013000000000000001,
       "total_no_proposed_residential_units_london_living_rent": 0,
       "total_no_proposed_bedrooms": 0,
       "total_no_existing_residential_units_intermediate": 0,
@@ -93,7 +90,7 @@
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
       "total_gia_gained": 0,
       "total_gia_lost": 0,
-      "total_non_resi_gross_internal_floor_area_to_be_gained": 0
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 125
     },
     "superseding_details": [],
     "building_age": null,
@@ -119,14 +116,54 @@
         "constraints_layer_description": "PTAL 2008"
       }
     ],
-    "site_area": 0.013000000000000001
+    "site_area": 0.013000000000000001,
+    "affordable_housing_fast_track": false,
+    "s106_agreement": false,
+    "viability_assessment": false,
+    "air_quality_assessment": false,
+    "existing_uprns": [],
+    "mayoral_cil_liability_notice_issued": false,
+    "scheme_phasing": false,
+    "circular_economy_statement": false,
+    "commencement_notice_received": false,
+    "infrastructure_details": {
+      "waste_provision": false,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "3d_model": false,
+    "borough_cil_liability_notice_issued": false,
+    "transport_impact_assessment": false,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 125,
+        "actual_completion_date": "20/06/2019",
+        "use_class": "C3",
+        "gia_gained": 0,
+        "actual_commencement_date": "20/06/2019",
+        "gia_lost": 125
+      },
+      {
+        "gia_existing": 0,
+        "actual_completion_date": "20/06/2019",
+        "use_class": "C2",
+        "gia_gained": 125,
+        "actual_commencement_date": "20/06/2019",
+        "gia_lost": 0
+      }
+    ],
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "green_suds": false,
+    "garden_land_lost": false
   },
   "valid_date": null,
   "reference_no_of_permission_being_relied_on": null,
   "description": "Change of use from single dwellinghouse (use class C3) to a mother and baby centre (use class C2) for three families",
   "decision_conditions": null,
   "date_building_work_started_under_previous_permission": null,
-  "last_updated": "2025-03-21T13:16:02.339+00:00",
+  "last_updated": "2026-11-11T15:55:30.031Z",
   "ward": "WEST HARROW",
   "parking_details": {
     "no_proposed_lgv": null,
@@ -155,8 +192,8 @@
   "lapsed_date": "20/06/2022",
   "decision_target_date": null,
   "centroid": {
-    "lat": "51.5797195",
-    "lon": "-0.3457136"
+    "lat": 51.579718,
+    "lon": -0.345736
   },
   "lpa_app_no": "P/2775/19",
   "status": "Completed",
@@ -205,47 +242,47 @@
   "decision_process": null,
   "decision_agency": "Borough",
   "date_building_work_completed_under_previous_permission": null,
-  "last_updated_by": "FME Legacy Data Import",
+  "last_updated_by": "Portal",
   "site_number": "60",
   "application_type": "All Other",
   "actual_completion_date": "20/06/2019",
-  "title_number": null,
+  "title_number": [],
   "actual_commencement_date": "20/06/2019",
   "street_name": "Vaughan Road",
   "pp_id": null,
   "subdivision_of_building": null,
-  "cil_liability": null,
-  "centroid_easting": "514723",
+  "cil_liability": false,
+  "centroid_easting": 514723,
   "appeal_start_date": null,
-  "centroid_northing": "188058",
+  "centroid_northing": 188058,
   "borough": "Harrow",
-  "decision": null,
+  "decision": "Approved",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.34571569999999996,
-          51.5798196
+          -0.345738,
+          51.579818
         ],
         [
-          -0.345651,
-          51.579814
+          -0.345673,
+          51.579812
         ],
         [
-          -0.345671,
-          51.5795787
+          -0.345693,
+          51.579577
         ],
         [
-          -0.3457472,
-          51.5795822
+          -0.345769,
+          51.579581
         ],
         [
-          -0.34571589999999996,
-          51.5798149
+          -0.345738,
+          51.579813
         ],
         [
-          -0.34571569999999996,
-          51.5798196
+          -0.345738,
+          51.579818
         ]
       ]
     ],
