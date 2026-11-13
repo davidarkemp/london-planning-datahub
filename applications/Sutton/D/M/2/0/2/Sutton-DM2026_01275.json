@@ -42,22 +42,22 @@
       "total_no_existing_residential_units_market_for_sale": 0,
       "residential_units": [
         {
-          "description": null,
-          "sheltered_accommodation": false,
-          "unit_no": null,
-          "provision_for_older_persons": false,
-          "m42_compliant": false,
-          "gia": 39.65,
-          "phase_detail": null,
           "m43_2b_compliant": false,
-          "no_bedrooms": 1,
           "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": false,
+          "change_type": "Gain",
+          "sheltered_accommodation": false,
           "garden_land": false,
+          "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 1,
           "provider": "Private",
-          "change_type": "Gain",
-          "tenure": "Market for rent",
-          "unit_type": "Flat Apartment Maisonette"
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 1,
+          "provision_for_older_persons": false,
+          "gia": 39.65,
+          "tenure": "Market for rent"
         }
       ],
       "total_no_proposed_residential_units": 1
@@ -65,16 +65,16 @@
     "occupation_status": "Partially Vacant",
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "Other",
         "gia_existing": 107.3,
-        "gia_lost": 39.65,
-        "gia_gained": 0
+        "use_class": "Other",
+        "gia_gained": 0,
+        "gia_lost": 39.65
       },
       {
-        "use_class": "C3",
         "gia_existing": 0,
-        "gia_lost": 0,
-        "gia_gained": 39.65
+        "use_class": "C3",
+        "gia_gained": 39.65,
+        "gia_lost": 0
       }
     ],
     "non_residential_details": {
@@ -109,12 +109,12 @@
     }
   },
   "site_name": null,
-  "last_date_consultation_comments": null,
+  "last_date_consultation_comments": "03/12/2026",
   "decision_process": null,
   "centroid_northing": 163357,
   "cil_liability": null,
   "appeal_decision_date": null,
-  "last_updated": "2026-11-11T21:05:41.968Z",
+  "last_updated": "2026-11-12T21:06:59.569Z",
   "ward": "Carshalton South & Clockhouse",
   "parking_details": {
     "no_proposed_cycle": 1,
@@ -234,7 +234,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -318,7 +317,8 @@
               163364.249496981
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"

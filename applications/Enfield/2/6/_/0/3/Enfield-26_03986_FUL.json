@@ -3,44 +3,44 @@
   "application_details": {
     "constraints_details": [
       {
-        "constraints_layer_description": "LHA Maximum Height Level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet).",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "LHA Maximum Height Level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet)."
       },
       {
-        "constraints_layer_description": "LLA Maximum height level: All buildings, structures, and works exceeding 300 metres in height (984.2 feet)",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "LLA Maximum height level: All buildings, structures, and works exceeding 300 metres in height (984.2 feet)"
       },
       {
-        "constraints_layer_description": "100Y Name: North Enfield Model\rDescription: 100YRCC2404\rScenario: 1 in 100 year plus climate change allowance",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "100Y Name: North Enfield Model\rDescription: 100YRCC2404\rScenario: 1 in 100 year plus climate change allowance"
       },
       {
-        "constraints_layer_description": "DCAREA Area: NORTH\rCode: DCAREA_N",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "DCAREA Area: NORTH\rCode: DCAREA_N"
       },
       {
-        "constraints_layer_description": "GAP35Z Description: Gas pipeline buffer - 35m",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "GAP35Z Description: Gas pipeline buffer - 35m"
       },
       {
-        "constraints_layer_description": "TRROCB Description: TRROCB3",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "TRROCB Description: TRROCB3"
       },
       {
-        "constraints_layer_description": "TRUROA Name: GREAT CAMBRIDGE ROAD",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "TRUROA Name: GREAT CAMBRIDGE ROAD"
       },
       {
-        "constraints_layer_description": "WARDS Name: Southbury",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "WARDS Name: Southbury"
       },
       {
-        "constraints_layer_description": "CILRES CIL ZONE: Lower Rate Eastern Zone - RATE: £40 per square metre",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "CILRES CIL ZONE: Lower Rate Eastern Zone - RATE: £40 per square metre"
       },
       {
-        "constraints_layer_description": "EFCAZI Chargeable Zone Value: 6176",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "EFCAZI Chargeable Zone Value: 6176"
       }
     ],
     "non_residential_details": {
@@ -53,9 +53,9 @@
     },
     "phasing_details": [
       {
+        "phase_detail": "Entire development",
         "intended_commencement_date": "02/2027",
-        "intended_completion_date": "05/2027",
-        "phase_detail": "Entire development"
+        "intended_completion_date": "05/2027"
       }
     ],
     "other_residential_accommodation_details": {
@@ -79,15 +79,15 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 88.38,
-        "gia_lost": 88.38,
+        "use_class": "C3",
         "gia_gained": 0,
-        "use_class": "C3"
+        "gia_lost": 88.38
       },
       {
         "gia_existing": 0,
-        "gia_lost": 0,
+        "use_class": "C4",
         "gia_gained": 113.02,
-        "use_class": "C4"
+        "gia_lost": 0
       }
     ],
     "rain_water_harvesting": false,
@@ -111,39 +111,39 @@
       "total_no_existing_residential_units_shared_equity": 0,
       "residential_units": [
         {
-          "unit_no": null,
-          "sheltered_accommodation": false,
-          "no_habitable_rooms": 1,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
           "description": null,
-          "phase_detail": null,
-          "provision_for_older_persons": false,
-          "unit_type": "HMO",
-          "tenure": "Market for rent",
           "m42_compliant": false,
           "change_type": "Gain",
-          "m43_2b_compliant": false,
-          "no_bedrooms": 6,
-          "m43_2a_compliant": false,
+          "sheltered_accommodation": false,
           "garden_land": false,
+          "unit_type": "HMO",
+          "no_habitable_rooms": 1,
           "provider": "Private",
-          "gia": 113.02
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 6,
+          "provision_for_older_persons": false,
+          "gia": 113.02,
+          "tenure": "Market for rent"
         },
         {
-          "unit_no": null,
-          "sheltered_accommodation": false,
-          "no_habitable_rooms": 1,
+          "m43_2b_compliant": false,
+          "m43_2a_compliant": false,
           "description": null,
-          "phase_detail": null,
-          "provision_for_older_persons": false,
-          "unit_type": "Terraced Home",
-          "tenure": "Market for rent",
           "m42_compliant": false,
           "change_type": "Loss",
-          "m43_2b_compliant": false,
-          "no_bedrooms": 2,
-          "m43_2a_compliant": false,
+          "sheltered_accommodation": false,
           "garden_land": false,
-          "gia": 88.38
+          "unit_type": "Terraced Home",
+          "no_habitable_rooms": 1,
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "gia": 88.38,
+          "tenure": "Market for rent"
         }
       ],
       "habitable_rooms_density": null,
@@ -214,13 +214,21 @@
   "lpa_name": "Enfield",
   "application_type_full": null,
   "actual_completion_date": null,
-  "status": "Application Under Consideration",
-  "cil_liability": null,
+  "status": "Approved",
+  "cil_liability": false,
   "application_type": "All Other",
   "postcode": "EN1 4BX",
   "secondary_street_name": null,
   "appeal_decision": null,
-  "decision_conditions": null,
+  "decision_conditions": [
+    "The development to which this permission relates must be begun not later than the expiration of three years beginning with the date of the decision notice. \r\rReason: To comply with the provisions of S.51 of the Planning & Compulsory Purchase Act 2004.\r",
+    "The development hereby permitted shall be carried out in accordance with the following approved plans:\rPlans\rE00\rP00\rP01\rP02\rP03\rP04\rP05\rP06\rP07\r\rReason: For the avoidance of doubt and in the interests of proper planning.\r",
+    "Prior to first occupation of the HMO, Cycle parking, shall be provided as indicated on drawing P01, in accordance with the following requirements:\r\r- Provision of a minimum of SIX long stay cycle parking spaces;\r\r- in an accessible location; the store door must have a minimum opening width of 1.2m\r\r- long stay cycle parking spaces secured with a British Standard mortice lock or access fob;\r\r- fully enclosed: 4 walls and a roof.\r\rReason: To ensure the provision of accessible, secure, and adequate cycle parking facilities and to safeguard the character and appearance of the area.\r",
+    "Prior to occupation of the development, the refuse storage facilities shown on drawing number P01 shall be provided in accordance with the approved details and maintained as such thereafter.\r\rReason: In the interests of amenity and the recycling of waste materials in support of the Boroughs waste reduction targets\r",
+    "The use of the property as a House in Multiple Occupation hereby approved shall be occupied by a maximum of 6 people at any one time and shall not be subdivided or occupied as self-contained units. \r\rReason: To accord with the stipulations of definition as a House of Multiple Occupation and to safeguard the residential character of the surrounding area.\r",
+    "No cooking facilities, including hot plates, shall be installed in the bedrooms of the development hereby permitted unless details have first been submitted to and approved in writing by the local planning authority. Any cooking facilities shall thereafter only be implemented in accordance with the details that have been approved pursuant to this condition.\r\rReason: To accord with the stipulations of definition as a House of Multiple Occupation and to safeguard the residential character of the surrounding area\r",
+    "The development shall not be occupied until details of source control SuDS has been submitted and approved by the Local Authority. Source control SuDS measures include green roofs, rain gardens and permeable paving. The details must include plans, specifications and maintenance information. The developer should use the SuDS Proforma for minor developers found on our webpage https://www.enfield.gov.uk/services/planning/sustainable-drainage-systems to assist them through our requirements.\r\rREASON: To ensure the sustainable management of water, minimise flood risk, minimise discharge of surface water outside of the curtilage of the property and ensure that the drainage system will remain functional throughout the lifetime of the development in accordance with Policy CP28 of the Core Strategy, DMD Policy 61, and Policies SI12 & SI13 of the London Plan and the NPPF and to maximise opportunities for sustainable development, improve water quality, biodiversity, local amenity and recreation value\r"
+  ],
   "centroid": {
     "lon": -0.058827,
     "lat": 51.661192
@@ -228,7 +236,7 @@
   "title_number": null,
   "development_type": "Other change of use",
   "centroid_northing": 197607,
-  "decision": null,
+  "decision": "Approved",
   "pp_id": "PP-15232312",
   "borough": "Enfield Council",
   "actual_commencement_date": null,
@@ -262,24 +270,24 @@
     "type": "Polygon"
   },
   "decision_target_date": "12/11/2026",
-  "lapsed_date": null,
+  "lapsed_date": "12/11/2029",
   "last_date_consultation_comments": "15/10/2026",
   "url_planning_app": "<enter PA URL here>",
   "parking_details": null,
   "appeal_decision_date": null,
   "lpa_app_no": "26/03986/FUL",
   "site_number": "869",
-  "last_updated": "2026-09-24T20:09:18.811Z",
+  "last_updated": "2026-11-12T21:07:27.809Z",
   "uprn": "000207146825",
   "appeal_start_date": null,
   "centroid_easting": 534361,
   "polygon": null,
-  "decision_date": null,
+  "decision_date": "12/11/2026",
   "site_name": null,
   "appeal_status": null,
   "subdivision_of_building": null,
   "description": "Change of use from Use Class C3 (dwelling house) to Use Class C4 (HMO-house in multiple occupation) for up to six persons involving rear dormer with front roof lights, cycle storage and front excavation to facilitate refuse storage.",
-  "decision_process": null,
+  "decision_process": "Delegated",
   "date_building_work_completed_under_previous_permission": null,
   "date_building_work_started_under_previous_permission": null,
   "decision_agency": null,
