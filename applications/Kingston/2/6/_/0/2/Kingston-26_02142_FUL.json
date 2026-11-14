@@ -80,22 +80,22 @@
       "total_no_existing_residential_units_market_for_sale": 0,
       "residential_units": [
         {
-          "description": null,
-          "sheltered_accommodation": false,
-          "unit_no": null,
-          "provision_for_older_persons": false,
-          "m42_compliant": true,
-          "gia": 121.51,
-          "phase_detail": null,
           "m43_2b_compliant": false,
-          "no_bedrooms": 4,
           "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "sheltered_accommodation": false,
           "garden_land": true,
+          "unit_type": "House or Bungalow",
           "no_habitable_rooms": 6,
           "provider": "Private",
-          "change_type": "Gain",
-          "tenure": "Market for sale",
-          "unit_type": "House or Bungalow"
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 4,
+          "provision_for_older_persons": false,
+          "gia": 121.51,
+          "tenure": "Market for sale"
         }
       ],
       "total_no_proposed_residential_units": 1
@@ -113,51 +113,51 @@
     },
     "constraints_details": [
       {
-        "constraints_layer_description": "NEIPOL MC1  Maldens and Coombe",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "NEIPOL MC1  Maldens and Coombe"
       },
       {
-        "constraints_layer_description": "NEIPOL NEIPOLName:MC1  Maldens and Coombe,",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "NEIPOL NEIPOLName:MC1  Maldens and Coombe,"
       },
       {
-        "constraints_layer_description": "LGW LGWName:London Gatwick Safeguarding Zone (200m),",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "LGW LGWName:London Gatwick Safeguarding Zone (200m),"
       },
       {
-        "constraints_layer_description": "SMKCON SMKCONName:Borough Wide Smoke Control Order,",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "SMKCON SMKCONName:Borough Wide Smoke Control Order,"
       },
       {
-        "constraints_layer_description": "AIRCZ AIRPORTGatwick Airport Wind Turbine Consultation Zone:",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "AIRCZ AIRPORTGatwick Airport Wind Turbine Consultation Zone:"
       },
       {
-        "constraints_layer_description": "HWTERR TERRIERHD21800514",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "HWTERR TERRIERHD21800514"
       },
       {
-        "constraints_layer_description": "NEIGH Maldens and Coombe",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "NEIGH Maldens and Coombe"
       },
       {
-        "constraints_layer_description": "SWGV 3874806C8FBBCEA-93F1-11D6-9595-0002A54212B3",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "SWGV 3874806C8FBBCEA-93F1-11D6-9595-0002A54212B3"
       },
       {
-        "constraints_layer_description": "SWGV 3877508C8FBBCFE-93F1-11D6-9595-0002A54212B3",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "SWGV 3877508C8FBBCFE-93F1-11D6-9595-0002A54212B3"
       },
       {
-        "constraints_layer_description": "SWMH TQ216790HH5978619C8FBB98A-93F1-11D6-9595-0002A54212B3",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "SWMH TQ216790HH5978619C8FBB98A-93F1-11D6-9595-0002A54212B3"
       }
     ],
     "building_details": [
       {
         "no_storeys": null,
-        "building_ref": "2 Storey Detached House with Accommodation in the Roof",
-        "max_height": 8.17
+        "max_height": 8.17,
+        "building_ref": "2 Storey Detached House with Accommodation in the Roof"
       }
     ],
     "other_residential_accommodation_details": {
@@ -171,10 +171,10 @@
     "grey_water_reuse": false,
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3",
         "gia_existing": 14.15,
-        "gia_lost": 14.15,
-        "gia_gained": 121.51
+        "use_class": "C3",
+        "gia_gained": 121.51,
+        "gia_lost": 14.15
       }
     ],
     "surface_water_discharge_percentage_reduction": 25,
@@ -193,11 +193,11 @@
     "rain_water_harvesting": false
   },
   "site_name": null,
-  "last_date_consultation_comments": null,
+  "last_date_consultation_comments": "03/12/2026",
   "decision_process": null,
   "cil_liability": true,
   "centroid_northing": 167064,
-  "last_updated": "2026-11-06T18:03:54.529Z",
+  "last_updated": "2026-11-13T18:03:13.287Z",
   "appeal_decision_date": null,
   "ward": "Motspur Park & Old Malden East",
   "parking_details": null,
@@ -322,7 +322,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -414,7 +413,8 @@
               167046.85
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "geometrycollection"

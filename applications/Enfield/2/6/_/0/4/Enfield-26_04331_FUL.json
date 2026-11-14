@@ -57,22 +57,22 @@
       "total_no_existing_residential_units_market_for_sale": 0,
       "residential_units": [
         {
-          "description": null,
-          "sheltered_accommodation": false,
-          "unit_no": null,
-          "provision_for_older_persons": false,
-          "m42_compliant": true,
-          "gia": 83.6,
-          "phase_detail": null,
           "m43_2b_compliant": false,
-          "no_bedrooms": 2,
           "m43_2a_compliant": false,
+          "description": null,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "sheltered_accommodation": false,
           "garden_land": false,
+          "unit_type": "Terraced Home",
           "no_habitable_rooms": 4,
           "provider": "Private",
-          "change_type": "Gain",
-          "tenure": "Market for sale",
-          "unit_type": "Terraced Home"
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 2,
+          "provision_for_older_persons": false,
+          "gia": 83.6,
+          "tenure": "Market for sale"
         }
       ],
       "total_no_proposed_residential_units": 1
@@ -90,63 +90,63 @@
     },
     "constraints_details": [
       {
-        "constraints_layer_description": "SURWAT Description: Idox.Spatial.Common.Desktop.DataAccess.Shape",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "SURWAT Description: Idox.Spatial.Common.Desktop.DataAccess.Shape"
       },
       {
-        "constraints_layer_description": "LHA Maximum Height Level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet).",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "LHA Maximum Height Level: All buildings, structures, and works exceeding 150 metres in height (492.1 feet)."
       },
       {
-        "constraints_layer_description": "LGA Maximum Height Level: >300",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "LGA Maximum Height Level: >300"
       },
       {
-        "constraints_layer_description": "LLA Maximum height level: All buildings, structures, and works exceeding 300 metres in height (984.2 feet)",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "LLA Maximum height level: All buildings, structures, and works exceeding 300 metres in height (984.2 feet)"
       },
       {
-        "constraints_layer_description": "100Y Name: Wood Green Model\rDescription: 100YRCC3565\rScenario: 1 in 100 year plus climate change allowance",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "100Y Name: Wood Green Model\rDescription: 100YRCC3565\rScenario: 1 in 100 year plus climate change allowance"
       },
       {
-        "constraints_layer_description": "DCAREA Area: SOUTH\rCode: DCAREA_S",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "DCAREA Area: SOUTH\rCode: DCAREA_S"
       },
       {
-        "constraints_layer_description": "LBECO Name: BARROWELL GREEN",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "LBECO Name: BARROWELL GREEN"
       },
       {
-        "constraints_layer_description": "WATERC Name: Larches Channel\rDescription: WATERC1056",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "WATERC Name: Larches Channel\rDescription: WATERC1056"
       },
       {
-        "constraints_layer_description": "WARDS Name: Highfield",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "WARDS Name: Highfield"
       },
       {
-        "constraints_layer_description": "CILRES CIL ZONE: Higher Rate - RATE: £120 per square metre",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "CILRES CIL ZONE: Higher Rate - RATE: £120 per square metre"
       },
       {
-        "constraints_layer_description": "DMDLOS Designation: Local Open Space- Type: Allotment- Name: Farndale Allotments South- Land Type: Allotments, Community Gardens and Urban Farms- Policy: DMD 71-74- Core Strategy: Core policy 34, 36",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "DMDLOS Designation: Local Open Space- Type: Allotment- Name: Farndale Allotments South- Land Type: Allotments, Community Gardens and Urban Farms- Policy: DMD 71-74- Core Strategy: Core policy 34, 36"
       },
       {
-        "constraints_layer_description": "EFCAZI Chargeable Zone Value: 6176",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "EFCAZI Chargeable Zone Value: 6176"
       },
       {
-        "constraints_layer_description": "FLUVIA ",
-        "result": null
+        "result": null,
+        "constraints_layer_description": "FLUVIA "
       }
     ],
     "building_details": [
       {
         "no_storeys": null,
-        "building_ref": "49A",
-        "max_height": 8.6
+        "max_height": 8.6,
+        "building_ref": "49A"
       }
     ],
     "other_residential_accommodation_details": {
@@ -161,10 +161,10 @@
     "grey_water_reuse": false,
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "C3",
         "gia_existing": 0,
-        "gia_lost": 0,
-        "gia_gained": 83.6
+        "use_class": "C3",
+        "gia_gained": 83.6,
+        "gia_lost": 0
       }
     ],
     "surface_water_discharge_percentage_reduction": 0,
@@ -205,7 +205,8 @@
       "no_homes_passive_cooling": 0,
       "no_non_resi_units_to_have_full_fibre": 0,
       "no_active_rapid_ev_charging_points": 0
-    }
+    },
+    "s106_agreement": true
   },
   "site_name": null,
   "last_date_consultation_comments": "03/12/2026",
@@ -213,7 +214,7 @@
   "centroid_northing": 193264,
   "cil_liability": null,
   "appeal_decision_date": null,
-  "last_updated": "2026-11-12T21:08:40.582Z",
+  "last_updated": "2026-11-13T21:09:08.477Z",
   "ward": "Highfield",
   "parking_details": null,
   "decision_target_date": "01/01/2027",
