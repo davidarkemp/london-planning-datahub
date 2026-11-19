@@ -1,10 +1,10 @@
 {
   "cil_liability": null,
-  "last_updated": "2025-03-19T00:50:31.143+00:00",
+  "last_updated": "2026-11-18T11:15:29.207Z",
   "application_details": {
     "scheme_phasing": true,
     "affordable_housing_fast_track": false,
-    "site_area": 0.018000000000000002,
+    "site_area": 0.2,
     "internal_resi_water_usage": 0,
     "green_suds": false,
     "other_residential_accommodation_details": {
@@ -42,7 +42,6 @@
       "residential_units": [
         {
           "no_habitable_rooms": 3,
-          "unit_no": "Loss-1",
           "change_type": "Loss",
           "sheltered_accommodation": false,
           "no_bedrooms": 6,
@@ -52,9 +51,8 @@
           "tenure": "Market for sale"
         },
         {
-          "no_habitable_rooms": 4,
           "provider": "Private",
-          "unit_no": "Gain-1",
+          "no_habitable_rooms": 4,
           "change_type": "Gain",
           "no_bedrooms": 3,
           "unit_type": "Flat Apartment Maisonette",
@@ -62,9 +60,8 @@
           "tenure": "Market for rent"
         },
         {
-          "no_habitable_rooms": 2,
           "provider": "Private",
-          "unit_no": "Gain-2",
+          "no_habitable_rooms": 2,
           "change_type": "Gain",
           "no_bedrooms": 2,
           "unit_type": "Flat Apartment Maisonette",
@@ -72,9 +69,8 @@
           "tenure": "Market for rent"
         },
         {
-          "no_habitable_rooms": 1,
           "provider": "Private",
-          "unit_no": "Gain-3",
+          "no_habitable_rooms": 1,
           "change_type": "Gain",
           "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
@@ -82,9 +78,8 @@
           "tenure": "Market for rent"
         },
         {
-          "no_habitable_rooms": 1,
           "provider": "Private",
-          "unit_no": "Gain-4",
+          "no_habitable_rooms": 1,
           "change_type": "Gain",
           "no_bedrooms": 1,
           "unit_type": "Flat Apartment Maisonette",
@@ -107,8 +102,8 @@
     "phasing_details": [
       {
         "phase_detail": "all",
-        "intended_completion_date": "07/2023",
-        "intended_commencement_date": "01/2023"
+        "intended_commencement_date": "01/2023",
+        "intended_completion_date": "07/2023"
       }
     ],
     "building_details": [
@@ -120,22 +115,6 @@
     ],
     "total_gia_lost": 0,
     "constraints_details": [
-      {
-        "result": null,
-        "constraints_layer_description": "A4D Light industrial to residential"
-      },
-      {
-        "result": null,
-        "constraints_layer_description": "Controlled Parking Zone"
-      },
-      {
-        "result": null,
-        "constraints_layer_description": "Opportunity Areas"
-      },
-      {
-        "result": null,
-        "constraints_layer_description": "CIL Zones"
-      },
       {
         "result": "Lea Bridge",
         "constraints_layer_description": "Wards"
@@ -286,7 +265,7 @@
   "appeal_decision_date": null,
   "locality": "HACKNEY",
   "status": "Application Under Consideration",
-  "centroid_easting": 534848,
+  "centroid_easting": null,
   "lapsed_date": null,
   "reference_no_of_permission_being_relied_on": null,
   "polygon": {
@@ -295,74 +274,117 @@
         "coordinates": [
           [
             [
-              534845.8012864,
-              186543.2549651,
-              0
+              534840.80477886,
+              186542.305236765
             ],
             [
-              534851.9026314,
-              186524.5503191,
-              0
+              534840.103948882,
+              186542.155279885
             ],
             [
-              534854.2030032,
-              186517.252408,
-              0
+              534844.803633935,
+              186527.399503701
             ],
             [
-              534855.1511852,
-              186514.3032519,
-              0
+              534848.703547483,
+              186515.502908527
             ],
             [
-              534849.7012,
-              186512.4537816,
-              0
+              534849.701199971,
+              186512.453781627
             ],
             [
-              534848.7035475,
-              186515.5029085,
-              0
+              534855.151185163,
+              186514.303251906
             ],
             [
-              534844.8036339,
-              186527.3995037,
-              0
+              534854.203003153,
+              186517.25240798
             ],
             [
-              534840.1039489,
-              186542.1552799,
-              0
+              534851.902631438,
+              186524.55031908
             ],
             [
-              534840.8047789,
-              186542.3052368,
-              0
+              534845.801286366,
+              186543.254965092
             ],
             [
-              534845.8012864,
-              186543.2549651,
-              0
+              534840.80477886,
+              186542.305236765
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      {
+        "coordinates": [
+          [
+            [
+              534840.80477886,
+              186542.305236765
+            ],
+            [
+              534840.103948882,
+              186542.155279885
+            ],
+            [
+              534844.803633935,
+              186527.399503701
+            ],
+            [
+              534848.703547483,
+              186515.502908527
+            ],
+            [
+              534849.701199971,
+              186512.453781627
+            ],
+            [
+              534855.151185163,
+              186514.303251906
+            ],
+            [
+              534854.203003153,
+              186517.25240798
+            ],
+            [
+              534851.902631438,
+              186524.55031908
+            ],
+            [
+              534845.801286366,
+              186543.254965092
+            ],
+            [
+              534840.80477886,
+              186542.305236765
             ]
           ]
         ],
         "type": "Polygon"
       }
     ],
-    "type": "GeometryCollection"
+    "type": "geometrycollection",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "EPSG:27700"
+      }
+    }
   },
-  "centroid_northing": 186528,
+  "centroid_northing": null,
   "ward": "Lea Bridge Ward",
   "lpa_app_no": "2022/2228",
   "pp_id": "11529401",
-  "bo_system": "Idox Tascomi",
+  "bo_system": "Portal",
   "borough": "Hackney",
   "valid_date": "08/11/2022",
   "title_number": null,
   "decision_agency": "Borough",
   "uprn": "100021046000",
   "appeal_start_date": null,
-  "last_updated_by": "Idox Tascomi",
+  "last_updated_by": "Portal",
   "appeal_decision": null,
   "last_date_consultation_comments": "08/12/2022",
   "actual_completion_date": null,
@@ -380,64 +402,54 @@
     "coordinates": [
       [
         [
-          -0.056048499999999994,
-          51.5616572,
-          0
+          -0.056147,
+          51.561648
         ],
         [
-          -0.055967699999999995,
-          51.5614876,
-          0
+          -0.056157,
+          51.561647
         ],
         [
-          -0.0559374,
-          51.5614215,
-          0
+          -0.056095,
+          51.561514
         ],
         [
-          -0.0559248,
-          51.5613948,
-          0
+          -0.056043,
+          51.561406
         ],
         [
-          -0.056004099999999994,
-          51.5613795,
-          0
+          -0.05603,
+          51.561378
         ],
         [
-          -0.0560173,
-          51.5614071,
-          0
+          -0.055951,
+          51.561393
         ],
         [
-          -0.056069,
-          51.5615149,
-          0
+          -0.055964,
+          51.56142
         ],
         [
-          -0.056131099999999996,
-          51.5616487,
-          0
+          -0.055994,
+          51.561486
         ],
         [
-          -0.056121,
-          51.5616499,
-          0
+          -0.056075,
+          51.561656
         ],
         [
-          -0.056048499999999994,
-          51.5616572,
-          0
+          -0.056147,
+          51.561648
         ]
       ]
     ]
   },
   "centroid": {
-    "lat": "51.5615196",
-    "lon": "-0.056022699999999995"
+    "lat": 49.766807,
+    "lon": -7.55716
   },
   "epc_number": null,
-  "url_planning_app": "/planning/index.html?fa=getApplication&id=74861",
+  "url_planning_app": "https://developmentandhousing.hackney.gov.uk//planning/index.html?fa=getApplication&id=74861",
   "lpa_name": "Hackney",
   "date_building_work_completed_under_previous_permission": null,
   "decision_process": "Delegated",

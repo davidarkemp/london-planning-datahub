@@ -1,5 +1,5 @@
 {
-  "description": "Change of use of 3 bedrooms to 3 lettable rooms.",
+  "description": "Retrospective application for a change of use of 3 first floor bedrooms to HMO use for up to three people",
   "application_details": {
     "rain_water_harvesting": false,
     "site_area": 0.0746,
@@ -10,10 +10,10 @@
     "total_gia_gained": 0,
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "Other",
         "gia_existing": 112,
-        "gia_lost": 112,
-        "gia_gained": 0
+        "use_class": "Other",
+        "gia_gained": 0,
+        "gia_lost": 112
       }
     ],
     "non_residential_details": {
@@ -39,10 +39,10 @@
     "other_residential_accommodation_details": {
       "other_resi_accommodation_unit_details": [
         {
-          "no_rooms_proposed": 3,
           "no_bedrooms_for_older_persons_c2": 0,
-          "no_rooms_lost": 0,
-          "unit_type": "Secure Residential Room"
+          "no_rooms_proposed": 3,
+          "unit_type": "Secure Residential Room",
+          "no_rooms_lost": 0
         }
       ]
     },
@@ -66,13 +66,13 @@
       "total_annual_nox_emissions": 1.25
     }
   },
-  "site_name": "New Inn",
+  "site_name": "New Inn, 45 Squirrels Heath Lane",
   "last_date_consultation_comments": "07/12/2026",
   "decision_process": null,
   "centroid_northing": 189350,
   "cil_liability": false,
   "appeal_decision_date": null,
-  "last_updated": "2026-11-17T05:06:39.948Z",
+  "last_updated": "2026-11-18T05:00:08.542Z",
   "ward": "Squirrels Heath",
   "parking_details": {
     "no_proposed_cycle": 4,
@@ -242,7 +242,7 @@
   "actual_commencement_date": null,
   "status": "Application Under Consideration",
   "centroid_easting": 553347,
-  "street_name": "Squirrels Heath Lane",
+  "street_name": "Romford",
   "decision": null,
   "application_type_full": "Full planning permission",
   "date_building_work_started_under_previous_permission": "04/08/2024",
@@ -250,12 +250,11 @@
   "site_number": 45,
   "reference_no_of_permission_being_relied_on": null,
   "url_planning_app": "http://development.havering.gov.uk/OcellaWeb/planningDetails?reference=P1047.26",
-  "uprn": 10033425301,
+  "uprn": "10033425301",
   "lpa_app_no": "P1047.26",
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -399,7 +398,8 @@
               189340.808
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "type": "GeometryCollection"
@@ -408,7 +408,7 @@
   "secondary_street_name": null,
   "decision_date": null,
   "id": "Havering-P1047.26",
-  "locality": "Romford",
+  "locality": null,
   "decision_agency": "Borough",
   "date_building_work_completed_under_previous_permission": "01/09/2020",
   "pp_id": "15198467",
@@ -420,6 +420,6 @@
   },
   "postcode": "RM2 6DP",
   "appeal_decision": null,
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "CSV Data Import",
   "appeal_status": null
 }

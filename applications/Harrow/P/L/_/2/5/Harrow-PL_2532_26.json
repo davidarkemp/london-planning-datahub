@@ -6,7 +6,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -30,7 +29,8 @@
               188853.295984071
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "crs": {
@@ -44,13 +44,20 @@
   "description": "Certificate of\r\nLawful Proposed Development: Single storey detached outbuilding at rear for use as Gym/Office with raised decking",
   "epc_number": null,
   "ward": "Headstone",
-  "last_updated": "2026-10-06T09:59:27.216Z",
+  "last_updated": "2026-11-18T11:21:16.182Z",
   "street_name": "CUNNINGHAM PARK",
-  "decision_conditions": null,
+  "decision_conditions": [
+    "&lt;p&gt;&lt;span style=&quot;line-height: 150%;&quot;&gt;The proposal would be within the tolerances of Schedule 2, Part 1 Class E of The Town and Country Planning (General Permitted Development) (England) Order 2015 (as amended).&lt;/span&gt;&lt;/p&gt;",
+    "&lt;p&gt;The proposal is therefore a lawful development.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;"
+  ],
   "actual_completion_date": null,
   "bo_system": "Portal",
   "borough": "Harrow",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 2,
+    "net_car": 0,
+    "no_proposed_car": 2
+  },
   "lapsed_date": null,
   "actual_commencement_date": null,
   "cil_liability": null,
@@ -88,13 +95,74 @@
   "appeal_decision": null,
   "appeal_status": null,
   "secondary_street_name": null,
-  "application_type_full": null,
+  "application_type_full": "Lawful development: Proposed use",
   "lpa_app_no": "PL/2532/26",
   "centroid_northing": null,
   "date_building_work_started_under_previous_permission": null,
   "last_updated_by": "Portal",
-  "application_details": {},
-  "locality": null,
+  "application_details": {
+    "constraints_details": [
+      {
+        "result": "Headstone",
+        "constraints_layer_description": "Wards"
+      },
+      {
+        "result": "P/3128/11/4613",
+        "constraints_layer_description": "appeal"
+      },
+      {
+        "result": "P/3025/13",
+        "constraints_layer_description": "planningapplication"
+      },
+      {
+        "result": "P/0270/20",
+        "constraints_layer_description": "planningapplication"
+      },
+      {
+        "result": "P/3128/11",
+        "constraints_layer_description": "planningapplication"
+      },
+      {
+        "result": "P/5806/15",
+        "constraints_layer_description": "planningapplication"
+      },
+      {
+        "result": "P/5636/15",
+        "constraints_layer_description": "planningapplication"
+      },
+      {
+        "result": "P/5636/15",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "P/3128/11",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "P/3025/13",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "P/5806/15",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "P/0270/20",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "P/3128/11/4613",
+        "constraints_layer_description": "Appeals"
+      },
+      {
+        "result": "63 Cunningham Park, North Harrow, Harrow, HA1 4QH",
+        "constraints_layer_description": "Locations"
+      }
+    ],
+    "no_additional_bathrooms": 1,
+    "no_additional_bedrooms": 0
+  },
+  "locality": "North Harrow",
   "centroid": {
     "lat": 49.766807,
     "lon": -7.55716
@@ -115,5 +183,7 @@
   "id": "Harrow-PL_2532_26",
   "decision_agency": "Borough",
   "uprn": "100021260641",
-  "title_number": null
+  "title_number": [
+    "unregistered"
+  ]
 }

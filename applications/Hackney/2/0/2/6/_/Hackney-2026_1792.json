@@ -6,7 +6,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -106,10 +105,10 @@
               184606.799930487
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -209,7 +208,8 @@
               184606.799930487
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "crs": {
@@ -223,7 +223,7 @@
   "description": "Approval of details pursuant to condition 4 of planning permission ref. 2026/0981, dated 11/08/2026, comprising:a) 1:20 drawings and 1:5 sections of the proposed windows and doors, including window frame/profile details of 12–14 mm.b) Full details of the materials to be used on the external surfaces of the buildings, including glazing.c) Full details of the front boundary treatment.",
   "epc_number": null,
   "ward": "Hackney Wick Ward",
-  "last_updated": "2026-10-06T07:46:45.699Z",
+  "last_updated": "2026-11-18T11:16:03.608Z",
   "street_name": "VICTORIA PARK ROAD",
   "decision_conditions": null,
   "actual_completion_date": null,
@@ -343,12 +343,35 @@
   "appeal_decision": null,
   "appeal_status": null,
   "secondary_street_name": null,
-  "application_type_full": null,
+  "application_type_full": "Approval of details reserved by a condition (discharge)",
   "lpa_app_no": "2026/1792",
   "centroid_northing": 184604,
   "date_building_work_started_under_previous_permission": null,
   "last_updated_by": "Portal",
-  "application_details": {},
+  "application_details": {
+    "constraints_details": [
+      {
+        "result": "Hackney Wick",
+        "constraints_layer_description": "Wards"
+      },
+      {
+        "result": "Central And South Hackney CAAC (ST)",
+        "constraints_layer_description": "Consultees"
+      },
+      {
+        "result": "2004/0870/ENF",
+        "constraints_layer_description": "Enforcement Boundaries"
+      },
+      {
+        "result": "2026/0981",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "2026/1789",
+        "constraints_layer_description": "Applications"
+      }
+    ]
+  },
   "locality": "HACKNEY",
   "centroid": {
     "lat": 51.543859,

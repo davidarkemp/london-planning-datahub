@@ -14,8 +14,16 @@
     "other_residential_accommodation_details": {
       "other_resi_accommodation_unit_details": [
         {
-          "no_rooms_proposed": 5,
-          "no_rooms_lost": 0
+          "unit_type": "Hostel Room"
+        },
+        {
+          "unit_type": "Hotel Room"
+        },
+        {
+          "unit_type": "Apart-Hotel Room"
+        },
+        {
+          "unit_type": "Secure Residential Room"
         }
       ]
     },
@@ -56,10 +64,82 @@
     "ownership_status": "Private",
     "existing_proposed_floorspace_details": [
       {
-        "gia_existing": 970.43,
+        "gia_existing": null,
+        "use_class": "A1",
+        "gia_gained": null,
+        "gia_lost": null
+      },
+      {
+        "gia_existing": null,
+        "use_class": "A1",
+        "gia_gained": null,
+        "gia_lost": null
+      },
+      {
+        "gia_existing": null,
+        "use_class": "A2",
+        "gia_gained": null,
+        "gia_lost": null
+      },
+      {
+        "gia_existing": null,
+        "use_class": "A3",
+        "gia_gained": null,
+        "gia_lost": null
+      },
+      {
+        "gia_existing": null,
+        "use_class": "B1a",
+        "gia_gained": null,
+        "gia_lost": null
+      },
+      {
+        "gia_existing": null,
+        "use_class": "B1b",
+        "gia_gained": null,
+        "gia_lost": null
+      },
+      {
+        "gia_existing": null,
+        "use_class": "B1c",
+        "gia_gained": null,
+        "gia_lost": null
+      },
+      {
+        "gia_existing": null,
+        "use_class": "B2",
+        "gia_gained": null,
+        "gia_lost": null
+      },
+      {
+        "gia_existing": null,
+        "use_class": "B8",
+        "gia_gained": null,
+        "gia_lost": null
+      },
+      {
+        "gia_existing": null,
+        "use_class": "C1",
+        "gia_gained": null,
+        "gia_lost": null
+      },
+      {
+        "gia_existing": null,
         "use_class": "C2",
-        "gia_gained": 125.24,
-        "gia_lost": 69.65
+        "gia_gained": null,
+        "gia_lost": null
+      },
+      {
+        "gia_existing": null,
+        "use_class": "D1",
+        "gia_gained": null,
+        "gia_lost": null
+      },
+      {
+        "gia_existing": null,
+        "use_class": "D2",
+        "gia_gained": null,
+        "gia_lost": null
       }
     ],
     "non_residential_details": {
@@ -72,18 +152,29 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_completion_date": "05/2025",
-        "intended_commencement_date": "09/2024"
+        "intended_commencement_date": "09/2024",
+        "intended_completion_date": "05/2025"
       }
     ],
-    "internal_resi_water_usage": 900
+    "internal_resi_water_usage": 900,
+    "non_permanent_dwellings_details": [
+      {
+        "type": "Traveller pitches/plots"
+      },
+      {
+        "type": "Houseboat moorings"
+      },
+      {
+        "type": "Non-permanent dwellings"
+      }
+    ]
   },
   "borough": "Merton",
   "application_type_full": "Full planning permission",
   "cil_liability": true,
   "date_building_work_started_under_previous_permission": null,
   "lapsed_date": "19/08/2027",
-  "bo_system": "Northgate M3",
+  "bo_system": "Portal",
   "polygon": {
     "type": "geometrycollection",
     "geometries": [
@@ -91,164 +182,160 @@
         "coordinates": [
           [
             [
-              527474.1028654368,
-              168235.65262325655
+              527474.1,
+              168235.65
             ],
             [
-              527480.5422581609,
-              168231.04394247616
+              527480.54,
+              168231.04
             ],
             [
-              527485.2996584193,
-              168227.65491257486
+              527485.3,
+              168227.65
             ],
             [
-              527489.9004025167,
-              168224.44583116367
+              527489.9,
+              168224.45
             ],
             [
-              527493.2231621427,
-              168222.64634626114
+              527493.22,
+              168222.65
             ],
             [
-              527496.1501588353,
-              168221.04680412356
+              527496.15,
+              168221.05
             ],
             [
-              527496.3975106685,
-              168220.89684704912
+              527496.4,
+              168220.9
             ],
             [
-              527500.0006023721,
-              168218.79744799435
+              527500,
+              168218.8
             ],
             [
-              527503.0018046148,
-              168217.09793447435
+              527503,
+              168217.1
             ],
             [
-              527500.0418276775,
-              168211.7694597327
+              527500.04,
+              168211.77
             ],
             [
-              527500.000602372,
-              168211.69947976584
+              527500,
+              168211.7
             ],
             [
-              527497.5518192233,
-              168207.4506959655
+              527497.55,
+              168207.45
             ],
             [
-              527494.2290595972,
-              168202.1422155011
+              527494.23,
+              168202.14
             ],
             [
-              527490.8485845436,
-              168196.75375792838
+              527490.85,
+              168196.75
             ],
             [
-              527485.9262830628,
-              168188.44613595895
+              527485.93,
+              168188.45
             ],
             [
-              527485.2501880521,
-              168187.29646504833
+              527485.25,
+              168187.3
             ],
             [
-              527483.4197844863,
-              168184.25733499049
+              527483.42,
+              168184.26
             ],
             [
-              527483.1971678365,
-              168183.89743800828
+              527483.2,
+              168183.9
             ],
             [
-              527480.847325421,
-              168179.9485683607
+              527480.85,
+              168179.95
             ],
             [
-              527479.9486137604,
-              168180.1984968193
+              527479.95,
+              168180.2
             ],
             [
-              527478.1017200727,
-              168181.3981534203
+              527478.1,
+              168181.4
             ],
             [
-              527476.897941151,
-              168181.99798172235
+              527476.9,
+              168182
             ],
             [
-              527474.0533950694,
-              168183.59752385842
+              527474.05,
+              168183.6
             ],
             [
-              527468.5869195558,
-              168186.7166310246
+              527468.59,
+              168186.72
             ],
             [
-              527467.6469825896,
-              168187.24647935748
+              527467.65,
+              168187.25
             ],
             [
-              527463.7470686864,
-              168189.49583548674
+              527463.75,
+              168189.5
             ],
             [
-              527461.2982855377,
-              168190.89543485572
+              527461.3,
+              168190.9
             ],
             [
-              527458.297083295,
-              168192.5049741302
+              527458.3,
+              168192.5
             ],
             [
-              527455.749359413,
-              168194.00454488333
+              527455.75,
+              168194
             ],
             [
-              527453.102694798,
-              168195.5041156353
+              527453.1,
+              168195.5
             ],
             [
-              527450.7033820159,
-              168196.90371500544
+              527450.7,
+              168196.9
             ],
             [
-              527448.0979427064,
-              168198.40328575886
+              527448.1,
+              168198.4
             ],
             [
-              527451.1980856825,
-              168202.8520123246
+              527451.2,
+              168202.85
             ],
             [
-              527454.4961101251,
-              168207.70062442537
+              527454.5,
+              168207.7
             ],
             [
-              527456.178102591,
-              168210.099937629
+              527456.18,
+              168210.1
             ],
             [
-              527457.4808222457,
-              168211.95940536313
+              527457.48,
+              168211.96
             ],
             [
-              527462.7659064152,
-              168219.52723909583
+              527462.77,
+              168219.53
             ],
             [
-              527465.3960809081,
-              168223.2961602538
+              527465.4,
+              168223.3
             ],
             [
-              527474.1028654368,
-              168235.65262325655
-            ],
-            [
-              527474.1028654368,
-              168235.65262325655
+              527474.1,
+              168235.65
             ]
           ]
         ],
@@ -266,31 +353,13 @@
     "no_existing_cycle": 0
   },
   "centroid": {
-    "lon": -0.168971,
-    "lat": 51.398655
+    "lon": -7.55716,
+    "lat": 49.766807
   },
   "locality": "Mitcham",
   "secondary_street_name": null,
   "decision_conditions": [
-    "Condition : 1 - Commencement of development (Full Permission) - The development to which this permission relates shall be commenced not later than the expiration of 3 years from the date of this permission.",
-    "Condition : 2 - Approved Plans - The development hereby permitted shall be carried out in accordance with the following approved plans: \r\n3006-01 (Amended 07.08.2024)\r\n3006-03\r\n3006-05 A\r\n3006-06 A\r\n3006-07 A\r\n3006-08 A\r\n3006-09 A\r\n3006-10 A\r\n3006-11 A &\r\n3006-12 A\r\n\r\n",
-    "Condition : 3 - Construction Vehicles - The development shall not commence until details of the provision to accommodate all site workers', visitors' and construction vehicles and loading /unloading arrangements during the construction process have been submitted to and approved in writing by the Local Planning Authority.  The approved details must be implemented and complied with for the duration of the construction process.",
-    "Condition : 4 - Sustainable Drainage - No development , other than demolition and ground preparation works, shall commence until a detailed drainage strategy has been submitted to and approved in writing by the Local Planning Authority. \r\n",
-    "Condition : 5 - Boundary Treatment - No development (other than demolition and ground preparation works) shall take place until details of the proposed acoustic fences (to include density per sqm) are submitted in writing for approval to the Local Planning Authority. No works which are the subject of this condition shall be carried out until the details are approved, and the development shall not be occupied until the details are approved and works to which this condition relates have been carried out in accordance with the approved details. The fencing shall be\r\npermanently retained thereafter.",
-    "Condition : 6 - Biodiversity Net Gain - Prior to the first occupation of the development, a scheme \r\ndemonstrating how the proposed development would provide a 10% Biodiversity Net \r\nGain, which may include the provision of bird boxes, bat boxes, hedgehog features \r\nand biodiverse rich planting and landscaping, shall be submitted to and agreed in \r\nwriting by the Local Planning Authority. The agreed details shall be installed prior to \r\nthe first occupation of the development hereby permitted and shall be retained \r\nthereafter.\r\n\r\nReason: To ensure the development delivers a biodiversity net gain on site in \r\naccordance with Schedule 7A of the Town and Country Planning Act 1990 and policy \r\nG6 of the London Plan 2021, Policy CS13 of the Core Planning Strategy 2011 and \r\nPolicy DM O2 of the Sites and Policies Plan 2014.\r",
-    "Condition : 7 - Materials as Specified - The facing materials to be used for the development hereby permitted shall be those specified in the application form unless otherwise agreed in writing by the Local Planning Authority.",
-    "Condition : 8 - Air Quality - All Non-Road Mobile Machinery (NRMM) of net power of 37kW and up to and including 560kW used during the course of the demolition, site preparation and construction phases shall comply with the emission standards set out in chapter 7 of the GLA's supplementary planning guidance \"Control of Dust and Emissions During Construction and Demolition\" dated July 2014 (SPG), or subsequent guidance. \r\nUnless it complies with the standards set out in the SPG, no NRMM shall be on site, at any time, whether in use or not, without the prior written consent of the local planning authority. The developer shall keep an up to date list of all NRMM used during the demolition, site preparation and construction phases of the development on the online register at https://nrmm.London/\r\n",
-    "Condition : 9 - Cycle Parking  - Details to be Submitted - The development hereby approved shall not be occupied until details of secure cycle parking facilities (to include elevation drawings of the enclosure) for the staff, occupants of, and visitors to, the development have been submitted to and approved in writing by the Local Planning Authority.  The approved facilities shall be fully implemented and made available for use prior to the first occupation of the development and thereafter retained for use at all times.",
-    "Condition : 10 - No Use of Flat Roof  - Access to the flat roof of the development hereby permitted shall be for maintenance or emergency purposes only, and the flat roof shall not be used as a roof garden, terrace, patio or similar amenity area.",
-    "Condition : 11 - Construction Times - No demolition or construction work or ancillary activities such as deliveries shall take place before 8am or after 6pm Mondays - Fridays inclusive, before 8am or after 1pm on Saturdays or at any time on Sundays or Bank Holidays.",
-    "Condition : 12 - Landscaping  (Implementation) - All hard and soft landscape works shall be carried out in accordance with the approved details as shown on the approved soft landscaping plan (3006, 12 Rev A). The works shall be carried out in the first available planting season following the completion of the development or prior to the occupation of any part of the development, whichever is the sooner, and any trees which die within a period of 5 years from the completion of the development, are removed or become seriously damaged or diseased or are dying, shall\r\nbe replaced in the next planting season with others of same approved specification, unless the Local Planning Authority gives written consent to any variation. All hard surfacing and means of enclosure shall be completed before the development is first occupied.",
-    "Condition : 13 - Hardstanding (Flooding) - The hardstanding hereby permitted shall be made of porous materials, or provision made to direct surface water run-off to a permeable or porous area or surface within the application site before the development hereby permitted is first occupied or brought into use.",
-    "Condition : 14 - INFORMATIVE (Party Wall Act) - The applicant is advised to check the requirements of the Party Wall Act 1996 relating to work on an existing wall shared with another property, building on the boundary with a neighbouring property, or excavating near a neighbouring building. Further information is available at the following link: \r\nhttps://www.gov.uk/party-walls-building-works\r\n",
-    "Condition : 15 - INFORMATIVE\r\nAdvice regarding permeable and porous hardstandings can be found in the document 'Guidance on the Permeable Surfacing of Front Gardens' available at http://www.communities.gov.uk/publications/planningandbuilding/pavingfrontgardens\r\n",
-    "Condition : 16 - INFORMATIVE\r\nIt is the responsibility of the developer to make proper provision for drainage to ground, watercourses or a suitable sewer.  In respect of surface water it is recommended that the applicant should ensure that storm flows are attenuated or regulated into the receiving public network through on or off-site storage.  When it is proposed to connect to a combined public sewer, the site drainage should be separate and combined at the final manhole nearest the boundary.  Connections are not permitted for the removal of ground water.  Where the developer proposes to discharge to a public sewer, prior approval from Thames Water Developer Services will be required (contact no. 0845 850 2777).\r\n",
-    "Condition : 17 - INFORMATIVE\r\nThis planning permission contains certain conditions precedent that state 'before development commences' or 'prior to commencement of any development' (or similar). As a result these must be discharged prior to ANY development activity taking place on site. Commencement of development without having complied with these conditions will make any development unauthorised and possibly subject to enforcement action such as a Stop Notice.\r\n",
-    "Condition : 18 - INFORMATIVE\r\nIn accordance with paragraph 38 of the NPPF, The London Borough of Merton (LBM) takes a positive and proactive approach to development proposals focused on solutions. LBM works with applicants/agents in a positive and proactive manner by:\r\n\r\n   i) Offering a pre-application advice and duty desk service. \r\n   ii) Where possible, suggesting solutions to secure a successful outcome.\r\n   iii) As appropriate, updating applicants/agents of any issues that may arise in the processing of their application.\r\n\r\nIn this instance:\r\n\r\n   i) The applicant/agent was provided with pre-application advice.\r\n   ii) The applicant was offered the opportunity to submit amended plans in order to make the proposal acceptable in planning terms.\r\n   iii) The application was approved without delay.\r\n  ",
-    "Condition : 19 - INFORMATIVE\r\nThe applicant should be aware that the site may provide a useful habitat for swifts. Swifts are currently in decline in the UK and in order to encourage and improve the conservation of swifts the applicant is advised to consider the installation of swift nesting box/bricks on site.\r"
+    "CONDITION"
   ],
   "decision_agency": "Borough",
   "wgs84_polygon": {
@@ -390,7 +459,7 @@
           51.398372
         ],
         [
-          -0.169059,
+          -0.169058,
           51.398402
         ],
         [
@@ -452,10 +521,6 @@
         [
           -0.168962,
           51.39884
-        ],
-        [
-          -0.168962,
-          51.39884
         ]
       ]
     ]
@@ -468,22 +533,22 @@
   "id": "Merton-24_P1772",
   "lpa_name": "Merton",
   "actual_commencement_date": null,
-  "site_name": "Barons Lodge",
-  "url_planning_app": "http://planning.merton.gov.uk/Northgate/PlanningExplorer/DisplayAppDetails.aspx?AppNo=24/P1772",
+  "site_name": "BARONS LODGE",
+  "url_planning_app": "https://rspandlp.merton.gov.uk//planning/index.html?fa=getApplication&id=261535",
   "pp_id": "PP-13168654",
-  "decision_process": null,
-  "centroid_easting": 527474,
-  "last_updated": "2025-04-14T10:20:02.064Z",
+  "decision_process": "Delegated",
+  "centroid_easting": null,
+  "last_updated": "2026-11-18T11:27:19.425Z",
   "appeal_decision_date": null,
   "reference_no_of_permission_being_relied_on": null,
-  "last_updated_by": "Northgate M3",
-  "site_number": "24",
-  "centroid_northing": 168215,
+  "last_updated_by": "Portal",
+  "site_number": "24 - 32",
+  "centroid_northing": null,
   "development_type": "Minor all other minor developments",
-  "description": "DEMOLITION OF EXISTING BUILDINGS AND CONSTRUCTION OF 5NO. ENSUITE RESIDENTIAL BEDROOMS AND LIVING AREA IN EXTENSION LINKING IN TO EXISTING BUILDING TOGETHER WITH ASSOCIATED \r\nINTERNAL ALTERATIONS, LANDSCAPING AND BIKE STORE. \r",
+  "description": "DEMOLITION OF EXISTING BUILDINGS AND CONSTRUCTION OF 5NO. ENSUITE RESIDENTIAL BEDROOMS AND LIVING AREA IN EXTENSION LINKING IN TO EXISTING BUILDING TOGETHER WITH ASSOCIATED INTERNAL ALTERATIONS, LANDSCAPING AND BIKE STORE.  ",
   "status": "Approved",
   "actual_completion_date": null,
   "appeal_start_date": null,
-  "street_name": "Baron Grove",
+  "street_name": "BARON GROVE",
   "title_number": null
 }

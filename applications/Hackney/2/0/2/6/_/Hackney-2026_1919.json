@@ -6,7 +6,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -66,10 +65,10 @@
               187258.051016889
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -129,7 +128,8 @@
               187258.051016889
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "crs": {
@@ -143,14 +143,20 @@
   "description": "Proposed erection of a rear dormer and rooflights.",
   "epc_number": null,
   "ward": "Stamford Hill West Ward",
-  "last_updated": "2026-10-06T07:33:10.573Z",
+  "last_updated": "2026-11-18T11:16:01.725Z",
   "street_name": "PAGET ROAD",
-  "decision_conditions": null,
+  "decision_conditions": [
+    "&lt;p&gt;&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;The proposal is considered permitted development subject to meeting the criteria of the Town and Country Planning (General Permitted Development) (England) Order 2015 (as amended) Schedule 2, Part 1, Classes B and C.&lt;/span&gt;&lt;/p&gt;"
+  ],
   "actual_completion_date": null,
   "bo_system": "Portal",
   "borough": "Hackney",
-  "parking_details": null,
-  "lapsed_date": null,
+  "parking_details": {
+    "no_existing_car": 1,
+    "net_car": 0,
+    "no_proposed_car": 1
+  },
+  "lapsed_date": "05/11/2029",
   "actual_commencement_date": null,
   "cil_liability": null,
   "centroid_easting": 532917,
@@ -217,18 +223,43 @@
       ]
     ]
   },
-  "decision_date": null,
+  "decision_date": "05/11/2026",
   "lpa_name": "Hackney",
-  "status": "Application Under Consideration",
+  "status": "Approved",
   "appeal_decision": null,
   "appeal_status": null,
   "secondary_street_name": null,
-  "application_type_full": null,
+  "application_type_full": "Lawful development: Proposed use",
   "lpa_app_no": "2026/1919",
   "centroid_northing": 187284,
   "date_building_work_started_under_previous_permission": null,
   "last_updated_by": "Portal",
-  "application_details": {},
+  "application_details": {
+    "no_additional_bathrooms": 1,
+    "no_additional_bedrooms": 1,
+    "constraints_details": [
+      {
+        "result": "Stamford Hill West",
+        "constraints_layer_description": "Wards"
+      },
+      {
+        "result": "2004/0686/ENF",
+        "constraints_layer_description": "Enforcement Boundaries"
+      },
+      {
+        "result": "2020/0075/ENF",
+        "constraints_layer_description": "Enforcement Boundaries"
+      },
+      {
+        "result": "2013/3563",
+        "constraints_layer_description": "Application Boundaries"
+      },
+      {
+        "result": "2013/3563",
+        "constraints_layer_description": "Applications"
+      }
+    ]
+  },
   "locality": "HACKNEY",
   "centroid": {
     "lat": 51.56877,
@@ -243,12 +274,14 @@
   "pp_id": "15207832",
   "decision_target_date": "05/11/2026",
   "site_name": null,
-  "decision": null,
+  "decision": "Approved",
   "appeal_start_date": null,
   "postcode": "N16 5ND",
   "last_date_consultation_comments": null,
   "id": "Hackney-2026_1919",
   "decision_agency": "Borough",
   "uprn": "100021063715",
-  "title_number": null
+  "title_number": [
+    "LN155830"
+  ]
 }

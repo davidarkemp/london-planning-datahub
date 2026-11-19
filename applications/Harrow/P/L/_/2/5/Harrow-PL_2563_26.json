@@ -6,7 +6,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -30,7 +29,8 @@
               190704.367903081
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "crs": {
@@ -44,7 +44,7 @@
   "description": "Certificate of\r\nLawful Proposed Development: Alterations to roof to form end gable and rear dormer with Juliette balcony; New window in gable end",
   "epc_number": null,
   "ward": "Belmont",
-  "last_updated": "2026-10-06T09:59:10.348Z",
+  "last_updated": "2026-11-18T11:19:04.313Z",
   "street_name": "BELLAMY DRIVE",
   "decision_conditions": null,
   "actual_completion_date": null,
@@ -88,13 +88,38 @@
   "appeal_decision": null,
   "appeal_status": null,
   "secondary_street_name": null,
-  "application_type_full": null,
+  "application_type_full": "Lawful development: Proposed use",
   "lpa_app_no": "PL/2563/26",
   "centroid_northing": null,
   "date_building_work_started_under_previous_permission": null,
   "last_updated_by": "Portal",
-  "application_details": {},
-  "locality": null,
+  "application_details": {
+    "no_additional_bathrooms": 1,
+    "no_additional_bedrooms": 1,
+    "constraints_details": [
+      {
+        "result": "Belmont",
+        "constraints_layer_description": "Wards"
+      },
+      {
+        "result": "P/0151/22/PRIOR",
+        "constraints_layer_description": "planningapplication"
+      },
+      {
+        "result": "P/0151/22/PRIOR",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "PL/2562/26",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "42 Bellamy Drive, Stanmore, Harrow, HA7 2DB",
+        "constraints_layer_description": "Locations"
+      }
+    ]
+  },
+  "locality": "Stanmore",
   "centroid": {
     "lat": 49.766807,
     "lon": -7.55716
@@ -115,5 +140,7 @@
   "id": "Harrow-PL_2563_26",
   "decision_agency": "Borough",
   "uprn": "100021310338",
-  "title_number": null
+  "title_number": [
+    "Unregistered"
+  ]
 }

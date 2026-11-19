@@ -6,7 +6,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -118,7 +117,8 @@
               168332.250068602
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "crs": {
@@ -132,13 +132,17 @@
   "description": "APPLICATION FOR A LAWFUL DEVELOPMENT CERTIFICATE IN RESPECT\r\nOF THE PROPOSED CHANGE IN USE CLASS TO \"SUI GENERIS\" FOR PRIVATE HIRE\r\nTAXI OPERATOR.",
   "epc_number": null,
   "ward": "West Barnes",
-  "last_updated": "2026-10-06T07:38:42.719Z",
+  "last_updated": "2026-11-18T11:25:17.050Z",
   "street_name": "BEVERLEY WAY",
   "decision_conditions": null,
   "actual_completion_date": null,
   "bo_system": "Portal",
   "borough": "Merton",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 41,
+    "net_car": 0,
+    "no_proposed_car": 41
+  },
   "lapsed_date": null,
   "actual_commencement_date": null,
   "cil_liability": null,
@@ -264,13 +268,16 @@
   "appeal_decision": null,
   "appeal_status": null,
   "secondary_street_name": null,
-  "application_type_full": null,
+  "application_type_full": "Lawful development: Proposed use",
   "lpa_app_no": "26/LDCP/1674",
   "centroid_northing": null,
   "date_building_work_started_under_previous_permission": null,
   "last_updated_by": "Portal",
-  "application_details": {},
-  "locality": null,
+  "application_details": {
+    "no_additional_bathrooms": 0,
+    "no_additional_bedrooms": 0
+  },
+  "locality": "New Malden",
   "centroid": {
     "lat": 49.766807,
     "lon": -7.55716
@@ -291,5 +298,7 @@
   "id": "Merton-26_LDCP_1674",
   "decision_agency": "Borough",
   "uprn": "48120624",
-  "title_number": null
+  "title_number": [
+    "Unregistered"
+  ]
 }

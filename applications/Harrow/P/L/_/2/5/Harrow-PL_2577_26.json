@@ -6,7 +6,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -30,7 +29,8 @@
               190154.049122499
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "crs": {
@@ -44,7 +44,7 @@
   "description": "Change of use of dwelling (Use Class C3) into house of multiple occupancy (HMO) for up to 6 persons (Use class C4)",
   "epc_number": null,
   "ward": "Wealdstone North",
-  "last_updated": "2026-10-06T09:58:36.170Z",
+  "last_updated": "2026-11-18T11:18:08.336Z",
   "street_name": "BRUCE ROAD",
   "decision_conditions": null,
   "actual_completion_date": null,
@@ -93,7 +93,26 @@
   "centroid_northing": 190136,
   "date_building_work_started_under_previous_permission": null,
   "last_updated_by": "Portal",
-  "application_details": {},
+  "application_details": {
+    "constraints_details": [
+      {
+        "result": "Wealdstone North",
+        "constraints_layer_description": "Wards"
+      },
+      {
+        "result": "PL/0628/26",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "PL/0626/26",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "10 Bruce Road, Wealdstone, Harrow, HA3 5DZ",
+        "constraints_layer_description": "Locations"
+      }
+    ]
+  },
   "locality": null,
   "centroid": {
     "lat": 51.598297,

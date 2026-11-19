@@ -6,7 +6,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -38,7 +37,8 @@
               190330.875410996
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "crs": {
@@ -52,14 +52,20 @@
   "description": "Single storey rear detached outbuilding for ancillary use to main dwellings",
   "epc_number": null,
   "ward": "Wealdstone North",
-  "last_updated": "2026-09-30T08:27:24.452Z",
+  "last_updated": "2026-11-18T11:19:03.785Z",
   "street_name": "CYPRESS ROAD",
-  "decision_conditions": null,
+  "decision_conditions": [
+    "&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;The proposed outbuilding, by virtue of its siting, footprint and extent of coverage, would result in the complete loss of external amenity space serving Flat B. This would materially diminish the quality of the residential accommodation and result in unacceptable living conditions for the existing occupiers, who would be deprived of access to private outdoor amenity space. As such, the development is contrary to the National Planning Policy Framework (2026), Policy D3 of the London Plan (2021), Policy GR1 of the Harrow Local Plan (2021–2041) and the adopted Residential Design Guide Supplementary Planning Document (2010).&lt;/p&gt;"
+  ],
   "actual_completion_date": null,
   "bo_system": "Portal",
   "borough": "Harrow",
-  "parking_details": null,
-  "lapsed_date": null,
+  "parking_details": {
+    "no_existing_car": 1,
+    "net_car": 0,
+    "no_proposed_car": 1
+  },
+  "lapsed_date": "02/11/2029",
   "actual_commencement_date": null,
   "cil_liability": null,
   "centroid_easting": 514635,
@@ -98,19 +104,115 @@
       ]
     ]
   },
-  "decision_date": null,
+  "decision_date": "02/11/2026",
   "lpa_name": "Harrow",
-  "status": "Application Under Consideration",
+  "status": "Refused",
   "appeal_decision": null,
   "appeal_status": null,
   "secondary_street_name": null,
-  "application_type_full": null,
+  "application_type_full": "Full planning permission",
   "lpa_app_no": "PL/2106/26",
   "centroid_northing": 190329,
   "date_building_work_started_under_previous_permission": null,
   "last_updated_by": "Portal",
-  "application_details": {},
-  "locality": null,
+  "application_details": {
+    "affordable_housing_fast_track": false,
+    "phasing_details": [
+      {
+        "phase_detail": "Whole",
+        "intended_commencement_date": "10/2026",
+        "intended_completion_date": "11/2026"
+      }
+    ],
+    "total_gia_gained": 39,
+    "site_area": 0.0255,
+    "total_gia_existing": 0,
+    "total_gia_lost": 0,
+    "existing_proposed_floorspace_details": [
+      {
+        "gia_existing": 0,
+        "use_class": "C3",
+        "gia_gained": 39,
+        "gia_lost": 0
+      }
+    ],
+    "projected_cost_of_works": "Up to £2m",
+    "occupation_status": "Occupied",
+    "scheme_phasing": true,
+    "rain_water_harvesting": false,
+    "grey_water_reuse": false,
+    "building_details": [
+      {
+        "no_storeys": 1,
+        "max_height": 3.5,
+        "building_ref": "Rear detached out builsing"
+      }
+    ],
+    "green_suds": false,
+    "surface_water_discharge_percentage_reduction": 100,
+    "non_residential_details": {
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_gia_gained": 39,
+      "total_gia_existing": 0,
+      "total_gia_lost": 0
+    },
+    "garden_land_lost": true,
+    "internal_resi_water_usage": 0,
+    "infrastructure_details": {
+      "total_annual_pm_emissions": 0,
+      "no_resi_units_to_have_full_fibre": 0,
+      "green_roof_area": 0,
+      "urban_greening_factor_score": 0,
+      "no_new_water_connections_required": 0,
+      "no_homes_passive_cooling": 0,
+      "no_non_resi_units_to_have_full_fibre": 0,
+      "total_annual_nox_emissions": 0,
+      "waste_provision": false,
+      "percentage_demolition_construction_material_recycling": 0,
+      "no_homes_to_have_electrical_heating": 0,
+      "mobile_network_operators_consultation": false,
+      "fire_suppression_system_proposed": false,
+      "no_new_gas_connections_required": 0,
+      "ghg_reduction_over_building_regulations": false
+    },
+    "ownership_status": "Private",
+    "constraints_details": [
+      {
+        "result": "Wealdstone North",
+        "constraints_layer_description": "Wards"
+      },
+      {
+        "result": "PL/3439/24",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "PL/0204/25",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "PL/0656/25",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "PL/1615/25",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "Flat 1, 7 Cypress Road, Harrow Weald, Harrow, HA3 5HT",
+        "constraints_layer_description": "Locations"
+      },
+      {
+        "result": "Flat 2, 7 Cypress Road, Harrow Weald, Harrow, HA3 5HT",
+        "constraints_layer_description": "Locations"
+      },
+      {
+        "result": "7 Cypress Road, Harrow Weald, Harrow",
+        "constraints_layer_description": "Locations"
+      }
+    ]
+  },
+  "locality": "Harrow Weald",
   "centroid": {
     "lat": 51.600147,
     "lon": -0.346264
@@ -124,7 +226,7 @@
   "pp_id": "15139641",
   "decision_target_date": "02/11/2026",
   "site_name": null,
-  "decision": null,
+  "decision": "Refused",
   "appeal_start_date": null,
   "postcode": "",
   "last_date_consultation_comments": "06/10/2026",

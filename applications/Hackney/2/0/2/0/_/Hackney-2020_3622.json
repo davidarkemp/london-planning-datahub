@@ -5,41 +5,42 @@
   "valid_date": "12/11/2020",
   "cil_liability": false,
   "polygon": {
-    "type": "GeometryCollection",
+    "type": "geometrycollection",
     "geometries": [
       {
         "coordinates": [
           [
             [
-              533594.372978,
-              186583.2964038,
-              0
+              533594.372977992,
+              186583.296403764
             ],
             [
-              533618.564623,
-              186581.5120367,
-              0
+              533618.564622988,
+              186581.512036688
             ],
             [
-              533618.3739807,
-              186573.3079931,
-              0
+              533618.373980747,
+              186573.307993146
             ],
             [
-              533593.3256881,
-              186574.8952947,
-              0
+              533593.325688057,
+              186574.895294693
             ],
             [
-              533594.372978,
-              186583.2964038,
-              0
+              533594.372977992,
+              186583.296403764
             ]
           ]
         ],
         "type": "Polygon"
       }
-    ]
+    ],
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "EPSG:27700"
+      }
+    }
   },
   "application_type_full": "Full planning permission",
   "decision": "Approved",
@@ -52,29 +53,24 @@
     "coordinates": [
       [
         [
-          -0.0740759,
-          51.5623149,
-          0
+          -0.074102,
+          51.562313
         ],
         [
-          -0.0737278,
-          51.5622931,
-          0
+          -0.073754,
+          51.562291
         ],
         [
-          -0.0737337,
-          51.5622194,
-          0
+          -0.07376,
+          51.562218
         ],
         [
-          -0.0740942,
-          51.5622396,
-          0
+          -0.07412,
+          51.562238
         ],
         [
-          -0.0740759,
-          51.5623149,
-          0
+          -0.074102,
+          51.562313
         ]
       ]
     ]
@@ -84,8 +80,8 @@
   "site_number": "181",
   "development_type": "Minor all other minor developments",
   "centroid": {
-    "lat": "51.5622645",
-    "lon": "-0.0739103"
+    "lat": 51.562263,
+    "lon": -0.073936
   },
   "last_date_consultation_comments": "16/12/2020",
   "reference_no_of_permission_being_relied_on": null,
@@ -123,13 +119,13 @@
   "decision_target_date": "07/01/2021",
   "secondary_street_name": null,
   "actual_completion_date": null,
-  "last_updated_by": "FME Excel Import",
+  "last_updated_by": "Portal",
   "centroid_easting": 533606,
   "decision_conditions": [
     "Improvements to the building fabric, recommended by the noise report prepared by Archo Consulting, approved under condition 2 of this permission, shall be implemented prior to the occupation of the unit.",
-    "&lt;p&gt;The use hereby permitted may only operate between the following hours:&lt;/p&gt;&lt;p&gt;Monday - Thursday: 0800 -2400 hours &lt;/p&gt;&lt;p&gt;Friday - Saturday: 0800 - 0200 hours&lt;/p&gt;&lt;p&gt;Sunday and Bank/Public Holidays: 0800 -2400 hours&lt;/p&gt;&lt;p&gt;\nREASON: In the interests of protecting the amenity of neighbouring properties and the character of the street scene.&amp;nbsp;&lt;/p&gt;",
-    "<p>The development hereby permitted must be begun not later than the expiration of three years beginning with the date of this permission.</p><p><br></p><p>\n</p><p>\nREASON: In order to comply with the provisions of the Town and Country Planning Act 1990 (as amended).</p><p>\n</p>",
-    "<p>The Development hereby permitted shall only be carried out and completed strictly in accordance with the submitted plans hereby approved and any subsequent approval of details.\n</p><p><br></p><p>\nREASON: To ensure that the development hereby permitted is carried out in full accordance with the plans hereby approved.\n</p>"
+    "&lt;p&gt;The use hereby permitted may only operate between the following hours:&lt;/p&gt;&lt;p&gt;Monday - Thursday: 0800 -2400 hours &lt;/p&gt;&lt;p&gt;Friday - Saturday: 0800 - 0200 hours&lt;/p&gt;&lt;p&gt;Sunday and Bank/Public Holidays: 0800 -2400 hours&lt;/p&gt;&lt;p&gt;\r\nREASON: In the interests of protecting the amenity of neighbouring properties and the character of the street scene.&amp;nbsp;&lt;/p&gt;",
+    "<p>The development hereby permitted must be begun not later than the expiration of three years beginning with the date of this permission.</p><p><br></p><p>\r\n</p><p>\r\nREASON: In order to comply with the provisions of the Town and Country Planning Act 1990 (as amended).</p><p>\r\n</p>",
+    "<p>The Development hereby permitted shall only be carried out and completed strictly in accordance with the submitted plans hereby approved and any subsequent approval of details.\r\n</p><p><br></p><p>\r\nREASON: To ensure that the development hereby permitted is carried out in full accordance with the plans hereby approved.\r\n</p>"
   ],
   "lpa_app_no": "2020/3622",
   "application_details": {
@@ -188,7 +184,96 @@
     "garden_land_lost": null,
     "total_gia_lost": 0,
     "total_gia_existing": 0,
-    "constraints_details": [],
+    "constraints_details": [
+      {
+        "result": "Stoke Newington",
+        "constraints_layer_description": "Wards"
+      },
+      {
+        "result": "Stoke Newington CAAC (ST)",
+        "constraints_layer_description": "Consultees"
+      },
+      {
+        "result": "7356223",
+        "constraints_layer_description": "Enforcement Boundaries"
+      },
+      {
+        "result": "1051243",
+        "constraints_layer_description": "Enforcement Boundaries"
+      },
+      {
+        "result": "921697",
+        "constraints_layer_description": "Enforcement Boundaries"
+      },
+      {
+        "result": "2002/2137",
+        "constraints_layer_description": "Application Boundaries"
+      },
+      {
+        "result": "NORTH/143/99/FP",
+        "constraints_layer_description": "Application Boundaries"
+      },
+      {
+        "result": "NORTH/141/99/CON",
+        "constraints_layer_description": "Application Boundaries"
+      },
+      {
+        "result": "2001/0702",
+        "constraints_layer_description": "Application Boundaries"
+      },
+      {
+        "result": "2004/0043",
+        "constraints_layer_description": "Application Boundaries"
+      },
+      {
+        "result": "NORTH/195/98/FP",
+        "constraints_layer_description": "Application Boundaries"
+      },
+      {
+        "result": "2002/2138",
+        "constraints_layer_description": "Application Boundaries"
+      },
+      {
+        "result": "2002/1162",
+        "constraints_layer_description": "Application Boundaries"
+      },
+      {
+        "result": "2002/2138",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "2002/2137",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "2004/0043",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "2002/1162",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "2001/0702",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "2020/3472",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "NORTH/141/99/CON",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "NORTH/195/98/FP",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "NORTH/143/99/FP",
+        "constraints_layer_description": "Applications"
+      }
+    ],
     "building_details": [],
     "mayoral_cil_liability_notice_issued": null,
     "projected_cost_of_works": null,
@@ -281,7 +366,7 @@
   "appeal_start_date": null,
   "subdivision_of_building": null,
   "id": "Hackney-2020_3622",
-  "url_planning_app": "/planning/index.html?fa=getApplication&id=68213",
+  "url_planning_app": "https://developmentandhousing.hackney.gov.uk//planning/index.html?fa=getApplication&id=68213",
   "uprn": "100023155561",
   "description": "Change of use from former betting shop (sui generis) to adult gaming centre (sui generis).&nbsp;",
   "site_name": null,
@@ -292,7 +377,7 @@
   "decision_date": "14/01/2021",
   "actual_commencement_date": null,
   "epc_number": null,
-  "last_updated": "2025-03-19T00:47:54.983+00:00",
+  "last_updated": "2026-11-18T11:16:00.666Z",
   "application_type": "All Other",
-  "bo_system": "Idox Tascomi"
+  "bo_system": "Portal"
 }

@@ -6,7 +6,6 @@
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -74,10 +73,10 @@
               183829.652386282
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       },
       {
-        "type": "Polygon",
         "coordinates": [
           [
             [
@@ -145,7 +144,8 @@
               183829.652386282
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
     "crs": {
@@ -159,7 +159,7 @@
   "description": "Submission of details pursuant to condition 4 (details of windows) attached to planning permission ref 2025/1410 dated 18/08/2025",
   "epc_number": null,
   "ward": "Victoria Ward",
-  "last_updated": "2026-10-06T07:51:27.245Z",
+  "last_updated": "2026-11-18T11:15:09.684Z",
   "street_name": "WARNEFORD STREET",
   "decision_conditions": null,
   "actual_completion_date": null,
@@ -247,12 +247,35 @@
   "appeal_decision": null,
   "appeal_status": null,
   "secondary_street_name": null,
-  "application_type_full": null,
+  "application_type_full": "Approval of details reserved by a condition (discharge)",
   "lpa_app_no": "2026/1770",
   "centroid_northing": null,
   "date_building_work_started_under_previous_permission": null,
   "last_updated_by": "Portal",
-  "application_details": {},
+  "application_details": {
+    "constraints_details": [
+      {
+        "result": "Victoria",
+        "constraints_layer_description": "Wards"
+      },
+      {
+        "result": "2008/0558/ENF",
+        "constraints_layer_description": "Enforcement Boundaries"
+      },
+      {
+        "result": "SOUTH/199/95/FP",
+        "constraints_layer_description": "Application Boundaries"
+      },
+      {
+        "result": "SOUTH/199/95/FP",
+        "constraints_layer_description": "Applications"
+      },
+      {
+        "result": "2025/1410",
+        "constraints_layer_description": "Applications"
+      }
+    ]
+  },
   "locality": "HACKNEY",
   "centroid": {
     "lat": 49.766807,
