@@ -20,7 +20,7 @@
       }
     ],
     "total_gia_gained": 81,
-    "site_area": 0.029,
+    "site_area": 81,
     "total_gia_lost": 81,
     "total_gia_existing": 81,
     "existing_proposed_floorspace_details": [
@@ -113,23 +113,22 @@
           "actual_completion_date": null,
           "m43_2a_compliant": null,
           "description": null,
-          "change_type": "Loss",
           "m42_compliant": null,
-          "garden_land": null,
+          "change_type": "Loss",
           "sheltered_accommodation": null,
+          "garden_land": null,
           "unit_type": "Flat Apartment Maisonette",
           "unit_development_type": null,
           "superseded_date": null,
           "no_habitable_rooms": 3,
           "provider": "Private",
           "phase_detail": null,
-          "unit_no": "Loss-1",
           "actual_commencement_date": null,
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
           "superseded_by_lpa_app_no": null,
-          "tenure": "Market for rent",
-          "gia": 80
+          "gia": 80,
+          "tenure": "Market for rent"
         },
         {
           "uprn": null,
@@ -137,23 +136,22 @@
           "actual_completion_date": null,
           "m43_2a_compliant": null,
           "description": null,
-          "change_type": "Gain",
           "m42_compliant": null,
-          "garden_land": null,
+          "change_type": "Gain",
           "sheltered_accommodation": null,
+          "garden_land": null,
           "unit_type": "HMO",
           "unit_development_type": null,
           "superseded_date": null,
           "no_habitable_rooms": 3,
           "provider": "Private",
           "phase_detail": null,
-          "unit_no": "Gain-1",
           "actual_commencement_date": null,
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
           "superseded_by_lpa_app_no": null,
-          "tenure": "Market for rent",
-          "gia": 80
+          "gia": 80,
+          "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 1,
@@ -194,10 +192,12 @@
     "affordable_housing_inlieu_payment": null,
     "air_quality_assessment": null,
     "other_contributions": null,
-    "existing_uprns": [],
+    "existing_uprns": [
+      "000207161983"
+    ],
     "intended_commencement_date": null,
     "no_affordable_housing_units_provided_offsite": null,
-    "commencement_notice_received": null,
+    "commencement_notice_received": false,
     "circular_economy_statement": null,
     "qualifying_vacant_building_floorspace": null,
     "open_and_protected_space_details": {
@@ -211,7 +211,36 @@
       "open_space_mol_area_gain": 0,
       "open_space_green_belt_area_loss": 0
     },
-    "constraints_details": [],
+    "constraints_details": [
+      {
+        "result": null,
+        "constraints_layer_description": "DCAREA Area: NORTH\rCode: DCAREA_N"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "DESROA Name: SOUTHBURY ROAD"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "LBECO Name: WELCH ESTATE"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "WARDS Name: Ponders End"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "CILRES CIL ZONE: Lower Rate Eastern Zone - RATE: £40 per square metre"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "DMDAAP Designation: Area Action Plan- Area: North East Enfield- Policy: Core policy 40"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "DMDPSP Designation: Place Shaping Priority Area- Area Name: Ponders End- Core Strategy: Core policy 41"
+      }
+    ],
     "superseding_details": [],
     "lead_registered_social_landlord": null,
     "viability_assessment": null,
@@ -238,16 +267,16 @@
   "appeal_decision_date": null,
   "lpa_app_no": "21/00150/FUL",
   "date_building_work_started_under_previous_permission": null,
-  "centroid_easting": "534962",
+  "centroid_easting": 534962,
   "date_building_work_completed_under_previous_permission": null,
   "title_number": [],
   "application_type_full": "Full planning permission",
-  "last_updated": "2025-05-09T14:53:03.668Z",
+  "last_updated": "2026-11-19T21:02:05.511Z",
   "id": "Enfield-21_00150_FUL",
   "application_type": "All Other",
-  "street_name": null,
+  "street_name": "Southbury Road",
   "borough": "Enfield Council",
-  "ward": "PE",
+  "ward": "Ponders End",
   "decision_date": "25/05/2021",
   "epc_number": null,
   "actual_commencement_date": null,
@@ -257,15 +286,15 @@
   "description": "Change of use from ground floor self-contained flat (Class C3) to house in multiple occupation (Class C4).",
   "actual_completion_date": null,
   "last_date_consultation_comments": "25/02/2021",
-  "last_updated_by": "FME Excel Import",
-  "development_type": null,
-  "centroid_northing": "196265",
+  "last_updated_by": "Idox Uniform",
+  "development_type": "Other change of use",
+  "centroid_northing": 196258,
   "decision": "Refused",
   "appeal_decision": null,
   "uprn": "000207161983",
   "centroid": {
-    "lon": -0.050661,
-    "lat": 51.648989
+    "lon": -0.050664,
+    "lat": 51.648926
   },
   "polygon": {
     "geometries": [
@@ -374,81 +403,37 @@
   },
   "decision_agency": null,
   "decision_conditions": [
-    "Energy",
-    "Cycle storage",
-    "Inaccurate description"
+    "The current application seeks a change of use from a ground floor flat. However, the lawful use of the building is as a single family dwellinghouse as the pre-commencement/pre-occupation conditions relating to the original application to convert the property into 2 flats (ref:16/02774/FUL) have not been discharged. The description of development is therefore considered inaccurate and does not enable a full planning assessment to be made.",
+    "Notwithstanding reason for refusal 1, the proposed development, by reason of its failure to provide adequate secure and covered cycle storage spaces for the proposed occupiers, results in inadequate sustainable transport options and thereby fails to encourage sustainable modes of travel. As such the proposal is contrary to Policy T5 (table 10.2) of the London Plan (2021), CP25 of the Enfield Core Strategy (2010) and Policy DMD45 of the Enfield Development Management Document (2014).",
+    "Notwithstanding reason for refusal 1, the proposed development, by reason of the failure to provide an energy report showing how the development shall meet 19% improvement above Part L of building Regulations 2013, has failed to demonstrate that the proposal will meet or exceed the Council's energy efficiency targets. In the absence of such information, the proposal is contrary to policy S12 of the London Plan (2021), Policy CP20 of the Enfield Core Strategy (2010) and Policy DMD 51 of the Enfield Development Management Document (2014)."
   ],
   "reference_no_of_permission_being_relied_on": null,
   "valid_date": "04/02/2021",
   "secondary_street_name": null,
-  "site_number": null,
+  "site_number": "366",
   "pp_id": "PP-09421992",
   "wgs84_polygon": {
     "coordinates": [
       [
         [
-          -0.0505933,
-          51.6488775
+          -0.050642,
+          51.648939
         ],
         [
-          -0.050601099999999996,
-          51.6488304
+          -0.050643,
+          51.648912
         ],
         [
-          -0.0507149,
-          51.6488382
+          -0.050686,
+          51.648913
         ],
         [
-          -0.050704099999999995,
-          51.6489221
+          -0.050685,
+          51.64894
         ],
         [
-          -0.0506862,
-          51.6490355
-        ],
-        [
-          -0.050685299999999996,
-          51.6490405
-        ],
-        [
-          -0.0506678,
-          51.6491449
-        ],
-        [
-          -0.0506506,
-          51.6491429
-        ],
-        [
-          -0.050570699999999996,
-          51.6491334
-        ],
-        [
-          -0.0505671,
-          51.6491329
-        ],
-        [
-          -0.0505326,
-          51.6491292
-        ],
-        [
-          -0.0505402,
-          51.6491046
-        ],
-        [
-          -0.050581799999999996,
-          51.6489592
-        ],
-        [
-          -0.0505872,
-          51.6489179
-        ],
-        [
-          -0.0505893,
-          51.648904
-        ],
-        [
-          -0.0505933,
-          51.6488775
+          -0.050642,
+          51.648939
         ]
       ]
     ],

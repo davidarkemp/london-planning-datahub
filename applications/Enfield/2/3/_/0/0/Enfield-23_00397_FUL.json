@@ -1,22 +1,22 @@
 {
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Idox Uniform",
   "application_type": "All Other",
   "decision_agency": null,
-  "centroid_northing": "193501",
+  "centroid_northing": 193501,
   "status": "Refused",
   "date_building_work_started_under_previous_permission": null,
   "appeal_start_date": null,
-  "ward": "HS",
+  "ward": "Haselbury",
   "lpa_app_no": "23/00397/FUL",
   "cil_liability": false,
-  "url_planning_app": null,
+  "url_planning_app": "<enter PA URL here>",
   "lpa_name": "Enfield",
   "valid_date": "23/03/2023",
   "pp_id": "PP-11919129",
   "postcode": "N9 9LU",
   "appeal_status": null,
   "street_name": "Sweet Briar Grove",
-  "centroid_easting": "533624",
+  "centroid_easting": 533624,
   "uprn": "000207096551",
   "borough": "Enfield Council",
   "application_details": {
@@ -38,8 +38,8 @@
     "phasing_details": [
       {
         "phase_detail": "Phase One",
-        "intended_completion_date": "07/2025",
-        "intended_commencement_date": "07/2023"
+        "intended_commencement_date": "07/2023",
+        "intended_completion_date": "07/2025"
       }
     ],
     "total_gia_gained": 58,
@@ -60,19 +60,28 @@
       "total_annual_nox_emissions": 80,
       "waste_provision": true,
       "percentage_demolition_construction_material_recycling": 20,
-      "green_roof_area": 0
+      "green_roof_area": 0,
+      "no_active_slow_ev_charging_points": 0,
+      "no_passive_rapid_ev_charging_points": 0,
+      "no_active_rapid_ev_charging_points": 0,
+      "no_passive_slow_ev_charging_points": 0,
+      "no_passive_fast_ev_charging_points": 0,
+      "no_active_fast_ev_charging_points": 0,
+      "no_active_other_ev_charging_points": 0,
+      "no_passive_other_ev_charging_points": 0
     },
     "non_residential_details": {
-      "total_gia_gained": 58,
+      "total_gia_gained": 0,
       "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
-      "total_gia_existing": 17.8,
-      "total_gia_lost": 17.8,
-      "total_non_resi_gross_internal_floor_area_to_be_gained": 0
+      "total_gia_existing": 0,
+      "total_gia_lost": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_gained": 0,
+      "site_area": 0.01
     },
     "residential_details": {
       "total_no_existing_residential_units_london_shared_ownership": 0,
       "total_no_proposed_residential_units_starter_homes": 0,
-      "total_gia_lost": 0,
+      "total_gia_lost": 17.8,
       "total_no_proposed_residential_units_market_for_rent": 1,
       "total_no_proposed_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_discount_market_rent": 0,
@@ -107,13 +116,20 @@
       "total_no_proposed_residential_units_london_shared_ownership": 0,
       "residential_units": [
         {
+          "m43_2b_compliant": true,
+          "m43_2a_compliant": true,
+          "description": null,
+          "m42_compliant": true,
+          "change_type": "Gain",
+          "sheltered_accommodation": false,
+          "garden_land": true,
+          "unit_type": "House or Bungalow",
           "no_habitable_rooms": 2,
           "provider": "Private",
-          "unit_no": "Gain-1",
-          "change_type": "Gain",
-          "garden_land": true,
+          "phase_detail": null,
+          "unit_no": null,
           "no_bedrooms": 2,
-          "unit_type": "House or Bungalow",
+          "provision_for_older_persons": false,
           "gia": 58,
           "tenure": "Market for rent"
         }
@@ -126,13 +142,52 @@
     "garden_land_lost": true,
     "building_details": [
       {
-        "no_storeys": 3,
+        "no_storeys": null,
         "max_height": 7.3,
         "building_ref": "New Dwelling"
       }
     ],
     "rain_water_harvesting": false,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "existing_uprns": [
+      "000207096551"
+    ],
+    "commencement_notice_received": false,
+    "other_residential_accommodation_details": {
+      "site_area": 0.01
+    },
+    "open_and_protected_space_details": {
+      "protected_space_count": 0,
+      "open_space_local_and_other_area_gain": 0,
+      "open_spaces_details": [
+        {
+          "land_swap": false
+        }
+      ],
+      "open_space_mol_area_loss": 0,
+      "open_space_green_belt_area_gain": 0,
+      "open_space_local_and_other_area_loss": 0,
+      "open_space_mol_area_gain": 0,
+      "open_space_green_belt_area_loss": 0
+    },
+    "constraints_details": [
+      {
+        "result": null,
+        "constraints_layer_description": "DCAREA Area: SOUTH\rCode: DCAREA_S"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "LBECO Name: HYDE ESTATE"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "WARDS Name: Haselbury"
+      },
+      {
+        "result": null,
+        "constraints_layer_description": "CILRES CIL ZONE: Lower Rate Eastern Zone - RATE: £40 per square metre"
+      }
+    ]
   },
   "reference_no_of_permission_being_relied_on": null,
   "wgs84_polygon": {
@@ -174,29 +229,116 @@
   "appeal_decision_date": null,
   "decision_process": "Delegated",
   "decision_conditions": [
-    "Design",
-    "Floor area",
-    "Sense of Enclosure",
-    "Sustainable Drainage",
-    "Energy Report",
-    "Eco Report",
-    "Sunlight"
+    "The proposed design of the two storey dwelling, would result in an incongruous building that would not follow the pattern of development by virtue of its width, fenestration and roof form.  The proposed dwelling would create a disproportionate, cramped, obtrusive and incongruous form of development that would reduce the visual separation between the application site and Northern Avenue, resulting in actual harm to the visual amenity within the street scene and the pattern of development in the surrounding area. This would be contrary to Policy CP30 of the Core Strategy (2010) and Policies DMD6, DMD7, DMD8 and DMD37 of the Development Management Document (2014).",
+    "The proposed development, by virtue of inadequate floor areas would result in a substandard quality of accommodation and be harmful to the amenities of future occupiers, contrary to Policy D6 of the London Plan (2021), Policies CP4 and CP30 of the Enfield Core Strategy (2010), Policy DMD 8 of the Enfield Development Management Document (2014), and the Nationally Described Space Standard (2015).",
+    "The proposed dwelling, by reason of its proximity to the boundary with No 79 Northern Avenue, together with its height would create a sense of enclosure to the detriment of the residents of No 79 Northern Avenue.  As such, the proposal is contrary to Policy CP30 of the Core Strategy (2010) and Policies DMD6, DMD7, DMD8 and DMD37 of the Development Management Document (2014).\r\r",
+    "The proposal has failed to demonstrate sufficient measures to promote Sustainable Drainage which inhibits the ability of the Local Planning Authority to fully consider this aspect of the proposed development. The proposal is therefore contrary to the NPPF (2021), Policies SI 12 and SI 13 of the London Plan (2021), Policy CP21 of Core Strategy (2010) and Policy DMD 61 of Development Management Document (2014).\r\r",
+    "The proposed dwelling, by reason of the failure to provide an adequate energy report demonstrating how the development shall minimise energy related CO2 emissions utilising renewable and decentralised energy networks via the be lean, be clean, be green approach to less energy, in accordance with the on-site carbon reduction, in line with Part L of building regulation 2010 requirement. As such, the proposed development is contrary to Policy SI 2 of the London Plan (2021), Policy CP20 of the Enfield Core Strategy (2010) and Policy DMD 51 of the Enfield Development Management Document (2014).",
+    "In the absence of an ecological survey and details of any on-site ecological enhancements, the proposed development fails to demonstrate that there will be no harm to protected species or an improvement on the biodiversity offer at this site. The proposal is therefore contrary to Policy CP36 of the Core Strategy (2010) and Policy DM79 of the Development Management Document (2014).",
+    "In the absence of a sunlight/daylight report, the proposed development fails to demonstrate that there will be no loss of light to the rear of the dwelling to the north of the site. The proposal is therefore contrary to Policy CP30 of the Core Strategy (2010) and Policy DMD6, DMD7, DMD8 and DMD 37 of the Development Management Document (2014).\r\r"
   ],
-  "development_type": null,
+  "development_type": "Minor dwellings",
   "parking_details": null,
   "appeal_decision": null,
   "locality": null,
   "actual_completion_date": null,
   "subdivision_of_building": null,
   "decision_date": "18/05/2023",
-  "polygon": null,
+  "polygon": {
+    "geometries": [
+      {
+        "coordinates": [
+          [
+            [
+              533606.4,
+              193492.75
+            ],
+            [
+              533607.007,
+              193492.609
+            ],
+            [
+              533617.391,
+              193490.199
+            ],
+            [
+              533620.308,
+              193489.522
+            ],
+            [
+              533632.9,
+              193486.6
+            ],
+            [
+              533636.05,
+              193500
+            ],
+            [
+              533637.45,
+              193505.35
+            ],
+            [
+              533637.55,
+              193505.55
+            ],
+            [
+              533637.6,
+              193505.75
+            ],
+            [
+              533637.55,
+              193506
+            ],
+            [
+              533637.4,
+              193506.25
+            ],
+            [
+              533637.3,
+              193506.45
+            ],
+            [
+              533637.15,
+              193506.6
+            ],
+            [
+              533632.1,
+              193511
+            ],
+            [
+              533625.1,
+              193506.05
+            ],
+            [
+              533618.85,
+              193501.55
+            ],
+            [
+              533616.65,
+              193500
+            ],
+            [
+              533616.62,
+              193499.979
+            ],
+            [
+              533606.4,
+              193492.75
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    ],
+    "type": "GeometryCollection"
+  },
   "id": "Enfield-23_00397_FUL",
   "site_name": "",
   "lapsed_date": "18/05/2026",
   "decision": "Refused",
   "secondary_street_name": null,
   "decision_target_date": "18/05/2023",
-  "last_updated": "2025-03-19T04:16:53.108+00:00",
+  "last_updated": "2026-11-19T21:02:38.046Z",
   "date_building_work_completed_under_previous_permission": null,
   "site_number": "79",
   "last_date_consultation_comments": "22/03/2023",
