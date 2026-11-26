@@ -3,7 +3,7 @@
   "lapsed_date": null,
   "appeal_decision": null,
   "decision_agency": null,
-  "bo_system": "Agile APAS",
+  "bo_system": "Portal",
   "lpa_app_no": "1075/26",
   "valid_date": "02/05/2026",
   "title_number": null,
@@ -15,8 +15,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_completion_date": "08/2027",
-        "intended_commencement_date": "08/2026"
+        "intended_commencement_date": "08/2026",
+        "intended_completion_date": "08/2027"
       }
     ],
     "total_gia_gained": 91.7,
@@ -31,7 +31,7 @@
       },
       {
         "gia_existing": 108.8,
-        "use_class": "EA",
+        "use_class": "E(a)",
         "gia_gained": 0,
         "gia_lost": 8.1
       }
@@ -91,17 +91,20 @@
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
+          "description": null,
           "m42_compliant": true,
           "change_type": "Gain",
-          "garden_land": false,
           "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 3,
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "tenure": "Market for sale",
-          "gia": 91.7
+          "gia": 91.7,
+          "tenure": "Market for sale"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -130,38 +133,36 @@
   "centroid_easting": 546337,
   "decision_process": null,
   "wgs84_polygon": {
-    "type": "MultiPolygon",
+    "type": "Polygon",
     "coordinates": [
       [
         [
-          [
-            0.109904,
-            51.566925
-          ],
-          [
-            0.109884,
-            51.566857
-          ],
-          [
-            0.109942,
-            51.566742
-          ],
-          [
-            0.110023,
-            51.566758
-          ],
-          [
-            0.109963,
-            51.566875
-          ],
-          [
-            0.109982,
-            51.566941
-          ],
-          [
-            0.109904,
-            51.566925
-          ]
+          0.109904,
+          51.566925
+        ],
+        [
+          0.109884,
+          51.566857
+        ],
+        [
+          0.109942,
+          51.566742
+        ],
+        [
+          0.110023,
+          51.566758
+        ],
+        [
+          0.109963,
+          51.566875
+        ],
+        [
+          0.109982,
+          51.566941
+        ],
+        [
+          0.109904,
+          51.566925
         ]
       ]
     ]
@@ -177,9 +178,9 @@
   },
   "last_date_consultation_comments": "02/06/2026",
   "url_planning_app": null,
-  "last_updated": "2026-07-16T19:02:44.984Z",
+  "last_updated": "2026-11-25T13:09:16.420Z",
   "application_type": "All Other",
-  "site_number": 38,
+  "site_number": "38",
   "lpa_name": "Redbridge",
   "application_type_full": "Full planning permission",
   "centroid_northing": 187433,
@@ -187,7 +188,7 @@
   "cil_liability": null,
   "subdivision_of_building": null,
   "decision_conditions": null,
-  "uprn": 100022239582,
+  "uprn": "100022239582",
   "centroid": {
     "lon": 0.109954,
     "lat": 51.566789
@@ -197,7 +198,7 @@
   "postcode": "IG3 8TF",
   "date_building_work_started_under_previous_permission": null,
   "description": "Alterations to fenestrations. Extension to the existing basement. Two-storey rear extension to create a 2b3p dwelling with associated refuse storage and cycle parking",
-  "last_updated_by": "PP overwrite repair",
+  "last_updated_by": "Portal",
   "ward": null,
   "street_name": "Telegraph Mews",
   "development_type": null,
@@ -210,41 +211,39 @@
         "coordinates": [
           [
             [
-              [
-                546333.1,
-                187448.1
-              ],
-              [
-                546331.9,
-                187440.5
-              ],
-              [
-                546336.3,
-                187427.75
-              ],
-              [
-                546341.85,
-                187429.75
-              ],
-              [
-                546337.35,
-                187442.6
-              ],
-              [
-                546338.45,
-                187450
-              ],
-              [
-                546333.1,
-                187448.1
-              ]
+              546333.1,
+              187448.1
+            ],
+            [
+              546331.9,
+              187440.5
+            ],
+            [
+              546336.3,
+              187427.75
+            ],
+            [
+              546341.85,
+              187429.75
+            ],
+            [
+              546337.35,
+              187442.6
+            ],
+            [
+              546338.45,
+              187450
+            ],
+            [
+              546333.1,
+              187448.1
             ]
           ]
         ],
-        "type": "MultiPolygon"
+        "type": "Polygon"
       }
     ],
-    "type": "GeometryCollection"
+    "type": "geometrycollection"
   },
   "secondary_street_name": null,
   "locality": "Ilford",

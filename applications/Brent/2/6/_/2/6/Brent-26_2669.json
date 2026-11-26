@@ -21,7 +21,7 @@
   "appeal_decision_date": null,
   "status": "Application Received",
   "date_building_work_started_under_previous_permission": null,
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "application_details": {
     "affordable_housing_fast_track": false,
     "phasing_details": [
@@ -60,9 +60,9 @@
     "garden_land_lost": false,
     "residential_details": {
       "total_no_proposed_residential_units_shared_equity": 0,
-      "total_no_proposed_bedrooms": 0,
+      "total_no_proposed_bedrooms": 6,
       "total_no_proposed_residential_units_london_living_rent": 0,
-      "total_no_proposed_residential_units": 0,
+      "total_no_proposed_residential_units": 1,
       "total_no_proposed_residential_affordable_units": 0,
       "total_no_existing_residential_units": 1,
       "total_no_proposed_residential_units_affordable_rent": 0,
@@ -72,7 +72,7 @@
       "total_no_existing_residential_units_shared_equity": 0,
       "total_no_existing_residential_units_market_for_sale": 0,
       "total_no_existing_residential_units_intermediate": 0,
-      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_proposed_residential_units_market_for_rent": 1,
       "total_no_existing_residential_units_social_rent": 0,
       "total_no_proposed_residential_units_self_build_and_custom_build": 0,
       "total_no_existing_residential_units_discount_market_rent": 0,
@@ -97,16 +97,32 @@
       "residential_units": [
         {
           "m43_2b_compliant": true,
-          "no_habitable_rooms": 6,
           "m43_2a_compliant": false,
+          "description": null,
           "m42_compliant": false,
           "change_type": "Loss",
           "sheltered_accommodation": false,
           "garden_land": false,
-          "no_bedrooms": 4,
           "unit_type": "Semi Detached Home",
+          "no_habitable_rooms": 6,
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 4,
           "provision_for_older_persons": false,
           "gia": 200,
+          "tenure": "Market for rent"
+        },
+        {
+          "provider": "Private rented sector",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Gain",
+          "no_bedrooms": 6,
+          "unit_type": "HMO",
+          "provision_for_older_persons": false,
+          "gia": null,
+          "unit_development_type": "Conversion",
           "tenure": "Market for rent"
         }
       ],
@@ -234,7 +250,7 @@
   "lapsed_date": null,
   "decision": null,
   "decision_conditions": null,
-  "last_updated": "2026-10-29T09:05:06.119Z",
+  "last_updated": "2026-11-25T14:24:40.988Z",
   "site_name": "46 Northwick Avenue, Harrow, HA3 0AB",
   "decision_process": null,
   "polygon": {
@@ -243,15 +259,15 @@
         "coordinates": [
           [
             [
-              516523.705,
-              188027.709
+              516523.7,
+              188027.71
             ],
             [
               516523.65,
               188026.6
             ],
             [
-              516523.344,
+              516523.34,
               188022.36
             ],
             [
@@ -259,12 +275,12 @@
               188021.75
             ],
             [
-              516522.944,
-              188016.904
+              516522.94,
+              188016.9
             ],
             [
-              516522.713,
-              188013.769
+              516522.71,
+              188013.77
             ],
             [
               516521.7,
@@ -283,16 +299,16 @@
               188000
             ],
             [
-              516531.957,
-              188014.122
+              516531.96,
+              188014.12
             ],
             [
-              516532.109,
-              188016.249
+              516532.11,
+              188016.25
             ],
             [
-              516532.194,
-              188017.439
+              516532.19,
+              188017.44
             ],
             [
               516532.95,
@@ -303,7 +319,7 @@
               188032.45
             ],
             [
-              516530.768,
+              516530.77,
               188032.52
             ],
             [
@@ -311,20 +327,20 @@
               188032.7
             ],
             [
-              516523.705,
-              188027.709
+              516523.7,
+              188027.71
             ]
           ]
         ],
         "type": "Polygon"
       }
     ],
-    "type": "GeometryCollection"
+    "type": "geometrycollection"
   },
   "subdivision_of_building": null,
   "decision_target_date": "14/12/2026",
-  "last_updated_by": "CSV Data Import",
-  "site_number": 46,
+  "last_updated_by": "Portal",
+  "site_number": "46",
   "appeal_decision": null,
   "uprn": "202063293",
   "secondary_street_name": null

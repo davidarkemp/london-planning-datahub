@@ -37,26 +37,33 @@
     },
     "existing_proposed_floorspace_details": [
       {
-        "use_class": "SG",
         "gia_existing": 68,
-        "gia_gained": 68,
+        "use_class": "SG",
+        "gia_gained": null,
         "gia_lost": 68
+      },
+      {
+        "gia_existing": null,
+        "use_class": "E",
+        "gia_gained": 68,
+        "gia_lost": null
       }
     ],
     "phasing_details": [
       {
+        "phase_detail": "1 - construction",
         "intended_commencement_date": "08/2026",
-        "intended_completion_date": "11/2026",
-        "phase_detail": "1 - construction"
+        "intended_completion_date": "11/2026"
       }
     ],
     "occupation_status": "Occupied",
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 68,
       "total_gia_existing": 68,
-      "total_gia_lost": 68,
-      "total_gia_gained": 68,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 68
+      "total_gia_lost": 0,
+      "total_gia_gained": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 68,
+      "development_type": "Change of Use"
     },
     "scheme_name": "29 Blackbird Hill",
     "surface_water_discharge_percentage_reduction": 0,
@@ -136,14 +143,14 @@
     ],
     "type": "Polygon"
   },
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "status": "Application Received",
   "appeal_status": null,
   "appeal_decision": null,
   "actual_commencement_date": null,
-  "site_number": 29,
+  "site_number": "29",
   "polygon": {
-    "type": "GeometryCollection",
+    "type": "geometrycollection",
     "geometries": [
       {
         "coordinates": [
@@ -169,8 +176,8 @@
               186536.55
             ],
             [
-              520506.254,
-              186541.412
+              520506.25,
+              186541.41
             ],
             [
               520514.75,
@@ -207,7 +214,7 @@
     "lon": -0.262983
   },
   "centroid_northing": 186535,
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "id": "Brent-26_2542",
   "application_type_full": "Full planning permission",
   "valid_date": "21/10/2026",
@@ -218,7 +225,7 @@
     "no_proposed_car": 2
   },
   "last_date_consultation_comments": "12/11/2026",
-  "last_updated": "2026-10-24T08:05:07.398Z",
+  "last_updated": "2026-11-25T15:36:41.324Z",
   "street_name": null,
   "uprn": "202129243",
   "decision_target_date": "09/12/2026",

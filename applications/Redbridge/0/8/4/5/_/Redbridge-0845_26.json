@@ -1,6 +1,6 @@
 {
   "decision_target_date": "29/05/2026",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Portal",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": null,
@@ -13,8 +13,8 @@
     "phasing_details": [
       {
         "phase_detail": "Demolition of Existing GYM and Garage building and Erect new single two bed room banglow",
-        "intended_completion_date": "11/2026",
-        "intended_commencement_date": "05/2026"
+        "intended_commencement_date": "05/2026",
+        "intended_completion_date": "11/2026"
       }
     ],
     "total_gia_gained": 69.27,
@@ -23,8 +23,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 45,
-        "gia_gained": 69.27,
         "use_class": "C3",
+        "gia_gained": 69.27,
         "gia_lost": 45
       }
     ],
@@ -83,17 +83,20 @@
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
+          "description": null,
           "m42_compliant": true,
           "change_type": "Gain",
-          "garden_land": false,
           "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "House or Bungalow",
           "no_habitable_rooms": 3,
           "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
           "no_bedrooms": 2,
           "provision_for_older_persons": false,
-          "tenure": "Self-Build and Custom Build",
-          "gia": 69.27
+          "gia": 69.27,
+          "tenure": "Self-Build and Custom Build"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -126,7 +129,7 @@
   "borough": "Redbridge",
   "locality": "Ilford",
   "date_building_work_started_under_previous_permission": null,
-  "bo_system": "Agile APAS",
+  "bo_system": "Portal",
   "parking_details": {
     "no_existing_cycle": 0,
     "no_proposed_cycle": 2,
@@ -139,8 +142,8 @@
   "status": "Application Under Consideration",
   "description": "Erection of a single-storey, 2-bedroom detached bungalow to the rear of 37 Brinkworth Road, Ilford IG5 0JP, including the demolition and removal of existing structures where necessary, construction of a new residential dwelling (Use Class C3), formation of private amenity space, provision of refuse and recycling storage, secure covered cycle parking, new residential access and pathway, landscaping works, boundary treatments, installation of external doors and windows, internal layout construction including kitchen, lounge/dining area, bedrooms, bathroom and circulation spaces, utility and storage areas, associated drainage and service connections, foundation and structural works, roof construction and external works necessary to facilitate the development.",
   "decision_conditions": null,
-  "site_number": 37,
-  "last_updated": "2026-06-27T22:47:19.922Z",
+  "site_number": "37",
+  "last_updated": "2026-11-25T13:15:10.766Z",
   "last_date_consultation_comments": "05/05/2026",
   "valid_date": "04/04/2026",
   "actual_commencement_date": null,
@@ -157,109 +160,107 @@
         "coordinates": [
           [
             [
-              [
-                542348.121,
-                189951.272
-              ],
-              [
-                542347.712,
-                189935.404
-              ],
-              [
-                542347.45,
-                189925.2
-              ],
-              [
-                542347.45,
-                189924.774
-              ],
-              [
-                542347.45,
-                189918.25
-              ],
-              [
-                542347.5,
-                189917.7
-              ],
-              [
-                542347.85,
-                189916.65
-              ],
-              [
-                542348.15,
-                189916.25
-              ],
-              [
-                542348.25,
-                189916.15
-              ],
-              [
-                542348.65,
-                189915.85
-              ],
-              [
-                542349.1,
-                189915.65
-              ],
-              [
-                542349.6,
-                189915.55
-              ],
-              [
-                542350.45,
-                189915.3
-              ],
-              [
-                542351.3,
-                189915.15
-              ],
-              [
-                542357.5,
-                189914.85
-              ],
-              [
-                542357.7,
-                189923.95
-              ],
-              [
-                542357.95,
-                189931.6
-              ],
-              [
-                542358.05,
-                189933.4
-              ],
-              [
-                542358.07,
-                189934.867
-              ],
-              [
-                542358.283,
-                189950.87
-              ],
-              [
-                542358.35,
-                189955.9
-              ],
-              [
-                542350.752,
-                189956.201
-              ],
-              [
-                542348.25,
-                189956.3
-              ],
-              [
-                542348.121,
-                189951.272
-              ]
+              542348.12,
+              189951.27
+            ],
+            [
+              542347.71,
+              189935.4
+            ],
+            [
+              542347.45,
+              189925.2
+            ],
+            [
+              542347.45,
+              189924.77
+            ],
+            [
+              542347.45,
+              189918.25
+            ],
+            [
+              542347.5,
+              189917.7
+            ],
+            [
+              542347.85,
+              189916.65
+            ],
+            [
+              542348.15,
+              189916.25
+            ],
+            [
+              542348.25,
+              189916.15
+            ],
+            [
+              542348.65,
+              189915.85
+            ],
+            [
+              542349.1,
+              189915.65
+            ],
+            [
+              542349.6,
+              189915.55
+            ],
+            [
+              542350.45,
+              189915.3
+            ],
+            [
+              542351.3,
+              189915.15
+            ],
+            [
+              542357.5,
+              189914.85
+            ],
+            [
+              542357.7,
+              189923.95
+            ],
+            [
+              542357.95,
+              189931.6
+            ],
+            [
+              542358.05,
+              189933.4
+            ],
+            [
+              542358.07,
+              189934.87
+            ],
+            [
+              542358.28,
+              189950.87
+            ],
+            [
+              542358.35,
+              189955.9
+            ],
+            [
+              542350.75,
+              189956.2
+            ],
+            [
+              542348.25,
+              189956.3
+            ],
+            [
+              542348.12,
+              189951.27
             ]
           ]
         ],
-        "type": "MultiPolygon"
+        "type": "Polygon"
       }
     ],
-    "type": "GeometryCollection"
+    "type": "geometrycollection"
   },
   "appeal_start_date": null,
   "decision_process": null,
@@ -270,111 +271,109 @@
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": null,
   "wgs84_polygon": {
-    "type": "MultiPolygon",
+    "type": "Polygon",
     "coordinates": [
       [
         [
-          [
-            0.053463,
-            51.590437
-          ],
-          [
-            0.05345,
-            51.590294
-          ],
-          [
-            0.053443,
-            51.590203
-          ],
-          [
-            0.053442,
-            51.590199
-          ],
-          [
-            0.05344,
-            51.59014
-          ],
-          [
-            0.05344,
-            51.590135
-          ],
-          [
-            0.053445,
-            51.590126
-          ],
-          [
-            0.053449,
-            51.590122
-          ],
-          [
-            0.05345,
-            51.590121
-          ],
-          [
-            0.053456,
-            51.590118
-          ],
-          [
-            0.053462,
-            51.590117
-          ],
-          [
-            0.05347,
-            51.590116
-          ],
-          [
-            0.053482,
-            51.590113
-          ],
-          [
-            0.053494,
-            51.590112
-          ],
-          [
-            0.053583,
-            51.590107
-          ],
-          [
-            0.05359,
-            51.590189
-          ],
-          [
-            0.053597,
-            51.590258
-          ],
-          [
-            0.053599,
-            51.590274
-          ],
-          [
-            0.0536,
-            51.590287
-          ],
-          [
-            0.053609,
-            51.590431
-          ],
-          [
-            0.053612,
-            51.590476
-          ],
-          [
-            0.053503,
-            51.590481
-          ],
-          [
-            0.053467,
-            51.590482
-          ],
-          [
-            0.053463,
-            51.590437
-          ]
+          0.053463,
+          51.590437
+        ],
+        [
+          0.05345,
+          51.590294
+        ],
+        [
+          0.053443,
+          51.590203
+        ],
+        [
+          0.053442,
+          51.590199
+        ],
+        [
+          0.05344,
+          51.59014
+        ],
+        [
+          0.05344,
+          51.590135
+        ],
+        [
+          0.053445,
+          51.590126
+        ],
+        [
+          0.053449,
+          51.590122
+        ],
+        [
+          0.05345,
+          51.590121
+        ],
+        [
+          0.053456,
+          51.590118
+        ],
+        [
+          0.053462,
+          51.590117
+        ],
+        [
+          0.05347,
+          51.590116
+        ],
+        [
+          0.053482,
+          51.590113
+        ],
+        [
+          0.053494,
+          51.590112
+        ],
+        [
+          0.053583,
+          51.590107
+        ],
+        [
+          0.05359,
+          51.590189
+        ],
+        [
+          0.053597,
+          51.590258
+        ],
+        [
+          0.053599,
+          51.590274
+        ],
+        [
+          0.0536,
+          51.590287
+        ],
+        [
+          0.053609,
+          51.590431
+        ],
+        [
+          0.053612,
+          51.590476
+        ],
+        [
+          0.053503,
+          51.590481
+        ],
+        [
+          0.053467,
+          51.590482
+        ],
+        [
+          0.053463,
+          51.590437
         ]
       ]
     ]
   },
-  "uprn": 100022199107,
+  "uprn": "100022199107",
   "application_type": "All Other",
   "centroid": {
     "lat": 51.590226,

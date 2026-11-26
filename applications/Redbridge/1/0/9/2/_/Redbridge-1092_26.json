@@ -1,6 +1,6 @@
 {
   "decision_target_date": "18/06/2026",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Portal",
   "appeal_decision_date": null,
   "appeal_status": null,
   "development_type": null,
@@ -13,8 +13,8 @@
     "phasing_details": [
       {
         "phase_detail": "Single Phase Construction",
-        "intended_completion_date": "05/2027",
-        "intended_commencement_date": "09/2026"
+        "intended_commencement_date": "09/2026",
+        "intended_completion_date": "05/2027"
       }
     ],
     "total_gia_gained": 157,
@@ -23,14 +23,14 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 139,
-        "gia_gained": 142,
         "use_class": "C3",
+        "gia_gained": 142,
         "gia_lost": 0
       },
       {
         "gia_existing": 99,
-        "gia_gained": 15,
         "use_class": "SG",
+        "gia_gained": 15,
         "gia_lost": 0
       }
     ],
@@ -89,32 +89,38 @@
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
+          "description": null,
           "m42_compliant": false,
           "change_type": "Gain",
-          "garden_land": false,
           "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 2,
           "provider": "Private rented sector",
+          "phase_detail": null,
+          "unit_no": null,
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "tenure": "Market for rent",
-          "gia": 53
+          "gia": 53,
+          "tenure": "Market for rent"
         },
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
+          "description": null,
           "m42_compliant": false,
           "change_type": "Gain",
-          "garden_land": false,
           "sheltered_accommodation": false,
+          "garden_land": false,
           "unit_type": "Flat Apartment Maisonette",
           "no_habitable_rooms": 2,
           "provider": "Private rented sector",
+          "phase_detail": null,
+          "unit_no": null,
           "no_bedrooms": 1,
           "provision_for_older_persons": false,
-          "tenure": "Market for rent",
-          "gia": 52
+          "gia": 52,
+          "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 0,
@@ -145,7 +151,7 @@
   "borough": "Redbridge",
   "locality": "London",
   "date_building_work_started_under_previous_permission": null,
-  "bo_system": "Agile APAS",
+  "bo_system": "Portal",
   "parking_details": {
     "no_existing_cycle": 0,
     "no_proposed_cycle": 6,
@@ -159,7 +165,7 @@
   "description": "Demolish existing outbuildings. Loft conversion with rear dormer and alterations to fenestrations to existing residential units. Two storey rear extension to extend existing commercial unit at ground floor, create private amenity spaces for existing residential units at first floor level and create 2x one-bedroom residential units with associated amenity space. Cycle and refuse storage provided within new ancillary outbuilding.",
   "decision_conditions": null,
   "site_number": null,
-  "last_updated": "2026-06-28T05:49:15.963Z",
+  "last_updated": "2026-11-25T15:10:18.911Z",
   "last_date_consultation_comments": "24/05/2026",
   "valid_date": "24/04/2026",
   "actual_commencement_date": null,
@@ -176,73 +182,71 @@
         "coordinates": [
           [
             [
-              [
-                540613.45,
-                190098.7
-              ],
-              [
-                540613.9,
-                190099.2
-              ],
-              [
-                540616.65,
-                190102.5
-              ],
-              [
-                540613.9,
-                190104.7
-              ],
-              [
-                540613.3,
-                190105.15
-              ],
-              [
-                540608.2,
-                190109.35
-              ],
-              [
-                540597.15,
-                190118.2
-              ],
-              [
-                540596.1,
-                190116.9
-              ],
-              [
-                540591.3,
-                190111
-              ],
-              [
-                540602.35,
-                190101.7
-              ],
-              [
-                540605.85,
-                190098.8
-              ],
-              [
-                540606.3,
-                190098.4
-              ],
-              [
-                540606.55,
-                190098.2
-              ],
-              [
-                540610,
-                190095.15
-              ],
-              [
-                540613.45,
-                190098.7
-              ]
+              540613.45,
+              190098.7
+            ],
+            [
+              540613.9,
+              190099.2
+            ],
+            [
+              540616.65,
+              190102.5
+            ],
+            [
+              540613.9,
+              190104.7
+            ],
+            [
+              540613.3,
+              190105.15
+            ],
+            [
+              540608.2,
+              190109.35
+            ],
+            [
+              540597.15,
+              190118.2
+            ],
+            [
+              540596.1,
+              190116.9
+            ],
+            [
+              540591.3,
+              190111
+            ],
+            [
+              540602.35,
+              190101.7
+            ],
+            [
+              540605.85,
+              190098.8
+            ],
+            [
+              540606.3,
+              190098.4
+            ],
+            [
+              540606.55,
+              190098.2
+            ],
+            [
+              540610,
+              190095.15
+            ],
+            [
+              540613.45,
+              190098.7
             ]
           ]
         ],
-        "type": "MultiPolygon"
+        "type": "Polygon"
       }
     ],
-    "type": "GeometryCollection"
+    "type": "geometrycollection"
   },
   "appeal_start_date": null,
   "decision_process": null,
@@ -253,70 +257,68 @@
   "reference_no_of_permission_being_relied_on": null,
   "cil_liability": null,
   "wgs84_polygon": {
-    "type": "MultiPolygon",
+    "type": "Polygon",
     "coordinates": [
       [
         [
-          [
-            0.028498,
-            51.592197
-          ],
-          [
-            0.028505,
-            51.592201
-          ],
-          [
-            0.028546,
-            51.59223
-          ],
-          [
-            0.028507,
-            51.592251
-          ],
-          [
-            0.028498,
-            51.592255
-          ],
-          [
-            0.028427,
-            51.592294
-          ],
-          [
-            0.028271,
-            51.592376
-          ],
-          [
-            0.028255,
-            51.592365
-          ],
-          [
-            0.028183,
-            51.592313
-          ],
-          [
-            0.028339,
-            51.592227
-          ],
-          [
-            0.028388,
-            51.5922
-          ],
-          [
-            0.028395,
-            51.592196
-          ],
-          [
-            0.028398,
-            51.592194
-          ],
-          [
-            0.028447,
-            51.592166
-          ],
-          [
-            0.028498,
-            51.592197
-          ]
+          0.028498,
+          51.592197
+        ],
+        [
+          0.028505,
+          51.592201
+        ],
+        [
+          0.028546,
+          51.59223
+        ],
+        [
+          0.028507,
+          51.592251
+        ],
+        [
+          0.028498,
+          51.592255
+        ],
+        [
+          0.028427,
+          51.592294
+        ],
+        [
+          0.028271,
+          51.592376
+        ],
+        [
+          0.028255,
+          51.592365
+        ],
+        [
+          0.028183,
+          51.592313
+        ],
+        [
+          0.028339,
+          51.592227
+        ],
+        [
+          0.028388,
+          51.5922
+        ],
+        [
+          0.028395,
+          51.592196
+        ],
+        [
+          0.028398,
+          51.592194
+        ],
+        [
+          0.028447,
+          51.592166
+        ],
+        [
+          0.028498,
+          51.592197
         ]
       ]
     ]

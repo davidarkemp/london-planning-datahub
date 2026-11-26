@@ -8,16 +8,16 @@
   "valid_date": "05/06/2026",
   "description": "Demolish bungalow. Erection of two (two x 4-bed) semi-detached dwellings with associated amenity space, landscaping, car parking, EV charging points, cycle and waste storage.  Formation of means of access to a highway.  (summary)",
   "status": "Application Under Consideration",
-  "last_updated_by": "Agile APAS",
-  "site_number": 11,
+  "last_updated_by": "Portal",
+  "site_number": "11",
   "cil_liability": null,
   "decision_process": null,
   "development_type": null,
   "subdivision_of_building": null,
   "centroid_northing": 189409,
-  "last_updated": "2026-08-29T00:01:23.991Z",
+  "last_updated": "2026-11-25T11:00:55.380Z",
   "lapsed_date": null,
-  "bo_system": "Agile APAS",
+  "bo_system": "Portal",
   "centroid": {
     "lat": 51.586161,
     "lon": 0.018825
@@ -43,8 +43,8 @@
     "phasing_details": [
       {
         "phase_detail": "Entire Development",
-        "intended_completion_date": "09/2027",
-        "intended_commencement_date": "09/2026"
+        "intended_commencement_date": "09/2026",
+        "intended_completion_date": "09/2027"
       }
     ],
     "total_gia_gained": 360.38,
@@ -53,8 +53,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 147.81,
-        "gia_gained": 360.38,
         "use_class": "C3",
+        "gia_gained": 360.38,
         "gia_lost": 147.81
       }
     ],
@@ -120,31 +120,42 @@
       "residential_units": [
         {
           "no_habitable_rooms": 8,
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Loss",
           "sheltered_accommodation": false,
-          "unit_type": "House or Bungalow",
           "no_bedrooms": 6,
+          "unit_type": "House or Bungalow",
           "provision_for_older_persons": false,
-          "tenure": "Market for rent",
-          "gia": 147.81
+          "gia": 147.81,
+          "tenure": "Market for rent"
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 6,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "unit_type": "Semi Detached Home",
           "no_bedrooms": 4,
-          "tenure": "Market for rent",
-          "gia": 180.19
+          "unit_type": "Semi Detached Home",
+          "provision_for_older_persons": false,
+          "gia": 180.19,
+          "tenure": "Market for rent"
         },
         {
-          "provider": "Private",
           "no_habitable_rooms": 6,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
           "change_type": "Gain",
-          "unit_type": "Semi Detached Home",
           "no_bedrooms": 4,
-          "tenure": "Market for rent",
-          "gia": 180.19
+          "unit_type": "Semi Detached Home",
+          "provision_for_older_persons": false,
+          "gia": 180.19,
+          "tenure": "Market for rent"
         }
       ],
       "total_no_existing_residential_units_market_for_rent": 1,
@@ -187,24 +198,56 @@
     "coordinates": [
       [
         [
-          0.018847,
-          51.586175
+          0.018606,
+          51.586244
         ],
         [
-          0.018846,
-          51.586148
+          0.018572,
+          51.586122
         ],
         [
-          0.018803,
-          51.586148
+          0.018697,
+          51.586108
         ],
         [
-          0.018804,
-          51.586175
+          0.018714,
+          51.586107
         ],
         [
-          0.018847,
-          51.586175
+          0.018786,
+          51.586099
+        ],
+        [
+          0.018875,
+          51.586089
+        ],
+        [
+          0.018916,
+          51.586085
+        ],
+        [
+          0.019076,
+          51.586068
+        ],
+        [
+          0.0191,
+          51.586065
+        ],
+        [
+          0.019136,
+          51.586181
+        ],
+        [
+          0.018966,
+          51.586202
+        ],
+        [
+          0.018775,
+          51.586226
+        ],
+        [
+          0.018606,
+          51.586244
         ]
       ]
     ],
@@ -232,7 +275,7 @@
               189402.85
             ],
             [
-              539954.442,
+              539954.44,
               189402.69
             ],
             [
@@ -244,12 +287,12 @@
               189401.05
             ],
             [
-              539968.527,
-              189400.638
+              539968.53,
+              189400.64
             ],
             [
-              539979.695,
-              189399.037
+              539979.69,
+              189399.04
             ],
             [
               539981.35,
@@ -276,7 +319,7 @@
         "type": "Polygon"
       }
     ],
-    "type": "GeometryCollection"
+    "type": "geometrycollection"
   },
   "centroid_easting": 539962,
   "date_building_work_completed_under_previous_permission": null,
