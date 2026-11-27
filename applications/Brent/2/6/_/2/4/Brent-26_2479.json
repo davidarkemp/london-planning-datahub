@@ -1,7 +1,7 @@
 {
   "date_building_work_completed_under_previous_permission": null,
   "decision_process": null,
-  "site_number": 34,
+  "site_number": "34",
   "url_planning_app": "https://pa.brent.gov.uk/online-applications/applicationDetails.do?keyVal=DCAPR_178985&activeTab=summary",
   "polygon": {
     "geometries": [
@@ -37,12 +37,12 @@
               185016.35
             ],
             [
-              522376.388,
-              185013.547
+              522376.39,
+              185013.55
             ],
             [
-              522376.303,
-              185013.082
+              522376.3,
+              185013.08
             ],
             [
               522375.75,
@@ -81,16 +81,16 @@
         "type": "Polygon"
       }
     ],
-    "type": "GeometryCollection"
+    "type": "geometrycollection"
   },
   "description": "Proposed conversion of first-floor flat into a 3 bedroom 3 person house in multiple occupation (HMO) and associated cycle and refuse storage",
   "epc_number": null,
   "ward": "Willesden Green",
-  "last_updated": "2026-10-21T08:05:04.338Z",
+  "last_updated": "2026-11-26T14:40:55.990Z",
   "street_name": null,
   "decision_conditions": null,
   "actual_completion_date": null,
-  "bo_system": "CSV Data Import",
+  "bo_system": "Portal",
   "borough": "Brent",
   "parking_details": null,
   "lapsed_date": null,
@@ -182,7 +182,7 @@
   "lpa_app_no": "26/2479",
   "centroid_northing": 184999,
   "date_building_work_started_under_previous_permission": null,
-  "last_updated_by": "CSV Data Import",
+  "last_updated_by": "Portal",
   "application_details": {
     "total_gia_lost": 0,
     "total_gia_gained": 0,
@@ -202,8 +202,8 @@
     "existing_proposed_floorspace_details": [
       {
         "gia_existing": 65,
-        "use_class": "C3",
         "gia_gained": 0,
+        "use_class": "C3",
         "gia_lost": 0
       }
     ],
@@ -247,32 +247,38 @@
       "residential_units": [
         {
           "m43_2b_compliant": false,
-          "no_habitable_rooms": 4,
           "m43_2a_compliant": false,
+          "description": null,
           "m42_compliant": true,
           "change_type": "Loss",
-          "sheltered_accommodation": false,
           "garden_land": false,
-          "no_bedrooms": 3,
+          "sheltered_accommodation": false,
           "unit_type": "Flat Apartment Maisonette",
+          "no_habitable_rooms": 4,
+          "phase_detail": null,
+          "unit_no": null,
+          "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "gia": 64,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 64
         },
         {
           "m43_2b_compliant": false,
           "m43_2a_compliant": false,
+          "description": null,
           "m42_compliant": true,
           "change_type": "Gain",
-          "sheltered_accommodation": false,
           "garden_land": false,
+          "sheltered_accommodation": false,
           "unit_type": "HMO",
-          "provider": "Private",
           "no_habitable_rooms": 4,
+          "provider": "Private",
+          "phase_detail": null,
+          "unit_no": null,
           "no_bedrooms": 3,
           "provision_for_older_persons": false,
-          "gia": 84,
-          "tenure": "Market for rent"
+          "tenure": "Market for rent",
+          "gia": 84
         }
       ],
       "total_no_proposed_residential_units_london_living_rent": 0,
@@ -315,7 +321,7 @@
     "lat": 51.550618,
     "lon": -0.236408
   },
-  "subdivision_of_building": "FIRST FLOOR ",
+  "subdivision_of_building": "FIRST FLOOR",
   "appeal_decision_date": null,
   "development_type": "Other change of use",
   "reference_no_of_permission_being_relied_on": null,

@@ -3,7 +3,9 @@
   "application_details": {
     "total_gia_gained": 0,
     "no_additional_bathrooms": 1,
-    "no_additional_bedrooms": 0
+    "no_additional_bedrooms": 0,
+    "intended_commencement_date": "02/2027",
+    "intended_completion_date": "06/2027"
   },
   "site_name": "Missanda",
   "last_date_consultation_comments": null,
@@ -11,9 +13,13 @@
   "centroid_northing": 169786,
   "cil_liability": false,
   "appeal_decision_date": null,
-  "last_updated": "2026-11-25T18:03:43.318Z",
+  "last_updated": "2026-11-26T03:33:29.477Z",
   "ward": "Coombe Hill",
-  "parking_details": null,
+  "parking_details": {
+    "no_existing_car": 4,
+    "net_car": -1,
+    "no_proposed_car": 3
+  },
   "decision_target_date": "30/12/2026",
   "development_type": "Other house holder developments",
   "decision_conditions": null,
@@ -22,6 +28,10 @@
     "type": "Polygon",
     "coordinates": [
       [
+        [
+          -0.26978,
+          51.414209
+        ],
         [
           -0.269746,
           51.414149
@@ -165,10 +175,6 @@
         [
           -0.26978,
           51.414209
-        ],
-        [
-          -0.269746,
-          51.414149
         ]
       ]
     ]
@@ -184,20 +190,25 @@
   "centroid_easting": 520427,
   "street_name": "Southwood Avenue",
   "decision": null,
-  "application_type_full": null,
+  "application_type_full": "Householder planning permission",
   "date_building_work_started_under_previous_permission": null,
-  "title_number": null,
+  "title_number": [
+    "SY108679"
+  ],
   "site_number": null,
   "reference_no_of_permission_being_relied_on": null,
   "url_planning_app": "https://publicaccess.kingston.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TN571ONHJVQ00",
-  "uprn": "100021767660",
+  "uprn": 100021767660,
   "lpa_app_no": "26/02227/HOU",
   "polygon": {
     "geometries": [
       {
-        "type": "Polygon",
         "coordinates": [
           [
+            [
+              520420.75,
+              169774.3
+            ],
             [
               520423.3,
               169767.7
@@ -341,26 +352,23 @@
             [
               520420.75,
               169774.3
-            ],
-            [
-              520423.3,
-              169767.7
             ]
           ]
-        ]
+        ],
+        "type": "Polygon"
       }
     ],
-    "type": "geometrycollection"
+    "type": "GeometryCollection"
   },
   "bo_system": "Idox Uniform",
   "secondary_street_name": null,
   "decision_date": null,
   "id": "Kingston-26_02227_HOU",
-  "locality": null,
+  "locality": "Kingston Upon Thames",
   "decision_agency": null,
   "date_building_work_completed_under_previous_permission": null,
   "pp_id": "PP-15241215",
-  "borough": "Kingston",
+  "borough": "Kingston Upon Thames",
   "lapsed_date": null,
   "centroid": {
     "lon": -0.269686,
@@ -368,6 +376,6 @@
   },
   "postcode": "KT2 7HD",
   "appeal_decision": null,
-  "last_updated_by": "Idox Uniform",
+  "last_updated_by": "Planning Portal ingest",
   "appeal_status": null
 }
