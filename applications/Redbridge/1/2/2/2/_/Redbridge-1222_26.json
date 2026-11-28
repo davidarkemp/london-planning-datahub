@@ -3,7 +3,7 @@
   "lapsed_date": null,
   "appeal_decision": null,
   "decision_agency": null,
-  "bo_system": "Agile APAS",
+  "bo_system": "Portal",
   "lpa_app_no": "1222/26",
   "valid_date": "07/05/2026",
   "title_number": null,
@@ -15,8 +15,8 @@
     "phasing_details": [
       {
         "phase_detail": "Phase1",
-        "intended_completion_date": "11/2026",
-        "intended_commencement_date": "06/2026"
+        "intended_commencement_date": "06/2026",
+        "intended_completion_date": "11/2026"
       }
     ],
     "total_gia_gained": 180,
@@ -26,7 +26,7 @@
       {
         "gia_existing": 163,
         "gia_gained": 0,
-        "use_class": "C2A",
+        "use_class": "C2a",
         "gia_lost": 163
       },
       {
@@ -45,7 +45,7 @@
     "surface_water_discharge_percentage_reduction": 0,
     "non_residential_details": {
       "total_non_resi_gross_internal_floor_area_to_be_gained": 180,
-      "total_non_resi_gross_internal_floor_area_to_be_lost": 0,
+      "total_non_resi_gross_internal_floor_area_to_be_lost": 163,
       "total_gia_gained": 180,
       "total_gia_lost": 163,
       "total_gia_existing": 163
@@ -69,75 +69,133 @@
       "ghg_reduction_over_building_regulations": false
     },
     "internal_resi_water_usage": 0,
-    "ownership_status": "Private"
+    "ownership_status": "Private",
+    "residential_details": {
+      "total_no_proposed_residential_units_shared_equity": 0,
+      "total_no_proposed_bedrooms": 8,
+      "total_no_proposed_residential_units_london_living_rent": 0,
+      "total_no_proposed_residential_units": 1,
+      "total_no_proposed_residential_units_affordable_rent": 0,
+      "total_no_proposed_residential_affordable_units": 0,
+      "total_no_existing_residential_units": 1,
+      "total_no_proposed_residential_units_discount_market_sale": 0,
+      "total_no_proposed_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_london_living_rent": 0,
+      "total_no_existing_residential_units_shared_equity": 0,
+      "total_no_existing_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_units_intermediate": 0,
+      "total_no_proposed_residential_units_market_for_rent": 0,
+      "total_no_existing_residential_units_social_rent": 0,
+      "total_no_proposed_residential_units_self_build_and_custom_build": 0,
+      "total_no_existing_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_market_for_sale": 0,
+      "total_no_existing_residential_affordable_units": 0,
+      "total_no_existing_residential_units_affordable_rent": 0,
+      "habitable_rooms_density": null,
+      "total_no_existing_residential_units_london_shared_ownership": 0,
+      "total_no_proposed_residential_units_social_rent": 0,
+      "total_no_existing_residential_units_london_affordable_rent": 0,
+      "dwelling_density": 0,
+      "total_no_proposed_residential_units_london_affordable_rent": 0,
+      "total_no_proposed_residential_units_starter_homes": 0,
+      "total_no_existing_residential_units_discount_market_sale": 0,
+      "total_no_existing_residential_units_discount_market_rent_charged_at_london_rents": 0,
+      "total_no_existing_residential_units_starter_homes": 0,
+      "total_no_proposed_residential_units_discount_market_rent": 0,
+      "total_no_proposed_residential_units_intermediate": 0,
+      "affordable_percentage": 0,
+      "total_no_proposed_residential_units_london_shared_ownership": 0,
+      "residential_units": [
+        {
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Loss",
+          "no_bedrooms": 5,
+          "unit_type": "HMO",
+          "provision_for_older_persons": false,
+          "gia": null
+        },
+        {
+          "phase_detail": null,
+          "unit_no": null,
+          "description": null,
+          "change_type": "Gain",
+          "no_bedrooms": 8,
+          "unit_type": "HMO",
+          "provision_for_older_persons": false,
+          "gia": null
+        }
+      ],
+      "total_no_existing_residential_units_market_for_rent": 0,
+      "total_no_existing_residential_units_self_build_and_custom_build": 0
+    }
   },
   "centroid_easting": 543137,
   "decision_process": null,
   "wgs84_polygon": {
-    "type": "MultiPolygon",
+    "type": "Polygon",
     "coordinates": [
       [
         [
-          [
-            0.063438,
-            51.559467
-          ],
-          [
-            0.063351,
-            51.559426
-          ],
-          [
-            0.063334,
-            51.559416
-          ],
-          [
-            0.063319,
-            51.559409
-          ],
-          [
-            0.063202,
-            51.55935
-          ],
-          [
-            0.063218,
-            51.559338
-          ],
-          [
-            0.063278,
-            51.559292
-          ],
-          [
-            0.063285,
-            51.559286
-          ],
-          [
-            0.063396,
-            51.559342
-          ],
-          [
-            0.063402,
-            51.559345
-          ],
-          [
-            0.063435,
-            51.559362
-          ],
-          [
-            0.063521,
-            51.559403
-          ],
-          [
-            0.063607,
-            51.559447
-          ],
-          [
-            0.063524,
-            51.559511
-          ],
-          [
-            0.063438,
-            51.559467
-          ]
+          0.063438,
+          51.559467
+        ],
+        [
+          0.063351,
+          51.559426
+        ],
+        [
+          0.063334,
+          51.559416
+        ],
+        [
+          0.06332,
+          51.559409
+        ],
+        [
+          0.063202,
+          51.55935
+        ],
+        [
+          0.063218,
+          51.559338
+        ],
+        [
+          0.063278,
+          51.559292
+        ],
+        [
+          0.063285,
+          51.559286
+        ],
+        [
+          0.063396,
+          51.559342
+        ],
+        [
+          0.063402,
+          51.559345
+        ],
+        [
+          0.063435,
+          51.559362
+        ],
+        [
+          0.063521,
+          51.559403
+        ],
+        [
+          0.063607,
+          51.559447
+        ],
+        [
+          0.063524,
+          51.559511
+        ],
+        [
+          0.063438,
+          51.559467
         ]
       ]
     ]
@@ -149,9 +207,9 @@
   "parking_details": {},
   "last_date_consultation_comments": "03/06/2026",
   "url_planning_app": null,
-  "last_updated": "2026-06-28T02:41:06.591Z",
+  "last_updated": "2026-11-27T15:01:22.909Z",
   "application_type": "All Other",
-  "site_number": 15,
+  "site_number": "15",
   "lpa_name": "Redbridge",
   "application_type_full": "Full planning permission",
   "centroid_northing": 186522,
@@ -159,7 +217,7 @@
   "cil_liability": null,
   "subdivision_of_building": null,
   "decision_conditions": null,
-  "uprn": 100022229913,
+  "uprn": "100022229913",
   "centroid": {
     "lon": 0.063447,
     "lat": 51.559423
@@ -169,7 +227,7 @@
   "postcode": "IG1 3BP",
   "date_building_work_started_under_previous_permission": null,
   "description": "Change of Use from Small HMO of 5 people to Large HMO of 8 people  including loft conversion with rear dormer and front roof lights.",
-  "last_updated_by": "Planning Portal ingest",
+  "last_updated_by": "Portal",
   "ward": null,
   "street_name": "Northbrook Road",
   "development_type": null,
@@ -182,73 +240,71 @@
         "coordinates": [
           [
             [
-              [
-                543136.25,
-                186526.85
-              ],
-              [
-                543130.4,
-                186522.05
-              ],
-              [
-                543129.2,
-                186521
-              ],
-              [
-                543128.235,
-                186520.18
-              ],
-              [
-                543120.25,
-                186513.4
-              ],
-              [
-                543121.45,
-                186512
-              ],
-              [
-                543125.7,
-                186507.05
-              ],
-              [
-                543126.2,
-                186506.45
-              ],
-              [
-                543133.725,
-                186512.831
-              ],
-              [
-                543134.161,
-                186513.201
-              ],
-              [
-                543136.4,
-                186515.1
-              ],
-              [
-                543142.2,
-                186519.9
-              ],
-              [
-                543148.05,
-                186524.9
-              ],
-              [
-                543142.1,
-                186531.9
-              ],
-              [
-                543136.25,
-                186526.85
-              ]
+              543136.25,
+              186526.85
+            ],
+            [
+              543130.4,
+              186522.05
+            ],
+            [
+              543129.2,
+              186521
+            ],
+            [
+              543128.24,
+              186520.18
+            ],
+            [
+              543120.25,
+              186513.4
+            ],
+            [
+              543121.45,
+              186512
+            ],
+            [
+              543125.7,
+              186507.05
+            ],
+            [
+              543126.2,
+              186506.45
+            ],
+            [
+              543133.72,
+              186512.83
+            ],
+            [
+              543134.16,
+              186513.2
+            ],
+            [
+              543136.4,
+              186515.1
+            ],
+            [
+              543142.2,
+              186519.9
+            ],
+            [
+              543148.05,
+              186524.9
+            ],
+            [
+              543142.1,
+              186531.9
+            ],
+            [
+              543136.25,
+              186526.85
             ]
           ]
         ],
-        "type": "MultiPolygon"
+        "type": "Polygon"
       }
     ],
-    "type": "GeometryCollection"
+    "type": "geometrycollection"
   },
   "secondary_street_name": null,
   "locality": "Ilford",
